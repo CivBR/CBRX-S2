@@ -1,0 +1,3 @@
+<Context Font="TwCenMT16" FontStyle="Base" Color="Beige" ColorSet="Beige_Black" >
+	<TextButton Anchor="C,T" String="EPITHET!" ColorLayer0="255,255,200,255" ID="EpithetProgressString" ToolTip="TXT_KEY_JFD_EPITHET_PROGRESS_TT" Hidden="1"/>
+</Context>

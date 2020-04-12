@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2019 7:11:13 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--BUILDINGS-->
+		<!--===================================================-->
+		<!--Jail-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_JAIL">
+			<Text>Jail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_JAIL_HELP">
+			<Text>Reduces enemy spy stealing rate by 10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_JAIL_STRATEGY">
+			<Text>Jails slow down the rate at which enemy spies can steal technologies from your city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_JAIL_TEXT">
+			<Text>A jail is a building for holding prisoners. Jails can range in size from a single room to a sprawling complex of buildings inside miles of barbed wire. Prisoners incarcerated in a jail may be there for a variety of reasons. Some may be common criminals; others may be brutal murderers. Some may be captured enemy soldiers and spies. Some might be political prisoners, dissidents, or simply people who fell into bad grace with their rulers. Some might be mad - incarceration being a common way to deal with the insane before the creation of mental hospitals and sanitariums.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--POLICY BRANCHES-->
+		<!--===================================================-->
+		<!--Intrigue-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_INTRIGUE_CAP">
+			<Text>INTRIGUE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_INTRIGUE">
+			<Text>Intrigue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_INTRIGUE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Intrigue[ENDCOLOR] improves a civilization's ability to undertake espionage and counterespionage.[NEWLINE][NEWLINE]Adopting Intrigue will grant a free Jail in your first four cities. Unlocks building the White Tower.[NEWLINE][NEWLINE]Adopting all Policies in the Intrigue tree will reveal all foreign [ICON_CAPITAL] Capitals. It will also grant an additional Spy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INTRIGUE_TITLE">
+			<Text>{1_PlayerName:textkey} the Silent of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_INTRIGUE_TEXT">
+			<Text>An industry is a sector that produces goods or related services within an economy. The major source of revenue of a group or company is an indicator of what industry it should be classified in. When a large corporate group has multiple sources of revenue generation, it is considered to be working in different industries. The manufacturing industry became a key sector of production and labour in European and North American countries during the Industrial Revolution, upsetting previous mercantile and feudal economies. This came through many successive rapid advances in technology, such as the development of steam power and the production of steel and coal. </Text>
+		</Row>
+		<!--JFD: Intrigue Finisher-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_INTRIGUE_FINISHER_SPY">
+			<Text>JFD: Intrigue Finisher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_INTRIGUE_FINISHER_SPY_HELP">
+			<Text>+1 Spy.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--POLICIES-->
+		<!--===================================================-->
+		<!--Cabinet Noir-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CABINET_NOIR">
+			<Text>Cabinet Noir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CABINET_NOIR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cabinet Noir[ENDCOLOR][NEWLINE]No [ICON_HAPPINESS_4] Occupied Unhappiness in cities with a Constabulary and +1 [ICON_HAPPINESS_1] Local Happiness from Constabularies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CABINET_NOIR_TEXT">
+			<Text>In France, the cabinet noir (French for "black room") was the office where the letters of suspected persons were opened and read by public officials before being forwarded to their destination. However, this had to be done with some sophistication, as it was considered undesirable if the subjects of the practice knew about it, and "that the black chamber not interrupt the smooth running of the postal service." This practice had been in vogue since the establishment of posts, and was frequently used by the ministers of Louis XIII and Louis XIV; but it was not until the reign of Louis XV that a separate office for this purpose was created. This was called the cabinet du secret des postes, or more popularly the cabinet noir. Although declaimed against at the time of the French Revolution, it was used both by the revolutionary leaders and by Napoleon. </Text>
+		</Row>
+		<!--JFD: Cabinet Noir-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CABINET_NOIR_OCCUPATION">
+			<Text>JFD: Cabinet Noir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CABINET_NOIR_OCCUPATION_HELP">
+			<Text>No [ICON_HAPPINESS_4] Occupied Unhappiness.</Text>
+		</Row>
+		<!--Cloak and Dagger-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CLOAK_AND_DAGGER">
+			<Text>Cloak and Dagger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CLOAK_AND_DAGGER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cloak and Dagger[ENDCOLOR][NEWLINE]Spies operate +10% more effectively.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CLOAK_AND_DAGGER_TEXT">
+			<Text>"Cloak and dagger" refers to situations involving intrigue, secrecy, espionage, or mystery. The metaphorical meaning of the phrase dates from the early 19th century, is a translation from the French de cape et d'épée and Spanish de capa y espada ("of cloak and sword"). These phrases referred to a genre of swashbuckler drama in which the main characters wore these items.</Text>
+		</Row>
+		<!--Diplomatic Cabals-->
+		<Row Tag="TXT_KEY_POLICY_JFD_DIPLOMATIC_CABALS">
+			<Text>Diplomatic Cabals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_DIPLOMATIC_CABALS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Diplomatic Cabals[ENDCOLOR][NEWLINE]+1 Delegate to the World Congress for each Diplomat operating in a foreign Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_DIPLOMATIC_CABALS_TEXT">
+			<Text>A cabal is a group of people united in some close design, usually to promote their private views or interests in an ideology, state, or other community, often by intrigue and usually unbeknownst to those outside their group. The use of this term usually carries negative connotations of political purpose, conspiracy and secrecy. It can also refer to a secret plot or a clique, or may be used as a verb (to form a cabal or to conspire secretly).</Text>
+		</Row>
+		<!--JFD: Diplomatic Cabals-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_DIPLOMATIC_CABALS_DELEGATE">
+			<Text>JFD: Diplomatic Cabals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_DIPLOMATIC_CABALS_DELEGATE_HELP">
+			<Text>+1 Delegate to the World Congress.</Text>
+		</Row>
+		<!--Intelligence Networks-->
+		<Row Tag="TXT_KEY_POLICY_JFD_INTELLIGENCE_NETWORK">
+			<Text>Intelligence Networks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_INTELLIGENCE_NETWORK_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Intelligence Networks[ENDCOLOR][NEWLINE]Spies generate related [ICON_GREAT_PEOPLE] Great People Points for the Capital whenever a Great Person is born in the foreign city they're operating in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_INTELLIGENCE_NETWORK_TEXT">
+			<Text>An intelligence gathering network is a system through which information about a particular entity is collected for the benefit of another through the use of more than one, inter-related source. Such information may be gathered by a military intelligence, government intelligence, or commercial intelligence network. Intelligence assessment employs intelligence analysis to refine information. Foreign embassies subscribe to the newspapers and keep tabs on the news channels of their host countries — the information doesn't have to be classified to be considered useful intelligence; indeed, so-called OSINT, or open-source intelligence, is increasing in both quantity and utility with the ascendancy of digital media. Researchers may also be employed to dig through archives and check facts. An important form of intelligence is so-called "signals intelligence", which attempts to intercept electronic communications and other signals sent between parties working for a hostile, or potentially hostile, entity, or between neutral or even friendly parties but discussing that entity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_INTELLIGENCE_NETWORKS_SHORT_DESC">
+			<Text>Spy Steals Great Person's Knowledge!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_INTELLIGENCE_NETWORKS_DESC">
+			<Text>Your Spy operating in the {1_Desc} city of {2_Desc} has stolen fragments of the specialist knowledge of a recently spawned {3_Desc}!</Text>
+		</Row>
+		<!--Police Prefectures-->
+		<Row Tag="TXT_KEY_POLICY_JFD_POLICE_PREFECTURES">
+			<Text>Police Prefectures</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_POLICE_PREFECTURES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Police Prefectures[ENDCOLOR][NEWLINE]-15% Building [ICON_GOLD] Gold Maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_POLICE_PREFECTURES_TEXT">
+			<Text>The first centrally organised police force was created by the government of King Louis XIV in 1667 to police the city of Paris, then the largest city in Europe. The royal edict, registered by the Parlement of Paris on March 15, 1667 created the office of lieutenant général de police ("lieutenant general of police"), who was to be the head of the new Paris police force, and defined the task of the police as "ensuring the peace and quiet of the public and of private individuals, purging the city of what may cause disturbances, procuring abundance, and having each and everyone live according to their station and their duties". </Text>
+		</Row>
+		<!--===================================================-->
+		<!--WORLD WONDERS-->
+		<!--===================================================-->
+		<!--White Tower-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_WHITE_TOWER">
+			<Text>White Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_WHITE_TOWER_HELP">
+			<Text>Requires Intrigue. Provides a free Constabulary in the city. Constabularies and Police Stations yield +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production. [NEWLINE][NEWLINE]+4 [ICON_TOURISM] Tourism after Electricity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_WHITE_TOWER_QUOTE">
+			<Text>[NEWLINE]"Is not this house as nigh heaven as my own?"[NEWLINE] - Thomas Moore[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_WHITE_TOWER_PEDIA">
+			<Text>Her Majesty's Royal Palace and Fortress, known as the Tower of London, is a historic castle located on the north bank of the River Thames in central London. It lies within the London Borough of Tower Hamlets, separated from the eastern edge of the square mile of the City of London by the open space known as Tower Hill. It was founded towards the end of 1066 as part of the Norman Conquest of England. The White Tower, which gives the entire castle its name, was built by William the Conqueror in 1078, and was a resented symbol of oppression, inflicted upon London by the new ruling elite. The castle was used as a prison from 1100 (Ranulf Flambard) until 1952 (Kray twins), although that was not its primary purpose. A grand palace early in its history, it served as a royal residence. As a whole, the Tower is a complex of several buildings set within two concentric rings of defensive walls and a moat. There were several phases of expansion, mainly under Kings Richard the Lionheart, Henry III, and Edward I in the 12th and 13th centuries. The general layout established by the late 13th century remains despite later activity on the site.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

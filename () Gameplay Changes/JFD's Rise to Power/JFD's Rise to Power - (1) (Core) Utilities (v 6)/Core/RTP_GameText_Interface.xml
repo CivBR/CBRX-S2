@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2019 5:53:11 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--WHOS WINNING-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_VIRTUE">
+			<Text>The World's Most Virtuous Leaders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_VIRTUE_TT">
+			<Text>Ranks players by their [ICON_JFD_VIRTUE] Virtue.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

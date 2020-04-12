@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/12/2017 1:29:17 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<Replace Tag="TXT_KEY_PEDIA_CATEGORY_17_LABEL">
+			<Text>Governments</Text>
+		</Replace>
+		<!--Sections-->
+		<Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_28">
+			<Text>Rise to Power</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_JFD_POLICY_MAGISTRATE">
+			<Text>Write a bug on me.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_MONGOLIASILKROAD2">
+			<Text>Mongol Silk Road</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_EGYPTVALLEYOFTHEKINGS">
+			<Text>Excavate the Valley of the Kings</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DECISIONS_ESTATES_GENERAL">
+			<Text>Create the Estates-General</Text>
+		</Replace>
+		<!--===================================================-->
+		<!--RELIGIONS-->
+		<!--===================================================-->
+		<Replace Tag="TXT_KEY_RELIGION_BUDDHISM_ADJ">
+			<Text>Buddhist</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_CHRISTIANITY_ADJ">
+			<Text>Catholic</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_CHRISTIAN_ORIENTAL_ORTHODOX_ADJ">
+			<Text>Oriental Orthodox</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_CONFUCIANISM_ADJ">
+			<Text>Confucian</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_HINDUISM_ADJ">
+			<Text>Hindu</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_ISLAM_ADJ">
+			<Text>Islamic</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_JUDAISM_ADJ">
+			<Text>Jewish</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_MAHAYANA_ADJ">
+			<Text>Mahayana</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_ORTHODOXY_ADJ">
+			<Text>Eastern Orthodox</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_PACHISM_ADJ">
+			<Text>Pachia</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_PANTHEON_ADJ">
+			<Text>Pagan</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_PROTESTANTISM_ADJ">
+			<Text>Protestant</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_SHINTO_ADJ">
+			<Text>Shinto</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_SIKHISM_ADJ">
+			<Text>Sikh</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_SHIA_ADJ">
+			<Text>Shiite</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_TAOISM_ADJ">
+			<Text>Taoist</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_TENGRIISM_ADJ">
+			<Text>Tengrii</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_TLATEOMATILIZTLI_ADJ">
+			<Text>Tlateomatiliztl</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_ZOROASTRIANISM_ADJ">
+			<Text>Zoroastrian</Text>
+		</Replace>
+		<!--===================================================-->
+		<!--UNIT COMBATS-->
+		<!--===================================================-->
+		<Replace Tag="TXT_KEY_UNITCOMBAT_ARCHAEOLOGICAL">
+			<Text>Archaeologist Units</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNITCOMBAT_GREAT_PEOPLE">
+			<Text>Great People Units</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNITCOMBAT_MISSILE">
+			<Text>Missile Units</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNITCOMBAT_RELIGIOUS">
+			<Text>Religious Units</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNITCOMBAT_SETTLER">
+			<Text>Settler Units</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNITCOMBAT_SPACE_STATION">
+			<Text>Space Station Units</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNITCOMBAT_TRADE">
+			<Text>Trade Units</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNITCOMBAT_WORKER">
+			<Text>Worker Units</Text>
+		</Replace>
+		<!--===================================================-->
+		<!--UNITS-->
+		<!--===================================================-->
+		<!--Great Person Created-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_PERSON_CREATED">
+			<Text>Great Person Created</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_GREAT_PERSON_CREATED_HELP">
+			<Text>Great Person Created</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

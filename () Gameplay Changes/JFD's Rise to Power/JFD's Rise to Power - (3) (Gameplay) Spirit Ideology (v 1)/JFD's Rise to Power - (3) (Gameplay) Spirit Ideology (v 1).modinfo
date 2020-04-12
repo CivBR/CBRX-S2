@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="74fbcefb-4fda-4378-8419-af32ce927b28" version="1">
+  <Properties>
+    <Name>JFD's Rise to Power - (3) (Gameplay) Spirit Ideology</Name>
+    <Teaser>[COLOR_CYAN]Spirit Ideology[ENDCOLOR] component for Rise to Power. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR] is a new Ideology. It can only be chosen after you have already adopted one of the three main Ideologies. With Spirit, you are able to retain any Ideological Tenets you had previously taken whilst also unlocking a set of new Ideological Tenets. The more Tenets you have from your previous Ideology, however, the less space you have for Spirit-based Tenets.</Description>
+    <Authors>JFD, Janboruta</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
+    <Mod id="8822c973-60de-47f8-a4f2-96045dcc468e" minversion="0" maxversion="999" title="JFD's Rise to Power - (UI) Social Policy Screen" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="(2) Community Balance Overhaul" />
+    <Mod id="4c28c1b1-b15c-466b-9543-345bb498c102" minversion="0" maxversion="999" title="JFD's Rise to Power - Ideological Values" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="3148A72CEF6DAC629EE0E20185A886C4" import="1">Art/Fonts/FontIcons_JFD_SpiritIdeology_22.ggxml</File>
+    <File md5="193F858FE9DB328A030B93FD0202CA75" import="1">Art/Fonts/FontIcons_JFD_SpiritIdeology_22.dds</File>
+    <File md5="686C33EE03A424DD22EC1A6DB51FF627" import="1">Art/Icons/JFD_SpiritIdeology_NotificationAtlas_80.dds</File>
+    <File md5="FA4BE10B87361177022871839DCBE0D1" import="1">Art/Icons/JFD_SpiritIdeology_PolicyAtlas_256.dds</File>
+    <File md5="88485963CCCB15CC8541BEB6594FB276" import="1">Art/Icons/JFD_SpiritIdeology_PolicyAtlas_64.dds</File>
+    <File md5="C6EF0A0802F0D9E7AF9EAA62AEC1A7A8" import="1">Art/Images/socialpoliciesspirit.dds</File>
+    <File md5="9E8B40CC180C329B5F8B07D6423B5B9F" import="1">Art/Images/socialpoliciesspiritold.dds</File>
+    <File md5="F9750C912C25471B8C32F29848D6F035" import="0">Core/SpiritIdeology_GameText.sql</File>
+    <File md5="1A28241B2B2DE2DEFF70E08DEBBA276B" import="0">Core/SpiritIdeology_Concepts.sql</File>
+    <File md5="22E713020BCF09AF2F7D6DE80D0006C5" import="0">Core/SpiritIdeology_IdeologicalTenetsCP.sql</File>
+    <File md5="1120333131AFEE4BA09D98E8449AB7F2" import="0">Core/SpiritIdeology_Notifications.sql</File>
+    <File md5="F32A0BBF449DDE3EF4609930DE6B5B78" import="0">Core/SpiritIdeology_ArtDefines.sql</File>
+    <File md5="E7BAF1DBECF8B3DF3C2131369BB417EA" import="0">Core/SpiritIdeology_GameText.xml</File>
+    <File md5="AD14A8ACBC60DED01FCE28447506418E" import="0">Core/SpiritIdeology_GameText_Interface.xml</File>
+    <File md5="932D603DD800575F9C4BB0D15840DC85" import="0">Core/SpiritIdeology_Master.sql</File>
+    <File md5="B4A0BA51D821F5AE5667AE795A00E4A0" import="0">Core/SpiritIdeology_IdeologicalTenets.sql</File>
+    <File md5="AD8A5B704B3BD77D541F3A8846AFAE2A" import="0">Core/SpiritIdeology_Ideologies.sql</File>
+    <File md5="F8B613B842D2AD5CF5C1A5F41F8E1C28" import="0">Credits.txt</File>
+    <File md5="C4F99FE8C85ACD6765EE4E2CA8D306BD" import="0">Lua/JFD_SpiritIdeology_Functions.lua</File>
+    <File md5="700E785A391AD6C9ACE7641CF8CEF53F" import="1">Lua/Utilities/JFD_SpiritIdeology_Utils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/SpiritIdeology_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpiritIdeology_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpiritIdeology_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpiritIdeology_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SpiritIdeology_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SpiritIdeology_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpiritIdeology_Ideologies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpiritIdeology_IdeologicalTenets.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpiritIdeology_IdeologicalTenetsCP.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SpiritIdeology_Notifications.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_SpiritIdeology_Functions.lua">
+      <Name>JFD_SpiritIdeology_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

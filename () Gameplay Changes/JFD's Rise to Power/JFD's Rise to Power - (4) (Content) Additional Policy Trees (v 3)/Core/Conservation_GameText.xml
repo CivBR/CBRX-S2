@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2019 7:11:13 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--POLICY BRANCHES-->
+		<!--===================================================-->
+		<!--Conservation-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_CONSERVATION_CAP">
+			<Text>CONSERVATION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_CONSERVATION">
+			<Text>Conservation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_CONSERVATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Conservation[ENDCOLOR] is best for civilizations looking to make better use of their natural surroundings to grow quickly.[NEWLINE][NEWLINE]Adopting Conservation increases the amount of [ICON_FOOD] Food cities store after growth by 10%. Unlocks building Mt. Rushmore.[NEWLINE][NEWLINE]Adopting all Policies in the Conservation tree will grant a free Recycling Centres in your first 2 cities and all Recycling Centres will yield +1 [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CONSERVATION_TITLE">
+			<Text>{1_PlayerName:textkey} the Naturalist of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_CONSERVATION_TEXT">
+			<Text>The idea of conservation of natural resources can be traced to the work Sylva, or a Discourse of Forest-Trees, presented by John Evelyn to the Royal Society in 1662 AD. Timber resources in England were seriously depleted – thanks to all those ships, buildings and bridges – and Evelyn argued that cutting should be managed and trees replanted in logged areas. No one paid any further attention to the environment, other than exploiting it, until the Progressive Age when some folks sought to convince other Americans that it was their civic duty to preserve unspoiled the land, water and wildlife for future generations. Romantics such as Henry David Thoreau idealized nature, even as pragmatists such as Gifford Pinchot (first head of the U.S. Forestry Service) sought ways to insure that renewable resources would remain renewable … to keep America strong and the economy expanding.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--POLICIES-->
+		<!--===================================================-->
+		<!--CONSERVATION-->
+		<!--Cultural Heritage-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CULTURAL_HERITAGE">
+			<Text>Cultural Heritage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CULTURAL_HERITAGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cultural Heritage[ENDCOLOR][NEWLINE]Cities with a Monument yield +10% [ICON_TOURISM] Tourism and +2 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CULTURAL_HERITAGE_TEXT">
+			<Text>Even in a world concerned about "the brotherhood of man," the 20th Century saw a burst of concern about their respective and distinctive cultural heritage(s) from all sorts of people. Decolonization and immigration formed the background for contemporary concerns about where “we came from.” Whether it was seeking to redress perceived wrongs or celebrating what made a group unique, “cultural heritage” became the new hobby for millions in the developed nations. </Text>
+		</Row>
+		<!--Green Energy-->
+		<Row Tag="TXT_KEY_POLICY_JFD_GREEN_ENERGY">
+			<Text>Green Energy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_GREEN_ENERGY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Green Energy[ENDCOLOR][NEWLINE]+5% [ICON_FOOD] Growth from Hydro Plants, Solar Plants, and Nuclear Plants. Construct these Buildings +10% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_GREEN_ENERGY_HELP_WIND_FARM">
+			<Text>[COLOR_POSITIVE_TEXT]Green Energy[ENDCOLOR][NEWLINE]+5% [ICON_FOOD] Growth from Hydro Plants, Solar Plants, Nuclear Plants, and Wind Farms. Construct these Buildings +10% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_GREEN_ENERGY_TEXT">
+			<Text>Sustainable energy is the practice of using energy in a way that "meets the needs of the present without compromising the ability of future generations to meet their own needs." When referring to methods of producing energy, the term "sustainable energy" is often used interchangeably with the term "renewable energy". In general, renewable energy sources such as solar, wind, and hydroelectric energy are widely considered to be sustainable. However, particular renewable energy projects, such as the clearing of forests for production of biofuels, can lead to similar or even worse environmental damage when compared to using fossil fuel energy. There is considerable controversy over whether nuclear energy can be considered sustainable.</Text>
+		</Row>
+		<!--National Trust-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_TRUST">
+			<Text>National Trust</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_TRUST_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]National Trust[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture from Natural Wonders, National Wonders, and World Wonders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_TRUST_HELP_CP">
+			<Text>[COLOR_POSITIVE_TEXT]National Trust[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture and +1 [ICON_TOURISM] Tourism from Natural Wonders, National Wonders, and World Wonders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_TRUST_TEXT">
+			<Text>A national trust is an organisation dedicated to preserving the cultural heritage of a particular geographic region. Although the focus of a national trust may vary by region, the principal role is to ensure the preservation of historically significant items, and to conserve areas of natural beauty. National trusts generally operate as private non-profit organizations. The first such trust organisation, The Trustees of Reservations, originated in 1890 as a regional group serving the state of Massachusetts, USA. The first national trust, the National Trust for Places of Historic Interest or Natural Beauty, was founded in England in 1895 and operates as a charitable organisation serving England, Wales and Northern Ireland (it is commonly known in the UK as the National Trust).</Text>
+		</Row>
+		<!--JFD: National Trust-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_NATIONAL_TRUST_CULTURE">
+			<Text>JFD: National Trust</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_NATIONAL_TRUST_CULTURE_HELP">
+			<Text>+1 [ICON_CULTURE] Culture from Natural Wonders</Text>
+		</Row>
+		<!--Reforestation-->
+		<Row Tag="TXT_KEY_POLICY_JFD_REFORESTATION">
+			<Text>Reforestation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_REFORESTATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Reforestation[ENDCOLOR][NEWLINE]Lumber Mills and Camps yield +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_REFORESTATION_TEXT">
+			<Text>Reforestation is the natural or intentional restocking of existing forests and woodlands (forestation) that have been depleted, usually through deforestation. Reforestation can be used to rectify or improve the quality of human life by soaking up pollution and dust from the air, rebuild natural habitats and ecosystems, mitigate global warming since forests facilitate biosequestration of atmospheric carbon dioxide, and harvest for resources, particularly timber, but also non-timber forest products. In the beginning of the 21 century more attention is given to the ability of reforestation to mitigate climate change as one of the best methods to do it.</Text>
+		</Row>
+		<!--Sustainability-->
+		<Row Tag="TXT_KEY_POLICY_JFD_SUSTAINABILITY">
+			<Text>Sustainability</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_SUSTAINABILITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Sustainability[ENDCOLOR][NEWLINE]Bonus Resources yield an additional +1 of their base Yield type.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_SUSTAINABILITY_TEXT">
+			<Text>Sustainability is the ability to exist constantly. The Western industrial revolution of the 18th to 19th centuries tapped into the vast growth potential of the energy in fossil fuels. Coal was used to power ever more efficient engines and later to generate electricity. Modern sanitation systems and advances in medicine protected large populations from disease. In the mid-20th century, a gathering environmental movement pointed out that there were environmental costs associated with the many material benefits that were now being enjoyed. In the late 20th century, environmental problems became global in scale. The 1973 and 1979 energy crises demonstrated the extent to which the global community had become dependent on non-renewable energy resources. </Text>
+		</Row>
+		<!--JFD: Sustainability-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_SUSTAINABILITY_YIELDS">
+			<Text>JFD: Sustainability</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SUSTAINABILITY_YIELDS_HELP">
+			<Text>Bonus Resources yield an additional +1 of their base Yield type.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--WORLD WONDERS-->
+		<!--===================================================-->
+		<!--Mt. Rushmore-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MT_RUSHMORE">
+			<Text>Mt. Rushmore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_MT_RUSHMORE_HELP">
+			<Text>Requires Conservation. +1 [ICON_CITIZEN] Population and +1 [ICON_HAPPINESS_1] Happiness in all cities. +4 [ICON_TOURISM] Tourism after Flight.[NEWLINE][NEWLINE]City must be built within 2 tiles of a Mountain that is inside your territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_MT_RUSHMORE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Great leaders are both idealistic and realistic. They have a grand vision and great goals. They seek to close the gap between what is and what can be but they have no illusions that success is either certain or simple."[NEWLINE] - Michael Josephson[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_MT_RUSHMORE_PEDIA">
+			<Text>Mount Rushmore, officially the Mount Rushmore National Memorial, is a sculpture carved into the granite face of Mount Rushmore (known to the Lakota-Sioux as Six Grandfathers) near Keystone, South Dakota, in the United States. Sculpted by Danish-American Gutzon Borglum and his son, Lincoln Borglum, Mount Rushmore features 60-foot sculptures of the heads of four United States presidents: George Washington (1732-1799), Thomas Jefferson (1743-1826), Theodore Roosevelt (1858-1919), and Abraham Lincoln (1809-1865). Historian Doane Robinson is credited with conceiving the idea of carving the likenesses of famous people into the Black Hills region of South Dakota in order to promote tourism in the region. Robinson's initial idea was to sculpt the Needles; however, Gutzon Borglum rejected the Needles site because of the poor quality of the granite and strong opposition from Native American groups. They settled on the Mount Rushmore location, which also has the advantage of facing southeast for maximum sun exposure. Robinson wanted it to feature western heroes like Lewis and Clark, Red Cloud, and Buffalo Bill Cody, but Borglum decided the sculpture should have a more national focus and chose the four presidents whose likenesses would be carved into the mountain. After securing federal funding through the enthusiastic sponsorship of "Mount Rushmore's great political patron", U.S. Senator Peter Norbeck, construction on the memorial began in 1927, and the presidents' faces were completed between 1934 and 1939. Upon Gutzon Borglum's death in March 1941, his son Lincoln Borglum took over construction. Although the initial concept called for each president to be depicted from head to waist, lack of funding forced construction to end in late October 1941. Mount Rushmore has become an iconic symbol of presidential greatness and has appeared in works of fiction, and has been discussed or depicted in other popular works. It attracts over two million people annually.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

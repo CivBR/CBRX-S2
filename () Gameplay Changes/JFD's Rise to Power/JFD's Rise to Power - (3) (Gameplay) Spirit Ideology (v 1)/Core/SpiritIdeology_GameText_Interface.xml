@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--NOTIFICATIONS-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_SPIRIT_IDEOLOGY_SHORT_DESC">
+			<Text>Ideology Adopted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_SPIRIT_IDEOLOGY_DESC">
+			<Text>You have adopted the Spirit Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_SPIRIT_IDEOLOGY_OTHER_SHORT_DESC">
+			<Text>Ideology Adopted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_SPIRIT_IDEOLOGY_OTHER_DESC">
+			<Text>{1_CivName} has adopted the Spirit Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_SPIRIT_IDEOLOGY_OTHER_UNMET_DESC">
+			<Text>An unmet civilization has adopted the Spirit Ideology.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--SOCIAL POLICY SCREEN-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY">
+			<Text>Reform Ideology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_DISABLED_TT">
+			<Text>You have already reformed your Ideology.</Text>
+		</Row>
+		<!--Vanilla-->
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_TT">
+			<Text>You may change your Ideology to [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR]. This grants you free Ideological Tenets for every current Tenet you have whilst unlocking a new set of Tenets to choose from.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_CULTURE_COST_TT">
+			<Text>You may change your Ideology to [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR]. This grants you free Ideological Tenets for every current Tenet you have whilst unlocking a new set of Tenets to choose from.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will cost you {1_Num} [ICON_CULTURE] Culture.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_NATIONALISM_COST_TT">
+			<Text>You may change your Ideology to [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR]. This grants you free Ideological Tenets for every current Tenet you have whilst unlocking a new set of Tenets to choose from.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will cost you {1_Num} [ICON_JFD_NATIONALISM] Nationalism.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_DISABLED_CULTURE_COST_TT">
+			<Text>You may change your Ideology to [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR]. This grants you free Ideological Tenets for every current Tenet you have whilst unlocking a new set of Tenets to choose from.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You need {1_Num} [ICON_CULTURE] Culture to spend.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_DISABLED_NATIONALISM_COST_TT">
+			<Text>You may change your Ideology to [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR]. This grants you free Ideological Tenets for every current Tenet you have whilst unlocking a new set of Tenets to choose from.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You need {1_Num} [ICON_JFD_NATIONALISM] Nationalism to spend.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_CONFIRM_REFORM_IDEOLOGY">
+			<Text>Are you sure you want to adopt [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR] as your new Ideology? This will grant you free Ideological Tenets for every one from your former Ideology that you stand to lose.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will cost you {1_Num} [ICON_CULTURE] Culture.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_CONFIRM_REFORM_IDEOLOGY_NATIONALISM">
+			<Text>Are you sure you want to adopt [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR] as your new Ideology? This will grant you free Ideological Tenets for every one from your former Ideology that you stand to lose.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will cost you {1_Num} [ICON_JFD_NATIONALISM] Nationalism.[ENDCOLOR]</Text>
+		</Row>
+		<!--CP-->
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_TT_CP">
+			<Text>You may reform your Ideology into [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR]. This lets you keep you current set of Ideological Tenets whilst unlocking a new set of Tenets to choose from.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_CULTURE_COST_TT_CP">
+			<Text>You may reform your Ideology into [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR]. This lets you keep you current set of Ideological Tenets whilst unlocking a new set of Tenets to choose from.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will cost you {1_Num} [ICON_CULTURE] Culture.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_NATIONALISM_COST_TT_CP">
+			<Text>You may reform your Ideology into [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR]. This lets you keep you current set of Ideological Tenets whilst unlocking a new set of Tenets to choose from.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will cost you {1_Num} [ICON_JFD_NATIONALISM] Nationalism.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_DISABLED_TT_CP">
+			<Text>You have already reformed your Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_DISABLED_CULTURE_COST_TT_CP">
+			<Text>You may reform your Ideology into [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR]. This lets you keep you current set of Ideological Tenets whilst unlocking a new set of Tenets to choose from.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You need {1_Num} [ICON_CULTURE] Culture to spend.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_REFORM_IDEOLOGY_DISABLED_NATIONALISM_COST_TT_CP">
+			<Text>You may reform your Ideology into [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR]. This lets you keep you current set of Ideological Tenets whilst unlocking a new set of Tenets to choose from.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You need {1_Num} [ICON_JFD_NATIONALISM] Nationalism to spend.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_CONFIRM_REFORM_IDEOLOGY_CP">
+			<Text>Are you sure you want to adopt [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR] as your new Ideology? This will effectively switch out your current Ideology but will allow you to keep the effects of your current Ideological Tenets (this preserves your filled slots, however).[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will cost you {1_Num} [ICON_CULTURE] Culture.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_JFD_CONFIRM_REFORM_IDEOLOGY_NATIONALISM_CP">
+			<Text>Are you sure you want to adopt [COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR] as your new Ideology? This will effectively switch out your current Ideology but will allow you to keep the effects of your current Ideological Tenets (this preserves your filled slots, however).[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This will cost you {1_Num} [ICON_JFD_NATIONALISM] Nationalism.[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

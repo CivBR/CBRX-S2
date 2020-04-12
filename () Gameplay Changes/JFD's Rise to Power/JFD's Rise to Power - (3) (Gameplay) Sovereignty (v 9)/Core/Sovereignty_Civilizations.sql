@@ -1,0 +1,53 @@
+--==========================================================================================================================
+-- CIVILIZATIONS
+--==========================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------
+-- Civilization_JFD_Governments
+--------------------------------------------------------------------------------------------------------------------------	
+INSERT INTO Civilization_JFD_Governments
+		(CivilizationType,				GovernmentType,							Weight)
+VALUES	('CIVILIZATION_AMERICA',		'GOVERNMENT_JFD_REPUBLIC',				90),
+		('CIVILIZATION_ARABIA',			'GOVERNMENT_JFD_CALIPHATE',				100),	
+		('CIVILIZATION_ASSYRIA',		'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_AUSTRIA',		'GOVERNMENT_JFD_PRINCIPALITY',			70),	
+		('CIVILIZATION_AZTEC',			'GOVERNMENT_JFD_THEOCRACY',				70),	
+		('CIVILIZATION_BABYLON',		'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_BRAZIL',			'GOVERNMENT_JFD_MONARCHY',				60),	
+		('CIVILIZATION_BYZANTIUM',		'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_CARTHAGE',		'GOVERNMENT_JFD_REPUBLIC',				70),	
+		('CIVILIZATION_CELTS',			'GOVERNMENT_JFD_MONARCHY',				60),	
+		('CIVILIZATION_CHINA',			'GOVERNMENT_JFD_MANDATE_OF_HEAVEN',		100),	
+		('CIVILIZATION_DENMARK',		'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_EGYPT',			'GOVERNMENT_JFD_THEOCRACY',				100),	
+		('CIVILIZATION_ENGLAND',		'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_ETHIOPIA',		'GOVERNMENT_JFD_MONARCHY',				60),	
+		('CIVILIZATION_FRANCE',			'GOVERNMENT_JFD_MONARCHY',				60),	
+		('CIVILIZATION_GERMANY',		'GOVERNMENT_JFD_REPUBLIC',				80),	
+		('CIVILIZATION_GREECE',			'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_HUNS',			'GOVERNMENT_JFD_MONARCHY',				60),	
+		('CIVILIZATION_INCA',			'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_INDIA',			'GOVERNMENT_JFD_REPUBLIC',				60),	
+		('CIVILIZATION_INDONESIA',		'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_IROQUOIS',		'GOVERNMENT_JFD_REPUBLIC',				60),	
+		('CIVILIZATION_JAPAN',			'GOVERNMENT_JFD_SHOGUNATE',				100),	
+		('CIVILIZATION_KOREA',			'GOVERNMENT_JFD_MONARCHY',				60),	
+		('CIVILIZATION_MAYA',			'GOVERNMENT_JFD_PRINCIPALITY',			60),	
+		('CIVILIZATION_MONGOL',			'GOVERNMENT_JFD_MONARCHY',				100),	
+		('CIVILIZATION_MOROCCO',		'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_NETHERLANDS',	'GOVERNMENT_JFD_MONARCHY',				60),	
+		('CIVILIZATION_OTTOMAN',		'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_PERSIA',			'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_POLAND',			'GOVERNMENT_JFD_PRINCIPALITY',			60),	
+		('CIVILIZATION_POLYNESIA',		'GOVERNMENT_JFD_MONARCHY',				50),	
+		('CIVILIZATION_PORTUGAL',		'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_ROME',			'GOVERNMENT_JFD_MONARCHY',				60),	
+		('CIVILIZATION_RUSSIA',			'GOVERNMENT_JFD_PRINCIPALITY',			60),	
+		('CIVILIZATION_SHOSHONE',		'GOVERNMENT_JFD_REPUBLIC',				60),	
+		('CIVILIZATION_SIAM',			'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_SONGHAI',		'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_SPAIN',			'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_SWEDEN',			'GOVERNMENT_JFD_MONARCHY',				70),	
+		('CIVILIZATION_VENICE',			'GOVERNMENT_JFD_REPUBLIC',				70),	
+		('CIVILIZATION_ZULU',			'GOVERNMENT_JFD_MONARCHY',				60);	
+--==========================================================================================================================
+--==========================================================================================================================

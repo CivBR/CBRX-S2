@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0d8117aa-bc83-4530-930e-98a685fde2c9" version="1">
+  <Properties>
+    <Name>JFD's Rise to Power - (Misc.) Great Philosophers</Name>
+    <Teaser>Adds [COLOR_CYAN]Great Philosophers[ENDCOLOR] as a new Great Person. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Great Philosophers[ENDCOLOR] are a new type of Great Person that can be expended for unique Social Policies (or exchanged for a free one). These unique Policies are organized into one of six Philosophies (Art, Ethics, Knowledge, Politics, Reality, and Rhetoric), and only one Policy per Philosophy can be active at a time. When you expend a Great Philosopher for a Policy belonging to an already-filled Philosophy, the old Policy is replaced.[NEWLINE][NEWLINE]Great Philosophers are earned everytime you complete a Social Policy Tree or when you adopt a Lv. 3 Ideological Tenet. They can also be chosen whenever a free Great Person choice becomes available.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
+    <Mod id="8822c973-60de-47f8-a4f2-96045dcc468e" minversion="0" maxversion="999" title="JFD's Rise to Power - (UI) Social Policy Screen" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+  </Dependencies>
+  <References>
+    <Mod id="74fbcefb-4fda-4378-8419-af32ce927b28" minversion="0" maxversion="999" title="JFD's Rise to Power - Spirit Ideology" />
+    <Mod id="c3b6e30c-3548-4fbc-9d7f-cf3025be8261" minversion="0" maxversion="999" title="JFD's Rise to Power - Nationalism" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Pouakai's Enlightenment Era" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="16958FB4E5BEFC1515BF528036F4B6CF" import="1">Art/Graphics/Great Philosophers/GreatPhilosopher_Early.dds</File>
+    <File md5="A6EA2DDEE7B37C67536D1EB1087E5F85" import="1">Art/Graphics/Great Philosophers/GreatPhilosopher_Early.fxsxml</File>
+    <File md5="C6B5778D8F76EDC5DD2973886BAABEF4" import="1">Art/Graphics/Great Philosophers/GreatPhilosopher_Early.gr2</File>
+    <File md5="3276058628CE4DAD39D7F27BBD3B803B" import="1">Art/Graphics/Great Philosophers/GreatPhilosopher_Late.dds</File>
+    <File md5="482CF125CF8118708023A7477B121597" import="1">Art/Graphics/Great Philosophers/GreatPhilosopher_Late.fxsxml</File>
+    <File md5="8A8A8602269D03CE346683572CA8A128" import="1">Art/Graphics/Great Philosophers/GreatPhilosopher_Late.gr2</File>
+    <File md5="22C2B902AEE656401282D4206F9C2E4E" import="1">Art/Graphics/Great Philosophers/sv_GreatPhilosopher.dds</File>
+    <File md5="5CB5071E7C06F997D1B71E7FD93C1122" import="1">Art/Icons/JFD_GreatPhilosophers_IconAtlas_128.dds</File>
+    <File md5="CE4E809143460DF6216D224795FECD02" import="1">Art/Icons/JFD_GreatPhilosophers_IconAtlas_256.dds</File>
+    <File md5="CB8C43819FFEA8D1C90809466E0A8E61" import="1">Art/Icons/JFD_GreatPhilosophers_IconAtlas_32.dds</File>
+    <File md5="202C4850C274D9B41B399962A732DF3A" import="1">Art/Icons/JFD_GreatPhilosophers_IconAtlas_45.dds</File>
+    <File md5="8F02CF589B0F53B2986A09E236B4122F" import="1">Art/Icons/JFD_GreatPhilosophers_IconAtlas_64.dds</File>
+    <File md5="F8368B9CCEF765CCFF35149B3E6A3CFC" import="1">Art/Icons/JFD_GreatPhilosophers_IconAtlas_80.dds</File>
+    <File md5="42AC77D3A4E912BE816EECEB08E6C2D4" import="1">Art/Icons/JFD_GreatPhilosophers_MissionAtlas_45.dds</File>
+    <File md5="5CF1F6866CA6E851FDAACF2E3A8D4160" import="1">Art/Icons/JFD_GreatPhilosophers_MissionAtlas_64.dds</File>
+    <File md5="66755BB2F0447439622761C6CEF6CA18" import="1">Art/Icons/JFD_GreatPhilosophers_PolicyAtlas_64.dds</File>
+    <File md5="C930437497CE9CBD8CE8778D4A638BBF" import="1">Art/Icons/JFD_GreatPhilosophers_UnitFlagAtlas_32.dds</File>
+    <File md5="9CC53A851813182B0228CB5D7EAF3D38" import="1">Audio/Sounds/GreatPhilosopherActivate.wav</File>
+    <File md5="572F872A162081929EBE6B6449F307B1" import="0">Core/GreatPhilosophers_ArtDefines.sql</File>
+    <File md5="831B6F12008165C5951629DEC315B62C" import="0">Core/GreatPhilosophers_Buildings.sql</File>
+    <File md5="4C6CDD4A054333D35F72096169F4553E" import="0">Core/GreatPhilosophers_Concepts.sql</File>
+    <File md5="ED362912B4A53B723095FC8DE89E60A0" import="0">Core/GreatPhilosophers_GameText.xml</File>
+    <File md5="0BDF6EDB9FCBE5C71203B30D5F147E52" import="0">Core/GreatPhilosophers_GameText_Interface.xml</File>
+    <File md5="23A3CB4D1277760817494DD07AED3AC5" import="0">Core/GreatPhilosophers_Master.sql</File>
+    <File md5="82D7B751B8F0587482E28AB12FAF5BE0" import="0">Core/GreatPhilosophers_Missions.sql</File>
+    <File md5="10A3C9BB3121A6C7D9CEA98A9210438B" import="0">Core/GreatPhilosophers_Philosophies.sql</File>
+    <File md5="DD8C271BA15EE08BBDED0A4F385CD713" import="0">Core/GreatPhilosophers_Policies.sql</File>
+    <File md5="6F0FF5CBE35A4738CDBC16F560D99E4C" import="0">Core/GreatPhilosophers_PolicyBranches.sql</File>
+    <File md5="1D52DFFEAC00C96691B2303C0AF838A3" import="0">Core/GreatPhilosophers_PolicyPanels.sql</File>
+    <File md5="EF7F54C88B6735996E8194FB2D562B10" import="0">Core/GreatPhilosophers_Units.sql</File>
+    <File md5="A17359615323893D77F10A4755111705" import="0">Core/GreatPhilosophers_GameText.sql</File>
+    <File md5="8211448A478FADDAB69634E5DEC6721A" import="0">Credits.txt</File>
+    <File md5="1D877280F383FE4FA8664530BEB97FFD" import="0">Lua/JFD_GreatPhilosophers_Functions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/GreatPhilosophers_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_Missions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_Philosophies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_PolicyPanels.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_PolicyBranches.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GreatPhilosophers_Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_GreatPhilosophers_Functions.lua">
+      <Name>JFD_GreatPhilosophers_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

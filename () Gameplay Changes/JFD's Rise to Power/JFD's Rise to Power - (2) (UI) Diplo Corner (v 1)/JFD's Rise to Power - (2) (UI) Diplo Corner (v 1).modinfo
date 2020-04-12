@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3fc450d7-c1d9-46e3-97ea-6d60a3485187" version="1">
+  <Properties>
+    <Name>JFD's Rise to Power - (2) (UI) Diplo Corner</Name>
+    <Teaser>[COLOR_CYAN]Diplo Corner replacement[ENDCOLOR] for Rise to Power.</Teaser>
+    <Description>[COLOR_CYAN]Diplo Corner replacement[ENDCOLOR] for Rise to Power.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
+  </Dependencies>
+  <References>
+    <Mod id="828b5b4b-7c62-4afb-a43f-034b596ef5e4" minversion="0" maxversion="999" title="(6b) Community Balance Overhaul - Compatibility Files (No-EUI)" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="(6a) Community Balance Overhaul - Compatibility Files (EUI)" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="20586120B22142FAB31116E610174AF5" import="1">Art/Images/Advisors45.dds</File>
+    <File md5="1DEF10FF7582D98512E1AE3F15F08D4F" import="1">Art/Images/Advisors45HL.dds</File>
+    <File md5="2214D1A628A8AFE5948F06D2BAF2337E" import="1">Art/Images/Corporations45.dds</File>
+    <File md5="781AC3707C1DC744C1C5796393F3438C" import="1">Art/Images/Corporations45HL.dds</File>
+    <File md5="0A324508608A316897BE734FC3ACC2CC" import="1">Art/Images/Decisions80.dds</File>
+    <File md5="5C0448A51E6A8D60BE090ADCFB2466EF" import="1">Art/Images/Decisions80HL.dds</File>
+    <File md5="521D0288A5306BE7280372D1CD69A983" import="1">Art/Images/Demographics45.dds</File>
+    <File md5="B7ED35425F3201A089C8AD4A2E115353" import="1">Art/Images/Demographics45HL.dds</File>
+    <File md5="359A78433FAB6956D5F0CA2F5F891D18" import="1">Art/Images/Economic45.dds</File>
+    <File md5="993AE647D8E6954D707D0E3BE32F09F8" import="1">Art/Images/Economic45HL.dds</File>
+    <File md5="7506DFF7AA62028BD9D2026555F3F2C0" import="1">Art/Images/Events45.dds</File>
+    <File md5="194030B477CEB07B8995F75E0D21BE57" import="1">Art/Images/Events45HL.dds</File>
+    <File md5="156725F3754FB566D65F9811B8635290" import="1">Art/Images/Government80.dds</File>
+    <File md5="CDBDDB710539FDCF2C326874BA8649C7" import="1">Art/Images/Government80HL.dds</File>
+    <File md5="6FCC31969F34C2E7138C2DEB6878B34A" import="1">Art/Images/GreatWorks45.dds</File>
+    <File md5="B2F4FCE8755CA8C66A2E0346DECAFA41" import="1">Art/Images/GreatWorks45HL.dds</File>
+    <File md5="A64ABCDDDCD5D4C41572DBC99B6B0D63" import="1">Art/Images/InfoAddict45.dds</File>
+    <File md5="1470C8F3CF1FA3A92C5A68521D606389" import="1">Art/Images/InfoAddict45HL.dds</File>
+    <File md5="CA81B62C7A595F723792E645B01C6C9E" import="1">Art/Images/Mercenaries45.dds</File>
+    <File md5="1AA5FE76282B95D6D67EF70457BA35A1" import="1">Art/Images/Mercenaries45HL.dds</File>
+    <File md5="2ED86BD5EAC0956B36D375689C822E3F" import="1">Art/Images/Military45.dds</File>
+    <File md5="EA11E9034368F28094F7F64E6473E4B9" import="1">Art/Images/Military45HL.dds</File>
+    <File md5="1CB873747B8F48CCCA0D1FDEC7A868E9" import="1">Art/Images/Notification45.dds</File>
+    <File md5="B59D4C354BA576B8B3632897A5261646" import="1">Art/Images/Notification45HL.dds</File>
+    <File md5="82F65E983DA4567FB6D3D1EF256CCADD" import="1">Art/Images/Religion45.dds</File>
+    <File md5="8A88CB30DB11BB07B197BD91B093277E" import="1">Art/Images/Religion45HL.dds</File>
+    <File md5="0A7A263DE02C3B82059D0C2AC0293381" import="1">Art/Images/SocialPolicies45.dds</File>
+    <File md5="75758D2B9F6EA69D2B335EA332FB4AE9" import="1">Art/Images/SocialPolicies45HL.dds</File>
+    <File md5="CD41709C2B3B520BAE26968CA6EF1BAB" import="1">Art/Images/Techs45.dds</File>
+    <File md5="3F9F9C12EDB41D3E81AD8C2CE5236BFB" import="1">Art/Images/Techs45HL.dds</File>
+    <File md5="6D77E19DB91F51541DCCBB3FB08A8679" import="1">Art/Images/TradeRoutes45.dds</File>
+    <File md5="2275CF6A9D5043145673C6BE0C2EF751" import="1">Art/Images/TradeRoutes45HL.dds</File>
+    <File md5="D3A1FF62DFDC46E1DC99D335101A87C7" import="1">Art/Images/Vassals45.dds</File>
+    <File md5="6556E328B8C7A3C10EBBEC79704A3C43" import="1">Art/Images/Vassals45HL.dds</File>
+    <File md5="BC5B1144C26CBF2CA46EAEB9C4625D72" import="1">Art/Images/Victory45.dds</File>
+    <File md5="6A8516468E9B31D7795AB902F4B5CDE5" import="1">Art/Images/Victory45HL.dds</File>
+    <File md5="E06907F0B6CFA04B56C2B275D7BFD5F8" import="1">Art/Images/WorldCongress45.dds</File>
+    <File md5="0A196E8C78EB3E84B63BBB8AC81196CF" import="1">Art/Images/WorldCongress45HL.dds</File>
+    <File md5="E1B0307225D9AA63A4B25FA3F967B2CD" import="0">Core/DiploCorner_GameText_Interface.xml</File>
+    <File md5="F8580ABBCB3EFEDD444E5306E3AED93A" import="0">Credits.txt</File>
+    <File md5="F9741AA801C1A3EFC20033834CCC1A9B" import="1">Lua/UI/InGame/WorldView/DiploCorner.lua</File>
+    <File md5="90E8953A49B63484001283E5B5F3134B" import="1">Lua/UI/InGame/WorldView/DiploCorner.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/DiploCorner_GameText_Interface.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

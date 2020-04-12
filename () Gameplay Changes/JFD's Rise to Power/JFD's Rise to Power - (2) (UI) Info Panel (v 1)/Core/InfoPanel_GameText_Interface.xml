@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2019 5:53:11 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--TOP PANEL-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_IC_CIVILIZATION_INFO">
+			<Text>Civilization Info</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CIVILIZATION_INFO_TITLE">
+			<Text>World Civilizations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SHOW_WORLD_CIVILIZATION_LIST">
+			<Text>Show World Civilizations</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

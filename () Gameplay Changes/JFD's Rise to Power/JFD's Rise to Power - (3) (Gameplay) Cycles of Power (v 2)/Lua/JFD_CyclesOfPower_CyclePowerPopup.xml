@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black" >
+
+	<Box Style="BGBlock_ClearTopBar" />
+
+	<Grid Size="480,400" ID="MainGrid" Anchor="C,C" Offset="0,0"  Style="Grid9DetailFive140" >
+
+
+		<!-- Upper Treatment -->
+		<Image Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-14" Texture="assets\UI\Art\Icons\Top512IconTrim.dds">
+			<Image ID="Icon" Size="64,64" Offset="-1,-1" Anchor="C,C" Texture="JFD_CyclesOfPower_NotificationAtlas_64.dds"/>
+		</Image>
+
+		<!-- Side treatments -->
+		<Box Style="MenuLeftSideTreatment"/>
+		<Box Style="MenuRightSideTreatment"/>
+
+		<Label Anchor="C,T" Offset="0,20" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="" ID="Title"/>
+		<Stack Anchor="C,T" StackGrowth="Bottom" Offset="5,60" Padding="0" ID="QuoteStack">
+			<Label Anchor="C,C" Offset="0,0" Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="" WrapWidth="300" ID="Quote"/>
+			<Image Anchor="C,C" Offset="-10,0" TextureOffset="0,0" Texture="bar.dds" Size="340,1" ID="Bar"/>
+		</Stack>
+
+		<Box Size="350,290" Anchor="C,T" Offset="0,80"  Color="255,255,255,0" >
+			<Label Anchor="L,T" Offset="-30,80" WrapWidth="422" LeadingOffset="-4"  Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="" ID="Stats" />
+		</Box>
+
+		<GridButton Size="200,36" Anchor="C,B" Style="BaseButton" AnchorSide="I.O" Offset="0,0" ID="CloseButton" Hidden="0">
+
+			<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CLOSE"  Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT20" FontStyle="Shadow" />
+
+		</GridButton>
+
+
+
+	</Grid>
+
+
+</Context>

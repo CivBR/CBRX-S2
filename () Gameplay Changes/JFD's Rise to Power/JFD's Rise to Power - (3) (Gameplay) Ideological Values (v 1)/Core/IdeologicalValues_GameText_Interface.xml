@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2019 5:53:11 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CHOOSE IDEOLOGY POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_IDEOLOGICAL_VALUE">
+			<Text>Ideological Value: [COLOR_UNIT_TEXT]{1_FontIcon}{2_Desc}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_IDEOLOGICAL_VALUE_TT">
+			<Text>[COLOR_UNIT_TEXT]{1_FontIcon}{2_Desc}[ENDCOLOR] is this Ideology's preferred Ideological Value. Tenets that require this Value can be adopted regardless of your Social Policy choices.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_IDEOLOGICAL_VALUE_POSITIVE_TT">
+			<Text>[COLOR_POSITIVE_TEXT]Your chosen Ideology or Ideological Values allow you to adopt this Tenet.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_IDEOLOGICAL_VALUE_WARNING_TT">
+			<Text>[COLOR_WARNING_TEXT]Your Ideological Values prevent you from adopting this Tenet.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_PREVIEW_IDEOLOGICAL_VALUE_POSITIVE_TT">
+			<Text>[COLOR_POSITIVE_TEXT]Your chosen Ideology or Ideological Values would allow you to adopt this Tenet.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_PREVIEW_IDEOLOGICAL_VALUE_WARNING_TT">
+			<Text>[COLOR_WARNING_TEXT]Your Ideological Values would prevent you from adopting this Tenet.[ENDCOLOR]</Text>
+		</Row>
+		<!--===================================================-->
+		<!--SOCIAL POLICY SCREEN-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_POLICY_SCREEN_IDEOLOGICAL_VALUES">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY]{1_Num}% [ICON_IDEOLOGY_FREEDOM]{2_Num}% [ICON_IDEOLOGY_ORDER]{3_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SCREEN_IDEOLOGICAL_VALUES_AUTHORITY_TT">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Authority Value: [COLOR_UNIT_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Your Social Policy choices determine the weighting of your Ideological Values, which in turn will determine the kinds of Ideological Tenets that you can adopt when you have access to an Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SCREEN_IDEOLOGICAL_VALUES_LIBERTY_TT">
+			<Text>[ICON_IDEOLOGY_FREEDOM] Liberty Value: [COLOR_UNIT_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Your Social Policy choices determine the weighting of your Ideological Values, which in turn will determine the kinds of Ideological Tenets that you can adopt when you have access to an Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SCREEN_IDEOLOGICAL_VALUES_EQUALITY_TT">
+			<Text>[ICON_IDEOLOGY_ORDER] Equality Value: [COLOR_UNIT_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Your Social Policy choices determine the weighting of your Ideological Values, which in turn will determine the kinds of Ideological Tenets that you can adopt when you have access to an Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SCREEN_IDEOLOGICAL_VALUES_TT">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Authority Value: [COLOR_UNIT_TEXT]{1_Num}%[ENDCOLOR][NEWLINE][ICON_IDEOLOGY_FREEDOM] Liberty Value: [COLOR_UNIT_TEXT]{2_Num}%[ENDCOLOR][NEWLINE][ICON_IDEOLOGY_ORDER] Equality Value: [COLOR_UNIT_TEXT]{3_Num}%[ENDCOLOR][NEWLINE][NEWLINE]Your Social Policy choices determine the weighting of your Ideological Values, which in turn will determine the kinds of Ideological Tenets that you can adopt when you have access to an Ideology.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

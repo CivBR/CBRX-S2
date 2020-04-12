@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2019 5:53:11 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--DIPLO CORNER-->
+		<!--===================================================-->
+		<!--Overview-->
+		<Replace Tag="TXT_KEY_JFD_OVERVIEW_OPTIONS">
+			<Text>1. Overview Selection</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_TITLE">
+			<Text>Overview Selection</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_TOGGLE_TURNS_TT">
+			<Text>[NEWLINE][NEWLINE]Right-click to toggle more info on/off.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_ACCEPT">
+			<Text>Accept</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_ACCEPT_TT">
+			<Text>Accept current selections.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_DISABLED">
+			<Text>[COLOR_WARNING_TEXT]This system has been disabled because it or the mod that adds it is unavailable.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_DECISIONS_OVERVIEW_SCREEN_TITLE_TT">
+			<Text>[ICON_ED_DECISIONS] Num Enactable Decisions: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_ADVISORS">
+			<Text>Advisor Counsel</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_ADVISORS_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_CORPORATIONS">
+			<Text>Corporations Overview</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_CORPORATIONS_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_CULTURE">
+			<Text>Culture Overview</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_CULTURE_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_ECONOMIC">
+			<Text>Economic Overview</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_ECONOMIC_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_EVENTS">
+			<Text>Events Overview</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_EVENTS_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_DEMOGRAPHICS">
+			<Text>Demographics</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_DEMOGRAPHICS_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_GREAT_WORKS">
+			<Text>Great Works Manager</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_GREAT_WORKS_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_INFO_ADDICT">
+			<Text>Info Addict</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_INFO_ADDICT_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_MERCENARIES">
+			<Text>Mercenary Overview</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_MERCENARIES_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_MILITARY">
+			<Text>Military Overview</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_MILITARY_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_NOTIFICATIONS">
+			<Text>Notification Log</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_NOTIFICATIONS_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_RELIGION">
+			<Text>Religion Overview</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_RELIGION_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_RELIGION_TURNS_TT">
+			<Text>[ICON_JFD_PIETY] Piety Level changes: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s).</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_POLICIES">
+			<Text>Social Policies</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_POLICIES_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_POLICIES_TURNS_TT">
+			<Text>[ICON_CULTURE] Next Policy: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Turn(s).</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_TECH_TREE">
+			<Text>Tech Tree</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_TECH_TREE_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CURRENT_RESEARCH_OVERVIEW">
+			<Text>Current Research</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_TRADE_ROUTES">
+			<Text>Trade Route Overview</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_TRADE_ROUTES_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_VASSALS">
+			<Text>Vassals Overview</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_VASSALS_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_VICTORY">
+			<Text>Victory Progress</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_VICTORY_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_WORLD_CONGRESS">
+			<Text>World Congress</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_BUTTON_OPTIONS_WORLD_CONGRESS_TT">
+			<Text>A Button for this Overview will appear along the Top-Left.</Text>
+		</Replace>
+		<!--Top Panel-->
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS">
+			<Text>2. Top Panel Selection</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_TITLE">
+			<Text>Top Panel Selection</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_JFD_MENU_TIME_24_HR">
+			<Text>%H:%M</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES">
+			<Text>[ICON_TURNS_REMAINING]{1_TradeRoutesUsedNum}/{2_TradeRoutesAvailable}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_CULTURE">
+			<Text>Culture</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_CULTURE_TT">
+			<Text>Toggle on/off the Culture Yield display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_EPITHET">
+			<Text>Epithet Progress</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_EPITHET_TT">
+			<Text>Toggle on/off the Epithet Progress Yield display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_FAITH">
+			<Text>Faith</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_FAITH_TT">
+			<Text>Toggle on/off the Faith Yield display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_GOLD">
+			<Text>Gold</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_GOLD_TT">
+			<Text>Toggle on/off the Gold Yield display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_GOLDEN_AGE">
+			<Text>Golden Age Points</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_GOLDEN_AGE_TT">
+			<Text>Toggle on/off the Golden Age Points Yield display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_HAPPINESS">
+			<Text>Happiness</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_HAPPINESS_TT">
+			<Text>Toggle on/off the Happiness Yield display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_SCIENCE">
+			<Text>Science</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_SCIENCE_TT">
+			<Text>Toggle on/off the Science Yield display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_SOVEREIGNTY">
+			<Text>Sovereignty</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_SOVEREIGNTY_TT">
+			<Text>Toggle on/off the Sovereignty Yield display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_TRADE">
+			<Text>Trade Routes</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_TRADE_TT">
+			<Text>Toggle on/off Trade Routes display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_TOURISM">
+			<Text>Tourism</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_TOURISM_TT">
+			<Text>Toggle on/off the Tourism Yield display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_VIRTUE">
+			<Text>Virtue</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_VIRTUE_TT">
+			<Text>Toggle on/off the Virtue Yield display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_TIME">
+			<Text>Time</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_TIME_TT">
+			<Text>Toggle on/off the Time on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_TURN">
+			<Text>Turn</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_TURN_TT">
+			<Text>Toggle on/off the Current Date display on the Top Panel.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_YEAR">
+			<Text>Year</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TOP_PANEL_OPTIONS_YEAR_TT">
+			<Text>Toggle on/off the Current Year display on the Top Panel.</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>

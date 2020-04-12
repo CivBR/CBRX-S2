@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2019 7:11:13 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--POLICY BRANCHES-->
+		<!--===================================================-->
+		<!--Industry-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_INDUSTRY_CAP">
+			<Text>INDUSTRY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_INDUSTRY">
+			<Text>Industry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_INDUSTRY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Industry[ENDCOLOR] is best for civilizations wanting to make the most of their Strategic Resources.[NEWLINE][NEWLINE]Adopting Industry grants +10% [ICON_PRODUCTION] Production toward Units and Buildings that require a Strategic Resource. Unlocks building the Panama Canal.[NEWLINE][NEWLINE]Adopting all Policies in the Industry tree will increase the [ICON_PRODUCTION] Production output of Manufacturies and the [ICON_RESEARCH] Science output of Academies by +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_INDUSTRY_TITLE">
+			<Text>Magnate {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_INDUSTRY_TEXT">
+			<Text>An industry is a sector that produces goods or related services within an economy. The major source of revenue of a group or company is an indicator of what industry it should be classified in. When a large corporate group has multiple sources of revenue generation, it is considered to be working in different industries. The manufacturing industry became a key sector of production and labour in European and North American countries during the Industrial Revolution, upsetting previous mercantile and feudal economies. This came through many successive rapid advances in technology, such as the development of steam power and the production of steel and coal. </Text>
+		</Row>
+		<!--===================================================-->
+		<!--POLICIES-->
+		<!--===================================================-->
+		<!--Age of Synergy-->
+		<Row Tag="TXT_KEY_POLICY_JFD_AGE_OF_SYNERGY">
+			<Text>Age of Synergy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_AGE_OF_SYNERGY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Age of Synergy[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science and +1 [ICON_PRODUCTION] Production from Buildings that require a Strategic Resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_AGE_OF_SYNERGY_TEXT">
+			<Text>The Second Industrial Revolution was a period of rapid industrial development, primarily in Britain, Germany and the United States, but also in France, the Low Countries, Italy and Japan. It was the period during which modern organizational methods for operating large scale businesses over vast areas came into use. Vaclav Smil called the period 1867–1914 "The Age of Synergy" during which most of the great innovations were developed since the inventions and innovations were engineering and science-based.</Text>
+		</Row>
+		<!--Applied Science-->
+		<Row Tag="TXT_KEY_POLICY_JFD_APPLIED_SCIENCE">
+			<Text>Applied Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_APPLIED_SCIENCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Applied Science[ENDCOLOR][NEWLINE]Gain a burst of [ICON_CULTURE] Culture when a Great Engineer or Great Scientist is expended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_APPLIED_SCIENCE_TEXT">
+			<Text>Applied science is the application of existing scientific knowledge to practical applications, like technology or inventions. Within natural science, disciplines that are basic science develop basic information to predict and perhaps explain and understand phenomena in the natural world. Applied science is the use of scientific processes and knowledge as the means to achieve a particular practical or useful result. This includes a broad range of applied science related fields, including engineering and medicine. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_APPLIED_SCIENCE_ALERT">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_CULTURE] Culture from expending a {2_Desc}.</Text>
+		</Row>
+		<!--Industrial Engineering-->
+		<Row Tag="TXT_KEY_POLICY_JFD_INDUSTRIAL_ENGINEERING">
+			<Text>Industrial Engineering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_INDUSTRIAL_ENGINEERING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Industrial Engineering[ENDCOLOR][NEWLINE]A Great Engineer appears.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_INDUSTRIAL_ENGINEERING_TEXT">
+			<Text>Industrial engineering is an engineering profession that is concerned with the optimization of complex processes, systems, or organizations by developing, improving and implementing integrated systems of people, money, knowledge, information, equipment, energy and materials. Industrial engineers use specialized knowledge and skills in the mathematical, physical and social sciences, together with the principles and methods of engineering analysis and design, to specify, predict, and evaluate the results obtained from systems and processes. From these results, they are able to create new systems, processes or situations for the useful coordination of labour, materials and machines and also improve the quality and productivity of systems, physical or social. </Text>
+		</Row>
+		<!--Mass Production-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MASS_PRODUCTION">
+			<Text>Mass Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MASS_PRODUCTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mass Production[ENDCOLOR][NEWLINE]+5% [ICON_PRODUCTION] and +2 [ICON_PRODUCTION] Production from Factories and Workshops.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MASS_PRODUCTION_TEXT">
+			<Text>Until the Industrial Revolution, the idea of "mass production" was limited to pottery (molds), Chinese crossbows with interchangeable parts, and assembly line production of books. But in the Renaissance, Venice began mass-producing ships to maintain their grip on the Mediterranean in their famed Arsenal, using prefabricated parts and assembly lines that would not be matched for output for three centuries. At its peak of efficiency, the Arsenal could produce a seaworthy ship in a day and employed some ten thousand workers. </Text>
+		</Row>
+		<!--Resource Management-->
+		<Row Tag="TXT_KEY_POLICY_JFD_RESOURCE_MANAGEMENT">
+			<Text>Resource Management</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_RESOURCE_MANAGEMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Resource Management[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold from Strategic Resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_RESOURCE_MANAGEMENT_TEXT">
+			<Text>The "efficient and effective development of an organization’s resources when they are needed"... resource management. As corporations grew larger and evolved into multi-national conglomerates it became vital for those wishing to survive to insure that resources were never over-allocated to projects. Perhaps the best method of doing this is "resources leveling" – financial, inventory, human, production output, and even information – avoiding both excess inventories and sudden shortages. The trick is to invest in resources as "stored capabilities" and then "unleash" these as necessary and practical. The spread of resource management principles have allowed corporations to engage in some immense, both in terms of size and duration, yet profitable projects since the 1950s. </Text>
+		</Row>
+		<!--JFD: Resource Management-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_RESOURCE_MANAGEMENT_GOLD">
+			<Text>JFD: Resource Management</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_RESOURCE_MANAGEMENT_GOLD_HELP">
+			<Text>+1 [ICON_GOLD] Gold from Strategic Resources.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--WORLD WONDERS-->
+		<!--===================================================-->
+		<!--Panama Canal-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PANAMA_CANAL">
+			<Text>Panama Canal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PANAMA_CANAL_HELP">
+			<Text>Requires Industry. +20% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections. +1 [ICON_GOLD] Gold from Harbors and provides a free Harbor in the city in which it is built.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PANAMA_CANAL_QUOTE">
+			<Text>[NEWLINE]"A stream cannot rise larger than its source"[NEWLINE] - Theodore Roosevelt[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_PANAMA_CANAL_PEDIA">
+			<Text>The Panama Canal is a manmade shipping lane located on the Panama Isthmus seperating the Pacific Ocean and Carribean Sea. The idea of a canal in the location was first proposed int he sixteenth century by Charles V, Holy Roman Emperor, who asked for a link to shorten the journey between Spain and their colony of Peru. In 1698 the Kingdom of Scotland launched a project to create an overland trade route in the area, which was abandoned due to inhospitiable conditions a year later. It was not until 1855 that a link was first established, the Panama Canal Railway, as a result of the 1849 discovery of Gold in the American state of California. This railway was used extensively in the American construction of the canal from 1904 to 1914. As opposed to the French plan of constructing a flat water canal, much like that of the Suez Canal, the American design featured a series of ship locks to rise the ships over a range that caused problems for the French design. The American design proved sucessful, and was opened on August 15, 1914. Railway cars had been used to transport approximately 152,910,972 cubic metres of excevations through the construction, while it had cost 27,500 lives across the whole project.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

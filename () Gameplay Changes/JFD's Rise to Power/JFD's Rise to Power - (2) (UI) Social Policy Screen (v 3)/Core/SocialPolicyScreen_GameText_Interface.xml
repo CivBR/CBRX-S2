@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2019 7:11:13 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--SOCIAL POLICY SCREEN-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_POLICYSCREEN_TO_IDEOLOGYPANEL_TT">
+			<Text>To Ideology Panel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_CURRENT_CULTURE_LABEL_AND_RATE">
+			<Text>Current Culture: {1_Num} [ICON_CULTURE] ({2_Num} Per Turn)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_NEXT_POLICY_COST_AND_TURN">
+			<Text>Next Policy Cost: {1_Num} [ICON_CULTURE] (in {2_Num} Turn)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICYSCREEN_NEXT_POLICY_COST_AND_TURNS">
+			<Text>Next Policy Cost: {1_Num} [ICON_CULTURE] (in {2_Num} Turns)</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

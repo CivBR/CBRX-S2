@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2019 5:53:11 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Ideological Values-->
+		<Row Tag="TXT_KEY_JFD_IDEOLOGICAL_VALUES_HEADING1_TITLE">
+			<Text>Ideological Values</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_IDEOLOGICAL_VALUES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Ideological Values[ENDCOLOR] now determine the kinds of Ideological Tenets that you can adopt later in the game.[NEWLINE][NEWLINE]Each Social Policy is associated with one of three Ideological Values: Authority, Liberty, or Equality. Your proportion of these Values determines the kinds of Tenets you can adopt when you have an Ideology. Depending on the Tenet's Level, the Tenet may require you to have 25%, 50%, or 75% of one of these Ideological Values before it is able to be adopted.[NEWLINE][NEWLINE]Each Ideology is also associated with one of the three Ideological Values. Tenets that require that Ideological Value can be adopted into the associated Ideology regardless of your Social Policy choices.[NEWLINE][NEWLINE]Civilizations that share the same Ideological Tenets have better diplomatic relations.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--IDEOLOGICAL VALUES-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_SPECIFIC_DIPLO_JFD_SHARED_IDEOLOGICAL_VALUES">
+			<Text>They like that you share the same Ideological Values as them.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--IDEOLOGICAL VALUES-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_IDEOLOGICAL_VALUE_JFD_AUTHORITY_DESC">
+			<Text>Authority</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEOLOGICAL_VALUE_JFD_EQUALITY_DESC">
+			<Text>Equality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IDEOLOGICAL_VALUE_JFD_LIBERTY_DESC">
+			<Text>Liberty</Text>
+		</Row>
+		<!--===================================================-->
+		<!--IDEOLOGICAL TENETS-->
+		<!--===================================================-->
+		<!--Cultural Revolution-->
+		<Replace Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cultural Revolution[ENDCOLOR][NEWLINE]+34% [ICON_TOURISM] Tourism to other Civilizations with this Ideology.</Text>
+		</Replace>
+		<!--National Healthcare-->
+		<Row Tag="TXT_KEY_POLICY_NATIONAL_HEALTHCARE">
+			<Text>National Healthcare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NATIONAL_HEALTHCARE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]National Healthcare[ENDCOLOR][NEWLINE]+2 [ICON_FOOD] Food from every National Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NATIONAL_HEALTHCARE_HELP_HEALTH">
+			<Text>[COLOR_POSITIVE_TEXT]National Healthcare[ENDCOLOR][NEWLINE]+2 [ICON_JFD_HEALTH] Health from every National Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NATIONAL_HEALTHCARE_TEXT">
+			<Text>National health insurance is a system of health insurance that insures a national population against the costs of health care. It may be administered by the public sector, the private sector, or a combination of both. National or Statutory health insurance does not equate to government-run or government-financed health care, but is usually established by national legislation. In some countries, such as Australia's Medicare system, the UK's National Health Service, and the South Korea’s National Health Insurance Corporation contributions to the system are made via general taxation and therefore are not optional even though use of the health system it finances is.</Text>
+		</Row>
+		<!--Private Healthcare-->
+		<Row Tag="TXT_KEY_POLICY_PRIVATE_HEALTHCARE">
+			<Text>Private Healthcare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PRIVATE_HEALTHCARE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Private Healthcare[ENDCOLOR][NEWLINE]+3 [ICON_GOLD] Gold from every National Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PRIVATE_HEALTHCARE_TEXT">
+			<Text>Private healthcare or private medicine is healthcare and medicine provided by entities other than the government. Europeans in all countries are willing to pay a charge for some private healthcare, whether to avoid long queues, to access cosmetic surgery, or to avoid the perceived risk of infection in public-sector hospitals. Healthcare tourism is also thriving within the EU, in which patients (mainly from the UK) travel to Eastern Europe for low-cost dental work. The particularly wealthy Russians and Saudi Arabians tend to go to private hospitals in Switzerland or Germany. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

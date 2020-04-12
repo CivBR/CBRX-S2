@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4c28c1b1-b15c-466b-9543-345bb498c102" version="1">
+  <Properties>
+    <Name>JFD's Rise to Power - (3) (Gameplay) Ideological Values</Name>
+    <Teaser>[COLOR_CYAN]Ideological Values[ENDCOLOR] component for Rise to Power. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Ideological Values[ENDCOLOR] now determine the kinds of Ideological Tenets that you can adopt later in the game.[NEWLINE][NEWLINE]Each Social Policy is associated with one of three Ideological Values: Authority, Liberty, or Equality. Your proportion of these Values determines the kinds of Tenets you can adopt when you have an Ideology. Depending on the Tenet's Level, the Tenet may require you to have 25%, 50%, or 75% of one of these Ideological Values before it is able to be adopted.[NEWLINE][NEWLINE]Each Ideology is also associated with one of the three Ideological Values. Tenets that require that Ideological Value can be adopted into the associated Ideology regardless of your Social Policy choices.[NEWLINE][NEWLINE]Civilizations that share the same Ideological Tenets have better diplomatic relations.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
+    <Mod id="8822c973-60de-47f8-a4f2-96045dcc468e" minversion="0" maxversion="999" title="JFD's Rise to Power - (UI) Social Policy Screen" />
+  </Dependencies>
+  <References>
+    <Mod id="c3b6e30c-3548-4fbc-9d7f-cf3025be8261" minversion="0" maxversion="999" title="JFD's Rise to Power - Nationalism" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="0551811D981DD12D928E396352BE1166" import="0">Core/IdeologicalValues_Concepts.sql</File>
+    <File md5="8267B1BF93D0575D819541BC335AB208" import="0">Core/IdeologicalValues_DiploModifiers.sql</File>
+    <File md5="2436CA28CBCF267120EFEF00609E9353" import="0">Core/IdeologicalValues_GameText.xml</File>
+    <File md5="08FB9B6576818A6C6F47C26F0D66E73F" import="0">Core/IdeologicalValues_GameText_Interface.xml</File>
+    <File md5="CF5D43A81136EFC8FA712E8F1383EE10" import="0">Core/IdeologicalValues_Master.sql</File>
+    <File md5="628E0793844A006039F7F17B7DF53D49" import="0">Core/IdeologicalValues_IdeologicalValues.sql</File>
+    <File md5="64F58809F71FF00215494DDE931C9879" import="0">Core/IdeologicalValues_IdeologicalTenets.sql</File>
+    <File md5="B29972565B17D2C1A17655A61E960E67" import="0">Core/IdeologicalValues_IdeologicalTenetsCP.sql</File>
+    <File md5="B2C253C8F2ED7BDF2717CAAB1452526D" import="0">Core/IdeologicalValues_Policies.sql</File>
+    <File md5="F3320C6D321FDF97BF8EA0AFB6E5BDA1" import="0">Core/IdeologicalValues_GameText.sql</File>
+    <File md5="7C768CA366DFB867D202CC8EA05570A1" import="0">Core/IdeologicalValues_Triggers.sql</File>
+    <File md5="F31F67B760183819C619F372E1BE9AC7" import="0">Credits.txt</File>
+    <File md5="094563EA8B6936787FBD264D9E20D4AF" import="0">Lua/JFD_IdeologicalValues_Functions.lua</File>
+    <File md5="4E185DC356276B0794110EDC04B22578" import="1">Lua/UI/InGame/Popups/ChooseIdeologyPopup.lua</File>
+    <File md5="05E6BF8341F579826D5E87AD0D5E22C5" import="1">Lua/UI/InGame/Popups/ChooseIdeologyPopup.xml</File>
+    <File md5="B96779AF08D40C6E68D9E07C7346D8B2" import="1">Lua/Utils/JFD_IdeologicalValues_Utils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/IdeologicalValues_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/IdeologicalValues_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/IdeologicalValues_DiploModifiers.sql</UpdateDatabase>
+      <UpdateDatabase>Core/IdeologicalValues_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/IdeologicalValues_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/IdeologicalValues_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/IdeologicalValues_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/IdeologicalValues_IdeologicalTenets.sql</UpdateDatabase>
+      <UpdateDatabase>Core/IdeologicalValues_IdeologicalValues.sql</UpdateDatabase>
+      <UpdateDatabase>Core/IdeologicalValues_Triggers.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_IdeologicalValues_Functions.lua">
+      <Name>JFD_IdeologicalValues_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
