@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/30/2018 10:07:04 PM -->
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_CEQUE_SYSTEM</Type>
+			<Description>TXT_KEY_BELIEF_CEQUE_SYSTEM</Description>
+			<ShortDescription>TXT_KEY_BELIEF_CEQUE_SYSTEM_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+	</Beliefs>
+	
+	<Belief_YieldChangeTradeRoute>
+		<Row>
+			<BeliefType>BELIEF_CEQUE_SYSTEM</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Belief_YieldChangeTradeRoute>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_CEQUE_SYSTEM</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_CEQUE_SYSTEM">
+			<Text>+2 [ICON_PEACE] Faith from all cities connected to the [ICON_CAPITAL] Capital. +2 [ICON_PEACE]from Caranvansaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CEQUE_SYSTEM_SHORT">
+			<Text>Ceque System</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

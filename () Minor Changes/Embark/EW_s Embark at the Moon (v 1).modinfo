@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d898e0e1-6709-4bac-9aef-7b25d25caca3" version="1">
+  <Properties>
+    <Name>EW's Embark at the Moon</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Bonus to Embarked speed.</Teaser>
+    <Description>Bonus to Embarked speed.</Description>
+    <Authors>ExplosiveWatermelon</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="1512F58B980524946D72D5F69CB6AC2C" import="0">Core/EW_EmbarkSpeed.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/EW_EmbarkSpeed.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

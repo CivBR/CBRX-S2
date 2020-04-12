@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/19/2018 5:59:29 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_DANCE_OF_THE_AURORA</Type>
+			<Description>TXT_KEY_BELIEF_DANCE_OF_THE_AURORA</Description>
+			<ShortDescription>TXT_KEY_BELIEF_DANCE_OF_THE_AURORA_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+	<Belief_TerrainYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_DANCE_OF_THE_AURORA</BeliefType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_TerrainYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_OF_THE_AURORA_SHORT">
+			<Text>Dance of the Aurora</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_OF_THE_AURORA_SHORT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Dance of the Aurora</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_OF_THE_AURORA_SHORT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Dance of the Aurora</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_OF_THE_AURORA_SHORT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Dance of the Aurora</Text>
+		</Row>
+	</Language_RU_RU>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_OF_THE_AURORA">
+			<Text>+1 [ICON_PEACE] Faith from Tundra tiles</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_OF_THE_AURORA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_PEACE] Faith from Tundra tiles</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_OF_THE_AURORA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_PEACE] Faith from Tundra tiles</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_OF_THE_AURORA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_PEACE] Faith from Tundra tiles</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

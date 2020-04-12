@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8171e745-c451-45e7-ad91-9e5c23509a0f" version="1">
+  <Properties>
+    <Name>(CBRX) Wonders</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>(CBRX) Wonders</Teaser>
+    <Description>(CBRX) Wonders</Description>
+    <Authors>Limerickarcher</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="B397D7451C695DBD54E428DF00B98652" import="1">Art/Atlases/Banaue_128.dds</File>
+    <File md5="55FC213BB17369CDC1DA22012931FF9B" import="1">Art/Atlases/Banaue_256.dds</File>
+    <File md5="DB4FE89205C19BBDDC0835E1BB0F42A7" import="1">Art/Atlases/Banaue_45.dds</File>
+    <File md5="8E409F793D08BE22214EA942E2B43F35" import="1">Art/Atlases/Banaue_64.dds</File>
+    <File md5="4C848DADDE880DBC0488F21A497E512B" import="1">Art/Atlases/Banaue_80.dds</File>
+    <File md5="7E0B48FC6381FF4E7759147122036B90" import="1">Art/Atlases/Cheomseongdae_icon128.dds</File>
+    <File md5="27DEDA10C0419F4819D2E4FCDA299307" import="1">Art/Atlases/Cheomseongdae_icon256.dds</File>
+    <File md5="CB5AF8A9576C8FAD4F1A3848DE351B8E" import="1">Art/Atlases/Cheomseongdae_icon45.dds</File>
+    <File md5="CA17A158FB73AE7108C7FE38AE099190" import="1">Art/Atlases/Cheomseongdae_icon64.dds</File>
+    <File md5="50C3BB8A8EE0134E0123128A4EE9E3F6" import="1">Art/Atlases/Cheomseongdae_icon80.dds</File>
+    <File md5="1BD39301C500962A098CB483EE11B7FC" import="1">Art/Atlases/Diwali_128.dds</File>
+    <File md5="7379CA50D1A40C1A856F77B39C84E834" import="1">Art/Atlases/Diwali_256.dds</File>
+    <File md5="1E04561279B9F91CA70F0AD6A59B2A9E" import="1">Art/Atlases/Diwali_45.dds</File>
+    <File md5="AEA9C9DEA231AAF7C077279281940844" import="1">Art/Atlases/Diwali_64.dds</File>
+    <File md5="835FD03619967004BAABCC4EB03FB8D8" import="1">Art/Atlases/Diwali_80.dds</File>
+    <File md5="3A6DC0D362440ACEDFE0E180D98355FD" import="1">Art/Atlases/Dome_128.dds</File>
+    <File md5="2EA27F648BFB1F52DC6FCE3B2E13BF56" import="1">Art/Atlases/Dome_256.dds</File>
+    <File md5="0941D22E629273F38AA4AF6DB966D433" import="1">Art/Atlases/Dome_45.dds</File>
+    <File md5="36DCF048A8BA75D46D256BFD5054417B" import="1">Art/Atlases/Dome_64.dds</File>
+    <File md5="406E4711DE3AD1EC1FB7735F88757A4B" import="1">Art/Atlases/Dome_80.dds</File>
+    <File md5="C9F84FA840748562B7E346AE6D3EBD82" import="1">Art/Atlases/Gate_Sun_128.dds</File>
+    <File md5="2FCEC9D403CA599E53222EAD77D7B1E5" import="1">Art/Atlases/Gate_Sun_256.dds</File>
+    <File md5="009C39CD6C13B36FCE183EDB7559C97D" import="1">Art/Atlases/Gate_Sun_45.dds</File>
+    <File md5="A345D2688D1B44F3BC4D9850C10C8FE0" import="1">Art/Atlases/Gate_Sun_64.dds</File>
+    <File md5="273F99C0397DB6C4B71C94E8FB46942E" import="1">Art/Atlases/Gate_Sun_80.dds</File>
+    <File md5="BC17556787859434040A86A271249798" import="1">Art/Atlases/Gobekli_128.dds</File>
+    <File md5="D91FEC760BF8882B090F6F5BB0B70AAE" import="1">Art/Atlases/Gobekli_256.dds</File>
+    <File md5="9C1E6BDEF65E0492D8470D7ABEED59C6" import="1">Art/Atlases/Gobekli_45.dds</File>
+    <File md5="F78F34CF532C346822857CA7B8F2D553" import="1">Art/Atlases/Gobekli_64.dds</File>
+    <File md5="B091AB9FEF162851182D99003BB6DF97" import="1">Art/Atlases/Gobekli_80.dds</File>
+    <File md5="04E8009248B9A3B3FA7F3A40B59CD450" import="1">Art/Atlases/Itsukushima_icon128.dds</File>
+    <File md5="2BFD22042DE506CE50D26C4576890A64" import="1">Art/Atlases/Itsukushima_icon256.dds</File>
+    <File md5="21DD3FBF6D5D337552C5ED898BCBA817" import="1">Art/Atlases/itsukushima_icon45.dds</File>
+    <File md5="126CC626DF64B31D3F8CD85A017B539D" import="1">Art/Atlases/itsukushima_icon64.dds</File>
+    <File md5="EAA414AA92DDC3EED34675168BEFC552" import="1">Art/Atlases/itsukushima_icon80.dds</File>
+    <File md5="4CF124B08B58E395ABC301809B312E53" import="1">Art/Atlases/Lalibela_icon128.dds</File>
+    <File md5="A5417B1976CA6CEC37534380712DB3EB" import="1">Art/Atlases/Lalibela_icon256.dds</File>
+    <File md5="A69C32F3A50AAF0E776569C55FD7E5EB" import="1">Art/Atlases/Lalibela_icon45.dds</File>
+    <File md5="05306E7B3990CDCFBDB84426BD54F89F" import="1">Art/Atlases/Lalibela_icon64.dds</File>
+    <File md5="0706BE2550EFB345E2EACAC321B9466B" import="1">Art/Atlases/Lalibela_icon80.dds</File>
+    <File md5="329E3555725B0F5407F71D9BF88AF937" import="1">Art/Atlases/Madol_128.dds</File>
+    <File md5="77EFA6A869CA62C64065EA8B8665ABCB" import="1">Art/Atlases/Madol_256.dds</File>
+    <File md5="ECC9D00502780A56869AAC5D36D222C8" import="1">Art/Atlases/Madol_45.dds</File>
+    <File md5="3DA82861BEB065031892D18DACD7F973" import="1">Art/Atlases/Madol_64.dds</File>
+    <File md5="469BAA8F1BDA4992B517AD74F4B82EDE" import="1">Art/Atlases/Madol_80.dds</File>
+    <File md5="BBD8B991A6F4916CA43AD93D0EDAFC6A" import="1">Art/Atlases/Pena_icon128.dds</File>
+    <File md5="15977B8C36378C7E7DBA61F4A1D28879" import="1">Art/Atlases/Pena_icon256.dds</File>
+    <File md5="C200CD1B83EDA6BD80D247F631859D77" import="1">Art/Atlases/Pena_icon45.dds</File>
+    <File md5="04F60426CBDDBE40FD326317593569F4" import="1">Art/Atlases/Pena_icon64.dds</File>
+    <File md5="37202475916EAD09B73165B777113640" import="1">Art/Atlases/Pena_icon80.dds</File>
+    <File md5="DB73656DF97C8DF03309075229E59164" import="1">Art/Atlases/Sagrada_icon128.dds</File>
+    <File md5="91AD055D05B31C92BFCC18EFC089E3D0" import="1">Art/Atlases/Sagrada_icon256.dds</File>
+    <File md5="C6F768874F95404A4C30814A41A8982A" import="1">Art/Atlases/Sagrada_icon45.dds</File>
+    <File md5="6CE4713214B85FB9EDB5773853845EBC" import="1">Art/Atlases/Sagrada_icon64.dds</File>
+    <File md5="CA44198BFB53373844B4863AC24F6DCA" import="1">Art/Atlases/Sagrada_icon80.dds</File>
+    <File md5="18E536F20979C4ED392273E3170207FA" import="1">Art/Atlases/Shwedagon_128.dds</File>
+    <File md5="7FFB52B7785421891FCE9BF92A74EE44" import="1">Art/Atlases/Shwedagon_256.dds</File>
+    <File md5="245BD5A3AB9D8A794D4646A8B5ABC58F" import="1">Art/Atlases/Shwedagon_45.dds</File>
+    <File md5="33A79D5B30E06ECBA56D6E3FAA33D3E8" import="1">Art/Atlases/Shwedagon_64.dds</File>
+    <File md5="E0869C4829ED9F550DFD3BB062010294" import="1">Art/Atlases/Shwedagon_80.dds</File>
+    <File md5="49A8A9526429A51388C5B8859E294EA7" import="1">Art/Atlases/skytower_icon128.dds</File>
+    <File md5="3459583D40BB84BD7388DBE2AE48CC9D" import="1">Art/Atlases/skytower_icon256.dds</File>
+    <File md5="F54328298558AD532431326D7EBDDDEC" import="1">Art/Atlases/skytower_icon45.dds</File>
+    <File md5="0B8F0F837059844DC364FA32391418FC" import="1">Art/Atlases/skytower_icon64.dds</File>
+    <File md5="EA03B8004576AA152651A3976F13275F" import="1">Art/Atlases/skytower_icon80.dds</File>
+    <File md5="EBE8F78C7A77B3D362C8711F14DB2CB5" import="1">Art/Atlases/Stone_Town_128.dds</File>
+    <File md5="98D694550545FE85C46D983E12325447" import="1">Art/Atlases/Stone_Town_256.dds</File>
+    <File md5="130407E0400BC151B82C0756F46F68CE" import="1">Art/Atlases/Stone_Town_45.dds</File>
+    <File md5="9746C29DF3DC839A5E3064FD659DDD93" import="1">Art/Atlases/Stone_Town_64.dds</File>
+    <File md5="BF733704F830412809514BFB9D905EC6" import="1">Art/Atlases/Stone_Town_80.dds</File>
+    <File md5="A01865136E1FAEB681B514C4F9EC2B30" import="1">Art/Atlases/Taktsang_128.dds</File>
+    <File md5="1B86CD2DD983A82EFB0700D010D8DD87" import="1">Art/Atlases/Taktsang_256.dds</File>
+    <File md5="CB54C355088B0F98559B80D23B40F72B" import="1">Art/Atlases/Taktsang_45.dds</File>
+    <File md5="E2B043D270F4C6EBCDEAD6E1EE809963" import="1">Art/Atlases/Taktsang_64.dds</File>
+    <File md5="BDFDAAA2C83F56714454C7095A14A198" import="1">Art/Atlases/Taktsang_80.dds</File>
+    <File md5="FBC97C021A2845486727081FF42392D0" import="1">Art/Atlases/Templo_icon128.dds</File>
+    <File md5="20396AB4051688C58C73ADBF5A09A1E3" import="1">Art/Atlases/Templo_icon256.dds</File>
+    <File md5="4D432C382C4BB5A04F37CD93F3934246" import="1">Art/Atlases/Templo_icon45.dds</File>
+    <File md5="6A2C7C9DAF695ACE22A03D77F48146EC" import="1">Art/Atlases/Templo_icon64.dds</File>
+    <File md5="9783E3E4BAFEA34B3DB6317647A3DF01" import="1">Art/Atlases/Templo_icon80.dds</File>
+    <File md5="416E66A4E5443FCE77587EE1CF658D11" import="1">Art/Atlases/Venice_128.dds</File>
+    <File md5="85C08348B32AB8DBAEC6BA3570A29B48" import="1">Art/Atlases/Venice_256.dds</File>
+    <File md5="F71251F1F640118E4A933336C21FE0D9" import="1">Art/Atlases/Venice_45.dds</File>
+    <File md5="DED2DDD25807C919DD0AE935B3942C68" import="1">Art/Atlases/Venice_64.dds</File>
+    <File md5="441383499BB9D7D3AF9AF6247CB273F3" import="1">Art/Atlases/Venice_80.dds</File>
+    <File md5="41BA80ADC3D2C7B8D16BF45ACC0B88A8" import="1">Art/Splashes/Banaue_splash.dds</File>
+    <File md5="53E6C746AFF1A1F3CA8720C9B089C263" import="1">Art/Splashes/Cheomseongdae_splash.dds</File>
+    <File md5="4E45D1082E4445693E89C89B928CC682" import="1">Art/Splashes/Dome_Splash.dds</File>
+    <File md5="0253DD8F078B3CEA97880F36ACBF5DBD" import="1">Art/Splashes/Gate_Sun_splash.dds</File>
+    <File md5="1A3296336D45AC69FE5A69F863386C82" import="1">Art/Splashes/Gobekli_Splash.dds</File>
+    <File md5="4D41D2ACB0F41AC15546E4A3BE880011" import="1">Art/Splashes/Harmandir_splash.dds</File>
+    <File md5="F77821B86DA8AC9D54CA06E6ED67D843" import="1">Art/Splashes/Itsukushima_splash.dds</File>
+    <File md5="A5B9766792F8F673340A7C62B05F032A" import="1">Art/Splashes/Itsukushima_splash_a.dds</File>
+    <File md5="A308111417EEA4D7012DF90D347CEAFD" import="1">Art/Splashes/Lalibela_splash.dds</File>
+    <File md5="11F2835840DC86AC1D3ABE3E877EEAF6" import="1">Art/Splashes/Madol_splash.dds</File>
+    <File md5="0EA858557CCFDCE595FA9CFFE0901897" import="1">Art/Splashes/Mahadeva_splash.dds</File>
+    <File md5="9253EC513261509779873E7C2A2C656A" import="1">Art/Splashes/Pena_splash.dds</File>
+    <File md5="8A098B8E34F2EEC71617DEC547D97F41" import="1">Art/Splashes/Sagrada_splash.dds</File>
+    <File md5="618CC87325E5F1B3A8863B8F1D5B69C9" import="1">Art/Splashes/Sagrada_splash_a.dds</File>
+    <File md5="919386579AACA20B89EE285FB5DBF308" import="1">Art/Splashes/Shwedagon_splash.dds</File>
+    <File md5="EFAFE296B46E4FF87AAC098840A2EF4C" import="1">Art/Splashes/Skytower_splash.dds</File>
+    <File md5="0AE7A9C84F101B3E8AD561A976376ACE" import="1">Art/Splashes/Skytower_splash_a.dds</File>
+    <File md5="4E28328BB1A1023111F2FE2EA4888AB4" import="1">Art/Splashes/Stone_Town_splash.dds</File>
+    <File md5="62E77C5CCDB9A5E5FA109C6BD4045BD8" import="1">Art/Splashes/Taktsang_splash.dds</File>
+    <File md5="D5C6E052CA9DB4EAEF4E6638DFAEDC12" import="1">Art/Splashes/Templo_splash.dds</File>
+    <File md5="A2F55FD80DAC250E7660B2CC41BFFA64" import="1">Art/Splashes/Venice_splash.dds</File>
+    <File md5="170E51C29C43C992BC57C9125207B3A4" import="0">ParoTaktsang_Code.lua</File>
+    <File md5="0DDD7D5008ED49514BE4B6F426CEE70E" import="0">Wonders_BuildingClasses.xml</File>
+    <File md5="269DCEF8C4C9C39FEFCCE6662E5CBEE1" import="0">Wonders_Buildings.xml</File>
+    <File md5="2E3E8CB395C04E5BFB2616E2E09D46C2" import="0">Wonders_EffectsFlavorsTechs.sql</File>
+    <File md5="BF6BB2CD7BB54C7CC3E7F39F76304A7F" import="0">Wonders_Text.xml</File>
+    <File md5="AA4A73C41B230BE2EBD67B86DCC637C7" import="0">Wonders_Textures.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Wonders_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>Wonders_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Wonders_EffectsFlavorsTechs.sql</UpdateDatabase>
+      <UpdateDatabase>Wonders_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Wonders_Textures.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

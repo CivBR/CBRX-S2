@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2013 5:29:18 PM -->
+<GameData>
+	<Technologies>
+		<Update>
+			<Where Type="TECH_COMPUTERS"/>
+			<Set GridY="5" />
+		</Update>
+		<Update>
+			<Where Type="TECH_ROCKETRY"/>
+			<Set GridY="7" />
+		</Update>
+		<Update>
+			<Where Type="TECH_TELECOM"/>
+			<Set GridY="2" />
+		</Update>
+		<Update>
+			<Where Type="TECH_MOBILE_TACTICS"/>
+			<Set GridY="3" />
+		</Update>
+		<Update>
+			<Where Type="TECH_ROBOTICS"/>
+			<Set GridY="4" />
+		</Update>
+		<Update>
+			<Where Type="TECH_SATELLITES"/>
+			<Set GridY="6" />
+		</Update>
+		<Update>
+			<Where Type="TECH_ADVANCED_BALLISTICS"/>
+			<Set GridY="8" />
+		</Update>
+		<Update>
+			<Where Type="TECH_LASERS"/>
+			<Set GridY="5" />
+		</Update>
+		<Update>
+			<Where Type="TECH_INTERNET"/>
+			<Set GridY="3" />
+		</Update>
+		<Update>
+			<Where Type="TECH_INTERNET"/>
+			<Set InfluenceSpreadModifier="0" />
+		</Update>
+		<Update>
+			<Where Type="TECH_GLOBALIZATION"/>
+			<Set ExtraVotesPerDiplomat="0" />
+		</Update>
+		<Update>
+			<Where Type="TECH_GLOBALIZATION"/>
+			<Set InternationalTradeRoutesChange="1" />
+		</Update>
+		<Update>
+			<Where Type="TECH_PARTICLE_PHYSICS"/>
+			<Set GridY="5" />
+		</Update>
+		<Update>
+			<Set GridX="20" />
+			<Where Type="TECH_NANOTECHNOLOGY" />
+		</Update>
+		<Update>
+			<Set GridY="6" />
+			<Where Type="TECH_NANOTECHNOLOGY" />
+		</Update>
+		<Update>
+			<Set Cost="16000" />
+			<Where Type="TECH_NANOTECHNOLOGY" />
+		</Update>
+		<Update>
+			<Set Era="ERA_FW_FUTURE" />
+			<Where Type="TECH_NANOTECHNOLOGY" />
+		</Update>
+		<Update>
+			<Set GridX="19" />
+			<Where Type="TECH_NUCLEAR_FUSION" />
+		</Update>
+		<Update>
+			<Set GridY="7" />
+			<Where Type="TECH_NUCLEAR_FUSION" />
+		</Update>
+		<Update>
+			<Set Cost="13500" />
+			<Where Type="TECH_NUCLEAR_FUSION" />
+		</Update>
+		<Update>
+			<Set Era="ERA_FW_FUTURE" />
+			<Where Type="TECH_NUCLEAR_FUSION" />
+		</Update>
+		<!--
+		<Update>
+			<Set GridX="21" />
+			<Where Type="TECH_FUTURE_TECH" />
+		</Update>
+		-->
+		<Update>
+			<Set GridY="5" />
+			<Where Type="TECH_FUTURE_TECH" />
+		</Update>
+		<Update>
+			<Set Cost="28000" />
+			<Where Type="TECH_FUTURE_TECH" />
+		</Update>
+		<Update>
+			<Set Era="ERA_FW_FUTURE" />
+			<Where Type="TECH_FUTURE_TECH" />
+		</Update>
+	</Technologies>
+	<Technology_PrereqTechs>
+		<Delete TechType="TECH_COMPUTERS"/>
+		<Row>
+			<TechType>TECH_COMPUTERS</TechType>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_ROCKETRY"/>
+		<Row>
+			<TechType>TECH_ROCKETRY</TechType>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ROCKETRY</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TELECOM</TechType>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_MOBILE_TACTICS"/>
+		<Row>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_ROBOTICS"/>
+		<Row>
+			<TechType>TECH_ROBOTICS</TechType>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ROBOTICS</TechType>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_SATELLITES"/>
+		<Row>
+			<TechType>TECH_SATELLITES</TechType>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SATELLITES</TechType>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_ADVANCED_BALLISTICS"/>
+		<Row>
+			<TechType>TECH_ADVANCED_BALLISTICS</TechType>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_LASERS"/>
+		<Row>
+			<TechType>TECH_LASERS</TechType>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_INTERNET"/>
+		<Row>
+			<TechType>TECH_INTERNET</TechType>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNET</TechType>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNET</TechType>
+			<PrereqTech>TECH_ROBOTICS</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_PARTICLE_PHYSICS"/>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<PrereqTech>TECH_ROBOTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+		</Row>
+		<!--
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<PrereqTech>TECH_SATELLITES</PrereqTech>
+		</Row>
+		-->
+		<Delete TechType="TECH_STEALTH"/>
+		<Row>
+			<TechType>TECH_STEALTH</TechType>
+			<PrereqTech>TECH_SATELLITES</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_STEALTH</TechType>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_NANOTECHNOLOGY"/>
+		<Row>
+			<TechType>TECH_NANOTECHNOLOGY</TechType>
+			<PrereqTech>TECH_AUTONOMOUS_SYSTEMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NANOTECHNOLOGY</TechType>
+			<PrereqTech>TECH_QUANTUM_COMPUTERS</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_NUCLEAR_FUSION"/>
+		<Row>
+			<TechType>TECH_NUCLEAR_FUSION</TechType>
+			<PrereqTech>TECH_QUANTUM_COMPUTERS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NUCLEAR_FUSION</TechType>
+			<PrereqTech>TECH_ORBITAL_DEV</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_FUTURE_TECH"/>
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_HOMO_SUPERIOR</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_COMPUTRONIUM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_SPACE_COLONIZATION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+</GameData>

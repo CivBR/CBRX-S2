@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy for robk on 10/15/2010 10:33:02 PM -->
+
+<Context Color0="Beige" Color1="Black,256" Font="TwCenMT14" FontStyle="Shadow" >
+
+  <Box Size="990,650" Anchor="C,C" Offset="0,42" Color="White.0" ID="FactBookPanel">
+
+    <!-- Vertical Seperator -->
+    <Box Size="165,534" Anchor="L,T" Offset="0,75" Padding="0,0" Color="White.0" >
+      <Image Anchor="R,C" AnchorSide="o,i" Texture="VerticalTrim.dds" Size="5,534" />
+    </Box>
+
+    <!-- Scroll panel that acts as the key and the empire selector for highlighting -->
+    <ScrollPanel Anchor="L,T" Offset="15,75" Size="167,500" Vertical="1" ID="ListScrollPanel" AutoScrollBar="1" >
+
+      <ScrollBar Offset="0,18" Style="VertSlider" Anchor="R,T" Length="464" ID="LeftScrollBar"/>
+      <UpButton  Offset="0,0"  Style="ScrollBarUp"  Anchor="R,T" ID="LeftUpButton"/>
+      <DownButton Offset="0,0" Style="ScrollBarDown"  Anchor="R,B" ID="LeftDownButton"/>
+
+      <!-- This is the main stack, holding the child stacks for the empire data and world rankings -->
+      <Stack Anchor="L,T" Offset="0,0" StackGrowth="Bottom" Padding="0" ID="BigOleStack" >
+
+        <Button ID="RankingButton" Size="147,27" TextAnchor="L,C" >
+          <Grid   Size="147,27" Offset="0,0" Padding="0,0" Style="Grid9FrameTurns" />
+          <ShowOnMouseOver>
+            <AlphaAnim Anchor="L,C" Size="147,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+              <Grid   Size="147,27" Offset="0,0" Padding="0,0" Style="Grid9FrameTurnsHL" />
+            </AlphaAnim>
+          </ShowOnMouseOver>
+        </Button>
+        <Stack Anchor="L,T" Offset="0,0" StackGrowth="Bottom" Padding="0" ID="RankingStack" />
+
+        <Button ID="EmpireButton" Size="147,27" TextAnchor="L,C"  >
+          <Grid   Size="147,27" Offset="0,0" Padding="0,0" Style="Grid9FrameTurns" />
+          <ShowOnMouseOver>
+            <AlphaAnim Anchor="L,C" Size="147,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+              <Grid   Size="147,27" Offset="0,0" Padding="0,0" Style="Grid9FrameTurnsHL" />
+            </AlphaAnim>
+          </ShowOnMouseOver>
+        </Button>
+        <Stack Anchor="L,T" Offset="0,0" StackGrowth="Bottom" Padding="0" ID="EmpireStack" />
+
+      </Stack>
+
+    </ScrollPanel>
+
+    <!-- Right Panel Ranking Panel -->
+    <Box Anchor="L,T" Offset="179,76" Size="811,561" Color="0,0,0,0" ID="RankRightSide" Hidden="1" >
+      <Box Color="White.0" Anchor="C,T" Offset="0,30" Size="600,470" ID="RankingBox" >
+        
+        <!-- The Title -->
+        <Label Anchor="C,T" Offset="0,0" Font="TwCenMT22" String="" ID="RankTitle" />
+
+        <!-- Table Headers-->
+        <Grid Anchor="L,T" Offset="0,30"  Style="WindowGrid" Size="580,24"  >
+          <Stack Anchor="L,T" StackGrowth="Right" Offset="0,0" Padding="0" ID="RankRowHeaderStack">
+
+            <Box Anchor="L,C" Size="100,24" Color="White.0" >
+              <Label Anchor="C,C" Offset="0,-2" Font="TwCenMT18" String="TXT_KEY_INFOADDICT_HEADER_RANK" />
+            </Box>
+
+            <Box Anchor="L,C" Size="250,24" Color="White.0" >
+              <Label Anchor="C,C" Offset="0,-2"  Font="TwCenMT18" String="TXT_KEY_INFOADDICT_HEADER_EMPIRE" />
+            </Box>
+
+            <Box Anchor="L,C" Size="250,24" Color="White.0" >
+              <Label Anchor="C,C" Offset="0,-2"  Font="TwCenMT18" String="TXT_KEY_INFOADDICT_HEADER_VALUE" ID="RankValueHeader" />
+            </Box>
+
+          </Stack>
+        </Grid>
+        
+        <!-- The scrolling stack that holds the table items -->
+        <ScrollPanel Anchor="L,T" Offset="0,54" Size="600,400" Vertical="1" ID="RankRowScrollPanel" AutoScrollBar="1" >
+          <ScrollBar Offset="0,18" Style="VertSlider" Anchor="R,T" Length="364" ID="RankRowScrollBar"/>
+          <UpButton  Offset="0,0"  Style="ScrollBarUp"  Anchor="R,T" ID="RankRowUpButton"/>
+          <DownButton Offset="0,0" Style="ScrollBarDown"  Anchor="R,B" ID="RankRowDownButton"/>
+          
+          <Stack Anchor="L,T" Offset="0,0" StackGrowth="Bottom" Padding="0" ID="RankRowMainStack" />
+        </ScrollPanel>
+        
+      </Box>
+        
+    </Box>
+
+    <!-- Right Panel Empire Stats Panel -->
+    <Box Anchor="L,T" Offset="179,76" Size="811,561" Color="0,0,0,0" ID="EmpireStatsRightSide" Hidden="1" >
+      <Box Color="White.0" Anchor="C,T" Offset="0,0" Size="600,530" ID="EmpireStatsBox" >
+
+        <!-- The leader icon -->
+        <Image Anchor="L,T" Offset="75,0" Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds" Size="128,128" ID="LeaderIconFrame">
+          <Image Anchor="C,C" Offset="0,0" Size="128,128" ID="LeaderIcon"/>
+        </Image>
+        
+        <!-- The civ icon -->
+        <Image Anchor="R,T" Offset="125,0" TextureOffset="0.0"  Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds" Size="128,128" ID="CivIconFrame">
+          <Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="128,128" ID="CivIcon"/>
+        </Image>
+
+        <!-- The scrolling stack that holds the table items -->
+        <ScrollPanel Anchor="L,T" Offset="40,135" Size="600,380" Vertical="1" ID="EmpireStatsScrollPanel" AutoScrollBar="1" >
+          <ScrollBar Offset="0,18" Style="VertSlider" Anchor="R,T" Length="380" ID="EmpireStatsScrollBar"/>
+          <UpButton  Offset="0,0"  Style="ScrollBarUp"  Anchor="R,T" ID="EmpireStatsUpButton"/>
+          <DownButton Offset="0,0" Style="ScrollBarDown"  Anchor="R,B" ID="EmpireStatsButton"/>
+          <Stack Anchor="L,T" Offset="0,0" StackGrowth="Bottom" Padding="0" ID="EmpireStatsMainStack" />
+        </ScrollPanel>
+
+        <!-- Buttons for choosing the empire stats -->
+        <TextButton Anchor="L,B" Offset="-60,10" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_INFOADDICT_PREVIOUS" ID="EmpireBackButton" Hidden="1">
+          <ShowOnMouseOver>
+            <Label Anchor="L,C" Offset="0,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" Color="70.130.180.255" FontStyle="Shadow" String="TXT_KEY_INFOADDICT_PREVIOUS" />
+          </ShowOnMouseOver>
+        </TextButton>
+
+        <TextButton Anchor="L,B" Offset="600,10" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_INFOADDICT_NEXT" ID="EmpireForwardButton" Hidden="1">
+          <ShowOnMouseOver>
+            <Label Anchor="L,C" Offset="0,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" Color="70.130.180.255" FontStyle="Shadow" String="TXT_KEY_INFOADDICT_NEXT" />
+          </ShowOnMouseOver>
+        </TextButton>
+
+      </Box>
+    </Box>
+  </Box>
+
+
+  <!-- Instance of a table ranking item in the left menu -->
+  <Instance Name="RankingButtonInstance" >
+    <Button Anchor="L,C" Size="147,38" Offset="0,0" ID="RankButton" >
+      <Label Anchor="C,C"  Offset="0,0"  Font="TwCenMT14"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="" ID="RankLabel" />
+
+      <ShowOnMouseOver>
+        <AlphaAnim Anchor="C,C" Size="147,44" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+          <Grid Anchor="C,C" Size="147,44" Offset="0,0" Padding="0,0" Style="Grid9FrameTurnsHL" />
+        </AlphaAnim>
+      </ShowOnMouseOver>
+
+      <Box Color="255,255,200,128" Size="147,1" Anchor="C,B" />
+    </Button>
+  </Instance>
+  
+
+  <!-- Instance of a empire key item  -->
+  <Instance Name="EmpireKeyInstance" >
+    <Button Anchor="L,C" Size="147,38" Offset="2,0" ID="EmpireKeyButton" >
+      <Box Color="255,255,255,0" Anchor="L,T" Offset="0,0" Size="32,32" >
+        <Image ID="CivIconBG" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds" />
+        <Image ID="CivIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+        <Image ID="CivIcon" Size="24.24" Offset="0,0"  Anchor="C,C" Texture="CivSymbolsColor256.dds" />
+      </Box>
+      <Label Anchor="L,T"  Offset="34,15"  Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="" ID="CivLabel" />
+
+      <ShowOnMouseOver>
+        <AlphaAnim Anchor="C,C" Size="147,44" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+          <Grid Anchor="C,C" Size="147,44" Offset="0,0" Padding="0,0" Style="Grid9FrameTurnsHL" />
+        </AlphaAnim>
+      </ShowOnMouseOver>
+
+      <!-- The little line between empires -->
+      <Box Color="255,255,200,128" Size="147,1" Anchor="L,B" ID="EmpireKeyBorder"/>
+
+    </Button>
+  </Instance>
+
+  <!-- Instance of a ranking item (row) -->
+  <Instance Name="RankRow" >
+    <Box Anchor="C,T" Offset="0,0"  Size="600,32" Color="White.0" >
+      <Stack Anchor="L,T" StackGrowth="Right" Offset="0,0" Padding="0" >
+
+        <!-- The Rank -->
+        <Container Anchor="L,C" Size="100,32" >
+          <Label Anchor="C,C" Offset="0,0" ID="RankRowRank" WrapWidth="100" />
+        </Container>
+
+        <Container Anchor="L,C" Size="250,32" >
+          <Stack Anchor="L,T" StackGrowth="Right" Offset="50,0" Padding="5" ID="LittleCivStack">
+            <Box Color="255,255,255,0" Anchor="L,C" Offset="0,0" Size="32,32" >
+              <Image ID="RankRowIconBG" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds" />
+              <Image ID="RankRowIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+              <Image ID="RankRowIcon" Size="24.24" Offset="0,0"  Anchor="C,C" Texture="CivSymbolsColor256.dds" />
+            </Box>
+            <TextButton Anchor="L,C"  Offset="0,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="RankRowEmpire" >
+              <ShowOnMouseOver>
+                <Label Anchor="L,C" Offset="0,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" Color="70.130.180.255" FontStyle="Shadow" ID="RankRowEmpireHighlight" />
+              </ShowOnMouseOver>
+            </TextButton>
+          </Stack>
+        </Container>
+
+        <Box Anchor="L,C" Size="250,32"  ID="ValueTT" Color="White.0">
+          <Label Anchor="C,C" Offset="0,0" ID="RankRowValue" WrapWidth="250"/>
+        </Box>
+
+      </Stack>
+    </Box>
+  </Instance>
+
+  <!-- Instance of an empire stat row -->
+  <Instance Name="StatRow" >
+    <Box Anchor="C,T" Offset="0,0" Size="600,24" Color="White.0" ID="StatRowBox">
+      <Stack Anchor="L,T" StackGrowth="Right" Offset="0,0" Padding="0" >
+
+        <!-- The name -->
+        <Box Anchor="L,C" Size="250,24" Color="White.0" ID="StatRowNameBox">
+          <TextButton Anchor="L,C"  Offset="0,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="StatRowName" >
+            <ShowOnMouseOver>
+              <Label Anchor="L,C" Offset="0,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" Color="70.130.180.255" FontStyle="Shadow" ID="StatRowNameHighlight" />
+            </ShowOnMouseOver>
+          </TextButton>
+        </Box>
+
+        <!-- The value -->
+        <Box Anchor="L,C" Size="220,24" Color="White.0" ID="StatRowValueBox">   
+            <Label Anchor="L,C" Offset="0,0" ID="StatRowValue" WrapWidth="220"/>
+        </Box>
+
+        <!-- The ranking (if applicable) -->
+        <Box Anchor="L,C" Size="50,24" Color="White.0" ID="StatRowRankBox">
+          <Label Anchor="C,C" Offset="0,0" String="" ID="StatRowRank" WrapWidth="50"/>
+        </Box>
+
+      </Stack>
+    </Box>
+  </Instance>
+  
+</Context>

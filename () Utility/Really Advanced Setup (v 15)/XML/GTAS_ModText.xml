@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_REGION_UNDEFINED">
+			<Text>No Region</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_REGION_TUNDRA">
+			<Text>Tundra</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_REGION_JUNGLE">
+			<Text>Jungle</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_REGION_FOREST">
+			<Text>Forest</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_REGION_DESERT">
+			<Text>Desert</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_REGION_HILLS">
+			<Text>Hills</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_REGION_PLAINS">
+			<Text>Plains</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_REGION_GRASS">
+			<Text>Grass</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_REGION_HYBRID">
+			<Text>Hybrid</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_GTAS_UNKNOWN_PLAYERS_1">
+			<Text>UNKNOWN NUMBER OF PLAYERS</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_GTAS_UNKNOWN_PLAYERS_2">
+			<Text>(GO TO THE MAP PANEL TO EDIT NUMBER OF PLAYERS)</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_GTAS_NAME_YOUR_CIV">
+			<Text>Name Your Civilization</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_GTAS_NAME_OTHER_CIV">
+			<Text>Name This Civilization</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+

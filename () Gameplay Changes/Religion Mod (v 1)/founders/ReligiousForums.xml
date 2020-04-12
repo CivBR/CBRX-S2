@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/17/2018 12:13:53 AM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_RELIGIOUS_FORUMS</Type>
+			<Description>TXT_KEY_BELIEF_RELIGIOUS_FORUMS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_RELIGIOUS_FORUMS_SHORT</ShortDescription>
+			<Founder>true</Founder>
+			<MinFollowers>10</MinFollowers>
+		</Row>
+	</Beliefs>
+
+	<Belief_CityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_FORUMS</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Belief_CityYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_FORUMS">
+			<Text>+5 [ICON_CULTURE] Culture in cities with 10 followers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_FORUMS_SHORT">
+			<Text>Religious Forums</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

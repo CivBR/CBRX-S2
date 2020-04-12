@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/31/2019 10:21:24 PM -->
+<GameData>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_REFORMATION_HELP"/>
+		<Row Tag="TXT_KEY_POLICY_REFORMATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Reformation[ENDCOLOR][NEWLINE]If you've founded a religion, gain a bonus Reformation belief. If you haven't founded a religion and you control the Holy City of your Capital City's Religion, become the Reformation founder of that Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_REFORMATION_TITLE">
+			<Text>Reformation!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_REFORMATION_DESC">
+			<Text>The religious authorities of {1_relicon:textkey} {2_reldesc:textkey} have fallen to ruin and obsolesence. {3_playername:textkey} has initiated a Reformation of {1_relicon:textkey} {2_reldesc:textkey}, and now {3_playername:textkey} alone will benefit from the Founder Beliefs of {1_relicon:textkey} {2_reldesc:textkey}.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

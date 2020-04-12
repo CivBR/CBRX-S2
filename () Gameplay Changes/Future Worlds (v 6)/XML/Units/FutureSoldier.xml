@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2013 1:07:51 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_FUTURE_SOLDIER</Type>
+			<Description>TXT_KEY_UNIT_FUTURE_SOLDIER</Description>
+			<DefaultUnit>UNIT_FUTURE_SOLDIER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_FUTURE_SOLDIER</Class>
+			<Type>UNIT_FUTURE_SOLDIER</Type>		
+			<PrereqTech>TECH_NANOMATERIALS</PrereqTech>
+			<Combat>105</Combat>
+			<Cost>450</Cost>
+			<FaithCost>900</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FUTURE_SOLDIER</Description>
+			<Civilopedia>TXT_KEY_CIVIL_UNIT_FUTURE_SOLDIER</Civilopedia>
+			<Strategy>TXT_KEY_STRATEGY_UNIT_FUTURE_SOLDIER</Strategy>
+			<Help>TXT_KEY_HELP_UNIT_FUTURE_SOLDIER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>7</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_FW_CYBORG</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_FUTURE_SOLDIER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FUTURE_SOLDIER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FUTURE_SOLDIER</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FUTURE_SOLDIER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_FUTURE_SOLDIER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FUTURE_SOLDIER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FUTURE_SOLDIER</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+			<UnitClassType>UNITCLASS_FUTURE_SOLDIER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVIL_UNIT_FUTURE_SOLDIER">
+			<Text>Fast, basic unit of the future that requires no special resources to build.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FUTURE_SOLDIER">
+			<Text>Power Armor Infantry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STRATEGY_UNIT_FUTURE_SOLDIER">
+			<Text>Fast, basic Unit of the future that requires no special resources to build.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HELP_UNIT_FUTURE_SOLDIER">
+			<Text>Fast, basic Unit of the future that requires no special resources to build.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

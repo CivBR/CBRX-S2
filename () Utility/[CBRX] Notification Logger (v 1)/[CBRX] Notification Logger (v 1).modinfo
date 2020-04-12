@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="81bbb3df-1025-4690-a203-e8ef98c76d95" version="1">
+  <Properties>
+    <Name>[CBRX] Notification Logger</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Notifiation extraction into database.</Teaser>
+    <Description>Notifiation extraction into database.</Description>
+    <Authors>Coiot, Limaeus</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8B84DA7DE8576A8C072117430C9C0B2C" import="0">CBRX_NotifLogger.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="CBRX_NotifLogger.lua">
+      <Name>[CBRX] Notification Logger</Name>
+      <Description>Notificaton Exporter</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

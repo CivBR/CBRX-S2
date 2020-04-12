@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bae9cd9d-95bc-4bb0-a08a-d252b0c23860" version="22">
+  <Properties>
+    <Name>[BNW] LS Civilization Set IX</Name>
+    <Teaser>Adds Gallic Tribes, Qin Empire and Tahitians.</Teaser>
+    <Description>Mod is created for and tested on GK + BNW.
+
+Credits:
+Beautiful Dreams by Adrian von Ziegler.
+Wolf Blood by Adrian von Ziegler.</Description>
+    <Authors>LastSword</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D4C781B234A598403E629F67570FA1BD" import="1">EmptyFolder/AlphaLS9Atlas24.dds</File>
+    <File md5="CAC18B779676125B0148289B200A63D7" import="1">EmptyFolder/AlphaLS9Atlas32.dds</File>
+    <File md5="7CF63746F7C7890A159AEA49A5A92BF8" import="1">EmptyFolder/AlphaLS9Atlas48.dds</File>
+    <File md5="D102BE759A0B1698E77B0EC9BE34C337" import="1">EmptyFolder/AlphaLS9Atlas64.dds</File>
+    <File md5="65DD7545C36D045FEFC3874FADB831C2" import="1">EmptyFolder/BuildingLS9Atlas128.dds</File>
+    <File md5="51C11E7309CC938E7F8CD0797CC784E4" import="1">EmptyFolder/BuildingLS9Atlas256.dds</File>
+    <File md5="A5D3681FD3327CD2395CD55CB0456FEF" import="1">EmptyFolder/BuildingLS9Atlas45.dds</File>
+    <File md5="A14EAD5BA383516649CB60E93835EB69" import="1">EmptyFolder/BuildingLS9Atlas64.dds</File>
+    <File md5="574B56B07CEF0C0502702151ECF93EDB" import="1">EmptyFolder/CivLS9Atlas128.dds</File>
+    <File md5="52D0F3FB1120FE8F1E5E20C5FBAD187A" import="1">EmptyFolder/CivLS9Atlas256.dds</File>
+    <File md5="4EA8689172304B99101E084FC9CEB47A" import="1">EmptyFolder/CivLS9Atlas32.dds</File>
+    <File md5="044002F68D47233F377EF02D2C739EAB" import="1">EmptyFolder/CivLS9Atlas45.dds</File>
+    <File md5="B501825DDC153593EEB0248FDF04E38A" import="1">EmptyFolder/CivLS9Atlas64.dds</File>
+    <File md5="4267093E5B3435A1605B6AEC74C9FCEC" import="1">EmptyFolder/CivLS9Atlas80.dds</File>
+    <File md5="E2A4B3AD4631326F0B21789463296536" import="1">EmptyFolder/LeaderLS9Atlas128.dds</File>
+    <File md5="11BD4090F3FBEDD75928B15833198384" import="1">EmptyFolder/LeaderLS9Atlas256.dds</File>
+    <File md5="C3CC61DB1018D8357DEF06F274CB5B58" import="1">EmptyFolder/LeaderLS9Atlas64.dds</File>
+    <File md5="2E1804EDFE6206503C6AA5979981DF33" import="0">EmptyFolder/LS9 Atlas Mod.xml</File>
+    <File md5="341EC204707EB93953497F235E07073F" import="1">EmptyFolder/UnitLS9Atlas128.dds</File>
+    <File md5="43CE8EE6E5BC0C88AA86640577280C80" import="1">EmptyFolder/UnitLS9Atlas256.dds</File>
+    <File md5="74F5AB4135C8363FEADC444449C824CC" import="1">EmptyFolder/UnitLS9Atlas45.dds</File>
+    <File md5="270B3388A066B45733EC2E3F40728BAB" import="1">EmptyFolder/UnitLS9Atlas64.dds</File>
+    <File md5="54ABC05437B447ECA4E9E7EAD51774B1" import="1">EmptyFolder/UnitLS9Atlas80.dds</File>
+    <File md5="C3F16A4526629A433CC2FCF6D1B9FF60" import="0">QinEmpire/Diplomacy.sql</File>
+    <File md5="2ACA0568C9202CA9B2A979B18969F805" import="1">QinEmpire/DiploQinLSMod.dds</File>
+    <File md5="AA9E3AD4F48EFE0961E051A191B4A846" import="1">QinEmpire/DoMQinLSMod.dds</File>
+    <File md5="5BC4916881908D6413B72E70508E609F" import="1">QinEmpire/QinLSWarTheme.mp3</File>
+    <File md5="414B6718BCC286835B934B5903F79D22" import="1">QinEmpire/QinLSPeaceTheme.mp3</File>
+    <File md5="AC8500A2D3ED2ACB4D9A02D988101988" import="1">QinEmpire/MapQinLSMod.dds</File>
+    <File md5="D9661DFE199DE715317290F726D164EA" import="0">QinEmpire/Model/QinInfantryArtDefine.sql</File>
+    <File md5="BBA3A6ECEF075E0E9151139450483951" import="1">QinEmpire/Model/Spearman_China_v2.blend</File>
+    <File md5="0FE64EFC7974F3F642E19DEEF3292A5E" import="1">QinEmpire/Model/Spearman_China_v2.dds</File>
+    <File md5="2BA0C200E5D1C6D28F2E5C68D741C028" import="1">QinEmpire/Model/Spearman_China_v2.fxsxml</File>
+    <File md5="D29CB667751A2E9254ED2280585CAEA3" import="1">QinEmpire/Model/Spearman_China_v2.gr2</File>
+    <File md5="F383C339EF00230B193C61534DB41877" import="1">QinEmpire/Model/Spearman_China_v2_gloss.dds</File>
+    <File md5="0E1785F2D697781561086FA2841235F6" import="1">QinEmpire/QinLSTraitCode.lua</File>
+    <File md5="431923D28189E930D9CAC828A4894DFC" import="0">QinEmpire/QinLSUnitCode.lua</File>
+    <File md5="ED44CA5B1197DA254926A5DD91AC6867" import="0">QinEmpire/Qin Building Mod.xml</File>
+    <File md5="FE98DC7FB03238C6BEF36FEFF41649BE" import="0">QinEmpire/Qini Civ Mod.xml</File>
+    <File md5="8514F9A5C957F36EC5A8B4534DCB7591" import="0">QinEmpire/Qin Game Text Mod.xml</File>
+    <File md5="E3A5739A70B1FCEDE7D1F717A2AB7647" import="0">QinEmpire/Qin Leader Mod.xml</File>
+    <File md5="2EB96BCAA17A545975D471FBAEA65957" import="0">QinEmpire/Qin Units Mod.xml</File>
+    <File md5="7E1A8BAE1E148CE6A21714B718D558FC" import="1">QinEmpire/QinUnitAlphaAtlas.dds</File>
+    <File md5="72369091D60777E6B655D2389E98F8E1" import="1">QinEmpire/Qin_Leader_Scene_LS_Mod.xml</File>
+    <File md5="BA7B90A2EF6EF6FB7E27431E17D14AEA" import="1">QinEmpire/QinLSBuildingCode.lua</File>
+    <File md5="E33354A7929AB1874CFB617E2526BB74" import="1">QinEmpire/SV_QinLS.dds</File>
+    <File md5="FE37FCAA969C9334A5921049C6551019" import="0">Tahitians/Tahiti Building Mod.xml</File>
+    <File md5="9D2AC92AC29A574282F4E41577CCF021" import="1">Tahitians/LSTahitiPeaceTheme.mp3</File>
+    <File md5="D705486FA300B7FBD62E9B2ACF321A80" import="0">Tahitians/Diplomacy.sql</File>
+    <File md5="7A760F291BDF2BA0857B5535C5454338" import="1">Tahitians/DiploTahitiLSMod.dds</File>
+    <File md5="552BCF33F585AAEBE6EFBDF7766E6251" import="1">Tahitians/DoMTahitiLSMod.dds</File>
+    <File md5="7585C1BDF157EA8DC9B58AA7678A03EA" import="1">Tahitians/LSTahitiWarTheme.mp3</File>
+    <File md5="080BFB1A0C98C87811C143FB999072EA" import="1">Tahitians/TahitianLSTraitCode.lua</File>
+    <File md5="A3FE342EA5FB7EB1119CE1F25A1C71A8" import="0">Tahitians/TahitiArtDefine.sql</File>
+    <File md5="F932A79D8C2FEA99C27299B117565BEC" import="1">Tahitians/SV_Tahiti2LS.dds</File>
+    <File md5="F30F60C77A094FBBCCBB3D28E5F0D64D" import="1">Tahitians/SV_TahitiLS.dds</File>
+    <File md5="BC410AC84323DC3526D6E454E875826C" import="0">Tahitians/TahitianLSUnitCode.xml</File>
+    <File md5="EB6D3EA3D68F4EAA13864E01C343707B" import="0">Tahitians/Tahiti Game Text Mod.xml</File>
+    <File md5="A3D1608C1336E579A30EB55760763F95" import="0">Tahitians/TahitianLSUnitCode.lua</File>
+    <File md5="3751208166F4F6A210FE3ABD6A3EE1AC" import="1">Tahitians/TahitiUnitAlphaAtlas.dds</File>
+    <File md5="B88DC12D794A6ABD4929242473AEFC32" import="1">Tahitians/TahitiUnitAlphaAtlas2.dds</File>
+    <File md5="8E2916BF4D5C2CE2A09A17BF711790FE" import="1">Tahitians/Tahiti_Leader_Scene_LS_Mod.xml</File>
+    <File md5="6BC152FEC54B57DFEF643D4F30F98937" import="0">Tahitians/Tahiti Leader Mod.xml</File>
+    <File md5="CE08711EF98FE3BC562A05B2CC44633C" import="0">Tahitians/Tahiti Civ Mod.xml</File>
+    <File md5="EAD83278FA67EA2F12F8A0017D3754C6" import="1">Tahitians/MapTahitiLSMod.dds</File>
+    <File md5="6B1AE46434D391C62C6875FBE05D554D" import="0">Tahitians/Tahiti Units Mod.xml</File>
+    <File md5="AFDD7D355A097C358C0667FE07AA710D" import="1">Tahitians/TahitianLSBuildingCode.lua</File>
+    <File md5="250FA4E260938B5D5F911EDFE2CC8049" import="1">TheGauls/BeautifulDreamsAdrianvonZiegler.mp3</File>
+    <File md5="D0FFA6BEE9E50984CFA7610E19DE7EF4" import="1">TheGauls/DiploGalliaLSMod.dds</File>
+    <File md5="086A2719DE8DCB9AE55E3984DD2E97AF" import="0">TheGauls/Diplomacy.sql</File>
+    <File md5="36A51C3D4AEB5E201C29AF87336563A3" import="1">TheGauls/DoMGalliaLSMod.dds</File>
+    <File md5="C2E8C12730BC6415258EC5EC899AEB54" import="1">TheGauls/LSSaveUtils.lua</File>
+    <File md5="1EF70C7E2669FA6A9509D7735F979F18" import="1">TheGauls/MapGalliaLSMod.dds</File>
+    <File md5="CF35EF5675294678F84A23D8018799EE" import="0">TheGauls/GalliaArtDefine.sql</File>
+    <File md5="8BE40AF32EAB7CE6FC5670FCC31376A7" import="1">TheGauls/SV_GalliaLS.dds</File>
+    <File md5="0F7ABD14F7FF0613F3164559B8013E62" import="1">TheGauls/GalliaLSBuildingCode.lua</File>
+    <File md5="27C17AF4B594A017E40804CEF0479B8D" import="1">TheGauls/WolfBloodAdrianvonZiegler.mp3</File>
+    <File md5="6FBE5D3259988ADE76B03D4A3E17D901" import="1">TheGauls/GalliaUnitAlphaAtlas.dds</File>
+    <File md5="C70F933F6C2FF3F952D9695F6E44F055" import="0">TheGauls/GalliaLSUnitCode.lua</File>
+    <File md5="737D779B9DFFF92A5D9F97C8E117E073" import="0">TheGauls/Galia Building Mod.xml</File>
+    <File md5="BB0B3B52B5D281D06F3D8ED17F073D2D" import="0">TheGauls/Gallia Civ Mod.xml</File>
+    <File md5="A17DFA123F1A310B3AA5184FB79C8DDE" import="0">TheGauls/Gallia Game Text Mod.xml</File>
+    <File md5="770447B0E93A5B613346EBED9BEA57D8" import="0">TheGauls/Gallia Leader Mod.xml</File>
+    <File md5="C5D8A8AE7D3C4B8700A812329F0EF84B" import="0">TheGauls/Gallia Units Mod.xml</File>
+    <File md5="BACEAC83705CA4ACAD4EC5BCE4D375B0" import="1">TheGauls/Galia_Leader_Scene_LS_Mod.xml</File>
+    <File md5="F0DFCEDBC6739498B64646D0247044B7" import="1">TheGauls/GalliaLSTraitCode.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>EmptyFolder/LS9 Atlas Mod.xml</UpdateDatabase>
+      <UpdateDatabase>TheGauls/Gallia Civ Mod.xml</UpdateDatabase>
+      <UpdateDatabase>TheGauls/Gallia Leader Mod.xml</UpdateDatabase>
+      <UpdateDatabase>TheGauls/Gallia Units Mod.xml</UpdateDatabase>
+      <UpdateDatabase>TheGauls/Gallia Game Text Mod.xml</UpdateDatabase>
+      <UpdateDatabase>TheGauls/Galia Building Mod.xml</UpdateDatabase>
+      <UpdateDatabase>Tahitians/Tahiti Civ Mod.xml</UpdateDatabase>
+      <UpdateDatabase>Tahitians/Tahiti Game Text Mod.xml</UpdateDatabase>
+      <UpdateDatabase>Tahitians/Tahiti Leader Mod.xml</UpdateDatabase>
+      <UpdateDatabase>Tahitians/Tahiti Units Mod.xml</UpdateDatabase>
+      <UpdateDatabase>QinEmpire/Model/QinInfantryArtDefine.sql</UpdateDatabase>
+      <UpdateDatabase>QinEmpire/Qin Building Mod.xml</UpdateDatabase>
+      <UpdateDatabase>QinEmpire/Qin Game Text Mod.xml</UpdateDatabase>
+      <UpdateDatabase>QinEmpire/Qin Leader Mod.xml</UpdateDatabase>
+      <UpdateDatabase>QinEmpire/Qin Units Mod.xml</UpdateDatabase>
+      <UpdateDatabase>QinEmpire/Qini Civ Mod.xml</UpdateDatabase>
+      <UpdateDatabase>Tahitians/TahitiArtDefine.sql</UpdateDatabase>
+      <UpdateDatabase>TheGauls/GalliaArtDefine.sql</UpdateDatabase>
+      <UpdateDatabase>Tahitians/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>TheGauls/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>QinEmpire/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Tahitians/Tahiti Building Mod.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="TheGauls/GalliaLSUnitCode.lua">
+      <Name>Workololo</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Tahitians/TahitianLSUnitCode.lua">
+      <Name>VanillaSky</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="QinEmpire/QinLSUnitCode.lua">
+      <Name>Empire</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

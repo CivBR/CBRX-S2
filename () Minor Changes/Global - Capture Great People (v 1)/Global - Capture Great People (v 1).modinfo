@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0f96f649-aaf6-45f3-9b5c-65010eac2669" version="1">
+  <Properties>
+    <Name>Global - Capture Great People</Name>
+    <Teaser>Great People are either captured (GA/GW/GM), provide a boost to the player (GE/GS/GM) or a bonus to the unit (GG/GA)</Teaser>
+    <Description>Great People are either captured (GA/GW/GM), provide a boost to the capturing player (GE/GS/GM) or a bonus to the capturing unit (GG/GA)</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="87" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="B63709E23395236ECE3667D732519809" import="0">LUA/GlobalCaptureGreatPeople.lua</File>
+    <File md5="861365DD4C9EEBD71FB9962354B0FEFE" import="0">SQL/GlobalCaptureGreatPeople.sql</File>
+    <File md5="52C9BCE55B1F9DA23A8C2100D35CCEBD" import="1">UI/CaptureGpNotification.lua</File>
+    <File md5="18EFC708A70B5C1BE586D568824F1AE4" import="1">UI/CaptureGpNotification.xml</File>
+    <File md5="896D347CD6B65C5A7766BA4840C7B0B5" import="0">XML/GlobalCaptureGreatPeople.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/GlobalCaptureGreatPeople.sql</UpdateDatabase>
+      <UpdateDatabase>XML/GlobalCaptureGreatPeople.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/GlobalCaptureGreatPeople.lua">
+      <Name>GlobalCaptureGreatPeople</Name>
+      <Description>GlobalCaptureGreatPeople</Description>
+    </EntryPoint>
+    <EntryPoint type="CustomNotificationAddin" file="UI/CaptureGpNotification.lua">
+      <Name>Capture GP Notification</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

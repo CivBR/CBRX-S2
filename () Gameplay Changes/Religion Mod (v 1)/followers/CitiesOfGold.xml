@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2018 11:02:31 PM -->
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_CITIES_OF_GOLD</Type>
+			<Description>TXT_KEY_BELIEF_CITIES_OF_GOLD</Description>
+			<ShortDescription>TXT_KEY_BELIEF_CITIES_OF_GOLD_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+	</Beliefs>
+
+	<Belief_YieldChangeWorldWonder>
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Belief_YieldChangeWorldWonder>
+
+	<Belief_BuildingClassYieldChanges>
+		<!-- Circus Maximus -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- East India Company -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Grand Temple -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Hermitage -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Heroic Epic -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Ironworks -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_IRONWORKS</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National College -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_COLLEGE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National Epic -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National Intelligence Agency -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National Visitor Center -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TOURIST_CENTER</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Oxford University -->
+		<Row>
+			<BeliefType>BELIEF_CITIES_OF_GOLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_CITIES_OF_GOLD">
+			<Text>+3 [ICON_GOLD] Gold from National and World Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CITIES_OF_GOLD_SHORT">
+			<Text>Cities Of Gold</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

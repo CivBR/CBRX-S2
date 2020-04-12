@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hover Help Text for Really Advanced Setup Mod -->
+<GameData>
+	<Language_en_US>
+		
+		<!-- Start Bonuses +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_START_BIAS_HELP">
+			<Text>
+This option allows you to set the start bias for this player.
+The game only creates a limited number of starting plots so the actual starting location is not guaranteed.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_GOLD_HELP">
+			<Text>Player will start with this amount of Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_GOLD_SLIDER_HELP">
+			<Text>Player will start with this amount of Gold. The value can be fine-tuned using the scroll wheel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_COPY_GOLD_HELP">
+			<Text>Copy this starting Gold value to all other players.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_CULTURE_HELP">
+			<Text>Player will start with this amount of Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_CULTURE_SLIDER_HELP">
+			<Text>Player will start with this amount of Culture. The value can be fine-tuned using the scroll wheel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_COPY_CULTURE_HELP">
+			<Text>Copy this starting Culture value to all other players.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_FAITH_HELP">
+			<Text>
+Player will start with this amount of Faith. (Must have Gods & Kings or Brave New World expansion pack.)
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_FAITH_SLIDER_HELP">
+			<Text>
+Player will start with this amount of Faith. (Must have Gods & Kings or Brave New World expansion pack.)
+The game may use all remaining Faith when creating the first prophet.
+The value can be fine-tuned using the scroll wheel.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_COPY_FAITH_HELP">
+			<Text>Copy this starting Faith value to all other players. (Must have Gods & Kings or Brave New World expansion pack.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_TECH_HELP">
+			<Text>Player will start with this number of Free Technologies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_TECH_SLIDER_HELP">
+			<Text>Player will start with this number of Free Technologies. The value can be fine-tuned using the scroll wheel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_COPY_TECH_HELP">
+			<Text>Copy this Free Technologies value to all other players.</Text>
+		</Row>
+
+
+		<!-- Terrain +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_TERRAIN_COUNT_HELP">
+			<Text>The number of Terrain plots that will be added by this command (if possible).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_TERRAIN_LAND_WATER_HELP">
+			<Text>Water can not be changed to Land and Land can not be changed to Water unless this box is checked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_TERRAIN_PLACEMENT_HELP">
+			<Text>This determines how the mod will search for a suitable tile when placing Terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_TERRAIN_MIN_DISTANCE_HELP">
+			<Text>Terrain will be placed at least this far from the player's starting position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_TERRAIN_MAX_DISTANCE_HELP">
+			<Text>Terrain will be placed no further than this distance from the player's starting position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_TERRAIN_ELEVATION_HELP">
+			<Text>Use these buttons to control the elevation when creating Terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_TERRAIN_NO_ELEVATION_HELP">
+			<Text>The currently selected Terrain has no elevation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_ADD_TERRAIN_HELP">
+			<Text>Adds a Resource command to this list using the current settings.</Text>
+		</Row>
+
+
+		<!-- Features +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_FEATURE_COUNT_HELP">
+			<Text>The number of Features that will be added by this command (if possible).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_REPLACE_FEATURE_HELP">
+			<Text>The command will only replace existing features if this box is checked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_FEATURE_PLACEMENT_HELP">
+			<Text>This determines how the mod will search for a suitable tile when placing Features.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_FEATURE_MIN_DISTANCE_HELP">
+			<Text>Features will be placed at least this far from the player's starting position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_FEATURE_MAX_DISTANCE_HELP">
+			<Text>Features will be placed no further than this distance from the player's starting position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_ADD_FEATURE_HELP">
+			<Text>Adds a Feature command to this list using the current settings.</Text>
+		</Row>
+
+
+		<!-- Resources +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_RESOURCE_COUNT_HELP">
+			<Text>The number of Resources that will be added by this command (if possible).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_RESOURCE_RELAXED_HELP">
+			<Text>
+Normally Resource placement is limited by Terrain, Hills, and Features.
+If this box is checked then some of these limits will be ignored.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_RESOURCE_PLACEMENT_HELP">
+			<Text>This determines how the mod will search for a suitable tile when placing a Resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_RESOURCE_MIN_DISTANCE_HELP">
+			<Text>Resources will be placed at least this far from the player's starting position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_RESOURCE_MAX_DISTANCE_HELP">
+			<Text>Resources will be placed no further than this distance from the player's starting position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_RESOURCE_TYPE_HELP">
+			<Text>Use these buttons to control what appears in the Resource menu.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_ADD_RESOURCE_HELP">
+			<Text>Adds a Resource command to this list using the current settings.</Text>
+		</Row>
+
+
+		<!-- Wonders +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_WONDER_COUNT_HELP">
+			<Text>The number of Natural Wonders that will be added by this command (if possible).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_WONDER_SPRINKLES_HELP">
+			<Text>If this box is checked then the command will sprinkle a random number of resources around the Natural Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_WONDER_PLACEMENT_HELP">
+			<Text>This determines how the mod will search for a suitable tile when placing a Natural Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_WONDER_MIN_DISTANCE_HELP">
+			<Text>Natural Wonders will be placed at least this far from the player's starting position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_WONDER_MAX_DISTANCE_HELP">
+			<Text>Natural Wonders will be placed no further than this distance from the player's starting position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_MAX_COPIES_WONDER_HELP">
+			<Text>Click here to go to Map Panel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_ADD_WONDER_HELP">
+			<Text>Adds a Natural Wonder command to this list using the current settings.</Text>
+		</Row>
+
+
+		<!-- Units +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_UNIT_COUNT_HELP">
+			<Text>This number of Units that will be added by this command (if possible).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_UNIT_EXPERIENCE_HELP">
+			<Text>Units will be given this amount of experience.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_SHOW_FUTURE_HELP">
+			<Text>If this box is checked then Units from eras that are later than the currently selected start era will be shown in the Unit menu.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_SHOW_UNIQUE_HELP">
+			<Text>If this box is checked then unique Units that are normally not available for the currently selected civilization will be shown in the Unit menu.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_UNIT_TYPES_HELP">
+			<Text>Use these buttons to control what appears in the Unit menu.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_SHOW_NON_COMBAT_HELP">
+			<Text>If this box is checked only non combat Units will be shown in the Unit menu.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_SHOW_BOTH_HELP">
+			<Text>If this box is checked both combat and non-combat Units will be shown in the Unit menu.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_ADD_UNIT_HELP">
+			<Text>Adds a Unit command to this list using the current settings.</Text>
+		</Row>
+
+		<!-- Advanced Setup Panel +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_RESET_ALL_PANELS_HELP">
+			<Text>Set all values in ALL panels to their default values.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_GO_BACK_HELP">
+			<Text>Go back to previous screen.</Text>
+		</Row>
+
+		<!-- Civ Panel +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_AD_AI_HELP">
+			<Text>Adds another AI Civilization to the game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_RESET_CIV_PANEL_HELP">
+			<Text>Set all Civilizations options to their default values.</Text>
+		</Row>
+
+
+		<!-- Civ Bonus Panel +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_EDIT_CIV_NAME_HELP">
+			<Text>This opens up the Edit Player Name box which allows you to change this Player's Leader and Civilization names.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_RESET_ALL_CIV_NAME_HELP">
+			<Text>
+This resets all player name's back to their default value.
+This button is disabled when all players are using their default names.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_PREVIOUS_PLAYER_HELP">
+			<Text>Moves to the previous player in the player list.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_NEXT_PLAYER_HELP">
+			<Text>Moves to the next player in the player list.</Text>
+		</Row>
+
+
+		<!-- Map Bonus Panel +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_RESET_MAP_BONUS_PANEL_HELP">
+			<Text>Set all Map Bonus options to their default values.</Text>
+		</Row>
+
+
+		<!-- Map Panel +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_CITYSTATES_HELP">
+			<Text>
+This controls the number of City States that will appear on the map.
+This option is not available when Random Map Size is selected.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_VISIBILITY_HELP">
+			<Text>
+This affects how much of the map is visible to each player when the game starts.
+The value indicates the distance in plots from the player's starting position.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_VISIBILITY_MAP_HELP">
+			<Text>This causes the whole map to be visible for all players when the game starts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_DISABLE_ALL_NW_HELP">
+			<Text>This disables ALL Natural Wonders in the game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_DISABLE_OTHER_NW_HELP">
+			<Text>This disables all Natural Wonders not created by this mod.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_WONDER_MAX_COPIES_HELP">
+			<Text>Use this to set the maximum number of copies allowed for each type of Natural Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_ACTIVE_CIV_HELP">
+			<Text>Only selected Civs will appear in the game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_RESET_MAP_PANEL_HELP">
+			<Text>Set all Map options to their default values.</Text>
+		</Row>
+
+
+		<!-- Game Panel +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_OPTIONAL_SETTLERS_HELP">
+			<Text>
+Selecting this option will allow a game to be played where one or more Civs start without settlers.
+You achieve this by manually creating the player's starting units in the edit player panel and omitting settlers.
+Any player without a starting settler that starts in a isolated position where they have no cities to attack will be given a settler.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_DISABLE_NUKES_HELP">
+			<Text>
+Selecting this option disables building the Manhattan Project and nuclear weapons.
+Nuclear weapons can still be given manually to players by using the player unit panel in this mod.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_RESET_GAME_PANEL_HELP">
+			<Text>Set all Game options to their default values.</Text>
+		</Row>
+
+
+		<!-- Misc. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+		<Row Tag="TXT_KEY_GTAS_MOD_TITLE_HELP">
+			<Text>Really Advanced Setup Mod by General Tso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_COPY_COMMANDS_HELP">
+			<Text>Copy this command list to all other players.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GTAS_CLEAR_COMMANDS_HELP">
+			<Text>Remove all commands from this list.</Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>
+
+
+
+

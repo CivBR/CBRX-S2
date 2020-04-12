@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2018 6:00:45 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_ITAL</Type>
+			<Description>TXT_KEY_BELIEF_ITAL</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ITAL_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_ITAL</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ITAL</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ITAL</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_ITAL">
+			<Text>+2 [ICON_PEACE] Faith, +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture for Granaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ITAL_SHORT">
+			<Text>Ital</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

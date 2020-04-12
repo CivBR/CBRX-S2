@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context ColorSet="Beige_Black" Font="TwCenMT18" FontStyle="Shadow" >
+
+	<Box ID="BonusPanel" Anchor="C,B" Offset="0,91" Size="951,300" Color="Black" >
+
+		<Box ID="BonusBorder1" Anchor="C,C" Offset="0,0" Size="947,425" Color="122,122,122,128" >
+
+			<Box ID="BonusBorder2" Anchor="C,C" Offset="0,0" Size="945,423" Color="Black" >
+
+				<!--<Label Anchor="C,T" Offset="0,15" Color0="Beige" Font="TwCenMT24" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="Player Bonuses" />-->
+
+				<!-- Start Bias Box -->
+				<Box Anchor="C,T" Offset="0,8" Size="906,68" Color="122,122,122,128" >
+
+					<Box Anchor="C,C"  Offset="0,0" Size="904,66" Color="0,0,0,255" >
+
+						<!--Start Bias -->
+						<Box Anchor="L,C" Offset="15,0" Size="296,60" Color="122,122,122,128" >
+
+							<Box Anchor="C,C"  Offset="0,0" Size="294,58" Color="0,0,0,255" >
+
+								<Label ID="StartBiasLabel" Anchor="L,C"  Offset="20,-2"  String="Start Bias" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ToolTip="TXT_KEY_GTAS_START_BIAS_HELP" />
+								<PullDown ID="StartBiasPulldown" Anchor="R,C" Offset="20,0"  Size="150,28" Style="GenericPullDown" ScrollThreshold="240" AutoSizePopUp="0" SpaceForScroll="0" />
+								<!--<PullDown ID="RegionOnePulldown" Anchor="L,T" Offset="290,16"  Size="170,28" Style="GenericPullDown" ScrollThreshold="240" AutoSizePopUp="1" SpaceForScroll="0" />-->
+								<!--<PullDown ID="RegionTwoPulldown" Anchor="L,T" Offset="480,16"  Size="170,28" Style="GenericPullDown" ScrollThreshold="240" AutoSizePopUp="1" SpaceForScroll="0" />-->
+								<!--<PullDown ID="RegionThreePulldown" Anchor="L,T" Offset="670,16"  Size="170,28" Style="GenericPullDown" ScrollThreshold="240" AutoSizePopUp="1" SpaceForScroll="0" />-->
+
+							</Box>
+
+						</Box>
+
+						<!--Regions -->
+						<Box Anchor="R,C" Offset="15,0" Size="560,60" Color="122,122,122,128" >
+
+							<Box Anchor="C,C"  Offset="0,0" Size="558,58" Color="0,0,0,255" >
+
+								<Image ID="NoRegionsLine" Anchor="C,C" Offset="0,0" Size="460,1" Texture="HorizontalTrim.dds" />
+
+								<!--<Label ID="StartBiasLabel" Anchor="L,T"  Offset="10,20"  String="Start Bias" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ToolTip="TXT_KEY_GTAS_START_BIAS_HELP" />-->
+								<!--<PullDown ID="StartBiasPulldown" Anchor="L,T" Offset="100,16"  Size="170,28" Style="GenericPullDown" ScrollThreshold="240" AutoSizePopUp="0" SpaceForScroll="0" />-->
+								<PullDown ID="RegionOnePulldown" Anchor="L,C" Offset="20,0"  Size="150,28" Style="GenericPullDown" ScrollThreshold="240" AutoSizePopUp="1" SpaceForScroll="0" />
+								<PullDown ID="RegionTwoPulldown" Anchor="C,C" Offset="0,0"  Size="150,28" Style="GenericPullDown" ScrollThreshold="240" AutoSizePopUp="1" SpaceForScroll="0" />
+								<PullDown ID="RegionThreePulldown" Anchor="R,C" Offset="20,0"  Size="150,28" Style="GenericPullDown" ScrollThreshold="240" AutoSizePopUp="1" SpaceForScroll="0" />
+
+							</Box>
+
+						</Box>
+
+					</Box>
+
+				</Box>
+
+				<!-- Civ Bonus Box -->
+				<Box Anchor="C,T" Offset="0,86" Size="906,324" Color="122,122,122,128" >
+
+					<Box Anchor="C,C"  Offset="0,0" Size="904,322" Color="0,0,0,255" >
+
+						<Stack Anchor="C,T" Padding="0" StackGrowth="Bottom">
+
+							<Container Anchor="C,T" Size="902,80" >
+
+								<Label Anchor="C,T" Offset="0,11" Color0="Beige" Font="TwCenMT24" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="Gold" ToolTip="TXT_KEY_GTAS_GOLD_SLIDER_HELP" />
+								<Label Anchor="L,B" Offset="30,22" Color0="Gold" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="[ICON_GOLD]" ToolTip="TXT_KEY_GTAS_GOLD_SLIDER_HELP" />
+								<Label ID="GoldValue" Anchor="R,B" Offset="780,21" Color0="Gold" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" ToolTip="TXT_KEY_GTAS_GOLD_SLIDER_HELP" />
+								<Slider ID="GoldSlider" Anchor="L,B" Offset="150,11" Length="530" Style="Slider" WheelSteps="0.1" />
+
+								<GridButton ID="CopyGold" Anchor="R,B" Offset="30,17" Size="150,27" Style="SmallButton" ToolTip="TXT_KEY_GTAS_COPY_GOLD_HELP" >
+									<Label Anchor="C,C"  Offset="0,-2"  String="Copy To All Civs" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+								</GridButton>
+
+								<Image Anchor="C,B" Offset="0,0" Texture="bar900x2.dds" Size="900,1" />
+
+							</Container>
+
+							<Container Anchor="C,T" Size="902,80" >
+
+								<Label Anchor="C,T" Offset="0,11" Color0="Beige" Font="TwCenMT24" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="Culture" ToolTip="TXT_KEY_GTAS_CULTURE_SLIDER_HELP" />							
+								<Label Anchor="L,B" Offset="30,21" Color0="Culture" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="[ICON_CULTURE]" ToolTip="TXT_KEY_GTAS_CULTURE_SLIDER_HELP" />
+								<Label ID="CultureValue" Anchor="R,B" Offset="780,20" Color0="Culture" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" ToolTip="TXT_KEY_GTAS_CULTURE_SLIDER_HELP" />
+								<Slider ID="CultureSlider" Anchor="L,B" Offset="150,11" Length="530" Style="Slider" WheelSteps="0.1" />
+
+								<GridButton ID="CopyCulture" Anchor="R,B" Offset="30,17" Size="150,27" Style="SmallButton" ToolTip="TXT_KEY_GTAS_COPY_CULTURE_HELP" >
+									<Label Anchor="C,C"  Offset="0,-2"  String="Copy To All Civs" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+								</GridButton>
+
+								<Image Anchor="C,B" Offset="0,0" Texture="bar900x2.dds" Size="900,1" />
+
+							</Container>
+
+							<Container Anchor="C,T" Size="902,80" >
+
+								<Label Anchor="C,T" Offset="0,11" Color0="Beige" Font="TwCenMT24" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="Faith" ToolTip="TXT_KEY_GTAS_FAITH_SLIDER_HELP" />
+								<Label Anchor="L,B" Offset="30,21" Color0="Beige" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="[ICON_PEACE]" ToolTip="TXT_KEY_GTAS_FAITH_SLIDER_HELP" />
+								<Label ID="FaithValue" Anchor="R,B" Offset="780,20" Color0="Beige" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" ToolTip="TXT_KEY_GTAS_FAITH_SLIDER_HELP" />
+								<Slider ID="FaithSlider" Anchor="L,B" Offset="150,11" Length="530" Style="Slider" WheelSteps="0.1" />
+
+								<GridButton ID="CopyFaith" Anchor="R,B" Offset="30,17" Size="150,27" Style="SmallButton" ToolTip="TXT_KEY_GTAS_COPY_FAITH_HELP" >
+									<Label Anchor="C,C"  Offset="0,-2"  String="Copy To All Civs" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+								</GridButton>
+
+								<Image Anchor="C,B" Offset="0,0" Texture="bar900x2.dds" Size="900,1" />
+
+							</Container>
+
+							<Container Anchor="C,T" Size="902,80" >
+
+								<Label Anchor="C,T" Offset="0,11" Color0="Beige" Font="TwCenMT24" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="Free Techs" ToolTip="TXT_KEY_GTAS_TECH_SLIDER_HELP" />
+								<Label Anchor="L,B" Offset="30,21" Color0="Science" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="[ICON_RESEARCH]" ToolTip="TXT_KEY_GTAS_TECH_SLIDER_HELP" />
+								<Label ID="TechValue" Anchor="R,B" Offset="780,20" Color0="Science" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" ToolTip="TXT_KEY_GTAS_TECH_SLIDER_HELP" />
+								<Slider ID="TechSlider" Anchor="L,B" Offset="150,11" Length="530" Style="Slider" WheelSteps="2.1" />
+
+								<GridButton ID="CopyTech" Anchor="R,B" Offset="30,17" Size="150,27" Style="SmallButton" ToolTip="TXT_KEY_GTAS_COPY_TECH_HELP" >
+									<Label Anchor="C,C"  Offset="0,-2"  String="Copy To All Civs" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+								</GridButton>
+
+							</Container>
+
+						</Stack>
+
+					</Box>
+
+				</Box>
+
+			</Box>
+
+		</Box>
+
+	</Box>
+	
+</Context>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-26 00:15:53 -->
+<GameData>
+	
+	<!-- Gold gifts to City States earn 25% more Influence. -->
+	<Beliefs>
+		<Update>
+			<Set Reformation="false" Founder="true" CityStateInfluenceModifier="25" />
+			<Where Type="BELIEF_CHARITABLE_MISSIONS" />
+		</Update>
+	</Beliefs>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
+		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
+			<Text>Influence boosts from [ICON_GOLD] Gold gifts to City-States are increased by 25%</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
+		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Influence boosts from [ICON_GOLD] Gold gifts to City-States are increased by 25%</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
+		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Influence boosts from [ICON_GOLD] Gold gifts to City-States are increased by 25%</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
+		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Influence boosts from [ICON_GOLD] Gold gifts to City-States are increased by 25%</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

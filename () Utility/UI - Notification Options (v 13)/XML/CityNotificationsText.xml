@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_GROWTH" Text="City Growth (Population)"/>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_GROWTH_HEADING">
+      <Text>{1_CityName} has grown!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_GROWTH_TEXT">
+      <Text>The City of {1_CityName} now has {2_Pop} [ICON_CITIZEN] Citizens! The new Citizen will automatically work the land near the City for additional [ICON_FOOD] Food, [ICON_PRODUCTION] Production or [ICON_GOLD] Gold.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_TILE" Text="City Growth (Land)"/>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_TILE_HEADING">
+      <Text>{1_CityName} has claimed a new tile!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_TILE_TEXT">
+      <Text>The City of {1_CityName} has claimed a new tile for [ICON_CITIZEN] to work on!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_TILE_EMPIRE_HEADING">
+      <Text>New tile claimed!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_TILE_EMPIRE_TEXT">
+      <Text>A new tile was claimed by your empire. It isn't workable by any cities, however.</Text>
+    </Row>
+  </Language_en_US>
+
+  <Language_DE_DE>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_GROWTH" Text="City Growth (Population)"/>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_GROWTH_HEADING">
+      <Text>Die Stadt {1_CityName} ist gewachsen!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_GROWTH_TEXT">
+      <Text>Die Stadt {1_CityName} hat nun {2_Pop} [ICON_CITIZEN] B&#252;rger! Neue B&#252;rger bewirtschaften automatisch das Land rund um die Stadt, um mehr [ICON_FOOD] Nahrung, [ICON_PRODUCTION] Produktion oder [ICON_GOLD] Gold zu produzieren.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_TILE" Text="City Growth (Land)"/>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_TILE_HEADING">
+      <Text>Die Grenzen der Stadt {1_CityName} haben sich geweitet!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_TILE_TEXT">
+      <Text>Die Stadt {1_CityName} hat ausreichend Kultur erlangt, um ein neues Gel&#228;ndefeld zu &#252;bernehmen!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_TILE_EMPIRE_HEADING">
+      <Text>Die Grenzen eurer Zivilisation haben sich geweitet!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NOTIFICATIONS_TILE_EMPIRE_TEXT">
+      <Text>Eure Zivilisation hat ausreichend Kultur erlangt, um ein neues Gel&#228;ndefeld zu &#252;bernehmen, das jedoch von keinem [ICON_CITIZEN] B&#252;rger bewirtschaftet werden kann!</Text>
+    </Row>
+  </Language_DE_DE>
+</GameData>
+  

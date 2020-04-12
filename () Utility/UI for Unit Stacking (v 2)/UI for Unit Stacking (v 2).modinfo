@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4b658069-2986-462a-9b47-f66b7418f83d" version="2">
+  <Properties>
+    <Name>UI for Unit Stacking</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>UI for Unit Stacking</Teaser>
+    <Description>UI for Unit Stacking</Description>
+    <Authors>Gedemon</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="F9B7575E9C96E40AA3435DB0275A3262" import="1">Override/UnitFlagManager.lua</File>
+  </Files>
+</Mod>

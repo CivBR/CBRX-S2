@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Context ColorSet="Beige_Black" Font="TwCenMT18" FontStyle="Shadow" >
+
+	<!-- Main Panel -->
+	<Box ID="MainPanel" Size="951,500" Anchor="C,T" Offset="0,85" Padding="0,0" Style="Grid9DetailFive140" Color="Black" >
+
+		<!--Left Panel-->
+		<Box ID="LeftPanel" Anchor="L,T" Size="510,full" Offset="0,0" Color="Black" >
+
+			<Stack Anchor="C,T" Offset="-5,14" Padding="0" StackGrowth="Bottom" >
+
+				<!-- Standard Map Options -->
+				<Box Anchor="C,T" Size="450,32" Offset="0,0" Color="White.0" >
+					<Image  Anchor="C,T"  Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+					<Label  Anchor="C,C"  Offset="0,-2" String="Map Options" Font="TwCenMT22" />
+					<Image  Anchor="C,B"  Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+				</Box>
+
+				<!-- City State Options -->
+				<Container Anchor="C,T" Size="450,40" Offset="0,9">
+					<Label ID="MinorCivsLabel" Anchor="L,T" Offset="0,8" Font="TwCenMT22" FontStyle="Shadow" String="City States" ToolTip="TXT_KEY_GTAS_CITYSTATES_HELP" />
+					<Label ID="MinorCivsValue" Anchor="R,T" Offset="315,8" Color0="130,220,240,255" Font="TwCenMT22" FontStyle="Shadow" String="" />
+					<Slider ID="MinorCivsSlider" Anchor="R,T" Offset="0,0" Length="300" Style="Slider" WheelSteps="2" />
+				</Container>
+
+				<Container Anchor="C,T" Size="450,45" Offset="0,0">
+					<Label ID="MapTypeLabel" Anchor="L,T" Offset="0,5" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" String="TXT_KEY_AD_SETUP_MAP_TYPE" />
+					<PullDown ID="MapTypePullDown" Anchor="R,T" Offset="0,0" Size="330,27" Style="GenericPullDown" ScrollThreshold="400" SpaceForScroll="1" />
+				</Container>
+
+				<Container Anchor="C,T" Size="450,45" Offset="0,0">
+					<Label Anchor="L,T" Offset="0,5" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" String="TXT_KEY_AD_SETUP_MAP_SIZE" />
+					<PullDown ID="MapSizePullDown" Anchor="R,T" Offset="0,0" Size="330,27" Style="GenericPullDown" ScrollThreshold="400" SpaceForScroll="0" />
+				</Container>
+
+				<!-- Custom Map Options -->
+				<Box Anchor="C,T" Size="450,32" Offset="0,1" Color="White.0" >
+					<Image Anchor="C,T"  Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+					<Label ID="CustomOptionsLabel" Anchor="C,C" Offset="0,-2" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" String="" />
+					<Image ID="CustomOptionsBar" Anchor="C,B"  Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+				</Box>
+
+				<ScrollPanel ID="CustomOptionsPanel" Anchor="L,T" Offset="0,15" Size="445,400" Vertical="1" AutoScrollBar="1">
+
+					<!-- Scroll Controls -->
+					<ScrollBar Style="VertSlider" Length="516" Offset="0,18" Anchor="R,T" AnchorSide="O,I" />
+					<UpButton  Offset="0.0"  Style="ScrollBarUp"  Anchor="R,T" AnchorSide="O,I" />
+					<DownButton Offset="0.0" Style="ScrollBarDown"  Anchor="R,B" AnchorSide="O,I" />
+
+					<!--Dynamic Stack - will be created using MapOptionInstance-->
+					<Stack ID="CustomOptionsStack" Anchor="L,T" Offset="0,0" Padding="0" StackGrowth="Bottom" />
+
+				</ScrollPanel>
+			
+			</Stack>
+
+			<!--Natural Wonders-->
+			<Container Anchor="C,B" Size="450,206" Offset="0,64" Color="Red" >
+				<Container Anchor="C,T" Size="450,32" Offset="0,0" >
+					<Image  Anchor="C,T"  Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+					<Label  Anchor="C,C"  Offset="0,-2" String="Natural Wonders" Font="TwCenMT22" />
+					<Image  Anchor="C,B"  Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+				</Container>
+
+				<Container Anchor="C,T" Offset="0,32" Size="450,174" Color="Blue" >
+
+					<Container Anchor="C,T" Size="350,75" Offset="0,0" Color="Green" >
+
+						<!--Disable Natural Wonders-->
+						<CheckBox ID="DisableNaturalWonders" Anchor="L,T" Offset="0,4" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" Font="TwCenMT22" TextAnchorSide="Right" TextOffset="40,0" IsChecked="0" ConsumeMouse="1" String="Disable All Natural Wonders" ToolTip="TXT_KEY_GTAS_DISABLE_ALL_NW_HELP" />
+
+						<!--Disable Other Natural Wonders CheckBox-->
+						<CheckBox ID="DisableOtherWonders" Anchor="L,T" Offset="0,36" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" Font="TwCenMT22" TextAnchorSide="Right" TextOffset="40,0" IsChecked="0" ConsumeMouse="1" String="Disable Other Natural Wonders" ToolTip="TXT_KEY_GTAS_DISABLE_OTHER_NW_HELP" />
+
+					</Container>
+					
+					<!--Maximum Copies-->
+					<Box ID="MaxCopiesBox" Anchor="C,T" Offset="0,75" Size="410,98" Color="122,122,122,128" >
+
+						<Box Anchor="C,C"  Offset="0,0" Size="408,96" Color="Black" >
+
+							<Label ID="MaxCopiesTitle" Anchor="C,T"  Offset="0,9"  String="Maximum Copies Of Each Natural Wonder" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ToolTip="TXT_KEY_GTAS_WONDER_MAX_COPIES_HELP"  />
+
+							<RadioButton ID="OneCopy" Anchor="L,T" Offset="15,25" String="Single (Default)" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16" FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" TextOffset="2,0" IsChecked="0" RadioGroup="MaxCopiesGroup"/>
+							<RadioButton ID="UnlimitedCopies" Anchor="L,T" Offset="170,25" String="Unlimited" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16" FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" TextOffset="2,0" IsChecked="0" RadioGroup="MaxCopiesGroup"/>
+							<RadioButton ID="SetCopies" Anchor="L,T" Offset="289,25" String="Set Value" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16" FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" TextOffset="2,0" IsChecked="0" RadioGroup="MaxCopiesGroup"/>
+
+							<Label ID="MaxCopiesValue" Anchor="R,B"  Offset="320,15" Color0="130,220,240,255"  String="25" Font="TwCenMT22" FontStyle="Shadow"  />
+							<Slider ID="MaxCopiesSlider" Anchor="R,B" Offset="49,7" Length="250" Style="Slider" WheelSteps="2" />
+
+						</Box>
+
+					</Box>
+					
+				</Container>
+
+			</Container>
+
+			<!--Starting Visibilty-->
+			<Container Anchor="C,B" Size="450,46" Offset="-5,0" >
+				<Image  Anchor="C,T"  Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+				<Label ID="VisibilityLabel" Anchor="L,T" Offset="0,17" Font="TwCenMT22" FontStyle="Shadow" String="Visibility" ToolTip="TXT_KEY_GTAS_VISIBILITY_HELP" />
+				<Image ID="VisibilityLine" Anchor="R,T" Offset="150,24" Size="208,1" Texture="HorizontalTrim.dds" Hidden="1"/>
+				<Label ID="VisibilityValue" Anchor="R,T" Offset="342,17" Color0="130,220,240,255" Font="TwCenMT22" FontStyle="Shadow" String="10" />
+				<Slider ID="VisibilitySlider" Anchor="R,T" Offset="148,9" Length="180" Style="Slider" WheelSteps="2" />
+				<CheckBox ID="VisibilityWholeMap" Anchor="R,T" Offset="102,7" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" Font="TwCenMT20" TextAnchorSide="Right" TextOffset="33,0" IsChecked="0" ConsumeMouse="1" String="Whole Map" ToolTip="TXT_KEY_GTAS_VISIBILITY_MAP_HELP" />
+			</Container>
+
+		</Box>
+
+		<!--Right Panel-->
+		<Box ID="RightPanel" Anchor="R,T" Size="439,full" Offset="0,0" Color="Black" >
+			
+			<Stack Anchor="R,T" Offset="30,15" Padding="0" StackGrowth="Bottom" >
+
+				<!-- Active Civilizations -->
+				<Box Anchor="C,T" Size="400,32" Offset="0,0" Color="White.0" >
+					<Image  Anchor="C,T"  Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+					<Label  Anchor="C,C"  Offset="0,-2" String="Active Civilizations" Font="TwCenMT22" ToolTip="TXT_KEY_GTAS_ACTIVE_CIV_HELP" />
+					<Image  Anchor="C,B"  Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+				</Box>
+
+				<ScrollPanel ID="ActiveCivsPanel" Anchor="R,T" Offset="20,9" Size="360,400" Vertical="1" AutoScrollBar="1">
+
+					<!-- Scroll Controls -->
+					<ScrollBar Style="VertSlider" Length="516" Offset="0,18" Anchor="R,T" AnchorSide="O,I" />
+					<UpButton  Offset="0,0"  Style="ScrollBarUp"  Anchor="R,T" AnchorSide="O,I" />
+					<DownButton Offset="0,0" Style="ScrollBarDown"  Anchor="R,B" AnchorSide="O,I" />
+
+					<Stack ID="ActiveCivsStack" Anchor="L,T" Offset="0,0" Size="340,400" Padding="0" StackGrowth="Bottom" />
+
+				</ScrollPanel>
+
+			</Stack>
+
+			<Image  Anchor="C,B"  Offset="0,50" Texture="bar400x2.dds" Size="400,1" />
+			
+			<!-- Select All Button -->
+			<GridButton ID="SelectAllCivsButton" Anchor="R,B" Offset="25,9" Size="140,32" Style="SmallButton" StateOffsetIncrement="0,0" ToolTip="Select all civs in the list." >
+				<Label Anchor="C,C"  Offset="0,0"  String="Select All" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+			</GridButton>
+
+			<!-- Deselect All Button -->
+			<GridButton ID="DeselectAllCivsButton" Anchor="L,B" Offset="25,9" Size="140,32" Style="SmallButton" StateOffsetIncrement="0,0" ToolTip="Deselect all civs in the list." >
+				<Label Anchor="C,C"  Offset="0,0"  String="Deselect All" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+			</GridButton>-->
+
+		</Box>
+
+		<!-- Vertical Divider -->
+		<Image ID="VerticalDivider" Anchor="L,T" Offset="500,0" Texture="VerticalTrim.dds" Size="5,400" />
+
+	</Box>
+
+	<!--Bottom Bar Buttons-->
+	<Container ID="BottomBar" Anchor="C,B" Offset="0,38" Size="951,52" >
+
+		<!--Reset Button-->
+		<GridButton ID="ResetButton" Anchor="L,T" Offset="190,15" Size="140,32" Style="SmallButton" StateOffsetIncrement="0,0" ToolTip="TXT_KEY_GTAS_RESET_MAP_PANEL_HELP" >
+			<Label Anchor="C,C"  Offset="0,0"  String="Reset This Panel" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+		</GridButton>
+
+	</Container>
+
+	<Instance Name="MapOptionInstance">
+		
+		<Container Anchor="C,T" Offset="0,0" Size="435,45" ID="MapOptionRoot">
+			
+			<Label ID="OptionName" Anchor="L,T" Offset="0,5" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" />
+			<PullDown ID="OptionDropDown" Anchor="R,T" Offset="0,0" Size="270,27" Style="GenericPullDown" ScrollThreshold="400" SpaceForScroll="0" />
+
+		</Container>
+		
+	</Instance>
+
+	<Instance Name="ActiveCivInstance">
+		
+		<CheckBox ID="ActiveCivRoot" Anchor="L,T" Offset="0,0" TextAnchorSide="Right" Font="TwCenMT22" TextOffset="40,0" IsChecked="0" ConsumeMouse="1" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" />
+
+	</Instance>
+
+</Context>
+
+
+
+
+
+

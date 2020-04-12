@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/16/2013 8:29:49 AM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where Type="UNIT_SS_BOOSTER"/>
+			<Set PrereqTech="TECH_ENERGY_THEORY" Cost="1000"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MODERN_ARMOR"/>
+			<Set PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SS_STASIS_CHAMBER"/>
+			<Set PrereqTech="TECH_HOMO_SUPERIOR" Cost="1500"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SS_COCKPIT"/>
+			<Set PrereqTech="TECH_COMPUTRONIUM" Cost="2000"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SS_ENGINE"/>
+			<Set PrereqTech="TECH_SPACE_COLONIZATION" Cost="1500"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MECH"/>
+			<Set PrereqTech="TECH_ADAMANTIUM" Cost="720"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_BAZOOKA"/>
+			<Set Combat="80" RangedCombat="80"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_XCOM_SQUAD"/>
+			<Set Combat="120" Cost="500"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GUIDED_MISSILE"/>
+			<Set PrereqTech="TECH_LASERS"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_BATTLESHIP" />
+			<Set ObsoleteTech="TECH_GRID_COMPUTING" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_MISSILE_CRUISER" />
+			<Set ObsoleteTech="TECH_GRID_COMPUTING" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_TANK" />
+			<Set ObsoleteTech="TECH_ADVANCED_BALLISTICS" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_FIGHTER" />
+			<Set ObsoleteTech="TECH_LASERS" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_BOMBER" />
+			<Set ObsoleteTech="TECH_STEALTH" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_MECHANIZED_INFANTRY" />
+			<Set ObsoleteTech="TECH_NANOMATERIALS" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_MODERN_ARMOR" />
+			<Set ObsoleteTech="TECH_SUPERCONDUCTIVITY" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_ROCKET_ARTILLERY" />
+			<Set ObsoleteTech="TECH_QUANTUM_COMPUTERS" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_JET_FIGHTER" />
+			<Set ObsoleteTech="TECH_COGNITIVE_TECH" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_STEALTH_BOMBER" />
+			<Set ObsoleteTech="TECH_NUCLEAR_FUSION" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_GUIDED_MISSILE" />
+			<Set ObsoleteTech="TECH_QUANTUM_COMPUTERS" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_NUCLEAR_SUBMARINE" />
+			<Set ObsoleteTech="TECH_NEURAL_INTERFACE" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_DESTROYER" />
+			<Set ObsoleteTech="TECH_PARTICLE_PHYSICS" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_CARRIER" />
+			<Set ObsoleteTech="TECH_ROBOTICS" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_HELICOPTER_GUNSHIP" />
+			<Set ObsoleteTech="TECH_GRID_COMPUTING" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_BAZOOKA" />
+			<Set ObsoleteTech="TECH_INTERNET" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_MARINE" />
+			<Set ObsoleteTech="TECH_GLOBALIZATION" />
+		</Update>
+		<Update>
+			<Where Type="UNIT_PARATROOPER" />
+			<Set ObsoleteTech="TECH_INTERNET" />
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where Type="UNIT_PARATROOPER" />
+			<Set UnitClassType="UNITCLASS_FW_AIRBORNE_FORCES" />
+		</Update>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Delete UnitType="UNIT_XCOM_SQUAD"/>
+		<Row>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_ResourceQuantityRequirements>
+		<Delete UnitType="UNIT_MECH"/>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Delete UnitType="UNIT_XCOM_SQUAD"/>
+		<Row>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Delete UnitType="UNIT_SS_ENGINE"/>
+		<Row>
+			<UnitType>UNIT_SS_ENGINE</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Delete UnitType="UNIT_SS_COCKPIT"/>
+		<Row>
+			<UnitType>UNIT_SS_COCKPIT</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Delete UnitType="UNIT_SS_BOOSTER"/>
+		<Row>
+			<UnitType>UNIT_SS_COCKPIT</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Delete UnitType="UNIT_SS_COCKPIT"/>
+		<Row>
+			<UnitType>UNIT_SS_STASIS_CHAMBER</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<UnitPromotions>
+		<Update>
+			<Where Type="PROMOTION_CARGO_I" />
+			<Set LostWithUpgrade="true" />
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_CARGO_II" />
+			<Set LostWithUpgrade="true" />
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_CARGO_III" />
+			<Set LostWithUpgrade="true" />
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_CARGO_IV" />
+			<Set LostWithUpgrade="true" />
+		</Update>
+		<Update>
+			<Where Type="PROMOTION_PARADROP" />
+			<Set LostWithUpgrade="true" />
+		</Update>
+	</UnitPromotions>
+</GameData>

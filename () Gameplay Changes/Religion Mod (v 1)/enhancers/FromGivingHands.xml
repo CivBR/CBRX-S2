@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2018 1:21:28 AM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_FROM_GIVING_HANDS</Type>
+			<Description>TXT_KEY_BELIEF_FROM_GIVING_HANDS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_FROM_GIVING_HANDS_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+
+	<Belief_CityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_FROM_GIVING_HANDS</BeliefType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FROM_GIVING_HANDS</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FROM_GIVING_HANDS</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FROM_GIVING_HANDS</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Belief_CityYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_FROM_GIVING_HANDS">
+			<Text>+4 [ICON_FAITH] Faith, +4 [ICON_CULTURE] Culture and +4 [ICON_SCIENCE] Science in all other cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_FROM_GIVING_HANDS_SHORT">
+			<Text>From Giving Hands
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

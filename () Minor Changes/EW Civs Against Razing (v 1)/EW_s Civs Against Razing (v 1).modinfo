@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="47a9dc19-7e50-48ee-80c7-794d228e7bf0" version="1">
+  <Properties>
+    <Name>EW's Civs Against Razing</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Civs will only raze cities until they're at a certain level of happiness now.</Teaser>
+    <Description>Civs will only raze cities until they're at a certain level of happiness now.</Description>
+    <Authors>ExplosiveWatermelon</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="66AD375BCF6E3BFB6BDD94EBCD383ECA" import="0">Lua/DontRaze.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/DontRaze.lua">
+      <Name>DontRaze</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

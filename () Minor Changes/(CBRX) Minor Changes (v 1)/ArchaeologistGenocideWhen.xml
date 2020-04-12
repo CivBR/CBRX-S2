@@ -1,0 +1,12 @@
+<GameData>
+	<Units>
+		<Update>
+			<Set Cost="-1"/>
+			<Where Type="UNIT_ARCHAEOLOGIST"/>
+		</Update>
+		<Update>
+			<Set PrereqTech="NULL"/>
+			<Where Type="UNIT_ARCHAEOLOGIST"/>
+		</Update>
+	</Units>
+</GameData>

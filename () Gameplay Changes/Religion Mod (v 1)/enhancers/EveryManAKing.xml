@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/29/2018 7:12:28 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_EVERY_MAN_A_KING</Type>
+			<Description>TXT_KEY_BELIEF_EVERY_MAN_A_KING</Description>
+			<ShortDescription>TXT_KEY_BELIEF_EVERY_MAN_A_KING_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+	
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_EVERY_MAN_A_KING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_EVERY_MAN_A_KING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_EVERY_MAN_A_KING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_EVERY_MAN_A_KING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+	
+	<Belief_CityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_EVERY_MAN_A_KING</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_EVERY_MAN_A_KING</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_EVERY_MAN_A_KING</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+	</Belief_CityYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_EVERY_MAN_A_KING">
+			<Text>All cities recieve +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, [ICON_PEACE] Faith, [ICON_CULTURE] Culture, [ICON_SCIENCE] Science per city. However the Palace loses 1 [ICON_CULTURE] and 3 [ICON_PRODUCTION[ Production, [ICON_SCIENCE] Science and [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EVERY_MAN_A_KING_SHORT">
+			<Text>Every Man A King</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

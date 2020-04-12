@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/19/2018 10:14:01 PM -->
+<Context>
+	<!-- ui adds 33x and 88 y   957, 504-->
+	<Box Style="BGBlock_ClearTopBar" ID="BGBlock" Hidden="1"/>
+
+	<Grid ID="HolyWarPanelMain" Size="990,592" Anchor="C,C" Style="Grid9DetailFive140" ConsumeMouse="1" Hidden="1">
+		<Image Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-14" Texture="assets\UI\Art\Icons\Top512IconTrim.dds">
+			<Image ID="Icon" Size="64,64" Offset="-1,-1" Anchor="C,C" Texture="Religion64.dds"/>
+		</Image>
+		<Box Style="MenuLeftSideTreatment"/>
+		<Box Style="MenuRightSideTreatment"/>
+		
+		<Image Size="957,504" Anchor="C,C" Texture="hw_splash.dds"/>
+		<Box Size="957,50" Color="0,0,0,0">
+			<Label Anchor="C,C" Offset="0,0" String="A Holy War has been Declared!" ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Shadow"/>
+		</Box>
+
+		<Box ID="HolyWarTextBox" Size="957,80" Offset="0,42" Color="0,0,0,200" Anchor="C,B">
+			<Label ID="Text" Anchor="L,C" Offset="6,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow" String=""/>
+			<Image Anchor="C,T" Offset="0,0" Texture="bar900x2.dds" Size="900,2"/>
+		</Box>
+
+		<Box Anchor="C,B" AnchorSide="I.I" Offset="0,0" Size="150,32" Color="255,255,255,0">
+			<GridButton Anchor="C,C" Style="SmallButton" Size="150,32" Offset="0,0" StateOffsetIncrement="0,0" ID="CloseButton">
+				<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_CLOSE" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			</GridButton>
+		</Box>
+
+		<Box Size="196,61" Anchor="L,T" Offset="17,44" Color="0,0,0,200">
+			<Label ID="DecRel" Anchor="C,C" Offset="0,-19" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+			<Label ID="DecFaith" Anchor="C,C" Offset="0,-1" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+			<Label ID="DecMight" Anchor="C,C" Offset="0,17" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+			<Image Anchor="C,B" Offset="0,1" Texture="bar196x2.dds" Size="196,1"/>
+		</Box>
+
+		<Box Size="200,405" Anchor="L,T" Offset="15,103" Color="0,0,0,0">
+			<Box Size="196,401" Anchor="C,C" Offset="0,0" Color="0,0,0,0">
+				<ScrollPanel Anchor="L,T" ID="DecCivPanel" Vertical="1" Size="196,365" AutoScrollBar="1">
+					<UpButton   Anchor="R,T" Offset="0,0" Style="ScrollBarUp"/>
+					<ScrollBar  Anchor="R,T" Offset="0,18" Length="329" Style="VertSlider"/>
+					<DownButton Anchor="R,B" Offset="0,0" Style="ScrollBarDown"/>
+					<Stack ID="DecCivStack" StackGrowth="B" Offset="0,0" Padding="0" />
+				</ScrollPanel>
+			</Box>
+		</Box>
+
+		<Box Size="196,61" Anchor="L,T" Offset="778,44" Color="0,0,0,200">
+			<Label ID="DefRel" Anchor="C,C" Offset="0,-19" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+			<Label ID="DefFaith" Anchor="C,C" Offset="0,-1" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+			<Label ID="DefMight" Anchor="C,C" Offset="0,17" Font="TwCenMT18" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+			<Image Anchor="C,B" Offset="0,1" Texture="bar196x2.dds" Size="196,1"/>
+		</Box>
+
+		<Box Size="200,405" Anchor="L,T" Offset="776,103" Color="0,0,0,0">
+			<Box Size="196,401" Anchor="C,C" Offset="0,0" Color="0,0,0,0">
+				<ScrollPanel Anchor="L,T" ID="DefCivPanel" Vertical="1" Size="196,365" AutoScrollBar="1">
+					<UpButton   Anchor="R,T" Offset="0,0" Style="ScrollBarUp"/>
+					<ScrollBar  Anchor="R,T" Offset="0,18" Length="329" Style="VertSlider"/>
+					<DownButton Anchor="R,B" Offset="0,0" Style="ScrollBarDown"/>
+					<Stack ID="DefCivStack" StackGrowth="B" Offset="0,0" Padding="0" />
+				</ScrollPanel>
+			</Box>
+		</Box>
+	</Grid>
+
+	<Instance Name="CivName">
+		<Box ID="Box" Size="196,60" Anchor="L,T" Color="0,0,0,200">
+			<Label ID="Label" Offset="35, -18" Anchor="L,C" Font="TwCenMT14" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+			<Label ID="MightLabel" Offset="35, 18" Anchor="L,C" Font="TwCenMT14" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+			<Label ID="FaithLabel" Offset="35, 0" Anchor="L,C" Font="TwCenMT14" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+			<Image Anchor="C,B" Offset="0,1" Texture="bar196x2.dds" Size="196,1"/>
+			<Box Size="32,32" Anchor="L,T" Offset="0,0" Color="0,0,0,0">
+				<Image ID="CivIconBG" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+				<Image ID="CivIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+				<Image ID="CivIcon" Size="24.24" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+			</Box>
+		</Box>
+	</Instance>
+</Context>

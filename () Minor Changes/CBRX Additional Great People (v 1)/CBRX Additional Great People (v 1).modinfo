@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cbad56d8-b951-491a-8c3e-95b0ce67f673" version="1">
+  <Properties>
+    <Name>CBRX Additional Great People</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds 3400 additional Great People</Teaser>
+    <Description>Adds 3400 Great People for the CBRX. 
+
+Currently missing Great Works and custom art, intended only for AI Games.</Description>
+    <Authors>Limerickarcher and the CBR Discord</Authors>
+    <SpecialThanks>ECH</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="27ED1FE45EF1CF6B276FD9FC31DC833B" import="0">CBRX_GPText.xml</File>
+    <File md5="6B66DB1E7C27C4DBD22DCB799ACE3B52" import="0">CBRX_MoreGreatPeople.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>CBRX_GPText.xml</UpdateDatabase>
+      <UpdateDatabase>CBRX_MoreGreatPeople.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

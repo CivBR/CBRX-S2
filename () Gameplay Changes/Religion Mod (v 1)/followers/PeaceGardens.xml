@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/20/2018 9:33:03 AM -->
+<GameData>
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_PEACE_GARDENS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_PEACE_GARDENS" />
+		<Row Tag="TXT_KEY_BELIEF_PEACE_GARDENS">
+			<Text>+1 [ICON_PRODUCTION] Production from Water Mills, +2 [ICON_HAPPINESS_1] Happiness from Gardens</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_PEACE_GARDENS" />
+		<Row Tag="TXT_KEY_BELIEF_PEACE_GARDENS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_PRODUCTION] Production from Water Mills, +2 [ICON_HAPPINESS_1] Happiness from Gardens</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_PEACE_GARDENS" />
+		<Row Tag="TXT_KEY_BELIEF_PEACE_GARDENS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_PRODUCTION] Production from Water Mills, +2 [ICON_HAPPINESS_1] Happiness from Gardens</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_PEACE_GARDENS" />
+		<Row Tag="TXT_KEY_BELIEF_PEACE_GARDENS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_PRODUCTION] Production from Water Mills, +2 [ICON_HAPPINESS_1] Happiness from Gardens</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai -->
+<GameData>
+	<Builds>
+		<Update>
+			<Where Type="BUILD_FEITORIA"/>
+			<Set PrereqTech="TECH_EE_EXPLORATION"/>
+		</Update>
+	</Builds>
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<TechType>TECH_EE_IMPERIALISM</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_MANUFACTORY" YieldType="YIELD_PRODUCTION"/>
+			<Set>
+				<TechType>TECH_EE_MANUFACTURING</TechType>
+				<Yield>2</Yield>
+			</Set>
+		</Update>
+	</Improvement_TechYieldChanges>
+</GameData>

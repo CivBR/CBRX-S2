@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="11135a59-c386-4848-8bf0-61702f3e611d" version="1">
+  <Properties>
+    <Name>[BC] Unit Supply Modifier</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Modifies Unit Supply formula to punish the AI for ignoring it.</Teaser>
+    <Description>Modifies Unit Supply formula to punish the AI for ignoring it.</Description>
+    <Authors>Limerickarcher, TechnostarBTD5</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D2DF936046CA659871E22419DC75DC1F" import="0">Buildings.sql</File>
+    <File md5="F2727A0656E4F0459C2357F3DFDE195E" import="0">Lime_UnitSupplyModifier.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Buildings.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lime_UnitSupplyModifier.lua">
+      <Name>Unit Supply</Name>
+      <Description>Unit Supply</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

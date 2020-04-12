@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="57bdc268-8212-47ca-815b-948bb03b6a59" version="1">
+  <Properties>
+    <Name>CBRX TSLs</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>CBRX TSLs</Teaser>
+    <Description>CBRX TSLs</Description>
+    <Authors>Limerickarcher</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="3E5BE518BB2FFFD1DDBE1EC3620D516F" import="0">CBRX_TSLs.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="CBRX_TSLs.lua">
+      <Name>TSLS</Name>
+      <Description>TSLS</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

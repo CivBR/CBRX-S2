@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context ColorSet="Beige_Black" Font="TwCenMT18" FontStyle="Shadow" >
+
+	<Box ID="TerrainPanel" Anchor="C,B" Offset="0,91" Size="951,425" Color="Black" >
+
+		<Box ID="TerrainBorder1" Anchor="C,C" Offset="0,0" Size="947,425" Color="122,122,122,128" >
+
+			<Box ID="TerrainBorder2" Anchor="C,C" Offset="0,0" Size="945,423" Color="Black" >
+
+				<!--Terrain Scroll Panel Box-->
+				<Box ID="ScrollBox" Anchor="C,T" Offset="0,0" Size="943,152" Color="Black" >
+
+					<Container ID="ListTitle" Anchor="C,T" Offset="0,0" Size="941,35" >
+
+						<Label Anchor="L,B" Offset="234,4" Font="TwCenMT14" String="Plot Count         Min Distance         Max Distance         Placement              Elevation         Water/Land" />
+
+						<GridButton ID="ClearList" Anchor="R,B" Offset="8,2" Size="85,28" Style="SmallButton" ToolTip="TXT_KEY_GTAS_CLEAR_COMMANDS_HELP" >
+							<Label Anchor="C,C"  Offset="-1,-1"  String="Clear List" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+						</GridButton>
+
+					</Container>
+
+					<GridButton ID="CopyList" Anchor="L,T" Offset="9,5" Size="185,28" Style="SmallButton" ToolTip="TXT_KEY_GTAS_COPY_COMMANDS_HELP" >
+						<Label Anchor="C,C"  Offset="-1,-1"  String="Copy List To All Players" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+					</GridButton>
+
+					<!--Terrain Scroll Panel-->
+					<Box ID="ScrollBorder1" Anchor="C,B" Offset="0,0" Size="900,110" Color="122,122,122,128" >
+
+						<Box ID="ScrollBorder2" Anchor="C,C"  Offset="0,0" Size="898,108" Color="Black" >
+
+							<!--Bonus Terrain Scroll Panel-->
+							<ScrollPanel ID="TerrainScrollPanel" Anchor="C,C" Offset="0,0" Size="896,106" AnchorSide="I,I" Vertical="1" AutoScrollBar="1">
+
+								<!--Scroll Panel Stack-->
+								<Stack ID="TerrainStack" Anchor="L,T" StackGrowth="Bottom" Padding="0" />
+
+								<!--Scroll Controls-->
+								<ScrollBar Anchor="R,T" Offset="-19,18" Style="VertSlider" AnchorSide="O,I" />
+								<UpButton  Anchor="R,T" Offset="-19,0"  Style="ScrollBarUp"  AnchorSide="O,I" />
+								<DownButton Anchor="R,B" Offset="-19,0" Style="ScrollBarDown" AnchorSide="O,I" />
+
+							</ScrollPanel>
+
+						</Box>
+
+					</Box>
+
+				</Box>
+				
+				<!--Terrain Controls Box-->
+				<Box Anchor="C,B" Offset="0,0" Size="943,269" Color="Black" >
+
+					<Image Anchor="C,T" Offset="0,8" Texture="bar900x2.dds" Size="900,1" />
+
+					<Image ID="PortraitFrame" Anchor="L,T" Offset="0,5" Size="256,256" TextureOffset="0,0" Texture="256x256Frame.dds" >
+						<Image ID="Portrait" Anchor="C,C" Offset="0,0" Size="256,256" TextureOffset="0,0" />
+					</Image>
+
+					<Container Anchor="L,T" Offset="248,0" >
+
+						<Container Anchor="L,T" Offset="0,19" Size="460,34" >
+
+							<!--Terrain PullDown-->
+							<Container Anchor="L,T" Offset="0,0" Size="225,32" >
+								<Label Anchor="L,T" Offset="2,4" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" String="Terrain" />
+								<PullDown ID="TerrainPulldown" Anchor="R,T" Offset="0,0"  Size="140,28" Style="GenericPullDown" ScrollThreshold="218" AutoSizePopUp="1" SpaceForScroll="1" />
+							</Container>
+
+							<!--Change Water/Land CheckBox-->
+							<CheckBox ID="ChangeWaterLand" Anchor="L,C" Offset="244,-3" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" Font="TwCenMT20" TextAnchorSide="Right" TextOffset="35,0" IsChecked="0" ConsumeMouse="1" String="Change Water/Land" ToolTip="TXT_KEY_GTAS_TERRAIN_LAND_WATER_HELP" />
+
+						</Container>
+
+						<Box Anchor="L,T" Offset="0,57" Size="462,80" Color="122,122,122,128" >
+
+							<Box Anchor="C,C" Offset="0,0" Size="460,78" Color="Black" >
+
+								<Container Anchor="C,T" Offset="0,0" Size="460,37" >
+									
+									<Label Anchor="L,T" Offset="15,8" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow" String="Place" ToolTip="TXT_KEY_GTAS_TERRAIN_PLACEMENT_HELP" />
+									
+									<RadioButton ID="PlacementNear" Anchor="L,T" Offset="95,3" String="Near"
+												 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16"
+												 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C"
+												 TextAnchorSide="O,O" TextOffset="0,0" IsChecked="0" RadioGroup="PlacementGroup"/>
+									<RadioButton ID="PlacementFar" Anchor="L,T" Offset="184,3" String="Far" 
+												 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16" 
+												 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" 
+												 TextAnchorSide="O,O" TextOffset="0,0" IsChecked="0" RadioGroup="PlacementGroup"/>
+									<RadioButton ID="PlacementRandom" Anchor="L,T" Offset="258,3" String="Random" 
+												 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16" 
+												 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C"
+												 TextAnchorSide="O,O" TextOffset="0,0" IsChecked="0" RadioGroup="PlacementGroup"/>
+									<RadioButton ID="PlacementFill" Anchor="L,T" Offset="361,3" String="Fill"
+												 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16"
+												 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" 
+												 TextAnchorSide="O,O" TextOffset="0,0" IsChecked="0" RadioGroup="PlacementGroup"/>
+								
+								</Container>
+
+								<Image Anchor="C,C" Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+
+								<Container ID="CountControlsOn" Anchor="C,B" Offset="0,0" Size="460,37" >
+									<Label ID="CountLabel" Anchor="L,B" Offset="15,12" Color0="Beige" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="Count" ToolTip="TXT_KEY_GTAS_TERRAIN_COUNT_HELP" />
+									<Label ID="CountValue" Anchor="R,B" Offset="246,11" Color0="130,220,240,255" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="0" />
+									<Slider ID="CountSlider" Anchor="R,B" Offset="15,2" Length="220" Style="Slider" WheelSteps="1" />
+								</Container>
+
+								<Container ID="CountControlsOff" Anchor="C,B" Offset="0,0" Size="460,38" >
+									<Image Anchor="C,C" Offset="0,0" Size="260,1" Texture="HorizontalTrim.dds" />
+								</Container>
+
+							</Box>
+
+						</Box>
+
+						<Box Anchor="L,T" Offset="0,144" Size="462,80" Color="122,122,122,128" >
+
+							<Box Anchor="C,C" Offset="0,0" Size="460,78" Color="Black" >
+
+								<Image Anchor="C,C" Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+
+								<Container ID="DistanceControlsOn" Anchor="C,C" Offset="0,0" Size="460,78" >
+									<Label ID="MinDistanceLabel" Anchor="L,T" Offset="15,9" Color0="Beige" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="Minimum Distance" ToolTip="TXT_KEY_GTAS_TERRAIN_MIN_DISTANCE_HELP" />
+									<Label ID="MinDistanceValue" Anchor="R,T" Offset="246,10" Color0="130,220,240,255" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="0" />
+									<Slider ID="MinDistanceSlider" Anchor="R,T" Offset="15,3" Length="220" Style="Slider" WheelSteps="4" />
+
+									<Label ID="MaxDistanceLabel" Anchor="L,B" Offset="15,12" Color0="Beige" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="Maximum Distance" ToolTip="TXT_KEY_GTAS_TERRAIN_MAX_DISTANCE_HELP" />
+									<Label ID="MaxDistanceValue" Anchor="R,B" Offset="246,11" Color0="130,220,240,255" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="0" />
+									<Slider ID="MaxDistanceSlider" Anchor="R,B" Offset="15,2" Length="220" Style="Slider" WheelSteps="4" />
+								</Container>
+
+							</Box>
+
+						</Box>
+
+					</Container>
+					
+					<!--Elevation Radio Buttons-->
+					<Box Anchor="R,B" Offset="40,44" Size="156,190" Color="122,122,122,128" >
+
+						<Box Anchor="C,C"  Offset="0,0" Size="154,188" Color="Black" >
+
+							<Label ID="ElevationLabel" Anchor="C,T"  Offset="0,7"  String="Elevation" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ToolTip="TXT_KEY_GTAS_TERRAIN_ELEVATION_HELP" />
+							<Label ID="NoElevationLabel" Anchor="C,T"  Offset="0,7"  String="No Elevation" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ToolTip="TXT_KEY_GTAS_TERRAIN_NO_ELEVATION_HELP" />
+
+							<RadioButton ID="ElevationNoChange" Anchor="L,T" Offset="11,27" String="No Change" 
+										 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16" 
+										 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" 
+										 TextAnchorSide="O,O" TextOffset="2,0" IsChecked="0" RadioGroup="ElevationGroup"/>
+							<RadioButton ID="ElevationMountain" Anchor="L,T" Offset="11,57" String="Mountain"
+										 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16"
+										 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C"
+										 TextAnchorSide="O,O" TextOffset="2,0" IsChecked="0" RadioGroup="ElevationGroup"/>
+							<RadioButton ID="ElevationHill" Anchor="L,T" Offset="11,87" String="Hill"
+										 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16" 
+										 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C"
+										 TextAnchorSide="O,O" TextOffset="2,0" IsChecked="0" RadioGroup="ElevationGroup"/>
+							<RadioButton ID="ElevationFlat" Anchor="L,T" Offset="11,117" String="Flat" 
+										 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16"
+										 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C"
+										 TextAnchorSide="O,O" TextOffset="2,0" IsChecked="0" RadioGroup="ElevationGroup"/>
+							<RadioButton ID="ElevationRandom" Anchor="L,T" Offset="11,147" String="Random"
+										 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16"
+										 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" 
+										 TextAnchorSide="O,O" TextOffset="2,0" IsChecked="0" RadioGroup="ElevationGroup"/>
+
+						</Box>
+
+					</Box>
+
+					<Container Anchor="L,B" Offset="258,7" Size="460,30" >
+						<GridButton ID="AddTerrain" Anchor="C,C" Offset="0,0" Size="220,30" Style="SmallButton" ToolTip="TXT_KEY_GTAS_ADD_TERRAIN_HELP" >
+							<Label Anchor="C,C"  Offset="0,-1"  String="Add To List" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+						</GridButton>
+					</Container>
+
+				</Box>
+
+			</Box>
+
+		</Box>
+
+	</Box>
+
+	<Instance Name="TerrainHelpInstance" >
+
+		<Box ID="TerrainHelpRoot" Anchor="L,T" Offset="0,0" Color="Black" >
+
+			<Label ID="TerrainHelpLabel" Anchor="C,C" Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Shadow" />
+			<Image ID="TerrainHelpLine" Anchor="C,C" Offset="0,0" Texture="bar900x2.dds" Size="900,1" Hidden="1" />
+
+		</Box>
+
+	</Instance>
+
+	<Instance Name="TerrainInstance" >
+
+		<Box ID="TerrainRoot" Offset="0,0" Size="881,62" Color="Black" >
+
+			<TextButton ID="DeleteTerrain" Anchor="L,T" Offset="6,5" ColorSet="Beige_Black" Font="TwCenMT14" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" String="x" />
+
+			<Button ID="TerrainButton" Anchor="L,T" Offset="13,-1" Size="64,64" Texture="64x64FrameButtons.dds" >
+				<ShowOnMouseOver>
+					<AlphaAnim  Anchor="R,C" Offset="-9,0" Size="16,32" AnchorSide="O.O" TextureOffset="16.0" Texture="buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+					<AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+					<Image Anchor="R,C" Offset="-9,0" TextureOffset="8,0" AnchorSide="O.O"  Texture="buttonsides.dds" Size="8,16" />
+					<Image Anchor="L,C" Offset="-9,0" TextureOffset="0,0" AnchorSide="O.O"  Texture="buttonsides.dds" Size="8,16" />
+				</ShowOnMouseOver>
+				<Image ID="TerrainPortrait" Anchor="C,C" Size="64,64" Texture="TerrainIcons512.dds" />
+			</Button>
+
+			<Label ID="TerrainName" Anchor="L,C" Offset="81,0" TruncateWidth="120" ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Shadow" />
+
+			<Container Anchor="R,T" Offset="70,1" Size="793,58" >
+
+				<Label ID="TerrainCount" Anchor="R,C" Offset="562,0" TruncateWidth="100" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" />
+				<Label ID="TerrainMinRad" Anchor="R,C" Offset="462,0" TruncateWidth="100" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" />
+				<Label ID="TerrainMaxRad" Anchor="R,C" Offset="352,0" TruncateWidth="100" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" />
+
+				<Container Anchor="R,C" Offset="253,0" >
+					<Label ID="TerrainPlacement" Anchor="C,C" Offset="0,0" TruncateWidth="75" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" />
+				</Container>
+
+				<Container Anchor="R,C" Offset="140,0" >
+					<Label ID="TerrainElevation" Anchor="C,C" Offset="0,0" TruncateWidth="100" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" />
+				</Container>
+
+				<Container Anchor="R,C" Offset="40,0" >
+					<Label ID="TerrainWaterLand" Anchor="C,C" Offset="0,0" TruncateWidth="75" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" />
+				</Container>
+
+			</Container>
+
+			<TextButton ID="UpdateTerrain" Anchor="R,C" Offset="10,0" ColorSet="Beige_Black" Font="TwCenMT14" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" String="update" />
+
+			<Image Anchor="L,B" Offset="15,1" Size="850,1" Texture="HorizontalTrim.dds" />
+
+		</Box>
+
+	</Instance>
+
+</Context>

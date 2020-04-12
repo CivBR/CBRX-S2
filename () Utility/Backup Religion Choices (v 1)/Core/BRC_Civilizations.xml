@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/28/2020 8:57:33 AM -->
+<GameData>
+	<!--Multiple entries in the Civilization_Religions table will now be accepted. The AI will choose to found
+	the next available Religion (i.e. the next Religion down that hasn't already been founded.-->
+	<!--ENGLAND-->
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<ReligionType>RELIGION_ORTHODOXY</ReligionType>
+		</Row>
+	</Civilization_Religions>
+</GameData>

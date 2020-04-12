@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<GameData>
+
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_GODDESS_HUNT</BeliefType>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_GODDESS_HUNT" />
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_HUNT">
+			<Text>+1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold from Camps</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_GODDESS_HUNT" />
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_HUNT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold from Camps</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_GODDESS_HUNT" />
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_HUNT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold from Camps</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_GODDESS_HUNT" />
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_HUNT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold from Camps</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

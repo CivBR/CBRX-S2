@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b42e2fd3-b0eb-46ce-a516-e72e1c635cf3" version="3">
+  <Properties>
+    <Name>Combat and Stacking Overhaul</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Combat and Stacking Overhaul</Teaser>
+    <Description>Combat and Stacking Overhaul</Description>
+    <Authors>Gedemon</Authors>
+    <SpecialThanks>whoward69, Mylon, Whys</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="2896c6d4-0273-4527-813b-b9ab58f0b95e" minversion="8" maxversion="999" title="R.E.D. DLL" />
+  </Dependencies>
+  <References>
+    <Mod id="dea3cb9a-4b6b-46bb-82c4-9aba78f08213" minversion="0" maxversion="999" title="R.E.D. Xtended" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="ABD8424AD79A625676BF2EA73C5B2BCD" import="1">Lua/CSO_Debug.lua</File>
+    <File md5="635A477289962696A1B868CD4F205AE9" import="1">Lua/CSO_Defines.lua</File>
+    <File md5="DB6543B8B23A512CF166AF07465C5C23" import="1">Lua/CSO_Functions.lua</File>
+    <File md5="A4D5394C40DDD6E798EB049F4C62AEC4" import="0">Lua/CSO_Main.lua</File>
+    <File md5="1A01D9A87FA119F4C7711DD072604189" import="1">Lua/CSO_Utils.lua</File>
+    <File md5="714797D78DE69907D7EBA53DBA81C3BC" import="1">Lua/PlotIterators.lua</File>
+    <File md5="761DFFE4309CC6660D2264F46B67E733" import="1">Lua/SaveUtils.lua</File>
+    <File md5="4C209E1FBBF9C0FF8228FB4061EEAC67" import="0">Lua/ShareData.lua</File>
+    <File md5="F64A68A403EF37953CA4BF423C0789A3" import="0">CSO_Readme.txt</File>
+    <File md5="8F9DA743D5822133BA94B4DDD316CE37" import="1">Override/InfoTooltipInclude.lua</File>
+    <File md5="F43C3A00ED926F6157600CCCE98E44FF" import="0">SQL/1-AlterTables.sql</File>
+    <File md5="27171304738268DD1B07959A3C498C47" import="0">SQL/99-Triggers.sql</File>
+    <File md5="BD0C75E247038D294F1D275610E71329" import="0">SQL/x-Rules.sql</File>
+    <File md5="E2E7B753C1C04AAB39AC5EEE41DA5F6D" import="0">SQL/x-Units.sql</File>
+    <File md5="1A06EE353700B1679C1EC2271BFB592E" import="0">XML/x-Texts.xml</File>
+    <File md5="42525BF9334DFADC61EBA82329A3FAF7" import="0">XML/x-Promotions.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/x-Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/1-AlterTables.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/x-Rules.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/x-Units.sql</UpdateDatabase>
+      <UpdateDatabase>XML/x-Texts.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/99-Triggers.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/CSO_Main.lua">
+      <Name>CSO</Name>
+      <Description>Combat and Stacking Overhaul</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/ShareData.lua">
+      <Name>ShareData</Name>
+      <Description>ShareData</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

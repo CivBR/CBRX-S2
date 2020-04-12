@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f42e58fa-60d4-44ca-b390-06c82ec476a4" version="2">
+  <Properties>
+    <Name>Global - Coastal Waters Only</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Global - Coastal Waters Only</Teaser>
+    <Description>Cities may only acquire water plots if they are adjacent to land or contain a workable feature (atolls, et al) or visible resource (fish, whales, et al)</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="20" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="CA30667B2B930B90EA85E760EB691CBA" import="0">LUA/GlobalCoastalWatersOnly.lua</File>
+    <File md5="846B46CA7D0BE21A59B987A18639D265" import="0">SQL/GlobalCoastalWatersOnly.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/GlobalCoastalWatersOnly.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/GlobalCoastalWatersOnly.lua">
+      <Name>GlobalCoastalWatersOnly</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

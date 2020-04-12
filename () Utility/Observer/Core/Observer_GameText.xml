@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/9/2019 5:49:39 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRADITION_TITLE_SHORT">
+			<Text>{@1: gender feminine?Lady; other?Lord;} {1_PlayerName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RATIONALISM_TITLE_SHORT">
+			<Text>{1_PlayerName:textkey} the Wise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PIETY_TITLE_SHORT">
+			<Text>{1_PlayerName:textkey} the Pious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HONOR_TITLE_SHORT">
+			<Text>{1_PlayerName:textkey} the Great</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PATRONAGE_TITLE_SHORT">
+			<Text>{1_PlayerName:textkey} the Magnanimous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMERCE_TITLE_SHORT">
+			<Text>Doge {1_PlayerName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIBERTY_TITLE_SHORT">
+			<Text>Consul {1_PlayerName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EXPLORATION_TITLE_SHORT">
+			<Text>Captain {1_PlayerName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AESTHETICS_TITLE_SHORT">
+			<Text>{1_PlayerName:textkey} the Enlightened</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ORDER_TITLE_SHORT">
+			<Text>Chairman {1_PlayerName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FREEDOM_TITLE_SHORT">
+			<Text>President {1_PlayerName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTOCRACY_TITLE_SHORT">
+			<Text>{1_PlayerName:textkey} the Terrible</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

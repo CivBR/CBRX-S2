@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CustomModOptions>
+		<Replace Name="GLOBAL_NO_LOST_GREATWORKS" Value="1"/>
+		<Replace Name="EVENTS_UNIT_CAPTURE" Value="1"/>
+	</CustomModOptions>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_HEROES</Type>
+			<Description>TXT_KEY_PROMOTION_HEROES</Description>
+			<Help>TXT_KEY_PROMOTION_HEROES_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<NearbyEnemyCombatMod>-5</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_HEROES</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_HEROES">
+			<Text>Heroes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEROES_HELP">
+			<Text>Heroes have captured an enemy Great General (or Admiral).  Their reputation preceeds them, and as such instills a small amount of awe in enemies around them.</Text>
+		</Row>
+	</Language_en_US>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_NOTIFICATIONS_CAPTURE_GP" Text="Capture Great People"/>
+    <Row Tag="TXT_KEY_NOTIFICATIONS_CAPTURE_GP_HEADING">
+      <Text>Captured a {1_GpType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATIONS_CAPTURE_GP_TEXT_BOOST">
+      <Text>Your {2_UnitName} captured a {1_GpType} and gained {3_Icon}{4_Amount}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATIONS_CAPTURE_GP_TEXT_PROMOTION">
+      <Text>Your {2_UnitName} captured a {1_GpType} and gained the {TXT_KEY_PROMOTION_HEROES} promotion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATIONS_CAPTURE_GP_TEXT_UNIT">
+      <Text>Your {2_UnitName} captured a {1_GpType}</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

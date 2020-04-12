@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context ColorSet="Beige_Black" Font="TwCenMT18" FontStyle="Shadow" >
+
+	<Box ID="UnitPanel" Anchor="C,B" Offset="0,91" Size="951,425" Color="Black" >
+
+		<Box ID="UnitBorder1" Anchor="C,C" Offset="0,0" Size="947,425" Color="122,122,122,128" >
+
+			<Box ID="UnitBorder2" Anchor="C,C" Offset="0,0" Size="945,423" Color="Black" >
+
+				<!--Unit Scroll Panel Box-->
+				<Box ID="ScrollBox" Anchor="C,T" Offset="0,0" Size="943,152" Color="Black" >
+
+					<Container ID="ListTitle" Anchor="C,T" Offset="0,0" Size="941,35" >
+
+						<Label Anchor="L,B" Offset="380,4" Font="TwCenMT14" String="Unit Count                                        Unit Experience" />
+
+						<GridButton ID="ClearList" Anchor="R,B" Offset="8,2" Size="85,28" Style="SmallButton" ToolTip="TXT_KEY_GTAS_CLEAR_COMMANDS_HELP" >
+							<Label Anchor="C,C"  Offset="-1,-1"  String="Clear List" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+						</GridButton>
+
+					</Container>
+
+					<GridButton ID="CopyList" Anchor="L,T" Offset="9,5" Size="185,28" Style="SmallButton" ToolTip="TXT_KEY_GTAS_COPY_COMMANDS_HELP" >
+						<Label Anchor="C,C"  Offset="-1,-1"  String="Copy List To All Players" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+					</GridButton>
+
+					<!--Unit Scroll Panel-->
+					<Box ID="ScrollBorder1" Anchor="C,B" Offset="0,0" Size="900,110" Color="122,122,122,128" >
+
+						<Box ID="ScrollBorder2" Anchor="C,C"  Offset="0,0" Size="898,108" Color="Black" >
+
+							<!-- Unit Scroll Panel -->
+							<ScrollPanel ID="UnitScrollPanel" Anchor="C,C" Offset="0,0" Size="896,106" AnchorSide="I,I" Vertical="1" AutoScrollBar="1">
+
+								<!-- Scroll Panel Stack (Dynamic) -->
+								<Stack ID="UnitStack" Anchor="L,T" StackGrowth="Bottom" Padding="0" />
+
+								<!--Scroll Controls-->
+								<ScrollBar Anchor="R,T" Offset="-19,18" Style="VertSlider" AnchorSide="O,I" />
+								<UpButton  Anchor="R,T" Offset="-19,0"  Style="ScrollBarUp"  AnchorSide="O,I" />
+								<DownButton Anchor="R,B" Offset="-19,0" Style="ScrollBarDown" AnchorSide="O,I" />
+
+							</ScrollPanel>
+
+						</Box>
+
+					</Box>
+
+				</Box>
+
+				<!--Unit Controls Box-->
+				<Box Anchor="C,B" Offset="0,0" Size="943,269" Color="Black" >
+
+					<Image Anchor="C,T" Offset="0,8" Texture="bar900x2.dds" Size="900,1" />
+
+					<Image ID="PortraitFrame" Anchor="L,T" Offset="0,5" Size="256,256" TextureOffset="0,0" Texture="256x256Frame.dds" >
+						<Image ID="Portrait" Anchor="C,C" Offset="0,0" Size="256,256" TextureOffset="0,0" />
+					</Image>
+
+					<Container Anchor="L,T" Offset="248,0" >
+
+						<Container Anchor="L,T" Offset="0,19" Size="460,34" >
+
+							<!--Unit PullDown-->
+							<Container Anchor="L,T" Offset="0,0" Size="306,32" >
+								<Label Anchor="L,T" Offset="3,5" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" String="Unit" />
+								<PullDown ID="UnitPulldown" Anchor="R,T" Offset="0,0" Size="250,28" Style="GenericPullDown" ScrollThreshold="218" AutoSizePopUp="1" SpaceForScroll="1" />
+							</Container>
+
+						</Container>
+						
+						<Box Anchor="L,T" Offset="0,57" Size="462,80" Color="122,122,122,128" >
+
+							<Box Anchor="C,C"  Offset="0,0" Size="460,78" Color="Black" >
+
+								<Label ID="UnitExperienceLabel" Anchor="L,T" Offset="15,9" Color0="Beige" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="Experience" ToolTip="TXT_KEY_GTAS_UNIT_EXPERIENCE_HELP" />
+								<Label ID="UnitExperienceValue" Anchor="R,T" Offset="246,10" Color0="130,220,240,255" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" ToolTip="TXT_KEY_GTAS_UNIT_EXPERIENCE_HELP" />
+								<Label ID="ExperienceNotAvailable" Anchor="R,T" Offset="30,9" Color0="Beige" Font="TwCenMT18" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="( Not available for this unit )" Hidden="1" />
+								<Slider ID="UnitExperienceSlider" Anchor="R,T" Offset="15,3" Length="220" Style="Slider" WheelSteps=".2" />
+
+								<Image Anchor="C,C" Offset="0,0" Texture="bar400x2.dds" Size="400,1" />
+
+								<Label ID="UnitCountLabel" Anchor="L,B" Offset="15,12" Color0="Beige" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" String="Count" ToolTip="TXT_KEY_GTAS_UNIT_COUNT_HELP" />
+								<Label ID="UnitCountValue" Anchor="R,B" Offset="246,11" Color0="130,220,240,255" Font="TwCenMT22" FontStyle="Shadow" MouseOverStyle="SoftShadow" ToolTip="TXT_KEY_GTAS_UNIT_COUNT_HELP" />
+								<Slider ID="UnitCountSlider" Anchor="R,B" Offset="15,2" Length="220" Style="Slider" WheelSteps="10" />
+
+							</Box>
+							
+						</Box>
+
+						<Box Anchor="L,T" Offset="0,144" Size="462,80" Color="122,122,122,128" >
+
+							<Box Anchor="C,C" Offset="0,0" Size="460,78" Color="Black" >
+
+								<!--Show Future Units CheckBox-->
+								<CheckBox ID="ShowFutureUnits" Anchor="L,T" Offset="50,3" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" Font="TwCenMT20" TextAnchorSide="Right" TextOffset="35,0" IsChecked="0" ConsumeMouse="1" String="Show Units From Future Eras" ToolTip="TXT_KEY_GTAS_SHOW_FUTURE_HELP" />
+
+								<!--Show Unique Units CheckBox-->
+								<CheckBox ID="ShowUniqueUnits" Anchor="L,T" Offset="50,39" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" Font="TwCenMT20" TextAnchorSide="Right" TextOffset="35,0" IsChecked="0" ConsumeMouse="1" String="Show Unique Units From Other Civs" ToolTip="TXT_KEY_GTAS_SHOW_UNIQUE_HELP" />
+
+							</Box>
+
+						</Box>
+
+					</Container>
+						
+					<!--Combat/NonCombat Radio Buttons-->
+					<Box Anchor="R,T" Offset="40,57" Size="156,138" Color="122,122,122,128" >
+
+						<Box Anchor="C,C"  Offset="0,0" Size="154,136" Color="Black" >
+
+							<Label ID="UnitType" Anchor="C,T"  Offset="0,9"  String="Unit Type" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ToolTip="TXT_KEY_GTAS_UNIT_TYPES_HELP"  />
+
+							<RadioButton ID="ShowCombatUnits" Anchor="L,T" Offset="11,28" String="Combat" 
+										 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16"
+										 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C"
+										 TextAnchorSide="O,O" IsChecked="0" RadioGroup="UnitFilterGroup" />
+							<RadioButton ID="ShowNonCombatUnits" Anchor="L,T" Offset="11,60" String="Non-Combat"
+										 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16"
+										 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C"
+										 TextAnchorSide="O,O" IsChecked="0" RadioGroup="UnitFilterGroup" />
+							<RadioButton ID="ShowBothUnits" Anchor="L,T" Offset="11,92" String="Both" 
+										 ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" Font="TwCenMT16"
+										 FontStyle="Shadow" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" 
+										 TextAnchorSide="O,O" IsChecked="0" RadioGroup="UnitFilterGroup" />
+
+						</Box>
+
+					</Box>
+					
+					<Container Anchor="L,B" Offset="258,7" Size="460,30" >
+						<GridButton ID="AddUnit" Anchor="C,C" Offset="0,0" Size="220,30" Style="SmallButton" ToolTip="TXT_KEY_GTAS_ADD_UNIT_HELP" >
+							<Label Anchor="C,C"  Offset="0,-1"  String="Add To List" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+						</GridButton>
+					</Container>
+
+				</Box>
+
+			</Box>
+
+		</Box>
+		
+	</Box>
+
+	<Instance Name="UnitHelpInstance" >
+
+		<Box ID="UnitHelpRoot" Anchor="L,T" Offset="0,0" Color="Black" >
+
+			<Label ID="UnitHelpLabel" Anchor="C,C" Offset="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Shadow" />
+			<Image ID="UnitHelpLine" Anchor="C,C" Offset="0,0" Texture="bar900x2.dds" Size="900,1" Hidden="1" />
+
+		</Box>
+
+	</Instance>
+
+	<Instance Name="UnitInstance" >
+
+		<Box ID="UnitRoot" Offset="0,0" Size="878,62" Color="Black" >
+
+			<TextButton ID="DeleteUnit" Anchor="L,T" Offset="6,5" ColorSet="Beige_Black" Font="TwCenMT14" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" String="x" />
+
+			<Button ID="UnitButton" Anchor="L,T" Offset="13,-1" Size="64,64" Texture="64x64FrameButtons.dds" >
+				<ShowOnMouseOver>
+					<AlphaAnim  Anchor="R,C" Offset="-9,0" Size="16,32" AnchorSide="O.O" TextureOffset="16.0" Texture="buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+					<AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+					<Image Anchor="R,C" Offset="-9,0" TextureOffset="8,0" AnchorSide="O.O"  Texture="buttonsides.dds" Size="8,16" />
+					<Image Anchor="L,C" Offset="-9,0" TextureOffset="0,0" AnchorSide="O.O"  Texture="buttonsides.dds" Size="8,16" />
+				</ShowOnMouseOver>
+				<Image ID="UnitPortrait" Anchor="C,C" Size="64,64" Texture="UnitPortraitsAncientMedieval512.dds" />
+			</Button>
+
+			<Label ID="UnitName" Anchor="L,C" Offset="81,0" TruncateWidth="170" ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Shadow" />
+			<Label ID="UnitCount" Anchor="R,C" Offset="480,0" TruncateWidth="50" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" />
+			<Label ID="UnitExperience" Anchor="R,C" Offset="240,0" TruncateWidth="50" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" />
+
+			<TextButton ID="UpdateUnit" Anchor="R,C" Offset="10,0" ColorSet="Beige_Black" Font="TwCenMT14" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" String="update" />
+
+			<Image Anchor="L,B" Offset="15,1" Size="850,1" Texture="HorizontalTrim.dds" />
+
+		</Box>
+				
+	</Instance>
+	
+</Context>

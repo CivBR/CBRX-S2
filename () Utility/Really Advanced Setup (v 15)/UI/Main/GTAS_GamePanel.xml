@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Context ColorSet="Beige_Black" Font="TwCenMT18" FontStyle="Shadow" >
+
+	<!-- Main Panel -->
+	<Box ID="MainPanel" Size="951,500" Anchor="C,T" Offset="0,85" Padding="0,0" Style="Grid9DetailFive140" Color="Black" >
+
+		<!--Left Panel-->
+		<Box ID="LeftPanel" Anchor="L,T" Size="440,full" Offset="0,0" Color="Black" >
+			
+			<Stack Anchor="L,T" Offset="30,15" Padding="0" StackGrowth="Bottom" >
+
+				<!-- Standard Game Options -->
+				<Container Anchor="C,T" Offset="10,0" Size="350,32" >
+					<Image  Anchor="C,T"  Offset="0,0" Texture="bar340x2.dds" Size="340,1" />
+					<Label  Anchor="C,C"  Offset="0,-2" String="Standard Game Options" Font="TwCenMT22" />
+					<Image  Anchor="C,B"  Offset="0,0" Texture="bar340x2.dds" Size="340,1" />
+				</Container>
+			
+				<Container Anchor="C,T" Offset="0,15" Size="350,48" >
+					<Label Anchor="L,T" Offset="0,5" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" String="TXT_KEY_AD_SETUP_HANDICAP" />
+					<PullDown ID="HandicapPullDown" Anchor="R,T" Offset="0,0" Size="190,27" Style="GenericPullDown" ScrollThreshold="400" SpaceForScroll="0" />
+				</Container>
+
+				<Container Anchor="C,T" Offset="0,0" Size="350,48" >
+					<Label Anchor="L,T" Offset="0,5" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" String="TXT_KEY_AD_SETUP_GAME_SPEED" />
+					<PullDown ID="GameSpeedPullDown" Anchor="R,T" Offset="0,0" Size="190,27" Style="GenericPullDown" ScrollThreshold="400" SpaceForScroll="0" />
+				</Container>
+
+				<Container Anchor="C,T" Offset="0,0" Size="350,48" >
+					<Label Anchor="L,T" Offset="0,5" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" String="TXT_KEY_AD_SETUP_GAME_ERA" />
+					<PullDown ID="EraPullDown" Anchor="R,T" Offset="0,0" Size="190,27" Style="GenericPullDown" ScrollThreshold="400" SpaceForScroll="0" />
+				</Container>
+
+				<!-- Victory Conditions -->
+				<Container Anchor="C,T" Offset="0,0" Size="350,32" >
+					<Image  Anchor="C,T"  Offset="0,0" Texture="bar340x2.dds" Size="340,1" />
+					<Label  Anchor="C,C"  Offset="0,-2" String="Victory Types" Font="TwCenMT22" />
+					<Image  Anchor="C,B"  Offset="0,0" Texture="bar340x2.dds" Size="340,1" />
+				</Container>
+
+				<Stack ID="VictoryConditionsStack" Anchor="L,T" Offset="10,10" Padding="0" StackGrowth="Bottom" />
+
+				<!-- Really Advanced Options -->
+				<Container Anchor="C,T" Offset="0,15" Size="350,32" >
+					<Image  Anchor="C,T"  Offset="0,0" Texture="bar340x2.dds" Size="340,1" />
+					<Label  Anchor="C,C"  Offset="0,-2" String="Really Advanced Options" Font="TwCenMT22" />
+					<Image  Anchor="C,B"  Offset="0,0" Texture="bar340x2.dds" Size="340,1" />
+				</Container>
+
+				<ScrollPanel ID="ReallyAdvOptionsPanel" Anchor="L,T" Offset="10,10" Size="350,300" Vertical="1" AutoScrollBar="1">
+
+					<!-- Scroll Controls -->
+					<ScrollBar Style="VertSlider" Length="516" Offset="0,18" Anchor="R,T" AnchorSide="O,I" />
+					<UpButton  Offset="0,0"  Style="ScrollBarUp"  Anchor="R,T" AnchorSide="O,I" />
+					<DownButton Offset="0,0" Style="ScrollBarDown"  Anchor="R,B" AnchorSide="O,I" />
+
+					<Stack ID="ReallyAdvOptionsStack" Anchor="L,T" Offset="0,0" Padding="0" StackGrowth="Bottom" >
+
+						<!--Disable Nukes-->
+						<CheckBox ID="DisableNukes" Offset="0,0" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" Font="TwCenMT22" TextAnchorSide="Right" TextOffset="40,0" String="Disable Nuclear Weapons" ToolTip="TXT_KEY_GTAS_DISABLE_NUKES_HELP" IsChecked="0" ConsumeMouse="1" />
+
+					</Stack>
+
+				</ScrollPanel>
+
+			</Stack>
+
+		</Box>
+		
+		<!--Right Panel-->
+		<Box ID="RightPanel" Anchor="R,T" Size="520,full" Offset="0,0" Color="Black" >
+			
+			<Stack Anchor="R,T" Offset="0,15" Padding="0" StackGrowth="Bottom" >
+
+				<!-- Advanced Game Options -->
+				<Box Anchor="C,T" Size="500,32" Offset="0,0" Color="White.0" >
+					<Image  Anchor="C,T"  Offset="0,0" Texture="bar500x2.dds" Size="500.1" />
+					<Label  Anchor="C,C"  Offset="0,-2" String="TXT_KEY_ADVANCED_OPTIONS" Font="TwCenMT22" />
+					<Image  Anchor="C,B"  Offset="0,0" Texture="bar500x2.dds" Size="500.1" />
+				</Box>
+
+				<ScrollPanel ID="AdvancedOptionsPanel" Anchor="R,T" Offset="50,10" Size="410,400" Vertical="1" AutoScrollBar="1">
+
+					<!-- Scroll Controls -->
+					<ScrollBar Style="VertSlider" Length="516" Offset="0,18" Anchor="R,T" AnchorSide="O,I" />
+					<UpButton  Offset="0,0"  Style="ScrollBarUp"  Anchor="R,T" AnchorSide="O,I" />
+					<DownButton Offset="0,0" Style="ScrollBarDown"  Anchor="R,B" AnchorSide="O,I" />
+
+					<Stack ID="GameOptionsStack" Anchor="L,T" Offset="10,0" Padding="0" StackGrowth="Bottom" >
+					
+						<!-- Max Turn Check & Edit Box -->
+						<Box Anchor="L,T" Size="430,32" Offset="0,0" Color="White.0" >
+						
+							<Stack ID="MaxTurnStack" Anchor="L,T" Size="430,32" Offset="0,0" StackGrowth="Right">
+							
+								<Box Anchor="L,C"  Size="161,32" Color="255,255,200,0" >
+									<CheckBox ID="MaxTurnsCheck" Anchor="L,C" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" Font="TwCenMT22" TextAnchorSide="Right" TextOffset="40,0" String="TXT_KEY_AD_SETUP_MAX_TURNS" ToolTip="TXT_KEY_AD_SETUP_MAX_TURNS_TT" IsChecked="0" ConsumeMouse="1" />
+								</Box>
+							
+								<Box ID="MaxTurnsEditbox" Anchor="L,C"  Size="55,24" Color="255,255,200,255" Hidden="1" >
+									<Box Anchor="C,C"  Offset="0,0" Size="53,22" Color="0,0,0,255" >
+										<EditBox ID="MaxTurnsEdit" Anchor="L,C" Offset="8,0" Size="51,18" Font="TwCenMT18" FontStyle="Shadow" EditMode="1" NumberInput="1" MaxLength="4" CallOnChar="1" />
+									</Box>
+								</Box>
+							
+							</Stack>
+						
+						</Box>
+					
+					</Stack>
+
+				</ScrollPanel>
+				
+			</Stack>
+
+		</Box>
+
+		<!-- Vertical Divider -->
+		<Image ID="VerticalDivider" Anchor="L,T" Offset="430,0" Texture="VerticalTrim.dds" Size="5,400" />
+
+	</Box>
+
+	<!--Bottom Bar Buttons-->
+	<Container ID="BottomBar" Anchor="C,B" Offset="0,38" Size="951,52" >
+
+		<!--Reset Button-->
+		<GridButton ID="ResetButton" Anchor="L,T" Offset="190,15" Size="140,32" Style="SmallButton" StateOffsetIncrement="0,0" ToolTip="TXT_KEY_GTAS_RESET_GAME_PANEL_HELP" >
+			<Label Anchor="C,C"  Offset="0,0"  String="Reset This Panel" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+		</GridButton>
+
+	</Container>
+
+	<Instance Name="VictoryInstance">
+		<CheckBox ID="VictoryRoot" Anchor="L,T" Offset="0,0" TextAnchorSide="Right" Font="TwCenMT22" TextOffset="40,0" IsChecked="0" ConsumeMouse="1" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" />
+	</Instance>
+
+	<Instance Name="AdvancedOptionInstance">
+		<CheckBox ID="AdvancedOptionRoot" Anchor="L,T" Offset="0,0" TextAnchorSide="Right" Font="TwCenMT22" TextOffset="40,0" TruncateWidth="370" IsChecked="0" ConsumeMouse="1" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" />
+	</Instance>
+
+	<Instance Name="ReallyOptionInstance">
+		<CheckBox ID="ReallyOptionRoot" Anchor="L,T" Offset="0,0" TextAnchorSide="Right" Font="TwCenMT22" TextOffset="40,0" TruncateWidth="370" IsChecked="0" ConsumeMouse="1" ButtonTexture="assets/UI/Art/Controls/CheckBox2TheBox.dds" />
+	</Instance>
+
+	<!-- Child Screens -->
+	<LuaContext FileName="Assets/UI/Civilopedia/CivilopediaScreen" ID="Civilopedia" Hidden="1" DeferLoad="1"/>
+	
+</Context>
+
+
+
+
+
+
+
+

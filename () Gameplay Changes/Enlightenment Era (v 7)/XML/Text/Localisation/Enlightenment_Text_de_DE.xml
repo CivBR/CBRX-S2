@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/17/2013 9:18:42 AM -->
+<GameData>
+	<Language_DE_DE>
+		<!--===============================================================-->
+		<!--===== Era Names ===============================================-->
+		<!--===============================================================-->
+		<Update>
+			<Set Text="Aufklärung"/>
+			<Where Tag="TXT_KEY_ERA_4"/>
+		</Update>
+		<Update>
+			<Set Text="Industriezeitalter"/>
+			<Where Tag="TXT_KEY_ERA_5"/>
+		</Update>
+		<Update>
+			<Set Text="Moderne"/>
+			<Where Tag="TXT_KEY_ERA_6"/>
+		</Update>
+		<Update>
+			<Set Text="Atomzeitalter"/>
+			<Where Tag="TXT_KEY_ERA_7"/>
+		</Update>
+		<Update>
+			<Set Text="Enlightenment"/>
+			<Where Tag="TXT_KEY_ERA_4_SHORT"/>
+		</Update>
+		<Update>
+			<Set Text="Industriell"/>
+			<Where Tag="TXT_KEY_ERA_5_SHORT"/>
+		</Update>
+		<Update>
+			<Set Text="Modern"/>
+			<Where Tag="TXT_KEY_ERA_6_SHORT"/>
+		</Update>
+		<Update>
+			<Set Text="Atomzeitalter"/>
+			<Where Tag="TXT_KEY_ERA_7_SHORT"/>
+		</Update>
+		<Row Tag="TXT_KEY_ERA_8">
+			<Text>Information Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_8_SHORT">
+			<Text>Informationszeitalter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_8_ABBREV">
+			<Text>IX</Text>
+		</Row>
+		<!--===============================================================-->
+		<!--========== World Congress =====================================-->
+		<!--===============================================================-->
+		<Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_4">
+			<Text>{@1_Ordinal} {@2_CityName} Convention</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_WORLD_ASSEMBLY">
+			<Text>World Congress Continues to Expand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_WORLD_ASSEMBLY_HELP">
+			<Text>The rapid changes within nations around the world result in equally rapid changes to the international relations between them, prompting the World Congress to adapt to meet new challenges.  A special session is called to choose the next host to lead the Congress forward.</Text>
+		</Row>
+		<!--===============================================================-->
+		<!--===== Technologies ============================================-->
+		<!--===============================================================-->
+		<!--Armour Plating-->
+		<Row Tag="TXT_KEY_TECH_EE_ARMOUR_PLATING">
+			<Text>Panzerung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_ARMOUR_PLATING_DESC">
+			<Text>The use of larger guns with more penetrating power and explosive shells made naval armour plating imperative. Among early experiments were floating armoured batteries built for the Crimean War. Heavy wrought-iron plates over a thick wooden backing gave these flat-bottomed vessels outstanding protection as they carried large-shell guns close inshore. Other developments followed swiftly. The British soon built the first iron-hulled floating batteries, and the French followed in 1860 with the first seagoing armoured warships protected throughout their entire length by a wrought-iron belt. Belt armor soon became standard fare for battleships, cruisers, and aircraft carriers. An air space between the armor belt and the hull would also add to the buoyancy of the warship, and this was often done to increase protection against either torpedoes or shells. In other designs, the spaces around the main belt were filled with storage tanks that could contain oil, seawater, or fresh water. There, the liquids in the tanks absorbed or scattered much of the explosive force of warheads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_ARMOUR_PLATING_HELP">
+			<Text>Ermöglicht den Bau von [COLOR_POSITIVE_TEXT]Kreuzern[ENDCOLOR], der wichtigsten Fernkampf-Marineeinheit des Industriezeitalters.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_ARMOUR_PLATING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Was veranlasst Sie zu der Annahme, dass ein Schiff gegen den Wind und gegen die Strömung segeln könnte, wenn man nur ein Feuer unter Deck anzünde? Ich habe keine Zeit, mir so einen Unsinn anzuhören."[NEWLINE][TAB][TAB] - Napoleon Bonaparte über Robert Fultons Dampfschiff[NEWLINE][TAB]</Text>
+		</Row>
+		<!--Exploration-->
+		<Row Tag="TXT_KEY_TECH_EE_EXPLORATION">
+			<Text>Erkundung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_EXPLORATION_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Wir werden nicht vom Forschen ablassen, bis am Ende aller Entdeckungen wir wieder zu unserem Ausgangspunkt zurückkehren und diesen zum ersten Mal richtig kennen."[NEWLINE][TAB][TAB] - T. S. Eliot[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_EXPLORATION_HELP">
+			<Text>Ermöglicht die Ausbildung von [COLOR_POSITIVE_TEXT]Galeonen[ENDCOLOR], einer starken Nahkampf-Marineeinheit der Renaissance, und des [COLOR_POSITIVE_TEXT]Erkunders[ENDCOLOR], einer Aufklärungseinheit im mittleren Teil des Spiels.</Text>
+		</Row>
+		<!--Flintlock-->
+		<Row Tag="TXT_KEY_TECH_EE_FLINTLOCK">
+			<Text>Steinschloss</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_FLINTLOCK_DESC">
+			<Text>The flintlock can either describe a certain lock mechanism which employed a flint to ignite the gunpowder in a musket or rifle, or it can refer to the weapons of the 17th, 18th, and 19th centuries as a whole. These weapons, first developed in France, contained a piece of flint which, when struck with steel (called the 'frizzen') would create a spark, which would then fall into a pan containing gunpowder and ignite it, causing the weapon to fire.[NEWLINE][NEWLINE]Because of their improvement over the previous matchlock rifle, the flintlock quickly became popular, gaining prominence during the 1630s as the favoured arm of dragoons serving in the English Civil War, and then in the 1700s as the standard arm for most European footsoldiers. They retained this status up until the mid 19th century, when they were gradually phased out and replaced with the percussion lock and, later, the cartridge-based systems.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_FLINTLOCK_HELP">
+			<Text>Ermöglicht die Ausbildung von [COLOR_POSITIVE_TEXT]Lineninfanteristen[ENDCOLOR] und von [COLOR_POSITIVE_TEXT]Plänklern[ENDCOLOR], den wichtigsten Einheiten der Aufklärung.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_FLINTLOCK_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Wer auf den Krieg vorbereitet ist, kann den Frieden am Besten wahren."[NEWLINE][TAB][TAB] - George Washington[NEWLINE][TAB]</Text>
+		</Row>
+		<!--Fortification-->
+		<Row Tag="TXT_KEY_TECH_EE_FORTIFICATION">
+			<Text>Befestigung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_FORTIFICATION_DESC">
+			<Text>Fortifications are those structures built to withstand the conditions of warfare. In early history, walls and castles often served as checks against the imposing threat of invasion or conquest, whilst also signifying the residence or territory of a ruling monarch or noble. As the arrival of cannons in the 15th century began to render traditional forts obsolete, new designs which focused upon safeguarding walls behind ditches and ramparts were developed. Like castles before them, however, these structures quickly fell to the advances of military technology, and today, most large-scale fortifications have been made obsolete.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_FORTIFICATION_HELP">
+			<Text>Ermöglicht die Ausbildung von [COLOR_POSITIVE_TEXT]Feldgeschützen[ENDCOLOR], einer starken und effektiven Belagerungseinheit. Ermöglicht außerdem den Bau von [COLOR_POSITIVE_TEXT]Bastionen[ENDCOLOR], um die [ICON_STRENGTH] Verteidigung ihrer Städte weiter zu verbessern.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_FORTIFICATION_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Größe ist nichts, ist sie nicht von Dauer."[NEWLINE][TAB][TAB] - Napoleon Bonaparte[NEWLINE][TAB]</Text>
+		</Row>
+		<!--Humanism-->
+		<Row Tag="TXT_KEY_TECH_EE_HUMANISM">
+			<Text>Humanismus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_HUMANISM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Was ist ein Mensch? Ein elendes Häufchen Geheimnisse."[NEWLINE][TAB][TAB] - Graf Dracula [NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_HUMANISM_HELP">
+			<Text>Ermöglicht es ihnen sowohl die [COLOR_POSITIVE_TEXT]Akademie[ENDCOLOR] als auch den [COLOR_POSITIVE_TEXT]Salon[ENDCOLOR] zu bauen, zwei sich gegenseitig  ausschließende Gebäude die den Kulturertrag, beziehungsweise Wissenschaftsertrag ihrer Stadt erhöhen.</Text>
+		</Row>
+		<!--Imperialism-->
+		<Row Tag="TXT_KEY_TECH_EE_IMPERIALISM">
+			<Text>Imperialismus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_IMPERIALISM_DESC">
+			<Text>In its most basic form, Imperialism describes an unequal relationship between one nation and another, where the former has some amount of control over the latter country - usually in the form of some kind of empire.  Imperialistic dynasties can be found in all the histories of the world, from China to Rome to Britain, and imperialism as a concept has existed for thousands of years, just about as long as governments in general.  The term "imperialism", however, wasn't coined until the 16th century, where it was used to describe the foreign policies and proceedings of nations like Spain, Britain, Belgium, and the Netherlands, as they swiftly built up imperial ties with the Americas.[NEWLINE][NEWLINE]While Imperialism is traditionally connected with the large, iconic, militaristic empire, it can be exhibited in a much more subtle manner.  Formal control of the weaker state's government isn't always necessary, and a stronger civilization will sometimes control a weaker one purely through indirect economic, political or religious means.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_IMPERIALISM_HELP">
+			<Text>Ermöglicht die Ausbildung des [COLOR_POSITIVE_TEXT]Kürassiers[ENDCOLOR], der wichtigsten berittenen Einheit der Aufkärung. Unterstüzt zudem Ozean-basierte Expansion und den Überseehandel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_IMPERIALISM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Das Schicksal hat unsere Politik für uns geschrieben; der Welthandel muss und soll uns gehören."[NEWLINE][TAB][TAB] - Albert Beveridge[NEWLINE][TAB]</Text>
+		</Row>
+		<!--Manufacturing-->
+		<Row Tag="TXT_KEY_TECH_EE_MANUFACTURING">
+			<Text>Fabrikation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_MANUFACTURING_DESC">
+			<Text>Manufacturing is the process of producing goods that can then be sold or used, most often by turning raw materials into merchandise. In pre-industrial societies, the production of such merchandise was often carried out by artisans, overseen by collective guilds which ensured the protection and enterprise of their craft. Alongside the development of factories, and, particularly, with the advent of the Assembly Line in the 1910s, manufacturing became an industrial process, often concerned with the mass production of goods for profit. Manufactories - complexes of factories, assembly plants, foundries, etc. - thus became highly mechanized, and the need for such skilled artisans in the manufacturing process became obsolete.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_MANUFACTURING_HELP">
+			<Text>Zeigt [ICON_RES_COAL] [COLOR_POSITIVE_TEXT]Kohle[ENDCOLOR] und ermöglicht den Bau von [COLOR_POSITIVE_TEXT]Tuchfabriken[ENDCOLOR], um die Produktion in Stadten zu erhöhen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_MANUFACTURING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Lassen Sie uns lieber das Risiko von Verschleiß führen als das des Rostens."[NEWLINE][TAB][TAB] - Theodore Roosevelt[NEWLINE][TAB]</Text>
+		</Row>
+		<!--Natural History-->
+		<Row Tag="TXT_KEY_TECH_EE_NATURAL_HISTORY">
+			<Text>Naturkunde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_NATURAL_HISTORY_DESC">
+			<Text>Natural history is the study of animals, plants, and other organisms as they exist in nature. Naturalists - those who study natural history - often observe, rather than experiment with, their natural surroundings, and have played a pivotal role in the discovery and collection of new and exotic life forms.[NEWLINE][NEWLINE]Aristotle is, arguably, the forefather of natural historians, who first analyzed the natural world. In medieval Europe, his works were adapted into contemporary theology, which would expand upon the field as it related to the existence of God. A secular application of this knowledge would then come during the Renaissance, as disciplines such as botany, zoology, and geology began to emerge. By the Victorian Era, spurred on by the age of empires, naturalists began to amass private collections of sometimes thousands of animals and plants. These collections would go on to form the basis of natural history museums and zoos which, today, are commonplace.[NEWLINE][NEWLINE]One of the greatest naturalists of perhaps the discipline’s history is Charles Darwin. Darwin, who travelled years at a time across the globe, and who collected many new specimens, conceived of his theory of evolution by observing the natural history of the Galapagos islands. In doing so, he, among others, would pave the way for natural history to becoming a theory-based, rather than a strictly descriptive, science, confirming its place among the natural sciences today.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_NATURAL_HISTORY_HELP">
+			<Text>Ermöglicht den Bau von [COLOR_POSITIVE_TEXT]Museen[ENDCOLOR] welche Platz für Große Werke schaffen und den [ICON_CULTURE] Kulturertrag einer Stadt verbessern.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_NATURAL_HISTORY_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Aus einem so einfachen Anfange haben sich eine endlose Reihe der schönsten und wundervollsten Formen entwickelt und entwickeln sich immer noch."[NEWLINE][TAB][TAB] - Charles Darwin[NEWLINE][TAB]</Text>
+		</Row>
+		<!--Romanticism-->
+		<Row Tag="TXT_KEY_TECH_EE_ROMANTICISM">
+			<Text>Romantik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_ROMANTICISM_DESC">
+			<Text>The Romantic era was an age of literary and artistic expression which grew out of opposition to the scientific Enlightenment. It was characterised by ideals of freedom and idealism versus ideals of rationalism and realism. Many romantic thinkers were great artists, musicians, and writers, who sought to elicit intense emotion as a means to see the world around them. These thinkers would come to shape the political ideas of liberalism and radicalism which contrast so deeply with the pessimistic and cynical ideas of conservatism and realism of the modern age.[NEWLINE][NEWLINE]Romanticism reached its peak during the 19th Century, at the height of the Industrial Revolution. Artists and writers from England to Russia all celebrated in an idealistic view of humankind. Its emphasis on imagination and individual heroism was a popular distraction from the rapid changes heralded by an age dominated by global and urban empires seeking wealth and gain. It criticised authority and intellectual objectivity, and gave society a sense of quality and unity which would come to inspire ideals of the nationalism and fraternity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_ROMANTICISM_HELP">
+			<Text>Ermöglicht den Bau von [COLOR_POSITIVE_TEXT]Menagerien[ENDCOLOR], die die [ICON_HAPPINESS_1] Zufriedenheit in ihrem Reich erhöhen und [ICON_GOLDEN_AGE] Goldene Zeitalter wahrscheinlicher machen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_ROMANTICISM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Das schönste Glück des denkenden Menschen ist, das Erforschliche erforscht zu haben und das Unerforschliche ruhig zu verehren."[NEWLINE][TAB][TAB] - Johann Wolfgang von Goethe[NEWLINE][TAB]</Text>
+		</Row>
+		<!--Sovereignty-->
+		<Row Tag="TXT_KEY_TECH_EE_SOVEREIGNTY">
+			<Text>Souveränität</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_SOVEREIGNTY_DESC">
+			<Text>Sovereignty is the political concept of supreme authority. Although in the modern sense sovereignty is usually associated with the highest authority of or within a state, it can also refer to the highest means of any individual to take independent action. This was the traditional sense of the word during the Middle Ages, when sovereignty was merely translated as being the legal or assertive capability of any individual to act independent of others. It was not until the Age of Enlightenment and the Peace of Westphalia that sovereignty became regarded legally as being the power of states to act autonomously of one another.[NEWLINE][NEWLINE]Sovereignty first became popularised by the idea of the “Social Contract,” which was first conceived by the political philosopher Thomas Hobbes as a means to explain the inception of society. Hobbes stipulated that, in order to avoid a state of perpetual conflict between mankind, or a state of “war of all against all,” individuals consent to giving up certain freedoms and benefits to an absolute and indivisible authority that can compel mankind to act in the common interest.[NEWLINE][NEWLINE]On this basis was created the ideal of Absolute Monarchy, which would be practiced in states such as Sweden and Prussia during the 17th and 18th centuries. The French philosopher Jean-Jacques Rousseau, however, would conceive of the notion of popular sovereignty, which instead considers supreme authority as being legitimately held by the people, and merely entrusted into a government to be exercised. It was on the basis of this popular sovereignty that nations such as the United States of America and the French Republic were conceived.[NEWLINE][NEWLINE]Today, most legitimate forms of sovereignty are either popular (as in a Presidential Republic, or as in the Kingdoms of Belgium and Sweden, and the State of Japan) or Parliamentary (as in a Constitutional Monarchy or Parliamentary Republic). In the case of the latter, sovereignty is retained by a supreme authority (the people or the monarch), but exercised on that authority’s behalf by a Parliament, which is usually democratically elected. In this way, most forms of sovereignty are, at least hypothetically, de facto exercised by popular consent, differing greatly from the indivisible form of which Hobbes first conceived.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_SOVEREIGNTY_HELP">
+			<Text>Ermöglicht den Bau einer Reihe von Gebäuden und Wundern, die sich auf die Generierung von Großen Persönlichkeiten konzentrieren. Schaltet außerdem die Möglichkeit frei, den Weltkongress zu gründen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_SOVEREIGNTY_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Ein Staat ist nichts als ein künstlicher Mensch, in dem die Souveränität, als künstliche Seele, dem gesamten Körper Leben und Bewegung einhaucht."[NEWLINE][TAB][TAB] - Thomas Hobbes[NEWLINE][TAB]</Text>
+		</Row>
+		<!--Warships-->
+		<Row Tag="TXT_KEY_TECH_EE_WARSHIPS">
+			<Text>Kriegsschiffe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_WARSHIPS_DESC">
+			<Text>While many ships are engineered to cross oceans quickly or take the greatest amount of cargo in the smallest possible space, warships were designed for one purpose alone - destroying other ships.  Besides obviously being armed with some form of weapon (traditionally things like cannon or rams), warships can also withstand more damage and are much more maneuverable than something like a merchant or passenger vessel.[NEWLINE][NEWLINE]As naval technologies have advanced, so has the warship.  Galleys and triremes were early forms of warships capable of ramming enemy vessels, but usually combat was performed by the army onboard.  However, once cannon became capable of quick reloads, large sail-driven ships were employed which held rows of cannon along each side of the craft. Eventually these wooden ships were given up for ones made of iron and steel, and sails were abandoned for steam and nuclear power. While modern warships bear little resemblance to the earliest galleys, they still keep to the same basic design principles - be capable of destroying the other guy first, before he can take out you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_WARSHIPS_HELP">
+			<Text>Ermöglicht die Ausbildung von [COLOR_POSITIVE_TEXT]Fregatten[ENDCOLOR], der wichtigsten Fernkampf-Marineeinheit der Aufklärung.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EE_WARSHIPS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Zum Teufel mit den Torpedos, volle Kraft vorraus!"[NEWLINE][TAB][TAB] - Admiral David Glasgow Farragut[NEWLINE][TAB]</Text>
+		</Row>
+		<!--===============================================================-->
+		<!--===== Technology Updates ======================================-->
+		<!--===============================================================-->
+		<!--Printing Press-->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_PRINTING_PRESS_HELP"/>
+			<Set Text="Ermöglicht den Bau von [COLOR_POSITIVE_TEXT]Theatern[ENDCOLOR], die den [ICON_CULTURE] Kulturertrag einer Stadt deutlich verbessern."/>
+		</Update>
+		<!--Metallurgy-->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_METALLURGY_HELP"/>
+			<Set Text="Ermöglicht die Ausbildung von [COLOR_POSITIVE_TEXT]Lanciers[ENDCOLOR], einer schnellen berittenen Einheit, um andere berittene Einheiten zu verfolgen."/>
+		</Update>
+		<!--Navigation-->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_NAVIGATION_HELP"/>
+			<Set Text="Ermöglicht die Ausbildung des [COLOR_POSITIVE_TEXT]Linienschiffs[ENDCOLOR], einem mächtigen Kriegsschiff der Aufklärung. Ermöglicht außerdem den Bau von [COLOR_POSITIVE_TEXT]Seehäfen[ENDCOLOR] in Küstenstädten, was den [ICON_PRODUCTION] Produktionsaustoß von Meeresressourcen steigert."/>
+		</Update>
+		<!--Archaeology-->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ARCHAEOLOGY_HELP"/>
+			<Set Text="Zeigt [ICON_RES_ANTIQUITY_SITE] Altertumsstätten und ermöglicht die Ausbildung von Archäologen, einer Einheit zum Ausgraben von solchen."/>
+		</Update>
+		<!--Industrialization-->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_INDUSTRIALIZATION_HELP"/>
+			<Set Text="Ermöglicht den Bau der [COLOR_POSITIVE_TEXT]Fabrik[ENDCOLOR], eines Gebäudes, das die [ICON_PRODUCTION] Produktion einer Stadt stark steigert."/>
+		</Update>
+		<!--===============================================================-->
+		<!--===== Buildings ===============================================-->
+		<!--===============================================================-->
+		<!--Academy-->
+		<Row Tag="TXT_KEY_BUILDING_EE_ACADEMY">
+			<Text>Akademie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_ACADEMY_HELP">
+			<Text>Stadt darf keinen Salon besitzen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_ACADEMY_STRATEGY">
+			<Text>Die Akademie ist ein Gebäude der Aufklärung, das den [ICON_RESEARCH] Wissenschaftsertrag einer Stadt um 25% erhöht. Sie darf nicht in Städten mit einem Salon gebaut werden, was Städte zwingt sich entweder auf Kultur oder Wissenschaft zu spezialisieren.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_ACADEMY_PEDIA">
+			<Text>An academy is an organized body of scholars supported by state funding, though generally independent of direct government influence, that coordinates research, establishes standards for their respective fields, and maintain various research facilities within their jurisdiction. The amount of power and influence an academy yields varies considerable between nations. In some, the a single academy may oversee multiple, or all, scientific disciplines, while in others each discipline is guided by its own academy. While academies dedicated to the natural sciences began forming in the 1600s, they truly began to flourish in the 1700s as royalty throughout Europe followed the model set by Frederick III of Prussia when he founded the Prussian Academy of Sciences in 1700.</Text>
+		</Row>
+		<!--Bastion-->
+		<Row Tag="TXT_KEY_BUILDING_EE_BASTION">
+			<Text>Bastion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_BASTION_HELP">
+			<Text>Stadt muss eine Burg besitzen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_BASTION_STRATEGY">
+			<Text>Die Bastion ist ein Gebäude der Aufklärung, das sowohl die Verteidigungsstärke, als auch die Trefferpunkte einer Stadt erhöht. Die Stadt muss über eine Burg verfügen, bevor die Bastion gebaut werden kann.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_BASTION_PEDIA">
+			<Text>A bastion is an angular projection extending from a fortification, specifically designed to address the changes gunpowder had brought to the landscape of war. Their angular shape eliminated dead space in front of the bastion, allowing neighboring bastions to fire upon enemies should they reach the base. Bastions tend to be short and broad, providing ample room for cannons and their crews while presenting a smaller profile for enemy artillery to attack. Should a cannonball strike the bastion and penetrate its stone facade, the interior of hard-packed earth and rubble would absorb the blow. Advances in artillery during the 19th Century, however, would render even these defensive measures obsolete.</Text>
+		</Row>
+		<!--Cloth Mill-->
+		<Row Tag="TXT_KEY_BUILDING_EE_CLOTH_MILL">
+			<Text>Tuchfabrik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_CLOTH_MILL_HELP">
+			<Text>Jede von dieser Stadt genutzte Quelle von [ICON_RES_COTTON] Baumwolle, [ICON_RES_SHEEP] Schafen und [ICON_RES_SILK] Seide erzeugt +2 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_CLOTH_MILL_STRATEGY">
+			<Text>Die Tuchfabrik ist ein Gebäude der Aufklärung, welches den Produktionsausstoß einer Stadt erhöht, so wie den Goldertrag von nahen Quellen von [ICON_RES_COTTON] Baumwolle, [ICON_RES_SHEEP] Schafen und [ICON_RES_SILK] Seide steigert.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_CLOTH_MILL_PEDIA">
+			<Text>A cloth mill is an early mechanized workshop for the production of yarn and cloth that set the stage for the development of factories during the Industrial Revolution. Initially cloth mills were dependent upon fast-moving streams and rivers to drive their water wheels, but in time they would rely upon steam to turn their machinery. The first cloth mills were developed in northern England in 1740s, but soon spread the American colonies and beyond.</Text>
+		</Row>
+		<!--Drydock-->
+		<Row Tag="TXT_KEY_BUILDING_EE_DRYDOCK">
+			<Text>Trockendock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_DRYDOCK_HELP">
+			<Text>In dieser Stadt ausgebildete Marineeinheiten haben +15% Kampfstärke. Stadt muss einen Seehafen besitzen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_DRYDOCK_STRATEGY">
+			<Text>Das Trockendock ist ein frühes Gebäude des Industriezeitalters, dass die Kampfstärke der in der Stadt ausgebildeten Marineeinheiten erhöht. Die Stadt muss über einen Seehafen verfügen, bevor das Trockendock gebaut werden kann.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_DRYDOCK_PEDIA">
+			<Text>A drydock is a rectangular basin that can be flooded and drained to facilitate the construction and maintenance of ships and other watercraft.  Vessels are constructed or repaired in the drydock while it is drained. Once the vessel is ready to set sail, the dock is filled with water. Most drydocks are stationary docks built along the coast, though mobile floating drydocks exist that can take smaller vessels aboard for repairs.</Text>
+		</Row>
+		<!--Gallery-->
+		<Row Tag="TXT_KEY_BUILDING_EE_GALLERY">
+			<Text>Galerie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_GALLERY_HELP">
+			<Text>Beinhaltet einen Platz für ein großes Kunstwerk.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_GALLERY_STRATEGY">
+			<Text>Die Galerie ist ein Kultur-Gebäude der Renaissance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_GALLERY_PEDIA">
+			<Text>Galleries are places where art is exhibited, either for the general public or for a private audience. Churches, monasteries, and the palaces of monarchs tended to serve as public galleries in medieval Europe, showcasing religious relics and paintings. Private collections held by nobility were also commonplace, and were often, upon condition, opened to the public.[NEWLINE][NEWLINE]By the 18th century, many of these private collections became nationalised and put on public display in newly established art museums. One of the most prestigious examples is the State Hermitage Museum in Russia, to which Catherine the Great purchased and donated many fine collections of art. Today, public galleries continue to be used as a means to display the cultural pride of a nation.</Text>
+		</Row>
+		<!--Gunsmith-->
+		<Row Tag="TXT_KEY_BUILDING_EE_GUNSMITH">
+			<Text>Büchsenmacher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_GUNSMITH_HELP">
+			<Text>+15% [ICON_PRODUCTION] Produktion beim Bau von Schießpulvereinheiten.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_GUNSMITH_STRATEGY">
+			<Text>Der Büchsenmacher beschleunigt die Ausbildung von Schießpulvereinheiten in der Stadt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_GUNSMITH_PEDIA">
+			<Text>Gunsmiths are skilled craftsmen devoted to the design, modification, manufacture and repair of firearms. Before the advent of Eli Whitney's Mill River Armory in the 1790s AD Samuel Colt's mass production of handguns at his factories in Hartford (USA) and London (UK) in the mid-1800s, the gunsmith shop was a vital establishment in any "civilized" settlement.</Text>
+		</Row>
+		<!--Manor-->
+		<Row Tag="TXT_KEY_BUILDING_EE_MANOR">
+			<Text>Schloss</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_MANOR_HELP">
+			<Text>+15% Generierung von [ICON_GREAT_PEOPLE] Großen Persönlichkeiten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_MANOR_STRATEGY">
+			<Text>Steigert die Geschwindigkeit mit der große Persönlichkeiten generiert werden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_MANOR_PEDIA">
+			<Text>During the Middle Ages, the manor house was the dwelling of the lord of the manor (or the residential bailiff) and the administrative center of his feudal estate. The medieval manor was generally fortified in proportion to the degree of peaceful settlement of the country or region in which it was located. It served as the center of secular village life, and its great hall was the scene of the manorial court and the place of assembly of the tenantry. With increased prosperity and the desire for more commodious dwellings, the 16th-century manor house evolved into the Renaissance country house. In England more elaborate buildings were constructed, reflecting a new era of formality. The houses were frequently of regular quadrangular plan, with the hall diminished in size and importance. In later years the title of manor house in England lost particular significance, having been adopted by large country mansions that had no manorial foundation.</Text>
+		</Row>
+		<!--Menagerie-->
+		<Row Tag="TXT_KEY_BUILDING_EE_MENAGERIE">
+			<Text>Menagerie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_MENAGERIE_HELP">
+			<Text>Kann nicht mehr [ICON_HAPPINESS_1] Zufriedenheit generieren als Bürger in der Stadt sind. Stadt muss eine Taverne besitzen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_MENAGERIE_PEDIA">
+			<Text>Die älteste bekannte zoologische Menagerie (der Vorläufer des Zoos) wurde bei Hierakonpolis ausgegraben und stammt aus der Zeit um 3.500 v. Chr. Der älteste bestehende Zoo, der Tiergarten Schönbrunn in Wien, entstand aus der Sammlung exotischer Tiere der Habsburger Dynastie und wurde 1765 n. Chr. der Öffentlichkeit zugänglich gemacht.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_MENAGERIE_STRATEGY">
+			<Text>Die Menagerie steigert die [ICON_HAPPINESS_1] Zufriedenheit einer Zivilisation. Die Zufriedenheit kann die Anzahl von Bürgern in einer Stadt nicht übersteigen. Die Stadt muss über ein Kolosseum verfügen, bevor sie einen Zoo bauen kann. </Text>
+		</Row>
+		<!--Salon-->
+		<Row Tag="TXT_KEY_BUILDING_EE_SALON">
+			<Text>Salon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_SALON_HELP">
+			<Text>Stadt darf keine Akademie besitzen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_SALON_PEDIA">
+			<Text>A salon is a place where people would gather to participate in sophisticated discussion. First appearing in Italy during the 16th century, most salons are associated with those which flourished in France during the Enlightenment. There, the wealthy and intellectual would meet in order to entertain and to expand upon their knowledge of refinements such as art, philosophy, and poetry. Salons were often the staging point for the great literary and philosophical movements of the 18th and 19th centuries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_SALON_STRATEGY">
+			<Text>Der Salon ist ein Gebäude der Aufklärung, das den [ICON_CULTURE] Kulturertrag einer Stadt um 25% erhöht. er darf nicht in Städten mit einem Salon gebaut werden, was Städte zwingt sich entweder auf Kultur oder Wissenschaft zu spezialisieren.</Text>
+		</Row>
+		<!--Tavern-->
+		<Row Tag="TXT_KEY_BUILDING_EE_TAVERN">
+			<Text>Taverne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_TAVERN_HELP">
+			<Text>Die [ICON_HAPPINESS_1] kann die Anzahl von [ICON_CITIZEN] Bürgern in der Stadt nicht übersteigen. Stadt benötigt ein Kolosseum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_TAVERN_STRATEGY">
+			<Text>Eine Taverne erhöht die [ICON_HAPPINESS_1] eures Reichs. Die Stadt muss über ein Kolosseum verfügen, bevor sie eine Taverne bauen kann.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_TAVERN_PEDIA">
+			<Text>Establishments for the dispensation and consumption of alcoholic beverages have been a fixture of cities throughout human civilization. The Babylonian Code of Hammurabi suggests the death penalty for proprietors diluting beer, while the ancient Greek lesche and phatnai catered to the needs of foreign traders and envoys. The traditional English tavern has its roots in the Roman period and, although still considered a place of ill-repute, the taberna was understood as a higher class establishment than the similar caupona which served slaves and the lower classes. Tabernae eventually evolved into alehouses run by women and finally the medieval English inn; sanctuaries for wayfaring strangers, thieves, and political malcontents. By the middle of the 16th century the dining-out habit was well established among townsmen of all classes, and the tavern originated the custom of providing a daily meal at a fixed time. As taverns gradually became more socially acceptable, some of the better houses became regular meeting halls and unofficial clubhouses providing companionship to the masses.</Text>
+		</Row>
+		<!--Theatre-->
+		<Update>
+			<Set Text="Theater"/>
+			<Where Tag="TXT_KEY_BUILDING_THEATRE"/>
+		</Update>
+		<Update>
+			<Set Text="Das Theater in der Form, wie es heute im Westen bekannt ist, wurde von den Griechen erfunden. Die ursprünglichen Theater waren offene Amphitheater, die häufig neben einem Hügel errichtet wurden. Die Zuschauer saßen auf in den Hang integrierten Bänken, während die Darsteller unten das Schauspiel aufführten. Mit der Zeit wurden die Bühnen, besonders in Gegenden mit einer hohen Regenwahrscheinlichkeit, immer mehr überdacht. In einem modernen Theater gibt es immer noch eine Bühne und Sitze für die Zuschauer, aber außerdem gibt es ein ausgeklügeltes Sound- und Lichtsystem, einen Orchestergraben und einen ausgedehnten Bereich hinter der Bühne für Requisiten und Kulissen. Doch ein Theaterbesucher aus der Antike wäre von einem modernen Theater wohl nicht vollkommen überrascht (abgesehen von den horrenden Preisen für die Snacks und Getränke, die während der Pause verkauft werden)."/>
+			<Where Tag="TXT_KEY_BUILDING_THEATRE_PEDIA"/>
+		</Update>
+		<Update>
+			<Set Text="Das Theater ist ein Gebäude der Renaissance, dass die [ICON_CULTURE] Kultur einer Stadt erhöht. Die Stadt muss über ein Amphitheater verfügen, bevor sie ein Theater bauen kann. Beinhaltet 1 Platz für ein großes Literaturwerk."/>
+			<Where Tag="TXT_KEY_BUILDING_THEATRE_STRATEGY"/>
+		</Update>
+		<!--Customs House-->
+		<Row Tag="TXT_KEY_BUILDING_EE_WEIGH_HOUSE">
+			<Text>Zollhaus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_WEIGH_HOUSE_HELP">
+			<Text>Erhöht den [ICON_GOLD] Goldertrag der Stadt um 25%. Stadt benötigt Bank.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_WEIGH_HOUSE_STRATEGY">
+			<Text>Das Zollhaus verbessert den [ICON_GOLD] Goldertrag einer Stadt. Eine Stadt muss über eine Bank verfügen, bevor ein Zollhaus gebaut werden kann.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_WEIGH_HOUSE_PEDIA">
+			<Text>A weigh house is building in which goods are weighed so that taxes might be reliably levied on trade within a city and that disputes regarding the quantity and quality of trade goods might be accurately resolved. Such buildings might be controlled by the city, merchant guilds, or, more rarely, but foreign merchants granted special privileges within the city. Prior to the spread of international standard measurements, a typical weigh house could be found near a city’s market or center, or within its town hall, guild hall, or courthouse.</Text>
+		</Row>
+		<!--===============================================================-->
+		<!--===== Building Updates ========================================-->
+		<!--===============================================================-->
+		<!--Coffee House-->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_COFFEE_HOUSE_STRATEGY"/>
+			<Set Text="Das Kaffeehaus ist ein einzigartiges Gebäude der Österreicher während der Aufklärung, welches den Salon ersetzt. Erhöht die [ICON_CULTURE] Kultur der Stadt und beschleunigt das Auftauchen [ICON_GREAT_PEOPLE] Großer Persönlichkeiten um 25%, und kann selbst mit Akademie errichtet werden."/>
+		</Update>
+		<!--Museum-->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MUSEUM_STRATEGY"/>
+			<Set Text="Das Museum ist ein Gebäude im mittleren Abschnitt des Spiels, das den [ICON_CULTURE] Kulturertrag einer Stadt erhöht. Die Stadt muss über ein Theater oder Opernhaus verfügen, um ein Museum bauen zu können. Beinhaltet 2 Plätze für Große Kunstwerke."/>
+		</Update>
+		<!--Windmill-->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_WINDMILL_STRATEGY"/>
+			<Set Text="Die Windmühle ist ein Gebäude aus der Aufklärung, das die [ICON_PRODUCTION] Produktion einer Stadt bei der Errichtung von Gebäuden erhöht. Städte die auf Hügeln errichtet wurden, können keine Windmühlen bauen."/>
+		</Update>
+		<!--Arsenal-->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_ARSENAL_HELP"/>
+			<Set Text="Stadt muss über eine Bastion verfügen."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_ARSENAL_STRATEGY"/>
+			<Set Text="Das Arsenal ist ein Militärgebäude des Industriezeitalters, das die Verteidigungsstärke einer Stadt um 9 und die Trefferpunkter um 25 erhöht, sodass sie schwieriger einzunehmen ist. Die Stadt muss über eine Bastion verfügen, damit ein Arsenal gebaut werden kann."/>
+		</Update>
+		<!--Stock Exchange-->
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_BUILDINGS_STOCK_EXCHANGE_STRATEGY"/>
+			<Set Text="Die Börse ist ein Gebäude im späteren Teil des Spiels, die den [ICON_GOLD] Goldertrag der Stadt erhöht. Die Stadt muss über ein Zollhaus verfügen, damit eine Börse gebaut werden kann."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP"/>
+			<Set Text="Stadt benötigt Zollhaus"/>
+		</Update>
+		<!--Stadium-->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_STADIUM_HELP"/>
+			<Set Tag="Kann nicht mehr [ICON_HAPPINESS_1] Zufriedenheit bringen, als es [ICON_CITIZEN] Bürger in der Stadt gibt. Stadt benötigt eine Menagerie"/>
+		</Update>
+		<!--===============================================================-->
+		<!--====== Wonders ================================================-->
+		<!--===============================================================-->
+		<!--Crystal Palace-->
+		<Row Tag="TXT_KEY_BUILDING_EE_CRYSTAL_PALACE">
+			<Text>Kristallpalast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_CRYSTAL_PALACE_HELP">
+			<Text>+5% [ICON_GREAT_PEOPLE] Generierung von Großen Persönlichkeiten für jedes Große Werk in der Stadt. Beinhaltet 3 Plätze für Große Kunstwerke.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EE_CRYSTAL_PALACE_THEMING_BONUS_HELP">
+			<Text>Um euren Bonus zu maximieren, sorgt dafür, das alle Großes Werk Plätze mit Kunst aus dem selben Zeitalter, aber aus unterschiedlichen Zivilisationen gefüllt sind.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_EE_CRYSTAL_PALACE">
+			<Text>Große Ausstellung von {1_Era} Werken</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_CRYSTAL_PALACE_QUOTE">
+			<Text>[NEWLINE]"Die Sonne schien und glänzte auf dem riesigen Gebäude, über dem die Flaggen aller Nationen wehten..."[NEWLINE] - Königin Victoria[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_CRYSTAL_PALACE_PEDIA">
+			<Text>The Crystal Palace was designed by Sir Joseph Paxton and erected in Hyde Park, London, for the Great Exhibition of 1851. It was itself the greatest success of the Exhibition. Paxton based it upon the lily house he had built at Chatsworth for the duke of Devonshire. It was more than three times the length of St Paul's and included 294,000 panes of glass. In 1854 it was removed to Sydenham, where, until its damage by fire in 1936, it housed a museum of sculpture, pictures, and architecture and was used for concerts. In 1941 its demolition was completed because it served as a guide to enemy bombing planes. One of the most significant examples of 19th-century, proto-modern architecture, it was widely imitated in Europe and America.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_CRYSTAL_PALACE_GPPG">
+			<Text>EE: Kristallpalast GP Generation</Text>
+		</Row>
+		<!--Fasil Ghebbi-->
+		<Row Tag="TXT_KEY_BUILDING_EE_FASIL_GHEBBI">
+			<Text>Fasil Ghebbi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_FASIL_GHEBBI_HELP">
+			<Text>Freundlich gesinnte Einheiten innerhalb von zwei Feldern um diese Stadt haben +33% Kampfstärke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_FASIL_GHEBBI_QUOTE">
+			<Text>[NEWLINE]"Wenn sich die Spinnen vereinen, können sie einen Löwen zu Fall bringen."[NEWLINE] - Äthiopisches Sprichwort[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_FASIL_GHEBBI_PEDIA">
+			<Text>Fasil Ghebbi is a fortress in Gondar, along the hillside of Ethiopia. During the 17th and 18th centuries it served as the enclosure for Ethiopia’s emperors. The architecture of the fort is unique to Ethiopia, bending the styles of Nubian, Arabian and Baroque architecture. The site houses castles, Iyasu’s Palace, stables and three churches amongst other rooms. Before the building of the fort in about 1635 the emperors of Ethiopia travelled and lived off the land, resting in tents. Emperor Fasilides broke this tradition by founding the city of Gondar and establishing it as his capital. Upon founding the city Fasilides then instructed the creation of ‘Fasil Gemb’ - Fasilides Castle. Since his death later emperors expanded on Fasil Gemb to eventually cover roughly 70,000 square meters of fortified space. The historian Thomas Pakenham visited the site during the 1950’s, noting that among the halls and palaces were what appeared to be pavilions and kiosks of the imperial city therein. Since 1979 Fasil Ghebbi is a World Heritage Site.</Text>
+		</Row>
+		<!--Kronborg-->
+		<Row Tag="TXT_KEY_BUILDING_EE_KRONBORG">
+			<Text>Kronborg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_KRONBORG_HELP">
+			<Text>+25 HP in allen Küstenstadten, +50% Produktion für Marineeinheiten in der Stadt des Baus. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_KRONBORG_QUOTE">
+			<Text>[NEWLINE]"Wo es keine Disziplin gibt, gibt es keine Ehre."[NEWLINE] - Altnordisches Sprichword[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_KRONBORG_PEDIA">
+			<Text>Kronborg is a large star fortress located on the North-eastern tip of the Danish island of Zealand, near the town of Helsingør. It was constructed under the reign of Eric of Pomerania during the 1420s. Along with Kärnan, another Danish fortress situated across the 4km wide Øresund, it was built predominantly to control the entrance to the Baltic Sea. This allowed for the Danish King to demand Øresundstolden, or Sound Dues. This was where all ships entering the Baltic had to pay a tax to the Danish king. If they refused, the cannons on either side of the sound would open fire on the ship and sink it. [NEWLINE][NEWLINE]In 1585 the castle was rebuilt under Frederick II of Denmark. This is when the castle became the large Rennaisance castle which it is now. In 1639 the castle was rebuilt by King Christian IV, after a fire ten years earlier. Less than 20 years later the castle was conquered by a Swedish army under Carl Gustaf Wrangel. Following this, the castle was heavily fortified moreso than before.</Text>
+		</Row>
+		<!--Smithsonian Institute-->
+		<Row Tag="TXT_KEY_BUILDING_EE_SMITHSONIAN">
+			<Text>Smithsonian Institute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_SMITHSONIAN_HELP">
+			<Text>Beinhaltet 2 Plätze für Große Kunstwerke. Bietet eine kostenlose Akademie in der Stadt, in der das Wunder gebaut wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_SMITHSONIAN_QUOTE">
+			<Text>[NEWLINE]"Der beste Prophet der Zukunft ist die Vergangenheit."[NEWLINE] - Lord George Gordon Byron[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EE_SMITHSONIAN_THEMING_BONUS_HELP">
+			<Text>Um euren Bonus zu maximieren, sorgt dafür, dass alle Großen Werke Artefakte sind, die aus unteschiedlichen Zivilisationen stammen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_EE_SMITHSONIAN">
+			<Text>The Nation's Attic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_SMITHSONIAN_PEDIA">
+			<Text>Established in 1846 "for the increase and diffusion of knowledge," the Smithsonian Institute is a group of museums and research centers administered by the United States government. Originally organized as the "United States National Museum," that name ceased to exist as an administrative entity in 1967 in favour of the current name, which refers to the British scientist James Smithson, the money of whom served as the basis for the establishment of the institution. Colloquially referred to as "the Nation's Attic" for its eclectic holdings of some 137 million items, the Institute's Washington, D.C. nucleus of nineteen museums, nine research centers, and a zoo — many of them historical or architectural landmarks of their own right — is the largest such complex in the world. Additional facilities are located across the United States and her former holdings, with such establishments being found in Arizona and New York City (among others in American territory) and as far afield as Panama. In addition to this, 168 other museums across the world are Smithsonian affiliates.</Text>
+		</Row>
+		<!--Topkapi Palace-->
+		<Row Tag="TXT_KEY_BUILDING_EE_TOPKAPI">
+			<Text>Topkapi Palast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_TOPKAPI_HELP">
+			<Text>+1 [ICON_PEACE] Glauben von Militärgebäuden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_TOPKAPI_QUOTE">
+			<Text>[NEWLINE]"The city and the buildings are mine; but I resign to your valor the captives and the spoil, the treasures of gold and beauty; be rich and be happy"[NEWLINE] - Mehmet II[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_TOPKAPI_PEDIA">
+			<Text>Overlooking the waters of the Bosphorous, Topkapi Palace is a large palace complex located on the European side of Istanbul, Turkey. It was constructed under the orders of Mehmed II "The Conqueror", under whom the city was captured from the Byzantines and renamed Istanbul, as part of a scheme to re-build the city following the sucessful Ottoman siege. The palace served as the official residence of the Ottoman sultans for nearly four centuries of their rule, lasting until Sultan Abdul Mecid I moved the court to a newly-built palace further up the Bosphorous in 1856. Topkapi Palace is in fact more of a walled village than a palace, with several small buildings and many courtyards as opposed to one central structure. The site is home to many relics and artefacts collected both by the Sultans and following the end of the Ottoman empire when the palace was turned into a Museum. Among these are relics sacred to the Islamic world, including a door to the Great Mosque of Mecca, as well as what is said to be the cloak and sword of the prophet Muhammed. Other items include many collected from Silk Road trade, such as various pieces of Chinese porcelain from across four different dynasties of rule, and a collection of Islamic weaponry spanning approximately 13 centuries. Although the palace is largely still intact, some parts have since been lost as a result of either Earthquakes or fire.</Text>
+		</Row>
+		<!--Torre Del Oro-->
+		<Row Tag="TXT_KEY_BUILDING_EE_TORRE">
+			<Text>Torre Del Oro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_TORRE_HELP">
+			<Text>Seehandelswege die in dieser Stadt beginnen haben eine um 50% erhöhte Reichweite, und produzieren +3 Gold für beide Handelpartner. Stadt muss sich an der Küste befinden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_TORRE_QUOTE">
+			<Text>[NEWLINE]"Gold ist eine Kostbarkeit. Jedem, der es besitzt, erfüllt es alle Wünsche dieser Welt und verhilft den Seelen ins Paradies."[NEWLINE] - Christopher Columbus[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_TORRE_PEDIA">
+			<Text>Torre Del Oro (Spanish for Tower of Gold) was constructed in the Spanish city of Seville during the 13th century by Berbers who were occupying Southern Spain at the time. It was originally constructed as a military watchtower, however after the Reconquista and discovery of the new world it was used as a treasury of sorts, storing precious metals which had been shipped from the new worlds aboard Spanish treasure fleets, inadvertedly transforming Seville into a very wealthy city and 'gateway to the new world'.  </Text>
+		</Row>
+		<!--Versailles-->
+		<Row Tag="TXT_KEY_BUILDING_EE_VERSAILLES">
+			<Text>Versailles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_VERSAILLES_HELP">
+			<Text>Verlängert Wir lieben den König Feierlichkeiten um 50% im ganzen Reich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_VERSAILLES_QUOTE">
+			<Text>[NEWLINE]"Jedes mal wenn ich einen Termin erstelle, erschaffe ich hundert Unzufriedene und einen Undankbaren."[NEWLINE] - Ludwig XIV[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_VERSAILLES_PEDIA">
+			<Text>The Château de Versailles is one of the most beautiful achievements of 18th-century French art. The site began as Louis XIII's hunting lodge before his son Louis XIV transformed and expanded it, moving the court and government of France to Versailles in 1682. Each of the three French kings who lived there until the French Revolution added improvements to make it more beautiful.[NEWLINE][NEWLINE]The château lost its standing as the official seat of power in 1789 but acquired a new role in the 19th century as the Museum of the History of France, which was founded at the behest of Louis-Philippe, who ascended to the throne in 1830. That is when many of the château's rooms were taken over to house the new collections, which were added to until the early 20th century, tracing milestones in French history.</Text>
+		</Row>
+		<!--Wat Arun-->
+		<Row Tag="TXT_KEY_BUILDING_EE_WAT_PHRA_KAEW">
+			<Text>Wat Phra Kaew</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_WAT_PHRA_KAEW_HELP">
+			<Text>+1 [ICON_RESEARCH] Wissenschaft von Religiösen Gebäuden. Stadt muss sich an einem Fluss befinden. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_WAT_PHRA_KAEW_QUOTE">
+			<Text>
+				[NEWLINE]"Mehr wert als tausend Worte ohne rechten Sinn[NEWLINE]
+				Ist ein sinnvoller Spruch, der führt zum Frieden hin."[NEWLINE] - Das Dhammapada, Vers 100[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EE_WAT_PHRA_KAEW_PEDIA">
+			<Text>Wat Phra Kaew, or the Temple of the Emerald Buddha, (officially known as Wat Phra Sri Rattana Satsadaram) is regarded as the most important Buddhist temple in Thailand. Located in the historic centre of Bangkok, within the grounds of the Grand Palace, it enshrines Phra Kaew Morakot (the Emerald Buddha), the highly revered Buddha image meticulously carved from a single block of jade. The Emerald Buddha (Phra Putta Maha Mani Ratana Patimakorn) is a Buddha image in the meditating position in the style of the Lanna school of the north, dating from the 15th century AD.[NEWLINE][NEWLINE]Raised high on a series of platforms, no one is allowed near the Buddha except the King. A seasonal cloak, changed three times a year to correspond to the summer, winter, and rainy season covers the statue. A very important ritual, the changing of the robes is performed only by the King to bring good fortune to the country during each season.[NEWLINE][NEWLINE]The construction of the temple started when King Buddha Yodfa Chulaloke (Rama I) moved the capital from Thonburi to Bangkok in 1785. Unlike other temples, it does not contain living quarters for monks; rather, it has only elaborately decorated holy buildings, statues, and pagodas. The main building is the central 'ubosot' (ordination hall), which houses the Emerald Buddha.</Text>
+		</Row>
+		<!--National Wonders-->
+		<!--Summer Palace-->
+		<Row Tag="TXT_KEY_BUILDING_EE_SUMMER_PALACE">
+			<Text>Sommerpalast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_SUMMER_PALACE_HELP">
+			<Text>Bringt eine kostenlose [ICON_GREAT_PEOPLE] Große Persönlichkeit Ihrer Wahl bei der [ICON_CAPITAL] Hauptstadt.[NEWLINE][NEWLINE]Benötigt Schloss in allen Städten. Je mehr Städte ein Reich hat, desto höher sind die Kosten.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_SUMMER_PALACE_PEDIA">
+			<Text>The Summer Palace is a complex of gardens, lakes and buildings that was constructed in Beijing under the order of the Qianlong Emperor, of the Qing Dynasty, in 1749.  The project required the creation of artificial lakes in the area, as the palace and surrounding farmland required waterworks and irrigation.  The palace’s design was based off of various aspects of China’s myths, legends, and natural and man-made wonders.  The palace fell into decline along with the Qing dynasty, and was damaged by the British and French during the Second Opium War.  After the fall of Qing, the complex fell into the possession of the former imperial family, now powerless.  It was opened to the public in 1924, after the last emperor, Puyi, was expelled.  Since 1953, the government of the People’s Republic of China have renovated the palace, which is now a World Heritage Site.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EE_SUMMER_PALACE_STRATEGY">
+			<Text>Das nationale Wunder Sommerpalast bringt eine kostenlose [ICON_GREAT_PEOPLE] Große Persönlichkeit ihrer Wahl in der [ICON_CAPITAL] Hauptstadt. Er bringt außerdem +1 [ICON_CULTURE] Kultur. Die Zivilisation muss über ein Schloss in allen Städten verfügen, bevor der Sommerpalast gebaut werden kann.</Text>
+		</Row>
+		<!--===============================================================-->
+		<!--========== Units ==============================================-->
+		<!--===============================================================-->
+		<!--Carrack-->
+		<Row Tag="TXT_KEY_UNIT_EE_CARRACK">
+			<Text>Karacke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_CARRACK_HELP">
+			<Text>Nahkampf-Marineeinheit des Mittelalters, gut, um früh die Vorherrschaft über das Meer an sich zu reißen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_CARRACK_PEDIA">
+			<Text>Developed by the Genoese Republic for commercial purposes, a carrack is three- or four-masted sailing vessel. Utilized by Spain and Portugal for oceanic travel and exploration, the carrack was one of the most influential ship designs in history. Large and roomy to carry cargo across vast distances, they were used heavily across the Atlantic and Indian oceans, carrying new found wealth and resources back to the great cities of Europe. One of the most famous ships to go down a history, the Santa Maria, was a carrack that carried Columbus and his crew to discover the new world. Another famous ship of this design belongs to Vasco Da Gama, the Portuguese explorer who circumnavigated Africa, discovering a new route to spices of India. The end of the carrack came at the hands of the galleon. Developed from the carrack, the first galleons became a reality in the mid 16th century, though the carrack would persist for several more decades.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_CARRACK_STRATEGY">
+			<Text>Die Karacke ist eine Verbesserung der Trireme. Kann keine Ozeane befahren.  Allerdings ist sie deutlich stärker als die Trireme, was es ihnen erlaubt, ihre Küstenstädte besser vor Plündernden Barbaren und feindlichen Zivilisationen zu schützen.  Ihre frühe Stärke kann genutzt werden um, mit etwas Unterstützung, kleinere Städte mit niedrigem Verteidigungswert zu erobern.</Text>
+		</Row>
+		<!--Cruiser-->
+		<Row Tag="TXT_KEY_UNIT_EE_CRUISER">
+			<Text>Kreuzer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_CRUISER_HELP">
+			<Text>Sehr starke Fernkampf-Marineeinheit des Industriezeitalters um die Kontrolle über das Meer zu gewinnen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_CRUISER_STRATEGY">
+			<Text>Als technologische Brücke zwischen Fregatte und Schlachtschiff, bewegen sich Kreuzer mit der gleichen Geschwindigkeit wie ihr Vorgänger, kann sich aber mit einer deutlich höheren Kampfstärke brüsten. Auch ohne die zusätzliche Manövrierfähigkeit kann der Kreuzer eine veraltete Marine leicht überwältigen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_CRUISER_PEDIA">
+			<Text>The word cruiser was applied originally to frigates of the sailing era, which, being smaller and faster than ships of the line, cruised the seas scouting for enemy fleets and hunting enemy convoys. As the designation for a specific type of warship, cruiser did not become current until about 1880, when navies had settled on iron-hulled ships powered either by a combination of sail and steam or solely by steam. Cruiser, then, became the standard designation for a large surface warship built for high speed and great cruising radius, capable of not only defending its own fleet and coastlines but also threatening those of the enemy. By about 1900, cruisers were of two principal kinds: protected cruisers had steel armour plating only on their decks, while armoured cruisers also had armour extending down the sides of the hull. Though smaller than battleships, cruisers were powerful warships because of their great speed and relatively big guns.</Text>
+		</Row>
+		<!--Cuirassier-->
+		<Row Tag="TXT_KEY_UNIT_EE_CUIRASSIER">
+			<Text>Kürassier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_CUIRASSIER_HELP">
+			<Text>Schnelle berittene Einheit der Aufklärung. Anfällig für Lanciers und Ulanen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_CUIRASSIER_PEDIA">
+			<Text>Cuirassiers were European cavalry rigged with firearms and a cuirass, which was the name of their armour. A cuirass is a single or multiple pieces of metal which usually covered the front of the torso. About the middle of the century, the breastplate of the cuirass was made in two parts; the lower adjusted to overlap the upper, held together with a strap or sliding rivet in order to add flexibility to the advantages plate armour had over mail.Primarily fielded in the 15th century, the Cuirassier grew to a heightened prominence during the Napoleonic wars, where it was heavily recruited and equipped with swords as their primary weapon. Cuirassiers continued to be employed into the early ravages of the Great War and continue their ceremonial use as regiments to this day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_CUIRASSIER_STRATEGY">
+			<Text>Als Kavallerieeinheit der Aufklärung, hat der Kürassier eine höhere Kampfstärke als der mittelalterliche Ritter behält aber seine Geschwindigkeit bei. Anfällig gegenüber Einheiten wie Lanciers and Ulanen.</Text>
+		</Row>
+		<!--Explorer-->
+		<Row Tag="TXT_KEY_UNIT_EE_EXPLORER">
+			<Text>Forscher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_EXPLORER_HELP">
+			<Text>Aufklärungseinheit. Verbesserte Sicht und erhöhte Fortbewegung wenn gewassert.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_EXPLORER_PEDIA">
+			<Text>Throughout history there are those whose thirst for adventure led them from the safe confines of civilized lands. These explorers, frequently funded by government stipends, would then journey into the unknown, charting their progress all the way. These expeditions, and the maps they helped create, became blueprints for the conquest and domestication of the once uncharted regions of the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_EXPLORER_STRATEGY">
+			<Text>Eine Verbesserung für den Späher. Der Forscher hat sogar eine noch größere Sicht und Fortbewegung, ist aber noch immer ziemlich schwach.  Der Forscher zeichnet sich vor allem durch Erkundungen zur See aus, da er gewassert über eine Höhere Fortbewegung verfügt.  Nutzt ihm alle alle anderen Zivilisationen zu endecken, oder sucht nach geeigneten Orten vor Kolonien in Übersee.</Text>
+		</Row>
+		<!--Field Gun-->
+		<Row Tag="TXT_KEY_UNIT_EE_FIELD_GUN">
+			<Text>Feldgeschütz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_FIELD_GUN_HELP">
+			<Text>Artillerieeinheit der Aufklärung.  Muss vor dem Feuern in Stellung gehen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_FIELD_GUN_PEDIA">
+			<Text>A field gun is a piece of light artillery that can be easily moved around the battlefield. During his wars in Europe, Napoleon used field guns to great effect. His employment of very large wheels allowed his guns to be quickly moved in the midst of battle, meaning enemy formations could be easily broken up. This strategy gradually became obsolete, however, as the development of road and rail, and the changing nature of the battlefield, allowed for most kinds of artillery to be moved at respectable speed.[NEWLINE][NEWLINE]By the beginning of the Second World War, the term 'field gun' had come to mean any long-range artillery piece that fired at a low angle. However, because of the demand for artillery which could fire at both long-range and a high angle during the later stages of World War II, field guns became largely supplanted by howitzers, and today the term sees no widespread application.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_FIELD_GUN_STRATEGY">
+			<Text>Das Feldgeschütz ist die Artillerieeinheit der Aufklärung.  Während es die Reichweite der Kanone beibehält, aus der es hervorgeht, ist es doch deutlich stärker.  Wie andere Belagerungseinheiten, ist es sehr anfällig und muss beschützt werden.  Es muss außerdem FP ofern um in Stellung zu gehen – doch sie sind unverzichtbar vor Eroberungen während der Aufklärung.</Text>
+		</Row>
+		<!--First Rate-->
+		<Row Tag="TXT_KEY_UNIT_EE_ENGLISH_FIRST_RATE">
+			<Text>First Rate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_ENGLISH_FIRST_RATE_HELP">
+			<Text>Mächtige Nahkampf-Marineeinheit der Aufklärung Die die Verteidigungsstärke von nahen verbündeten Einheiten Erhöht.  Nur die Engländer können sie bauen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_ENGLISH_FIRST_RATE_PEDIA">
+			<Text>“First-rate” is the classification used for the largest ships of the line maintained by the British Royal Navy.  Throughout the existence of the rating system, the threshold armament and crew for a ship to be considered first-rate changed.  However, it was established in the early 1700s that a first-rate ship loaded for wartime carried at least 100 guns.  First-rates were very expensive, heavy and slow in exchange for their massive firepower.  As a result, few were maintained at any given time, and they often served as flagships.  HMS Victory, Admrial Nelson’s famous flagship from the Battle of Trafalgar, is the only surviving first-rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_ENGLISH_FIRST_RATE_STRATEGY">
+			<Text>Die First Rate ist England’s einzigartige Einheit, und ersetzt das Linienschiff.  Wie auch das Linienschiff, ist sie ein starkes Nahkampfschiff.  Allerdings ist es noch stärker.  Außerdem bietet es verbündeten Einheiten in der Nähe einen Kampfbonus bei der Verteidigung.  Nutzt es als Teil einer größeren Flotte, um eure Feuerkraft deutlich zu erhöhen.</Text>
+		</Row>
+		<!--Galleon-->
+		<Row Tag="TXT_KEY_UNIT_EE_GALLEON">
+			<Text>Galeone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_GALLEON_HELP">
+			<Text>Nahkampf-Marineeinheit der Renaissance.  Kann Ozeane befahren.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_GALLEON_PEDIA">
+			<Text>A galleon is the design of a multi-story sailing vessel attributed to the Venetians. Employed extensively in the fleets of Spain and other European states to further their naval militaristic interests, the galleon were formidable warships that weighed up to 2000 metric tonnes. The galleon was powered entirely by wind, using sails carried on three or four masts, with a lateen sail continuing to be used on the last (usually third and fourth) masts. They were used in both military and trade applications, most famously in the Spanish treasure fleet, and the Manila Galleons. Demoting the carrack to be used just for cargo, these vessels became the forefront of European armadas and went on to colonize the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_GALLEON_STRATEGY">
+			<Text>Die Galeone ist eine Marineeinheit der Renaissance.  Als Verbesserung der Karacke, ist die Galeone das erste Nahkampf-Marineeinheit, die Ozeane befahren kann.  Nutzen sie eine Flotte aus Galeonen, unterstützt durch größere Schiffe, um Städte in Übersee zu Erobern, oder ihre eigenen Kolonien zu schützen.</Text>
+		</Row>
+		<!--Line Infantry-->
+		<Row Tag="TXT_KEY_UNIT_EE_LINE_INFANTRY">
+			<Text>Linieninfanterie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_LINE_INFANTRY_HELP">
+			<Text>Standart Infanterieeinheit der Aufklärung.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_LINE_INFANTRY_PEDIA">
+			<Text>With the massive proliferation of guns from the middle of the 17th century, the battlefield became dominated by linear tactics, according to which infantry were arranged into long thin lines and fired volleys. A line consisted of 2, 3, or 4 ranks of soldiers. The relatively short range at which smooth bore muskets could accurately hit a target, added to the slow reload, meant that massed formation firing was essential for maximizing enemy casualties. The line was considered the fundamental battle formation as it allowed for the largest deployment of firepower. In the years following the Napoleonic Wars, line infantry continued to be deployed as the main battle force, while light infantry provided fire support and covered the movement of units. With the invention of new weaponry, the concept of line infantry began to wane; men walking in formation line-abreast became far too easy a target. The growing accuracy and rate of fire of rifles, together with the invention of the gatling gun and machine gun, meant that close order line infantry would suffer huge losses before being able to close with their foe. With the turn of the 20th Century, this slowly led to infantry increasingly adopting skirmisher style light infantry tactics in battle, while retaining line infantry drills for training.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_LINE_INFANTRY_STRATEGY">
+			<Text>Die Standart-Infanterieeinheit der Aufklärung, Verbesserung von und deutlöich stärker als der Musketier.  Die Linieninfanterie bildet das Rückrad jeder Armee der Aufklärung, gut im Kampf gegen andere Nahkampfeinheiten und zur Abwehr von Belagerungen.</Text>
+		</Row>
+		<!--Skirmisher-->
+		<Row Tag="TXT_KEY_UNIT_EE_SKIRMISHER">
+			<Text>Plänkler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SKIRMISHER_HELP">
+			<Text>Fernkampf-Infanterieeinheit, die direkt neben einem Gegner stehen muss, um anzugreifen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SKIRMISHER_PEDIA">
+			<Text>Skirmishers are light infantry or cavalry soldiers stationed ahead or alongside a larger body of friendly troops to harass the enemy. In ancient and medieval warfare, skirmishers typically carried bows, javelins, or slings. Acting as light infantry with minimal armor, they could run ahead of the main battle line, release a volley, and retreat before the clash of the opposing main forces. During the Napoleonic Wars the role of the skirmisher took on new notability, attempting to disrupt enemy forces by firing into their close-packed ranks and potentially causing early casualties and breaking enemy formation. A skirmish force screening the main body of infantry became so important that eventually all the major European powers developed specialized skirmishing infantry, e.g. the German Jäger and the French Voltigeurs. While muskets were the predominant weapon at the time, the British Army experimented with rifles, which soon became the predominant firearm. A consequence of these wars was a trend to train line troops to adopt skirmisher tactics. By the late 19th century, the concept of fighting in formation was on the wane, and the distinctions between skirmisher and heavy infantry have largely disappeared.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SKIRMISHER_STRATEGY">
+			<Text>Der Plänkler ist die erste auf Schießpulver basierende Fernkampfeinheit im Spiel. Auch wenn ihre Reichweite auf 1 sinkt, bleibt ihre Nahkampfstärke gleich, was es ihr erlaubt sich zu verteidigen und anzugreifen ohne Schaden zu nehmen.</Text>
+		</Row>
+		<!--Ship of the Line-->
+		<Row Tag="TXT_KEY_UNIT_EE_SHIP_OF_THE_LINE">
+			<Text>Linienschiff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SHIP_OF_THE_LINE_HELP">
+			<Text>Mächtige Fernkampf-Marineeinheit der Aufklärung.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SHIP_OF_THE_LINE_STRATEGY">
+			<Text>Das Linienschiff ist eine Nahkampf-Marineeinheit der Aufklärung.  ander als ihr Vorgänger, die Galeone, benötigt das Linienschiff Eisen.  Dafür ist es deutlich stärker und es verfügt über einen extremen Geschwindigkeitsbonus.  Nutzt es um veraltete Flotten zu vernichten.</Text>
+		</Row>
+		<!--Surveyor-->
+		<Row Tag="TXT_KEY_UNIT_EE_SURVEYOR">
+			<Text>Landvermesser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SURVEYOR_HELP">
+			<Text>Aufklärungseinheit im späteren Abschnitt des Spiels, die Zugang zu feindlichem Territorium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SURVEYOR_PEDIA">
+			<Text>As the Industrial Revolution powered forward, exploration of the world took on a much more scientific slant.  The purpose of exploration changed from the Renaissance ideal of bringing back treasure and trade routes, to a desire to understand the world and its flora and fauna.  This served a practical purpose as well – a more urbanized and mechanized society required formal planning of spaces, in order to more efficiently build infrastructure and settlements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_SURVEYOR_STRATEGY">
+			<Text>Der Landvermesser ist eine Aufklärungseinheit und eine Verbesserung für den Forscher.  Er ist stärker und schneller als der Forscher, bleibt aber anfällig wenn er Allein ist.  Der Landvermesser kann fremdes Gebiet ohne offene Grenzen betreten.</Text>
+		</Row>
+		<!--Uhlan-->
+		<Row Tag="TXT_KEY_UNIT_EE_UHLAN">
+			<Text>Ulan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_UHLAN_HELP">
+			<Text>Leichte Kavallerieeinheit im mittleren Abschnitt des Spiels. Gut gegen andere Kavallerie Einheiten.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_UHLAN_PEDIA">
+			<Text>The Uhlan was a Polish light cavalry unit armed with lances, sabres, and pistols which came to frequent the armies of 18th and 19th century Russia, Prussia, and Austria. Descendents of the Tartar settlers of Lithuania, the first Uhlan regiment was created by the Polish-Lithuanian Commonwealth in the early 1700s. Swift and unobstructed by the cumbersome armor which had previously dominated mounted warfare, the Uhlan quickly grew in popular use for their versatility and speed; able to conduct reconnaissance, skirmishes, or to head-on charges. Today, a ceremonial regiment of Uhlans is retained by the Polish Armed Forces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EE_UHLAN_STRATEGY">
+			<Text>Als Verbesserung für den Lancier erfüllt der Ulan die gleiche Rolle wie sein Vrgänger.  Nutzt ihn um schnelle Kavallerieeinheiten abzuwehren, die eure Armeen bedrohen</Text>
+		</Row>
+		<!--===============================================================-->
+		<!--========== Unit Text Updates ==================================-->
+		<!--===============================================================-->
+		<!--Caravel-->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_CARAVEL_STRATEGY"/>
+			<Set Text="Die Karavelle bedeutet einen erheblichen Fortschritt der Seemacht einer Zivilisation, sie kann Tiefsee-Geländefelder durchqueren und kann durch eine Beförderung gute Chancen darauf erhalten, sich zurückzuziehen, bevor eine gegnerische Marine-Nahkampfeinheit angreifen kann. Die Karavelle hat einen riesigen Sichtbereich und wird so zu einer unerlässlichen Marine-Aufklärungseinheit im mittleren Abschnitt des Spiels. Der Sichtbonus geht verloren, wenn die Karavelle zu einem Zerstörer verbessert wird."/>
+		</Update>
+		<!--Conquistador-->
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_SPAIN_CONQUISTADOR_HELP"/>
+			<Set Text="Einheit der Aufklärung, die auf Spähen und die Gründung von Kolonien in Übersee spezialisiert ist. Kann nur von Spanien ausgebildet werden. Ersetzt den Kürassier, aber ist früher verfügbar."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY"/>
+			<Set Text="Der Konquistador ist eine vielseitig einsetzbare Einheit, die sowohl auf dem Land als auch zu Wasser stark ist. Er ersetzt den Kürassier, wird aber bereits mit der Erkundung freigeschaltet, anstelle des Imperialismus. Auf Land ist er ein außergewöhnlicher Späher mit zusätzlicher Sicht. Außerdem verfügt er über die Fähigkeit, neue Städte auf Kontinenten zu gründen, auf denen sich die spanische Hauptstadt nicht befindet. Zu Wasser verfügt der Konquistador über die Beförderung 'Mit Verteidigung wassern', die es ihm erlaubt, sich selbst gegen Marineeinheiten zu verteidigen. Im Gegensatz zum Kürassier erhält er keinen Malus, wenn er Städte angreift.."/>
+		</Update>
+		<!--Nau-->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU"/>
+			<Set Text="Nahkampf-Marineeinheit, hervorragend für die Meereserkundung geeignet. Sie hat mehr [ICON_MOVES]Fortbewegung als die Karacke, die sie ersetzt, und kann einmalig eine Fähigkeit einsetzen, mit der sie direkt neben fremdem Gebiet [ICON_GOLD] Gold und EP einbringt. Kann nur von den Portugiesen gebaut werden."/>
+		</Update>
+		<!--Turtle Ship-->
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_KOREA_TURTLESHIP_HELP"/>
+			<Set Text="Schwer gepanzerte Marineeinheit der Aufklärung, die nur schwer besiegbar ist. Schildkrötenschiffe können jedoch keine Tiefsee-Geländefelder außerhalb der Stadtgrenzen durchqueren. Nur Korea darf sie bauen. Ersetzt die Galeone."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_KOREA_TURTLESHIP_STRATEGY"/>
+			<Set Text="Das Schildkrötenschiff ist eine Spezialeinheit Koreas. Sein Angriff ist stärker als der der Galeone, die es ersetzt. Schildkrötenschiffe sind nur sehr schwer zu besiegen, sie können aber Tiefsee-Geländefelder außerhalb der Stadtgrenzen nicht durchqueren."/>
+		</Update>
+		<!--Carolean-->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY"/>
+			<Set Text="Karoliner sind das Rückgrat der schwedischen Armee in der Aufklärung. Sie beginnen mit der Marschieren-Beförderung, sodass sie in jeder Runde heilen, selbst wenn sie andere Aktionen ausführen."/>
+		</Update>
+		<!--Frigate-->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_FRIGATE_STRATEGY"/>
+			<Set Text="Die Fragatte ist eine starke Fernkampf-Marineeinheit der Aufklärung. Sie kann Ozeane befahren und ist bedeutend stärker als die Galeasse, aus der sie hervorgeht. "/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_FRIGATE"/>
+			<Set Text="Mächtige Marineeinheit der Aufklärung, die für Hoheit auf See sorgt."/>
+		</Update>
+		<!--Hakkapeliittaaa-->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY"/>
+			<Set Text="Hakkapeliten sind die berittenen Eliteeinheiten der schwedischen Armee in der Aufklärung. Es sollte möglichst ein Großer General im Verband bei ihnen sein. Der Große General bekommt dann den Fortbewegungsbonus der Hakkapeliten, letztere erhalten in einem solchen Verband 15% Kampfbonus."/>
+		</Update>
+		<!--Minuteman-->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_MINUTEMAN"/>
+			<Set Text="Eine der ersten Fernkampf-Schießpulver-Einheiten des Spiels. Kann nur von den Amerikanern gebaut werden. Ersetzt den Plänkler. Diese Einheit bewegt sich in umwegsamem Gelände wie in flachem, erhält einen Bonus beim Kampf in umwegsamem Gelände und verdient Punkte für ein [ICON_GOLDEN_AGE] Goldenes Zeitalter, wenn sie einen Gegner besiegt."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY"/>
+			<Set Text="Der Minuteman ist die Spezialeinheit der Amerikaner und ersetzt den Plänkler. Der Minuteman bewegt sich durch schwieriges Gelände wie durch freies (alle Geländefelder kosten 1 FP pro Geländefeld), erhält einen Bonus beim Kampf in umwegsamem Gelände und verdient Punkte für ein [ICON_GOLDEN_AGE] Goldenes Zeitalter, wenn er einen Gegner besiegt."/>
+		</Update>
+		<!--Norwegian Ski Infantry-->
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_HELP"/>
+			<Set Text="Starke Frontlinien-Landeinheit im mittleren Spielabschnitt, die auf Schnee, Tundra und Hügel spezialisiert ist. Nur Dänemark darf sie bauen. Ersetzt die Linieninfanterie."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_STRATEGY"/>
+			<Set Text="Die norwegische Ski-Infanterie ist eine von zwei dänischen Spezialeinheiten, die die Linieninfanterie ersetzt. Diese Einheit bewegt sich mit doppelter Geschwindigkeit durch Schnee, Tundra oder Hügel. Sie verfügt auch über einen +25% Kampfbonus auf den Geländefeldern Schnee, Tundra oder Hügel, wenn weder Wald noch Dschungel vorhanden sind."/>
+		</Update>
+		<!--Artillery-->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_ARTILLERY_STRATEGY"/>
+			<Set Text="Artillerie ist eine gefährliche Belagerungswaffe, die stärker ist als Das Feldgeschütz und über eine größere Reichweite verfügt. Ähnlich wie die Kanone hat sie auch nur eine begrenzte Sicht und muss vor dem Angriff in Stellung gebracht werden (1 FP), aber die Fernkampfstärke ist immens. Artillerie bietet zudem die Möglichkeit des indirekten Feuers, sodass Ziele in Reichweite geraten, die blockiert und nicht sichtbar sind (solange eine andere freundlich gesinnte Einheit sie sehen kann). Genau wie andere Belagerungswaffen ist auch die Artillerie bei Nahkampfangriffen leicht verwundbar."/>
+		</Update>
+		<!--Gatling Gun-->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GATLINGGUN_STRATEGY"/>
+			<Set Text="Die Gatling-Kanone ist eine Fernkampf-Einheit im mittleren Spiel zur Abwehr von Belagerungen. Sie ist viel wirkungsvoller als frühere Fernkampf-Einheiten wie der Plänkler. Die Reichweite beträgt nur ein Feld, aber sie kann dennoch bei anderen Einheiten beträchtlichen Schaden anrichten, ohne selbst beschädigt zu werden. Platziert Gatling-Kanonen in der Stadt zur Verteidigung."/>
+		</Update>
+		<!--Rifleman-->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_RIFLEMAN_STRATEGY"/>
+			<Set Text="Der Schütze ist die Schießpulvereinheit des Industriezeitalters. Er ist stärker als die Linieninfanterie, was Armeen mit dieser fortschrittlichen Einheit einen immensen Vorteil gegenüber Zivilisationen verschafft, die noch nicht über sie verfügen."/>
+		</Update>
+		<!--===============================================================-->
+		<!--========== Unit Promotions ====================================-->
+		<!--===============================================================-->
+		<Row Tag="TXT_KEY_PROMOTION_EE_FIRST_RATE">
+			<Text>Flaggschiff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EE_FIRST_RATE_HELP">
+			<Text>Marineeinheiten die ihren Zug [COLOR_POSITIVE_TEXT]neben[ENDCOLOR] einer Einheit mit dieser Befördeung beginnen haben +20% [ICON_STRENGTH] Verteidigung.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EE_FIRST_RATE_DEFENSE">
+			<Text>Nahes Flaggschiff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EE_FIRST_RATE_DEFENSE_HELP">
+			<Text>+20% [ICON_STRENGTH] Verteidigung.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EE_EXPLORER">
+			<Text>Forscher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EE_EXPLORER_HELP">
+			<Text>+1 Fortbewegung und Sicht wenn gewassert.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EE_DRYDOCK">
+			<Text>Trockendock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EE_DRYDOCK_HELP">
+			<Text>+15% [ICON_STRENGTH] Kampfstärke.</Text>
+		</Row>
+		<!--===============================================================-->
+		<!--========== Policy Updates =====================================-->
+		<!--===============================================================-->
+		<!--Cultural Centers-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_CENTERS_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Kulturzentren[ENDCOLOR][NEWLINE]Errichtet Kulturgebäude 50% schneller."/>
+		</Update>
+		<!--Mercantilism-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MERCANTILISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Merkantilismus[ENDCOLOR][NEWLINE]Der Kauf von Objekten in Städten kostet 25% weniger [ICON_GOLD] Gold. +1 [ICON_RESEARCH] Wissenschaft von Gebäuden die Gold bringen."/>
+		</Update>
+		<!--Naval Tradition-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Marinetradition[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Zufriedenheit für jeden Hafen, Seehafen, Leuchtturm oder Trockendock."/>
+		</Update>
+		<!--Merchant Navy-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Handelsmarine[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold Gold für jeden Hafen, Seehafen, Leuchtturm oder Trockendock. +4 [ICON_PRODUCTION] Produktion and +4 [ICON_CULTURE] Kultur in der Stadt mit der Ostindien-Kompanie."/>
+		</Update>
+		<!--Capitalism-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CAPITALISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Kapitalismus[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] lokale Zufriedenheit durch jede Münzanstalt, Bank, Börseund jedes Zollhaus."/>
+		</Update>
+		<!--Academy of Sciences-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Akademie der Wissenschaften[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] lokale Zufriedenheit durch jede öffentliche Schule, und Akademie, jedes Observatorium, und Forschungslabor."/>
+		</Update>
+		<!--Young Pioneers-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Jungpioniere[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] lokale Zufriedenheit durch jede Werkstatt, Tuchfabrik, Fabrik und jedes Sonnen-/Kern-/Wasserkraftwerk."/>
+		</Update>
+		<!--Fortified Borders-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Befestigte Grenzen[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] lokale Zufriedenheit durch jede Burg, Bastion, jeden Militärstützpunkt und jedes Arsenal."/>
+		</Update>
+	</Language_DE_DE>
+</GameData>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="420f5ed1-b43c-4ba5-a5f0-d463c4cda72e" version="3">
+  <Properties>
+    <Name>Faster Aircraft Animations</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Faster aircraft animations (x2)</Teaser>
+    <Description>Faster aircraft animations (x2)</Description>
+    <Authors>Gedemon</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" />
+    <Mod id="580c14eb-9799-4d31-8b14-c2a78931de89" minversion="0" maxversion="999" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="76362D58EAEA105DB8CDA06C0B476FDE" import="0">FasterAircraft.sql</File>
+    <File md5="E5BF50E1310670487E3FA2D71D1ACED7" import="0">ReadMe.txt</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>FasterAircraft.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

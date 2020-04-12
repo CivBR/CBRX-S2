@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/6/2014 2:23:34 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_MUTANT</Type>
+			<Description>TXT_KEY_UNIT_MUTANT</Description>
+			<DefaultUnit>UNIT_MUTANT</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MUTANT</Class>
+			<Type>UNIT_MUTANT</Type>
+			<PrereqTech>TECH_GEN_MANIP</PrereqTech>
+			<Combat>80</Combat>
+			<Cost>320</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MUTANT</Description>
+			<Civilopedia>TXT_KEY_CIVIL_UNIT_MUTANT</Civilopedia>
+			<Strategy>TXT_KEY_STRATEGY_UNIT_MUTANT</Strategy>
+			<Help>TXT_KEY_HELP_UNIT_MUTANT</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_IMPLANTS</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_MUTANT</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_3</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>43</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_MUTANT</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUTANT</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_MUTANT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUTANT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_MUTANT</UnitType>
+			<UnitClassType>UNITCLASS_FW_BIOINFANTRY</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIVIL_UNIT_MUTANT">
+			<Text>As soon as the earliest forms of genetic manipulation techniques were perfected, it was inevitable that there would be some less ethical organizations that would seek to experiment on human subject, often with an eye towards creating powerful new super soldiers or bioweapons. More often than not, however, these crude experiments resulted in hideous monstrosities, although many were noted to have exceptional durability and regenerative capbilities that made them useful to field in combat. The most insidious cases also carried dangerous viruses that were released upon their death, often resulting in insanity amongst their attackers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MUTANT">
+			<Text>Mutant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STRATEGY_UNIT_MUTANT">
+			<Text>Infantry unit that heals every turn and after killing an enemy unit. Upon dying, nearby enemy units may become Barbarians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HELP_UNIT_MUTANT">
+			<Text>Infantry unit that heals every turn and after killing an enemy unit. Upon dying, nearby enemy units may become Barbarians.</Text>
+		</Row>
+	</Language_en_US>
+
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_FW_MUTANT</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_FW_Mutant.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+</GameData>

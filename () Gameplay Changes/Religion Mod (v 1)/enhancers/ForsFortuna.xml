@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2018 5:06:22 PM -->
+<GameData>
+	
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_FORS_FORTUNA</Type>
+			<Description>TXT_KEY_BELIEF_FORS_FORTUNA</Description>
+			<ShortDescription>TXT_KEY_BELIEF_FORS_FORTUNA_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
+			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
+			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_FORS_FORTUNA">
+			<Text>+2 [ICON_PEACE] Faith and +1 [ICON_GOLD] for Farms and Hydroponic Domes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_FORS_FORTUNA_SHORT">
+			<Text>Fors Fortuna</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

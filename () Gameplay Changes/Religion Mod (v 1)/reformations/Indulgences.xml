@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2018 10:57:01 AM -->
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_INDULGENCES_NQ</Type>
+			<Description>TXT_KEY_BELIEF_INDULGENCES_NQ</Description>
+			<ShortDescription>TXT_KEY_BELIEF_INDULGENCES_NQ_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+		</Row>
+	</Beliefs>
+	
+	<Belief_CityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_INDULGENCES_NQ</BeliefType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_INDULGENCES_NQ</BeliefType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_INDULGENCES_NQ</BeliefType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_INDULGENCES_NQ</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_INDULGENCES_NQ</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_INDULGENCES_NQ</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_CityYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_INDULGENCES_NQ" />
+		<Row Tag="TXT_KEY_BELIEF_INDULGENCES_NQ">
+			<Text>+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, +1 [ICON_RESEARCH] Science, +1 [ICON_GOLD] Gold, +1 [ICON_CULTURE] Culture, and +1 [ICON_PEACE] Faith in Cities following this Religion</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_INDULGENCES_NQ" />
+		<Row Tag="TXT_KEY_BELIEF_INDULGENCES_NQ">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, +1 [ICON_RESEARCH] Science, +1 [ICON_GOLD] Gold, +1 [ICON_CULTURE] Culture, and +1 [ICON_PEACE] Faith in Cities following this Religion</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_INDULGENCES_NQ" />
+		<Row Tag="TXT_KEY_BELIEF_INDULGENCES_NQ">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, +1 [ICON_RESEARCH] Science, +1 [ICON_GOLD] Gold, +1 [ICON_CULTURE] Culture, and +1 [ICON_PEACE] Faith in Cities following this Religion</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_INDULGENCES_NQ" />
+		<Row Tag="TXT_KEY_BELIEF_INDULGENCES_NQ">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, +1 [ICON_RESEARCH] Science, +1 [ICON_GOLD] Gold, +1 [ICON_CULTURE] Culture, and +1 [ICON_PEACE] Faith in Cities following this Religion</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_INDULGENCES_NQ_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_INDULGENCES_NQ_SHORT">
+			<Text>Indulgences</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_INDULGENCES_NQ_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_INDULGENCES_NQ_SHORT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Indulgences</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_INDULGENCES_NQ_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_INDULGENCES_NQ_SHORT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Indulgences</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_INDULGENCES_NQ_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_INDULGENCES_NQ_SHORT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Indulgences</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

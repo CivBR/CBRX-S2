@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- When you first meet this AI player -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_FIRSTGREETING_1">
+			<Text>Greetings, visitor. I am Tsouharrissen, chief of the Neutral Nation, and you are welcome to feast with us on the glorious bounty of our lands.  Take heed though, as any betrayal of our hospitality will be met with fire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_FIRSTGREETING_2">
+			<Text>Hail and honour to you, friend. I am Frederick, commander of these forces and King of Prussia. What compels you to seek my audience today?</Text>
+		</Row>
+		<!-- When you've defeated this AI player through conquest -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DEFEATED_1">
+			<Text>Tell my wife I said ‘Hello’</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DEFEATED_2">
+			<Text>Perhaps I should have read Clauswitz more closely.</Text>
+		</Row>
+		<!-- Trying to contact or trade with the AI too many times; "REPEAT" appears first, and then "TOO_MUCH" if you continue (regardless of AI feelings) -->
+		<!-- Repeatedly contacting the AI -->
+		<!-- AI has no strong feelings -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_REPEAT_1">
+			<Text>Back so soon?</Text>
+		</Row>
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HOSTILE_REPEAT_1">
+			<Text>You're getting on my nerves. Go bother somebody else.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HOSTILE_REPEAT_2">
+			<Text>Please. I do not appreciate this wasting of my time.</Text>
+		</Row>
+		<!-- You have contacted them for a fifth time -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_REPEAT_TOO_MUCH_1">
+			<Text>...</Text>
+		</Row>
+		<!-- Repeatedly trying to trade with the AI -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_REPEAT_TRADE_1">
+			<Text>Didn't I already say you would have to do better?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_REPEAT_TRADE_2">
+			<Text>I already told you to only bother off	ring a fair deal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_REPEAT_TRADE_3">
+			<Text>Are you offering deals you know I won't accept?</Text>
+		</Row>
+		<!-- You have tried for a fifth time (?) -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>...</Text>
+		</Row>
+
+		<!-- ==================================== Greetings ==================================== -->
+		<!-- Generic greetings depending on how the AI feels about you -->
+		<!-- AI likes you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_POLITE_HELLO_1">
+			<Text>I shall offer to you my heart and ear, for you are my friend and ally.</Text>
+		</Row>
+		<!-- AI has no strong feelings -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_NEUTRAL_HELLO_1">
+			<Text>Greetings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_NEUTRAL_HELLO_3">
+			<Text>What would you like to discuss?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_NEUTRAL_HELLO_4">
+			<Text>What brings you here today?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_NEUTRAL_HELLO_5">
+			<Text>Go on.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_NEUTRAL_HELLO_6">
+			<Text>Let us begin.</Text>
+		</Row>
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HOSTILE_HELLO_1">
+			<Text>I grow tired of dealing with wretched churls such as yourself.</Text>
+		</Row>
+
+		<!-- Greetings while at war -->
+		<!-- All other times -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_AT_WAR_HOSTILE_1">
+			<Text>Come to beg for mercy?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_AT_WAR_HOSTILE_2">
+			<Text>Lost the will to fight?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_AT_WAR_HOSTILE_3">
+			<Text>What's the matter? Tired of battle?</Text>
+		</Row>
+
+		<!-- Situational greetings -->
+		<!-- You have a Declaration of Friendship with them -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_WORKING_WITH_1">
+			<Text>I have time for a friend. What do you need?</Text>
+		</Row>
+		<!-- The human is at war -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>You are not very good at war, it must be said. In fact, you are quite terrible at it.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HUMAN_AT_WAR_1">
+			<Text>Best of luck with your war. Perhaps I could give you a few tips?</Text>
+		</Row>
+		<!-- The human has an aggressive military posture -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HOSTILE_AGGRESSIVE_MILITARY_1">
+			<Text>Your military actions trouble me deeply. I suggest you think carefully about what you're doing.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_AGGRESSIVE_MILITARY_1">
+			<Text>The positioning of your military is somewhat worrisome. I advise you to withdraw for the sake of future peace. Now, what would you like to talk about?</Text>
+		</Row>
+		<!-- The human is aggressively setting cities -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>The spread of your cities and people is like a plague infecting the land. I look forward to the day I don't have to see it any more.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>While I have this opportunity, I should mention that your expansion has worried several of my officials. I hope that this does not cause any problems in the future. What would you like to discuss?</Text>
+		</Row>
+		<!-- The human is aggressively claiming plots -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HOSTILE_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>I am alarmed by your careless purchase of land near my borders. These fields are the marching grounds of my armies, and I am prepared to defend them if you do not cease at once.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>Whilst I have this opportunity, I would like to mention that your recent purchase of land has caused me some concern.</Text>
+		</Row>
+		<!-- AI is praising your strong military -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>Your military is known the world over; I bow to one who has inspired the souls of men into soldiers.</Text>
+		</Row>
+		<!-- AI is praising your strong economy -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>I have heard word of your prospering nation. My friend, I am pleased for you and your people.</Text>
+		</Row>
+		<!-- AI is mocking you for having fewer cities than them -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>I have little interest in dealing with City-States, thank you.</Text>
+		</Row>
+		<!-- AI is mocking you for having a small military -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>Where is your army? Did you lose it? That's quite careless of you, don't you think?</Text>
+		</Row>
+		<!-- AI considers you to be a warmonger -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>I do not wish to speak with you, warmonger.</Text>
+		</Row>
+
+		<!-- ==================================== Declarations of Friendship and Denouncing ==================================== -->
+		<!-- AI offers you a Declaration of Friendship -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DEC_FRIENDSHIP_1">
+			<Text>I consider you a dear friend; would you care to share these sentiments with me, and with the world, in the form of a Declaration of Friendship?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DEC_FRIENDSHIP_2">
+			<Text>May I call you a friend? That is, with a Declaration of Friendship, of course.</Text>
+		</Row>
+		<!-- AI isn't ready for a Declaration of Friendship yet -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_TOO_SOON_FOR_DOF_1">
+			<Text>Whilst I think of you as a dear friend, I must first think of the position of my Tribe, and how a declaration of friendship would reflect upon my people.</Text>
+		</Row>
+		<!-- AI, as your friend, wants you to denounce another civilization -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DOF_AI_DENOUNCE_REQUEST_1">
+			<Text>Friend, I have a serious matter to discuss. My relationship with {1_CivName} has broken down, and I need you to denounce them as a show of support. What do you say?</Text>
+		</Row>
+		<!-- AI, as your friend, wants you to declare war on another civilization (disabled in normal DLL according to whoward69) -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DOF_AI_WAR_REQUEST_1">
+			<Text>{1_CivName} has long been given the opportunity to accept harmony with our two nations. They have refused, and the time has come for war. Can I call you my ally, as I would you my friend? (WILL DECLARE WAR IMMEDIATELY)</Text>
+		</Row>
+		<!-- AI is denouncing you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DENOUNCE_1">
+			<Text>You have caused enough misery gone unnoticed in this world; it is time that I stood for my Tribe and my honour, and denounced your abominable behaviour.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DENOUNCE_2">
+			<Text>I will no more tolerate the misdeeds that you have committed against all that is good in this world. I denounce your barbarity.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<!-- AI is responding to you denouncing them -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>If this is prelude to war, then you have made a foolish error.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_RESPONSE_TO_BEING_DENOUNCED_2">
+			<Text>I am sorry that you feel this way; I meant you only courtesy. I hope that one day we may remedy our differences.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_RESPONSE_TO_BEING_DENOUNCED_3">
+			<Text>You have made a grave mistake.</Text>
+		</Row>
+		<!-- AI contacting you after you befriend their friend -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_HUMAN_DOFED_FRIEND_1">
+			<Text>It is an excellent occasion, that you would declare your friendship with {1_CivName}. There is honour to you yet.</Text>
+		</Row>
+		<!-- AI contacting you after you befriend their enemy -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_HUMAN_DOFED_ENEMY_1">
+			<Text>I fear that you have been deceived into friendship by {1_CivName}, for I know in my heart that they are not to be trusted.</Text>
+		</Row>
+		<!-- AI contacting you after you denounce their friend -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>I will defend {1_CivName} as if they were of my own Tribe, should it be war that you seek with them.</Text>
+		</Row>
+		<!-- AI contacting you after you denounce their enemy -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>I am pleased that you have seen through the deceptive nature that is {1_CivName}, and denounced them to the world.</Text>
+		</Row>
+		<!-- AI contacting you after they befriend your friend -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>I see that you have become friends with {1_CivName}. I will do the same, and I will hope that it will forge harmony between our nations.</Text>
+		</Row>
+		<!-- AI contacting you after they denounce your enemy -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>I share your convictions that {1_CivName} only causes problems for the civilized empires of the world. Perhaps the combination of our denouncements will teach them a lesson.</Text>
+		</Row>
+		<!-- AI contacting you after they denounce your friend -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>There is no greater dishonour in this world than an alliance between you and {1_CivName}.</Text>
+		</Row>
+		<!-- AI contacting you after they befriend your enemy -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_HUMAN_DENOUNCE_SO_AI_DOF_1">
+			<Text>Anyone who you don't get along with is clearly worth building a friendship with. Give {1_CivName} my regards.</Text>
+		</Row>
+
+		<!-- ==================================== AI warnings ==================================== -->
+		<!-- AI has noticed your military posture is aggressive -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I see your armies amassed near my empire. If you wish to attack then come. Don't hide in the shadows like a child.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>It's come to my attention that you have a large number of Units near my borders. I request that you move them elsewhere to avoid causing undue distress to my citizens.</Text>
+		</Row>
+
+		<!-- AI has noticed your aggressive settling -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Your expansion efforts are an insult. Know that there will be consequences for this.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_EXPANSION_WARNING_1">
+			<Text>I couldn't help but notice that you seem to be expanding into lands which I regard to be mine. I request that you reconsider this.</Text>
+		</Row>
+
+		<!-- AI has noticed your aggressive plot claiming -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>The aggressive manner in which you buy up territory near us is an insult. I had hoped you would be a better neighbor.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_PLOT_BUYING_WARNING_1">
+			<Text>Your purchase of land is getting out of hand. I will not be afraid to put a stop to it if you cannot control yourself.</Text>
+		</Row>
+
+		<!-- ==================================== War requests ==================================== -->
+		<!-- AI wants you to go to war against a third party -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_COOP_WAR_REQUEST_1">
+			<Text>It aches my heart that there are villains in this world such as {1_PlayerName:textkey} that can only be dealt with by cannon fire. But so it must be, and I ask you to bear with me this burden, for the sake of all that is good.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_COOP_WAR_REQUEST_2">
+			<Text>{1_PlayerName:textkey} has long been given the opportunity to accept harmony with our two nations. They have refused, and the time has come for war. Can I call you my ally, as I would you my friend?</Text>
+		</Row>
+
+		<!-- ==================================== Miscellanious comments ==================================== -->
+		<!-- You and the AI are competing for the same city states -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_MINOR_CIV_COMPETITION_1">
+			<Text>It's come to my attention that you're getting a little friendly with {1_MinorCivName:textkey}. In case you weren't aware, they're within my sphere of influence, and I'd prefer if you stayed out of it.</Text>
+		</Row>
+
+		<!-- ==================================== Player requests ==================================== -->
+		<!-- You continue to ask for something that the AI is not interested in -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_REPEAT_NO_1">
+			<Text>We've been over this before. The answer is still no.</Text>
+		</Row>
+		<!-- You ask the AI to not settle near you -->
+		<!-- AI agrees -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DONT_SETTLE_YES_1">
+			<Text>Yes. I would prefer to uphold our friendship.</Text>
+		</Row>
+		<!-- AI doesn't agree -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DONT_SETTLE_NO_1">
+			<Text>Absolutely not. The land that I settle belongs to those who can defend it greatest.</Text>
+		</Row>
+
+		<!-- ==================================== Insults ==================================== -->
+		<!-- Generic insult if no others are picked -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_GENERIC_1">
+			<Text>You deserve nothing but my mockery, sir. You, as a leader, is a laughable thing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_GENERIC_2">
+			<Text>Ah, it's always nice to see my favorite city-state again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_GENERIC_3">
+			<Text>I'm really getting tired of seeing your face. My hope is that one day you'll just go away or something.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_GENERIC_4">
+			<Text>Ah, it's you. My apologies. Sometimes I get you mixed up with the barbarians I have to swat from time to time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_MILITARY_1">
+			<Text>Please take better care of your soldiers. I almost mistook them for beggars.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_MILITARY_2">
+			<Text>Your army is in terrible shape. It is almost as if you have no clue what it is for.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_BULLY_1">
+			<Text>You are unfit to serve as ruler of your people, for such a poor show of diplomatic skills you have displayed with your bullying.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_UNHAPPINESS_1">
+			<Text>I can hear your people wailing in sorrow all the way over in my empire. If you don't do something soon they might just pack up and find a real civilization to live in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_UNHAPPINESS_2">
+			<Text>With people so unhappy it's a shock to me that they'd keep you around as their leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_CITIES_1">
+			<Text>It is understandable that you might have no imperial designs yourself, but think of your people and their needs. Expand a little.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_POPULATION_1">
+			<Text>Travelers have told us that your empire's economy is in pretty sad shape. If you beg a little I might give you a hand. Okay, actually I won't.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INSULT_CULTURE_1">
+			<Text>You are so unrefined. Did you forget to leave the Dark Ages like the rest of us?</Text>
+		</Row>
+
+		<!-- ==================================== Trade ==================================== -->
+		<!-- AI is offering a trade because they want a luxury from you -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_LUXURY_TRADE_1">
+			<Text>There would be a far greater benefit to our two nations should you accept this deal, beyond the economic, I assure you.</Text>
+		</Row>
+		<!-- AI is asking for a mutual open borders agreement -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_OPEN_BORDERS_EXCHANGE_1">
+			<Text>I believe there is much to be achieved for our people should we allow them to cross freely between our two nations.</Text>
+		</Row>
+
+		<!-- ==================================== Player declares war on the AI ==================================== -->
+		<!-- AI Attacked by another player -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_ATTACKED_HOSTILE_1">
+			<Text>Why have you made such a foolish error?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_ATTACKED_HOSTILE_2">
+			<Text>You are an uncivilized brute.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_ATTACKED_HOSTILE_3">
+			<Text>I expected no less from someone like you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_ATTACKED_HOSTILE_4">
+			<Text>I relish this chance to defeat you on the battlefield.</Text>
+		</Row>
+
+		<!-- ==================================== AI declares war on the player ==================================== -->
+		<!-- Generic response -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DOW_GENERIC_1">
+			<Text>Gravely, war must be done upon you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DOW_GENERIC_2">
+			<Text>We both knew this day was looming.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DOW_GENERIC_3">
+			<Text>May the better commander win.</Text>
+		</Row>
+		<!-- AI is in a land dispute with the player -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DOW_LAND_1">
+			<Text>The land that you thought was yours indeed belongs to my realm. This is my time to take it back.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_DOW_LAND_2">
+			<Text>Prussia yearns for additional lands. Yours are ripe for the plucking.</Text>
+		</Row>
+		<!-- AI declares war after the player refuses a demand -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_WAR_DEMAND_REFUSED_1">
+			<Text>So be it. My armies will extract it from your lands then.</Text>
+		</Row>
+
+		<!-- ==================================== Peace offers ==================================== -->
+
+		<!-- AI doesn't want to have peace -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_NO_PEACE_1">
+			<Text>There can be no peace. Perhaps another day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_NO_PEACE_2">
+			<Text>This is not the time for negotiation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_NO_PEACE_3">
+			<Text>We still have business to settle.</Text>
+		</Row>
+		<!-- Player asks for peace on the same turn war was declared - no peace! -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_TOO_SOON_NO_PEACE_1">
+			<Text>You have done wrong by my realm, and there shall be no peace until justice is wrought.</Text>
+		</Row>
+
+		<!-- ==================================== Cultural Influence ==================================== -->
+		<!-- Player is influential on the AI (Our people are wearing your blue jeans...) -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now listening to your military marches and wearing your pickelhaubes. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<!-- AI is influential on the player -->
+		<Row Tag="TXT_KEY_LEADER_CBR_ESSIE_INFLUENTIAL_ON_HUMAN_1">
+			<Text>We are glad to see that your people are listening to our military marches and wearing our pickelhaubes. The amazing works of our civilization are truly inspiring!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

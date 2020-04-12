@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" version="7">
+  <Properties>
+    <Name>Enlightenment Era</Name>
+    <Teaser>Expands the tech tree to include the [COLOR_POSITIVE_TEXT]Enlightenment Era[ENDCOLOR]</Teaser>
+    <Description>The Enlightenment Era was a period in which scientific thought advanced dramatically</Description>
+    <Authors>Pouakai, JFD, Janboruta, Sukritact</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="BF5E4F5D282F739FA1EEA711D813FB1F" import="1">Art/Atlases/Buildings/Enlightenment_Buildings_128.dds</File>
+    <File md5="743ADD07CCA2326513FEDF6998F554EF" import="1">Art/Atlases/Buildings/Enlightenment_Buildings_256.dds</File>
+    <File md5="69949283BAFBD5F7896C9588E850705A" import="1">Art/Atlases/Buildings/Enlightenment_Buildings_45.dds</File>
+    <File md5="38F16787B9ECF726F9B50A77499E1695" import="1">Art/Atlases/Buildings/Enlightenment_Buildings_64.dds</File>
+    <File md5="3BB50D8C82B56BD977AD3B3BADF441C6" import="1">Art/Atlases/Buildings/Enlightenment_Buildings_80.dds</File>
+    <File md5="8D32A99F9D6540F083A1B8B63B791373" import="1">Art/Atlases/Techs/EE_Flintlock_128.dds</File>
+    <File md5="EECA5D2376BF9D6820366B9522352D32" import="1">Art/Atlases/Techs/EE_Flintlock_214.dds</File>
+    <File md5="E02F8337C9B904CA5F8042C3A6F6EFDF" import="1">Art/Atlases/Techs/Enlightenment_Techs_128.dds</File>
+    <File md5="C21B4424322500605E5F54402C1EB33D" import="1">Art/Atlases/Techs/Enlightenment_Techs_214.dds</File>
+    <File md5="32C40EC5CAA71F8067A4B220A5D3ABEF" import="1">Art/Atlases/Techs/Enlightenment_Techs_256.dds</File>
+    <File md5="51690156A4A241BF658B57A96DB417E0" import="1">Art/Atlases/Techs/Enlightenment_Techs_45.dds</File>
+    <File md5="158084A05E6604D6F8FBAA94BBE6D8F5" import="1">Art/Atlases/Techs/Enlightenment_Techs_64.dds</File>
+    <File md5="6609DB90829F7411EF42834DAA3C31C5" import="1">Art/Atlases/Techs/Enlightenment_Techs_80.dds</File>
+    <File md5="FC73717BCE4036BD27A16EB1EBCA067D" import="1">Art/Atlases/Units/Enlightenment_Units_128.dds</File>
+    <File md5="2881564B179DE2F7E5618DF5B770D38C" import="1">Art/Atlases/Units/Enlightenment_Units_256.dds</File>
+    <File md5="BA8B12F6AEDF04DCF2A829DA8B2F5176" import="1">Art/Atlases/Units/Enlightenment_Units_45.dds</File>
+    <File md5="EAA3F0E0AAC8A626B2F1769969DCD3DE" import="1">Art/Atlases/Units/Enlightenment_Units_64.dds</File>
+    <File md5="A9CA566F3516B1F86C6C15118B64A568" import="1">Art/Atlases/Units/Enlightenment_Units_80.dds</File>
+    <File md5="63DBEA3C9A68ECE52947B3AFF733FF1C" import="1">Art/Atlases/Units/Unit Flags/Enlightenment_UnitFlags_32.dds</File>
+    <File md5="25AA5E4360A27D848F5DFA9BA0354F68" import="1">Art/Atlases/Units/Unit Flags/sv_Carrack.dds</File>
+    <File md5="3F735F37A78CCE3495B3B1B3A52980B2" import="1">Art/Atlases/Units/Unit Flags/sv_Cruiser.dds</File>
+    <File md5="F273B35C0DF6C3DDA0907973F966C4C0" import="1">Art/Atlases/Units/Unit Flags/sv_Cuirassier.dds</File>
+    <File md5="7EA37A2020BA282F76D3515862A9D4D8" import="1">Art/Atlases/Units/Unit Flags/sv_Explorer.dds</File>
+    <File md5="C509B6310155B4C133A288C453BB2345" import="1">Art/Atlases/Units/Unit Flags/sv_FieldGun.dds</File>
+    <File md5="321FE6BE3AC922A3F4512846AB45711B" import="1">Art/Atlases/Units/Unit Flags/sv_Galleon.dds</File>
+    <File md5="9626BDF4DFC2B0A9F97CC55325BA397C" import="1">Art/Atlases/Units/Unit Flags/sv_LineInfantry.dds</File>
+    <File md5="491F831F873CC3A793FB8F7F61BE8D9C" import="1">Art/Atlases/Units/Unit Flags/sv_ShipoftheLine.dds</File>
+    <File md5="14F42BFDF97CFCD443560FEDE2650C6F" import="1">Art/Atlases/Units/Unit Flags/sv_Skirmisher.dds</File>
+    <File md5="8805C748FF57C52322FC9E566BAFDE88" import="1">Art/Atlases/Units/Unit Flags/sv_Uhlan.dds</File>
+    <File md5="B20DE2D0E51368D396CA3F26A21617C5" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_128.dds</File>
+    <File md5="8A74C56D776D108A5959339CC9E2D22F" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_256.dds</File>
+    <File md5="5FE9E5B802E4CB161A4791F5686ECBDE" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_32.dds</File>
+    <File md5="336C5F437C9443A7C59BCA82DD41701C" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_45.dds</File>
+    <File md5="CA16ED38264316F1DDFE53DEA78215FA" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_64.dds</File>
+    <File md5="A8BA84299A2EF793F17D179763E41137" import="1">Art/Atlases/Wonders/Enlightenment_Wonders_80.dds</File>
+    <File md5="811FD6256D6D4E2E361C155F0910EE8D" import="1">Art/Scenes/EE_Crystal_Palace_Splash.dds</File>
+    <File md5="870A1E50F9B3E68BDFFCBA4295F5A98A" import="1">Art/Scenes/EE_Kronborg_splash.dds</File>
+    <File md5="A8EA71293EC8D1CC0082D406A36286FA" import="1">Art/Scenes/EE_Torre_Splash.dds</File>
+    <File md5="4A12F73E98C455C93844055E5207DA8E" import="1">Art/Scenes/ERA_Enlightenment.dds</File>
+    <File md5="CEB20652DBD39BE798D7CBE354E2ABC7" import="1">Art/Scenes/EE_FasilGhebbi_Splash.dds</File>
+    <File md5="B87BF24F1742AF042384377AE3112F10" import="1">Art/Scenes/EE_Versailles_Splash.dds</File>
+    <File md5="F2C71619278BE0854D5C9AA0D4500F1F" import="1">Art/Scenes/EE_Smithsonian_splash.dds</File>
+    <File md5="3C787A26D55325CD91C5EC239B46DAE7" import="1">Art/Scenes/EE_Topkapi_splash.dds</File>
+    <File md5="127B9C1E76076CE2E3744B53128B1030" import="1">Art/Scenes/EE_Wat_Phra_Kaew_splash.dds</File>
+    <File md5="E91401F6D6BBB3F0B61D15D9BF24B0F8" import="1">Art/Unit Models/Armoured Cruiser/cruiser.fxsxml</File>
+    <File md5="B4A8CD84C118F5DE906677643FAA9589" import="1">Art/Unit Models/Armoured Cruiser/cruiser.gr2</File>
+    <File md5="7D7DE5645854D0B24F25187C895FD74E" import="1">Art/Unit Models/Armoured Cruiser/cruiser_DIFF.dds</File>
+    <File md5="DAA63ECCA22801C2D10ABE8C4803714B" import="1">Art/Unit Models/Armoured Cruiser/cruiser_SREF.dds</File>
+    <File md5="0D763CB1E8E2206B90FDBBA290B61CDC" import="1">Art/Unit Models/Armoured Cruiser/fx_triggers_cruiser.ftsxml</File>
+    <File md5="B9985906AF255F559D3E090537D2BC8D" import="1">Art/Unit Models/Carrack/carrack.fxsxml</File>
+    <File md5="0C88428D303A518CF9686C4849F61401" import="1">Art/Unit Models/Carrack/carrack.gr2</File>
+    <File md5="96B095DE275E74C651C065D39B32F558" import="1">Art/Unit Models/Carrack/Carrack_diff.dds</File>
+    <File md5="997802481AF18082ADECA48D2FBFAF93" import="1">Art/Unit Models/Carrack/Carrack_sref.dds</File>
+    <File md5="8A99EC624932EA978AC415A5EDA6B95B" import="1">Art/Unit Models/Cuirassier/freca1.blend</File>
+    <File md5="EC3036DCDFE38A9726C4C8CEFBFFD4BA" import="1">Art/Unit Models/Cuirassier/freca1.dds</File>
+    <File md5="E5BC65E0AD0B363C4A09BE2284C8A236" import="1">Art/Unit Models/Cuirassier/freca1.fxsxml</File>
+    <File md5="829FF0C918432A521E60706680FC77D5" import="1">Art/Unit Models/Cuirassier/freca1.gr2</File>
+    <File md5="431E6E3A865C5168E7B138F1703536B6" import="1">Art/Unit Models/Cuirassier/freca1_sref.dds</File>
+    <File md5="DB9D68A73ADE7CAF1F6AC4A8A377BE2C" import="0">Art/Unit Models/Enlightenment_ArtDefines.xml</File>
+    <File md5="480B2BC2DF69254A5F26102F62B460DD" import="1">Art/Unit Models/Explorer/conquistador_musketman.dds</File>
+    <File md5="163CDF867415B69FD0EAB1A1216A7171" import="1">Art/Unit Models/Explorer/conquistador_musketman_2.dds</File>
+    <File md5="279FC1F7C6615687E0368FF0A59A37CF" import="1">Art/Unit Models/Explorer/conquistador_musketman_3.dds</File>
+    <File md5="75303B1580E2345C41C513245A61AA9B" import="1">Art/Unit Models/Explorer/conquistador_musketman_gloss.dds</File>
+    <File md5="615B602250AD9F31C83E54401FAB425E" import="1">Art/Unit Models/Explorer/conquistador_musket_1.fxsxml</File>
+    <File md5="8607CAE5DE8BC741AE849DB5F1E4C9BE" import="1">Art/Unit Models/Explorer/conquistador_musket_1.gr2</File>
+    <File md5="DE3E68D7ECC88C45BA3DDE93769B13BE" import="1">Art/Unit Models/Explorer/conquistador_musket_2.fxsxml</File>
+    <File md5="A9F73A8EB3E133ECC88E2E98D54E53FA" import="1">Art/Unit Models/Explorer/conquistador_musket_2.gr2</File>
+    <File md5="2291E5B3992C4DD72FFD9AA5137040CC" import="1">Art/Unit Models/Explorer/conquistador_musket_3.fxsxml</File>
+    <File md5="8B2BB0700175C72889F6322CF65221F5" import="1">Art/Unit Models/Explorer/conquistador_musket_3.gr2</File>
+    <File md5="86601C5390F5E00A678F427508E43364" import="1">Art/Unit Models/Explorer/conquistador_musket_4.fxsxml</File>
+    <File md5="7AA7FA7158633FCB58A19B1E13B90C1D" import="1">Art/Unit Models/Explorer/conquistador_musket_4.gr2</File>
+    <File md5="4E619175C0B48768A94533CAC7D6396B" import="1">Art/Unit Models/Explorer/vet_conquistador_musketman.dds</File>
+    <File md5="03F466FBFA068FD4D33950CF16CF0C46" import="1">Art/Unit Models/Explorer/vet_conquistador_musketman_gloss.dds</File>
+    <File md5="241C29C8B726656AB37954C30F1BA6B5" import="1">Art/Unit Models/Field Gun/cannon_24pound_diff.dds</File>
+    <File md5="8D4A41DB021D942DCA1390B723FE608C" import="1">Art/Unit Models/Field Gun/cannon_24pound_sref.dds</File>
+    <File md5="8E6881CE22AED47000717E8CE9E89952" import="1">Art/Unit Models/Field Gun/GunCrew_diff.dds</File>
+    <File md5="6F18038FC5B71FADC231C9DA84C04D78" import="1">Art/Unit Models/Field Gun/GunCrew_sref.dds</File>
+    <File md5="E512CFB0D832CF1EAFA157A1828623B9" import="1">Art/Unit Models/Field Gun/NapoleonCannon.fxsxml</File>
+    <File md5="6DD3501F60795A8CE82B0E29B3EEF5B8" import="1">Art/Unit Models/Field Gun/NapoleonCannon.gr2</File>
+    <File md5="97FA4E37787448ECFCD7BCA605A6BB64" import="1">Art/Unit Models/Line Infantry/civ5_genmm1.fxsxml</File>
+    <File md5="80A6D50D4E1744365664F2AB5934FFB4" import="1">Art/Unit Models/Line Infantry/civ5_genmm1.gr2</File>
+    <File md5="F4C7D610351C73897BBA1E349ED4736A" import="1">Art/Unit Models/Line Infantry/genmm1.dds</File>
+    <File md5="A14D497A7F4311135C55C3ABAF5C919E" import="1">Art/Unit Models/Line Infantry/genmm1_sref.dds</File>
+    <File md5="F2F9FB35212A5944D17EEABCCC997FE2" import="1">Art/Unit Models/Ship of the Line/shipoftheline.fxsxml</File>
+    <File md5="70CBBFB6EE6A7321C7C1EF75A9404F91" import="1">Art/Unit Models/Ship of the Line/shipoftheline.gr2</File>
+    <File md5="05DA3D0442248AADAAA2CD3B3DF714A0" import="1">Art/Unit Models/Ship of the Line/shipoftheline_diff.dds</File>
+    <File md5="C873D61FFC562B40382953E76FD9CE25" import="1">Art/Unit Models/Ship of the Line/shipoftheline_dmg_diff.dds</File>
+    <File md5="6E79240DD7A9BE6AB018F48ED65456FB" import="1">Art/Unit Models/Ship of the Line/shipoftheline_sref.dds</File>
+    <File md5="05DA3D0442248AADAAA2CD3B3DF714A0" import="1">Art/Unit Models/Ship of the Line/u_english_shipoftheline_diff.dds</File>
+    <File md5="C873D61FFC562B40382953E76FD9CE25" import="1">Art/Unit Models/Ship of the Line/u_english_shipoftheline_dmg_diff.dds</File>
+    <File md5="6E79240DD7A9BE6AB018F48ED65456FB" import="1">Art/Unit Models/Ship of the Line/u_english_shipoftheline_sref.dds</File>
+    <File md5="622FD133E9BC01AE23B8C049A126E8B3" import="1">Art/Unit Models/Skirmisher/civ5_engmm1.fxsxml</File>
+    <File md5="DBB87A7D7EB7288E063383CE7359399B" import="1">Art/Unit Models/Skirmisher/civ5_engmm1.gr2</File>
+    <File md5="D6FD89034E3F5FA0C6B4827EDC4F77B5" import="1">Art/Unit Models/Skirmisher/engmm1.dds</File>
+    <File md5="2B919A6DD458B564CA1B9CF223BA2EBD" import="1">Art/Unit Models/Skirmisher/engmm1_sref.dds</File>
+    <File md5="D0C4BEB025D5A5ABB61E064DF03F9C0E" import="1">Art/Unit Models/Uhlan/gerlr1.blend</File>
+    <File md5="7AB2730CB0FE653F11961FEC01B3BFDE" import="1">Art/Unit Models/Uhlan/gerlr1.dds</File>
+    <File md5="E293930068E4151E47DFEEC55606C2FA" import="1">Art/Unit Models/Uhlan/gerlr1.fbx</File>
+    <File md5="2501B7E45C14B210CCD1549FF819D2BF" import="1">Art/Unit Models/Uhlan/gerlr1.fxsxml</File>
+    <File md5="76F2BD42FCBC78E4ED51005C4EF88029" import="1">Art/Unit Models/Uhlan/gerlr1.gr2</File>
+    <File md5="D1CCFC3064BBA4A6439F5F71403F79BF" import="1">Art/Unit Models/Uhlan/gerlr1_sref.dds</File>
+    <File md5="E5BC7416D290317C84802933B5E1E637" import="0">Credits.txt</File>
+    <File md5="4486E05E92C6A1829D1BD4FC8EAB80DE" import="1">Lua/CultureOverview.lua</File>
+    <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">Lua/CultureOverview.xml</File>
+    <File md5="0277DDAA4619E0EA3E56F0091BE6D31A" import="0">Lua/JFD_BuildingClassesNeededInCityOR.lua</File>
+    <File md5="3F824AC29B9D5351CEF574FCA5495FD7" import="0">Lua/JFD_FirstRate_Functions.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="D3FEBA7201DD4A1754F13B76FCFEEBDB" import="0">Lua/Wonders.lua</File>
+    <File md5="B7AF42061B97C7E7832F2CBC8F0FDC00" import="1">Lua/NewEraPopup.lua</File>
+    <File md5="EAF5699CC23B26FA7BB6F120830538FD" import="1">Sounds/Quotes/Era/EnlightenmentEra01.mp3</File>
+    <File md5="520716AFC847FD910C0A2BF620696BE9" import="1">Sounds/Quotes/Era/EnlightenmentEra02.mp3</File>
+    <File md5="C81E2258DD1B82D1254907BC9125C959" import="1">Sounds/Quotes/Era/EnlightenmentEra03.mp3</File>
+    <File md5="7ADE235CB420219D59125D2C38900311" import="1">Sounds/Quotes/Techs/ArmourPlating.mp3</File>
+    <File md5="CFB1A04AB5931D3DED0814210F6125E2" import="1">Sounds/Quotes/Techs/Flintlock.mp3</File>
+    <File md5="2A2A5C081CA626FB42F8D4B625FCDDB2" import="1">Sounds/Quotes/Techs/Fortification.mp3</File>
+    <File md5="2AE2B47BDD21F14AB71E9DB3C30A0419" import="1">Sounds/Quotes/Techs/Humanism.mp3</File>
+    <File md5="B746814335433D240BF74B71F49E0100" import="1">Sounds/Quotes/Techs/Imperialism.mp3</File>
+    <File md5="01F172CE052EF394D4891EBF7CE14E45" import="1">Sounds/Quotes/Techs/Manufacturing.mp3</File>
+    <File md5="C7B89B241FADFFFD96477253BA5DDD25" import="1">Sounds/Quotes/Techs/NaturalHistory.mp3</File>
+    <File md5="2E8BA8B35A4B032E22E147CF1105881C" import="1">Sounds/Quotes/Techs/Romanticism.mp3</File>
+    <File md5="5F38AA2EE7D9C35F7B9ED91EC0DEDD0D" import="1">Sounds/Quotes/Techs/Sovereignty.mp3</File>
+    <File md5="BE3B1B4CFC5E7437B764D581BA217ECE" import="1">Sounds/Quotes/Wonders/CrystalPalaceAudio.mp3</File>
+    <File md5="42B99C3D5C5A75561328E9ED7E8F1E0D" import="1">Sounds/Quotes/Wonders/FasilGhebbiAudio.mp3</File>
+    <File md5="9CFFF3A585C8F8DCA92BA16211731B2B" import="1">Sounds/Quotes/Wonders/KronborgAudio.mp3</File>
+    <File md5="3EE98FC89313AD32E3D92614F1D4FCEB" import="1">Sounds/Quotes/Wonders/SmithsonianAudio.mp3</File>
+    <File md5="A5D9231AC301C805EC3D95304E5696F7" import="1">Sounds/Quotes/Wonders/TopkapiAudio.mp3</File>
+    <File md5="AB78BEEF1B4B8C65680C3C9C22614A56" import="1">Sounds/Quotes/Wonders/TorreDelOroAudio.mp3</File>
+    <File md5="0DA4AF9822143D7DC3153D4439ADEA6A" import="1">Sounds/Quotes/Wonders/VersaillesAudio.mp3</File>
+    <File md5="32D8E689D585853234BCAF477053E0BB" import="1">Sounds/Quotes/Wonders/WatPhraKaewAudio.mp3</File>
+    <File md5="726639F1F0C8F0D6DA9F6C2311A9F048" import="0">SQL/EECarrackDefines.sql</File>
+    <File md5="99CCAD9781392DDC4F521455E45DDCC7" import="0">SQL/EECruiserDefine.sql</File>
+    <File md5="29EF82FB907DB6B5F0C3F37FD33B4A6E" import="0">SQL/EECuirassierDefine.sql</File>
+    <File md5="2033175767DBA6F147F0674C9AC888AD" import="0">SQL/EEFieldGunDefine.sql</File>
+    <File md5="C6907476BFFD85FC5B68F79222A182E1" import="0">SQL/EEUnits.sql</File>
+    <File md5="E8FEEDE4B4AE5218CCFA8662A3620336" import="0">SQL/EEShipoftheLineDefine.sql</File>
+    <File md5="D23952E5461E5CA9C1A360193C93F789" import="0">SQL/Enlightenment_Wonders.sql</File>
+    <File md5="CF779F5EF8286F73BB31F775B5F2A5A9" import="0">SQL/EEExplorerDefine.sql</File>
+    <File md5="A6D3967FBBD4943F294AB24CEE195856" import="0">SQL/IDRemapper.sql</File>
+    <File md5="3C18B4C1A72209CBD894F173FCB1D26F" import="0">SQL/JFD_BuildingClassesNeededInCityOR.sql</File>
+    <File md5="BCF5DF41AE6B381FE0468713A2BFF25B" import="1">SQL/EELineInfantryDefine.sql</File>
+    <File md5="67C88FD8BB78FFB166D57F5BE398CC39" import="0">SQL/EESkirmisherDefine.sql</File>
+    <File md5="CA3595A1903BBF9EAB9FB4D27E1380AF" import="0">SQL/EEUhlanDefine.sql</File>
+    <File md5="8ACAACA13DD9D71377FAFA3DCD9E79EE" import="0">XML/Buildings/Enlightenment_BuildingClasses.xml</File>
+    <File md5="4554B04DE2239A7ECE1CCED6C911CB5A" import="0">XML/Buildings/Enlightenment_Buildings.xml</File>
+    <File md5="51DAA7B5076C78FDB64F1CABDEE33F13" import="0">XML/Buildings/Enlightenment_Wonders.xml</File>
+    <File md5="5243F43487BD1757205E59C64B80F574" import="0">XML/Civilizations/Enlightenment_Civilizations.xml</File>
+    <File md5="938CD7C6708B1B72D22961A39F7181A1" import="0">XML/GameInfo/Enlightenment_Eras.xml</File>
+    <File md5="02653534E5754C4E285F650F749EA5FE" import="0">XML/GameInfo/Enlightenment_IconTextureAtlases.xml</File>
+    <File md5="A359AD865AD5B950F9B9D0F8FDBFEE0D" import="0">XML/GameInfo/Enlightenment_Policies.xml</File>
+    <File md5="F96C15AD8F86453C77F9C173423A5DE9" import="0">XML/GameInfo/Enlightenment_WorldCongress.xml</File>
+    <File md5="870E29896407019486B9F865FA50B2B5" import="0">XML/Sounds/Enlightenment_Sounds.xml</File>
+    <File md5="8969BF54C102AFE24687A8FDAB4532FF" import="0">XML/Technologies/Enlightenment_Technologies.xml</File>
+    <File md5="C7EF3DCCDC6A1E86886050629A695F5B" import="0">XML/Technologies/Enlightenment_TechTreeUpdates.xml</File>
+    <File md5="F20CB892310B6F9CC9B5424B9A173D3B" import="0">XML/Terrain/Enlightenment_Improvements.xml</File>
+    <File md5="FA9ADA857C9168450E3497810A02629B" import="0">XML/Text/Enlightenment_Text.xml</File>
+    <File md5="91CB59F92D8FDC780CD56AA02AACACE0" import="0">XML/Text/Localisation/Enlightenment_Text_ru_RU.xml</File>
+    <File md5="C344FAD878548081E1312E3E75624BEB" import="0">XML/Text/Localisation/Enlightenment_Text_pl_PL.xml</File>
+    <File md5="610E66ADB45B1E8510A1B81F617FC517" import="0">XML/Text/Localisation/Enlightenment_Text_ko_KR.xml</File>
+    <File md5="965AD2DA88144A124C474EE4DC63BF62" import="0">XML/Text/Localisation/Enlightenment_Text_ja_JP.xml</File>
+    <File md5="0647A9A7290091F17E670F00C4F2AFD2" import="0">XML/Text/Localisation/Enlightenment_Text_it_IT.xml</File>
+    <File md5="B843D3B3C9B818240F4A59AC9DCD1757" import="0">XML/Text/Localisation/Enlightenment_Text_fr_FR.xml</File>
+    <File md5="340DEBEC0E221ACC515A4B6FD51FE0BA" import="0">XML/Text/Localisation/Enlightenment_Text_es_ES.xml</File>
+    <File md5="394C90869D45D0216F101414452690B7" import="0">XML/Text/Localisation/Enlightenment_Text_de_DE.xml</File>
+    <File md5="FD009B4C8FA5207BE621C4D2E3ED4D04" import="0">XML/Units/Enlightenment_UnitClasses.xml</File>
+    <File md5="B425CEA4726D1EB77CF3E5EC2F25CC53" import="0">XML/Units/Enlightenment_UnitPromotions.xml</File>
+    <File md5="51FF05824F41CDB4440DCAE21D9C4B6E" import="0">XML/Units/Enlightenment_Units.xml</File>
+    <File md5="451C05CF0A59ADF6D7DAC0DFB75486F6" import="0">XML/Units/Enlightenment_UnitUpdates.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/JFD_BuildingClassesNeededInCityOR.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EECarrackDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EECruiserDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EECuirassierDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EEExplorerDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EEFieldGunDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EELineInfantryDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EEShipoftheLineDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EESkirmisherDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EEUhlanDefine.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/EEUnits.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Unit Models/Enlightenment_ArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Enlightenment_Eras.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Enlightenment_WorldCongress.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/IDRemapper.sql</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Enlightenment_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technologies/Enlightenment_TechTreeUpdates.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technologies/Enlightenment_Technologies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Enlightenment_UnitClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Enlightenment_UnitUpdates.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Enlightenment_Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Enlightenment_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Enlightenment_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Enlightenment_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Enlightenment_Wonders.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Enlightenment_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Enlightenment_Wonders.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Enlightenment_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Enlightenment_Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sounds/Enlightenment_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Enlightenment_Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_de_DE.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_es_ES.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_fr_FR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_it_IT.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_ja_JP.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_ko_KR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_pl_PL.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Localisation/Enlightenment_Text_ru_RU.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_BuildingClassesNeededInCityOR.lua">
+      <Name>JFD_BuildingClassesNeededInCityOR</Name>
+      <Description>Look at the title</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Wonders.lua">
+      <Name>Wonders</Name>
+      <Description>Wonder stuff</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_FirstRate_Functions.lua">
+      <Name>JFD_FirstRate_Functions</Name>
+      <Description>Stuff for the First Rate</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

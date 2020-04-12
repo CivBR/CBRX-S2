@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/11/2014 10:36:46 AM -->
+<GameData>
+	<Table name="GTAS_Natural_Wonder_Placement">
+		<!-- Root -->
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="NaturalWonderType" type="text" notnull="true" unique="true"/>
+		<Column name="EligibilityMethodNumber" type="integer" default="-1"/>
+		<Column name="OccurrenceFrequency" type="integer" default="10"/>
+		<Column name="RequireBiggestLandmass" type="boolean" default="false"/>
+		<Column name="AvoidBiggestLandmass" type="boolean" default="false"/>
+		<Column name="RequireFreshWater" type="boolean" default="false"/>
+		<Column name="AvoidFreshWater" type="boolean" default="true"/>
+		<!-- Land or Sea -->
+		<Column name="LandBased" type="boolean" default="true"/>
+		<Column name="RequireLandAdjacentToOcean" type="boolean" default="false"/>
+		<Column name="AvoidLandAdjacentToOcean" type="boolean" default="false"/>
+		<Column name="RequireLandOnePlotInland" type="boolean" default="false"/>
+		<Column name="AvoidLandOnePlotInland" type="boolean" default="false"/>
+		<Column name="RequireLandTwoOrMorePlotsInland" type="boolean" default="false"/>
+		<Column name="AvoidLandTwoOrMorePlotsInland" type="boolean" default="false"/>
+		<!-- Core Tile: Plot Type -->
+		<Column name="CoreTileCanBeAnyPlotType" type="boolean" default="true"/>
+		<Column name="CoreTileCanBeFlatland" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeHills" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeMountain" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeOcean" type="boolean" default="false"/>
+		<!-- Core Tile: Terrain Type -->
+		<Column name="CoreTileCanBeAnyTerrainType" type="boolean" default="true"/>
+		<Column name="CoreTileCanBeGrass" type="boolean" default="false"/>
+		<Column name="CoreTileCanBePlains" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeDesert" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeTundra" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeSnow" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeShallowWater" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeDeepWater" type="boolean" default="false"/>
+		<!-- Core Tile: Feature Type -->
+		<Column name="CoreTileCanBeAnyFeatureType" type="boolean" default="true"/>
+		<Column name="CoreTileCanBeNoFeature" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeForest" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeJungle" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeOasis" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeFloodPlains" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeMarsh" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeIce" type="boolean" default="false"/>
+		<Column name="CoreTileCanBeAtoll" type="boolean" default="false"/>
+		<!-- Adjacent Tiles: Plot Types -->
+		<Column name="AdjacentTilesCareAboutPlotTypes" type="boolean" default="false"/>
+		<Column name="AdjacentTilesAvoidAnyland" type="boolean" default="false"/>
+		<Column name="AdjacentTilesRequireFlatland" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentFlatland" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireHills" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentHills" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireMountain" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentMountain" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireHillsPlusMountains" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentHillsPlusMountains" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireOcean" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentOcean" type="integer" default="0"/>
+		<Column name="AdjacentTilesAvoidFlatland" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentFlatland" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidHills" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentHills" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidMountain" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentMountain" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidHillsPlusMountains" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentHillsPlusMountains" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidOcean" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentOcean" type="integer" default="99"/>
+		<!-- Adjacent Tiles: Terrain Types -->
+		<Column name="AdjacentTilesCareAboutTerrainTypes" type="boolean" default="false"/>
+		<Column name="AdjacentTilesRequireGrass" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentGrass" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequirePlains" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentPlains" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireDesert" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentDesert" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireTundra" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentTundra" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireSnow" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentSnow" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireShallowWater" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentShallowWater" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireDeepWater" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentDeepWater" type="integer" default="0"/>
+		<Column name="AdjacentTilesAvoidGrass" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentGrass" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidPlains" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentPlains" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidDesert" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentDesert" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidTundra" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentTundra" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidSnow" type="boolean" default="true"/>
+		<Column name="MaximumAllowedAdjacentSnow" type="integer" default="0"/>
+		<Column name="AdjacentTilesAvoidShallowWater" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentShallowWater" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidDeepWater" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentDeepWater" type="integer" default="99"/>
+		<!-- Adjacent Tiles: Feature Types -->
+		<Column name="AdjacentTilesCareAboutFeatureTypes" type="boolean" default="false"/>
+		<Column name="AdjacentTilesRequireNoFeature" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentNoFeature" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireForest" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentForest" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireJungle" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentJungle" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireOasis" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentOasis" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireFloodPlains" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentFloodPlains" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireMarsh" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentMarsh" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireIce" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentIce" type="integer" default="0"/>
+		<Column name="AdjacentTilesRequireAtoll" type="boolean" default="false"/>
+		<Column name="RequiredNumberOfAdjacentAtoll" type="integer" default="0"/>
+		<Column name="AdjacentTilesAvoidNoFeature" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentNoFeature" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidForest" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentForest" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidJungle" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentJungle" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidOasis" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentOasis" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidFloodPlains" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentFloodPlains" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidMarsh" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentMarsh" type="integer" default="99"/>
+		<Column name="AdjacentTilesAvoidIce" type="boolean" default="true"/>
+		<Column name="MaximumAllowedAdjacentIce" type="integer" default="0"/>
+		<Column name="AdjacentTilesAvoidAtoll" type="boolean" default="false"/>
+		<Column name="MaximumAllowedAdjacentAtoll" type="integer" default="99"/>
+		<!-- Change Core Tile Attributes? -->
+		<Column name="TileChangesMethodNumber" type="integer" default="-1"/>
+		<Column name="ChangeCoreTileToMountain" type="boolean" default="false"/>
+		<Column name="ChangeCoreTileToFlatland" type="boolean" default="false"/>
+		<Column name="ChangeCoreTileTerrainToGrass" type="boolean" default="false"/>
+		<Column name="ChangeCoreTileTerrainToPlains" type="boolean" default="false"/>
+		<Column name="SetAdjacentTilesToShallowWater" type="boolean" default="false"/>
+	</Table>
+
+	<GTAS_Natural_Wonder_Placement>
+		<Row>
+			<ID>0</ID>
+			<NaturalWonderType>FEATURE_CRATER</NaturalWonderType>
+			<AvoidLandAdjacentToOcean>true</AvoidLandAdjacentToOcean>
+			<CoreTileCanBeAnyTerrainType>false</CoreTileCanBeAnyTerrainType>
+			<CoreTileCanBeDesert>true</CoreTileCanBeDesert>
+			<CoreTileCanBeTundra>true</CoreTileCanBeTundra>
+			<AdjacentTilesCareAboutPlotTypes>true</AdjacentTilesCareAboutPlotTypes>
+			<AdjacentTilesAvoidMountain>true</AdjacentTilesAvoidMountain>
+			<MaximumAllowedAdjacentMountain>2</MaximumAllowedAdjacentMountain>
+			<AdjacentTilesAvoidHillsPlusMountains>true</AdjacentTilesAvoidHillsPlusMountains>
+			<MaximumAllowedAdjacentHillsPlusMountains>4</MaximumAllowedAdjacentHillsPlusMountains>
+			<AdjacentTilesCareAboutTerrainTypes>true</AdjacentTilesCareAboutTerrainTypes>
+			<AdjacentTilesAvoidGrass>true</AdjacentTilesAvoidGrass>
+			<MaximumAllowedAdjacentGrass>0</MaximumAllowedAdjacentGrass>
+			<ChangeCoreTileToMountain>true</ChangeCoreTileToMountain>
+		</Row>
+		<Row>
+			<NaturalWonderType>FEATURE_FUJI</NaturalWonderType>
+			<AvoidBiggestLandmass>true</AvoidBiggestLandmass>
+			<AvoidLandAdjacentToOcean>true</AvoidLandAdjacentToOcean>
+			<CoreTileCanBeAnyTerrainType>false</CoreTileCanBeAnyTerrainType>
+			<CoreTileCanBeGrass>true</CoreTileCanBeGrass>
+			<CoreTileCanBePlains>true</CoreTileCanBePlains>
+			<AdjacentTilesCareAboutPlotTypes>true</AdjacentTilesCareAboutPlotTypes>
+			<AdjacentTilesAvoidHills>true</AdjacentTilesAvoidHills>
+			<MaximumAllowedAdjacentHills>2</MaximumAllowedAdjacentHills>
+			<AdjacentTilesAvoidMountain>true</AdjacentTilesAvoidMountain>
+			<MaximumAllowedAdjacentMountain>0</MaximumAllowedAdjacentMountain>
+			<AdjacentTilesCareAboutTerrainTypes>true</AdjacentTilesCareAboutTerrainTypes>
+			<AdjacentTilesAvoidDesert>true</AdjacentTilesAvoidDesert>
+			<MaximumAllowedAdjacentDesert>0</MaximumAllowedAdjacentDesert>
+			<AdjacentTilesAvoidTundra>true</AdjacentTilesAvoidTundra>
+			<MaximumAllowedAdjacentTundra>0</MaximumAllowedAdjacentTundra>
+			<AdjacentTilesCareAboutFeatureTypes>true</AdjacentTilesCareAboutFeatureTypes>
+			<AdjacentTilesAvoidMarsh>true</AdjacentTilesAvoidMarsh>
+			<MaximumAllowedAdjacentMarsh>0</MaximumAllowedAdjacentMarsh>
+			<ChangeCoreTileToMountain>true</ChangeCoreTileToMountain>
+			<ChangeCoreTileTerrainToGrass>true</ChangeCoreTileTerrainToGrass>
+		</Row>
+		<Row>
+			<NaturalWonderType>FEATURE_MESA</NaturalWonderType>
+			<AvoidLandAdjacentToOcean>true</AvoidLandAdjacentToOcean>
+			<CoreTileCanBeAnyTerrainType>false</CoreTileCanBeAnyTerrainType>
+			<CoreTileCanBePlains>true</CoreTileCanBePlains>
+			<CoreTileCanBeDesert>true</CoreTileCanBeDesert>
+			<CoreTileCanBeTundra>true</CoreTileCanBeTundra>
+			<AdjacentTilesCareAboutPlotTypes>true</AdjacentTilesCareAboutPlotTypes>
+			<AdjacentTilesRequireHills>true</AdjacentTilesRequireHills>
+			<RequiredNumberOfAdjacentHills>2</RequiredNumberOfAdjacentHills>
+			<AdjacentTilesAvoidMountain>true</AdjacentTilesAvoidMountain>
+			<MaximumAllowedAdjacentMountain>2</MaximumAllowedAdjacentMountain>
+			<AdjacentTilesCareAboutTerrainTypes>true</AdjacentTilesCareAboutTerrainTypes>
+			<AdjacentTilesAvoidGrass>true</AdjacentTilesAvoidGrass>
+			<MaximumAllowedAdjacentGrass>0</MaximumAllowedAdjacentGrass>
+			<ChangeCoreTileToMountain>true</ChangeCoreTileToMountain>
+		</Row>
+		<Row>
+			<NaturalWonderType>FEATURE_REEF</NaturalWonderType>
+			<EligibilityMethodNumber>1</EligibilityMethodNumber>
+			<TileChangesMethodNumber>1</TileChangesMethodNumber>
+		</Row>
+		<Row>
+			<NaturalWonderType>FEATURE_VOLCANO</NaturalWonderType>
+			<LandBased>false</LandBased>
+			<AdjacentTilesCareAboutPlotTypes>true</AdjacentTilesCareAboutPlotTypes>
+			<AdjacentTilesAvoidAnyland>true</AdjacentTilesAvoidAnyland>
+			<AdjacentTilesRequireShallowWater>true</AdjacentTilesRequireShallowWater>
+			<RequiredNumberOfAdjacentShallowWater>1</RequiredNumberOfAdjacentShallowWater>
+			<AdjacentTilesCareAboutFeatureTypes>true</AdjacentTilesCareAboutFeatureTypes>
+			<AdjacentTilesAvoidIce>true</AdjacentTilesAvoidIce>
+			<MaximumAllowedAdjacentIce>0</MaximumAllowedAdjacentIce>
+			<ChangeCoreTileToMountain>true</ChangeCoreTileToMountain>
+			<ChangeCoreTileTerrainToGrass>true</ChangeCoreTileTerrainToGrass>
+			<SetAdjacentTilesToShallowWater>true</SetAdjacentTilesToShallowWater>
+		</Row>
+		<Row>
+			<NaturalWonderType>FEATURE_GIBRALTAR</NaturalWonderType>
+			<EligibilityMethodNumber>2</EligibilityMethodNumber>
+			<TileChangesMethodNumber>2</TileChangesMethodNumber>
+		</Row>
+		<Row>
+			<NaturalWonderType>FEATURE_GEYSER</NaturalWonderType>
+			<AvoidLandAdjacentToOcean>true</AvoidLandAdjacentToOcean>
+			<AdjacentTilesCareAboutPlotTypes>true</AdjacentTilesCareAboutPlotTypes>
+			<AdjacentTilesAvoidMountain>true</AdjacentTilesAvoidMountain>
+			<MaximumAllowedAdjacentMountain>4</MaximumAllowedAdjacentMountain>
+			<AdjacentTilesRequireHillsPlusMountains>true</AdjacentTilesRequireHillsPlusMountains>
+			<RequiredNumberOfAdjacentHillsPlusMountains>3</RequiredNumberOfAdjacentHillsPlusMountains>
+			<AdjacentTilesAvoidDesert>true</AdjacentTilesAvoidDesert>
+			<MaximumAllowedAdjacentDesert>3</MaximumAllowedAdjacentDesert>
+			<AdjacentTilesAvoidTundra>true</AdjacentTilesAvoidTundra>
+			<MaximumAllowedAdjacentTundra>3</MaximumAllowedAdjacentTundra>
+			<ChangeCoreTileToMountain>true</ChangeCoreTileToMountain>
+		</Row>
+		<Row>
+			<NaturalWonderType>FEATURE_FOUNTAIN_YOUTH</NaturalWonderType>
+			<OccurrenceFrequency>1</OccurrenceFrequency>
+			<AvoidLandAdjacentToOcean>true</AvoidLandAdjacentToOcean>
+			<ChangeCoreTileToFlatland>true</ChangeCoreTileToFlatland>
+			<ChangeCoreTileTerrainToPlains>true</ChangeCoreTileTerrainToPlains>
+		</Row>
+		<Row>
+			<NaturalWonderType>FEATURE_POTOSI</NaturalWonderType>
+			<OccurrenceFrequency>5</OccurrenceFrequency>
+			<AvoidLandAdjacentToOcean>true</AvoidLandAdjacentToOcean>
+			<AdjacentTilesCareAboutPlotTypes>true</AdjacentTilesCareAboutPlotTypes>
+			<AdjacentTilesRequireHills>true</AdjacentTilesRequireHills>
+			<RequiredNumberOfAdjacentHills>1</RequiredNumberOfAdjacentHills>
+			<ChangeCoreTileToMountain>true</ChangeCoreTileToMountain>
+		</Row>
+		<Row>
+			<NaturalWonderType>FEATURE_EL_DORADO</NaturalWonderType>
+			<OccurrenceFrequency>2</OccurrenceFrequency>
+			<AvoidLandAdjacentToOcean>true</AvoidLandAdjacentToOcean>
+			<AdjacentTilesCareAboutFeatureTypes>true</AdjacentTilesCareAboutFeatureTypes>
+			<AdjacentTilesRequireJungle>true</AdjacentTilesRequireJungle>
+			<RequiredNumberOfAdjacentJungle>1</RequiredNumberOfAdjacentJungle>
+			<ChangeCoreTileToFlatland>true</ChangeCoreTileToFlatland>
+			<ChangeCoreTileTerrainToPlains>true</ChangeCoreTileTerrainToPlains>
+		</Row>
+	</GTAS_Natural_Wonder_Placement>
+
+</GameData>

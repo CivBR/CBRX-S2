@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="67cda418-c1f4-41c8-8eb7-1b77937855c6" version="1">
+  <Properties>
+    <Name>Blue Cassette's Pomo Tribe</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>The Pomo Tribe, led by Essie Parish</Teaser>
+    <Description>Introducing the Pomo Tribe, led by Essie Parish</Description>
+    <Authors>Limerickarcher</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="0D8A7DC4B76F7BEEA2A1F8236BD927C6" import="1">Art/Lime_PomoAlphaAtlas_128.dds</File>
+    <File md5="A62ED6E2FF59BF8475C5260DF1E03A23" import="1">Art/Lime_PomoAlphaAtlas_16.dds</File>
+    <File md5="F12BF055B9682BBFBF2AC4A6DD29940B" import="1">Art/Lime_PomoAlphaAtlas_24.dds</File>
+    <File md5="77CC869318F8BEF3ACC219941F7A63DE" import="1">Art/Lime_PomoAlphaAtlas_32.dds</File>
+    <File md5="17CDBE69189CE8E8DEB30F47A9852516" import="1">Art/Lime_PomoAlphaAtlas_45.dds</File>
+    <File md5="6AE2185E269F154362D11EECB0095591" import="1">Art/Lime_PomoAlphaAtlas_48.dds</File>
+    <File md5="194A6E926ED0C6076F424E7D7A1EF22B" import="1">Art/Lime_PomoAlphaAtlas_64.dds</File>
+    <File md5="722AC0491D0A39473D65560E46211B3A" import="1">Art/Lime_PomoAlphaAtlas_80.dds</File>
+    <File md5="AB03DA4BD9E96336C79591C979D52354" import="1">Art/Lime_PomoAtlas_128.dds</File>
+    <File md5="861EEE4F23C5135AA69522ADA898AFC0" import="1">Art/Lime_PomoAtlas_256.dds</File>
+    <File md5="B3FF9565F2586F646978734D458D9784" import="1">Art/Lime_PomoAtlas_32.dds</File>
+    <File md5="29E25F51CA80BE07F9863F6016AF026F" import="1">Art/Lime_PomoAtlas_45.dds</File>
+    <File md5="3E88FACD10F7BC7074857ECE204448AF" import="1">Art/Lime_PomoAtlas_64.dds</File>
+    <File md5="8293DF8A8F935CB3122BCE40669B1428" import="1">Art/Lime_PomoAtlas_80.dds</File>
+    <File md5="C1CBE1C2762C480C35E46A4265A7D108" import="1">Art/Pomo_Map.dds</File>
+    <File md5="80447DEC9FC4A24EE6B13B0D86927CB6" import="1">Art/sv_BasketWeaver.dds</File>
+    <File md5="63735C59326DCF5E5E772D11AEAD293F" import="1">Art/Unit_BasketWeaver_Flag_32.dds</File>
+    <File md5="57668241E2460A90145F897B78AF31D7" import="0">Core/CBR_Pomo_ArtDefines.sql</File>
+    <File md5="44CBF820124F69652349C74CA6C8A6AD" import="0">Core/CBR_Pomo_GameDefines.sql</File>
+    <File md5="B08F9535CCD3E6B5BB1C8F41FF5232C8" import="0">Core/CBR_Pomo_GameDefines_Diplomacy.sql</File>
+    <File md5="44B03C28ABDFDFECFE8DCBEF13D29BF7" import="0">Core/CBR_Pomo_GameText.xml</File>
+    <File md5="85A7EB0D6BBCE821682A40F242BD0C5A" import="0">Core/CBR_Pomo_GameText_Diplomacy.xml</File>
+    <File md5="62F2781F1241EAFF3D31ED4B069862FD" import="0">Lua/Pomo_Functions.lua</File>
+    <File md5="4A045373FDFA16D96B862C83E290305F" import="0">Lua/Pomo_Functions.xml</File>
+    <File md5="9340107EAA9734416176CE89B219EE42" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="CE027FA99BBFE825267ED638E88BEFB2" import="1">Lua/Utilities/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/CBR_Pomo_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CBR_Pomo_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CBR_Pomo_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/CBR_Pomo_GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CBR_Pomo_GameText_Diplomacy.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Pomo_Functions.lua">
+      <Name>Pomo_Functions</Name>
+      <Description>Pomo_Functions</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

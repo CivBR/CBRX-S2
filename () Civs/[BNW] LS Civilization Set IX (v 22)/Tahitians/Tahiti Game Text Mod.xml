@@ -1,0 +1,416 @@
+﻿<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						State
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TAHITI_LS_MOD_DESC">
+			<Text>Tahitian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAHITI_LS_MOD_SHORT_DESC">
+			<Text>Tahiti</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_TAHITI_LS_MOD_ADJECTIVE">
+			<Text>Tahitian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAHITI_LS_MOD">
+			<Text>The Tahitians</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_TAHITI_LS_MOD_TITLE">
+			<Text>Tahiti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_TAHITI_LS_MOD_HEADING_1">
+			<Text>The Tahitians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_TAHITI_LS_MOD_TEXT_1">
+			<Text>The first Tahitians arrived in about 200 BCE, after a long migration from South East Asia or Indonesia, via the Fijian, Samoan and Tongan Archipelagos. This hypothesis of an emigration from South East Asia is supported by a number of linguistic, biological and archaeological proofs. For example, the languages of Fiji and Polynesia all belong to the same Oceanic sub-group, Fijian-Polynesian, which itself forms part of the great family of the Austronesian Languages.[NEWLINE][NEWLINE]This emigration, across several hundred kilometres of ocean, was made possible by using outrigger canoes that were up to twenty or thirty meters long and could transport families and domestic animals. In 1769, for instance, James Cook mentions a great traditional ship (va'a) in Tahiti that was 33 m (108 ft) long, and could be propelled by sail or paddles. In 2010, an expedition on a simple outrigger canoe with a sail retraced the route back from Tahiti to Asia.[NEWLINE][NEWLINE]Tahitian society was composed of chiefdoms and territories based on kinship and military power among various clans. A clan was led by a chief (Ali'i rahi), nobles (Ari'i) and lesser chiefs. The Ari'i were believed to be descendants of Polynesian gods and invested with supernatural power (mana). A symbol of their status were belts made of red feathers.[NEWLINE][NEWLINE]However, clan leaders did not hold absolute power, and their role included consulting with general assemblies or councils, especially in times of war. The marae was a sacred place of worship constructed of raised stone platforms in open ground, performing a cultural function similar to such structures in other Polynesian societies. The marae were at the centre of the spiritual and social life of the clan. Here, gods were invoked and leaders enthroned. It was also a place for ceremonies such as preparation for war, birth celebrations as well as burial rituals. Types of marae ranged from simple family platforms to larger edifices for leaders of high status, although all were considered tapu. Early European contact saw the arrival of the London Missionary Society in 1797 who introduced Christianity and documented the Tahitian language (Reo Maohi).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_TAHITI_LS_MOD_HEADING_2">
+			<Text>History of the Kingdom of Tahiti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_TAHITI_LS_MOD_TEXT_2">
+			<Text>Tahiti was not the first island to be settled by Polynesians. According to the legend, it would have been populated around 850 AD by people coming from Raiatea, the “Sacred Island”, cradle of the Polynesian civilization.[NEWLINE][NEWLINE]The supremacy of Tahiti over the other islands came with the first Europeans’ arrival. At that time, the island was divided into 6 large districts ruled by chiefs (ari’i). The Pomare dynasty is issued from the district of “Te Porionuu” (Pare, Arue) and it imposed itself thanks to the assistance of the navigators remaining in Matavai Bay.[NEWLINE][NEWLINE]On June 17, 1767, English captain Wallis aboard the “Dolphin” ship was the first European to visit Tahiti. He baptized it “King George Island”. The first contacts with the local population were stormy and required Wallis to make use of his cannons. That date changed forever the social balance existing between the 6 ruling clans and it was the beginning of a violent fight cycle that ended only 50 years later in 1815.[NEWLINE][NEWLINE]One year later (1768), Bougainville also annexed Tahiti, this time for French king Louis XVI. Then came Captain Cook whose precious written testimonials largely contributed to Polynesian culture learning. All those navigators were quickly followed by English missioners of the London Missionary Society (LMS). They first came in 1797 but were first forced back after they tried unsuccessfully for many years to implement Christianity.[NEWLINE][NEWLINE]In 1815, King Pomare II came to the throne after winning the battle of Narii (from a Punaauia temple holding the same name) or Fei Pi (the Green bananas), thanks to the help of Leeward islands warriors. This last battle was the end of the ancient Polynesian aristocracies ruled by the ari’i and is synonymous to the defeat of paganism versus Christianity. Moreover, the pre-eminence of Tahitian kings who were already dominating the Tuamotu islands was slowly accepted by a growing number of islands like Tubuai and Rimatara.[NEWLINE][NEWLINE]Following Pomare II's request, a 19-law code baptized “Pomare Code” was established and approved in 1819.  It was inspired by puritan concepts of the English missioners and tried to put an end to old customs such as human sacrifice, infanticide and licentious behaviours. [NEWLINE][NEWLINE]On September 9, 1842, a convention establishing a French Protectorate is signed between Queen Pomare IV, the regent Paraita and French admiral Dupetit-Thouars. But this status became effective only 5 years later in 1847. Indeed in 1843, Pomare IV who was under the influence of Pritchard, English Consul, denounced the treaty. On November 1, 1843, Dupetit-Thouars reacted : the queen was overthrown, the annexation of Tahiti was proclaimed and French troops invaded the island. The franco-tahitian war began at Taravao on March 21, 1844 and ended on December 18, 1846.[NEWLINE][NEWLINE]On June 29, 1880, King Pomare V gave all his territories to France. The French protectorate became the Etablissements Français d’Oceanie (E.F.O.) – French Establishments of Oceania – with its capital Papeete. The transfer to France of the Tahitian kingdom (Society Islands, Tubuai Islands and the Tuamotu) was ratified by the Law of December 30, 1880 that gave the French citizenship to all King Pomare subjects.[NEWLINE][NEWLINE]Tahiti has been strongly affected by economic and social developments of the 60’s (construction of Faa’a International Airport, development of the Papeete harbour, evolution of the urban landscape). This development generated strong migrations towards Tahiti that gathers today 70% of the total population of French Polynesia. Although the government is trying to inverse that trend by focusing on the development of activities in other islands, Tahiti remains today the economic, political, administrative, social and cultural center of French Polynesia.</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_1">
+			<Text>Papeete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_2">
+			<Text>Faaa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_3">
+			<Text>Taiarapu-Est</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_4">
+			<Text>Bora Bora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_5">
+			<Text>Raiatea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_6">
+			<Text>Moorea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_7">
+			<Text>Mehetia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_8">
+			<Text>Tetiaroa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_9">
+			<Text>Maiao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_10">
+			<Text>Huahine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_11">
+			<Text>Tahaa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_12">
+			<Text>Maupihaa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_13">
+			<Text>Tupai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_14">
+			<Text>Maupiti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_15">
+			<Text>Motu One</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_16">
+			<Text>Manuae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_17">
+			<Text>Arue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_18">
+			<Text>Hitiaa O Te Ra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_19">
+			<Text>Mahina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_20">
+			<Text>Paea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_21">
+			<Text>Papara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_22">
+			<Text>Pirae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_23">
+			<Text>Punaauia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_24">
+			<Text>Taiarapu-Ouest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_25">
+			<Text>Teva I Uta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_26">
+			<Text>Hitiaa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_27">
+			<Text>Papenoo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_28">
+			<Text>Teahupo'o</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAHITI_LS_MOD_29">
+			<Text>Afaahiti</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_TAHITI_LS_MOD_0">
+			<Text>Hiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAHITI_LS_MOD_1">
+			<Text>Matahi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAHITI_LS_MOD_2">
+			<Text>Eperona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAHITI_LS_MOD_3">
+			<Text>Tehina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAHITI_LS_MOD_4">
+			<Text>Uranui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAHITI_LS_MOD_5">
+			<Text>Aiata</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAHITI_LS_MOD_6">
+			<Text>Miri</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAHITI_LS_MOD_7">
+			<Text>Tevai</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAHITI_LS_MOD_8">
+			<Text>Raunui</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAHITI_LS_MOD_9">
+			<Text>Heipua</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!----------------------------------------------------------------
+						Leader
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DESC">
+			<Text>Purea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_LIVED">
+			<Text>1700s</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_NAME">
+			<Text>Purea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_SUBTITLE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_TITLES_1">
+			<Text>Princess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_TEXT_1">
+			<Text>Purea, known formally as Te Vahine Airoro atua i Ahurai i Farepua in the geneaologies of the Papara family of Ar’i Ta’ima’i, was the second daughter of Teri’i Vaetua, the ari’i rahi, or paramount chief of the Fa’a’a district. By ancestral lineage Purea’s father also enjoyed a high-ranking status on the neighbouring island of Mo’orea. Her mother was Te Vahine Airoroau’a (also known in ancestral traditions as Te Ari’i o Maeva Rau). Purea was consequently the sister of Te Pau i Ahurai, who from birth inherited the highest title in Fa’a’a from their father.[NEWLINE][NEWLINE]Purea married Tevahitua, the paramount chief of the Papara district (known to Cook as Amo). Their first-born son, Teri’irere, not only assumed the highest kin-titles in Papara and claims on Mo’oerean titles, but also had a strong claim on titles associated with the Marae Fareroi in the district of Ha’apape through Amo’s mother, Teroro e Ora.[NEWLINE][NEWLINE]However, Tevahitua and Purea had far greater ambitions for their son. Some time after the departure of the Bougainville, in mid-1768, they audaciously sought to establish Teri’irere as the most powerful title-holder on the islands Tahiti and Mo’orea by the creation of a new title associated with the war-god Oro. This involved Tevahitua declaring a rahui or spiritual prohibition of various everyday activities over Tahiti and obliging the people of Papara to construct a new and imposing marae dedicated to Oro at Mahaiatea. Moerenhout further suggests that Tevahitua was goaded into precipitately championing the cause of his son out of fear that relations between the ruling families of northerly districts of the island and the Europeans had diminished his power.[NEWLINE][NEWLINE]Irrespective of why Tevahitua declared the rahui, the ruling dynasties of neighbouring districts reacted defiantly. Worse, the rahui provoked the Vehiatua i te Mata'i, the paramount chief of the Taiarapu Peninsula, to invade Papara in late 1768. According to Maohi traditions, the Vehiatua i te Mata'i believed that because his wife, Purahi, was the grand-daughter of the elder brother of Amo's father, their son had a stronger claim to Papara than Teri'irere.[NEWLINE][NEWLINE]Tevahitua, Purea, Teri'irere and their entourage fled into the mountains, escaping what Banks' journal reveals was a terrible conflict. They never regained their former power, though Purea sought to restore Teri'irere’s prestige by establishing taio bonds with Cook and Joseph Banks.[NEWLINE][NEWLINE]Samuel Wallis and Banks both estimated Purea to have been about forty years old when they met her at Matavai Bay. She struck Wallis as ‘tall’, ‘well-looking’ and having a ‘very Majestic Mein’. Because she was at the height of her prestige when she visited Matavai in July 1767, Wallis and his party assumed she was the ‘Queen of the Country’. Banks met Purea after the failure of her and Amo’s attempt to make Teri'irere the island’s pre-eminent title-holder. He thought her ‘tall and very lusty, [and] her skin white and her eyes full of meaning…’ [NEWLINE][NEWLINE]George Forster, who visited Tahiti in 1773 and 1774 during the course Cook’s second voyage, was similarly struck by Purea’s height and commanding personality, but thought her fat and ‘now rather masculine’.[NEWLINE][NEWLINE]Nothing is known about Purea’s life beyond her encounters with the second Cook expedition, nor is it clear what degree of influence her son Teri'irere wielded beyond recognition of his high-ranking status in Papara. However, one suspects that until their deaths Purea and Tevahitua remained, as George Forster observed, ‘living examples of the instability of human grandeur.’</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_TAHITI_LS_MOD_TEXT">
+			<Text>Oh Wonderous Purea, we feel your great soul as we stand before you! Born the second daughter, you would never see the seat of your father. Though it was your destiny to rule paradise, you would not do so by slaying your sister. No, your machinations were grander still. You married another powerful chief and bore him a son. Playing upon the traditions and beliefs of your people, you sought to bestow Godhood on your child, making him the avatar of Oro and surely the lord of all Tahiti! But your plan was not to be. Your rahui ritual provoked war, and you were forced to flee, never able to gain the support you needed to reclaim your lands.[NEWLINE][NEWLINE]Brilliant and Great Purea, the peoples of Tahiti unite under you! The world is new, and only you know the secrets required to build paradise on Earth. Will you complete the ritual you started, and summon the war God? Will you spread the beauty of paradise throughout these lands? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_FIRSTGREETING_1">
+			<Text>Maeva, traveller from the Moana! Let's celebrate our meeting with Tamurei, the ritual dance! Pahu and Himene!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_FIRSTGREETING_2">
+			<Text>I am princess Purea. Welcome to the neverending dream called Tahiti, where the people do not know the meaning of sorrow.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DEFEATED_1">
+			<Text>Was a paradise on Earth such a dishonour to you and your beliefs that you came here to destroy it?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DEFEATED_2">
+			<Text>If only my warriors hadn't been out of mana, the winds of war wouldn't have been in your flavour!</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_REPEAT_TOO_MUCH_1">
+			<Text>Take your time. There's no rush.</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_GREETING_HOSTILE_HELLO_1">
+			<Text>Look upon this paradise and know that it shall never be yours!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_GREETING_POLITE_HELLO_1">
+			<Text>Relax. Take it easy...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>You spread your disease across the world, corrupting beauty wherever you find it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>Spreading your legacy is no sin, but aggressive expansion is aggression nonetheless.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DENOUNCE_1">
+			<Text>I cast you out from paradise![NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DENOUNCE_2">
+			<Text>Take one last look at this shining paradise, it is the last time you ever will.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>How could you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_RESPONSE_TO_BEING_DENOUNCED_2">
+			<Text>You've hurt my feelings! I was not made for such a harsh world as yours.</Text>
+		</Row>
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_COOP_WAR_REQUEST_1">
+			<Text>{1_PlayerName:textkey} has left me no other choice. We must go to war</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_COOP_WAR_REQUEST_2">
+			<Text>{1_PlayerName:textkey} must be put down. Yet I have not the heart to do it alone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_COOP_WAR_TIME_1">
+			<Text>The time for action against {1_PlayerName:textkey} has come.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DEC_FRIENDSHIP_1">
+			<Text>Why come only to leave? When you could stay here, in paradise.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DEC_FRIENDSHIP_2">
+			<Text>You are a friend of beauty and purity, are you not?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>It's come to my attention that you have a large number of Units near my borders. Please take them away, they are making it unsightly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_EXPANSION_SERIOUS_WARNING_1">
+			<Text>You are a rogue and tyrant, and I shall not put up with your expansionism any longer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_EXPANSION_WARNING">
+			<Text>You surely know that you provoke the wrath of paradise by your actions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_RETURNED_CIVILIAN_1">
+			<Text>Is there any greater gift for these men than returning them to paradise?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_RETURNED_CIVILIAN_2">
+			<Text>Kindness and mercy are to humans what Tahiti is to this Earth.</Text>
+		</Row>
+		<!--Insults-->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_INSULT_1">
+			<Text>I'm surpised you lasted as long as you did.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_INSULT_2">
+			<Text>The only thing keeping you from paradise is yourself. You don't believe you deserve it... and you are right.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_INSULT_3">
+			<Text>You've got some work ahead of you if you ever want to be worthy of paradise.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_INSULT_4">
+			<Text>The only paradise is the here and now. You squander your short time upon this Earth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_INSULT_MILITARY_1">
+			<Text>Your men will rebel when they realise they could live here, in paradise.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_INSULT_UNHAPPINESS_1">
+			<Text>Sadness is the epitome of your great failure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_INSULT_CITIES_1">
+			<Text>Your cities are a blight upon this Earth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_INSULT_CULTURE_1">
+			<Text>Your people have no culture. They are like animals. They will die like animals.</Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DONT_SETTLE_NO_1">
+			<Text>My settlers don't choose where they end up.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DONT_SETTLE_YES_1">
+			<Text>There are other places my people can build paradise.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_LUXURY_TRADE_1">
+			<Text>A better world, for everyone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_RESPONSE_REQUEST_1">
+			<Text>Show kindness to a kind people.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_ATTACKED_HOSTILE_1">
+			<Text>So the defiler now comes for me. I shall defeat you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_ATTACKED_EXCITED_1">
+			<Text>You are no different from any other form of rampant wildlife.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_ATTACKED_SAD_1">
+			<Text>NO! I have worked so hard, for so long...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_ATTACKED_BETRAYED_1">
+			<Text>How could you betray me when I had nothing but love for you?</Text>
+		</Row>
+		<!--AI Declaring War on Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DOW_GENERIC_1">
+			<Text>Oro must be appeased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DOW_LAND_1">
+			<Text>Your land will not be a shadow on paradise for much longer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DOW_WORLD_CONQUEST_1">
+			<Text>Is it not a great thing I do? I shall create a paradise on Earth for all mankind!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DOW_WORLD_CONQUEST_2">
+			<Text>Through war I appease Oro. When I conquer the world he will take me as his wife, and I shall live forever as a God!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DOW_OPPORTUNITY_1">
+			<Text>Sometimes you must do something untasteful, for the good of all.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DOW_DESPERATE_1">
+			<Text>If I must give my life so that Oro will protect what little remains of paradise, so be it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DOW_BETRAYAL_1">
+			<Text>You are not worthy of my splendor!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DOW_BETRAYAL_2">
+			<Text>I was mistaken with you. I must now correct that mistake.</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_TOO_SOON_NO_PEACE_1">
+			<Text>I am in no rush.</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_BAD_1">
+			<Text>You address a Princess!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_GOOD_1">
+			<Text>This pleases me. Greatly.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						UA
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_TAHITI_LS_SHORT">
+			<Text>Paradise Found</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TAHITI_LS">
+			<Text>Settlers can embark all water. Before discovering Astronomy starting turn on Ocean will throw the Settler to a random coast.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						U1
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_LS_PAHI">
+			<Text>Pahi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LS_PAHI">
+			<Text>Can build Fishing Boats and has the Change Port ability, allowing you to immediately travel between coastal cities. After a discovery of Astronomy, Pahi is consumed when it builds the Fishing Boats. Only the Tahitians may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LS_PAHI_TEXT">
+			<Text>The Tahitians arrive on their island using outrigger canoes, that were up to twenty or thirty meters long and could transport families and domestic animals. In 1769, for instance, James Cook mentions a great traditional ship (va'a) in Tahiti that was 33 m (108 ft) long, and could be propelled by sail or paddles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LS_PAHI_STRATEGY">
+			<Text>The Pahi can build fishing boats, unlike the Trireme which it replaces. This allows the Tahitians to benefit from ocean resources earlier than other civilisations. Furthermore, the Pahi can move instantly between cities, allowing it to keep up with the Tipairua, which could end up on the other side of the world!</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						U2
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_LS_TIPAIRUA">
+			<Text>Tipairua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LS_TIPAIRUA">
+			<Text>Can embark and enter deep ocean from the beginning of the game, +1 Sight when embarked. Before discovering Astronomy, starting its turn on Ocean will throw this unit to a random coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LS_TIPAIRUA_TEXT">
+			<Text>Like the many Polynesian tribes, the Tahitians emigrated to their home on seafaring vessels several hundred years BCE. A seafaring people, the Tahitians' history and culture is intrinsically linked their navigation skills, essential for trade and communications in their maritime environs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LS_TIPAIRUA_STRATEGY">
+			<Text>Able to embark from the beginning of the game, unlike the Settler which it replaces, the Tipairua can make use of the Tahitian UA from the earliest opportunity. Furthermore, if you should choose to move the Tipairua onto an ocean tile before the advent of Astronomy, it will find itself on a random coastline at the start of the next turn. This allows you a near unlimited number of locations to settle, should there be a dirge of good city spots near your starting location.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LS_TAHITI_SET">
+			<Text>Beyond the Horizon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LS_TAHITI_SET_HELP">
+			<Text>Can embark all water. Before Astronomy, starting turn on Ocean will throw unit on random coast.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_BUILDING_LS_MARAE">
+			<Text>Marae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_LS_MARAE_TEXT">
+			<Text>A marae is a communal or sacred place that serves religious and social purposes in Polynesian societies. In all these languages, the word also means "cleared, free of weeds, trees, etc." It generally consists of an area of cleared land roughly rectangular (the marae itself), bordered with stones or wooden posts (called au in Tahitian) perhaps with terraces (paepae) which were traditionally used for ceremonial purposes; and in some cases, a central stone ahu or a'u. In the Rapanui culture of Easter Island "ahu" has become a synonym for the whole marae complex).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LS_MARAE_STRATEGY">
+			<Text>Extra [ICON_PRODUCTION] Production modifier (up to +33%) with every turn without [ICON_CITIZEN] Population growth. Bonus growth is greater if the city is unrevealed to rivals.</Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

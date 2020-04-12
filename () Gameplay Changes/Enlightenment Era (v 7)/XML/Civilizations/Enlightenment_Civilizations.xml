@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Where UnitType="UNIT_PORTUGUESE_NAU"/>
+			<Set UnitClassType="UNITCLASS_EE_CARRACK"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_DANISH_SKI_INFANTRY"/>
+			<Set UnitClassType="UNITCLASS_EE_SKIRMISHER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_MINUTEMAN"/>
+			<Set UnitClassType="UNITCLASS_EE_SKIRMISHER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWEDISH_CAROLEAN"/>
+			<Set UnitClassType="UNITCLASS_EE_LINE_INFANTRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set UnitClassType="UNITCLASS_EE_CUIRASSIER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWEDISH_HAKKAPELIITTA"/>
+			<Set UnitClassType="UNITCLASS_EE_CUIRASSIER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KOREAN_TURTLE_SHIP"/>
+			<Set UnitClassType="UNITCLASS_EE_GALLEON"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ENGLISH_SHIPOFTHELINE"/>
+			<Set>
+				<UnitType>UNIT_EE_ENGLISH_FIRST_RATE</UnitType>
+				<UnitClassType>UNITCLASS_EE_SHIP_OF_THE_LINE</UnitClassType>
+			</Set>
+		</Update>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_EE_EXPLORER</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Update>
+			<Where BuildingType="BUILDING_COFFEE_HOUSE"/>
+			<Set BuildingClassType="BUILDINGCLASS_EE_SALON"/>
+		</Update>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_TOPKAPI</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_TOPKAPI</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_TORRE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_TORRE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_WAT_PHRA_KAEW</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_WAT_PHRA_KAEW</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_KRONBORG</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_KRONBORG</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_SMITHSONIAN</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_SMITHSONIAN</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_FASIL_GHEBBI</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_FASIL_GHEBBI</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_VERSAILLES</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_VERSAILLES</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_CRYSTAL_PALACE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_CRYSTAL_PALACE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>

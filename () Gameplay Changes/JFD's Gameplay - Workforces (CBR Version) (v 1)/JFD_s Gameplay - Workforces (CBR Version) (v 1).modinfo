@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f16460a3-aa5d-4384-9b10-ef34ba57ab8a" version="1">
+  <Properties>
+    <Name>JFD's Gameplay - Workforces (CBR Version)</Name>
+    <Teaser>Adds [COLOR_CYAN]Build Charges[ENDCOLOR] as a new gameplay concept. Click for details.</Teaser>
+    <Description>Your [COLOR_POSITIVE_TEXT]Workers[ENDCOLOR] must now expend Build Charges in order to build Improvements. Instead of taking a number of turns to complete an Improvement, Improvements are now built instantly, consuming 'Charges' in the process. Each Worker may use these Charges until they have none left, at which point they are expended.[NEWLINE][NEWLINE]Roads, Railroads, Repairs, and Clearing Features still require a set number of turns to be completed, however, but they do not consume Charges.[NEWLINE][NEWLINE]Workboats are also subject to this new mechanic, but they start with only one Charge. This can be increased by researching certain Techs.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="c3b6e30c-3548-4fbc-9d7f-cf3025be8261" minversion="0" maxversion="999" title="JFD's Gameplay - Nationalism" />
+  </References>
+  <Blocks>
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFDLC (08) - JFD's Rise to Power" />
+  </Blocks>
+  <Files>
+    <File md5="346D7D8707BA2F41F1DDCDBB03D06940" import="1">Art/Graphics/Peasant/CIV5Nedwo.fxsxml</File>
+    <File md5="4FB8D180F6E41C706654CA90CCF4F120" import="1">Art/Graphics/Peasant/CIV5Nedwo.gr2</File>
+    <File md5="71EA793A634ABAC2A75A6594451FD7F9" import="1">Art/Graphics/Peasant/CIV5Nedwo1.dds</File>
+    <File md5="0EFD608BD58B95CD3A44225E422AD117" import="1">Art/Graphics/Peasant/CIV5Nedwo1_sref.dds</File>
+    <File md5="362EDFA1CF86D023B0D882A66F99FA67" import="1">Art/Icon Atlases/JFD_Workforces_IconAtlas_128.dds</File>
+    <File md5="96591A3D2E450FEB8DE44412149FAE89" import="1">Art/Icon Atlases/JFD_Workforces_IconAtlas_256.dds</File>
+    <File md5="542C847093E5F20860E507542B477122" import="1">Art/Icon Atlases/JFD_Workforces_IconAtlas_32.dds</File>
+    <File md5="D4A5C2BECDD18639C200447C5E6D46BD" import="1">Art/Icon Atlases/JFD_Workforces_IconAtlas_45.dds</File>
+    <File md5="5F904C9A0BD5138F15A96BF53C888E98" import="1">Art/Icon Atlases/JFD_Workforces_IconAtlas_64.dds</File>
+    <File md5="66064609EF169BD265D016D9004E09E9" import="1">Art/Icon Atlases/JFD_Workforces_IconAtlas_80.dds</File>
+    <File md5="1180E836F5E4AF697A3C5F55B8019EFF" import="1">Audio/Sounds/UnitBuild.wav</File>
+    <File md5="BA05E3019888FA524E6D1EE09D224CBE" import="1">Audio/Sounds/UnitBuildFin.wav</File>
+    <File md5="11793982B62F66D98BFB762B06AF9CE4" import="0">Core/Workforces_ArtDefines.sql</File>
+    <File md5="04F842479FE0CF363748DFD68967D4C7" import="0">Core/Workforces_Concepts.sql</File>
+    <File md5="7F9D0149947977B39FD4D89146F8CE5F" import="0">Core/Workforces_Defines.sql</File>
+    <File md5="12E0E0E5FC33687437AEC10D1A55EF07" import="0">Core/Workforces_GameText.xml</File>
+    <File md5="CBD365EE8291280ED15DFBB9DEF059AF" import="0">Core/Workforces_GameText_Interface.xml</File>
+    <File md5="90700891BE18843B5E1DF1A7F58F4697" import="0">Core/Workforces_Master.sql</File>
+    <File md5="545919B8490305C162C934F30281FA45" import="0">Core/Workforces_Policies.sql</File>
+    <File md5="AB3158AF08BFBE808DCEC1D4859A729F" import="0">Core/Workforces_Units.sql</File>
+    <File md5="08884284509E5E30A6922075149C46DD" import="0">Core/Workforces_Techs.sql</File>
+    <File md5="1C7911B04A666849255C7BCF4BFAF253" import="0">Core/Workforces_Improvements.sql</File>
+    <File md5="340BA6B5A26DE4A1EF5A026442CB4150" import="0">Core/Workforces_Buildings.sql</File>
+    <File md5="FE97502F38EBDE768358D277E6C2751B" import="0">Credits.txt</File>
+    <File md5="F5AB2CBE9F32FF2F26FAB28DEC2C3681" import="0">Lua/JFD_Workforces_Functions.lua</File>
+    <File md5="6A5E6C41BBA71019EEEA01AA0972014E" import="0">Lua/JFD_Workforces_TutorialFunctions.lua</File>
+    <File md5="328A4B60D61335DB128468DCF2FCBFB1" import="0">Lua/JFD_Workforces_TutorialFunctions.xml</File>
+    <File md5="AF78E2DAA24FF9A2DA0779B9A85AB8B4" import="1">Lua/Utilities/JFD_Workforces_Utils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Workforces_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Workforces_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Workforces_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Workforces_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Workforces_Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Workforces_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Workforces_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Workforces_Improvements.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Workforces_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Workforces_Techs.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Workforces_Units.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Workforces_Functions.lua">
+      <Name>JFD_Workforces_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Workforces_TutorialFunctions.lua">
+      <Name>JFD_Workforces_TutorialFunctions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

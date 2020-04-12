@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_UNIT_VELOCIRAPTOR_ATTACK</SoundID>
+			<Filename>VelociraptorAttack</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_3DSounds>
+		<Row>
+			<ScriptID>AS3D_UNIT_VELOCIRAPTOR_ATTACK</ScriptID>
+			<SoundID>SND_UNIT_VELOCIRAPTOR_ATTACK</SoundID>
+			<SoundType>GAME_SFX</SoundType>
+			<MaxVolume>65</MaxVolume>
+			<MinVolume>45</MinVolume>
+			<IsMusic>0</IsMusic>
+		</Row>
+	</Audio_3DSounds>
+	
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_UNIT_TREX</SoundID>
+			<Filename>trex</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_UNIT_TREX_STEP</SoundID>
+			<Filename>trexstep</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_3DSounds>
+		<Row>
+			<ScriptID>AS3D_UNIT_TREX</ScriptID>
+			<SoundID>SND_UNIT_TREX</SoundID>
+			<SoundType>GAME_SFX</SoundType>
+			<MaxVolume>70</MaxVolume>
+			<MinVolume>45</MinVolume>
+			<IsMusic>0</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS3D_UNIT_TREX_STEP</ScriptID>
+			<SoundID>SND_UNIT_TREX_STEP</SoundID>
+			<SoundType>GAME_SFX</SoundType>
+			<MaxVolume>30</MaxVolume>
+			<MinVolume>15</MinVolume>
+			<IsMusic>0</IsMusic>
+		</Row>
+	</Audio_3DSounds>
+</GameData>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="66743884-90cd-4de4-9ea2-dfbbe608c3d1" version="13">
+  <Properties>
+    <Name>UI - Notification Options</Name>
+    <Teaser>Permits notifications to be enabled/disabled</Teaser>
+    <Description>Adds Shift-Right-Click on a notification to remove all notifications of that type from the list and Ctrl-Right-Click to disable future ones (see below)
+
+Adds a dialog to permit specific notifications to be enabled/disabled
+
+Also provides an interface for adding custom notifications and/or overriding existing ones
+
+Incorporates the custom City Growth (Population and Land) notifications by Sneaks and alpaca</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>Sneaks and alpaca for Custom Notifications (v 3)</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=463527</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="C1698D76F6873B175E6EFDA50ECD877D" import="1">UI/BombardNotification.lua</File>
+    <File md5="D2202D2E6492128BB4981E3A6C86CED2" import="1">UI/BombardNotification.xml</File>
+    <File md5="D2876A5A584A088D4943E96567D6A6C7" import="1">UI/CityNotifications.lua</File>
+    <File md5="C027AC8061D59C18F9D6D459ACEE2C28" import="1">UI/CityNotifications.xml</File>
+    <File md5="8B3D51D0C19197848CAB1BD85A1F01C6" import="1">UI/InGame/WorldView/NotificationPanel.lua</File>
+    <File md5="39842C4D51EB4D148E690E62849113E9" import="0">UI/NotificationOptions.lua</File>
+    <File md5="A0B479616AC5C7EA7A5DAD7367884C5D" import="0">UI/NotificationOptions.xml</File>
+    <File md5="238552EB76A88A4B99658C28C2F94920" import="0">XML/CityNotificationsText.xml</File>
+    <File md5="AA404EFD5B16B4381EF42FF2ACE418CF" import="0">XML/NotificationOptionsText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/NotificationOptionsText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CityNotificationsText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="UI/NotificationOptions.xml">
+      <Name>Notification Options</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="CustomNotificationAddin" file="UI/CityNotifications.lua">
+      <Name>City Notifications</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="CustomNotificationAddin" file="UI/BombardNotification.lua">
+      <Name>Bombard Notification</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

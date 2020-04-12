@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/2/2018 5:57:06 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_SOCIETY_OF_THE_FAITHFUL</Type>
+			<Description>TXT_KEY_BELIEF_SOCIETY_OF_THE_FAITHFUL</Description>
+			<ShortDescription>TXT_KEY_BELIEF_SOCIETY_OF_THE_FAITHFUL_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+		</Row>
+	</Beliefs>
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_SOCIETY_OF_THE_FAITHFUL</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SOCIETY_OF_THE_FAITHFUL</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SOCIETY_OF_THE_FAITHFUL</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SOCIETY_OF_THE_FAITHFUL</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SOCIETY_OF_THE_FAITHFUL</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SOCIETY_OF_THE_FAITHFUL</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_SOCIETY_OF_THE_FAITHFUL">
+			<Text>+2 [ICON_FOOD] Food, +2 [ICON_PRODUCTION] Production, +2 [ICON_GOLD] Gold, +2 [ICON_SCIENCE] Science, +2 [ICON_CULTURE] Culture and +2 [ICON_PEACE] Faith for Holy Sites.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SOCIETY_OF_THE_FAITHFUL_SHORT">
+			<Text>Society Of The Faithful</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

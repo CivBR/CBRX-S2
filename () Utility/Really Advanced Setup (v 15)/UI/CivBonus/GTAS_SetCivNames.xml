@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Color0="Beige" Color1="Black,256" Font="TwCenMT16" FontStyle="Shadow" >
+
+
+    <!--=======================================================================================================================-->
+    <!--=======================================================================================================================-->
+    <Box Color="Black.200" Size="Full.Full" ID="Background" >
+        <Container Size="1024,700" Anchor="C,C" >
+
+			<Box ID="MainBox" Anchor="C,C" Size="356,400" Color="255,255,255,0" >
+
+				<Grid ID="BackgroundBox" Anchor="L,T" Offset="0,0" Size="354,400" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+					
+                    <Grid ID="FrameBox" Anchor="L,T" Offset="0,0" Size="354,400" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+
+                        <Stack Anchor="L,T" Offset="20,50" StackGrowth="Bottom" Padding="20" ID="Stack" >													
+							<!-- Leader Name -->
+                            <Label Anchor="L,T" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_PEDIA_LEADER_NAME" ID="LeaderName" />
+                            <Box  Anchor="L,T" Offset="0,-10" Size="288,24" Color="255,255,200,255" ID="CivLeaderEditbox">
+                                <Box Anchor="C,C"  Size="286,22" Color="0,0,0,255" >
+                                    <EditBox CallOnChar="1" EditMode="1" Size="284,22" Anchor="C,C" ID="EditCivLeader" Font="TwCenMT20" MaxLength="15" FocusStop="1"/>
+                                </Box>
+                            </Box>
+
+                            <!-- Civ Name -->
+                            <Label Anchor="L,T" Size="288,32" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_PEDIA_CIVILIZATION_NAME" ID="CivName" />
+                            <Box  Anchor="L,T" Offset="0,-10" Size="288,24" Color="255,255,200,255" ID="CivNameEditbox">
+                                <Box Anchor="C,C"  Size="286,22" Color="0,0,0,255" >
+                                    <EditBox CallOnChar="1" EditMode="1" Size="284,22" Anchor="C,C" ID="EditCivName" Font="TwCenMT20" MaxLength="15" FocusStop="2"/>
+                                </Box>
+                            </Box>
+
+                            <!-- Civ Short Name -->
+                            <Label Anchor="L,T" Size="288,32" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_PEDIA_CIVILIZATION_SHORT_NAME" ID="CivShortName" />
+                            <Box  Anchor="L,T" Offset="0,-10" Size="288,24" Color="255,255,200,255" ID="CivShortNameEditbox">
+                                <Box Anchor="C,C"  Size="286,22" Color="0,0,0,255" >
+                                    <EditBox CallOnChar="1" EditMode="1" Size="284,22" Anchor="C,C" ID="EditCivShortName" Font="TwCenMT20" MaxLength="15" FocusStop="3"/>
+                                </Box>
+                            </Box>
+
+                            <!-- Civ Adjective -->
+                            <Label Anchor="L,T" Size="288,32" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_PEDIA_CIVILIZATION_ADJECTIVE" ID="CivAdjective" />
+                            <Box  Anchor="L,T" Offset="0,-10" Size="288,24" Color="255,255,200,255" ID="CivAdjectiveEditbox">
+                                <Box Anchor="C,C"  Size="286,22" Color="0,0,0,255" >
+                                    <EditBox CallOnChar="1" EditMode="1" Size="284,22" Anchor="C,C" ID="EditCivAdjective" Font="TwCenMT20" MaxLength="15" FocusStop="4"/>
+                                </Box>
+                            </Box>
+						</Stack>
+						
+                    </Grid>
+					
+                </Grid>
+
+                <Image Anchor="L,T" Offset="0,-1"  Size="354,45" Texture="Assets/UI/Art/WorldView/SetupTab2.dds"  >
+                    <Label ID="ScreenTitle" Anchor="C,C" Offset="0,-6" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+                </Image>
+
+				<!--<Label Anchor="C,B" Offset="0,70" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" String="Changes will take effect when the game starts." FontStyle="Shadow" ID="Title" />-->
+
+				<!-- Cancel Button  -->
+				<GridButton ID="CancelButton" Anchor="L,B" Size="90,32"  Offset="20,20" Style="SmallButton" StateOffsetIncrement="0,0" >
+					<Label Anchor="C,C"  Offset="0,0"  String="TXT_KEY_CANCEL_BUTTON" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+				</GridButton>
+
+				<!-- Reset Button  -->
+				<GridButton ID="ResetButton" Anchor="C,B" Size="90,32"  Offset="0,20" Style="SmallButton" StateOffsetIncrement="0,0" >
+					<Label Anchor="C,C"  Offset="0,0"  String="Reset" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+				</GridButton>
+
+				<!-- Accept Button  -->
+                <GridButton ID="AcceptButton" Anchor="R,B" Size="90,32"  Offset="20,20" Style="SmallButton" StateOffsetIncrement="0,0" >
+                    <Label Anchor="C,C"  Offset="0,0"  String="TXT_KEY_ACCEPT_BUTTON" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+                </GridButton>
+                
+            </Box>
+
+        </Container>
+    </Box>
+</Context>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b0fbc14b-32f1-4a13-b99d-e3a9a2c6d032" version="1">
+  <Properties>
+    <Name>(CBRX) Future Tech Bonus</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>(CBRX) Future Tech Bonus</Teaser>
+    <Description>(CBRX) Future Tech Bonus</Description>
+    <Authors>Limerickarcher</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="832BDA6FC0E311B111DBABDE5B4C62D1" import="0">FutureTechResearchBonus.lua</File>
+    <File md5="F3E8937B7A2F2DC590F4499765A4710D" import="1">UnitSpawnHandler.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="FutureTechResearchBonus.lua">
+      <Name>Bonus on researching Future Tech</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

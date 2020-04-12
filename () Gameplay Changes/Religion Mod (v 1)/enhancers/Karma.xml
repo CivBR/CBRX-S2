@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- +8 Culture in the Empire -->
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_KARMA</Type>
+			<Description>TXT_KEY_BELIEF_KARMA</Description>
+			<ShortDescription>TXT_KEY_BELIEF_KARMA_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_KARMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>8</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_KARMA">
+			<Text>+8 [ICON_CULTURE] Culture from the Palace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_KARMA_SHORT">
+			<Text>Karma</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

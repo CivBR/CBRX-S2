@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/29/2015 10:14:12 AM -->
+<GameData>
+	<LeagueSpecialSessions>
+		<Update>
+			<Where Type="LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES"/>
+			<Set EraTrigger="ERA_ENLIGHTENMENT"/>
+		</Update>
+		<Update>
+			<Where Type="LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL"/>
+			<Set EraTrigger="ERA_INDUSTRIAL"/>
+		</Update>
+		<!--<Row>
+			<ID>0</ID>
+			<Type>LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS</Type>
+			<Description>TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS</Description>
+			<Help>TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS_HELP</Help>
+			<SessionSplashImage>WorldCongress.dds</SessionSplashImage>
+			<EraTrigger>ERA_RENAISSANCE</EraTrigger>
+			<ImmediateProposal>RESOLUTION_CHANGE_LEAGUE_HOST</ImmediateProposal>
+			<TurnsBetweenSessions>30</TurnsBetweenSessions>
+			<CivDelegates>1</CivDelegates>
+			<HostDelegates>1</HostDelegates>
+			<CityStateDelegates>0</CityStateDelegates>
+		</Row>
+		<Row>
+			<Type>LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES</Type>
+			<Description>TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES</Description>
+			<Help>TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES_HELP</Help>
+			<SessionSplashImage>WorldCongress.dds</SessionSplashImage>
+			<EraTrigger>ERA_ENLIGHTENMENT</EraTrigger>
+			<ImmediateProposal>RESOLUTION_CHANGE_LEAGUE_HOST</ImmediateProposal>
+			<TurnsBetweenSessions>25</TurnsBetweenSessions>
+			<CivDelegates>2</CivDelegates>
+			<HostDelegates>1</HostDelegates>
+			<CityStateDelegates>1</CityStateDelegates>
+		</Row>
+		<Row>
+			<Type>LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL</Type>
+			<Description>TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL</Description>
+			<Help>TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL_HELP</Help>
+			<SessionSplashImage>WorldCongress.dds</SessionSplashImage>
+			<EraTrigger>ERA_INDUSTRIAL</EraTrigger>
+			<ImmediateProposal>RESOLUTION_CHANGE_LEAGUE_HOST</ImmediateProposal>
+			<TurnsBetweenSessions>20</TurnsBetweenSessions>
+			<CivDelegates>3</CivDelegates>
+			<HostDelegates>2</HostDelegates>
+			<CityStateDelegates>1</CityStateDelegates>
+		</Row>-->
+		<Row>
+			<Type>LEAGUE_SPECIAL_SESSION_WORLD_ASSEMBLY</Type>
+			<Description>TXT_KEY_LEAGUE_SPECIAL_SESSION_WORLD_ASSEMBLY</Description>
+			<Help>TXT_KEY_LEAGUE_SPECIAL_SESSION_WORLD_ASSEMBLY_HELP</Help>
+			<SessionSplashImage>WorldCongress.dds</SessionSplashImage>
+			<EraTrigger>ERA_MODERN</EraTrigger>
+			<ImmediateProposal>RESOLUTION_CHANGE_LEAGUE_HOST</ImmediateProposal>
+			<TurnsBetweenSessions>20</TurnsBetweenSessions>
+			<CivDelegates>4</CivDelegates>
+			<HostDelegates>2</HostDelegates>
+			<CityStateDelegates>1</CityStateDelegates>
+		</Row>
+		<!--<Row>
+			<Type>LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS</Type>
+			<Description>TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS</Description>
+			<Help>TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS_HELP</Help>
+			<SessionSplashImage>WonderConceptUN.dds</SessionSplashImage>
+			<EraTrigger>ERA_POSTMODERN</EraTrigger>
+			<ImmediateProposal>RESOLUTION_CHANGE_LEAGUE_HOST</ImmediateProposal>
+			<RecurringProposal>RESOLUTION_DIPLOMATIC_VICTORY</RecurringProposal>
+			<TurnsBetweenSessions>10</TurnsBetweenSessions>
+			<CivDelegates>4</CivDelegates>
+			<HostDelegates>2</HostDelegates>
+			<CityStateDelegates>2</CityStateDelegates>
+			<UnitedNations>true</UnitedNations>
+		</Row>-->
+	</LeagueSpecialSessions>
+	<!-- LeagueNames-->
+	<LeagueNames>
+		<!--<Row>
+			<ID>0</ID>
+			<Type>LEAGUE_NAME_CONGRESS</Type>
+			<NameKey>TXT_KEY_LEAGUE_WORLD_CONGRESS_1</NameKey>
+		</Row>
+		<Row>
+			<Type>LEAGUE_NAME_CONFERENCE</Type>
+			<NameKey>TXT_KEY_LEAGUE_WORLD_CONGRESS_2</NameKey>
+		</Row>
+		<Row>
+			<Type>LEAGUE_NAME_COUNCIL</Type>
+			<NameKey>TXT_KEY_LEAGUE_WORLD_CONGRESS_3</NameKey>
+		</Row>-->
+		<Row>
+			<Type>LEAGUE_NAME_ASSEMBLY</Type>
+			<NameKey>TXT_KEY_LEAGUE_WORLD_CONGRESS_4</NameKey>
+		</Row>
+	</LeagueNames>
+</GameData>

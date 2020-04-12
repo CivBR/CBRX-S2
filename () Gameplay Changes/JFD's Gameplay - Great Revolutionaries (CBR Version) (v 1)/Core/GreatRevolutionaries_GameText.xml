@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2019 7:11:13 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Great Revolutionaries-->
+		<Row Tag="TXT_KEY_JFD_GREAT_REVOLUTIONARIES_HEADING1_TITLE">
+			<Text>Great Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GREAT_REVOLUTIONARIES_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Great Revolutionaries[ENDCOLOR] are a new Great Person that can be used to choose an Ideology. This replaces the ability to unlock an Ideology by constructing three Factories. Great Revolutionaries are granted for free to Civilizations that research certain late-game Technologies before any others - the specific Techs are random each game. With the [COLOR_CYAN]Community Patch[ENDCOLOR] mod, expending a Great Revolutionary for an Ideology becomes a standard mission, but without, it is automated. Great Revolutionaries may also be expended to trigger a Culture Bomb.[NEWLINE][NEWLINE]In addition, Ideologies are no longer automatically unlocked on entering the Modern Era. Instead, they are automatically unlocked for all players when all three Ideologies have been taken by at least one civilization.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--DEFINES-->
+		<!--===================================================-->
+		<!--JFD: Great Revolutionaries-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_GREAT_REVOLUTIONARIES">
+			<Text>JFD: Great Revolutionaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GREAT_REVOLUTIONARIES_HELP">
+			<Text>Triggers Ideology Choice</Text>
+		</Row>
+		<!--===================================================-->
+		<!--GREAT PEOPLE-->
+		<!--===================================================-->
+		<!--Great Revolutionary-->
+		<Row Tag="TXT_KEY_UNIT_JFD_GREAT_REVOLUTIONARY">
+			<Text>Great Revolutionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_GREAT_REVOLUTIONARY_STRATEGY">
+			<Text>A Great Revolutionary can be used to choose an Ideology. They can also be expended to expand your Culture borders. If the new Culture border claims hexes already owned by another civilization, you will incur a diplomatic penalty as a result. The Great Revolutionary is expended when used in either of these ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_GREAT_REVOLUTIONARY_TEXT">
+			<Text>"Great Revolutionaries" are those that inspire change through radical actions and ideas; not reform. They thrust civilizations onto new paths, rallying the people to their revolutionary ideals and values.</Text>
+		</Row>
+		<!--Unique Names-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_01">
+			<Text>Henri Christophe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_02">
+			<Text>Aldana Sandoval</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_03">
+			<Text>William of Orange</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_04">
+			<Text>Đorđe Petrović</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_05">
+			<Text>Zhu De</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_06">
+			<Text>Ioannis Kapodistrias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_07">
+			<Text>Imre Nagy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_08">
+			<Text>James Fannin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_09">
+			<Text>Lajos Kossuth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_10">
+			<Text>Emilio Aguinaldo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_11">
+			<Text>Andrés Bonifacio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_12">
+			<Text>Mohammad Tabatabai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_13">
+			<Text>Vishwaguru Basavanna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_14">
+			<Text>Midhat Pasha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_15">
+			<Text>Rosa Luxemburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_16">
+			<Text>Emma Goldman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_17">
+			<Text>Che Guevara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_18">
+			<Text>Luo Ruiqing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_19">
+			<Text>Morteza Motahhari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_20">
+			<Text>Jaime Sin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_21">
+			<Text>Celeste Caeiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_22">
+			<Text>Mohamed Bouazizi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_23">
+			<Text>Yemelyan Pugachev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_24">
+			<Text>Camille Desmoulins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_25">
+			<Text>Georges Danton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_26">
+			<Text>Maximin Isnard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_27">
+			<Text>Alexander Hamilton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_28">
+			<Text>Benjamin Franklin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_29">
+			<Text>Richard Price</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_30">
+			<Text>Thomas Paine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_31">
+			<Text>Wolfe Tone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_32">
+			<Text>Francisco de Miranda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_33">
+			<Text>Gabriele Rossetti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_34">
+			<Text>Rafael del Riego</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_35">
+			<Text>Giuseppe Mazzini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_36">
+			<Text>Anton Füster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_37">
+			<Text>Venustiano Carranza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_38">
+			<Text>Huang Xing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_39">
+			<Text>Julius Martov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_40">
+			<Text>Leon Trotsky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_41">
+			<Text>Saad Zaghloul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_42">
+			<Text>Alexander Kolchak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_43">
+			<Text>Dimitrije Ljotić</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_44">
+			<Text>Hannes Ignatius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_GREAT_REVOLUTIONARY_45">
+			<Text>Ante Starčević</Text>
+		</Row>
+		<!--===================================================-->
+		<!--MISSIONS-->
+		<!--===================================================-->
+		<!--Found Ideology-->
+		<Row Tag="TXT_KEY_MISSION_JFD_FOUND_IDEOLOGY">
+			<Text>Found Ideology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_FOUND_IDEOLOGY_HELP">
+			<Text>This order will consume the unit and allow you to choose an Ideology on the next turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JFD_FOUND_IDEOLOGY_DISABLED">
+			<Text>Unit must be stationed in a city and at full Health. Must have entered the Industrial Era. Must not have chosen an Ideology.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--TRAITS-->
+		<!--===================================================-->
+		<!--America-->
+		<Row Tag="TXT_KEY_TRAIT_AMERICA_JFD_GREAT_REVOLUTIONARIES">
+			<Text>All land military units have +1 sight. 50% discount when purchasing tiles. Receive a free Great Revolutionary when you discover Economics.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

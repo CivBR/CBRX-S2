@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2018 12:22:57 AM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_POPULOUS_PIETY</Type>
+			<Description>TXT_KEY_BELIEF_POPULOUS_PIETY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_POPULOUS_PIETY_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+			<MinFollowers>12</MinFollowers>
+		</Row>
+	</Beliefs>
+
+	<Belief_CityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_POPULOUS_PIETY</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>12</Yield>
+		</Row>
+	</Belief_CityYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_POPULOUS_PIETY">
+			<Text>+12 [ICON_FAITH] Faith in cities with 12 followers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_POPULOUS_PIETY_SHORT">
+			<Text>Populous Piety</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

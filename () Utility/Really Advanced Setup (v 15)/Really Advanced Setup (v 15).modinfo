@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="34feb829-33fb-4241-956f-462e6877e070" version="15">
+  <Properties>
+    <Name>Really Advanced Setup</Name>
+    <Teaser>Adds new options to the Advanced Setup screen.</Teaser>
+    <Description>This mod includes all of the standard options normally found in the Advanced Setup screen. It also adds new features which allow you to modify game play significantly. Works with Brave New World and all earlier versions of the game. 
+
+[NEWLINE][NEWLINE]To use the Really Advance Setup mod in your game first enable it then click "Next".
+Then click "Single Player" then "Set Up Game" then "Advanced Setup". 
+Do not click "Back". That just causes you to exit the mod. 
+
+[NEWLINE][NEWLINE]The following options are available.
+
+[NEWLINE][NEWLINE][ICON_BULLET][COLOR_GREEN] Select Active Civilizations:[ENDCOLOR][NEWLINE]
+This allows you to determine which civilizations are active. Deactivate the civs that you don't want and they won't show up. Even when using randomly selected civilizations.
+
+[NEWLINE][NEWLINE][ICON_BULLET][COLOR_GREEN] Starting Bias[ENDCOLOR][NEWLINE]
+Allows you to set starting bias for any player to: Start Along Ocean, Start Along River, Region Priority, or Region Avoid. The region biases allow you to select up to three regions such as grass, plains, hills, desert, tundra, jungle, forest, and hybrid. 
+
+[NEWLINE][NEWLINE][ICON_BULLET][COLOR_GREEN] Starting Bonuses[ENDCOLOR][NEWLINE]
+You can set the amount of Gold, Culture, Faith, and Free Techs that each player will start with. 
+
+[NEWLINE][NEWLINE][ICON_BULLET][COLOR_GREEN] Starting Units[ENDCOLOR][NEWLINE]
+You can individually control which units each player will receive to start the game.
+
+[NEWLINE][NEWLINE][ICON_BULLET][COLOR_GREEN] Terrain, Features, Resources, and Natural Wonders[ENDCOLOR][NEWLINE]
+There are two methods available to add these items to the map. They can be placed relative to any player's starting location. They can also be scattered randomly across the map. There are numerous options available that allow you to place as many of these various items as you wish on the map. You set the guidelines when setting up the game. The items are then added automatically when the map is made.
+
+[NEWLINE][NEWLINE][ICON_BULLET][COLOR_GREEN] Starting Visibility[ENDCOLOR][NEWLINE]
+You can increase the amount of the map that is visible when the game starts. This option applies to all players. 
+
+[NEWLINE][NEWLINE][ICON_BULLET][COLOR_GREEN] Game Options[ENDCOLOR][NEWLINE]
+Optional Starting Settlers, Disable Nuclear Weapons, Disable Science, Disable Policies, Disable Happiness, Always War, Always Peace, and No Changing War or Peace.
+
+[NEWLINE][NEWLINE]For more information:[COLOR_CYAN]  http://forums.civfanatics.com/showthread.php?t=486324[ENDCOLOR]</Description>
+    <Authors>General Tso</Authors>
+    <SpecialThanks>whoward69</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=486324</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="629AD82D5387FC5FE84E3DB30B979C51" import="1">DataManager/GTAS_DataManager.lua</File>
+    <File md5="FEEA3E6481AA3454912C4B27E5EEC957" import="1">DataManager/GTAS_GameManager.lua</File>
+    <File md5="13E4DE946F6426ECFABE62133EA177BC" import="1">DataManager/GTAS_GlobalManager.lua</File>
+    <File md5="4FDC1AF83A4ED0D672E66380D9B5B2E5" import="1">DataManager/GTAS_MapManager.lua</File>
+    <File md5="2EFB0A34A61A874C857A24DFC16CD81D" import="1">DataManager/GTAS_SlotManager.lua</File>
+    <File md5="43D1A8294E5C3AC90BE481F645FB37EE" import="1">DataManager/GTAS_TableSerialization.lua</File>
+    <File md5="EA34B91EFDC2E5764CBA036F47BD4D3C" import="0">InGameUIAddins/GTAS_PlaceCityItems.lua</File>
+    <File md5="3468FCF01A1311CE9B8B6999AA9C96C2" import="1">LuaOverrides/MapmakerUtilities.lua</File>
+    <File md5="81142CC55EA7B85085B936F61DC857BA" import="1">Lua/GTAS_IDoNotKnowWhatFileNameIsSafe.lua</File>
+    <File md5="AF052642B9902E76638862A28B6B10CB" import="1">Lua/GTAS_ScrollText.lua</File>
+    <File md5="BC5746114F13D2ECD7518EE9615D2F3C" import="1">Lua/GTAS_StartBias.lua</File>
+    <File md5="FDB6A08B72D53F583AC2CE2CB13B0484" import="1">Lua/GTAS_Constants.lua</File>
+    <File md5="97701DC33127BC3BD2B8D3330F17176F" import="1">Lua/GTAS_RouteConnections.lua</File>
+    <File md5="B262CACA2F390AA5B1E5E38598781C0C" import="1">Lua/GTAS_Utilities.lua</File>
+    <File md5="E8F5DC1B825AF5553FFB80C5A5D84D26" import="1">Lua/GTAS_WonderTracker.lua</File>
+    <File md5="4C5194E22DD5F8F39F19D83BD3AB1910" import="1">PlotPlacement/GTAS_CustomNaturalWonders.lua</File>
+    <File md5="AB822D1BA0747335BC5E7F18FEFF32E5" import="1">PlotPlacement/GTAS_PlaceFeatures.lua</File>
+    <File md5="5482CD354AE92B5B2FC788F865099504" import="1">PlotPlacement/GTAS_PlaceNonCityUnits.lua</File>
+    <File md5="93100856EE06B035679A670C97B33804" import="1">PlotPlacement/GTAS_PlaceResources.lua</File>
+    <File md5="602CA832450BFA5AFE68967442702F0D" import="1">PlotPlacement/GTAS_PlaceTerrain.lua</File>
+    <File md5="B94137486CDC161C39EF46A4DB5BC901" import="1">PlotPlacement/GTAS_PlaceWonders.lua</File>
+    <File md5="9E9255A2239BD61A53282736EFA64637" import="1">PlotPlacement/GTAS_PlotPlacement.lua</File>
+    <File md5="3902DF692BF714A171D603240957366D" import="1">PlotPlacement/GTAS_Sprinkles.lua</File>
+    <File md5="0F21D5EE87406E5AA89A374F1A8D656B" import="1">StartGame/GTAS_InitGame.lua</File>
+    <File md5="D7D78D021D4C94A2B5AF535843C18FE3" import="1">StartGame/GTAS_InitMap.lua</File>
+    <File md5="619E70DEED1EC27489306633AF5AC582" import="1">StartGame/GTAS_InitPlayers.lua</File>
+    <File md5="D2FE5E37F498E44D3133F2EB83D6ED6C" import="1">StartGame/GTAS_StartGame.lua</File>
+    <File md5="05E59E441DC574E98DFC3627651E0177" import="1">Types/GTAS_FeatureTypes.lua</File>
+    <File md5="42FEF10909DC90808F95CE0348996305" import="1">Types/GTAS_ResourceTypes.lua</File>
+    <File md5="A840B35F039B2EA3693D1F9C13F08358" import="1">Types/GTAS_TerrainTypes.lua</File>
+    <File md5="723B4E00DA0B25EE57CAB0A8F4BFB0E5" import="1">Types/GTAS_WonderTypes .lua</File>
+    <File md5="D289555818936BBB5A197AA3245E840E" import="1">UI Overrides/AdvancedSetup.lua</File>
+    <File md5="2982D843A9EFF34A97B6D93736394E6F" import="1">UI Overrides/AdvancedSetup.xml</File>
+    <File md5="A7D785B913092D32AAD97FFCFA960FC1" import="1">UI Overrides/LoadScreen.lua</File>
+    <File md5="DE0AED85EAC810EDD211BAD45B3FD6A2" import="1">UI Overrides/LoadScreen.xml</File>
+    <File md5="72A101AB6D3335A5BEF6A67B531A55A9" import="1">UI/Main/GTAS_CivPanel.lua</File>
+    <File md5="BA8E6195879BBD9444544BE0D80EA027" import="1">UI/Main/GTAS_CivPanel.xml</File>
+    <File md5="3269967D66A5EB442786B7E2272ED098" import="1">UI/Main/GTAS_GamePanel.lua</File>
+    <File md5="AD58D964C48D47FB56448545D97AE7C9" import="1">UI/Main/GTAS_GamePanel.xml</File>
+    <File md5="135EC4646BF04CBA5BCCFC780BBA960A" import="1">UI/Main/GTAS_MapBonusPanel.lua</File>
+    <File md5="D99B34007EF20F8AF0F3A187463925BA" import="1">UI/Main/GTAS_MapBonusPanel.xml</File>
+    <File md5="6C24CBB30A793454AE1B5FB87C6328C5" import="1">UI/Main/GTAS_MapPanel.lua</File>
+    <File md5="3EEBE2FBB44B8E322A004C45520125E6" import="1">UI/Main/GTAS_MapPanel.xml</File>
+    <File md5="D5E6035BB1E1F20CC72560F5CD8F7F2F" import="1">UI/Main/GTAS_CivBonusPanel.lua</File>
+    <File md5="503C60B85AD71BE50185AEA0105313E6" import="1">UI/Main/GTAS_CivBonusPanel.xml</File>
+    <File md5="2F020135C038FA1D41E1276C03C0C12E" import="1">UI/CivBonus/GTAS_CivStartBonus.lua</File>
+    <File md5="F4E85EBD9496A88CCBD5D106BA2AF8BB" import="1">UI/CivBonus/GTAS_CivStartBonus.xml</File>
+    <File md5="F5C04A4EF7ACEE361FEC6606655E1B28" import="1">UI/CivBonus/GTAS_CivFeatures.lua</File>
+    <File md5="42E33ABC24DC45D25E76CF37E94E66A0" import="1">UI/CivBonus/GTAS_CivFeatures.xml</File>
+    <File md5="BFB14627DB8B63FF6EEC169993650F62" import="1">UI/CivBonus/GTAS_CivResources.lua</File>
+    <File md5="CEDAD3E53C84CAB3631EF09737C5222F" import="1">UI/CivBonus/GTAS_CivResources.xml</File>
+    <File md5="BF694BB2E84EC99D0F90C4F91358E7FD" import="1">UI/CivBonus/GTAS_CivTerrain.lua</File>
+    <File md5="8BDFDD57C1480A82116412C2DDD3D7D7" import="1">UI/CivBonus/GTAS_CivTerrain.xml</File>
+    <File md5="51223C786991A4D7A133680DD4672959" import="1">UI/CivBonus/GTAS_CivUnits.lua</File>
+    <File md5="557F5369FC51C63A02791927E61EB140" import="1">UI/CivBonus/GTAS_CivUnits.xml</File>
+    <File md5="E06B7E57D94EC245CE14F549E59E6505" import="1">UI/CivBonus/GTAS_CivWonders.lua</File>
+    <File md5="96815EB3D482590C0DF3E7E3D48662C8" import="1">UI/CivBonus/GTAS_CivWonders.xml</File>
+    <File md5="9A06E2BA19E59D1F0FBE892B624E39C4" import="1">UI/CivBonus/GTAS_SetCivNames.lua</File>
+    <File md5="17CFC880D38B9C15879D24697569BD29" import="1">UI/CivBonus/GTAS_SetCivNames.xml</File>
+    <File md5="4EC13F950749A5847D1800F2788C2BEC" import="1">UI/MapBonus/GTAS_MapFeatures.lua</File>
+    <File md5="5E1C60978B07CB5AA89C1C5E04339FC6" import="1">UI/MapBonus/GTAS_MapFeatures.xml</File>
+    <File md5="F73E60B75CCEFAF8FA90CD03EF0BA56E" import="1">UI/MapBonus/GTAS_MapResources.lua</File>
+    <File md5="6F479E5B3437C32CCF72C3AC7449CAA7" import="1">UI/MapBonus/GTAS_MapResources.xml</File>
+    <File md5="2D82020BD4D08A3E3FAF714722892E93" import="1">UI/MapBonus/GTAS_MapTerrain.lua</File>
+    <File md5="232CC52E79C675C4AE0AFC16E92C99FF" import="1">UI/MapBonus/GTAS_MapTerrain.xml</File>
+    <File md5="AD0CACCABDCBEDD8A830D0490627F866" import="1">UI/MapBonus/GTAS_MapWonders.lua</File>
+    <File md5="08BECDF59EBF264DCDD9C46F28C68037" import="1">UI/MapBonus/GTAS_MapWonders.xml</File>
+    <File md5="F055E143F78651763CABA4FE6FABAAA2" import="0">XML/GTAS_Features.xml</File>
+    <File md5="7C8E0056DA331A4C2954FF9FD85C2F96" import="0">XML/GTAS_HelpText.xml</File>
+    <File md5="3EC94E0AD84517B4447A1F751109E40A" import="0">XML/GTAS_ModText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GTAS_ModText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GTAS_Features.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GTAS_HelpText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="InGameUIAddins/GTAS_PlaceCityItems.lua">
+      <Name>GTAS_PlaceCityItems</Name>
+      <Description>GTAS_PlaceCityItems</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

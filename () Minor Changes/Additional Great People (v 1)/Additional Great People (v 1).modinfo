@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cbad56d8-b951-491a-8c3e-95b0ce67f673" version="1">
+  <Properties>
+    <Name>Additional Great People</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds 3400 additional Great People</Teaser>
+    <Description>Adds 3400 Great People (increasing the total options by over 8 times) for use in AI Games, because the AI rapidly exhausts the default list of names. Originally created for [url=https://www.reddit.com/r/civbattleroyale/]The CBRX[/url]. 
+
+(Currently missing Great Works, they are unecessary for AI Games but will be added in the future)
+
+Credits:
+- ECH and the CBR Discord for project organization and compilation
+
+- Tomatekh for some of the Great Prophet Names from their mod: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=79544687]Great Prophet Historical Names (BNW or GK)
+[/url]
+
+- Krajzen for 160 Names from their mod: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=231009607]Krajzen's Great People Pack[/url]
+
+- Qoma 132 Great Artists and Writers from their mod: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=181362854]More Great Works[/url] 
+
+- Limerickarcher (Code)</Description>
+    <Authors>Limerickarcher and the CBR Discord</Authors>
+    <SpecialThanks>ECH</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="B622EEA562C9B3F033384692AF9D518D" import="0">CBRX_GPText.xml</File>
+    <File md5="3315CB8FB5205454B16766A435C4101D" import="0">CBRX_MoreGreatPeople.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>CBRX_GPText.xml</UpdateDatabase>
+      <UpdateDatabase>CBRX_MoreGreatPeople.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

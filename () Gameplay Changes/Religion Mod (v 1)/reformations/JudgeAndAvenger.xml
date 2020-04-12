@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2018 5:44:06 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_JUDGE_AND_AVENGER</Type>
+			<Description>TXT_KEY_BELIEF_JUDGE_AND_AVENGER</Description>
+			<ShortDescription>TXT_KEY_BELIEF_JUDGE_AND_AVENGER_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_JUDGE_AND_AVENGER</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_JUDGE_AND_AVENGER</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_JUDGE_AND_AVENGER</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_JUDGE_AND_AVENGER</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+
+	<Buildings>
+		<Update>
+			<Set UnlockedByBelief="true" FaithCost="300" />
+			<Where BuildingClass="BUILDINGCLASS_COURTHOUSE" />
+		</Update>
+		<Update>
+			<Set UnlockedByBelief="true" FaithCost="225" />
+			<Where BuildingClass="BUILDINGCLASS_BARRACKS" />
+		</Update>
+		<Update>
+			<Set UnlockedByBelief="true" FaithCost="375" />
+			<Where BuildingClass="BUILDINGCLASS_ARMORY" />
+		</Update>
+		<Update>
+			<Set UnlockedByBelief="true" FaithCost="450" />
+			<Where BuildingClass="BUILDINGCLASS_MILITARY_ACADEMY" />
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_JUDGE_AND_AVENGER">
+			<Text>Can purchase Courthouses, Barracks, Armories and Military Academies with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JUDGE_AND_AVENGER_SHORT">
+			<Text>Judge And Avenger</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

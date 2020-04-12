@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2019 7:11:13 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--NOTIFICATIONS-->
+		<!--===================================================-->
+		<!--Ideology Choice!-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_GREAT_REVOLUTIONARY_SHORT_DESC">
+			<Text>Ideology Choice!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_GREAT_REVOLUTIONARY_DESC">
+			<Text>The birth of a Great Revolutionary has granted you the ability to choose an Ideology for your civilization![NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Note: This may take until the next turn.[ENDCOLOR]</Text>
+		</Row>
+		<!--Choose Ideology-->
+		<Replace Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_FACTORIES">
+			<Text>You have expended a Great Revolutionary. Their ideas now permeate your society. Your people clamor for you to pick an Ideology for your civilization.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_ERA">
+			<Text>You can no longer remain neutral. The ideas of the world now permeate your society. Your people clamor for you to pick an Ideology for your civilization.</Text>
+		</Replace>
+		<!--World Event!-->
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_GREAT_REVOLUTIONARY_DESC">
+			<Text>A Great Revolutionary has been born in {1_Desc}!</Text>
+		</Row>
+		<!--===================================================-->
+		<!--STARTUP POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_GREAT_REVOLUTIONARIES_TITLE">
+			<Text>GREAT REVOLUTIONARIES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GREAT_REVOLUTIONARIES_MESSAGE">
+			<Text>Welcome! This brief summary will seek to explain the new gameplay component: [COLOR_POSITIVE_TEXT]Great Revolutionaries[ENDCOLOR].[NEWLINE][NEWLINE]Great Revolutionaries are a new Great Person that can be used to choose an Ideology. This replaces the ability to unlock an Ideology by constructing three Factories. Great Revolutionaries are granted for free to Civilizations that research certain late-game Technologies before any others - the specific Techs are random each game. With the Community Patch mod, expending a Great Revolutionary for an Ideology becomes a standard mission, but without, it is automated. Great Revolutionaries may also be expended to trigger a Culture Bomb.[NEWLINE][NEWLINE]In addition, Ideologies are no longer automatically unlocked on entering the Modern Era. Instead, they are automatically unlocked for all players when all three Ideologies have been taken by at least one civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GREAT_REVOLUTIONARIES_BUTTON">
+			<Text>Close</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2018 12:47:35 AM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_MANDATORY_TRIBUTE</Type>
+			<Description>TXT_KEY_BELIEF_MANDATORY_TRIBUTE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_MANDATORY_TRIBUTE_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_MANDATORY_TRIBUTE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>8</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_MANDATORY_TRIBUTE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>8</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+	
+	
+	<Belief_CityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_MANDATORY_TRIBUTE</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_MANDATORY_TRIBUTE</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_MANDATORY_TRIBUTE</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+	</Belief_CityYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_MANDATORY_TRIBUTE">
+			<Text>+10 [ICON_FOOD] Food and +10 [ICON_PRODUCTION] in the Capital but -2 [ICON_FAITH] Faith, -2 [ICON_CULTURE] Culture and -2 [ICON_SCIENCE] Science in all other cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANDATORY_TRIBUTE_SHORT">
+			<Text>Mandatory Tribute</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

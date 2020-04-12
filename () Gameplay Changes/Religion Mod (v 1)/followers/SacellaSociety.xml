@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2018 5:49:17 PM -->
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_SACELLA_SOCIETY</Type>
+			<Description>TXT_KEY_BELIEF_SACELLA_SOCIETY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_SACELLA_SOCIETY_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+	</Beliefs>
+	
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_SACELLA_SOCIETY</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACELLA_SOCIETY</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_SACELLA_SOCIETY">
+			<Text>Shrines provide +2 [ICON_FAITH] Faith and +2 [ICON_GOLD].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SACELLA_SOCIETY_SHORT">
+			<Text>Sacella Society</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/26/2018 6:34:39 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_IJTIHAD</Type>
+			<Description>TXT_KEY_BELIEF_IJTIHAD</Description>
+			<ShortDescription>TXT_KEY_BELIEF_IJTIHAD_SHORT</ShortDescription>
+			<Follower>true</Follower>
+			<MinFollowers>5</MinFollowers>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_IJTIHAD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_IJTIHAD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_IJTIHAD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_IJTIHAD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_IJTIHAD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_IJTIHAD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_IJTIHAD">
+			<Text>+2 [ICON_PRODUCTION] Production, [ICON_SCIENCE] Science and [ICON_PEACE] Faith for Temples and Courthouses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_IJTIHAD_SHORT">
+			<Text>Ijtihad</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

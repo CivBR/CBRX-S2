@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_CHEOMSEONGDAE">
+			<Text>Cheomseongdae</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_CHEOMSEONGDAE_HELP">
+			<Text>+1 [ICON_SCIENCE] Science for every 3 [ICON_CITIZENS] Citizens in this city.[NEWLINE][COLOR_WARNING_TEXT]Masonry is also required[ENDCOLOR]</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_CHEOMSEONGDAE_QUOTE">
+			<Text>[NEWLINE]"Do not try to cover the whole sky with the palm of your hand". "[NEWLINE] - Korean Proverb[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_CHEOMSEONGDAE_PEDIA">
+			<Text>Cheomseongdae is one of the oldest Astronomical structures on Earth, and the oldest in East Asia. It is located in Gyenongju, South Korea, and dates back to the 7th century CE. It was built during the reign of Queen Seondeok in the capital of the time, before it was moved to Seoul. [NEWLINE][NEWLINE]According to some scholars, Cheomseongdae is not at all an astronomical facility, and instead served a function which today falls under the category of Astrology. At the time, however, the two fields were vitrually indistinguishable. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEMPLO">
+			<Text>Templo Mayor</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_TEMPLO_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production when constructing Wonders.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_TEMPLO_QUOTE">
+			<Text>
+				[NEWLINE]" All things of the Earth have an end and in the midst of the most joyous lives, the breath falters, they fall, they sink into the ground."[NEWLINE]- King Nezahualcoyotl.</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_TEMPLO_PEDIA">
+			<Text>Templo Mayor was a large double temple done in the iconic Mesoamerican Stepped Pyramid style located in the Aztec capital of Tenochtitlan, modern day Mexico City. It was dedicated to two gods of the Aztec pantheon, Huitzilopochtli, the god of war, and Tlaloc, the god of rain and agriculture. The dedication to two gods was the reason for the temple having twin shrines and staircases, each one dedicated to a seperate god. It is widely believed that the Shrine of Tlaloc was painted blue, while Huitzilopochtli's shrine was red. [NEWLINE][NEWLINE] The exact date of the first construction is not known, although most estimates put this to be sometime in the early 14th century. Each sucessive generation of Aztec citizens increased the size of Templo Mayor by building around the previous building. This is believed to have happened about six times across the life of the temple. [NEWLINE][NEWLINE]Following the Spanish conquest of the Aztecs by Hernan Cortez in 1521, Templo Mayor was destroyed, along with the rest of Tenochtitlan. The Spanish filled in the lake upon which the city was built, and covered the site in soil. They then built the modern day city of Mexico on the site. </Text>
+		</Row>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_DOME">
+			<Text>Dome of the Rock</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_DOME_HELP">
+			<Text>Free Great Prophet</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_DOME_QUOTE">
+			<Text>[NEWLINE]“No city in the world, not even Athens or Rome, ever played as great a role in the life of a nation for so long a time as Jerusalem."[NEWLINE] - David Ben-Gurion[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_DOME_PEDIA">
+			<Text>Dome of the Rock is a colourful Islamic shrine located atop Temple Mount in the center of the city of Jerusalem. It was completed in 691 CE on the site of the Second Jewish Temple, and restored several times since. It is centered around the 'foundation rock', a rock upon which it is believed that the prophet Muhammed ascended to heaven. Interestingly, the Dome of the Rock was constructed not as a mosque, but rather as a shrine for Muslim pilgrims venturing to the Holy Land. Below the Dome of the Rock are a series of caverns which run throughout Jerusalem. These can be accessed via a crack in the Foundation Rock which leads to a cave known as the 'Well of Souls', a term made popular by the movie Indiana Jones and the Raiders of the Lost Ark. The exterior of the dome is made from porcelain and is octagonal in shape. Predominantly blue in the upper sections, islamic motifs cover the entire section. The dome is wooden with a 20 metre diameter and gold in colour.  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BANAUE">
+			<Text>Banaue Rice Terraces</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_BANAUE_HELP">
+			<Text>Provides +2 [ICON_RES_RICE] Rice resources. City must be built on a hill.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_BANAUE_QUOTE">
+			<Text>
+				[NEWLINE]"From wonder into wonder existence opens."[NEWLINE] - Lao Tzu[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_BANAUE_PEDIA">
+			<Text>5000 feet above the sea, covering approximately 4000 square miles of Ifagao mountainside, sits the Banaue Rice Terraces. The terraces are about 2000 years old, built by the ancient indigenous Ifugao, and is still fed today by an ancient irrigation system using the rainforests above. It is common belief that the ancient terraces were built with minimal equipment and mostly by hand. It is said that putting the steps to travel the terraces end to end, they would encircle half the Equator of our Earth. The Ifugao culture is dominated by the use of rice, introducing the many rice culture feasts to the young and agricultural rites from the cultivation to consumption of rice.[NEWLINE][NEWLINE]Today the terraces are still in use, farming rice and vegetables to the Ifugao. However, more of the Ifugao find farming unappealing to other industries. This has resulted in a slow erosion of the site - the steps having been most affected - and the greater need for care of the site. In 2010 a greater problem emerged - drought - which caused the terraces to dry up entirely by March.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LALIBELA">
+			<Text>The Churches of Lalibela</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_LALIBELA_HELP">
+			<Text>+1 [ICON_PEACE] Faith from all specialists. City must be built on a hill.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_LALIBELA_QUOTE">
+			<Text>
+				[NEWLINE]“We have finished the job, what shall we do with the tools?”[NEWLINE] - Halie Selassie[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_LALIBELA_PEDIA">
+			<Text>The Churches of Lalibela are a collection of churches that have been carved from the earth in the town of Lalibela, in modern day Ethiopia. The churches are laid out in such a way that many people believe them to be an analogy of the holy city of Jerusalem. This has lead to construction estimates to be following the conquest of Jerusalem by Saladin in 1197. As such, many of the buildings have names relating to Jerusalem. The town, formerly known as Roha, was renamed after a king of Abysinnia who ruled during the 12th century, which gives more crediability as to the name.  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHWEDAGON">
+			<Text>Shwedagon Paya</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_SHWEDAGON_HELP">
+			<Text>+3 [ICON_PEACE] Faith from every source of [ICON_RES_GOLD] Gold Worked by the city. Artist and Engineer specialists provide +1 [ICON_GOLD] Gold</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_SHWEDAGON_QUOTE">
+			<Text>
+				[NEWLINE]"There was a tumult among men and spirits, the blind beheld objects, the deaf heard sounds. The earth quaked, lightning flashed, gems rained down until they were knee deep, and all trees of the Himalayas, though not in season, bore blossoms and fruit."[NEWLINE] - King Okkalapa[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_SHWEDAGON_PEDIA">
+			<Text>Shwedagon Paya (Also known as Shwedagon Pagoda or the Great Dragon Pagoda) is a large Buddhist stupa located in the Burmese city of Rangoon. It is 99 metres tall in it's current state, and is coated with gold donated by the Burmese populus to maintain the Stupa. It is not known when the gold was put in place, although the stupa itself is said to date back over 2,500 years.  Each sucessive dynasty has built upon the Stupa, until it reached the current height of 99 metres during reconstruction following an earthquake in 1768. Shwedagon Paya also features a crown of 5,448 diamonds and 2317 Rubies. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PENA">
+			<Text>Pena National Palace</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_PENA_HELP">
+			<Text>Defensive buildings are 20% more effective</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_PENA_QUOTE">
+			<Text>[NEWLINE]"“It is a pleasure to stand upon the shore, and to see ships tost upon the sea: a pleasure to stand in the window of a castle, and to see a battle and the adventures thereof below: but no pleasure is comparable to standing upon the vantage ground of truth.”[NEWLINE] - Sir Francis Bacon[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_PENA_PEDIA">
+			<Text>Pena National Palace is a large romanticist palace located on a hill in the municipality of Sintra, Portugal. The hill was formerly the site of a monastery, which was constructed following a rumoured appiration of the Virgin Mary. This monastery was destroyed in the Great Lisbon Earthquake of 1755. Remaining untouched for many years, it was in 1838 that, after being purchased by King consort Ferdinand II, the grounds of the original monastery were rebuilt into a palace for the Portuguese royal family to stay at during the summer.  The building of this new palace was placed under command of a notable German architect and engineer, Baron Wilhelm Ludwig von Eschwege, and construction was completed in 1854.  It remained in possession of the Portuguese royal family until the Republican Revolution of 1910, after which it was turned into a national monument as well as a museum.  Finally, in 1995 the palace was turned into a world heritage site by UNESCO.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ITSUKUSHIMA">
+			<Text>Itsukushima Shrine</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_ITSUKUSHIMA_HELP">
+			<Text>+2 [ICON_PEACE] Faith from each sea resource worked by the city, and +1 [ICON_CULTURE] Culture from each sea tile.[NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_ITSUKUSHIMA_QUOTE">
+			<Text>
+				[NEWLINE]"From far and near, Hearing the sounds of waterfalls, Young leaves"[NEWLINE] - Buson[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_ITSUKUSHIMA_PEDIA">
+			<Text>Itsukushima shrine is one of the most iconic Shinto shrines in Japan. It is world renowned for it's iconic "Floating" torii gate, which pilgrims had to steer their boat through before they could enter the shrine's grounds. It is located on the island of Itsukushima, at the western end of Japan's 'inland sea'. There has been a shrine at the location since approximately 628 CE, when one was constructed under the reign of Empresss Suiko. The current design, however, dates from 1168, when the shrine was constructed with funds provided by the warlord Taiya no Kiyomori. [NEWLINE][NEWLINE]The shrine, and it's floating Torii, are one of the 'Three Views of Japan', along with the sandbar at Amanohashidate, and Matsushima bay. These have been designated as the most beautiful scenes of Japan, and are frequented by tourists.  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOBEKLI">
+			<Text>Göbekli Tepe</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_GOBEKLI_HELP">
+			<Text>Each source of [ICON_RES_STONE] Stone and [ICON_RES_MARBLE] Marble worked by the city provides +2 [ICON_PEACE] Faith</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_GOBEKLI_QUOTE">
+			<Text>[NEWLINE]"Listen a hundred times; ponder a thousand times; speak once"[NEWLINE] - Turkish Proverb[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_GOBEKLI_PEDIA">
+			<Text>Göbekli Tepe is a religious site located in southern Turkey, near the Syrian border. It is the oldest known religious building on earth, dating to approximately 10000 BCE, during the Neolithic age of Human civilization, and predating all major civilizations and cities by several millenia. It was first observed during the 1960's, when archeologists noted that the hill could not be natural due to the shape, yet dismissed it as a Byzantine burial ground. It was not thought different until 1994, and not excavated until a year later. The complex is similar in manner to Stonehenge, with a round shape and large Monolithic stones. However, unlike Stonehenge, many of the pillars are carved with the figures of several animals, which are believed to have been sacred to the hunter-gatherers which constructed Göbekli Tepe. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GATE_SUN">
+			<Text>Gate of the Sun</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_GATE_SUN_HELP">
+			<Text>+1 [ICON_GOLD] Gold and [ICON_PEACE] Faith from Walls</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_GATE_SUN_QUOTE">
+			<Text>
+				[NEWLINE]"Trust in dreams, for in them is hidden the gate to eternity."[NEWLINE]- Khalil Gibran.</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_GATE_SUN_PEDIA">
+			<Text>The Gate of the Sun is a megalithic stone gateway constructed by the Tiwanaku, one of the most important precursor cultures to the Inca Empire. The structure stands beside Lake Titicaca, near the Bolivian city of La Paz. Ten feet tall and thirteen feet wide, the gate is a single stone block weighing an estimated ten tons. Rediscovered by Europeans in the mid-nineteenth century, the gate was found lying on the ground with a large crack across its face. Even though the gate now sits on the site of its discovery, it is not believed to be the site of its construction, which remains uncertain. [NEWLINE][NEWLINE]The gate is a wealth of knowledge of pre-Colombian art and architecture. The gate displays elements of Tiwanaku iconography known to be found throughout Peru and parts of Bolivia. Although there are differing theories of the inscriptions found, they are generally believed to possess astronomical, or perhaps astrological, significance and may have served a calendrical purpose.[NEWLINE][NEWLINE] Across the head of the gate are 48 squares surrounding a central figure. Each of these squares depict a winged effigy, 32 of which with human faces. All of these effigies look to the central figure, who also remains unknown. The figure is that of a man whose head is surrounded by rays which may represent the rays of the sun. The figure holds two stylized staffs which appear to represent thunder and lightning. Current theories about this character are that he may be the "Sun God", while other identify him as Viracocha, the Incan creator god - who is worshiped as a god of the sun and storms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VENICE">
+			<Text>Grand Canal</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_VENICE_HELP">
+			<Text>All trade routes with the city in which the Grand Canal is build generate +3 [ICON_GOLD] Gold for the City owner. Foreign trade routes yield additional +2 [ICON_GOLD] to the trade route owner. City must be built on a flat coastal tile.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_VENICE_QUOTE">
+			<Text>[NEWLINE]"Thou know'st that all my fortunes are at sea, Neither have I money nor commodity to raise a present sum: therefore go forth; Try what my credit can in Venice do"[NEWLINE] - William Shakespeare[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_VENICE_PEDIA">
+			<Text>The Grand Canal is the main thouroughfare of the Italian city of Venice. It was not so much as constucted around the city, but rather the city was constructed around it - the Grand Canal orignated as a deeper waterway in the lagoon in which the Doge saw availablility to continue trading safely from. Over the years it was shaped by the city around it, several 'Fondaco' houses were built to accomodate goods and wealth of merchants.  </Text>
+		</Row>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MAHADEVA">
+			<Text>Kandariya Mahadeva Temple</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_MAHADEVA_HELP">
+			<Text>+5 [ICON_CULTURE] Culture in this city with the Piety social policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MAHADEVA_QUOTE">
+			<Text>[NEWLINE]"God is not present in idols. Your feelings are your god. The soul is your temple."[NEWLINE] - Chanakya[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MAHADEVA_PEDIA">
+			<Text>The Kandariya Mahaadeva Temple is the largest and most decorated medieval temple found in the Khajuraho Group of Monuments in India. It is one of the best examples of preserved temples from India's medieval era. One of India's most popular tourist attractions today, Khajuraho was the religious capital of the Chandela Rajputs. The temple was built by King Vidyadhara, arguably one of the greatest of the Chandela kings, at about 1050.[NEWLINE][NEWLINE]The main spire - the shikhara - rises 31 meters and forms the shape of Mount Kailash, the residence of lord Shiva; of whom the temple worships, and is surrounded by 84 smaller spires. The temple features columned halls, an entrance porch and the inner sanctum. 646 statues decorate the sides of the temple and at the top of the shikhara is the amalaka; a circular ring motif commonly found in the architecture of temples in northern India. Also, 226 figures are found lining parts of the temple's wall, but some of these are of a sexual nature and are not publicly displayed.[NEWLINE][NEWLINE]The name of the site means 'the Cave of Mahadeva', Mahadeva being another name for Shiva. The temple represents the pinnacle of traditional medieval nouth Indian temple architecture. At first glance the temple appears to be formed from a single piece of solid stone, when this is not the case.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MADOL">
+			<Text>Nan Madol</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_MADOL_HELP">
+			<Text>+1 [ICON_FOOD] Food, +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production from Sea Tiles worked by the city. City must be built on the coast</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_MADOL_QUOTE">
+			<Text>[NEWLINE]"The waterways are charged with magic, but nothing about them is more magical than the difference made by the few feet of water which separate the boat from the land."[NEWLINE] - Robert Aickman[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_MADOL_PEDIA">
+			<Text>Nan Madol is a large archeologicl site located off the island of Pohnpei in the Federated States of Micronesia. It served as the capital of the Saudeleur dynasty of the island from approximately the 12th century CE until 1628, when the site was abandoned. It is often refered to as the 'Venice of the Pacific', after the fact that the city was built on the shoreline and out to sea and features a series of canals throughout the site. Local legends say that Nan Madol was constructed by Olisihpa and Olosohpa, twin sorcerers who wished to worship the god of Agriculture, Nahnisohn Sahpw, and constructed an altar at the future site of the city. This lead to the sacred nature of most of the city, and the reason for the location of its construction. Food and Water were brought in by boat for the Saudeleur populace, which allowed for the continuation of the city. When this was interrupted by the invading Nahnmwarkis, who subsequently occupied the city following 1628, they were unable to sustain the city and eventually abandoned it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STONE_TOWN">
+			<Text>Stone Town</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_STONE_TOWN_HELP">
+			<Text>Gains two additional trade route slots, and sea trade routes originating from this city have a 50% increase in range. City must be built on the coast. </Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_STONE_TOWN_QUOTE">
+			<Text>
+				[NEWLINE]"The Europeans and Americans residing in the town of Zanzibar are either Government officials, independent merchants, or agents for a few great mercantile houses in Europe and America"[NEWLINE] - Henry Morton Stanley[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_STONE_TOWN_PEDIA">
+			<Text>Stone Town is the old part of Zanzibar City, on the Tanzanian island of Zanzibar. It is believed the first stone construction in the area began during the period in which the Sultan of Oman ruled over Zanzibar in the 18th - 19th centuries. In 1863, the Sultan of Oman moved his capital to Zanzibar, and created a lush palace complex on the island in Stone Town, and spurred the island and Stone Town into a period of rapid development. A war of sucession following the reign of one of the sultans caused Zanzibar to become an independant sultanate from Oman, leading to more development of Stone Town.  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HARMANDIR">
+			<Text>Harmandir Sahib</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HARMANDIR_HELP">
+			<Text>+1 [ICON_CULTURE] Culture from Merchant specialists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HARMANDIR_QUOTE">
+			<Text>[NEWLINE]"The Giver of peace is eternally blissful."[NEWLINE] - Sri Guru Granth Sahib[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HARMANDIR_PEDIA">
+			<Text>Informally known as the Golden Temple, Harmandir Sahib is a prominent Gurdwara - Sikh temple - in the city of Amritsar. Built by Guru Arjan Dev in 1604, the Guru completed the Adi Granth, the holy text of Sikhism, and placed it in the Gurdwara. Before the building of the Harmandir Sahib, the site was surronded by a lake and thin forest. Akbar the Great visited Guru Amar Das at the neighbouring town of Goindval and was so impressed at the way of life in the town he gave the land and the revenues of the nearby villages to the Guru's daugther as a marital gift. At the end of 1588 Arjan Dev began the construction of the temple by laying the foundation stone, the construction took just over fifteen years to complete. In the mid eighteenth century the Harmandir Sahib was attacked by Afghans; one of Ahmed Shah Addali's generals, Jahan Khan, and required substancial reconstruction in 1764.[NEWLINE][NEWLINE]The four doors of the Harmandir Sahib symbolize the openness of Sikhism towards all people and their religions. Inside the temple are many shrines of past Gurus and saints, as well as commemorative plaques and inscriptions on the Gurus, saints and fallen Sikh soldiers during World Wars I and II. Outside there are three bers, holy trees, signifying historical events or Sikh saints. Much of the gilding and marble dates back to the early ninteenth century, the gold and marble were placed under the patronage of Hukam Singh Chimni and Emperor Ranjit Singh, the Maharaja of the Sikh Empire, the gold plating itself completing at 1830.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SAGRADA">
+			<Text>Sagrada Familia</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_SAGRADA_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from all Religious buildings. Provides a free Cathedral in the city in which it is built.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_SAGRADA_QUOTE">
+			<Text>[NEWLINE]"Beauty is the splendor of truth, and since art is beauty, there is no art without truth."[NEWLINE] - Gaudi[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_SAGRADA_PEDIA">
+			<Text>Sagrada Familia is a Catholic basilica currently under construction in Barcelona, Spain. Construction began in 1882, and is expected to complete in 2026. Currently the basilica only has eight spires, although the original design contains 18. Despite it's unfinished status it has gained recognition by UNESCO and the Vatican, being proclaimed as a UNESCO World Heritage Site and minor Basilica respectively. [NEWLINE][NEWLINE] Throughout construction, the Basilica has faced constant threats to it. During the Spanish Civil War in the 1930s the Basilica was damaged by Anarchists from the Catalonia region of Spain, and in 2010 a high speed train tunnel was constructed in Barcelona, passing directly underneath the Basilica. Engineers and construction workers working on the site believe the tunnel will have a direct effect on the integrity of the construction.  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SKYTOWER">
+			<Text>The Sky Tower</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_SKYTOWER_HELP">
+			<Text>-15% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities[NEWLINE]Free Broadcast tower in the city it was constructed in.[NEWLINE] +1 [ICON_GOLD] Gold for every 4 [ICON_CITIZEN] Citizens in the city.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_SKYTOWER_QUOTE">
+			<Text>[NEWLINE]"If it would not look too much like showing off, I would tell the reader where New Zealand is."[NEWLINE] - Mark Twain[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_SKYTOWER_PEDIA">
+			<Text>The Sky Tower is the most prominent and instantly recognisable feature of the skyline of Auckland, New Zealand. It is visible from most parts of the city, and greets tourists to New Zealand as their plane approaches the runway, giving a broadside view of the Auckland CBD (Central Business District). It took two and a half years to build, and was completed in March 1997. This was six months ahead of schedule. [NEWLINE][NEWLINE] The tower is part of the SkyCity complex, and features a Casino, several observation decks and a rotating resteraunt, which rotates at 6 degrees every minute, giving a complete view of Auckland once every hour. The tower also features a SkyWalk and SkyJump, where people can walk on the exterior ledge of the observation deck, while connected to harnasses, or Bungy Jump off the edge. Above these commercial uses, the tower serves as a FM Radio and Digital Television transmitter.[NEWLINE][NEWLINE]At the base of the tower there are thousands of LED lights which are used to illuminate the tower. These are coloured differently to celebrate different events. For example, the tower is Bright Green on Saint Patricks day, and Red and Gold on Chinese New Year. It also promotes several causes, such as being Pink for Breast Cancer awareness month and Blue and Green for the Starship Childrens Hospital. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TAKTSANG">
+			<Text>Paro Taktsang</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_TAKTSANG_HELP">
+			<Text>+1 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture from Mountain tiles. Provides a free Monastery in the city in which it is built. City must be have a Mountain nearby.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_TAKTSANG_QUOTE">
+			<Text>[NEWLINE]"There are many paths to the top of the mountain, yet the view is always the same"[NEWLINE] - Chinese Proverb[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_TAKTSANG_PEDIA">
+			<Text>Sometimes referred to as the 'Tiger's Nest', Paro Taktsang is a prominent Himalayan Buddhist temple complex resting along the cliff face of the upper Paro Valley in Bhutan. The temple was built in 1692 by Gyalse Tenzin Rebgye, the fourth Druk Desi - secular ruler - of Bhutan. Tenzin Rebgye arrived at the Taktsang Senge Samdup cave - the site where Guru Padmasambhava, an 8th century Buddhist Guru credited for introducing Buddhism to Bhutan, was said to have meditated there from three years, three months, three weeks, three days and three hours.Paro Taktsang is best known for its thirteen taktsang - tiger lair - caves, where Padmasambhava is said to have meditated. Within the complex there is the Gu-ru mTshan-brgyad Lhakhang - "the Temple of the Guru with Eight Names", a temple devoted to the Guru himself. This temple is a cultural icon in Bhutan as well as a symbol of Buddhism in the country. At around March or April the popular Tsechu festival is held in the Paro Valley honouring Padmasambhava.[NEWLINE][NEWLINE]Legends surrounding the site are plentyful. The most commonly accepted belief is that Padmasambhava flew from Tibet to the Paro Valley on the back of a flying tigress and the site was consecrated to tame the Tiger demon. Another common legend is that a former wife of an emperor, Yeshe Tsogyal, became a disciple of Padmasambhava in Tibet, where she turned herself into a tigress and thus carried the Guru to the valley. From the eleventh century many Tibetan saints came to the site for meditation, some include Milarepa, Machig Labdrön and Thangton Gyelpo. Many of these saints, including all mentioned, established Buddhist monasteries, spreading Buddhism to all parts of the would-be country. On April 19, 1998, a fire broke out in the main building of the complex, containing within valuable paintings and religious artifacts. It is believed the fire was electrical in nature, either a short-circuit or a flickering lamp lighting tapestries. The cost of the fire is estimated at 135 million ngultrum - $US2.5 million today - and sadly the life of a monk. During 2005 both the King and the Government of Bhutan oversaw the restoration of the temple complex and its contents therein.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/20/2018 10:38:45 PM -->
+<GameData>
+
+	<Building_ResourceYieldChanges>
+		<Delete BuildingType="BUILDING_MONASTERY" ResourceType="RESOURCE_INCENSE" YieldType="YIELD_CULTURE" />
+		<Delete BuildingType="BUILDING_MONASTERY" ResourceType="RESOURCE_WINE" YieldType="YIELD_CULTURE" />
+	</Building_ResourceYieldChanges>
+
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_MONASTERIES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+	
+	<Building_YieldChanges>
+		<Delete BuildingType="BUILDING_MONASTERY" />
+	</Building_YieldChanges>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	
+	<Building_Flavors>
+		<Delete BuildingType="BUILDING_MONASTERY" />
+	</Building_Flavors>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	
+	<Buildings>
+		<Update>
+			<Set ConquestProb="66" FaithCost="225" BuildingProductionModifier="12" IconAtlas="COMMUNITY_ATLAS" PortraitIndex="5" />
+			<Where Type="BUILDING_MONASTERY" />
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_MONASTERIES" />
+		<Row Tag="TXT_KEY_BELIEF_MONASTERIES">
+			<Text>Use [ICON_PEACE] Faith to purchase Monasteries (+1 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith, +12% [ICON_PRODUCTION] Production when constructing Buildings)</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_MONASTERIES" />
+		<Row Tag="TXT_KEY_BELIEF_MONASTERIES">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Monasteries (+1 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith, +12% [ICON_PRODUCTION] Production when constructing Buildings)</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_MONASTERIES" />
+		<Row Tag="TXT_KEY_BELIEF_MONASTERIES">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Monasteries (+1 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith, +12% [ICON_PRODUCTION] Production when constructing Buildings)</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_MONASTERIES" />
+		<Row Tag="TXT_KEY_BELIEF_MONASTERIES">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Monasteries (+1 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith, +12% [ICON_PRODUCTION] Production when constructing Buildings)</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_MONASTERY_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_HELP">
+			<Text>+12% [ICON_PRODUCTION] Production when constructing Buildings</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_MONASTERY_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+12% [ICON_PRODUCTION] Production when constructing Buildings</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_MONASTERY_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+12% [ICON_PRODUCTION] Production when constructing Buildings</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_MONASTERY_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+12% [ICON_PRODUCTION] Production when constructing Buildings</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT">
+			<Text>A monastery is a building or complex of buildings housing monks or nuns - people who have renounced worldly things (wealth, possessions, sex) - and dedicated their lives to prayer and meditation. Generally monasteries are single-sex organizations, or if men and women are present, they're separated by imposing walls. Historically monasteries have been places of higher learning, especially during the Middle Ages where members of religious orders were often the only people outside of the ruling elite who knew how to read and write.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]A monastery is a building or complex of buildings housing monks or nuns - people who have renounced worldly things (wealth, possessions, sex) - and dedicated their lives to prayer and meditation. Generally monasteries are single-sex organizations, or if men and women are present, they're separated by imposing walls. Historically monasteries have been places of higher learning, especially during the Middle Ages where members of religious orders were often the only people outside of the ruling elite who knew how to read and write.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]A monastery is a building or complex of buildings housing monks or nuns - people who have renounced worldly things (wealth, possessions, sex) - and dedicated their lives to prayer and meditation. Generally monasteries are single-sex organizations, or if men and women are present, they're separated by imposing walls. Historically monasteries have been places of higher learning, especially during the Middle Ages where members of religious orders were often the only people outside of the ruling elite who knew how to read and write.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]A monastery is a building or complex of buildings housing monks or nuns - people who have renounced worldly things (wealth, possessions, sex) - and dedicated their lives to prayer and meditation. Generally monasteries are single-sex organizations, or if men and women are present, they're separated by imposing walls. Historically monasteries have been places of higher learning, especially during the Middle Ages where members of religious orders were often the only people outside of the ruling elite who knew how to read and write.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Monasteries belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Can only be built in cities following a religion with the Monasteries belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Can only be built in cities following a religion with the Monasteries belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Can only be built in cities following a religion with the Monasteries belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Row>
+	</Language_RU_RU>
+
+
+</GameData>

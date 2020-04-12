@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/27/2015 4:08:28 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where Type="UNIT_CARAVEL"/>
+			<Set>
+				<Moves>5</Moves>
+				<Cost>100</Cost>
+				<Combat>16</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_GATLINGGUN"/>
+			<Set PrereqTech="TECH_STEAM_POWER"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CAVALRY"/>
+			<Set>
+				<PrereqTech>TECH_RIFLING</PrereqTech>
+				<Combat>40</Combat>
+			</Set>
+		</Update>
+		<!--Upgrade to Carrack-->
+		<Update>
+			<Where Type="UNIT_TRIREME"/>
+			<Set ObsoleteTech="TECH_COMPASS"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CARTHAGINIAN_QUINQUEREME"/>
+			<Set ObsoleteTech="TECH_COMPASS"/>
+		</Update>
+		<!--Upgrade to Cruiser-->
+		<Update>
+			<Where Type="UNIT_FRIGATE"/>
+			<Set>
+				<PrereqTech>TECH_NAVIGATION</PrereqTech>
+				<ObsoleteTech>TECH_EE_ARMOUR_PLATING</ObsoleteTech>
+			</Set>
+		</Update>
+		<!--Upgrade to Cuirassier-->
+		<Update>
+			<Where Type="UNIT_KNIGHT"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_IMPERIALISM</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_CUIRASSIER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ARABIAN_CAMELARCHER"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_IMPERIALISM</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_CUIRASSIER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SIAMESE_WARELEPHANT"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_IMPERIALISM</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_CUIRASSIER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SONGHAI_MUSLIMCAVALRY"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_IMPERIALISM</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_CUIRASSIER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MONGOLIAN_KESHIK"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_IMPERIALISM</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_CUIRASSIER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<!--Upgrade to Explorer-->
+		<Update>
+			<Where Type="UNIT_SCOUT"/>
+			<Set ObsoleteTech="TECH_EE_EXPLORATION"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SHOSHONE_PATHFINDER"/>
+			<Set ObsoleteTech="TECH_EE_EXPLORATION"/>
+		</Update>
+		<!--Upgrade to Field Gun-->
+		<Update>
+			<Where Type="UNIT_CANNON"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_FORTIFICATION</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_FIELD_GUN</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<!--Upgrade to Frigate-->
+		<Update>
+			<Where Type="UNIT_GALLEASS"/>
+			<Set ObsoleteTech="TECH_EE_WARSHIPS"/>
+		</Update>
+		<!--Upgrade to Galleon-->
+		<!--Upgrade to Line Infantry-->
+		<Update>
+			<Where Type="UNIT_MUSKETMAN"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_FLINTLOCK</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_LINE_INFANTRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_FRENCH_MUSKETEER"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_FLINTLOCK</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_LINE_INFANTRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_OTTOMAN_JANISSARY"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_FLINTLOCK</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_LINE_INFANTRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SPANISH_TERCIO"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_FLINTLOCK</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_LINE_INFANTRY</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<!--Upgrade to Skirmisher-->
+		<Update>
+			<Where Type="UNIT_CROSSBOWMAN"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_FLINTLOCK</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_SKIRMISHER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CHINESE_CHUKONU"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_FLINTLOCK</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_SKIRMISHER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ENGLISH_LONGBOWMAN"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_FLINTLOCK</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_SKIRMISHER</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<!--Upgrade to Uhlan-->
+		<Update>
+			<Where Type="UNIT_LANCER"/>
+			<Set>
+				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_UHLAN</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_OTTOMAN_SIPAHI"/>
+			<Set>
+				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_UHLAN</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_POLISH_WINGED_HUSSAR"/>
+			<Set>
+				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_EE_UHLAN</GoodyHutUpgradeUnitClass>
+			</Set>
+		</Update>
+		<!--EE Unique Units-->
+		<Update>
+			<Where Type="UNIT_PORTUGUESE_NAU"/>
+			<Set>
+				<ObsoleteTech>TECH_EE_WARSHIPS</ObsoleteTech>
+				<Class>UNITCLASS_EE_CARRACK</Class>
+				<PrereqTech>TECH_COMPASS</PrereqTech>
+				<Combat>18</Combat>
+				<Cost>120</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set>
+				<Class>UNITCLASS_EE_CUIRASSIER</Class>
+				<PrereqTech>TECH_EE_EXPLORATION</PrereqTech>
+				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+				<Combat>28</Combat>
+				<Cost>170</Cost>
+				<FaithCost>380</FaithCost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SWEDISH_CAROLEAN"/>
+			<Set>
+				<Class>UNITCLASS_EE_LINE_INFANTRY</Class>
+				<PrereqTech>TECH_EE_FLINTLOCK</PrereqTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+				<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+				<Combat>30</Combat>
+				<Cost>185</Cost>
+				<FaithCost>370</FaithCost>
+				<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SWEDISH_HAKKAPELIITTA"/>
+			<Set>
+				<Class>UNITCLASS_EE_CUIRASSIER</Class>
+				<PrereqTech>TECH_EE_IMPERIALISM</PrereqTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+				<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+				<Combat>28</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_AMERICAN_MINUTEMAN"/>
+			<Set>
+				<Class>UNITCLASS_EE_SKIRMISHER</Class>
+				<PrereqTech>TECH_EE_FLINTLOCK</PrereqTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_GATLINGGUN</GoodyHutUpgradeUnitClass>
+				<ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech>
+				<Combat>25</Combat>
+				<RangedCombat>25</RangedCombat>
+				<Cost>185</Cost>
+				<FaithCost>370</FaithCost>
+				<Range>1</Range>
+				<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_DANISH_SKI_INFANTRY"/>
+			<Set>
+				<Class>UNITCLASS_EE_LINE_INFANTRY</Class>
+				<PrereqTech>TECH_EE_FLINTLOCK</PrereqTech>
+				<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+				<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+				<Combat>30</Combat>
+				<Cost>185</Cost>
+				<FaithCost>370</FaithCost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_KOREAN_TURTLE_SHIP"/>
+			<Set>
+				<Class>UNITCLASS_EE_GALLEON</Class>
+				<PrereqTech>TECH_EE_EXPLORATION</PrereqTech>
+				<ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech>
+				<Combat>38</Combat>
+				<Cost>165</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ENGLISH_SHIPOFTHELINE"/>
+			<Set>
+				<PrereqTech>null</PrereqTech>
+				<Cost>-1</Cost>
+				<FaithCost>-1</FaithCost>
+				<ShowInPedia>false</ShowInPedia>
+			</Set>
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<!--Upgrade to Carrack-->
+		<Update>
+			<Where UnitType="UNIT_TRIREME"/>
+			<Set UnitClassType="UNITCLASS_EE_CARRACK"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CARTHAGINIAN_QUINQUEREME"/>
+			<Set UnitClassType="UNITCLASS_EE_CARRACK"/>
+		</Update>
+		<!--Upgrade to Cruiser-->
+		<Update>
+			<Where UnitType="UNIT_FRIGATE"/>
+			<Set UnitClassType="UNITCLASS_EE_CRUISER"/>
+		</Update>
+		<!--Upgrade to Cuirassier-->
+		<Update>
+			<Where UnitType="UNIT_KNIGHT"/>
+			<Set UnitClassType="UNITCLASS_EE_CUIRASSIER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARABIAN_CAMELARCHER"/>
+			<Set UnitClassType="UNITCLASS_EE_CUIRASSIER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SIAMESE_WARELEPHANT"/>
+			<Set UnitClassType="UNITCLASS_EE_CUIRASSIER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SONGHAI_MUSLIMCAVALRY"/>
+			<Set UnitClassType="UNITCLASS_EE_CUIRASSIER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MONGOLIAN_KESHIK"/>
+			<Set UnitClassType="UNITCLASS_EE_CUIRASSIER"/>
+		</Update>
+		<!--Upgrade to Explorer-->
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<UnitClassType>UNITCLASS_EE_EXPLORER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<UnitClassType>UNITCLASS_EE_EXPLORER</UnitClassType>
+		</Row>
+		<!--Upgrade to Field Gun-->
+		<Update>
+			<Where UnitType="UNIT_CANNON"/>
+			<Set UnitClassType="UNITCLASS_EE_FIELD_GUN"/>
+		</Update>
+		<!--Upgrade to Galleon-->
+		<Update>
+			<Where UnitType="UNIT_PORTUGUESE_NAU"/>
+			<Set UnitClassType="UNITCLASS_EE_GALLEON"/>
+		</Update>	
+		<!--Upgrade to Line Infantry-->
+		<Update>
+			<Where UnitType="UNIT_MUSKETMAN"/>
+			<Set UnitClassType="UNITCLASS_EE_LINE_INFANTRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FRENCH_MUSKETEER"/>
+			<Set UnitClassType="UNITCLASS_EE_LINE_INFANTRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_OTTOMAN_JANISSARY"/>
+			<Set UnitClassType="UNITCLASS_EE_LINE_INFANTRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPANISH_TERCIO"/>
+			<Set UnitClassType="UNITCLASS_EE_LINE_INFANTRY"/>
+		</Update>
+		<!--Upgrade to Skirmisher-->
+		<Update>
+			<Where UnitType="UNIT_CROSSBOWMAN"/>
+			<Set UnitClassType="UNITCLASS_EE_SKIRMISHER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CHINESE_CHUKONU"/>
+			<Set UnitClassType="UNITCLASS_EE_SKIRMISHER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ENGLISH_LONGBOWMAN"/>
+			<Set UnitClassType="UNITCLASS_EE_SKIRMISHER"/>
+		</Update>
+		<!--Upgrade to Uhlan-->
+		<Update>
+			<Where UnitType="UNIT_LANCER"/>
+			<Set UnitClassType="UNITCLASS_EE_UHLAN"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_OTTOMAN_SIPAHI"/>
+			<Set UnitClassType="UNITCLASS_EE_UHLAN"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_POLISH_WINGED_HUSSAR"/>
+			<Set UnitClassType="UNITCLASS_EE_UHLAN"/>
+		</Update>
+		<!--EE Unique Units-->
+		<Update>
+			<Where UnitType="UNIT_SWEDISH_CAROLEAN"/>
+			<Set UnitClassType="UNITCLASS_RIFLEMAN"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWEDISH_HAKKAPELIITTA"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_MINUTEMAN"/>
+			<Set UnitClassType="UNITCLASS_GATLINGGUN"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_DANISH_SKI_INFANTRY"/>
+			<Set UnitClassType="UNITCLASS_RIFLEMAN"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KOREAN_TURTLE_SHIP"/>
+			<Set UnitClassType="UNITCLASS_IRONCLAD"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set UnitClassType="UNITCLASS_CAVALRY"/>
+		</Update>
+	</Unit_ClassUpgrades>
+	<Unit_FreePromotions>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_MINUTEMAN" PromotionType="PROMOTION_DRILL_1"/>
+			<Set PromotionType="PROMOTION_BARRAGE_1"/>
+		</Update>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Update>
+			<Where UnitType="UNIT_CARAVEL" PromotionType="PROMOTION_EXTRA_SIGHT_I"/>
+			<Set PromotionType="PROMOTION_EXTRA_SIGHT_II"/>
+		</Update>
+	</Unit_FreePromotions>
+	<UnitPromotions_UnitCombatMods>
+		<Update>
+			<Where PromotionType="PROMOTION_ANTI_GUNPOWDER"/>
+			<Set Modifier="75"/>
+		</Update>
+	</UnitPromotions_UnitCombatMods>
+	<Belief_EraFaithUnitPurchase>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_ENLIGHTENMENT</EraType>
+		</Row>
+	</Belief_EraFaithUnitPurchase>
+</GameData>

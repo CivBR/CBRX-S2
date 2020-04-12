@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy for robk on 11/30/2010 10:45:00 PM -->
+
+<Context Color0="Beige" Color1="Black,256" Font="TwCenMT18" FontStyle="Shadow" >
+
+  <Box Size="990,650" Anchor="C,C" Offset="0,42" Color="White.0" ID="OptionsPanel">
+    
+    <!-- Left Column of options -->
+    <Stack Anchor="L,C" Offset="380,0" Padding="15" >
+
+      <CheckBox String="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_FIELD_TOOLTIPS" LeadingOffset="-10" WrapWidth="350" Anchor="L,C" ID="HistoricalFieldTooltipsCheckbox"
+                ToolTip="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_FIELD_TOOLTIPS_TT" />
+
+      <CheckBox String="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_YAXIS" LeadingOffset="-10" WrapWidth="350" Anchor="L,C" ID="HistoricalYAxisCheckbox"
+            ToolTip="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_YAXIS_TT" />
+      
+      <CheckBox String="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_LINEOFFSET" LeadingOffset="-10" WrapWidth="350" Anchor="L,C" ID="HistoricalLineOffsetCheckbox"
+            ToolTip="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_LINEOFFSET_TT" />
+
+      <CheckBox String="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_SMOOTHLINES" LeadingOffset="-10" WrapWidth="350" Anchor="L,C" ID="HistoricalLineSmoothCheckbox"
+            ToolTip="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_SMOOTHLINES_TT" />
+      
+    </Stack>
+
+    <!-- Right column of options -->
+    <Stack Anchor="R,C" Offset="50,0" Padding="15" >
+
+      <Slider Length="300" Anchor="C,C" ID="HistoricalXAxisLabelCountSlider" Style="Slider" WheelSteps="10" >
+        <Label String="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_XAXIS_LABEL_COUNT" Anchor="C,T" AnchorSide="i,o" ID="HistoricalXAxisLabelCount"
+               ToolTip="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_XAXIS_LABEL_COUNT_TT" />
+      </Slider>
+
+      <Slider Length="300" Anchor="C,C" ID="HistoricalYAxisLabelCountSlider" Style="Slider" WheelSteps="20" >
+        <Label String="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_YAXIS_LABEL_COUNT" Anchor="C,T" AnchorSide="i,o" ID="HistoricalYAxisLabelCount"
+               ToolTip="TXT_KEY_INFOADDICT_OPTIONS_HISTORICAL_YAXIS_LABEL_COUNT_TT" />
+      </Slider>
+    </Stack>
+    
+  </Box>
+  
+</Context>

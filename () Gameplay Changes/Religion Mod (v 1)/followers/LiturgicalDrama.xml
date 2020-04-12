@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- May purchase Monuments, Amphitheaters, Opera Houses, Museums, and Broadcast Towers with Faith -->
+	<Beliefs>
+		<Update>
+			<Set MinFollowers="0" />
+			<Where Type="BELIEF_LITURGICAL_DRAMA" />
+		</Update>
+	</Beliefs>
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDING_STELE</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDING_CEILIDH_HALL</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+	<Buildings>
+		<Update>
+			<Set FaithCost="75" UnlockedByBelief="true" />
+			<Where Type="BUILDING_MONUMENT" />
+		</Update>
+		<Update>
+			<Set FaithCost="75" UnlockedByBelief="true" />
+			<Where Type="BUILDING_STELE" />
+		</Update>
+		<Update>
+			<Set FaithCost="150" UnlockedByBelief="true" />
+			<Where Type="BUILDING_AMPHITHEATER" />
+		</Update>
+		<Update>
+			<Set FaithCost="225" UnlockedByBelief="true" />
+			<Where Type="BUILDING_OPERA_HOUSE" />
+		</Update>
+		<Update>
+			<Set FaithCost="225" UnlockedByBelief="true" />
+			<Where Type="BUILDING_CEILIDH_HALL" />
+		</Update>
+		<Update>
+			<Set FaithCost="300" UnlockedByBelief="true" />
+			<Where Type="BUILDING_MUSEUM" />
+		</Update>
+		<Update>
+			<Set FaithCost="375" UnlockedByBelief="true" />
+			<Where Type="BUILDING_BROADCAST_TOWER" />
+		</Update>
+	</Buildings>
+	
+	<Belief_BuildingClassYieldChanges>
+		<Delete BeliefType="BELIEF_LITURGICAL_DRAMA" />
+	</Belief_BuildingClassYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA" />
+		<Row Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA">
+			<Text>Use [ICON_PEACE] Faith to purchase Monuments, Amphitheaters, Opera Houses, Museums, and Broadcast Towers</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA" />
+		<Row Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Monuments, Amphitheaters, Opera Houses, Museums, and Broadcast Towers</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA" />
+		<Row Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Monuments, Amphitheaters, Opera Houses, Museums, and Broadcast Towers</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA" />
+		<Row Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Monuments, Amphitheaters, Opera Houses, Museums, and Broadcast Towers</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

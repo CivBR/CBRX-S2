@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/16/2018 7:16:43 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_CORVEE</Type>
+			<Description>TXT_KEY_BELIEF_CORVEE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_CORVEE_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+
+	<Belief_YieldChangePerForeignCity>
+		<Row>
+			<BeliefType>BELIEF_CORVEE</BeliefType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Belief_YieldChangePerForeignCity>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_CORVEE">
+			<Text>+3 Gold for each foreign city following this religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CORVEE_SHORT">
+			<Text>Corvée</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

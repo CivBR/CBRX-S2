@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fbe85b56-e379-49e5-b33b-c12861e09853" version="1">
+  <Properties>
+    <Name>EW's Lighthouse of the Rising Sun</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Basically makes Lighthouses the new Harbor.</Teaser>
+    <Description>Basically makes Lighthouses the new Harbor.</Description>
+    <Authors>ExplosiveWatermelon</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="22A2BBECAA917F11A60B441254E3BA58" import="0">Core/EW_Lighthouse.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/EW_Lighthouse.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2018 5:26:20 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_ARCHITECT_OF_THE_GODS</Type>
+			<Description>TXT_KEY_BELIEF_ARCHITECT_OF_THE_GODS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ARCHITECT_OF_THE_GODS_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_ARCHITECT_OF_THE_GODS</BeliefType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ARCHITECT_OF_THE_GODS</BeliefType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ARCHITECT_OF_THE_GODS</BeliefType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ARCHITECT_OF_THE_GODS</BeliefType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ARCHITECT_OF_THE_GODS</BeliefType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ARCHITECT_OF_THE_GODS</BeliefType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_ARCHITECT_OF_THE_GODS">
+			<Text>+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, +2 [ICON_PEACE] Faith and +2 [ICON_GOLD] Gold for Citadels.  +2 [ICON_FAITH] Faith and +2 [ICON_GOLD] Gold for Forts. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ARCHITECT_OF_THE_GODS_SHORT">
+			<Text>Architect Of The Gods</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

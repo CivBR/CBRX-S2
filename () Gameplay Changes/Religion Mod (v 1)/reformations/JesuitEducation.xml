@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-26 23:38:28 -->
+<GameData>
+
+	<!-- May purchase Science stuff with Faith. -->
+
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
+			<BuildingClassType>BUILDING_PAPER_MAKER</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
+			<BuildingClassType>BUILDING_ROYAL_LIBRARY</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
+			<BuildingClassType>BUILDING_WAT</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
+			<BuildingClassType>BUILDING_HOGSKOLA</BuildingClassType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+
+	<Buildings>
+		<Update>
+			<Set UnlockedByBelief="true" FaithCost="150" />
+			<Where BuildingClass="BUILDINGCLASS_LIBRARY" />
+		</Update>
+		<Update>
+			<Set UnlockedByBelief="true" FaithCost="225" />
+			<Where BuildingClass="BUILDINGCLASS_UNIVERSITY" />
+		</Update>
+		<Update>
+			<Set UnlockedByBelief="true" FaithCost="300" />
+			<Where BuildingClass="BUILDINGCLASS_OBSERVATORY" />
+		</Update>
+		<Update>
+			<Set UnlockedByBelief="true" FaithCost="375" />
+			<Where BuildingClass="BUILDINGCLASS_PUBLIC_SCHOOL" />
+		</Update>
+		<Update>
+			<Set UnlockedByBelief="true" FaithCost="450" />
+			<Where BuildingClass="BUILDINGCLASS_LABORATORY" />
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION" />
+		<Row Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION">
+			<Text>Use [ICON_PEACE] Faith to purchase Libraries, Universities, Observatories, Public Schools, and Research Labs</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION" />
+		<Row Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Libraries, Universities, Observatories, Public Schools, and Research Labs</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION" />
+		<Row Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Libraries, Universities, Observatories, Public Schools, and Research Labs</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION" />
+		<Row Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Libraries, Universities, Observatories, Public Schools, and Research Labs</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

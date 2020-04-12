@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/29/2015 8:16:25 AM -->
+<GameData>
+	<PolicyBranchTypes>
+		<Update>
+			<Where Type="POLICY_BRANCH_EXPLORATION"/>
+			<Set EraPrereq="ERA_RENAISSANCE"/>
+		</Update>
+		<Update>
+			<Where Type="POLICY_BRANCH_RATIONALISM"/>
+			<Set EraPrereq="ERA_ENLIGHTENMENT"/>
+		</Update>
+	</PolicyBranchTypes>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_MERCANTILISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_WEIGH_HOUSE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MERCHANT_NAVY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_DRYDOCK</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_GALLERY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_DRYDOCK</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_WEIGH_HOUSE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_ACADEMY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_CLOTH_MILL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_BASTION</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE_F</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_SUMMER_PALACE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE_O</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_SUMMER_PALACE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE_A</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EE_SUMMER_PALACE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+</GameData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9b5b2f0b-a8b3-4d35-91a6-385e566f5a3d" version="1">
+  <Properties>
+    <Name>Don't Pop Up</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Removes two annoying pop-ups: Golden Age and Natural Wonders</Teaser>
+    <Description>Removes two annoying pop-ups: Golden Age and Natural Wonders</Description>
+    <Authors>ExplosiveWatermelon</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="9F56BC06EC211CA6872A5AC9B0A5F704" import="1">Lua/GoldenAgePopup.lua</File>
+    <File md5="9F56BC06EC211CA6872A5AC9B0A5F704" import="1">Lua/NaturalWonderPopup.lua</File>
+    <File md5="CB953366D870D76570310A1E3A152E0B" import="1">Lua/WhosWinningPopup.lua</File>
+  </Files>
+</Mod>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/2/2018 6:02:52 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_LORDS_RIGHT_HAND</Type>
+			<Description>TXT_KEY_BELIEF_LORDS_RIGHT_HAND</Description>
+			<ShortDescription>TXT_KEY_BELIEF_LORDS_RIGHT_HAND_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_LORDS_RIGHT_HAND</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_LORDS_RIGHT_HAND</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_LORDS_RIGHT_HAND">
+			<Text>National Epic provides +6 [ICON_PRODUCTION] Production and +6 [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LORDS_RIGHT_HAND_SHORT">
+			<Text>Lord's Right Hand</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

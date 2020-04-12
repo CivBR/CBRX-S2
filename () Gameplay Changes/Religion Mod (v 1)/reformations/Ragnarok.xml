@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/2/2018 5:41:25 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_RAGNAROK</Type>
+			<Description>TXT_KEY_BELIEF_RAGNAROK</Description>
+			<ShortDescription>TXT_KEY_BELIEF_RAGNAROK_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+		</Row>
+	</Beliefs>
+
+	<Belief_TerrainYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_RAGNAROK</BeliefType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RAGNAROK</BeliefType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RAGNAROK</BeliefType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RAGNAROK</BeliefType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_TerrainYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_RAGNAROK">
+			<Text>+1 [ICON_PRODUCTION] Production and +1 [ICON_PEACE] Faith from Tundra and Snow tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RAGNAROK_SHORT">
+			<Text>Ragnarok</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

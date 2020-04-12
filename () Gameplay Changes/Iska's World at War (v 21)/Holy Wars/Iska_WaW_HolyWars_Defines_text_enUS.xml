@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/25/2019 2:30:21 AM -->
+<GameData>
+	<Language_en_US>
+		<!--<Update>
+			<Where Tag="TXT_KEY_POLICY_SECULARISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Secularism[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Specialist. Civilizations that have adopted this Policy cannot engage in Holy Wars."/>
+		</Update>-->
+
+		<Row Tag="TXT_KEY_UNIT_HOLY_WARRIOR">
+			<Text>Holy Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HOLY_WARRIOR_STRATEGY">
+			<Text>Holy Warriors are granted for free at the start of a Holy War in all Cities with of size 5 or more or can be purchased with [ICON_PEACE] Faith. They are disposable units intended for one short-term purpose: to further the glory of the Holy Land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HOLY_WARRIOR_CIVILOPEDIA_TEXT">
+			<Text>While early empires could be described as henotheistic, i.e. dominated by a single god of the ruling elite (as Marduk in the Babylonian empire, Assur in the Assyrian empire, etc.), or more directly by deifing the ruler in an imperial cult, the concept of "Holy War" enters a new phase with the development of monotheism. The Crusades against Muslim expansion in the 11th century was recognized as a "Holy War" or bellum sacrum by later writers in the 17th century. The early modern wars against the Ottoman Empire were seen as a seamless continuation of this conflict by contemporaries. The term "religious war" was used to describe, controversially at the time, what are now known as the European wars of religion, and especially the then-ongoing Seven Years' War, from at least the mid 18th century. In their Encyclopedia of Wars, authors Charles Phillips and Alan Axelrod document 1763 notable wars in world history. They note that before the 17th century, much of the "reasons" for conflicts were explained through the lens of religion and that after that time wars were explained through the lens of wars as a way to further sovereign interests. They note, "Wars have always arisen, and arise today, from territorial disputes, military rivalries, conflicts of ethnicity, and strivings for commercial and economic advantage, and they have always depended on, and depend on today, pride, prejudice, coercion, envy, cupidity, competitiveness, and a sense of injustice. But for much of the world before the 17th century, these “reasons” for war were explained and justified, at least for the participants, by religion.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_ISKA_INSTANCE_MIGHTLABEL">
+			<Text>[ICON_STRENGTH] Manpower {1_manpower:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_INSTANCE_FAITHLABEL">
+			<Text>[ICON_PEACE] Faith: +{1_Faith:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HW_PANEL_STRING">
+			<Text>The authorities of {1_decrelicon:textkey} {2_decreldesc:textkey} have declared a Holy War upon {3_defrelicon:textkey} {4_defreldesc:textkey}! Civilizations that enter Holy Wars:[NEWLINE][ICON_BULLET]Gain [ICON_PEACE] Faith when defeating Units (equal to their [ICON_STRENGTH] Combat Strength) and capturing the Holy City of the enemy Faith.[NEWLINE][ICON_BULLET]Have their Warriors, Swordsmen, and Knights upgraded to Holy Warriors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HOLY_WAR_TITLE">
+			<Text>Holy War!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HOLY_WAR_DESC">
+			<Text>The religious authorities of {1_decrelicon:textkey} {2_decreldesc:textkey} have declared a Holy War upon {3_defrelicon:textkey} {4_defreldesc:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HOLY_WAR_ENTRANT_TITLE">
+			<Text>Holy War Entrant!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HOLY_WAR_ENTRANT_DESC">
+			<Text>{1_decplayer:textkey} answered {2_decrelicon:textkey} {3_decrelfounder:textkey}'s call to arms, and entered into the Holy War with {4_defrelicon:textkey} {5_defrelfounder:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HOLY_WAR_ENDED_TITLE">
+			<Text>Holy War Ended!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HOLY_WAR_ENDED_CELEBRATIONS">
+			<Text>Righteous Celebrations: +</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HOLY_WAR_UNIT_KILLED">
+			<Text>Infidel Cleansing: +</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HOLY_WAR_ENDED_DESC">
+			<Text>The Holy War between the faiths of {1_decrelicon:textkey} {2_decreldesc:textkey} and {3_defrelicon:textkey} {4_defreldesc:textkey} has ended inconclusively.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HOLY_WAR_ENDED_CAPTURE_PLAYER_DESC">
+			<Text>{1_cityname:textkey}, the Holy City of {2_defrelicon:textkey} {3_defreldesc:textkey} has fallen! Righteous Celebrations occur across the lands of {4_decrelicon:textkey} {5_decreldesc:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISKA_HOLY_WAR_ENDED_CAPTURE_OTHER_DESC">
+			<Text>The Holy Armies of {2_decrelicon:textkey} {3_decreldesc:textkey} have captured {1_cityname:textkey}, the Holy City of  {4_defrelicon:textkey} {5_defreldesc:textkey}! Righteous Celebrations occur across the lands of {2_decrelicon:textkey} {3_decreldesc:textkey}.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

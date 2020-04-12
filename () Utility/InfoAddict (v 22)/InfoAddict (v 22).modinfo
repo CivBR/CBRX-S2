@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" version="22">
+  <Properties>
+    <Name>InfoAddict</Name>
+    <Teaser>Historical graphs, global relationships and tons of extra info.</Teaser>
+    <Description>Adds time-based graphs showing civilizations' score, gold, military power, etc., visual representation of global relationships and tons of extra info on each civ. Please note, this mod only works correctly for games started after the mod has been enabled.
+[NEWLINE]
+[NEWLINE]v22 Changes:
+[NEWLINE][ICON_BULLET] Fixed bug that showed trade routes for civs that have not been met yet.
+[NEWLINE]
+[NEWLINE]Check the InfoAddictReadMe.txt file included with the mod or the Info Addict thread on civfanatics.com forums for more information:[COLOR_CYAN]  http://forums.civfanatics.com/showthread.php?t=391069[ENDCOLOR]
+[NEWLINE]</Description>
+    <Authors>robk</Authors>
+    <SpecialThanks>My awesome wife</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=391069</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="76FB22538641E8233E2D022C2C9C40B3" import="1">Art/infoaddicth.dds</File>
+    <File md5="54749C2E542A9DD8C39CCBFE3A8EB832" import="1">Art/infoaddictv.dds</File>
+    <File md5="F580F9EE6EBF47713116041AC2AD1D19" import="1">Art/notselectedpip.dds</File>
+    <File md5="32D8A775385DDADB644703A0C71AC6EA" import="1">Art/notselectedpip60.dds</File>
+    <File md5="387D090035142861E49DF38B81379EEA" import="1">Art/notselectedpip70.dds</File>
+    <File md5="7E7387C93AF8771F91A5DE80550246EF" import="1">Art/selectedpip.dds</File>
+    <File md5="2C6F6BED6FF41756B3F84762E1FF80BA" import="1">Art/selectedpip60.dds</File>
+    <File md5="45A58E074B30BF151319E21B8605E1AE" import="1">Art/selectedpip70.dds</File>
+    <File md5="0618FCBC90C01064BD9359B3265137C7" import="1">Lua/InfoAddictCivRelations.lua</File>
+    <File md5="A57153ED529F82D76A72209F35460F84" import="1">Lua/InfoAddictDataManager.lua</File>
+    <File md5="8C6EE7C0FC1F929F0AFAB554C7C981DD" import="1">Lua/InfoAddictFactBook.lua</File>
+    <File md5="9714B3FEC4063EEE29D5D82ED4B033A0" import="1">Lua/InfoAddictHistoricalData.lua</File>
+    <File md5="FD6891AD1CCCBE3ACDECAD233D9A4C97" import="1">Lua/InfoAddictHooks.lua</File>
+    <File md5="0C3DFDCC80B50BE5BC2A2966DB6E0775" import="1">Lua/InfoAddictInit.lua</File>
+    <File md5="A0CD2109CD802CAFAEE5797A22F156A4" import="1">Lua/InfoAddictLib.lua</File>
+    <File md5="B6825562C36E27481D9BFFD8ED7B9157" import="1">Lua/InfoAddictOptions.lua</File>
+    <File md5="DC4FFFDEB9551A8ACE953E720FCFA616" import="1">Lua/InfoAddictScreen.lua</File>
+    <File md5="AB5943FCDD150B84E70D19E706BBB48A" import="1">Lua/InfoAddictLogger.lua</File>
+    <File md5="7D391776CCF0EC29A8B6213D5ABCF6C4" import="0">InfoAddictReadMe.txt</File>
+    <File md5="AC25AEDFF8E461958C250D46BE179197" import="1">XML/InfoAddictCivRelations.xml</File>
+    <File md5="B21CC0AE5BDAE8C897EB0C88C995C86B" import="1">XML/InfoAddictFactBook.xml</File>
+    <File md5="6B297067E38142916A0868D0ABC3C422" import="1">XML/InfoAddictHistoricalData.xml</File>
+    <File md5="D8DB592AF64F00C025330E60704D0402" import="1">XML/InfoAddictHooks.xml</File>
+    <File md5="CB652DD4ABC0E839E90FAFE3B2F9FF36" import="1">XML/InfoAddictOptions.xml</File>
+    <File md5="6CB0249AD7AA418954C23A6A1CD1AC55" import="1">XML/InfoAddictScreen.xml</File>
+    <File md5="5464692417357B449FEC65298E46E08A" import="1">XML/InfoAddictText_DE.xml</File>
+    <File md5="94A995652CAEA2B60170D7497A065BB1" import="1">XML/InfoAddictText_EN.xml</File>
+    <File md5="C93B63F010F4D2611B4F88378BF1E1B8" import="1">XML/InfoAddictText_ES.xml</File>
+    <File md5="D54BBD383F7AD95FA6419CA06CDF89E8" import="1">XML/InfoAddictText_FR.xml</File>
+    <File md5="8678631A078555F165AA3F22D183E5D7" import="1">XML/InfoAddictText_IT.xml</File>
+    <File md5="790691EF38DCC14E7F73015904ED5F89" import="1">XML/InfoAddictText_RU.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/InfoAddictText_EN.xml</UpdateDatabase>
+      <UpdateDatabase>XML/InfoAddictText_FR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/InfoAddictText_DE.xml</UpdateDatabase>
+      <UpdateDatabase>XML/InfoAddictText_ES.xml</UpdateDatabase>
+      <UpdateDatabase>XML/InfoAddictText_RU.xml</UpdateDatabase>
+      <UpdateDatabase>XML/InfoAddictText_IT.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/InfoAddictInit.lua">
+      <Name>Info Addict Init</Name>
+      <Description>Loads all Info Addict lua contexts</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
