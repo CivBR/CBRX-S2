@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai -->
+<GameData>
+	<Language_en_US>
+		<!--==========================================-->
+		<!--=== Unique Units =========================-->
+		<!--==========================================-->
+		<!--Base Crusader-->
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER">
+			<Text>Crusader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_HELP">
+			<Text>Replaces Knight. Has effects which vary based on the Crusading Order present in the city. Only Jerusalem may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_STRATEGY">
+			<Text>The Crusader is Jerusalem's replacement for the Knight. Unlike most unique units, the Crusader is in effect five distinct units, which in turn vary based upon which Crusading Order the city in which it is trained has adopted. Each Crusader is a different form of unit, with varying bonuses and strengths, allowing them to fill almost all segments of your medieval army.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_PEDIA">
+			<Text>Crusaders were a military force sent to fight heathens by the kingdoms of Europe in the name of Christianity. Loosely speaking, a Crusader was anyone who went on Crusade - in some cases, this included Children and irregulars with no military training who sought to repent for prior sins. In modern imagination however, the Crusader has come to be seen akin to the medieval knights, as a proud and chivalrous elite fighting force. Regardless of what Crusaders were in reality, early successes saw the Crusading spirit gain in fervour and establish the crusaders as a military force of lore, and the greatest militarisation in the name of Christianity in history.</Text>
+		</Row>
+		<!--Knights Templar-->
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_TEMPLARS">
+			<Text>Knight Templar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_TEMPLARS_HELP">
+			<Text>Replaces Knight. Strong heavy infantry foot unit. May only be built by Jerusalem in cities where the [COLOR_POSITIVE_TEXT]Knights Templar[ENDCOLOR] operate.</Text>
+		</Row>
+		<!--Teutonic Order-->
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_TEUTONIC">
+			<Text>Teutonic Knight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_TEUTONIC_HELP">
+			<Text>Replaces Knight. Cheaper to produce. May only be build by Jerusalem in cities where the [COLOR_POSITIVE_TEXT]Teutonic Order[ENDCOLOR] operates.</Text>
+		</Row>
+		<!--Order of St John-->
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_ST_JOHN">
+			<Text>Knight Hospitallier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_ST_JOHN_HELP">
+			<Text>Replaces Knight. Light infantry unit which is better againt mounted units and generates science while in enemy territory.  May only be built by Jerusalem in cities where the [COLOR_POSITIVE_TEXT]Knights Hospitallier[ENDCOLOR] operate.</Text>
+		</Row>
+		<!--Order of the Holy Sepulchre-->
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_SEPULCHRE">
+			<Text>Knight of the Holy Sepulchre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_SEPULCHRE_HELP">
+			<Text>Replaces Knight. While garrisoned, prevents enemy religious units from converting the city.  May only be built by Jerusalem in cities where the [COLOR_POSITIVE_TEXT]Order of the Holy Sepulchre[ENDCOLOR] operates.</Text>
+		</Row>
+		<!--Order of St Lazarus-->
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_LAZARUS">
+			<Text>Knight of St Lazarus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_LAZARUS_HELP">
+			<Text>Replaces Knight. Increases [ICON_HAPPINESS_1] Happiness in the empire by 1 temporarily whenever it kills an enemy unit.  May only be built by Jerusalem in cities where the [COLOR_POSITIVE_TEXT]Order of St. Lazarus[ENDCOLOR] operates.</Text>
+		</Row>
+		<!--Brotherhood of the Cruciform Sword-->
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_CRUCIFORM">
+			<Text>Brother of the Cruciform Sword</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_JERUSALEM_CRUSADER_CRUCIFORM_HELP">
+			<Text>Gunpowder unit. Bonus when fighting near antiquity sites, or while defending. Stronger when damaged. May only be built by Jerusalem in cities where the [COLOR_POSITIVE_TEXT]Brotherhood of the Cruciform Sword[ENDCOLOR] operates.</Text>
+		</Row>
+		<!--==========================================-->
+		<!--=== Crusading Order Promotions ===========-->
+		<!--==========================================-->
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_TEMPLARS">
+			<Text>Nomini Tuo Da Gloriam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_TEMPLARS_HELP">
+			<Text>20% Combat Bonus when fighting outside friendly territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_TEUTONIC">
+			<Text>Christ Ist Erstanden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_TEUTONIC_HELP">
+			<Text>No Movement cost for pillaging</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_ST_JOHN">
+			<Text>Tuitio Fidei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_ST_JOHN_HELP">
+			<Text>+20% Strength when fighting in friendly lands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_SEPULCHRE">
+			<Text>Deus Vult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_SEPULCHRE_HELP">
+			<Text>+30% Strength when within two tiles of a friendly city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_LAZARUS">
+			<Text>Atavis Et Armis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_LAZARUS_HELP">
+			<Text>Generates +2 faith per turn while garrisoned</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_CRUCIFORM">
+			<Text>Accepit Iesus Calicem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_JERUSALEM_CRUCIFORM_HELP">
+			<Text>+20% Strength against Armour units</Text>
+		</Row>
+		<!--==========================================-->
+		<!--=== Unique Buildings =====================-->
+		<!--==========================================-->
+		<!--Base Chapter House-->
+		<Row Tag="TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE">
+			<Text>Chapter House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_HELP">
+			<Text>Standalone unique building for Jerusalem. +10XP for all units, and newly-trained units begin with a promotion determined by which Crusading Order is present in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_STRATEGY">
+			<Text>The Chapter House is a standalone unique building for Jerusalem. It provides newly-trained units with both an additional +10XP and a unique promotion, which varies based upon which Crusading Order is present in the city. Train units in a variety of cities to ensure that your army has a wide range of skillsets and abilities, giving you a greater advantage on the battlefield.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_PEDIA">
+			<Text>Often attached to Christian religious buildings, chapter houses are buildings where members of the clergy or the wider religious community are able to meet and conduct business as usual. They would typically be used to host foreign monarchs in medieval times above and beyond the aforementioned purposes, and have since spread to beyond the examples of the Holy Land. </Text>
+		</Row>
+		<!--Knights Templar-->
+		<Row Tag="TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_TEMPLARS_HELP">
+			<Text>Standalone unique building for Jerusalem. +10XP for all units, and newly-trained units begin with the [COLOR_POSITIVE_TEXT]Nomini Tuo Da Gloriam[ENDCOLOR] promotion, boosting [ICON_STRENGTH] combat strength by 20% in foreign lands.</Text>
+		</Row>
+		<!--Teutonic Order-->
+		<Row Tag="TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_TEUTONIC_HELP">
+			<Text>Standalone unique building for Jerusalem. +10XP for all units, and newly-trained units begin with the [COLOR_POSITIVE_TEXT]Christ Ist Erstanden[ENDCOLOR] promotion, generating [ICON_PEACE] Faith from kills.</Text>
+		</Row>
+		<!--Order of St John-->
+		<Row Tag="TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_ST_JOHN_HELP">
+			<Text>Standalone unique building for Jerusalem. +10XP for all units, and newly-trained units begin with the [COLOR_POSITIVE_TEXT]Tuitio Fidei[ENDCOLOR] promotion, boosting [ICON_STRENGTH] combat strength by 20% in friendly lands.</Text>
+		</Row>
+		<!--Order of the Holy Sepulchre-->
+		<Row Tag="TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_SEPULCHRE_HELP">
+			<Text>Standalone unique building for Jerusalem. +10XP for all units, and newly-trained units begin with the [COLOR_POSITIVE_TEXT]Deus Vult[ENDCOLOR] promotion, boosting [ICON_STRENGTH] combat strength by 30% near friendly cities.</Text>
+		</Row>
+		<!--Order of St Lazarus-->
+		<Row Tag="TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_LAZARUS_HELP">
+			<Text>Standalone unique building for Jerusalem. +10XP for all units, and newly-trained units begin with the [COLOR_POSITIVE_TEXT]Atavis Et Armis[ENDCOLOR] promotion, generating [ICON_PEACE] Faith per turn while garrisoned.</Text>
+		</Row>
+		<!--Brotherhood of the Cruciform Sword-->
+		<Row Tag="TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_CRUCIFORM_HELP">
+			<Text>Standalone unique building for Jerusalem. +10XP for all units, and newly-trained units begin with the [COLOR_POSITIVE_TEXT]Accepit Iesus Calicern[ENDCOLOR] promotion, boosting [ICON_STRENGTH] combat strength by 20% when fighting armoured units.</Text>
+		</Row>
+		<!--==========================================-->
+		<!--=== Unique Ability =======================-->
+		<!--==========================================-->
+		<Row Tag="TXT_KEY_TRAIT_MC_CRUSADING_ORDERS_SHORT">
+			<Text>Crusading Orders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_MC_CRUSADING_ORDERS">
+			<Text>Cities may choose a crusading order to be present in the city, which provides local benefits and determines the effect of other uniques. Combat bonus when near cities that follow your religion. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_MC_JERUSALEM_CHOOSE_ORDER">
+			<Text>[COLOR_POSITIVE_TEXT]CHOOSE AN ORDER[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MC_JERUSALEM_CHOOSE_ORDER_HELP">
+			<Text>Choose an Order for the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JERUSALEM_CRUSADER">
+			<Text>MC: Jerusalem Dummy Policy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JERUSALEM_CRUSADER_HELP">
+			<Text>Stops the unique crusaders being available to build from the start of the game</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UA_COMBAT_BONUS">
+			<Text>Holy Defender</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UA_COMBAT_BONUS_HELP">
+			<Text>+15% Combat Strength when near a city following your religion.</Text>
+		</Row>
+		<!--Crusading Order Descriptions-->
+		<Row Tag="TXT_KEY_JERUSALEM_TEMPLARS">
+			<Text>+3 [ICON_GOLD] Gold and +1 [ICON_PEACE] Faith from each [ICON_TRADE_ROUTE] trade route with this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JERUSALEM_TEUTONIC">
+			<Text>+20% [ICON_PRODUCTION] Production towards melee units in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JERUSALEM_ST_JOHN">
+			<Text>Additional 10% [ICON_FOOD] Food is carried over when a new citizen is born in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JERUSALEM_SEPULCHRE">
+			<Text>Additional 5 city defence and 50 hitpoints. +20% [ICON_PRODUCTION] Production towards ranged units in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JERUSALEM_LAZARUS">
+			<Text>+1 [ICON_FOOD] Food from worked deserts, and the city acts as a source of fresh water.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_MC_JERUSALEM_LAZARUS_WATER">
+			<Text>Order of St. Lazarus freshwater well</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JERUSALEM_CRUCIFORM">
+			<Text>+2 [ICON_PEACE] Faith from Wonders and Great Works in this city.</Text>
+		</Row>
+		<!--MCIS-->
+		<Row Tag="TXT_KEY_MC_JERSUALEM_CHANGE_ORDER">
+			<Text>{1_Body}[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Click to Change Order[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MC_JERUSALEM_COOLDOWN_BLOCKED">
+			<Text>{1_Body}[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cannot Switch Orders For Another {2_Turns} Turns[ENDCOLOR]</Text>
+		</Row>
+		<!--Crusading Order Dummy Buildings-->
+		<Row Tag="TXT_KEY_BUILDING_JERUSALEM_TEMPLARS">
+			<Text>MC: Jerusalem Knights Templar Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JERUSALEM_TEUTONIC">
+			<Text>MC: Jerusalem Teutonic Order Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JERUSALEM_ST_JOHN">
+			<Text>MC: Jerusalem Knights Hospitallier Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JERUSALEM_SEPULCHRE">
+			<Text>MC: Jerusalem Order of the Holy Sepulchre Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JERUSALEM_LAZARUS">
+			<Text>MC: Jerusalem Order of St Lazarus Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JERUSALEM_CRUCIFORM">
+			<Text>MC: Jerusalem Brotherhood of the Cruciform Sword Dummy</Text>
+		</Row>
+		<!--Oshit bois we notification now-->
+		<Row Tag="MC_JERUSALEM_ORDER_NOTE_HEAD">
+			<Text>May Establish New Order!</Text>
+		</Row>
+		<Row Tag="MC_JERUSALEM_ORDER_NOTE_BODY">
+			<Text>You may establish a new Crusader Order in {1_Name}! Go to its City Screen to choose one.</Text>
+		</Row>
+		<!--==========================================-->
+		<!--=== Dawn of Man ==========================-->
+		<!--==========================================-->
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_MC_JERUSALEM_TEXT">
+			<Text>May the Lord bless you and keep you, noble king Baldwin! You rule the great and pious Kingdom of Jerusalem, bastion of Christendom in the Holy Land. Upon your ascension to the throne, you faced threats against your kingdom from both within and afar. While Jerusalem was divided by civil war - due to the miguided ambitions of your own mother - infidels marched upon your lands, seeking to expel the one true faith from its rightful place. Despite these overwhelming odds, you deftly mastered the region's politics and continued to expand your kingdom's reach - and that of Christianity. [NEWLINE][NEWLINE]Oh great king Baldwin! You remained a stalwart leader of your kingdom and of the Crusaders until they, too, eventually succumbed to poison from the evil Antiochene! They look again to you, to lead Jerusalem and Christendom into a new golden age. Will you heed their call, noble Baldwin? Will you ascend once more to the throne in the name of our lord? Will you build a civilization that can stand the test of time? </Text>
+		</Row>
+		<!--==========================================-->
+		<!--=== City State Changes ===================-->
+		<!--==========================================-->
+		<Row Tag="TXT_KEY_CITYSTATE_MC_ANTIOCH">
+			<Text>Antioch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MC_ANTIOCH_ADJ">
+			<Text>Antiochene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MC_ANTIOCH_PEDIA">
+			<Text>Antioch was one of the greatest cities of the ancient world, having benefitted from its situation at the centre of political, economic, and cultural crossroads. The city was founded by the Seleucids on the banks of the Orontes River, and quickly grew to rival Alexandria as the greatest city in the Near East. This development continued under subsequent rulers, with Antioch reaching a population of over 500,000 by the end of the Hellenistic period. Upon its annexation by the Roman Republic in 64 BC it remained officially a free city, yet this did little to stop the adoration which the Romans had for the city -  many Roman leaders and emperors visited the city and commissioned great civic projects to further the star of Antioch within the Near East. These construction projects were plagued with issues however, as Antioch was also situated in an extremely seismicly active area - in 115 AD, the city was devastated by a magnitude 7.5 earthquake, which caused an estimated 260,000 deaths.[NEWLINE][NEWLINE]Despite this, Antioch continued to rebound and remain a peak city in the Near East. Successive emperors continued to rebuild, and the city became home to large populations of Jews and Christians - all living side by side peacefully with those practising traditional beliefs. Antioch became an early centre of the Christian church, with the Christian population reaching 100,000 by the time of Theodosius I. Antioch became on the of the original patriarchates, and still lends its name to the Antiochian Orthodox Church, despite its relocation to Damascus. This history made it attractive as a target to the Crusaders, who recaptured it from the Sultanate of Rum in 1098 and established a Crusader state from the city. The principality of Antioch stood for much of the crusades, until succumbing to a siege by the Mamelukes under the rule of Baibars in 1268, at which point Antioch again fell into Muslim hands. The ensuing religious genocide in the city brought about the beginning of the end for the once-great city, and within 170 years the population had declined to less than 1000.</Text>
+		</Row>
+		<!--==========================================-->
+		<!--=== Spy Names ============================-->
+		<!--==========================================-->
+		<Row Tag="TXT_KEY_SPY_NAME_MC_JERUSALEM_0">
+			<Text>Paul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_JERUSALEM_1">
+			<Text>Peter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_JERUSALEM_2">
+			<Text>Innocent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_JERUSALEM_3">
+			<Text>Pius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_JERUSALEM_4">
+			<Text>Judas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_JERUSALEM_5">
+			<Text>Abraham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_JERUSALEM_6">
+			<Text>Joshua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_JERUSALEM_7">
+			<Text>Mary</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_JERUSALEM_8">
+			<Text>Maria</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_JERUSALEM_9">
+			<Text>Helen</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--==========================================-->
+		<!--=== Denonyms =============================-->
+		<!--==========================================-->
+		<Row Tag="TXT_KEY_MC_JERUSALEM_DESC">
+			<Text>Kingdom of Jerusalem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MC_JERUSALEM_SHORT_DESC">
+			<Text>Jerusalem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MC_JERUSALEM_ADJECTIVE">
+			<Text>Jerusalemite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MC_JERUSALEM">
+			<Text>Jerusalem</Text>
+		</Row>
+		<!--==========================================-->
+		<!--=== Civilopedias =========================-->
+		<!--==========================================-->
+		<!--Jerusalem-->
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_TITLE">
+			<Text>Kingdom of Jerusalem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_TEXT_1">
+			<Text>The Latin Kingdom of Jerusalem was a crusader state established in the Southern Levant by Godfrey of Bouillon in 1099 after the First Crusade. The kingdom lasted nearly two hundred years, from 1099 until 1291 when the last remaining possession, Acre, was destroyed by the Mamluks, but its history is divided into two distinct periods. The sometimes so-called First Kingdom of Jerusalem lasted from 1099 to 1187, when it was almost entirely overrun by Saladin. After the subsequent Third Crusade, the kingdom was re-established in Acre in 1192, and lasted until that city's destruction in 1291, except for a brief two decades which Frederick II of Hohenstaufen reclaimed Jerusalem back into Christian hands after the Sixth Crusade. This second kingdom is sometimes called the Second Kingdom of Jerusalem or the Kingdom of Acre, after its new capital. Most of the crusaders who settled there were of French origin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_TEXT_2">
+			<Text>Located in the Southern Levant, the territory of the Kingdom of Jerusalem is arid, and consists mostly of desert and dry step. Compared to the south and interior of the kingdom, the plains along the coast of the Mediterranean occupied by Jerusalem and the other Crusader States featured a more temperate climate, with more rainfall and cooler temperatures in winter. Such a climate is reminiscent of elsewhere in the Mediterranean, and is much more hospitable to human habitation. [NEWLINE][NEWLINE] The region is dominated by the Jordan Rift Valley, an active tectonic zone which produces earthquakes in excess of magnitude 7 on the Richter scale on average once every 400 years. One such earthquake occurred in 1033 AD, devastating the region only a few years prior to the outbreak of the crusades. The rift valley is also both one of the hottest places on Earth, with temperatures in the region frequently reaching in excess of forty degrees Celsius, and among the lowest points on Earth, with the shoreline of the Dead Sea sitting 423 metres below sea level. With few sources of water and such extremities of climate, the region is difficult to traverse even with modern supply lines and logistics, let alone at the time of the Crusades.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_HEADING_3">
+			<Text>Foundation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_TEXT_3">
+			<Text>Although Jerusalem itself has been around for approximately 6,500 years, with evidence of habitation dating to as far back as 4500 BC, the Kingdom of Jerusalem was only founded during the First Crusade. The capture of Jerusalem by Seljuk Turks shook Christian Europe, prompting Pope Urban II to call for a Holy War to liberate the city at the Council of Clermont. Amid promises of absolution of sins, Urban II’s call to arms brought thousands of fanatical warriors from across Europe towards the Holy Land. After invading the Seljuks from the Byzantine Empire, the Crusaders captured Jerusalem by way of Antioch in 1099 establishing a series of Crusader states down the Mediterranean coast. To the Christian forces, the Siege of Jerusalem in 1099 undid over four hundred years of heretic rule over the holy city. To the Muslims, the fall of Jerusalem led to the slaughter of thousands of the city’s Muslim and Jewish inhabitants. [NEWLINE][NEWLINE] Shortly after the city’s capture, a council was held in the Church of the Holy Sepulchre in order to elect a king for the newly established Kingdom of Jerusalem. Godfrey of Bouillon, one of the commanders of the Crusade, took control of the city but did not assume the title of King. He quickly set about expanding the borders of the kingdom, and set up the system of vassalage, but died after less than a year of reign. His brother, Baldwin of Boulogne, outmaneuvered his opponents and became the secular King of Jerusalem – and the first to assume the title – while a Latin Patriarch was put in charge of the Christian hierarchy in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_HEADING_4">
+			<Text>Early Successes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_TEXT_4">
+			<Text>The kingdom continued to expand under Baldwin I, who did much to turn Jerusalem into a kingdom in truth as well as name. He established a strong monarchy and took over the Palestinian Coast, acquiring the much-needed port cities of Acre, Beirut, and Sidon in the process. Baldwin also reconciled with the crusader barons, establishing Jerusalem as suzerain of the other crusader states – those of Edessa, Antioch, and Tripoli – in the process. His leadership solidified the Kingdom of Jerusalem and turned it into a strong bastion of Christianity against its Sunni neighbors. Baldwin died without heirs after 18 years of rule, and his cousin - also named Baldwin - became the king. [NEWLINE][NEWLINE]Baldwin II continued the progress made by his predecessor, fending off multiple invasions from the Fatimids and Seljuks alike, in addition to founding the first military orders of the crusades - the Knights Hospitaller and the Knights Templar. The kingdom compiled law, signed commercial treaties, and with Venetian support, captured the city of Tyre. Jerusalem’s reach expanded to Edessa and Antioch, as Baldwin II acted as a regent of both cities following the deaths of their leaders in battle. After Baldwin II’s death, Fulk V of Anjou became the King-consort of Jerusalem, bringing Jerusalem into the orbit of the Angevin Empire. The foreign king was unpopular with the other crusader states, prompting Antioch, Tripoli, and Edessa to reassert their sovereignty. Fulk was forced to defeat Tripoli in battle, while he arranged a political marriage in Antioch. Fulk was still unpopular with the nobles of Jerusalem as he preferred an Angevin court to the previously established legal system in the kingdom. Hugh II of Jaffa revolted against Fulk, even going so far as to ally with the Muslims at Ascalon. After an assassination attempt on Hugh was blamed on Fulk, his wife Melisende took control of the government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_HEADING_5">
+			<Text>Crusader Kings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_TEXT_5">
+			<Text>Jerusalem faced another rival shortly after - Zengi of Mosul, who was rampaging throughout Mesopotamia and expanding into Syria, having taken the city of Aleppo and threatening the city of Damascus. The Byzantine Emperor John II Komnenos failed to stop Zengi, prompting Jerusalem and Damascus to ally in an attempt to stop the advance of Zengi, while Fulk took the opportunity to build a number of castles on the kingdom’s frontier. Soon after, Baldwin II was killed in a ‘hunting accident’, leaving the throne to his thirteen-year-old son, Baldwin, for whom Melisende ruled as regent. Zengi took the ensuing political turmoil while Jerusalem was ruled by a woman and a child as a chance to attack, defeating Edessa and conquering the city of Damascus. As the Christian eyes of Europe again turned to the military events of the levant, Baldwin III’s rule began with the calling of a second crusade, the primary goal of which was the reconquest of Damascus and its return to Christian control. Ultimately this attempt was unsuccessful, and Damascus remained in Muslim hands. [NEWLINE][NEWLINE]The failure of the Crusade caused further unrest within Jerusalem, which in turn resulted in a division within the kingdom and the outbreak of civil war between Baldwin III and his mother, Melisende. Baldwin controlled Acre and Tyre while Melisende controlled Jerusalem. Baldwin quickly invaded Melisende’s holdings, and Baldwin III became the sole ruler of Jerusalem. Baldwin rebuilt the kingdom’s political stability and unity on a domestic level, while at the same time seeking a greater position internationally through an alliance with the Byzantine empire. This was accomplished by Baldwin III marrying a niece of Emperor Manuel Komnenos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_HEADING_6">
+			<Text>Amalric and Saladin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_TEXT_6">
+			<Text>Upon Baldwin III’s childless death in 1163, the kingdom passed to Amalric, his younger brother. Amalric was quick to further develop ties with the Byzantines, who encouraged him to join them in an invasion of Egypt. The invasion showed early signs of success, however Amalric was forced to withdraw his forces when Nur ad-Din, Zengi’s successor, invaded Antioch in the north. Nur ad-Din, along with his nephew Yusuf ibn Ayyub, better known as Saladin, were frequent enemies of Amalric and the crusaders for the remainder of Amalric’s rule. [NEWLINE][NEWLINE]Baldwin IV took the kingship of Jerusalem after the death of Amalric, but was a leper and thus could not produce an heir or be expected to rule for a long term. Baldwin, knowing that western support was essential to ensure the ongoing existence of the Kingdom, married his sister Sibylla into the families of Louis VII of France and the Holy Roman Emperor, Frederick Barbarossa. [NEWLINE][NEWLINE]European leaders continued to show interest in the holy land, with Philip of Flanders having arrived in Jerusalem on pilgrimage, upon which he took much of Jerusalem’s army north to attack Hama. Saladin, who at this point controlled much of both Egypt and Syria, took the clear opportunity of most of the Kingdom’s forces being away to invade Jerusalem. Baldwin managed a victory at Montgisard despite being outnumbered and out-armed, and the Kingdom of Jerusalem would endure to fight another day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_HEADING_7">
+			<Text>Betrayal and Defeat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_TEXT_7">
+			<Text>Further forays into Arabia met with little success, despite Saladin remaining unable to take Aleppo. Saladin responded with yet another invasion, and was defeated once again. Neither side did significant damage in this conflict, until Raynald of Chatillon took a naval expedition on the Red Sea, an endeavour which had little to no strategic value. The rogue Crusader King’s expedition ended as an unmitigated disaster, and Saladin eventually was able to take control of Aleppo and put full pressure on the City of Peace. Baldwin IV finally died of his leprosy and was succeeded by yet another Baldwin, his nephew King Baldwin V. And then he died a year later, and was succeeded by Guy of Lusignan, in light of several other candidates refusing to take the position given Jerusalem’s declining political position. [NEWLINE][NEWLINE]After a pre-emptive attack by the crusaders, Saladin pushed into Jerusalem and overran the kingdom. He captured Jerusalem and Guy, with the only remnant of the once-mighty kingdom the port of Tyre, which remained under the control of Conrad of Montferrat, the last King of Jerusalem by default. The fall of Jerusalem triggered the Third Crusade, which ended peacefully and Saladin allowed pilgrimages to be made to Jerusalem, though it remained in his tight grip. The Kingdom of Jerusalem staggered on as the Kingdom of Acre until it too fell in 1291 following a Fatimid siege. Several schemes were made to reconquer the city, but none succeeded - Jerusalem would remain firmly Islamic despite countless failed crusades.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_HEADING_8">
+			<Text>Judgement of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_TEXT_8">
+			<Text>The Kingdom of Jerusalem, and the crusades as a whole, have traditionally been seen in a positive light in the Christian west. Crusaders were seen as noble fighters who ventured to a distant land in the name of God and Christendom, and of a similar vein to knights of medieval Europe who lived by a strict moral code. However, in recent years and as the influence of the Church narrative has declined, new evidence of what would now be considered war crimes commited by the Crusader forces has been uncovered. The Kingdom of Jerusalem also maintained strict control of its territory for non-Christians, in contrast to Saladin's opening of Jerusalem to all faiths upon his rule. As with much in the area of political issues related to any of the Abrahamic religions, the version of events which you're given will often be determined simply by which person you ask, and will vary greatly from one to another.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_FACTOID_HEADING">
+			<Text>Kingdom of Jerusalem Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_JERUSALEM_FACTOID_TEXT">
+			<Text>Despite still being known as a kingdom, Jerusalem's first ruler was elected.</Text>
+		</Row>
+		<!-- Baldwin III -->
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_DESC">
+			<Text>Baldwin III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_LIVED">
+			<Text>1130 - 1163</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_NAME">
+			<Text>Baldwin III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_SUBTITLE">
+			<Text>King of Jerusalem</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_TITLES_1">
+			<Text>No Titles</Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_TEXT_1">
+			<Text>Only thirteen when he ascended the throne, Baldwin III was the fourth ruler of Jerusalem (though only the third king,) ruling over the crusader state in the middle of the twelth century. Under Baldwin's rule, Jerusalem faced a tenuous domestic political climate, with Baldwin eventually forced to defeat his own mother in a civil war. As sole ruler of the kingdom, Baldwin III presided over the Second Crusade, expanded Jerusalem's control into Egypt, and aligned further with the Byzantine empire.  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_TEXT_2">
+			<Text>Little is known of Baldwin's early life, except of his heritage. He was born in 1130 to Melisende, daughter of the reigning king Baldwin II, and Fulk of Anjou, part of the ruling family of the Angevin Empire. From a young age he was faced with political strife, with his parents engaged in a bitter power struggle following the death of his grandfather when Baldwin III was just one year old. Fulk eventually was able to assume the leadership of Jerusalem, and ruled for twelve years until he died of a 'hunting accident', leaving Baldwin III king at the age of 13, as his heir. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_HEADING_3">
+			<Text>Boy King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_TEXT_3">
+			<Text>Although now officially King, the young Baldwin was not yet ready for the responsibility of ruling a fragile kingdom beset on all sides by hostile forces. As such, Melisende assumed the role of regent until he was fit to rule the kingdom himself. This, however, further damaged the political stability of Jerusalem, as the kingdom now had a woman and a child in charge at a time when such a position would be almost certainly dominated by a male. The remaining crusader states to the north, previously within Jerusalem's sphere of influence, further exerted their independence, while foreign Muslim powers who had previously stayed at bay due to the influence of Jerusalem in the region took the opportunity to launch campaigns across the region. The most successful of these was Zengi, whose capture of Edessa prompted the second crusade.[NEWLINE][NEWLINE]Now 18, Baldwin played a pivotal role in the crusade, hosting the council which decided upon Damascus as the target over Aleppo. Ultimately however, the crusade resulted in a resounding defeat, damaging morale in the Christian-controlled regions and amongst the crusaders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_HEADING_4">
+			<Text>Civil War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_TEXT_4">
+			<Text>The failure of the crusade prompted Baldwin to take a step back, and re-examine his position within the Kingdom. Despite being old enough to rule alone, he had largely ignored domestic affairs within Jerusalem, allowing his mother to continue her role as regent. Baldwin's attempts to regain control of the kingdom drew the ire of Melisende, and in an attempt to prevent a conflict between the two the royal council split the kingdom into two separate districts - Baldwin controlled the north, and Melisende the south. This, of course, did little to prevent a conflict, and only a matter of weeks after the split Baldwin invaded Melisende's portion. After seeing how quickly Baldwin swept across the rest of his mother's territory, Jerusalem welcomed him as the rightful king in an attempt to prevent further bloodshed. Melisende and her inner circle hid in the Tower of David for protection, and in exchange for her surrender was given control of the city of Nablus by Baldwin. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_HEADING_5">
+			<Text>Home and Abroad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_TEXT_5">
+			<Text>While Baldwin III had been dealing with events at home in the civil war, his opponents abroad had taken the opportunity of a weakened Jerusalem to expand their own spheres of influence. Most notably amongst these was the Muslim warlord Nur ad-Din, who in this time had taken control of Damascus and Aleppo, forming a unified Syria which proved too formidable for the Christian forces to conquer. Baldwin therefore turned his attention south, and having rebuilt the internal political stability of Jerusalem, sought to again expand his empire through conquest. Baldwin made significant advances in this area, conquering the fortress of Ascalon in 1153 and ensuring that Egypt did not provide a substantial threat to Jerusalem for the remainder of his rule. [NEWLINE][NEWLINE] Baldwin had just as much involvement in military endeavours in the North as he did in the south. He defeated an invasion attempt from a Turkic state in 1152, as well as attempted an invasion of Syria in 1157. These actions proved him to the west as a strong and capable leader, and earned him the right to form an alliance with the Byzantine empire through marriage in 1158. Despite this, Baldwin died five years later from a rumoured assassination attempt, leaving behind no children - his wife was only 18 at the time of his death - and passing the kingdom to his brother, Amalric. From the great heights reached under Baldwin III, the kingdom began a slow decline over the next century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_HEADING_6">
+			<Text>Verdict of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_TEXT_6">
+			<Text>By all accounts, Baldwin III was a great leader of Jerusalem. From a childhood in turmoil, he was able to deftly navigate the political situation both within the Kingdom and across the region as a whole, to ensure Jerusalem remained a strong contender. He was able to reunite a divided kingdom, while fending off invasions on all fronts and still managing to expand Jerusalem's reach. Despite his efforts, the kingdom began a steady decline after his rule, no matter how hard he was able to maintain the kingdon's position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_FIRST_GREETING_1">
+			<Text>Welcome to Jerusalem - have you come to honour our Lord and Saviour?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_FIRST_GREETING_2">
+			<Text>Lo, a new pilgrim has ventured to the Holy Land! Tell me of your homeland, and of your faith!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_DEFEATED_1">
+			<Text>The Lord has betrayed us, for we have done nought but fight in His name and we are met with this fate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_BALDWIN_DEFEATED_2">
+			<Text>It seems the heathens have defeated us, this is a dark day for Christendom. I worry for the redemption of all of the holy land.</Text>
+		</Row>
+		<!--==========================================-->
+		<!--=== City List ============================-->
+		<!--==========================================-->
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_JERUSALEM">
+			<Text>Jerusalem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_ACRE">
+			<Text>Acre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_ALEPPO">
+			<Text>Aleppo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_TRIPOLI">
+			<Text>Tripoli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_ASCALON">
+			<Text>Ascalon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_GAZA">
+			<Text>Gaza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_KRAK_DES_CHEVALIERS">
+			<Text>Krak des Chevaliers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_TYRE">
+			<Text>Tyre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_JAFFA">
+			<Text>Jaffa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_SIDON">
+			<Text>Sidon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_DARON">
+			<Text>Daron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_CAESAREA">
+			<Text>Caesarea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_HEBRON">
+			<Text>Hebron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_MONT_RÉAL">
+			<Text>Mont Réal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_NAZARETH">
+			<Text>Nazareth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_BETHLEHEM">
+			<Text>Bethlehem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_BERYTUS">
+			<Text>Berytus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_HAIFA">
+			<Text>Haifa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_JERICHO">
+			<Text>Jericho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_RAPHIA">
+			<Text>Raphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_BEIRUT">
+			<Text>Beirut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_JERUSALEM_ANTIOCH">
+			<Text>Antioch</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

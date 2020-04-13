@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3d09b87c-3a3b-4f47-aa21-b41fe1035c02" version="1">
+  <Properties>
+    <Name>DMS' Civilizations - Zaire (Mobutu Sese Seko)</Name>
+    <Stability>Beta</Stability>
+    <Teaser>This adds [COLOR_POSITIVE_TEXT]Zaire[ENDCOLOR] led by Mobutu Sese Seko to the game.</Teaser>
+    <Description>see more on civfanatics.com</Description>
+    <Authors>DMS</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D27038EC32B5CC149C0CF216AFF74F4F" import="1">Art/DOM_Map/DMS_Mobutu_DOM.dds</File>
+    <File md5="79CAE90BB4E15251A97E84E69A1AD4EB" import="1">Art/DOM_Map/DMS_Zaire_Map512.dds</File>
+    <File md5="729B2E50CA311092DB9DF475CEF1FFAA" import="1">Art/Graphics/sv_presidental_division.dds</File>
+    <File md5="AA4F4FB0D960480506DB1DBB7AD4CEC6" import="1">Art/IconAtlases/DMS_Zaire_AlphaIcon_128.dds</File>
+    <File md5="AD81D4DE012A98F3986967829AC655B0" import="1">Art/IconAtlases/DMS_Zaire_AlphaIcon_24.dds</File>
+    <File md5="83CD711C62D37D7AB02C70DD1EE26FCE" import="1">Art/IconAtlases/DMS_Zaire_AlphaIcon_32.dds</File>
+    <File md5="BC648510E68D830DF8C5B6125491419C" import="1">Art/IconAtlases/DMS_Zaire_AlphaIcon_45.dds</File>
+    <File md5="455231536A9CEE79A60321BE00B718C2" import="1">Art/IconAtlases/DMS_Zaire_AlphaIcon_48.dds</File>
+    <File md5="4C3F6A5675C135EBEB10EE44ED717B7A" import="1">Art/IconAtlases/DMS_Zaire_AlphaIcon_64.dds</File>
+    <File md5="EDF8265E7B880B266E8B5703E6AE1F2D" import="1">Art/IconAtlases/DMS_Zaire_AlphaIcon_80.dds</File>
+    <File md5="1857AFA23BA7F093F34096627E9F54A8" import="1">Art/IconAtlases/DMS_Zaire_IconAtlas_128.dds</File>
+    <File md5="5BC7BB77296A790118BB532093D09DBC" import="1">Art/IconAtlases/DMS_Zaire_IconAtlas_256.dds</File>
+    <File md5="953BD54CDCA36E02E1995077FEFBFC0D" import="1">Art/IconAtlases/DMS_Zaire_IconAtlas_32.dds</File>
+    <File md5="28AE31BA55D1EB58102C67A48EE8E425" import="1">Art/IconAtlases/DMS_Zaire_IconAtlas_45.dds</File>
+    <File md5="97F907C341C8255A436163DF29786CA4" import="1">Art/IconAtlases/DMS_Zaire_IconAtlas_64.dds</File>
+    <File md5="B7DB1F61086912FF77527455465D5D4D" import="1">Art/IconAtlases/DMS_Zaire_IconAtlas_80.dds</File>
+    <File md5="C5A747E9B0770FE2DA3F42554AC40700" import="1">Art/IconAtlases/UnitFlag_PresidentalDivison_32.dds</File>
+    <File md5="B1B04CCA396EF40771F5A9233808FE66" import="1">Art/Leaderscene/DMS_Mobutu.dds</File>
+    <File md5="2C35BBE4DD2DFD534752B5A72B84AA1A" import="1">Art/Leaderscene/DMS_Mobutu.xml</File>
+    <File md5="E8C19043789D8EDFA5FB69BD7117C7BD" import="1">Audio/DMS_Mobutu_War.mp3</File>
+    <File md5="FF969236090D7CC7BB0640F26D8D6462" import="1">Audio/DMS_Mobutu_Peace.mp3</File>
+    <File md5="8DBA4E321F3C1D5487BE24B81598E4D7" import="0">Core/DMS_Zaire_ArtDefines.sql</File>
+    <File md5="E4197A7007B675BD9B894FFFEFD56A5B" import="0">Core/DMS_Zaire_GameDefines.sql</File>
+    <File md5="6E37676CD2A03341BEA51624B59C45B3" import="0">Core/DMS_Zaire_GameDefines_Diplomacy.sql</File>
+    <File md5="56D4F9B1667DB71F90ED1E2D8337C092" import="0">Core/DMS_Zaire_GameDefines_ModSupport.sql</File>
+    <File md5="6AB853788DDA809852DB7868C2BB8DEE" import="0">Core/DMS_Zaire_GameText.xml</File>
+    <File md5="A4527FCDF9024BBBB4B9CC65CC05B862" import="0">Core/DMS_Zaire_GameText_Diplomacy.xml</File>
+    <File md5="9D6C0D0BD3FA0B6C6F885861A5248553" import="0">DMS_Zaire_Credits.txt</File>
+    <File md5="FE20509035C4ADE88D7E0EFD6C4A39AA" import="0">DMS_Zaire_UserSettings.sql</File>
+    <File md5="734107CCB9B85EF1B429197C725EA00A" import="0">Lua/DMS_Zaire_Functions.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="86C1C3EDCE4699DE320A932C4E70E22C" import="0">Lua/Utilities/Sukritact's MCIS/CityInfoStack.lua</File>
+    <File md5="120EB71025973A8A48B38314241DD0B3" import="0">Lua/Utilities/Sukritact's MCIS/CityInfoStack.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>DMS_Zaire_UserSettings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Zaire_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Zaire_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Zaire_GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Zaire_GameDefines_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Zaire_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Zaire_GameText_Diplomacy.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/DMS_Zaire_Functions.lua">
+      <Name>DMS_Zaire_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="01282629-e8d4-4c45-8ae9-5d8e606ec828" version="1">
+  <Properties>
+    <Name>Vanadius's Dutch East India Company</Name>
+    <Stability>Alpha</Stability>
+    <Description>Dutch East India Company</Description>
+    <Authors>Vanadius</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8EA88DC158548446DC9ACA56DE8B6FB4" import="0">Art/ArtDefines.xml</File>
+    <File md5="199B56342F40E9715A789B1567F51C41" import="1">Art/JanCoenScene.xml</File>
+    <File md5="A394ED61B48D89AD5AF15C89171BF3ED" import="1">Art/DOMJanCoen.dds</File>
+    <File md5="3EA86DA47A0259B9B0D70DE8927C2BC4" import="1">Art/JanCoen_diplo.dds</File>
+    <File md5="A15C38203B3F6036567C913AD3616BAC" import="0">Art/Oostindievaader/OostindievaaderDefines.sql</File>
+    <File md5="A0A78B394453F9E76CA283C6D3C7C406" import="1">Art/Oostindievaader/u_indiaman.fxsxml</File>
+    <File md5="F73836FFD45303F2D368C5A61C30F6E5" import="1">Art/Oostindievaader/u_indiaman.gr2</File>
+    <File md5="2987B3F39998B6D4594BB34DEB3980CD" import="1">Art/Oostindievaader/u_indiaman_diff.dds</File>
+    <File md5="C6938A6C79B038CECB2A15B696679953" import="1">Art/Oostindievaader/u_indiaman_dmg_diff.dds</File>
+    <File md5="3B18720434DE6652DA896711339047C9" import="0">Art/Opperhoofd/OpperhoofdDefines.sql</File>
+    <File md5="1130D451FAD05BD18970937CCDD044E8" import="1">Art/Opperhoofd/u_opperhoofd.fxsxml</File>
+    <File md5="B62F77FF42D51BF181C8B025FF904463" import="1">Art/Opperhoofd/u_opperhoofd.gr2</File>
+    <File md5="2047B6068F2B117AFBBC3B29D5B9F4E0" import="1">Art/Opperhoofd/u_opperhoofd.dds</File>
+    <File md5="3DD4A9599DC270AC42435A475629F9AF" import="1">Art/Opperhoofd/u_opperhoofd_sref.dds</File>
+    <File md5="7855443EE164862DA00D65F8BC64A44D" import="1">Art/VerenigdeOost-IndischeCompagnie.dds</File>
+    <File md5="E90F069ED280BB88B9365EB60E862EC1" import="1">Art/VOCAlpha24.dds</File>
+    <File md5="61D193E0F343F5B79DA6D85F0E557E2F" import="1">Art/VOCAlpha32.dds</File>
+    <File md5="D239D32D7933E038D746F680A097037E" import="1">Art/VOCAlpha48.dds</File>
+    <File md5="5C787D64ECF7F869C58B0250A9E6DA30" import="1">Art/VOCAlpha64.dds</File>
+    <File md5="D0BDEF4A8FE033366E0D51CF48A35454" import="1">Art/VOCAtlas128.dds</File>
+    <File md5="1FB520FF8156816922A2DCAB1691BA01" import="1">Art/VOCAtlas256.dds</File>
+    <File md5="3CAA4C79B1F76013560760C8CF9B75E7" import="1">Art/VOCAtlas32.dds</File>
+    <File md5="D72BB30F5A8060A9E6D9AA7E3E4EC32E" import="1">Art/VOCAtlas45.dds</File>
+    <File md5="DA71F6A8209A53C3ABB52342FB6A09EA" import="1">Art/VOCAtlas64.dds</File>
+    <File md5="E76EFDC7DA2BF833B8639456D8B5AE34" import="1">Art/VOCAtlas80.dds</File>
+    <File md5="595BE167CBF7ECD9A034917A32CFDCF4" import="1">Art/VOCUnitFlagAtlas32.dds</File>
+    <File md5="0C7F6C20C4B6FFEB9C7E600AC56FF2DD" import="0">DuskJockey's Indonesia Revised/Code/GajahMadaFunctions.lua</File>
+    <File md5="7F2EC12B7ECB306231CC68B3B9FFAA57" import="0">DuskJockey's Indonesia Revised/Code/GajahMadaGameDefines.sql</File>
+    <File md5="A88C867F4A4DEC18E7F410F92CE2C98A" import="0">DuskJockey's Indonesia Revised/Code/GajahMadaText.xml</File>
+    <File md5="86C1C3EDCE4699DE320A932C4E70E22C" import="0">DuskJockey's Indonesia Revised/Code/Sukritact's MCIS/CityInfoStack.lua</File>
+    <File md5="120EB71025973A8A48B38314241DD0B3" import="0">DuskJockey's Indonesia Revised/Code/Sukritact's MCIS/CityInfoStack.xml</File>
+    <File md5="A42AB038DC42A95D3732DE18FE154CF6" import="0">DuskJockey's Indonesia Revised/Code/Sukritact's MCIS/GajahMadaCityInfo.lua</File>
+    <File md5="F5380EC21A6DF8B567A69F1B3655FEFD" import="0">DuskJockey's Indonesia Revised/Code/Sukritact's MCIS/GajahMadaCityInfo.xml</File>
+    <File md5="90A5441A5420F4D85C02A7E01A872CA1" import="0">DuskJockey's Indonesia Revised/Credits.txt</File>
+    <File md5="77B601D9E29F729B7627481D0EFAE790" import="0">Lua/CityMovement.lua</File>
+    <File md5="BC410AC84323DC3526D6E454E875826C" import="0">Lua/VOCFunctions.xml</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="0">Lua/SaveUtils.lua</File>
+    <File md5="95FD7D97C46BE3DD9EEBDA48E5C94582" import="0">ModSupport.sql</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="CA7C1E3183A3AF5776950D4E87B1CCF5" import="0">Lua/VOCFunctions.lua</File>
+    <File md5="25551C350E847AF18580E8106FA54851" import="0">SQL/Buildings/DummyBuildings.sql</File>
+    <File md5="CF4B99EC7A7A87A5AD1B31B22A1927D8" import="0">XML/Buildings/DummyBuildings.xml</File>
+    <File md5="3E52681D2C6E32ADB9114781F504622D" import="0">XML/Buildings/DummyBuildingsTwo.sql</File>
+    <File md5="58319EF78E6FA57A2EF00162B732FC88" import="0">XML/Civilizations/VOC_Civilizations.xml</File>
+    <File md5="5EDC7581B39FBBD41605EBCD15DB3522" import="0">XML/Diplomacy/VOC_Diplomacy.xml</File>
+    <File md5="EDE61F3562E959EB4A48CD9C92DDCB32" import="0">XML/IconTextureAtlases.xml</File>
+    <File md5="E9A05EF78423D367D858E00E803BFB9B" import="0">XML/Leaders/Leader.xml</File>
+    <File md5="B2C322986AB5C58D807E8E444EBB4F6C" import="0">XML/Leaders/Trait.xml</File>
+    <File md5="1E8C586DE9F7FF8B2A083CBF7F7EB6D8" import="0">XML/Text/VOC_Text.xml</File>
+    <File md5="59F5C3EE803301A6DC1BB106B6891E8B" import="0">XML/Units/Opperhoofd.xml</File>
+    <File md5="A5733A2F0C6B32798850295C6836568B" import="0">XML/Units/EastIndiaman.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Civilizations/VOC_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/VOC_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/EastIndiaman.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/VOC_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Opperhoofd.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/DummyBuildings.xml</UpdateDatabase>
+      <UpdateDatabase>DuskJockey's Indonesia Revised/Code/Sukritact's MCIS/CityInfoStack.xml</UpdateDatabase>
+      <UpdateDatabase>DuskJockey's Indonesia Revised/Code/Sukritact's MCIS/GajahMadaCityInfo.xml</UpdateDatabase>
+      <UpdateDatabase>DuskJockey's Indonesia Revised/Code/GajahMadaGameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>DuskJockey's Indonesia Revised/Code/GajahMadaText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/DummyBuildingsTwo.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Oostindievaader/OostindievaaderDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Opperhoofd/OpperhoofdDefines.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/VOCFunctions.lua">
+      <Name>V-O-CFunctions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

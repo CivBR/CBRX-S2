@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 09/18/16 7:26:12 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DECISIONS_TOLO">
+			<Text>Establish the Livonian Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TOLO_DESC">
+			<Text>
+				Our fellow crusaders have fallen upon hard times lately and are in needed of assistance. We shall create a new branch of our order, the Livonian Order, to give them a new home.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Teutonic Order
+				[NEWLINE][ICON_BULLET]Must have Chivalry
+				[NEWLINE][ICON_BULLET]Must have a majority/state religion
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_PEACE] Faith
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Militaristic City States gift twice as many units when fighting a common enemy.
+				[NEWLINE][ICON_BULLET]+40 [ICON_INFLUENCE] Influence with all [ICON_CITY_STATE] City States following your religion.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TOLO_ENACTED_DESC">
+			<Text>
+				Our fellow crusaders have fallen upon hard times lately and are in needed of assistance. We shall create a new branch of our order, the Livonian Order, to give them a new home.[NEWLINE]
+				[NEWLINE][ICON_BULLET]Militaristic City States gift twice as many units when fighting a common enemy.
+				[NEWLINE][ICON_BULLET]+40 [ICON_INFLUENCE] Influence with all [ICON_CITY_STATE] City States following your religion.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_OSTSIEDLUNG">
+			<Text>Order the Ostsiedlung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_OSTSIEDLUNG_DESC">
+			<Text>
+				There are plentiful empty lands near our nation's borders and our people clamor  for the opportunity to settle it. We encourage the settling of these lands by our people, to further spread our power and culture. [NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Teutonic Order
+				[NEWLINE][ICON_BULLET]Must be in at least the Medieval Era
+				[NEWLINE][ICON_BULLET]Must have a majority/state religion
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Allows you to train Ostsiedlers, unique Settlers that don't stop [ICON_FOOD] Food production and have +1 [ICON_ARROW_RIGHT] Movement.
+				[NEWLINE][ICON_BULLET]Cities start with +1 [ICON_CITIZEN] Citizen.
+				[NEWLINE][ICON_BULLET]Settling cities converts [ICON_CITIZEN] Citizens of cities within 5 tiles to your religion.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_OSTSIEDLUNG_ENACTED_DESC">
+			<Text>
+				There are plentiful empty lands near our nation's borders and our people clamor  for the opportunity to settle it. We encourage the settling of these lands by our people, to further spread our power and culture. [NEWLINE]
+				[NEWLINE][ICON_BULLET]Allows you to train Ostsiedlers, unique Settlers that don't stop [ICON_FOOD] Food production and have +1 [ICON_ARROW_RIGHT] Movement.
+				[NEWLINE][ICON_BULLET]Cities start with +1 [ICON_CITIZEN] Citizen.
+				[NEWLINE][ICON_BULLET]Settling cities converts [ICON_CITIZEN] Citizens of cities within 5 tiles to your religion.
+			</Text>
+		</Row>
+		<!--RYOGA UNIQUE CULTURAL INFLUENCE-->
+		<Row Tag="TXT_KEY_GENERIC_UC_TEUTONS_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now shouting "Deus Vult!" as they charge into battle and clamoring for the construction of castles in heathen territory. I fear the rest of the world succumbs to your cultural influence and disturbing violent religious fervor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UC_TEUTON_PIETY">
+			<Text>Military buildings may be bought with [ICON_PEACE] Faith, and [ICON_PEACE] Faith purchases contribute towards Honor policies. Citadels provide the same yields as Holy Sites and Great Generals are produced faster based on [ICON_JFD_PIETY] Piety level.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_OSTSIEDLER">
+		<Text>Ostsiedler</Text>
+	</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_OSTSIEDLER_STRATEGY">
+			<Text>Unique settler only available to the Teutonic Order after enacting the "Order the Ostsiedlung" decision. Does not consume [ICON_FOOD] Food while being recruited and has +3 [ICON_MOVEMENT] Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_OSTSIEDLER_SETTLER">
+			<Text>Unique settler only available to the Teutonic Order after enacting the "Order the Ostsiedlung" decision. Does not consume [ICON_FOOD] Food while being recruited and has +3 [ICON_MOVEMENT] Movement.</Text>
+		</Row>
+		
+
+
+
+
+
+
+	</Language_en_US>
+	
+  
+</GameData>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT16" FontStyle="Shadow">
+
+	<!-- KnightlyInstance -->
+	<Instance Name="KnightlyInstance" >
+		<Button ID="KnightlyButton" Size="230,548" Offset="0,0" Color="0,0,0,0">
+
+			<Image Anchor="C,C" Offset="0,0" Texture="VerticalTrim.dds" Size="5,548" ID="VerticalTrim"/>
+
+			<Box ID="KnightlyBanner" Size="230,548" Offset="0,0" Anchor="C,T" Color="0,0,0,200">
+
+				<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="230,548" Color="255,255,255,255" Texture="SepulchreBanner.dds" ID="KnightlySplash"/>
+				<Box ID="DarkOverlay" Size="230,548" Offset="0,0" Anchor="C,T" Color="0,0,0,200">
+
+					<Box ID="TransparentOverlay" Size="230,548" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
+						<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="230,548" Color="255,255,255,255" Texture="BlueHighlight.dds"/>
+					</Box>
+
+					<Stack Anchor="C,T" Offset="0,0" Padding="0" Size="0,0" StackGrowth="Bottom" ID="KnightlySubStack">
+
+						<Image Anchor="C,T" Offset="0,0" TextureOffset="0.0"  Texture="256x256Frame.dds" Size="256,256" ID="PortraitFrame">
+							<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="Portrait"/>
+						</Image>
+
+						<Label Anchor="C,C" WrapWidth="225" Offset="0,0" String="Words" Font="TwCenMT18" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255" ID="KnightlyHead"/>
+						<Label Anchor="C,C" WrapWidth="225" Offset="0,10" String="Words" Font="TwCenMT18" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255" ID="KnightlyHead2"/>
+
+						<Image Anchor="C,C" Offset="0,10" Texture="bar200x1.dds" Size="200,1"/>
+
+						<Label Anchor="C,C" WrapWidth="225" Offset="0,10" String="Words" Font="TwCenMT18" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255" ID="KnightlyBody"/>
+
+						<Image Anchor="C,C" Offset="0,10" Texture="bar200x1.dds" Size="200,1"/>
+
+						<Label Anchor="C,C" WrapWidth="225" Offset="0,10" String="UNLOCKS:" Font="TwCenMT18" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
+
+						<Box Size="230,64" Offset="0,0" Anchor="C,C" Color="0,0,0,0">
+							<Image Anchor="C,C" Offset="-57.5,0" TextureOffset="0.0"  Texture="IconFrame64.dds" Size="64,64" ID="UnitFrame">
+								<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="64,64" ID="Unit"/>
+							</Image>
+							<Image Anchor="C,C" Offset="57.5,0" TextureOffset="0.0"  Texture="IconFrame64.dds" Size="64,64" ID="BuildingFrame">
+								<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="64,64" ID="Building"/>
+							</Image>
+						</Box>
+					</Stack>
+
+				</Box>
+			</Box>
+
+		</Button>
+	</Instance>
+
+	<Box Color="Black.128" Size="Full.Full" ID="FullScreenOverlay" ConsumeMouse="1" Hidden="1">
+		<Grid Size="650,653" Anchor="C,C" Offset="0,-5" Padding="0,0" Style="Grid9DetailFive140" ID="KnightlyPanel">
+			<Label Style="MenuTitleCaption" String="Choose a Chivalric Order"/>
+
+			<ScrollPanel Anchor="C,C" Size="615,636" Vertical="0" ID="KnightlyScrollPanel" AutoScrollBar="1">
+
+				<Stack Anchor="C,C" Offset="0,-9" Padding="0" Size="0,0" StackGrowth="Right" ID="KnightlyStack"/>
+
+				<ScrollBar  Offset="0,-52"	Anchor="C,B"	AnchorSide="I,O"	Style="ScrollBar" Length="300" ID="KnightlyScrollBar"/>
+				<UpButton   Offset="0,-52"	Anchor="L,B"	AnchorSide="I,O"	Style="ScrollBarLeft"   />
+				<DownButton Offset="0,-52"	Anchor="R,B"	AnchorSide="I,O"	Style="ScrollBarRight"  />
+
+			</ScrollPanel>
+
+			<!-- Back Button -->
+			<GridButton Anchor="C,B" Style="BaseButton" Size="250,36" Offset="260,-40" StateOffsetIncrement="0,0" ID="CloseButton">
+				<Label Anchor="C,C" Offset="0,0" String="Confirm Selection" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			</GridButton>
+
+			<GridButton Anchor="C,B" Style="BaseButton" Size="250,36" Offset="-260,-40" StateOffsetIncrement="0,0" ID="TrueCloseButton">
+				<Label Anchor="C,C" Offset="0,0" String="Close" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			</GridButton>
+
+		</Grid>
+	</Box>
+</Context>

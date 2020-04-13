@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--GAZEBO COMMUNITY BALANCE PATCH-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_WAR_ACADEMY_HELP_CBP">
+			<Text>+25 XP for all Units. This XP counts toward your next [ICON_GREAT_PEOPLE] Great General when awarded to a newly produced Military Land Unit.[NEWLINE][NEWLINE]City must have an Armory.</Text>
+		</Row>
+		<!--RYOGA UNIQUE CULTURAL INFLUENCE-->
+		<Row Tag="TXT_KEY_GENERIC_JFD_SWEDEN_KARL_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now abstaining from alcohol and sex, and living the lives of hardened soldiers. We're worried the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<!--SUKRITACT DECISIONS-->
+		<!--Encourage Military Sciences-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SWEDEN_KARL_MILITARY_SCIENCE">
+			<Text>Encourage Military Sciences</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SWEDEN_KARL_MILITARY_SCIENCE_DESC">
+			<Text>War is, of course, the greatest lubricant to progress, and so, in this age where war is fought not only by soldiers but also by scientists and engineers, let us see that the military sciences are amply supported by the gold in our treasury.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must Sweden (Karl XII)
+				[NEWLINE][ICON_BULLET]Must have researched Military Science
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science from every Barracks, Armory, and Military Academy
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SWEDEN_KARL_MILITARY_SCIENCE_ENACTED_DESC">
+			<Text>
+				War is, of course, the greatest lubricant to progress, and so, in this age where war is fought not only by soldiers but also by scientists and engineers, let us see that the military sciences are amply supported by the gold in our treasury.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science from every Barracks, Armory, and Military Academy
+			</Text>
+		</Row>
+		<!--Establish the Octal Numerical System-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SWEDEN_KARL_OCTAL_SYSTEM">
+			<Text>Establish the Octal Numerical System</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SWEDEN_KARL_OCTAL_SYSTEM_DESC">
+			<Text>There are serious flaws in the application of our current numerical system when it comes to matters of war. Not accurately enough does it calculate the supplies that we both use and need. That is why we shall henceforth employ the octal system.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must Sweden (Karl XII)
+				[NEWLINE][ICON_BULLET]Must have researched Military Science
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_RESEARCH] Science
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]5 Units are maintenance free
+				[NEWLINE][ICON_BULLET]May support 25% more units
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_SWEDEN_KARL_OCTAL_SYSTEM_ENACTED_DESC">
+			<Text>
+				There are serious flaws in the application of our current numerical system when it comes to matters of war. Not accurately enough does it calculate the supplies that we both use and need. That is why we shall henceforth employ the octal system.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]5 Units are maintenance free
+				[NEWLINE][ICON_BULLET]May support 25% more units
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORLD_EVENTS_SWEDEN_KARL_OCTAL_SYSTEM">
+			<Text>{1_LeaderName} of {2_CivName} has developed the octal numerical system in order to more accurately calculate war supplies.</Text>
+		</Row>
+		<!--SUKRITACT EVENTS-->
+		<!--The Anjala Conspiracy-->
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_ANJALA_CONSPIRACY">
+			<Text>The Anjala Conspiracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_ANJALA_CONSPIRACY_DESC">
+			<Text>It has been revealed to us that a group of disgruntled officers are conspiring against our current war efforts. Secretly, they have been in contact with our enemies, leaking crucial information and undermining our favourable position in this war.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_ANJALA_CONSPIRACY_OUTCOME_1">
+			<Text>Perhaps we can negotiate with the traitors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_ANJALA_CONSPIRACY_OUTCOME_2">
+			<Text>Execute the traitors!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_ANJALA_CONSPIRACY_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLDEN_AGE] Golden Age Points[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]60% chance you gain two free Great Generals[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_ANJALA_CONSPIRACY_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_GOLDEN_AGE] Golden Age Points[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SWEDEN_KARL_ANJALA_CONSPIRACY_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have settled the disgruntlement of our officers and won back their allegiance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORLD_EVENTS_SWEDEN_KARL_ANJALA_CONSPIRACY_1">
+			<Text>{1_LeaderName} of {2_CivName} has shrewdly negotiated talks with several military officers found to be conspiring against him.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SWEDEN_KARL_ANJALA_CONSPIRACY_OUTCOME_RESULT_1_ALT_NOTIFICATION">
+			<Text>Unfortunately, negotiations with our disgruntled officers have failed and we were forced to have them imprisoned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORLD_EVENTS_SWEDEN_KARL_ANJALA_CONSPIRACY_1_ALT">
+			<Text>{1_LeaderName} of {2_CivName} has imprisoned several military officers found to be conspiring against him.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SWEDEN_KARL_ANJALA_CONSPIRACY_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have executed those officers opposed to our current war efforts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORLD_EVENTS_SWEDEN_KARL_ANJALA_CONSPIRACY_2">
+			<Text>{1_LeaderName} of {2_CivName} has put down several military officers found to be conspiring against him.</Text>
+		</Row>
+		<!--Call for Reprieve-->
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_REPRIEVE">
+			<Text>Call for Reprieve</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_REPRIEVE_DESC">
+			<Text>Our rule over Sweden is a tireless one, and without reprieve we should expect an early grave. Accordingly, we have been offered some advice: our chaplain has suggested that we take prayer, our chancellor that we take to the bed of a sultry {1_Gender}, and our good friend that we take to drink.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_1">
+			<Text>No rest for the weary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Num} [ICON_GOLDEN_AGE] Golden Age Points[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]All Military Land Units gain 5 XP[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We shall never take rest so long as enemies stand at our borders!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_2">
+			<Text>Perhaps we shall find our answers in God.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]All Military Land Units lose 5 XP[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} {2_YieldType}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have decided to surrender our charge on the battlefield in order to spend time in prayer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_3">
+			<Text>Perhaps sex would do us well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_RESULT_3">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]All Military Land Units lose 5 XP[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain {1_Num} [ICON_GOLDEN_AGE] Golden Age Points[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_RESULT_3_NOTIFICATION">
+			<Text>We have decided to surrender our charge on the battlefield in order to lay with another.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_4">
+			<Text>Perhaps a drink or two would do no harm.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_RESULT_4">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]All Military Land Units lose 5 XP[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]All cities begin celebrating 'We Love the King Day' for 5 turns[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SWEDEN_KARL_REPRIEVE_OUTCOME_RESULT_4_NOTIFICATION">
+			<Text>We have decided to surrender our charge on the battlefield in order to lay with another (yes, this is intentionally the same as the sex one).</Text>
+		</Row>
+		<!--VICEVIRTUOSO WISH FOR THE WORLD-->
+		<Row Tag="TXT_KEY_PMMM_LEADER_MG_NAME_JFD_SWEDEN_KARL">
+			<Text>Ulrika Eleonora</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

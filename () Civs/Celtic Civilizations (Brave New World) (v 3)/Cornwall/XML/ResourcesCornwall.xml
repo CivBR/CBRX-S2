@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/22/2014 8:59:18 PM -->
+<GameData>
+	<Resources>
+		<Row>
+			<Type>RESOURCE_TIN</Type>
+			<Happiness>4</Happiness>
+			<Description>TXT_KEY_RESOURCE_TIN</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TIN_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_TIN_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_IRON</ArtDefineTag>
+			<PlacementOrder>3</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>1500</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Player>67</Player>
+			<Flatlands>true</Flatlands>
+			<IconString>[ICON_RES_IRON]</IconString>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TIN_ATLAS</IconAtlas>
+		</Row>
+	</Resources>
+	<Resource_YieldChanges>
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Resource_YieldChanges>
+</GameData>

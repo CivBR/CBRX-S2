@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2019 11:22:45 PM -->
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_ORG_MANSUR">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ORG_MANSUR_FIRSTGREETING</Response>
+		</Row>
+		<Row LeaderType="LEADER_ORG_MANSUR">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ORG_MANSUR_DEFEATED</Response>
+		</Row>
+		<Row LeaderType="LEADER_ORG_MANSUR">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ORG_MANSUR_GREETING_POLITE_HELLO</Response>
+		</Row>
+		<Row LeaderType="LEADER_ORG_MANSUR">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ORG_MANSUR_GREETING_NEUTRAL_HELLO</Response>
+		</Row>
+		<Row LeaderType="LEADER_ORG_MANSUR">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ORG_MANSUR_GREETING_HOSTILE_HELLO</Response>
+		</Row>
+		<Row LeaderType="LEADER_ORG_MANSUR">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ORG_MANSUR_HOSTILE_AGGRESSIVE_MILITARY_WARNING</Response>
+		</Row>
+		<Row LeaderType="LEADER_ORG_MANSUR">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ORG_MANSUR_EXPANSION_SERIOUS_WARNING</Response>
+		</Row>
+		<Row LeaderType="LEADER_ORG_MANSUR">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_ORG_MANSUR_REQUEST</Response>
+		</Row>
+		<Row LeaderType="LEADER_ORG_MANSUR">
+			<ResponseType>RESPONSE_DECLAREWAR</ResponseType>
+			<Response>TXT_KEY_LEADER_ORG_MANSUR_DECLAREWAR</Response>
+		</Row>
+	</Diplomacy_Responses>
+</GameData>

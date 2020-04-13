@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0c81d6e6-2b9f-4ae6-bb81-18e6f23ea04a" version="3">
+  <Properties>
+    <Name>[BNW] Colonialist Legacies - Nigeria</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds Nigeria, led by Obafemi Awolowo, into the game!</Teaser>
+    <Description>Adds Nigeria, led by Obafemi Awolowo, into the game!</Description>
+    <Authors>TPangolin, JFD</Authors>
+    <SpecialThanks>senshidenshi</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD’s Sovereignty" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD’s and Pouakai’s Mercenaries" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD’s Claims, Colonies, and Crimes" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="8BAEB65315C505F57403DA627F99D58D" import="1">Art/Diplomacy/Diplo_Awolowo.dds</File>
+    <File md5="37FCB678507BA49378FFEC5922CF996E" import="1">Art/Diplomacy/Awolowo_Scene.xml</File>
+    <File md5="6472FC7EEC3B85796FE2A30A4E5B0685" import="0">Art/Graphics/Ugboelu/UgDefines.xml</File>
+    <File md5="A32F340D554C7292132C72DA484ABCA7" import="1">Art/Graphics/Ugboelu/MiG-15tc.dds</File>
+    <File md5="DA0CA074EF3BEBFFAF1D65EBAA0AC353" import="1">Art/Graphics/Ugboelu/MiG-15tc.fxsxml</File>
+    <File md5="C75C1D2DE2E58BD518CA1005B5496848" import="1">Art/Graphics/Ugboelu/MiG-15tc.gr2</File>
+    <File md5="35D5E9DCDAD28FD1194F4D8848904C21" import="1">Art/Graphics/Ugboelu/MiG-15tc_gloss.dds</File>
+    <File md5="3B3D46281B562C671EDE9D93B5559143" import="0">Art/Graphics/YanLifidia/YLDefines.xml</File>
+    <File md5="045BA83C20C85804E45F214D9BA4F5DB" import="1">Art/Graphics/YanLifidia/Knight_China.dds</File>
+    <File md5="8F1623F7700F96F5F1F63445F860E3B8" import="1">Art/Graphics/YanLifidia/Knight_China.fxsxml</File>
+    <File md5="76093248416349CC632C122F69D1AAC2" import="1">Art/Graphics/YanLifidia/Knight_China.gr2</File>
+    <File md5="9303E036847472931663180A234E8716" import="1">Art/Graphics/YanLifidia/Knight_China.psd</File>
+    <File md5="1B7B58CAFF694D9C7AE80B42F1A5D591" import="1">Art/Graphics/YanLifidia/Knight_China_gloss.dds</File>
+    <File md5="514494BD4C3C94AA30B0679BBEA1CDD1" import="1">Art/Graphics/YanLifidia/Knight_China_Horse.dds</File>
+    <File md5="5244417CD4A8B2E961526B4865086CD5" import="1">Art/Graphics/YanLifidia/Knight_China_Horse.psd</File>
+    <File md5="70C4D3C3349871E4FA53EA3F250B2FEE" import="1">Art/Graphics/YanLifidia/Knight_China_Horse_gloss.dds</File>
+    <File md5="D8D8C3B322EC050CA98F28A27C18F721" import="1">Art/Graphics/YanLifidia/sv_YanLifidia.dds</File>
+    <File md5="EB9C5916AE062926870083EC4953A96F" import="1">Art/IconAtlas/CL_NigeriaAtlas_128.dds</File>
+    <File md5="14D40D1ACCDCDF4ABFE4C70620970A8D" import="1">Art/IconAtlas/CL_NigeriaAtlas_256.dds</File>
+    <File md5="DAB9937119855BF44357F798D5AB510C" import="1">Art/IconAtlas/CL_NigeriaAtlas_32.dds</File>
+    <File md5="214D45B7816D1D7BC9BE11D8EEFAFA06" import="1">Art/IconAtlas/CL_NigeriaAtlas_45.dds</File>
+    <File md5="A0EFC5FB5B64448E2A6361B68A7C1818" import="1">Art/IconAtlas/CL_NigeriaAtlas_64.dds</File>
+    <File md5="4AA2CB340B57E0D6F0D9EF4D43F76321" import="1">Art/IconAtlas/CL_NigeriaAtlas_80.dds</File>
+    <File md5="976B80EC7E1A17661C789638F99F6B51" import="1">Art/IconAtlas/CL_NigeriaAlphaAtlas_128.dds</File>
+    <File md5="0F47ACD392A2DF8892D1267AFE56D00A" import="1">Art/IconAtlas/CL_NigeriaAlphaAtlas_16.dds</File>
+    <File md5="061433D25280B17BFB2C5FFB9D4192C9" import="1">Art/IconAtlas/CL_NigeriaAlphaAtlas_24.dds</File>
+    <File md5="B65D3F4AC29DFF296AC89BD26DDCFD11" import="1">Art/IconAtlas/CL_NigeriaAlphaAtlas_32.dds</File>
+    <File md5="C5EB4514B0A5BFA9C7B135368307456B" import="1">Art/IconAtlas/CL_NigeriaAlphaAtlas_45.dds</File>
+    <File md5="627E4A7E78D005F7696601DBFD83F993" import="1">Art/IconAtlas/CL_NigeriaAlphaAtlas_48.dds</File>
+    <File md5="E06EFBF67B8A78A2B7127BEFD5744EBF" import="1">Art/IconAtlas/CL_NigeriaAlphaAtlas_64.dds</File>
+    <File md5="A7A0324F21EBFD3235677DD0C0A37755" import="1">Art/IconAtlas/CL_NigeriaAlphaAtlas_80.dds</File>
+    <File md5="0D7C5EA90D3A3C293E40E4EE4B256FD8" import="1">Art/IconAtlas/UnitFlagUgboeluAtlas_32.dds</File>
+    <File md5="321389826FFD2AC98433BBDD2E1E2B90" import="1">Art/IconAtlas/UnitFlagYanLifidiaAtlas_32.dds</File>
+    <File md5="51804E6E5B287E9007E4AC05E168B6C6" import="1">Art/Map/DOM_Awolowo.dds</File>
+    <File md5="585A47E36ED9C0E20462D52A06410EBB" import="1">Art/Map/MapNigeria512.dds</File>
+    <File md5="475E068A6E9E7648DC7FBD1AF7742DA8" import="0">Core/Civilizations.sql</File>
+    <File md5="A799EF7109A5A051355301EC4A454715" import="0">Core/DiplomacyResponses.xml</File>
+    <File md5="F9D5B2D2BEC5DC1BEF436B687519DDBA" import="0">Core/GameText.xml</File>
+    <File md5="2DBD0609B7B9D2D91A8A6945EDBEBE9B" import="0">Core/IconAtlas.sql</File>
+    <File md5="33E4EA5B99EA9283B512BA62DF9E9AD2" import="0">Core/Leaderhead.sql</File>
+    <File md5="CDF4137CFD4C37B0D07EA9677578FC01" import="0">Core/PlayerColours.sql</File>
+    <File md5="19046285C7BEE4CFABCB0DEBD106D57E" import="0">Core/Promotions.xml</File>
+    <File md5="D7DCCAB77F2197F05FAA43B1736F1869" import="0">Core/Traits.sql</File>
+    <File md5="EB06275FB5F31C932F399D16AE4D35DA" import="0">Core/Ugboelu.sql</File>
+    <File md5="3F0D766734E887B19771E564BD919156" import="0">Core/YanLifida.sql</File>
+    <File md5="3C2F517814B1D1691D8225A181482BBD" import="0">Lua/JFD_Nigeria_Functions.lua</File>
+    <File md5="5244308719C5B41D37E35BCE6F354D41" import="1">Lua/PlotIterators.lua</File>
+    <File md5="4EB0787EDD7429F3EF5F614FB6A09A9A" import="1">Sound/NigeriaPeace.mp3</File>
+    <File md5="93FA0202AF92C4B94A8CE47EC3EE9E67" import="1">Sound/NigeriaWar.mp3</File>
+    <File md5="33BB59DD0225FB82829F29D36E72E43B" import="0">Sound/SoundRig.xml</File>
+    <File md5="251C5925B4F6FB5B6FB06F20609A51B0" import="1">Support/CLNigeria Decisions.lua</File>
+    <File md5="5D93586E767E0E19E2FB6B2F938E29DD" import="0">Support/GameText_ModSupport.xml</File>
+    <File md5="C32C9A2931A7D5EB118CBD4789100AFE" import="0">Support/DecisionsFix.sql</File>
+    <File md5="9A95FF5B87A919368818501B2CFC6B18" import="0">Support/ModSupport.sql</File>
+    <File md5="DE2E563A6093A90B3140BF2E9E9F9A11" import="0">Support/MoreNigeriaDecisionsDummies.sql</File>
+    <File md5="F11684CA4144B29DA6D4C82520DCCBAB" import="0">Support/NigeriaDecisionsDummies.xml</File>
+    <File md5="55871A0B48077F24025F5147D21EC7D9" import="1">Support/NigeriaEvents.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Graphics/Ugboelu/UgDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Graphics/YanLifidia/YLDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Ugboelu.sql</UpdateDatabase>
+      <UpdateDatabase>Core/YanLifida.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Sound/SoundRig.xml</UpdateDatabase>
+      <UpdateDatabase>Core/IconAtlas.sql</UpdateDatabase>
+      <UpdateDatabase>Support/ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Support/GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>Support/NigeriaDecisionsDummies.xml</UpdateDatabase>
+      <UpdateDatabase>Support/MoreNigeriaDecisionsDummies.sql</UpdateDatabase>
+      <UpdateDatabase>Support/DecisionsFix.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DiplomacyResponses.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Nigeria_Functions.lua">
+      <Name>JFD_Nigeria_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

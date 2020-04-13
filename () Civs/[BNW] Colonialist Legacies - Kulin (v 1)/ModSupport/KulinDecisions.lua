@@ -1,0 +1,240 @@
+--------------------------------------------------------------------------------------------------
+--Kulin:  Establish Tanderrum Ceremonies
+--------------------------------------------------------------------------------------------------
+local iTanderrumGoldCost = 200--------------------------------------------------------------------
+local iTanderrumCultureCost = 150-----
+local iTanderrumMagistrateCost = 2----Adjust Numbers for balance purposes (Standard Speed)
+local iCSAllyReq = 1------------------
+local iCityReq = 3--------------------------------------------------------------------------------
+ 
+local iOBCultureBoost = 80--Adjust for balance purposes (Standard Speed)
+ 
+local Decisions_CLKulinEstablishTanderrum = {}
+        Decisions_CLKulinEstablishTanderrum.Name = "TXT_KEY_DECISIONS_CLKULINESTABLISHTANDERRUM"
+        Decisions_CLKulinEstablishTanderrum.Desc = "TXT_KEY_DECISIONS_CLKULINESTABLISHTANDERRUM_DESC"
+        HookDecisionCivilizationIcon(Decisions_CLKulinEstablishTanderrum, "CIVILIZATION_CL_KULIN")
+        Decisions_CLKulinEstablishTanderrum.CanFunc = (
+                function(pPlayer)
+                        if pPlayer:GetCivilizationType() ~= GameInfoTypes.CIVILIZATION_CL_KULIN then return false, false end
+                        if load(pPlayer, "Decisions_CLKulinEstablishTanderrum") == true then
+                                Decisions_CLKulinEstablishTanderrum.Desc = Locale.ConvertTextKey("TXT_KEY_DECISIONS_CLKULINESTABLISHTANDERRUM_ENACTED_DESC", iOBCultureBoost * iMod)
+                                return false, false, true
+                        end
+                        local iAllyCount = 0
+                        for i, pCiv in pairs(Players) do
+                                if (pCiv:IsAlive()) then
+                                        if (pCiv:IsMinorCiv()) then
+                                                if (pCiv:GetMinorCivFriendshipLevelWithMajor(pPlayer:GetID()) == 2) then
+                                                        iAllyCount = iAllyCount + 1
+                                                end
+                                        end
+                                end
+                        end
+                        if (iAllyCount < iCSAllyReq) then return true, false end
+                        local iCityCount = 0
+                        for pCity in pPlayer:Cities() do
+                                iCityCount = iCityCount + 1
+                        end
+                        if (iCityCount < iCityReq) then return true, false, end
+                        Decisions_CLKulinEstablishTanderrum.Desc = Locale.ConvertTextKey("TXT_KEY_DECISIONS_CLKULINESTABLISHTANDERRUM_DESC", iTanderrumGoldCost * iMod, iTanderrumCultureCost * iMod, iTanderrumMagistrateCost, iCityReq, iCSAllyReq, iOBCultureBoost)
+                        if (pPlayer:GetGold >= (iTanderrumGoldCost * iMod) and pPlayer:GetNumResourceAvailable(iMagistrate, false) >= iTanderrumMagistrateCost and pPlayer:GetJONSCulture() >= (iTanderrumCultureCost * iMod)) then
+                                return true, true
+                        else
+                                return true, false
+                        end
+                end
+        )
+        Decisions_CLKulinEstablishTanderrum.DoFunc = (
+                function(pPlayer)
+                        pPlayer:ChangeJONSCulture(-1 * iMod * iTanderrumCultureCost)
+                        pPlayer:ChangeGold(-1 * iMod * iTanderrumGoldCost)
+                        pPlayer:ChangeNumResourceTotal(iMagistrate, -1 * iTanderrumMagistrateCost)
+                        save(pPlayer, "Decisions_CLKulinEstablishTanderrum", true)
+                end
+        )
+Decisions_AddCivilizationSpecific(GameInfoTypes.CIVILIZATION_CL_KULIN, "Decisions_CLKulinEstablishTanderrum", Decisions_CLKulinEstablishTanderrum)
+ 
+--************************************************************************************************
+--All TableSaverLoader stuff based off of code by ViceVirtuoso for the Philippines mod and Pazyryk
+--************************************************************************************************
+ 
+include ("TableSaverLoader016.lua")
+MapModData.gT = MapModData.gT or {}
+gT = MapModData.gT
+gT.CLKulinOB = {}
+local iMaxMajors = GameDefines.MAX_MAJOR_CIVS
+ 
+function DataLoad()
+        local bNewGame = not TableLoad(gT, "CLKulinDecisions")
+        TableSave(gT, "CLKulinDecisions")
+end
+ 
+function GetNewOpenBorders(player)
+        local pPlayer = Players[player]
+        local iNewOBs = 0
+        if not gT.CLKulinOB[player] then
+                gT.CLKulinOB[player] = {}
+                for i=0, iMaxMajors - 1, 1 do
+                        gT.CLKulinOB[player][i] = false
+                end
+        end
+        for iEnemyPlayer, bIsOpenBordersLastTurn in pairs(gT.CLKulinOB[player]) do
+                if iEnemyPlayer ~= player then
+                        local bIsOpenBordersThisTurn = false
+                        local pEnemyPlayer = Players[iEnemyPlayer]
+                        local iTeam = pPlayer:GetTeam()
+                        local iEnemyTeam = pEnemyPlayer:GetTeam()
+                        local pTeam = Teams[iTeam]
+                        local pEnemyTeam = Teams[iEnemyTeam]
+                        if (pTeam:IsAllowsOpenBordersToTeam(pEnemyTeam) and pEnemyTeam:IsAllowsOpenBordersToTeam(pTeam)) then bIsOpenBordersThisTurn = true end
+                        if (bIsOpenBordersLastTurn == false and bIsOpenBordersThisTurn == true) then
+                                iNewOBs = iNewOBs + 1
+                        end
+                        gT.CLKulinOB[player][iEnemyPlayer] = bIsFriendThisTurn
+                end
+        end
+        return iNewOBs
+end
+ 
+DataLoad()
+ 
+function ModerateTanderrum(player)
+        local pPlayer = Players[player]
+        if pPlayer:GetCivilizationType() ~= GameInfoTypes.CIVILIZATION_CL_KULIN then
+                if load(pPlayer, "Decisions_CLKulinEstablishTanderrum") == true then
+                        local iAllyCount = 0
+                        for i, pCiv in pairs(Players) do
+                                if (pCiv:IsAlive()) then
+                                        if (pCiv:IsMinorCiv()) then
+                                                if (pCiv:GetMinorCivFriendshipLevelWithMajor(pPlayer:GetID()) == 2) then
+                                                        iAllyCount = iAllyCount + 1
+                                                end
+                                        end
+                                end
+                        end
+                        for pCity in pPlayer:Cities() do
+                                pCity:SetNumRealBuildings(GameInfoTypes.BUILDING_CLKULINTANDERRUM, iAllyCount)
+                        end
+                       
+                        pPlayer:ChangeJONSCulture(GetNewOpenBorders(player) * iMod * iOBCultureBoost)
+                       
+                        for route in pPlayer:GetTradeRoutes() do
+                                local pEnemyPlayer = route.ToCivilizationType
+                                local iTeam = pPlayer:GetTeam()
+                                local pTeam = Teams[iTeam]
+                                local iEnemyTeam = pEnemyPlayer:GetTeam()
+                                local pEnemyTeam = Teams[iEnemyTeam]
+                                if(pTeam:IsAllowsOpenBordersToTeam(pEnemyTeam) and pEnemyTeam:IsAllowsOpenBordersToTeam(pTeam))then
+                                        pPlayer:ChangeJONSCulture(2)
+                                        pEnemyPlayer:ChangeJONSCulture(2)
+                                end
+                        end
+                end
+        end
+end
+ 
+GameEvents.PlayerDoTurn.Add(ModerateTanderrum)
+--------------------------------------------------------------------------------------------------
+--Kulin:  Discover the Healing Properties of Old Man Weed
+--------------------------------------------------------------------------------------------------
+ 
+local iOMWCultureCost = 80------------------------------------------------------------------------
+local iOMWMagistrateCost = 1--Adjust for balance purposes
+local iOMWRiverCityReq = 1------------------------------------------------------------------------
+ 
+local Decisions_CLKulinOldManWeed = {}
+        Decisions_CLKulinOldManWeed.Name = "TXT_KEY_DECISIONS_CLKULINOLDMANWEED"
+        Decisions_CLKulinOldManWeed.Desc = "TXT_KEY_DECISIONS_CLKULINOLDMANWEED_DESC"
+        HookDecisionCivilizationIcon(Decisions_CLKulinOldManWeed, "CIVILIZATION_CL_KULIN")
+        Decisions_CLKulinOldManWeed.CanFunc = (
+                function(pPlayer)
+                        if pPlayer:GetCivilizationType() ~= GameInfoTypes.CIVILIZATION_CL_KULIN then return false, false end
+                        if load(pPlayer, "Decisions_CLKulinOldManWeed") == true then
+                                Decisions_CLKulinOldManWeed.Desc = Locale.ConvertTextKey("TXT_KEY_DECISIONS_CLKULINOLDMANWEED_ENACTED_DESC")
+                                return false, false, true
+                        end
+                        local iRiverCityCount = 0
+                        for pCity in pPlayer:Cities() do
+                                if pCity:CountNumRiverPlots() > 0 then
+                                        iRiverCityCount = iRiverCityCount + 1
+                                end
+                        end
+                        Decisions_CLKulinOldManWeed.Desc = Locale.ConvertTextKey("TXT_KEY_DECISIONS_CLKULINOLDMANWEED_DESC", iOMWCultureCost * iMod, iOMWMagistrateCost, iOMWRiverCityReq)
+                        if (pPlayer:GetJONSCulture() >= (iOMWCultureCost * iMod) and pPlayer:GetNumResourceAvailable(iMagistrate, false) >= iOMWMagistrateCost and iRiverCityCount >= iOMWRiverCityReq) then
+                                return true, true
+                        else
+                                return true, false
+                        end
+                end
+        )
+        Decisions_CLKulinOldManWeed.DoFunc = (
+                function(pPlayer)
+                        pPlayer:ChangeJONSCulture(-1 * iMod * iOMWCultureCost)
+                        pPlayer:ChangeNumResourceTotal(iMagistrate, -iOMWMagistrateCost)
+                        save(pPlayer, "Decisions_CLKulinOldManWeed", true)
+                end
+        )
+Decisions_AddCivilizationSpecific(GameInfoTypes.CIVILIZATION_CL_KULIN, "Decisions_CLKulinOldManWeed", Decisions_CLKulinOldManWeed)
+function ModerateOMW(player)
+        local pPlayer = Players[player]
+        if pPlayer:GetCivilizationType() ~= GameInfoTypes.CIVILIZATION_CL_KULIN then
+                if load(pPlayer, "Decisions_CLKulinOldManWeed") == true then
+                        for pCity in pPlayer:Cities() do
+                                if pCity:CountNumRiverPlots() > 0 then
+                                        pCity:SetNumRealBuildings(GameInfoType.BUILDING_CLKULINOMW, 1)
+                                end
+                        end
+                end
+        end
+end
+GameEvents.PlayerDoTurn.Add(ModerateOMW)
+ 
+ 
+------TableSaverLoader------------------------------------------------
+function OnEnterGame()   --Runs when Begin or Continue Your Journey pressed
+        print("Player entering game ...")
+        ContextPtr:LookUpControl("/InGame/GameMenu/SaveGameButton"):RegisterCallback(Mouse.eLClick, SaveGameIntercept)
+        ContextPtr:LookUpControl("/InGame/GameMenu/QuickSaveButton"):RegisterCallback(Mouse.eLClick, QuickSaveIntercept)
+        TableSave(gT, "CLKulinDecisions")       --before the "Initial" autosave; this is extra on a post-turn-0 game load but won't hurt
+end
+Events.LoadScreenClose.Add(OnEnterGame)
+ 
+function SaveGameIntercept()    --overrides Civ5 code when player presses Save Game from Game Menu or Cntr-s
+        TableSave(gT, "CLKulinDecisions")
+        UIManager:QueuePopup(ContextPtr:LookUpControl("/InGame/GameMenu/SaveMenu"), PopupPriority.SaveMenu)
+end
+ 
+function QuickSaveIntercept()   --overrides Civ5 code when player presses Quick Save from Game Menu or F11
+        TableSave(gT, "CLKulinDecisions")
+        UI.QuickSave()
+end
+ 
+local autoSaveFreq = OptionsManager.GetTurnsBetweenAutosave_Cached()
+function OnGameOptionsChanged()
+        autoSaveFreq = OptionsManager.GetTurnsBetweenAutosave_Cached()
+end
+Events.GameOptionsChanged.Add(OnGameOptionsChanged)
+ 
+function OnAIProcessingEndedForPlayer(iPlayer)
+        if iPlayer == 63 then                                   --runs on barb turn AFTER barb unit moves (very close to the regular autosave)
+                if Game.GetGameTurn() % autoSaveFreq == 0 then  --only need to do on autosave turns
+                        TableSave(gT, "CLKulinDecisions")
+                end
+        end
+end
+Events.AIProcessingEndedForPlayer.Add(OnAIProcessingEndedForPlayer)
+ 
+ 
+--Input handler for custom missions and saving
+function InputHandler( uiMsg, wParam, lParam )
+        if uiMsg == KeyEvents.KeyDown then
+                if wParam == Keys.VK_F11 then
+                        QuickSaveIntercept()            --F11 Quicksave
+                        return true
+                elseif wParam == Keys.S and UIManager:GetControl() then
+                        SaveGameIntercept()                     --ctrl-s
+                        return true
+                end
+        end
+end
+ContextPtr:SetInputHandler( InputHandler );

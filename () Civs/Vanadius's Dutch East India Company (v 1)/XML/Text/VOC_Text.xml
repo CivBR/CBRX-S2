@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BATAVIA">
+			<Text>Batavia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_AMBON">
+			<Text>Ambon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_PONTIANAK">
+			<Text>Pontianak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_PALEMBANG">
+			<Text>Palembang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_MAKASSAR">
+			<Text>Makassar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_SURABAYA">
+			<Text>Surabaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_MALACCA">
+			<Text>Malacca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_FORT_GALLE">
+			<Text>Fort Galle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_CHINSURA">
+			<Text>Chinsura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_SAMARANG">
+			<Text>Samarang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_DEJIMA">
+			<Text>Dejima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_FORT_ZEELANDIA">
+			<Text>Fort Zeelandia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_FORT_NOORD_HOLLAND">
+			<Text>Fort Noord-Holland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_OOSTHAVEN">
+			<Text>Oosthaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BANGDOENG">
+			<Text>Bangdoeng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_TARAKAN">
+			<Text>Tarakan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_KEMA">
+			<Text>Kema</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_KENDARI">
+			<Text>Kendari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_MANADO">
+			<Text>Manado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_KUBANG">
+			<Text>Kubang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_TERNATE">
+			<Text>Ternate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_TIDORE">
+			<Text>Tindore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BALIKPAPAN">
+			<Text>Balkipapan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_TELUK">
+			<Text>Teluk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_CHERIBON">
+			<Text>Cheribon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_SINGARADJA">
+			<Text>Singaradja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BANDJARMESIN">
+			<Text>Bandjarmesin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_DJOKJAKARTA">
+			<Text>Djokjakarta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_LAMPUNG">
+			<Text>Lampung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_JAMBI">
+			<Text>Jambi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_COCHIN">
+			<Text>Cochin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_PULICAT">
+			<Text>Pulicat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_NAGAPATAM">
+			<Text>Nagapatam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_MALABAR">
+			<Text>Malabar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BUITENZORG">
+			<Text>Buitenzorg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_VANGURLA">
+			<Text>Vangurla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_COLOMBO">
+			<Text>Colombo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_KAAPSTAD">
+			<Text>Kaapstad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_STELLENBOSCH">
+			<Text>Stellenbosch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_SWELLENDAM">
+			<Text>Swellendam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_GRAAFF_REINET">
+			<Text>Graaff-Reinet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_PORT_DE_WARWICK">
+			<Text>Port de Warwick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_KOTA_BELANDA">
+			<Text>Kota Belanda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_SOEMEDANG">
+			<Text>Soemedang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_HOLLANDIA">
+			<Text>Hollandia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_VOC_0">
+			<Text>Pieter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_VOC_1">
+			<Text>Hendrik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_VOC_2">
+			<Text>Maya</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_VOC_3">
+			<Text>Diantha</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_VOC_4">
+			<Text>Geertruida</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_VOC_5">
+			<Text>Cornelis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_VOC_6">
+			<Text>Joan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_VOC_7">
+			<Text>Williem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_VOC_8">
+			<Text>Christoffel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_VOC_9">
+			<Text>Mattheus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_VANA_VOC_ADJECTIVE">
+			<Text>VOC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_VANA_VOC_DESC">
+			<Text>Dutch East India Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_VANA_VOC_SHORT_DESC">
+			<Text>Dutch East India Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_JAN_COEN_TEXT">
+			<Text>God Bless you, Jan Pieterszoon Coen. You are the founder of Batavia, center of the Asian spice trade for centuries and envy of fellow colonalists. In your role of Governor-General you greatly expanded the scope of the Dutch East India Company turning it into an independent realm in all but name. You secured the vital cloves monopoly of the Moluccas, both diplomatically and forcefully working to eliminate the British influence in the East Indies. Through your vision and determined efforts a previously unimagined amount of wealth flowed through Batavia and back to the Dutch Republic. You lay your strict but just hand over the East Indies, bringing Christ to the inhabitants of the Indies and leaving a divisive legacy, those who stood in your way being shown no mercy.[NEWLINE][NEWLINE]After you death your vision continued, expanding to new markets such as Japan, India, and Persia, the majority of the East Indies ultimately coming under Dutch rule. Yet even so by the year 1800 the company was dissolved facing geopolitical changes and structural issues. Now new monopolistic ventures have arisen, in this time of economic opportunity your shareholders call for you to lead them to riches. Will you answer their call? Can you build a company that can stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAN_COEN">
+			<Text>Jan Coen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TITLE">
+			<Text>Dutch East India Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_1">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_2">
+			<Text>Terrain and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_2">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_3">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_3">
+			<Text>Before the 16th Century,</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_4">
+			<Text>European Sightings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_4">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_5">
+			<Text>Establishment of the Colonies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_5">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_6">
+			<Text>Founding of Batavia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_6">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_7">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_7">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_8">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_8">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_9">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_9">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_10">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_10">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_HEADING_11">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_TEXT_11">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_VOC_FACTOID_TEXT">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_VANA_VOC_SHORT">
+			<Text>No Despair Under God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_VANA_VOC">
+			<Text>Receive +2 [ICON_GOLD] Gold per turn for every copy of a resource you're trading away, and +5 experience for naval units if trading all your copies. Conquered cities provide a unique Spice Luxury Resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VANA_OPPERHOOFD">
+			<Text>Opperhoofd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VANA_OPPERHOOFD">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VANA_OPPERHOOFD_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VANA_EASTINDIAMAN_TEXT">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VANA_EASTINDIAMAN">
+			<Text>East Indiaman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VANA_EASTINDIAMAN_HELP">
+			<Text>Use this strong Frigate replacement to wrest control of the seas and protect your trade routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VANA_EASTINDIAMAN_STRATEGY">
+			<Text>Shooty shooty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VANA_EASTINDIAMAN_BONUS">
+			<Text>Defending Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VANA_EASTINDIAMAN_BONUS_HELP">
+			<Text>pls work</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VANA_EASTINDIAMAN">
+			<Text>Oostindievaarder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VANA_EASTINDIAMAN_HELP">
+			<Text> </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VANA_DVOC">
+			<Text>dumb dummy building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VANA_DVOC_HELP">
+			<Text>dumb dummy building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VANA_TRANSPORT">
+			<Text>Zoom Zoom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VANA_TRADERANGE">
+			<Text>Boom Boom</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

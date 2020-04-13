@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/11/2014 12:22:11 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_CORNWALL_DESC">
+			<Text>Cornwall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CORNWALL_SHORT_DESC">
+			<Text>Cornwall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CORNWALL_ADJECTIVE">
+			<Text>Cornish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CORNWALL_PEDIA">
+			<Text>
+				Cornwall is a unitary authority and ceremonial county of England, within the United Kingdom. Cornwall is a peninsula bordered to the north and west by the Celtic Sea, to the south by the English Channel, and to the east by the county of Devon, over the River Tamar. Cornwall has a population of 536,000 and covers an area of 3,563 km2(1,376 sq mi). The administrative centre, and only city in Cornwall, is Truro, although the town of St Austell has a larger population. Cornwall forms the westernmost part of the south-west peninsula of the island of Great Britain, and a large part of the Cornubian batholith is within Cornwall. This area was first inhabited in the Palaeolithic and Mesolithic periods. It continued to be occupied by Neolithic and thenBronze Age peoples, and later (in the Iron Age) by Brythons with distinctive cultural relations to neighbouring Wales and Brittany. There is little evidence that Roman rule was effective west of Exeter and few Roman remains have been found. Cornwall was the home of a division of the Dumnonii tribe – whose tribal centre was in the modern county of Devon – known as the Cornovii, separated from the Brythons of Wales after the Battle of Deorham, often coming into conflict with the expanding English kingdom of Wessex before King Athelstan in AD 936 set the boundary between English and Cornish at the Tamar. From the early Middle Ages, British language and culture was apparently shared by Brythons trading across both sides of the Channel, evidenced by the corresponding high medieval Breton kingdoms of Domnonee andCornouaille and the Celtic Christianity common to both territories. Historically tin mining was important in the Cornish economy, becoming increasingly significant during the High Middle Ages and expanding greatly during the 19th century when rich copper mines were also in production. In the mid-19th century, however, the tin and copper mines entered a period of decline. Subsequently china clay extraction became more important and metal mining had virtually ended by the 1990s. Traditionally fishing (particularly of pilchards), and agriculture (particularly of dairy products and vegetables), were the other important sectors of the economy. The railways led to the growth of tourism during the 20th century, however, Cornwall's economy struggled after the decline of the mining and fishing industries. The area is noted for its wild moorland landscapes, its long and varied coastline, its many place-names derived from the Cornish language, and its very mild climate. Extensive stretches of Cornwall's coastline, and Bodmin Moor, are protected asan Area of Outstanding Natural Beauty. Cornwall is the traditional homeland of the Cornish people and is recognised as one of the Celtic nations, retaining a distinct cultural identitythat reflects its history. Some people question the present constitutional status of Cornwall, and a nationalist movement seeks greaterautonomy within the United Kingdom in the form of a devolved legislative assembly, and greater recognition of the Cornish people as a national minority.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_CORNWALL_TEXT">
+			<Text>Hail Michael An Gof, fighter for the freedom of the Cornish people! Cornwall is an ancient land with a deep Celtic heritage. Your people traded tin to other peoples of the ancient Mediterranean who sailed north to the shores of Britain. Your people have a vibrant culture with an ancient past of Druidic mysticism, later followed by great expressions of Celtic Christianity. Your people have been absorbed into what is now the United Kingdom of Great Britain but a distinct Cornish identity still remains strong. You and Thomas Flamank led the Cornish people in rebellion against the English in 1497. Though you were unsuccessful in freeing Cornwall from the English you and Flamank are revered as national heroes. As you said with your last breath, you became "a name perpetual and a fame permanent and immortal". [NEWLINE][NEWLINE] Great leader, will you make the Cornish people independent and glorius once again? Will you build a civilization to stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_DRUIDIC_HERITAGE_SHORT">
+			<Text>Druidic Heritage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANGOF_DESC">
+			<Text>Michael An Gof</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANGOF_PEDIA_LIVED">
+			<Text>? - 710 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANGOF_PEDIA_NAME">
+			<Text>Michael An Gof</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANGOF_PEDIA_SUBTITLE">
+			<Text>Leader of the Cornish Rebellion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANGOF_PEDIA_HEADING_1">
+			<Text>Historical account</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANGOF_PEDIA">
+			<Text>No info.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STONE_CIRCLE_DESC">
+			<Text>Mên-an-Tol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STONE_CIRCLE_HELP">
+			<Text>Replaces Monument. Provides 2+ [ICON_CULTURE] culture and 1+ [ICON_RESEARCH] science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STONE_CIRCLE_STRATEGY">
+			<Text>The Mên-an-Tol provides a good boost to culture and science during the Ancient Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STONE_CIRCLE_PEDIA">
+			<Text>There are approximately 1,000 stone circles and 80 stone henges in Britain and Ireland. The French archaeologist Jean-Pierre Mohen in his book “Le Monde des Megalithes" says: "British Isles megalithism is outstanding in the abundance of standing stones, and the variety of circular architectural complexes of which they formed a part...strikingly original, they have no equivalent elsewhere in Europe — strongly supporting the argument that the builders were independent." Often oriented on sight lines for the rising or setting sun, it is possible that, for their builders, the cycle of seasons was very important. The largest stone circle in Britain is at Avebury, the second largest stone circle is the Great Circle at Stanton Drew stone circles, and the Ring of Brodgar contains the third largest stone circle in Britain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIN_MINE_DESC">
+			<Text>Stannary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIN_MINE_HELP">
+			<Text>Replaces Forge. Does not require [ICON_RES_IRON] Iron. Provides +1 [ICON_GOLD] gold and 1 [ICON_RES_IRON] Tin resource. Provides +1 [ICON_PRODUCTION] production from [ICON_RES_COPPER] Copper resources in addition to Iron.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIN_MINE_STRATEGY">
+			<Text>Stannaries provide Tin as a tradable resource and increase a city's gold and production output in additon to the effects of the Forge.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIN_MINE_PEDIA">
+			<Text>After the 1540s, Cornwall's production increased rapidly and Devon's production was only about 1/9–1/10 that of Cornwall's. From the mid-16th century the Devon Stannaries were worth very little in income to the King and were sidelined as such following the Supremacy of Parliament Act 1512, an Act of Supremacy (this did not apply to the Stannaries of Cornwall). The first Crockern Tor Stannary Parliament in Devon was held in 1494 and the last in 1748. At Combe Martin several disused Silver mines are located on the eastern ridge and evidence of tunnels can still be seen, as well as the remains of a wheelhouse used to lift ore from the mine. There are items in the Crown Jewels made from Combe Martin silver. A second tin boom came around the 16th century when open cast mining was used. German miners came in who had knowledge of the new techniques. In 1689, Thomas Epsley, a Somerset man, developed a method using gunpowder to blast the very hard granite rock loose, using gunpowder with quill fuses. It revolutionised hard rock mining. Six days work, with a pick, could be accomplished with one blast. A third boom occurred in the 18th century when shafts were dug to extract the ore. However it was in the 19th century that mining reached its zenith, before foreign competition depressed the price of copper, and later tin, to a level that made Cornish ore unprofitable. The areas of Cornwall aroundGwennap and St Day and on the coast around Porthtowan were among the richest mining areas in the world and at its height the Cornish tin mining industry had around 600 steam engines working to pump out the mines (many mines stretched out under the sea and some went down to great depths). Adventurers put up the capital, hoping that the mine would return them a profit, but the outcomes were very uncertain. Caradon Hill had the most productive mine in east Cornwall. The South Caradon Copper Mine, 1 km to the SW of the transmitter, was the largest copper mine in the UK in its heyday, 150 years ago. Other disused copper and tin mines are scattered around the base of the hill. By the mid-19th century Looe had become a major port, one of Cornwall's largest, exporting local tin, arsenic and granite, as well as hosting thriving fishing and boatbuilding industries. At Callington arsenic was found with copper ores and was processed by crushing and condensing; the poisonous nature of dust containing arsenic made the work very hazardous. Numerous precautions were taken but the workers tended to die in middleage. Menheniot was a centre of lead mining and is now surrounded by disused shafts and engine houses. Lead seams were discovered in the 1840s and Menheniot became the centre of a mining boom which lasted until the 1870s. During this period the population doubled. Kit Hill Country Park is steeped in mining history. Metals extracted included, tin, silver, copper and wolfram. The main mines were Kit Hill Summit Mines (which included a windmill near the present stack) (started about 1826; Kit Hill United closed in 1864); East Kit Hill Mine, worked from 1855 to 1909; Hingston Down mine (which worked westwards towards Kit Hill, may have started in the 17th century, it closed in 1885; and South Kit Hill Mine, worked from 1856 to 1884.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TIN">
+			<Text>Tin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TIN_HELP">
+			<Text>A luxury resource produced by the Stannary. Yields +2 [ICON_GOLD] gold and 4 [ICON_HAPPINESS_1] happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_TIN_TEXT">
+			<Text>No info.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANGOF_FIRSTGREETING_1">
+			<Text>Dynnargh dhis. These are the sacred grounds of the Cornish people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANGOF_FIRSTGREETING_2">
+			<Text>Da yw genev metya genes. I am Michael An Gof. Are you friend or foe?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANGOF_DEFEATED_1">
+			<Text>In spite of your conquest the Cornish people will remain strong.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ANGOF_DEFEATED_2">
+			<Text>One day, I shall come back. Yes, I shall come back.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

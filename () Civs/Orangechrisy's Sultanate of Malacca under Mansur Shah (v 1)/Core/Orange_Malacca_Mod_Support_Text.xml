@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2019 11:23:38 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- JFD's Rise to Power -->
+		<Row Tag="TXT_KEY_COLONY_NAME_ORG_MALACCA_01">
+			<Text>Pasai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_ORG_MALACCA_02">
+			<Text>The Moluccas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_ORG_MALACCA_03">
+			<Text>Java</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_ORG_MALACCA_04">
+			<Text>Brunei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_ORG_MALACCA_05">
+			<Text>Timor</Text>
+		</Row>
+		<!-- #######################################################
+		### MAP LABELS ###
+		####################################################### -->
+		<Row Tag="TXT_KEY_ML_CULTURE_MALAY">
+			<Text>Malay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ML_CULTURE_MALAY_SUGGESTEDCIVS">
+			<Text>Malacca, Malaysia</Text>
+		</Row>
+		<!--#######################################################
+		LAKE		
+		#######################################################-->
+		<Row Tag="TXT_KEY_NAME_MALAY_LAKE_LINGGIU">
+			<Text>Linggiu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_LAKE_KENYIR">
+			<Text>Kenyir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_LAKE_TEMENGGOR">
+			<Text>Temenggor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_LAKE_BERLIAN">
+			<Text>Berlian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_LAKE_SEMBRONG">
+			<Text>Sembrong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_LAKE_BERA">
+			<Text>Bera</Text>
+		</Row>
+		<!--#######################################################
+		OCEAN		
+		#######################################################-->
+		<Row Tag="TXT_KEY_NAME_MALAY_OCEAN_ANDAMAN">
+			<Text>Andaman Sea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_OCEAN_MALACCASTRAIT">
+			<Text>Strait of Melaka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_OCEAN_JAVA">
+			<Text>Java Sea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_OCEAN_CHINA">
+			<Text>South China Sea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_OCEAN_INDIA">
+			<Text>Indian Ocean</Text>
+		</Row>
+		<!--#######################################################
+		REGION		
+		#######################################################-->
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_MALACCA">
+			<Text>Melaka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_PAHANG">
+			<Text>Pahang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_JOHOR">
+			<Text>Johor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_PERAK">
+			<Text>Perak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_KELANTAN">
+			<Text>Kelantan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_TERENGGANO">
+			<Text>Terengganu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_PUTRAJAYA">
+			<Text>Putrajaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_NEGERI">
+			<Text>Negeri Sembilan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_SIBARI">
+			<Text>Plain of Sibari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_RIAU">
+			<Text>Riau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_JAMBI">
+			<Text>Jambi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_KEDAH">
+			<Text>Kedah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_RIAUISLANDS">
+			<Text>Riau Islands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_REGION_ARU">
+			<Text>Aru</Text>
+		</Row>
+		<!--#######################################################
+		MOUNTAIN		
+		#######################################################-->
+		<Row Tag="TXT_KEY_NAME_MALAY_MOUNTAIN_TAHAN">
+			<Text>Mount Tahan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_MOUNTAIN_KORBU">
+			<Text>Mount Korbu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_MOUNTAIN_YONGBELAR">
+			<Text>Mount Yong Belar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_MOUNTAIN_GAYONG">
+			<Text>Mount Gayong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_MOUNTAIN_CHAMAH">
+			<Text>Mount Chamah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_MOUNTAIN_YONGYAP">
+			<Text>Mount Yong Yap</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_MOUNTAIN_ULUSEPAT">
+			<Text>Mount Ulu Sepat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_MOUNTAIN_IRAU">
+			<Text>Mount Irau</Text>
+		</Row>
+		<!--#######################################################
+		FOREST		
+		#######################################################-->
+		<Row Tag="TXT_KEY_NAME_MALAY_FOREST_BEREMBUN">
+			<Text>Berembun Rainforest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_FOREST_BELUM">
+			<Text>Belum Rainforest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_FOREST_ENDAUROMPIN">
+			<Text>Endau-Rompin Rainforest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_FOREST_TAMANNEGARA">
+			<Text>Taman Negara Rainforest</Text>
+		</Row>
+		<!--#######################################################
+		ISLAND		
+		#######################################################-->
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_SINGAPURA">
+			<Text>Singapura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_BINTAN">
+			<Text>Bintan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_BATAM">
+			<Text>Batam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_RIAU">
+			<Text>Riau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_KARIMUNBESAR">
+			<Text>Karimunbesar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_KUNDUR">
+			<Text>Kundur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_SUGI">
+			<Text>Sugi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_RUPAT">
+			<Text>Rupat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_PEDANG">
+			<Text>Pedang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_LINGGA">
+			<Text>Lingga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_ISLAND_SINGKEP">
+			<Text>Singkep</Text>
+		</Row>
+		<!--#######################################################
+		RIVER		
+		#######################################################-->
+		<Row Tag="TXT_KEY_NAME_MALAY_RIVER_MALACCA">
+			<Text>Melaka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_RIVER_KLANG">
+			<Text>Klang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_RIVER_LANGAT">
+			<Text>Langat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_RIVER_JOHOR">
+			<Text>Johor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_RIVER_PAHANG">
+			<Text>Pahang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_RIVER_KELANTAN">
+			<Text>Kelantan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_RIVER_KAMPAR">
+			<Text>Kampar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME_MALAY_RIVER_INDRAGIRI">
+			<Text>Indragiri</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/22/2016 6:10:50 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_VANA_VOC</Type>
+			<Description>TXT_KEY_TRAIT_VANA_VOC</Description>
+			<ShortDescription>TXT_KEY_TRAIT_VANA_VOC_SHORT</ShortDescription>
+		</Row>
+	</Traits>		
+</GameData>

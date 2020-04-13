@@ -1,0 +1,19 @@
+-- DMS_BurkinaFaso_Credits
+-- Author: DMS
+--==========================================================================================================================
+DMS:
+	- Design
+	- Code
+	- Art
+urnot_scott:
+	- Design
+Senshi:
+	- Map, civ icon
+framedarchitecture:
+	- All functionality related to planting forests
+War theme:
+	- Ali Diarra - Session Acoustique (link: https://www.youtube.com/watch?v=8G4gYcBAmuk)
+Peace theme:
+	- Rasma - Si Ni Kenaiya (link: https://www.youtube.com/watch?v=pBj28ll8J98)
+--==========================================================================================================================
+--==========================================================================================================================

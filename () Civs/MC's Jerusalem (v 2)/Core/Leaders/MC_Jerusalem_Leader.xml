@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai-->
+<GameData>
+	<Leaders>
+		<Row>
+			<Type>LEADER_MC_BALDWIN</Type>
+			<Description>TXT_KEY_LEADER_MC_BALDWIN_DESC</Description>
+			<Civilopedia>TXT_KEY_LEADER_MC_BALDWIN_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_LEADER_MC_BALDWIN</CivilopediaTag>
+			<ArtDefineTag>MC_JERUSALEM_Leaderhead.xml</ArtDefineTag>
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>4</WonderCompetitiveness>
+			<MinorCivCompetitiveness>6</MinorCivCompetitiveness>
+			<Boldness>9</Boldness>
+			<DiploBalance>6</DiploBalance>
+			<WarmongerHate>4</WarmongerHate>
+			<DenounceWillingness>8</DenounceWillingness>
+			<DoFWillingness>7</DoFWillingness>
+			<Loyalty>8</Loyalty>
+			<Neediness>6</Neediness>
+			<Forgiveness>3</Forgiveness>
+			<Chattiness>5</Chattiness>
+			<Meanness>6</Meanness>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>MC_JERUSALEM_ATLAS</IconAtlas>
+		</Row>
+	</Leaders>
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_MC_BALDWIN</LeaderType>
+			<TraitType>TRAIT_MC_CRUSADING_ORDERS</TraitType>
+		</Row>
+	</Leader_Traits>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_MC_BALDWIN">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_MC_BALDWIN_FIRST_GREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MC_BALDWIN">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_MC_BALDWIN_DEFEATED_%</Response>
+		</Row>
+	</Diplomacy_Responses>
+</GameData>

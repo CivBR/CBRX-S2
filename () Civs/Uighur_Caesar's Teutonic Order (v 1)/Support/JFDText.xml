@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/17/16 11:06:28 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_UC_TEUTON_STRATEGY_PIETY">
+			<Text>Replaces the Knight. Starts with March. Earns [ICON_JFD_PIETY] Piety from kills, extra when fighting in the territory of a heathen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_UC_TEUTON_PIETY">
+			<Text>Replaces the Knight. Starts with March. Earns [ICON_JFD_PIETY] Piety from kills, extra when fighting in the territory of a heathen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_TEUTON_PIETY">
+			<Text>Teutonic Piety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_TEUTON_PIETY_HELP">
+			<Text>Earns [ICON_JFD_PIETY] Piety from kills, extra when fighting in the territory of a heathen.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

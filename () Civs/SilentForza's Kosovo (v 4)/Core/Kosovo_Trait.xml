@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_SF_KOSOVO</Type>
+			<DefaultBuilding>BUILDING_SF_DUMMY1</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SF_DUMMY1</Description>
+		</Row>
+	</BuildingClasses>
+
+<Buildings>
+
+
+<Row>
+
+<Type>BUILDING_SF_DUMMY1</Type>
+
+<Description>TXT_KEY_BUILDING_SF_DUMMY1</Description>
+
+<Civilopedia>NULL</Civilopedia>
+
+<Strategy>TXT_KEY_BUILDING_SF_DUMMY1_STRATEGY</Strategy>
+
+<Help>TXT_KEY_BUILDING_SF_DUMMY1_HELP</Help>
+
+<ThemingBonusHelp/>
+
+<Quote/>
+
+<GoldMaintenance>1</GoldMaintenance>
+
+<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
+
+<TeamShare>0</TeamShare>
+
+<Water>0</Water>
+
+<River>0</River>
+
+<FreshWater>0</FreshWater>
+
+<Mountain>0</Mountain>
+
+<NearbyMountainRequired>0</NearbyMountainRequired>
+
+<Hill>0</Hill>
+
+<Flat>0</Flat>
+
+<FoundsReligion>0</FoundsReligion>
+
+<IsReligious>0</IsReligious>
+
+<BorderObstacle>0</BorderObstacle>
+
+<PlayerBorderObstacle>0</PlayerBorderObstacle>
+
+<Capital>0</Capital>
+
+<GoldenAge>0</GoldenAge>
+
+<MapCentering>0</MapCentering>
+
+<NeverCapture>1</NeverCapture>
+
+<NukeImmune>0</NukeImmune>
+
+<AllowsWaterRoutes>0</AllowsWaterRoutes>
+
+<ExtraLuxuries>0</ExtraLuxuries>
+
+<DiplomaticVoting>0</DiplomaticVoting>
+
+<AffectSpiesNow>0</AffectSpiesNow>
+
+<NullifyInfluenceModifier>0</NullifyInfluenceModifier>
+
+<Cost>-1</Cost>
+
+<FaithCost>-1</FaithCost>
+
+<LeagueCost>0</LeagueCost>
+
+<UnlockedByBelief>0</UnlockedByBelief>
+
+<UnlockedByLeague>0</UnlockedByLeague>
+
+<HolyCity>0</HolyCity>
+
+<NumCityCostMod>0</NumCityCostMod>
+
+<HurryCostModifier>25</HurryCostModifier>
+
+<MinAreaSize>-1</MinAreaSize>
+
+<ConquestProb>0</ConquestProb>
+
+<CitiesPrereq>0</CitiesPrereq>
+
+<LevelPrereq>0</LevelPrereq>
+
+<CultureRateModifier>0</CultureRateModifier>
+
+<GlobalCultureRateModifier>0</GlobalCultureRateModifier>
+
+<GreatPeopleRateModifier>0</GreatPeopleRateModifier>
+
+<GlobalGreatPeopleRateModifier>0</GlobalGreatPeopleRateModifier>
+
+<GreatGeneralRateModifier>0</GreatGeneralRateModifier>
+
+<GreatPersonExpendGold>0</GreatPersonExpendGold>
+
+<GoldenAgeModifier>0</GoldenAgeModifier>
+
+<UnitUpgradeCostMod>0</UnitUpgradeCostMod>
+
+<Experience>0</Experience>
+
+<GlobalExperience>0</GlobalExperience>
+
+<FoodKept>0</FoodKept>
+
+<Airlift>0</Airlift>
+
+<AirModifier>0</AirModifier>
+
+<NukeModifier>0</NukeModifier>
+
+<NukeExplosionRand>0</NukeExplosionRand>
+
+<HealRateChange>0</HealRateChange>
+
+<Happiness>0</Happiness>
+
+<UnmoddedHappiness>0</UnmoddedHappiness>
+
+<UnhappinessModifier>0</UnhappinessModifier>
+
+<HappinessPerCity>0</HappinessPerCity>
+
+<HappinessPerXPolicies>0</HappinessPerXPolicies>
+
+<CityCountUnhappinessMod>0</CityCountUnhappinessMod>
+
+<NoOccupiedUnhappiness>0</NoOccupiedUnhappiness>
+
+<WorkerSpeedModifier>0</WorkerSpeedModifier>
+
+<MilitaryProductionModifier>0</MilitaryProductionModifier>
+
+<SpaceProductionModifier>0</SpaceProductionModifier>
+
+<GlobalSpaceProductionModifier>0</GlobalSpaceProductionModifier>
+
+<BuildingProductionModifier>0</BuildingProductionModifier>
+
+<WonderProductionModifier>0</WonderProductionModifier>
+
+<CityConnectionTradeRouteModifier>0</CityConnectionTradeRouteModifier>
+
+<CapturePlunderModifier>0</CapturePlunderModifier>
+
+<PolicyCostModifier>0</PolicyCostModifier>
+
+<PlotCultureCostModifier>0</PlotCultureCostModifier>
+
+<GlobalPlotCultureCostModifier>0</GlobalPlotCultureCostModifier>
+
+<PlotBuyCostModifier>0</PlotBuyCostModifier>
+
+<GlobalPlotBuyCostModifier>0</GlobalPlotBuyCostModifier>
+
+<GlobalPopulationChange>0</GlobalPopulationChange>
+
+<TechShare>0</TechShare>
+
+<FreeTechs>0</FreeTechs>
+
+<FreePolicies>0</FreePolicies>
+
+<FreeGreatPeople>0</FreeGreatPeople>
+
+<MedianTechPercentChange>0</MedianTechPercentChange>
+
+<Gold>0</Gold>
+
+<AllowsRangeStrike>0</AllowsRangeStrike>
+
+<Espionage>0</Espionage>
+
+<AllowsFoodTradeRoutes>0</AllowsFoodTradeRoutes>
+
+<AllowsProductionTradeRoutes>0</AllowsProductionTradeRoutes>
+
+<Defense>0</Defense>
+
+<ExtraCityHitPoints>0</ExtraCityHitPoints>
+
+<GlobalDefenseMod>0</GlobalDefenseMod>
+
+<MinorFriendshipChange>0</MinorFriendshipChange>
+
+<VictoryPoints>0</VictoryPoints>
+
+<ExtraMissionarySpreads>0</ExtraMissionarySpreads>
+
+<ReligiousPressureModifier>0</ReligiousPressureModifier>
+
+<EspionageModifier>0</EspionageModifier>
+
+<GlobalEspionageModifier>0</GlobalEspionageModifier>
+
+<ExtraSpies>0</ExtraSpies>
+
+<SpyRankChange>0</SpyRankChange>
+
+<InstantSpyRankChange>0</InstantSpyRankChange>
+
+<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus>
+
+<TradeRouteTargetBonus>0</TradeRouteTargetBonus>
+
+<NumTradeRouteBonus>0</NumTradeRouteBonus>
+
+<LandmarksTourismPercent>0</LandmarksTourismPercent>
+
+<InstantMilitaryIncrease>0</InstantMilitaryIncrease>
+
+<GreatWorksTourismModifier>0</GreatWorksTourismModifier>
+
+<XBuiltTriggersIdeologyChoice>0</XBuiltTriggersIdeologyChoice>
+
+<TradeRouteSeaDistanceModifier>0</TradeRouteSeaDistanceModifier>
+
+<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus>
+
+<TradeRouteLandDistanceModifier>0</TradeRouteLandDistanceModifier>
+
+<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus>
+
+<CityStateTradeRouteProductionModifier>0</CityStateTradeRouteProductionModifier>
+
+<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier>
+
+<BuildingClass>BUILDINGCLASS_SF_KOSOVO</BuildingClass>
+
+<ArtDefineTag>ART_DEF_BUILDING_MONUMENT</ArtDefineTag>
+
+<NearbyTerrainRequired/>
+
+<ProhibitedCityTerrain/>
+
+<VictoryPrereq/>
+
+<FreeStartEra></FreeStartEra>
+
+<MaxStartEra/>
+
+<ObsoleteTech/>
+
+<EnhancedYieldTech/>
+
+<TechEnhancedTourism>0</TechEnhancedTourism>
+
+<FreeBuilding/>
+
+<FreeBuildingThisCity/>
+
+<FreePromotion/>
+
+<TrainedFreePromotion/>
+
+<FreePromotionRemoved/>
+
+<ReplacementBuildingClass/>
+
+<PrereqTech>NULL</PrereqTech>
+
+<PolicyBranchType/>
+
+<SpecialistType/>
+
+<SpecialistCount>0</SpecialistCount>
+
+<GreatWorkSlotType/>
+
+<FreeGreatWork/>
+
+<GreatWorkCount>-1</GreatWorkCount>
+
+<SpecialistExtraCulture>0</SpecialistExtraCulture>
+
+<GreatPeopleRateChange>0</GreatPeopleRateChange>
+
+<ExtraLeagueVotes>0</ExtraLeagueVotes>
+
+<CityWall>0</CityWall>
+
+<DisplayPosition>0</DisplayPosition>
+
+<PortraitIndex>0</PortraitIndex>
+
+<WonderSplashImage/>
+
+<WonderSplashAnchor>R,T</WonderSplashAnchor>
+
+<WonderSplashAudio/>
+
+<IconAtlas>SF_KOSOVO_ATLAS</IconAtlas>
+
+<ArtInfoCulturalVariation>0</ArtInfoCulturalVariation>
+
+<ArtInfoEraVariation>0</ArtInfoEraVariation>
+
+<ArtInfoRandomVariation>0</ArtInfoRandomVariation>
+
+</Row>
+
+</Buildings>
+
+<!-- Building_AreaYieldModifiers -->
+
+
+<!-- Building_BuildingClassHappiness -->
+
+
+<!-- Building_BuildingClassYieldChanges -->
+
+
+<!-- Building_ClassesNeededInCity -->
+
+
+<!-- Building_FreeUnits -->
+
+
+
+<Building_DomainFreeExperiences>
+
+
+<Row>
+
+<BuildingType>BUILDING_SF_DUMMY1</BuildingType>
+
+<DomainType>DOMAIN_LAND</DomainType>
+
+<Experience>10</Experience>
+
+</Row>
+
+
+<Row>
+
+<BuildingType>BUILDING_SF_DUMMY1</BuildingType>
+
+<DomainType>DOMAIN_SEA</DomainType>
+
+<Experience>10</Experience>
+
+</Row>
+
+
+<Row>
+
+<BuildingType>BUILDING_SF_DUMMY1</BuildingType>
+
+<DomainType>DOMAIN_AIR</DomainType>
+
+<Experience>10</Experience>
+
+</Row>
+
+</Building_DomainFreeExperiences>
+
+<!-- Building_DomainFreeExperiencePerGreatWork -->
+
+
+<!-- Building_DomainProductionModifiers -->
+
+
+<!-- Building_FreeSpecialistCounts -->
+
+
+
+<Building_Flavors>
+
+
+<Row>
+
+<BuildingType>BUILDING_SF_DUMMY1</BuildingType>
+
+<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+
+<Flavor>20</Flavor>
+
+</Row>
+
+</Building_Flavors>
+
+<!-- Building_GlobalYieldModifiers -->
+
+
+<!-- Building_HurryModifiers -->
+
+
+<!-- Building_LocalResourceAnds -->
+
+
+<!-- Building_LocalResourceOrs -->
+
+
+<!-- Building_LockedBuildingClasses -->
+
+
+<!-- Building_PrereqBuildingClasses -->
+
+
+<!-- Building_ResourceQuantity -->
+
+
+<!-- Building_ResourceQuantityRequirements -->
+
+
+<!-- Building_ResourceYieldModifiers -->
+
+
+<!-- Building_ResourceCultureChanges -->
+
+
+<!-- Building_ResourceFaithChanges -->
+
+
+<!-- Building_RiverPlotYieldChanges -->
+
+
+<!-- Building_SeaPlotYieldChanges -->
+
+
+<!-- Building_LakePlotYieldChanges -->
+
+
+<!-- Building_SeaResourceYieldChanges -->
+
+
+<!-- Building_ResourceYieldChanges -->
+
+
+<!-- Building_FeatureYieldChanges -->
+
+
+<!-- Building_TerrainYieldChanges -->
+
+
+<!-- Building_SpecialistYieldChanges -->
+
+
+<!-- Building_UnitCombatFreeExperiences -->
+
+
+<!-- Building_UnitCombatProductionModifiers -->
+
+
+<!-- Building_TechAndPrereqs -->
+
+
+<!-- Building_YieldChanges -->
+
+
+<!-- Building_YieldChangesPerPop -->
+
+
+<!-- Building_YieldChangesPerReligion -->
+
+
+<!-- Building_TechEnhancedYieldChanges -->
+
+
+<!-- Building_YieldModifiers -->
+
+
+<!-- Building_ThemingBonuses -->
+
+
+
+<Language_en_US>
+
+
+	<Row Tag="TXT_KEY_BUILDING_SF_DUMMY1">
+
+		<Text>Kosovo Dummy</Text>
+
+	</Row>
+
+
+	<Row Tag="TXT_KEY_CIV5_BUILDINGS_SF_DUMMY1_TEXT">
+		<Text>Kosovo Trait</Text>
+	</Row> 
+	
+	<Row Tag="TXT_KEY_BUILDING_SF_DUMMY1_HELP">
+
+		<Text>Kosovo Trait</Text>
+
+	</Row>
+</Language_en_US>
+</GameData>

@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_US_GEORGIA_ADJECTIVE">
+			<Text>Georgian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_US_GEORGIA_DESC">
+			<Text>Georgian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_US_GEORGIA_SHORT_DESC">
+			<Text>Georgia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_TEXT_1">
+			<Text>Georgia is a small country in the Caucasus mountains, which bridge Europe and Asia. The Georgians themselves have inhabited the region for thousands of years, developing a unique culture that is not particularly similar to anywhere else in the world. Their language has no relations, their culture is neither particularly European nor particularly Middle Eastern, and even their writing system is completely unique. In their long history, the Georgians have risen to great heights, protecting Christianity from Jerusalem to Anatolia to Azerbaijan - but the nation has also endured hundreds of years of military occupation and strife. A nation of great contrast indeed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_HEADING_2">
+			<Text>Ancient Georgia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_TEXT_2">
+			<Text>
+				The territory of modern-day Georgia was inhabited by Homo erectus since the Paleolithic Era. The proto-Georgian tribes first appear in written history in the 12th century BC. The earliest evidence of wine to date has been found in Georgia, where 8000-year old wine jars were uncovered. Archaeological finds and references in ancient sources also reveal elements of early political and state formations characterized by advanced metallurgy and goldsmith techniques that date back to the 7th century BC and beyond. In fact, early metallurgy started in Georgia during the 6th millennium BC, associated with the Shulaveri-Shomu culture.[NEWLINE][NEWLINE]The classical period saw the rise of a number of early Georgian states, the principal of which was Colchis in the west and Iberia in the east. In the 4th century BC, a unified kingdom of Georgia – an early example of advanced state organization under one king and an aristocratic hierarchy – was established.[NEWLINE][NEWLINE]In Greek mythology, Colchis was the location of the Golden Fleece sought by Jason and the Argonauts in Apollonius Rhodius' epic tale Argonautica. The incorporation of the Golden Fleece into the myth may have derived from the local practice of using fleeces to sift gold dust from rivers.Known to its natives as Egrisi or Lazica, Colchis was also the battlefield of the Lazic War fought between the Byzantine Empire and Sassanid Persia. After the Roman Republic completed its brief conquest of what is now Georgia in 66 BC, the area became a primary objective of what would eventually turn out to be over 700 years of protracted Irano–Roman geo-political rivalry and warfare.[NEWLINE][NEWLINE]From the first centuries A.D, the cult of Mithras, pagan beliefs, and Zoroastrianism were commonly practised in Georgia. In 337 AD King Mirian III declared Christianity as the state religion, giving a great stimulus to the development of literature, arts, and ultimately playing a key role in the formation of the unified Georgian nation, The acceptance led to the slow but sure decline of Zoroastrianism, which until the 5th century AD, appeared to have become something like a second established religion in Iberia (eastern Georgia), and was widely practised there. In the ensuing period, until the course of the 7th century, what is now Georgia remained dominated by the Romans and Sasanians.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_HEADING_3">
+			<Text>Rise of the Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_TEXT_3">
+			<Text>
+				The rise of the Kingdom of Georgia is inextricable from the rise of the Bagrationi dynasty, one of the oldest and longest-lasting royal families of Christendom. The Bagrationi claim descent from King David of Israel (their coat of arms features both the sling and harp), through a descendant named Bagrat. Their family name has been associated with rulers of Caucasian Iberia since at least the 6th Century. As the Sassanid Persian and Abbasid empires waned in power, the Bagrationi gained territory until they formed the kingdom of Tao-Klarjeti, and Bagrat III was able to incorporate the Kingdom of Abkhazia into his holdings near the end of the 9th Century.[NEWLINE][NEWLINE]What followed was a series of political unifications and military campaigns against the Seljuks, conducted by Bagrationi kings, including David IV, the Builder. Wisely, the successor to the king would often serve as co-regent prior to ascending to the throne, giving both Demetrius I and Tamar practical experience in serving as monarch before having to take on the job full-time.[NEWLINE][NEWLINE]But the monarch did not always sit easily on the throne. A strong noble class would occasionally break out into revolt, or plot to unseat the ruler, and though these were often unsuccessful, the nobles could curtail the power of the monarch, or force the monarch to accede to their demands. A prime example is Tamar’s acceptance of Rus Prince Yuri as her first husband, at the insistence of the nobility.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_HEADING_4">
+			<Text>Golden Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_TEXT_4">
+			<Text>
+				The Kingdom reached its zenith during the reign of Tamar, becoming a true Transcaucasian empire, with a ring of allies and vassals surrounding it. Georgia achieved a flourishing of architecture, painting, and poetry akin to the achievements of Europe during the High Middle Ages. During her reign, the epic poem “The Knight in the Panther’s Skin” was written, a poem so central to Georgian culture that copies were traditionally part of dowries until the 20th century.[NEWLINE][NEWLINE]Georgian armies were often afield against their Seljuk neighbors, with Georgian generals (including the King Consort) adding territory through conquest. The Empire of Trebizond on the Black Sea was established from territory formerly under Byzantine control. Placed under the rulership of Byzantine princes—who also happened to be Tamar’s relatives—Trebizond represented Georgia asserting itself into the Middle East, especially as the Crusaders lost to Saladin and the Byzantine Empire continued to crumble. Georgia also asserted claims to monasteries in the Holy Land (some of which are still held today), including ones in Jerusalem.[NEWLINE][NEWLINE]But after the death of Tamar in 1213, Georgia began a period of decline more meteoric than its ascent. The Fourth Crusade resulted in the sack of Constantinople, and with that, Georgia lost the power of its greatest ally. At the same time, the Mongols invaded Georgia, overwhelming the nation and monarch George IV, Tamar’s son. Tamar’s daughter Rusudan assumed the throne, but was unable to drive back the Mongols and was forced to flee to Western Georgia, leaving the Eastern portion under Mongol control. Anti-Mongol uprisings defined the next few generations, resulting in widespread destruction of the countryside.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_HEADING_5">
+			<Text>Decline and Collapse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_TEXT_5">
+			<Text>
+				Eventually the power of the Khans weakened, and Georgian monarchs were able to regain some of their old glory under the George V, the Brilliant. George V was able to reconquer Georgian territory, stopped the payment of tribute to the Mongols, and established diplomatic ties with Byzantium, Genoa, and Venice. But this flourishing was short-lived. Georgian soldiers returning from campaign brought the Black Death with them, killing millions in Georgia just as it had throughout the rest of Europe and the Middle East.[NEWLINE][NEWLINE]Weakened by conquest and plague, Georgia was essentially prostrate when Timur began his campaigns of conquest in 1386. Less than a century later, Georgia would dissolve on the death of George VIII into three smaller kingdoms, each led by a branch of Bagrationi dynasty. And each branch of that great house was now a rival of the other. This division eventually left the Georgians wide open to hostile foreign powers - in the 16th century, the region was partitioned between the Ottoman Turks to the west and the Persians to the East. The Georgians were never particularly easy subjects and rebellions immedeately began, particularly against the Persian shahs who sought a much greater degree of control than the Turks, seeking to fully integrate Georgia into the centralised Persian Empire. The constant strife (and numerous deportations) brought the region wretched poverty - until in the 18th century another great power emerged onto the scene - Russia. This Christian empire made for a much more enticing future for the Georgians, who for so long had been forced to choose between two Islamic overlords.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_HEADING_6">
+			<Text>Russian and Soviet Georgia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_TEXT_6">
+			<Text>
+				In the early 19th century, Russia seized most of Georgia from Iran - the region would spend the next two centuries under Russian rule. Initially, many Georgians were simply pleased to be out from underneath the Islamic boot, however relations quickly soured. Russian administration proved corrupt, heavy handed and abritrary and in 1832 and 1841 a noble conspiracy and peasant rebellion respectively rocked the nation. The Russian subordination of the Georgian autonomous church under the Patriarch of Moscow also exacerbated tensions. Finally, Armenians grew to control most of the levers of the regions steadily growing capitalism, which further incensed the native Georgians - reforms following the 1905 peasant rebellion eased many of these tensions, but by this time the Georgian nationalist movement had begun to discover its identity and question Russian dominion.[NEWLINE][NEWLINE]In the 20th century, Russia experienced considerable political tension and Georgia was, of course, no exception. The Socialist-Democratic 'Menshevik' party became extremely popular in Georgia, in opposition to the Bolsheviks, who sought an undemocratic 'Dictatorship of the Proletariat'. Thus when the Russian civil war began, Georgia declared independence from Russia under a new Menshevik government. After fighting several small wars with its neighbours, Georgia eventually succumbed to the renewed Soviet Union in 1921, and became a part of the Transcaucasian SSR. [NEWLINE][NEWLINE] Soviet rule in Georgia was harsh - thousands were killed in post-war purges, despite the accession of a Georgian -  Josef Vissarionovich Djugashvili, better known as Joseph Stalin - to the highest offices of Soviet state. He and his, also Georgian, chief of secret police, Lavrenty Beria, purged thousands, if not hundreds of thousands, during their rule. Despite this, Stalin was popular in Georgia, not least due to his ethnicity, and there were numerous clashes in the region during the period of de-stalinisation. [NEWLINE][NEWLINE] In the post-war period, Georgia became famously corrupt - a thriving pseudo-capitalist 'under the table' economy was present throughout the period, and personal levels of wealth were among the highest in the USSR. As the Soviet union began to dissolve in the late 1980s and early 1990s, Georgian nationalism saw a resurgence and communist officials fought running street battles with nationalists throughout the nation - eventually forcing the nation to accede to democratic elections in 1990. As a result, the new Georgian government declared independence from the USSR on April 9, 1991.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_HEADING_7">
+			<Text>Modern Georgia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_US_GEORGIA_TEXT_7">
+			<Text>
+				After independence, the geopolitical history of Georgia has mirrored that of its pre-Russian days - an important crossroads (and battlefield) between East and West. The US has increased its influence in the nation, prompting a severe cooling of relations with Moscow. A brief war in 2008 resulted in the total, if unrecognised, independence of two Georgian provinces - Abkhazia and South Ossetia - under Russian protection. Though largely populated by non-Georgians, these provinces are considered integral parts of Georgia by the Tblisi government, prompting serious concern about Russian expansionism. In recent years, Georgia has sought closer ties with the west in order to counterbalance this - increasing ties with both the EU and NATO. [NEWLINE][NEWLINE] Economically, Georgia has prospered since the end of Russian rule; In 2007, Georgia's real GDP growth rate reached 12 percent making Georgia one of the fastest growing economies in Eastern Europe.The World Bank dubbed Georgia "the number one economic reformer in the world" because it has in one year improved from rank 112th to 18th in terms of ease of doing business. However, there is still much to improve - the country has a high unemployment rate of 12.6% and has fairly low median income compared to European countries.
+			</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_01">
+			<Text>Tblisi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_02">
+			<Text>Kutaisi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_03">
+			<Text>Batumi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_04">
+			<Text>Gori</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_05">
+			<Text>Dvin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_06">
+			<Text>Sukhumi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_07">
+			<Text>Nikopsia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_08">
+			<Text>Zugdidi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_09">
+			<Text>Poti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_10">
+			<Text>Kashuri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_11">
+			<Text>Samtredia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_12">
+			<Text>Senaki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_13">
+			<Text>Zestafoni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_14">
+			<Text>Marneuli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_15">
+			<Text>Telavi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_16">
+			<Text>Akhaltsikhe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_17">
+			<Text>Kobuleti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_18">
+			<Text>Ozurgeti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_19">
+			<Text>Kaspi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_20">
+			<Text>Signaghi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_21">
+			<Text>Tsqaltubo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_22">
+			<Text>Sagarejo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_23">
+			<Text>Gardabani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_24">
+			<Text>Bojromi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_25">
+			<Text>Kazbeki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_26">
+			<Text>Khoni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_27">
+			<Text>Bolnisi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_28">
+			<Text>Akhalkalaki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_29">
+			<Text>Mestia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_US_GEORGIA_30">
+			<Text>Ushguli</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_0">
+			<Text>Bochorishvili</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_1">
+			<Text>Zhorzholiani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_2">
+			<Text>Vakhvakhishvili</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_3">
+			<Text>Tarkhnishvili</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_4">
+			<Text>Dzhugashvili</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_5">
+			<Text>Rekhviashvili</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_6">
+			<Text>Patarkatsishvili</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_7">
+			<Text>Nakashidze</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_8">
+			<Text>Monavardisashvili</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_9">
+			<Text>Javakhishvili</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_10">
+			<Text>Khidirbegishvili </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_US_GEORGIA_11">
+			<Text>Gedevanishvili</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--TAMAR-->
+		<Row Tag="TXT_KEY_LEADER_US_TAMAR">
+			<Text>Tamar</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_TEXT_1">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_TEXT_2">
+			<Text>
+				Tamar was born in circa 1160 to George III, King of Georgia, and his consort Burdukhan, a daughter of the king of Alania. While it is possible that Tamar had a younger sister, Rusudan, she is only mentioned once in all contemporary accounts of Tamar's reign. The name Tamar is of Hebrew origin and, like other biblical names, was favored by the Georgian Bagrationi dynasty because of their claim to be descended from David, the second king of Israel.[NEWLINE][NEWLINE]Tamar's youth coincided with a major upheaval in Georgia; in 1177, her father, George III, was confronted by a rebellious faction of nobles. The rebels intended to dethrone George in favor of the king's fraternal nephew, Demna, who was considered by many to be a legitimate royal heir of his murdered father, David V. Demna's cause was little but a pretext for the nobles, led by the pretender's father-in-law, the amirspasalar ("constable") Ivane Orbeli, to weaken the crown.George III was able to crush the revolt and embarked on a crackdown campaign on the defiant aristocratic clans; Ivane Orbeli was put to death and the surviving members of his family were driven out of Georgia. Prince Demna, castrated and blinded on his uncle's order, did not survive the mutilation and soon died in prison. Once the rebellion was suppressed and the pretender eliminated, George went ahead to co-opt Tamar into government with him and crowned her as co-ruler in 1178. By doing so, the king attempted to preempt any dispute after his death and legitimize his line on the throne of Georgia.At the same time, he raised men from the gentry and unranked classes to keep the dynastic aristocracy away from the center of power.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_HEADING_3">
+			<Text>Early Reign</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_TEXT_3">
+			<Text>
+				For six years, Tamar was a co-ruler with her father upon whose death, in 1184, Tamar continued as the sole monarch and was crowned a second time at the Gelati cathedral near Kutaisi, western Georgia. She inherited a relatively strong kingdom, but the centrifugal tendencies fostered by the great nobles were far from being quelled. There was considerable opposition to Tamar's succession; this was sparked by a reaction against the repressive policies of her father and encouraged by the new sovereign's other perceived weakness, her sex. As Georgia had never previously had a female ruler, a part of the aristocracy questioned Tamar's legitimacy, while others tried to exploit her youth and supposed weakness to assert greater autonomy for themselves.The energetic involvement of Tamar's influential aunt Rusudan and the Georgian Catholicos-Patriarch Michael IV Mirianisdze was crucial for legitimizing Tamar's succession to the throne. However, the young queen was forced into making significant concessions to the aristocracy. She had to reward the Catholicos-Patriarch Michael's support by making him a chancellor, thus placing him at the top of both the clerical and secular hierarchies.[NEWLINE][NEWLINE]Tamar was also pressured into dismissing her father's appointees, among them the constable Qubasar (ყუბასარი), a Georgian Kipchak of ignoble birth, who had helped George III in his crackdown on the defiant nobility.One of the few untitled servitors of George III to escape this fate was the treasurer Qutlu Arslan who now led a group of nobles and wealthy citizens in a struggle to limit the royal authority by creating a new council, karavi, whose members would alone deliberate and decide policy.This attempt at "feudal constitutionalism" was rendered abortive when Tamar had Qutlu Arslan arrested and his supporters were inveigled into submission.[14] Yet, Tamar's first moves to reduce the power of the aristocratic élite were unsuccessful. She failed in her attempt to use a church synod to dismiss the Catholicos-Patriarch Michael, and the noble council, darbazi, asserted the right to approve royal decrees.Even the queen's first husband, the Rus' prince Yuri, was forced on her by the nobles.[NEWLINE][NEWLINE]Pursuant to dynastic imperatives and the ethos of the time, the nobles required Tamar to marry in order to have a leader for the army and to provide an heir to the throne. Their choice fell on Yuri, son of the murdered prince Andrei I Bogolyubsky of Vladimir-Suzdal, who then lived as a refugee among the Kipchaks of the North Caucasus. The choice was approved by Tamar's aunt Rusudan and the prince was brought to Georgia to marry the queen in 1185. Yuri proved to be an able soldier, but a difficult person and he soon ran afoul of his wife.The strained spousal relations paralleled a factional struggle at the royal court in which Tamar was becoming more and more assertive of her rights as a queen regnant.The turning point in Tamar's fortunes came with the death of the powerful Catholicos-Patriarch Michael whom the queen replaced, as a chancellor, with her supporter, Anton Gnolistavisdze.Tamar gradually expanded her own power-base and elevated her loyal nobles to high positions at the court, most notably the Zakarids-Mkhargrzeli.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_HEADING_4">
+			<Text>Foreign Policy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_TEXT_4">
+			<Text>
+				Once Tamar succeeded in consolidating her power and found a reliable support in David Soslan, the Zakarids-Mkhargrzeli, Toreli, and other noble families, she revived the expansionist foreign policy of her predecessors. Repeated occasions of dynastic strife in Georgia combined with the efforts of regional successors of the Great Seljuq Empire, such as the Ildenizid atabegs of Azerbaijan, Shirvanshahs, and the Ahlatshahs, had slowed down the dynamic of the Georgians achieved during the reigns of Tamar's great-grandfather, David IV, and her father, George III. However, the Georgians became again active under Tamar, more prominently in the second decade of her rule.[NEWLINE][NEWLINE] Early in the 1190s, the Georgian government began to interfere in the affairs of the Ildenizids and of the Shirvanshahs, aiding rivaling local princes and reducing Shirvan to a tributary state. The Ildenizid atabeg Abu Bakr attempted to stem the Georgian advance, but suffered a defeat at the hands of David Soslan at the Battle of Shamkor and lost his capital to a Georgian protégé in 1195. Although Abu Bakr was able to resume his reign a year later, the Ildenizids were only barely able to contain further Georgian forays.[NEWLINE][NEWLINE]In 1199, Tamar's armies led by two Christianised Kurdishgenerals, Zak'are and Ivane Zakarid-Mkhargrzeli, dislodged the Shaddadid dynasty from Ani, the erstwhile capital of the Armenian kingdom, and received it from the queen as their fief. From their base at Ani, the brothers surged ahead into the central Armenian lands, reclaiming one after another fortresses and districts from local Muslim rulers: Bjni was taken in 1201 and Dvin fell in 1203.[NEWLINE][NEWLINE]Alarmed by the Georgian successes, Süleymanshah II, the resurgent Seljuqid sultan of Rûm, rallied his vassal emirs and marched against Georgia, but his camp was attacked and destroyed by David Soslan at the Battle of Basian in 1203 or 1204. The chronicler of Tamar describes how the army was assembled at the rock-hewn town of Vardzia before marching on to Basian and how the queen addressed the troops from the balcony of the church.[NEWLINE][NEWLINE]The Zakarids-Mkhargrzeli captured Kars on behalf of the Georgian crown in 1206, but were repelled from the walls of Akhlat in 1209. This brought the struggle for the Armenian lands to a stall, leaving the Lake Van region in a relatively secure possession of its new masters – the Ayyubids of Damascus. In 1209, the brothers Zakarids-Mkhargrzeli laid waste to Ardabil – according to the Georgian and Armenian annals – as a revenge for the local Muslim ruler's attack on Ani and his massacre of the city's Christian population. In a great final burst, the brothers led an army marshaled throughout Tamar's possessions and vassal territories in a march, through Nakhchivan and Julfa, to Marand, Tabriz, and Qazvin in northwest Iran, pillaging several settlements on their way.[NEWLINE][NEWLINE]Among the remarkable events of Tamar's reign was the foundation of the Empire of Trebizond on the Black Sea coast in 1204. This state was established by Alexios I Megas Komnenos (r. 1204–1222) and his brother, David, in the northeastern Pontic provinces of the crumbling Byzantine Empire with the aid of Georgian troops. Alexios and David, Tamar's relatives, were fugitive Byzantine princes raised at the Georgian court. According to Tamar's historian, the aim of the Georgian expedition to Trebizond was to punish the Byzantine emperor Alexios IV Angelos (r. 1203–1204) for his confiscation of a shipment of money from the Georgian queen to the monasteries of Antioch and Mount Athos. However, Tamar's Pontic endeavor can better be explained by her desire to take advantage of the Western European Fourth Crusade against Constantinople to set up a friendly state in Georgia's immediate southwestern neighborhood, as well as by the dynastic solidarity to the dispossessed Komnenoi.[NEWLINE][NEWLINE]Tamar sought to make use of the weakness of the Byzantine Empire and the Crusaders' defeat at the hands of the Ayyubid sultan Saladin in order to gain Georgia's position on the international stage and to assume the traditional role of the Byzantine crown as a protector of the Christians of the Middle East. Christian Georgian missionaries were active in the North Caucasus and the expatriate monastic communities were scattered throughout the Eastern Mediterranean. Tamar's chronicle praises her universal protection of Christianity and her support of churches and monasteries from Egypt to Bulgaria and Cyprus.[NEWLINE][NEWLINE]The Georgian court was primarily concerned with the protection of the Georgian monastic centers in the Holy Land. By the 12th century, eight Georgian monasteries were listed in Jerusalem. Saladin's biographer, Bahā' ad-Dīn ibn Šaddād, reports that after the Ayyubid conquest of Jerusalem in 1187, Tamar sent envoys to the sultan to request that the confiscated possessions of the Georgian monasteries in Jerusalem be returned. Saladin's response is not recorded, but the queen's efforts seem to have been successful: Jacques de Vitry, who attained to the bishopric of Acre shortly after Tamar's death, gives further evidence of the Georgians’ presence in Jerusalem. He writes that the Georgians were – in contrast to the other Christian pilgrims – allowed a free passage into the city, with their banners unfurled. Ibn Šaddād furthermore claims that Tamar outbid the Byzantine emperor in her efforts to obtain the relics of the True Cross, offering 200,000 gold pieces to Saladin who had taken the relics as booty at the Battle of Hattin – to no avail, however.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_HEADING_5">
+			<Text>Golden Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_TEXT_5">
+			<Text>
+				orgia's political and cultural exploits of Tamar's epoch were rooted in a long and complex past. Tamar owed her accomplishments most immediately to the reforms of her great-grandfather David IV (r. 1089–1125) and, more remotely, to the unifying efforts of David III and Bagrat III who became architects of a political unity of Georgian kingdoms and principalities in the opening decade of the 11th century. Tamar was able to build upon their successes. By the last years of Tamar's reign, the Georgian state had reached the zenith of its power and prestige in the Middle Ages. Tamar's realm stretched from the Greater Caucasus crest in the north to Erzurum in the south, and from the Zygii in the northwest to the vicinity of Ganja in the southeast, forming a pan-Caucasian empire, with the loyal Zachariad regime in northern and central Armenia, Shirvan as a vassal and Trebizond as an ally. A contemporary Georgian historian extols Tamar as the master of the lands "from the Sea of Pontus [i.e., the Black Sea] to the Sea of Gurgan [i.e., the Caspian Sea], from Speri to Derbend, and all the Hither and the Thither Caucasus up to Khazaria and Scythia."[NEWLINE][NEWLINE]The queen never achieved autocratic powers and the noble council continued to function. However, Tamar's own prestige and the expansion of patronq'moba – a Georgian version of feudalism – kept the more powerful dynastic princes from fragmenting the kingdom. This was a classical period in the history of Georgian feudalism.[43] Attempts at transplanting feudal practices in the areas where they had previously been almost unknown did not pass without resistance. Thus, there was a revolt among the mountaineers of Pkhovi and Dido on Georgia's northeastern frontier in 1212, which was put down by Ivane Zakarid-Mkhargrzeli after three months of heavy fighting.[NEWLINE][NEWLINE]With flourishing commercial centers now under Georgia's control, industry and commerce brought new wealth to the country and the court. Tribute extracted from the neighbors and war booty added to the royal treasury, giving rise to the saying that "the peasants were like nobles, the nobles like princes, and the princes like kings."
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_HEADING_6">
+			<Text>Cultural Flowering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_TEXT_6">
+			<Text>
+				With this prosperity came an outburst of the distinct Georgian culture, emerging from the amalgam of Christianity, secularism, as well as western and eastern influences. Despite this, the Georgians continued to identify with the Byzantine West, rather than Islamic East, with the Georgian monarchy seeking to underscore its association with Christianity and present its position as God-given.It was in that period that the canon of Georgian Orthodox architecture was redesigned and a series of large-scale domed cathedrals were built. The Byzantine-derived expression of royal power was modified in various ways to bolster Tamar's unprecedented position as a woman ruling in her own right. The five extant monumental church portraits of the queen are clearly modeled on Byzantine imagery, but also highlight specifically Georgian themes and Persian-type ideals of female beauty. Despite Georgia's Byzantine-leaning culture, the country's intimate trade connections with the Middle East is evidenced on contemporary Georgian coinage, whose legends were composed in Georgian and Arabic. A series of coins minted in circa 1200 in the name of Queen Tamar depicted a local variant of the Byzantine obverse and an Arabic inscription on the reverse proclaiming Tamar as the "Champion of the Messiah".[NEWLINE][NEWLINE]The contemporary Georgian chronicles enshrined Christian morality and patristic literature continued to flourish, but it had, by that time, lost its earlier dominant position to secular literature, which was highly original, even though it developed close contact with neighboring cultures. The trend culminated in Shota Rustaveli's epic poem The Knight in the Panther's Skin (Vepkhistq'aosani), which celebrates the ideals of an "Age of Chivalry" and is revered in Georgia as the greatest achievement of native literature.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_HEADING_7">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_TEXT_7">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_NAME">
+			<Text>Tamar</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_SUBTITLE">
+			<Text>Leader of Georgia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_TITLES_1">
+			<Text>Mepe of Georgia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_US_TAMAR_LIVED">
+			<Text>1160 - 1213</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_US_GEORGIA_TEXT">
+			<Text>All Hail Queen Tamar of Georgia! You rule Georgia, a nation of poets, priests and warriors perched among the ferocious peaks of the Caucasus mountains. Though ruling in unelightened times and facing a rebellious nobility chafing under their own misogyny, you inspired devotion and loyalty among the people of Georgia and crushed those who refused to acknowledge your rule. With the nation bent to your pious will, you went on to lead the small mountain kingdom onto epic conquests, uniting the Caucasus mountains and destroying Muslim neighbours vastly larger than your shining beacon of Christianity. Smashing even the mighty Seljuk empire, Georgia became a regional hegemon - even as far as Jerusalem, Georgian priests went unmolested by their heathen countrymen, while Georgian knights rode unmolested, banners unfurled, striking red and white through the ancient city, a rare honour for even the mightiest of empires. [NEWLINE] [NEWLINE] Can you build a civilisation to honour the mighty dragon slayer St. George himself? Can you defend against the ancient dragons that stalk your Caucasian home, waiting to subdue your faith beneath a tide of heathenry? Can you build a civilisation to stand the test of time? </Text>
+		</Row>
+		<!--Responses-->
+		<Row Tag="TXT_KEY_LEADER_US_TAMAR_FIRSTGREETING_1">
+			<Text>Greetings traveller, I welcome thee to Georgia - a land as pious as it is beautiful, if you have any heathenry inside you, I advise you leave it wherever it is you came from.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_US_TAMAR_DEFEATED_1">
+			<Text>The Lord shall succeed where even I failed, and strike you down with a vengeance that would make my most hardened warriors blush. Count your remaianing days, heathen.</Text>
+		</Row>
+		<!--??-->
+		<Row Tag="TXT_KEY_TRAIT_US_GEORGIA_SHORT">
+			<Text>Dragonslayer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_US_GEORGIA">
+			<Text>Forts built adjacent to a Mountain, Holy Site, or Citadel yield +4 [ICON_PEACE] Faith and passively upgrade to Citadels over time when worked. Units starting their turn near a Citadel begin with +2 [ICON_MOVES] Movement.</Text>
+		</Row>
+		<!--TSIKHE-->
+		<Row Tag="TXT_KEY_BUILDING_US_TSIKHE">
+			<Text>Tsikhe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_US_TSIKHE_HELP">
+			<Text>Cheaper and provides significantly less [ICON_STRENGTH] Defense, but constructs a Citadel on the city tile. If near to a Mountain, also yields +1 [ICON_GREAT_GENERAL] Great General Point.[NEWLINE][NEWLINE]City must have Walls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_US_TSIKHE_STRATEGY">
+			<Text>Though the Tsikhe seems weaker than the castle, it ensures you can get full value out of Georgias unique ability by allowing forts adjacent to your cities to yield extra faith, even when you don't find yourself near enough mountains. The extra Great General Points also ensure that your citadel chains will stretch far beyond merely your city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_TSIKHE_TEXT">
+			<Text>
+				There are over 100 castles and forts in Georgia, which were constructed between the years 800 and 1700 by various provincial kings. The castles and forts have long been abandoned, but most are still standing, and some are preserved by the United Nations.The earliest castle in Georgia was the Ananuri castle, which was built in the period from 1200–1249. The Ananuri castle consisted of two castles with a big curtain wall surrounding it. It was the seat of the dukes of the Duchy of Aragvi, which was one of multiple feudal dynasties during the period.The last castle to be built in Georgia was the Rabati Castle, which was built between 1250 and 1299. The original town was built from 700–800, with the castle being built in the 1260s. From the 1260s to the 1340s the castle and the surrounding town was the capital city of the province of Samtskhe-Saatabago, which was ruled by the House of Jaqeli. The forts of Georgia lie in varying states of ruin. The oldest was built in the 9th century, while some were built as late as the 17th century. While many still stand, most have been heavily damaged by various causes.
+			</Text>
+		</Row>
+		<!--TADZREULI-->
+		<Row Tag="TXT_KEY_UNIT_US_TADZREULI">
+			<Text>Tadzreuli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_US_TADZREULI_HELP">
+			<Text>While this unit is stacked with a missionary or inquisitor, they gain +1 movement points and the Tadzreuli earns double Great General points. Earns [ICON_PEACE] Faith as it Levels.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_US_TADZREULI_STRATEGY">
+			<Text>The Tadzreuli excels at protecting and spreading the Georgian faith, allowing Missionaries and Inquisitors to get around much quicker while also generating bonus Great General points alongside them. Use this synergy to ensure that your new conquests are quick to embrace your faith. By fighting with these units, the extra faith from levelling will also ensure you have enough faith on hand to keep purchasing more missionaries - a deadly cycle of faith and fury!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_TADZREULI_TEXT">
+			<Text>This was the elite force of the medieval Georgian army. The first reference to "Tadzreuli" is encountered after the reforms of David IV the Builder (who reigned from 1089-1125). Monaspa gradually became the most disciplined, highly effecient, and heavy hitting cavalry in the Georgian army. Under its strong punch enemy forces would fall into panic and leave the field of conflict without a second thought, knowing that a collision with the the Georgian cataphract means certain death.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_US_TADZREULI">
+			<Text>Hymns of Repentance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_US_TADZREULI_HELP">
+			<Text>Doubled Great General Points from combat when stacked with a Missionary or Inquisitor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_US_TADZREULI_ACTIVE_HELP">
+			<Text>Doubled Great General Points from combat whilst stacked with a Missionary or Inquisitor.</Text>
+		</Row>
+		<!--JFDLC Support-->
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_1">
+			<Text>
+				Nikolay Chkheidze
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_2">
+			<Text>
+				Mamia Orakhelashvili
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_3">
+			<Text>
+				Mikheil Okudzhava
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_4">
+			<Text>
+				Vissarion Lominadze
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_5">
+			<Text>
+				Mikheil Kakhiani
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_6">
+			<Text>
+				Levan Gogoberidze
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_7">
+			<Text>
+				Samson Mamulia
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_8">
+			<Text>
+				Lavrenty Kartvelishvili
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_9">
+			<Text>
+				Lavrentiy Beria
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_10">
+			<Text>
+				Petre Agniashvili
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_11">
+			<Text>
+				Candide Charkviani
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_12">
+			<Text>
+				Akaki Mgeladze
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_13">
+			<Text>
+				Aleksandre Mirtskhulava
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_14">
+			<Text>
+				Eduard Shevardnadze
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_15">
+			<Text>
+				Jumber Patiashvili
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_16">
+			<Text>
+				Givi Gumbaridze
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_17">
+			<Text>
+				Zviad Gamsakhurdia
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_18">
+			<Text>
+				Tengiz Kitovani
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_19">
+			<Text>
+				Jaba Ioseliani
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_20">
+			<Text>
+				Nino Burjanadze
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_21">
+			<Text>
+				Mikheil Saakashvili
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_22">
+			<Text>
+				Giorgi Margvelashvili
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_23">
+			<Text>
+				Ioseb Jughashvili
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_24">
+			<Text>
+				Noe Zhordania
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_US_GEORGIA_25">
+			<Text>
+				Irakli Ghudushauri-Shiolashvili
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_US_GEORGIA">
+			<Text>Sakartvelos Patriotta Aliansi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULARIST_US_GEORGIA">
+			<Text>K’art’uli dasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_BURGHERS_US_GEORGIA">
+			<Text>Mretsveloba Gadaarchens Sak'art'velos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CLERGY_US_GEORGIA">
+			<Text>P’at’riarkebi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_COMMUNIST_US_GEORGIA">
+			<Text>Sakartvelos Komunisturi Partia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CONSERVATIVE_US_GEORGIA">
+			<Text>Ertiani Natsionaluri Modzraoba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_FASCIST_US_GEORGIA">
+			<Text>Sakartvelo Dzalaupleba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERAL_US_GEORGIA">
+			<Text>K’art’uli ots’neba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERTARIAN_US_GEORGIA">
+			<Text>Sak’art’velos gza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_NOBILITY_US_GEORGIA">
+			<Text>Aznauroba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REACTIONARY_US_GEORGIA">
+			<Text>Tetri Giorgi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REVOLUTIONARY_US_GEORGIA">
+			<Text>Damoukideblobis komiteti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_SOCIALIST_US_GEORGIA">
+			<Text>Menshevik’ebi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LEGISLATURE_NAME_CIVILIZATION_US_GEORGIA">
+			<Text>Karavi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_US_GEORGIA_1">
+			<Text>Expand Patronq'moba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_US_GEORGIA_1_DESC">
+			<Text>
+				The ancient system of homage and tribute in Georgia is not in keeping with modern times, by elevating a powerful military elite to the forefront of Georgian administration, we can ensure a more robust and centralised state.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Must have at least five Cities.
+				[NEWLINE][ICON_BULLET]Must have researched Civil Service.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_SCIENCE] Science.
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_CULTURE] Culture.
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Courthouses yield +2 [ICON_GOLD] Gold and +1 [ICON_GREAT_GENERAL] Great General points.
+				[NEWLINE][ICON_BULLET]All your mounted units are upgraded to Tsikhe for free.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_US_GEORGIA_2">
+			<Text>Declare an Autocephalous Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_US_GEORGIA_2_DESC">
+			<Text>
+				The Georgian church is without equal in this fallen world, it is intolerable that such an institution should have to bow and scrape beneath the yoke of its inferiors - we must be independent to be strong!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Must be generating at least 30 faith per turn.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_FAITH] Faith.
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_CULTURE] Culture.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Receive a [ICON_RELIGION] Great Prophet.
+				[NEWLINE][ICON_BULLET]+2 Faith and +3 Gold in cities adjacent to Mountains.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

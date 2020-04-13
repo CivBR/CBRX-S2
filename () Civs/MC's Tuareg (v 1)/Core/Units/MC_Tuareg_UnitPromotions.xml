@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_MC_IMAJAGHAN</Type>
+			<Description>TXT_KEY_PROMOTION_MC_IMAJAGHAN</Description>
+			<Help>TXT_KEY_PROMOTION_MC_IMAJAGHAN_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MC_IMAJAGHAN</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_MC_HAS_ALREADY_PILLAGED</Type>
+			<Description>TXT_KEY_PROMOTION_MC_HAS_ALREADY_PILLAGED</Description>
+			<Help>TXT_KEY_PROMOTION_MC_HAS_ALREADY_PILLAGED_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MC_HAS_ALREADY_PILLAGED</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_MC_AHAKET</Type>
+			<Description>TXT_KEY_PROMOTION_MC_AHAKET</Description>
+			<Help>TXT_KEY_PROMOTION_MC_AHAKET_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>1</MovesChange>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MC_AHAKET</PediaEntry>
+		</Row>
+	</UnitPromotions>
+</GameData>

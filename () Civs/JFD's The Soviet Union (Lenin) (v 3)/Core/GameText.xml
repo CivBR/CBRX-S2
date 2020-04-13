@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/4/2014 8:45:16 AM -->
+<GameData>
+	<Language_en_US>
+		<!--USSR (Lenin)-->
+		<Row Tag="TXT_KEY_CIV_JFD_USSR_LENIN_ADJECTIVE">
+			<Text>Leninist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_USSR_LENIN_DESC">
+			<Text>Soviet Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_USSR_LENIN_SHORT_DESC">
+			<Text>The Soviet Union</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_PETROGRAD">
+			<Text>Petrograd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_KHARKOV">
+			<Text>Kharkov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_MINSK">
+			<Text>Minsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_KIEV">
+			<Text>Kiev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_SIMBIRSK">
+			<Text>Simbirsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_SIMFEROPOL">
+			<Text>Simferopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_ODESSA">
+			<Text>Odessa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_BAKU">
+			<Text>Baku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_OMSK">
+			<Text>Omsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_UFA">
+			<Text>Ufa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_YEKATERINBURG">
+			<Text>Yekaterinburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_TROTSK">
+			<Text>Trotsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_KALUGA">
+			<Text>Kaluga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_SMOLENSK">
+			<Text>Smolensk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_ORENBURG">
+			<Text>Orenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_ROSTOV_ON_DON">
+			<Text>Rostov-on-Don</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_KRASNODAR">
+			<Text>Krasnodar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_VLADIVOSTOK">
+			<Text>Vladivostok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_NOVOSIBIRSK">
+			<Text>Novosibirsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_KRASNOYARSK">
+			<Text>Krasnoyarsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_CHELYABINSK">
+			<Text>Chelyabinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_YEREVAN">
+			<Text>Yerevan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_SAMARA">
+			<Text>Samara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_TSARITSYN">
+			<Text>Tsaritsyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_YUZOVKA">
+			<Text>Yuzovka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_IVANOVO">
+			<Text>Ivanovo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_ALMA_ATA">
+			<Text>Alma-Ata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_FRUNZE">
+			<Text>Frunze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_KHABAROVSK">
+			<Text>Khabarovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_AKMOLINSK">
+			<Text>Akmolinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_SEMIPALATINSK">
+			<Text>Semipalatinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_ASHGABAT">
+			<Text>Ashgabat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_DUSHANBE">
+			<Text>Dushanbe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_NIKOLAYEVSK_ON_AMUR">
+			<Text>Nikolayevsk-on-Amur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_ELEKTROSTAL">
+			<Text>Elektrostal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_DETSKOE_SELO">
+			<Text>Detskoe Selo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_LENINO">
+			<Text>Lenino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_LENINABAD">
+			<Text>Leninabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LENIN_ARZAMAS_16">
+			<Text>Arzamas-16</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LENIN_SOVIET_9">
+			<Text>Pantiuşa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LENIN_SOVIET_8">
+			<Text>Ursula</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LENIN_SOVIET_7">
+			<Text>Mikhail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LENIN_SOVIET_6">
+			<Text>Ain-Ervin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LENIN_SOVIET_5">
+			<Text>Susemihl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LENIN_SOVIET_4">
+			<Text>Valery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LENIN_SOVIET_3">
+			<Text>Konon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LENIN_SOVIET_2">
+			<Text>Reino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LENIN_SOVIET_1">
+			<Text>Yuri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LENIN_SOVIET_0">
+			<Text>Moura</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--LENIN-->
+		<Row Tag="TXT_KEY_LEADER_JFD_LENIN">
+			<Text>Lenin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LENIN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LENIN_TEXT_1">
+			<Text>Vladimir Ilyich Lenin was a Russian communist revolutionary, politician and political theorist. He served as the leader of the Russian Soviet Federative Socialist Republic from 1917, and then concurrently as Premier of the Soviet Union from 1922, until his death. Under his administration, the Russian Empire was dissolved and replaced by the Soviet Union, a one-party socialist state; industry and businesses were nationalized, and one party took control of all organizations in all areas of society. The Red Army under his ally Trotsky took control of some areas, such as Ukraine, Armenia, Georgia and Azerbaijan that had set up independent states. Politically a Marxist, his theoretical contributions to Marxist thought are known as Leninism, which coupled with Marxian economic theory have collectively come to be known as Marxism–Leninism.[NEWLINE][NEWLINE]Born to a wealthy middle-class family in Simbirsk, Lenin gained an interest in revolutionary leftist politics following the execution of his brother Aleksandr in 1887. Expelled from Kazan State University for participating in anti-Tsarist protests, he devoted the following years to a law degree and to radical politics, becoming a Marxist. In 1893 he moved to St Petersburg, and became a senior figure in the Russian Social Democratic Labour Party (RSDLP). Arrested for sedition and exiled to Siberia for three years, he married Nadezhda Krupskaya, and fled to Western Europe, living in Germany, France, England, and Switzerland, where he became known as a prominent party theorist. In 1903, he took a key role in the RSDLP schism, leading the Bolshevik faction against Julius Martov's Mensheviks. Briefly returning to Russia during the Revolution of 1905, he encouraged violent insurrection and later campaigned for the First World War to be transformed into a Europe-wide proletariat revolution. After the 1917 February Revolution ousted the Tsar he returned to Russia.[NEWLINE][NEWLINE]Lenin played a senior role in orchestrating the October Revolution in 1917, which led to the overthrow of the Provisional Government and the establishment of the Russian Socialist Federative Soviet Republic, the world's first constitutionally socialist state. Immediately afterwards, the new government under Lenin's leadership proceeded to implement socialist reforms, including the transfer of estates and crown lands to workers' soviets. He supported world revolution and immediate peace with the Central Powers, agreeing to a punitive treaty that turned over a significant portion of the former Russian Empire to Germany. The treaty was voided after the Allies won the war. In 1921 Lenin proposed the New Economic Policy, a system of state capitalism that started the process of industrialisation and recovery from the Civil War. In 1922, the Russian SFSR joined former territories of the Russian Empire in becoming the Soviet Union, with Lenin elected as its leader.[NEWLINE][NEWLINE]After his death, Marxism–Leninism developed into a variety of schools of thought, namely LENINism, Trotskyism and Maoism. Lenin remains a controversial and highly divisive world figure. Detractors label him a dictator whose administration oversaw multiple human rights abuses, while supporters reject this criticism and promote him as a champion of the working class. Lenin had a significant influence on the international Communist movement and was one of the most influential and controversial figures of the 20th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LENIN_LIVED">
+			<Text>1870 - 1924</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LENIN_NAME">
+			<Text>Lenin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LENIN_SUBTITLE">
+			<Text>Leader of the USSR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LENIN_TITLES_1">
+			<Text>Leader of the Russian SFSR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_LENIN_USSR_DAWN">
+			<Text>In your name, the proletarist rises, O' Vladimir Lenin, leader of this glorious revolution! Though born into wealth, you would instead turn to the cause of the working class, taking your place as leader of the Bolshevik Party in a pledge to forge a nation dictated by men of the soil. A storm was brewing in the heart of mighty Russia, and the days of the Tsars were drawing to a close. With the Russian Revolution in 1917, Nicholas II was overthrown, and the monarchy which had raised Russia for centuries was finally undone. With you at the helm of a new, socialist Republic, Russia would begin its journey into modernity.[NEWLINE][NEWLINE]Dauntless revolutionary, once again the fires of change must be ignited by your champion. The will of the proletariat lies broken beneath the crowns of autocrats and it demands your determination to inspire strength. Can you bring forth the will of your brothers against their slavery? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--PROLETARIAN REVOLUTION-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_USSR_LENIN">
+			<Text>Stone Works, Windmills, Forges, and Factories may be built in any city regardless of terrain or resource requirements and yield +2 [ICON_TOURISM] Tourism. Worker improvement speed increased by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_USSR_LENIN_SHORT">
+			<Text>Proletarian Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LENIN_STONE_WORKS_HELP">
+			<Text>Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LENIN_STONE_WORKS_STRATEGY">
+			<Text>Stone Works can only be constructed in a city near an improved [ICON_RES_STONE] Stone or [ICON_RES_MARBLE] Marble resource. Stone Works increase a city's [ICON_PRODUCTION] production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LENIN_FORGE_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production when building Land Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_IRON] Iron worked by this City produces +1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LENIN_FORGE_STRATEGY">
+			<Text>It increases the speed at which the city produces land units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LENIN_WINDMILL_HELP">
+			<Text>+10% [ICON_PRODUCTION] Production when constructing Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LENIN_WINDMILL_STRATEGY">
+			<Text>The Windmill is a Renaissance-era building which increases the [ICON_PRODUCTION] Production output of a city when constructing buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LENIN_FACTORY_STRATEGY">
+			<Text>The Factory is an Industrial-era building which greatly increases a city's [ICON_PRODUCTION] Production. The city must already possess a Workshop (or Longhouse).</Text>
+		</Row>
+		<!--COMMISSARIAT-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_LENIN_COMMISSARIAT">
+			<Text>Commissariat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_LENIN_COMMISSARIAT_HELP">
+			<Text>Stores 1% [ICON_FOOD] Food after a new [ICON_CITIZEN] Citizen is born for every 2 [ICON_PRODUCTION] Production output of the city (up to 15%).[NEWLINE][NEWLINE]Reduces enemy spy stealing rate by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_LENIN_COMMISSARIAT_STRATEGY">
+			<Text>The Commissariat is the Soviet replacement for the Constable, for Lenin. In addition to the regular effects of the Constable, the Commissariat increases the amount of [ICON_FOOD] Food carried over when a new [ICON_CITIZEN] Citizen is born based upon the amount of [ICON_PRODUCTION] Production produced in the city (caps at 15%).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_LENIN_COMMISSARIAT_TEXT">
+			<Text>A commissariat is a department charged with maintaining supplies for an army. Military commissariats in the Soviet Union were devoted to the administration of local military affairs; including the mobilization of the army and the drafting of soldiers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_LENIN_FOOD">
+			<Text>JFD: Lenin Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_LENIN_FOOD_HELP">
+			<Text>Stores [ICON_FOOD] Food when a new [ICON_CITIZEN] Citizen is born.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_USSR_LENIN_COMMISSARIAT_CITY_VIEW_HELP">
+			<Text>[NEWLINE]+{1_Num}% extra [ICON_FOOD] Food will be carried over when a new [ICON_CITIZEN] Citizen is born.</Text>
+		</Row>
+		<!--LEVY-->
+		<Row Tag="TXT_KEY_UNIT_JFD_LENIN_LEVY">
+			<Text>Levy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_LENIN_LEVY">
+			<Text>Cheap but slightly weak replacement for the Great War Infantry. May use enemy roads. Only Lenin may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_LENIN_LEVY_STRATEGY">
+			<Text>The Levy is the unique unit for Lenin's Soviet Union. Unlike the Great War Infantry that it replaces, the Levy is considerably cheaper, though it is also slightly weaker. Levies may make use of enemy roads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_LENIN_LEVY_TEXT">
+			<Text>A Levy is a citizen enlisted into military service as a part of mandatory conscription. Conscription is an ancient practice and continues to be used by many of the world's modern nations; although very few of them are European countries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_LENIN_LEVY">
+			<Text>May Use Enemy Roads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_LENIN_LEVY_HELP">
+			<Text>May Use Enemy Roads</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

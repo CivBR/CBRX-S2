@@ -1,0 +1,206 @@
+﻿<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_01">
+			<Text>Zanzibar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_02">
+			<Text>Malindi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_03">
+			<Text>Dar es Salaam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_04">
+			<Text>Mombasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_05">
+			<Text>Tanga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_06">
+			<Text>Mikindani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_07">
+			<Text>Lindi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_08">
+			<Text>Pangani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_09">
+			<Text>Kilwa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_10">
+			<Text>Lamu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_11">
+			<Text>Bagamoyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_12">
+			<Text>Wete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_13">
+			<Text>Kilindoni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_14">
+			<Text>Pate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_15">
+			<Text>Mtwara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_16">
+			<Text>Nungwi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_17">
+			<Text>Chake-Chake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_18">
+			<Text>Siyu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_19">
+			<Text>Mkokotoni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_20">
+			<Text>Watamu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_21">
+			<Text>Kilifi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_22">
+			<Text>Bweni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_23">
+			<Text>Masoko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_ZANZIBAR_24">
+			<Text>Pete</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_ZANZIBAR_0">
+			<Text>Majid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_ZANZIBAR_1">
+			<Text>Salme</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_ZANZIBAR_2">
+			<Text>Khalifah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_ZANZIBAR_3">
+			<Text>Said</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_ZANZIBAR_4">
+			<Text>Tippu Tip</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_ZANZIBAR_5">
+			<Text>Ali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_ZANZIBAR_6">
+			<Text>Jamshid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_ZANZIBAR_7">
+			<Text>Hamad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_ZANZIBAR_8">
+			<Text>Hamoud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_ZANZIBAR_9">
+			<Text>Farrokh</Text>
+		</Row>
+
+		<!--Demonyms-->
+		<Row Tag="TXT_KEY_CIV_SENSHI_ZANZIBAR_ADJECTIVE">
+			<Text>Zanzibari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_ZANZIBAR_DESC">
+			<Text>Zanzibar Sultanate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_ZANZIBAR_SHORT_DESC">
+			<Text>Zanzibar</Text>
+		</Row>
+
+		<!--DoM-->
+		<Row Tag="TXT_KEY_CIV5_DOM_SENSHI_BARGHASH_TEXT">
+			<Text>Peace be upon you, cunning Barghash bin Said, great Sultan of Zanzibar! In your time, Zanzibar dominated the lucrative trade of the Swahili Coast, and you ruled proudly over an empire stretching from Mozambique to Mogadishu. Under your guiding hand, Zanzibar was transformed into a vast and modern city: where once there were mere dusty paths and stone houses there now stood roads, parks, hospitals and public baths, not to mention the grand and opulent you built for the empire's administration. You also proved adept in matters of diplomacy, able to subdue and dissuade the vile colonial powers aiming to force Zanzibar into their sphere. Truly, only you were deserving of the title of Sultan![NEWLINE][NEWLINE]Oh great Sultan, you would be the last to have true independence from the European powers. Shortly after your death your empire's mainland possessions were stripped away, and your once great Sultanate was reduced to a single island. But the time has come for you to return! Will you lead Zanzibar into a new era of modernisation and prosperity? Will you build a civilization to stand the test of time?</Text>
+		</Row>
+
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIV5_SENSHI_ZANZIBAR_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_ZANZIBAR_TEXT_1">
+			<Text>The Sultanate of Zanzibar was a trade empire centered on the eponymous island, which dominated the Swahili Coast in the nineteenth century. The island of Zanzibar (now part of Tanzania) became a possession of the south Arabian state of Muscat and Oman in the late 17th century; Said bin Sultan, who created a flourishing commercial empire along the East African coast, made it his capital in 1832. In 1861 Zanzibar was separated from Muscat and Oman and became an independent Sultanate, which controlled the vast African domains acquired by Said as well as lucrative trade in slaves and ivory. However, most of Zanzibar’s territory on the African mainland was later divided between Great Britain and Germany, restricting the Sultanate's economic control of East Africa. In 1890 the British proclaimed a protectorate over Zanzibar itself, which endured for several decades. During this period the Sultan’s authority was reduced and the slave trade curtailed.</Text>
+		</Row>
+		
+		<!--Leader-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BARGHASH_LIVED">
+			<Text>1837 - 1888</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BARGHASH_NAME">
+			<Text>Barghash bin Said Al-Busaid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BARGHASH_SUBTITLE">
+			<Text>Sultan of Zanzibar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_BARGHASH">
+			<Text>Barghash bin Said</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BARGHASH_TITLES_1">
+			<Text>Sultan of Zanzibar</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BARGHASH_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BARGHASH_TEXT_1">
+			<Text>Barghash bin Said was Sultan of Zanzibar from 1870 to 1888 - a shrewd and ambitious ruler, who, for most of his reign, looked to Britain for protection and assistance but eventually saw his domains divided between Germany and his former protector. Although not the first heir to the throne of his father, Said bin Sultan, Barghash had made plans to seize the throne at his father’s death in 1856; he was, however, forestalled by the rightful heir, his brother Majid; and spent two years in exile in Bombay. Shortly after Barghash came to power, his longtime friend John Kirk became British consul. Kirk, a strong advocate of British support of Zanzibar, forced Barghash to sign an antislavery treaty in 1873 and two further proclamations in 1876 to close additional slave-trade loopholes. The British government (despite Kirk’s recommendations) was not prepared to support actively the extension of Barghash’s authority in the interior, but British pressure did discourage Egyptian expansion along the East African coast in 1875.[NEWLINE][NEWLINE]Recognizing his political and military weakness, Barghash afterward looked to Britain both as a protector and as a source of technical and military aid. In the following years, with British help, he created a small but modern army and attempted to modernize his government. By 1882, however, he recognized the threat posed by Belgian King Leopold II’s determination to control the rich ivory trade of the Congo basin. At first Barghash tried to prevent that control by supporting the state-building efforts of the Arab trader Tippu Tib. But when Leopold’s claims had been recognized by other European powers in 1885 and Germany was claiming most of present-day Tanzania, the disillusioned Barghash had no choice but to acquiesce in the dismemberment of his kingdom late in 1886.</Text>
+		</Row>
+
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_ZANZIBAR_SHORT">
+			<Text>House of Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_ZANZIBAR">
+			<Text>Half your [ICON_HAPPINESS_1] Happiness from Luxury Resources is provided as [ICON_RESEARCH] Science. [ICON_HAPPINESS_1] Happiness from a Luxury Resource is doubled if you control a majority of its copies.</Text>
+		</Row>
+
+		<!--Unique Units-->
+		<Row Tag="TXT_KEY_UNIT_SENSHI_JAHAZI">
+			<Text>Jahazi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_JAHAZI_STRATEGY">
+			<Text>Unique Zanzibari replacement for the Caravel. While slightly weaker, it can move faster and costs no unit maintenance. In addition, it provides Gold for each unimproved, unclaimed Resource within a one-tile radius.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_JAHAZI_HELP">
+			<Text>Unique Zanzibari replacement for the Caravel. While slightly weaker, it can move faster and costs no unit maintenance. In addition, it provides Gold for each unimproved, unclaimed Resource within a one-tile radius.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNIT_SENSHI_JAHAZI_TEXT">
+			<Text>The Jahazi is a type of dhow, common in Oman and the Swahili coast. Dhow is the generic name of a number of traditional sailing vessels with one or more masts with lateen sails used in the Red Sea and Indian Ocean region. Historians are divided as to whether the dhow was invented by Arabs. Typically sporting long thin hulls, dhows are trading vessels primarily used to carry heavy items, like fruit, fresh water or merchandise, along the coasts of the Arabian Peninsula, Pakistan, India, Bangladesh and East Africa. Larger dhows have crews of approximately thirty, smaller ones typically around twelve.</Text>
+		</Row>
+
+		<!--Unique Buildings-->
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_BANDARI">
+			<Text>Bandari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_BANDARI_STRATEGY">
+			<Text>Unique Zanzibari replacement for the Harbour. In addition to the building's usual benefits, receive +5% [ICON_RESEARCH] Science in the city for each outgoing Trade Route, and +1 [ICON_PRODUCTION] Production on Resources not owned by any city this city is trading with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_BANDARI_HELP">
+			<Text>Unique Zanzibari replacement for the Harbour. In addition to the building's usual benefits, receive +5% [ICON_RESEARCH] Science in the city for each outgoing Trade Route, and +1 [ICON_PRODUCTION] Production on Resources not owned by any city this city is trading with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_SENSHI_BANDARI_TEXT">
+			<Text>Bandari - deriving from the Arabic 'bandar' - is the Swahili word for a port or harbour. Persian, Indian, and Arab traders used Zanzibar as a base for voyages between the Middle East, India, and Africa. Unguja, the larger island, offered a protected and defensible harbor, so although the archipelago offered few products of value, traders settled at Zanzibar City ("Stone Town") a convenient point from which to trade with the other Swahili coast towns.</Text>
+		</Row>
+
+		<!--City-States-->
+		<Replace Tag="TXT_KEY_CITYSTATE_ZANZIBAR">
+			<Text>Quelimane</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_ZANZIBAR_ADJ">
+			<Text>Quelimanean</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_ZANZIBAR_TITLE">
+			<Text>Quelimane</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_ZANZIBAR_TEXT">
+			<Text>Quelimane is a seaport on the Rio dos Bons Sinais near its mouth in the Indian Ocean. It is a trade center and terminus of a railroad extending c.100 mi (160 km) into the interior. Exports include palm products, sisal, and tea. Fishing is an important industry, and the town has one of the world's largest coconut plantations. The Portuguese founded a trading station at Quelimane in 1544, and the town was an important slave market in the 18th and 19th cent. The name is also spelled Quilimane, Kilimane, and Kilimani.</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>

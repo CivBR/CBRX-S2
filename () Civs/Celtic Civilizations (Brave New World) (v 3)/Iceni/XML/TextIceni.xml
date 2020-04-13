@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/27/2014 1:00:06 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_ICENI_DESC">
+			<Text>The Iceni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ICENI_SHORT_DESC">
+			<Text>The Iceni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ICENI_ADJECTIVE">
+			<Text>Iceni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ICENI_PEDIA">
+			<Text>The Iceni or Eceni were a Brythonic tribe who inhabited an area of Britain corresponding roughly to the modern-day county of Norfolk between the 1st century BC and 1st century AD. The Cenimagni, who surrendered to Julius Caesar during his second expedition to Britain in 54BC, may have been a branch of the Iceni.[NEWLINE][NEWLINE]Tacitus records that the Iceni were not conquered in the Claudian invasion of AD43, but had come to a voluntary alliance with the Romans. However they rose against them in AD47 after the governor, Publius Ostorius Scapula, threatened to disarm them. They were defeated by Ostorius in a fierce battle at a fortified place, but were allowed to retain their independence. The site of the battle may have been Stonea Camp in Cambridgeshire.[NEWLINE][NEWLINE]A second, more serious, uprising took place in AD61. Prasutagus, the wealthy, pro-Roman Icenian king, had died. It was common practice for a Roman client king to leave his kingdom to Rome on his death, but Prasutagus had attempted to preserve his line by bequeathing his kingdom jointly to the Emperor and his own daughters. The Romans ignored this, and the procurator Catus Decianus seized his entire estate. Boudicca led a revolt; see her history for details.[NEWLINE][NEWLINE]The Iceni are recorded as a civitas of Roman Britain in Ptolemy's Geography, which names Venta Icenorum as a town of theirs. Venta, which is also mentioned in the Ravenna Cosmography, and the Antonine Itinerary, was a settlement near the village of Caister Saint Edmunds, some 5 miles south of present-day Norwich, and a mile or two from the Bronze Age Henge at Arminghall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UPRISING">
+			<Text>Iceni melee, mounted or ranged units automatically receive a +10% combat bonus. +1 [ICON_FOOD] food from marsh tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UPRISING_SHORT">
+			<Text>Boudicca's Uprising</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SILVERSMITH_DESC">
+			<Text>Silversmith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SILVERSMITH_HELP">
+			<Text>Replaces Mint. In addition to the functions of the Mint it also yields +2 [ICON_CULTURE] culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SILVERSMITH_TEXT">
+			<Text>The Iceni made East Anglia’s first ever silver artefacts. There are no silver deposits in the region and the metal must therefore have been imported.[NEWLINE][NEWLINE]One of the most common types of silver objects made and used by the Iceni was the torc, a large ring worn around the neck like a type of rigid necklace. The designs vary – from a very simple type to a much more ornate item made from many twisted wires and with elaborate terminals decorated with graceful, swooping designs.[NEWLINE][NEWLINE]The Iceni made a series of silver coins depicting different animals and people important to their society. You can see faces, horses, boars, and more abstract patterns on Icenian coins. Some even have writing on them – the first writing in Britain. The ability to create this beautiful art in such small spaces must not be underestimated.[NEWLINE][NEWLINE]They also made silver pins, bracelets, brooches, and religious items and used silver as decoration on everyday objects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SILVERSMITH_STRATEGY">
+			<Text>Replaces Mint. In addition to the functions of the Mint it also yields +2 [ICON_CULTURE] culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SWIFT_CHARIOT_DESC">
+			<Text>Swift Chariot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SWIFT_CHARIOT_HELP">
+			<Text>Replaces Chariot Archer. A melee unit, the Swift Chariot is stronger, faster, more effective in flat terrain and can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SWIFT_CHARIOT_TEXT">
+			<Text>British chariots were a form of warfare that the Romans had serious problems with. The chariot was drawn by two horses, and could carry a driver and a warrior. In battle the driver controlled the chariot, whilst the warrior would throw arrows at his opponents. The warrior would then dismount and fight on foot while the driver would take the chariot away to a safe distance. At the first sign of difficulties, the driver would dash into the battle, pick up the warrior, and withdraw to safety. Chariots were used against cavalry with great effect, and only against infantry in short skirmishes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SWIFT_CHARIOT_STRATEGY">
+			<Text>The Swift Chariot is an effective mounted unit of the Ancient Era which allows the Iceni to dominate in flat terrain.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/27/2014 12:57:05 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_IRELAND_DESC">
+			<Text>Irish Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IRELAND_SHORT_DESC">
+			<Text>Ireland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_IRELAND_ADJECTIVE">
+			<Text>Irish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IRELAND_PEDIA">
+			<Text>Ireland was mostly ice-covered and joined by land to Britain and Europe during the last ice age. It has been inhabited for about 9,000 years. Stone age inhabitants arrived sometime after 8000 BC, with the culture progressing from Mesolithic to high Neolithic over the course of three or four millennia. The Bronze Age, which began around 2500 BC, saw the production of elaborate gold and bronze ornaments and weapons. The Iron Age in Ireland is associated with people now known as Celts. They are traditionally thought to have colonised Ireland in a series of waves between the 8th and 1st centuries BC, with the Gael, the last wave of Celts, conquering the island and dividing it into five or more kingdoms. Many scholars, however, now favour a view that emphasises cultural diffusion from overseas over significant colonisation.The Romans referred to Ireland as Hibernia. Ptolemy in AD 100 records Ireland's geography and tribes. Native accounts are confined to Irish poetry, myth, and archaeology. The exact relationship between Rome and the tribes of Hibernia is unclear; the only references are a few Roman writings. Tradition maintains that in AD 432, St. Patrick arrived on the island and, in the years that followed, worked to convert the Irish to Christianity. The druid tradition collapsed in the face of the spread of the new faith. Irish Christian scholars excelled in the study of Latin learning and Christian theology in the monasteries that flourished, preserving Latin learning during the Early Middle Ages. The arts of manuscript illumination, metalworking, and sculpture flourished and produced such treasures as the Book of Kells, ornate jewellery, and the many carved stone crosses that dot the island. This era was interrupted in the 9th century by 200 years of intermittent warfare with waves of Viking raiders who plundered monasteries and towns. Eventually they settled in Ireland and established many towns, including the modern day cities of Dublin, Cork, Limerick and Waterford. In 1172, King Henry II of England gained Irish lands by the granting of the 1155 Bull Laudibiliter to him by then English Pope Adrian IV, and from the 13th century, English law began to be introduced. English rule was largely limited to the area around Dublin, known as the Pale, and Waterford, but this began to expand in the 16th century with the final collapse of the Gaelic social and political superstructure at the end of the 17th century, as a result of the Tudor re-conquest of Ireland and English and Scottish Protestant colonisation in the Plantations of Ireland, which established English control over the whole island. After the Irish Rebellion of 1641, Irish Catholics were barred from voting or attending the Irish Parliament. The new English Protestant ruling class was known as the Protestant Ascendancy. In 1800 the Irish Parliament passed the Act of Union which, in 1801, merged the Kingdom of Ireland and the Kingdom of Great Britain to create the United Kingdom of Great Britain and Ireland. The whole island of Ireland would remain within the United Kingdom, ruled directly by the UK Parliament in London. The 19th century saw the Great Famine of the 1840s in which at least 1 million Irish people died and over a million were forced to emigrate. The late 19th and early 20th century saw a vigorous but unsuccessful campaign for Irish home rule, followed by the eclipse of moderate nationalism by militant separatism. In 1922, following the Anglo-Irish War, twenty-six counties of Ireland seceded from the United Kingdom as the Irish Free State. The remaining six, in the north-east, remained within the Union as Northern Ireland. Secession for the rest of Ireland led directly to the Civil War, as militant nationalists split into two factions and turned against one another. The Anglo-Irish Treaty was narrowly ratified by the Dáil in December 1921 but was rejected by a large minority, resulting in the Irish Civil War which lasted until 1923. In 1922, in the middle of this civil war, the Irish Free State came into being. For its first years the new state was governed by the victors of the Civil War. However in the 1930s Fianna Fáil, the party of the opponents of the treaty, were elected into government. The party introduced a new constitution in 1937 which renamed the state to simply "Éire or in the English language, Ireland" (preface to the Constitution). The state was neutral during World War II but offered some assistance to the Allies. In 1949 the state declared itself to be a republic and that henceforth it should be described as the Republic of Ireland. The state was plagued by poverty and emigration until the mid-1970's. The 1990's saw the beginning of unprecedented economic success, in a phenomenon known as the "Celtic Tiger". By the early 2000's, it had become one of the richest countries (in terms of GDP per capita) in the European Union, moving from being a net recipient to a net contributor and from a population with net emigration to one with net immigration.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_IRELAND_TEXT">
+			<Text>Hail Malachy II, High King of Ireland! Before the reign of your usurper Brian Boru, you earned your claim to fame in Irish history for your great victory at the Battle of Tara, driving the Norse out of Dublin and establishing Gaelic control of the city. Brian Boru was both your rival and your ally, whom you both met in battle as a foe and fought alongside to defeat the Norse. After the death of Brian Boru you ascended to the throne of Ireland once again. Your legacy as a grand figure in Irish history is remembered well among the Irish people.[NEWLINE][NEWLINE] Great King, will you rise up and unite the Emerald Isle as one Kingdom once again? Will you build a civilization to stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MALACHY_DESC">
+			<Text>Malachy II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MALACHY_PEDIA_LIVED">
+			<Text>948 - 1022 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MALACHY_PEDIA_NAME">
+			<Text>Malachy II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MALACHY_PEDIA_SUBTITLE">
+			<Text>King of Mide, High King of Ireland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MALACHY_PEDIA_HEADING_1">
+			<Text>Historical account</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MALACHY_CIVILOPEDIA">
+			<Text>No info.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ADH_MOR">
+			<Text>Choose a free Great Person upon entering a new era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ADH_MOR_SHORT">
+			<Text>Adh Mor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KERN_DESC">
+			<Text>Kern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_KERN">
+			<Text>Replaces Longswordsman. A light infantry unit which is weaker than the Longswordsman, however it is much faster, cheaper, takes less damage from archers and is more effective against mounted units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_KERN_TEXT">
+			<Text>The word kern is an anglicisation of the Middle Irish word ceithern or ceithrenn meaning a collection of persons, particularly fighting men. An individual member is a ceithernach. Kerns notably accompanied bands of the mercenary Gallóglaigh as their light infantry forces, where the Gallowglass filled the need for heavy infantry. This two-tier "army" structure though should not be taken to reflect earlier Irish armies prior to the Norman invasions, as there were more locally trained soldiers filling various roles prior to this. The Gallowglass largely replaced the other forms of infantry though, as more Irish began to train to imitate them, creating Gallowglass of purely Irish origin. Earlier, the Ceithernn would have consisted of a myriad of militia-type infantry, and possibly light horse, most likely remembered later in the "horse boys" that accompanied Gallowglass and fought as light cavalry. They would be armed from a dole or by what they owned themselves, and filled out numerous portions of an army, probably forming the vast bulk of most Gaelic forces. In the mid sixteenth century Shane O'Neill was known to have armed his peasantry and Hugh O'Neill, Earl of Tyrone, outfitted many of his Ceithernn with contemporary battle dress and weapons and drilled them as a professional force, complete with experienced captains and modern weapons. Like many Gaels historically, Kerns often found themselves on multiple sides of conflicts; for example, the native Irish forces of the Norman-English in Ireland would have had levies of Kerns in them. As a result they also found themselves fighting upon distant shores in Europe where they were famous as ferocious light infantrymen. Indeed Desmond Seward is eloquent when he describes the Kerns in France: The Prior and many of his men were killed. The kern had made a strong impression by their outlandish dress and their ferocity, riding back from raids with severed heads dangling from their bareback ponies. There were other Irishmen who, led by the Butler family, made a small but effective contribution to the Lancastrian war effort in France. The fourth earl of Ormonde-–Fra' Thomas was his bastard son-–had been on Clarence's chevauchee in 1412 and also took part in the siege of Rouen. Two more of his sons, Sir John and Sir James Butler (later the fifth Earl) were to be noted captains under Bedford and Old Talbot in the 1430s and 1440s. Besides a long-haired, moustachioed, saffron cloaked, barefooted 'tail' of javelin men and axe- and claymore-wielding gallowglasses, these Anglo-Irish chieftains would have brought more conventionally armed daoine uaisle (gentlemen) recruited from their relations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KERN_STRATEGY">
+			<Text>The Kern is a midgame melee unit which is good for handling various threats.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MALACHY_FIRSTGREETING_1">
+			<Text>Cead míle fáilte! I am Malachy, High King of Ireland.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MALACHY_FIRSTGREETING_2">
+			<Text>Fáilte romhat isteach! What business shall we do?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_MALACHY_DEFEATED_1">
+			<Text>Ireland is broken once more...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MALACHY_DEFEATED_2">
+			<Text>Tá m'árthach foluaineach lán d'eascanna.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

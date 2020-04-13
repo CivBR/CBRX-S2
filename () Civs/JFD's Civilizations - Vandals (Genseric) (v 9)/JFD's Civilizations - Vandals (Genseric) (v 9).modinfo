@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="975ffe33-ab4f-4668-8058-92dd836fe746" version="9">
+  <Properties>
+    <Name>JFD's Civilizations - Vandals (Genseric)</Name>
+    <Teaser>Adds [COLOR_CYAN]Vandals under Genseric[ENDCOLOR]. Click for details.</Teaser>
+    <Description>VANDALS (GENSERIC)[NEWLINE][NEWLINE]UNIQUE TRAIT: GREAT MIGRATION[NEWLINE][ICON_BULLET]Units start with +1 [ICON_MOVES] Movement and ignore borders in Coast or Coastal Land. Cities founded on foreign Continents begin with extra [ICON_CITIZEN] Population and Tiles.[NEWLINE][NEWLINE]UNIQUE UNIT: ALANI HORSEMAN (HORSEMAN)[NEWLINE][ICON_BULLET]The Alani Horseman is the Vandal unique replacement for the Horseman. Unlike the Horseman, this unit is available at Animal Husbandry and has no combat penalty when attacking cities. In addition, this unit may be trained as a Settler, meaning it can be used to found cities.[NEWLINE][NEWLINE]UNIQUE UNIT: TRIHEMIOLIA (TRIREME)[NEWLINE][ICON_BULLET]The Trihemiolia is a unique version of the Trireme for the Vandals. It begins with the Coastal Raider promotion, increasing its [ICON_STRENGTH] Combat Strength when attacking cities and allowing it to steal [ICON_GOLD] Gold equal to 33% of the damage inflicted. In addition, a Trihemiolia stationed in a conquered (non-Capital) city doubles the speed at which it normally takes the city to be [ICON_RAZING] Razed. With the opportunistic Trihemiolia under their control, the Vandals can quickly become the terror of the seas.</Description>
+    <Authors>JFD, Janboruta</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="758C1C2547961281EF6BA797F32730E0" import="1">Art/Icons/JFD_VandalsGenseric_UnitFlagAtlas_32.dds</File>
+    <File md5="21CDCEED7D81983A502F1C20ED00BC57" import="1">Art/Icons/Tomatekh_PromotionAtlas_256.dds</File>
+    <File md5="4515CFD32CBCA5FD9B31BA7E74BDF85D" import="1">Art/Icons/Tomatekh_PromotionAtlas_32.dds</File>
+    <File md5="2D64910169FF17FBFD6D2CFAAAADE518" import="1">Art/Icons/Tomatekh_PromotionAtlas_45.dds</File>
+    <File md5="D2E665F6B269588CF10F19FE789271C9" import="1">Art/Icons/Tomatekh_PromotionAtlas_64.dds</File>
+    <File md5="3498CC92A8BD3F34540BF5EB8E40A4BD" import="1">Art/Graphics/Alani Horseman/Horseman_Turkey.dds</File>
+    <File md5="F38D19328D14A38612E5CCFE5554A480" import="1">Art/Graphics/Alani Horseman/Horseman_Turkey.fxsxml</File>
+    <File md5="F5A9C1A3C0A23E8C0929E2D43805FEE7" import="1">Art/Graphics/Alani Horseman/Horseman_Turkey.gr2</File>
+    <File md5="B520BF3F53768555638871DC646E4096" import="1">Art/Graphics/Alani Horseman/Horseman_Turkey_gloss.dds</File>
+    <File md5="651AD041BBB81FA07E533C347AB2382D" import="1">Art/Graphics/Alani Horseman/Horseman_Turkey_Horse.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Graphics/Alani Horseman/no_gloss.dds</File>
+    <File md5="B1E5D20F0E9DB91F59A73014C0A3375B" import="1">Art/Graphics/Alani Horseman/sv_AlaniHorseman.dds</File>
+    <File md5="FE41F6908CC69D3AA8374380437F367C" import="1">Art/Graphics/Trihemiolia/sv_Trihemiolia.dds</File>
+    <File md5="BB36399BA6FE6AE539282CB8FC2E7EE5" import="1">Art/Icons/JFD_VandalsGenseric_AlphaAtlas_128.dds</File>
+    <File md5="842D7C30643EFD3E8DB89A9F51AF2307" import="1">Art/Icons/JFD_VandalsGenseric_AlphaAtlas_16.dds</File>
+    <File md5="9EA0370120DBE17E7C05CCD72B72A0B2" import="1">Art/Icons/JFD_VandalsGenseric_AlphaAtlas_22.dds</File>
+    <File md5="666D923C6A535C38C02EEBFAFF10C145" import="1">Art/Icons/JFD_VandalsGenseric_AlphaAtlas_24.dds</File>
+    <File md5="F555DDB397900B0BCDF0EA432F57064D" import="1">Art/Icons/JFD_VandalsGenseric_AlphaAtlas_256.dds</File>
+    <File md5="735E325656F98BA55AF6B26D8A08BF45" import="1">Art/Icons/JFD_VandalsGenseric_AlphaAtlas_32.dds</File>
+    <File md5="D9B5BF31ECA03604044A93228BFEF85F" import="1">Art/Icons/JFD_VandalsGenseric_AlphaAtlas_45.dds</File>
+    <File md5="DE90292F30FAB05135D407292BE5A968" import="1">Art/Icons/JFD_VandalsGenseric_AlphaAtlas_48.dds</File>
+    <File md5="E1CAD4E4FA2B4133C32D0748058533DA" import="1">Art/Icons/JFD_VandalsGenseric_AlphaAtlas_64.dds</File>
+    <File md5="4C21CE6761D64FEF042A635EC7AC7CDF" import="1">Art/Icons/JFD_VandalsGenseric_AlphaAtlas_80.dds</File>
+    <File md5="470F1A91165E902677BD8330191700D7" import="1">Art/Icons/JFD_VandalsGenseric_IconAtlas_128.dds</File>
+    <File md5="4C005A0DF0BEC768FF853C89A399289C" import="1">Art/Icons/JFD_VandalsGenseric_IconAtlas_256.dds</File>
+    <File md5="F62D312649CB261A166F782BD0AFB780" import="1">Art/Icons/JFD_VandalsGenseric_IconAtlas_32.dds</File>
+    <File md5="FA7D3BCDC4A335636AE7AA1164DA53B2" import="1">Art/Icons/JFD_VandalsGenseric_IconAtlas_45.dds</File>
+    <File md5="309F38B26EACC0CE825CFCA14DFC0EBC" import="1">Art/Icons/JFD_VandalsGenseric_IconAtlas_64.dds</File>
+    <File md5="78BB0BC1F2F47DDBFEBCA18B430818D1" import="1">Art/Icons/JFD_VandalsGenseric_IconAtlas_80.dds</File>
+    <File md5="09BECB837FDFC2822A4A1D8C933ACED2" import="1">Art/Images/DefeatScreenEarlyVandals.dds</File>
+    <File md5="C334181F297857A96180863E54154F65" import="1">Art/Images/DefeatScreenLateVandals.dds</File>
+    <File md5="9C1E790EF1284E7244E38B41ED68F155" import="1">Art/Images/DefeatScreenMidVandals.dds</File>
+    <File md5="4A8F282CC54C9F2BEFD175086D29E204" import="1">Art/Leaderscene/JFD_VandalsGenseric_Diplo.dds</File>
+    <File md5="83F3D43C591803A5523A766C7680AC63" import="1">Art/Leaderscene/JFD_VandalsGenseric_Scene.xml</File>
+    <File md5="8107FC8976C20AC31DD7F863D255844D" import="1">Art/Maps/JFD_MapVandalsGenseric512.dds</File>
+    <File md5="7284BE6C3BA51D6884ECB66D5B59104C" import="1">Art/Maps/JFD_DOM_VandalsGenseric.dds</File>
+    <File md5="CAF064BEE1BAD59ED7E6B93D9EAAFD8A" import="1">Audio/Themes/JFD_VandalsGenseric_Peace.mp3</File>
+    <File md5="74C09CA0D01941412E05785B386471F9" import="1">Audio/Themes/JFD_VandalsGenseric_War.mp3</File>
+    <File md5="B2515ECDF8D734DA4459C0F00AD70766" import="0">Core/VandalsGenseric_ArtDefines.sql</File>
+    <File md5="8F5BAFECFC261033BFEC4A77C8483197" import="0">Core/VandalsGenseric_GameDefines.sql</File>
+    <File md5="5903B9DB8E40F7FE56F1208D1C2F71EC" import="0">Core/VandalsGenseric_ModSupport.sql</File>
+    <File md5="FC4E53FAD3E8A4868016B656D5DB700E" import="0">Core/VandalsGenseric_GameText.xml</File>
+    <File md5="925543611BECF67A2AF7025E9AF6B365" import="0">Credits.txt</File>
+    <File md5="F9E13AD1A24868F1DA48FE120DFCACAA" import="0">Lua/JFD_Civs_VandalsGenseric_Functions.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Utilities/PlotIterators.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/VandalsGenseric_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/VandalsGenseric_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/VandalsGenseric_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/VandalsGenseric_GameText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Civs_VandalsGenseric_Functions.lua">
+      <Name>JFD_Civs_VandalsGenseric_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

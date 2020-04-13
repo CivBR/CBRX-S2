@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/9/2014 5:00:55 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_CL_KULIN_DESC">
+			<Text>Kulin Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CL_KULIN_SHORT_DESC">
+			<Text>The Kulin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CL_KULIN_ADJECTIVE">
+			<Text>Kulin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_HEADING_1">
+			<Text>Kulin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_HEADING_3">
+			<Text>Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_HEADING_4">
+			<Text>Pre-Contact Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_HEADING_5">
+			<Text>European Arrival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_HEADING_6">
+			<Text>Expanding Colonial Influence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_TEXT_1">
+			<Text>The Kulin Nation is an alliance of five groups of indigenous Australians, whose territory is located in central Victoria, Australia on the south-eastern coast of the continent. The Kulin Nation includes the Woiwurrung, the Boonrwrung, the Wathauruung, the Daungwurrung, and the Dja Dja Wrung.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_TEXT_2">
+			<Text>What was Kulin territory is now occupied by the major Australian metropolis of Melbourne. It is colder and wetter than other parts of Australia due to its southern position. The region has a varied climate, due to the presence of both mountains and coastline to shape weather patterns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_TEXT_3">
+			<Text>The Kulin peoples have lived in the region for at least 40,000 years. Similar to many prehistoric cultures, these groups were able to flourish due to ample food sources. 10,000 years ago, the region flooded, creating grasslands and even more food for the hunter-gatherers. These floods serve as part of the creation myth for many of the Kulin language groups, a common thread across world mythology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_TEXT_4">
+			<Text>Before Europeans arrived in Australia, the Woiwurrung and others lived a hunter-gatherer lifestyle. While each of the Kulin cultures had a different structure, they all divided into clans. These clans regulated food sources, preventing overfishing or stopping it altogether to give populations a chance to recover. The Tanderrum was a diplomatic ritual that allowed passage for a foreigner. An exchange of gifts and an offering of water was customary, as a display of hospitality. These ceremonies are still performed today.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_TEXT_5">
+			<Text>The Boonrwrung were among the first to observe European ships in the region. They made landfall in February of 1801. A tense exchange of items devolved into violence when British sailors panicked. A much more peaceful contact occurred the next month. News of this contact was spread throughout the Kulin lands.[NEWLINE][NEWLINE]Settlements started soon after, beginning with 1803, at Sullivan’s Bay. Over the next few decades, Boonrwrung and other Kulin were occasionally raided by British settlers. Any attempted counter-attack was unsuccessful, as the Europeans heavily outgunned the Kulin. Moreover, there is evidence that smallpox had ravaged the local populations, severely reducing their numbers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CL_KULIN_TEXT_6">
+			<Text>In 1835, John Batman, an Australian settler, negotiated a treaty with several Kulin elders, requesting land in exchange for a number of Western goods, and a continuing supply of similar goods. This is the first and only example of a negotiate treaty between European settlers and Australian aboriginals. The deal was sealed with an exchange of gifts and dancing. The treaty was immediately repudiated by the colonial government to the north, in Sydney. Colonial authorities preferred the doctrine of terra nullius, the idea that the land had no rightful owner before Westerners arrived to occupy it.[NEWLINE][NEWLINE]As Melbourne developed, the Kulin were pushed further and further away from their homelands, often with violence. Between violence and disease, the Kulin groups were severely reduced in population. In the quarter-century after the foundation of Melbourne, the population of Woiwurrung and Boonrwrung had declined to just 28 people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_CL_KULIN_TEXT">
+			<Text>Hail William Barak, Ngurungaeta of the Wurundjeri tribe and leader of the Kulin Nation! In your life you were a stoic fighter for social justice for all indigenous people from the Melbourne region. As an artist, your works are highly prized even to this very day. Folklore has it that you were present at the signing of the treaty with British colonisers. This historic occasion resulted in the founding of Melbourne, one of Australia's greatest cities. In your life you successfully negotiated positive outcomes for your people and were a highly respected leader with high standing amongst both Aborigines and early settlers alike.[NEWLINE][NEWLINE]William Barak, will you fight for the prosperity of your people once more? Can you build a civilization to stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_LIVED">
+			<Text>1824 - 1903 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_BARAK">
+			<Text>William Barak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_NAME">
+			<Text>William Barak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_SUBTITLE">
+			<Text>Elder of the Wurundjeri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_TITLES_1">
+			<Text>Last Ngurungaeta of the Wurundjeri-William Clan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_HEADING_3">
+			<Text>The Establishment of Coranderrk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_HEADING_4">
+			<Text>The Last Ngurungaeta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_HEADING_5">
+			<Text>Judgement of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_TEXT_1">
+			<Text>William (or Beruk) Barak is the last of the traditional elders (or ngurungaeta) of the Wurundjeri-william clan. This clan was part of the nation of Woiwurrung, one of five nations in the Kulin alliance - the original inhabitants of what is now the state of Victoria, Australia. While he was never properly inducted into the clan after the city of Melbourne was settled, Barak nonetheless went on to become a strong elder for the tribe for nearly 30 years. In that time, he became a powerful spokesman on behalf of his people, successfully negotiating settlement after settlement with the Victorian government, and ultimately became the source of much of our knowledge about Aboriginal peoples in southeastern Australia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_TEXT_2">
+			<Text>Barak was born sometime around 1824, and lived a traditional Wurundjeri lifestyle during his childhood. He was the son of Bebejern (or Bebejan), a ngurungaeta of the Wurundjeri. Bebejern was one of eight tribal leaders present during the signing of Batman's Treaty in 1835, which saw the Europeans negotiating with the Wurundjeri to "purchase" the land where Melbourne would be settled. It is said that Barak was present at the signing of the treaty as well; later in life, he would describe the signing as a ceremony known to the Wurundjeri as a tanderrum.[NEWLINE][NEWLINE]Thanks to the settlement of Melbourne following Batman's Treaty, Barak was never actually given a full initiation into the tribe, instead picking up the lore of the Wurundjeri informally over the years. He was, however, given a short manhood ceremony by three Wurundjeri leaders, Ninggalobin, Poleorong and Billibellary (his uncle), in which the Wurundjeri symbols of manhood - strips of possum skin, a reed necklace, a bone nose-peg, and a waist string - were presented to him. He attended the Yarra Mission School established by Rev. George Langhorne from 1837 to 1839, and in 1844, he became a tracker in Captain Henry Dana's Native Mounted Police. It was during his tenure with the Native Mounted Police that he adopted the name William.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_TEXT_3">
+			<Text>Barak, along with his first wife Lizzie, settled in the small village of Acheron in 1859, hoping that the Victorian government would reserve the area for his people. After years of struggle, the government finally approved, granting them a reserve near Acheron which was named Coranderrk. Barak moved to Coranderrk in 1863 and settled there permanently, in a humble cottage. He worked for a small wage and continued his education, learning to read and undergoing Christian baptism and confirmation. His wife Lizzie had died by the time he moved to Coranderrk, so he took a second wife, Annie; unfortunately, she and all of the couple's children would soon die of tuberculosis.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_TEXT_4">
+			<Text>In 1875, Simon Wonga, the ngurungaeta of the Wurundjeri, passed away. Barak became ngurungaeta in his place. It was in the late 1870s, shortly after Barak's ascension to the position, that difficulties between the Wurundjeri and the Victorian government arose over the state of Coranderrk. Throughout these clashes, Barak served as an able negotiator, offering up numerous propositions to the government, up to and including a proposition for the government to grant autonomy to Wurundjeri communities around Coranderrk so that the Wurundjeri could live outside of the government's shadow. While this idea was rejected by Coranderrk's manager, John Green, Barak did succeed in retaining Coranderrk for the Wurundjeri, which the government had initially wanted to close down. Through his negotiations with the Victorian government, Barak earned a respected standing among both Aborigines and Europeans.[NEWLINE][NEWLINE]Besides his spokesmanship, Barak's time as ngurungaeta also brought forth a deeper understanding of the culture of the Aborigines of southeast Australia. Barak was an avid artist; throughout the 1880s and 1890s he often painted in charcoal and ochre, producing artworks in the traditional Wurundjeri style depicting both Wurundjeri lore and encounters with Europeans. He was an important source on the customs of the Wurundjeri for anthropologists. Noted anthropologists such as Lorimer Fison and Alfred Howitt gleaned much of their knowledge on Aboriginal ways from Barak; in fact, much of the text of Howitt's book "Native Tribes of South East Australia" comes from Barak's testimony. Notes from an 1882 interview between Howitt and Barak reveal that Barak discussed "with respect and deep feeling" most of the customs and beliefs of the Wurundjeri, a respect unsullied by Barak's Christian faith.[NEWLINE][NEWLINE]Barak passed away in Coranderrk on the 15th of August, 1903, after nearly thirty years as ngurungaeta of the Wurundjeri. Since his marriage to a woman named Sarah in 1890, and perhaps before, he had been the oldest resident of Coranderrk by far, and in fact, the last remaining full-blooded member of his clan. He was buried in the cemetery at Coranderrk in a simple grave marked by a wooden cross. In 1934, Anne Bon, a philanthropist who had known Barak in life, paid for a monument to Barak in the nearby town of Healesville, although this monument was later defaced, removed, and ultimately placed by Barak's grave in Coranderrk.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARAK_TEXT_5">
+			<Text>William Barak is unanimously remembered as a wise and respectful man, who carried himself with dignity and pride. Even the Victorian Board for the Protection of Aborigines, an organization with which Barak had clashed on numerous occasions, respected him enough to call him an intelligent and remarkable man, and this during a time when Aboriginals were treated as second-class citizens. His firm beliefs, his negotiating abilities, and the art and customs of his people which he shared with the world have shaped his image as an upstanding, motivated spokesperson for the Wurundjeri even during their times of greatest strife.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CL_KULIN_INFLUENCE">
+			<Text>When a City is founded, gain an [ICON_INFLUENCE] Influence boost with nearby City-States. Each Open Borders Treaty provides [ICON_INFLUENCE] Influence to all City-States that the other Civilization is at least Friendly with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CL_KULIN_INFLUENCE_SHORT">
+			<Text>Freedom of the Bushland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_WALERT_GURN">
+			<Text>Walert-Gurn Maker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_WALERT_GURN_HELP">
+			<Text>Unlike the Artist's Guild it replaces, the Walert-Gurn Maker can be built up to five times. Contains one Artist Specialist Slot, and provides +2 Great Artist Points. Units born within a City with a Walert-Gurn Maker recieve the "Possum Cloaks" Promotion, which gives units +1 Movement and +1 Sight when starting within the borders of a Civilization you are at Peace with. Available at Currency.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_WALERT_GURN_STRATEGY">
+			<Text>Unlike the Artist's Guild it replaces, the Walert-Gurn Maker can be built up to five times. Contains one Artist Specialist Slot, and provides +2 Great Artist Points. Units born within a City with a Walert-Gurn Maker recieve the "Possum Cloaks" Promotion, which gives units +1 Movement and +1 Sight when starting within the borders of a Civilization you are at Peace with. Available at Currency.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_WALERT_GURN_PEDIA">
+			<Text>The Walert-Gurn, or possum skin cloak, is a traditional form of clothing primarily produced and used within aboriginal societies in parts of Victoria and New South Wales. Manufactured through the sewing together of numerous possum pelts that would then be bound with kangaroo sinews to be finished with various ochres and fats, these cloaks aided their wearer in remaining warm through the cold nights – though they were also multipurpose, and found other uses within a family setting – where they would be considered heirlooms - as wrappings for youths for instance.[NEWLINE][NEWLINE]Though accounts of Walert-Gurns were initially commonplace – especially throughout the mid nineteenth century, they soon became rare owing mostly to the fact that various aboriginal groups had been dispossessed of their land and thus would have had less contact with the European settlements. This was followed by a decline in the practice of traditional cloak making, owing significantly to the efforts of missionary groups to provide aboriginal groups with articles of clothing alongside blankets – which despite not being as protective as the cloaks, soon became more popular.[NEWLINE][NEWLINE]Despite the decline of the traditional method, Possum Skin Cloaks remain an important part of the cultural identity of the various groups native to south eastern Australia – with many of the remaining cloaks being maintained in museums both throughout Australia and abroad, alongside the existence of a movement dedicated to reviving this element of aboriginal culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CL_DIORITE_AXEMAN">
+			<Text>Diorite Axeman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CL_DIORITE_AXEMAN">
+			<Text>Unlike the Warrior that it replaces, when the Diorite Axeman is adjacent to land owned by another civilization or City-State you are at Peace with, it may perform a one-time trade mission (Sell Exotic Goods) to earn gold and XP. The farther the land is from your own capital, the greater the bonus. 20% Cheaper to build if the City is directly working a source of Stone or Marble.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CL_DIORITE_AXEMAN_STRATEGY">
+			<Text>Unlike the Warrior that it replaces, when the Diorite Axeman is adjacent to land owned by another civilization or City-State you are at Peace with, it may perform a one-time trade mission (Sell Exotic Goods) to earn gold and XP. The farther the land is from your own capital, the greater the bonus. 20% Cheaper to build if the City is directly working a source of Stone or Marble.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_DIORITE_AXEMAN_TEXT">
+			<Text>Diorite, or greenstone, axes proved to be an important part of the economy and culture of various aboriginal groups native to the region of Australia that would become known as Victoria.[NEWLINE][NEWLINE]The axe heads themselves were harvested from larger rocky outcroppings or quarries, where large flakes of stone would be struck from the larger surfaces before being roughly shaped by present artisans. These ‘axe blanks’ would be carried over large distances, often to be finished in a greater detail, or to be traded as incomplete axe heads. The blanks were ground against sandstone outcroppings, often leaving deep grooves on the surface of the sandstone. This would create an edge that, whilst not as sharp as other traditional chipped stone tools, could often be more reliable and durable than their counterparts. This durability is evident if one considers that often such axes would be sharpened and shaped again if the edge was to shatter.[NEWLINE][NEWLINE]Axes would be completed by the addition of a groove allowing for a handle to be fixed to the head, primarily utilising various natural resins, fibres or sinews to secure the connection. Though not suitable for felling larger trees, greenstone axes were certainly used to harvest wood from smaller varieties which could then be used to manufacture canoes or shelters, alongside handles for other axe heads. Of course, the axes could also be used as weapons - and were often used not only to bring down larger animals, but also to harvest meat from the resulting corpses.[NEWLINE][NEWLINE]The diorite axe found popularity due to its ease of use, construction alongside the wide variety of jobs that it could be used to aid in. Many axe heads have been found with wider, broader edges that would have been used for hammering, and other such duties which is to say nothing of their importance to certain aboriginal rituals and trade systems.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_POSSUM_CLOAKS_POWER">
+			<Text>Possum Cloaks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_POSSUM_CLOAKS_POWER_HELP">
+			<Text>+1 Movement and Sight when beginning a turn within the borders of a Civilization you are at peace with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CL_POSSUM_CLOAKS_POWER">
+			<Text>The Walert-Gurn, or possum skin cloak, is a traditional form of clothing primarily produced and used within aboriginal societies in parts of Victoria and New South Wales. Manufactured through the sewing together of numerous possum pelts that would then be bound with kangaroo sinews to be finished with various ochres and fats, these cloaks aided their wearer in remaining warm through the cold nights – though they were also multipurpose, and found other uses within a family setting – where they would be considered heirlooms - as wrappings for youths for instance.[NEWLINE][NEWLINE]Though accounts of Walert-Gurns were initially commonplace – especially throughout the mid nineteenth century, they soon became rare owing mostly to the fact that various aboriginal groups had been dispossessed of their land and thus would have had less contact with the European settlements. This was followed by a decline in the practice of traditional cloak making, owing significantly to the efforts of missionary groups to provide aboriginal groups with articles of clothing alongside blankets – which despite not being as protective as the cloaks, soon became more popular.[NEWLINE][NEWLINE]Despite the decline of the traditional method, Possum Skin Cloaks remain an important part of the cultural identity of the various groups native to south eastern Australia – with many of the remaining cloaks being maintained in museums both throughout Australia and abroad, alongside the existence of a movement dedicated to reviving this element of aboriginal culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_BARAK_FIRSTGREETING_1">
+			<Text>Womindjeka. I am William Barak. Are you a friend?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_BARAK_FIRSTGREETING_2">
+			<Text>The clans of the Kulin Nation welcome you to their lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_BARAK_DEFEATED_1">
+			<Text>I have no regrets for striving for my people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_BARAK_DEFEATED_2">
+			<Text>Remember us. We were a proud culture.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- City names -->
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_1">
+			<Text>Kinshasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_2">
+			<Text>Lubumbashi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_3">
+			<Text>Mbuji-Mayi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_4">
+			<Text>Kananga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_5">
+			<Text>Kisangani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_6">
+			<Text>Bukavu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_7">
+			<Text>Kolwezi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_8">
+			<Text>Likasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_9">
+			<Text>Tshikapa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_10">
+			<Text>Kikwit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_11">
+			<Text>Matadi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_12">
+			<Text>Mbandaka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_13">
+			<Text>Boma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_14">
+			<Text>Mwene-Ditu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_15">
+			<Text>Isiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_16">
+			<Text>Goma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_17">
+			<Text>Uvira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_18">
+			<Text>Kalemie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_19">
+			<Text>Butembo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_20">
+			<Text>Kindu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_21">
+			<Text>Gandajika</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_22">
+			<Text>Bandundu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_23">
+			<Text>Gemena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_24">
+			<Text>Kamina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_25">
+			<Text>Bunia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_26">
+			<Text>Ilebo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_27">
+			<Text>Kipushi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_28">
+			<Text>Bumba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_29">
+			<Text>Mbanza-Ngungu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_30">
+			<Text>Beni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_31">
+			<Text>Moanda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_32">
+			<Text>Bakwa-Kalonji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_33">
+			<Text>Lisala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_34">
+			<Text>Inkisi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_35">
+			<Text>Tshilenge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_36">
+			<Text>Bukama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_37">
+			<Text>Binga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_38">
+			<Text>Manono</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_39">
+			<Text>Balamba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_ZAIRE_40">
+			<Text>Kambove</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_ZAIRE_9">
+			<Text>Joseph Kasa-Vubu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_ZAIRE_8">
+			<Text>Etienne Nzimbi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_ZAIRE_7">
+			<Text>Habyarimana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_ZAIRE_6">
+			<Text>N'Sele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_ZAIRE_5">
+			<Text>wa Basa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_ZAIRE_4">
+			<Text>Tshisekedi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_ZAIRE_3">
+			<Text>Monsengwo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_ZAIRE_2">
+			<Text>Kengo Wa Dondo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_ZAIRE_1">
+			<Text>Bobi Ladawa Mobutu</Text>
+			<Gender>Female</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_ZAIRE_0">
+			<Text>Marie-Antoinette Mobutu</Text>
+			<Gender>Female</Gender>
+		</Row>
+		<!-- Zaire -->
+		<Row Tag="TXT_KEY_CIVILIZATION_DMS_ZAIRE">
+			<Text>Zairean Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_DMS_ZAIRE_SHORT">
+			<Text>Zaire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_DMS_ZAIRE_ADJECTIVE">
+			<Text>Zairean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_ZAIRE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_ZAIRE_TEXT_1">
+			<Text>Zaire, officially the Republic of Zaire (French: République du Zaïre), was the name of a sovereign state between 1971 and 1997 in Central Africa that is now known as the Democratic Republic of the Congo. The country was a one-party totalitarian dictatorship, run by Mobutu Sese Seko and his ruling Popular Movement of the Revolution party. Zaire was established following Mobutu's seizure of power in a military coup in 1965, following five years of political upheaval following independence known as the Congo Crisis. Zaire had a strongly centralist constitution, and foreign assets were nationalised. The period is sometimes referred to as the Second Congolese Republic.[NEWLINE][NEWLINE]A wider campaign of Authenticité, ridding the country of the influences from the colonial era of the Belgian Congo, was also launched under Mobutu's direction. Weakened by the end of American support after the end of the Cold War, Mobutu was forced to declare a new republic in 1990 to cope with demands for change. By the time of its downfall, Mobutu's rule was characterised by widespread cronyism, corruption and economic mismanagement.[NEWLINE][NEWLINE]Zaire collapsed in the 1990s, amid the destabilization of the eastern parts of the state in the aftermath of the Rwandan genocide and growing ethnic violence. In 1996, Laurent-Désiré Kabila, the head of the Alliance of Democratic Forces for the Liberation of Congo (AFDL) militia, led a popular rebellion against Mobutu. With rebel forces successfully making gains beyond the east, Mobutu fled the country, leaving Kabila's forces in charge as the country restored its name to the Democratic Republic of the Congo the following year. Mobutu died within four months after he fled into exile in Morocco.</Text>
+		</Row>
+		<!-- Mobutu Sese Seko -->
+		<Row Tag="TXT_KEY_LEADER_DMS_MOBUTU">
+			<Text>Mobutu Sese Seko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_MOBUTU_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_MOBUTU_TEXT_1">
+			<Text>Mobutu Sese Seko was the military dictator who presided over the Democratic Republic of the Congo for over three decades after seizing power in 1965. His rule is best described as 'kleptocracy' with rampant corruption and nepotism plaguing all sectors. During his reign, Congo also suffered from widespread human rights violations. Mobutu’s military career began when his mischievous behaviour as a student landed him there as a punishment. In his spare time in the army, he started developing his writing skills, which soon paved the way for him to reach politically impactful position by climbing ranks. From a sergeant, he became Patrice Lumumba's secretary, and then the Army Chief of Staff. He executed two coups, which changed the political landscape of Congo with him becoming the head of the state. He changed Congo's name to Zaire, and started calling himself Mobutu Sese Seko Kuku Ngbendu Wa Za Banga. He accumulated vast personal wealth, estimated between $4 billion and $15 billion, to support his extravagant lifestyle while the country faced a severe economic crisis and extreme poverty. He had considerable support from the west and China. After his rule was uprooted, he fled to Morocco where he succumbed to prostate cancer. According to Transparency International, he is ranked as the most corrupt African leader and the third-most corrupt leader in the world since 1984.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_MOBUTU_NAME">
+			<Text>Joseph-Désiré Mobutu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_MOBUTU_SUBTITLE">
+			<Text>Leader of Zaire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_MOBUTU_TITLES_1">
+			<Text>Mobutu Sese Seko Koko Ngbendu Wa Za Banga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_MOBUTU_LIVED">
+			<Text>1930 - 1997</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_DMS_ZAIRE_TEXT">
+			<Text>Salutations, Mobutu Sese Seko, one and only President of Zaire and Saviour of the People! Truly, it is only you who deserves the rule of this most wonderful patch of Africa. For you were the one to evict the infernal Belgians during the Congo Crisis in the height of the Cold War! Solidifying your power – for nobody else was worthy to hold it – your exceptional regime ushered in opulence, justice, and prosperity. None could deny the riches from which you ruled on as you brought death and punishment to the corrupt politicians, those traitors to your people! But even then, your mercy was legendary, for soon after you simply bought off the corrupt politicians, rather than killing them.[NEWLINE][NEWLINE]And now, Mobutu, power has returned to your Versailles in the Jungle. Will you take the reins of Zaire once more, and steer it neither right, left, nor even centre? Will you restore the authenticity of Zaire’s glorious past? Will you build a Civilization to stand the test of time?</Text>
+		</Row>
+		<!-- Authenticité -->
+		<Row Tag="TXT_KEY_TRAIT_DMS_AUTHENTICITE">
+			<Text>Upon adopting a Social Policy, receive a free copy of the most recently discovered Strategic Resource if any. Enemy Units are damaged while in your territory for every Civilization denouncing you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_DMS_AUTHENTICITE_SHORT">
+			<Text>Authenticité</Text>
+		</Row>
+		<!-- Gécamines Facility -->
+		<Row Tag="TXT_KEY_BUILDING_DMS_GECAMINES_FACILITY">
+			<Text>Gécamines Facility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_GECAMINES_FACILITY_TEXT">
+			<Text>La Générale des Carrières et des Mines (Gécamines) is a Congolese commodity trading and mining company headquartered in Lubumbashi, in the Katanga region of the Democratic Republic of Congo. It is a state-controlled corporation founded in 1966 and a successor to the Union Minière du Haut Katanga. Gecamines is engaged in the exploration, research, exploitation and production of mineral deposits including copper and cobalt.[NEWLINE][NEWLINE]One of the largest mining companies in Africa, and the biggest in the Democratic Republic of Congo, Gécamines sits on the world's greatest deposit of cobalt and has some of the world's largest deposits of copper.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_GECAMINES_FACILITY_HELP">
+			<Text>Unique Zairean Recycling Center replacement. Provides +2 [ICON_RES_ALUMINIUM] Aluminium. Can at most construct in your empire. Provides +1 [ICON_STRENGTH] Defense for every Civilization denouncing you and +1 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture per used Strategic Resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_GECAMINES_FACILITY_STRATEGY">
+			<Text>The Gécamines Facility is the Zairean Unique Building, replacing the Recycling Center. It has the same effects and restrictions as the Recycling Center. Additionally provides +1 [ICON_GOLD] Gold and +2 [ICON_CULTURE] Culture per used Strategic Resource, and provides +1 [ICON_STRENGTH] Defense per Civilization denouncing you.</Text>
+		</Row>
+		<!-- Presidential Division -->
+		<Row Tag="TXT_KEY_UNIT_DMS_PRESIDENTAL_DIVISION">
+			<Text>Presidential Division</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DMS_PRESIDENTAL_DIVISION_TEXT">
+			<Text>The Special Presidential Division was an elite military force created by Zairian president Mobutu Sese Seko in 1985 and charged with his personal security. Called the Special Presidential Brigade before being enlarged in 1986, it was one of several competing forces directly linked to the president, along with the Civil Guard and Service for Action and Military Intelligence. Trained by Israeli advisors, the DSP was among the few units paid adequately and regularly. It was commanded by Mobutu's cousin, General Etienne Nzimbi Ngbale Kongo wa Basa. The soldiers were recruited only from Mobutu's own tribe. The force was used to deal with internal opponents or suspected opponents. People were taken away, tortured, imprisoned without trial, exiled to another part of the country, or simply disappeared.[NEWLINE][NEWLINE]After the Rwandan Patriotic Army invaded northern Rwanda at the start of the civil war, Mobutu sent several hundred DSP troops to assist the government of Juvénal Habyarimana. In 1993, the DSP was sent to quell unrest in Masisi, North Kivu but inflamed the situation after it sided with the Hutu residents against the indigenous Bahunde. A 1996 United Nations report noted that Prime Minister Étienne Tshisekedi and his staff were subject to routine surveillance and harassment by DSP soldiers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DMS_PRESIDENTAL_DIVISION_STRATEGY">
+			<Text>The Presidental Division is the Zairean Unique Unit, replacing the Machine Gun. They have the same abilities as The Machini Gun and additionally +25% [ICON_STRENGTH] Combat Strength when stationed near the Capital, decreasing by 5% for every tile it moves away. It also yields [ICON_CULTURE] Culture when healing damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DMS_PRESIDENTAL_DIVISION_HELP">
+			<Text>Modern Era Unit that has increased [ICON_STRENGTH] Combat Strength when near the Capital, decreasing for every tile it moves away. Provides [ICON_CULTURE] Culture when healing damage. Only Zaire may build it.</Text>
+		</Row>
+		<!-- Promotions -->
+		<Row Tag="TXT_KEY_PROMOTION_DMS_NEITHER_LEFT_NOR_RIGHT">
+			<Text>Neither Left nor Right</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DMS_NEITHER_LEFT_NOR_RIGHT_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when stationed in the Capital, decreasing by 5% for every tile it moves away.[NEWLINE][NEWLINE]Also, yields [ICON_CULTURE] when healing itself.</Text>
+		</Row>
+		<!-- Dummy buildings -->
+		<Row Tag="TXT_KEY_BUILDING_DMS_GECAMINES_FACILITY_DEFENSE">
+			<Text>DMS: Zaire: Gecamines Facility Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_GECAMINES_FACILITY_DEFENSE_HELP">
+			<Text>Receive Defense for every foreign civ denouncing you.</Text>
+		</Row>
+		<!-- MCIS -->
+	</Language_en_US>
+</GameData>

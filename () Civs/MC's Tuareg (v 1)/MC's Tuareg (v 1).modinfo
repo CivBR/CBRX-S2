@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="52f55e13-fc6e-47fc-a79b-803013a90bdf" version="1">
+  <Properties>
+    <Name>MC's Tuareg</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds [COLOR_POSITIVE_TEXT]the Tuareg[ENDCOLOR] to the game as a playable civilisation</Teaser>
+    <Description>Adds [COLOR_POSITIVE_TEXT]the Tuareg[ENDCOLOR] to the game as a playable civilisation</Description>
+    <Authors>More Civs</Authors>
+    <SpecialThanks>The Scholars' Guild</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="31913F808348AAFEEAC41406C99E2AE6" import="1">Art/Atlases/MC_Tuareg_128.dds</File>
+    <File md5="E42132F56A2FBC4D772D9182A02F01C4" import="1">Art/Atlases/MC_Tuareg_24.dds</File>
+    <File md5="FA49C8026A42B58BC59CE821F47A791F" import="1">Art/Atlases/MC_Tuareg_256.dds</File>
+    <File md5="9E2C7BB963E299BBFE0740A0942C420D" import="1">Art/Atlases/MC_Tuareg_32.dds</File>
+    <File md5="A975F02309E4070CBF5F296C66A5339A" import="1">Art/Atlases/MC_Tuareg_45.dds</File>
+    <File md5="B63B142E296A29360853129A32C8E5BA" import="1">Art/Atlases/MC_Tuareg_48.dds</File>
+    <File md5="BF3F5DB7F1A6F091EFB97EC970B8B964" import="1">Art/Atlases/MC_Tuareg_64.dds</File>
+    <File md5="07C024F8C92599ECA85686389950443B" import="1">Art/Atlases/MC_Tuareg_80.dds</File>
+    <File md5="2CE299596156D63965618B98A080DD5A" import="1">Art/Atlases/MC_Tuareg_Alpha_128.dds</File>
+    <File md5="9AAB1289D587FFCAAADF5A959EEEB321" import="1">Art/Atlases/MC_Tuareg_Alpha_16.dds</File>
+    <File md5="DD72291CE48E44A9D8E02496966178A2" import="1">Art/Atlases/MC_Tuareg_Alpha_24.dds</File>
+    <File md5="386D68970CFF6FCC56780B0CA6510BF6" import="1">Art/Atlases/MC_Tuareg_Alpha_256.dds</File>
+    <File md5="C2A054A9E2BECE03F3B27E9692B406CE" import="1">Art/Atlases/MC_Tuareg_Alpha_32.dds</File>
+    <File md5="75D43554D64508D8D9F96D2B7208E3C3" import="1">Art/Atlases/MC_Tuareg_Alpha_48.dds</File>
+    <File md5="853B6F9BD69301B4D4D9C17996AD345F" import="1">Art/Atlases/MC_Tuareg_Alpha_64.dds</File>
+    <File md5="5706BF34E2C4E028663AE1AD53339227" import="1">Art/Models/black_4x4.dds</File>
+    <File md5="15AC00353DD1F82EFB5BA8E669F42F6F" import="1">Art/Models/MC_ImajaghanUnitFlag_32.dds</File>
+    <File md5="81EC04354745253AC7A86B6C0539996F" import="1">Art/Models/sv_Imajaghan.dds</File>
+    <File md5="A70E59FDB0F2553A4314C08ACA18E2D6" import="1">Art/Models/u_afghanistan_camel_gunner.fxsxml</File>
+    <File md5="BBD74561C7F504EE32112BA3A91E9EBD" import="1">Art/Models/u_afghanistan_camel_gunner.gr2</File>
+    <File md5="0CA1D1A92C410CD78548686A1C8877AA" import="1">Art/Models/u_afghanistan_camel_gunner_camel_diff.dds</File>
+    <File md5="B97DC373708151C51669BAE8BF36A6F7" import="1">Art/Models/u_afghanistan_camel_gunner_diff.dds</File>
+    <File md5="97D3C8A5369939DD9C1BFB4F87A31727" import="1">Art/Scenes/MC_Tuareg_DOM.dds</File>
+    <File md5="6CE9D5F985CEE90BAA267C86783BE5FF" import="1">Art/Scenes/MC_Tuareg_Leaderhead.dds</File>
+    <File md5="5632FBA58E34116C472AC8F7302BC77F" import="1">Art/Scenes/MC_Tuareg_Map.dds</File>
+    <File md5="3BDFDF64513BE5D402102036E84B239F" import="1">Core/Art/MC_Tuareg_Leaderhead.xml</File>
+    <File md5="18A75BD53E8FCD12153E9A466511301B" import="0">Core/Art/MC_ImajaghanArtDef.sql</File>
+    <File md5="E3E314E49BE8E9F5FC0A5749D54ED286" import="0">Core/Buildings/MC_Tuareg_Buildings.xml</File>
+    <File md5="F306D40E8A818F7F27CE6D5A85990219" import="0">Core/Civilizations/MC_Tuareg_Civilizations.xml</File>
+    <File md5="37C92DA5D93FC1DF6E80C89DFF220465" import="0">Core/GameInfo/MC_Tuareg_IconTextureAtlases.xml</File>
+    <File md5="4E043D38DF075B0B88ADB66BCF2CBBDA" import="0">Core/GameInfo/MC_Tuareg_Sounds.xml</File>
+    <File md5="92DDBE875251C133EA52873C0C87697C" import="0">Core/GameInfo/MC_Tuareg_Traits.xml</File>
+    <File md5="8C6D160D4F74E49E464CFB9D87795044" import="0">Core/Leaders/MC_Tuareg_Leader.xml</File>
+    <File md5="297AC99069317062699928202ACB8FFC" import="0">Core/Leaders/MC_Tuareg_LeaderFlavors.sql</File>
+    <File md5="0218189BA15817C2A2284227B5AAC49A" import="0">Core/Text/MC_Tuareg_Text.xml</File>
+    <File md5="98AB21BE1A4F91D44D1F78092A5B2572" import="0">Core/Units/MC_Tuareg_UnitPromotions.xml</File>
+    <File md5="DE4F1132A8D6A05F18BA83185859C062" import="0">Core/Units/MC_Tuareg_Units.xml</File>
+    <File md5="627F4AA6FDF1977546D868757E30427A" import="1">Lua/C15_IteratorPack_v1.lua</File>
+    <File md5="9A0DF6A20F54592FAA445E96B9EFA5D0" import="0">Lua/MC_Tuareg_Functions.lua</File>
+    <File md5="921E437133D91B6595A94FFBE2EF6E03" import="1">Lua/PlotIterators.lua</File>
+    <File md5="8E264A27C90E249E71A32741031E85F5" import="0">Mod Support/MC_Tuareg_ModSupport.sql</File>
+    <File md5="07E802A597850409FBCE7BEF8B57821F" import="0">Mod Support/MC_Tuareg_ModSupport.xml</File>
+    <File md5="470C414B02B0654420E87A2640B47A67" import="1">Sounds/MC_Tuareg_Peace.mp3</File>
+    <File md5="451107D1AA4F5A550B358277B217F100" import="1">Sounds/MC_Tuareg_War.mp3</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Art/MC_ImajaghanArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/MC_Tuareg_Leaderhead.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings/MC_Tuareg_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations/MC_Tuareg_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Tuareg_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Tuareg_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Tuareg_Traits.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders/MC_Tuareg_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders/MC_Tuareg_LeaderFlavors.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Text/MC_Tuareg_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_Tuareg_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_Tuareg_Units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/MC_Tuareg_Functions.lua">
+      <Name>MC_Tuareg_Functions</Name>
+      <Description>Functions for Tuareg</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a182c928-efca-4d38-8d00-b31f37e65843" version="1">
+  <Properties>
+    <Name>Orangechrisy's Sultanate of Malacca under Mansur Shah</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the [COLOR_YIELD_FOOD]Sultanate of Malacca under Mansur Shah[ENDCOLOR] to the game</Teaser>
+    <Description>Adds the Sultanate of Malacca into the game under Mansur Shah
+
+UA: Undang-Undang Laut Melaka (Maritime Law of Malacca):
+    Cargo ships sent by this Civilization receive +1 gold for land resources; +2 gold for sea resources. Each Sea Trade Route provides +10% naval unit production for that city and generate Great Admiral points.
+
+UU: Jong:
+    (Caravel Replacement)
+    Stronger and slightly cheaper. Sea tiles yield +2 Gold when a Jong is stationed on it, doubled if on a friendly sea trade route or in ally territory.
+
+UU: Laksamana:
+    (Great Admiral Replacement)
+    Standard Admiral bonuses and abilities. Can be expended inside a city to grant a bonus of +20% Gold from Trade (limit one per City), but can also be expended to create a random Sea Luxury Resource when on a Coastal tile within range of a Malaccan City.
+
+Mod Support: Mod support: JFDLC, YnAEMP, Map Labels, Ethnic Units, Civ IV Traits, Unique Cultural Influence.
+
+Very big thanks to TopHatPaladin for helping tremendously with coding this and putting up with my complete lack of knowledge and skill. Also thanks to a bunch of other people who helped me with this in various ways but I am sorry I don't remember everyone who helped with this or how much they helped.
+
+If there are any problems or bugs or something please let me know so I can try and fix them.</Description>
+    <Authors>Orangechrisy</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D15BF0B506130FEC61C8FE460FB9CFF2" import="1">Art/DOMMalaccaBackground.dds</File>
+    <File md5="5A580836015F9C850AB35F55E2B6E160" import="1">Art/Jong Model/WarJunk.fxsxml</File>
+    <File md5="9055CFE68543E265F5F097FD57516888" import="1">Art/Jong Model/WarJunk.gr2</File>
+    <File md5="7038C2D91B8CFDBE084AE650311D0165" import="1">Art/Jong Model/WarJunk_diff.dds</File>
+    <File md5="A0259BA1FB1B544F89BBD5A07BE8B90F" import="1">Art/Jong Model/WarJunk_sref.dds</File>
+    <File md5="1DA192766E4F526A2768D52E2F726AA1" import="1">Art/JongIcon128.dds</File>
+    <File md5="57AE1D52D1A168D5F900BAABEC72C2BF" import="1">Art/JongIcon32.dds</File>
+    <File md5="2C3DA298CD0F01560F0CC29838997489" import="1">Art/LaksamanaIcon128.dds</File>
+    <File md5="CE9EE17B9CC05BC81808067D85B229AB" import="1">Art/LaksamanaIcon32.dds</File>
+    <File md5="83B728FCFEB36549E48292022E525917" import="1">Art/MalaccaIconAtlas128.dds</File>
+    <File md5="634461DD87C6F124CB945A6C1B484AD9" import="1">Art/MalaccaIconAtlas16.dds</File>
+    <File md5="FA0CD2EB559FDE26E9A26DA55FF398D7" import="1">Art/MalaccaIconAtlas24.dds</File>
+    <File md5="66998299FDCC78F1192B35E190F31CFD" import="1">Art/MalaccaIconAtlas256.dds</File>
+    <File md5="6A58F3E19A9CEF7BD03B3050D75A6DF6" import="1">Art/MalaccaIconAtlas32.dds</File>
+    <File md5="1F23F677887C0F0B56EC5FD2FE0D3AC9" import="1">Art/MalaccaIconAtlas45.dds</File>
+    <File md5="CEB9168498AE7E4426251D0FB5E9B4A1" import="1">Art/MalaccaIconAtlas48.dds</File>
+    <File md5="1C148C635FA13AA2279FF449320369B5" import="1">Art/MalaccaIconAtlas64.dds</File>
+    <File md5="26505A06E1C41FD22D324CDB6873F01C" import="1">Art/MalaccaIconAtlas80.dds</File>
+    <File md5="645530881B0923A7C7A8478833316B28" import="1">Art/MalaccaLeaderBackground.dds</File>
+    <File md5="B366E914F0FE14D7E1FB82C1A1C96A6E" import="1">Art/ORG_Malacca_Map.dds</File>
+    <File md5="D9CB24CEB118B8E2CECAA15F6A5A7776" import="1">Core/Mansur_Scene.xml</File>
+    <File md5="0272608A0C6EDE83E3C6902953050DE8" import="0">Core/Orange_Malacca_ModSupport.sql</File>
+    <File md5="702104A1077CEDF14423D2ADACEDDC2A" import="0">Core/Orange_Malacca_Mod_Support_Text.xml</File>
+    <File md5="CD12769C19D119726CA4644CFB62E2EA" import="0">Core/Orange_Malacca_GameText.xml</File>
+    <File md5="70292908732860D90BB98044208BF1FB" import="0">Core/Orange_Malacca_GameDefines.sql</File>
+    <File md5="46CE5A745A33E2D3D154A3861E680D38" import="0">Core/Orange_Malacca_DiplomacyResponses.xml</File>
+    <File md5="54764B4F2421BB57D1D83736965800CD" import="0">Core/Orange_Malacca_ArtDefines.sql</File>
+    <File md5="4735166F87DAD9FE5C3E40A71C6BBE6A" import="0">Lua/MalaccaFunctions.xml</File>
+    <File md5="36B181DE1A4998EBBADA75F44B158A1B" import="0">Lua/MalaccaFunctions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Orange_Malacca_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Orange_Malacca_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Orange_Malacca_DiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Orange_Malacca_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Orange_Malacca_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Orange_Malacca_Mod_Support_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Mansur_Scene.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/MalaccaFunctions.lua">
+      <Name>Malacca Functions</Name>
+      <Description>Malacca Functions</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

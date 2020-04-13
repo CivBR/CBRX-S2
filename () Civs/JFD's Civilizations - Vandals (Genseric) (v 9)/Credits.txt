@@ -1,0 +1,51 @@
+-- Credits
+-- Author: JFD
+-- DateCreated: 1/6/2018 1:43:31 PM
+----------------
+JFD: 
+----------------
+	Author
+	Coding 
+	Design 
+	Research 
+	Writing
+----------------
+Janboruta: 
+----------------
+	Art (Genseric Leaderscene; Vandals Map; Genseric Icon; Alan Cavalry and Trihemiola Icons; Alan Cavalry and Trihemiola Flags; Vandals Icon)
+----------------
+Viregel: 
+----------------
+	Research (Vandals City-List)
+----------------
+Whoward:
+----------------
+	Utilities (PlotIterators.lua)
+	https://forums.civfanatics.com/threads/border-and-area-plot-iterators.474634/
+----------------
+Bill Brown and Jamie Christopherson: 
+----------------
+	Music (The Lord of the Rings The Battle for Middle-Earth Soundtrack 07 - Casting The Shadow)
+	https://www.youtube.com/watch?v=Rf5vMCYvMik
+----------------
+Jeff Van Dyck: 
+----------------
+	Music (Medieval: Total War ~ Viking Mobilize Theme ~ OST)
+	https://www.youtube.com/watch?v=VGoH0jEmyjo&list=PL1B21BD0985996E64&index=26&t=0s
+----------------
+Encyclopedia.com: 
+----------------
+	Pedias
+	https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/geiseric-king-vandals
+----------------
+DarioCoelho: 
+----------------
+	Art (Defeat Screen)
+	https://dariocoelho.deviantart.com/art/Shipwreck-216759720
+----------------
+Suzanna-Helmigh: 
+----------------
+	Art (Defeat Screen)
+	https://www.deviantart.com/suzanne-helmigh/art/Shipwreck-cove-speedpaint-428311191
+--------------------------------------------------------------
+--------------------------------------------------------------

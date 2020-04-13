@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Civilizations>
+    <Row>
+      <Type>CIVILIZATION_PERM</Type>
+      <Description>TXT_KEY_CIV_PERM_DESC</Description>
+      <Civilopedia></Civilopedia>
+      <CivilopediaTag>TXT_KEY_CIV5_PERM</CivilopediaTag>
+      <Strategy></Strategy>
+      <Playable>1</Playable>
+      <AIPlayable>1</AIPlayable>
+      <ShortDescription>TXT_KEY_CIV_PERM_SHORT_DESC</ShortDescription>
+      <Adjective>TXT_KEY_CIV_PERM_ADJECTIVE</Adjective>
+      <DefaultPlayerColor>PLAYERCOLOR_PERM</DefaultPlayerColor>
+      <ArtDefineTag>ART_DEF_CIVILIZATION_PERM</ArtDefineTag>
+      <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+      <ArtStyleSuffix>_EURO</ArtStyleSuffix>
+      <ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+      <DerivativeCiv></DerivativeCiv>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>PERMICON_ATLAS</IconAtlas>
+      <AlphaIconAtlas>PERM_ALPHA_ATLAS</AlphaIconAtlas>
+      <MapImage>PermMap.dds</MapImage>
+      <DawnOfManQuote>TXT_KEY_CIV5_DAWN_PERM_TEXT</DawnOfManQuote>
+      <DawnOfManImage>Perm_DOM.dds</DawnOfManImage>
+      <DawnOfManAudio>AS2D_DOM_SPEECH_PERM</DawnOfManAudio>
+      <SoundtrackTag></SoundtrackTag>
+    </Row>
+  </Civilizations>
+
+  <Civilization_BuildingClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+      <BuildingType>BUILDING_PERMUB</BuildingType>
+    </Row>
+  </Civilization_BuildingClassOverrides>
+  <Civilization_CityNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_0</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_1</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_2</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_3</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_4</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_5</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_6</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_7</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_8</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_9</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_10</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_11</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_12</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_13</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_14</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_15</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_16</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_17</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_18</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_19</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_20</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_21</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_22</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_23</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_24</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_25</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_26</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_27</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_28</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_29</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_30</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_31</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_32</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_33</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_34</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_35</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_36</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_PERM_37</CityName>
+    </Row>
+  </Civilization_CityNames>
+  <!-- Civilization_DisableTechs -->
+  <Civilization_FreeBuildingClasses>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+    </Row>
+  </Civilization_FreeBuildingClasses>
+  <Civilization_FreeTechs>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <TechType>TECH_AGRICULTURE</TechType>
+    </Row>
+  </Civilization_FreeTechs>
+  <Civilization_FreeUnits>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+      <UnitAIType>UNITAI_SETTLE</UnitAIType>
+      <Count>1</Count>
+    </Row>
+  </Civilization_FreeUnits>
+  <Civilization_Leaders>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <LeaderheadType>LEADER_STEPHEN</LeaderheadType>
+    </Row>
+  </Civilization_Leaders>
+  <Civilization_Religions>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <ReligionType>RELIGION_ORTHODOXY</ReligionType>
+    </Row>
+  </Civilization_Religions>
+  <Civilization_SpyNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_PERM_0</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_PERM_1</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_PERM_2</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_PERM_3</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_PERM_4</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_PERM_5</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_PERM_6</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_PERM_7</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_PERM_8</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_PERM_9</SpyName>
+    </Row>
+  </Civilization_SpyNames>
+  <Civilization_UnitClassOverrides>
+	  <Row>
+		  <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+		  <UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+		  <UnitType>UNIT_DURZHINA</UnitType>
+	  </Row>
+  </Civilization_UnitClassOverrides>
+  <!-- Civilization_Start_Along_Ocean -->
+  <!-- Civilization_Start_Along_River -->
+  <Civilization_Start_Region_Priority>
+    <Row>
+      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+      <RegionType>REGION_TUNDRA</RegionType>
+    </Row>
+  </Civilization_Start_Region_Priority>
+  <Civilization_Start_Region_Avoid>
+	  <Row>
+		  <CivilizationType>CIVILIZATION_PERM</CivilizationType>
+		  <RegionType>REGION_DESERT</RegionType>
+	  </Row>
+	  </Civilization_Start_Region_Avoid>
+  <!-- Civilization_Start_Place_First_Along_Ocean -->
+
+  <PlayerColors>
+    <Row>
+      <Type>PLAYERCOLOR_PERM</Type>
+      <PrimaryColor>COLOR_PLAYER_PERM_ICON</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_PERM_BACKGROUND</SecondaryColor>
+      <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+    </Row>
+  </PlayerColors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_PERM_ICON</Type>
+		<Red>0.509803921</Red>
+		<Green>0.078431372</Green>
+		<Blue>0.098039215</Blue>
+		<Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_PERM_BACKGROUND</Type>
+		<Red>0.882352941</Red>
+		<Green>0.784313725</Green>
+		<Blue>0.509803921</Blue>
+		<Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CIV_PERM_DESC">
+      <Text>Great Perm</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_FACTOID_HEADING">
+      <Text>PERMn Factoid</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_HEADING_1">
+      <Text>History</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_HEADING_2">
+      <Text>The two Perms</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_HEADING_3">
+      <Text>Christianization</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_HEADING_4">
+      <Text>Absorbtion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_HEADING_5">
+      <Text>Perm today</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_TEXT_1">
+      <Text>Though the city of Perm is the modern foundation of the states name, the Permian town of Cherdyn was known as "Great Perm". The name Perm is suggested to simply mean "merchants" or "market" in the local language, and Cherdyn acted as such a market town.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_TEXT_2">
+      <Text>"Great Perm" was located in the Upper Kama region of Russia, while another Perm, the Perm of Vychegda (also known as Perm the Minor) existed by the river of the same name.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_TEXT_3">
+      <Text>In the 14th Century the Perm of Vychegda was christianized by Stepehn of Perm, and Great Perm was christianized shortly after.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_TEXT_4">
+      <Text>Though breifly enjoying some autonomy between the states of Muscovy, Novgorod, and Kazan, an army from Moscow conquered Great Perm in 1472. Though ruled by a Permian prince, the Grand Prince of Moscow deposed this system in 1505.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_TEXT_5">
+      <Text>Perm and the Komi people still exist today within Russia as the Perm Krai and the Komi Republic.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PERM_TITLE">
+      <Text>Great Perm</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_PERM_SHORT_DESC">
+      <Text>Great Perm</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_PERM_ADJECTIVE">
+      <Text>Permian</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_DAWN_PERM_TEXT">
+		<Text> Heaven bless you, oh Great Stephen of Perm! Under your watchful eye the great northern lands of the Komi People saw the light of God, and were brought into the blessed arms of the Orthodox Church. Not only this, but your hand created a new script for the Komi language, ushering in a new era of culture for the peoples of the area. [NEWLINE][NEWLINE] Though the lands of Perm have faded away behind the might of its neighbouring powers, words of Perm and it's people permiate through surrounding cultures tales and legends. Stephen, your people call upon you once again to lead them to greatness, will you listen? Can you create a civilization that will stand the test of time?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_0">
+      <Text>Cherdyn</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_1">
+      <Text>Pokcha</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_2">
+      <Text>Syktyvkar</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_3">
+      <Text>Yarensk</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_4">
+      <Text>Berezniki</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_5">
+      <Text>Sosnogorsk</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_6">
+      <Text>Vychegda</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_7">
+      <Text>Izhma</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_8">
+      <Text>Pechora</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_9">
+      <Text>Inta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_10">
+      <Text>Mezen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_11">
+      <Text>Usinsk</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_12">
+      <Text>Ukhta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_13">
+      <Text>Kungur</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_14">
+      <Text>Sysola</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_15">
+      <Text>Votkinsk</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_16">
+      <Text>Lysva</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_17">
+      <Text>Irkutsk</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_18">
+      <Text>Chusovoy</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_19">
+      <Text>Krasnokamsk</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_20">
+      <Text>Usa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_21">
+      <Text>Usolye</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_22">
+      <Text>Dobryanka</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_23">
+      <Text>Chernushka</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_24">
+      <Text>Vashka</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_25">
+      <Text>Gornozavodsk'</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_26">
+      <Text>Vym</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_27">
+      <Text>Nyta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_28">
+      <Text>Kizel</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_29">
+      <Text>Sindorskoye</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_30">
+      <Text>Yam-Ozero</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM_37">
+      <Text>Magnitogorsk</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_PERM_0">
+      <Text>Alexei</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_PERM_1">
+      <Text>Lena</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_PERM_2">
+      <Text>Dmitry</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_PERM_3">
+      <Text>Anastasia</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_PERM_4">
+      <Text>Tatiana</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_PERM_5">
+      <Text>Boris</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_PERM_6">
+      <Text>Doktor Seriy</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_PERM_7">
+      <Text>Mikhail</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_PERM_8">
+      <Text>Natacha</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_PERM_9">
+      <Text>Zmeya</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

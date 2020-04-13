@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Civilizations>
+    <Row>
+      <Type>CIVILIZATION_CSLESOTHO</Type>
+      <Description>TXT_KEY_CIV_CSLESOTHO_DESC</Description>
+      <Civilopedia></Civilopedia>
+      <CivilopediaTag>TXT_KEY_CIV5_CSLESOTHO</CivilopediaTag>
+      <Strategy></Strategy>
+      <Playable>1</Playable>
+      <AIPlayable>1</AIPlayable>
+      <ShortDescription>TXT_KEY_CIV_CSLESOTHO_SHORT_DESC</ShortDescription>
+      <Adjective>TXT_KEY_CIV_CSLESOTHO_ADJECTIVE</Adjective>
+      <DefaultPlayerColor>PLAYERCOLOR_CSLESOTHO</DefaultPlayerColor>
+      <ArtDefineTag>ART_DEF_CIVILIZATION_CSLESOTHO</ArtDefineTag>
+      <ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+      <ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+      <ArtStylePrefix>AFRICAN</ArtStylePrefix>
+      <DerivativeCiv></DerivativeCiv>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>CSLESOTHOICON_ATLAS</IconAtlas>
+      <AlphaIconAtlas>CSLESOTHOICON_ALPHA_ATLAS</AlphaIconAtlas>
+      <MapImage>CSLesothoMap.dds</MapImage>
+      <DawnOfManQuote>TXT_KEY_CIV5_DAWN_CSLESOTHO_TEXT</DawnOfManQuote>
+      <DawnOfManImage>CSLesotho_DOM.dds</DawnOfManImage>
+      <DawnOfManAudio>AS2D_DOM_SPEECH_CSLESOTHO</DawnOfManAudio>
+      <SoundtrackTag></SoundtrackTag>
+    </Row>
+  </Civilizations>
+
+  <Civilization_BuildingClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
+      <BuildingType>BUILDING_CSLIKAMPO</BuildingType>
+    </Row>
+  </Civilization_BuildingClassOverrides>
+  <Civilization_CityNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_0</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_1</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_2</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_3</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_4</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_5</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_6</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_7</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_8</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_9</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_10</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_11</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_12</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_13</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_14</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_15</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_16</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_17</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_18</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_19</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_20</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_21</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_22</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_23</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_24</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_25</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_26</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_27</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_28</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_29</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_30</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_31</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_32</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_33</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_34</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CSLESOTHO_35</CityName>
+    </Row>
+  </Civilization_CityNames>
+  <!-- Civilization_DisableTechs -->
+  <Civilization_FreeBuildingClasses>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+    </Row>
+  </Civilization_FreeBuildingClasses>
+  <Civilization_FreeTechs>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <TechType>TECH_AGRICULTURE</TechType>
+    </Row>
+  </Civilization_FreeTechs>
+  <Civilization_FreeUnits>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+      <UnitAIType>UNITAI_SETTLE</UnitAIType>
+      <Count>1</Count>
+    </Row>
+  </Civilization_FreeUnits>
+  <Civilization_Leaders>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <LeaderheadType>LEADER_MOSHOEHOE</LeaderheadType>
+    </Row>
+  </Civilization_Leaders>
+  <Civilization_Religions>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+    </Row>
+  </Civilization_Religions>
+  <Civilization_SpyNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_CSLESOTHO_0</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_CSLESOTHO_1</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_CSLESOTHO_2</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_CSLESOTHO_3</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_CSLESOTHO_4</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_CSLESOTHO_5</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_CSLESOTHO_6</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_CSLESOTHO_7</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_CSLESOTHO_8</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_CSLESOTHO_9</SpyName>
+    </Row>
+  </Civilization_SpyNames>
+	<Civilization_UnitClassOverrides>
+		<Row>  
+			<CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			<UnitType>UNIT_CSBULLBLOOD</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+  <!-- Civilization_Start_Along_Ocean -->
+  <!-- Civilization_Start_Along_River -->
+  <!-- Civilization_Start_Region_Priority -->
+  <Civilization_Start_Region_Avoid>
+    <Row>
+      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+      <RegionType>REGION_JUNGLE</RegionType>
+    </Row>
+  </Civilization_Start_Region_Avoid>
+
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
+			<RegionType>REGION_HILLS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+  <PlayerColors>
+    <Row>
+      <Type>PLAYERCOLOR_CSLESOTHO</Type>
+      <PrimaryColor>COLOR_PLAYER_CSLESOTHO_ICON</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_CSLESOTHO_BACKGROUND</SecondaryColor>
+      <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+    </Row>
+  </PlayerColors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_CSLESOTHO_ICON</Type>
+      <Red>0.078431372</Red>
+      <Green>0.117647058</Green>
+      <Blue>0.333333333</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_CSLESOTHO_BACKGROUND</Type>
+      <Red>0.176470588</Red>
+      <Green>0.647058823</Green>
+      <Blue>0.372549019</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CIV_CSLESOTHO_DESC">
+      <Text>The Kingdom of Lesotho</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_FACTOID_HEADING">
+      <Text>Factoids</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_FACTOID_TEXT">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_HEADING_1">
+      <Text>Early Hisotry</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_HEADING_2">
+      <Text>Moshoeshoe I</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_HEADING_3">
+      <Text>As a British Protectorate</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_HEADING_4">
+      <Text>Independance</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_HEADING_5">
+      <Text>Lesotho today</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_HEADING_6">
+      <Text>Climate and Terrain</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ZULU_IMPI">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_TEXT_1">
+      <Text>The original inhabitants of the area now known as Lesotho were the San people. Examples of their rock art can be found in the mountains throughout the area.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_TEXT_2">
+      <Text>The present Lesotho, then called Basutoland, emerged as a single polity under King Moshoeshoe I in 1822. Moshoeshoe, a son of Mokhachane, a minor chief of the Bakoteli lineage, formed his own clan and became a chief around 1804. Between 1821 and 1823, he and his followers settled at the Butha-Buthe Mountain, joining with former adversaries in resistance against the Lifaqane associated with the reign of Shaka Zulu from 1818 to 1828.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_TEXT_3">
+      <Text>In 1869, the British signed a treaty at Aliwal North with the Boers that defined the boundaries of Basutoland, and later Lesotho, which by ceding the western territories effectively reduced Moshoeshoe's kingdom to half its previous size. Following the cession in 1869, the British initially transferred functions from Moshoeshoe's capital in Thaba Bosiu to a police camp on the northwest border, Maseru, until administration of Basutoland was transferred to the Cape Colony in 1871.
+	  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_TEXT_4">
+      <Text>Basutoland gained its independence from Britain and became the Kingdom of Lesotho in 1966.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_TEXT_5">
+      <Text>It is now a fully sovereign state that is a member of the United Nations, the Commonwealth of Nations, and the Southern African Development Community.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_TEXT_6">
+      <Text>Lesotho covers 30,355 km2 (11,720 sq mi). It is the only independent state in the world that lies entirely above 1,000 metres (3,281 ft) in elevation. Because of its elevation, Lesotho remains cooler throughout the year than other regions at the same latitude.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CSLESOTHO_TITLE">
+      <Text>Lesotho</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_CSLESOTHO_SHORT_DESC">
+      <Text>Lesotho</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_CSLESOTHO_ADJECTIVE">
+      <Text>Lesothan</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_DAWN_CSLESOTHO_TEXT">
+      <Text>We are honored to be in your presence, great King Moshoeshoe I of the lands of Lesotho. Though your fledgling nation was threatened by the terrible rein of Shaka Zulu and the Mfecane, your skill in diplomacy allowed protection for the refugees and the victims of such hardships through their integration and stregnthening of your state. Later, following the encroachment on your lands by the Dutch Cape Colony, your appeal to Queen Victoria herself brought your nation under the protection of the British Empire.[NEWLINE][NEWLINE]Moshoeshoe, your nation remains in the modern world, though it is both physically and economically eclipsed by its neighbour. Your people call upon you to provide them and Lesotho protection once again! Will you build a civilization that stands the test of time?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_0">
+      <Text>Thaba Bosiu</Text>
+	</Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_1">
+      <Text>Maseru</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_2">
+      <Text>Butha-Buthe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_3">
+      <Text>Teyateyaneng</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_4">
+      <Text>Mafeteng</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_5">
+      <Text>Hlotse</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_6">
+      <Text>Mohale's Hoek</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_7">
+      <Text>Maputsoe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_8">
+      <Text>Qacha's Nek</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_9">
+      <Text>Quthing</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_10">
+      <Text>Mokhotlong</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_11">
+      <Text>Thaba Tseka</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_12">
+      <Text>Thabana Ntlenyana</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_13">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_14">
+      <Text>Bera</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_15">
+      <Text>Leribe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_16">
+      <Text>Katse Dam</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_17">
+      <Text>Malealea</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_18">
+      <Text>Moyeni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_19">
+      <Text>Marakabei</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CSLESOTHO_20">
+      <Text>Sehlabathebe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CSLESOTHO_0">
+      <Text>Mokhachane</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CSLESOTHO_1">
+      <Text>Ramonaheng</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CSLESOTHO_2">
+      <Text>Razor</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CSLESOTHO_3">
+      <Text>Caledon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CSLESOTHO_4">
+      <Text>Mnguni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CSLESOTHO_5">
+      <Text>Ndaba</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CSLESOTHO_6">
+      <Text>Phunga</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CSLESOTHO_7">
+      <Text>Senzangakhona</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CSLESOTHO_8">
+      <Text>Balungile</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_CSLESOTHO_9">
+      <Text>Samkelisiwe</Text>
+      <Gender>feminine</Gender>
+    </Row>
+  </Language_en_US>
+</GameData>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fb022cf5-65f7-470e-87b2-75d982d1676f" version="2">
+  <Properties>
+    <Name>MC's Jerusalem</Name>
+    <Teaser>Adds [COLOR_POSITIVE_TEXT]Jerusalem[ENDCOLOR] to the game as a playable civilisation.</Teaser>
+    <Description>Adds [COLOR_POSITIVE_TEXT]Jerusalem[ENDCOLOR] to the game as a playable civilisation.</Description>
+    <Authors>More Civs</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="Cultural Diversity" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="Rise to Power" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events &amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="RED Modpack" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="ExCE" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="Mercenaries" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="Cities in Development" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="F4F3D14604260C3081D46FC899BF019B" import="1">Art/Atlases/MC_JerusalemAlphaAtlas_128.dds</File>
+    <File md5="157FB5588178FBF29EA8E7103EEF2CE0" import="1">Art/Atlases/MC_JerusalemAlphaAtlas_16.dds</File>
+    <File md5="C3A44583CCE36096B72F40B4CD5A2D63" import="1">Art/Atlases/MC_JerusalemAlphaAtlas_22.dds</File>
+    <File md5="2159E3C53398199BA76C60A8AC59DD27" import="1">Art/Atlases/MC_JerusalemAlphaAtlas_24.dds</File>
+    <File md5="9639BD90BCAB0BC8860196FF52E3B66B" import="1">Art/Atlases/MC_JerusalemAlphaAtlas_256.dds</File>
+    <File md5="3706FFB362FBF00F04327117A3494823" import="1">Art/Atlases/MC_JerusalemAlphaAtlas_32.dds</File>
+    <File md5="5BABC0E796E483DCDA0FD43D3F9593C3" import="1">Art/Atlases/MC_JerusalemAlphaAtlas_45.dds</File>
+    <File md5="CD4C1A8FAF1CEB376643F8C7EFD3504F" import="1">Art/Atlases/MC_JerusalemAlphaAtlas_48.dds</File>
+    <File md5="210F91B4D059A1EA09770E49CCF5FF3F" import="1">Art/Atlases/MC_JerusalemAlphaAtlas_64.dds</File>
+    <File md5="7267A7315ECBCE64BC2133080C7DF05B" import="1">Art/Atlases/MC_JerusalemAlphaAtlas_80.dds</File>
+    <File md5="21D1A0EC88F5C9C59B524BC0305FFE16" import="1">Art/Atlases/MC_JerusalemAtlas_128.dds</File>
+    <File md5="565CCDBD33B1B0123CD96BC3005DC28F" import="1">Art/Atlases/MC_JerusalemAtlas_256.dds</File>
+    <File md5="830D298259ACCA79669287A272492037" import="1">Art/Atlases/MC_JerusalemAtlas_32.dds</File>
+    <File md5="3D8A261EB0B6FBC57751318B22473E16" import="1">Art/Atlases/MC_JerusalemAtlas_45.dds</File>
+    <File md5="BFA65DB631C316D6095AFCB78124D40B" import="1">Art/Atlases/MC_JerusalemAtlas_64.dds</File>
+    <File md5="9FCF202289FDF5945D011A748F4257CC" import="1">Art/Atlases/MC_JerusalemAtlas_80.dds</File>
+    <File md5="D55D5FCD028CA47427BB5EABB1773B8B" import="1">Art/Atlases/MC_JerusalemPromoAtlas_256.dds</File>
+    <File md5="C819AA6A5421E9EF43343017501A29B6" import="1">Art/Atlases/MC_JerusalemPromoAtlas_32.dds</File>
+    <File md5="3A9C16FBB146BB2E6F249F7848D31E1E" import="1">Art/Atlases/MC_JerusalemPromoAtlas_45.dds</File>
+    <File md5="EA98B268B280CFCBA864028EE18F2BC9" import="1">Art/Atlases/MC_JerusalemPromoAtlas_64.dds</File>
+    <File md5="95C1C137C6BE2B615C6CD22850C519B5" import="1">Art/Models/Cruciform Sword/CruciformSword.gr2</File>
+    <File md5="835658F94CD08DC2FAE7477FA0C41545" import="1">Art/Models/Cruciform Sword/CruciformSword.fxsxml</File>
+    <File md5="E70C70780BD5415C6EF98F3155AE049D" import="1">Art/Models/Cruciform Sword/CruciformSword_diff.dds</File>
+    <File md5="243FDB761791D9B6F3E307630E6D1EE8" import="1">Art/Models/Cruciform Sword/CruciformSword_sref.dds</File>
+    <File md5="FFE221887C6BDCFE6A938E88AB7FB1D8" import="1">Art/Models/Holy Sepulchre/Knight_Jerusalem.blend</File>
+    <File md5="786BC28E6476C6CA8BD5DBA57C9201A4" import="1">Art/Models/Holy Sepulchre/Knight_Jerusalem.dds</File>
+    <File md5="2F4FF0BEA3F550297BF466CCAB31E5E8" import="1">Art/Models/Holy Sepulchre/Knight_Jerusalem.fxsxml</File>
+    <File md5="0016627A9869C73D2DE00484D8C00B6C" import="1">Art/Models/Holy Sepulchre/Knight_Jerusalem.gr2</File>
+    <File md5="82571249D27F557A8BC8D584AAAF3135" import="1">Art/Models/Holy Sepulchre/Knight_Jerusalem_gloss.dds</File>
+    <File md5="6F7125BDEF222D714B78BC0C730F3C57" import="1">Art/Models/Holy Sepulchre/Knight_Jerusalem_Horse.dds</File>
+    <File md5="91960D29BDA501179216711A8C144EA0" import="1">Art/Models/Holy Sepulchre/Knight_Jerusalem_Horse_gloss.dds</File>
+    <File md5="AC7A29DB49FEF58D72CCE51C70563901" import="1">Art/Models/MC_JerusalemCruciform_Flag.dds</File>
+    <File md5="29C74D0C002F4D774E2498409EE5788D" import="1">Art/Models/MC_JerusalemHospitaller_Flag.dds</File>
+    <File md5="5B232F6EF0EF1EA84227AC59D6FDCA1A" import="1">Art/Models/MC_JerusalemLazarus_Flag.dds</File>
+    <File md5="EF615A9AEC221C88FEB6B27A4E225833" import="1">Art/Models/MC_JerusalemSepulchre_Flag.dds</File>
+    <File md5="8BB872C0F311E1D5EDA29F657B204AF2" import="1">Art/Models/MC_JerusalemTemplar_Flag.dds</File>
+    <File md5="41ED65E07AC26F88F8AD51648906B1A8" import="1">Art/Models/MC_JerusalemTeutonic_Flag.dds</File>
+    <File md5="ACCA5F58297E135107E4DFCFB8CFD235" import="1">Art/Models/St John/JerusalemPolearm.fxsxml</File>
+    <File md5="7559A689A212CB43C2481CE1E4BD9FD1" import="1">Art/Models/St John/JerusalemPolearm.gr2</File>
+    <File md5="8E9109B18C67052F15B7D6FC6F3BFC8A" import="1">Art/Models/St John/Pikeman_Hospitaller.dds</File>
+    <File md5="A8928D1D2D0805456EFE6F7F968D6CDC" import="1">Art/Models/St John/Pikeman_Hospitaller_gloss.dds</File>
+    <File md5="37791170A916E8D5D22555373E9DB575" import="1">Art/Models/St Lazarus/Knight_Templar_Lazarus.dds</File>
+    <File md5="C3BAABD7D6F8FE75A79802FADC3CD176" import="1">Art/Models/St Lazarus/Knight_Templar_Lazarus.fxsxml</File>
+    <File md5="B4283C19E4A64A5BED6F892624D234E8" import="1">Art/Models/St Lazarus/Knight_Templar_Lazarus.gr2</File>
+    <File md5="805E58C14FA2585ADC80B75CEBA9EEF6" import="1">Art/Models/St Lazarus/Knight_Templar_Lazarusgloss.dds</File>
+    <File md5="C15A58B6CA916497CF1D8E460160347D" import="1">Art/Models/St Lazarus/Knight_Templar_LazarusHorse.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Models/St Lazarus/no_gloss.dds</File>
+    <File md5="233FCF160C29F8277640D2D2256765EF" import="1">Art/Models/sv_JerusalemCruciform.dds</File>
+    <File md5="4F4DD284E61079A52AA6140CC9C5C7E3" import="1">Art/Models/sv_JerusalemHospitaller.dds</File>
+    <File md5="1E3610FB1B07F0D24BAAA0701BE08B4B" import="1">Art/Models/sv_JerusalemLazarus.dds</File>
+    <File md5="C59170105D0E43697697C83A287B645E" import="1">Art/Models/sv_JerusalemSepulchre.dds</File>
+    <File md5="D6C34C8600F1400C7792B36C32BDA3FC" import="1">Art/Models/sv_JerusalemTemplar.dds</File>
+    <File md5="A493305285595C02B9C801A7A0CBEBB1" import="1">Art/Models/sv_JerusalemTeutonic.dds</File>
+    <File md5="A0338CC7C417FA9D4F15721C4AE0EEC1" import="1">Art/Models/Teutonic Order/Knight_Teutonic.blend</File>
+    <File md5="52274AA7314382DE5589BC8C95377A67" import="1">Art/Models/Teutonic Order/Knight_Teutonic.dds</File>
+    <File md5="E541460A2AEFE09D8F125853157C0B81" import="1">Art/Models/Teutonic Order/Knight_Teutonic.fxsxml</File>
+    <File md5="4AEB997C6F529841EE415AD37CDA9A07" import="1">Art/Models/Teutonic Order/Knight_Teutonic.gr2</File>
+    <File md5="1E07E94A19807A32D808623E742D2DAD" import="1">Art/Models/Teutonic Order/Knight_Teutonic_gloss.dds</File>
+    <File md5="EDE495F88F7A4E37263D45EE0F7E7A33" import="1">Art/Models/Teutonic Order/Knight_Teutonic_Horse.dds</File>
+    <File md5="673A5CA6445289C2519547B20570F487" import="1">Art/Models/Teutonic Order/Knight_Teutonic_Horse_gloss.dds</File>
+    <File md5="692A9C0A7A560AD8CA6A50F1C42FC410" import="1">Art/Models/Templars/Longswordsman_Templar.blend</File>
+    <File md5="B6A571FEB41AA947822A3A31F3B7976E" import="1">Art/Models/Templars/Longswordsman_Templar.dds</File>
+    <File md5="E7FB2D3C4A6F9690425B60562FDF9659" import="1">Art/Models/Templars/Longswordsman_Templar.fxsxml</File>
+    <File md5="81A553DF70CCFD424D02F551552DF070" import="1">Art/Models/Templars/Longswordsman_Templar.gr2</File>
+    <File md5="84174E83AFDCD5160527994C05C50EFE" import="1">Art/Models/Templars/Longswordsman_Templar_gloss.dds</File>
+    <File md5="804BEFE7B9BA8EEF74C0FEEBF55DFE58" import="1">Art/Scenes/MC_Jerusalem_Diplo.dds</File>
+    <File md5="AD4AC513064465CD13837F67FDD72385" import="1">Art/Scenes/MC_Jerusalem_DOM.dds</File>
+    <File md5="E8BBB731C6D502F1FBD78FAEF796E322" import="1">Art/Scenes/MC_Jerusalem_Map.dds</File>
+    <File md5="254E6659147BE20DB6F0A77C010CC575" import="0">Core/Art/ArtDef/MC_CruciformDefines.sql</File>
+    <File md5="350DAD338DFE5DBFF1B2D73D5391FD4B" import="0">Core/Art/ArtDef/MC_LazarusDefines.sql</File>
+    <File md5="0339A15DE2D5DD70BF56FEA6B14C377A" import="0">Core/Art/ArtDef/MC_SepulchreDefines.sql</File>
+    <File md5="8303D91752AD1BA53B0651A84B3656EF" import="0">Core/Art/ArtDef/MC_StJohnDefines.sql</File>
+    <File md5="94EDEAF9361839C9102C21EB3085C9B4" import="0">Core/Art/ArtDef/MC_TemplarDefines.sql</File>
+    <File md5="B08963AF9E3349A63D6E601BA41FA504" import="0">Core/Art/ArtDef/MC_TeutonicDefines.sql</File>
+    <File md5="79457422263197AF75C9E154C4ADE5EB" import="1">Core/Art/MC_Jerusalem_Leaderhead.xml</File>
+    <File md5="AE681C7F9B0FC58BFB70990AB881F57E" import="0">Core/Buildings/MC_Jerusalem_Buildings.sql</File>
+    <File md5="265126829FA3030E64249F81058D5257" import="0">Core/Buildings/MC_Jerusalem_Buildings.xml</File>
+    <File md5="F18D5A98E02B48E351D76A362CE8C863" import="0">Core/Civilizations/MC_Jerusalem_Civilizations.xml</File>
+    <File md5="AB66EE7DA3760B091AEE2F9049AD5EB3" import="0">Core/GameInfo/C15_OrderBonusDummies.sql</File>
+    <File md5="270FC924C3CC3540420257DE0C3D2289" import="0">Core/GameInfo/MC_Jerusalem_IconTextureAtlases.xml</File>
+    <File md5="B5CB9B757D3E800B45A2688EDB6F7FA5" import="0">Core/GameInfo/MC_Jerusalem_Sounds.xml</File>
+    <File md5="144BD5582B563625D84EFAB7C192AB12" import="0">Core/GameInfo/MC_Jerusalem_Traits.xml</File>
+    <File md5="DA7D6C7DE393F8B9C7F0875A602A8941" import="0">Core/Leaders/MC_Jerusalem_Leader.xml</File>
+    <File md5="F081C1E8D8FE424F669DA3F4A4F4EA2D" import="0">Core/Leaders/MC_Jerusalem_LeaderFlavors.sql</File>
+    <File md5="3A2DA106D61D8904A8A0679086663F23" import="0">Core/Text/MC_Jerusalem_Text.xml</File>
+    <File md5="CF4B47C41082D8809C1B4D56AD3F10EB" import="0">Core/Units/MC_Jerusalem_UnitPromotions.sql</File>
+    <File md5="CD0D29E8431BDD351278F266DAEDF72B" import="0">Core/Units/MC_Jerusalem_UnitPromotions.xml</File>
+    <File md5="9E59D7A1F6319D2DEC2B56B31A4A0DE1" import="0">Core/Units/MC_Jerusalem_Units.sql</File>
+    <File md5="D6010F73CAA46C5BA953E55A339E9074" import="0">Core/Units/MC_Jerusalem_Units.xml</File>
+    <File md5="DD17A5A25E9FA79D0C7BABC7675FE8A3" import="1">Lua/MC_JerusalemKnightlyOrders.lua</File>
+    <File md5="BF871A0E01F59EF7D464613F9B4EF0CF" import="0">Lua/MC_Jerusalem_Functions.lua</File>
+    <File md5="FD6BEC7DD566C4D936EC6E91DF5DD117" import="1">Lua/PlotIterators.lua</File>
+    <File md5="C72A8505E2BDDAAC2660DACCA483DD92" import="1">Mod Support/MC_Jerusalem_Decisions.lua</File>
+    <File md5="5B7F976B2AD07711F2D284E083DBFC1B" import="0">Mod Support/MC_Jerusalem_ModSupport.xml</File>
+    <File md5="E7AA693A39651CEB113AC716A30982E9" import="0">Mod Support/MC_Jerusalem_ModSupport.sql</File>
+    <File md5="4F7B565FA2367C3BC9ADD6AF10344336" import="1">Sounds/MCBaldwinPeace.mp3</File>
+    <File md5="BF8FB30116806161A6073DC3B85447D2" import="1">Sounds/MCBaldwinWar.mp3</File>
+    <File md5="697E430169FBF296C97E26929DAC1A40" import="0">UI/Art/ArtDefines_Core.SQL</File>
+    <File md5="A6BB9801F8EFC99DDDFEABB49563AEE6" import="1">UI/Art/bar200x1.dds</File>
+    <File md5="5B873AE7CBEED2C8327D3700D4E02F22" import="1">UI/Art/BlueHighlight.dds</File>
+    <File md5="234C032E2BE347CF8D5F7F458E2FB02B" import="1">UI/Art/CruciformBanner.dds</File>
+    <File md5="914EB54ED0770DD217F7E6F18C780A53" import="1">UI/Art/HospitallerBanner.dds</File>
+    <File md5="5BB98E5213E18BC8BE51BDAAC01D2C7A" import="1">UI/Art/LazarusBanner.dds</File>
+    <File md5="E16D8FD392A3956FFFCDA7474A5FEA8C" import="1">UI/Art/MC_JerusalemBannersAtlas_128.dds</File>
+    <File md5="D41859A1D4D2B65709A3DAAA799F7B60" import="1">UI/Art/MC_JerusalemBannersAtlas_256.dds</File>
+    <File md5="E67E61229BDEE4E4C8E2107EF41F31C5" import="1">UI/Art/MC_JerusalemBannersAtlas_45.dds</File>
+    <File md5="3FF9971BF4EF21FB4293AE0F60169C9C" import="1">UI/Art/MC_JerusalemBannersAtlas_64.dds</File>
+    <File md5="66F423B58F87EE12E54A4EEF670A1A23" import="1">UI/Art/MC_JerusalemBannersAtlas_80.dds</File>
+    <File md5="58CF47E9D5AA05CD249267FD267D1694" import="1">UI/Art/SepulchreBanner.dds</File>
+    <File md5="1796C482A4C7521E0035B412B182B73F" import="1">UI/Art/TemplarBanner.dds</File>
+    <File md5="29995529A7492D2213993F9096C02FD7" import="1">UI/Art/TeutonicBanner.dds</File>
+    <File md5="64DF635BD57CDEB13DC1038934568A7E" import="0">UI/MCIS/CityInfoStack.lua</File>
+    <File md5="120EB71025973A8A48B38314241DD0B3" import="0">UI/MCIS/CityInfoStack.xml</File>
+    <File md5="F25020F871193C46DAA901469076F65E" import="0">UI/MCIS/MC_Jerusalem_OrderMCIS.lua</File>
+    <File md5="7057CC401EFC11C192C5764947B3A4F7" import="0">UI/MCIS/MC_Jerusalem_OrderMCIS.xml</File>
+    <File md5="342B8F6F04F0580837B1BA2081F7ACF3" import="0">UI/MC_JerusalemSelectionScreen.lua</File>
+    <File md5="FD820C4FBB02D24C470E5A15302E40C2" import="0">UI/MC_JerusalemSelectionScreen.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Buildings/MC_Jerusalem_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings/MC_Jerusalem_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations/MC_Jerusalem_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Jerusalem_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/C15_OrderBonusDummies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Jerusalem_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Jerusalem_Traits.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders/MC_Jerusalem_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders/MC_Jerusalem_LeaderFlavors.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Text/MC_Jerusalem_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_Jerusalem_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_Jerusalem_UnitPromotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_Jerusalem_Units.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_Jerusalem_Units.sql</UpdateDatabase>
+      <UpdateDatabase>UI/Art/ArtDefines_Core.SQL</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDef/MC_CruciformDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDef/MC_LazarusDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDef/MC_SepulchreDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDef/MC_StJohnDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDef/MC_TemplarDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDef/MC_TeutonicDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/MC_Jerusalem_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/MC_Jerusalem_ModSupport.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/MC_Jerusalem_Functions.lua">
+      <Name>MC_JerusalemFunction</Name>
+      <Description>Functions for Jerusalem</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="UI/MC_JerusalemSelectionScreen.lua">
+      <Name>JerusalemSelectionScreen</Name>
+      <Description>Does what it says on the tin</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="UI/MCIS/CityInfoStack.lua">
+      <Name>CityInfoStack</Name>
+      <Description>MCIS</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="UI/MCIS/MC_Jerusalem_OrderMCIS.lua">
+      <Name>Jerusalem_OrderMCIS</Name>
+      <Description>Jerusalem MCIS</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

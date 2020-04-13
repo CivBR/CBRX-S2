@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2a2fe1b8-d57d-4bba-bc84-2bdf83349f4a" version="1">
+  <Properties>
+    <Name>JFD's Rise to Power - (2) (UI) Tech Tree</Name>
+    <Teaser>[COLOR_CYAN]Tech Tree replacement[ENDCOLOR] for Rise to Power.</Teaser>
+    <Description>[COLOR_CYAN]Tech Tree replacement[ENDCOLOR] for Rise to Power.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (1) (Core) Utilities" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="F0FC818E179B23BF281C81229FE1918E" import="1">Art/Images/techpanelback128.dds</File>
+    <File md5="79124E6449324F14D2D5542499043EDE" import="1">Art/Images/techpanelframe128.dds</File>
+    <File md5="79255D42803FE24768EBE90E926C06B8" import="1">Art/Images/techpanelframe160.dds</File>
+    <File md5="8C56CB5C703085A9841D9FA6CD4A509B" import="1">Art/Images/techpanelframegold128.dds</File>
+    <File md5="E5F7A7A008C1267F384D1706FEBD1EAF" import="1">Art/Images/techpanelmeter128.dds</File>
+    <File md5="0D1D883F918B7E880C06CD74D017C2CF" import="1">Art/Images/techpanelmeterinnovation128.dds</File>
+    <File md5="91606A8CA39516157576E0BD60A59F4D" import="1">Art/Images/techtreemeter128.dds</File>
+    <File md5="89DAACCA9B528C28F30F1654F99F171E" import="1">Art/Images/techtreemeter64.dds</File>
+    <File md5="D31538449E8048F017D34C994AC58699" import="1">Art/Images/techtreemeterback128.dds</File>
+    <File md5="5D1388D211695FCF6F6D530422E4A0D5" import="1">Art/Images/techtreemeterback64.dds</File>
+    <File md5="1C49BF366EADF6BA85E3DBC92ED6F189" import="1">Art/Images/techtreemeterframe128.dds</File>
+    <File md5="6549288E74C59F158451300150EE0F1B" import="1">Art/Images/techtreemeterframe64.dds</File>
+    <File md5="BFE28B83E91FBBD52D831AC4DC109373" import="1">Audio/Sounds/UI_TechTree.wav</File>
+    <File md5="013ACDEB0EB29FAD70ECBEA397E7347F" import="0">Core/TechTree_ArtDefines.sql</File>
+    <File md5="89A76539A54627DF9E7CFF1C40CD2CB7" import="1">Lua/UI/InGame/TechTree/TechAwardPopup.lua</File>
+    <File md5="DA9A3FFE8C47FEF10F005A65A2D308F2" import="1">Lua/UI/InGame/TechTree/TechAwardPopup.xml</File>
+    <File md5="384954518EFEDB98A767B7940083245E" import="1">Lua/UI/InGame/TechTree/TechButtonInclude.lua</File>
+    <File md5="4667047E9A1E476FA3431AAB3098CD3F" import="1">Lua/UI/InGame/TechTree/TechButtonInclude.lua.bak</File>
+    <File md5="277E119B66EEF107FBF608258167748B" import="1">Lua/UI/InGame/TechTree/TechHelpInclude.lua</File>
+    <File md5="3694064EA8634B748DC01506AA87DDE6" import="1">Lua/UI/InGame/TechTree/TechPanel.lua</File>
+    <File md5="7B43C06781FA1F487F5FDFBCC2C632C9" import="1">Lua/UI/InGame/TechTree/TechPanel.xml</File>
+    <File md5="5C8A059083A7662392DD2DFEDE8F701B" import="1">Lua/UI/InGame/TechTree/TechPopup.lua</File>
+    <File md5="40A7B269681062FCE4AF770DDB6CB086" import="1">Lua/UI/InGame/TechTree/TechPopup.xml</File>
+    <File md5="E2AD3ABD892120654211167C10622432" import="1">Lua/UI/InGame/TechTree/TechPopup_small.xml</File>
+    <File md5="811D23C003673856324429FB2662D195" import="1">Lua/UI/InGame/TechTree/TechTree.lua</File>
+    <File md5="8E3BC14B7A5C16BF882007ECF43566BC" import="1">Lua/UI/InGame/TechTree/TechTree.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/TechTree_ArtDefines.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<Language_en_US>
+		<!--Unique Cultural Influence-->
+		<Row Tag="TXT_KEY_GENERIC_MC_JERUSALEM_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now conquering infidels and spreading the gospel! I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<!-- -->
+		<!-- Found the Brotherhood of the Cruciform Sword -->
+		<!-- -->
+		<Row Tag="TXT_KEY_DECISIONS_C15_JERUSALEM_CRUCIFORM">
+			<Text>Found the Brotherhood of the Cruciform Sword</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_C15_JERUSALEM_CRUCIFORM_DESC">
+			<Text>
+				A small cohort of our loyal Crusaders have found what appears to be the Holy Grail, and now pledge their extended lives to protecting it! We should prove our piety and support their endeavour![NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Jerusalem
+				[NEWLINE][ICON_BULLET]Must have researched Gunpowder
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_PEACE] Faith
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Unlocks the Brotherhood of the Cruciform Sword as a crusading order.
+				[NEWLINE][ICON_BULLET]50% chance to convert any given city to adherants of the Brotherhood.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_C15_JERUSALEM_CRUCIFORM_ENACTED_DESC">
+			<Text>
+				A small cohort of our loyal Crusaders have found what appears to be the Holy Grail, and now pledge their extended lives to protecting it! We should prove our piety and support their endeavour![NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Unlocks the Brotherhood of the Cruciform Sword as a crusading order.
+				[NEWLINE][ICON_BULLET]50% chance to convert any given city to adherants of the Brotherhood.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_C15_JERUSALEM_CRUCIFORM_DESC_JFDDLC">
+			<Text>
+				A small cohort of our loyal Crusaders have found what appears to be the Holy Grail, and now pledge their extended lives to protecting it! We should prove our piety and support their endeavour!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Player must be Jerusalem
+				[NEWLINE][ICON_BULLET]Must have researched Gunpowder
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]{2_Num} [ICON_PEACE] Faith
+				[NEWLINE][ICON_BULLET]2 [ICON_JFD_CAPTAIN] Captains
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Unlocks the Brotherhood of the Cruciform Sword as a crusading order.
+				[NEWLINE][ICON_BULLET]50% chance to convert any given city to adherants of the Brotherhood.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_C15_JERUSALEM_CRUCIFORM_DESC_ENACTED_JFDDLC">
+			<Text>
+				A small cohort of our loyal Crusaders have found what appears to be the Holy Grail, and now pledge their extended lives to protecting it! We should prove our piety and support their endeavour!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Unlocks the Brotherhood of the Cruciform Sword as a crusading order.
+				[NEWLINE][ICON_BULLET]50% chance to convert any given city to adherants of the Brotherhood.
+			</Text>
+		</Row>
+		<!-- -->
+		<!-- SECOND DECISION TBC -->
+		<!-- -->
+		<Row Tag="TXT_KEY_DECISIONS_C15_JERUSALEM_LADDER">
+			<Text>Settle the Dispute over the Immovable Ladder</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DECISIONS_C15_JERUSALEM_LADDER_DESC">
+			<Text>
+				Our various military orders cannot agree upon the use of our sacred temples, resulting in a ladder from a careless tradesman unable to be removed. We should resolve this dispute, and finally take down the ladder!
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Jerusalem
+				[NEWLINE][ICON_BULLET]Must have entered the Renaissance Era
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE][ICON_BULLET]{1_Culture} [ICON_CULTURE] Culture
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]{2_Faith} [ICON_PEACE] Faith
+				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: the amount received increases with the number of different Religious Orders in the Empire[ENDCOLOR]
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DECISIONS_C15_JERUSALEM_LADDER_DESC_ENACTED">
+			<Text>
+				Our various military orders cannot agree upon the use of our sacred temples, resulting in a ladder from a careless tradesman unable to be removed. We should resolve this dispute, and finally take down the ladder!
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Lump sum of [ICON_PEACE] Faith
+				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: the amount received increases with the number of different Religious Orders in the Empire[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_C15_JERUSALEM_LADDER_DESC_JFDDLC">
+			<Text>
+				Our various military orders cannot agree upon the use of our sacred temples, resulting in a ladder from a careless tradesman unable to be removed. We should resolve this dispute, and finally take down the ladder!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Player must be Jerusalem
+				[NEWLINE][ICON_BULLET]Must have entered the Renaissance Era
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]1 [ICON_JFD_CLERIC] Cleric
+				[NEWLINE][ICON_BULLET]{1_Culture} [ICON_CULTURE] Culture
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{2_Faith} [ICON_PEACE] Faith
+				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: the amount received increases with the number of different Religious Orders in the Empire[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_C15_JERUSALEM_LADDER_DESC_ENACTED_JFDDLC">
+			<Text>
+				Our various military orders cannot agree upon the use of our sacred temples, resulting in a ladder from a careless tradesman unable to be removed. We should resolve this dispute, and finally take down the ladder!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Lump sum of [ICON_PEACE] Faith
+				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: the amount received increases with the number of different Religious Orders in the Empire[ENDCOLOR]
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

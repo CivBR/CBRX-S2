@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/22/2018 2:40:10 PM -->
+<GameData>
+ <Language_en_US>
+	<Row Tag="TXT_KEY_PROMOTION_BORDER_PATROL">
+       <Text>Border Patrol</Text>
+    </Row>
+	 <Row Tag="TXT_KEY_PROMOTION_BORDER_PATROL_HELP">
+		 <Text>Strength increases at the border</Text>
+	 </Row>
+	 <Row Tag="TXT_KEY_PROMOTION_BORDER_PATROL_STRATEGY">
+		 <Text>Border Patrol</Text>
+	 </Row>
+	 <Row Tag="TXT_KEY_TRAIT_SF_KOSOVO_SHORT">
+		 <Text>Nderi, Detyra, Adhteu</Text>
+	 </Row>
+	 <Row Tag="TXT_KEY_TRAIT_SF_KOSOVO">
+		 <Text>DOFs increase the experience of units newly trained in both Kosovan and the partner civ's cities by 10. Upon a war declaration your friendship partners join in, and garrisoned units increase damage inflicted by city bombardment.</Text>
+	 </Row>
+</Language_en_US>
+  
+</GameData>

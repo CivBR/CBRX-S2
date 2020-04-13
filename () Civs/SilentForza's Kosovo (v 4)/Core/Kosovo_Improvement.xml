@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GameData>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_SF_KULLA</Type>
+			<Description>TXT_KEY_IMPROVEMENT_SF_KULLA</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_SF_KULLA_TEXT</Civilopedia>
+			<Help>TXT_KEY_CIV5_IMPROVEMENTS_SF_KULLA_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_SF_KULLA</ArtDefineTag>
+			<WorldSoundscapeAudioScript/>
+			<ImprovementPillage/>
+			<ImprovementUpgrade/>
+			<SpecificCivRequired>1</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<HillsMakesValid>0</HillsMakesValid>
+			<FreshWaterMakesValid>0</FreshWaterMakesValid>
+			<RiverSideMakesValid>0</RiverSideMakesValid>
+			<NoFreshWater>0</NoFreshWater>
+			<RequiresFlatlands>0</RequiresFlatlands>
+			<RequiresFlatlandsOrFreshWater>0</RequiresFlatlandsOrFreshWater>
+			<RequiresFeature>0</RequiresFeature>
+			<RequiresImprovement>0</RequiresImprovement>
+			<RemovesResource>0</RemovesResource>
+			<PromptWhenComplete>0</PromptWhenComplete>
+			<Coastal>0</Coastal>
+			<Water>0</Water>
+			<DestroyedWhenPillaged>0</DestroyedWhenPillaged>
+			<DisplacePillager>0</DisplacePillager>
+			<BuildableOnResources>0</BuildableOnResources>
+			<BarbarianCamp>0</BarbarianCamp>
+			<Goody>0</Goody>
+			<Permanent>0</Permanent>
+			<OutsideBorders>0</OutsideBorders>
+			<InAdjacentFriendly>0</InAdjacentFriendly>
+			<IgnoreOwnership>0</IgnoreOwnership>
+			<OnlyCityStateTerritory>0</OnlyCityStateTerritory>
+			<GraphicalOnly>0</GraphicalOnly>
+			<CreatedByGreatPerson>0</CreatedByGreatPerson>
+			<NoTwoAdjacent>1</NoTwoAdjacent>
+			<AdjacentLuxury>0</AdjacentLuxury>
+			<AllowsWalkWater>0</AllowsWalkWater>
+			<CultureAdjacentSameType>0</CultureAdjacentSameType>
+			<TilesPerGoody>0</TilesPerGoody>
+			<GoodyRange>0</GoodyRange>
+			<FeatureGrowth>0</FeatureGrowth>
+			<UpgradeTime>0</UpgradeTime>
+			<RiverSideUpgradeMod>0</RiverSideUpgradeMod>
+			<CoastalLandUpgradeMod>0</CoastalLandUpgradeMod>
+			<HillsUpgradeMod>0</HillsUpgradeMod>
+			<FreshWaterUpgradeMod>0</FreshWaterUpgradeMod>
+			<DefenseModifier>30</DefenseModifier>
+			<NearbyEnemyDamage></NearbyEnemyDamage>
+			<PillageGold>20</PillageGold>
+			<ResourceExtractionMod>0</ResourceExtractionMod>
+			<LuxuryCopiesSiphonedFromMinor>0</LuxuryCopiesSiphonedFromMinor>
+			<GoldMaintenance>0</GoldMaintenance>
+			<CultureBombRadius>0</CultureBombRadius>
+			<RequiresXAdjacentLand>-1</RequiresXAdjacentLand>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>SF_KOSOVO_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+
+<!-- Trait_ImprovementYieldChanges -->
+
+
+<!-- Policy_ImprovementYieldChanges -->
+
+
+<!-- Policy_ImprovementCultureChanges -->
+
+
+<!-- Belief_ImprovementYieldChanges -->
+
+
+<!-- Improvement_Flavors -->
+
+
+
+-<Improvement_TechYieldChanges>
+
+
+-<Row>
+
+<ImprovementType>IMPROVEMENT_SF_KULLA</ImprovementType>
+<TechType>TECH_ENGINEERING</TechType>
+<YieldType>YIELD_PRODUCTION</YieldType>
+<Yield>1</Yield>
+
+</Row>
+
+
+<Row>
+
+<ImprovementType>IMPROVEMENT_SF_KULLA</ImprovementType>
+<TechType>TECH_FERTILIZER</TechType>
+<YieldType>YIELD_FOOD</YieldType>
+
+<Yield>1</Yield>
+
+</Row>
+<Row>
+
+<ImprovementType>IMPROVEMENT_SF_KULLA</ImprovementType>
+<TechType>TECH_COMPUTERS</TechType>
+<YieldType>YIELD_GOLD</YieldType>
+
+<Yield>1</Yield>
+</Row>
+
+</Improvement_TechYieldChanges>
+
+<!-- Improvement_YieldPerEra -->
+
+
+<!-- Improvement_AdjacentCityYields -->
+
+
+<!-- Improvement_CoastalLandYields -->
+
+
+<!-- Improvement_FreshWaterYields -->
+
+
+<!-- Improvement_HillsYields -->
+
+
+<!-- Improvement_AdjacentMountainYieldChanges -->
+
+
+<!-- Improvement_PrereqNatureYields -->
+
+
+<!-- Improvement_RiverSideYields -->
+
+
+
+<Improvement_ValidTerrains>
+
+
+<Row>
+
+<ImprovementType>IMPROVEMENT_SF_KULLA</ImprovementType>
+
+<TerrainType>TERRAIN_GRASS</TerrainType>
+
+</Row>
+
+
+<Row>
+
+<ImprovementType>IMPROVEMENT_SF_KULLA</ImprovementType>
+
+<TerrainType>TERRAIN_PLAINS</TerrainType>
+
+</Row>
+
+
+<Row>
+
+<ImprovementType>IMPROVEMENT_SF_KULLA</ImprovementType>
+
+<TerrainType>TERRAIN_DESERT</TerrainType>
+
+</Row>
+
+
+<Row>
+
+<ImprovementType>IMPROVEMENT_SF_KULLA</ImprovementType>
+
+<TerrainType>TERRAIN_TUNDRA</TerrainType>
+
+</Row>
+
+
+<Row>
+
+<ImprovementType>IMPROVEMENT_SF_KULLA</ImprovementType>
+
+<TerrainType>TERRAIN_SNOW</TerrainType>
+
+</Row>
+
+</Improvement_ValidTerrains>
+
+	<Builds>
+
+		<Row>
+			<Type>BUILD_SF_KULLA</Type>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<Time>600</Time>
+			<ImprovementType>IMPROVEMENT_SF_KULLA</ImprovementType>
+			<Description>TXT_KEY_BUILD_SF_KULLA</Description>
+			<Help>TXT_KEY_BUILD_SF_KULLA_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_SF_KULLA_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_F</HotKey>
+			<OrderPriority>1</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>5</IconIndex>
+			<IconAtlas>SF_KOSOVO_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+	<BuildFeatures>
+
+		<Row>
+			<BuildType>BUILD_SF_KULLA</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<Time>800</Time>
+		</Row>
+	</BuildFeatures>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_SF_KULLA</BuildType>
+		</Row>
+	</Unit_Builds>
+
+<!-- Improvement_ValidFeatures -->
+
+
+<!-- Improvement_ValidImprovements -->
+
+
+<!-- Improvement_ResourceTypes -->
+
+
+<!-- Improvement_ResourceType_Yields -->
+
+
+<!-- Improvement_RouteYieldChanges -->
+
+
+<!-- Improvement_TechNoFreshWaterYieldChanges -->
+
+
+<!-- Improvement_TechFreshWaterYieldChanges -->
+
+
+
+-<Language_en_US>
+
+
+-<Row Tag="TXT_KEY_IMPROVEMENT_SF_KULLA">
+
+<Text>Kulla</Text>
+
+</Row>
+
+
+-<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_SF_KULLA_TEXT">
+
+
+-<Text>
+
+Kullas are fortified rural houses commonly found in Albania and Kosovo. They appeared in Kosovo between the 18 and the 20th century, and are on 2 or 3 storeys. While they are used as houses, they have small windows which indicate the use of such buildings as fortifications and protections to repel attacks. In Kosovo, they are vastly influenced by muslim culture, which is notable by the division between men and women. Exemple of Kosovar Kullas include the Jashar Pasha and Haxhi Zeta's towers.
+
+
+</Text>
+
+</Row>
+
+
+-<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_SF_KULLA_HELP">
+
+<Text>Only Kosovo can build Kullas. Yields 1 [ICON_FOOD] food at Fertilizer, 1 [ICON_PRODUCTION] production at Engineering, and 1 [ICON_GOLD] at Radio. Provides 30 [ICON_STRENGH] defense to an unit stationed on it and inflicts damage to nearby enemies.</Text>
+
+</Row>
+
+<Row Tag="TXT_KEY_BUILD_SF_KULLA">
+	<Text>Build a Kulla</Text>
+</Row>
+<Row Tag="TXT_KEY_BUILD_SF_KULLA_HELP">
+	<Text>Yields 1 [ICON_FOOD] food at Fertilizer, 1 [ICON_PRODUCTION] production at Engineering, and 1 [ICON_GOLD] at Radio. Provides 30 [ICON_STRENGH] defense to an unit stationed on it and inflicts damage to nearby enemies.</Text>
+</Row>
+<Row Tag="TXT_KEY_BUILD_SF_KULLA_REC">
+	<Text>Build a Kulla here!</Text>
+</Row>
+</Language_en_US>
+</GameData>

@@ -1,0 +1,736 @@
+<GameData>
+    <Language_en_US>
+        <!--Updates to Mogadishu minor civ-->
+        <Row Tag="TXT_KEY_CITYSTATE_THP_ADEN">
+            <Text>Aden</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_THP_ADEN_DESC">
+            <Text>Aden</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_THP_ADEN_SHORT_DESC">
+            <Text>Aden</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITYSTATE_THP_ADEN_ADJECTIVE">
+            <Text>Adeni</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_THP_ADEN_TEXT_1">
+            <Text>Aden is a port city along the eastern approach to the Red Sea; it lends its name to the Gulf of Aden, which stretches between the Arabian Peninsula and the Horn of Africa. It was a significant stop along shipping routes as early as the 1st century BC, although the city does not seem to have received significant fortifications until the Islamic period.[NEWLINE][NEWLINE]In the post-medieval era, Aden briefly came under the control of the Portuguese and Ottomans; however, around the turn of the nineteenth century, the city began to catch the eye of British forces. Seeking a forward base in the region, Britain purchased Aden from the Sultanate of Lahej in 1838; for the next century, it would be governed as part of British India. However, Aden was transferred to the newly formed Colony of Aden in 1937, allowing the British to retain control over the city after India's independence a decade later.[NEWLINE][NEWLINE]In 1970, South Yemen gained its independence, and Aden became its capital; however, after Yemen's unification in 1990, Aden lost this capital status. Today, Aden is a significant city in the Yemeni Civil War. After his deposition by the Houthis in 2015, President Hadi fled to Aden and declared the city to be Yemen's temporary capital.</Text>
+        </Row>
+        
+        <!--Cities-->
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_1">
+            <Text>Mogadishu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_2">
+            <Text>Hargeisa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_3">
+            <Text>Berbera</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_4">
+            <Text>Galdogob</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_5">
+            <Text>Baidoa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_6">
+            <Text>Burao</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_7">
+            <Text>Beledweyne</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_8">
+            <Text>Abudwak</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_9">
+            <Text>Borama</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_10">
+            <Text>Jowhar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_11">
+            <Text>Las Anod</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_12">
+            <Text>Adado</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_13">
+            <Text>Dusmareb</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_14">
+            <Text>Bardera</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_15">
+            <Text>Galkayo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_16">
+            <Text>Bosaso</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_17">
+            <Text>Harardhere</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_18">
+            <Text>Merca</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_19">
+            <Text>Guriel</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_20">
+            <Text>Kismayo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_21">
+            <Text>Garoowe</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_22">
+            <Text>Afgooye</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_23">
+            <Text>Erigavo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_24">
+            <Text>Garbahare</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_25">
+            <Text>Badhan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_26">
+            <Text>Boon</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_27">
+            <Text>Qoryoley</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_28">
+            <Text>Banderadley</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_29">
+            <Text>Buuhoodle</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_30">
+            <Text>Jariban</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_31">
+            <Text>Hudur</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_32">
+            <Text>Hobyo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_SOMALIA_33">
+            <Text>Bu'ale</Text>
+        </Row>
+        
+        <!--Spies-->
+        <Row Tag="TXT_KEY_SPY_NAME_THP_SOMALIA_0">
+            <Text>Cabdullaahi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_SOMALIA_1">
+            <Text>Cabdiraxmaan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_SOMALIA_2">
+            <Text>Faarax</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_SOMALIA_3">
+            <Text>Xuseen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_SOMALIA_4">
+            <Text>Cabdiqaasim</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_SOMALIA_5">
+            <Text>Xasan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_SOMALIA_6">
+            <Text>Cusmaan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_SOMALIA_7">
+            <Text>Maxamud</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_SOMALIA_8">
+            <Text>Axmed</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_SOMALIA_9">
+            <Text>Khadija</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        
+        <!--Basic Info-->
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE">
+            <Text>Mohamed Siad Barre</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_SOMALIA_ADJECTIVE">
+            <Text>Somali</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_SOMALIA_DESC">
+            <Text>Somalia</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_SOMALIA_SHORT_DESC">
+            <Text>Somalia</Text>
+        </Row>
+        
+        <!--Civilopedia-->
+        <Row Tag="TXT_KEY_PEDIA_THP_SOMALIA_HEADING_1">
+            <Text>Premodern History</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_SOMALIA_TEXT_1">
+            <Text>Modern-day Somalia has been inhabited for thousands of years; archaeological evidence shows that the earliest civilizations in the region participated in trade  with New Kingdom Egypt and Mycenaean Greece. Commerce continued to be significant throughout the classical period, during which Somali trade links stretched as far as India in the east and Rome in the west.[NEWLINE][NEWLINE]Due to its position just across the sea from Arabia, Somalia was one of the earliest regions to convert to Islam: the Masjid al-Qiblatayn in Zeila was the first mosque to be built in Africa. A sequence of regional sultanates rose and fell in medieval Somalia, including the sultanates of Adal and Mogadishu; the greatest of these, however, were the Warsangali and Ajuran Sultanates. The ports of these empires were frequented by many traders in the medieval and early modern period, including the Swahili and Portuguese; relations were not always positive, however, as the Ajuran Sultanate spent much of the sixteenth century at intermittent war with Portugal.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_SOMALIA_HEADING_2">
+            <Text>Colonial Somalia</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_SOMALIA_TEXT_2">
+            <Text>By the 19th century, the Geledi Sultanate had become the most significant Somali state; Ajuran was completely defunct by this time, and Warsangali held only a small stretch of land. At its height, the Geledi managed to extract tribute from Zanzibar and Oman; however, the Scramble for Africa in the late 19th century saw Somalia become a target of European imperialists. Mohammed Abdullah Hassan led the Dervishes in a prolonged anti-colonial resistance, but after 21 years of successful defense, British aerial bombardments caused the Dervish movement to collapse. The north fell under British sway, while Fascist Italy seized control of central and southern Somalia.[NEWLINE][NEWLINE]The Italians expended significant resources in Somalia; much infrastructure was built during the colonial period, including a road from Mogadishu to Addis Ababa, and 22,000 Italians lived in Somalia at the colony's height. After World War II broke out, the Italians also conquered British Somaliland, although the end of the war saw a resumption of the pre-WWII status quo.[NEWLINE][NEWLINE]When Italy regained control over Italian Somaliland, the United Nations forced it to grant Somalia its independence within ten years. British Somaliland, however, would not gain independence until 1960; during the 1950s, British officials attempted to develop the region to match the infrastructure of the Italian-controlled part of Somalia, with little success. Meanwhile, French Somaliland (modern Djibouti) voted in a 1958 referendum to remain under French control rather than join Somalia when it unified.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_SOMALIA_HEADING_3">
+            <Text>Independence</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_SOMALIA_TEXT_3">
+            <Text>On 1 July 1960, the two portions of Somaliland unified to form the independent Somali Republic. This government, a presidential republic, lasted for nine years before its second president - Abdirashid Ali Shermarke - was assassinated in the city of Las Anod. Within a week of his death, the Somali Army executed a bloodless takeover of the country, and General Mohamed Siad Barre became President. A proponent of scientific socialism, Siad Barre initiated successful literacy and public works programs, but his tenure was plagued by human rights abuses that worsened after the unsuccessful Ogaden War in 1977-78.[NEWLINE][NEWLINE]As pressure mounted from various resistance groups, the Siad Barre government collapsed in early 1991, causing Somalia to descend completely into civil war. In the mid-1990s, the United Nations intervened to bring humanitarian aid and seek peace terms. These efforts were only partially successful: Somalia increasingly split between Mohamed Farrah Aidid and Ali Mahdi Muhammad, two leaders of the United Somali Congress. This situation did not prove stable, either; a Transitional National Government, established in 2000, failed to stop the fighting, and the Islamic Courts Union also became a major (if short-lived) player in the war in 2006.[NEWLINE][NEWLINE]The Somali Civil War continues to rage today. The north governs itself as the internationally unrecognized breakaway state of Somaliland; the northeast similarly proclaims itself to be the autonomous state of Puntland. The current Somali government controls mostly central and southern Somalia, but it is also under attack by Al-Shabaab, a terrorist group that formed during the collapse of the Islamic Courts Union.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_PEDIA_NAME">
+            <Text>Mohamed Siad Barre</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_PEDIA_SUBTITLE">
+            <Text>Leader of Somalia</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_PEDIA_TITLES_1">
+            <Text>President of Somalia</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_PEDIA_TITLES_2">
+            <Text>Major General, Somali National Army</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_PEDIA_TITLES_3">
+            <Text>Guulwade</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_PEDIA_LIVED">
+            <Text>1919 - 1995</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_PEDIA_HEADING_1">
+            <Text>Biography</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_PEDIA_TEXT_1">
+            <Text>Jaalle Mohamed Siad Barre was a soldier and politician who served as the President of Somalia from 1969 to 1991. He was born in 1919, near Shilavo in modern-day Ethiopia, as a member of the Marehan clan (a subclan of the Darod). He began his military service in 1935, when he claimed to have been born in Garbahare in order to be eligible to join the Italian Zaptié forces; he fought in the Italian conquest of Ethiopia, and later joined the military forces of British Somaliland, where he rose to the rank of Major General. Because of this military experience, Siad Barre was selected as Vice Chairman of the Somali Army after the nation attained its independence in 1960.[NEWLINE][NEWLINE]After the assassination of President Abdirashid Shermarke, Siad Barre was one of the foremost members of the Supreme Revolutionary Council that executed the 1969 military coup. Siad Barre himself assumed the title of President, and began developing Somalia as a Marxist-Leninist state, views he had acquired from training alongside Soviet officers in the 1960s. He nationalized industry in Somalia, established cooperative farms and factories, and began several significant public works projects; he also sought to improve literacy, an effort bolstered by the introduction of a standardized Latin writing system for the Somali language. This effort was also part of Siad Barre's greater campaign to wipe out clanism: the clan system was central to Somali culture, which Siad Barre saw as destructive to national unity.[NEWLINE][NEWLINE]One of the most significant events of Siad Barre's tenure was the 1977-78 Ogaden War, in which Somalia invaded the Ethiopian region of Ogaden. The Ogaden region was largely populated by Somalis, making it part of the "Greater Somalia" area that Siad Barre sought to control, and forming his casus belli. Backed by Soviet forces, Somalia achieved significant victories in the early part of the war, but after the Soviets pulled their aid, Ethiopia reversed the gains and the Ogaden War ended in Somali defeat. This begun a long downward spiral for the Siad Barre regime. Throughout the 1980s, dissatisfaction mounted against the government, and rebellions began breaking out - many covertly aided by the Ethiopians. In response, Siad Barre became increasingly paranoid and ramped up his human rights abuses, committing various acts of ethnic cleansing against opposing clans (particularly the Isaaq).[NEWLINE][NEWLINE]The resistance against Siad Barre came to a head in January 1991, as a group of militias overthrew his government. Siad Barre fled to Kenya after the breakout of the civil war, but after the Kenyan populace protested against his presence, he moved again to Nigeria. He remained in Nigeria for several years before dying of a heart attack in 1995.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_DAWN_THP_SOMALIA_TEXT">
+            <Text>Greetings, General Siad Barre! Victorious leader, you were one of the most prominent figures in the Somali military since the state first gained its independence, and so when President Shermarke was assassinated, you were the natural choice to take over his office. As President of Somalia, you began a program of scientific socialism, revitalizing the economy with nationalized industry and cooperative farms; you also spread literacy, with a standardized Latin script that could be used by all Somalis. Militarily, your tenure was less decisive - although the Ogaden War was a great success in its early months, the betrayal of the Soviets prevented you from attaining your victory. This would have a long-reaching ripple effect that colored the rest of your reign, but you would continue to fight for your people and your clan.[NEWLINE][NEWLINE]General, the time has come for you to once again seize the helm of Somalia, and wrest it from both external colonizers and those who would oppress your clan. Can you restore the strong hand that you used to push Somalia forward? Can you build a civilization that will stand the test of time?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_THP_SOMALIA_SHORT">
+            <Text>Star of Unity</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_THP_SOMALIA">
+            <Text>[ICON_INTERNATIONAL_TRADE] Trade Routes grant additional starting XP to Naval Units trained in their home cities. Gain [ICON_GREAT_PEOPLE] Gabyaga points when promoting Naval Units.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_DUUB_CAS">
+            <Text>Duub Cas</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_DUUB_CAS_HELP">
+            <Text>Special front-line unit of the Atomic Era. Only Somalia may build it. The Duub Cas moves faster in friendly territory, and it is stronger when beginning its turn along one of your Trade Routes.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_DUUB_CAS_STRATEGY">
+            <Text>The Duub Cas is an exceptionally mobile unit that can be rapidly moved to any front line; with its speed in friendly territory, it can be trained anywhere and quickly progress to the site of battle. The Duub Cas is especially useful when fighting in your own territory. That allows you to take the greatest advantage of its speed, as well as giving you the highest chance of landing on a trade route and gaining the Duub Cas' other bonus.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_DUUB_CAS_TEXT">
+            <Text>The Duub Cas ("Red Berets") were a Somali special force that operated under the Siad Barre regime. They were originally conceived as bodyguards for the president, but their responsibilities gradually expanded; by the later years of Siad Barre's tenure, they acted as crack forces that suppressed dissent throughout Somalia, and were the main forces that executed the Isaaq genocide. Throughout the course of the Duub Cas' existence, they increasingly came to comprise members of Siad Barre's own clan.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_GABYAGA">
+            <Text>Gabyaga</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_GABYAGA_HELP">
+            <Text>Great Person skilled in writing. Only Somalia may build it. In addition to the usual Great Writer abilities, the Gabyaga may be garrisoned in one of your cities to provide an extra Trade Route slot.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_GABYAGA_STRATEGY">
+            <Text>Optimal use of the Gabyaga depends on a central dilemma: how long should you keep it around for the extra Trade Route, and when should you expend it for a Great Work? The answer likely depends on the victory type you're striving for. A culturally focused Somalia player probably wants to focus on producing Great Works of Writing as soon as possible, while a more militaristic one may get more mileage out of the additional trade routes.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_GABYAGA_TEXT">
+            <Text>Gabyaga is the Somali word for "poet." Poetry has a long and distinguished history in Somali culture, to the extent that some have referred to Somalia as a "Nation of Poets." Most Somali clans had their own poets, with panegyrics written and performed about each of their chiefs; the Eidagale clan (a sub-clan of the Isaaq) has been hailed as the most accomplished clan of Somali poets.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_SOMALIA_TRADE_MARKER">
+            <Text>Dummy Trade Route Home</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_SOMALIA_TRADE_MARKER_HELP">
+            <Text>Marks the home city of a Somali trade route.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_SOMALIA_ROUTE_SLOT">
+            <Text>Dummy Extra Trade Route</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_SOMALIA_ROUTE_SLOT_HELP">
+            <Text>Grants an extra Trade Route slot.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_DUUB_CAS_ON_ROUTE">
+            <Text>Marehan Crack Forces</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_DUUB_CAS_ON_ROUTE_HELP">
+            <Text>This Duub Cas is along a trade route, granting it additional Combat Strength this turn.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_FRIENDLY_DUUB_CAS">
+            <Text>Suppressor of Dissent</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_FRIENDLY_DUUB_CAS_HELP">
+            <Text>This Duub Cas is in friendly territory, allowing it to move more quickly.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_GABYAGA">
+            <Text>Nation of Poets</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_GABYAGA_HELP">
+            <Text>May be stationed in a city to grant an extra Trade Route slot.</Text>
+        </Row>
+        
+        <!--Gabyagas & Great Works-->
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_01">
+            <Text>Mohamed Abdullah Hassan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_01">
+            <Text>Gaala Leged (Defeat of the Infidels)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_01">
+            <Text>If they had not become ungrateful, I would have not become enraged with them;[NEWLINE]
+                I would have not lost my generosity and respect for them;[NEWLINE]
+                I would have not have withheld anything from them, if they desired peace;[NEWLINE]
+                But when they acted disdainfully, death marched straight at them.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_02">
+            <Text>Elmi Boodhari</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_02">
+            <Text>Qaraami (Passion)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_02">
+            <Text>Her fine-shaped bones begin her excellence;[NEWLINE]
+                Magnificent of bearing, tall is she;[NEWLINE]
+                A proud grace is her body's greatest splendor;[NEWLINE]
+                Yet she is gentle, womanly, soft of skin.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_03">
+            <Text>Ismail Mire</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_03">
+            <Text>Bitter and Sweet</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_03">
+            <Text>My two hands, right and left, are twins.[NEWLINE]
+                One twin gives food to strangers and to guests,[NEWLINE]
+                But the other is a slashing, cutting knife -[NEWLINE]
+                As sharp to the taste as myrrh,[NEWLINE]
+                As bitter as the aloe.[NEWLINE]
+                Do not suppose that I am the kind of man[NEWLINE]
+                Who walks along one path, and that path only.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_04">
+            <Text>Mohamed Hadrawi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_04">
+            <Text>Daalacan (Clarity)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_04">
+            <Text>My horse is Clarity, is Daalacan -[NEWLINE]
+                I won't hobble it[NEWLINE]
+                but here I set it at ease[NEWLINE]
+                for a few days.[NEWLINE]
+                Where is that able, well-bred ram[NEWLINE]
+                who leads the lively lambs[NEWLINE]
+                to our betrothed, our princess,[NEWLINE]
+                the Deelley, whose call brings them all[NEWLINE]
+                to the well that is community,[NEWLINE]
+                both the people and the animals?</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_05">
+            <Text>Maxamed Xaashi Dhamac</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_05">
+            <Text>Garaad-daran (Self-Misunderstood)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_05">
+            <Text>I can't understand you, curious self,[NEWLINE]
+                nor grasp how you're both life and death,[NEWLINE]
+                grabbed land and peaceful settlement,[NEWLINE]
+                grudging milker that makes me full,[NEWLINE]
+                sun set at evening whilst casting[NEWLINE]
+                noon's shortest shadow: how can you be[NEWLINE]
+                two who can't marry[NEWLINE]
+                yet share the same house?</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_06">
+            <Text>Abdulkadir Hersi Siyad</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_06">
+            <Text>Soomali baan ahay (I Am Somali)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_06">
+            <Text>To those of you who say you care[NEWLINE]
+                whilst threatening me with chains,[NEWLINE]
+                you're like a vessel full of holes,[NEWLINE]
+                your two-faced treachery leaking away.[NEWLINE]
+                Attempts to betray me will never hold sway.[NEWLINE]
+                I am Somali.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_07">
+            <Text>Jaamac Kadiye Cilmi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_07">
+            <Text>Siyaasad (Politics)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_07">
+            <Text>Like a locust it gnaws at wisdom[NEWLINE]
+                And infects equal rights with its sickness[NEWLINE]
+                So that injustice can rule the roost.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_08">
+            <Text>Muse Cali Faruur</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_08">
+            <Text>Sipping a Little Knowledge Could Create Hardship</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_08">
+            <Text>We are a gelded camel, carefully plotting to surprise a he-camel.[NEWLINE]
+                We escape from homes and camps into the forest,[NEWLINE]
+                Bells circling our necks, their clanging means: 'look out'.[NEWLINE]
+                We are looking through the corners of our eyes, cagey with fear.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_09">
+            <Text>Raage Ugaas</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_09">
+            <Text>Alleyl Dumay (Night Has Fallen)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_09">
+            <Text>I am shut away now from the eyes through which I used to see;[NEWLINE]
+                Only God knows the source of my lamentations.[NEWLINE]
+                The vulture with an injury to his shoulder cannot fly;[NEWLINE]
+                The horse who has lost his spine cannot gallop;[NEWLINE]
+                The man injured in eye and ribs cannot seek revenge;[NEWLINE]
+                A man whose heart aches cannot take a bride home.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_10">
+            <Text>Hassan Sheikh Mumin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_10">
+            <Text>Caqligii Wanaagsan (Good Sense)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_10">
+            <Text>Different in size, the two[NEWLINE]
+                In manners, wisdom[NEWLINE]
+                And sense are opposite[NEWLINE]
+                See how good sense[NEWLINE]
+                Is superior to strength[NEWLINE]
+                And think on it.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_11">
+            <Text>Faarah Nuur</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_11">
+            <Text>The Limits of Submission</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_11">
+            <Text>If they are still not satisfied,[NEWLINE]
+                At the time of early morning prayers I prepare,[NEWLINE]
+                The dark grey horse with black tendons,[NEWLINE]
+                And with the words 'Praise to the Prophet' I take[NEWLINE]
+                The iron-shafted spear,[NEWLINE]
+                And drive it through their ribs[NEWLINE]
+                So that their lungs spew out,[NEWLINE]
+                Then they are satisfied!</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_12">
+            <Text>Salaan Mohamed Hirsi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_12">
+            <Text>Mine</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_12">
+            <Text>Cold came just to me last night because of anger in my mind;[NEWLINE]
+                I and the line of Reer Gude are the only ones who are bothered.[NEWLINE]
+                By God I'll tie others with the chain that has tied me,[NEWLINE]
+                or by God I'll just leave this land and the name of all the people living here.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_13">
+            <Text>Cali-Dhuux Aadan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_13">
+            <Text>Doollo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_13">
+            <Text>Fate is like the clouds in the sky, and the winds;[NEWLINE]
+                This circle of fate guides today the people from all that they entered into.[NEWLINE]
+                There is no one to do something about all the tribulations that have happened, or the debt due to grievance[NEWLINE]
+                For the outraged rights, the looted livestock and the women who are weeping;[NEWLINE]
+                These women who rub tears from their eyes and whom anger has caught[NEWLINE]
+                If you hadn't been weaklings, what is your right would not have been ambushed.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_14">
+            <Text>Xarbi Ismail</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_14">
+            <Text>News That's Spread All Over</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_14">
+            <Text>The victory that your lineage has made is your share,[NEWLINE]
+                As the camels grazed on the shoots of the sandy heights of Reydabley,[NEWLINE]
+                As beautiful Bidhaan rolled in the dust,[NEWLINE]
+                As fat and udders filled out her skin,[NEWLINE]
+                As half of them gave birth in the Gu' season and led the red-sided two year old camels.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_15">
+            <Text>Faarax Jaamac</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_15">
+            <Text>Have I Seized Some Skinny Sheep and Goats?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_15">
+            <Text>In this world, the man who attacks for Xiito in a raid cannot be punished as if it's unlawful.[NEWLINE]
+                Since Adam and Eve, everyone has had a fever for[NEWLINE]
+                Watering, grazing, camel ghee and the fattened male camel;[NEWLINE]
+                Oh Xiirey, the soul loves the valuable livestock.[NEWLINE]
+                Even if I've been imprisoned, are not camels still a part of being a man?</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_16">
+            <Text>Maxamud Jaamac</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_16">
+            <Text>Dismay</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_16">
+            <Text>No one is there for them from the sky above you or from the land.[NEWLINE]
+                If the soil and the sea blow up against you, you have no health;[NEWLINE]
+                If the elephant becomes angry no one can stop him;[NEWLINE]
+                If a rhinoceros gets angry people run away from her to the thorn trees;[NEWLINE]
+                Whenever a lion cries out in hunger, what he would eat is paralysed.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_17">
+            <Text>Aw Jaamac Gacanlow</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_17">
+            <Text>Small But Determined</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_17">
+            <Text>A deadly snake provokes and kills the elephant;[NEWLINE]
+                A hero ululates at taking the canine teeth of the lion;[NEWLINE]
+                A single match used in one place destroys a whole area;[NEWLINE]
+                A large clan does not gain profit from a small but determined lineage;[NEWLINE]
+                Whenever the guns explode everyone's equal in death.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_18">
+            <Text>Ismaciil Xayd Xirsi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_18">
+            <Text>Has Anyone Told You of That?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_18">
+            <Text>And the next opponent was Reer Magan, when I peeled them for the birds of prey,[NEWLINE]
+                When I cut the girth straps of the strong burden camels,[NEWLINE]
+                And gained sheep and goats as numerous as those grains of sand, has anyone told you of that?</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_19">
+            <Text>Ugaas Nuur Ugaas Rooble</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_19">
+            <Text>Oh God, A Man Who is Bad for Me</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_19">
+            <Text>I put this down, preferred that, I think this is for the best;[NEWLINE]
+                I decorate the discourse with joking discussion.[NEWLINE]
+                On the day he stepped upon the edge of the trap I set for him,[NEWLINE]
+                Like pedalling a sewing machine into motion, I spread the cunning for him;[NEWLINE]
+                Without any warning how I struck him down!</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_20">
+            <Text>Salaan Carrabay</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_20">
+            <Text>Oh Clansmen, Stop the War</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_20">
+            <Text>Your corpses were piled up[NEWLINE]
+                Where the long uddered hyena[NEWLINE]
+                And the birds of prey pulled at the soil;[NEWLINE]
+                And when you left those problems,[NEWLINE]
+                You exhausted the pasture land.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_21">
+            <Text>Qamaan Bulxan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_21">
+            <Text>Hang On</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_21">
+            <Text>God will not give to a man who has sold his brother;[NEWLINE]
+                You are still living here on the land where you killed your cousin.[NEWLINE]
+                A man looks for lost animals with you, and he's more tired than you[NEWLINE]
+                And wouldn't want you to ever find them.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_22">
+            <Text>Nuur Laangadhe</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_22">
+            <Text>Oh Suldaan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_22">
+            <Text>Oh Suldaan, our matter;[NEWLINE]
+                Where things became bad between us,[NEWLINE]
+                We are aware of that:[NEWLINE]
+                That I celebrate for you[NEWLINE]
+                And keep the matter to myself.[NEWLINE]
+                I have decided that[NEWLINE]
+                Now I have forgotten the matter relating to you.[NEWLINE]
+                My sense of kinship is stronger.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_23">
+            <Text>Saahid Qamaan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_23">
+            <Text>Equality</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_23">
+            <Text>I am even more respected, but refuse to put people down.[NEWLINE]
+                To the man who has not put a prayer mat down for me, I will not put out my right hand.[NEWLINE]
+                I will not be concerned with a man who cannot manage without me.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_24">
+            <Text>Saalah Sugulle Mohamed</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_24">
+            <Text>Whisper</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_24">
+            <Text>Longing to recite entered my consciousness today, as a new matter is present.[NEWLINE]
+                Its type reaches beneath the ribs;[NEWLINE]
+                A person who doesn't find its aim will be killed by the fire.[NEWLINE]
+                Disablement follows like a wound that returns.[NEWLINE]
+                There are men who only talk with decoration but with nothing alive in it,[NEWLINE]
+                But in my poem you will understand the viewpoint and its central point.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_25">
+            <Text>Maxamed Bulxan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_25">
+            <Text>Bringing the End of the World</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_25">
+            <Text>The Muses do not drum the dance step at the verandah of Maydh;[NEWLINE]
+                The sandy areas of Ruguuda and Xiis are empty;[NEWLINE]
+                At Laas Qoray the mules don't bring the goods to the boats of the Syrians;[NEWLINE]
+                Of the dates which used to be brought from Basra, there's not even a little left;[NEWLINE]
+                And in Bosaso and Qaw, there is mourning.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_26">
+            <Text>Maxamed Fiin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_26">
+            <Text>A Large Bad Memory</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_26">
+            <Text>The anger and rage they have, you don't understand.[NEWLINE]
+                A lion has got up to hunt, and what he reaches he kills;[NEWLINE]
+                If there are cries from the sides then there is no victory.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_27">
+            <Text>Xasan Daahir Ismaciil</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_27">
+            <Text>Galiilyo (Catastrophe)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_27">
+            <Text>How many good people the desert has taken![NEWLINE]
+                How many have been punished in this prison![NEWLINE]
+                How many noble and innocent women,[NEWLINE]
+                How many youths in their prime[NEWLINE]
+                Have been picked off by vultures![NEWLINE]
+                The children God gave you,[NEWLINE]
+                Were they just meat for animals?</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_28">
+            <Text>Faysal Cumar Mushteeg</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_28">
+            <Text>Don't Strike Against the Soil</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_28">
+            <Text>Don't strike against the soil, don't fly![NEWLINE]
+                Don't hurry in haste: stay, just stay![NEWLINE]
+                It isn't right to despise one's country,[NEWLINE]
+                I don't deserve to be loved and left.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_29">
+            <Text>Maxamuud Maxamed Yaasiin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_29">
+            <Text>Like the Most Cultivated Farm</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_29">
+            <Text>Who else could fortune favour[NEWLINE]
+                and misery cry farewell to[NEWLINE]
+                but that lucky fool who has you[NEWLINE]
+                to share his crust of food with,[NEWLINE]
+                to commune with through night's freedoms.</Text>
+        </Row>
+        
+        <Row Tag="TXT_KEY_THP_GABYAGA_NAME_30">
+            <Text>Asha Lul Mohamud Yusuf</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_GABYAGA_GREAT_WORK_30">
+            <Text>Agoon (Orphan)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GREAT_WORK_QUOTE_GABYAGA_GREAT_WORK_30">
+            <Text>Where are the envoys? Cast into a pit.[NEWLINE]
+                Those who refused orders? Blades stabbed their arteries.[NEWLINE]
+                They antagonise each other, ignore the others,[NEWLINE]
+                these unseeing Somalis, who can't tell good from evil.[NEWLINE]
+                If once they were mighty, today they engage in self-slaughter.</Text>
+        </Row>
+        
+        <!--Mod Support-->
+        <Row Tag="TXT_KEY_GENERIC_THP_SOMALIA_INFLUENTIAL_ON_AI_1">
+            <Text>Our people are now chewing your khat and wearing your macawis. I worry that the rest of the world will also succumb to the influence of your culture.</Text>
+        </Row>
+        
+        <!--Additional Achievements-->
+        <Row Tag="TXT_KEY_MOD_THP_SOMALIA_NAME">
+            <Text>TopHat's Somalia</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_SOMALIA_ID_CFC">
+            <Text>5b8a6e11-2019-0911-bf3e-50aa11a79a54</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_SOMALIA_ID_STEAM">
+			<Text>faed8aea-187f-436d-824c-0f1d3249e475</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_SOMALIA_AUTHORS">
+            <Text>TopHatPaladin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_SOMALIA_VICTORY_HEADER">
+            <Text>Passing the Barre</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_SOMALIA_VICTORY_TEXT">
+            <Text>Win the game on any difficulty setting as Somalia.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_SOMALIA_SPECIAL_HEADER">
+            <Text>Reverse Captain Phillips</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_SOMALIA_SPECIAL_TEXT">
+            <Text>As Somalia, sink an American privateer.</Text>
+        </Row>
+        </Language_en_US>
+    </GameData>

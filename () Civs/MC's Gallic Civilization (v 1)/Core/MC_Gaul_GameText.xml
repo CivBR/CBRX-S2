@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						The Gauls
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_CIV_MC_GAUL_ADJECTIVE">
+			<Text>Gallic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_MC_GAUL_DESC">
+			<Text>Gallic Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_MC_GAUL_SHORT_DESC">
+			<Text>The Gauls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_TEXT_1">
+			<Text>The Gauls were Celtic peoples inhabiting Gaul in the Iron Age and the Roman period (roughly from the 5th century BC to the 3rd century AD). Their Gaulish language forms the main branch of the Continental Celtic languages. The Gauls emerged around the 5th century BC as the bearers of the La Tène culture north of the Alps (spread across the lands between the Seine, Middle Rhine and upper Elbe). By the 4th century BC, they spread over much of what is now France, Switzerland, Southern Germany, Austria and the Czech Republic by virtue of controlling the trade routes along the river systems of the Rhône, Seine, Rhine, and Danube, and they quickly expanded into Northern Italy, the Balkans,Transylvania and Anatolia Gaul was never united under a single ruler or government, but the Gallic tribes were capable of uniting their forces in large-scale military operations. They reached the peak of their power in the early 3rd century BC. The rising Roman Republic after the end of the First Punic War increasingly put pressure on the Gallic sphere of influence; the Battle of Telamon of 225 BC heralded a gradual decline of Gallic power over the 2nd century, until the eventual conquest of Gaul in the Gallic Wars of the 50s BC. After this, Gaul became a province of the Roman Empire, and the Gauls were culturally assimilated into a Gallo-Roman culture, losing their tribal identities by the end of the 1st century AD.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_HEADING_2">
+			<Text>Geography</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_TEXT_2">
+			<Text>Gaul (Latin Gallia, French Gaule) is the name given by the Romans to the territories where the Celtic Gauls (Latin Galli, French Gaulois) lived, including present France, Belgium, Luxemburg and parts of the Netherlands, Switzerland, Germany on the west bank of the Rhine, and the Po Valley, in present Italy. The ancient limits of Gaul were the Rhine River and the Alps on the east, the Mare Nostrum (Mediterranean Sea), the Po Valley and the Pyrenees on the south, and the Atlantic Ocean on the west and North. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_HEADING_3">
+			<Text>Origins and Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_TEXT_3">
+			<Text>Gaulish culture developed out of the Celtic cultures over the first millennia BC. The Urnfield culture (c. 1300 BC – c. 750 BC) represents the Celts as a distinct cultural branch of the Indo-European-speaking people. The spread of iron working led to the Hallstatt culture in the 8th century BC; the Proto-Celtic (Liguro-Venetic) may have been spoken around this time. The Hallstatt culture evolved into the La Tène culture in around the 5th century BC. The Greek and Etruscan civilizations and colonies began to influence the Gauls especially in the Mediterranean area. Gauls under Brennus invaded Rome circa 390 BC.[NEWLINE][NEWLINE]Following the climate deterioration in the late Nordic Bronze Age, Celtic Gaul was invaded in the 5th century BC by tribes later called Gauls originating in the Rhine valley. Gallic invaders settled the Po Valley in the 4th century BC, defeated Roman forces in a battleunder Brennus in 390 BC and raided Italy as far as Sicily. The peak of Gaulish expansion was reached in the 3rd century BC, in the wake of their eastward expansion in 281-279 BC, in which the Gauls led by Cerethrius, Brennus and Bolgios invaded Thrace, Macedonand Illyria, sacked Delphi, and killed the Macedonian king Ptolemy Keraunos. The invading Gauls later settled as far afield as Anatolia, where they created widespread havoc until checked through the use of war elephants by the Seleucid king Antiochus I in 275 BC, after which they served as mercenaries across the whole Hellenistic Eastern Mediterranean, including Ptolemaic Egypt, where they under Ptolemy II Philadelphus (285-246 BC) attempted to seize control of the kingdom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_HEADING_4">
+			<Text>Balkans Wars</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_TEXT_4">
+			<Text>Gallic groups, originating from the various La Tène chiefdoms, began a southeastern movement into the Balkan peninsula from the 4th century BC. Although Celtic settlements were concentrated in the western half of the Carpathian basin, there were notable incursions, and settlements, within the Balkan peninsula itself.[NEWLINE][NEWLINE]From their new bases in northern Illyria and Pannonia, the Gallic invasions climaxed in the early 3rd century BC, with the invasion of Greece. The 279 BC invasion of Greece proper was preceded by a series of other military campaigns waged toward the southern Balkans and against the kingdom of Macedonia, favoured by the state of confusion ensuing from the intricated succession to Alexander. A part of the invasion crossed over to Anatolia and eventually settled in the area that came to be named after them, Galatia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_HEADING_5">
+			<Text>Galatian War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_TEXT_5">
+			<Text>In 278 BC, Gauls settlers in Balkans were invited by Nicomedes I of Bithynia to help him in a dynastic struggle against his brother. They numbered about 10,000 fighting men and about the same number of women and children, divided into three tribes, Trocmi, Tolistobogii and Tectosages. They were eventually defeated by the Seleucid king Antiochus I (275 BC), in a battle where the Seleucid war elephants shocked the Galatians. While the momentum of the invasion was broken, the Galatians were by no means exterminated and continued to demand tribute from the Hellenistic states of Anatolia to avoid war. 4,000 Galatians were hired as mercenaries by the Ptolemaic Egyptian king Ptolemy II Philadelphus in the 270 BC. According to Pausanias, soon after arrival the Celts plotted “to seize Egypt,” and so Ptolemy marooned them on a deserted island in the Nile River.[NEWLINE][NEWLINE]Galatians also participated at the victorious in 217 BC Battle of Raphia under Ptolemy IV Philopator, and continued to serve as mercenaries for the Ptolemaic Dynasty until its demise in 30 BC. They sided with the renegade Seleucid prince Antiochus Hierax, who reigned in Asia Minor. Hierax tried to defeat king Attalus I of Pergamum (241–197 BC), but instead, the Hellenized cities united under Attalus's banner, and his armies inflicted a severe defeat upon the Galatians at the Battle of the Caecus River in 241 BC. After the defeat, the Galatians continued to be a serious threat to the states of Asia Minor. In fact, they continued to be a threat even after their defeat by Gnaeus Manlius Vulso in the Galatian War (189 BC). Galatia declined and fell at times under Pontic ascendancy. They were finally freed by the Mithridatic Wars, during which they supported Rome. In the settlement of 64 BC, Galatia became a client-state of the Roman empire, the old constitution disappeared, and three chiefs (wrongly styled "tetrarchs") were appointed, one for each tribe. But this arrangement soon gave way before the ambition of one of these tetrarchs, Deiotarus, the contemporary of Cicero and Julius Caesar, who made himself master of the other two tetrarchies and was finally recognized by the Romans as 'king' of Galatia. The Galatian language continued to be spoken in central Anatolia until the 6th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_HEADING_6">
+			<Text>Gallic Wars</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_TEXT_6">
+			<Text>During the Second Punic War the famous Carthaginian general Hannibal Barca utilized Gallic mercenaries in his famous invasion of Italy. They played a part in some of his most spectacular victories including the battle of Cannae. The Gauls were prosperous enough by the 2nd century that the powerful Greek colony of Massilia had to appeal to the Roman Republic for defense against them. The Romans intervened in southern Gaul in 125 BC, and conquered the area eventually known as Gallia Narbonensis by 121.[NEWLINE][NEWLINE]In 58 BC Julius Caesar launched the Gallic Wars and conquered the whole of Gaul by 51 BC. At this time Caesar noted that the Gauls (Celtae) were one of the three primary peoples in the area at the time, along with the Aquitanians and the Belgae. Caesar's motivation for the invasion seems to have been his need for gold to pay off his debts and a successful military expedition to boost his political career. The people of Gaul could provide him with both. So much gold was looted from Gaul that after the war the price of gold fell by as much as 20%. After the annexation of Gaul a mixed Gallo-Roman culture began to emerge.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_HEADING_7">
+			<Text>Roman Gaul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5PEDIA_MC_GAUL_TEXT_7">
+			<Text>After more than a century of warfare, the Cisalpine Gauls were subdued by the Romans in the early 2nd century BC. The Transalpine Gauls continued to thrive for another century, and joined the Germanic Cimbri and Teutones in the Cimbrian War, where they defeated and killed a Roman consul at Burdigala in 107 BC, and later became prominent among the rebelling gladiators in the Third Servile War. The Gauls were finally conquered by Julius Caesar in the 50s BC despite a formidable rebellion by the Arvernian chieftain Vercingetorix (for more on Vercingetorix, see his Civilopedia article). During the Roman period the Gauls became assimilated into Gallo-Roman culture and by expanding Germanic tribes.</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_BIBRACTE">	
+			<Text>Bibracte</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_VIENNE">	
+			<Text>Vienne</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_ALESIA">	
+			<Text>Alesia</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_GERGOVIA">	
+			<Text>Gergovia</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_NEMOSSOS">	
+			<Text>Nemossos</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_LUTETIA">	
+			<Text>Lutetia</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_CENABUM">	
+			<Text>Cenabum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_DUROCORTORUM">	
+			<Text>Durocortorum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_LEMONUM">	
+			<Text>Lemonum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_NAMNETUM">	
+			<Text>Namnetum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_CONDATE">	
+			<Text>Condate</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_BURDIGALA">	
+			<Text>Burdigala</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_VESONTIO">	
+			<Text>Vesontio</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_ROTOMAGUS">	
+			<Text>Rotomagus</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_SAMAROBRIVA">	
+			<Text>Samarobriva</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_DIVODURUM">	
+			<Text>Divodurum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_SEGODUNUM">	
+			<Text>Segodunum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_NEMETOCENNA">	
+			<Text>Nemetocenna</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_AUTRICUM">	
+			<Text>Autricum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_SUINDINUM">	
+			<Text>Suindinum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_AVARICON">	
+			<Text>Avaricon</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_DARIORITUM">	
+			<Text>Darioritum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_AGEDINCUM">	
+			<Text>Agedincum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_ARGENTORATE">	
+			<Text>Argentorate</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_NOVIOMAGUS">	
+			<Text>Noviomagus</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_BAGACUM">	
+			<Text>Bagacum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_GESORIACUM">	
+			<Text>Gesoriacum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_GABILLONUM">	
+			<Text>Gabillonum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_TOLOSA">	
+			<Text>Tolosa</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_LUGDUNUM">	
+			<Text>Lugdunum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_UXELLODUNUM">	
+			<Text>Uxellodunum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_DUROTINCON">	
+			<Text>Durotincon</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_BRATUSPANTION">	
+			<Text>Bratuspantion</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_NOVIODUNUM">	
+			<Text>Noviodunum</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_DIVONA">	
+			<Text>Divona</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_MC_GAUL_KARNAG">	
+			<Text>Karnag</Text>
+		</Row>	
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_MC_GAUL_9">
+			<Text>Brennus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_GAUL_8">
+			<Text>Boduognatus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_GAUL_7">
+			<Text>Cerethrius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_GAUL_6">
+			<Text>Vitalstatistix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_GAUL_5">
+			<Text>Taranis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_GAUL_4">
+			<Text>Dumnorix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_GAUL_3">
+			<Text>Rosmerta</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_GAUL_2">
+			<Text>Epona</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_GAUL_1">
+			<Text>Sirona</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_GAUL_0">
+			<Text>Arduinna</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!----------------------------------------------------------------
+						Vercingetorix
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_MC_VERCINGETORIX">
+			<Text>Vercingetorix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_TEXT_1">
+			<Text>Revered in France as its first national hero, Vercingetorix managed to unite several sovereign Celtic tribes to do battle against the aggressive Romans. Vercingetorix was an Arverni, one of the many Celtic tribes who ruled over what is France today, northern Germany, the Benelux countries, and the British Isles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_HEADING_2">
+			<Text>Developed but Disunited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_TEXT_2">
+			<Text>The Celtic world into which Vercingetorix was born in about 75 BC had evolved into a complex society which made military success and economic stability dependent on peasant agricultural labour, and vice versa. This system was the precursor of feudalism, a noble-peasant economic dependency that would dominate Europe for much of the Middle Ages. Vercingetorix hailed from a noble ruling family likely situated in what is now the town of Auvergny-a name reflecting its Celtic Arverni origins-in south-central Gaul, as France was then called. He inherited the chieftainship of the Arverni from his father, Celtillus, who had attempted to ascend to a kingship over several other Celtic tribes during a time of political uncertainty in central France. As a result, Celtillus was likely slain by a conspiracy of nobles and chiefs in opposition to him. Ironically, his son would advance to the position of leader of several Celtic tribes, but only when the necessity of an alliance became apparent, when a determined Roman army threatened.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_HEADING_3">
+			<Text>Trained to Lead</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_TEXT_3">
+			<Text>As befitting the son of a Celtic noble and member of the warrior class, Vercingetorix was likely provided with military training from an early age. He was probably schooled in Druid beliefs and rites as well. During his lifetime, the Druids had become a powerful force in Celtic civilization, and were an adamantly conservative element very much opposed to Roman encroachment. Other Celtic tribes, such as the Boii, were more receptive to the economic promise and infrastructure development that Roman conquest offered.[NEWLINE][NEWLINE]In southern Italy, the Roman republic was evolving, through a series of wars, conquests, and personal betrayals, into an empire. Julius Caesar was a popular democratic leader, one of the men of the first Triumvirate who ruled around 60 BC, but departed from the comforts of the urbanized and highly developed capital to conquer Gaul. This decade-long military campaign is chronicled in his De Bello Gallico ("The Gallic Wars"), from which the story survives as an account of Vercingetorix and his times.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_HEADING_4">
+			<Text>Roman Advances Increased</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_TEXT_4">
+			<Text>Varying tribes of Celts had been long threatened by the menace of Germanic peoples like the Suevi. The Germans periodically emerged from what was a vast and, to the Romans, mysterious forest that spread across Central Europe. At first Caesar helped the Celts of central Gaul repel German encroachments, and also acted as arbitrator between Celtic tribes and their enemy, but began attacking central Gaul's tribes such as the Arverni. Because of the harsh treatment Romans sometimes unleashed on those they conquered, Celtic uprisings in northern Gaul began in 54 BC and continued through the following year. During the winter of 53-52 BC, Caesar returned to Rome, but left a garrison of soldiers stationed in central Gaul.[NEWLINE][NEWLINE]An uprising of Celts, led by the Carnutes, slaughtered several Roman officials and traders at Cenabum (now Orleans, France) that winter. According to Caesar's chronicle, the news of the victory was shouted from Celtic settlement to settlement, and reached the borders of Vercingetorix's Arverni lands by the morning light. In his early twenties at that time, Vercingetorix wished to command a legion of Arverni and join with the Celts of central Gaul; his uncle, Gobannito, and several other elders thought this unwise, and so Vercingetorix was cast out of his capital, Gergovia, near what is today Clermont, France.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_HEADING_5">
+			<Text>A New Military Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_TEXT_5">
+			<Text>Caesar wrote respectfully of his Celtic foe in The Gallic Wars, noting that the exiled but determined Vercingetorix then gathered a militia of beggars and outcasts, and began convincing Arverni nobles to listen to his plan. Eventually he staged a coup in Gergovia and cast out those leaders who had rejected an offensive attack on the well-equipped, well-organized Romans.[NEWLINE][NEWLINE]Vercingetorix then sent out emissaries to secure an allegiance, via the enforced handover of hostages, with several other Celtic tribes who ruled over sections of Gaul. These included the Senones, Parisii, Pictones, Cadurci, Turoni, Aulerci, Lemovice, and Andi, among others. He was named commander-in-chief. That winter, with Caesar still in Rome, Vercingetorix and Celtic armies began battling Roman garrisons in northern France. Caesar returned immediately upon learning of the attacks, though crossing over the Alps with an army, horses, and supplies was no easy task during the winter months. Roman legions began attacking Celtic settlements in vulnerable southern Gaul, many of whose men and arms had been sent north with Vercingetorix. Meanwhile, Vercingetorix had launched an assault on Gorgorbina, a town of Celtic Boii already loyal to Rome.[NEWLINE][NEWLINE]Vercingetorix and his army were defeated at Vallaunodunum (modern Montargis), and then Caesar re-took Cenabum from the Celts, and burnt it to the ground. Caesar was in the process of taking the town of Noviodunum, whose Celtic Bituriges were handing over tribute and men, when the army of Vercingetorix was spotted in the distance. The Bituriges quickly shut their gates on the Romans, and a battle with Roman cavalry followed. Noviodunum then fell to the Romans, who planned to take the city of Avaricum (Bourges) next.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_HEADING_6">
+			<Text>United with Aedui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_TEXT_6">
+			<Text>As a result of these setbacks, Vercingetorix called a summit at Bibracte, the stronghold of the Aedui, another great Celtic tribe who ruled over the lands to the north and east of the Arverni. The Aedui, according to the classical historian Plutarch in Lives of the Noble Grecians and Romans, "had styled themselves brethren to the Romans, and had been much honoured by them." This last great alliance in effect made Vercingetorix the first-and last-leader of a unified Celtic nation.[NEWLINE][NEWLINE]Vercingetorix and his followers decided to burn their own settlements along the way, making it impossible for the Romans to obtain food in hostile territory. Twenty cities across the land of the Bituriges were set afire, and some in other areas as well. They decided not to burn Avaricum and defend it instead. But the Romans laid siege to Avaricum for several months, and eventually defeated the Celts in a bloody battle.[NEWLINE][NEWLINE]Next on the Roman agenda was Gergovia. Vercingetorix recovered sufficiently from the setback of Avaricum to defend his hometown with renewed troops and determination. When the situation degenerated into a stalemate, Caesar's armies began marching toward Lutetia (Paris), burning everything Celtic they encountered along the way. Vercingetorix was forced to move against this, suffered an attack by the Roman cavalry, and had to retreat to Alesia. The walled center of the Celtic Mandubi tribe, Alesia was set on a hill and was theoretically easy to defend. The Romans built a massive fortification around it, however, with their usual marvels of defensive engineering constructed-towers, battering rams, screens on wheels-on the side facing the hill. They also constructed walls at the rear to protect it from Celts arriving as reinforcements, for Vercingetorix had sent out emissaries in the middle of the night back to their own home states for additional men, arms, and horses. Caesar wrote that a quarter-million Celts arrived to do battle at Alesia. Plutarch places this number at 300,000, and notes that inside Alesia's walls was already a Celtic force of about 170,000.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_HEADING_7">
+			<Text>Vercingetorix Surrenders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_TEXT_7">
+			<Text>But the Romans, who also had dug deep trenches, simply waited for Vercingetorix and the Celtic army to run out of provisions. Vercingetorix sent out sorties to battle the Roman soldiers, but poor communication and coordination of efforts plagued the poorly-organized Celts, and they suffered numerous reverses. Vercingetorix's cousin, Vercassivellaunus, battled from the rear in one coordinated attack, but failed to break the Roman line. The Celtic troops facing the Romans from outside saw the futility of the effort, and abandoned Alesia.[NEWLINE][NEWLINE]When Alesia surrendered, Caesar demanded not just all arms of the Celts but their leader as well. Vercingetorix told his colleagues that they could either deliver him dead or alive to the Romans, according to their wishes. Alive, it was decreed. According to Plutarch, Vercingetorix prepared by "putting his best armour on, and adorning his horse, [then] rode out of the gates, and made a turn about Caesar as he was sitting, then quitting his horse, threw off his armour, and remained quietly sitting at Caesar's feet until he was led away to be reserved for the triumph." It was his last act as a free man as he was then taken into custody and returned with Caesar to Rome, where a 20-day public thanksgiving was called for the not-insignificant conquest of Gaul. Vercingetorix was allegedly dragged behind Caesar's chariot in the official victory parade. He died in Rome about 46 BC.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_LIVED">
+			<Text>75 - 46 BCE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_NAME">
+			<Text>Vercingetorix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_SUBTITLE">
+			<Text>Leader of the Gauls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MC_VERCINGETORIX_TITLES_1">
+			<Text>Verrix of the Gauls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_MC_VERCINGETORIX_TEXT">
+			<Text>Hail Vercingetorix, chief of the Arverni, champion of Gaul! May Belenos' blessing be with you! You lead the Gauls, a proud and warlike nation composed of countless Celtic tribes inhabiting what we today call France. Ferocious in battle, Gallic warriors struck fear in the hearts of their enemies across Europe. Masters of metallurgy and lovers of gold, the Gauls attained an unsurpassed level of sophistication and wealth. Yet the riches of Gaul would make it a primary target for the ever-expanding Rome. Embroiled in internal struggle, weak tribes were not able to withstand Caesar's undefeated legions. It was then, in 52 BC, when you rose to prominence. Through diplomacy and hastily crafted alliances, you brought numerous tribes and cities together and led them in an open rebellion against the invaders. Despite winning a grand victory at Gergovia, your immense forces failed to break the siege at Alesia a few months later. The rebellion was crushed and Gaul was conquered - but its spirit would never fall.[NEWLINE][NEWLINE]O' mighty Chief, the squabbling tribes of Gaul need a strong leader to unite them and lead them under a single banner towards a greater cause! Will you take up the challenge and assume command of the tribes once more? Will you lead the Gauls to greatness, in peace and in war? Will you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_FIRSTGREETING_1">
+			<Text>You stand before the great warrior king of Gaul! We uphold honor and valor to the highest level.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_FIRSTGREETING_2">
+			<Text>Welcome to Gaul! Now come, I have some quality armor to show you...</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_DEFEATED_1">
+			<Text>Today might be your triumph, but fate will someday prove otherwise.</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_REPEAT_TOO_MUCH_1">
+			<Text>...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>This is an unfair deal.</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_HOSTILE_HELLO_1">
+			<Text>Cowards are not appreciated around these parts. State your business</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_POLITE_HELLO_1">
+			<Text>Welcome my friend! What can I assist you with?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>I feel sorry for you. You have such a barbaric and poisonous mind.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_HUMAN_AT_WAR_1">
+			<Text>I wish you the best of luck in your warring</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I have noticed your army near my lands. Move them away from here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_HOSTILE_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>Cease your land acquiring efforts. It does not sit well with us and we will act if it continues.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>Your purchase of our lands is upsetting my people. Please stop this if you would like our relations to remain cordial.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>Your aggressive expansion must be stopped. I take these actions as a threat to my kingdom!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>While I have this opportunity, I should mention that your expansion worries my brethren. What are you here to discuss?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>Our people are extremely glad that we have your empire as an ally. Your mighty armies put us at ease.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>You're empire is famous for its strong economy. I hope you are spending your wealth wisely.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>You call your tiny kingdom an empire?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>If you do not strengthen your military, it will cease to exist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>We don't negotiate with barbaric savages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_TOO_SOON_FOR_DOF_1">
+			<Text>I'm sorry. We do not think this should be announced this soon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_DENOUNCE_1">
+			<Text>You are ruthless and full of treachery. I must warn everyone of this.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>You might be deluded to think of us like that, but the others are not.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_HUMAN_DOFED_FRIEND_1">
+			<Text>It is wonderful that you are friends with{1_CivName}! I am very glad to hear it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_HUMAN_DOFED_ENEMY_1">
+			<Text>{1_CivName} is not to be trusted. I suggest you do not get too close to them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>I strongly urge you to reconsider your position with {1_CivName}. They have been nothing but good friends to us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>I agree that {1_CivName} is not to be trusted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>I noticed that you have declared your friendship with {1_CivName}. I and my brethren has decided to follow in your footsteps.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>Oh great, now the vermin are breeding. Now I have to deal with both you and {1_CivName}?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>I share your convictions that {1_CivName} only causes problems for our cause. Perhaps the combination of our denouncements will have them rethink their position in this world.</Text>
+		</Row>
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_DEC_FRIENDSHIP_1">
+			<Text>To nurture a stronger bond between our people, would you be willing to declare to the world our friendship?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_DEC_FRIENDSHIP_2">
+			<Text>I want nothing more for out great empires to be at peace and our people to prosper mutually. A declaration of friendship will go a long way toward this goal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>My brethren have raised concerns about your army being to close to our lands. Please move your army away from our borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_PLOT_BUYING_WARNING_1">
+			<Text>Your expansion threatens the integrity of my empire! Please refrain from further expansion into lands that we consider to be ours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>Your aggressive expansion is a danger to my peaceful people. The other chieftains will not let this slide by! Refrain from further expansion into our lands!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Your aggressive expansion is a danger to my peaceful people. The other chieftains will not let this slide by! Refrain from further expansion into our lands!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_EXPANSION_WARNING">
+			<Text>The other chiefs have pressured me to warn you the about dangers you may face if you continue on expanding into our lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_RETURNED_CIVILIAN_1">
+			<Text>On behalf of rescuing our people, Gaul and I shall forever be grateful for your help.</Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_DONT_SETTLE_NO_1">
+			<Text>Our people need those lands to survive. I must refuse to agree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_DONT_SETTLE_YES_1">
+			<Text>As you require. I will halt any plans for settling close to you.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_LUXURY_TRADE_1">
+			<Text>I sincerely hope that through trade our two nations will prosper.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_OPEN_BORDERS_EXCHANGE_1">
+			<Text>I believe our people should walk freely between our lands. I hope you think the same for the sake of our mutual benefit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_RESPONSE_REQUEST_1">
+			<Text>I ask of you this, for I know that I can trust you to deliver.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_ATTACKED_HOSTILE_1">
+			<Text>Our people will defend our lands and way of life to the last!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_ATTACKED_EXCITED_1">
+			<Text>Come! We have faced monsters like you before. How will you be any different?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_ATTACKED_SAD_1">
+			<Text>I regret that it as come to this. Our people will defend our lands and way of life to the last!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_ATTACKED_BETRAYED_1">
+			<Text>We will fight to the last man!</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_TOO_SOON_NO_PEACE_1">
+			<Text>This insult will never be forgotten. Your lands will lay in ash and dust.</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_BAD_1">
+			<Text>This is quite disappointing to hear.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VERCINGETORIX_GOOD_1">
+			<Text>On behalf of Gaul, I thank you.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Master Metalworkers
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_MC_GAUL_SHORT">
+			<Text>Master Metalworkers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_MC_GAUL">
+			<Text>May discover metal-based Luxury Resources when a Mine is constructed. [ICON_RES_SILVER] Silver, [ICON_RES_GOLD] Gold, [ICON_RES_COPPER] Copper, [ICON_RES_IRON] Iron and [ICON_RES_ALUMINUM] Aluminum provide +1 [ICON_CULTURE] Culture when improved by a Mine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_MC_GAUL_NOTIFICATION">
+			<Text>Your workers have discovered a source of {1_Res} while building a mine!</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Oathsworn
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_MC_GAUL_OATHSWORN">
+			<Text>Oathsworn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MC_GAUL_OATHSWORN_TEXT">
+			<Text>While the Gauls often lacked the formal organisations and tactics of their more 'civilised' opponents, they did have extremely able metalworkers. The longsword was a weapon of high worth and status within the Gallic community. A warrior had to prove himself in battle many times before he was permitted to wield one. In battle, they were not outmatched on an individual level by Romans or Greeks. Gallic warriors would send a chorus of chants, taunts and insults aimed towards foes, and blow their unearthly-sounding 'carnyx' battle horns. The whole display was intended to frighten foes, and put the warriors into the right frame of mind for battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MC_GAUL_OATHSWORN">
+			<Text>Stronger than the Swordsman which it replaces, the Oathsworn will provide all surrounding friendly units a temporary combat boost (which increases with the level of the Oathsworn) when it is killed in combat. Only the Gauls may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_GAUL_OATHSWORN_STRATEGY">
+			<Text>The Oathsworn is the Gallic Unique Unit, replacing the Swordsman. The Oathsworn is slightly stronger than a regular Swordsman, and when killed in combat grants all surrounding friendly units the [COLOR_POSITIVE_TEXT]Battle Fury[ENDCOLOR] Promotion for a set number of turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_GAUL_OATHSWORN">
+			<Text>Sound the Carnyx</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_GAUL_OATHSWORN_HELP">
+			<Text>Grants all surrounding friendly units the [COLOR_POSITIVE_TEXT]Battle Fury[ENDCOLOR] Promotion if this unit dies in combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_BATTLE_FURY">
+			<Text>Battle Fury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_BATTLE_FURY_HELP_1">
+			<Text>+10% [ICON_STRENGTH] Combat Strength. This Promotion is temporary and will be lost in 10 turns (on standard speed).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_BATTLE_FURY_HELP_2">
+			<Text>+20% [ICON_STRENGTH] Combat Strength. This Promotion is temporary and will be lost in 10 turns (on standard speed).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_BATTLE_FURY_HELP_3">
+			<Text>+30% [ICON_STRENGTH] Combat Strength. This Promotion is temporary and will be lost in 10 turns (on standard speed).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_BATTLE_FURY_HELP_4">
+			<Text>+40% [ICON_STRENGTH] Combat Strength. This Promotion is temporary and will be lost in 10 turns (on standard speed).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_BATTLE_FURY_HELP_5">
+			<Text>+50% [ICON_STRENGTH] Combat Strength. This Promotion is temporary and will be lost in 10 turns (on standard speed).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_GAUL_OATHSWORN_NOTIFICATION">
+			<Text>A {1_Adj} Oathsworn has been killed! All adjacent {1_Adj} units seek vengeance! They receive {2_PromoDesc}</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Metalsmith
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_MC_GAUL_METALSMITH">
+			<Text>Metalsmith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MC_GAUL_METALSMITH_TEXT">
+			<Text>A Metalsmith's workshop is a central building in every Celtic village, second only to the temple and the chief's house. All of the settlement's weapons and tools are manufactured here by the best blacksmiths available - and there were no better metalworkers in ancient times than the Celts. Apart from military and agricultural production, Gallic metalsmiths often devoted themselves to jewel-crafting and production of luxury items, such as parade helmets, golden goblets, bracelets and torcs. Gauls were particularly renowned for their astonishing wealth and level of sophistication. They were proficient in minting valuable gold coins and maintained numerous gold mines - even as much as 200 in the Pyrenees alone. Even the mighty Romans learned much about casting and working metals during countless wars against Celtic tribes in Northern Italy and in Gaul. In the end, the conquering Latins adopted Gallic forms of helmets for the legionaries, and modified the Gallic and Celto-Iberian shortswords to create the standardised soldier's gladius.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_GAUL_METALSMITH_HELP"> 
+			<Text>Each source of [ICON_RES_SILVER] Silver and [ICON_RES_GOLD] Gold worked by this City produces +2 [ICON_GOLD] Gold. +2% [ICON_GOLD] Gold for every Mine worked by this City.[NEWLINE][NEWLINE]City must have at least one source of [ICON_RES_SILVER] Silver, [ICON_RES_GOLD] Gold, [ICON_RES_COPPER] Copper, [ICON_RES_IRON] Iron or [ICON_RES_ALUMINUM] Aluminum mined nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_GAUL_METALSMITH_STRATEGY">
+			<Text>The Metalsmith is the Gallic unique building. Unlike the Mint which it replaces, it can also be constructed in cities with local sources of [ICON_RES_COPPER] Copper, [ICON_RES_IRON] Iron or [ICON_RES_ALUMINUM] Aluminum; although it still only provides +2 [ICON_GOLD] Gold for sources of [ICON_RES_SILVER] Silver and [ICON_RES_GOLD] Gold. In addition, the City will receive +2% [ICON_GOLD] Gold for every Mine worked by the City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_GAUL_GOLD">
+			<Text>MC's Gaul: Metalsmith Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_GAUL_GOLD_HELP">
+			<Text>+2% [ICON_GOLD] Gold</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

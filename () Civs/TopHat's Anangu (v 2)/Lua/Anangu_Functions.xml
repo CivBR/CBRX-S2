@@ -1,0 +1,49 @@
+<Context>
+    <Box ID="MainUIBG" Style="BGBlock_ClearTopBar" />
+    
+    <Instance Name="DreamButton">
+        <GridButton ID="Button" Size="140,36" Style="BaseButton">
+            <Label ID="Label" Anchor="C,C" Offset="0,-2" Font="TwCenMT24" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+            <!--<ShowOnMouseOver>
+                <Image Anchor="L,T" Size="163,29" Offset="-130,0"
+                    Texture="Grid9BlackTint8.dds">
+                    <Box ID="MouseOverBox" Anchor="L,T" Size="150,21" Offset="13,4" Color="Black,255">
+                        <Label ID="HelpTabOpen" Anchor="L,C" Offset="10,-1" ColorSet="Beige_Black_Alpha" Font="TwCenMT14" />
+                    </Box>
+                </Image>
+            </ShowOnMouseOver>-->
+        </GridButton>
+    </Instance>
+    
+    <!--The offset here is an estimated value that may need adjusting-->
+    <Instance Name="DreamHelper">
+        <Grid ID="HelpGrid" Size="300,50" Style="Grid9Blank">
+            <Label ID="HelpLabel" Anchor="C,B" Offset="50,-325" Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" WrapWidth="300" />
+        </Grid>
+    </Instance>
+    
+    <!--GRID-->
+    <Grid ID="MainUI" Size="400,450" Anchor="C,C" Style="Grid9DetailFive140" ConsumeMouse="1">
+        <Image Anchor="C,T" AnchorSide="I,O" Offset="0,-27" Size="256,64" Texture="DecTop256x64.dds">
+            <Image Anchor="C,C" Offset="0,-6" Size="80,80" Texture="NotificationFrameBase.dds">
+                <Image ID="DialogTopIcon" Anchor="C,C" Offset="0,0" Size="80,80" Texture="NotificationGeneric.dds" />
+            </Image>
+        </Image>
+        
+        <Image Anchor="L,C" AnchorSide="O,I" Offset="-17,0" Size="32,64" Texture="Dec32x64Left.dds" />
+        <Image Anchor="R,C" AnchorSide="O,I" Offset="-17,0" Size="32,64" Texture="Dec32x64Right.dds" />
+        
+        <Label ID="Message" Anchor="C,T" Offset="0,75" Font="TwCenMT24" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_THP_ANANGU_DREAMTIME_MESSAGE"/>
+        
+        <!--SCROLL PANEL-->
+        <ScrollPanel ID="AnanguScrollPanel" Anchor="C,C" Size="200,200" Vertical="1" AutoScrollBar="1">
+            <!--STACK OF BUTTONS-->
+            <Stack ID="AnanguStack" Anchor="C,T" StackGrowth="Bottom" Padding="10"/>
+            
+            <!--SCROLL BAR & ARROWS-->
+            <ScrollBar  Offset="0,18" Anchor="R,T" AnchorSide="O,I" Style="VertSlider" Length="164" />
+            <UpButton   Offset="0,0"  Anchor="R,T" AnchorSide="O,I" Style="ScrollBarUp" />
+            <DownButton Offset="0,1"  Anchor="R,B" AnchorSide="O,I" Style="ScrollBarDown" />
+        </ScrollPanel>
+    </Grid>
+</Context>

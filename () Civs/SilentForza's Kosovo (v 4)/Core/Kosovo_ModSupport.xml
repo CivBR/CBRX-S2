@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/5/2018 6:12:55 PM -->
+<GameData>
+	<Language_en_US>
+  <!--Decisions-->
+		<Row Tag="TXT_KEY_SF_KOSOVO_DECISIONS_WINE_INDUSTRY">
+			<Text>Promote the Wine Industry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_KOSOVO_DECISIONS_WINE_INDUSTRY_DESC">
+			<Text>All around the world, people of high standings want the best wines in the world. 
+				Right now, Kosovo is yet to be on the map for such productions, but we could put efforts to put the nation on the map of the world's finest winemaking...
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE] Must have at least one [ICON_RES_WINE] Resource.
+				[NEWLINE] Must be in the Industrial or Modern era.
+				[NEWLINE] Must be Kosovo.
+				[NEWLINE][ICON_UNCHECKBOX]May only be enacted once per era.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET] {1_Num} [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]1 [ICON_RES_MAGISTRATES] Magistrate.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]The amount of [ICON_RES_WINE] wine you have is doubled. Gain a small amount of [ICON_TOURISM] tourism in every city for each worked source of wine. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_KOSOVO_DECISIONS_WINE_INDUSTRY_ENACTED_DESC">
+			<Text>Kosovo has used their optimal weather to multiply their wineries' yields and has become a major player in the wine industry!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_KOSOVO_DECISIONS_THANKS_YOU">
+			<Text>Establish an Online Presence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_KOSOVO_DECISIONS_THANKS_YOU_DESC">
+			<Text>President, in this world, some people claim that Kosovo is a puppet of their empire and that we have no autonomy. I propose that we use these new technologies we have to show that Kosovo is recognized as an independent nation.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE] Must have at least three DoF Partners.
+				[NEWLINE] Must have researched Computers.
+				[NEWLINE] Must be Kosovo.
+				[NEWLINE][ICON_UNCHECKBOX]May only be enacted once per era.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET] {1_Num} [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]1 [ICON_RES_MAGISTRATES] Magistrate.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Gain extra Delegates in the World Congress per DOF partner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_KOSOVO_DECISIONS_THANKS_YOU_ENACTED_DESC">
+			<Text>You have harnessed the power of computers to establish an online presence, opening kosovothanksyou.com!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_SF_KOSOVO_THANKS_YOU">
+			<Text>Kosovo is grateful for its recognition!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SF_KOSOVO_DELEGATES">
+			<Text>Delegate Dummy (Kosovo)</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

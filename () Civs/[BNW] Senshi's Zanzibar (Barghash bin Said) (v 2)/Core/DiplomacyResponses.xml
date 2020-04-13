@@ -1,0 +1,25 @@
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_SENSHI_BARGHASH">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SENSHI_BARGHASH_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SENSHI_BARGHASH">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SENSHI_BARGHASH_DEFEATED%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<!--General phrases -->
+		<!--Greeting (first time meeting) -->
+		<Row Tag="TXT_KEY_LEADER_SENSHI_BARGHASH_FIRSTGREETING_1">
+			<Text>Welcome, my friend! This is the great Sultanate of Zanzibar, and I am its great Sultan. I very much hope you're here to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_BARGHASH_DEFEATED_1">
+			<Text>What did you want? Gold? Spices? There were far, far easier ways to get your hands on them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SENSHI_ZANZIBAR_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now eating your cloves and taking your slaves. I really do worry the rest of the world will succumb to the influence of your culture.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

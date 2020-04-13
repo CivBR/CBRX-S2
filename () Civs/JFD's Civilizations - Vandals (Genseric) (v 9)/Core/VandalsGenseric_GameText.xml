@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/20/2013 3:43:32 AM -->
+<GameData>
+	<Language_en_US>
+		<!--MOD-->
+		<Row Tag="TXT_KEY_MOD_JFD_VANDALS_GENSERIC_DESCRIPTION">
+			<Text>VANDALS (GENSERIC)[NEWLINE][NEWLINE]UNIQUE TRAIT: GREAT MIGRATION[NEWLINE][ICON_BULLET]Units start with +1 [ICON_MOVES] Movement and ignore borders in Coast or Coastal Land. Cities founded on foreign Continents begin with extra [ICON_CITIZEN] Population and Tiles.[NEWLINE][NEWLINE]UNIQUE UNIT: ALANI HORSEMAN (HORSEMAN)[NEWLINE][ICON_BULLET]The Alani Horseman is the Vandal unique replacement for the Horseman. Unlike the Horseman, this unit is available at Animal Husbandry and has no combat penalty when attacking cities. In addition, this unit may be trained as a Settler, meaning it can be used to found cities.[NEWLINE][NEWLINE]UNIQUE UNIT: TRIHEMIOLIA (TRIREME)[NEWLINE][ICON_BULLET]The Trihemiolia is a unique version of the Trireme for the Vandals. It begins with the Coastal Raider promotion, increasing its [ICON_STRENGTH] Combat Strength when attacking cities and allowing it to steal [ICON_GOLD] Gold equal to 33% of the damage inflicted. In addition, a Trihemiolia stationed in a conquered (non-Capital) city doubles the speed at which it normally takes the city to be [ICON_RAZING] Razed. With the opportunistic Trihemiolia under their control, the Vandals can quickly become the terror of the seas.</Text>
+		</Row>
+		<!--VANDALS-->
+		<Row Tag="TXT_KEY_CIV_JFD_VANDALS_GENSERIC_ADJECTIVE">
+			<Text>Vandilii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_VANDALS_GENSERIC_DESC">
+			<Text>Vandal Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_VANDALS_GENSERIC_SHORT_DESC">
+			<Text>The Vandals</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Replace Tag="TXT_KEY_CIV_TAL_JFD_VANDALS_DESC">
+			<Text>The Vandals</Text>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Row Tag="TXT_KEY_CIV5_JFD_VANDALS_GENSERIC_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_VANDALS_GENSERIC_TEXT_1">
+			<Text>The Vandals were an East Germanic tribe, their original homeland in Scandinavia. The Vandals crossed the Baltic into Poland at some point in the 2nd Century BC. By 406 AD, the Vandals had reached the Rhine. Attempting to cross it, they met fierce resistance from the Franks, who had settled the Romanized regions of northern Gaul. The Vandals decisively defeated the Frankish army, and then proceeded to plunder their way southward. After sacking Frankish and Roman cities, they reached and crossed the Pyrenees in 409 AD and marched into Iberia.[NEWLINE][NEWLINE]Under pressure from the Visigoths there, Genseric led the Vandals across the straits into North Africa in 429. There Genseric established a Vandal kingdom in 435 when a treaty with Rome gave them control of the province of Numidia. Genseric broke the treaty in 439 and seized Carthage, along with its extensive shipyards and fleet. Over the next decade, along with unrelenting piracy and raids against the Romans and Byzantines, the Vandals overran Sardinia, Sicily, Corsica and the Balearic Islands.[NEWLINE][NEWLINE]With the death of Attila, the Roman emperor felt free to end the Vandal incursions and sought to return the lost lands to Rome through his daughter's marriage to Genseric's son. However, through a convoluted series of events and distrust, the effort ended in 455 AD with the landing of a Vandal army in Italy and its capture of Rome.[NEWLINE][NEWLINE]The sack of Rome proved the highpoint of Vandal power. The death of Genseric in 477, religious tensions, revolts in former Roman provinces, and lack of trade brought a slow decline. In a final costly war, the Byzantine Belisarius crushed the Vandal armies, killed the Vandal general Tzazo and captured most of the Vandal cities. In 534 AD Gelimer, the last Vandal king, surrendered Carthage to the Roman conquerors, ending the Vandal reign forever.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_VANDALS_GENSERIC_HEADING_2">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_VANDALS_GENSERIC_TEXT_2">
+			<Text>The modern term vandalism stems from the Vandals' reputation as the barbarian people who sacked and looted Rome in AD 455. The Vandals were probably not any more destructive than other invaders of ancient times, but writers who idealized Rome often blamed them for its destruction. For example, English Enlightenment poet John Dryden wrote, Till Goths, and Vandals, a rude Northern race, / Did all the matchless Monuments deface. The term Vandalisme was coined in 1794 by Henri Grégoire, bishop of Blois, to describe the destruction of artwork following the French Revolution. The term was quickly adopted across Europe. This new use of the term was important in colouring the perception of the Vandals from later Late Antiquity, popularising the pre-existing idea that they were a barbaric group with a taste for destruction. Vandals and other "barbarian" groups had long been blamed for the fall of the Roman Empire by writers and historians.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_01">
+			<Text>Hippo Regius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_02">
+			<Text>Leptus Magna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_03">
+			<Text>Cartenna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_04">
+			<Text>Bulla Regia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_05">
+			<Text>Lilybaeum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_06">
+			<Text>Catane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_07">
+			<Text>Cirta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_08">
+			<Text>Caralis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_09">
+			<Text>Aleria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_10">
+			<Text>Nantes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_11">
+			<Text>Strasbourg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_12">
+			<Text>Panormus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_13">
+			<Text>Tacape</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_14">
+			<Text>Salade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_15">
+			<Text>Caput Vada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_16">
+			<Text>Tricameron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_17">
+			<Text>Hadrumetum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_18">
+			<Text>Tripolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_19">
+			<Text>Thagaste</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_20">
+			<Text>Zama Regia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_21">
+			<Text>Caesarea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_22">
+			<Text>Thapsus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_23">
+			<Text>Thenae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_24">
+			<Text>Sieca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_25">
+			<Text>Zama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_26">
+			<Text>Achulla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_27">
+			<Text>Tipasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_28">
+			<Text>Vaga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_29">
+			<Text>Cartenna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_30">
+			<Text>Carthago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_31">
+			<Text>Kerkouane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_VANDALS_GENSERIC_32">
+			<Text>Utica</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_VANDALS_GENSERIC_0">
+			<Text>Florentina</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_VANDALS_GENSERIC_1">
+			<Text>Brunhilda</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_VANDALS_GENSERIC_2">
+			<Text>Godigisel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_VANDALS_GENSERIC_3">
+			<Text>Stilicho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_VANDALS_GENSERIC_4">
+			<Text>Wisimar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_VANDALS_GENSERIC_5">
+			<Text>Gibamund</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_VANDALS_GENSERIC_6">
+			<Text>Huneric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_VANDALS_GENSERIC_7">
+			<Text>Gento</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_VANDALS_GENSERIC_8">
+			<Text>Thrasamund</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_VANDALS_GENSERIC_9">
+			<Text>Hilderic</Text>
+		</Row>
+		<!--GENSERIC-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VANDALS_GENSERIC">
+			<Text>Genseric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VANDALS_GENSERIC_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VANDALS_GENSERIC_TEXT_1">
+			<Text>Geiseric (also Genseric or Gaiseric) became king over the Vandals, Alans and a polyglot group of barbarians in Spain in 428. He was the illegitimate son of King Godagisel, born of a slave woman in 389. Of short stature, Geiseric walked with a limp as a result of a fall from a horse. The circumstances of his accession to the kingship are unknown, as is the cause of death of Geiseric's half–brother Guntharic, who preceded him as king.[NEWLINE][NEWLINE]In May 429 Geiseric led the most bold and successful expedition of any barbarian leader of his time. Having acquired a fleet, he effected the large–scale migration of 80,000 men, women and children across the strait of Gibraltar. With a fighting force estimated at a maximum of only 16,000 men, he proceeded to break the Roman Empire's hold over all of North Africa and install himself as king in Carthage within ten years. Styling himself rex Vandalorum et Alanorum (the King of the Vandals and Alans), he instituted a new calendar that began with the seizure of Carthage and minted coins in honor of his reign.[NEWLINE][NEWLINE]In politics and war, Geiseric was thoroughly Machiavellian. He avoided major conflicts with Roman forces but exploited Roman weakness wherever it was evident. On Oct. 19, 439, Geiseric entered Carthage, left undefended by virtue of a 435 treaty with the Western emperor Valentinian III. Valentinian recognized the fait accompli in a second treaty signed in 442. That same year Geiseric bloodily suppressed a revolt of his soldiers and nobles. From Carthage Geiseric ruled a large part of North Africa and many Mediterranean islands. He enjoyed tranquil relations with the indigenous African tribes, even enlisting their aid in military expeditions. His fleets engaged in piracy and raids along the coastlands of the Roman Empire; Italy and the Balkan peninsula were particularly afflicted. In June 455 Geiseric seized the opportunity afforded by the murder of Valentinian III to pillage Rome. He carried off the treasures of Rome (including the vessels that had been captured from the Temple in Jerusalem in a.d. 70) and many Romans, among them Valentinian's widow and daughter Eudoxia, whom he married to his son Huniric. In 468 Geiseric destroyed a large fleet sent by Emperor Leo I. Under the pretext of taking several days to consider peace, he awaited the proper wind and attacked by night, hurling burning ships into the anchored imperial fleet. In 474 Geiseric signed a treaty of perpetual peace with Leo's successor Zeno.[NEWLINE][NEWLINE]Geiseric attempted to completely replace the Catholic Church in Africa with the Arian creed and ecclesiastical structure. He employed bribery, forced re–baptism, torture, death and exile on Catholics—especially the bishops—but was met by the fortitude of Catholic Trinitarian faith. Because of his political success, cruelty, and persecution of the Catholic faith, some contemporaries saw Geiseric as Antichrist. Hydatius relates a rumor that Geiseric was an apostate who left Catholicism for Arianism. He died of natural causes on Jan. 24, 477.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VANDALS_GENSERIC_NAME">
+			<Text>Genseric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VANDALS_GENSERIC_SUBTITLE">
+			<Text>Leader of The Vandals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VANDALS_GENSERIC_TITLES_1">
+			<Text>King of the Vandals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_VANDALS_GENSERIC_LIVED">
+			<Text>140 - 55 BC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_JFD_VANDALS_GENSERIC_TEXT">
+			<Text>Hail thee, Lord Genseric, King of the Vandals and Alans, subjugator of Rome, and conqueror of Carthage. For fifty years you led your people as their greatest king; forging from the crumbling ruins of the Roman Empire a kingdom on the edge of Northern Africa. With your formidable and unmatched fleet, the Vandal Kingdom quickly seized the throne of the Mediterranean, and in 455 AD joined the other barbarian kingdoms in their great feast upon the carcass of Rome.[NEWLINE][NEWLINE]O' fearsome Lord, great empires bloated with wealth lie over the horizon, and your people thirst for a leader with the terrible might to drain them of their golden blood. Can you raise a mighty fleet to wrest control of the seas? Can you make once great empires tremble in fear of your power and people? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--Responses-->
+		<Row Tag="TXT_KEY_LEADER_JFD_VANDALS_GENSERIC_FIRSTGREETING_1">
+			<Text>Hail! I am Genseric, King of the Vandals. You'll soon come to know me well enough.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VANDALS_GENSERIC_DEFEATED_1">
+			<Text>You may have slain me, but you will never steal victory from me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VANDALS_GENSERIC_ATTACKED_HOSTILE_1">
+			<Text>Your death will be a bloody one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VANDALS_GENSERIC_DEC_FRIENDSHIP_1">
+			<Text>You are a worthy friend. I would be honoured to drink alongside you. Will you accept a declaration of friendship?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VANDALS_GENSERIC_DENOUNCE_1">
+			<Text>Your death draws near. I'll make sure of it.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VANDALS_GENSERIC_DENOUNCE_FRIEND_1">
+			<Text>>Your death draws near. As an old friend, I'll make it quick.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VANDALS_GENSERIC_DOW_GENERIC_1">
+			<Text>I have come for your blood and riches. Don't fear, your consent is not needed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_VANDALS_GENSERIC_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>Good then. I won't have to pretend like I'm not going to raid your cities.</Text>
+		</Row>
+		<!--GREAT MIGRATION-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_VANDALS_GENSERIC_SHORT">
+			<Text>Great Migration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_VANDALS_GENSERIC">
+			<Text>Units start with +1 [ICON_MOVES] Movement and ignore borders in Coast or Coastal Land. Cities founded on foreign Continents begin with extra [ICON_CITIZEN] Population and Tiles.</Text>
+		</Row>
+		<!--Great Migration-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_VANDALS_GENSERIC">
+			<Text>Great Migration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_VANDALS_GENSERIC_HELP">
+			<Text>Ignores foreign borders.</Text>
+		</Row>
+		<!--ALANI HORSEMAN-->
+		<Row Tag="TXT_KEY_UNIT_JFD_ALANI_HORSEMAN">
+			<Text>Alani Horseman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ALANI_HORSEMAN_SETTLER">
+			<Text>Alani Horseman (Settler)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_ALANI_HORSEMAN">
+			<Text>Early-game Mounted Unit that fights best against cities. Can also be trained as a Settler, halting [ICON_FOOD] City Growth in the process. Only the Vandals can train it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ALANI_HORSEMAN_STRATEGY">
+			<Text>The Alani Horseman is the Vandal unique replacement for the Horseman. Unlike the Horseman, this unit is available at Animal Husbandry and has no combat penalty when attacking cities. In addition, this unit may be trained as a Settler, meaning it can be used to found cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ALANI_HORSEMAN_TEXT">
+			<Text>The Alans were a tribe who started out in Eastern Europe, but like the Vandals, slowly moved to North Africa’s shores. They started out with kingdoms around the Danube and the north Caucasus, and fervently remained tribal for their history. The Alans contented themselves to raiding other major empires, such as the Parthians, before their eventual shift to the Germanic homelands. When the Huns defeated the Goths, the Alans, along with other Germanic tribes, migrated across the Rhine to the Mediterranean shores of the crumbling Roman Empire. Along with the Vandals, the Alans settled in North Africa, and co-operated with them in order to see Rome destroyed. Noted for their conquests, the Alans were regarded as superb cavalrymen, given their original Nomadic settlement. Interestingly, a lot of Alans stayed in the Caucasus after the migrations, and continued to remain independent up until the Mongol Conquests. The Alans still have settlements that are in use all over Europe, such as Iasi, one of the oldest and largest cities in Romania. </Text>
+		</Row>
+		<!--TRIHEMIOLIA-->
+		<Row Tag="TXT_KEY_UNIT_JFD_TRIHEMIOLIA">
+			<Text>Trihemiolia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_TRIHEMIOLIA">
+			<Text>Starts with the Coastal Raider promotion (+20% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR]. Steals gold equal to 33% of the damage inflicted on a city). Cities with a stationed Trihemiolia are [ICON_RAZING] Razed twice as quickly. Only available to the Vandals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_TRIHEMIOLIA_STRATEGY">
+			<Text>The Trihemiolia is a unique version of the Trireme for the Vandals. It begins with the Coastal Raider promotion, increasing its [ICON_STRENGTH] Combat Strength when attacking cities and allowing it to steal [ICON_GOLD] Gold equal to 33% of the damage inflicted. In addition, a Trihemiolia stationed in a conquered (non-Capital) city doubles the speed at which it normally takes the city to be [ICON_RAZING] Razed. With the opportunistic Trihemiolia under their control, the Vandals can quickly become the terror of the seas.</Text>
+		</Row>
+		<!--Barbarian Invasion-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TRIHEMIOLIA">
+			<Text>Barbarian Invasion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TRIHEMIOLIA_ACTIVE_HELP">
+			<Text>City [ICON_RAZING] razes twice as fast [COLOR_POSITIVE_TEXT]whilst a Trihemiolia is stationed here[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_TRIHEMIOLIA_INACTIVE_HELP">
+			<Text>Cities [ICON_RAZING] raze twice as fast [COLOR_POSITIVE_TEXT]when a Trihemiolia is stationed in them[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

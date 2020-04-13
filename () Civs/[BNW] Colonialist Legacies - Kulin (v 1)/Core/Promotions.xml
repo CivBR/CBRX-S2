@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/22/2015 9:58:18 PM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_CL_POSSUM_CLOAKS_POWER</Type>
+			<Description>TXT_KEY_PROMOTION_CL_POSSUM_CLOAKS_POWER</Description>
+			<Help>TXT_KEY_PROMOTION_CL_POSSUM_CLOAKS_POWER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CL_POSSUM_CLOAKS_POWER</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_CL_POSSUM_CLOAKS_POWER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_CL_POSSUM_CLOAKS_POWER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_CL_POSSUM_CLOAKS_POWER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_CL_POSSUM_CLOAKS_POWER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_CL_POSSUM_CLOAKS_POWER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_CL_POSSUM_CLOAKS_POWER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_CL_POSSUM_CLOAKS_POWER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_CL_POSSUM_CLOAKS_POWER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+</GameData>

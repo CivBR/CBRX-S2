@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DECISION_GAULVERRIX">
+			<Text>Elect a Verrix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISION_GAULVERRIX_DESC">
+			<Text>
+				The tribes of Gaul clamour for war. In this most perilous time, our people cannot go without leadership. It is imperative that an election be called, so a Verrix can be chosen to lead us into battle.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Gauls
+				[NEWLINE][ICON_BULLET]Player must be at war
+				[NEWLINE][ICON_BULLET]May only be enacted thrice per game
+				[NEWLINE][ICON_BULLET]May only be enacted once per era
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A Great General appears in the Capital[NEWLINE][ICON_BULLET]All Land Military Units gain +10 XP
+				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Note: [ICON_CULTURE] Culture cost will increase with the number of Land Military Units you own[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISION_GAULVERRIX_ENACTED_DESC">
+			<Text>
+				The tribes of Gaul clamour for war. In this most perilous time, our people cannot go without leadership. It is imperative that an election be called, so a Verrix can be chosen to lead us into battle.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A Great General appears in the Capital[NEWLINE][ICON_BULLET]All Land Military Units gain +10 XP
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISION_GAULTORC">
+			<Text>Popularise Torcs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISION_GAULTORC_DESC">
+			<Text>
+				Torcs have long been popular amongst the wealthier women; and they serve as an excellent way to display our prosperity and culture. If our men and warriors were to start wearing them as well, it would bode well for us and our metalsmiths.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Gauls
+				[NEWLINE][ICON_BULLET]Must have Metalsmiths in all cities
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Sources of [ICON_RES_SILVER] Silver, [ICON_RES_GOLD] Gold, [ICON_RES_COPPER] Copper, [ICON_RES_IRON] Iron and [ICON_RES_ALUMINUM] Aluminum yield an additional +1 [ICON_CULTURE] Culture when improved by a Mine.
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold from Metalsmiths
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISION_GAULTORC_ENACTED_DESC">
+			<Text>
+				Torcs have long been popular amongst the wealthier women; and they serve as an excellent way to display our prosperity and culture. If our men and warriors were to start wearing them as well, it would bode well for us and our metalsmiths.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Sources of [ICON_RES_SILVER] Silver, [ICON_RES_GOLD] Gold, [ICON_RES_COPPER] Copper, [ICON_RES_IRON] Iron and [ICON_RES_ALUMINUM] Aluminum yield an additional +1 [ICON_CULTURE] Culture when improved by a Mine.
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold from Metalsmiths
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_GAULASTERIX">
+			<Text>Superstrength Potion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_GAULASTERIX_DESC">
+			<Text>
+				A druid by the name of Getafix has found the secrets to superhuman-strength by means of a potion, known only to him. We should take up this legendary discovery![NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_GAULASTERIX_OUTCOME_1">
+			<Text>Give it to our warriors!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_GAULASTERIX_OUTCOME_1_DESC">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Some of your units gain the "Heals at Double Rate" promotion[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_GAULASTERIX_OUTCOME_1_NOTIFICATION">
+			<Text>A druid by the name of Getafix has found the secrets to superhuman-strength!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

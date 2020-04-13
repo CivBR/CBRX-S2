@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- City names -->
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_1">
+			<Text>Ouagadougou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_2">
+			<Text>Bobo Dioulasso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_3">
+			<Text>Banfora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_4">
+			<Text>Koudougou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_5">
+			<Text>Ouahigouya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_6">
+			<Text>Kaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_7">
+			<Text>Fada N'gourma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_8">
+			<Text>Tenkodogo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_9">
+			<Text>Houndé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_10">
+			<Text>Dédougou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_11">
+			<Text>Arbinda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_12">
+			<Text>Bogandé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_13">
+			<Text>Boromo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_14">
+			<Text>Dano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_15">
+			<Text>Diapaga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_16">
+			<Text>Diébougou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_17">
+			<Text>Djibo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_18">
+			<Text>Dori</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_19">
+			<Text>Gaoua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_20">
+			<Text>Gorom-Gorom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_21">
+			<Text>Gourcy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_22">
+			<Text>Kindi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_23">
+			<Text>Kokologo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_24">
+			<Text>Kombissiri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_25">
+			<Text>Kongoussi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_26">
+			<Text>Koupéla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_27">
+			<Text>Léo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_28">
+			<Text>Loropéni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_29">
+			<Text>Manga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_30">
+			<Text>Méguet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_31">
+			<Text>Ouargaye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_32">
+			<Text>Nouna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_33">
+			<Text>Orodara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_34">
+			<Text>Pouytenga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_35">
+			<Text>Réo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_36">
+			<Text>Zorgho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_37">
+			<Text>Boulsa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_38">
+			<Text>Boussé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_39">
+			<Text>Pissila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_BURKINA_FASO_40">
+			<Text>Kordié</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_BURKINA_FASO_9">
+			<Text>Soumane Toure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_BURKINA_FASO_8">
+			<Text>Compaore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_BURKINA_FASO_7">
+			<Text>Henri Zongo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_BURKINA_FASO_6">
+			<Text>Jean-Baptiste Lingani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_BURKINA_FASO_5">
+			<Text>Mariam Sankara</Text>
+			<Gender>Female</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_BURKINA_FASO_4">
+			<Text>Valère Somé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_BURKINA_FASO_3">
+			<Text>Sams'K Le Jah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_BURKINA_FASO_2">
+			<Text>Serge Bambara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_BURKINA_FASO_1">
+			<Text>Yacouba Isaac Zida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_BURKINA_FASO_0">
+			<Text>Guy Hervé Kam</Text>
+		</Row>
+		<!-- Burkina-Faso -->
+		<Row Tag="TXT_KEY_CIVILIZATION_DMS_BURKINA_FASO">
+			<Text>Burkinabé Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_DMS_BURKINA_FASO_SHORT">
+			<Text>Burkina Faso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_DMS_BURKINA_FASO_ADJECTIVE">
+			<Text>Burkinese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_BURKINA_FASO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_BURKINA_FASO_TEXT_1">
+			<Text>Burkina Faso, landlocked country in western Africa. The country occupies an extensive plateau, and its geography is characterized by a savanna that is grassy in the north and gradually gives way to sparse forests in the south.[NEWLINE][NEWLINE]A former French colony, it gained independence as Upper Volta in 1960. The name Burkina Faso, which means “Land of Incorruptible People,” was adopted in 1984. The capital, Ouagadougou, is in the centre of the country and lies about 500 miles (800 km) from the Atlantic Ocean.</Text>
+		</Row>
+		<!-- Thomas Sankara -->
+		<Row Tag="TXT_KEY_LEADER_DMS_THOMAS_SANKARA">
+			<Text>Thomas Sankara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_TEXT_1">
+			<Text>Thomas Isidore Noël Sankara was a Burkinabé revolutionary and President of Burkina Faso from 1983 to 1987. A Marxist and pan-Africanist, he was viewed by supporters as a charismatic and iconic figure of revolution, and is sometimes referred to as "Africa's Che Guevara". He held the position of president until 1987, when he was killed during another coup.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_HEADING_2">
+			<Text>Youth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_TEXT_2">
+			<Text>Sankara’s Roman Catholic parents wanted him to be a priest, but he opted for a military career instead. In 1970, at the age of 20, Sankara was sent for officer training in Madagascar, where he witnessed a popular uprising of students and workers that succeeded in toppling Madagascar’s government. Before returning to Upper Volta - the name of the republic which had only recently attained independence from French Upper Volta - in 1972, Sankara attended a parachute academy in France, where he was further exposed to left-wing political ideologies. In 1974 he earned much public attention for his heroic performance in the border war with Mali, but years later he would renounce the war as useless and unjust.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_HEADING_3">
+			<Text>Uprising</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_TEXT_3">
+			<Text>By the early 1980s, Burkina Faso was being rocked by a series of labour union strikes and military coups. Sankara’s military achievements and charismatic leadership style made him a popular choice for political appointments, but his personal and political integrity put him at odds with the leadership of the successive military governments that came to power, leading to his arrest on several occasions. In January 1983, Sankara was selected as the prime minister of the newly formed Council for the Salvation of the People (Conseil de Salut du Peuple; CSP), headed by Jean-Baptiste Ouédraogo. This post provided him with an entryway into international politics and a chance to meet with leaders of the nonaligned movement, including Fidel Castro (Cuba), Samora Machel (Mozambique), and Maurice Bishop (Grenada). Sankara’s anti-imperialist stance and grassroots popularity increasingly put him at odds with conservative elements within the CSP, including President Ouédraogo. Sankara was removed as prime minister in May and arrested once again. On August 4, 1983, Blaise Compaoré, Sankara’s close friend and fellow army colleague, led a group that freed Sankara, overthrew the Ouédraogo regime, and formed the National Council of the Revolution (Conseil National de la Révolution) with Sankara as its president.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_HEADING_4">
+			<Text>Presidency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_TEXT_4">
+			<Text>Sankara declared the objectives of the “democratic and popular revolution” to be primarily concerned with the tasks of eradicating corruption, fighting environmental degradation, empowering women, and increasing access to education and health care, with the larger goal of liquidating imperial domination. During the course of his presidency, Sankara successfully implemented programs that vastly reduced infant mortality, increased literacy rates and school attendance, and boosted the number of women holding governmental posts. On the environmental front, in the first year of his presidency alone 10 million trees were planted in an effort to combat desertification. On the first anniversary of the coup that had brought him to power, he changed the country’s name from Upper Volta to Burkina Faso, which means roughly “land of upright people” in Mossi and Dyula, the country’s two most widely spoken indigenous languages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_HEADING_5">
+			<Text>Assassination</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_TEXT_5">
+			<Text>Despite the great strides that were made, there was growing dissent in the country, partly because of economic problems and opposition from traditional quarters to some of Sankara’s more progressive social policies. His administration gradually lost popular support, and internal conflict within his government grew as well. On October 15, 1987, Sankara was assassinated in a coup led by Compaoré and two others.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_NAME">
+			<Text>Thomas Isidore Noël Sankara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_SUBTITLE">
+			<Text>Leader of Burkina-Faso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_TITLES_1">
+			<Text>President of Burkina-Faso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_TITLES_2">
+			<Text>Africa's Che Guevara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_THOMAS_SANKARA_LIVED">
+			<Text>1949 - 1987</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_DMS_BURKINA_FASO_TEXT">
+			<Text>Salutations and good fortune to you and your own, Thomas Sankara, though you are but one of the seven million Thomas Sankaras of your people. But your nation did not begin as Burkina Faso, rather French Upper Volta, it had all the makings of the greatness you would mold it into. Learning the lessons of Che Guevara and Fidel Castro, and those of the American, French, and Russian Revolutions, you threw off the yoke of the French Imperialist at the time when they were weakest. And to your newborn nation you gave self-sufficiency, you gave modernity, you gave literacy, and you gave equality.  For the first time, Burkina Faso made enough food for itself and others, and no longer did the Burkinabé live in urban slums or under backwater chieftains, but in good housing and condition: educated, vaccinated, and well-fed. No longer did your government lord its position over the peasants – you traded the Mercedes for Renaults, reduced your own salary, and limited your possessions to a car, four bikes, three guitars, a refrigerator, and a broken freezer.[NEWLINE][NEWLINE]Thomas Sankara, your people wish to stand upright and proud once more. Will you throw off the chains that would-be imperialists would lock your Fatherland in? Will you bring your people to stand tall and upright, to shine against those who would enslave you? Will you build a Civilization that will stand the test of time?</Text>
+		</Row>
+		<!-- The Upright Man -->
+		<Row Tag="TXT_KEY_TRAIT_DMS_THE_UPRIGHT_MAN">
+			<Text>Domestic Trade Routes boost [ICON_PRODUCTION] Building Production, doubled for Science Buildings. Upon finishing construction of a Building, receive [ICON_FOOD] Food for every worked Forest or Jungle tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_DMS_THE_UPRIGHT_MAN_SHORT">
+			<Text>The Upright Man</Text>
+		</Row>
+		<!-- Freight Station -->
+		<Row Tag="TXT_KEY_BUILDING_DMS_FREIGHT_STATION">
+			<Text>Freight Station</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DMS_FREIGHT_STATION_TEXT">
+			<Text>During the presidency of Thomas Sankara large-scale housing and infrastructure projects were undertaken. All regions of the country were quicklyconnected by a vast road- and rail-building program. Over 700 km (430 mi) of rail was laid by Burkinabé people to facilitate manganese extraction in "The Battle of the Rails" without any foreign aid or outside money. These programs were an attempt to prove that African countries could be prosperous without foreign help or aid. These revolutionary developments and national economic programs shook the foundations of the traditional economic development models imposed on Africa.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_FREIGHT_STATION_HELP">
+			<Text>Unique Burkinabe Seaport replacement. +2 [ICON_PRODUCTION] Production per domestic Trade Route to or from the City and +1 [ICON_CULTURE] Culture on Roads and Rails. Provides a Trade Route slot in the first three Cities it is build.[NEWLINE][NEWLINE]City must be connected to the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_FREIGHT_STATION_STRATEGY">
+			<Text>With none of the requirements or effects of the Seaport, which it replaces, the Freight Station provides +2 [ICON_PRODUCTION] Production per domestic Trade Route to or from the City, +1 [ICON_CULTURE] Culture on Roads and Rails, and a free Trade Route slot in the first three Cities it is build. Requires the City to be connected to the Capital. Only Burkina-Faso may build it.</Text>
+		</Row>
+		<!-- Milice du Peuple -->
+		<Row Tag="TXT_KEY_UNIT_DMS_MILICE_DU_PEUPLE">
+			<Text>Milice du Peuple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DMS_MILICE_DU_PEUPLE_TEXT">
+			<Text>The People's Militia (French: Milice du Peuple) is a branch of the armed forces of Burkina Faso. It is a paramilitary militia, a part-time force of conscripted men and women between the age of 20 and 35, trained in both military and civil tasks and serving two years each. It numbers about 45,000 fighters, about 2.25% of the total population in the 20-35 age group.[NEWLINE][NEWLINE]The militia was formed by Captain Thomas Sankara, a radical left-wing revolutionary who came to power in a 1983 military coup, possibly with inspiration from the People’s Militia of Muammar Gaddafi's Libya and the Militia of Mao Zedong's China. The concept was to make the people itself the line of defence, rather than a professional army. The People's Militia was possibly connected to the Committees for the Defense of the Revolution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DMS_MILICE_DU_PEUPLE_STRATEGY">
+			<Text>The Milice du Peuple is the Burkinabe Unique Unit, replacing the Marine. They have the same abilities as the Marine, and can plant Forests and repair pillaged Improvements. The Milice du Peuple starts with additional Experience for every tile with a Road or Rail near the City in which it is trained.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DMS_MILICE_DU_PEUPLE_HELP">
+			<Text>Atomic Era Unit that can plant Forests and repair Improvements. It starts with additional Experience for every tile with a Road or Rail near the City in which it is trained. Only Burkina-Faso may build it.</Text>
+		</Row>
+		<!-- Plant Forest -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_DMS_PLANT_FOREST">
+			<Text>Plant Forest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_DMS_PLANT_FOREST_TEXT">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_DMS_FOREST">
+			<Text>Plant a [LINK=IMPROVEMENT_DMS_PLANT_FOREST]Forest[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_DMS_PLANT_FOREST_HELP">
+			<Text>Will Plant a Forest, replacing any Improvement or Feature on this tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_DMS_FOREST_HELP">
+			<Text>Will Plant a Forest, replacing any Improvement or Feature on this tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_DMS_FOREST_REC">
+			<Text>Reforest the world!</Text>
+		</Row>
+		<!-- Promotions -->
+		<!-- Dummy buildings -->
+		<Row Tag="TXT_KEY_BUILDING_DMS_THE_UPRIGHT_MAN_EXTRA_PRODUCTION">
+			<Text>DMS: Burkina-Faso: The Upright Man extra Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_THE_UPRIGHT_MAN_EXTRA_PRODUCTION_HELP">
+			<Text>Extra Production from domestic Trade Routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_FREIGHT_STATION_GOLD">
+			<Text>DMS: Burkina-Faso: Freight Station extra Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_FREIGHT_STATION_GOLD_HELP">
+			<Text>Extra Gold from domestic Trade Routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_FREIGHT_STATION_TRADE_ROUTE">
+			<Text>DMS: Burkina-Faso: Freight Station extra Trade Route slot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_FREIGHT_STATION_TRADE_ROUTE_HELP">
+			<Text>Extra Trade Routes slot in the first three cities with a Freight Station.</Text>
+		</Row>
+		<!-- MCIS -->
+		<Row Tag="TXT_KEY_DMS_FREIGHT_STATION_CITY_VIEW_HELP">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_iProduction}[ENDCOLOR] [ICON_PRODUCTION] Production from Domestic Trade Routes to or from this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DMS_UPRIGHT_MAN_CITY_VIEW_HELP">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_iProduction}%[ENDCOLOR] [ICON_PRODUCTION] Building Production from Domestic Trade Routes to or from this City.[NEWLINE][NEWLINE]Note: When constructing Science Buildings, the [ICON_PRODUCTION] Production bonus is doubled.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

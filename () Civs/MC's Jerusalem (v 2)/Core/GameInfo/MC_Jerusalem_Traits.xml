@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai-->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_MC_CRUSADING_ORDERS</Type>
+			<Description>TXT_KEY_TRAIT_MC_CRUSADING_ORDERS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_MC_CRUSADING_ORDERS_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Policies>
+		<Row>
+			<Type>POLICY_MC_JERUSALEM_CRUSADER</Type>
+			<Description>TXT_KEY_POLICY_MC_JERUSALEM_CRUSADER</Description>
+			<Civilopedia>TXT_KEY_POLICY_MC_JERUSALEM_CRUSADER</Civilopedia>
+			<Help>TXT_KEY_POLICY_MC_JERUSALEM_CRUSADER_HELP</Help>
+			<GridX>1000</GridX>
+			<GridY>1000</GridY>
+			<PortraitIndex>47</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	</GameData>

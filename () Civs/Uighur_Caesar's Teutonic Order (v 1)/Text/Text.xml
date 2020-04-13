@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 09/16/16 11:45:28 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_0">
+			<Text>Marienburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_1">
+			<Text>Konigsberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_2">
+			<Text>Danzig</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_3">
+			<Text>Memel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_4">
+			<Text>Heilsberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_5">
+			<Text>Kulm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_6">
+			<Text>Tuchel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_7">
+			<Text>Soldin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_8">
+			<Text>Ortelsburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_9">
+			<Text>Osterode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_10">
+			<Text>Allenstein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_11">
+			<Text>Angerburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_12">
+			<Text>Neidenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_13">
+			<Text>Rosenberck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_14">
+			<Text>Thorn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_15">
+			<Text>Kruschwitz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_16">
+			<Text>Johannisburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_17">
+			<Text>Hasenpoth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_18">
+			<Text>Schwanenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_19">
+			<Text>Dondangen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_20">
+			<Text>Ass</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_21">
+			<Text>Borkholm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_22">
+			<Text>Taplaken</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_23">
+			<Text>Wolmar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_24">
+			<Text>Kokenhusen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_25">
+			<Text>Reval</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_26">
+			<Text>Riga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_TEUTONS_27">
+			<Text>Lennewarden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_TEUTONS_DESC">
+			<Text>Monastic State of the Teutonic Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_TEUTONS_SHORT_DESC">
+			<Text>The Teutonic Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_TEUTONS_ADJECTIVE">
+			<Text>Teuton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_TEUTON">
+			<Text>The Teutonic Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UC_TEUTON_SHORT">
+			<Text>Helfen, Wehren, Heilen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UC_TEUTON">
+			<Text>Military buildings may be bought with [ICON_PEACE] Faith, and [ICON_PEACE] Faith purchases contribute towards Honor policies. Citadels provide the same yields as Holy Sites.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_DESC">
+			<Text>Hermann von Salza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_UC_HERMANN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_UC_HERMANN_LIVED">
+			<Text>1165 - 1239</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN">
+			<Text>Hermann von Salza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_UC_HERMANN_SUBTITLE">
+			<Text>Leader of the Teutonic Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_UC_HERMANN_TITLES_1">
+			<Text>Grand Master of the Teutonic Order (1210 - 1239)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_UC_TEUTONS">
+			<Text>May God protect both you and your crusaders, o great Hochmeister Von Salza. You lead the Monastic State of the Teutonic Order, a crusading force dedicated to purging paganism from eastern Europe and spreading the word of Christ. As Grand Master of the Order, you oversaw their transformation into an elite religious military organization. As a staunch ally and personal friend of Holy Roman Emperor Frederick II, you were able to obtain a promotion, equating the Teutons with established crusading orders such as the Knights of St. John, and also launched the Prussian Crusade. With your success in that campaign, you were able to set the Teutonic Order onto a path of progress and ambition, ultimately becoming one of the greatest military orders ever seen.[NEWLINE][NEWLINE]O great devout warrior, the heathens of the world have once again risen up and must be quelled and converted. Can you illuminate the dark, pagan lands with the light of God? Can you and your knights bring glory and conquest to the Christian world? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_TEUTON">
+			<Text>Ritterbruder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_TEUTON_STRATEGY">
+			<Text>Replaces the Knight, and does not require "Holy Warriors" to be bought with [ICON_PEACE] Faith. Starts with March. Generates Great Generals 50% faster, increasing to 100% if starting in the territory of a heathen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_UC_TEUTON">
+			<Text>Replaces the Knight, and does not require "Holy Warriors" to be bought with [ICON_PEACE] Faith. Starts with March. Generates Great Generals 50% faster, increasing to 100% if starting in the territory of a heathen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_UC_ORDENSBURG_TEXT">
+			<Text>The Ordensburgen were originally constructed by the Livonian Brothers of the Sword and later the Teutonic Knights to fortify territory in Prussia and Livonia against the pagan aboriginals. Later, Ordensburgen were used to defend against Poland and Lithuania. The Ordensburgen often resembled cloisters. While they were considerably larger than those in the Holy Roman Empire, they were much scarcer in the Monastic state of the Teutonic Knights. While a normal castle in the Reich would control about 38 km2, a castle would control 370 km2 in Prussia and 789 km2 in Livonia, Courland and Estonia. The few small castles are considered to be of vassals, while the larger ones might have served as arsenals and strongholds against rebels and invaders.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_UC_TEUTON_1">
+			<Text>Teutonic Generals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_TEUTON_2">
+			<Text>Deus Vult!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_TEUTON_1_HELP">
+			<Text>Creates Great Generals 50% faster. Increased to 100% in heathen territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_TEUTON_2_HELP">
+			<Text>Creates Great Generals 100% faster since you are in heathen territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_UC_TEUTON_TEXT">
+			<Text>Rarely does one so holy appear so terrifying on the field of battle, yet these elite knights, some with horned helmets, cast an almost demonic visage. From a combatant's perspective there is no holiness about them, as any who move close enough to admire their exquisite weaponry and armour, feel an unnatural dread rising inside them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UC_ORDENSBURG">
+			<Text>Ordensburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UC_ORDENSBURG_STRATEGY">
+			<Text>Replaces the Castle, but does not require Walls. Converts this city to your religion when built, as well as providing [ICON_PEACE] Faith for each [ICON_CITIZEN] Citizen converted. If built in a city already following your religion, receive a permanent +15% [ICON_PRODUCTION] Production towards land units instead.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UC_ORDENSBURG_HELP">
+			<Text>Replaces the Castle, but does not require Walls. Converts this city to your religion when built, as well as providing [ICON_PEACE] Faith for each [ICON_CITIZEN] Citizen converted. If built in a city already following your religion, receive a permanent +15% [ICON_PRODUCTION] Production towards land units instead.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_TEUTON_CONVERT">
+			<Text>+{1_Num} [ICON_PEACE] Faith from constructing an Ordensburg in {2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TEUTON_PURCHASE">
+			<Text>Buy a {1_BuildingName} ({2_Num} [ICON_PEACE])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TEUTON_PURCHASE_TT">
+			<Text>Buy a {1_BuildingName} ({2_Num} [ICON_PEACE])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TEUTON_PURCHASE_DISABLED">
+			<Text>[COLOR_NEGATIVE_TEXT]Buy a {1_BuildingName} ({2_Num} [ICON_PEACE])[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TEUTON_PURCHASE_DISABLED_TT">
+			<Text>Buy a {1_BuildingName} ({2_Num} [ICON_PEACE])[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Your do not have enough [ICON_PEACE] Faith![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TEUTON_CITY_UI_DESC">
+			<Text>Helfen, Wehren, Heilen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TEUTON_CITY_UI_HELP">
+			<Text>You have accumulated a total of {1_Num} points towards Honor policies from [ICON_PEACE] Faith purchases. {2_Num} is required for your next one.</Text>
+		</Row>
+
+	</Language_en_US>
+  
+</GameData>

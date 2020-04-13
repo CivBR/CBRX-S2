@@ -1,0 +1,22 @@
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_CL_AWOLOWO">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_CL_AWOLOWO_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CL_AWOLOWO">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_CL_AWOLOWO_DEFEATED%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<!--General phrases -->
+		<!--Greeting (first time meeting) -->
+		<Row Tag="TXT_KEY_LEADER_CL_AWOLOWO_FIRSTGREETING_1">
+			<Text>Alas, we have another grand nation in our midst! I am Obafemi Awolowo, leader of the Nigeria - A country built upon the ideals of freedom and prosperity befitting the heritage of the Hausa empires that came before me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_AWOLOWO_DEFEATED_1">
+			<Text>Our nation lies in ruins, and as the Leader of the Yorubas it seems that I have failed. I fear not, for I know that Nigeria's strength was fueled by diversity - something of which your empire will now have to embody wholeheartedly if you'd want to survive in this new world.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

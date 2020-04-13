@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a9198204-cde7-4512-bc25-c230cbbaeda7" version="2">
+  <Properties>
+    <Name>JFD's The Empire of Sweden (Karl XII)</Name>
+    <Teaser>Adds the [COLOR_POSITIVE_TEXT]The Empire of Sweden[ENDCOLOR] with Karl XII to the game.</Teaser>
+    <Description>See CivFanatics or Steam Workshop for full details.</Description>
+    <Authors>JFD, Janboruta, Viregel</Authors>
+    <SpecialThanks>Wolfdog</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="43868e8d-de88-48a1-a8d9-ce144e07f5e0" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD’s and Pouakai’s Mercenaries" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD’s Sovereignty" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD’s Claims and Colonies" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="7F5BF76F3144C7F678CCEA2BFAB5F9A8" import="1">Art/Diplomacy/KarlXII_Diplo.dds</File>
+    <File md5="E01E3122C185FC15800CA662BFE38ED5" import="1">Art/Diplomacy/KarlXII_Scene.xml</File>
+    <File md5="A7931023B8D4CBF019A125C92498BB9B" import="1">Art/Graphics/Regalskapp/sv_Regalskapp.dds</File>
+    <File md5="A2BAC7B83BE2A0D3FDEDBE17513A20CF" import="1">Art/Graphics/Regalskapp/swedish_galleon.fxsxml</File>
+    <File md5="8898AE199C2AD68D123D7E1B83147D71" import="1">Art/Graphics/Regalskapp/swedish_galleon.gr2</File>
+    <File md5="A0B9BAE8A2C087AAB74E2E5E1E365031" import="1">Art/Graphics/Regalskapp/swedish_galleon_diff.dds</File>
+    <File md5="78141C5D34B9A66082AB7CDE9C51E21C" import="1">Art/IconAtlas/JFD_SwedenKarlAlphaAtlas_128.dds</File>
+    <File md5="DC27FE9718FB8D5FF5E93DA89BB4A934" import="1">Art/IconAtlas/JFD_SwedenKarlAlphaAtlas_16.dds</File>
+    <File md5="F9806CF694A4468F34C8A6C8FFB59846" import="1">Art/IconAtlas/JFD_SwedenKarlAlphaAtlas_22.dds</File>
+    <File md5="94792CAF1422773B00990D0150D37459" import="1">Art/IconAtlas/JFD_SwedenKarlAlphaAtlas_24.dds</File>
+    <File md5="1B1F8BFA7C35D3CA41DF091D575DB756" import="1">Art/IconAtlas/JFD_SwedenKarlAlphaAtlas_256.dds</File>
+    <File md5="EC1353E32E2A982AD9232C864B2FCD43" import="1">Art/IconAtlas/JFD_SwedenKarlAlphaAtlas_32.dds</File>
+    <File md5="8A558A936F738147972B36A5E9341CD9" import="1">Art/IconAtlas/JFD_SwedenKarlAlphaAtlas_45.dds</File>
+    <File md5="FDFF129DBC70A311494E6A68666DA745" import="1">Art/IconAtlas/JFD_SwedenKarlAlphaAtlas_48.dds</File>
+    <File md5="5E92EF09B72710DB4473E785F2280FA9" import="1">Art/IconAtlas/JFD_SwedenKarlAlphaAtlas_64.dds</File>
+    <File md5="F9F844829434BE24D52458A689FE3816" import="1">Art/IconAtlas/JFD_SwedenKarlAlphaAtlas_80.dds</File>
+    <File md5="77C9A0CD3BA12311E1D784528AF912FB" import="1">Art/IconAtlas/JFD_SwedenKarlAtlas_128.dds</File>
+    <File md5="35752CB744A1BA7591DEE808BC66936D" import="1">Art/IconAtlas/JFD_SwedenKarlAtlas_256.dds</File>
+    <File md5="0F01FF864B03592616A5D039A3621D71" import="1">Art/IconAtlas/JFD_SwedenKarlAtlas_32.dds</File>
+    <File md5="17D321575CA8CD5B3BE97A7A85BCAAE4" import="1">Art/IconAtlas/JFD_SwedenKarlAtlas_45.dds</File>
+    <File md5="6559CD4B66FA211D8D08B93AF9F8BE52" import="1">Art/IconAtlas/JFD_SwedenKarlAtlas_64.dds</File>
+    <File md5="85CC35CE77B4BA4E738E229BEF89A570" import="1">Art/IconAtlas/JFD_SwedenKarlAtlas_80.dds</File>
+    <File md5="088FAC7F94763FC9A83A7AE1BE29D3B6" import="1">Art/IconAtlas/JFD_SwedenKarlReserveAtlas_64.dds</File>
+    <File md5="A3CB4834FE12A869869F69968FBA0C59" import="1">Art/IconAtlas/UnitFlag_Regalskapp_32.dds</File>
+    <File md5="E591D2B63D95C1330A331D84190496CC" import="1">Art/Images/Event_Sweden_AnjalaConspiracy.dds</File>
+    <File md5="8A7037997FD4D2DC23F5067E5729B7FA" import="1">Art/Images/Event_Sweden_Reprieve.dds</File>
+    <File md5="9CF37CCEB202948D16D15202A3C5BF2C" import="1">Art/Map/DOM_Gustav.dds</File>
+    <File md5="57802131722A91EAFCC3FA051633A55F" import="1">Art/Map/MapSweden512.dds</File>
+    <File md5="440C063A4A5AE59D7E4E2C59CF2951C5" import="1">Art/Map/DOM_Gustavus_Adolphus.dds</File>
+    <File md5="6B527CA54D475B96B6A8FC458A688491" import="1">Art/Map/MapSwedenGustav512.dds</File>
+    <File md5="C11AEB4E2D5AFF74E9A7EBEFE5CC4905" import="1">Audio/KarlXII_Peace.mp3</File>
+    <File md5="6B829188A54A1CE0195A6EA20EB8C896" import="1">Audio/KarlXII_War.mp3</File>
+    <File md5="E7587BF80CCC92F617DCB29D5B3998B0" import="0">Core/SwedenGustavus_ArtDefines.sql</File>
+    <File md5="E095FEE35F1C64D154253E70833F094C" import="0">Core/SwedenGustavus_GameDefines.sql</File>
+    <File md5="AD69E2C4917480EE7FC6FC0CC4960AD7" import="0">Core/SwedenGustavus_GameText.xml</File>
+    <File md5="A8D2715F39A3BBECDE72F751FF13664F" import="0">Core/SwedenGustavus_ModSupport.sql</File>
+    <File md5="C855481D74E09516CA07A7F6B7DC5E0B" import="0">Core/SwedenKarlXII_ArtDefines.sql</File>
+    <File md5="315E6A58CE3E8CDF659ABE5C4E4BA610" import="0">Core/SwedenKarlXII_GameDefines.sql</File>
+    <File md5="D910E5665B6EA4290B7F008CF21CA064" import="0">Core/SwedenKarlXII_GameDefines_Diplomacy.sql</File>
+    <File md5="EA1D3D0F100777D39CC956CD8D84E04F" import="0">Core/SwedenKarlXII_GameDefines_ModSupport.sql</File>
+    <File md5="65BC55475F3CB7A161DB7F7C5AD3BE99" import="0">Core/SwedenKarlXII_GameText.xml</File>
+    <File md5="79182C8EA9BD5ED500573E8FFF22201A" import="0">Core/SwedenKarlXII_GameText_Diplomacy.xml</File>
+    <File md5="D3C93EBBFD5C223C093D7C0A0C55F7FC" import="0">Core/SwedenKarlXII_GameText_ModSupport.xml</File>
+    <File md5="3665EA7314EC7714D3F5520365D7702A" import="0">DeleteMissingReferences.xml</File>
+    <File md5="151A6C7B9E778B7DB5E8DD49E7F28800" import="0">JFD_SwedenKarlXII_UserSettings.sql</File>
+    <File md5="B7D714C13349AF3EEC190C82795498D5" import="1">Lua/JFD_SwedenGustavus_Decisions.lua</File>
+    <File md5="9C577FBBADC4FF21147E1BE29382558B" import="0">Lua/JFD_SwedenGustavus_Functions.lua</File>
+    <File md5="84EDCABE10029AA678B1181F37789A36" import="1">Lua/JFD_SwedenKarlXII_Decisions.lua</File>
+    <File md5="9FCCCE5CA1E1B5C91AF8E246620BCA6C" import="1">Lua/JFD_SwedenKarlXII_Events.lua</File>
+    <File md5="4DD1753B6F1C862BC2B9F1B2ABD93649" import="0">Lua/JFD_SwedenKarlXII_Functions.lua</File>
+    <File md5="5DF2AB7D04419EB423A249916DF400E6" import="0">Lua/JFD_SwedenKarlXII_Functions.xml</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="B35683E0FF32324353B65BBB9C49B13F" import="1">Lua/Utilities/Save Utilities/JFD_SwedenKarlXII_GlobalDefines.lua</File>
+    <File md5="1020CB7B34F9BBE799B6A8E5F105B16D" import="1">Lua/Utilities/Save Utilities/JFD_SwedenKarlXII_TSLSerializerV3.lua</File>
+    <File md5="CD3E8C278CE1FD36806AA4CF6BE3BF88" import="1">Lua/Utilities/Save Utilities/TableSaverLoader016.lua</File>
+    <File md5="69FCADF0D2AE7C0C2CEC9D821AD41883" import="1">Lua/Utilities/Save Utilities/TSLSerializerCoreV3.lua</File>
+    <File md5="D26B68238289375A10E49818FD2CD0C8" import="1">Lua/Utilities/UniqueDiplomacyUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>JFD_SwedenKarlXII_UserSettings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenGustavus_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenGustavus_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenGustavus_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenGustavus_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenKarlXII_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenKarlXII_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenKarlXII_GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenKarlXII_GameDefines_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenKarlXII_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenKarlXII_GameText_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SwedenKarlXII_GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>DeleteMissingReferences.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_SwedenKarlXII_Functions.lua">
+      <Name>JFD_SwedenKarlXII_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_SwedenGustavus_Functions.lua">
+      <Name>JFD_SwedenGustavus_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

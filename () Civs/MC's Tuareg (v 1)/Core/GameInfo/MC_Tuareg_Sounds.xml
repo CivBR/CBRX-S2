@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Leugi and Pouakai (Mostly Leugi, I just want to feel like I accomplished something)-->
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_MC_TIN_HINAN_PEACE</SoundID>
+			<Filename>MC_Tuareg_Peace</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_MC_TIN_HINAN_WAR</SoundID>
+			<Filename>MC_Tuareg_War</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<!--<Row>
+			<SoundID>SND_DOM_SPEECH_MC_TUAREG</SoundID>
+			<Filename>MCTuaregDoM</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>-->
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_MC_TIN_HINAN_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_MC_TIN_HINAN_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>50</MinVolume>
+			<MaxVolume>50</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_MC_TIN_HINAN_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_MC_TIN_HINAN_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>40</MinVolume>
+			<MaxVolume>40</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<!--<Row>
+			<ScriptID>AS2D_DOM_SPEECH_MC_TUAREG</ScriptID>
+			<SoundID>SND_DOM_SPEECH_MC_TUAREG</SoundID>
+			<SoundType>GAME_SPEECH</SoundType>
+			<MinVolume>80</MinVolume>
+			<MaxVolume>80</MaxVolume>
+		</Row>-->
+	</Audio_2DSounds>
+</GameData>

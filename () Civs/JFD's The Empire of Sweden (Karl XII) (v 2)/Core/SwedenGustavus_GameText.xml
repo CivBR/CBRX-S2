@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--REGAL_SHIP-->
+		<Row Tag="TXT_KEY_UNIT_JFD_REGAL_SHIP">
+			<Text>Regal Ship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_REGAL_SHIP">
+			<Text>Powerful Renaissance Era Naval Unit useful for controlling coasts. Heals Land Units nearby. Only Gustavus' Sweden can build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_REGAL_SHIP_STRATEGY">
+			<Text>The Regal Ship is the Swedish unique unit, available only to Gustavus Adolphus. It replaces the Frigate and has a combat bonus when in Coastal Terrain. Additionally, Land Units within two tiles of the Regal Ship will heal 10 extra damage each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_REGAL_SHIP_STRATEGY_EE">
+			<Text>The Regal Ship is the Swedish unique unit, available only to Gustavus Adolphus. It replaces the Galleon and has a combat bonus when in Coastal Terrain. Additionally, Land Units within two tiles of the Regal Ship will heal 10 extra damage each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_REGAL_SHIP_TEXT">
+			<Text>The Regal Ship was the Swedish designation for her largest ships, used between 1615-1622, and then from 1633 until the 1670s. Perhaps the most famous example of a Regal Ship was the Vasa Warship, which was constructed on the orders of Gustavus Adolphus. Although the warship sunk on its maiden voyage in 1628, her recovery in 1961 has proven an invalueable source of insight into the naval techniques of 17th century Sweden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_REGAL_SHIP">
+			<Text>Stormaktstiden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_REGAL_SHIP_HELP">
+			<Text>Land Units within two tiles of this unit will [COLOR_POSITIVE_TEXT]HEAL[ENDCOLOR] 10 damage each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_REGAL_SHIP_COAST">
+			<Text>Bonus in Coast (20)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_REGAL_SHIP_COAST_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength in Coast</Text>
+		</Row>
+		<!-- SUKRITACT's DECISIONS -->
+		<Delete Tag="TXT_KEY_DECISIONS_SWEDENINDELNINGSVERKET" />
+		<Row Tag="TXT_KEY_DECISIONS_SWEDENINDELNINGSVERKET">
+			<Text>Establish the Ordinance of Alsnö</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_DECISIONS_SWEDENINDELNINGSVERKET_DESC" />
+		<Row Tag="TXT_KEY_DECISIONS_SWEDENINDELNINGSVERKET_DESC">
+			<Text>
+				So as to encourage the growth of our homeland forces, all able-bodied men who would finance their own cavalry and equipment shall henceforth be exempt from paying tax and from conscription by force.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Sweden (Gustavus)
+				[NEWLINE][ICON_BULLET]Must have researched Metallurgy
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Mounted Unit Production
+				[NEWLINE][ICON_BULLET]1 Great General appears in the Capital
+			</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_DECISIONS_SWEDENINDELNINGSVERKET_ENACTED_DESC" />
+		<Row Tag="TXT_KEY_DECISIONS_SWEDENINDELNINGSVERKET_ENACTED_DESC">
+			<Text>
+				So as to encourage the growth of our homeland forces, all able-bodied men who would finance their own cavalry and equipment shall henceforth be exempt from paying tax and from conscription by force.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Mounted Unit Production
+				[NEWLINE][ICON_BULLET]1 Great General appears in the Capital
+			</Text>
+		</Row>
+		<!--Kung och Riksdag-->
+		<Delete Tag="TXT_KEY_DECISIONS_SWEDISHRIKSDAG_DESC" />
+		<Row Tag="TXT_KEY_DECISIONS_SWEDISHRIKSDAG_DESC">
+			<Text>
+				The Swedish Kings often depended on cooperation with the Estates, especially with the large peasant class to balance out the nobility. During Gustavus Adolphus' reign, however, a historic compromise was made with the nobility, who pledged to loyally put their resources to the nation's disposal in return for new privileges.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Sweden (Gustavus)
+				[NEWLINE][ICON_BULLET]May only be enacted during a [ICON_GOLDEN_AGE] Golden Age
+				[NEWLINE][ICON_BULLET]May only be enacted in the Renaissance or Industrial Era
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Culture} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]2 randomly selected Great People from the following classes appear in the Capital[NEWLINE][ICON_BULLET]Great Writer[NEWLINE][ICON_BULLET]Great Engineer[NEWLINE][ICON_BULLET]Great Scientist[NEWLINE][ICON_BULLET]Great Merchant[NEWLINE][ICON_BULLET]Great General
+			</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_DECISIONS_SWEDISHRIKSDAG_ENACTED_DESC" />
+		<Row Tag="TXT_KEY_DECISIONS_SWEDISHRIKSDAG_ENACTED_DESC">
+			<Text>
+				The Swedish Kings often depended on cooperation with the Estates, especially with the large peasant class to balance out the nobility. During Gustavus Adolphus' reign, however, a historic compromise was made with the nobility, who pledged to loyally put their resources to the nation's disposal in return for new privileges.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]2 randomly selected Great People from the following classes appear in the Capital[NEWLINE][ICON_BULLET]Great Writer[NEWLINE][ICON_BULLET]Great Engineer[NEWLINE][ICON_BULLET]Great Scientist[NEWLINE][ICON_BULLET]Great Merchant[NEWLINE][ICON_BULLET]Great General
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

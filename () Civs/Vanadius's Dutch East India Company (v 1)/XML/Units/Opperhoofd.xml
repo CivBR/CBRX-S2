@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/17/2019 3:04:05 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MERCHANT</Class>
+			<Type>UNIT_VANA_OPPERHOOFD</Type>
+			<Cost>-1</Cost>
+			<Moves>2</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Special>SPECIALUNIT_PEOPLE</Special>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_MERCHANT</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_VANA_OPPERHOOFD</Description>
+			<Civilopedia>TXT_KEY_VANA_OPPERHOOFD</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_VANA_OPPERHOOFD_STRATEGY</Strategy>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<WorkRate>1</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<BaseGold>350</BaseGold>
+			<NumGoldPerEra>50</NumGoldPerEra>
+			<UnitArtInfo>ART_DEF_UNIT_MEMBER_U_VENETIAN_MERCHANT</UnitArtInfo>
+			<UnitArtInfoEraVariation>false</UnitArtInfoEraVariation>
+			<UnitFlagAtlas>VANA_VOC_UNITATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>VANA_VOC_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<MoveRate>GREAT_PERSON</MoveRate>
+		</Row>
+	</Units>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_VANA_VOC</CivilizationType>
+			<UnitClassType>UNITCLASS_MERCHANT</UnitClassType>
+			<UnitType>UNIT_VANA_OPPERHOOFD</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+</GameData>

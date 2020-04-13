@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/5/2018 5:10:59 PM -->
+<GameData>
+	<!--Responses-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_FIRSTGREETING_1">
+			<Text>Welcome to Kosovo. My name is Ibrahim Rugova, President of the Republic of Kosovo. As a token of our newfound relations, I offer to you a visit to my collection of many crystals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_DEFEATED_1">
+			<Text>You might have defeated me, yes, but the spirit of Kosovo will live on. Remember that well, for my people will never forget.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_ATTACKED_GENERIC_1">
+			<Text>We yearn only to be recognised... But you are no different than the others. Kosovo will not stand to be just another piece within your wicked empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_DEC_FRIENDSHIP_1">
+			<Text>You are a friend of Kosovo, yes? So let us celebrate this friendship with this beautiful crystal of my collection.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_DENOUNCE_1">
+			<Text>You have proven to be a threat to our nationality. As such, I cannot trust you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_DOW_GENERIC_1">
+			<Text>In the name of the Republic of Kosovo, I have to declare war upon you. Know that it is yours ways that led us to this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_EXPANSION_SERIOUS_WARNING_1">
+			<Text>You have reached within rightful kosovar territory, and as such, I require you to stay away from us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_GREETING_AT_WAR_HOSTILE_1">
+			<Text>You seem willing to make peace. I guess I will listen to you, then.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_GREETING_POLITE_HELLO_1">
+			<Text>Welcome, my friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_GREETING_NEUTRAL_HELLO_1">
+			<Text>Welcome.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_GREETING_HOSTILE_HELLO_1">
+			<Text>Be quick.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>We can see your forces at the border. Turn back now.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now building kullas and enjoy playing the lahuta. We're worried the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_INFLUENTIAL_ON_HUMAN_1">
+			<Text>We are glad to see that your people are building kullas and playing the lahuta. The amazing works of our civilization are truly inspiring!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_LETS_HEAR_IT_1">
+			<Text>I'm listening.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_LOSEWAR_1">
+			<Text>You think this is a victory?. As long as our people remain on this Earth Kosovo will stand.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_LUXURY_TRADE_1">
+			<Text>Our people are interested in these resources.Would you mind trading them?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_NO_PEACE_1">
+			<Text>I refuse your peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_OPEN_BORDERS_EXCHANGE">
+			<Text>I propose that we open our borders to one another.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_REPEAT_NO_1">
+			<Text>I would like you to leave, please. No crystals for you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_RESPONSE_REQUEST_1">
+			<Text>The people of Kosovo are suffering. Would you please help us?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>I do not think this was the best diplomatic move.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_TOO_SOON_NO_PEACE_1">
+			<Text>You should pay the price of your actions first.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SF_IBRAHIM_RUGOVA_WINWAR_1">
+			<Text>Kosovo is free from oppression! May this victory embolden other nations who seek to end your cruel regime.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

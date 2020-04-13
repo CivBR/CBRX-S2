@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai -->
+<GameData>
+	<Language_en_US>
+		<!--Unique Unit-->
+		<Row Tag="TXT_KEY_UNIT_MC_TUAREG_IMAJAGHAN">
+			<Text>Imajaghan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_TUAREG_IMAJAGHAN_HELP">
+			<Text>Unique Tuareg Knight. Heals faster on desert tiles. Receives a free worker and double gold when pillaging trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_TUAREG_IMAJAGHAN_STRATEGY">
+			<Text>The Imajaghan is a fast raider cavalry unit which excels on desert tiles, replacing the Knight. It receives a free worker upon pillaging an enemy trade route, along with double the amount of gold, making it an excellent choice to send out and raid enemy trade routes. Additionally, the Imajaghan heals twice as fast when stationed on a desert tile, allowing it to quickly return to strength and pillage more trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_TUAREG_IMAJAGHAN_PEDIA">
+			<Text>Traditionally, Tuareg society is hierarchical, with nobility and vassals. The nobles constitute the highest caste. They are known in the Tuareg language as imúsay (approximately pronounced 'imohar' - also known as Imajaghan, "the proud and free"). The nobles originally had a monopoly on carrying arms and owning camels, and were the warriors of the Tuareg regions. They may have achieved their social status by subjugating other Tuareg castes, keeping arms to defend their properties and vassals. They have also collected tribute from their vassals. This warrior nobility has traditionally married within their caste, not to individuals in strata below their own. A collection of tribes, each led by a noble, forms a confederation called amanokal, whose chieftain is elected from among the nobles by the tribal chiefs. The chieftain is the overlord during times of war, and receives tribute and taxes from tribes as a sign of their submission to his authority.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_IMAJAGHAN">
+			<Text>Sahara Raiders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_IMAJAGHAN_HELP">
+			<Text>Receives a free worker and double gold when pillaging trade routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_HAS_ALREADY_PILLAGED">
+			<Text>Experienced Raider</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_HAS_ALREADY_PILLAGED_HELP">
+			<Text>This unit has already raided a trade route this turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_AHAKET">
+			<Text>Desert Heritage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_AHAKET_HELP">
+			<Text>+1 [ICON_MOVES] Movement when on Desert tiles</Text>
+		</Row>
+		<!--Unique Building-->
+		<Row Tag="TXT_KEY_BUILDING_MC_TUAREG_AHAKET">
+			<Text>Ahaket</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_TUAREG_AHAKET_HELP">
+			<Text>Replaces the Caravansary. Provides +1 [ICON_CULTURE] Culture and +1 [ICON_FOOD] Food for each trade route with the city, in addition to +2 [ICON_GOLD] Gold when connecting to another civilisation. Land trade routes originating from this city have a 50% increase in range. Units trained in this city have +1 [ICON_MOVES] Movement when starting their turn on desert tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_TUAREG_AHAKET_STRATEGY">
+			<Text>The Ahaket is a unique Tuareg Caravansary. In addition to the extra range and [ICON_GOLD] Gold that the Caravansary has, the Ahaket also provides +1 [ICON_CULTURE] Culture and +1 [ICON_FOOD] Food for every trade route with this city. Furthermore, land units trained in this city have +1 [ICON_MOVES] Movement when in desert tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_TUAREG_AHAKET_PEDIA">
+			<Text>Owing to their location in the central Sahara, the Tuareg played a significant role in the vast trans-Saharan trade routes. Tuareg navigators and camel herdsmen were just as much a commodity as the goods carried, while less chivalrous Tuareg would pose a threat to the caravans and those in them. Oases and rest stops were of huge importance, as they provided respite from the long periods of extremely hot temperatures. Nomadic Tuareg structures provided similar shelter and would often be seen acorss the vast expanses of the desert, surrounded by camels.</Text>
+		</Row>
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_MC_BLUE_MEN_SHORT">
+			<Text>Blue Men of the Desert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_MC_BLUE_MEN">
+			<Text>Desert tiles owned by the Tuareg slow enemy units. Steal [ICON_GOLD] Gold from Caravans in your territory whose owner does not have an active Trade Route to the Tuareg.</Text>
+		</Row>
+		<!--Denonyms-->
+		<Row Tag="TXT_KEY_MC_TUAREG">
+			<Text>The Tuareg</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_MC_TUAREG_DESC">
+			<Text>Tuareg Empire</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_MC_TUAREG_SHORT_DESC">
+			<Text>Tuareg</Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_MC_TUAREG_ADJECTIVE">
+			<Text>Tuareg</Text>
+		</Row>
+		<!-- DOM Text-->
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_MC_TUAREG_TEXT">
+			<Text>Greetings Tamenokalt Tin Hinan, Queen of the Hogar! You rule the Tuareg people, a proud and strong nation borne from the sands of the Sahara. Fearing for the safety of your people, you led them into the desert which would be the death of so many others, but which would become the home of your people. Your camels rule the dunes and ensure that none who seek to pass through can do so without your assent. Your mastery of the sands has not gone unnoticed however, and as you grow rich off those who seek to cross the desert, those who you plunder from watch on with contempt. [NEWLINE][NEWLINE]Oh great queen Tin Hinan! The sandstorm grows once more, and your people need a strong leader to protect them from foes abroad! Will you once more don the mantle of woman of the tents and lead your people into the unknown? Can you help the Tuareg prevail where so many others have perished? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+		<!--Diplo lines-->
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_FIRSTGREETING_1">
+			<Text>Welcome to my court - you appear as though you could do with some shade?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_FIRSTGREETING_2">
+			<Text>A new traveller! What riches have you brought me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_DEFEATED_1">
+			<Text>You think us to be defeated, mistakenly. We have simply disappeared into the sands, and will return with vengeance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_DEFEATED_2">
+			<Text>You have defeated me when God could not - what manner of beast are you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_ATTACKED_1">
+			<Text>We shall stain the sands with your blood.</Text>
+		</Row>
+		<!--Spy Names-->
+		<Row Tag="TXT_KEY_SPY_NAME_MC_TUAREG_0">
+			<Text>Aksil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_TUAREG_1">
+			<Text>Amastan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_TUAREG_2">
+			<Text>Iken</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_TUAREG_3">
+			<Text>Zdan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_TUAREG_4">
+			<Text>Wagguten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_TUAREG_5">
+			<Text>Yimlul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_TUAREG_6">
+			<Text>Zilalsen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_TUAREG_7">
+			<Text>Amedras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_TUAREG_8">
+			<Text>Yeddes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_TUAREG_9">
+			<Text>Warmaksan</Text>
+		</Row>
+		<!--Civilopedias-->
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_TITLE">
+			<Text>The Tuareg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_TEXT_1">
+			<Text>The Tuareg, a seminomadic, Islamic people who speak a Berber language, Tamacheq, live in the contemporary nation-states of Niger, Mali, Algeria, and Libya. They are believed to be descendants of the North African Berbers and to have originated in the Fezzan region of Libya but later to have expanded into areas bordering the Sahara, assimilating into their traditionally stratified society the sedentary farming peoples from regions south of the Sahara. Tuareg traded with these populations and also raided them for slaves. Thus, Tuareg display diverse physical and cultural traits ranging from Arabic influences to influences stemming from south of the Sahara. "Tuareg," the term by which they are most commonly known today, is actually a term of outside, possibly Arabic origin. It was imposed as a gloss, or cover-term, to designate the ethnicity and culture of a people who, although unified by their common language and culture, belong to diverse social strata based on descent, have different geographic origins, and practice varied subsistence patterns of stock-breeding, oasis gardening, caravanning, professional Quranic scholarship, and smithing. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_TEXT_2">
+			<Text>The Saharan regions where Tuareg originated—southern Algeria, western Libya, eastern Mali, and northern Niger—are still the regions where they predominate today. During the late twentieth century, many Tuareg have migrated to rural and urban areas farther south—into Sahelian and coastal regions of West Africa—because of drought, famine, and political tensions with the central governments of Mali and Niger. Since the early 1990s, some Tuareg have joined an armed insurrection against those governments. A few Tuareg have emigrated to France. The Saharan and Sahelian regions of Mali and Niger, where most Tuareg still live are the principal biomes to which the culture is adapted. The topography includes volcanic mountains, flat desert plains, rugged savanna, and desert-edge borderlands where agriculture is possible only with daily irrigation. The major ranges are the Ahaggar Mountains in Algeria and the Aïr Mountains in Niger. Temperatures range from 4° C at night in the brief cold season, from December to March, upward to 54° C during the day in the hot season. There is a short and unreliable rainy season between June and September; annual precipitation often amounts to less than 25 centimeters. Pasturelands have been diminishing, and, consequently, livestock herds are shrinking. Many herds were decimated in the droughts of 1967-1973 and 1984-1985. During the brief cold season, there are high winds and sandstorms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_HEADING_3">
+			<Text>Cultural Relations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_TEXT_3">
+			<Text>Early origins and migrations of the various confederations of Tuareg are related in oral traditions, but have also been documented. Early events are also recorded in Tifinagh inscriptions on Saharan rocks and in Arabic manuscripts such as the Agadez Chronicle. Many of these written records were lost when the central Sahara was plundered by French colonial patrols after the unsuccessful 1917 Tuareg revolt against France.[NEWLINE][NEWLINE]The Tuareg came to prominence as stockbreeders and caravanners in the Saharan and Sahelian regions at the beginning of the fourteenth century, when trade routes to the lucrative salt, gold, ivory, and slave markets in North Africa, Europe, and the Middle East sprang up across Tuareg territory. The first Tuareg to come to the Air region were caravan traders who were attracted by the area's excellent grazing grounds. As early as the seventh century a.d., there were extensive migrations of pastoral Berbers, including the two important groups related to contemporary Tuareg: the Lemta and the Zarawa. Invasions of Beni Hilal and Beni Sulaym Arabs into Tuareg Tripolitania and Fezzan pushed Tuareg southward to Aïr. Among these was a group of seven clans, allegedly descended from daughters of the same mother, a matrilineal myth widespread among many Tuareg groups, with cultural vestiges today in the high social prestige and economic independence of women. These matrilineally based social institutions, manifested in inheritance and descent, mythology and ritual, counterbalance more recent Islamic elements in the culture. In the late nineteenth century European exploration and military expeditions in the Sahara and along the Niger River led to incorporation of the region into French West Africa. By the early twentieth century, the French had brought the Tuareg under their colonial domination. As a result, Tuareg forfeited their rights to tariff collection and protection services for trans-Saharan camel caravans. Ocean routes had diverted most of the trade to the coast of Africa. Laws against raiding and slavery were strictly enforced.[NEWLINE][NEWLINE]After independence and the establishment of nation-states in the region in the early 1960s, the Tuareg continued to lose economic strength and political power. They had resisted, first, French, and later, central-state schools and taxes, suspicious of them as strategies to forcibly sedentarize them and gain control over their destiny. As a result, Tuareg tend to be underrepresented today in jobs in the new infrastructure of the towns, as well as in central governments in the region. These governments imposed restrictions on trade with neighboring countries, in order to protect national economic interests. Droughts and decreasing value of livestock and salt—the last remaining export commodity of the Tuareg—have weakened a once strong and diverse local economy. Development programs involving the Tuareg from the 1940s to the 1970s failed miserably because they worked against the traditional pastoral production systems. During the 1984-1985 drought, some Tuareg men, calling themselves, left for Libya, where they received military training and weapons. In the early 1990s they returned to their homes and demanded autonomy. Since that time, there has been continuous guerrilla warfare in some regions of Mali and Niger. Some Tuareg have been forced into refugee camps in neighboring countries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_HEADING_4">
+			<Text>Settlement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_TEXT_4">
+			<Text>Precolonial Tuareg communities were predominantly rural and nomadic, with a few urban settlers. Today most Tuareg are seminomadic and remain in rural areas. Rural communities range from clusters of six to ten nomadic tents, temporarily camped to follow herds in search of pasture, to semisedentarized hamlets with compounds of tents and adobe houses reflecting the mixed subsistence of herding and gardening, to fully sedentarized hamlets, the inhabitants of which engage primarily in irrigated gardening. In all communities, each tent or compound corresponds to the nuclear household. Each compound is named for the married woman, who owns the nomadic tent, made by elderly female relatives and provided as a dowry, from which she may eject her husband upon divorce. Within compounds in more sedentarized areas, residential structures are diverse: there may be several tents, a few conical grass buildings, and sometimes, among the more well-to-do, an adobe house, built and owned by men. There are thus significant changes taking place in the property balance between men and women as a result of sedentarization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_HEADING_5">
+			<Text>Economy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_TEXT_5">
+			<Text>Traditionally, occupations corresponded to social-stratum affiliation, determined by descent. Nobles controlled the caravan trade, owned most camels, and remained more nomadic, coming into oases only to collect a proportion of the harvest from their client and servile peoples. Tributary groups raided and traded for nobles and also herded smaller livestock, such as goats, in usufruct relationships with nobles. Peoples of varying degrees of client and servile status performed domestic and herding labor for nobles. Smiths manufactured jewelry and household tools and performed praise songs for noble patron families, serving as important oral historians and political intermediaries. Owing to natural disasters and political tensions, it is now increasingly difficult to make a living solely from nomadic stockbreeding. Thus, social stratum, occupation, and socioeconomic status tend to be less coincident. Most rural Tareg today combine subsistence methods, practicing herding, oasis gardening, caravan trading, and migrant labor. Nomadic stockbreeding still confers great prestige, however, and gardening remains stigmatized as a servile occupation. Other careers being pursued in the late twentieth century include creating art for tourists, at which smiths are particularly active, as artisans in towns, and guarding houses, also in the towns. On oases, crops include millet, barley, wheat, maize, onions, tomatoes, and dates.[NEWLINE][NEWLINE]The caravan trade, although today less important than formerly, persists in the region between the Air Mountains and Kano, Nigeria. Men from the Aïr spend five to seven months each year on camel caravans, traveling to Bilma for dates and salt, and then to Kano to trade them for millet and other foodstuffs, household tools, and luxury items such as spices, perfume, and cloth.[NEWLINE][NEWLINE]Most camel herding is still done by men; although women may inherit and own camels, they tend to own and herd more goats, sheep, and donkeys. Caravan trade is exclusively conducted by men. A woman may, however, indirectly participate in the caravan trade by sending her camels with a male relative, who returns with goods for her. Men plant and irrigate gardens, and women harvest the crops. Whereas women may own gardens and date palms, they leave the work of tending them to male relatives.</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_FACTOID_HEADING">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_TUAREG_FACTOID_TEXT ">
+			<Text>Placeholder</Text>
+		</Row>-->
+		<!--Leader Civilopedia-->
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_DESC">
+			<Text>Tin Hinan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_LIVED">
+			<Text>c. 300 AD?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_NAME">
+			<Text>Tin Hinan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_SUBTITLE">
+			<Text>Leader of The Tuareg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_TITLES_1">
+			<Text>Queen of the Hoggar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_TITLES_2">
+			<Text>Tamenokalt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_TEXT_1">
+			<Text>Little is known of Tin Hinan. According to the stories told in the region, Tin Hinan was a "fugitive princess" who lived sometime in the fourth century AD. Driven from the northern parts of the Sahara, she and her caravan of followers, so the stories go, nearly perished in the wilderness until they stumbled upon grain in desert anthills. In other legends less corroborated, Tin Hinan was believed to have been a Muslim of the Braber tribe of Berbers who came from Tafilalt oasis in the Atlas Mountains in the area of modern Morocco accompanied by a maidservant named Takamat. In this legend, Tin Hinan had a daughter (or granddaughter), whose name is Kella, while Takamat had two daughters. These children are said to be the ancestors of the Tuareg of the Ahaggar. Another version is that Tin Hinan had three daughters (who had totemic names referring to desert animals) who were the tribal ancestors. [NEWLINE][NEWLINE]While we do not know much of Tin Hinan, it appears as though she was a real person. In 1925, a tomb belonging to a Tuareg woman who has been identified as Tin Hinan was discovered in what is now southern Algeria, confirming that - at least some - of the legends were true. </Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_FACTOID_HEADING">
+			<Text>Tin Hinan Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_FACTOID_TEXT">
+			<Text>Placeholder</Text>
+		</Row>-->
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_ABALESSA">
+			<Text>Abalessa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_AGHAT">
+			<Text>Aghat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_UBARI">
+			<Text>Ubari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_KIDAL">
+			<Text>Kidal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_ZINDER">
+			<Text>Zinder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_TAHOUA">
+			<Text>Tahoua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_AGADEZ">
+			<Text>Agadez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_ARLIT">
+			<Text>Arlit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_ARAOUANE">
+			<Text>Araouane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_TAMANRASSET">
+			<Text>Tamanrasset</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_INGAL">
+			<Text>Ingal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_TESSAOUA">
+			<Text>Tessaoua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_ABALAK">
+			<Text>Abalak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_ASSODÉ">
+			<Text>Assodé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_IN_SALAH">
+			<Text>In Salah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_MÉNAKA">
+			<Text>Ménaka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_TIMIA">
+			<Text>Timia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_ESSAKANE">
+			<Text>Essakane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_IN_GHAR">
+			<Text>In Ghar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_AGUELHOK">
+			<Text>Aguelhok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_BILMA">
+			<Text>Bilma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_TESSALIT">
+			<Text>Tessalit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_IDLÈS">
+			<Text>Idlès</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_ESSOUK">
+			<Text>Essouk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_TUAREG_TINZAOUATEN">
+			<Text>Tinzaouaten</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

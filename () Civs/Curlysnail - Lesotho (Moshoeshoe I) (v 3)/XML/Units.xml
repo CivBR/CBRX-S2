@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Type>UNIT_CSBULLBLOOD</Type>
+			<Description>TXT_KEY_UNIT_CSBULLBLOOD</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_CSBULLBLOOD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CSBULLBLOOD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CSBULLBLOOD</Help>
+			<Requirements></Requirements>
+			<Combat>24</Combat>
+			<RangedCombat>0</RangedCombat>
+			<Cost>150</Cost>
+			<FaithCost>300</FaithCost>
+			<RequiresFaithPurchaseEnabled>1</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<Immobile>0</Immobile>
+			<Range>0</Range>
+			<BaseSightRange>2</BaseSightRange>
+			<Class>UNITCLASS_MUSKETMAN</Class>
+			<Special></Special>
+			<Capture></Capture>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<CivilianAttackPriority></CivilianAttackPriority>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Food>0</Food>
+			<NoBadGoodies>0</NoBadGoodies>
+			<RivalTerritory>0</RivalTerritory>
+			<MilitarySupport>1</MilitarySupport>
+			<MilitaryProduction>1</MilitaryProduction>
+			<Pillage>1</Pillage>
+			<PillagePrereqTech></PillagePrereqTech>
+			<Found>0</Found>
+			<FoundAbroad>0</FoundAbroad>
+			<CultureBombRadius>0</CultureBombRadius>
+			<GoldenAgeTurns>0</GoldenAgeTurns>
+			<FreePolicies>0</FreePolicies>
+			<OneShotTourism>0</OneShotTourism>
+			<OneShotTourismPercentOthers>0</OneShotTourismPercentOthers>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
+			<PrereqResources>0</PrereqResources>
+			<Mechanized>0</Mechanized>
+			<Suicide>0</Suicide>
+			<CaptureWhileEmbarked>0</CaptureWhileEmbarked>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<HurryCostModifier>0</HurryCostModifier>
+			<AdvancedStartCost>25</AdvancedStartCost>
+			<MinAreaSize>-1</MinAreaSize>
+			<AirInterceptRange>0</AirInterceptRange>
+			<AirUnitCap>0</AirUnitCap>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			<WorkRate>0</WorkRate>
+			<NumFreeTechs>0</NumFreeTechs>
+			<BaseBeakersTurnsToCount>0</BaseBeakersTurnsToCount>
+			<BaseCultureTurnsToCount>0</BaseCultureTurnsToCount>
+			<RushBuilding>0</RushBuilding>
+			<BaseHurry>0</BaseHurry>
+			<HurryMultiplier>0</HurryMultiplier>
+			<BaseGold>0</BaseGold>
+			<NumGoldPerEra>0</NumGoldPerEra>
+			<SpreadReligion>0</SpreadReligion>
+			<RemoveHeresy>0</RemoveHeresy>
+			<ReligionSpreads>0</ReligionSpreads>
+			<ReligiousStrength>0</ReligiousStrength>
+			<FoundReligion>0</FoundReligion>
+			<RequiresEnhancedReligion>0</RequiresEnhancedReligion>
+			<ProhibitsSpread>0</ProhibitsSpread>
+			<CanBuyCityState>0</CanBuyCityState>
+			<CombatLimit>100</CombatLimit>
+			<RangeAttackOnlyInDomain>0</RangeAttackOnlyInDomain>
+			<RangeAttackIgnoreLOS>0</RangeAttackIgnoreLOS>
+			<Trade>0</Trade>
+			<NumExoticGoods>0</NumExoticGoods>
+			<RangedCombatLimit>0</RangedCombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo></SpecialCargo>
+			<DomainCargo></DomainCargo>
+			<Conscription>1</Conscription>
+			<ExtraMaintenanceCost>0</ExtraMaintenanceCost>
+			<NoMaintenance>0</NoMaintenance>
+			<Unhappiness>0</Unhappiness>
+			<UnitArtInfo>ART_DEF_UNIT_U_CSBULLBLOOD</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>0</UnitArtInfoCulturalVariation>
+			<UnitArtInfoEraVariation>0</UnitArtInfoEraVariation>
+			<ProjectPrereq></ProjectPrereq>
+			<SpaceshipProject></SpaceshipProject>
+			<LeaderPromotion></LeaderPromotion>
+			<LeaderExperience>0</LeaderExperience>
+			<DontShowYields>0</DontShowYields>
+			<ShowInPedia>1</ShowInPedia>
+			<MoveRate>HEAVY_BIPED</MoveRate>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CSBULLSBLOOD_ATLAS</IconAtlas>
+			<UnitFlagAtlas>CSLESOTHO_CSBULLBLOODAFLAGATLAS</UnitFlagAtlas>
+		</Row>
+	</Units>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_CSWARCHARMSRANDOM</Type>
+			<Description>TXT_KEY_PROMOTION_CSWARCHARMSRANDOM</Description>
+			<Help>TXT_KEY_PROMOTION_CSWARCHARMSRANDOM_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_CSWARCHARMSRANDOM</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<HasPostCombatPromotions>true</HasPostCombatPromotions>
+		</Row>
+		<Row>
+			<Type>PROMOTION_CSWARCHARMSADJACENT</Type>
+			<Description>TXT_KEY_PROMOTION_CSWARCHARMSADJACENT</Description>
+			<Help>TXT_KEY_PROMOTION_CSWARCHARMSADJACENT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_CSWARCHARMSADJACENT</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AdjacentMod>15</AdjacentMod>
+		</Row>
+		<Row>
+			<Type>PROMOTION_CSWACHARMSHILLSK</Type>
+			<Description>TXT_KEY_PROMOTION_CSWACHARMSHILLSK</Description>
+			<Help>TXT_KEY_PROMOTION_CSWACHARMSHILLSK_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_CSWACHARMSHILLSK</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<HillsAttack>15</HillsAttack>
+		</Row>
+		<Row>
+			<Type>PROMOTION_CSWARCHARMSBEST</Type>
+			<Description>TXT_KEY_PROMOTION_CSWARCHARMSBEST</Description>
+			<Help>TXT_KEY_PROMOTION_CSWARCHARMSBEST_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_CSWARCHARMSBEST</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<HillsAttack>15</HillsAttack>
+			<AdjacentMod>15</AdjacentMod>
+		</Row>
+		<Row>
+			<Type>PROMOTION_CSWARCHARMSNONE</Type>
+			<Description>TXT_KEY_PROMOTION_CSWARCHARMSNONE</Description>
+			<Help>TXT_KEY_PROMOTION_CSWARCHARMSNONE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_CSWARCHARMSNONE</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_CSWARCHARMSRANDOM</Tag>
+			<Text>War Charms Random</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_CSWARCHARMSRANDOM_HELP</Tag>
+			<Text>Recive a unique War Charm promotion after this unit enters combat for the first time.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_CSWARCHARMSADJACENT</Tag>
+			<Text>War Charms Adjacent Bonus</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_CSWARCHARMSADJACENT_HELP</Tag>
+			<Text>15% Combat bonus when fighting adjacent to a friendly unit.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_CSWACHARMSHILLSK</Tag>
+			<Text>War Charms Hills Bonus</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_CSWACHARMSHILLSK_HELP</Tag>
+			<Text>15% Combat bonus when fighting on hills.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_CSWARCHARMSBEST</Tag>
+			<Text>Combined War Charms</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_CSWARCHARMSBEST_HELP</Tag>
+			<Text>15% Combat bonus when fighting adjacent to a friendly unit and a 15% Combat bonus when fighting on hills.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_CSWARCHARMSNONE</Tag>
+			<Text>No War Charms</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_CSWARCHARMSNONE_HELP</Tag>
+			<Text>This unit recives no bonuses.</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<UnitPromotions_PostCombatRandomPromotion>
+		<Row>
+			<PromotionType>PROMOTION_CSWARCHARMSRANDOM</PromotionType>
+			<NewPromotion>PROMOTION_CSWARCHARMSADJACENT</NewPromotion>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_CSWARCHARMSRANDOM</PromotionType>
+			<NewPromotion>PROMOTION_CSWACHARMSHILLSK</NewPromotion>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_CSWARCHARMSRANDOM</PromotionType>
+			<NewPromotion>PROMOTION_CSWARCHARMSBEST</NewPromotion>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_CSWARCHARMSRANDOM</PromotionType>
+			<NewPromotion>PROMOTION_CSWARCHARMSNONE</NewPromotion>
+		</Row>
+	</UnitPromotions_PostCombatRandomPromotion>
+
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_CSBULLBLOOD</UnitType>
+			<PromotionType>PROMOTION_CSWARCHARMSRANDOM</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_CSBULLBLOOD</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CSBULLBLOOD</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<!-- Unit_Buildings -->
+	<!-- Unit_BuildingClassRequireds -->
+	<!-- Unit_ProductionModifierBuildings -->
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_CSBULLBLOOD</UnitType>
+			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<!-- Unit_FreePromotions -->
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_CSBULLBLOOD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CSBULLBLOOD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<!-- Unit_GreatPersons -->
+	<!-- Unit_UniqueNames -->
+	<!-- Unit_YieldFromKills -->
+	<!-- Unit_NotAITypes -->
+	<!-- Unit_ProductionTraits -->
+	<!-- Unit_TechTypes -->
+	<!-- UnitPromotions_CivilianUnitType -->
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_CSBULLBLOOD</UnitType>
+			<SelectionSound>AS2D_SELECT_SWORDSMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SWORDSMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_CSBULLBLOOD">
+			<Text>Bulls Blood Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_CSBULLBLOOD_TEXT">
+			<Text>
+				"In time of war the men undergo a treatment supposed to communicate stregth and bravery to them. A bull is thrown to the groudn, its foreleg cut off... The meat, after being anointed with charms, is given to the warriors, who are also sprinkled with the blood of the bull" - H. E. Mabille, The Basuto of Basutoland (Oxford, 1906).
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CSBULLBLOOD_STRATEGY">
+			<Text>A Musketman replacement that ains a unique 'War Charm' promotion after entering combat for the first time. A 1 in 4 chance of either- A combat bonus adjacent to friendly units, a combat bonus fighting in hills, both of these bonuses, or nothing!
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CSBULLBLOOD">
+			<Text>Lesotho's Musketman replacement. Gains a random unique promotion the first time it enters combat.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

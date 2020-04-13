@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/27/2014 1:02:22 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CRANNOG</Type>
+			<BuildingClass>BUILDINGCLASS_HARBOR</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_CRANNOG_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CRANNOG_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CRANNOG_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CRANNOG_STRATEGY</Strategy>
+			<ArtDefineTag>HARBOR</ArtDefineTag>
+			<Water>true</Water>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ArtInfoEraVariation>true</ArtInfoEraVariation>
+			<DisplayPosition>16</DisplayPosition>
+			<AllowsWaterRoutes>true</AllowsWaterRoutes>
+			<TradeRouteSeaDistanceModifier>50</TradeRouteSeaDistanceModifier>
+			<TradeRouteSeaGoldBonus>100</TradeRouteSeaGoldBonus>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>300</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<IconAtlas>CRANNOG_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CRANNOG</BuildingType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRANNOG</BuildingType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRANNOG</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRANNOG</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRANNOG</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CRANNOG</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	
+</GameData>

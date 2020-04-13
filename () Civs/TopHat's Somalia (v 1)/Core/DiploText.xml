@@ -1,0 +1,79 @@
+<GameData>
+    <Language_en_US>
+        <!-- First Greeting -->
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_FIRSTGREETING_1">
+            <Text>Greetings! I am Mohamed Siad Barre, the man who brought freedom and prosperity to the Somali peoples.</Text>
+        </Row>
+
+        <!-- Defeated -->
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_DEFEATED_1">
+            <Text>If I must leave Somalia, I will leave buildings but not people.</Text>
+        </Row>
+
+        <!-- Diplomacy: Wars, Denunciatios, and DoF -->
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_ATTACKED_GENERIC_1">
+            <Text>God has created man and has given him the faculty of mind to choose between good and bad, between virtue and vice. It is a shame that you seem to prefer vice.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_DEC_FRIENDSHIP_1">
+            <Text>There are but few in the world who understand justice and virtue, but you seem to be one of them. Would you care to make a public Declaration of Friendship?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_DENOUNCE_1">
+            <Text>I shall respect an individual as long as he deserves respect, but if he turns away from the correct path, then that is not my business.[NEWLINE][NEWLINE] ([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_DOW_GENERIC_1">
+            <Text>All the people you have enslaved must become free. This is history, and no one can prevent the sunshine from reaching us.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_EXPANSION_SERIOUS_WARNING_1">
+            <Text>Some of the colonizers quickly retreat, while some, because they are stupid, continue colonizing others, increasing the world's suffering, deaths, and humiliation. Your expansion suggests that you are of the second sort.</Text>
+        </Row>
+
+        <!-- Greetings -->
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_GREETING_AT_WAR_HOSTILE_1">
+            <Text>Have you come to plead for mercy, colonizer?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_GREETING_POLITE_HELLO_1">
+            <Text>It is always a pleasure to meet with an ally in the struggle.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_GREETING_NEUTRAL_HELLO_1">
+            <Text>Ah, welcome back. I see you enjoy witnessing the freedom of the Somali.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_GREETING_HOSTILE_HELLO_1">
+            <Text>Why are you here? I cannot imagine you wish to engage in a productive dialogue.</Text>
+        </Row>
+
+        <!-- Misc -->
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+            <Text>Do you think your army's grandstanding intimidates me? I have an army of my own, you know, and it is without peer.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_LETS_HEAR_IT_1">
+            <Text>What would you have of us?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_LOSEWAR_1">
+            <Text>This embarrassing result proves, once more, that the Somali fight for justice is an uphill battle against a hostile international community.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_LUXURY_TRADE_1">
+            <Text>We have broken the chain of a consumer economy based on imports, but for goods like yours, we may have to make an exception.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_NO_PEACE_1">
+            <Text>There can be no peace until I have made you understand that Somalia cannot, and will not, be led by other people.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_OPEN_BORDERS_EXCHANGE">
+            <Text>I did not come to power to divide the Somali but to unite them, and I will never deviate from this path. Our peoples must be free to travel and intermingle.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_REPEAT_NO_1">
+            <Text>The Somali people will not be exploited.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_RESPONSE_REQUEST_1">
+            <Text>In Somalia, we have chosen social justice instead of exploitation of man by man. These times have forced me to call for help; I hope you will make the same choice that we did.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_RESPONSE_TO_BEING_DENOUNCED_1">
+            <Text>Verbal rebukes mean nothing to me. I came to power with a gun; only the gun can make me go.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_TOO_SOON_NO_PEACE_1">
+            <Text>It is wise for a colonizer to retreat quickly, but you have shown wisdom too late. First you must pay for your misdeeds.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_SIAD_BARRE_WINWAR_1">
+            <Text>Another step towards realizing the interests of the Somali people and their achievement of a better life.</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

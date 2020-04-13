@@ -1,0 +1,79 @@
+<GameData>
+<Language_en_US>
+<!-- First Greeting -->
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_FIRSTGREETING_1">
+    <Text>Welcome to the lands of the Herero and the Namaqua! Forgive me if I'm inattentive - I've got a lot of business to attend to.</Text>
+</Row>
+
+<!-- Defeated -->
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_DEFEATED_1">
+    <Text>This is only a temporary setback. I'll be back before long!</Text>
+</Row>
+
+<!-- Diplomacy: Wars, Denunciatios, and DoF -->
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_ATTACKED_GENERIC_1">
+    <Text>I doubt you are prepared for the fury you have unleashed.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_DEC_FRIENDSHIP_1">
+    <Text>It's a bloody world, and I'll take my friends where I can get them. Would you be interested in a public Declaration of Friendship?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_DENOUNCE_1">
+    <Text>I have endured enough from you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_DOW_GENERIC_1">
+    <Text>The combined fury of the Herero and Namaqua will come roaring upon you.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_EXPANSION_SERIOUS_WARNING_1">
+    <Text>If you encroach upon my lands, it can only end badly for you.</Text>
+</Row>
+
+<!-- Greetings -->
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_GREETING_AT_WAR_HOSTILE_1">
+    <Text>You've come crawling to me? Give me a reason I shouldn't slaughter you on the spot.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_GREETING_POLITE_HELLO_1">
+    <Text>Oh, it's you! Always a welcome sight.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_GREETING_NEUTRAL_HELLO_1">
+    <Text>Hello there! Come get out of the sun.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_GREETING_HOSTILE_HELLO_1">
+    <Text>Oh. I see you're here again.</Text>
+</Row>
+
+<!-- Misc -->
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+    <Text>Your soldiers have become reckless. If you do not redeploy them, I might become reckless as well.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_LETS_HEAR_IT_1">
+    <Text>What have you got for me?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_LOSEWAR_1">
+    <Text>I'm not defeated yet! I just need to rally my men and make a new plan...</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_LUXURY_TRADE_1">
+    <Text>I'd like to purchase these luxuries you're sporting. My armies need some morale.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_NO_PEACE_1">
+    <Text>There can be no reconciliation between us.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_OPEN_BORDERS_EXCHANGE">
+    <Text>My men tire of walking the desert; could we perhaps sojourn into your lands?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_REPEAT_NO_1">
+    <Text>Now you just insult me.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_RESPONSE_REQUEST_1">
+    <Text>The times have not been kind to my people. If you have anything to spare, we would appreciate it.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_RESPONSE_TO_BEING_DENOUNCED_1">
+    <Text>I will weather any amount of scorn for my cause.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_TOO_SOON_NO_PEACE_1">
+    <Text>Coward! The fight is just beginning.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MORENGA_WINWAR_1">
+    <Text>My people can now be free. I do not take this victory lightly.</Text>
+</Row>
+</Language_en_US>
+</GameData>

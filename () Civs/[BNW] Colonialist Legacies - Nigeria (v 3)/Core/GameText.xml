@@ -1,0 +1,318 @@
+﻿<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_01">
+			<Text>Lagos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_02">
+			<Text>Ibadan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_03">
+			<Text>Abuja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_04">
+			<Text>Kano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_05">
+			<Text>Kaduna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_06">
+			<Text>Zaria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_07">
+			<Text>Aba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_08">
+			<Text>Warri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_09">
+			<Text>Jos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_10">
+			<Text>Port Harcourt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_11">
+			<Text>Benin City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_12">
+			<Text>Ife</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_13">
+			<Text>Sokoto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_14">
+			<Text>Umuahia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_15">
+			<Text>Ogbomosho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_16">
+			<Text>Calabar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_17">
+			<Text>Uyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_18">
+			<Text>Bauchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_19">
+			<Text>Oyo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_20">
+			<Text>Enungu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_21">
+			<Text>Katsina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_22">
+			<Text>Minna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_23">
+			<Text>Abeokuta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_24">
+			<Text>Onitsha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_25">
+			<Text>Osogbo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_26">
+			<Text>Ikot Ekpene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_27">
+			<Text>Damaturu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_28">
+			<Text>Ondo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_29">
+			<Text>Ilesa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_30">
+			<Text>Yola</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_NIGERIA_31">
+			<Text>Gombe</Text>
+		</Row>
+
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_CL_NIGERIA_0">
+			<Text>Chiwetel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_NIGERIA_1">
+			<Text>Adewale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_NIGERIA_2">
+			<Text>Boyega</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_NIGERIA_3">
+			<Text>Hadiza</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_NIGERIA_4">
+			<Text>Kebe</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_NIGERIA_5">
+			<Text>Temitope</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_NIGERIA_6">
+			<Text>Kingsley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_NIGERIA_7">
+			<Text>Ifeanyi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_NIGERIA_8">
+			<Text>Monday</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_NIGERIA_9">
+			<Text>Nnamdi</Text>
+		</Row>
+
+		<!--Demonyms-->
+		<Row Tag="TXT_KEY_CIV_CL_NIGERIA_ADJECTIVE">
+			<Text>Nigerian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CL_NIGERIA_DESC">
+			<Text>Republic of Nigeria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CL_NIGERIA_SHORT_DESC">
+			<Text>Nigeria</Text>
+		</Row>
+
+		<!--DoM-->
+		<Row Tag="TXT_KEY_CIV5_DOM_CL_AWOLOWO_TEXT">
+			<Text>Blessings and long life unto you, Obafemi Awolowo, the great moderniser of Nigeria, the man who believed in the Nigerian people! You knew that the route to Nigerian emancipation was through education and modernisation, that to become as great a nation as the people deserved they must strive and keep on striving, for freedom and for prosperity and for a country befitting the heritage of the Hausa empires! With boldness in your heart and history on your mind, you founded newspapers, built television stations, ran for government, made education and healthcare free, oh, mighty Awolowo, your triumphs go on![NEWLINE][NEWLINE]But now, Leader of the Yorubas, you must triumph again. Your people are free, and you must see that they remain so. Can you guide them to learning and happiness as you once did? Can you see them to the safety and prosperity they deserve? Can you build a Civilization that will stand the test of time?</Text>
+		</Row>
+
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_TEXT_1">
+			<Text>Nigeria is a major power in today’s Africa, bolstered by an extremely rapidly growing population and bountiful oil reserves.  Defined by its multiculturalism, Nigeria is also home to a vibrant and growing cultural scene.  Once a British colony, Nigeria became independent in the 1960s and, after struggling under various military dictatorships, is poised to shape the 21st Century in Africa.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_TEXT_2">
+			<Text>Nigeria has an expansive and diverse landscape, the 32nd largest state in the world.  The south is characterized by tropical rainforest.  This region can be further subdivided into a plateau in the southeast, mangrove swamps and coastal plains.  North of the forests are savannah, and further north are highlands.  Nigeria is crossed by the Niger and Benue rivers, flowing from the north to converge in the Niger Delta, emptying into the Atlantic Ocean.  Population growth, industrialization and oil exploitation have had serious environmental consequences for Nigeria, such as deforestation, soil degradation, oil spills and the impending threat of global warming.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_HEADING_3">
+			<Text>Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_TEXT_3">
+			<Text>Archaeologists have traced human existence in Nigeria as far back as 11,000 BCE. Some of the first states in the region were established by the Hausa people, one of the four major ethnic groups of the modern state of Nigeria.  According to legend, these seven states were founded by the sons of mythical king Bayajidda.  These states are said to have specialized and coordinated their production with what was most efficient, so that they could trade with the others for what they needed themselves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_HEADING_4">
+			<Text>Precolonial Kingdoms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_TEXT_4">
+			<Text>The Hausa states persisted for a very long time – they lasted until the 1800s, when they were overrun by neighboring Fulani, despite their economic strength, and folded into the Sokoto Caliphate.  Hausaland was a persistent trading partner of other large states in the West Africa region, like Mali and Kanem Bornu.[NEWLINE][NEWLINE]Yoruba and Igbo peoples also established prominent states.  The Yoruba established many city states, including the famed Ife.  The Igbo kingdom of Nri, descended from the mythical patriarch Eri, may have ruled Igbo lands as far back as the 800s.  Their theocratic dominance of the area continued for centuries, into the 15th and 16th centuries.  Other prominent states with territory in and around Nigeria include Benin and Oyo.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_HEADING_5">
+			<Text>The Arrival of Europe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_TEXT_5">
+			<Text>Nigerian people have always been connected to a wide network of Western African trade routes, reaching to the North African coast.  The first Europeans to arrive in the area were Spanish and Portuguese traders, around the 1500s.  They traded with many peoples at the coast, and, inevitably, contributed to the start and spread of the Atlantic slave trade.  The primary ports of slave trade were Calabar, Lagos and  Bonny Island, in the Bight of Biafra.  Calabar was notorious as one of the largest slaving ports in the region.[NEWLINE][NEWLINE]Slaves were usually prisoners of war, sold as commodities.  Many states participated in the slave trade, including the inland Sokoto – they were estimated to have the largest slave population in the world around 1890.  The slave trade shaped the economy and politics of these kingdoms.  Slaves become the most profitable economic activity, and that required war, and thus political turmoil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_HEADING_6">
+			<Text>Colonial Nigeria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_TEXT_6">
+			<Text>As Spanish and Portuguese influence in Europe waned in favor of the British, so it did in Western Africa.  British became the dominant purchaser of slaves in the 1700s, and established its settler colonies in Sierra Leone.  In 1807, the British Empire banned the slave trade for all subjects.  This sudden vacuum in the market caused an economic implosion in West Africa (and elsewhere).  Slaving had come to dominate the economy in these regions, and the economic void caused collapse.[NEWLINE][NEWLINE]The British first formally conquered Nigerian territory in 1850, when they took the port of Lagos, ostensibly as part of an anti-slaving campaign.  Trade was the primary purpose of the colony, attracting merchants from all over the world.  After the Berlin Conference in 1884, Britain expanded its West African holdings with the Oil Rivers Protectorate, extending across much of modern Nigeria.  The Royal Niger Company gained a virtual monopoly over trade along the Niger River.[NEWLINE][NEWLINE]Britain expanded its territory through military action as well, using its superior technology to wipe out its opponents and intimidate others into being absorbed, including Sokoto. Plans to shift to direct control by the British crown were implemented around 1900.  Nigerian nationalism began to rise in the decades after this, especially during the World Wars.  In the 1950s, British constitutions began to edge more toward self-governance.  By 1960, Whitehall granted Nigeria full independence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_HEADING_7">
+			<Text>Nigerian Independence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_TEXT_7">
+			<Text>Nigeria began with a federal government and parliamentary system.  Political parties generally aligned with the three biggest ethnic groups, the Fulani, Yoruba and Igbo.  Yoruba leader Obafemi Awolowo did not win a majority in the legislature, but led a strong opposition movement.[NEWLINE][NEWLINE]Nigeria became a republic soon after, in 1963.  Nnamdi Azikiwe, formerly a journalist, writer and politician, and a key figure in Nigerian nationalism, was the first President.   The primary challenge to Nigerian governance was the disparities between regions and therefore ethnicities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_HEADING_8">
+			<Text>Military Dictatorships</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_TEXT_8">
+			<Text>These struggles with internal politics defined the first few decades on Nigerian independence, which were largely unstable and chaotic.  The first in a series of military governments took over in 1966.  A coup took place in that year, when rebel soldiers assassinated several politicians.  Then, General Johnson Aguiyi-Ironsi used this chaos as a pretext to seize power.  The situation deteriorated further in the next year, when the Republic of Biafra declared independence, leading to a multi-year civil war.  After the war’s end in 1970, the country turned its policy focus on to economic development, which was aided by the increasing price of oil in the 1970s.[NEWLINE][NEWLINE]This military government ended in 1977 with the founding of the Second Republic, which lasted until 1983.  The Second Republic presided over economic development, especially in the wake of oil shocks due to political chaos in the Middle East.  However, the elections of 1983 were marred by fraud and violence of their own, leading to another military takeover.  This second military government was overthrown from within, by General Ibrahim Babangida in 1985, citing abuse of power and human rights violations.[NEWLINE][NEWLINE]This government promised to restore civilian rule by 1990, then 1993.  That year saw what was believed to be a very fair election, where Yoruba businessman M.K.O. Abiola was the frontrunner.  Whoever, Babangida annulled the election through the courts.  In the ensuring crisis of legitimacy, power shifted to nonpartisan businessman Ernest Shonekan. Governing over a splintered nation and a declining economy, Shonekan quickly handed over power to Defense Minister Sani Abacha, who died in 1998.  Then, power was transferred to General Abdulsalami Abubakar, who finally fulfilled Babangida’s promise to transition to civilian rule in 1999.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_HEADING_9">
+			<Text>Present</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_TEXT_9">
+			<Text>Nigeria today is the most populous country in Africa and the seventh most populous in the world, with 182 million people.  Today’s Nigeria, with a newly built capital in Abuja, has recently entered its first period of stable democracy accompanied by fair elections, known as the Fourth Republic.  Corruption is still an issue, as are cultural tensions.  This is exemplified in the campaigns of Boko Haram, a militant Islamist group operating in the north of Nigeria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_FACTOID_HEADING">
+			<Text>Nigerian Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_NIGERIA_FACTOID_TEXT">
+			<Text>Nigeria’s burgeoning film industry is the third most profitable in the world, behind its Indian and American counterparts, but produces more films than the Indian industry. It is nicknamed Nollywood.[NEWLINE][NEWLINE]While Nigeria has three major ethnicities, it is home to more than 250 different groups.[NEWLINE][NEWLINE]Nigeria’s oil industry is the largest in Africa and the tenth largest in the world.</Text>
+		</Row>
+
+		<!--Leader-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CL_AWOLOWO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CL_AWOLOWO_TEXT_1">
+			<Text>Obafemi Awolowo was a Nigerian Yoruba man who played many roles in the run-up to the independence of Nigeria.  A teacher, journalist, attorney, and nationalist politician, Awolowo was a constant contender for the Nigerian presidency in the years of the First and Second Republics, although he never held the office.  Indeed, the most significant office he held was Premier of the Western Nigeria region, and nationwide opposition leader soon after.  Despite this lack of formal leadership, he was the first individual to be named Leader of the Yorubas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CL_AWOLOWO_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CL_AWOLOWO_TEXT_2">
+			<Text>Born in 1909 in what is now the Ogun State in southwestern Nigeria, Awolowo’s father died when he was just a boy.  After years of schooling he became a teacher, a clerk, and a journalist for the Nigerian Times newspaper.  After a stint in business, Awolowo had enough money to travel to the University of London, where he studied commerce and law.  After returning to Nigeria, Awolowo founded the Nigerian Tribune, which still publishes to this day.[NEWLINE][NEWLINE]Awolowo is noted for being one of the first and most prominent Nigerian federalists, and for creating an early political party, the Action Group.  In his work Path to Nigerian Freedom, Awolowo advocated for a federalist system as the only way to fairly and justly govern an independent nation as ethnically diverse as Nigeria.  His works would go on to influence the proposed[NEWLINE][NEWLINE]Eventually, Awolowo was elected to head the Western Region of Nigeria, still then a British colony that was progressively gaining independence.  A social democrat, he was responsible for that region’s self-governance, and was the first to move in the Parliament for Nigerian independence. He also successfully developed the city of Ibadan, then the largest city in Nigeria, fostering an impressive civil service sector, creating Africa’s first skyscraper, stadium, and television station  Although Awolowo never led independent Nigeria, he did serve as the leader of the opposition in its early days.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CL_AWOLOWO_HEADING_3">
+			<Text>Judgment of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CL_AWOLOWO_TEXT_3">
+			<Text>Obafemi Awolowo remains a controversial figure, particularly among Hausa and Igbo.  In particular, Awolowo‘s legacy is more combative and less unifying than that of Nnamdi Azikiwe, who fit more traditionally into a role of a national founding father.  His followers appreciated his integrity, alongside his strong, although never unprincipled, opposition politics.  As his epithet Leader of the Yorubas suggests, not all of Nigeria’s peoples may view him in the same regard. His writings live on, and so does his legacy, in the form of a foundation in his name, which seeks to encourage development of the Nigerian nation through public policy and academics.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CL_AWOLOWO_LIVED">
+			<Text>1909 - 1987</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CL_AWOLOWO_NAME">
+			<Text>Obafemi Awolowo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CL_AWOLOWO_SUBTITLE">
+			<Text>Leader of the Yorubas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_AWOLOWO">
+			<Text>Awolowo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CL_AWOLOWO_TITLES_1">
+			<Text>Leader of the Yorubas, Premier of Western Nigeria</Text>
+		</Row>
+
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_CL_NIGERIA_SHORT">
+			<Text>Giant of Africa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CL_NIGERIA">
+			<Text>Gain a boost to [ICON_FOOD] Food and [ICON_PEACE] Faith equal to the amount of Citizens in a City whenever a Citizen is born in that city. Upon discovering Biology, uncleared Marsh tiles within Nigerian territory have the chance to become Oil.</Text>
+		</Row>
+
+		<!--Unique Units-->
+		<Row Tag="TXT_KEY_UNIT_CL_YAN_LIFIDA">
+			<Text>Yan Lifida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CL_YAN_LIFIDA_STRATEGY">
+			<Text>Somewhat more expensive that the Knight it replaces, the Yan Lifida starts with Cover I. It also gains the unique promotion “Wars of Kanajeji” which allows the Yan Lifida to increase City Growth when garrisoned in a City based on the number of Promotions it has received. Can be bought for Faith cheaper with Holy Warriors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CL_YAN_LIFIDA_HELP">
+			<Text>Somewhat more expensive that the Knight it replaces, the Yan Lifida starts with Cover I. It also gains the unique promotion “Wars of Kanajeji” which allows the Yan Lifida to increase City Growth when garrisoned in a City based on the number of Promotions it has received. Can be bought for Faith cheaper with Holy Warriors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CIV5_CL_YAN_LIFIDA_TEXT">
+			<Text>The yan lifida are a military organization dating back to the Sultanate of Kano, and were initially formed by Kanajeji at cross-purposes to their later use. Under him, they were a roving task force dedicated to removing Islam from the Sultanate and restoring the traditional Hausa animist faith to prominence, but later they were in service of Muslim sultans and adjusted their priorities accordingly. The name comes from the bantan lifidi, a kind of quilted cotton leg-guard stuffed with capok worn to protect the rider and horse at the same time like an elaborate skirt. During the Sokoto Caliphate era, tiny cylinders of paper and parchment inscribed with prayers were inserted into the armour itself. The armour type is still worn to this day, though it is largely confined to a ceremonial role.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CL_UGBOELU">
+			<Text>Ugboelu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CL_UGBOELU_STRATEGY">
+			<Text>Replacing the Fighter, the Ugboelu gains +10% Combat Strength for each Declaration of Friendship (Maximum of 50%). Begins with Bombardment I.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CL_UGBOELU_HELP">
+			<Text>Replacing the Fighter, the Ugboelu gains +10% Combat Strength for each Declaration of Friendship (Maximum of 50%). Begins with Bombardment I.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CIV5_CL_UGBOELU_TEXT">
+			<Text>The history of the Nigerian Air Force’s inception is a fascinating one, though the word ugboelu only rarely features in it - it being simply the Igbo word for fighter jet. During Nigerian-headed peacekeeping operations in what was then Tanganyika, there developed a pressing need for reliable air transport not provided by the Nigerians’ former colonial masters. Thus, they began to recruit pilots, with the first few being trained by the Egyptian Air Force. Over the course of the Cold War, Nigeria effectively played both sides against the middle, with Communist states and Western powers alike sending aircraft, providing training, and building the requisite infrastructure to the point where the NAF is now one of the largest dedicated air forces in Africa.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BUILDING_CL_YAN_LIFIDA">
+			<Text>CL: Ugboelu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BUILDING_CL_YAN_LIFIDA_HELP">
+			<Text>Increases Growth.</Text>
+		</Row>
+		
+		<!--Promotions-->
+		<Row Tag="TXT_KEY_PROMOTION_CL_KANAJEJI">
+			<Text>Wars of Kanajeji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_KANAJEJI_HELP">
+			<Text>Increases Growth when stationed in a city based on the number of Promotions received.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CL_KANAJEJI">
+			<Text>Increases Growth when stationed in a city based on the number of Promotions received.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_CL_UGBOELU_STRENGTH">
+			<Text>Ugboelu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UGBOELU_STRENGTH_1_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UGBOELU_STRENGTH_2_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UGBOELU_STRENGTH_3_HELP">
+			<Text>+30% [ICON_STRENGTH] Combat Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UGBOELU_STRENGTH_4_HELP">
+			<Text>+40% [ICON_STRENGTH] Combat Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CL_UGBOELU_STRENGTH_5_HELP">
+			<Text>+50% [ICON_STRENGTH] Combat Strength</Text>
+		</Row>
+		
+	</Language_en_US>
+</GameData>

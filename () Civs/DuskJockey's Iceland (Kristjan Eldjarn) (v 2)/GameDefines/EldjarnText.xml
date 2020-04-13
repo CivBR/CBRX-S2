@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/27/2019 6:31:57 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Iceland-->
+		<Row Tag="TXT_KEY_CIV_DJ_ICELAND_DESC">
+			<Text>Icelandic Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TEXT_1">
+			<Text>Lying on the constantly active geologic border between North America and Europe, Iceland is a land of vivid contrasts of climate, geography, and culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TEXT_2">
+			<Text>Iceland's rugged coastline of more than 4,800 kilometers meets the Greenland Sea on the north, the Norwegian Sea on the east, the Atlantic Ocean on the south and west, and the Denmark Strait—which separates it from Greenland by about 320 km—on the northwest.[NEWLINE][NEWLINE]Temperatures do not vary much throughout the country. The mean annual temperature for Reykjavík is 4 degrees Celsius. The mean January temperature is −0.5 degrees Celsius, and the mean July temperature is 11 degrees Celsius. Snow falls about 100 days per year in the northwest, about 40 in the southeast. Annual precipitation ranges from 410 mm on some high northern plateaus to more than 4,100 mm on the southern slopes of some ice-capped mountains. In the south it averages about 2,000 mm. Gales are frequent, especially in winter, and occasionally heavy fog may occur, but thunderstorms are rare. Although winters are fairly dark, Reykjavík averages nearly 1,300 hours of bright sunshine a year. Often the aurora borealis is visible, especially in fall and early winter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_HEADING_3">
+			<Text>Settlement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TEXT_3">
+			<Text>Iceland apparently has no prehistory. According to stories written down some 250 years after the event, the country was discovered and settled by Norse people in the Viking Age. The oldest source, Íslendingabók (The Book of the Icelanders), written about 1130, sets the period of settlement at about AD 870–930. The other main source, Landnámabók (The Book of Settlements), of 12th-century origin but known only in later versions, states explicitly that the first permanent settler, Ingólfr Arnarson, came from Norway to Iceland to settle in the year 874. He chose as his homestead a site that he named Reykjavík, which he farmed with his wife, Hallveig Fródadóttir. The Book of Settlements then enumerates more than 400 settlers who sailed with their families, servants, and slaves to Iceland to stake claims to land. Most of the settlers came from Norway, but some came from other Nordic countries and from the Norse Viking Age settlements in the British Isles.[NEWLINE][NEWLINE]Although the island was not populated until the Viking Age, Iceland probably had been known to people long before that time. The 4th-century-BC Greek explorer Pytheas of Massalia (Marseille) described a northern country that he called Thule, located six days' sailing distance north of Britain. In the 8th century Irish hermits who had begun to sail to Iceland in search of solitude also called the island Thule. It is unknown, however, if Pytheas and the hermits were describing the same island. According to the early Icelandic sources, some Irish monks were living in Iceland when the Nordic settlers arrived, but the monks soon left because they were unwilling to share the country with heathens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_HEADING_4">
+			<Text>Commonwealth and Christianization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TEXT_4">
+			<Text>By the end of the settlement period, a general Icelandic assembly, called the Althing, had been established and was held at midsummer on a site that came to be called Thingvellir. This assembly consisted of a law council (lögrétta), in which the godar, or chieftains, made and amended the laws, and a system of courts of justice, in which householders, nominated by the godar, acted on the panels of judges. At the local level, three godar usually held a joint assembly in late spring at which a local court operated, again with judges nominated by the godar. All farmers were legally obliged to belong to a chieftaincy (godord) but theoretically were free to change their allegiance from one godi to another; the godar were allotted a corresponding right to expel a follower. Some scholars have seen in this arrangement a resemblance to the franchise in modern societies. On the other hand, there was no central authority to ensure that the farmers would be able to exercise their right in a democratic way. No one was vested with executive power over the country as a whole. In any case, no trace of democratic practice reached farther down the social scale than to the heads of farming households; women and workers (free or enslaved) had no role in the political system.[NEWLINE][NEWLINE]By the end of the 10th century, the Norwegians were forced by their king, Olaf I Tryggvason, to accept Christianity. The king also sent missionaries to Iceland who, according to 12th-century sources, were highly successful in converting the Icelanders. In 999 or 1000 the Althing made a peaceful decision that all Icelanders should become Christians. In spite of this decision, the godar retained their political role, and many of them probably built their own churches. Some were ordained, and as a group they seem to have closely controlled the organization of the new religion. Two bishoprics were established, one at Skálholt in 1056 and the other at Hólar in 1106. Literate Christian culture also transformed lay life. Codification of the law was begun in 1117–18. Later the Icelanders began to write sagas, which were to reach their pinnacle of literary achievement in the next century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_HEADING_5">
+			<Text>Iceland under Foreign Rule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TEXT_5">
+			<Text>To a large extent, Iceland was ruled separately from Norway. It had its own law code, and the Althing continued to be held at Thingvellir, though mainly as a court of justice. Most of the royal officials who succeeded the chieftains were Icelanders. In 1380 the Norwegian monarchy entered into a union with the Danish crown, but that change did not affect Iceland's status within the realm as a personal skattland ("tax land") of the crown.[NEWLINE][NEWLINE]In spite of the rise of a profitable export industry in the form of dried fish, it is generally believed that Iceland's economy deteriorated in the late Middle Ages. The birchwood that had covered great parts of the country was gradually depleted, in part because it was excellent for making charcoal. The destruction of the woodland, together with heavy grazing, led to extensive soil erosion. The climate also became more severe, and grain growing was given up altogether. At the same time, more and more of the land was acquired by ecclesiastical institutions and wealthy individuals, to whom the farmers had to pay rent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_HEADING_6">
+			<Text>Danish Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TEXT_6">
+			<Text>TThe Danish crown increased its hold on Iceland on the constitutional level as well—at least in formal terms. In 1661 Frederick III introduced an absolute monarchy in Denmark and Norway, and in the following year his absolutism was acknowledged in Iceland. This event was not of any great immediate significance in Iceland; local officials, most of whom were Icelanders, continued to make important political decisions. Danish officials in Copenhagen rarely had enough knowledge of or interest in Icelandic affairs to enforce their will if the Icelandic officials were unanimous on a different policy.[NEWLINE][NEWLINE]Nevertheless, the bureaucratic state, which formed the backbone of absolutism, was gradually introduced into Iceland. An essential part of that development was the emergence of a town nucleus in Reykjavík, the first one in this hitherto entirely rural country. In the 1750s a tiny village grew up in Reykjavík as a result of a semiofficial attempt to start a wool-processing factory there. Within half a century the two ancient bishoprics were united, with the bishop residing in Reykjavík. The Althing was abolished in 1800, and an appeals court was set up in Reykjavík to succeed it. A few years later the Danish governor also settled in the town, which by then had about 300 inhabitants.[NEWLINE][NEWLINE]The 18th century was a period of decline and increasing poverty in Iceland. Famine—caused by a volcanic eruption and subsequent years of cold weather—plagued the country in the 1780s and killed one-fifth of the population. However, these hardships bred little criticism in Iceland of the country’s status within the Danish realm. In 1809 Danish adventurer Jørgen Jørgensen seized power in Iceland for two months. When he was removed and Danish power restored, he received no support from the Icelandic population. Five years later, when Norway was severed from the Danish monarchy and given much greater autonomy under the Swedish crown, there was no push in Iceland to demand the same from Denmark.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_HEADING_7">
+			<Text>Struggle for Independence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TEXT_7">
+			<Text>In the 1830s Iceland was allotted two seats at a new consultative assembly for the Danish Isles established at Roskilde, Denmark. This arrangement kindled a desire in Iceland for a restoration of the Icelandic Althing as a consultative assembly for the nation. Christian VIII granted the Icelanders their wish, and in 1845 a restored Althing met for the first time—not at Thingvellir, as originally intended, but in Reykjavík. Franchise to the assembly was almost entirely restricted to officials and farmers.[NEWLINE][NEWLINE]In 1848 Christian’s successor, Frederick VII, renounced his absolute power, and a constitutional assembly was summoned to prepare a representative democracy in Denmark. This led inevitably to the question of what was to become of Iceland in the new form of government. By that time Iceland had a relatively undisputed political leader: Jón Sigurdsson, a philologist living in Copenhagen. Jón argued that the king could only give his absolute rule over Iceland back to the Icelanders themselves, since they were the ones who had surrendered it to him in 1662. This claim was met with a royal pledge that the constitutional status of Iceland would not be decided until the Icelanders had discussed the matter at a special assembly. This assembly met in 1851, but no agreement could be reached between the Icelandic representatives and the Danish government. The assembly was dissolved in disappointment. A stalemate of more than 20 years ensued, but the Althing decided to use the occasion of the millennium of Iceland’s settlement to accept the status that Danish authorities were by then willing to grant. Thus, in 1874 the king presented Iceland with a constitution whereby the Althing was vested with legislative power in internal affairs. As before, however, the cabinet minister responsible for Iceland was the minister of justice in the Danish government.[NEWLINE][NEWLINE]For an additional three decades the Icelanders continued to demand that executive power be transferred to Iceland. In 1901, the path was opened when rule by parliamentary majority was introduced in Denmark and the Liberals—always more positive than the Conservatives toward the Icelanders—came into power. In 1904, Iceland got home rule, and the first Icelandic minister opened his office in Reykjavík. At the same time, rule by parliamentary majority was introduced.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_HEADING_8">
+			<Text>Home Rule and Sovereignty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TEXT_8">
+			<Text>The period of home rule (1904–18) was one of rapid progress. Motors were installed in many of the open fishing boats, and a number of steam-driven trawlers were acquired. The country was connected by telegraph cable with Europe. School attendance was made compulsory for children in towns and villages, and a number of schools were built. The University of Iceland was established (1911) in Reykjavík, which by 1918 had a population of 15,000. All restrictions on the freedom to move to the fishing villages were either abolished or quietly forgotten. There was a radical transformation in the occupational structure of the country, which in turn led to the advent of a labour movement. In 1916 a national organization of trade unions was established. By then unions were already widely accepted by employers as negotiating bodies, but their formal status was not legalized until 1938. In the political arena, democracy was extended to new groups. Women and propertyless men were given the franchise, subject to certain qualifications, in 1915. Four years earlier a law had been passed that gave women the right to attend schools of higher education, enter into the professions, and occupy any public office in the country.[NEWLINE][NEWLINE]The struggle for greater autonomy continued until the dispute with Denmark was solved. On December 1, 1918, Iceland became a separate state under the Danish crown, with only foreign affairs remaining under Danish control. Either party, however, had the right to call for a review of the treaty, and if negotiations about its renewal proved fruitless at the end of 25 years (i.e., 1943) it would be terminated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_HEADING_9">
+			<Text>Internal and External Threats</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TEXT_9">
+			<Text>The struggle for independence that had shaped Icelandic politics for almost a century now subsided, and in the 1920s a new system of political parties based on class divisions emerged. Class antagonism grew more severe during the Great Depression of the 1930s; the depression was prolonged in Iceland when the outbreak of the Spanish Civil War in 1936 closed the important Spanish market for Icelandic fish. The problem of high unemployment persisted until after the outbreak of World War II.[NEWLINE][NEWLINE]The German occupation of Denmark in April 1940 effectively dissolved the union between Iceland and Denmark. A month later British forces occupied Iceland. In 1941 the United States took over the defense of Iceland and stationed a force of 60,000 in the country. The foreign forces brought employment, prosperity, and high inflation to the population, which then numbered about 120,000.[NEWLINE][NEWLINE]The war made it impossible for Iceland and Denmark to renegotiate their treaty. In spite of great resentment in Denmark, the Icelanders decided to terminate the treaty, break all constitutional ties with Denmark, and establish a republic. On June 17, 1944, now celebrated as National Day, the Icelandic republic was founded at Thingvellir, with Sveinn Björnsson as its first president.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_HEADING_10">
+			<Text>Iceland Today</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TEXT_10">
+			<Text>Since the prosperous years of World War II, Iceland has developed into a modern welfare state with growing production and consumption. A rapid restoration of the trawler fleet after the war prevented the return of prewar unemployment. Fish freezing became a highly technical industry and the mainstay of Iceland’s exports. The economy became characterized by expansion, full employment, high inflation, and much unprofitable investment. It became normal to work overtime and for women to enter the labour market. The advent of regular air service to both Europe and North America in the late 1940s revolutionized communication with the outside world, and the advent of the Internet at the turn of the 21st century meant that Iceland was more connected than ever before. By 2006 it had the world’s highest broadband Internet penetration.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_FACTOID_HEADING">
+			<Text>Icelandic Factoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_FACTOID_TEXT">
+			<Text>Iceland is home to one of the greatest concentrations of geysers in the world. The word geyser itself comes from Geysir, the name of an erupting spring at Haukadalur, at the northwestern tip Iceland. The name Geysir, in turn, has its roots in the Icelandic verb geysa, "to gush". </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_ICELAND_TITLE">
+			<Text>Iceland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_DJ_ICELAND_SHORT_DESC">
+			<Text>Iceland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_DJ_ICELAND_ADJECTIVE">
+			<Text>Icelandic</Text>
+		</Row>
+		<!-- City List -->
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_REYKJAVIK">
+			<Text>Reykjavík</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_KOPAVOGUR">
+			<Text>Kópavogur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_HAFNARFJORDUR">
+			<Text>Hafnarfjörður</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_AKUREYRI">
+			<Text>Akureyri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_REYKJANESBAER">
+			<Text>Reykjanesbær</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_GARDABAER">
+			<Text>Garðabær</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_MOSFELLSBAER">
+			<Text>Mosfellsbær</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_SELFOSS">
+			<Text>Selfoss</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_AKRANES">
+			<Text>Akranes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_SELTJARNARNES">
+			<Text>Seltjarnarnes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_VESTMANNAEYJAR">
+			<Text>Vestmannaeyjar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_GRINDAVIK">
+			<Text>Grindavík</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_ISAFJORDUR">
+			<Text>Ísafjörður</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_ALFTANES">
+			<Text>Álftanes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_SAUDARKROKUR">
+			<Text>Sauðárkrókur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_HVERAGERDI">
+			<Text>Hveragerði</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_EGILSSTADIR">
+			<Text>Egilsstaðir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_HUSAVIK">
+			<Text>Húsavík</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_BORGARNES">
+			<Text>Borgarnes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_SANDGERDI">
+			<Text>Sandgerði</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_HOFN">
+			<Text>Höfn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_THORLAKSHOFN">
+			<Text>Þorlákshöfn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_GARDUR">
+			<Text>Garður</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_NESKAUPSTADUR">
+			<Text>Neskaupstaður</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_DALVIK">
+			<Text>Dalvík</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_REYDARFJORDUR">
+			<Text>Reyðarfjörður</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_SIGLUFJORDUR">
+			<Text>Siglufjörður</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_VOGAR">
+			<Text>Vogar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_STYKKISHOLMUR">
+			<Text>Stykkishólmur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_ESKIFJORDUR">
+			<Text>Eskifjörður</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_OLAFSVIK">
+			<Text>Ólafsvík</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_HVOLSVOLLUR">
+			<Text>Hvolsvöllur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_BOLUNGARVIK">
+			<Text>Bolungarvík</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_HELLA">
+			<Text>Hella</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_GRUNDARFJORDUR">
+			<Text>Grundarfjörður</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DJ_BLONDUOS">
+			<Text>Blönduós</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_DJ_ICELAND_0">
+			<Text>Brynjar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DJ_ICELAND_1">
+			<Text>Sindri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DJ_ICELAND_2">
+			<Text>Sven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DJ_ICELAND_3">
+			<Text>Geir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DJ_ICELAND_4">
+			<Text>Johannes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DJ_ICELAND_5">
+			<Text>Eiríkur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DJ_ICELAND_6">
+			<Text>Agata</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DJ_ICELAND_7">
+			<Text>Dagmaer</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DJ_ICELAND_8">
+			<Text>Friðrikka</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DJ_ICELAND_9">
+			<Text>Nanna</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!-- Kristján Eldjárn -->
+		<Row Tag="TXT_KEY_LEADER_DJ_ELDJARN">
+			<Text>Kristján Eldjárn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_TEXT_1">
+			<Text>Kristján Þórarinsson Eldjárn was the third President of Iceland, governing from 1968 to 1980. As an academic, he contributed to the revival of interest in Iceland's pre-Christian traditions. As leader of the nation, he oversaw the defence of his country's economic interests in the militarised disputes that would come to be called the Cod Wars.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_TEXT_2">
+			<Text>Eldjárn was born to Þórarinn Kr. Eldjárn, a teacher in Tjörn, and Sigrún Sigurhjartardóttir. He graduated in archaeology from the University of Copenhagen and taught at the University of Iceland. In 1957 he was awarded a doctorate for his research into pagan burials in Iceland. He was a teacher at the Akureyri Grammar School and the College of Navigation in Reykjavík, becoming a curator at the National Museum of Iceland in 1945 and its Director in 1947, a position he held until the 1968 presidential election.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_HEADING_3">
+			<Text>Archaeological Interests</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_TEXT_3">
+			<Text>Eldjárn went on his first archaeological expedition in 1937 to Greenland in order to excavate a Nordic medieval town in Austmannsdalur. His teacher believed that rural boys from Iceland should not have a problem with the conditions offered by this expedition. The summer of 1939 was an important year for archaeological excavations in Iceland: Matthías Þórðarsson set up a Nordic research expedition to Iceland, where he represented all the Nordic nations except Norway. The results of this expedition were a turning point in Icelandic archaeological research and were published in a publication called Forntida Farm in Iceland. Eldjárn was in the group under the leadership of Dan Aage Roussell, who took care of the tomb at Stöng in Thjórsárdalur. The excavation revealed that this was one of the best preserved farms.[NEWLINE][NEWLINE]Eldjárn had completed an undergraduate course in Nordic archaeology, but did not go to Denmark to complete his studies because it was obvious that war would start soon. In the summer of 1940, Eldjárn began researching Skálatótt in Klaufanes in Svarfaðardalur, where it was revealed that he was very interested in conducting his own archaeological research. It can be said that this archaeological excavation is the first excavation under the control of Icelanders who meet modern requirements. A year later, Kristján's first article appeared in the Arbook of the Archaeological Society.[NEWLINE][NEWLINE]Although Eldjárn was an expert on the Viking Age, he helped to expand the field's focus to Icelandic archaeology. He participated in excavation of micro-plaques from the late Middle Ages, such as Fornu-Lá in the Eyrarsveit, and Sandártunga in Þjórsárdalur.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_HEADING_4">
+			<Text>At the National Museum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_TEXT_4">
+			<Text>In 1945, Eldjárn became an employee of the National Museum. Only two positions were offered, and he became assistant to Matthias Thordar's son. It was a varied job, and due to Matthías' advanced age, he acquired a variety of responsibilities right from the start. On December 1, 1947, he took over the position of the now-retired Thordar. This was a time of great change, as the National Museum was moving into a new building on the banks. When that buildingwas opened in 1949, the Reykjavík Development Exhibition was held.[NEWLINE][NEWLINE]Eldjárn was elected to the board of the Yearbook in 1945, but the books do not state that he was editor of the publication until 1955-56. He had already written two major articles in the Yearbook in 1943-48. One of the articles was about a highland area that was abandoned due to a volcanic eruption in 1104.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_HEADING_5">
+			<Text>The Presidency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_TEXT_5">
+			<Text>Eldjárn ran as a candidate in the Icelandic presidential elections of 1968. He had been initially reluctant to apply as a candidate, but his supporters eventually succeeded in convincing him. These people wanted to avoid the election of Gunnar Thoroddsen, Vice-Chairman of the Independence Party and the protege of ex-president Asgeir Ásgeirsson. Thoroddsen first met with the largest following in the opinion polls and was considered Ásgeirsson's obvious successor. However, after Eldjárn's formal declaration of his candidacy, the winds changed quickly. He was promoted as a popular educator who enjoys closer ties with the country and the nation than Thoroddsen. On the day of the elecitio, Eldjárn won a secure victory against Thoroddsen with about two-thirds of the vote.[NEWLINE][NEWLINE]As president, Eldjárn traditionally did not interfere muchwith the politics of the country and did not consider himself entitled to deny the ratification of the law except in extreme emergencies. Eldjárn agreed to Prime Minister Olaf Jóhannesson's controversial request to suspend parliament in 1974, although there is doubt as to whether the president was forced to agree to this.[NEWLINE][NEWLINE]Despite trying to maintain the president's neutrality in politics, Eldjárn was forced to intervene in a political dialogue in 1979 after a long regime crisis and a series of short-lived governments. He made it clear to the leaders of the Independence Party and the People's Party that if they failed to form a government that could withstand distrust proposals in parliament, he would use his presidential power to form a parliamentary government. Governor John Nordal agreed to be prime minister, and Eldjárn prepared to announce its establishment. However, nothing came of the establishment of this regime because the Independents agreed at the last minute to support the People's Party minority under Benedict Grandal. This regime lasted just under four months, causing Eldjárn to consider establishing a foreign government. The administrative crisis finally ended without the establishment of an outside government when Gunnar Thoroddsen, Kristján's old rival for the presidency, succeeded in forming the majority leadership of the Independence Party, the Alliance and the Progressive Party.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_HEADING_6">
+			<Text>Death and Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_TEXT_6">
+			<Text>President Eldjárn decided not to run for a fourth term in office, saying: "No one benefits from going to the point of thinking that he is indispensable". He died following heart surgery in Cleveland, Ohio on 14 September 1982. He was 65 years old.[NEWLINE][NEWLINE]Eldjárn left behind a considerable impact on the culture of his nation. Two of his children, Þórarinn and Sigrún, grew up to be famous authors in their own right. He also penned a considerable corpus of treatises in the field of Icelandic archaeology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_LIVED">
+			<Text>1916 - 1982 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_NAME">
+			<Text>Kristján Þórarinsson Eldjárn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_SUBTITLE">
+			<Text>Leader of Iceland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_TITLES_1">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DJ_ELDJARN_TITLES_2">
+			<Text>Archaeologist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_DJ_ELDJARN_TEXT">
+			<Text>The Icelandic people rise to greet you, President Kristján Eldjárn! Born to humble beginnings, you began public life as a man of science: as an archaeologist, you aided in bringing the Nordic ways of your ancestors back to prominence with your theses and your public appearances. But as it happened, fate had other designs for you. Riding the vicissitudes of time, you were first elected President of Iceland in 1968. Throughout your three terms in office, you defended the sovereignty of your ancient homeland against foreign encroachment, leading Iceland to victory against the United Kingdom in the Cod Wars.[NEWLINE][NEWLINE]President Eldjárn, the Icelandic people once again require your vast knowledge and steely resolve to lead them against the great powers of this world. Can you once more rise to the demands of office, and hold these titanic foes accountable? Can you build a civilization to stand the test of time?</Text>
+		</Row>
+		<!-- Diplomacy Responses -->
+		<Row Tag="TXT_KEY_LEADER_DJ_ELDJARN_FIRSTGREETING_1">
+			<Text>I am President Kristján Eldjárn, and I formally welcome you to Iceland. Let us talk by the fire, and regale each other with tales of our forebears' heroism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DJ_ELDJARN_DEFEATED_1">
+			<Text>I have seen a great deal of ruins, but I did not expect to count Iceland's fair cities among them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DJ_ELDJARN_ATTACKED_HOSTILE">
+			<Text>Your words do nothing but rouse our dormant Viking blood. To arms, my brothers!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DJ_ELDJARN_DEC_FRIENDSHIP_1">
+			<Text>We have much to learn from one another, and from our ancestors. Will you join Iceland in a public Declaration of Friendship?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DJ_ELDJARN_DENOUNCE_1">
+			<Text>It is criminals such as yourself who will be forgotten by history.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DJ_ELDJARN_DENOUNCE_FRIEND_1">
+			<Text>The stench of your treachery far exceeds that of rotten fish.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DJ_ELDJARN_DOW_GENERIC_1">
+			<Text>Your people's barbaric ways cannot be allowed to sully this earth any longer. Justice demands it, and so will we.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DJ_ELDJARN_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>I've seen coprolites worth more than your empty words.</Text>
+		</Row>
+		<!--  The Cod Wars -->
+		<Row Tag="TXT_KEY_TRAIT_DJ_COD_WARS">
+			<Text>Workboats may build Improvements on neutral territory, claiming the tile once completed. Sea resources yield [ICON_CULTURE] Culture when worked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_DJ_COD_WARS_SHORT">
+			<Text>The Cod Wars</Text>
+		</Row>
+		<!-- Ægir-class -->
+		<Row Tag="TXT_KEY_UNIT_DJ_AEGIR_CLASS">
+			<Text>Ægir-class</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DJ_AEGIR_CLASS_TEXT">
+			<Text>The Ægir-class offshore patrol vessel is a class of two vessels serving in the Icelandic Coast Guard (ICG). They participated in the two latter Cod Wars. The vessels conduct patrols of Iceland's exclusive economic zone, search and rescue, fishery inspections, general law enforcement and counter-terrorism operations in Icelandic waters and the waters of the surrounding territories, such as Greenland and Jan Mayen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DJ_AEGIR_CLASS_STRATEGY">
+			<Text>The Ægir-class is the Icelandic unique Unit, replacing the Battleship. It does not require Oil to function, but is weaker than the base unit. Additionally, it can destroy enemy Fishing Boats in its path, and additionally gains a +25% [ICON_STRENGTH] Combat Strength bonus when on or adjacent to a sea resource. They are very useful units, especially when harassing the enemy's coastal cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DJ_AEGIR_CLASS_HELP">
+			<Text>Ranged naval unit of the Modern Era. Has lower base Combat Strength, but does not require Oil. Destroys rival Fishing Boats when moving over them and gains +25% Combat Strength when on or adjacent to a sea resource. May only be trained by Iceland.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DJ_AEGIR_CLASS">
+			<Text>Net Cutters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DJ_AEGIR_CLASS_HELP">
+			<Text>+25% Combat Strength when on or adjacent to sea resources.</Text>
+		</Row>
+		<!-- Torfbær -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_DJ_TORFBAER">
+			<Text>Torfbær</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_DJ_TORFBAER_TEXT">
+			<Text>A torfbær (sometimes also referred to as a turf hut or turf house) is a house that is built mostly or almost entirely of turf. Torfbær had timber frames (and / or stone carvings), and were the main housing species in Iceland from the 9th to the 19th century. However, they were not always always covered in peat, like most of the houses that have been preserved; such examples did not come into existence until the late 18th century.[NEWLINE][NEWLINE]Yields +2 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Yields an additional +1 [ICON_FOOD] Food when adjacent to a Forest tile, and an additional +1 [ICON_CULTURE] Culture for each adjacent mountain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_DJ_TORFBAER_HELP">
+			<Text>The Icelandic unique tile Improvement. Unlocked at Civil Service, and may not be built on Desert tiles, nor adjacent to each other. Yields +2 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Yields an additional +1 [ICON_FOOD] Food when adjacent to a Forest tile, and an additional +1 [ICON_CULTURE] Culture for each adjacent mountain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_DJ_TORFBAER">
+			<Text>Construct a [LINK=IMPROVEMENT_DJ_TORFBAER]Torfbær[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_DJ_TORFBAER_HELP">
+			<Text>Only buildable by Iceland. Unlocked at Civil Service, and may not be built on Desert tiles, nor adjacent to each other. Yields +2 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Yields an additional +1 [ICON_FOOD] Food when adjacent to a Forest tile, and an additional +1 [ICON_CULTURE] Culture for each adjacent mountain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_DJ_TORFBAER_REC">
+			<Text>It will increase the [ICON_FOOD] Food and [ICON_CULTURE] Culture output of this tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DJ_TORFBAER_CITY_VIEW_HELP">
+			<Text>+[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] Food in this city from Torfbærs adjacent to forests.</Text>
+		</Row>
+		<!-- MOD SUPPORT -->
+		<!-- Additional Achievements -->
+		<Row Tag="TXT_KEY_MOD_DJ_ICELAND_NAME">
+			<Text>DuskJockey's Iceland (Kristjan Eldjarn)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_DJ_ICELAND_ID_STEAM">
+			<Text>d203254c-b6ab-4b59-a0b4-3428bdab5250</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_DJ_ICELAND_AUTHORS">
+			<Text>DuskJockey, Darthstarkiller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_DJ_ICELAND_VICTORY_HEADER">
+			<Text>Torf War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_DJ_ICELAND_VICTORY_TEXT">
+			<Text>Win the game on any difficulty setting as Eldjarn's Iceland.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_DJ_ICELAND_SPECIAL_HEADER">
+			<Text>So Long, and Thanks for All the Fish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_DJ_ICELAND_SPECIAL_TEXT">
+			<Text>As Eldjarn's Iceland, complete the SS Stasis Chamber while controlling the most copies of Fish out of any player.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

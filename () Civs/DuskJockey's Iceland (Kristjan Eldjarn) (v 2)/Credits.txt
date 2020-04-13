@@ -1,0 +1,20 @@
+-- Credits
+-- Author: DuskJockey
+-- DateCreated: 8/27/2019 6:22:28 PM
+--------------------------------------------------------------
+DuskJockey: Code, text, art, unit reskin
+Nomad or what, Bouncymischa: Improvement models
+grant: Improvement reskin
+Wolfdog: Unit model
+Chrisy15, JFD: Useful bits of code
+zwei833: Edited Effects and Animations
+--------------------------------------------------------------
+CIVILOPEDIA ENTRIES
+Iceland: https://www.britannica.com/place/Iceland
+Kristjan Eldjarn: https://is.wikipedia.org/wiki/Kristj%C3%A1n_Eldj%C3%A1rn
+Aegir-class: https://en.wikipedia.org/wiki/%C3%86gir-class_offshore_patrol_vessel
+Torfbaer: https://is.wikipedia.org/wiki/Torfb%C3%A6r
+--------------------------------------------------------------
+MUSIC
+Peace: https://www.youtube.com/watch?v=xhEr7XeCJRw
+War: https://www.youtube.com/watch?v=k-_lQ1UQoyU

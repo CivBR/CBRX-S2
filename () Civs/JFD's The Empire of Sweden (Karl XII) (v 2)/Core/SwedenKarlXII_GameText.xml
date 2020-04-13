@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--SWEDEN-->
+		<Row Tag="TXT_KEY_CIV_JFD_SWEDEN_KARL_XII_ADJECTIVE">
+			<Text>Carolean</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_1">
+			<Text>Stockholm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_2">
+			<Text>Gothenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_3">
+			<Text>Malmö</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_4">
+			<Text>Sundsvall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_5">
+			<Text>Riga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_6">
+			<Text>Uppsala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_7">
+			<Text>Turku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_8">
+			<Text>Lund</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_9">
+			<Text>Narva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_10">
+			<Text>Vasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_11">
+			<Text>Helsingborg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_12">
+			<Text>Västerås</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_13">
+			<Text>Reval</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_14">
+			<Text>Sigtuna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_15">
+			<Text>Norrköping</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_16">
+			<Text>Gävle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_17">
+			<Text>Eskilstuna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_18">
+			<Text>Karlstad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_19">
+			<Text>Halmstad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_20">
+			<Text>Helsingfors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_21">
+			<Text>Växjö</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_22">
+			<Text>Luleå</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_23">
+			<Text>Falun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_24">
+			<Text>Tumba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_25">
+			<Text>Karlskronar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_26">
+			<Text>Upplands Väsby</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_27">
+			<Text>Östersund</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_28">
+			<Text>Trollhättan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_29">
+			<Text>Kalmar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_30">
+			<Text>Landskrona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_31">
+			<Text>Nyköping</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_32">
+			<Text>Karlskoga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SWEDEN_KARL_33">
+			<Text>Visby</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SWEDEN_KARL_9">
+			<Text>Sven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SWEDEN_KARL_8">
+			<Text>Joakim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SWEDEN_KARL_7">
+			<Text>Gustav</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SWEDEN_KARL_6">
+			<Text>Nils</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SWEDEN_KARL_5">
+			<Text>Stefan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SWEDEN_KARL_4">
+			<Text>Ulrika</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SWEDEN_KARL_3">
+			<Text>Hedvig</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SWEDEN_KARL_2">
+			<Text>Sibylla</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SWEDEN_KARL_1">
+			<Text>Estelle</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SWEDEN_KARL_0">
+			<Text>Elsa</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--KARL XII-->
+		<Row Tag="TXT_KEY_LEADER_JFD_KARL_XII">
+			<Text>Karl XII</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_TEXT_1">
+			<Text>The last King of Sweden during the Great Power Era, Karl XII ascended to the Swedish throne aged just fifteen, after the untimely death of his father. Soon after he became king, a three-part coalition sided against him, headed by the rising power to the east, Russia. One of the most capable commanders in Europe at the time, Karl subdued two of the coalition’s members before heading for Russia. Winning battle after battle, Karl appeared to be unstopable - up until the Battle of Poltava, which resulted in not only Swedish defeat, but the destruction of the Swedish Empire. Demoralised, the Swedish Army headed home and planned an invasion of Norway. However, Karl was shot and killed while sieging Fredriksten Fortress, ending any chance of Sweden reestablishing dominance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_HEADING_2">
+			<Text>Early Years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_TEXT_2">
+			<Text>Karl’s childhood mostly consisted of the upbringing of a military king - his father, Karl XI, had initiated a series of reforms to the army for efficiency. He created an elite fighting force, the Caroleans, who were famously never drilled in retreat tactics. Karl learnt how they fought, and more importantly, how to command them. The strict discipline of the Swedish Army made it easier for generals to rely on plans to win battles - the young Karl used this to his advantage. When he was fourteen, his father died after a period of illness, causing a regency council to take over while Karl assumed the throne. After seven months, he became the unquestioned monarch of Sweden - the divine right doctrines of kings past had carried on. Karl was a king that answered only to God.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_HEADING_3">
+			<Text>The Great Northern War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_TEXT_3">
+			<Text>In 1700, a coalition of three Baltic powers - Denmark-Norway, Poland-Lithuania and Russia - was formed against the Swedish Empire, hoping to take advantage of its young and inexperienced king. However, the coalition were only half right - though young, Karl was far from inexperienced. Karl had been brought up with military discipline, inspected armies with his father and was himself well trained in combat. Furthermore, the Swedish army, though small, was extremely well-trained and ready to take on these growing powerhouses. Focusing on the enemy bit by bit, Karl managed to force Denmark-Norway into surrender in a matter of months. Russia, a growing empire in the Baltic, was marching an army to seize parts of Swedish territory in Livonia. Karl managed to defend the Baltic territories against the Russians by masterful defence at the Battle of Narva, despite being outnumbered four to one. By attacking under the cover of a blizzard, Karl was able to split the Russian army and catch them on the retreat. A lot of the Russian soldiers died after drowning in the Narva river, and left the battlefield in flight, having had a massive and disproportionate defeat inflicted.[NEWLINE][NEWLINE]Having seen off the Russians, Karl chose not to chase them, but instead invade Poland-Lithuania, which hadn’t seen much action thus far. After winning a decisive battle at Kiszow, Karl deposed Augustus II and imposed a puppet king on the Commonwealth. With the two smaller powers defeated, Karl could now turn his attention to Russia, the real threat in the region.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_HEADING_4">
+			<Text>Invasion of Russia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_TEXT_4">
+			<Text>After managing to get Stanislaw I coronated as the head of the Polish-Lithuanian Commonwealth, Karl embarked on strengthening his army for the inevitable Invasion of Russia. However, Russia had managed to break the Swedish power in the Baltic already - and had established St Petersburg on marshland near core Swedish territory. Allying himself with the Cossacks, Karl’s army looked as if it would easily be able to take Russia, by penetrating it right to the core. Karl set off in 1707, after fully replenishing, with allies across the theater for this bloody war. Despite the Russian army being updated to the new European model, Karl still managed to win at the Battle of Holowczyn, despite still being outnumbered. The Swedish army bombarded the Russian encampment during the night, and marched across the river, with Karl himself leading the charge. The Russians quickly routed, leaving Karl with a choice as to what to do - instead of capturing the Russian’s glorious new city of St Petersburg, he chose to continue with his campaign and invade the Russian heartlands. However, one of the other Swedish armies had been ambushed by Peter III, leading to Karl having to slow down slightly in his advance. The Cossacks had been striving for revolt ever since Karl sent word of his coming, but it never fully came to be - the revolt was put down by the Russians, and by the time Karl’s army was forced to go into Ukraine due to the harsh winter climate, the area was largely under Russian control. This was a huge setback to his plans, which relied on causing as much internal strife as possible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_HEADING_5">
+			<Text>The Battle of Poltav</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_TEXT_5">
+			<Text>Poltava, a small town in modern-day Ukraine, was the unlikely site for the battle that would change European history forever. With a mild climate, rich in agricultural goods, the site was perfect for the Russians to camp. Karl, still commanding the Swedes, had been injured, and so he had to leave the battle to his other generals. Though the Swedes were once more outnumbered, this was no real problem, as the Swedes had already won most battles despite being outnumbered. However, Karl’s army was tired of the war, and hungry due to the destruction of supply lines. One in three of his soldiers had been killed since the start of the war. The battle would depend on strategy more than anything else.[NEWLINE][NEWLINE]Under the cover of nightfall once more, Karl’s army charged at the Russian lines. However, all too early, the alarm bell sounded at the encampment, leading to the Russian forces effectively counterattacking the Swedes. Not able to cross the river to the Russian camp, the Swedes relied on artillery fire to push back the Russians. However, without Karl’s presence on the battlefield, disagreements between the generals lead to a huge split in the Swedish forces, and after midday, the Swedes were forced into retreat. Karl and his remaining men were forced to go into hiding in the Ottoman Empire, not able to pass through Russian lands to get to Sweden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_HEADING_6">
+			<Text>Ottoman Exile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_TEXT_6">
+			<Text>Aiming to get away from the Russians, Karl took refuge in the Ottoman Empire, the long-time rival of Russia. Upon arriving, he was welcomed, having provoked a short war between the Ottomans and the Russians, with Peter’s pursuit of Karl. The Ottomans crushed the Russians in the war, and signed off an easy peace treaty with the Russians shortly afterwards. Karl was given a large sum of money in the Ottoman budget, and the then-Sultan, Ahmed III, provided Swedish women and children as a gift for the king-in-exile. Eventually, the Swedish community got so large that a small village had to be established. However, before long, the Ottoman people believed that Karl had outstayed his welcome, and began to show signs of unrest. Karl agreed to leave the Ottoman Empire after this, and after traveling across Europe to Swedish Pomerania in just fifteen days, the king was finally back in Sweden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_HEADING_7">
+			<Text>Assassination at Fredrikstad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_TEXT_7">
+			<Text>Once more back in Sweden, Karl planned an invasion of Norway to route his Danish rivals. During his absence, several states had declared war on him, so he decided to deal with them one at a time. In 1716, Karl began his invasion, and managed to capture Christiania (modred-day Oslo), though he was not able to break the main fortress there due to the lack of heavy artillery. He then attempted a capture of the border town of Fredrikshald, but the Norwegians forced them to abandon their siege by setting the city on fire. In 1718, Karl invaded Norway for the last time, on the verge of capturing Fredrikshald. He began a siege of Fredrikstad Fortress, with the latest artillery to boot. However, on December 11th, Karl was shot in the back of the head - though it is not known to this day who killed him. While unlikely, there is a theory that he was assassinated by someone in his ranks - there is even a conspiracy that it was down to the Swedish nobility, who wanted him gone for his domestic policy. Though the killer is unknown, one thing is for sure - the era of great power had come to an end for Sweden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_HEADING_8">
+			<Text>Carolean Death March</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_TEXT_8">
+			<Text>One of Karl’s remaining forces, sieging Trondheim, was forced to retreat, with circumstances made worse by Karl’s death. Demoralised, the Caroleans marked through Norway back to Sweden, though the onset of a severe winter storm was a huge setback. With a lack of food and general supplies, a lot of the Caroleans died in the upcoming storm. The situation was not much better elsewhere - in the years to come, Russia would gain all of Finland from Sweden, and the empire would lose many of its core territories. Kings would very soon be limited in what they could do, like other European monarchies. As for Karl, his body was taken back to Sweden, where he was buried. His death was effectively the end of the Swedish Empire - never again would it grow so big. Karl, having spent so many years at war to see what he created, destroyed, is remembered as one of the greatest military strategists of all time, and is immortalised in the hearts of Swedes to this day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_HEADING_9">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_TEXT_9">
+			<Text>Along with the other assassination theories, there is one that suggests that Karl could have been killed by a button off a Carolean’s coat, given the similarity in size.[NEWLINE][NEWLINE]Karl is also immortalised in the Sabaton album Carolus Rex, which has a fair few tracks about him. Check it out!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_NAME">
+			<Text>Karl XII</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_SUBTITLE">
+			<Text>Leader of Sweden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_TITLES_1">
+			<Text>King of Sweden[NEWLINE][NEWLINE]Carolus Rex</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_KARL_LIVED">
+			<Text>1682 - 1718</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_SWEDEN_KARL_TEXT">
+			<Text>Hail Karl XII, warrior-King of Sweden and her last great viking. Although inheriting your throne at the age of 15, you would spend a lifetime proving your worth on the battlefield. Disregarded for your youth and inexperience, in the year 1700 you managed to defeat the armies of the triple alliance of Denmark-Norway, Saxony-Poland-Lithuania, and Russia. Although your subsequent march on Moscow would ultimately fail, your military legacy has endured, and you remain one of Sweden's most exceptional monarchs.[NEWLINE][NEWLINE]O' formidable commander, the great armies of the Swedish Empire march forth to ready her defenses. Can you lead her forces into the fray, to glory and to strength? Can you build a civilization that stands the test of time?</Text>
+		</Row>
+		<!--INDELNINGSVERK-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_SWEDEN_KARL_SHORT">
+			<Text>Indelningsverk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_SWEDEN_KARL">
+			<Text>50% of [ICON_FOOD] Food is stored after growth to be spent on hurrying Military Units. Citadels created by Sweden in Tundra or Snow Tiles yield +2 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_SWEDEN_KARL_ALT">
+			<Text>25% of [ICON_FOOD] Food is added per turn to the training of Military Units. Citadels created by Sweden in Tundra or Snow Tiles yield +2 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SWEDEN_KARL_XII_FOOD_STORAGE">
+			<Text>[ICON_FOOD] Military Reserve ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SWEDEN_KARL_XII_FOOD_STORAGE_TT_HURRY">
+			<Text>Spend {1_Num} of your [ICON_FOOD] military reserve on your current military production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SWEDEN_KARL_XII_FOOD_STORAGE_DISABLED_TT">
+			<Text>[COLOR_WARNING_TEXT]You must have [ICON_FOOD] Food reserved to spend, the city must not be in [ICON_RESISTANCE] Resistance, and you must be producing a military unit.[ENDCOLOR]</Text>
+		</Row>
+		<!--WAR ACADEMY-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_WAR_ACADEMY">
+			<Text>War Academy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_WAR_ACADEMY_TEXT">
+			<Text>Historically, the government departments that ran armies in the 18th Century were far from being defence ministries or anything approaching a general staff. A central war planning function was almost unheard of, and often generals were quite unwilling to deal with the authorities at home, preferring to control everything themselves. In Europe the army organisations dealt with pay and rations: often spending time making sure that colonels did really raise regiments they were being paid for.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_WAR_ACADEMY_HELP">
+			<Text>+20 XP for all Units. This XP counts toward your next [ICON_GREAT_PEOPLE] Great General when awarded to a newly produced Military Land Unit.[NEWLINE][NEWLINE]City must have an Armory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_WAR_ACADEMY_STRATEGY">
+			<Text>This unique Military Academy may only be constructed by Sweden. It is available slightly earlier, at Metallurgy rather than Military Science, and provides slightly more XP. It also contributes this XP toward the creation of a Great General whenever a new Military Land Unit is trained in the city. This only applies to units produced by the city, and not those purchased with Gold or Faith.</Text>
+		</Row>
+		<!--CAROLEAN-->
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY">
+			<Text>Caroleans are the backbone of the early Industrial era Swedish army. They start with the March promotion that allows it to Heal every turn, even if it performs an action. They also gain a small attack bonus when fighting in Tundra, but possess a penalty to defending in Snow.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_CAROLEAN_TUNDRA">
+			<Text>Bonus in Tundra (15)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_CAROLEAN_TUNDRA_HELP">
+			<Text>+15% Attack in Tundra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_CAROLEAN_SNOW">
+			<Text>Penalty In Snow (10)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_CAROLEAN_SNOW_HELP">
+			<Text>-10% Defense in Snow</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

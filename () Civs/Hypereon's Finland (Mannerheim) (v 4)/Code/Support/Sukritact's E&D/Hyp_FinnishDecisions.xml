@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/26/2015 7:37:21 PM -->
+<GameData>
+	<DecisionsAddin_Support>
+		<Row>
+			<FileName>Hyp_FinnishDecisions.lua</FileName>
+		</Row>
+	</DecisionsAddin_Support>
+	<EventsAddin_Support>
+		<Row>
+			<FileName>Hyp_FinnishEvents.lua</FileName>
+		</Row>
+	</EventsAddin_Support>
+	<Policies>
+		<Row>
+			<Type>POLICY_HYP_FINNISH_CIVIL_GUARD</Type>
+			<Description>TXT_KEY_POLICY_MILITARY_CASTE</Description>
+			<Civilopedia>TXT_KEY_POLICY_MILITARYCASTE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_MILITARY_CASTE_HELP</Help>
+			<HappinessPerGarrisonedUnit>1</HappinessPerGarrisonedUnit>
+			<CulturePerGarrisonedUnit>1</CulturePerGarrisonedUnit>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<Type>POLICY_HYP_FINNISH_CIVIL_WAR</Type>
+			<Description>TXT_KEY_POLICY_MILITARY_CASTE</Description>
+			<Civilopedia>TXT_KEY_POLICY_MILITARYCASTE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_MILITARY_CASTE_HELP</Help>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<Type>POLICY_HYP_DEMANDS_IGNORED</Type>
+			<Description>TXT_KEY_POLICY_MILITARY_CASTE</Description>
+			<Civilopedia>TXT_KEY_POLICY_MILITARYCASTE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_MILITARY_CASTE_HELP</Help>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Language_en_US>
+		<!--Compile the Kalevala-->
+		<Row Tag="TXT_KEY_DECISIONS_HYP_KALEVALA">
+			<Text>Compile the Kalevala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_HYP_KALEVALA_DESC">
+			<Text>
+				To preserve the cultural heritage of our Finnish nation, it is crucial to compile as much ancient oral tradition of our people as possible. We must fund a research trip to write down the country's valuable folklore and poetry!
+				[NEWLINE][NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Finland (Mannerheim)
+				[NEWLINE][ICON_BULLET]May not be enacted before the Industrial era
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]The Kalevala is built in the Capital
+				[NEWLINE][ICON_BULLET]A Rune Singer appears in the Capital
+				[NEWLINE][ICON_BULLET]Empire enters a [ICON_GOLDEN_AGE] Golden Age for 10 turns
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_HYP_KALEVALA_ENACTED_DESC">
+			<Text>
+				Elias Lönnrot's field trips and endeavours not only helped him to compile the Kalevala, but also brought considerable enjoyment to the people he visited; he would spend much time retelling what he had collected as well as learning new poems. The Kalevala is a major part of Finnish culture and history, and has impacted the arts in Finland, and in other cultures around the world.[NEWLINE][NEWLINE]Rewards:[NEWLINE][ICON_BULLET]The Kalevala is built in the Capital![NEWLINE][ICON_BULLET]Empire enters a [ICON_GOLDEN_AGE] Golden Age
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_HYP_MILITIA">
+			<Text>Organize the Civil Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_HYP_MILITIA_DESC">
+			<Text>
+				The ideological divides in the Finnish society have lead to establishment of several citizen militias along ideological lines. The conservative 'Suojeluskunta' (Protection Militia) has been formed to protect the constitutional order and interests of peasants and middle- and upper-class factions. The socialists and the workers' own Red Guard won't like it, but it would be in the best interests of the Senate to arrange this voluntary paramilitary force as the basis of the Finnish Army.
+				[NEWLINE][NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Finland (Mannerheim)[NEWLINE][ICON_BULLET]Player must have adopted an ideology[NEWLINE][ICON_BULLET]Ideology must not be Order[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Cost} [ICON_GOLD] Gold ({2_CostCity} [ICON_GOLD] per city)
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A Civil Guard unit appears in every city[NEWLINE][ICON_BULLET]City Garrisons provide 1 [ICON_CULTURE] Culture and [ICON_HAPPINESS_1] Happiness
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_HYP_MILITIA_ENACTED_DESC">
+			<Text>
+				The non-socialist parliamentary majority gave authorization to the Senate to organize a police force of the Civil Guard. Soon the Senate asked Mannerheim to form a new Finnish army on the basis of the Civil Guard militia.[NEWLINE][NEWLINE]Rewards:[NEWLINE][ICON_BULLET]A maintenance-free Civil Guard appears in every city[NEWLINE][ICON_BULLET]City Garrisons provide 1 [ICON_CULTURE] Culture and [ICON_HAPPINESS_1] Happiness
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KALEVALA"> 
+			<Text>Kalevala</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KALEVALA_HELP">
+			<Text>The Kalevala has slots for 4 Great Works of Writing, with a possible theming bonus of 4 [ICON_TOURISM] Tourism. May only be built through the decision 'Compile the Kalevala'. +25% [ICON_CULTURE] Culture in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KALEVALA_STRATEGY">
+			<Text>May only be built through the decision 'Compile the Kalevala', increasing heavily the Finnish Culture in the capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KALEVALA_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Writings from different eras and from the city owner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_KALEVALA_TEXT">
+			<Text>
+				The Kalevala is a 19th-century work of epic poetry compiled by Elias Lönnrot from Karelian and Finnish oral folklore and mythology.
+				[NEWLINE][NEWLINE]It is regarded as the national epic of Karelia and Finland and is one of the most significant works of Finnish literature. The Kalevala played an instrumental role in the development of the Finnish national identity, the intensification of Finland's language strife and the growing sense of nationality that ultimately led to Finland's independence from Russia in 1917.
+				[NEWLINE][NEWLINE]The first version of The Kalevala (called The new Kalevala) was published in 1835. The version most commonly known today was first published in 1849 and consists of 23,795 verses, divided into fifty songs or 'runes' (Finnish: runot). The title can be interpreted as "The land of Kaleva" or "Kalevia".
+				[NEWLINE][NEWLINE]The Kalevala begins with the traditional Finnish creation myth, leading into stories of the creation of the earth, plants, creatures and the sky. Creation, healing, combat and internal story telling are often accomplished by the character(s) involved singing of their exploits or desires. Many parts of the stories involve a character hunting or requesting lyrics (spells) to acquire some skill, such as boat-building or the mastery of iron making.
+				[NEWLINE][NEWLINE]As well as magical spell casting and singing, there are many stories of lust, romance, kidnapping and seduction. The protagonists of the stories often have to accomplish feats that are unreasonable or impossible which they often fail to achieve leading to tragedy and humiliation.
+				[NEWLINE][NEWLINE]The Sampo is a pivotal element of the whole work. Many actions and their consequences are caused by the Sampo itself or a character's interaction with the Sampo. It is described as a magical talisman or device that brings its possessor great fortune and prosperity, but its precise nature has been the subject of debate to the present day.
+				[NEWLINE][NEWLINE]There are also similarities with mythology and folklore from other cultures, for example the Kullervo character and his story bearing some likeness to the Greek Oedipus. The similarity of the virginal maiden Marjatta to the Christian Virgin Mary is also striking. The arrival of Marjatta's son in the final song spelling the end of Väinämöinen's reign over Kalevala is similar to the arrival of Christianity bringing about the end of Paganism in Finland and Europe at large.
+				[NEWLINE][NEWLINE]
+				[NEWLINE][NEWLINE]Väinämöinen
+				[NEWLINE][NEWLINE]Väinämöinen is the central character of The Kalevala, a shamanistic hero and a rune singer with a magical power of song and music, similar to that of Orpheus. He is born of Ilmatar and contributes to the creation of Earth as it is today. Many of his travels resemble shamanistic journeys, most notably one where he visits the belly of a ground-giant, Antero Vipunen, to find the songs of boat building.
+				[NEWLINE][NEWLINE]Väinämöinen created and plays the kantele, a Finnish stringed instrument that resembles and is played like a zither.
+				[NEWLINE][NEWLINE]Väinämöinen's search for a wife is a central element in many stories; although he never finds one. One of his potential brides, Joukahainen's sister Aino, drowns herself instead of marrying him. He is the leading member of the group which steals the Sampo from the people of Pohjola.
+				[NEWLINE][NEWLINE]Ilmarinen
+				[NEWLINE][NEWLINE]Seppo Ilmarinen, is a heroic artificer (comparable to the Germanic Weyland and the Greek Daedalus). He crafted the dome of the sky, the Sampo and various other magical devices featured in The Kalevala. Ilmarinen is the second member of the group who steal the Sampo.
+				[NEWLINE][NEWLINE]Ilmarinen, like Väinämöinen, also has many stories told of his search for a wife, reaching the point where he forges one of gold.
+				[NEWLINE][NEWLINE]Lemminkäinen
+				[NEWLINE][NEWLINE]Lemminkäinen, a handsome, arrogant and reckless ladies-man, is the son of Lempi (English: lust or favourite). He shares a very close relationship with his mother, who revives him after he has been drowned in the river of Tuonela while pursuing the object of his romantic desires. This section of The Kalevala echoes the myth of Osiris. Lemminkäinen is the third member of the group which steals the Sampo from Pohjola.
+				[NEWLINE][NEWLINE]Ukko
+				[NEWLINE][NEWLINE]Ukko (English: Old man) is the god of sky and thunder, and the leading deity mentioned within The Kalevala. His character corresponds to Thor and Zeus. John Martin Crawford wrote that the name may be related the obsolete Hungarian word for an old man (agg).
+				[NEWLINE][NEWLINE]Joukahainen
+				[NEWLINE][NEWLINE]Joukahainen is a base, young man who arrogantly challenges Väinämöinen to a singing contest which he loses. In exchange for his life Joukahainen promises his young sister Aino to Väinämöinen. Joukahainen attempts to gain his revenge on Väinämöinen by killing him with a crossbow but only succeeds in killing Väinämöinen's horse. Joukahainen's actions lead to Väinämöinen promising to build a Sampo in return for Louhi rescuing him.
+				[NEWLINE][NEWLINE]Louhi
+				[NEWLINE][NEWLINE]Louhi, the Mistress of the North, is the shamanistic matriarch of the people of Pohjola, a people rivalling those of Kalevala. She is the cause of much trouble for Kalevala and its people.
+				[NEWLINE][NEWLINE]Louhi at one point saves Väinämöinen's life. She has many daughters whom the heroes of Kalevala make many attempts (some successful) at seducing. Louhi plays a major part in the battle to prevent the heroes of Kalevala from stealing back the Sampo which as a result is ultimately destroyed. She is a powerful witch with a skill almost on a par with that of Väinämöinen's.
+				[NEWLINE][NEWLINE]Kullervo
+				[NEWLINE][NEWLINE]Kullervo is the vengeful, mentally ill and tragic son of Kalervo. He was abused as a child and sold into slavery to Ilmarinen. He is put to work and treated badly by Ilmarinen's wife whom he later kills. Kullervo is a misguided and troubled youth often at odds with himself and his situation. He often goes into berserk rage and in the end commits suicide.
+				[NEWLINE][NEWLINE]Marjatta
+				[NEWLINE][NEWLINE]Marjatta is the young virgin of Kalevala. She becomes pregnant from eating a lingonberry. When her labour begins she is expelled from her parents' home and leaves to find a place where she can sauna and give birth. She is turned away from numerous places but finally finds a place in the forest and gives birth to a son. Marjatta's nature, impregnation and searching for a place to give birth are in allegory to the Virgin Mary and the Christianisation of Finland.[54] Marjatta's son is later condemned to death by Väinämöinen for being born out of wedlock, the boy in turn chastises Väinämöinen and is later crowned King of Karelia. This angers Väinämöinen who leaves Kalevala after bequeathing his songs and kantele to the people as his legacy.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_KALEVALA">
+			<Text>The Finnish National Epic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KALEVALA_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Be this as it may, my people, This may point the way to others,[NEWLINE][TAB][TAB]To the singers better gifted, For the good of future ages,[NEWLINE][TAB][TAB]For the coming generations, For the rising folk of Finland." [NEWLINE][TAB][TAB] - Elias Lönnrot[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

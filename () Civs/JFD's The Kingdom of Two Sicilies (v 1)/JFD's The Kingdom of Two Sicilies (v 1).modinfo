@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="69dacad6-b419-4c5f-ba37-463633995964" version="1">
+  <Properties>
+    <Name>JFD's The Kingdom of Two Sicilies</Name>
+    <Teaser>Adds the [COLOR_POSITIVE_TEXT]The Kingdom of Two Sicilies[ENDCOLOR] with Ferdinand I to the game.</Teaser>
+    <Description>See CivFanatics or Steam Workshop for full details.</Description>
+    <Authors>JFD, Janboruta</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD’s Sovereignty" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD’s and Pouakai’s Mercenaries" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD's Cities in Development" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="C38478AC63665F689494CA46F241B794" import="1">Art/Diplomacy/FerdinandI_Diplo.dds</File>
+    <File md5="44F628D57218A7E7B2C640E69542CC71" import="1">Art/Diplomacy/FerdinandI_Scene.xml</File>
+    <File md5="24360028DAFF7EABF60A9591199782FC" import="1">Art/Graphics/Steam Frigate/fx_trigger_SteamFrigate.ftsxml</File>
+    <File md5="32314C5FF4F462E89BF4624292F577E1" import="1">Art/Graphics/Steam Frigate/SteamFrigate.fxsxml</File>
+    <File md5="29E3955392B00B95ACA6CEE256C6C084" import="1">Art/Graphics/Steam Frigate/SteamFrigate.gr2</File>
+    <File md5="1250685690F5AD9A91EAEEB61B7A289C" import="1">Art/Graphics/Steam Frigate/SteamFrigate.indiedefs</File>
+    <File md5="A346A64EA9F07F5D9A0B944042403985" import="1">Art/Graphics/Steam Frigate/SteamFrigate_diff.dds</File>
+    <File md5="E6DC565B328F9BFAA218036711F200EA" import="1">Art/Graphics/Steam Frigate/SteamFrigate_sref.dds</File>
+    <File md5="7E2CC8B1A3FE8D2B425981069C3C57AA" import="1">Art/Graphics/Steam Frigate/sv_SteamFrigate.dds</File>
+    <File md5="B53765365801DE794B107B38D2016A52" import="1">Art/IconAtlas/JFD_TwoSiciliesAlphaAtlas_128.dds</File>
+    <File md5="27E1FAEE43FD762AD08B9318EE9B1C3D" import="1">Art/IconAtlas/JFD_TwoSiciliesAlphaAtlas_16.dds</File>
+    <File md5="F4D597978E5E0FF146D2673050BD1EB2" import="1">Art/IconAtlas/JFD_TwoSiciliesAlphaAtlas_22.dds</File>
+    <File md5="CB93BB239A82A6DB8FA8D5F719DF133B" import="1">Art/IconAtlas/JFD_TwoSiciliesAlphaAtlas_24.dds</File>
+    <File md5="47B0A75A2201AF6739988FBA246A5F1C" import="1">Art/IconAtlas/JFD_TwoSiciliesAlphaAtlas_32.dds</File>
+    <File md5="DAEC8BAA14FB42674D54829602B94A67" import="1">Art/IconAtlas/JFD_TwoSiciliesAlphaAtlas_45.dds</File>
+    <File md5="132997DA11E7915BBFE903C9536A3A4B" import="1">Art/IconAtlas/JFD_TwoSiciliesAlphaAtlas_48.dds</File>
+    <File md5="21ADEE4A8C5732684350301B89EB4BC7" import="1">Art/IconAtlas/JFD_TwoSiciliesAlphaAtlas_64.dds</File>
+    <File md5="38014BA171E8D56B6743A7C361ACA091" import="1">Art/IconAtlas/JFD_TwoSiciliesAlphaAtlas_80.dds</File>
+    <File md5="0643B8747540E9494395B5CB94AE1693" import="1">Art/IconAtlas/JFD_TwoSiciliesAtlas_128.dds</File>
+    <File md5="65C30B21D4C26E3A8E9C70ED3E2AC556" import="1">Art/IconAtlas/JFD_TwoSiciliesAtlas_256.dds</File>
+    <File md5="BAE3B28C3624934618A2105A4597D03E" import="1">Art/IconAtlas/JFD_TwoSiciliesAtlas_32.dds</File>
+    <File md5="4DFF67C0C1CB33467CAD17CD207A58DA" import="1">Art/IconAtlas/JFD_TwoSiciliesAtlas_45.dds</File>
+    <File md5="B0603024D0186749645F455F6700A933" import="1">Art/IconAtlas/JFD_TwoSiciliesAtlas_64.dds</File>
+    <File md5="403D6E8BF6E481EFEDE3040BF9104218" import="1">Art/IconAtlas/JFD_TwoSiciliesAtlas_80.dds</File>
+    <File md5="332440AEEC6DCC70588A615F06C5FB34" import="1">Art/IconAtlas/JFD_SteamFrigateFlag_32.dds</File>
+    <File md5="54D4B8A5A63F617498B5F400E5AEA147" import="1">Art/Images/Event_TwoSicilies_Mafia.dds</File>
+    <File md5="91F62C466397BF86DE372178696DA2A4" import="1">Art/Images/Event_TwoSicilies_Pizza.dds</File>
+    <File md5="74CAFDD7EC48D98CE8DDEA4D39AA44C3" import="1">Art/Map/DOM_FerdinandI.dds</File>
+    <File md5="93030C85C2BA774DA3CF8C560F740C48" import="1">Art/Map/MapTwoSicilies512.dds</File>
+    <File md5="4BEECBB8515B04E2E1A82451FD895666" import="1">Audio/WineCellar.mp3</File>
+    <File md5="1B772A21C9CB6BE4612C298D8802F910" import="1">Audio/FerdinandI_Peace.mp3</File>
+    <File md5="CDDF681E655D2320AA20398BC014EDBB" import="1">Audio/FerdinandI_War.mp3</File>
+    <File md5="65A5DA4F1FAF0CD759EBC90CDD7AC66E" import="0">Core/TwoSicilies_ArtDefines.sql</File>
+    <File md5="A78D7519DBDFF4FC1133AD8DD3938488" import="0">Core/TwoSicilies_GameDefines.sql</File>
+    <File md5="65AECC61D405382F2EFAF3D0ED6F3581" import="0">Core/TwoSicilies_GameDefines_Diplomacy.sql</File>
+    <File md5="9C508B9BAE9AD572FDDB5074A0751F6B" import="0">Core/TwoSicilies_GameDefines_ModSupport.sql</File>
+    <File md5="E4296F96C4533C74944C7324D27A3CB2" import="0">Core/TwoSicilies_GameText.xml</File>
+    <File md5="14B678D975F5E1542ADEF4E4F1C9FF97" import="0">Core/TwoSicilies_GameText_Diplomacy.xml</File>
+    <File md5="C3593A1C8EC4E0FAF7890BF42153FCEB" import="0">Core/TwoSicilies_GameText_ModSupport.xml</File>
+    <File md5="FC6E117C75835973F759656BB4F6EF97" import="0">DeleteMissingReferences.xml</File>
+    <File md5="A8BBA56720EF2B0A1294DE7083E2C9DE" import="1">Lua/JFD_TwoSicilies_Decisions.lua</File>
+    <File md5="F2CCACA0CCB3D55A61DBEFA928507596" import="1">Lua/JFD_TwoSicilies_Events.lua</File>
+    <File md5="824EFEECCE04C1661C596A2033A537F1" import="0">Lua/JFD_TwoSicilies_Functions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/TwoSicilies_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TwoSicilies_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TwoSicilies_GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TwoSicilies_GameDefines_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TwoSicilies_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/TwoSicilies_GameText_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>Core/TwoSicilies_GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>DeleteMissingReferences.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_TwoSicilies_Functions.lua">
+      <Name>JFD_Naples_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

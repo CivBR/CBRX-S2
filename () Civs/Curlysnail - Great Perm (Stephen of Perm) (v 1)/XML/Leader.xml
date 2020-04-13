@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Leaders>
+    <Row>
+      <Type>LEADER_STEPHEN</Type>
+      <Description>TXT_KEY_LEADER_STEPHEN</Description>
+      <Civilopedia>TXT_KEY_LEADER_STEPHEN_PEDIA</Civilopedia>
+      <CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN</CivilopediaTag>
+      <ArtDefineTag>Stephen_Scene.xml</ArtDefineTag>
+      <VictoryCompetitiveness>3</VictoryCompetitiveness>
+      <WonderCompetitiveness>4</WonderCompetitiveness>
+      <MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+      <Boldness>3</Boldness>
+      <DiploBalance>4</DiploBalance>
+      <WarmongerHate>6</WarmongerHate>
+      <WorkAgainstWillingness>0</WorkAgainstWillingness>
+      <WorkWithWillingness>0</WorkWithWillingness>
+      <DenounceWillingness>4</DenounceWillingness>
+      <DoFWillingness>7</DoFWillingness>
+      <Loyalty>7</Loyalty>
+      <Neediness>6</Neediness>
+      <Forgiveness>4</Forgiveness>
+      <Chattiness>5</Chattiness>
+      <Meanness>3</Meanness>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>STEPHENICON_ATLAS</IconAtlas>
+    </Row>
+  </Leaders>
+
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_STEPHEN">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_STEPHEN_FIRST_GREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_STEPHEN">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_STEPHEN_DEFEATED_%</Response>
+		</Row>
+	</Diplomacy_Responses>
+
+  <Leader_MajorCivApproachBiases>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+      <Bias>3</Bias>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+      <Bias>3</Bias>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+      <Bias>3</Bias>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+      <Bias>7</Bias>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+      <Bias>6</Bias>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+      <Bias>7</Bias>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+      <Bias>5</Bias>
+    </Row>
+  </Leader_MajorCivApproachBiases>
+  <Leader_MinorCivApproachBiases>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+      <Bias>5</Bias>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+      <Bias>7</Bias>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+      <Bias>4</Bias>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+      <Bias>3</Bias>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+      <Bias>3</Bias>
+    </Row>
+  </Leader_MinorCivApproachBiases>
+  <Leader_Flavors>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_OFFENSE</FlavorType>
+      <Flavor>3</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_RECON</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_RANGED</FlavorType>
+      <Flavor>6</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_MOBILE</FlavorType>
+      <Flavor>6</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_AIR</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_EXPANSION</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_GROWTH</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+      <Flavor>6</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_GOLD</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_SCIENCE</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_CULTURE</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_HAPPINESS</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+      <Flavor>6</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_WONDER</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_RELIGION</FlavorType>
+      <Flavor>8</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+      <Flavor>6</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_SPACESHIP</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_NUKE</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_USE_NUKE</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+      <Flavor>6</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_ANTIAIR</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+      <Flavor>8</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+      <Flavor>6</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+      <Flavor>6</Flavor>
+    </Row>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <FlavorType>FLAVOR_AIRLIFT</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+  </Leader_Flavors>
+  <Leader_Traits>
+    <Row>
+      <LeaderType>LEADER_STEPHEN</LeaderType>
+      <TraitType>TRAIT_THEGREATESTPERM</TraitType>
+    </Row>
+  </Leader_Traits>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_LEADER_STEPHEN">
+      <Text>Saint Stephen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_STEPHEN_PEDIA">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_HEADING_1">
+      <Text>History</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_HEADING_2">
+      <Text>Early Life</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_HEADING_3">
+      <Text>Conversion of the Perms</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_HEADING_4">
+      <Text>Legacy</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_LIVED">
+      <Text>1340 - 1396 AD</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_NAME">
+      <Text>Saint Stephen of Perm</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_SUBTITLE">
+      <Text>The Enlightener of Perm</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_TEXT_1">
+      <Text>Stepeh of Perm, or Saint Stephen, was a missionary who is credited with the conversion of the Komi peoples to Christianity, and establishing the Bisopric of Perm. He is also known as the one who created the Old Permic script.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_TEXT_2">
+      <Text>Probebly from the town of Ustiug, Stephen took his monastic vows in Rostov. Here he learned his trade as a copyist, as well as learning Greek.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_TEXT_3">
+      <Text>In 1376 Stephen voyaged to the lands of the Komi peoples. Rather than imposing Latin or Slavonic on the population, Stephen learned their language and culture and created a writing system for the peoples. It was from these acts that Stephen became the first Bishop of Perm.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_TEXT_4">
+      <Text>Stephen, according to historian Serge A. Zenkovsky, along with other great Russians, signified "the Russian spiritual and cultural revival of the late fourteenth and early fifteenth century". Not only this but his creation of Permian letters made Stephen the founding father of Permian written tradition.[NEWLINE][NEWLINE] Known by other names such as "The Enligtener of Perm" or "Apostle of the Permians", Stephen is commemorated by the Church on April the 26th.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STEPHEN_TITLES_1">
+      <Text>Saint Stephen of Perm</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

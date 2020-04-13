@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--MOD-->
+		<Row Tag="TXT_KEY_MOD_JFD_HAWAII_DESCRIPTION">
+			<Text>HAWAII (LILIUOKALANI)[NEWLINE][NEWLINE]UNIQUE TRAIT: ALOHA OE[NEWLINE][ICON_BULLET]National Wonders with a [ICON_GREAT_WORK] Great Work yield +1 Point toward all [ICON_GREAT_PEOPLE] Cultural Great People.[NEWLINE][ICON_BULLET][ICON_GREAT_PEOPLE] Cultural Great People Points from Buildings add to [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]UNIQUE BUILDING: HOUSE OF KINGS[NEWLINE][ICON_BULLET]Replaces Museum.[NEWLINE][ICON_BULLET]No maintenance.[NEWLINE][ICON_BULLET]+5% [ICON_GREAT_PEOPLE] Great People generation.[NEWLINE][ICON_BULLET]+5% [ICON_GREAT_PEOPLE] Great People generation per Social Policy Branch completed.[NEWLINE][NEWLINE]UNIQUE UNIT: KAIMILOA[NEWLINE][ICON_BULLET]Replaces Ironclad.[NEWLINE][ICON_BULLET]Can enter rival territory.[NEWLINE][ICON_BULLET]Begins with bonus [ICON_MOVES] Movement based on the city's [ICON_CULTURE] Culture.</Text>
+		</Row> 
+		<!--HAWAII-->
+		<Row Tag="TXT_KEY_CIV_JFD_HAWAII_ADJECTIVE">
+			<Text>Hawaiian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_HAWAII_DESC">
+			<Text>Hawaiian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_HAWAII_SHORT_DESC">
+			<Text>Hawai'i</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_TEXT_1">
+			<Text>The history of the Hawaiian archipelago is one of isolated beginnings, European influence, unification, the overthrow of native control and finally administered to the United States as a territory. Discovered by Captain James Cook in 1778, Hawai'i was originally called the 'Sandwich Islands', named after the fourth Earl of Sandwich, John Montagu.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_TEXT_2">
+			<Text>Hawai'i is made up of eight islands placed some 2000 miles southwest of North America, deep in the northern Pacific Ocean. Constantly created, formed and reformed by underwater volcanic activity, the Hawaiian islands sit on top of a hotspot - a magma source fed by the underlying mantle. As the Pacific plate moves northwest the hotspot remains under Hawai'i, creating new volcanoes and fertile land. The Hawaiian climate is typically tropical for the most part, but the islands themselves vary a great deal in their local climates, as a result resorts tend to face windward.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_HEADING_3">
+			<Text>Ancient Hawai'i</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_TEXT_3">
+			<Text>The earliest settlement of the Hawaiian islands is not entirely known; scholars tend to believe the first Polynesians arrived on Hawai'i in the third century from the Marquesas, followed by Tahitian invaders a millenium later. Others suggest that there was a single period of extensive settlement of the entire Polynesian region. Some writers believe that there may have been native Hawaiians before the arrival of the Polynesians, stories about menehune - little people who built heiau and fishponds - were said to prove the existence of ancient peoples who settled before the Polynesians, however in 1951 historians such as Luomala argue the stories as folklore, archaeologists have also yet to prove any suggestion of menehune settlements.[NEWLINE][NEWLINE]Ancient Hawai'i was a caste society. Four major classes existed in the tribe; the ali'i were the chiefs of the islands, ruling with divine power called 'mana'. The kahuna were the professionals - priests, carpenters, chanters and dancers, physicians and healers. The maka'ainana were the commoners - farmers and fishers, the laborers who did so not only for themselves and their families, but to support the ali'i and kahuna. Finally the kauwa were the war captives or their descendants; much like other slave classes from ancient cultures the kauwa could not marry above them and largely worked for the ali'i, even used for human sacrifice.[NEWLINE][NEWLINE]Like other Polynesian civilizations the Hawaiians remained entirely isolated from outside influence - Asian, American or European - until January 18, 1778 when British Captain James Cook first discovered Kaua'i island and then continued southward to discover and explore the rest of the island chain. When Cook landed at what would become Kealakekua Bay the natives believed him as Lono - the Hawaiian god of fertility, rainfall, music and peace. In this chance meeting Cook had met with a young Kamehameha I amongst other ali'i. The young ali'i would soon begin a great campaign to unify the archipelago.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_HEADING_4">
+			<Text>The Kingdom of Hawaii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_TEXT_4">
+			<Text>Starting in 1780 Kamehameha began a lengthy military campaign to unify and claim the entire archipelago; travelling from island to island, defeating all the chiefs. The wars lasted fifteen long years in which Kamehameha used modern weapons from Europe and western advisors such as John Young and Issac Davis. Despite success in claiming O'ahu and Maui islands he was not able to secure a victory at Kaua'i, his attempts foiled by a storm and a plague that severely weakened his army. Eventually however the chief of Kaua'i swore allegiance to Kamehameha, thus in that action unified the islands under a single banner for the first time in its history. The unification ended the ancient Hawaiian society and created an independent constitutional monarchy, forged in the traditions and the manner of western monarchs.[NEWLINE][NEWLINE]From its inception in 1810 to 1893 the Kingdom of Hawai'i was governed by two dynastic families; the House of Kamehameha and the Kalakaua Dynasty. The Kamehameha Dynasty saw more tumult and political threats whereas the shorter Kalakaua Dynasty displayed internal political upheavals and constitutions. After Kamehameha's death his wife, Queen Ka'ahumanu came to rule as a newly converted Protestant. In that time Catholicism was illegal, in 1831 chiefs loyal to the queen forced the removal of French Catholic priests from the islands and natives converted to the religion were claimed to have been imprisoned and tortured after the expulsion. This prejudice held under her successor Kuhina Nui Ka'ahumanu II, where Captain Laplace of the French frigate Artémise sailed to Hawai'i in 1839 with orders to send an ultimatum, threatening war. By July 17 King Kamehameha III signed the Edict of Toleration, he paid US$20,000 in compensation and agreed to Laplace's demands. After what would become known as the French Incident, admiral Louis Tromelin arrived in Honolulu in August 1849. Tromelin made ten demands to Kamehameha III, mostly to give full religious rites to Catholics. The demands were never met and, after warnings from the admiral, the French force overwhelmed the skeleton army, taking the fort and plundering property. By September 5 Tromelin retreated and left.[NEWLINE][NEWLINE]To make matters worse, on February 10 1843, Lord George Paulet on the HMS Carysfort sailed into Honolulu to demand the cession of the Hawaiian Islands to the British Crown. Under threat of fire Kamehameha III abdicated under protest, surrendering to Paulet fifteen days later. Gerrit P Judd, a mission who became the Minister of Finance, sent envoys to the United States, France and Britain secretly to protest against the lord’s actions. The protest eventually reached Rear Admiral Richard Darton Thomas, Paulet’s commanding officer; he arrived on July 26 to repudiate his subordinate’s actions. Five days after, the Hawaiian government was restored with Kamehameha III restored as king.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_HEADING_5">
+			<Text>American Cession</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_TEXT_5">
+			<Text>As the House of Kamehameha ended its rule over Hawai’i in 1872, the House of Kalakaua seated the throne. Initially Lunalilo won the election to rule, but his death after thirteen months placed the only remaining male relative of Kamehameha, Kalakaua as king. By this time American influence was well established; at the start of the 19th century American Protestant missions settled in Hawai’i and gained wealth and influence rapidly. They prohibited traditions they disliked, Reverend Amos Starr Cooke established a school to educate the royal family and its future monarchs. His relations with the king earned him an unofficial position as advisor to King Kamehameha III in 1843 where devised a land reform granting foreigners the ability to buy land from locals so as to plant sugarcane. Cooke and other missionaries became big landholders in Hawai’i, and from sugar production took hold of the economy.[NEWLINE][NEWLINE]A free trade agreement between the United States and the Kingdom of Hawai’i was drafted in 1875, the Reciprocity Treaty. It granted duty-free importation of Hawaiian sugar into the States, further promoting plantation growth, held largely by the foreigners. Later that year the US demanded the cession of what is now Pearl Harbour, Hawaiians protested on the streets until the revolt was choked by US marines. The treaty also allowed similar transactions with rice as rice was also a major crop. This attracted Chinese and Japanese immigration into Hawai’i to support the sugar industry and expand the cultivation of the rice.[NEWLINE][NEWLINE]Over the course of eleven years, starting in 1887, revolts sprung up from the white minorities; beginning with the formation of the Reform Party and their armed militia, the Honolulu Rifles. The militia and members of the cabinet seized the palace and forced King David Kalakaua into proclaiming their bill. Forcing the Bayonet Constitution, the militia striped the authority of the monarchy bare and set about disenfranchising the Asian population, giving three-quarters of the vote to white Europeans and Americans. The following year a plot to overthrow the king was exposed. By 1889 a rebellion of natives led by Colonel Robert Wilcox attempted to depose the unpopular constitution and storm the palace. The Wilcox Rebellions were crushed by the Honolulu Rifles. When the king died in 1891 Lili’uokalani ascended and immediately altered the constitution to restore the monarch’s authority. Unsettled by the turn of events a group of white men formed the Committee of Safety in January 14 1983, the primary goal of the party was the unseat the queen and annex Hawai’i to the United States. In just three days the States Government summoned a company of Marines and sailors to land and assume positions in US Legation and Consulate, establishing the Provisional Government of Hawaii. By January 17 Lili’uokalani abdicated under this pressure, yielding authority and pleading for justice.[NEWLINE][NEWLINE]Fear grew for the Hawaiian whites of a US intervention to restore the monarchy, thus prompting the Republic of Hawaii on July 4, the American Independance Day, 1894 under the presidency of Sanford Dole. The 1895 Counter-Revolution led by Colonels Robert Nowlein and Wilcox attempted to remove the republic and restore the queen to the throne, both colonels and Lili’uokalani were captured and imprisoned. Seeking to annex Hawaii as an American territory President William McKinley signed the Newlands Resolution on July 7 1889, ending Hawaiian independence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_HEADING_6">
+			<Text>20th Century Hawaii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_TEXT_6">
+			<Text>The territorial legislature convened for the first time on February 20, 1901, where the year prior the Hawaiians formed the Hawaiian Independent Party, led by Robert Wilcox, who in doing so became the first Hawaiian congressional delegate. During this period the sugar industry expanded greatly, the major companies began to gain considerable strength as the tariffs of sugarcane were lifted, planters had more money to invest. Five of the biggest sugar manufacturers held the monopoly in their hands, controlling 90% of the business - they were known as the ‘Big Five’. They kept their prices high and profited greatly; the executives began to sit at each other’s boards and began to grow political power, the families often favoring the Republican Party.[NEWLINE][NEWLINE]On December 7 1941 the Empire of Japan committed a surprise attack on Pearl Harbour in the Hawaiian Territory. The attack was designed to preemptively stop the U.S. Pacific Fleet from interfering with Japan’s actions in Southeast Asia. While it shocked the Americans, it in fact led to America entering World War II, declaring war against Japan and in turn Germany and Italy declaring war on America. To compound Japan’s oversight Admiral Hara Tadaichi, upon reflection summed up the result of the attack as “a great tactical victory at Pearl Harbour and thereby lost the war.” Isoroku Yamamoto, the mastermind of the attack was not aware of a decision on the U.S. Navy as far back as 1935 to abandon charging across the Pacific in response to an outbreak of war. The Pearl Harbour attack, it would seem, was entirely unnecessary and eventually resulted in the Atomic Bomb and Germany and Japan’s defeat in the conflict.[NEWLINE][NEWLINE]In 1954 a non-violent revolution swept across Hawaii’s industry with strikes, protests and other forms of civil disobedience. That year’s election saw the Republican Party’s unbroken rule ended, establishing the Democratic Party in Hawaii. The Democrats lobbied for statehood, unionized the workforce and as a result hasted the decline of the sugar industry. Statehood eventually came to Hawaii when President Dwight David Eisenhower signed the Hawaii Admission Act on March 18 1959 and after a referendum Hawaii became America’s 50th state on August 21 that year. The Big Five sugar companies declined to such a point that they, like most other sugar businesses became bought out by foreign firms.[NEWLINE][NEWLINE]Today Hawaii is a lush Pacific islander paradise, modernizing quickly from American construction and trading heavily on its tourism industry. In 1978 the Hawai’i State Constitutional Convention incorporated programs to promote native Hawaiian language and culture. The promotion of Hawaiian culture led to a Hawaiian Renaissance, reigniting interest in Ancient Hawai’i. With help of the Congress the Apology Resolution passed on November 23 1993 where President Bill Clinton signed the bill, it apologized to the native Hawaiians for the United States’ role in overthrowing the kingdom in 1893.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_HEADING_7">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HAWAII_TEXT_7">
+			<Text>The Hawaiian archipelago is the longest island chain in the world, measuring at some 1,500 miles from end to end.[NEWLINE][NEWLINE]The military and navy of the kingdom conformed to the warriors of Kona, who under Kamehameha originally mobilized in his campaigns. The divisions both used traditional canoes and uniforms with western technology such as artillery, muskets and European ships.[NEWLINE][NEWLINE]The reasons James Cook was revered as a god in Hawai'i were due to a series of coincidences; the mast and sails of Cook's ship - HMS Resolution - resembled Lono's emblem, a mast and a sheet of white tapa. Additionally Cook arrived during the Makahiki season dedicated to Lono.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_01">
+			<Text>Honolulu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_02">
+			<Text>Waikiki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_03">
+			<Text>Hilo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_04">
+			<Text>Kailua-Kona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_05">
+			<Text>Waipahu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_06">
+			<Text>Kaneohe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_07">
+			<Text>Mililani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_08">
+			<Text>Kahului</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_09">
+			<Text>Mililani Mauka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_10">
+			<Text>Kihei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_11">
+			<Text>Makakilo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_12">
+			<Text>Wahiawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_13">
+			<Text>Wailuku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_14">
+			<Text>Kapolei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_15">
+			<Text>Kunia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_16">
+			<Text>Halawa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_17">
+			<Text>Waimalu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_18">
+			<Text>Waianae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_19">
+			<Text>Nanakuli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_20">
+			<Text>Kailua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_21">
+			<Text>Lahaina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_22">
+			<Text>Waipio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_23">
+			<Text>Kapaa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_24">
+			<Text>Kalaoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_25">
+			<Text>Maili</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_26">
+			<Text>Aiea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_27">
+			<Text>Waimea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_28">
+			<Text>Waihee-Waiehu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_29">
+			<Text>Ahuimanu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_30">
+			<Text>Holualoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_31">
+			<Text>Makaha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_32">
+			<Text>Haiku-Pauwela</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_33">
+			<Text>Pukalani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_34">
+			<Text>Waikele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_HAWAII_35">
+			<Text>Napili-Honokowai</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_0">
+			<Text>Analea</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_1">
+			<Text>Konia</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_2">
+			<Text>Pauli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_3">
+			<Text>Kalakaua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_4">
+			<Text>Likelike</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_5">
+			<Text>Pauahi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_6">
+			<Text>Hao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_7">
+			<Text>Inaina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_8">
+			<Text>Eia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_9">
+			<Text>Moana</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_10">
+			<Text>Leilani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_HAWAII_11">
+			<Text>Illima</Text>
+		</Row>
+		<!--LILIUOKALANI-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HAWAII">
+			<Text>Lili'uokalani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HAWAII_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HAWAII_TEXT_1">
+			<Text>Lydia Kamakaeha was of a high-ranking family. Her mother, Keohokalole, was an adviser of King Kamehameha III. Reared in the missionary tradition deemed appropriate for Hawaiian princesses, she received a thoroughly modern education, which was augmented by a tour of the Western world. After a time as a member of the court of Kamehameha IV, she was married in September 1862 to John Owen Dominis, son of a Boston sea captain and himself an official in the Hawaiian government. In 1874 her brother David Kalakaua was chosen king, and in 1877, on the death of a second brother, W.P. Leleiohoku, who was heir apparent, she was named heir presumptive. She was known from that time by her royal name, Lili'uokalani.[NEWLINE][NEWLINE]Over the next 14 years she established herself firmly in that role. She served as regent during King Kalakaua’s world tour in 1881, and she was active in organizing schools for Hawaiian youth. During a world tour in 1887 she was received by U.S. Pres. Grover Cleveland and by Britain’s Queen Victoria. On the death of King Kalakaua in January 1891, Lili'uokalani ascended the throne, becoming the first woman ever to occupy it. Lili'uokalani regretted the loss of power the monarchy had suffered under Kalakaua and tried to restore something of the traditional autocracy to the Hawaiian throne. She had earlier made her position clear by opposing the renewed Reciprocity Treaty of 1887, signed by Kalakaua, granting privileged commercial concessions to the United States and ceding to them the port of Pearl Harbor. This attitude forever alienated her from Hawaii’s haole—foreign businessmen—who, after her accession, tried to abrogate her authority.[NEWLINE][NEWLINE]Lili'uokalani regretted the loss of power the monarchy had suffered under Kalakaua and tried to restore something of the traditional autocracy to the Hawaiian throne. She had earlier made her position clear by opposing the renewed Reciprocity Treaty of 1887, signed by Kalakaua, granting privileged commercial concessions to the United States and ceding to them the port of Pearl Harbor. This attitude forever alienated her from Hawaii’s haole—foreign businessmen—who, after her accession, tried to abrogate her authority.[NEWLINE][NEWLINE]Led by Sanford Dole, the Missionary Party asked for her abdication in January 1893 and, declaring the queen deposed, announced the establishment of a provisional government pending annexation by the United States. To avoid bloodshed, Lili'uokalani surrendered, but she appealed to President Cleveland to reinstate her. Cleveland ordered the queen restored, but Dole defied the order, claiming that Cleveland did not have the authority to interfere. In 1895 an insurrection in the queen’s name, led by royalist Robert Wilcox, was suppressed by Dole’s group, and Lili'uokalani was kept under house arrest on charges of treason. On January 24, 1895, to win pardons for her supporters who had been jailed following the revolt, she agreed to sign a formal abdication.[NEWLINE][NEWLINE]As head of the ‘Onipa‘a (meaning “immovable,” “steadfast,” “firm,” “resolute”) movement, whose motto was “Hawaii for the Hawaiians,” Lili'uokalani fought bitterly against annexation of the islands by the United States. Annexation nonetheless occurred in July 1898. In that year she published Hawaii’s Story by Hawaii’s Queen and composed “Aloha Oe,” a song ever afterward beloved in the islands. Thereafter she withdrew from public life, enjoying a government pension and the homage of islanders and visitors alike.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HAWAII_NAME">
+			<Text>Lili'uokalani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HAWAII_SUBTITLE">
+			<Text>Leader of Hawai'i</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HAWAII_TITLES_1">
+			<Text>Queen of Hawai'i</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HAWAII_LIVED">
+			<Text>1838 - 1917</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_JFD_HAWAII_TEXT">
+			<Text>O' serene and steadfast Lili'uokalani, how the people of Hawai'i long to see you as their Queen. Although you were not born to be monarch, you would take your unexpected ascension in 1877 with dignity and grace. For fourteen years, you would carry yourself and the sovereignty and welfare of the Hawaiian people on your shoulders, even as your kingdom fell to American annexation in 1898. Though in your final days you would be a Queen without a kingdom, you would nonetheless fight for the spirit of Hawai'i and your rightful throne until your death in 1917.[NEWLINE][NEWLINE]The Hawaiian people keep your songs in their hearts, Lili'uokalani. Can you once more safeguard the sovereignty of the Hawaiian nation? Can you restore the dignity and authority of your royal household? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+		<!--Responses-->
+		<Row Tag="TXT_KEY_LEADER_JFD_HAWAII_FIRSTGREETING_1">
+			<Text>I am Lili'uokalani; proudly, Queen of Hawai'i and its people. Come to me with good intentions, and you will find my kingdom is open to you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HAWAII_DEFEATED_1">
+			<Text>I will not take this defeat sitting. I will fight on, wherever I might be heard to oppose this act.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HAWAII_ATTACKED_HOSTILE_1">
+			<Text>Hawai'i is a nation for Hawaiins. You will not find the fight easy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HAWAII_DEC_FRIENDSHIP_1">
+			<Text>You have been a kind soul to me. Would you care to make a public Declaration of Friendship with my people?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HAWAII_DENOUNCE_1">
+			<Text>It is clear to me that you do not care for the sovereign right of all peoples.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HAWAII_DENOUNCE_FRIEND_1">
+			<Text>You will no longer find yourself welcome in Hawai'i.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HAWAII_DOW_GENERIC_1">
+			<Text>I must act before it is too late.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_HAWAII_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>The world will hear me. The world will hear of your foolishness.</Text>
+		</Row>
+		<!--ALOHA 'OE-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_HAWAII_SHORT">
+			<Text>Aloha 'Oe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_HAWAII">
+			<Text>National Wonders with a [ICON_GREAT_WORK] Great Work yield +1 Point toward all Cultural Great People. Cultural Great People Points from Buildings add to [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<!--JFD: Hawaii Culture-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWAII_CULTURE">
+			<Text>JFD: Hawaii Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWAII_CULTURE_HELP">
+			<Text></Text>
+		</Row>
+		<!--JFD: Hawaii Artist-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWAII_ARTIST">
+			<Text>JFD: Hawaii Artist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWAII_ARTIST_HELP">
+			<Text></Text>
+		</Row>
+		<!--JFD: Hawaii Director-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWAII_DIRECTOR">
+			<Text>JFD: Hawaii Director</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWAII_DIRECTOR_HELP">
+			<Text></Text>
+		</Row>
+		<!--JFD: Hawaii Musician-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWAII_MUSICIAN">
+			<Text>JFD: Hawaii Musician</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWAII_MUSICIAN_HELP">
+			<Text></Text>
+		</Row>
+		<!--JFD: Hawaii Writer-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWAII_WRITER">
+			<Text>JFD: Hawaii Writer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HAWAII_WRITER_HELP">
+			<Text></Text>
+		</Row>
+		<!--HOUSE OF KINGS-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HOUSE_OF_KINGS">
+			<Text>House of Kings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HOUSE_OF_KINGS_HELP">
+			<Text>+5% [ICON_GREAT_PEOPLE] Great People generation, and +5% more generation per Social Policy Branch completed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HOUSE_OF_KINGS_STRATEGY">
+			<Text>This unique Museum replacement for Hawai'i increases the generation of [ICON_GREAT_PEOPLE] Great People in the city, the amount increasing for every Social Policy Branch that has been unlocked. In addition, the House of Kings costs no [ICON_GOLD] Gold maintenance. Construct Houses of Kings to ensure you generate plenty of Great People Points, and with them, hasten your acquisition of new Social Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HOUSE_OF_KINGS_TEXT">
+			<Text>The ʻIolani Palace was the royal residence of the rulers of the Kingdom of Hawaii beginning with Kamehameha III under the Kamehameha Dynasty (1845) and ending with Queen Liliʻuokalani (1893) under the Kalākaua Dynasty, founded by her brother, King David Kalākaua. It is located in the capitol district of downtown Honolulu in the U.S. state of Hawaiʻi. It is now a National Historic Landmark listed on the National Register of Historic Places. After the monarchy was overthrown in 1893, the building was used as the capitol building for the Provisional Government, Republic, Territory, and State of Hawaiʻi until 1969. The palace was restored and opened to the public as a museum in 1978. The ʻIolani Palace is the only royal palace on US soil.</Text>
+		</Row>
+		<!--JFD: House of Kings GP-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HOUSE_OF_KINGS_GREAT_PEOPLE">
+			<Text>JFD: House of Kings GP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HOUSE_OF_KINGS_GREAT_PEOPLE_HELP">
+			<Text></Text>
+		</Row>
+		<!--KAIMILOA-->
+		<Row Tag="TXT_KEY_UNIT_JFD_KAIMILOA">
+			<Text>Kaimiloa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_KAIMILOA_HELP">
+			<Text>Unique Industrial Era Naval Unit that begins with bonus starting [ICON_MOVES] Movement based on the city's [ICON_CULTURE] Culture per turn. Can also enter foreign territory without open borders. Weaker than the Ironclad that it replaces. Only Hawai'i can train it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_KAIMILOA_STRATEGY">
+			<Text>The Kaimiloa is Hawaii's unique replacement for the Ironclad. This unit begins with bonus [ICON_MOVES] Movement based on the city's starting [ICON_CULTURE] Culture, meaning it can be used to navigate the seas quickly. It can also enter foreign territory without open borders. However, the Kaimiloa is much less effective in combat. Use Kaimiloa for scouting our the seas rather than engaging them in combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_KAIMILOA_TEXT">
+			<Text>HHMS Kaimiloa was the first and only ship of the Hawaiian Royal Navy. The ship was a 170-ton Explorer gunboat, made in Britain in 1871. King Kalakaua bought the ship for $20,000 and added the rigging. It sailed from Hawaii to Samoa and other Pacific islands in 1887 in an effort by Kalākaua to form a confederation of Polynesian states to counteract European imperialism. The instance nearly resulted in military conflict between Hawaii and the German Empire, who viewed Samoa as their possession in the Pacific. It was also used as a training ship. In the Hawaiian language, kaimiloa means "one who seeks afar".</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

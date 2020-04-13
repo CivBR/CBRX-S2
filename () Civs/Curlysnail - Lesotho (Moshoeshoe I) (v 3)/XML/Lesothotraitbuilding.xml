@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CSLESOTHOTRAITBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_CSLESOTHOTRAITBUILDING_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CSLESOTHOTRAITBUILDING_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CSLESOTHOTRAITBUILDING_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_CSLESOTHOTRAITBUILDING_HELP</Help>
+			<ThemingBonusHelp></ThemingBonusHelp>
+			<Quote></Quote>
+			<GoldMaintenance>0</GoldMaintenance>
+			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
+			<TeamShare>0</TeamShare>
+			<Water>0</Water>
+			<River>0</River>
+			<FreshWater>0</FreshWater>
+			<Mountain>0</Mountain>
+			<NearbyMountainRequired>0</NearbyMountainRequired>
+			<Hill>1</Hill>
+			<Flat>0</Flat>
+			<FoundsReligion>0</FoundsReligion>
+			<IsReligious>0</IsReligious>
+			<BorderObstacle>0</BorderObstacle>
+			<PlayerBorderObstacle>0</PlayerBorderObstacle>
+			<Capital>0</Capital>
+			<GoldenAge>0</GoldenAge>
+			<MapCentering>0</MapCentering>
+			<NeverCapture>0</NeverCapture>
+			<NukeImmune>1</NukeImmune>
+			<AllowsWaterRoutes>0</AllowsWaterRoutes>
+			<ExtraLuxuries>0</ExtraLuxuries>
+			<DiplomaticVoting>0</DiplomaticVoting>
+			<AffectSpiesNow>0</AffectSpiesNow>
+			<NullifyInfluenceModifier>0</NullifyInfluenceModifier>
+			<Cost>0</Cost>
+			<FaithCost>0</FaithCost>
+			<LeagueCost>0</LeagueCost>
+			<UnlockedByBelief>0</UnlockedByBelief>
+			<UnlockedByLeague>0</UnlockedByLeague>
+			<HolyCity>0</HolyCity>
+			<NumCityCostMod>0</NumCityCostMod>
+			<HurryCostModifier>0</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<CitiesPrereq>0</CitiesPrereq>
+			<LevelPrereq>0</LevelPrereq>
+			<CultureRateModifier>0</CultureRateModifier>
+			<GlobalCultureRateModifier>0</GlobalCultureRateModifier>
+			<GreatPeopleRateModifier>0</GreatPeopleRateModifier>
+			<GlobalGreatPeopleRateModifier>0</GlobalGreatPeopleRateModifier>
+			<GreatGeneralRateModifier>0</GreatGeneralRateModifier>
+			<GreatPersonExpendGold>0</GreatPersonExpendGold>
+			<GoldenAgeModifier>0</GoldenAgeModifier>
+			<UnitUpgradeCostMod>0</UnitUpgradeCostMod>
+			<Experience>0</Experience>
+			<GlobalExperience>0</GlobalExperience>
+			<FoodKept>0</FoodKept>
+			<Airlift>0</Airlift>
+			<AirModifier>0</AirModifier>
+			<NukeModifier>0</NukeModifier>
+			<NukeExplosionRand>0</NukeExplosionRand>
+			<HealRateChange>0</HealRateChange>
+			<Happiness>0</Happiness>
+			<UnmoddedHappiness>2</UnmoddedHappiness>
+			<UnhappinessModifier>0</UnhappinessModifier>
+			<HappinessPerCity>0</HappinessPerCity>
+			<HappinessPerXPolicies>0</HappinessPerXPolicies>
+			<CityCountUnhappinessMod>0</CityCountUnhappinessMod>
+			<NoOccupiedUnhappiness>0</NoOccupiedUnhappiness>
+			<WorkerSpeedModifier>0</WorkerSpeedModifier>
+			<MilitaryProductionModifier>0</MilitaryProductionModifier>
+			<SpaceProductionModifier>0</SpaceProductionModifier>
+			<GlobalSpaceProductionModifier>0</GlobalSpaceProductionModifier>
+			<BuildingProductionModifier>0</BuildingProductionModifier>
+			<WonderProductionModifier>0</WonderProductionModifier>
+			<CityConnectionTradeRouteModifier>0</CityConnectionTradeRouteModifier>
+			<CapturePlunderModifier>0</CapturePlunderModifier>
+			<PolicyCostModifier>0</PolicyCostModifier>
+			<PlotCultureCostModifier>0</PlotCultureCostModifier>
+			<GlobalPlotCultureCostModifier>0</GlobalPlotCultureCostModifier>
+			<PlotBuyCostModifier>0</PlotBuyCostModifier>
+			<GlobalPlotBuyCostModifier>0</GlobalPlotBuyCostModifier>
+			<GlobalPopulationChange>0</GlobalPopulationChange>
+			<TechShare>0</TechShare>
+			<FreeTechs>0</FreeTechs>
+			<FreePolicies>0</FreePolicies>
+			<FreeGreatPeople>0</FreeGreatPeople>
+			<MedianTechPercentChange>0</MedianTechPercentChange>
+			<Gold>0</Gold>
+			<AllowsRangeStrike>0</AllowsRangeStrike>
+			<Espionage>0</Espionage>
+			<AllowsFoodTradeRoutes>0</AllowsFoodTradeRoutes>
+			<AllowsProductionTradeRoutes>0</AllowsProductionTradeRoutes>
+			<Defense>300</Defense>
+			<ExtraCityHitPoints>30</ExtraCityHitPoints>
+			<GlobalDefenseMod>0</GlobalDefenseMod>
+			<MinorFriendshipChange>0</MinorFriendshipChange>
+			<VictoryPoints>0</VictoryPoints>
+			<ExtraMissionarySpreads>0</ExtraMissionarySpreads>
+			<ReligiousPressureModifier>0</ReligiousPressureModifier>
+			<EspionageModifier>0</EspionageModifier>
+			<GlobalEspionageModifier>0</GlobalEspionageModifier>
+			<ExtraSpies>0</ExtraSpies>
+			<SpyRankChange>0</SpyRankChange>
+			<InstantSpyRankChange>0</InstantSpyRankChange>
+			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>0</TradeRouteTargetBonus>
+			<NumTradeRouteBonus>0</NumTradeRouteBonus>
+			<LandmarksTourismPercent>0</LandmarksTourismPercent>
+			<InstantMilitaryIncrease>0</InstantMilitaryIncrease>
+			<GreatWorksTourismModifier>0</GreatWorksTourismModifier>
+			<XBuiltTriggersIdeologyChoice>0</XBuiltTriggersIdeologyChoice>
+			<TradeRouteSeaDistanceModifier>0</TradeRouteSeaDistanceModifier>
+			<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus>
+			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier>
+			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
+			<ArtDefineTag>ART_DEF_BUILDING_MARKET</ArtDefineTag>
+			<NearbyTerrainRequired></NearbyTerrainRequired>
+			<ProhibitedCityTerrain></ProhibitedCityTerrain>
+			<VictoryPrereq></VictoryPrereq>
+			<FreeStartEra></FreeStartEra>
+			<MaxStartEra></MaxStartEra>
+			<ObsoleteTech></ObsoleteTech>
+			<EnhancedYieldTech></EnhancedYieldTech>
+			<TechEnhancedTourism>0</TechEnhancedTourism>
+			<FreeBuilding></FreeBuilding>
+			<FreeBuildingThisCity></FreeBuildingThisCity>
+			<FreePromotion></FreePromotion>
+			<TrainedFreePromotion></TrainedFreePromotion>
+			<FreePromotionRemoved></FreePromotionRemoved>
+			<ReplacementBuildingClass></ReplacementBuildingClass>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<PolicyBranchType></PolicyBranchType>
+			<SpecialistType></SpecialistType>
+			<SpecialistCount>0</SpecialistCount>
+			<GreatWorkSlotType></GreatWorkSlotType>
+			<FreeGreatWork></FreeGreatWork>
+			<GreatWorkCount>0</GreatWorkCount>
+			<SpecialistExtraCulture>0</SpecialistExtraCulture>
+			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<ExtraLeagueVotes>0</ExtraLeagueVotes>
+			<CityWall>0</CityWall>
+			<DisplayPosition>0</DisplayPosition>
+			<PortraitIndex>50</PortraitIndex>
+			<WonderSplashImage></WonderSplashImage>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+			<WonderSplashAudio></WonderSplashAudio>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<ArtInfoCulturalVariation>0</ArtInfoCulturalVariation>
+			<ArtInfoEraVariation>0</ArtInfoEraVariation>
+			<ArtInfoRandomVariation>0</ArtInfoRandomVariation>
+		</Row>
+	</Buildings>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CSLESOTHOTRAITBUILDING_DESC">
+			<Text>CSLESOTHOTRAITBUILDING</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CSLESOTHOTRAITBUILDING_TEXT">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CSLESOTHOTRAITBUILDING_STRATEGY">
+			<Text>TRAIT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CSLESOTHOTRAITBUILDING_HELP">
+			<Text>TRAIT</Text>
+		</Row>
+	</Language_en_US>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CSLESOTHODEFENSEPACTTRAITBUILDING</Type>
+			<DefaultBuilding>BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_CSLESOTHODEFENSEPACTTRAITBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech></PrereqTech>
+			<Help>TXT_KEY_BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_CASTLE</ArtDefineTag>
+			<!--<GreatWorkCount>-1</GreatWorkCount>-->
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas></IconAtlas>
+			<!-- this will change.-->
+			<PortraitIndex>0</PortraitIndex>
+			<ExtraLeagueVotes>1</ExtraLeagueVotes>
+		</Row>
+	</Buildings>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING">
+			<Text>Defensive Pact with Lesotho Bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING_HELP">
+			<Text>+1 Delegate for each civilization that has a Defensive Pact with Lesotho.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING_DESC">
+			<Text>Defensive Pact with Lesotho Bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING_PEDIA">
+			<Text>+1 Delegate for each civilization that has a Defensive Pact with Lesotho.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CSLESOTHODEFENSEPACTTRAITBUILDING_STRATEGY">
+			<Text>Signing a Defensive pact with Lesotho gives both you and Lesotho a delegate in the World Congress.</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

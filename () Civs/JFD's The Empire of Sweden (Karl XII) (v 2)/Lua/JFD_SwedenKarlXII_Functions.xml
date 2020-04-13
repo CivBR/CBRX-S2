@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Context>
+	<Box ID="MilitaryReserveBox" Hidden="1" Anchor="C,B" Size="280,35" Offset="15,40" Color="0,0,0,0" ConsumeMouse="1">
+		<Grid Size="1,1" Anchor="C,C" Offset="0,0" ConsumeMouse="1">
+			<GridButton ID="MilitaryReserveButton" Size="280,35" Anchor="C,C" Offset="25,0" Style="BaseButton">
+				<Image ID="MilitaryReserveImage" Anchor="L,C" Size="64,64">
+				</Image>
+			</GridButton>
+		</Grid>
+	</Box>
+</Context>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--TWO SICILIES-->
+		<Row Tag="TXT_KEY_CIV_JFD_TWO_SICILIES_ADJECTIVE">
+			<Text>Two Sicilies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_TWO_SICILIES_DESC">
+			<Text>Two Sicilian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_TWO_SICILIES_SHORT_DESC">
+			<Text>Two Sicilies</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Replace Tag="TXT_KEY_JFD_TAL_ITALIAN_STATES">
+			<Text>Italy</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_CIV5_JFD_TWO_SICILIES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_TWO_SICILIES_TEXT_1">
+			<Text>The Kingdom of the Two Sicilies was the largest of the states of Italy before the Italian unification.It was formed as a union of the Kingdom of Sicily and the Kingdom of Naples, which collectively had long been called the "Two Sicilies" (Utraque Sicilia, literally "both Sicilies").[NEWLINE][NEWLINE]The Kingdom of the Two Sicilies lasted from 1816 until 1860, when it was annexed by the Kingdom of Sardinia, which shortly would become the Kingdom of Italy in 1861. The capitals of the Two Sicilies were in Naples and in Palermo. The kingdom extended over the Mezzogiorno (the southern part of mainland Italy) and the island of Sicily. Jordan Lancaster notes that the integration of the Kingdom of the Two Sicilies into the Kingdom of Italy changed the status of Naples forever: "Abject poverty meant that, throughout Naples and Southern Italy, thousands decided to leave in search of a better future." Many went to the United States, Australia and Argentina. The kingdom was heavily agricultural, like the other Italian states; the church owned 50–65% of the land by 1750.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_TWO_SICILIES_HEADING_2">
+			<Text>Formation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_TWO_SICILIES_TEXT_2">
+			<Text>The Kingdom of the Two Sicilies resulted from the unification of the Kingdom of Sicily with the Kingdom of Naples (called the Kingdom of Peninsular Sicily), by King Alfonso V of Aragon in 1442. The two states had functioned as separate realms since the War of the Sicilian Vespers in 1282. At the death of King Alfonso in 1458, the kingdom became divided between his brother John II of Aragon, who kept the island of Sicily, and his illegitimate son Ferdinand, who became King of Naples.[NEWLINE][NEWLINE]In 1501, King Ferdinand II of Aragon, son of John II, conquered Naples and reunified the two kingdoms under the authority of the newly united Spanish throne. The Kings of Spain then bore the title King of Both Sicilies or King of Sicily and of the Two Coasts of the Strait until the War of the Spanish Succession.[citation needed] At the end of that war, the Treaty of Utrecht in 1713 granted Sicily to the Duke of Savoy until the Treaty of Rastatt in 1714 left Naples to the Emperor Charles VI. In 1720 the Emperor and Savoy exchanged Sicily for Sardinia, thus reuniting Naples and Sicily.[NEWLINE][NEWLINE]In 1734, Charles, Duke of Parma, son of Philip V of Spain, took the Sicilian crown from the Austrians and became Charles VII and V, giving Parma to his younger brother, Philip. In 1759, Charles became King Carlos III of Spain and resigned Sicily and Naples to his younger son, who became Ferdinand III of Sicily and Ferdinand IV of Naples, later crowned Ferdinand I of the Two Sicilies in 1816. Apart from an interruption under Napoleon, the Kingdom of the Two Sicilies remained under the Bourbon line (Bourbon Duo-Sicilie) continually until 1860.[NEWLINE][NEWLINE]In January 1799, Napoleon Bonaparte, in the name of the French Republic, captured Naples and proclaimed the Parthenopaean Republic, a French client state, as successor to the kingdom. King Ferdinand fled from Naples to Sicily until June of that year. In 1806, Napoleon, by then French Emperor, again dethroned King Ferdinand and appointed his brother, Joseph Bonaparte, as King of Naples. In the Edict of Bayonne of 1808 Napoleon moved Joseph to Spain and appointed their brother-in-law, Joachim Murat, as King of the Two Sicilies, though this only meant control of the mainland portion of the kingdom. Throughout this Napoleonic interruption, King Ferdinand remained in Sicily, with Palermo as his capital.[NEWLINE][NEWLINE]The Congress of Vienna restored King Ferdinand in 1815. He established a concordat with the Papal States, which previously had a claim to the land.[NEWLINE][NEWLINE]Several rebellions took place on the island of Sicily against King Ferdinand II (reigned 1830-1859), but the end of the kingdom came only with the Expedition of the Thousand in 1860, led by Garibaldi - an icon of Italian unification - with the support of the House of Savoy and their Kingdom of Piedmont-Sardinia. The expedition resulted in a striking series of defeats for the Sicilian armies facing the growing troops of Garibaldi. After the capture of Palermo and Sicily, Garibaldi disembarked in Calabria and moved towards Naples, while in the meantime the Piedmontese also invaded the Kingdom from the Marche. The last battles took place at Volturnus in 1860 and at the siege of Gaeta, where King Francis II (reigned 1859-1861) had sought shelter, hoping for French help, which never came. The last towns to resist Garibaldi's expedition, Messina and Civitella del Tronto, capitulated on 13 March 1861 and on 20 March 1861 respectively. The Kingdom of the Two Sicilies dissolved and the new Kingdom of Italy, founded in the same year annexed its territoryThe fall of the Sicilian aristocracy in the face of Garibaldi's invasion forms the subject of the novel The Leopard by Giuseppe Tomasi di Lampedusa and its film adaptation.[NEWLINE][NEWLINE]From Wikipedia.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_01">
+			<Text>Naples</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_02">
+			<Text>Palermo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_03">
+			<Text>Teramo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_04">
+			<Text>Aquila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_05">
+			<Text>Chieti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_06">
+			<Text>Campobasso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_07">
+			<Text>Capua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_08">
+			<Text>Avellino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_09">
+			<Text>Salerno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_10">
+			<Text>San Severo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_11">
+			<Text>Foggia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_12">
+			<Text>Bari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_13">
+			<Text>Lecce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_14">
+			<Text>Potenza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_15">
+			<Text>Cosenza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_16">
+			<Text>Catanzaro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_17">
+			<Text>Reggio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_18">
+			<Text>Caltanissetta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_19">
+			<Text>Catania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_20">
+			<Text>Girgenti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_21">
+			<Text>Messina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_22">
+			<Text>Noto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_TWO_SICILIES_23">
+			<Text>Trapani</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_TWO_SICILIES_00">
+			<Text>Vito Cascioferro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_TWO_SICILIES_01">
+			<Text>Calogero Vizzini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_TWO_SICILIES_02">
+			<Text>Giuseppe Genco Russo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_TWO_SICILIES_03">
+			<Text>Michele Navarra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_TWO_SICILIES_04">
+			<Text>Ciaschiteddu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_TWO_SICILIES_05">
+			<Text>Gaetano Badalamenti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_TWO_SICILIES_06">
+			<Text>Angelo La Barbera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_TWO_SICILIES_07">
+			<Text>Michele Greco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_TWO_SICILIES_08">
+			<Text>Luciano Leggio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_TWO_SICILIES_09">
+			<Text>Salvatore Riina</Text>
+		</Row>
+		<!--FERDINAND I-->
+		<Row Tag="TXT_KEY_LEADER_JFD_FERDINAND_I">
+			<Text>Ferdinand I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_TEXT_1">
+			<Text>Ferdinand I was the King of the Two Sicilies from 1816, after his restoration following victory in the Napoleonic Wars. Before that he had been, since 1759, Ferdinand IV of the Kingdom of Naples and Ferdinand III of the Kingdom of Sicily. He was deposed twice from the throne of Two Sicilies: once by the revolutionary Parthenopean Republic for six months in 1799 and again by Napoleon Bonaparte in 1805.[NEWLINE][NEWLINE]Ferdinand was the third son of King Charles III of Spain, Naples and Sicily by his wife, Maria Amalia of Saxony. On 10 August 1759, Charles succeeded his elder brother, Ferdinand VI, but treaty provisions made Charles ineligible to hold all three crowns. On 6 October, he abdicated his Neapolitan and Sicilian titles in favour of his third son, because his eldest son, Philip had been excluded from succession and his second son, Charles, was heir to the Spanish throne. Ferdinand was the founder of the cadet House of Bourbon-Two Sicilies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_HEADING_2">
+			<Text>Childhood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_TEXT_2">
+			<Text>Ferdinand was born in Naples and grew up amidst many of the monuments erected there by his father which can be seen today; the Palaces of Portici, Caserta and Capodimonte.[NEWLINE][NEWLINE]Ferdinand was his parents' third son, his elder brother Charles was expected to inherit Naples and Sicily. When his father ascended the Spanish throne in 1759 he abdicated Naples in Ferdinand's favor in accordance with the treaties forbidding the union of the two crowns. A regency council presided over by the Tuscan Bernardo Tanucci was set up. The latter, an able, ambitious man, wishing to keep the government as much as possible in his own hands, purposely neglected the young king's education, and encouraged him in his love of pleasure, his idleness and his excessive devotion to outdoor sports.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_HEADING_3">
+			<Text>Reign</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_TEXT_3">
+			<Text>Ferdinand's minority ended in 1767, and his first act was the expulsion of the Jesuits. The following year he married Archduchess Maria Carolina, daughter of Empress Maria Theresa. By the marriage contract the queen was to have a voice in the council of state after the birth of her first son, and she was not slow to avail herself of this means of political influence.[NEWLINE][NEWLINE]Tanucci, who attempted to thwart her, was dismissed in 1777. The Englishman Sir John Acton, who in 1779 was appointed director of marine, won Maria Carolina's favour by supporting her scheme to free Naples from Spanish influence, securing rapprochement with Austria and Great Britain. He became practically and afterward actually prime minister. Although not a mere grasping adventurer, he was largely responsible for reducing the internal administration of the country to a system of espionage, corruption and cruelty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_HEADING_4">
+			<Text>Parthenopaean Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_TEXT_4">
+			<Text>Although peace was made with France in 1798, the demands of the French Directory, whose troops occupied Rome, alarmed the king once more, and at his wife's instigation he took advantage of Napoleon's absence in Egypt and of Nelson's victories to go to war. He marched with his army against the French and entered Rome (29 November), but on the defeat of some of his columns he hurried back to Naples, and on the approach of the French, fled aboard Nelson's ship the HMS Vanguard to Sicily, leaving his capital in a state of anarchy.[NEWLINE][NEWLINE]The French entered the city in spite of the fierce resistance of the lazzaroni, and with the aid of the nobles and bourgeoisie established the Parthenopaean Republic (January 1799). When, a few weeks later the French troops were recalled to northern Italy, Ferdinand sent a hastily assembled force, under Cardinal Ruffo, to reconquer the mainland kingdom. Ruffo, with the support of British artillery, the Church, and the pro-Bourbon aristocracy, succeeded, reaching Naples in May 1800, and the Parthenopaean Republic collapsed. After some months King Ferdinand returned to the throne.[NEWLINE][NEWLINE]The king, and above all the queen, were particularly anxious that no mercy should be shown to the rebels, and Maria Carolina (a sister of the executed Antoinette) made use of Lady Hamilton, Nelson's mistress, to induce Nelson to carry out her vengeance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_HEADING_5">
+			<Text>Third Coalition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_TEXT_5">
+			<Text>The king returned to Naples soon afterwards, and ordered a few hundred who had collaborated with the French executed. This stopped only when the French successes forced him to agree to a treaty which included amnesty for members of the French party. When war broke out between France and Austria in 1805, Ferdinand signed a treaty of neutrality with the former, but a few days later he allied himself with Austria and allowed an Anglo-Russian force to land at Naples (see Third Coalition).[NEWLINE][NEWLINE]The French victory at the Battle of Austerlitz on 2 December enabled Napoleon to dispatch an army to southern Italy. Ferdinand fled to Palermo (23 January 1806), followed soon after by his wife and son, and on 14 February 1806 the French again entered Naples. Napoleon declared that the Bourbon dynasty had forfeited the crown, and proclaimed his brother Joseph King of Naples and Sicily. But Ferdinand continued to reign over the latter kingdom (becoming the first King of Sicily in centuries to actually reside there) under British protection.[NEWLINE][NEWLINE]Parliamentary institutions of a feudal type had long existed in the island, and Lord William Bentinck, the British minister, insisted on a reform of the constitution on English and French lines. The king indeed practically abdicated his power, appointing his son Francis as regent, and the queen, at Bentinck's insistence, was exiled to Austria, where she died in 1814.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_HEADING_6">
+			<Text>Restoration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_TEXT_6">
+			<Text>After the fall of Napoleon, Joachim Murat, who had succeeded Joseph Bonaparte as king of Naples in 1808, was dethroned in the Neapolitan War, and Ferdinand returned to Naples. By a secret treaty he had bound himself not to advance further in a constitutional direction than Austria should at any time approve; but, though on the whole he acted in accordance with Metternich's policy of preserving the status quo, and maintained with but slight change Murat's laws and administrative system, he took advantage of the situation to abolish the Sicilian constitution, in violation of his oath, and to proclaim the union of the two states into the kingdom of the Two Sicilies (12 December 1816).[NEWLINE][NEWLINE]Ferdinand was now completely subservient to Austria, an Austrian, Count Nugent, being even made commander-in-chief of the army. For the next four years he reigned as an absolute monarch within his domain, granting no constitutional reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_HEADING_8">
+			<Text>1820 revolution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_TEXT_8">
+			<Text>The suppression of liberal opinion caused an alarming spread of the influence and activity of the secret society of the Carbonari, which in time affected a large part of the army. In July 1820 a military revolt broke out under General Guglielmo Pepe, and Ferdinand was terrorised into signing a constitution on the model of the Spanish Constitution of 1812. On the other hand, a revolt in Sicily, in favour of the recovery of its independence, was suppressed by Neapolitan troops.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_HEADING_9">
+			<Text>Later years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_TEXT_9">
+			<Text>Following the Austrian victory, the Parliament was dismissed and Ferdinand suppressed the Liberals and Carbonari. The victory was used by Austria to force its grasp over Naples' domestic and foreign policies. Count Charles-Louis de Ficquelmont was appointed as the Austrian ambassador to Naples, practically administrating the country as well as managing the occupation and strengthening Austrian influence over Neapolitan elites. Ferdinand died in Naples in January 1825.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_NAME">
+			<Text>Ferdinand I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_SUBTITLE">
+			<Text>Leader of the Two Sicilies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_TITLES_1">
+			<Text>King of the Two Sicilies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_FERDINAND_I_LIVED">
+			<Text>1751 – 1825</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_TWO_SICILIES_TEXT">
+			<Text>Greetings to you, Ferdinand I, King of the Two Sicilies and of the illustrious city of Naples. The Two Sicilies was born a product of the union of the ancient Kingdoms of Naples and Sicily. A marvel of naval and mercantile reputation, the Kingdom of the Two Sicilies became one of the industrial-maritime centres of Italy. The Kingdom's life, however, would be short-lived. In 1860, the Two Sicilies was conquered by the belligerent Sardinia, and the ancient capitals at Palermo and Naples would become amongst the newly formed Italy's most prized possessions.[NEWLINE][NEWLINE]Noble Ferdinand, you are charged with the duty of procuring for the Two Sicilies the sovereignty to which it is allotted by nature. Can you make Naples and Palermo once more the centre of maritime and mercantile prowess? Can you deliver your people safety and prosperity to the envy of the world? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+		<!--PRIDE OF BOURBON SICILY-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_TWO_SICILIES_SHORT">
+			<Text>Pride of Bourbon Sicily</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_TWO_SICILIES">
+			<Text>Naval Units upgrade automatically when a new Technology is discovered. Receive a free Naval Unit when a Cargo Ship is built.</Text>
+		</Row>
+		<!--STEAM FRIGATE-->
+		<Row Tag="TXT_KEY_UNIT_JFD_STEAM_FRIGATE">
+			<Text>Steam Frigate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_STEAM_FRIGATE_HELP">
+			<Text>Powerful mid-game Naval Unit with the propulsion of the Industrial Era Ironclad. Only the Two Sicilies may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_STEAM_FRIGATE_STRATEGY">
+			<Text>The Steam Frigate is the unique unit for the Two Sicilies. Unlike the Frigate which it replaces, the Steam Frigate can move at double speed through Coastal Tiles. It gains an additional [ICON_MOVES] Movement which carries on upgrade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_STEAM_FRIGATE_TEXT">
+			<Text>By fitting a steam engine and all its machinery into an existing hull, naval architects hoped to create a ship-of-the-line not tied to the wind and tide. In this, they were moderately successful. A steam frigate can sail independently of the prevailing winds, but most still spend a good deal of time under sail. Coal is expensive, and coaling stations are few and far between; steam is not a practical method of strategic movement.</Text>
+		</Row>
+		<!--WINE CELLAR-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_WINE_CELLAR">
+			<Text>Wine Cellar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_WINE_CELLAR_HELP">
+			<Text>Trade Routes originating from this city have a 30% increase in range and produce an additional 2 [ICON_GOLD] Gold when connecting to another civilization.[NEWLINE][NEWLINE]It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Colosseum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_WINE_CELLAR_STRATEGY">
+			<Text>The Wine Cellar is a unique Zoo replacement for the Two Sicilies. It improves the range and [ICON_GOLD] Gold yield of both land and sea Trade Routes, in addition to the [ICON_HAPPINESS_1] Happiness that it provides.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_WINE_CELLAR_TEXT">
+			<Text>A Wine Cellar is, as the name might imply, a storage place for wine. Left to the sun, wine spoils, but kept in darkness and at a constant tempature, an aging wine can improve in aroma and flavour. Most wine cellars are kept underground, and those kept above ground are typically called wine rooms. The household department historically responsible for a household's wine is called a buttress.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

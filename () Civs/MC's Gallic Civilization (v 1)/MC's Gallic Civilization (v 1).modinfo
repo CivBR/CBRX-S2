@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0878e5b5-d803-4694-a31a-52ba6ccdeaba" version="1">
+  <Properties>
+    <Name>MC's Gallic Civilization</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>The Gauls: Master Metalworkers</Teaser>
+    <Description>The Gauls were Celtic peoples inhabiting Gaul in the Iron Age and the Roman period (roughly from the 5th century BC to the 3rd century AD). Their Gaulish language forms the main branch of the Continental Celtic languages.</Description>
+    <Authors>JanBoruta, Sukritact, Regalman</Authors>
+    <SpecialThanks>Charlatan Alley, JTitan</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="43868e8d-de88-48a1-a8d9-ce144e07f5e0" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety &amp; Prestige" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="74CEB3B3126ABC50AD417358702FA266" import="1">Art/Audio/Sound_MC_Oathsworn.mp3</File>
+    <File md5="AE33867CDE9C56F2671CD3EE2AC0C760" import="1">Art/Audio/VercingetorixPeace.mp3</File>
+    <File md5="5509FCD7D2D07DF9D3878386C304A13C" import="1">Art/Audio/VercingetorixWar.mp3</File>
+    <File md5="AACD4C7BE4677F9D17ED7D6F6BD18F24" import="1">Art/Audio/VercingetorixDoM.mp3</File>
+    <File md5="BE43BCAD13ABCC33D327979C1850FE9F" import="1">Art/Graphics/FrankMilnaht.dds</File>
+    <File md5="1E911622FBEBE48F525CEB66CC6E55CB" import="1">Art/Graphics/FrankMilnaht.fxsxml</File>
+    <File md5="D38C203246F552E6241A35E5081B3054" import="1">Art/Graphics/FrankMilnaht.gr2</File>
+    <File md5="65095E2A218D49808E1A3D37DA71FEE9" import="1">Art/Graphics/FrankMilnaht_sref.dds</File>
+    <File md5="5E4A91D424182497D8DAE04A9046A1EE" import="1">Art/Graphics/sv_Oathsworn.dds</File>
+    <File md5="ED68FB81B745E740E0887CA4EACB8B37" import="1">Art/IconAtlas/MC_GaulAlphaAtlas_128.dds</File>
+    <File md5="D1D64BF8833FD205EC5BF6A4C6CA88C0" import="1">Art/IconAtlas/MC_GaulAlphaAtlas_16.dds</File>
+    <File md5="1F5CA195065B97A638421C7F53BEAC98" import="1">Art/IconAtlas/MC_GaulAlphaAtlas_22.dds</File>
+    <File md5="A7DD2D677F13B290661578CE43E68C58" import="1">Art/IconAtlas/MC_GaulAlphaAtlas_24.dds</File>
+    <File md5="2F4871262AD56AA3B7290DBDB623039F" import="1">Art/IconAtlas/MC_GaulAlphaAtlas_32.dds</File>
+    <File md5="05BCF22FF5150CBA76E5406B1DC8CB8B" import="1">Art/IconAtlas/MC_GaulAlphaAtlas_45.dds</File>
+    <File md5="AF2BBDF7EC8B0D7C6D3D8BDC9E076B75" import="1">Art/IconAtlas/MC_GaulAlphaAtlas_48.dds</File>
+    <File md5="083AE8FC2925AB66D5781F26849B5F84" import="1">Art/IconAtlas/MC_GaulAlphaAtlas_64.dds</File>
+    <File md5="7F992B61745B0131CBCBC2FB34263A08" import="1">Art/IconAtlas/MC_GaulAlphaAtlas_80.dds</File>
+    <File md5="FA5DA9B3A753E31BAA0C5F3C9F394626" import="1">Art/IconAtlas/MC_GaulAtlas_128.dds</File>
+    <File md5="6C8AC5A6F2DB42F6C5A1EAFFD9A10422" import="1">Art/IconAtlas/MC_GaulAtlas_256.dds</File>
+    <File md5="69A6E334B412E1F7519996280A380B5A" import="1">Art/IconAtlas/MC_GaulAtlas_32.dds</File>
+    <File md5="4A475FEDE4B8F30B6BF6405CFA4BFE0F" import="1">Art/IconAtlas/MC_GaulAtlas_45.dds</File>
+    <File md5="A46E52DB94360C89FAC22F1B6BC280D5" import="1">Art/IconAtlas/MC_GaulAtlas_64.dds</File>
+    <File md5="060DEE33E8CDA555D59F596FD854E10D" import="1">Art/IconAtlas/MC_GaulAtlas_80.dds</File>
+    <File md5="0CE395F96F4AEF0C901D30C50DF7A62E" import="1">Art/IconAtlas/MC_GaulPromotions256.dds</File>
+    <File md5="C9BCA2A51D71BD1B11BDA7297A0B4BA0" import="1">Art/IconAtlas/MC_GaulPromotions32.dds</File>
+    <File md5="66E9FA72D2091DEC1A4E6130C3C86D71" import="1">Art/IconAtlas/MC_GaulPromotions45.dds</File>
+    <File md5="D9105FB068F86EB7D7DDA71A4E59C649" import="1">Art/IconAtlas/MC_GaulPromotions64.dds</File>
+    <File md5="2F59AE30A8745A69B7A1F81FF2B31739" import="1">Art/IconAtlas/Unit_MC_Oathsworn_Flag_32.dds</File>
+    <File md5="B457143D7FD39DF372C7F31A0BC2BA97" import="1">Art/Leaderscene/Vercingetorix_Diplo.dds</File>
+    <File md5="49F75B2E8AB23446C90B8A6C0553436A" import="1">Art/Leaderscene/Vercingetorix_Scene.xml</File>
+    <File md5="57F20B7A38065708D67066D37F1D9704" import="1">Art/Map/GaulMap512.dds</File>
+    <File md5="810ABD1B2873A27658B016E8BD22B902" import="1">Art/Map/Vercingetorix_DOM.dds</File>
+    <File md5="5F8330834BE852A4419F37BA0444E71C" import="0">Art/MC_Gaul_ArtDefines.sql</File>
+    <File md5="73D1E01BE86A94E969B7D5218B869475" import="0">Art/MC_Gaul_Audio.sql</File>
+    <File md5="E87ED8287B9F5DB71F1328AC04BF6A80" import="1">Core/Decisions Support/MC_Gaul_Decisions.lua</File>
+    <File md5="6724C80812E143EBF7DD60F013F9B2F3" import="0">Core/Decisions Support/MC_Gaul_Decisions.sql</File>
+    <File md5="9DB05A2FB0031F7BE67A824792A89313" import="0">Core/Decisions Support/MC_Gaul_EN_US.xml</File>
+    <File md5="5AD8B5BFB87C3D0B61C985DABC4F567E" import="1">Core/Decisions Support/MC_Gaul_Events.lua</File>
+    <File md5="77AF464C4934B670AE06339F818A55B9" import="0">Core/JFD's Cultural Diversity Support/MC_Gaul_JFD_CultureTypes.sql</File>
+    <File md5="F9E4C3BAC9EB7B569E343A356BA8764B" import="0">Core/MC_Gaul_Buildings.sql</File>
+    <File md5="57D2FFD5742E4150C4DDAE698E1D008B" import="0">Core/MC_Gaul_Civilizations.sql</File>
+    <File md5="881A47B275B6F3519F54747457A44379" import="0">Core/MC_Gaul_Diplomacy.sql</File>
+    <File md5="40F6E85773F782574774858FEB696795" import="0">Core/MC_Gaul_GameText.xml</File>
+    <File md5="8F10008D30938253840B89BCCFFA4201" import="0">Core/MC_Gaul_Leaderhead.sql</File>
+    <File md5="F89BC79B9482AC5DC93315BE1207723A" import="0">Core/MC_Gaul_PlayerColours.sql</File>
+    <File md5="825D616380B199C4EC10B0D38C737F56" import="0">Core/MC_Gaul_Promotions.sql</File>
+    <File md5="8977BB47015F64110AA7FFC878BBF173" import="0">Core/MC_Gaul_Traits.sql</File>
+    <File md5="0BD1C4747D030AB8BC3C14088C6EDF02" import="0">Core/MC_Gaul_Units.sql</File>
+    <File md5="15ED641E182D929D26F2C2B3E4BE0090" import="0">Core/YnAEMP Support/MC_Gaul_TSL.sql</File>
+    <File md5="2F1CCD98981908FA8730EB9A50DCA003" import="0">Lua/Gaul_Metalsmith.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Sukritact_SaveUtils.lua</File>
+    <File md5="F61398A3C19A258061BD4EDBD7F29DD3" import="0">Lua/Gaul_UA.lua</File>
+    <File md5="1DECC1D81ADF0B9EDFBA3B39E3504F15" import="0">Lua/Gaul_Oathsworn.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/MC_Gaul_Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Art/MC_Gaul_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Gaul_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Gaul_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Gaul_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Gaul_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Gaul_Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Gaul_PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Gaul_Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Gaul_Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Gaul_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Decisions Support/MC_Gaul_Decisions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Decisions Support/MC_Gaul_EN_US.xml</UpdateDatabase>
+      <UpdateDatabase>Core/YnAEMP Support/MC_Gaul_TSL.sql</UpdateDatabase>
+      <UpdateDatabase>Core/JFD's Cultural Diversity Support/MC_Gaul_JFD_CultureTypes.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Gaul_Metalsmith.lua">
+      <Name>Gaul_Metalsmith</Name>
+      <Description>Gaul_Metalsmith</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Gaul_Oathsworn.lua">
+      <Name>Gaul_Oathsworn</Name>
+      <Description>Gaul_Oathsworn</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Gaul_UA.lua">
+      <Name>Gaul_UA</Name>
+      <Description>Gaul_UA</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

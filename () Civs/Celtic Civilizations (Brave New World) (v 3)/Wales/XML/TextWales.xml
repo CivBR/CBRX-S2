@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/19/2014 10:06:13 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_WALES_DESC">
+			<Text>Welsh Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_WALES_SHORT_DESC">
+			<Text>Wales</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_WALES_ADJECTIVE">
+			<Text>Welsh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_WALES_PEDIA">
+			<Text>No info</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_WALES_TEXT">
+			<Text>Hail Llywelyn the Great, King of Wales! Through military might and diplomatic ingenuity you ruled Wales for 40 glorious years. Your achievements made you one of only two Welsh kings to be referred to as 'the Great'. [NEWLINE][NEWLINE]Oh great Llywelyn, will you lead the Welsh people to glory and power once again? Can you build a civilization to stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LLYWELYN_DESC">
+			<Text>Llywelyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LLYWELYN_PEDIA_LIVED">
+			<Text>1172 – 11 April 1240</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LLYWELYN_NAME">
+			<Text>Llywelyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LLYWELYN_PEDIA_SUBTITLE">
+			<Text>Prince of Gwynedd, King of Wales</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LLYWELYN_PEDIA_HEADING_1">
+			<Text>Historical account</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LLYWELYN_PEDIA">
+			<Text>No info</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_LANDFATHERS">
+			<Text>Free Monument in all cities. [ICON_RES_IRON] Iron and [ICON_RES_COAL] Coal resources provide double quantity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_LANDFATHERS_SHORT">
+			<Text>Land of our Fathers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAER_DESC">
+			<Text>Caer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAER_HELP">
+			<Text>Requires Walls. Unlike the castle it replaces it adds greater defensive [ICON_STRENGTH] strength to the city and contains a slot for a Great Work of Art.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAER_STRATEGY">
+			<Text>Caers increase the defensive strength of cities and also boost tourism and culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAER_PEDIA">
+			<Text>A Caer is a royal residence in Wales during the first millennium AD or earlier. Caer can be loosely translated into castle, palace, or fort, but no English word captures the same characteristics as a Caer. A Caer was the home to both the king, his royal family, and entourage who consisted of loyal retainers, monks, scholars, chief advisors, and bards who provided entertainment. Caers were renowned for their great feasts that lasted as long as a year. In these feasts, kings and upper classes of multiple kingdoms would meet to show wealth and status in society. Caers weren't only palaces, they were defensive fortresses. They were usually hill forts, like the Camelot hill fort at South Cadbury in Somerset, or the coastal forts like Tintagel in Cornwall and Aberdyfi in Ceredigion. Small kingdoms only contained one Caer, but larger ones contained many.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WELSHLONGBOWMAN_DESC">
+			<Text>Cymru Longbowman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WELSHLONGBOWMAN">
+			<Text>Replaces Crossbowman. The Cymru Longbowman is faster, ignores terrain cost and is more effective in rough terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WELSHLONGBOWMAN_STRATEGY">
+			<Text>The Cymru Longbowman is useful for defensive ranged combat in rough terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WELSHLONGBOWMAN_PEDIA">
+			<Text>During the Anglo-Norman invasion of Wales, the Welsh Longbow was put into use. The English soon learned how powerful this weapon could be, and began to recruit Welsh Longbowmen into their own army. The Welsh Longbow is most famous for its role in the Battle of Agincourt, and the Hundred Years' War. The Longbowmen, using the Welsh Longbow, would fire a rain of arrows and the enemy. The Welsh Longbow was used until the development of gunpowder. Overall, the weapon was a powerful type of medieval longbow. The Welsh Longbow was difficult to master because of its draw weight. Because of the difficulty, many users of the Welsh Longbow were eventually deformed in their arms and wrists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LLYWELYN_FIRSTGREETING_1">
+			<Text>Welcome to Wales. Here, huge gangs of tough sinewy men roam the valleys terrorising people with their close-harmony singing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LLYWELYN_FIRSTGREETING_2">
+			<Text>Llywelyn the Great stands before you! Do you come for trade or war?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LLYWELYN_DEFEATED_1">
+			<Text>You have shattered by long reign over these lands. Well done.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LLYWELYN_DEFEATED_2">
+			<Text>Wales is yours now. You better be prepared for ruling these lands. You need half a pint of phlegm in your throat just to pronounce the placenames.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

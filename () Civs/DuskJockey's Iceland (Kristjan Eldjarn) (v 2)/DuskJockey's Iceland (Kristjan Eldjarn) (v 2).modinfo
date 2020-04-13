@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d203254c-b6ab-4b59-a0b4-3428bdab5250" version="2">
+  <Properties>
+    <Name>DuskJockey's Iceland (Kristjan Eldjarn)</Name>
+    <Teaser>Adds [COLOR_POSITIVE_TEXT]Kristjan Eldjarn's Iceland[ENDCOLOR] to the game. Click [COLOR_CYAN]here[ENDCOLOR] for details.</Teaser>
+    <Description>Unique Ability: [COLOR_POSITIVE_TEXT]The Cod Wars[ENDCOLOR][NEWLINE]Workboats may build Improvements on neutral territory, claiming the tile once completed. Sea resources yield [ICON_CULTURE] Culture when worked.[NEWLINE][NEWLINE]Unique Unit: [COLOR_POSITIVE_TEXT]Aegir-Class[ENDCOLOR][NEWLINE]Ranged naval unit of the Modern Era. Has lower base Combat Strength, but does not require Oil. Destroys rival Fishing Boats when moving over them and gains +25% Combat Strength when on or adjacent to a sea resource. May only be trained by Iceland.[NEWLINE][NEWLINE]Unique Tile Improvement: [COLOR_POSITIVE_TEXT]Torfbaer[ENDCOLOR]
+[NEWLINE]Only buildable by Iceland. Unlocked at Civil Service, and may not be built on Desert tiles, nor adjacent to each other. Yields +2 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. Yields an additional +1 [ICON_FOOD] Food when adjacent to a Forest tile, and an additional +1 [ICON_CULTURE] Culture for each adjacent mountain.</Description>
+    <Authors>DuskJockey, darthstarkiller</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="25" maxversion="999" title="Yet (not) Another Earth Maps Pack" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="432bc547-eb05-4189-9e46-232dbde8f09f" minversion="4" maxversion="999" title="Additional Achievements" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="633BAED6CB053D175949ABB2FF21735E" import="1">Art/Atlas/DJ_AEGIR_CLASS_FLAG_32.dds</File>
+    <File md5="16A638CD98CFDD3592327565D4415463" import="1">Art/Atlas/EldjarnAlphaAtlas24.dds</File>
+    <File md5="0F357BF71AAFF9B3DE1242888D25454B" import="1">Art/Atlas/EldjarnAlphaAtlas32.dds</File>
+    <File md5="53F5875527EAF17F3F1D56970F889B51" import="1">Art/Atlas/EldjarnAlphaAtlas48.dds</File>
+    <File md5="C1C6A01E97FA5630B0C4471A851720B1" import="1">Art/Atlas/EldjarnAlphaAtlas64.dds</File>
+    <File md5="FF8A92321100C6DDDB22D555EA81BEA2" import="1">Art/Atlas/EldjarnColorAtlas128.dds</File>
+    <File md5="1F78C0933B0E98B3B028A83389BAB177" import="1">Art/Atlas/EldjarnColorAtlas256.dds</File>
+    <File md5="69AEE97D7109CB11730C0DF4727059D1" import="1">Art/Atlas/EldjarnColorAtlas32.dds</File>
+    <File md5="4CB40189C2ED5838A1136994F5A628BD" import="1">Art/Atlas/EldjarnColorAtlas45.dds</File>
+    <File md5="041033111708041AA9A73A0E3C38A7D9" import="1">Art/Atlas/EldjarnColorAtlas64.dds</File>
+    <File md5="10B4CABA0C8E9D0F35468A5404CD5288" import="1">Art/Atlas/EldjarnColorAtlas80.dds</File>
+    <File md5="E83C175D7625A0AAB7688451D6D36BC4" import="1">Art/Atlas/TorfbaerBuild45.dds</File>
+    <File md5="3F180FD0447629460C15B2E18F118E4B" import="1">Art/Atlas/TorfbaerBuild64.dds</File>
+    <File md5="74FC07092593CE51DD93E6FC7FA759FB" import="0">Art/EldjarnArtDefines.sql</File>
+    <File md5="9A0F0B4D893F04F860B16B24B564B744" import="1">Art/Improvement Model/black_4x4.dds</File>
+    <File md5="B99F50E4DBCABE7D0C0A66E1875A93A4" import="1">Art/Improvement Model/crane.dds</File>
+    <File md5="0D89256535993B4A851E97C3F3808D80" import="1">Art/Improvement Model/MarkerTurfBase.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Improvement Model/no_gloss.dds</File>
+    <File md5="4105E18736E54CB8FBB132EA691DAC62" import="1">Art/Improvement Model/Torfbaer.dds</File>
+    <File md5="9E4B4956A6FDEDD974402B6122C22083" import="1">Art/Improvement Model/Torfbaer.gr2</File>
+    <File md5="407E9304A60328DA06D4D6EF53667C06" import="1">Art/Improvement Model/Torfbaer_b.fxsxml</File>
+    <File md5="9C2D3FD482BC69BEFB1B86F6F1939F6D" import="1">Art/Improvement Model/Torfbaer_b.gr2</File>
+    <File md5="0892957368AD67A007951294FFA4F953" import="1">Art/Improvement Model/Torfbaer_b_build.fxsxml</File>
+    <File md5="307FA551207D927FABF7D49E27F8D6D6" import="1">Art/Improvement Model/Torfbaer_b_pl.fxsxml</File>
+    <File md5="1531D1DEE5C43C506C7E2C449E3F0301" import="1">Art/Improvement Model/Torfbaer_NewBuild.gr2</File>
+    <File md5="8B1C1449594BA938A25A9610B90380E7" import="1">Art/Improvement Model/Torfbaer_sv.dds</File>
+    <File md5="72178CE93478AC7546459F704908FD5C" import="1">Art/Scene/EldjarnDoM.dds</File>
+    <File md5="402F4EA45B3F342725FEFD4EB3A8E39D" import="1">Art/Scene/Eldjarn_Scene.dds</File>
+    <File md5="BF4C99DB853372B7443A267C1D06DEF8" import="1">Art/Scene/EldjarnMap.dds</File>
+    <File md5="0A651E498199248C3FE3D70E9358AD92" import="1">Art/Scene/Eldjarn_Scene.xml</File>
+    <File md5="7C18643B2097AD910756D8BF23E8B76B" import="1">Art/Unit Model/corvette_diff.dds</File>
+    <File md5="C79BE4B037F3414E58D1DF447C2692D0" import="1">Art/Unit Model/corvette.fxsxml</File>
+    <File md5="999A60167A7FEB28FA1A80824DC645A8" import="1">Art/Unit Model/Corvette.gr2</File>
+    <File md5="5F93E0D039A506C788E3A053981B6C30" import="1">Art/Unit Model/corvette_sref.dds</File>
+    <File md5="74B55B3C96723A68EEDEA8B083D50DBC" import="0">Art/Zwei's Edited Effects and Animations/civ5artdefines_viseffects.xml</File>
+    <File md5="9309774C33232FFC6E47E09F56BDD3C5" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_attack_city_to_run.dge</File>
+    <File md5="FA9CE373BB700CFCD8F0FA3A955B1E69" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_attack_to_run_graph.dge</File>
+    <File md5="BA4F6AEB27527AB47CC284B27C8288A8" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_bombard_defend_loop_graph.dge</File>
+    <File md5="933E4A224EFE615D537517EFE06B34BC" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_civilian_activate_captured.dge</File>
+    <File md5="87476FD4384999BCCBF43AEEF9B3A652" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_civilian_death_final.dge</File>
+    <File md5="9AB143ED19D8B61A7794C90D5D65EE97" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_civilian_enter_bombard_defend.dge</File>
+    <File md5="7BCAF33AE57FA6E4F56F767E1799955E" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_civilian_state_01.fsmxml</File>
+    <File md5="CD02EC91E73F396297C2B3434A8BA034" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_combat_ready_graph.dge</File>
+    <File md5="6B4338103039DFBD431A44C89DA198D6" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_death_final_graph.dge</File>
+    <File md5="F9F109E1E43FD75DFC765D9B3A43CE48" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_death_graph.dge</File>
+    <File md5="014FBFBCB17012BEC0B32D9FFDBF721E" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_enter_bombard_defend_graph.dge</File>
+    <File md5="7A5A0ADFBBB05D6E4FB126383988B264" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_enter_combat_ready_graph.dge</File>
+    <File md5="34488A641F9D948D865BBECF8B3878DF" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_enter_fortify.dge</File>
+    <File md5="ADAECB630FF73EEFBBE3EE3661F1819C" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_enter_sleep_civilian.dge</File>
+    <File md5="F245B80AAC985C0011FEE5CBF3FB25DF" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_fidgets_graph.dge</File>
+    <File md5="65FED4E2E20D7512D6B5E92C1CD37EF7" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_fortify_fidget_graph.dge</File>
+    <File md5="F758D65157483D32C6763F817B216937" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_fortify_graph.dge</File>
+    <File md5="C2C8D0ADFA388980A03E814BF2B335F5" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_fortify_leave_graph.dge</File>
+    <File md5="AD4E2A013238410D8FCE2666AEB1DC08" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_fortify_to_idle_a.dge</File>
+    <File md5="EF6168FF0903555EDCBB9FD626CFB00F" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_idle_graph.dge</File>
+    <File md5="268797759660DA55A0F792A966EB586B" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_idle_offset_continue_true_graph.dge</File>
+    <File md5="C4D8B3EB164B5525B92514645521D0C3" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_leave_bombard_defend_trans_idle_a_graph.dge</File>
+    <File md5="189E34C23C7A19F2C190E1ACB4212C91" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_leave_combat_ready.dge</File>
+    <File md5="225D164523FE1270306005CCD71B075A" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_melee_attacks.dge</File>
+    <File md5="71E511A38054110B5D9A23B311AC0104" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_modern_ship_attacks.dge</File>
+    <File md5="BA0D234DE017F5CEB6DEF37CE7DFE384" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_attack_city_to_run.dge</File>
+    <File md5="75D8FBC3A2C4D56B1089F20A2E9D9DA1" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_attack_to_run_graph.dge</File>
+    <File md5="82C3CE94F7827159DEA80CCF8AAF5D9E" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_bombard_defend_loop_graph.dge</File>
+    <File md5="FF8A929D15C8ECE5089A806AFBC80C8E" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_civilian_activate_captured.dge</File>
+    <File md5="1AE83D5303F9671277D4FEC7F327A2BB" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_civilian_death_final.dge</File>
+    <File md5="0021307C276C3516A57BBADDAC07ACE7" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_civilian_enter_bombard_defend.dge</File>
+    <File md5="C3686411D2E96A715267F9A5C72A5EB1" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_combat_ready_graph.dge</File>
+    <File md5="FE5B902745DEE0860ECEE5BA421D141F" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_death_final_graph.dge</File>
+    <File md5="21659FCED7A08D6FB464A693D0E82597" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_death_graph.dge</File>
+    <File md5="B66FF4B10706BE666A916B917D14AC83" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_enter_bombard_defend_graph.dge</File>
+    <File md5="9B18015ACB470CD66C3294FDA203C27E" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_enter_combat_ready_graph.dge</File>
+    <File md5="FD1B5EABA624344B944CD37BD71DE110" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_enter_fortify.dge</File>
+    <File md5="2470ABA98F462C27DD3C1AC013BD3AC6" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_enter_sleep_civilian.dge</File>
+    <File md5="04680D47D3519A5FFB950F1147D7B1D4" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_fidgets_graph.dge</File>
+    <File md5="327CB90C3BCF5BAC71F77DA677997631" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_fortify_fidget_graph.dge</File>
+    <File md5="998F9D5F9FCAFE31E97022C5C50C67E8" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_fortify_graph.dge</File>
+    <File md5="39370F05801D7D017D605CE224EE11E7" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_fortify_leave_graph.dge</File>
+    <File md5="7BC464D9DF686D87145362DEE0F68A04" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_fortify_to_idle_a.dge</File>
+    <File md5="EF3E7C919600B18CDC0D6F1BCDD45F64" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_idle_graph.dge</File>
+    <File md5="2F7C2570D10BD4E5879F105F9BB3BC53" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_idle_offset_continue_true_graph.dge</File>
+    <File md5="7AAA31587E2E15A0B887A31C861D4B45" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_leave_bombard_defend_trans_idle_a_graph.dge</File>
+    <File md5="4BB9881AAB8B9F3571AA787BB89B4FF1" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_leave_combat_ready.dge</File>
+    <File md5="2937CE1A002CB18C85FA2E3E63221139" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_melee_attacks.dge</File>
+    <File md5="E538938BAD81B88082C8DF076514653E" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_modern_ship_attacks.dge</File>
+    <File md5="DBFC96AE4406957395EC439CEFF8584A" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_running_loop.dge</File>
+    <File md5="BD96EBE9953A41BD78D450DC26561AFC" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_run_no_charge_loop.dge</File>
+    <File md5="91A772D3D07C64329ED801632EB689C7" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_run_start_civilian.dge</File>
+    <File md5="C017AA3F2D83AAB3B6B939B6418071A3" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_start_running.dge</File>
+    <File md5="34D584D857E6CBA51D87EE2FD6950EC6" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_stop_running.dge</File>
+    <File md5="8D3450B63AF23F48CF9DEDC3B586B022" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_stop_running_civilian.dge</File>
+    <File md5="500F6DEDBDB767CAE8C964DBEE647459" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_ms_transitions_for_idles.dge</File>
+    <File md5="A64E86033B61613B4F39979D5603E65F" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_running_loop.dge</File>
+    <File md5="E38EAF3E95C835B93C7E7849A7F4F23B" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_run_no_charge_loop.dge</File>
+    <File md5="9432853873B222F5AEF1CE53C1CD98DA" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_run_start_civilian.dge</File>
+    <File md5="BCF1F945C0CBE7A1C9F62E5B46F84F99" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_start_running.dge</File>
+    <File md5="7B0232A8BE345EB899FF221FBD7BDCFB" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_stop_running.dge</File>
+    <File md5="38B813F99CCD01B77FB798D2AFE91571" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_stop_running_civilian.dge</File>
+    <File md5="2506D6C118D6A9FB915723F731C95FD4" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_aim_transitions_for_idles.dge</File>
+    <File md5="E38F763EEDD8E5CA2320278CC1641F42" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_antiair_vehicle_1gun.ftsxml</File>
+    <File md5="1091C411BFCA66D5EE74CEFFD6EE64DC" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_antiair_vehicle_2gun.ftsxml</File>
+    <File md5="948F20768997973457FAD6CF0F58645E" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_antiair_vehicle_3gun.ftsxml</File>
+    <File md5="76CCDC691B5CBE0C4F3A85BF0E796AA5" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_antiair_vehicle_4gun.ftsxml</File>
+    <File md5="EDA5989385F1C83D85AD44E2B8028A1E" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_artillery.ftsxml</File>
+    <File md5="AB180DC6BFF8E18757D23D554F80784A" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_battleship.ftsxml</File>
+    <File md5="15D16F16B2DA12C59E1DB7565EBAC0ED" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_battleship_4turret.ftsxml</File>
+    <File md5="57B853C5D7F32E9A1000E2F1341916A0" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_Cruiser.ftsxml</File>
+    <File md5="6E0AFDF33543EE37A4770E8903EF3DCB" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_destroyer.ftsxml</File>
+    <File md5="206D2B57E712C46A9B2B06BC024BA5F4" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_EarlyJet.ftsxml</File>
+    <File md5="DE8146AC44DE6C704F0728782C1AE500" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_EarlyTank_1gun.ftsxml</File>
+    <File md5="609CE0B64FB4B5781695009F0D913A51" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_EarlyTank_2gun.ftsxml</File>
+    <File md5="6903919CC91F1C38BC07B661FDCF73AB" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_fighter_2Propellers.ftsxml</File>
+    <File md5="57E688AF2606E958CA088BD229D43F5B" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_infantry.ftsxml</File>
+    <File md5="5B811AF5596286D7B6DAD0FE8E8FA53B" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_jetfighter.ftsxml</File>
+    <File md5="DD04F56BC976D1CC6D925C1677DCF2A2" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_Katyusha.ftsxml</File>
+    <File md5="A08730646EFA18C9E3385EE7D59EA9DC" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_modernarmor.ftsxml</File>
+    <File md5="6E33E758B853E1114BB487111B8FA075" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_paratrooper.ftsxml</File>
+    <File md5="212745C0D1059F32FAC334A46B790713" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_paratrooper_mg.ftsxml</File>
+    <File md5="108FD3B4BAAB4A605BF70CCD44F20E8B" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_tank.ftsxml</File>
+    <File md5="2B8DD37B99816431055263F820529E18" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_tank_lightfire.ftsxml</File>
+    <File md5="2C9B80EF7FD70EFAA250F616A4316DC2" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_tank_mg_1gun.ftsxml</File>
+    <File md5="CCEE19B5A0E7AE186838E1A5A0EE0D33" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_fx_triggers_tank_mg_2gun.ftsxml</File>
+    <File md5="B233D27FC1FA1DB1127E263DC20D30DB" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_mechanized_aim_state_01.fsmxml</File>
+    <File md5="75C5BA4CEC139C9EAFA47AE912EAB3EC" import="1">Art/Zwei's Edited Effects and Animations/Unit Animations/edited_modern_ship_aim_state_01.fsmxml</File>
+    <File md5="88C1AE16DD53750459F494153D453D60" import="0">Audio/EldjarnAudioDefines.sql</File>
+    <File md5="83EE45C967F086B58ADA9B9E2C5B4327" import="1">Audio/DJEldjarnWar.mp3</File>
+    <File md5="C2A9001C1ADA724B69D1B46CDD9E9C31" import="1">Audio/DJEldjarnPeace.mp3</File>
+    <File md5="E150929581D763227079F565A43E6D59" import="0">Credits.txt</File>
+    <File md5="E449B47F7026F89C18D9750BAE3ACA4E" import="0">Functions/EldjarnFunctions.lua</File>
+    <File md5="98D4CA7981DD3C46C11CFB347DE2F7AD" import="0">Functions/TorfbaerCityInfo.lua</File>
+    <File md5="5219BDEC585B6A037161979594A570C0" import="0">Functions/TorfbaerCityInfo.xml</File>
+    <File md5="5B204276619D2B35C98002E79B442FBB" import="1">Functions/Utilities/AdditionalAchievementsUtility.lua</File>
+    <File md5="627F4AA6FDF1977546D868757E30427A" import="1">Functions/Utilities/C15_IteratorPack_v1.lua</File>
+    <File md5="64DF635BD57CDEB13DC1038934568A7E" import="0">Functions/Utilities/CityInfoStack.lua</File>
+    <File md5="4E7C5E4894BC0A0E0CBA1743787E1015" import="0">Functions/Utilities/CityInfoStack.xml</File>
+    <File md5="10D6EFB071C1EC18DB280AFAF74E9954" import="0">GameDefines/EldjarnGameDefines.sql</File>
+    <File md5="D4B1B25EE084B626B1F6A52DB2DEECB9" import="0">GameDefines/EldjarnModSupport.sql</File>
+    <File md5="F0B56226840650524428836D0E3F78DB" import="0">GameDefines/EldjarnText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/EldjarnArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>GameDefines/EldjarnGameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>GameDefines/EldjarnText.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Zwei's Edited Effects and Animations/civ5artdefines_viseffects.xml</UpdateDatabase>
+      <UpdateDatabase>Audio/EldjarnAudioDefines.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Functions/EldjarnFunctions.lua">
+      <Name>EldjarnFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Functions/Utilities/CityInfoStack.lua">
+      <Name>CityInfoStack.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Functions/TorfbaerCityInfo.lua">
+      <Name>TorfbaerCityInfo.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

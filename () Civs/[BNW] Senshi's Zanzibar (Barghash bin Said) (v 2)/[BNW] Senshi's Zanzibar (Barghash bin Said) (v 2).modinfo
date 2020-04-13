@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="99d782ea-b5a6-43b7-a335-345b13e42351" version="2">
+  <Properties>
+    <Name>[BNW] Senshi's Zanzibar (Barghash bin Said)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Sultanate of Zanzibar, under the cunning Barghash bin Said, into the game!</Teaser>
+    <Description>Adds the Sultanate of Zanzibar, under the cunning Barghash bin Said, into the game!
+
+Credits:
+Senshi: Design, Code, Art (Civ Icon &amp; Alpha, Map), Text
+Chrisy15: Lua
+TopHatPaladin: Art (Leaderscene and Icon)
+Grant: Art (Jahazi Icon)
+DarthKyofu: Art (Bandari Icon, Civ Colours)</Description>
+    <Authors>Senshi</Authors>
+    <SpecialThanks>Chrisy15, TopHatPaladin, DarthKyofu, Grant</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="BF76AE5A5AF6D73CD2B0F8C0FC1B322B" import="0">Art/Atlas/AtlasDefines.xml</File>
+    <File md5="79514CB96AF556AAB4C4EB1E6CABDC00" import="1">Art/Atlas/JahaziFlag32.dds</File>
+    <File md5="C3A9809F3411877FB92D8BDD3E3B9CBB" import="1">Art/Atlas/ZanzibarAlpha128.dds</File>
+    <File md5="BFBC986C6927277E3E6B4862D4D7A3F8" import="1">Art/Atlas/ZanzibarAlpha16.dds</File>
+    <File md5="ECD617BFC3A6E4F16ECC42FBD4634779" import="1">Art/Atlas/ZanzibarAlpha24.dds</File>
+    <File md5="7D97AF73A58DDC969EEBA3A04F9EE0BF" import="1">Art/Atlas/ZanzibarAlpha256.dds</File>
+    <File md5="8F87285F43E3BE6200CD2B08BE3D571C" import="1">Art/Atlas/ZanzibarAlpha32.dds</File>
+    <File md5="3855EFCA0690E1473390E6794DC5E23F" import="1">Art/Atlas/ZanzibarAlpha48.dds</File>
+    <File md5="C0227F6B3C4807650424BEF569EFDEE3" import="1">Art/Atlas/ZanzibarAlpha64.dds</File>
+    <File md5="D6EAA0AA087AFA8B69F49F81B85EBCF0" import="1">Art/Atlas/ZanzibarAlpha80.dds</File>
+    <File md5="8B87262A9E6A37A19C95FDFE794AD651" import="1">Art/Atlas/ZanzibarAtlas128.dds</File>
+    <File md5="AF418281159C55C875283B9966E12878" import="1">Art/Atlas/ZanzibarAtlas256.dds</File>
+    <File md5="242F4B19416B051FD51FDFA1B1BFD3B3" import="1">Art/Atlas/ZanzibarAtlas32.dds</File>
+    <File md5="BBF16427FFF7F25CA112218A32DACEC8" import="1">Art/Atlas/ZanzibarAtlas45.dds</File>
+    <File md5="74EF2D9E37315D345258C6000B0044DC" import="1">Art/Atlas/ZanzibarAtlas48.dds</File>
+    <File md5="B2F209C8EB1318FE47DB95F7C0FF6BE0" import="1">Art/Atlas/ZanzibarAtlas64.dds</File>
+    <File md5="478343F69431B429ABBCA7D87ECB4569" import="1">Art/Atlas/ZanzibarAtlas80.dds</File>
+    <File md5="BE6C191FC76D7CF4D614C0685FEE3D4B" import="1">Art/BarghashDoM.dds</File>
+    <File md5="00E4B5DD3ABE917368AA4BF846CFABFE" import="1">Art/BarghashLS.dds</File>
+    <File md5="93C7C68BE6E8FBB044AD8F8ECB8FC005" import="1">Art/Jahazi/dhow.fxsxml</File>
+    <File md5="5B2DFBF8129329A576030EA9EF687D10" import="1">Art/Jahazi/dhow.gr2</File>
+    <File md5="05455A0142786175CC828DFC348EFD0D" import="0">Art/Jahazi/DhowDefine.sql</File>
+    <File md5="51FA0DFCF880D05EBCFB628C3D617345" import="1">Art/Jahazi/DhowFlag.dds</File>
+    <File md5="154992CA538046F5268C1E6BDACC8F28" import="1">Art/Jahazi/dhow_diff.dds</File>
+    <File md5="4B9094E43AD9C1F4C32563515029C387" import="1">Art/Jahazi/dhow_sref.dds</File>
+    <File md5="86CAFB1AF0DD35798E565E8857EFD443" import="1">Art/Jahazi/sv_Jahazi.dds</File>
+    <File md5="3FE71F6C083A95DD6A16FD05F642C289" import="1">Art/ZanziMap412.dds</File>
+    <File md5="1EE6925CA2119B1B99430DDA2A0F89C5" import="0">Core/Buildings.sql</File>
+    <File md5="82B54FC7EFEE5A9F0EF2B5E435CB9D56" import="0">Core/Civilizations.sql</File>
+    <File md5="A0BFF30E9C3BF92CA42220E5C18B56A0" import="0">Core/DiplomacyResponses.xml</File>
+    <File md5="B2330CAA5AD2AED0E8B19E70DA9308F0" import="0">Core/GameText.xml</File>
+    <File md5="37F4C500340D176C00810C04F22E85FC" import="0">Core/Leaderhead.sql</File>
+    <File md5="77BED45376800F322C3DC7431A515AE6" import="0">Core/ModSupport.sql</File>
+    <File md5="862DD22626A90B2372A23C5DA7C827D4" import="0">Core/PlayerColours.sql</File>
+    <File md5="8832B4AB88E85C28A9EF141DAEEDCECC" import="0">Core/SenshiZanzibarLua.lua</File>
+    <File md5="16E47C86069DD78C1281346870C3C21F" import="0">Core/SenshiZanzibarSQL.sql</File>
+    <File md5="A56E69E64BCC096D5913E2BD85E98B9D" import="1">Core/Senshi_Barghash_Scene.xml</File>
+    <File md5="298FAA8AB5392DCE07B911DE75AFE86E" import="0">Core/Traits.sql</File>
+    <File md5="D61A3FD5748B2E8ACE55F0E57FB9F3DC" import="0">Core/Units.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Atlas/AtlasDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SenshiZanzibarSQL.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Jahazi/DhowDefine.sql</UpdateDatabase>
+      <UpdateDatabase>Core/ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Core/SenshiZanzibarLua.lua">
+      <Name>SenshiZanzibarLua</Name>
+      <Description>Did by chrisy twice cause we both forgot he did it #professionalelitistmodders</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

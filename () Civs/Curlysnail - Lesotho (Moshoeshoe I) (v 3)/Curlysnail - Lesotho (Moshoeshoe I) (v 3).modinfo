@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d22f8fb0-6fe5-494c-8d07-53d28def5a09" version="3">
+  <Properties>
+    <Name>Curlysnail - Lesotho (Moshoeshoe I)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>This mod adds Lesotho, led by Moshoeshoe I, into the game.</Teaser>
+    <Description>This mod adds Lesotho, led by Moshoeshoe I, into the game.</Description>
+    <Authors>Sam</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="27F4DAE7DFE906AFE3B5E8BB779A8AE4" import="1">ART/BUILDINGS/CSLikampoIcon128.dds</File>
+    <File md5="FC5CD6D343EE80117A838BD6DEBA9C70" import="1">ART/BUILDINGS/CSLikampoIcon256.dds</File>
+    <File md5="368580D5AFD7E93CCE2F07BB8F8A1ADD" import="1">ART/BUILDINGS/CSLikampoIcon45.dds</File>
+    <File md5="9F2AF1DA81C3756ADDEBE58F560CB64E" import="1">ART/BUILDINGS/CSLikampoIcon64.dds</File>
+    <File md5="2DBB17E13CC7685F0261C083F5710D8F" import="1">ART/CSLesothoMap.dds</File>
+    <File md5="08A921751023E7A221365030803EE55D" import="1">ART/ICONS/CSLesothoIcon128.dds</File>
+    <File md5="B5BE2A95851B97852F92E8751DE4850F" import="1">ART/ICONS/CSLesothoIcon214.dds</File>
+    <File md5="89583B8DC83ABD0D1EA09F11CB486D52" import="1">ART/ICONS/CSLesothoIcon256.dds</File>
+    <File md5="6CE031A60BAF9B5CCF8C15DBC84B25F4" import="1">ART/ICONS/CSLesothoIcon32.dds</File>
+    <File md5="62F2328552980A5B20A03971D6176AFA" import="1">ART/ICONS/CSLesothoIcon45.dds</File>
+    <File md5="EADA2DCB60A015685515A4F8F44BF933" import="1">ART/ICONS/CSLesothoIcon64.dds</File>
+    <File md5="5C104DF2918B84083DD92BADC583028F" import="1">ART/ICONS/CSLesothoIcon80.dds</File>
+    <File md5="A262FE2C8159811833159EE5EDBDFD7B" import="1">ART/ICONS/CSLesothoIconalpha128.dds</File>
+    <File md5="13043E1BA26BE94FF11B750A747EF5DE" import="1">ART/ICONS/CSLesothoIconalpha16.dds</File>
+    <File md5="26C19F1ACD71D251F9AAFD140A404D2B" import="1">ART/ICONS/CSLesothoIconalpha24.dds</File>
+    <File md5="C35014DA840E794190549EF6E352BFB6" import="1">ART/ICONS/CSLesothoIconalpha32.dds</File>
+    <File md5="1130A1513FEF7F50E82F1441D8432A0D" import="1">ART/ICONS/CSLesothoIconalpha48.dds</File>
+    <File md5="20622DA5FAD2B637903BB108D4DD789C" import="1">ART/ICONS/CSLesothoIconalpha64.dds</File>
+    <File md5="2CFA57CBA29F5B5F673491A19A527AB9" import="1">ART/LEADERS/CSLesotho_DOM.dds</File>
+    <File md5="151B85F029C947243EF291AE00BDD714" import="1">ART/LEADERS/CSMoshoeshoeIcon128.dds</File>
+    <File md5="17404478C519161648118F0A175F5885" import="1">ART/LEADERS/CSMoshoeshoeIcon214.dds</File>
+    <File md5="8F500F4DAF21849F1D9F1ED93FD2FBF3" import="1">ART/LEADERS/CSMoshoeshoeIcon256.dds</File>
+    <File md5="D4B9AA7C6C2D180B74BCD4D5F812E8CF" import="1">ART/LEADERS/CSMoshoeshoeIcon32.dds</File>
+    <File md5="713DCF1651F24C7D2D0A86FCFFEF60F2" import="1">ART/LEADERS/CSMoshoeshoeIcon45.dds</File>
+    <File md5="738C30F83CDFD20744656ED8596220F7" import="1">ART/LEADERS/CSMoshoeshoeIcon64.dds</File>
+    <File md5="07862DC669346CB89C149D4BEB37BEDF" import="1">ART/LEADERS/CSMoshoeshoeIcon80.dds</File>
+    <File md5="CFF9978C33041B3C25C030FE45ED511D" import="1">ART/LEADERS/MoshoeshoeLeader.dds</File>
+    <File md5="9A59F4207FBAB677ED92A73211DE7A3F" import="1">ART/UNITS/CSBullsBloodFlag.dds</File>
+    <File md5="C85EEDD231B860C69B54E8257BB355C3" import="1">ART/UNITS/CSBullsBloodIcon128.dds</File>
+    <File md5="74F2D5A3F3FD86D3A029DF5F00B768F6" import="1">ART/UNITS/CSBullsBloodIcon214.dds</File>
+    <File md5="58E1E0F575B1F8F598A0EC38D15C2822" import="1">ART/UNITS/CSBullsBloodIcon256.dds</File>
+    <File md5="78A744AFCAFA04569D6A27455E277D67" import="1">ART/UNITS/CSBullsBloodIcon32.dds</File>
+    <File md5="0A57B85D5F764C42882B710BC3B9B766" import="1">ART/UNITS/CSBullsBloodIcon45.dds</File>
+    <File md5="75C89DB90FF8966F9FB601AB38B79853" import="1">ART/UNITS/CSBullsBloodIcon64.dds</File>
+    <File md5="89B69B070ACD620AEAC3567BC414C4CA" import="1">ART/UNITS/CSBullsBloodIcon80.dds</File>
+    <File md5="5BE62389E77CAEB16A930BD6B40B5A13" import="1">LUA/CSLesothoTraitBonus.lua</File>
+    <File md5="F4793A3964F5008890CF1D57BC45BB34" import="1">MUSIC/MoshoeshoeWar.mp3</File>
+    <File md5="A0571958BFBC29859FF1354180601439" import="1">MUSIC/MoshoeshoePeace.mp3</File>
+    <File md5="3D21765775C2D01B860BC5D3E9C5D2D4" import="1">MUSIC/Sounds.xml</File>
+    <File md5="4B1E1B4F27556F408B0257A0006D2450" import="0">XML/Buildings.xml</File>
+    <File md5="270B8F3070C0DA481350DD8149E7731A" import="0">XML/Civilization.xml</File>
+    <File md5="DA4E8E95D440D8432776B8A293025586" import="1">XML/CSMoshoeshoe_Scene.xml</File>
+    <File md5="33D9C3ED7174FFF074D120FE68BF1A0E" import="0">XML/DiplomacyResponses.xml</File>
+    <File md5="CAB8221F67C5706A469A798B96D1941C" import="0">XML/IconAtlasVisigoths.xml</File>
+    <File md5="121F428C49F32305DB9C94833B33D5E2" import="0">XML/Leader.xml</File>
+    <File md5="4A8E101DAD4D25D6E847A7DC5B9B4813" import="0">XML/Lesothotraitbuilding.xml</File>
+    <File md5="1A2E1C89327B572ED3603B1C3A983ED6" import="0">XML/Trait.xml</File>
+    <File md5="7A956E616AD101507D6F5EEDA056AA49" import="0">XML/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IconAtlasVisigoths.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Lesothotraitbuilding.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CSMoshoeshoe_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>MUSIC/Sounds.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/CSLesothoTraitBonus.lua">
+      <Name>CSLesothoTraitBonus</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,8 @@
+<Asset>
+  <Mesh file="Torfbaer_b.gr2" source="Max" />
+  <Texture file="Torfbaer.dds" source="Max" />
+  <Texture file="Black_4x4.dds" source="Max" />
+  <Texture file="Unit_Environment_Dull.dds" source="Max" />
+  <Texture file="Unit_Environment_Sharp.dds" source="Max" />
+  <Texture file="Unit_Irradiance.dds" source="Max" />
+</Asset>

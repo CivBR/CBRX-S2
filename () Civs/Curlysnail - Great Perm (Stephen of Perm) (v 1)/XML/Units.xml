@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Type>UNIT_DURZHINA</Type>
+			<Description>TXT_KEY_UNIT_DURZHINA</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_DURZHINA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_DURZHINA_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_DURZHINA</Help>
+			<Requirements></Requirements>
+			<Combat>14</Combat>
+			<RangedCombat>0</RangedCombat>
+			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>1</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<Immobile>0</Immobile>
+			<Range>0</Range>
+			<BaseSightRange>2</BaseSightRange>
+			<Class>UNITCLASS_SWORDSMAN</Class>
+			<Special></Special>
+			<Capture></Capture>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<CivilianAttackPriority></CivilianAttackPriority>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Food>0</Food>
+			<NoBadGoodies>0</NoBadGoodies>
+			<RivalTerritory>0</RivalTerritory>
+			<MilitarySupport>1</MilitarySupport>
+			<MilitaryProduction>1</MilitaryProduction>
+			<Pillage>1</Pillage>
+			<PillagePrereqTech></PillagePrereqTech>
+			<Found>0</Found>
+			<FoundAbroad>0</FoundAbroad>
+			<CultureBombRadius>0</CultureBombRadius>
+			<GoldenAgeTurns>0</GoldenAgeTurns>
+			<FreePolicies>0</FreePolicies>
+			<OneShotTourism>0</OneShotTourism>
+			<OneShotTourismPercentOthers>0</OneShotTourismPercentOthers>
+			<IgnoreBuildingDefense>0</IgnoreBuildingDefense>
+			<PrereqResources>0</PrereqResources>
+			<Mechanized>0</Mechanized>
+			<Suicide>0</Suicide>
+			<CaptureWhileEmbarked>0</CaptureWhileEmbarked>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_LONGSWORDSMAN</GoodyHutUpgradeUnitClass>
+			<HurryCostModifier>20</HurryCostModifier>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<MinAreaSize>-1</MinAreaSize>
+			<AirInterceptRange>0</AirInterceptRange>
+			<AirUnitCap>0</AirUnitCap>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			<WorkRate>0</WorkRate>
+			<NumFreeTechs>0</NumFreeTechs>
+			<BaseBeakersTurnsToCount>0</BaseBeakersTurnsToCount>
+			<BaseCultureTurnsToCount>0</BaseCultureTurnsToCount>
+			<RushBuilding>0</RushBuilding>
+			<BaseHurry>0</BaseHurry>
+			<HurryMultiplier>0</HurryMultiplier>
+			<BaseGold>0</BaseGold>
+			<NumGoldPerEra>0</NumGoldPerEra>
+			<SpreadReligion>0</SpreadReligion>
+			<RemoveHeresy>0</RemoveHeresy>
+			<ReligionSpreads>0</ReligionSpreads>
+			<ReligiousStrength>0</ReligiousStrength>
+			<FoundReligion>0</FoundReligion>
+			<RequiresEnhancedReligion>0</RequiresEnhancedReligion>
+			<ProhibitsSpread>0</ProhibitsSpread>
+			<CanBuyCityState>0</CanBuyCityState>
+			<CombatLimit>100</CombatLimit>
+			<RangeAttackOnlyInDomain>0</RangeAttackOnlyInDomain>
+			<RangeAttackIgnoreLOS>0</RangeAttackIgnoreLOS>
+			<Trade>0</Trade>
+			<NumExoticGoods>0</NumExoticGoods>
+			<RangedCombatLimit>0</RangedCombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo></SpecialCargo>
+			<DomainCargo></DomainCargo>
+			<Conscription>1</Conscription>
+			<ExtraMaintenanceCost>0</ExtraMaintenanceCost>
+			<NoMaintenance>0</NoMaintenance>
+			<Unhappiness>0</Unhappiness>
+			<UnitArtInfo>ART_DEF_UNIT_U_DURZHINA</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>0</UnitArtInfoCulturalVariation>
+			<UnitArtInfoEraVariation>0</UnitArtInfoEraVariation>
+			<ProjectPrereq></ProjectPrereq>
+			<SpaceshipProject></SpaceshipProject>
+			<LeaderPromotion></LeaderPromotion>
+			<LeaderExperience>0</LeaderExperience>
+			<DontShowYields>0</DontShowYields>
+			<ShowInPedia>1</ShowInPedia>
+			<MoveRate>HEAVY_BIPED</MoveRate>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>DURZ_ATLAS</IconAtlas>
+			<UnitFlagAtlas>PERM_DURZFLAG</UnitFlagAtlas>
+		</Row>
+	</Units>
+	
+	<Unit_FreePromotions>
+		<InsertOrAbort>
+			<UnitType>UNIT_DURZHINA</UnitType>
+			<PromotionType>PROMOTION_BONUS_IN_FRIENDLY</PromotionType>
+		</InsertOrAbort>
+		<Row>
+			<UnitType>UNIT_DURZHINA</UnitType>
+			<PromotionType>PROMOTION_DEFEND_NEAR_CAPITAL</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	
+	<UnitPromotions>
+		<InsertOrAbort>
+			<Type>PROMOTION_BONUS_IN_FRIENDLY</Type>
+			<Description>TXT_KEY_PROMOTION_BONUS_IN_FRIENDLY</Description>
+			<Help>TXT_KEY_PROMOTION_BONUS_IN_FRIENDLY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<FriendlyLandsModifier>25</FriendlyLandsModifier>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BONUS_IN_FRIENDLY</PediaEntry>
+		</InsertOrAbort>
+	</UnitPromotions>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_DURZHINA</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DURZHINA</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_DURZHINA</UnitType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_DURZHINA</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DURZHINA</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_DURZHINA</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Unit_YieldFromKills>
+		<Row>
+			<UnitType>UNIT_DURZHINA</UnitType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</Unit_YieldFromKills>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_DURZHINA</UnitType>
+			<SelectionSound>AS2D_SELECT_SWORDSMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SWORDSMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_DURZHINA">
+			<Text>Novgorodian Durzhina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_DURZHINA_TEXT">
+			<Text>
+				As a tributary state to the Republic of Novgorod, Perm gains use of the Novogorodian Durzhinas. Durzhinas were split into two groups, the high ranking statesmen of the Russian feudal system, and royal bodyguards if they were junior members.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DURZHINA_STRATEGY">
+			<Text>The Novgorodian Durzhina is the Permian unique unit, replacing the Swordsman. The Novgorodian Durzhina fights as well as the Swordsman, however recieves a significant combat bonus when fighting in friendly territory, the bonus increasing when fighting near the Capital. Gains Faith from kills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_DURZHINA">
+			<Text>Classical Era melee unit. recieves a 20% combat bonus fighting in friendly territory, and a stacked bonus when fighting near the Capital, unlike the Swordsman it replaces. Gains Faith from kills.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

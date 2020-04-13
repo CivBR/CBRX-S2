@@ -1,0 +1,79 @@
+<GameData>
+<Language_en_US>
+<!-- First Greeting -->
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_FIRSTGREETING_1">
+    <Text>I don't believe I've seen you here before. Today, your travels have brought you to the land of the Anangu.</Text>
+</Row>
+
+<!-- Defeated -->
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_DEFEATED_1">
+    <Text>You have defiled the sacred paths we all must walk... I can at least take comfort in the knowledge that I will not witness the gods' revenge.</Text>
+</Row>
+
+<!-- Diplomacy: Wars, Denunciatios, and DoF -->
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_ATTACKED_GENERIC_1">
+    <Text>Like the fly, you are intent on bothering me; and so, like the fly, I will swat you down.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_DEC_FRIENDSHIP_1">
+    <Text>There are few who understand the ways of tjukurpa, but you are one of them. Would you be interested in a public Declaration of Friendship?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_DENOUNCE_1">
+    <Text>I wish that, when I had first met you, I had left you in the desert to die.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_DOW_GENERIC_1">
+    <Text>I have realized that my life would be simpler if you were not part of it.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_EXPANSION_SERIOUS_WARNING_1">
+    <Text>The songlines demarcate a great bounty of land as rightfully Anangu. You would be wise to obey them.</Text>
+</Row>
+
+<!-- Greetings -->
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_GREETING_AT_WAR_HOSTILE_1">
+    <Text>Consider yourself fortunate that I've deigned to speak with you.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_GREETING_POLITE_HELLO_1">
+    <Text>Hello again! I see our paths continue to intertwine.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_GREETING_NEUTRAL_HELLO_1">
+    <Text>Oh, it's you! I thought for a moment you might be a mirage.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_GREETING_HOSTILE_HELLO_1">
+    <Text>Frankly, I'd rather you didn't come here so often.</Text>
+</Row>
+
+<!-- Misc -->
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+    <Text>Your soldiers are trying to traverse the songlines. You should remind them that they are for Anangu use only.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_LETS_HEAR_IT_1">
+    <Text>Well, if I must play the diplomat, I may as well get something for it. Show me what you've got.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_LOSEWAR_1">
+    <Text>Well, I know when I am beaten. But once I have regained my strength, do not expect me to be docile.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_LUXURY_TRADE_1">
+    <Text>I am intrigued by the wealth of your people. Perhaps I could negotiate for some of your finer goods?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_NO_PEACE_1">
+    <Text>Well, I see you've realized that attrition will always favor the Anangu. I am not done with you yet.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_OPEN_BORDERS_EXCHANGE">
+    <Text>I yearn to travel even beyond the confines of my land. May I pass through yours?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_REPEAT_NO_1">
+    <Text>You'll need to be more reasonable to justify my coming out here.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_RESPONSE_REQUEST_1">
+    <Text>The desert is a hostile place... but with your donation, it could become less oppressively so.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_RESPONSE_TO_BEING_DENOUNCED_1">
+    <Text>I don't want to deal with you right now. Get out of my sight.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_TOO_SOON_NO_PEACE_1">
+    <Text>What's wrong? Can't brave the desert?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_TJILPI_WINWAR_1">
+    <Text>It has been no secret that the Anangu would eventually triumph.</Text>
+</Row>
+</Language_en_US>
+</GameData>

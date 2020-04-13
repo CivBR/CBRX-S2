@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1c6756f5-6172-4015-9e41-be81f054fe2d" version="1">
+  <Properties>
+    <Name>[BNW] Colonialist Legacies - Kulin</Name>
+    <Teaser>Adds the prosperous Kulin Nation into the game, led by William Barak!</Teaser>
+    <Description>Adds the prosperous Kulin Nation into the game, led by William Barak!</Description>
+    <Authors>TPangolin, senshidenshi</Authors>
+    <SpecialThanks>Hiram, Neirai, RawSasquatch, Korouma, Vicevirtuoso, Mewr11</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD’s Prestige" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="8c101299-95c5-4b28-b7ed-4e0f774857ef" minversion="0" maxversion="999" title="Historical Religions" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp;amp; Decisions" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="BD41DF02945BF2D01A8FE1A87E7BFB9C" import="1">Art/Icons/AlphaKulinIcon128.dds</File>
+    <File md5="358D2E1C903EFA5DFB92E4B06708D8BD" import="1">Art/Icons/AlphaKulinIcon16.dds</File>
+    <File md5="7D23C2EC4A0838132AE059BCB22093F1" import="1">Art/Icons/AlphaKulinIcon24.dds</File>
+    <File md5="BB0C05D52841D40C7445C0D9486E709A" import="1">Art/Icons/AlphaKulinIcon32.dds</File>
+    <File md5="B8537764A36268D51619A49B072DB282" import="1">Art/Icons/AlphaKulinIcon48.dds</File>
+    <File md5="DB2F0D0E74CC8CEE3ACA6D9B36BB30C6" import="1">Art/Icons/AlphaKulinIcon64.dds</File>
+    <File md5="558E95C5BD52316859D1AD81026A8083" import="1">Art/Icons/AlphaKulinIcon80.dds</File>
+    <File md5="249340392E1A8E002997426C905F4EEE" import="1">Art/Icons/DioriteAxemanFlag.dds</File>
+    <File md5="A448C9DA115AD62873795740FCDFFE69" import="1">Art/Icons/KulinIcons128.dds</File>
+    <File md5="97B7754977B6D03FF13310693D4B2078" import="1">Art/Icons/KulinIcons256.dds</File>
+    <File md5="5FCFB8F12B477F300FB88D66C363B7CA" import="1">Art/Icons/KulinIcons32.dds</File>
+    <File md5="D0D358082B74B224C50CE58EAFDFC323" import="1">Art/Icons/KulinIcons45.dds</File>
+    <File md5="1BB4FA744DF40917DC40DE27915F34B8" import="1">Art/Icons/KulinIcons48.dds</File>
+    <File md5="4C8B8AA41F5959A41330ACD0E2094379" import="1">Art/Icons/KulinIcons64.dds</File>
+    <File md5="60F9E53C25F30739D3EE271F2FBEF16E" import="1">Art/Icons/KulinIcons80.dds</File>
+    <File md5="BE8C40C11288D0226B11AE60497F84C9" import="1">Art/Icons/sv_dioriteaxeman.dds</File>
+    <File md5="5BFFF6ABDF5F409EE0080378BA80BF74" import="1">Art/LeaderScenes/CLBarakAngry.dds</File>
+    <File md5="55E5EA1E17A3A3BE6495A01A90E74CFF" import="1">Art/LeaderScenes/CLBarakGeneric.dds</File>
+    <File md5="C5103910B6878EFBAA272B948A783743" import="1">Art/Misc/KulinDOM.dds</File>
+    <File md5="24D4C8E028D155E1A513732FBCEA5282" import="1">Art/Misc/KulinMap.dds</File>
+    <File md5="AE7C3C83CEBDC0FD996CF0CA1192764A" import="0">Core/Barak_Scene.xml</File>
+    <File md5="4F708F1F818A7E9D096BE87EFC87C167" import="0">Core/Buildings.xml</File>
+    <File md5="CBD8D2F2DC702C85CBB4E20C48583907" import="0">Core/Civilizations.xml</File>
+    <File md5="80AECB030C2745461E28B0B12BDEEC6E" import="0">Core/GameText.xml</File>
+    <File md5="7D401A102D2F2A4EAFDD1990FC33D363" import="0">Core/IconAtlas.xml</File>
+    <File md5="D8BAD0CAEDD5AAED41850C9ECF3870DC" import="0">Core/Leaders.xml</File>
+    <File md5="818D2C34B548CC35D82DCE7CB1C3AAF1" import="0">Core/Promotions.xml</File>
+    <File md5="B77CC7A7BA761FB233D22B954D499D95" import="1">Core/Sounds.xml</File>
+    <File md5="42ABF568258CDB9410CAFA98D31A09B4" import="0">Core/Units.xml</File>
+    <File md5="C22F032205680BA05389B26A146E51B5" import="0">DynamicLeaderhead/VVLeaderHeadImageOverride.lua</File>
+    <File md5="01326AAA3F03CDF6CD96CB0DB9A2A4FB" import="0">DynamicLeaderhead/VVLeaderHeadImageOverride.xml</File>
+    <File md5="72DD0AFD5AFC86E80E6A52D82C552A5E" import="0">DynamicLeaderhead/VV_LeaderSceneChanger.sql</File>
+    <File md5="F01E5818CDAEFFE3A921F707EB263394" import="0">Lua/InfluenceOnFoundCity.lua</File>
+    <File md5="FE774DEEC7B5BB44E798F4502CBF7A49" import="0">Lua/OpenBordersInfluence.lua</File>
+    <File md5="5A96A31792CCABCFB967CF54AD0C34BE" import="1">Lua/UAandUB.lua</File>
+    <File md5="9AC418C639020D922F2748F171EE613F" import="0">ModSupport/CultureDominationThingy.xml</File>
+    <File md5="2DE95491E1B27E49D5F45C2ADF0CC34C" import="1">ModSupport/KulinDecisions.lua</File>
+    <File md5="B2DEDAC89E533517F560F2019EB042D3" import="0">ModSupport/KulinDecisions.sql</File>
+    <File md5="947F60869308A9D6E15F08984A91E729" import="0">ModSupport/TheGodKingOfAllColonialistLegaciesKulinRelatedModUpdateFiles.sql</File>
+    <File md5="FC7FC1C4713800B7A7692BC3D0EF5E75" import="0">ModSupport/TXTKeysForModSupport.xml</File>
+    <File md5="534E24393FD7ABCA7303962F3C025676" import="1">Music/BarakDOM.mp3</File>
+    <File md5="409E21A0008ADDDE3494F53A90005DEA" import="1">Music/BarakPeace.mp3</File>
+    <File md5="8DA477E2FCF88DD085CC07CA60BE95A7" import="1">Music/BarakWar.mp3</File>
+    <File md5="9784BF952A2F8F0A7C84E0E431C2F70C" import="0">UnitArt/Defines.xml</File>
+    <File md5="6D769608C48E18FE2E747B7A44055FB0" import="1">UnitArt/Scout_Aztec.dds</File>
+    <File md5="E15C966FB2B8E32536415D304700B9EE" import="1">UnitArt/Scout_Aztec.fxsxml</File>
+    <File md5="67CFFDB65B14D1477C5C19D100319CDC" import="1">UnitArt/Scout_Aztec.gr2</File>
+    <File md5="CC72DB433B6EF3971DCF4DE417A75200" import="1">UnitArt/Scout_Aztec_gloss.dds</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>DynamicLeaderhead/VV_LeaderSceneChanger.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders.xml</UpdateDatabase>
+      <UpdateDatabase>UnitArt/Defines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>ModSupport/KulinDecisions.sql</UpdateDatabase>
+      <UpdateDatabase>ModSupport/TheGodKingOfAllColonialistLegaciesKulinRelatedModUpdateFiles.sql</UpdateDatabase>
+      <UpdateDatabase>ModSupport/CultureDominationThingy.xml</UpdateDatabase>
+      <UpdateDatabase>ModSupport/TXTKeysForModSupport.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/UAandUB.lua">
+      <Name>UA and UB Stuff</Name>
+      <Description>Provides the stuff for the UA and UB. Senshi can't name files.</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/InfluenceOnFoundCity.lua">
+      <Name>Influence On Found City</Name>
+      <Description>Gives Influence on founding city</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="ModSupport/KulinDecisions.lua">
+      <Name>Kulin Decisions</Name>
+      <Description>E&amp;D Support for Kulin</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/OpenBordersInfluence.lua">
+      <Name>Open Borders Influence</Name>
+      <Description>Grants City State Influence upon open borders with the Kulin.</Description>
+    </EntryPoint>
+    <EntryPoint type="DiplomacyUIAddin" file="DynamicLeaderhead/VVLeaderHeadImageOverride.xml">
+      <Name>VV_LeaderHeadImageOverride</Name>
+      <Description>VV_LeaderHeadImageOverride</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

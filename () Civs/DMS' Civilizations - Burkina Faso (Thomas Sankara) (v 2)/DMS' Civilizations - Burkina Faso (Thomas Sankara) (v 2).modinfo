@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="55e0c2b6-9784-4bb5-92f0-66f2f3f5d812" version="2">
+  <Properties>
+    <Name>DMS' Civilizations - Burkina Faso (Thomas Sankara)</Name>
+    <Teaser>Adds [COLOR_POSITIVE_TEXT]Burkina Faso[ENDCOLOR] led by Thomas Sankara to the game.</Teaser>
+    <Description>see more on civfanatics.com</Description>
+    <Authors>DMS, senshi, darth, lime</Authors>
+    <SpecialThanks>Hoopthrower, framedarchitect, TranquilSilence, Chrisy</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="DF478C956D2A2A5A5423BC3CF7683F07" import="1">Art/DOM_Map/DMS_BurkinaFaso_Map512.dds</File>
+    <File md5="D56670EFF022CAA52762E88539D4BCDD" import="1">Art/DOM_Map/DMS_Sankara_DOM.dds</File>
+    <File md5="68D2B673B41C95EAC7B427C14EF48188" import="1">Art/Graphics/resource_timber.fxsxml</File>
+    <File md5="A81060C921CCB0BC1BCA1E5B17C1DE4C" import="1">Art/Graphics/resource_timber.gr2</File>
+    <File md5="C2AD250989FC033D957C1BD3674958F6" import="1">Art/Graphics/sv_milice_du_peuple.dds</File>
+    <File md5="0F1BADC81E1418ED51E2655779599CFC" import="1">Art/Graphics/sv_plant_forest.dds</File>
+    <File md5="6FB2895C866E8947E41C35768922CE8D" import="1">Art/Graphics/timber_diff.dds</File>
+    <File md5="71470210CD9FCD7293988F10CA1456AE" import="1">Art/Graphics/timber_sref.dds</File>
+    <File md5="734FC5892988563BC2B9B1E12E2477CF" import="1">Art/IconAtlases/DMS_BurkinaFasoAlphaAtlas_128.dds</File>
+    <File md5="77D504E3105B513E5C9C9FF62F46DDE8" import="1">Art/IconAtlases/DMS_BurkinaFasoAlphaAtlas_16.dds</File>
+    <File md5="7ABB7B8996079061A13D03E3B7E34CE5" import="1">Art/IconAtlases/DMS_BurkinaFasoAlphaAtlas_24.dds</File>
+    <File md5="FAD34A7B48808AB08C02175278C5ED46" import="1">Art/IconAtlases/DMS_BurkinaFasoAlphaAtlas_256.dds</File>
+    <File md5="CEDE1A59D766BAFCD705EF212776C4FB" import="1">Art/IconAtlases/DMS_BurkinaFasoAlphaAtlas_32.dds</File>
+    <File md5="1CB879BBAA1CE992135DAD9C6876F0C3" import="1">Art/IconAtlases/DMS_BurkinaFasoAlphaAtlas_45.dds</File>
+    <File md5="2A37A056B6DA238FD063F5345A53467F" import="1">Art/IconAtlases/DMS_BurkinaFasoAlphaAtlas_48.dds</File>
+    <File md5="11B099CED732109286B00FEC4804D165" import="1">Art/IconAtlases/DMS_BurkinaFasoAlphaAtlas_64.dds</File>
+    <File md5="10BC2E44C50F659FAC35C95C4A24AF58" import="1">Art/IconAtlases/DMS_BurkinaFasoAlphaAtlas_80.dds</File>
+    <File md5="37E1FDBED28FE934144346DDBD1A375D" import="1">Art/IconAtlases/DMS_BurkinaFasoAtlas_128.dds</File>
+    <File md5="8CD16F147E4B1D1E9BD81BD24FAAA53D" import="1">Art/IconAtlases/DMS_BurkinaFasoAtlas_256.dds</File>
+    <File md5="4E9F63042CA91C8C1D28B3D8F4F5EF09" import="1">Art/IconAtlases/DMS_BurkinaFasoAtlas_32.dds</File>
+    <File md5="EFEF666F8044A667F7FA23B9905DB82F" import="1">Art/IconAtlases/DMS_BurkinaFasoAtlas_45.dds</File>
+    <File md5="B5FAE6FDC60B2E4BFCEFA54819BA4B5F" import="1">Art/IconAtlases/DMS_BurkinaFasoAtlas_64.dds</File>
+    <File md5="3FEF5BCC24BE6C4744BBE87277552FD5" import="1">Art/IconAtlases/DMS_BurkinaFasoAtlas_80.dds</File>
+    <File md5="25D0744DE8F298AAEDADE7DD87C9EBBB" import="1">Art/IconAtlases/DMS_ForestAtlas_256.dds</File>
+    <File md5="2590A909FE43EF3C4F3C4DF804B00B54" import="1">Art/IconAtlases/DMS_ForestAtlas_64.dds</File>
+    <File md5="4689427241EEF750A5029550C109F4CE" import="1">Art/IconAtlases/DMS_UnitAction45_Forest.dds</File>
+    <File md5="CE7E214F179A6328C803EA80631C0DD5" import="1">Art/IconAtlases/DMS_UnitAction64_Forest.dds</File>
+    <File md5="812B6C76648CB09996D80BEF00334DDA" import="1">Art/IconAtlases/UnitFlag_MiliceDuPeuple_32.dds</File>
+    <File md5="6FCBFFB03BEDDDB8BA1AD389BD4550EF" import="1">Art/Leaderscene/DMS_Sankara_Diplo.dds</File>
+    <File md5="81BF48E71CE8C3BFB38AD7B01D412E89" import="1">Art/Leaderscene/DMS_Sankara_Diplo.xml</File>
+    <File md5="C81F2659C1784E809DC1D9BACB80A9FD" import="1">Audio/DMS_Sankara_Peace.mp3</File>
+    <File md5="038D9D988F097888C92DCD9E4B71CB91" import="1">Audio/DMS_Sankara_War.mp3</File>
+    <File md5="6A5F5CD18D343273D018298CB1305115" import="0">Core/DMS_Burkina_Faso_ArtDefines.sql</File>
+    <File md5="1098B46623F993811EE979E0D6566C4F" import="0">Core/DMS_Burkina_Faso_GameDefines.sql</File>
+    <File md5="F2E798B0A7F258860FDB963840049044" import="0">Core/DMS_Burkina_Faso_GameDefines_Diplomacy.sql</File>
+    <File md5="1F01C00B193024FE4C1299AF551E5D69" import="0">Core/DMS_Burkina_Faso_GameDefines_ModSupport.sql</File>
+    <File md5="B66EE3D7021105DD83979D1CED38896A" import="0">Core/DMS_Burkina_Faso_GameText.xml</File>
+    <File md5="D5F12091B1D6AC0321DA9A184999C9BC" import="0">Core/DMS_Burkina_Faso_GameText_Diplomacy.xml</File>
+    <File md5="A41DED8DF5D283EC5D7EC0A959F9571E" import="0">DMS_Burkina_Faso_Credits.txt</File>
+    <File md5="00D833AD2D1C76F5C96078A23CDCFAA6" import="0">DMS_Burkina_Faso_UserSettings.sql</File>
+    <File md5="D0A8ECCECFE7939286D37D9EE116F8EA" import="0">Lua/DMS_Burkina_Faso_Functions.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="86C1C3EDCE4699DE320A932C4E70E22C" import="0">Lua/Utilities/Sukritact's MCIS/CityInfoStack.lua</File>
+    <File md5="120EB71025973A8A48B38314241DD0B3" import="0">Lua/Utilities/Sukritact's MCIS/CityInfoStack.xml</File>
+    <File md5="FD0BD3AD97F8F9BF26F738D8B5EC2FD4" import="0">Lua/Utilities/Sukritact's MCIS/DMS_FreightStationCityInfo.lua</File>
+    <File md5="A5DB700498E86BEC3510357F3170DAE0" import="0">Lua/Utilities/Sukritact's MCIS/DMS_FreightStationCityInfo.xml</File>
+    <File md5="90240A56804960DC2A43205B8AE6816F" import="0">Lua/Utilities/Sukritact's MCIS/DMS_UprightManCityInfo.lua</File>
+    <File md5="CB225C835C958FAB49AF9855CA4B277D" import="0">Lua/Utilities/Sukritact's MCIS/DMS_UprightManCityInfo.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/DMS_Burkina_Faso_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Burkina_Faso_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Burkina_Faso_GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Burkina_Faso_GameDefines_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Burkina_Faso_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Burkina_Faso_GameText_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>DMS_Burkina_Faso_UserSettings.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/DMS_Burkina_Faso_Functions.lua">
+      <Name>DMS_Burkina_Faso_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Utilities/Sukritact's MCIS/CityInfoStack.lua">
+      <Name>CityInfoStack</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Utilities/Sukritact's MCIS/DMS_FreightStationCityInfo.lua">
+      <Name>DMS_FreightStationCityInfo</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Utilities/Sukritact's MCIS/DMS_UprightManCityInfo.lua">
+      <Name>DMS_UprightManCityInfo</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

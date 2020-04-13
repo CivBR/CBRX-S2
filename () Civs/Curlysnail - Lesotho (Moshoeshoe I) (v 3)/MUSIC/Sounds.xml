@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/23/2014 11:33:48 PM -->
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_MOSHOEHOE_PEACE</SoundID>
+			<Filename>MoshoeshoePeace</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_MOSHOEHOE_WAR</SoundID>
+			<Filename>Moshoeshoewar</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_MOSHOEHOE_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_MOSHOEHOE_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>75</MinVolume>
+			<MaxVolume>75</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_MOSHOEHOE_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_MOSHOEHOE_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>75</MinVolume>
+			<MaxVolume>75</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

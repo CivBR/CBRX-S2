@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2015 12:03:58 AM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_HYP_CIVIL_GUARD</Type>
+			<Description>TXT_KEY_UNIT_HYP_CIVIL_GUARD</Description>
+			<DefaultUnit>UNIT_HYP_CIVIL_GUARD</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_HYP_RED_GUARD</Type>
+			<Description>TXT_KEY_UNIT_HYP_RED_GUARD</Description>
+			<DefaultUnit>UNIT_HYP_RED_GUARD</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_HYP_CIVIL_GUARD</Class>
+			<Type>UNIT_HYP_CIVIL_GUARD</Type>
+			<PrereqTech>NULL</PrereqTech>
+			<Combat>40</Combat>
+			<Cost>-1</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_HYP_CIVIL_GUARD</Description>
+			<Civilopedia>TXT_KEY_CIV5_HYP_CIVIL_GUARD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HYP_CIVIL_GUARD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_HYP_CIVIL_GUARD</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_PLASTIC</ObsoleteTech>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FINNISH_CIVIL_GUARD</UnitArtInfo>
+			<UnitFlagAtlas>HYPEREON_UNIT_FLAG_CIVIL_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>HYPEREON_FINNS_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_HYP_RED_GUARD</Class>
+			<Type>UNIT_HYP_RED_GUARD</Type>
+			<PrereqTech>NULL</PrereqTech>
+			<Combat>30</Combat>
+			<Cost>-1</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_HYP_RED_GUARD</Description>
+			<Civilopedia>TXT_KEY_CIV5_HYP_RED_GUARD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HYP_RED_GUARD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_HYP_RED_GUARD</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_PLASTIC</ObsoleteTech>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FINNISH_RED_GUARD</UnitArtInfo>
+			<UnitFlagAtlas>HYPEREON_UNIT_FLAG_RED_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>HYPEREON_FINNS_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_HYP_CIVIL_GUARD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HYP_CIVIL_GUARD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HYP_RED_GUARD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HYP_RED_GUARD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_HYP_CIVIL_GUARD</UnitType>
+			<PromotionType>PROMOTION_DEFEND_NEAR_CAPITAL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HYP_RED_GUARD</UnitType>
+			<PromotionType>PROMOTION_HYP_ADJACENT_BONUS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_HYP_ADJACENT_BONUS</Type>
+			<Description>TXT_KEY_PROMOTION_DISCIPLINE</Description>
+			<Help>TXT_KEY_PROMOTION_DISCIPLINE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AdjacentMod>33</AdjacentMod>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_DISCIPLINE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_HYP_RED_GUARD">
+			<Text>Red Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HYP_RED_GUARD_TEXT">
+			<Text>The Red Guards (Finnish: Punakaarti Swedish: Röda gardet) formed the army of Red Finland during the Finnish Civil War in 1918. The combined strength of the Red Guard was about 30,000 at the beginning of the Civil War, and peaked at 90,000-120,000 during the course of the conflict. During the general strike of 1905 "National Guards" were formed in Finland. These Guards included both socialists and non-socialists, but eventually they were divided into opposing militias. In that year, however, bloodshed was still avoided.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HYP_RED_GUARD_STRATEGY">
+			<Text>A moderately weak modern unit that has a significant bonus (+33%) fighting next to a friendly unit. May only appear after a Finnish event.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HYP_RED_GUARD">
+			<Text>A moderately weak modern unit that has a significant bonus (+33%) fighting next to a friendly unit. May only appear after a Finnish event.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HYP_CIVIL_GUARD">
+			<Text>Civil Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HYP_CIVIL_GUARD_TEXT">
+			<Text>The White Guard (Finnish: Suojeluskunta, plural: Suojeluskunnat, Finland-Swedish: Skyddskår, literary translated as Protection/Defense Corps) was a voluntary militia that emerged victorious over the socialist Red Guard as part of the Whites in the Finnish Civil War of 1918. The Finnish term Suojeluskunta has received many different approximations in English, including the literal translation Protection Corps, Security Guard, Civic Guards, National Guard, White Militia, Defence Corps, Protection Guard, and Protection Militia. They were generally known as the White Guard in the West due to their opposition to the communist Red Guards. In the White Army of Finland many participants were recruits, draftees and German trained Jägers and not part of the paramilitary as is sometimes erroneously thought.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HYP_CIVIL_GUARD_STRATEGY">
+			<Text>A moderately strong modern unit that has significant bonus (+30%) fighting near capital. The bonus falls of the further the unit gets. May only appear when enacting the Finnish decision 'Organize the Civil Guard'.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HYP_CIVIL_GUARD">
+			<Text>A moderately strong modern unit that has significant bonus (+30%) fighting near capital. The bonus falls of the further the unit gets. May only appear when enacting the Finnish decision 'Organize the Civil Guard'.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNS_WE_DEMAND">
+			<Text>Socialists put forward demands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNS_WE_DEMAND_DESC">
+			<Text>In the wake of recent events, the Social Democratic Party has put forward an uncompromising program called 'We Demand'. These include repelling our recent right-wing policies, such as unconditionally dissolving the bourgeois Civil Guard as the base of the army. The situation is getting dire. As ultimatum, the main trade unions are calling a general strike, should their conditions be ignored.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNS_WE_DEMAND_OUTCOME_1">
+			<Text>They are right. Accept the demands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNS_WE_DEMAND_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose 250 [ICON_GOLDEN_AGE] Golden Age points[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]'Organize the Civil Guard' decision is repelled and PERMANENTLY DISABLED[NEWLINE][ICON_BULLET]All Civil Guard units are disbanded[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNS_WE_DEMAND_OUTCOME_2">
+			<Text>Ignore them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNS_WE_DEMAND_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Gain 250 [ICON_GOLDEN_AGE] Golden Age points[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]2 turns of [ICON_RESISTANCE] Resistance in the Capital[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNS_WE_DEMAND_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have accepted the Socialists' demands and disbanded the Civil Guard!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNS_WE_DEMAND_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>We have ignored the Socialists' demands. The main trade unions have issued a general strike. What will follow?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_CIVIL_WAR">
+			<Text>Revolution declared!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_CIVIL_WAR_DESC">
+			<Text>After our recent rejection of the Socialists' demands, and in the aftermath of the general strike, the united left has issued the Red Order of Revolution. Now all the Workers' Guards have united to form the Red Guard of Finland and a red lantern, a symbolic indicator of the coup d'état, has been lit in the tower of the {1_CapitalName} Workers' Hall. The revolutionaries not only call for disbanding the Finnish Civil Guard, but dissolving the Finnish Parliament, thus declaring the birth of the Finnish Socialist Workers' Republic. [NEWLINE] As the leader of Finland, it is now your duty to decide what to support in the dawn of a divided nation.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_CIVIL_WAR_OUTCOME_1">
+			<Text>We shall defend our legal government, whatever is the cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_CIVIL_WAR_OUTCOME_2">
+			<Text>Workers of the world, unite!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_CIVIL_WAR_OUTCOME_RESULT_1">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]The Finnish Civil War begins[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Each city other than your capital has a 33% chance to join Red Finland[NEWLINE][ICON_BULLET]All cities that become revolutionary gain two Red Guard units and two Red Guards spawn near your [ICON_CAPITAL] Capital[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain a free Military unit in all cities that did not rebel, other than your [ICON_CAPITAL] Capital[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_CIVIL_WAR_OUTCOME_RESULT_2">
+			<Text>[ICON_BULLET]The Finnish Socialist Workers' Republic established[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]The "Organize the Civil Guard" decision is permanently disabled[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]All Civil Guard units turn hostile[ENDCOLOR][NEWLINE][ICON_BULLET]Ideology changed to Order[COLOR_NEGATIVE_TEXT] and all tenets of the former ideology are lost[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose 300 [ICON_GOLDEN_AGE] Golden Age points[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain 5 free Red Guard units near your [ICON_CAPITAL] Capital[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_CIVIL_WAR_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have gone to war with a number of our former cities, which lad by the Red Guard, have declared a socialist revolution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_CIVIL_WAR_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>The Finnish Socialist Workers' Republic has been established. The Civil Guard has resisted the revolution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_HYP_FINNISH_CIVIL_WAR_1">
+			<Text>Red Order of Revolution has been issued in Finland. Civil war has broken out between the government's White Army and the revolutionary Red Finland.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_HYP_FINNISH_CIVIL_WAR_2">
+			<Text>Red Order of Revolution has been issued in Finland. The new Finnish Socialist Workers' Republic is now fighting the remnants of the previous regime.</Text>
+		</Row>
+		<!--Lalli-->
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_BISHOP">
+			<Text>A bishop murdered!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_BISHOP_DESC">
+			<Text>Rumors say a local peasant, named Lalli, has murdered a bishop of {2_ReligionName} from {1_CivName} on a frozen lake in the Finnish countryside. They claim the peasant, enraged by the foreign bishop's unwelcome visit in his house, took an axe, pursued and finally gruesomely decapitated the poor Father in the plain wilderness. Be the rumors true, {1_CivName} proclaims this horrible offense against the Holy Mission will not be tolerated, and demands immediate action on this sin from our court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_BISHOP_OUTCOME_1">
+			<Text>Declare the bishop a saint.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_BISHOP_OUTCOME_2">
+			<Text>Declare the peasant a saint.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_BISHOP_OUTCOME_1_DESC">
+			<Text>[ICON_BULLET]Lalli is executed[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose 100 [ICON_GOLDEN_AGE] Golden Age points[ENDCOLOR][ICON_BULLET]Capital converts to {1_Religion}[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Receive a free Missionary[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_BISHOP_OUTCOME_2_DESC">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Receive a free Great Prophet[ENDCOLOR][ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Playername} denounced[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_BISHOP_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>We have given the murdered bishop sainthood, and our relations with {1_LeaderName} are saved. In gratitude, they have provided us with a free missionary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_HYP_FINNISH_BISHOP_OUTCOME_RESULT_2_NOTIFICATION">
+			<Text>Lalli is proclaimed a living Finnish saint and a symbol of our freedom of belief. This has encouraged the people to follow him as a Great Prophet. Though, our relations with {1_LeaderName} will never be the same again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_HYP_FINNISH_BISHOP_1">
+			<Text>{1_LeaderName} has declared a murdered bishop from {2_CivName} a saint.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_HYP_FINNISH_BISHOP_2">
+			<Text>{1_LeaderName} of {2_CivName} has declared a murderer a saint, angering {3_CivName}, the nation of the murdered {4_Religion} bishop.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

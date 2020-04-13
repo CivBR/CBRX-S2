@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2019 11:23:44 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Civilization -->
+		<Row Tag="TXT_KEY_CIV5_ORG_MALACCA_TITLE">
+			<Text>Malacca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ORG_MALACCA_DESC">
+			<Text>Sultanate of Malacca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ORG_MALACCA_SHORT_DESC">
+			<Text>Malacca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_ORG_MALACCA_ADJECTIVE">
+			<Text>Malaccan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_ORG_MALACCA_TEXT">
+			<Text>Salam, Mansure Shah, great sultan of the Malaccan people. You rose to power in the small yet prosperous Sultanate of Malacca and you steered it into a golden era. Your expansionist policy led you to wrest control of the nearby lands, granting access to new riches and a stronger control over the region. With the prosperity of your Sultanate, you were able to grow diplomatic ties to the great kingdom of China and your grandeur even allowed you to take the hand of the Emperor's daughter in marriage. You continued to exert your influence and wealth, becoming by far the dominant power of the region. Your control over the vital Strait of Malacca gave your nation the undeniable position to extend its reach to those around it. Your Malaccan ports rose to fame as trade floruished under your laws. [NEWLINE][NEWLINE] Oh Great and Excellent Sultan Mansur Shah, can you bring incredible wealth and prosperity to your people? Can you once again expand your Sultanate to new heights? Can you take control of trade and usher in a new golden age for your people? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		
+		<!-- Trait-->
+		<Row Tag="TXT_KEY_TRAIT_ORG_MARITIME_LAW">
+			<Text>[ICON_INTERNATIONAL_TRADE]Cargo ships sent by this Civilization receive +1 [ICON_GOLD]gold for land resources; +2 [ICON_GOLD]gold for sea resources. Each [ICON_INTERNATIONAL_TRADE]Sea Trade Route provides +10% [ICON_PRODUCTION]naval unit production for that city and generate [ICON_GREAT_ADMIRAL] Great Admiral points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ORG_MARITIME_LAW_SHORT">
+			<Text>Undang-Undang Laut Melaka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ORG_NAVAL_PROD">
+			<Text>Malacca Dummy Building for the UA</Text>
+		</Row>
+		
+		<!-- Leader -->
+		<Row Tag="TXT_KEY_LEADER_ORG_MANSUR">
+			<Text>Mansur Shah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ORG_MANSUR_LIVED">
+			<Text>1442-1477</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ORG_MANSUR_NAME">
+			<Text>Mansur Shah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ORG_MANSUR_SUBTITLE">
+			<Text>Sultan of Malacca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ORG_MANSUR_TITLES_1">
+			<Text>"Sultan"</Text>
+		</Row>
+		
+		<!-- Unit -->
+		<Row Tag="TXT_KEY_UNIT_ORG_MALACCAN_JONG">
+			<Text>Jong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ORG_MALACCAN_JONG_STRATEGY">
+			<Text>The Jong is a a Mallacan unique unit. The Jong is stronger and cheaper than the Caravel which it replaces and provides +2 [ICON_GOLD]gold for sea tiles it is on, doubling if on a [ICON_INTERNATIONAL_TRADE]trade route or in ally territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ORG_MALACCAN_JONG">
+			<Text>Only Malacca may build this unit. The Jong is stronger and cheaper than the Caravel which it replacesand provides +2 [ICON_GOLD]gold for sea tiles it is on, doubling if on a [ICON_INTERNATIONAL_TRADE]trade route or in ally territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_ORG_MALACCAN_JONG_TEXT">
+			<Text>The Jong, or Djong, also commonly referred to as Junk in English, was a widely used passenger and cargo ship used by Javanese and Malay sailors. They were able to travel long distance and carry large amounts of cargo making them ideal trading vessels for the Asian and Indian Ocean trade networks. Around the Majapahit era, of which Malacca had its golden age, these ships were used as warships along side their normal duties. Jongs were shown to be a force to be reckoned with and were common and in use until the 1700s.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ORG_JONG_GOLD">
+			<Text>Jong Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ORG_JONG_GOLD_HELP">
+			<Text>This unit gains gold for being on sea tiles. It gains double gold when on a trade route or in allied territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_ORG_JONG_GOLD">
+			<Text>This unit gains gold for being on sea tiles. It gains double gold when on a trade route or in allied territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ORG_MALACCAN_LAKSAMANA">
+			<Text>Laksamana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ORG_MALACCAN_LAKSAMANA_STRATEGY">
+			<Text>The Laksamana is a a Mallacan unique unit. The Laksamana replaces the Great Admiral and retains its bonuses and abilties. Along with this, the Laksamana can be expended on a coastal tile owned by Malacca to create a random Luxury Sea Resource or it can be expended within a city to boost the [ICON_GOLD]gold earned by the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ORG_MALACCAN_LAKSAMANA">
+			<Text>Only Malacca may build this unit. The Laksamana replaces the Great Admiral and retains its bonuses and abilties. Along with this, the Laksamana can be expended on a coastal tile owned by Malacca to create a random Luxury Sea Resource or it can be expended within a city to boost the [ICON_GOLD]gold earned by the city by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_ORG_MALACCAN_LAKSAMANA_TEXT">
+			<Text>Laksamana, Malay for admiral, is generally the highest ranked naval position. In the Malaccan Sultanate it was only outranked by the Bendahara, akin to the prime minister, and the Sultan himself. The Laksamana was in charge of of maintaining the security of the sea for the Sultanate along with the security of the China-India trade route that went through the Straits of Malacca.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ORG_LAKSAMANA_TRADE">
+			<Text>Malacca Dummy Building for the Laksamana UU</Text>
+		</Row>
+		
+		<!-- Civilopedia -->
+		<Row Tag="TXT_KEY_CIV5_ORG_MALACCA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ORG_MALACCA_TEXT_1">
+			<Text>The Malaccan Sultanate was founded in 1400 by Parameswara, a King of Singapore who decided to establish a kingdom in a village he had fled to. Quickly, he initiated development of the village and laid the foundation of a trade port and soon Malacca became known as a center of trade in the eastern world. Trade blossomed with merchants from places such as Arabia, India, and Persia, and, most notably, China coming over to establish bases in the growing town. The strong trade also led envoys to go to and from China, strengthening the relationship between the two and giving Malacca diplomatic protection. During the reign of the third ruler, Raja Tengah, a muslim ulama came to spread the teachings of Islam to the kingdom, leading to Raja Tengah to convert, adopt the name Muhammad Shah, and introduced Islam into his administration. Muhammad Shah also created the Undang-Undang Laut Melaka, or the Maritime Laws of Malacca, to regulate the increasingly important internation trade center. Malacca's strong economy allowed it to create strong military and navy to defend itself and deter attackers. Such as in 1446 when Ayutthaya launched an attack in which a chief named Tun Perak led the Malaccans to victory, he then soon followed that with a victory at sea in 1456 and served as a Bendahara, a rank similar to prime minister, to four sultans from 1456 to 1498, with his death signifying what is widely held as the beginning of the Sultanate's decline. Malacca reached its golden age under the rule of Mansur Shah who ruled from 1459 to 1477. Mansur Shah greatly expanded the borders of the Sultanate to encompass Southern Thailand and Eastern Sumatra. The Malaccan military became the strongest in the region, able to defeat the enemies of the Sultanate as well as pressure other kingdoms, such as the declining Majapahit kingdom, to give up land. Mansur Shah was also able to establish many tributaries and dependencies from nearby kingdoms. [NEWLINE][NEWLINE]The prosperity and golden age of Malacca as an internation center of trade and commerce continued until 1511 when the Portugese assaulted and captued the city and the Sultan was forced to flee. This marked the end of the Sultanate of Malacca. However, the last sultan did maintain control of Johor and founded a new Sultanate there. The Emporer of China, upon hearing of the capture of Malacca, began a decades long campaign against and persecution of the Portugese. The Portugese capture of the city also began the cities decline from being a major trading port. The Portugese had fundamentally disrupted the Asian trade network and the previously centralized port that was able to maintain safety for commercial traffic was replaced with a more scattered trade network of rivalling ports in the region. The Portugese had failed their ambition of dominating the Asian trade with their ending of the Malaccan Sultanate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ORG_MALACCA_FACTOID_HEADING">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ORG_MALACCA_FACTOID_TEXT">
+			<Text>
+				[ICON_BULLET]It is said the founder, Parameswara, decided to establish the Kingdom of Malacca after witnessing a mouse deer outwit a hunting while he was resting under a Malacca tree. The mouse deer can still be seen on the Malaccan coat of arms today.
+				[NEWLINE][ICON_BULLET]Chinese Admiral Zheng He made six stop in the Sultanate during his voyages.
+				[NEWLINE][ICON_BULLET]The Sultanate was pretty much experiencing prosperity from its founding until it abruptly ended with the Portugese conquest of the capital city and the fleeing of sultan Mahmud Shah to Johor.
+				[NEWLINE][ICON_BULLET]The Sultanate was able to control fleets of hundreds of ships which it used to exert influence and control over the nearby areas.
+				[NEWLINE][ICON_BULLET]Malacca developed Classical Malay through its literary tradition which became the lingua franca of the region.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ORG_MALACCAN_JONG_TEXT">
+			<Text>The Jong is the Malay term for the Junk, a popular Asian ship. Malacca was able to create large fleets of Jongs due to its booming economy and ports. The Malaccan navy was the strongest in the region due to the large fleet size and extremely capable admirals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ORG_MALACCAN_LAKSAMANA_TEXT">
+			<Text>Laksamana, Malay for admiral, is generally the highest ranked naval position. In the Malaccan Sultanate it was only outranked by the Bendahara, akin to the prime minister, and the Sultan himself. The Laksamana was in charge of of maintaining the security of the sea for the Sultanate along with the security of the China-India trade route that went through the Straits of Malacca.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ORG_MANSUR_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ORG_MANSUR_TEXT_1">
+			<Text>Mansur Shah, born 1442, became Sultan in 1459 while the Sultanate was experiencing prosperity. Mansur Shah had a much more expansionist policy than his predecessors and expanded the Sultanate greatly to cover the surrounding lands. He also continued to improve relations with the Chinese and was able to force tributary or dependency status on many nearby kingdoms. His conquests and diplomacy set the Sultanate to be the largest and most dominating power in the region by far. Mansur Shah's economic policies helped to increase the trade going through the strait even more and provided more safety and economic advantages to traders going through. He also orchestrated a number of diplomatic marriages to strengthen relationships with trade partners as well as to conquered states. Mansur Shah himself was married to a Chinese princess which further boosted relations with the Chinese and set the two nations as closer to allies or equal partners rather than the normal tributary status imposed by the Chinese on other nations. In 1477 Mansur Shah died and passed the throne to his son who continued to maintain the Malaccan prosperity and golden age.</Text>
+		</Row>
+		
+		<!-- Diplomacy Responses -->
+		<Row Tag="TXT_KEY_LEADER_ORG_MANSUR_FIRSTGREETING">
+			<Text>Selamat Datang! I hope you can enjoy your time here in Malacca. Would you like to see one of the golden palaces here? Or perhaps you would like to take a walk along the world class ports.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ORG_MANSUR_DEFEATED">
+			<Text>My Sultanate, gone, but not forgotten. You will be unable to control the Malaccan trade like you wished. Your ambitions will be fruitless as long as the Malaccan people live.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ORG_MANSUR_GREETING_POLITE_HELLO">
+			<Text>Welcome back! Come, grab some tea and sit down, we have much in the way of trade to discuss.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ORG_MANSUR_GREETING_NEUTRAL_HELLO">
+			<Text>Greetings. State your business, perhaps you're here to invest in one of the many ports?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ORG_MANSUR_GREETING_HOSTILE_HELLO">
+			<Text>Your ships are not welcome through these straits, have you returned to beg forgiveness?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ORG_MANSUR_HOSTILE_AGGRESSIVE_MILITARY_WARNING">
+			<Text>I see your armies and fleets approaching my border. Please remove them or I will have to call upon my Bendahara to remove them for you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ORG_MANSUR_EXPANSION_SERIOUS_WARNING">
+			<Text>You seem to have missed that those lands are under my protection, I don't want to but I will send my military if needed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ORG_MANSUR_REQUEST">
+			<Text>Hello, I'm sorry but I must ask you if you are willing to provide me certain goods, trade has been a bit slow lately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ORG_MANSUR_DECLAREWAR">
+			<Text>Your lands will be a fine addition to the trade network.</Text>
+		</Row>
+		
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_0">
+			<Text>Malacca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_1">
+			<Text>Bintan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_2">
+			<Text>Pahang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_3">
+			<Text>Kelang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_4">
+			<Text>Singapura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_5">
+			<Text>Siak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_6">
+			<Text>Rokan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_7">
+			<Text>Terangganu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_8">
+			<Text>Pekan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_9">
+			<Text>Perak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_10">
+			<Text>Kedah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_11">
+			<Text>Pattani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_12">
+			<Text>Kampar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_13">
+			<Text>Ledang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_14">
+			<Text>Jasin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_15">
+			<Text>Segamat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_16">
+			<Text>Pagoh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_17">
+			<Text>Muar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_18">
+			<Text>Linggi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_19">
+			<Text>Alor Gajah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_20">
+			<Text>Batu Pahat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_21">
+			<Text>Johor Bahru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_22">
+			<Text>Riau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_23">
+			<Text>Siantan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_24">
+			<Text>Kelantan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_25">
+			<Text>Seri Menanti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_26">
+			<Text>Chukai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_27">
+			<Text>Merlimau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_28">
+			<Text>Batam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_29">
+			<Text>Indragiri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORG_MALACCA_30">
+			<Text>Aru</Text>
+		</Row>
+		
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_ORG_MALACCA_0">
+			<Text>Intan</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ORG_MALACCA_1">
+			<Text>Mat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ORG_MALACCA_2">
+			<Text>Kembang</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ORG_MALACCA_3">
+			<Text>Tuah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ORG_MALACCA_4">
+			<Text>Perang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ORG_MALACCA_5">
+			<Text>Rai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ORG_MALACCA_6">
+			<Text>Siti</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ORG_MALACCA_7">
+			<Text>Wira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ORG_MALACCA_8">
+			<Text>Tun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ORG_MALACCA_9">
+			<Text>Ayu</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>

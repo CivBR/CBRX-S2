@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0b25dd30-4844-4c4f-86b7-aab21928b9e2" version="2">
+  <Properties>
+    <Name>TopHat's Anangu</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Anangu people, led by Tjilpi, to the game.</Teaser>
+    <Description>Adds the Anangu people, led by Tjilpi, to the game. Requires Brave New World.</Description>
+    <Authors>TopHatPaladin</Authors>
+    <SpecialThanks>senshidenshi, JTitan, DarthKyofu, TPangolin, Urdnot_Scott</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="432bc547-eb05-4189-9e46-232dbde8f09f" minversion="0" maxversion="999" title="Additional Achievements" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact's Events &amp; Decisions" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="011EE3D6AA678D5E4AE3FA9C4BF38B4B" import="1">Art/Map_Anangu.dds</File>
+    <File md5="ED850B83360B0255D1F29BBFA7B8BCF0" import="1">Art/sv_warmala.dds</File>
+    <File md5="E40F9AA836C044EDA0CB789D830ABCA4" import="1">Art/THP_AnanguAlpha128.dds</File>
+    <File md5="20B547BEF0344691624C9EC85A9F3360" import="1">Art/THP_AnanguAlpha16.dds</File>
+    <File md5="742E9449FA25CBDA611B285C58C18CF5" import="1">Art/THP_AnanguAlpha24.dds</File>
+    <File md5="E03981F11B45CE21419355B609DAB5F0" import="1">Art/THP_AnanguAlpha32.dds</File>
+    <File md5="E2B45D982D428D0F6F40E22918E3077F" import="1">Art/THP_AnanguAlpha48.dds</File>
+    <File md5="49BE8ED4805F488278DFF476B5789A52" import="1">Art/THP_AnanguAlpha64.dds</File>
+    <File md5="D728C6D98F679598D15E820BBDEFF474" import="1">Art/THP_AnanguAtlas128.dds</File>
+    <File md5="30254EAD362031E50FC6E96BE534F6B8" import="1">Art/THP_AnanguAtlas256.dds</File>
+    <File md5="00CF4612B7BD1100AD2D3BB7B4F33CD3" import="1">Art/THP_AnanguAtlas32.dds</File>
+    <File md5="09AE7D1D0F9FD6132AD6422C3D9355D3" import="1">Art/THP_AnanguAtlas45.dds</File>
+    <File md5="1A31CD4E8CD6A5E5A3318CE9E4DAA15A" import="1">Art/THP_AnanguAtlas64.dds</File>
+    <File md5="7E37D8EB8653BD8F72AD54E0AD1EEDD1" import="1">Art/THP_AnanguAtlas80.dds</File>
+    <File md5="1D17FCC0305B6DF5DDAE0C0EA76FF68C" import="1">Art/Tjilpi_DOM.dds</File>
+    <File md5="DBA120F76F3EB90B11F7B8546A2BF685" import="1">Art/Tjilpi_scene.dds</File>
+    <File md5="ECCFB6EC0FAA890CFBB8221C1CC9C084" import="1">Art/UnitModel/EthiopianScout.dds</File>
+    <File md5="3641263C029BC4EC3F8825CFB62240A5" import="1">Art/UnitModel/EthiopianScout.fbx</File>
+    <File md5="13D1CF0F359137EF1550BD43D7A16F1C" import="1">Art/UnitModel/EthiopianScout.fxsxml</File>
+    <File md5="711B9B0411658C203673FA22CEDA3EB6" import="1">Art/UnitModel/EthiopianScout.gr2</File>
+    <File md5="03934405836CDB9BC8A9CE89113481A4" import="1">Art/UnitModel/EthiopianScout_sref.dds</File>
+    <File md5="4D6D47C55681A99F7E8B0834E9F376D4" import="1">Art/UnitModel/EthiopianScout_Template.blend</File>
+    <File md5="53AAFF24F27740EE833B99591DEC285C" import="1">Art/Unit_Warmala_Flag_32.dds</File>
+    <File md5="ADFFCFDB4A202A7DA81A2EB7FB69A314" import="1">Audio/Anangu_Peace.mp3</File>
+    <File md5="2BD9465D132C17E7B2DE1558C9D11F64" import="1">Audio/Anangu_War.mp3</File>
+    <File md5="040F98DC081D1AFEDDC5F2185114DAA0" import="0">Core/Anangu_ArtDef.sql</File>
+    <File md5="C01B795E8A10FCC1C9489D5465B4FFCF" import="0">Core/Anangu_GameDef.sql</File>
+    <File md5="FF5A7334CD96303530CFF6645146C2F1" import="0">Core/DiploText.xml</File>
+    <File md5="7718641E65AE9103103D4DE309180090" import="0">Core/GameText.xml</File>
+    <File md5="1B12C34899D8A73D33711FB2626AE452" import="1">Core/Leaderhead_Tjilpi.xml</File>
+    <File md5="04DDF1E14DC080FCDEEF360BC9B1FF58" import="0">Core/ModSupport_Anangu.sql</File>
+    <File md5="1368ACF988CC8834BB7AD60585E8B936" import="1">Lua/AdditionalAchievementsUtility.lua</File>
+    <File md5="10059D3BCB0E9BE8E9CFA9D359CAB4BC" import="1">Lua/Anangu_Decisions.lua</File>
+    <File md5="5F1AE1A7734D4CF9F409492921341A02" import="0">Lua/Anangu_Functions.lua</File>
+    <File md5="20B4CC704DA55D593AF9213D948F1564" import="0">Lua/Anangu_Functions.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Anangu_ArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Anangu_GameDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DiploText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/ModSupport_Anangu.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Anangu_Functions.lua">
+      <Name>TophatAnanguFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

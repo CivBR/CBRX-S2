@@ -1,0 +1,456 @@
+<GameData>
+    <Language_en_US>
+        <!--Cities-->
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_1">
+            <Text>Windhoek</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_2">
+            <Text>Kactchanas</Text>
+        </Row>
+        <!-- TXT_KEY_CITY_NAME_THP_NAMIBIA_3 removed
+         (it'd just been an alternate name for Kactchanas) -->
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_4">
+            <Text>Rehoboth</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_5">
+            <Text>Gibeon</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_6">
+            <Text>Bethanie</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_7">
+            <Text>Rundu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_8">
+            <Text>Walvis Bay</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_9">
+            <Text>Gobabis</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_10">
+            <Text>Keetmanshoop</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_11">
+            <Text>Lüderitz</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_12">
+            <Text>Otjiwarongo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_13">
+            <Text>Okahandja</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_14">
+            <Text>Swakopmund</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_15">
+            <Text>Ohangwena</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_16">
+            <Text>Oshakati</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_17">
+            <Text>Katima Mulilo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_18">
+            <Text>Tsumeb</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_19">
+            <Text>Mariental</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_20">
+            <Text>Khorixas</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_21">
+            <Text>Oranjemund</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_22">
+            <Text>Karabib</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_23">
+            <Text>Grootfontein</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_24">
+            <Text>Rooysvlei</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_25">
+            <Text>Warmfontein</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_26">
+            <Text>Mukwe</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_27">
+            <Text>Berseba</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_28">
+            <Text>Henties Bay</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_29">
+            <Text>Aus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NAMIBIA_30">
+            <Text>Penguin Islands</Text>
+        </Row>
+        
+        <!--Spies-->
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_0">
+            <Text>Enzian</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_1">
+            <Text>Pondo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_2">
+            <Text>McNamara</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_3">
+            <Text>Putuse</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_4">
+            <Text>Nanyemba</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_5">
+            <Text>Kalenga</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_6">
+            <Text>Matombo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_7">
+            <Text>Kaluenya</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_8">
+            <Text>Mavulu</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_9">
+            <Text>Tsheehama</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NAMIBIA_10">
+            <Text>Solhofaat</Text>
+        </Row>
+        
+        <!--Basic Info-->
+        <Row Tag="TXT_KEY_LEADER_THP_MORENGA">
+            <Text>Jacob Morenga</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_NAMIBIA_ADJECTIVE">
+            <Text>Namibian</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_NAMIBIA_DESC">
+            <Text>Namibia</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_NAMIBIA_SHORT_DESC">
+            <Text>Namibia</Text>
+        </Row>
+        
+        <!--Civilopedia-->
+        <Row Tag="TXT_KEY_PEDIA_THP_NAMIBIA_HEADING_1">
+            <Text>Precolonial History</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_NAMIBIA_TEXT_1">
+            <Text>Prior to colonization, Namibia was inhabited by a number of small Bantu and Khoisan tribes - the Ovambo and Kavango in the north, the Namaqua towards the south and the Damara in the central regions, with San and Herero people scattered or roaming the land. Precolonial history is somewhat quiet, as most tribes inhabiting the Namib and Kalahari Deserts in this region were hunter-gatherers or nomadic, and were fairly isolated from each other. In the 19th century, colonialism was starting to kick off into full swing, and even though no colonial power had yet claimed the area that would become Namibia, descendants of South Africa’s Boer population pushed north across the Orange River, settling down at Windhoek and Rehoboth and overwhelming the indigenous tribes, demanding tributes from the Damara and Namaqua peoples respectively.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_NAMIBIA_HEADING_2">
+            <Text>Struggle for Independence</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_NAMIBIA_TEXT_2">
+            <Text>Due to the inhospitable nature of the coastal Namib Desert, the land went largely uncolonized (save the port of Walvis Bay) until it was claimed by Otto von Bismarck of Germany, as advised by Adolf Lüderitz, in 1884. As more and more German settlers moved to what was now German Southwest Africa, a trend exacerbated by the discovery of diamonds in 1908, the local tribes were constantly in a state of insurrection and rebellion. This trend culminated in the Herero and Namaqua Wars, which ended with the almost complete slaughters of both tribes. Transferred to Britain following World War 1, and then to South African suzerainty, Southwest Africa struggled with the Apartheid system and the confinement of natives to Bantustans. After decades of struggle and strife within the region, war, and a large swathe of international pressure on South Africa, Namibia achieved independence in 1990, receiving Walvis Bay in 1994 to fully encompass its modern borders.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MORENGA_PEDIA_NAME">
+            <Text>Jacob Morenga</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MORENGA_PEDIA_SUBTITLE">
+            <Text>Leader of Namibia</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MORENGA_PEDIA_TITLES_1">
+            <Text>Leader of the Herero and Namaqua rebels</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MORENGA_PEDIA_LIVED">
+            <Text>1875 - 1907 AD</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MORENGA_PEDIA_HEADING_1">
+            <Text>Biography</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MORENGA_PEDIA_TEXT_1">
+            <Text>Born to a Herero mother and a Nama father, Jacob Morenga is considered to be one of the national heroes of Namibia, a key figure of resistance to the regime of German Southwest Africa. The leaders of the rebellion in the Herero and Namaqua War had a hard time controlling the multi-ethnic armies they were leading to attempt to expel the Germans - Morenga excelled at it. Out of his hidden fortress at Khauxaǃnas, he utilized the different fighting styles of both the aggressive Herero and the guerilla Namaqua so effectively that the Germans he was fighting branded him the Black Napoleon. Morenga came so close to expelling the Germans that a vote was forced in the Reichstag to immediately reinforce the colony.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MORENGA_PEDIA_HEADING_2">
+            <Text>Legacy</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MORENGA_PEDIA_TEXT_2">
+            <Text>Morenga was a visionary, one of the few to see past the narrow ethnic lines dividing the tribes. His vision of a broad African nationalism, rather than ethnic sectionalism, enabled him to unite his troops on the battlefield in a way unrivaled by any of his peers, and he very well may have been the first to envision a united and free Namibia, a goal for which he would eventually die fighting for.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_DAWN_THP_NAMIBIA_TEXT">
+            <Text>Greetings, Jacob Morenga, revolutionary spirit of Namibia! You are truly a man ahead of your time. Thanks to your vision of broad African nationalism, which transcended the narrow ethnic loyalties that blinded your peers, you convinced the Herero and Namaqua peoples to put aside their differences and fight with you to protect your desert home from colonialism. Your expert use of scientific guerrilla tactics, and your intense knowledge of the strengths and weaknesses of your multi-ethnic army, brought you tremendous success in battle against the settlers of German South West Africa. This strategic genius led for your allies and enemies alike to grant you great respect, your German adversaries even calling you "the Black Napoleon." Although you ultimately failed in liberating your homeland, and South West Africa would not see total independence until nearly a century after your insurrection ended, history remembers you fondly as the creator of the Namibian national identity, and as the inspiration for generations of freedom fighters to come.[NEWLINE][NEWLINE]Oh great revolutionary hero of Namibia, your people call out for you once again! Will you unite them as you did before, against the enemies of your home? Will you build a civilization that shall stand the test of time?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_THP_NAMIBIA_SHORT">
+            <Text>The Land God Made In Anger</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_THP_NAMIBIA">
+            <Text>Gain [ICON_PEACE] Faith when an enemy unit dies in your borders. Units from nations at war with Namibia take attrition damage on your Pillaged tiles and unimproved Desert.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_OXRIDER">
+            <Text>Ox Rider</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_OXRIDER_HELP">
+            <Text>Mounted Unit of the Industrial Era, capable of fighting toe-to-toe with contemporary infantry units. Only Namibia may build it. The Ox Rider is cheaper than the Cavalry it replaces, and doesn't require Horses. It also begins with the Heavy Charge promotion, forcing defenders to retreat if they take more damage than they dole out.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_OXRIDER_STRATEGY">
+            <Text>Since it does not require horses, the Ox Rider can be easily built en masse; this allows it to become a vital plank of an industrial Namibian army, with the strength and mobility to cause some serious damage. They will most excel in friendly territory - between their speed and the Heavy Charge promotion, they can outmaneuver most enemies, allowing you to keep enemy units pinned in unpleasant positions.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_OXRIDER_TEXT">
+            <Text>Oxen were the most popular riding animal in pre-colonial Namibia, since the presence of African horse sickness made horses a less desirable choice. Cattle are a central component of Namibian agriculture, and are one of the country's largest exports.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_KHAUXANAS">
+            <Text>Khauxa!nas</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_KHAUXANAS_HELP">
+            <Text>Unique replacement for the Castle. Only Namibia may build it. In addition to the normal Castle benefits, the Khauxa!nas allows Citadels in its city to perform weak ranged strikes if built on flat Desert, Snow, or Tundra. Forts on such terrains become sources of fresh water.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_KHAUXANAS_STRATEGY">
+            <Text>Namibia is always a defensively strong civ, but the Khauxa!nas allows you to take that defense to the next level. With a Khauxa!nas, your citadels can become sources of direct attacks, and your forts can help you build infrastructure in difficult terrain.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_KHAUXANAS_TEXT">
+            <Text>Khauxa!nas is the name of a ruined fortress, and its associated village, in southeastern Namibia. It was the first systematically built structure in Namibia, and since its construction in the 1790s, Khauxa!nas has consistently served as a defensible retreat for those hiding from authority. The first people to build and use Khauxa!nas were the Oorlams under Klaas Afrikaner, but they moved on from the site in the 1820s. Jacob Morenga used Khauxa!nas as the staging point for many of his operations during the Herero and Namaqua uprising.[NEWLINE][NEWLINE]Khauxa!nas is a Khoekhoegowab phrase meaning "passively defend people from an enemy." The word should properly be written with a lateral click at the beginning, but unfortunately Civilization V does not support the appropriate characters in text.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FEATURE_THP_FORTWATER">
+            <Text>Sip Well</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_FORTWATER">
+            <Text>The sip well is a means used by the San people to acquire water in the desert. A sip well is a hole dug into the ground until damp sand is reached; the digger will then pack a bundle of dried grass into the hole, as well as a long hollow grass stem. After refilling the hole around the stem, the digger can suck on the stem to draw moisture onto the grass. The moisture can then be drunk directly or blown through a second stem into a container, traditionally a hollowed-out ostrich egg.</Text>
+        </Row>
+        
+        <!--Mod Support-->
+        <Row Tag="TXT_KEY_GENERIC_THP_NAMIBIA_INFLUENTIAL_ON_AI_1">
+            <Text>Our people are now wearing hats shaped like cow horns and speaking with click consonants. I worry that the rest of the world will also succumb to the influence of your culture.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_LEGISLATURE_NAME_CIVILIZATION_THP_NAMIBIA">
+            <Text>National Assembly</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA">
+            <Text>President</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_1">
+            <Text>Sam Nujoma</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_2">
+            <Text>Hifikepunye Pohamba</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_3">
+            <Text>Hage Geingob</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_4">
+            <Text>Theo-Ben Gurirab</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_5">
+            <Text>Nahas Angula</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_6">
+            <Text>Saara Kuugongelwa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_7">
+            <Text>Nickey Iyambo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_8">
+            <Text>Nangolo Mbumba</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_9">
+            <Text>Netumbo Nandi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_10">
+            <Text>Erkki Nghimtina</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_11">
+            <Text>Sackeus Shanghala</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_12">
+            <Text>Immanuel Ngatjizeko</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_13">
+            <Text>Albert Kawana</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_14">
+            <Text>Tom Alweendo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_15">
+            <Text>Obeth Kandjoze</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_16">
+            <Text>Itah Murangi-Kandjii</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_17">
+            <Text>John Mutorwa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_18">
+            <Text>Alpheus !Naruseb</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_19">
+            <Text>Billy Mwaningange</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_20">
+            <Text>Katrina Hanse-Himarwa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_21">
+            <Text>Anna Nghipondoka</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_22">
+            <Text>Pohamba Shifeta</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_23">
+            <Text>Doreen Sioka</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_24">
+            <Text>Pendukeni Iivula-Ithana</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_THP_NAMIBIA_25">
+            <Text>Tjekero Tweya</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_PARTY_THP_NAMIBIA_CONSERVATIVE">
+            <Text>Democratic Turnhalle Alliance</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_PARTY_THP_NAMIBIA_LIBERAL">
+            <Text>Rally for Democracy and Progress</Text>
+        </Row>
+        <Row Tag="TXT_KEY_JFD_PARTY_THP_NAMIBIA_SOCIALIST">
+            <Text>South West African People's Organization</Text>
+        </Row>
+        
+        <!--Additional Achievements-->
+        <Row Tag="TXT_KEY_MOD_THP_NAMIBIA_NAME">
+            <Text>TopHat's Namibia</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_NAMIBIA_ID_CFC">
+            <Text>25388dfd-6a6b-4ada-bffe-71707dd73071</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_NAMIBIA_ID_STEAM">
+            <Text>6c8d7a24-905f-403b-afcb-630a7c096257</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_NAMIBIA_AUTHORS">
+            <Text>TopHatPaladin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_NAMIBIA_VICTORY_HEADER">
+            <Text>From Herero to Eternity</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_NAMIBIA_VICTORY_TEXT">
+            <Text>Win the game on any difficulty setting as Namibia.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_NAMIBIA_SPECIAL_HEADER">
+            <Text>Citadelicious</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_NAMIBIA_SPECIAL_TEXT">
+            <Text>As Namibia, control three citadels within working radius of your Capital.</Text>
+        </Row>
+        
+        <!--E&D Support-->
+        <Row Tag="TXT_KEY_DECISIONS_THP_NAMIBIA_LANDREFORM">
+             <Text>Redistribute Land</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_NAMIBIA_LANDREFORM_DESC">
+             <Text>We control a very finite amount of arable land, and it is not evenly distributed amongst our people. If we can buy farmland from the large commercial landholders, we can settle needy citizens there and minimize the imbalance.
+             [NEWLINE]
+             [NEWLINE]Requirement/Restrictions:
+             [NEWLINE][ICON_BULLET]Player must be Namibia
+             [NEWLINE][ICON_BULLET]Must have entered the Industrial Era
+             [NEWLINE][ICON_BULLET]Must own at least 3 cities
+             [NEWLINE][ICON_BULLET]May only be enacted once per game
+             [NEWLINE]Costs:
+             [NEWLINE][ICON_BULLET]200 [ICON_GOLD] Gold
+             [NEWLINE][ICON_BULLET]200 [ICON_CULTURE] Culture
+             [NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+             [NEWLINE]Rewards:
+             [NEWLINE][ICON_BULLET]Receive +1 [ICON_CULTURE] Culture from Farms
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_NAMIBIA_LANDREFORM_ENACTED_DESC">
+             <Text>We control a very finite amount of arable land, and it is not evenly distributed amongst our people. If we can buy farmland from the large commercial landholders, we can settle needy citizens there and minimize the imbalance.
+             [NEWLINE]
+             [NEWLINE]Rewards:
+             [NEWLINE][ICON_BULLET]Receive +1 [ICON_CULTURE] Culture from Farms
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_WORLD_EVENT_THP_NAMIBIA_LANDREFORM">
+            <Text>{1_LeaderName} has initiated a land reform program in {2_CivName}!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_NAMIBIA_CAPRIVI">
+             <Text>Crack Down on Secessionists</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_NAMIBIA_CAPRIVI_DESC">
+             <Text>The Caprivi population in our empire has become restless, and is demanding independence from our rule. We did not fight for our own independence in order to rule over a war-torn nation - these rebels must be captured and tried for treason!
+             [NEWLINE]
+             [NEWLINE]Requirement/Restrictions:
+             [NEWLINE][ICON_BULLET]Player must be Namibia
+             [NEWLINE][ICON_BULLET]Must have entered the Modern Era
+             [NEWLINE][ICON_BULLET]Empire must be [ICON_HAPPINESS_3] Unhappy
+             [NEWLINE][ICON_BULLET]May only be enacted once per game
+             [NEWLINE]Costs:
+             [NEWLINE][ICON_BULLET]200 [ICON_GOLD] Gold
+             [NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+             [NEWLINE]Rewards:
+             [NEWLINE][ICON_BULLET]Receive +3 [ICON_HAPPINESS_1] Happiness from Courthouses
+             [NEWLINE][ICON_BULLET]Gain a free Courthouse in the [ICON_CAPITAL] Capital
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_NAMIBIA_CAPRIVI_ENACTED_DESC">
+             <Text>The Caprivi population in our empire has become restless, and is demanding independence from our rule. We did not fight for our own independence in order to rule over a war-torn nation - these rebels must be captured and tried for treason!
+                 [NEWLINE]
+                 [NEWLINE]Rewards:
+                 [NEWLINE][ICON_BULLET]Receive +3 [ICON_HAPPINESS_1] Happiness from Courthouses
+                 [NEWLINE][ICON_BULLET]Gain a free Courthouse in the [ICON_CAPITAL] Capital
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_WORLD_EVENT_THP_NAMIBIA_CAPRIVI">
+             <Text>{1_LeaderName} has begun a crackdown on secessionists in {2_CivName}!</Text>
+        </Row>
+        <!--Event-->
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM">
+            <Text>Arrival of the Oorlams</Text>
+        </Row>
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM_DESC">
+            <Text>A group of people calling themselves the Oorlams has begun to settle at the fringes of our realm. They have many similarities with us, but they also bear the indelible stamp of foreign nations, including their strange religion and mysterious technology. What should be done about them?
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM_OUTCOME_1">
+            <Text>
+                They could have much to teach us - let them assimilate.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM_OUTCOME_1_DESC">
+            <Text>
+                [ICON_BULLET][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain 1 [ICON_CITIZEN] Population in each of your first 3 Cities[ENDCOLOR]
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM_OUTCOME_1_NOTIFICATION">
+            <Text>
+                The Oorlams have been assimilated into Namibia.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM_OUTCOME_2">
+            <Text>
+                They can stay on our land, but they should pay us for its usage.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM_OUTCOME_2_DESC">
+            <Text>
+                [ICON_BULLET][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain 250 [ICON_GOLD] Gold[ENDCOLOR]
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM_OUTCOME_2_NOTIFICATION">
+            <Text>
+                The Oorlams receive grazing rights in Namibia.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM_OUTCOME_3">
+            <Text>
+                I don't trust them. Send them away!
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM_OUTCOME_3_DESC">
+            <Text>
+                [ICON_BULLET][ICON_BULLET][COLOR_POSITIVE_TEXT]Gain 100 [ICON_CULTURE] Culture[ENDCOLOR]
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_EVENT_THP_OORLAM_OUTCOME_3_NOTIFICATION">
+            <Text>
+                The Oorlams have been driven out of Namibia.
+            </Text>
+        </Row>
+        </Language_en_US>
+    </GameData>

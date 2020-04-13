@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e95c2b5d-3674-454f-8206-91cc901b0f2f" version="1">
+  <Properties>
+    <Name>Uighur_Caesar's Teutonic Order</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Teutonic Order under Hermann von Salza to the game.</Teaser>
+    <Description>Adds the Teutonic Order under Hermann von Salza to the game.</Description>
+    <Authors>Uighur_Caesar</Authors>
+    <SpecialThanks>Janboruta, COF, DarthStarKiller, Lord Tirian, Pouakai, Zwei</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Rise to Power" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact's Events and Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YNAEMP" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="RED" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="CIV Traits" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="UCI" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="622A437657534DCD3539F9FB8BD3EDFC" import="1">Art/Hermann.dds</File>
+    <File md5="166392F7410DD95379076530FF0F763B" import="1">Art/sv_TOKnight.dds</File>
+    <File md5="A2C88F775DAC1B13F3439578DF430B70" import="1">Art/TeutonPeace.mp3</File>
+    <File md5="8F7870610802FBF604E7BFB5C4B8996B" import="1">Art/Ritterbruder.fxsxml</File>
+    <File md5="5C55FA8457052755F98FB25CC36D27E4" import="1">Art/Ritterbruder.gr2</File>
+    <File md5="AFB5775106611EDD026303E0474ADEDA" import="1">Art/TeutonWar.mp3</File>
+    <File md5="7C91A30B5A81A7291057037F809B99C2" import="1">Art/teutonic_knight_mounted_diff.dds</File>
+    <File md5="7408F0AFBDF46CDE4C1DAEB931F86D26" import="1">Art/teutonic_knight_mounted_sref.dds</File>
+    <File md5="1D9EEF8D677D8946DDC460C4692413B8" import="1">Art/teutonic_longsw4.dds</File>
+    <File md5="447CD2DB11F316880AF547372FC46378" import="1">Art/teutonic_longsw4_sref.dds</File>
+    <File md5="581800523E1E1A8E58D1195743C58F41" import="1">Art/UC_TOAlphaAtlas_128.dds</File>
+    <File md5="6C117C74FB29AA64846F07C7B54A1CEB" import="1">Art/UC_TOAlphaAtlas_16.dds</File>
+    <File md5="988A41CBF9A0DDE37FDF645669CEF7B4" import="1">Art/UC_TOAlphaAtlas_22.dds</File>
+    <File md5="EB4DC9B521A9DD7C4D4561DCA0D01E3F" import="1">Art/UC_TOAlphaAtlas_24.dds</File>
+    <File md5="22FDC2CDEE505B481C9F565A5D2071E0" import="1">Art/UC_TOAlphaAtlas_256.dds</File>
+    <File md5="BD55251C5016094E8A1FCE2CD6829A6D" import="1">Art/UC_TOAlphaAtlas_32.dds</File>
+    <File md5="63968759DCF6EF5C5418F7DA8E6A9DE4" import="1">Art/UC_TOAlphaAtlas_45.dds</File>
+    <File md5="CBEEB4DB0A949A54A618E6002A30A5F8" import="1">Art/UC_TOAlphaAtlas_48.dds</File>
+    <File md5="9452B00C0D6342FBCF80E671599EBAA3" import="1">Art/UC_TOAlphaAtlas_64.dds</File>
+    <File md5="E0A2FD1A0A4B526160CC8C37AC5F75D4" import="1">Art/UC_TOAlphaAtlas_80.dds</File>
+    <File md5="7409B62EABD93D80A5C2C87422277172" import="1">Art/UC_TOAtlas_128.dds</File>
+    <File md5="9B6780433EFF783DBA3E2583A5FD27D3" import="1">Art/UC_TOAtlas_256.dds</File>
+    <File md5="93FB0430635894EE8CA2584216CDB1C5" import="1">Art/UC_TOAtlas_32.dds</File>
+    <File md5="331F1940B2DAC70B8A51CAC35E7CEDB8" import="1">Art/UC_TOAtlas_45.dds</File>
+    <File md5="E5EBE67395907B05C8C35BDB4B6E72D4" import="1">Art/UC_TOAtlas_64.dds</File>
+    <File md5="9711FDBABED98F5D5EB63E230D38F1AC" import="1">Art/UC_TOAtlas_80.dds</File>
+    <File md5="F5E6EB0F301A398D400FBCC2E4D878D8" import="1">Art/UC_TOKnightFlag.dds</File>
+    <File md5="161A283B33A61030634B15EB0C2AF138" import="1">Art/UC_TO_DOM.dds</File>
+    <File md5="0959136A63E7DBC1751F404BC9C293BC" import="1">Art/UC_TO_Map.dds</File>
+    <File md5="15149B968DC34C92D93F6FDE13313563" import="0">Core/Defines.sql</File>
+    <File md5="982DE6C1557151EB3E69A573859BE8EF" import="0">Core/Hermann.xml</File>
+    <File md5="546B62093382829E7075CD3038289F53" import="0">Core/Unit.xml</File>
+    <File md5="FD0952F53F4C9952B3B108889CED6A7B" import="0">Core/Buildings.xml</File>
+    <File md5="0D4C298759FAD4DECEB1CDE95BF19FE4" import="0">Core/Policies.xml</File>
+    <File md5="6D401645C168190EE3C8BFB1D8D30EA0" import="0">Core/Defines.xml</File>
+    <File md5="1375482A6E7752093746249AE4FE9BE4" import="1">Core/HermannScene.xml</File>
+    <File md5="B8A7BC01A27E40EDD8F90E975EBF5139" import="0">Core/Civ.xml</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="89E03D173F5ED7CFB98C1712CE23F720" import="0">Lua/TeutonFunctions.xml</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Lua/SaveUtils.lua</File>
+    <File md5="64DF635BD57CDEB13DC1038934568A7E" import="0">Lua/Sukritact MCIS/CityInfoStack.lua</File>
+    <File md5="4E7C5E4894BC0A0E0CBA1743787E1015" import="0">Lua/Sukritact MCIS/CityInfoStack.xml</File>
+    <File md5="B3F46FFB6AA038AA98B71149F419E9E8" import="0">Lua/TeutonFunctions.lua</File>
+    <File md5="C3A4333AF3705FB579F409B016D47608" import="0">Support/JFDText.xml</File>
+    <File md5="7790E6237FD0D5573F0FA2FB5F9998E0" import="0">Support/SupportTexr.xml</File>
+    <File md5="DBA3C4B183BC81D715D98D07528FE0F8" import="1">Support/TeutonDecisions.lua</File>
+    <File md5="A61902C38F8461E958D80DA49C19DD40" import="0">Support/Support.sql</File>
+    <File md5="D54DE592E7DDF1C3D67A0FC02A4C4166" import="0">Text/Diplo.xml</File>
+    <File md5="B70784E565DACF93FB0F4EE86CBF9516" import="0">Text/Diplo.sql</File>
+    <File md5="105A858018F2DE81F175382D3FDA6234" import="0">Text/Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Civ.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Defines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Hermann.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Support/Support.sql</UpdateDatabase>
+      <UpdateDatabase>Support/SupportTexr.xml</UpdateDatabase>
+      <UpdateDatabase>Support/JFDText.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Diplo.sql</UpdateDatabase>
+      <UpdateDatabase>Text/Diplo.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/TeutonFunctions.lua">
+      <Name>iktuyhtrsgfed</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/SaveUtils.lua">
+      <Name>tnsbdsvcsxz</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Sukritact MCIS/CityInfoStack.lua">
+      <Name>8tfykuufr6idtujfh</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/PlotIterators.lua">
+      <Name>,dgfbdzbgnhmryi</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

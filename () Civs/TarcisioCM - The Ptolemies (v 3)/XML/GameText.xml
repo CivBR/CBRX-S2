@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_TCM_PTOLEMIES_DESC">
+			<Text>Ptolemaic Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TCM_PTOLEMIES_SHORT_DESC">
+			<Text>The Ptolemies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TCM_PTOLEMIES_ADJECTIVE">
+			<Text>Ptolemaic</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_DOM_TCM_PTOLEMIES_TEXT">
+			<Text>Hail oh great Diadochi, true successor to Alexander the Great and all his glory, Ptolemy I of Egypt and savior of Rhodes! You led Egypt through the turbulent times of Alexander the Great's death, establishing your own dynasty that would endure for hundreds of years while the other Diadochi - successors to Alexander - crumbled around you. You kingdom would become a shining beacon of Hellenism, blending Greek culture with Egyptian, and wondrous projects would be built in your legendary capital of Alexandria.[NEWLINE][NEWLINE]Oh divine Basileus, the time has come, for the envy of your rivals, to reinstate the Ptolemaic Dynasty! Can you defeat all that oppose you, and secure the legacy of the Ptolemies? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_TCM_PTOLEMIES_TITLE">
+			<Text>The Ptolemies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TCM_PTOLEMIES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TCM_PTOLEMIES_TEXT_1">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_01">
+			<Text>Alexandria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_02">
+			<Text>Ptolemais</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_03">
+			<Text>Naukratis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_04">
+			<Text>Arsinoe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_05">
+			<Text>Berenice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_06">
+			<Text>Philadelphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_07">
+			<Text>Oxyrhynchus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_08">
+			<Text>Pelousium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_09">
+			<Text>Gaza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_10">
+			<Text>Paraitonion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_11">
+			<Text>Gerasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_12">
+			<Text>Paphos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_13">
+			<Text>Perge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_14">
+			<Text>Side</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_15">
+			<Text>Cirene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_16">
+			<Text>Pentapolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_17">
+			<Text>Salamis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_18">
+			<Text>Hermopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_19">
+			<Text>Tyre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_20">
+			<Text>Byblos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_21">
+			<Text>Sidon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_22">
+			<Text>Jerusalem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_23">
+			<Text>Thebes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_24">
+			<Text>Memphis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_25">
+			<Text>Heliopolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_26">
+			<Text>Elephantine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_27">
+			<Text>Coptos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_28">
+			<Text>Dendera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_29">
+			<Text>Sais</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TCM_PTOLEMIES_30">
+			<Text>Rosetta</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_TCM_PTOLEMIES_0">
+			<Text>Alexander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TCM_PTOLEMIES_1">
+			<Text>Theodotus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TCM_PTOLEMIES_2">
+			<Text>Horus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TCM_PTOLEMIES_3">
+			<Text>Zeno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TCM_PTOLEMIES_4">
+			<Text>Caesarion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TCM_PTOLEMIES_5">
+			<Text>Cleopatra</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TCM_PTOLEMIES_6">
+			<Text>Berenice</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TCM_PTOLEMIES_7">
+			<Text>Arsinoe</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TCM_PTOLEMIES_8">
+			<Text>Eirene</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TCM_PTOLEMIES_9">
+			<Text>Apama</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TCM_PTOLEMY_PEDIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TCM_PTOLEMY_PEDIA_TEXT_1">
+			<Text>Ptolemy I Soter I also known as Ptolemy Lagides, c. 367 BC – c. 283 BC, was a Macedonian general under Alexander the Great, who became ruler of Egypt (323–283 BC) and founder of both the Ptolemaic Kingdom and the Ptolemaic Dynasty. In 305/4 BC he demanded the title of pharaoh.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TCM_PTOLEMY_PEDIA_LIVED">
+			<Text>367 - 283 BC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TCM_PTOLEMY_PEDIA_NAME">
+			<Text>Ptolemy I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TCM_PTOLEMY_PEDIA_SUBTITLE">
+			<Text>Leader of The Ptolemies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TCM_PTOLEMY_PEDIA_TITLES_1">
+			<Text>Pharaoh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TCM_PTOLEMY_PEDIA_TITLES_2">
+			<Text>Basileus</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TCM_PTOLEMY">
+			<Text>Ptolemy I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TCM_PTOLEMY_PTOLEMIES_SHORT">
+			<Text>Beacon of Hellenism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TCM_PTOLEMY_PTOLEMIES">
+			<Text>Great Generals may rush production. World Wonders increase [ICON_CITIZEN] Population by one upon being built.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TCM_SERAPEUM">
+			<Text>Serapeion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCM_SERAPEUM_HELP">
+			<Text>Generates [ICON_HAPPINESS_1] Happiness per [ICON_GREAT_PEOPLE] Great Person produced at this city. Double [ICON_PEACE] Faith while producing a naval unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCM_SERAPEUM_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TCM_SERAPEUM_TEXT">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_TCM_POLYREME">
+			<Text>Tessarakonteres</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TCM_POLYREME">
+			<Text>May manually build Tessarakonteres at a high production cost, counting as a World Wonder. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TCM_POLYREME_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_TCM_POLYREME_TEXT">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GENERIC_TCM_PTOLEMIES_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now worshipping Serapis and migrating to Alexandria. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TCM_PTOLEMY_FIRSTGREETING_1">
+			<Text>Be welcomed to the greatest kingdom of this era! Gaze upon my wonders that touch the skies of Egypt, and then head back to your puny homeland.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TCM_PTOLEMY_DEFEATED_1">
+			<Text>You may have defeated me, but my wonders shall live forever!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DECISIONS_TCM_PTOLEMIES_ARMY">
+			<Text>Settle the Army throught Egypt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TCM_PTOLEMIES_ARMY_DESC">
+			<Text>
+				Our battle-hardened Greek soldiers have seen enough battles for a lifetime, they long for a place to settle down and prosper. Let us settle them in Greek colonies throught our lands to counter-balance the native Egyptian population.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Ptolemies
+				[NEWLINE][ICON_BULLET]May only be enacted once
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]Expends the Garrison of every Ptolemaic city
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Gains a [ICON_CITIZEN] Citizen per expended garrison
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TCM_PTOLEMIES_ARMY_ENACTED_DESC">
+			<Text>
+				Our battle-hardened Greek soldiers have seen enough battles for a lifetime, they long for a place to settle down and prosper. Let us settle them in Greek colonies throught our lands to counter-balance the native Egyptian population.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Gains a [ICON_CITIZEN] Citizen per city
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DECISIONS_TCM_PTOLEMIES_SERAPIS">
+			<Text>Begin the Cult of Serapis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TCM_PTOLEMIES_SERAPIS_DESC">
+			<Text>
+				Desunity is sure to follow while the elite and the people follow different gods and customs; we must establish the cult of a new god that unites Greeks and Egyptians under one faith - and one king.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Ptolemies
+				[NEWLINE][ICON_BULLET]May only be enacted once
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE][ICON_BULLET]{1_Faith} [ICON_PEACE] Faith
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Serapeums are built 20% faster and yield +1 [ICON_HAPPINESS_1] Happiness
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TCM_PTOLEMIES_SERAPIS_ENACTED_DESC">
+			<Text>
+				Desunity is sure to follow while the elite and the people follow different gods and customs; we must establish the cult of a new god that unites Greeks and Egyptians under one faith - and one king.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Serapeums are built 20% faster and yield +1 [ICON_HAPPINESS_1] Happiness
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6e821965-0c4e-46a0-b1ef-075ef5a22930" version="1">
+  <Properties>
+    <Name>Curlysnail - Great Perm (Stephen of Perm)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>This mod adds Great Perm under Stephen of Perm into the game.</Teaser>
+    <Description>This mod adds Great Perm under Stephen of Perm into the game.</Description>
+    <Authors>Sam</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="D99C059A1C64D069B2AEB2B078057320" import="1">ART/ICON/GreatPermIcon128.dds</File>
+    <File md5="D2CAC9D9BEE4DE049DDE22D6CF121E73" import="1">ART/ICON/GreatPermIcon214.dds</File>
+    <File md5="C017D820FBAAF5CF8B57A700C93A65BF" import="1">ART/ICON/GreatPermIcon256.dds</File>
+    <File md5="F557D23628090BE0C205B89BA61D04F7" import="1">ART/ICON/GreatPermIcon32.dds</File>
+    <File md5="7701B3EABB2818411851DCD45C00E9CD" import="1">ART/ICON/GreatPermIcon45.dds</File>
+    <File md5="4165B4641C93565284BF2E3421DB3F01" import="1">ART/ICON/GreatPermIcon64.dds</File>
+    <File md5="BF2DD9C02480F85A6C58040D1AB0DF82" import="1">ART/ICON/GreatPermIcon80.dds</File>
+    <File md5="001B2B443F4B126E394F13F467FBEE84" import="1">ART/ICON/GreatPermIconalpha128.dds</File>
+    <File md5="D459356E94F7D9ABC91C4510D0CA6A6F" import="1">ART/ICON/GreatPermIconalpha16.dds</File>
+    <File md5="635559D5859A983553B5E8A298A3FB48" import="1">ART/ICON/GreatPermIconalpha24.dds</File>
+    <File md5="5F1373A5715ED1E42BD8E4039A8EDD72" import="1">ART/ICON/GreatPermIconalpha32.dds</File>
+    <File md5="8E035626797D101002EA1912ADB949FD" import="1">ART/ICON/GreatPermIconalpha48.dds</File>
+    <File md5="AA1A68AED5A15A0253543F120479369F" import="1">ART/ICON/GreatPermIconalpha64.dds</File>
+    <File md5="BDAEB92C490DEF13E48469BC51B90CF3" import="1">ART/LEADER/LeaderScene.dds</File>
+    <File md5="D1A8198F6CD1D24463407AF66563D7F5" import="1">ART/LEADER/StephenIcon128.dds</File>
+    <File md5="0DDD27657ABFEF36E61FA8CAC9C7833C" import="1">ART/LEADER/StephenIcon214.dds</File>
+    <File md5="DDF49368C86755244832CEC0AB96854E" import="1">ART/LEADER/StephenIcon256.dds</File>
+    <File md5="D991A99B410AE5F1E2146192FA7C4501" import="1">ART/LEADER/StephenIcon32.dds</File>
+    <File md5="C7D4C8E0B01501927D0DFFEA954DBD26" import="1">ART/LEADER/StephenIcon45.dds</File>
+    <File md5="147C9D44C6553C8593A81353B90CB7A2" import="1">ART/LEADER/StephenIcon64.dds</File>
+    <File md5="61A44543D87A777A081C09565A389387" import="1">ART/LEADER/StephenIcon80.dds</File>
+    <File md5="9DCAE1E3BD92DF7EF1546ACE144736F0" import="1">ART/PermMap.dds</File>
+    <File md5="08FC52107E1373D0A92FFF416F2D1785" import="1">ART/Perm_DOM.dds</File>
+    <File md5="0745D0CA30EA1C390AA3D7C6AF73B15D" import="1">ART/UNIT AND BUILDING/DurFlag.dds</File>
+    <File md5="79E2B830885AFDC1ED89F1BB72DA3B51" import="1">ART/UNIT AND BUILDING/DurzIcon128.dds</File>
+    <File md5="E73449834EB813E1542531771C2E94DE" import="1">ART/UNIT AND BUILDING/DurzIcon214.dds</File>
+    <File md5="3F54EC1C221640FB21797EEEC9780C3E" import="1">ART/UNIT AND BUILDING/DurzIcon256.dds</File>
+    <File md5="A02D1D133CEE10967F5A9440CFC518A2" import="1">ART/UNIT AND BUILDING/DurzIcon32.dds</File>
+    <File md5="75ADBB252B56F16E1FD71A9E490EAB70" import="1">ART/UNIT AND BUILDING/DurzIcon45.dds</File>
+    <File md5="94A4459D7C5A26926870AF74799FA506" import="1">ART/UNIT AND BUILDING/DurzIcon64.dds</File>
+    <File md5="702C7B7FA84A38914208F4D4A8562A9E" import="1">ART/UNIT AND BUILDING/DurzIcon80.dds</File>
+    <File md5="1A12937FC38163BCB555DCD0FE874D6D" import="1">ART/UNIT AND BUILDING/Perm128.dds</File>
+    <File md5="E1BA7671217AE6431FC1C3DE5FC7E885" import="1">ART/UNIT AND BUILDING/Perm256.dds</File>
+    <File md5="5D0023A6A8AEFCFDC19AB4D1D0BEDF4B" import="1">ART/UNIT AND BUILDING/Perm45.dds</File>
+    <File md5="002D4E9989945A0683BB45E0B4AEE460" import="1">ART/UNIT AND BUILDING/Perm64.dds</File>
+    <File md5="0BBF9DF87CC8FF4D9128CD036B8338D7" import="1">MUSIC/Perm Peace.mp3</File>
+    <File md5="2E3B12AB6D72C11CA9677504F7B7F431" import="1">MUSIC/Perm War.mp3</File>
+    <File md5="2AFD3AA90D103523D61DA792313E7B52" import="0">MUSIC/Sounds.xml</File>
+    <File md5="1F2006ADBBEDB7C37FF4237E1B299749" import="0">XML/Buildings.xml</File>
+    <File md5="52E446921B55366CEF9D9DDDBC4782B9" import="0">XML/Civilization.xml</File>
+    <File md5="A0B0F6047FE198507CD208979154498A" import="1">XML/Stephen_Scene.xml</File>
+    <File md5="BA2F3986C66A97B1D591AB6AA2BC4D9E" import="0">XML/DiplomacyResponses.xml</File>
+    <File md5="62F67D974C38BBDCDB70E6179DC600BB" import="0">XML/IconAtlasPerm.xml</File>
+    <File md5="C910B69BAB3023E5D98D6E4F523CE65D" import="0">XML/Leader.xml</File>
+    <File md5="351C175908DDE3F96332E2AEEB7968BC" import="0">XML/Permtraitbuilding.xml</File>
+    <File md5="DEF3D705C4361D74152962D99E21AE7D" import="0">XML/Trait.xml</File>
+    <File md5="940BA3A0C60C817847935B42E69F2811" import="0">XML/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IconAtlasPerm.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Permtraitbuilding.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Stephen_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>MUSIC/Sounds.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6c8d7a24-905f-403b-afcb-630a7c096257" version="1">
+  <Properties>
+    <Name>TopHat's Namibia</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds Namibia, led by Jacob Morenga, to the game.</Teaser>
+    <Description>Adds Namibia, led by Jacob Morenga, to the game as a custom civilization. Requires Brave New World.</Description>
+    <Authors>TopHatPaladin</Authors>
+    <SpecialThanks>Cascore, Typhlomence, DMS, LastSword, Tomatekh</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="432bc547-eb05-4189-9e46-232dbde8f09f" minversion="0" maxversion="999" title="Additional Achievements" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD and Pouakai's Mercenaries" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact's Events &amp; Decisions" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="E2977038067A68F4952E5357648D97A0" import="1">Art/Map_Namibia.dds</File>
+    <File md5="254ECB636902138B63CFEFE3B3004168" import="1">Art/Morenga_DOM.dds</File>
+    <File md5="F31B4AB067E8FE7091432B2179C3AA12" import="1">Art/Morenga_scene.dds</File>
+    <File md5="99FEDA1E921E4E8D9735964BBF8DCB7B" import="1">Art/Ox_Cavalry/fx_triggers_OxCavalry.ftsxml</File>
+    <File md5="AEFDD95D87B65858EE77F068B4703FAC" import="1">Art/Ox_Cavalry/OxCavalry.fxsxml</File>
+    <File md5="F5F0159A6F28F01D1CA0A262AFBE8932" import="1">Art/Ox_Cavalry/OxCavalry.gr2</File>
+    <File md5="6C5B04AFE7F62345332AC7D684451573" import="1">Art/Ox_Cavalry/OxCavalryCow.dds</File>
+    <File md5="1346B00B8D3E6B89EF79F2047A472576" import="1">Art/Ox_Cavalry/OxCavalryHat.dds</File>
+    <File md5="C5B832FD92E8CE9F63822E7879940885" import="1">Art/Ox_Cavalry/OxCavalryRider.dds</File>
+    <File md5="43A4865C58CC7E180DA0ADC16940DB7E" import="1">Art/sv_oxrider.dds</File>
+    <File md5="000C3DAD0F2D2CDC5855883AD1F18177" import="1">Art/THP_NamibiaAlpha128.dds</File>
+    <File md5="F2C96E2BC8F8B6102921CB418197C708" import="1">Art/THP_NamibiaAlpha16.dds</File>
+    <File md5="D428362C48A8884D34201037928866FE" import="1">Art/THP_NamibiaAlpha24.dds</File>
+    <File md5="70911D0C90F8A63135B100060046CA95" import="1">Art/THP_NamibiaAlpha32.dds</File>
+    <File md5="D7DD01DD1D01E9662A668AC289DEE003" import="1">Art/THP_NamibiaAlpha48.dds</File>
+    <File md5="2BD89803094825C623CCD610E688F307" import="1">Art/THP_NamibiaAlpha64.dds</File>
+    <File md5="6F475B9B14BE8858079027C989B2E8E6" import="1">Art/THP_NamibiaAtlas128.dds</File>
+    <File md5="ECEC66CA826DEDA24B54D711DBB1BCA3" import="1">Art/THP_NamibiaAtlas256.dds</File>
+    <File md5="90C0FA71C05B5265EF931E4B476C450F" import="1">Art/THP_NamibiaAtlas32.dds</File>
+    <File md5="DA1AEF829D053CCD4ACC3C4454A25A14" import="1">Art/THP_NamibiaAtlas45.dds</File>
+    <File md5="B0306BA510CFF52480275813ACE4AA30" import="1">Art/THP_NamibiaAtlas64.dds</File>
+    <File md5="7CF260D640294BCCEAD9E2F104C82403" import="1">Art/THP_NamibiaAtlas80.dds</File>
+    <File md5="FAC0D16D64E2656FB73C238D2D77B943" import="1">Art/Unit_Oxrider_Flag_32.dds</File>
+    <File md5="AB5D1D787215E41CEF1AEDB222EDD415" import="1">Audio/Namibia_Peace.mp3</File>
+    <File md5="022F86384C4A532346670E88AFC1B2A5" import="1">Audio/Namibia_War.mp3</File>
+    <File md5="1C567EECE1E200A9B0F8836E4A39CF28" import="0">Core/DiploText.xml</File>
+    <File md5="602036F1517D5D4AC005386620B723C1" import="0">Core/GameText.xml</File>
+    <File md5="44D383D21681C0905332564699DD1C71" import="1">Core/Leaderhead_Morenga.xml</File>
+    <File md5="BBBCE5182FE0ED92609B307A04D88EAD" import="0">Core/ModSupport_Namibia.sql</File>
+    <File md5="2BA2A4A718AE8448C0BEC1A0BD9B3D9C" import="0">Core/Namibia_ArtDef.sql</File>
+    <File md5="D2FF61BFBEA08FB0FFC4A29E86AFE81F" import="0">Core/Namibia_GameDef.sql</File>
+    <File md5="1368ACF988CC8834BB7AD60585E8B936" import="1">Lua/AdditionalAchievementsUtility.lua</File>
+    <File md5="C2E8C12730BC6415258EC5EC899AEB54" import="1">Lua/LSSaveUtils.lua</File>
+    <File md5="B1DDD1ABC607AED27931047C1EBAAA50" import="1">Lua/Namibia_Decisions.lua</File>
+    <File md5="A85EEC3BE42AE4B9AA0CFD74B4EB20DC" import="0">Lua/Namibia_Functions.lua</File>
+    <File md5="33E6CE797DD29EF922300CDEA461A0AE" import="0">Lua/Namibia_Functions.xml</File>
+    <File md5="D2D0CDBE39EDF8FA99082308E5D39421" import="1">Lua/PlotIterators.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/DiploText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Namibia_ArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Namibia_GameDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/ModSupport_Namibia.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Namibia_Functions.lua">
+      <Name>TophatNamibiaFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

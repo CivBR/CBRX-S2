@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0644dbb8-20ce-487c-a8f3-82a1725741c1" version="1">
+  <Properties>
+    <Name>Urdnot's Kingdom of Georgia - Tamar</Name>
+    <Teaser>Adds the Kingdom of Georgia under Queen Tamar to the game.</Teaser>
+    <Description>Adds the Kingdom of Georgia under pious warrior Queen Tamar to the game. The little kingdom of Georgia is a defensive frotress nation with huge faith potential, but capable of explosions of expansion into heathen lands![NEWLINE][NEWLINE]Georgia gets bonus faith on forts when they're placed near holy sites, mountains or citadels, allowing you to boost your faith output while protecting your mountainous kingdom. If this wasn't enough, these forts will also eventually upgrade into citadels, allowing you to chain powerful faith-boosting forts across your nation! When you're not looking to defend, Georgia can also explode into other nations using its citadel-studded kingdom to boost the movement of its units. The powerful citadel-spawning Tsikhe can also increase your ability to spread these powerful forts, while your Tadzreuli knight replacement can protect these homelands and escort missionaries to spread your powerful faith across the globe!</Description>
+    <Authors>Urdnot_Scott, JFD</Authors>
+    <SpecialThanks>the whole cfc gang for putting up with my incompetence in getting this beast over the finish line &lt;3</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Rise to Power" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="79ED735C0EFB4C10FD7E997E5B28EF9F" import="1">Arts/Atlas/georgia_alpha_128.dds</File>
+    <File md5="BC20A3255212B0CDE74F09BE8D34166F" import="1">Arts/Atlas/georgia_alpha_256.dds</File>
+    <File md5="A2BD64FCAF9B378D411AB52807AFF276" import="1">Arts/Atlas/georgia_alpha_32.dds</File>
+    <File md5="528C8E53ABA021E54F1736B13BBEF907" import="1">Arts/Atlas/georgia_alpha_45.dds</File>
+    <File md5="C4299A3901DF5978789D4E3772C274CA" import="1">Arts/Atlas/georgia_alpha_64.dds</File>
+    <File md5="57EC2130D9118870F2D158077D3D2771" import="1">Arts/Atlas/georgia_alpha_80.dds</File>
+    <File md5="26035DDA3B6390D7DA8890EEDFB314AE" import="1">Arts/Atlas/georgia_alpha_icon_128.dds</File>
+    <File md5="AA95AA23EEB4BD7715FB7D7C77451757" import="1">Arts/Atlas/georgia_alpha_icon_16.dds</File>
+    <File md5="7AA7370D06C00992107AF5FE2C05E428" import="1">Arts/Atlas/georgia_alpha_icon_24.dds</File>
+    <File md5="71F3DC87CA0E2333895F1A303A88DD5E" import="1">Arts/Atlas/georgia_alpha_icon_32.dds</File>
+    <File md5="8555B607892AB9B8AE4ABEE666A2C569" import="1">Arts/Atlas/georgia_alpha_icon_45.dds</File>
+    <File md5="E39FC32D7744C30FF08BA092DC389B24" import="1">Arts/Atlas/georgia_alpha_icon_48.dds</File>
+    <File md5="C150C366C56EEC817C21151D4A5B5503" import="1">Arts/Atlas/georgia_alpha_icon_64.dds</File>
+    <File md5="719EE5790CCE2737C168FB49E12DA833" import="1">Arts/Atlas/georgia_alpha_icon_80.dds</File>
+    <File md5="CC97849A42BB31A84AD494E1915B7F8F" import="1">Arts/Atlas/TadzreuliFlag.dds</File>
+    <File md5="21CDCEED7D81983A502F1C20ED00BC57" import="1">Arts/Atlas/Tomatekh_PromotionAtlas_256.dds</File>
+    <File md5="4515CFD32CBCA5FD9B31BA7E74BDF85D" import="1">Arts/Atlas/Tomatekh_PromotionAtlas_32.dds</File>
+    <File md5="2D64910169FF17FBFD6D2CFAAAADE518" import="1">Arts/Atlas/Tomatekh_PromotionAtlas_45.dds</File>
+    <File md5="D2E665F6B269588CF10F19FE789271C9" import="1">Arts/Atlas/Tomatekh_PromotionAtlas_64.dds</File>
+    <File md5="6CC64126DB2335AA497F14DDC9CBC2B2" import="1">Arts/Georgia_DoM.dds</File>
+    <File md5="0C9991FC0F96D3EE2E1A30FB2228250F" import="1">Arts/Groggo.dds</File>
+    <File md5="058AD6B0AC5CCE3D844F024E34FE0EE9" import="1">Arts/Tamar_Diplo.xml</File>
+    <File md5="AD0ED33B9E7D4FE8E338C76F3CD8C1A8" import="1">Arts/Tamar_Diplo.dds</File>
+    <File md5="6E9DBF67EDC38BBDC665748F73775EA0" import="1">Arts/Unit/sv_Tadzreuli.dds</File>
+    <File md5="172A4E8757F76F00509ADE7667E94950" import="0">GameDefines/Georgia_ArtDefines.sql</File>
+    <File md5="C21CFBC97190D1AA2D189A5B1757721E" import="0">GameDefines/Georgia_Defines.sql</File>
+    <File md5="3DD968B0075A7C577FBFA2BA41057BD7" import="0">GameDefines/Georgia_GameText.xml</File>
+    <File md5="A2FF1F1CF9BF72092146370CE20B27F3" import="0">GameDefines/Georgia_ModSupport.sql</File>
+    <File md5="76870363F6D9055C3659C168F13F6DF2" import="1">Lua/Georgia_Decisions.lua</File>
+    <File md5="C7C936EC089C77C69FDB0EDE896A72D8" import="0">Lua/Georgia_Functions.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/PlotIterators.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>GameDefines/Georgia_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>GameDefines/Georgia_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>GameDefines/Georgia_Defines.sql</UpdateDatabase>
+      <UpdateDatabase>GameDefines/Georgia_ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Georgia_Functions.lua">
+      <Name>Georgia_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

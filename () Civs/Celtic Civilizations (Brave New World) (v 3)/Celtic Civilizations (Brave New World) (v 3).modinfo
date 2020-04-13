@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="80661ddf-6be0-474a-ad43-570ea130c431" version="3">
+  <Properties>
+    <Name>Celtic Civilizations (Brave New World)</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Removes the Celtic civilization and adds the Irish, Welsh, Pictish, Cornish and Iceni civilizations to the game.</Teaser>
+    <Description>Removes the Celtic civilization and adds the Irish, Welsh, Pictish, Cornish Iceni civilizations to the game. Requires Brave New World, Gods and Kings and the Denmark and Wonders of the Ancient World DLCs to play.
+
+Direct Download: http://forums.civfanatics.com/downloads.php?do=file&amp;id=22335 
+
+Cornwall
+Leader: Michael An Gof
+UA: Druidic Heritage - +1 Faith per city with an adjacent unimproved Forest. Bonus increases to +2 Faith in Cities with 3 or more adjacent unimproved Forest tiles
+UB: Mên-an-Tol - Replaces Monument. Provides 2+ culture and 1+ science.
+UB: Stannary - Replaces Forge. Does not require Iron. Provides +1 gold and 1 Tin resource. Provides +1 production from Copper resources in addition to Iron.
+
+Iceni
+Leader: Boudicca
+UA: Boudicca's Uprising - Iceni melee, mounted or ranged units automatically receive a +10% combat bonus. +1 food from marsh tiles.
+UU: Swift Chariot - Replaces Chariot Archer. A melee unit, the Swift Chariot is stronger, faster, more effective in flat terrain and can move after attacking.
+UB: Silversmith - Replaces Mint. In addition to the functions of the Mint it also yields +2 culture.
+
+Ireland
+Leader: Malachy II
+UA: Adh Mor - Choose a free Great Person upon entering a new eral.
+UU: Kern - Replaces Longswordsman. A light infantry unit which is weaker than the Longswordsman, however it is much faster, cheaper, takes less damage from archers and is more effective against mounted units.
+UB: Ceilidh Hall (from Celts)
+
+Picts
+Leader: Calgacus
+UA: Highland Tactics - Land combat units are faster in hills. All melee unis receive the Drill 1 promotion.
+UU: Cruithni - (Pictish Warrior, from Celts)
+UB: Crannog - Replaces Harbor. Forms a Trade Route (City connection) with the Capital over water. Extends range for Sea trade routes from this city, and adds 2 gold when they connect to a civilization. Also provides +2 food and extra defensive strength to the city in which it is built.
+
+Wales
+Leader: Llywelyn the Great
+UA: Land of our fathers - Free Monument in all cities. Iron and Coal resources provide double quantity.
+UU: Welsh Longbowman - Replaces Crossbowman. The Welsh Longbowman is faster, ignores terrain cost and is more effective in rough terrain.
+UB: Caer - Requires Walls. Unlike the castle it replaces it adds greater defensive strength to the city and contains a slot for a Great Work of Art.
+
+Where's Scotland? Where's Gaul? You can find them (along with several other interesting civs) in these fantastic civ packs made by LastSword (Walking Brazil): 
+
+http://steamcommunity.com/sharedfiles/filedetails/?id=184689984 
+http://steamcommunity.com/sharedfiles/filedetails/?id=226898603&amp;searchtext= 
+
+Credits 
+Hiram - XML, Art 
+Rob (R8FXT) - XML, Art 
+TPangolin - Art 
+LastSword - Lua, Art 
+COF - Art 
+Viregel- Art 
+DJSHenninger - Art
+
+Music Sources 
+Age of Empries 2 The Conquerors Expansion Soundtrack 
+Firaxis Games (Civ 4 soundtrack) 
+Medieval Total War 2 Soundtrack 
+Paradox Games
+http://www.youtube.com/watch?v=59Ri26PIOLs 
+http://www.youtube.com/watch?v=A27I-zsWMvU 
+http://www.youtube.com/watch?v=zyccoc5FeTQ
+http://www.youtube.com/watch?v=bGxaRXDCMxE</Description>
+    <Authors>Hiram, TPangolin, Rob (R8FXT), COF, LastSword</Authors>
+    <SpecialThanks>Viregel, DJSHenninger</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="B3030D39-C0D8-4bc7-91B1-7AD1CAF585AB" minversion="0" maxversion="999" />
+    <Dlc id="BBB0D085-A0B1-4475-B007-3E549CF3ADC3" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="E74B3528C2C60873CEBE6FFBBE703110" import="1">Cornwall/Art/angofDOM.dds</File>
+    <File md5="2DA7C1C5C6CE3A4BB5E153BA59E26321" import="1">Cornwall/Art/angofscene.dds</File>
+    <File md5="2729120446B0BFD39E5906A7147C9529" import="1">Cornwall/Art/Buildingicons/stannary128.dds</File>
+    <File md5="2D24B0A8298B8B4659878C5C2CB3FBEA" import="1">Cornwall/Art/Buildingicons/stannary256.dds</File>
+    <File md5="298C04EB33B60D6D049165D002B93049" import="1">Cornwall/Art/Buildingicons/stannary45.dds</File>
+    <File md5="D6BEDE5E5973B380597F22C382BC7C3E" import="1">Cornwall/Art/Buildingicons/stannary64.dds</File>
+    <File md5="EE2BD27379552EBA9087AB0CD8606194" import="1">Cornwall/Art/Buildingicons/stonecircle128.dds</File>
+    <File md5="CE9BD3F82465C841922F474E8BD92AE7" import="1">Cornwall/Art/Buildingicons/stonecircle256.dds</File>
+    <File md5="44F0627152A55C4DDFE4B4446D2C0C00" import="1">Cornwall/Art/Buildingicons/stonecircle45.dds</File>
+    <File md5="42B8B93EFF66E045D3AACC081FC56F86" import="1">Cornwall/Art/Buildingicons/stonecircle64.dds</File>
+    <File md5="A2171F5FD7E66D8E347D8DB81A6DAF2B" import="1">Cornwall/Art/Civicons/cornwallalpha128.dds</File>
+    <File md5="42F4BA727F005B86343C04DB3A12B601" import="1">Cornwall/Art/Civicons/cornwallalpha16.dds</File>
+    <File md5="7197065529BEB1E0A92990548F8BF421" import="1">Cornwall/Art/Civicons/cornwallalpha24.dds</File>
+    <File md5="4DBD0AAA81F110A8F6357D102CE8F8D7" import="1">Cornwall/Art/Civicons/cornwallalpha32.dds</File>
+    <File md5="DF9D8B94DB25A1D96268B51568351C5F" import="1">Cornwall/Art/Civicons/cornwallalpha48.dds</File>
+    <File md5="DBDEF0E18D38C6643FF03ACAF0BCCB18" import="1">Cornwall/Art/Civicons/cornwallalpha64.dds</File>
+    <File md5="291A981519D4535B13A7EF8B7E95ADBA" import="1">Cornwall/Art/Civicons/cornwallicon128.dds</File>
+    <File md5="E60EB829DC8FB03A9155AA46AE2AD471" import="1">Cornwall/Art/Civicons/cornwallicon214.dds</File>
+    <File md5="500C83DAB705AEB45567AB6F7E5677A1" import="1">Cornwall/Art/Civicons/cornwallicon256.dds</File>
+    <File md5="17015AC04AF13F14813D5E8443FF056B" import="1">Cornwall/Art/Civicons/cornwallicon32.dds</File>
+    <File md5="00DC4058A19BA52FAE12C7FDFE30D976" import="1">Cornwall/Art/Civicons/cornwallicon45.dds</File>
+    <File md5="09E3542C3563FA4D34C2DB01AAE0DEF0" import="1">Cornwall/Art/Civicons/cornwallicon64.dds</File>
+    <File md5="B4D0E40267A7D7FC28F4199C57FFC314" import="1">Cornwall/Art/Civicons/cornwallicon80.dds</File>
+    <File md5="DA2DAC23979D3217384FA9A95A05324F" import="1">Cornwall/Art/CornwallMap.dds</File>
+    <File md5="27FAC3C57F4C3019C6A33A7D0CFE1840" import="1">Cornwall/Art/Leadericons/angof128.dds</File>
+    <File md5="3C5632EFFBD0DEA8AF925B7BD643E658" import="1">Cornwall/Art/Leadericons/angof256.dds</File>
+    <File md5="3966CDB8EBDB3C89B96C406CD965F2AE" import="1">Cornwall/Art/Leadericons/angof64.dds</File>
+    <File md5="9C92F9497791CF4CF7510B98E1F30541" import="1">Cornwall/Art/Resourceicons/tin128.dds</File>
+    <File md5="9986FA26FC24DCF8A4B8425F4FE08069" import="1">Cornwall/Art/Resourceicons/tin256.dds</File>
+    <File md5="6F7B54E8874B69FEF9C16738F36E51D2" import="1">Cornwall/Art/Resourceicons/tin45.dds</File>
+    <File md5="1DF12E9800F5F2796D951A64F66D4F78" import="1">Cornwall/Art/Resourceicons/tin64.dds</File>
+    <File md5="23D6B6A988D7941E341EA4DA00D0D768" import="1">Cornwall/Art/Resourceicons/tin80.dds</File>
+    <File md5="1C62FDACC9DFAA69A631B77A108510C3" import="1">Cornwall/Sounds/AnGofPeace.mp3</File>
+    <File md5="5E56F22EBAD94AC63CFA37DFD9D4ED48" import="1">Cornwall/Sounds/AnGofWar.mp3</File>
+    <File md5="809596EFCB3DAFAE989A052C269CF8C0" import="0">Cornwall/XML/BuildingsCornwall.xml</File>
+    <File md5="65E4C6A247D8F6ABB7D0CD8FB6D9B669" import="0">Cornwall/XML/CIVCornwall.xml</File>
+    <File md5="D3E1B930810FCFD057F48FC28CA3993B" import="1">Cornwall/XML/AnGof_Scene.xml</File>
+    <File md5="6CCE4DEA936B0A5BED2301330D5DF89E" import="0">Cornwall/XML/IconAtlasCornwall.xml</File>
+    <File md5="8E0A94A251453C8DDE1E8E9CE14A3D28" import="0">Cornwall/XML/LeadersCornwall.xml</File>
+    <File md5="A1D7065F0EE863D566510CE12B91CAB2" import="0">Cornwall/XML/ResourcesCornwall.xml</File>
+    <File md5="8CCB0DECDA117BE2E9F3EB0BDABFD998" import="0">Cornwall/XML/SoundsCornwall.xml</File>
+    <File md5="B5C77AACA2A1E994F02C6F21E2988B0C" import="0">Cornwall/XML/TextCornwall.xml</File>
+    <File md5="A6AF8DCE0E11A72B169A7D4BE3D8CFE4" import="1">Iceni/Art/BuildingIcons/silversmith128.dds</File>
+    <File md5="6C584342A7BAA7F536A57C13460C4F8F" import="1">Iceni/Art/BuildingIcons/silversmith256.dds</File>
+    <File md5="F5DC5E73F130A3B85426081B19595EE5" import="1">Iceni/Art/BuildingIcons/silversmith45.dds</File>
+    <File md5="F171D194822AD8D74439D42E8D6FA9F5" import="1">Iceni/Art/BuildingIcons/silversmith64.dds</File>
+    <File md5="F186EA6D4F52B628CE5482B2229D25D7" import="1">Iceni/Art/Civicons/iceni128.dds</File>
+    <File md5="C5F2B8196B0A42BE1C07204D3ED1908A" import="1">Iceni/Art/Civicons/iceni214.dds</File>
+    <File md5="89CE60D057519DA4E3AE1F73A4B1A802" import="1">Iceni/Art/Civicons/iceni256.dds</File>
+    <File md5="00E4222DDD2D48CB3CBE7FD859432195" import="1">Iceni/Art/Civicons/iceni32.dds</File>
+    <File md5="331AFAD18905F1D16F3661D3A7B76687" import="1">Iceni/Art/Civicons/iceni45.dds</File>
+    <File md5="FA40BEC913F580ACEADB29E1C70D132D" import="1">Iceni/Art/Civicons/iceni64.dds</File>
+    <File md5="0EBA64766C0D21F610969A853A939108" import="1">Iceni/Art/Civicons/iceni80.dds</File>
+    <File md5="7496E1DF7E8AC2F8B0FB89EF073741A7" import="1">Iceni/Art/Civicons/icenialpha128.dds</File>
+    <File md5="BAA93FC6554FDC0F9568E2F75E9AF251" import="1">Iceni/Art/Civicons/icenialpha16.dds</File>
+    <File md5="A151A4F746873C86B5B6833690BFA356" import="1">Iceni/Art/Civicons/icenialpha24.dds</File>
+    <File md5="9100198EC8CFA99AF2C1998ED3AB44DF" import="1">Iceni/Art/Civicons/icenialpha32.dds</File>
+    <File md5="C0DAC9BF0964108B8BCE8B299C46CAD9" import="1">Iceni/Art/Civicons/icenialpha48.dds</File>
+    <File md5="7DE3323F648CDF0CE50BD44CA61704DB" import="1">Iceni/Art/Civicons/icenialpha64.dds</File>
+    <File md5="F25BC4EA120E43DA020A932C8A4E7A3B" import="1">Iceni/Sounds/BoudiccaPeace.mp3</File>
+    <File md5="7DE932646778D33AD74E780BE34E2CA6" import="1">Iceni/Sounds/BoudiccaWar.mp3</File>
+    <File md5="A02CCE974CA516FCE2C0F898C3904FC3" import="0">Iceni/XML/BuildsIceni.xml</File>
+    <File md5="2137C1476640BD42CAD084FCB376CC67" import="0">Iceni/XML/CIVIceni.xml</File>
+    <File md5="7CB14B608B4CA34F4C383C5B945CB566" import="0">Iceni/XML/IconAtlasIceni.xml</File>
+    <File md5="2EEC81377FEF26D90DE8143CC9489938" import="0">Iceni/XML/LeadersIceni.xml</File>
+    <File md5="2CB7FDE52BEB171B58259FBBFBD681E5" import="0">Iceni/XML/PromotionsIceni.xml</File>
+    <File md5="F3F79C2424217E59DCCF9AAC58670374" import="0">Iceni/XML/RemoveCelts.xml</File>
+    <File md5="4BDF22D4522D445336D910D91E9471D2" import="0">Iceni/XML/SoundsIceni.xml</File>
+    <File md5="59A690DCE37B7C59900F590A6B4BEAF9" import="0">Iceni/XML/TextIceni.xml</File>
+    <File md5="EFFDA85CE337C82B1F326EF19C0322B2" import="0">Iceni/XML/TraitsIceni.xml</File>
+    <File md5="B5EB99D516BD6A94E83B13C7174B2131" import="0">Iceni/XML/UnitsIceni.xml</File>
+    <File md5="09B6096594AD1EC81C8461E906770830" import="1">Ireland/Art/Civicons/irelandalpha128.dds</File>
+    <File md5="016B7B993EDCA73828A5EC2E7FDA4FC5" import="1">Ireland/Art/Civicons/irelandalpha16.dds</File>
+    <File md5="EA7873A2518D9CC061726FF4466C6D12" import="1">Ireland/Art/Civicons/irelandalpha24.dds</File>
+    <File md5="1DCACAA9FE886058AF719C3492815724" import="1">Ireland/Art/Civicons/irelandalpha32.dds</File>
+    <File md5="D7719FE20DEAFB5866F0C92BDD0A5AED" import="1">Ireland/Art/Civicons/irelandalpha48.dds</File>
+    <File md5="A7671367B590E93F2C8A63EBDA0159A4" import="1">Ireland/Art/Civicons/irelandalpha64.dds</File>
+    <File md5="854586F6FA8BE6AA59146FA358E41142" import="1">Ireland/Art/Civicons/irelandicon128.dds</File>
+    <File md5="ABCEDA340B2146230AF4D71FA98E9515" import="1">Ireland/Art/Civicons/irelandicon214.dds</File>
+    <File md5="312F85B2C8B6E8E2C1C6767894DD9A27" import="1">Ireland/Art/Civicons/irelandicon256.dds</File>
+    <File md5="2285F30FB93377EF225F39E6D14E368E" import="1">Ireland/Art/Civicons/irelandicon32.dds</File>
+    <File md5="41F2A043AC27741B602DA61B47AC1B65" import="1">Ireland/Art/Civicons/irelandicon45.dds</File>
+    <File md5="657FC04D7ECDDFAD4DDFA34C28DFD391" import="1">Ireland/Art/Civicons/irelandicon64.dds</File>
+    <File md5="FF2D1B3A8A9F4B7FB0753026AA47125D" import="1">Ireland/Art/Civicons/irelandicon80.dds</File>
+    <File md5="FB24DB92502CABF790CBA7A4A2E89354" import="1">Ireland/Art/IrelandMap.dds</File>
+    <File md5="F69159253BB32D173E3A41177C28F4AF" import="1">Ireland/Art/Leadericons/malachyicon128.dds</File>
+    <File md5="1D69F80EAAD7792881432D38F59AE445" import="1">Ireland/Art/Leadericons/malachyicon256.dds</File>
+    <File md5="0A3FA02860124780EC4DAD215207EEEC" import="1">Ireland/Art/Leadericons/malachyicon64.dds</File>
+    <File md5="D2CAD9A6FAB991B20A00120C3DA2C3EB" import="1">Ireland/Art/Malachy.dds</File>
+    <File md5="F4423975D123FF2F19BE054289B86DF6" import="1">Ireland/Art/MalachyDOM.dds</File>
+    <File md5="6AF171FC8DC6AC2072C362A5CEF39ED4" import="1">Ireland/Art/Uniticons/kernalpha32.dds</File>
+    <File md5="CF5E7A7AF8C00022F5D3D31AE1AB045A" import="1">Ireland/Art/Uniticons/kernicon128.dds</File>
+    <File md5="ACFCF80663E74340EFD6312878D1831F" import="1">Ireland/Art/Uniticons/kernicon256.dds</File>
+    <File md5="5D8CC3A6D190CA0D437A6C911F8D8E02" import="1">Ireland/Art/Uniticons/kernicon45.dds</File>
+    <File md5="A058C581EBAAC6B9B7797DE37B51E3BC" import="1">Ireland/Art/Uniticons/kernicon64.dds</File>
+    <File md5="C1C92D4D049C066D8631D12A5354C46A" import="1">Ireland/Art/Uniticons/kernicon80.dds</File>
+    <File md5="3AE829089D673824B54476E3A0B639BB" import="0">Ireland/Lua/FreeGreatPerson_per_Era.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Ireland/Lua/SaveUtils.lua</File>
+    <File md5="5266CC519D3E660C940E0115EE1A5D5D" import="1">Ireland/Sounds/MalachyPeace.mp3</File>
+    <File md5="DDAD22F425C1BAA86A791DF9D68B6966" import="1">Ireland/Sounds/MalachyWar.mp3</File>
+    <File md5="CEF33563A2269014E12FEB927AF496C5" import="1">Ireland/XML/Malachy_Scene.xml</File>
+    <File md5="3F3DA2FD23AE0EE059E6A097E686E892" import="0">Ireland/XML/BuildingsIreland.xml</File>
+    <File md5="D60565868CA05B394DE4A9B3DA0332ED" import="0">Ireland/XML/CIVIreland.xml</File>
+    <File md5="5DC6173C474A3DA3A6A5ED7AA123D432" import="0">Ireland/XML/IconAtlasIreland.xml</File>
+    <File md5="2EDD237E61BA90F698BB54D187393C1C" import="0">Ireland/XML/LeadersIreland.xml</File>
+    <File md5="FF2BC856E8E400402E757A7426EC723A" import="0">Ireland/XML/SoundsIreland.xml</File>
+    <File md5="016824715A00BA15DB223A27B9240E01" import="0">Ireland/XML/TextIreland.xml</File>
+    <File md5="08DED7459B60323973C495DC42632DC3" import="0">Ireland/XML/UnitsIreland.xml</File>
+    <File md5="B889F53BEE71745DBF7D98A6DB6DEDEA" import="1">Picts/Art/Buildingicons/crannog128.dds</File>
+    <File md5="F724C3DC5DE55EAAFB290E701CAB1D50" import="1">Picts/Art/Buildingicons/crannog256.dds</File>
+    <File md5="C7500E7263D1EE7BB10EABC3DEDA6E94" import="1">Picts/Art/Buildingicons/crannog45.dds</File>
+    <File md5="EF7D318FE030B963BADF9238CE1AA5F8" import="1">Picts/Art/Buildingicons/crannog64.dds</File>
+    <File md5="B825273DE47CD5149831CB634A7DDC95" import="1">Picts/Art/Calgacus.dds</File>
+    <File md5="8344A2F3EB07266832660802405E1D28" import="1">Picts/Art/CalgacusDOM.dds</File>
+    <File md5="039B2E3D3B4CAB8608D17013683377C7" import="1">Picts/Art/Civicons/pictsalpha128.dds</File>
+    <File md5="8A1B9EB1ECFF1B17E2D73E6FDDB9D6EF" import="1">Picts/Art/Civicons/pictsalpha16.dds</File>
+    <File md5="4B3E55246B6CBEEC438EEF220766376B" import="1">Picts/Art/Civicons/pictsalpha24.dds</File>
+    <File md5="EF643C6DCFBBB5F7E33BC8717CAFC9DC" import="1">Picts/Art/Civicons/pictsalpha32.dds</File>
+    <File md5="0338464430714C1C22CC79B9225D7CA3" import="1">Picts/Art/Civicons/pictsalpha48.dds</File>
+    <File md5="F98E7C563678EB97687FB5037A9734A1" import="1">Picts/Art/Civicons/pictsalpha64.dds</File>
+    <File md5="3A39588713E39102797E0062845C8CD5" import="1">Picts/Art/Civicons/pictsicon128.dds</File>
+    <File md5="9F387D3D1BEF1E0B695C760927089819" import="1">Picts/Art/Civicons/pictsicon214.dds</File>
+    <File md5="F7F512D69BE829DD5F7CAAE3565A5D45" import="1">Picts/Art/Civicons/pictsicon256.dds</File>
+    <File md5="8EF67EE1B55CDB41C65259682651C1BF" import="1">Picts/Art/Civicons/pictsicon32.dds</File>
+    <File md5="20B6F2C598A8E94C12D945A975ED7FD7" import="1">Picts/Art/Civicons/pictsicon45.dds</File>
+    <File md5="098E5B11466B79FE8374FED8AFD3CEF4" import="1">Picts/Art/Civicons/pictsicon64.dds</File>
+    <File md5="5A66A9193B78F9621888AA7687B9D8F0" import="1">Picts/Art/Civicons/pictsicon80.dds</File>
+    <File md5="3DC1798C0382AAE68B4D33149E3DFC14" import="1">Picts/Art/Leadericons/calgacusicon128.dds</File>
+    <File md5="BC8BA95A1CC712D343C1F69A91204756" import="1">Picts/Art/Leadericons/calgacusicon256.dds</File>
+    <File md5="96FC98A44E895786E07EC91AD8C742BD" import="1">Picts/Art/Leadericons/calgacusicon64.dds</File>
+    <File md5="3AD0329FF393B93F0995E90E5A4E27D3" import="1">Picts/Art/PictsMap.dds</File>
+    <File md5="93C9F0CB21C06425C8D92BB7D5E00C44" import="1">Picts/Sounds/CalgacusPeace.mp3</File>
+    <File md5="2DD80E159BF81CE1B65A1DC5E1090587" import="1">Picts/Sounds/CalgacusWar.mp3</File>
+    <File md5="2BE91A010C9C3197A366FFDA701274B6" import="0">Picts/XML/BuildsPicts.xml</File>
+    <File md5="E878CA0414896410981769FF70C30D70" import="1">Picts/XML/Calgacus_Scene.xml</File>
+    <File md5="51088018F2B31876C990D85AB84C3226" import="0">Picts/XML/CIVPicts.xml</File>
+    <File md5="0CAE3218AC08AF43C389780789F172A4" import="0">Picts/XML/IconAtlasPicts.xml</File>
+    <File md5="969AC0EB830F215A7B7F58C08544CC02" import="0">Picts/XML/LeadersPicts.xml</File>
+    <File md5="70C2E41F5111B509ED516B5769B6EB27" import="0">Picts/XML/SoundsPicts.xml</File>
+    <File md5="B6611599574523A07C84CCB473D67738" import="0">Picts/XML/TextPicts.xml</File>
+    <File md5="469EEDC24A56110B66FA1361C535EC72" import="0">Picts/XML/UnitsPicts.xml</File>
+    <File md5="B81DED0F089B88FFAD61C37F8347EECA" import="1">Wales/Art/Buildingicons/caer128.dds</File>
+    <File md5="FF62DC4575D1BA917F204227DD559FF9" import="1">Wales/Art/Buildingicons/caer256.dds</File>
+    <File md5="D94ED9CCD2806AA15D75FD51D7960CE9" import="1">Wales/Art/Buildingicons/caer45.dds</File>
+    <File md5="256E6BB2F09A8378F4FF4919254D8173" import="1">Wales/Art/Buildingicons/caer64.dds</File>
+    <File md5="71C83BE8EC536D9F65B36779EC130B23" import="1">Wales/Art/Civicons/walesalpha128.dds</File>
+    <File md5="481DB72C208E7B647C93424C8C47FDD7" import="1">Wales/Art/Civicons/walesalpha16.dds</File>
+    <File md5="1F8445117355EF40FF8447B81B77A39C" import="1">Wales/Art/Civicons/walesalpha24.dds</File>
+    <File md5="CFF971AB9D916264F25CD56B00182E53" import="1">Wales/Art/Civicons/walesalpha32.dds</File>
+    <File md5="1212FAC71540740E545E0107641060DA" import="1">Wales/Art/Civicons/walesalpha48.dds</File>
+    <File md5="76988D57808510E27837F080CCBEF8CC" import="1">Wales/Art/Civicons/walesalpha64.dds</File>
+    <File md5="4E2FDBA1C2567B16C704152FDC18C8A4" import="1">Wales/Art/Civicons/walesicon128.dds</File>
+    <File md5="4B8E46DAEBEE1D0A302D134B3B75FA29" import="1">Wales/Art/Civicons/walesicon214.dds</File>
+    <File md5="831446D28D17AA1C7D799DBC1539AA59" import="1">Wales/Art/Civicons/walesicon256.dds</File>
+    <File md5="AFA8D443D4631FE2AE87D1D5974778FE" import="1">Wales/Art/Civicons/walesicon32.dds</File>
+    <File md5="4195293D127FFB07A69771544A62BD04" import="1">Wales/Art/Civicons/walesicon45.dds</File>
+    <File md5="D858DD93A73EACBECA8E9EF1764ED93B" import="1">Wales/Art/Civicons/walesicon64.dds</File>
+    <File md5="55B791AC99027845C2EA43E62E3CED65" import="1">Wales/Art/Civicons/walesicon80.dds</File>
+    <File md5="916986F76739891CA7B78E6C2F87257A" import="1">Wales/Art/Leadericons/llywelyn128.dds</File>
+    <File md5="50FBB9E3D3CF9D4ABF2BAFBC55C45134" import="1">Wales/Art/Leadericons/llywelyn256.dds</File>
+    <File md5="B23F4D17F41929F1989B85782FDB1FFD" import="1">Wales/Art/Leadericons/llywelyn64.dds</File>
+    <File md5="1662B27162D5CBEA028286565E3E190E" import="1">Wales/Art/Llywelyn.dds</File>
+    <File md5="85EC064164EF145B16E2647174289E0F" import="1">Wales/Art/LlywelynDOM.dds</File>
+    <File md5="5E5A1C075E3DF5B072A56599E0E85276" import="1">Wales/Art/Uniticons/welshbow128.dds</File>
+    <File md5="440A80B6B46343DAA0BF47A2FE993DCB" import="1">Wales/Art/Uniticons/welshbow256.dds</File>
+    <File md5="B3FD263BFE589263B3B00A379B8D154A" import="1">Wales/Art/Uniticons/welshbow32.dds</File>
+    <File md5="27C9DD6B4CA84291C224340D56BAB126" import="1">Wales/Art/Uniticons/welshbow45.dds</File>
+    <File md5="743763896A0B4F6EA2D7C5A68E5B1F65" import="1">Wales/Art/Uniticons/welshbow64.dds</File>
+    <File md5="A4A8F6DF8929064117A72D09A5399E21" import="1">Wales/Art/Uniticons/welshbow80.dds</File>
+    <File md5="4FCD107D35F63E8520E5C528B265A49C" import="1">Wales/Art/WalesMap.dds</File>
+    <File md5="608411469F93BD86195267D5DF29CECE" import="1">Wales/Sounds/LlywelynPeace.mp3</File>
+    <File md5="6384CA3A4B4C24AE951E775A9D6AFBB7" import="1">Wales/Sounds/LlywelynWar.mp3</File>
+    <File md5="ECC8D564D7B199E0B2FBA3A044B96760" import="0">Wales/XML/BuildsWales.xml</File>
+    <File md5="3295EBB75A2D282602AE7B0C499CAC12" import="0">Wales/XML/CIVWales.xml</File>
+    <File md5="B075C35E718D7B482DD5D5700FA81F52" import="0">Wales/XML/IconAtlasWales.xml</File>
+    <File md5="EDC807C89E5807597E5274197F514429" import="0">Wales/XML/LeadersWales.xml</File>
+    <File md5="ECDF82DE8B62C93CF5AFC5958F047213" import="1">Wales/XML/Llywelyn_Scene.xml</File>
+    <File md5="B0EEBE587FF15F843A20E4D1688B2766" import="0">Wales/XML/SoundsWales.xml</File>
+    <File md5="B3BB9F2FE08E1DD1397B36E706BCB10D" import="0">Wales/XML/TextWales.xml</File>
+    <File md5="FD8FA71B6E3F42D11AE1A2F3A11C21E3" import="0">Wales/XML/UnitsWales.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Cornwall/XML/BuildingsCornwall.xml</UpdateDatabase>
+      <UpdateDatabase>Cornwall/XML/CIVCornwall.xml</UpdateDatabase>
+      <UpdateDatabase>Cornwall/XML/IconAtlasCornwall.xml</UpdateDatabase>
+      <UpdateDatabase>Cornwall/XML/LeadersCornwall.xml</UpdateDatabase>
+      <UpdateDatabase>Cornwall/XML/ResourcesCornwall.xml</UpdateDatabase>
+      <UpdateDatabase>Cornwall/XML/SoundsCornwall.xml</UpdateDatabase>
+      <UpdateDatabase>Cornwall/XML/TextCornwall.xml</UpdateDatabase>
+      <UpdateDatabase>Iceni/XML/BuildsIceni.xml</UpdateDatabase>
+      <UpdateDatabase>Iceni/XML/CIVIceni.xml</UpdateDatabase>
+      <UpdateDatabase>Iceni/XML/IconAtlasIceni.xml</UpdateDatabase>
+      <UpdateDatabase>Iceni/XML/PromotionsIceni.xml</UpdateDatabase>
+      <UpdateDatabase>Iceni/XML/RemoveCelts.xml</UpdateDatabase>
+      <UpdateDatabase>Iceni/XML/TextIceni.xml</UpdateDatabase>
+      <UpdateDatabase>Iceni/XML/TraitsIceni.xml</UpdateDatabase>
+      <UpdateDatabase>Iceni/XML/UnitsIceni.xml</UpdateDatabase>
+      <UpdateDatabase>Ireland/XML/BuildingsIreland.xml</UpdateDatabase>
+      <UpdateDatabase>Ireland/XML/CIVIreland.xml</UpdateDatabase>
+      <UpdateDatabase>Ireland/XML/IconAtlasIreland.xml</UpdateDatabase>
+      <UpdateDatabase>Ireland/XML/LeadersIreland.xml</UpdateDatabase>
+      <UpdateDatabase>Ireland/XML/SoundsIreland.xml</UpdateDatabase>
+      <UpdateDatabase>Ireland/XML/TextIreland.xml</UpdateDatabase>
+      <UpdateDatabase>Ireland/XML/UnitsIreland.xml</UpdateDatabase>
+      <UpdateDatabase>Picts/XML/BuildsPicts.xml</UpdateDatabase>
+      <UpdateDatabase>Picts/XML/CIVPicts.xml</UpdateDatabase>
+      <UpdateDatabase>Picts/XML/IconAtlasPicts.xml</UpdateDatabase>
+      <UpdateDatabase>Picts/XML/LeadersPicts.xml</UpdateDatabase>
+      <UpdateDatabase>Picts/XML/SoundsPicts.xml</UpdateDatabase>
+      <UpdateDatabase>Picts/XML/TextPicts.xml</UpdateDatabase>
+      <UpdateDatabase>Picts/XML/UnitsPicts.xml</UpdateDatabase>
+      <UpdateDatabase>Wales/XML/BuildsWales.xml</UpdateDatabase>
+      <UpdateDatabase>Wales/XML/CIVWales.xml</UpdateDatabase>
+      <UpdateDatabase>Wales/XML/IconAtlasWales.xml</UpdateDatabase>
+      <UpdateDatabase>Wales/XML/LeadersWales.xml</UpdateDatabase>
+      <UpdateDatabase>Wales/XML/SoundsWales.xml</UpdateDatabase>
+      <UpdateDatabase>Wales/XML/UnitsWales.xml</UpdateDatabase>
+      <UpdateDatabase>Iceni/XML/LeadersIceni.xml</UpdateDatabase>
+      <UpdateDatabase>Wales/XML/TextWales.xml</UpdateDatabase>
+      <UpdateDatabase>Iceni/XML/SoundsIceni.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Ireland/Lua/FreeGreatPerson_per_Era.lua">
+      <Name>FreeGreatPersonPerEra</Name>
+      <Description>FreeGreatPersonPerEra</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

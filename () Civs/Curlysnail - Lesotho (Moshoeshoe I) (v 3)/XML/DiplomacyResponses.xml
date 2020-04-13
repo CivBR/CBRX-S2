@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_LEADER_MOSHOEHOE_FIRST_GREETING_1">
+			<Text>Rest now friend, for you are protected from troubles here in Lesotho. I am Moshoeshoe, and who are you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOSHOEHOE_FIRST_GREETING_2">
+			<Text>Greetings fellow leader, Lesotho welcomes you with open arms!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MOSHOEHOE_DEFEATED_1">
+			<Text>It seems the Mfecane has befallen us once again.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

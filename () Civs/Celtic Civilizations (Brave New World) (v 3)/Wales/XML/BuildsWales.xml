@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/27/2014 1:03:53 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CAER</Type>
+			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
+			<Cost>160</Cost>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_CAER_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CAER_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CAER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CAER_STRATEGY</Strategy>
+			<ArtDefineTag>CASTLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>800</Defense>
+			<ExtraCityHitPoints>30</ExtraCityHitPoints>
+			<GreatWorkCount>1</GreatWorkCount>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>CAER_ATLAS</IconAtlas>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>1</DisplayPosition>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_CAER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CAER</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CAER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

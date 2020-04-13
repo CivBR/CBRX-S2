@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/17/16 12:46:10 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- DIPLOMACY: VANILLA Vanilla -->
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_FIRSTGREETING_1">
+			<Text>Hail traveler. I am Hermann Von Salza, Hochmeister of the Teutonic Order. I don't expect any problems as long as you recognize Christ as your savior.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_DEFEATED_1">
+			<Text>How could God allow such tragedy to occur?</Text>
+		</Row>
+		<!--First Greeting from leaders that don't have their own file yet-->
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_GREETING_POLITE_HELLO_1">
+			<Text>God bless you friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_GREETING_HOSTILE_HELLO_1">
+			<Text>Speak quickly servant of Satan. I fear your sinfulness will rub off on my men.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_DOW_LEADER_UC_HERMANN_1">
+			<Text>God wills that we destroy you and so we shall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>A devil must have possessed you for you to promulgate such profanity towards a soldier of Christ.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_DENOUNCE_1">
+			<Text>You are a heathenous fool that regrets God's grace. You have condemned yourself to hell with your unreedemable sins and we will ensure you arrive there soon.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_DEC_FRIENDSHIP_1">
+			<Text>A most holy leader such as yourself would be a great ally to the Order.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_NO_PEACE_1">
+			<Text>We will fight until the Lord demands that we stop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_STOP_CONVERSIONS_1">
+			<Text>Send back your blasphemous pagans immediately!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HERMANN_ATTACKED_HOSTILE_1">
+			<Text>War is a crime and you shall be punished for it. I will order my men not just to fight, but to die until you've been defeated.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

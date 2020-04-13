@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="278458d1-c3a5-471f-9027-a64e849d381b" version="4">
+  <Properties>
+    <Name>SilentForza's Kosovo</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the [NEWLINE] Republic of Kosovo [NEWLINE] under Ibrahim Rugova to Brave New World.</Teaser>
+    <Description>Adds the [COLOR_POSITIVE_TEXT] Republic of Kosovo [ENDCOLOR] under Ibrahim Rugova to Brave New World.</Description>
+    <Authors>SilentForza (Core, Design), OCP (Art), Chrisy15 (Lua)</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack (v23/v24/v25)" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch (referenced only)" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Rise to Power" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="8c101299-95c5-4b28-b7ed-4e0f774857ef" minversion="0" maxversion="999" title="Historical Religions" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="EEB242EC8D0C38FAFB041004A51FC306" import="1">Art/Diplomacy/Rugova_Diplo.dds</File>
+    <File md5="01836FB73CA0DA7D92F2810454EC6697" import="1">Art/Diplomacy/Rugova_Diplo.xml</File>
+    <File md5="CEA57D6CC9F12EF99DD9D6FA9D8593E2" import="1">Art/Graphics/Kulla256.dds</File>
+    <File md5="8A9470B00D03AC2CF060EFDA7D8553BC" import="1">Art/Graphics/Kulla64.dds</File>
+    <File md5="83D55EBAA8CD83D42333EAF9052F8CE4" import="1">Art/Graphics/Kulla_B.fxsxml</File>
+    <File md5="83D55EBAA8CD83D42333EAF9052F8CE4" import="1">Art/Graphics/Kulla_HB.fxsxml</File>
+    <File md5="42C2EA8B24C3FB3C6E481EB35FA1825F" import="1">Art/Graphics/Kulla_Model.gr2</File>
+    <File md5="A2F583A87A0F2B54671BF1A931F607CE" import="1">Art/Graphics/Kulla_PL.fxsxml</File>
+    <File md5="CF67C48A58776E176C18CE081484174E" import="1">Art/Graphics/Kulla_SV.dds</File>
+    <File md5="7024B4EB9B5433477E062B1AFDEDCCE1" import="1">Art/Graphics/manufactoryRefinery_cm.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Graphics/no_gloss.dds</File>
+    <File md5="DBE36EA26DF1E980876763F9C4EAF75E" import="1">Art/Graphics/Paratrooper_UK.dds</File>
+    <File md5="9D3EB4F373DAB7A4EE99D585C7D088A8" import="1">Art/Graphics/Paratrooper_UK.fxsxml</File>
+    <File md5="F7216EBB84C8A4ED6DFB1B208787D332" import="1">Art/Graphics/Paratrooper_UK.gr2</File>
+    <File md5="9FE1E390EB6BB09346C7A7B378D160C3" import="1">Art/Graphics/sv_uck.dds</File>
+    <File md5="39C76B310C049E0B43E87710229A13FB" import="1">Art/Graphics/Unit_UCK_Flag_32.dds</File>
+    <File md5="7F4134F330822A30D8C532F54CB8D656" import="1">Art/Icon Atlas/SF_KosovoAlpha128.dds</File>
+    <File md5="2ED4750C2CAE65DDAC270CF22881FCCC" import="1">Art/Icon Atlas/SF_KosovoAlpha16.dds</File>
+    <File md5="BD34AA8B12F3EA3011E19F3644852583" import="1">Art/Icon Atlas/SF_KosovoAlpha24.dds</File>
+    <File md5="E9F6D6758D43CB45D3D73B34946B70A2" import="1">Art/Icon Atlas/SF_KosovoAlpha32.dds</File>
+    <File md5="92E2ECA6D5835448ACAD4F3B1B760817" import="1">Art/Icon Atlas/SF_KosovoAlpha48.dds</File>
+    <File md5="74834A2ADE650F3699A5816BE6FD2E81" import="1">Art/Icon Atlas/SF_KosovoAlpha64.dds</File>
+    <File md5="78D9C2FFDB30DA86CB598B3228219166" import="1">Art/Icon Atlas/SF_KosovoAtlas128.dds</File>
+    <File md5="A96A51958AC545D0998F045E40C9E391" import="1">Art/Icon Atlas/SF_KosovoAtlas256.dds</File>
+    <File md5="42953D3175399724DDE1042665FE218D" import="1">Art/Icon Atlas/SF_KosovoAtlas32.dds</File>
+    <File md5="1836FCA21AFAF9BF5ACA411A97A42856" import="1">Art/Icon Atlas/SF_KosovoAtlas45.dds</File>
+    <File md5="97948BE4DF355EBE2413EB1322F949ED" import="1">Art/Icon Atlas/SF_KosovoAtlas64.dds</File>
+    <File md5="1FADE87350F0000CDE5C6DE2EBEE5551" import="1">Art/Icon Atlas/SF_KosovoAtlas80.dds</File>
+    <File md5="47A5007BCC6DD17F54241950A791B3FE" import="1">Art/Images/Kosovo_Map.dds</File>
+    <File md5="CC4932B434FFAB9D9F95614D47286F8F" import="1">Art/Images/Rugova_DOM.dds</File>
+    <File md5="D0F2CA37603621D90CD903F7562B8EA5" import="1">Audio/Kosovo_Peace.mp3</File>
+    <File md5="46697F08C21B98919FBECB48B7C40B86" import="1">Audio/Kosovo_War.mp3</File>
+    <File md5="855FD6F5A5A3EE65C461A2B79957D4F0" import="0">Core/Kosovo_ArtDefines.sql</File>
+    <File md5="D1560B23019CCC0880F20A1CD27DF645" import="0">Core/Kosovo_Civilization.xml</File>
+    <File md5="7A91E8909802F63711FB6DDF6B065D35" import="0">Core/Kosovo_Decisions.sql</File>
+    <File md5="338F072FC800DEE7F57E809AABFEE6D8" import="0">Core/Kosovo_Diplomacy.sql</File>
+    <File md5="DAE2545052AA9AF1EE00E1C00CDAF930" import="0">Core/Kosovo_Diplomacy.xml</File>
+    <File md5="F8E4B0DC9E419F42ABB4355362F2802D" import="0">Core/Kosovo_Improvement.xml</File>
+    <File md5="195732559903960A420648393F0DDD42" import="0">Core/Kosovo_Leader.xml</File>
+    <File md5="24859F21D3E029AB48383199B1087B1D" import="0">Core/Kosovo_ModSupport.xml</File>
+    <File md5="55D9303C17430B703399F9C8A3620E97" import="0">Core/Kosovo_Trait.sql</File>
+    <File md5="A6134AE0A98F786BB7BF56C758D2EDBB" import="0">Core/Kosovo_Trait.xml</File>
+    <File md5="19D57D37C67E2285EA2FFC5AC81758F4" import="0">Core/Kosovo_TraitText.xml</File>
+    <File md5="694A4AB2402FF41F5719C85E2B80506B" import="0">Core/Kosovo_Unit.xml</File>
+    <File md5="F107A14C07FA952343DDA612BDA59F60" import="0">Core/Kosovo_ModSupport.sql</File>
+    <File md5="5C95FFE08028F7B1B363662BA78400D5" import="1">Lua/Kosovo_Decisions.lua</File>
+    <File md5="721633DAADE968BFA107E4D6392FF635" import="0">Lua/Kosovo_Functions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Diplomacy/Rugova_Diplo.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_Improvement.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_TraitText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Kosovo_Decisions.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Kosovo_Functions.lua">
+      <Name>Kosovo</Name>
+      <Description>Functions</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

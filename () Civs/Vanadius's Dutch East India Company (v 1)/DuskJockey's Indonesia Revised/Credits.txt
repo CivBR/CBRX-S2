@@ -1,0 +1,9 @@
+-- Credits
+-- Author: DuskJockey
+-- DateCreated: 3/8/2019 9:58:32 PM
+--------------------------------------------------------------
+-- DuskJockey: Code
+-- Senshidenshi, FionaDanger: Design
+-- Sukritact: MCIS, random bits of code
+-- JFD: random bits of code
+-- Troller0001: Coding help

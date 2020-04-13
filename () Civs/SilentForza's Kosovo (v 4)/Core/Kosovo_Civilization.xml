@@ -1,0 +1,760 @@
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_SF_KOSOVO</Type>
+			<Description>TXT_KEY_CIV_SF_KOSOVO_DESC</Description>
+			<Civilopedia/>
+			<CivilopediaTag>TXT_KEY_CIV5_SF_KOSOVO</CivilopediaTag>
+			<Strategy/>	
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<ShortDescription>TXT_KEY_CIV_SF_KOSOVO_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_SF_KOSOVO_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_SF_KOSOVO</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_GREECE</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<DerivativeCiv/>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>SF_KOSOVO_ATLAS</IconAtlas>
+			<AlphaIconAtlas>SF_KOSOVO_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>Kosovo_Map.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_SF_KOSOVO_TEXT</DawnOfManQuote>
+			<DawnOfManImage>Rugova_DOM.dds</DawnOfManImage>
+			<DawnOfManAudio></DawnOfManAudio>
+			<SoundtrackTag/>
+		</Row>
+	</Civilizations>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_0</CityName>
+		</Row>
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_1</CityName>
+		</Row>
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_2</CityName>
+		</Row>
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_3</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_4</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_5</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_6</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_7</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_8</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_9</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_10</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_11</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_12</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_13</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_14</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_15</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_16</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_17</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_18</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_19</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_20</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_21</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_22</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_23</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_24</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_25</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_26</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_27</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_28</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_29</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_30</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_31</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_32</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_33</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_34</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_35</CityName>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SF_KOSOVO_36</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<LeaderheadType>LEADER_SF_IBRAHIM_RUGOVA</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<ReligionType>RELIGION_ISLAM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<RegionType>REGION_GRASS</RegionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<RegionType>REGION_FOREST</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<RegionType>REGION_DESERT</RegionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<RegionType>REGION_JUNGLE</RegionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<RegionType>REGION_TUNDRA</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SF_KOSOVO_0</SpyName>
+		</Row>
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_SF_KOSOVO_1</SpyName>
+		</Row>
+		
+		<Row>
+		<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+		<SpyName>TXT_KEY_SPY_NAME_SF_KOSOVO_2</SpyName>
+		</Row>
+
+		<Row>
+		<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+		<SpyName>TXT_KEY_SPY_NAME_SF_KOSOVO_3</SpyName>
+		</Row>
+
+		<Row>
+		<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+		<SpyName>TXT_KEY_SPY_NAME_SF_KOSOVO_4</SpyName>
+		</Row>
+
+		<Row>
+		<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+		<SpyName>TXT_KEY_SPY_NAME_SF_KOSOVO_5</SpyName>
+		</Row>
+
+		<Row>
+		<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+		<SpyName>TXT_KEY_SPY_NAME_SF_KOSOVO_6</SpyName>
+		</Row>
+
+		<Row>
+		<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+		<SpyName>TXT_KEY_SPY_NAME_SF_KOSOVO_7</SpyName>
+		</Row>
+
+		<Row>
+		<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+		<SpyName>TXT_KEY_SPY_NAME_SF_KOSOVO_8</SpyName>
+		</Row>
+
+		<Row>
+		<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+		<SpyName>TXT_KEY_SPY_NAME_SF_KOSOVO_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
+			<UnitClassType>UNITCLASS_MARINE</UnitClassType>
+			<UnitType>UNIT_SF_KOSOVAR_UCK</UnitType>
+			</Row>
+	</Civilization_UnitClassOverrides>
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_SF_KOSOVO</Type>
+			<PrimaryColor>COLOR_PLAYER_SF_KOSOVO_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_SF_KOSOVO_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SF_KOSOVO_ICON</Type>
+			<Red>0.753</Red>
+			<Green>0.624</Green>
+			<Blue>0.341</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SF_KOSOVO_BACKGROUND</Type>
+			<Red>0.361</Red>
+			<Green>0.369</Green>
+			<Blue>0.208</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+
+		<Language_en_US>
+
+
+		<Row Tag="TXT_KEY_CIV_SF_KOSOVO_DESC">
+
+		<Text>Republic of Kosovo</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CIV5_SF_KOSOVO_HEADING_1">
+
+		<Text>History</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CIV5_SF_KOSOVO_TEXT_1">
+
+
+		<Text>Kosovo, as of today, is a small landlocked nation within the Balkans. However, some will debate over the status of Kosovo, as, before the Kosovo War, it was part of Serbia, and to this day, serbians still firmly believe that Kosovo was part of Serbia altogether. Kosovo's modern history starts in 1989, when the yugoslav authority erased the constitutionnal autonomy of Kosovo, sparking a response from albanian politicians, who, exiled from the Parliament, declared Kosovo as an independent republic in 1991, under the underground leadership of Ibrahim Rugova. Following that, the UCK, armed from pillaging Albanian arsenals, declared a guerilla war against Serbia, which bloody response started a massive insurrection, which led to massive plans of exile and to a intervention of occidental nations. Air strikes by NATO forced Serbia to walk away from Kosovo, and the kosovar people come back to their land. From 1999 to 2008, the status of the nation will remain unanswered. As of 2008, Kosovo declared independence, although the government doesn't hold control over the northern part of the country. Kosovo gained full sovereignty in 2012.</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CIV5_SF_KOSOVO_TITLE">
+
+		<Text>Kosovo</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CIV_SF_KOSOVO_SHORT_DESC">
+
+		<Text>Kosovo</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CIV_SF_KOSOVO_ADJECTIVE">
+
+		<Text>Kosovar</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CIV5_DAWN_SF_KOSOVO_TEXT">
+
+		<Text>Greetings, President Rugova. Kosovo is a small nation of the Balkans with a complicated modern history. Some still deny its status as a nation, especially in neighboring Serbia. But its people remained strong and independent. Its men and women always kept fighting for independence no matter the odds, standing with their Albanian brothers and sisters.[NEWLINE][NEWLINE]Ibrahim Rugova, the kosovar people call you again to lead them to freedom once more. They await desperately as they are increasingly oppressed and stripped of their autonomy. President Rugova, can you withstand the power of those who seek your end? Can you build a civilization that will stand the test of time?</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_0">
+
+		<Text>Prishtinë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_1">
+
+		<Text>Prizreni</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_2">
+
+		<Text>Gjilani</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_3">
+
+		<Text>Pejë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_4">
+
+		<Text>Mitrovicë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_5">
+
+		<Text>Ferizaj</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_6">
+
+		<Text>Gjakovë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_7">
+
+		<Text>Vushttri</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_8">
+
+		<Text>Podujevë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_9">
+
+		<Text>Rahovec</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_10">
+
+		<Text>Fushë Kosovë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_11">
+
+		<Text>Suharekë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_12">
+
+		<Text>Kaçanik</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_13">
+
+		<Text>Skënderaj</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_14">
+
+		<Text>Kamenicë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_15">
+
+		<Text>Shtime</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_16">
+
+		<Text>Lipjan</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_17">
+
+		<Text>Obiliq</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_18">
+
+		<Text>Drenas</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_19">
+
+		<Text>Junik</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_20">
+
+		<Text>Klinë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_21">
+
+		<Text>Mamushë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_22">
+
+		<Text>Istog</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_23">
+
+		<Text>Viti</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_24">
+
+		<Text>Deçan</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_25">
+
+		<Text>Leposaviq</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_26">
+
+		<Text>Malishevë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_27">
+
+		<Text>Graçanicë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_28">
+
+		<Text>Han-i-Elezit</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_29">
+
+		<Text>Zubin Potok</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_30">
+
+		<Text>Zveçan</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_31">
+
+		<Text>Shtërpcë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_32">
+
+		<Text>Dragash</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_33">
+
+		<Text>Kllolot</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_34">
+
+		<Text>Ranillug</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_35">
+
+		<Text>Partesh</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_SF_KOSOVO_36">
+
+		<Text>Novobërdë</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_SF_KOSOVO_0">
+
+		<Text>Behar</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_SF_KOSOVO_1">
+
+		<Text>Ersi</Text>
+
+		<Gender>feminine</Gender>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_SF_KOSOVO_2">
+
+		<Text>Klajdi</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_SF_KOSOVO_3">
+
+		<Text>Thomas</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_SF_KOSOVO_4">
+
+		<Text>Megan</Text>
+
+		<Gender>feminine</Gender>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_SF_KOSOVO_5">
+
+		<Text>Jamarcus</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_SF_KOSOVO_6">
+
+		<Text>Sara</Text>
+
+		<Gender>feminine</Gender>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_SF_KOSOVO_7">
+
+		<Text>Fatlind</Text>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_SF_KOSOVO_8">
+
+		<Text>Bora</Text>
+
+		<Gender>feminine</Gender>
+
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_SF_KOSOVO_9">
+
+		<Text>Getoard</Text>
+
+		</Row>
+
+	</Language_en_US>
+
+</GameData>

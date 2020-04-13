@@ -1,0 +1,384 @@
+<GameData>
+    <Language_en_US>
+        <!--Cities-->
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_1">
+            <Text>Mutitjulu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_2">
+            <Text>Pukatja</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_3">
+            <Text>Warakurna</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_4">
+            <Text>Amata</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_5">
+            <Text>Milyirrtjarra</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_6">
+            <Text>Walungurru</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_7">
+            <Text>Kaltukatjara</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_8">
+            <Text>Indulkana</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_9">
+            <Text>Papunya</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_10">
+            <Text>Kaltjiti</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_11">
+            <Text>Mimili</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_12">
+            <Text>Aputula</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_13">
+            <Text>Utju</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_14">
+            <Text>Kiwirrkurra</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_15">
+            <Text>Titjikala</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_16">
+            <Text>Wingellina</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_17">
+            <Text>Papulankutja</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_18">
+            <Text>Pipalyatjara</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_19">
+            <Text>Kalka</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_20">
+            <Text>Yalata</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_21">
+            <Text>Yilka</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_22">
+            <Text>Maralinga</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_23">
+            <Text>Karilywara</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_ANANGU_24">
+            <Text>Mamungkukumpurangkuntjunya</Text>
+        </Row>
+        
+        <!--Spies-->
+        <Row Tag="TXT_KEY_SPY_NAME_THP_ANANGU_0">
+            <Text>Wikilyiri</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_ANANGU_1">
+            <Text>Kunmanara</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_ANANGU_2">
+            <Text>Nyiru</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_ANANGU_3">
+            <Text>Ilyatjari</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_ANANGU_4">
+            <Text>Ngupulya</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_ANANGU_5">
+            <Text>Tjungkara</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_ANANGU_6">
+            <Text>Tjalara</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_ANANGU_7">
+            <Text>Anmanari</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_ANANGU_8">
+            <Text>Tjunmutja</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_ANANGU_9">
+            <Text>Nganyinytja</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        
+        <!--Basic Info-->
+        <Row Tag="TXT_KEY_LEADER_THP_TJILPI">
+            <Text>Tjilpi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_ANANGU_ADJECTIVE">
+            <Text>Anangu</Text>
+            <Gender>neuter:an</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_ANANGU_DESC">
+            <Text>The Anangu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_ANANGU_SHORT_DESC">
+            <Text>The Anangu</Text>
+        </Row>
+        
+        <!--Civilopedia-->
+        <Row Tag="TXT_KEY_PEDIA_THP_ANANGU_HEADING_1">
+            <Text>History</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_ANANGU_TEXT_1">
+            <Text>"Anangu" is an umbrella term that describes several Australian Aboriginal groups who speak Western Desert languages; the term is most prominently used by the Pitjantjatjara and the Yankunytjatjara. The Western Desert languages have been described as covering more of Australia's area than any other indigenous language.[NEWLINE][NEWLINE]Uluru and Kata Tjuta are sacred sites in the Anangu belief system, with eleven songlines passing through or near them. In 1979, the indigenous Central Land Council began a legal battle to lay claim to the Uluru-Kata Tjuta National Park; in 1985, the resulting settlement plan was implemented, which granted the Anangu a majority of the park's Board of Management but still allowed tourists to visit the park.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_TJILPI_PEDIA_NAME">
+            <Text>Tjilpi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_TJILPI_PEDIA_SUBTITLE">
+            <Text>Leader of the Anangu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_TJILPI_PEDIA_TITLES_1">
+            <Text>Anangu Leader</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_TJILPI_PEDIA_LIVED">
+            <Text>Unknown</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_TJILPI_PEDIA_HEADING_1">
+            <Text>Information</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_TJILPI_PEDIA_TEXT_1">
+            <Text>Although the names of historical Anangu leaders have been lost to time, it is plausible that many of them would be known as 'tjilpi.' A term meaning "old man" or "uncle," tjilpi is an honorific title that is used to this day.[NEWLINE]
+            [NEWLINE]
+            Some recent examples of people given the title 'tjilpi' include Bob Randall (1934 - 2015), a musician and community leader who founded several organizations in Darwin, and Kunmanara Kankapankatja (1930 - 2012), an artist who fought to conserve sacred sites and natural resources in Anangu land.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_DAWN_THP_ANANGU_TEXT">
+            <Text>Greetings, Tjilpi, great elder of the Anangu people! The Anangu - an umbrella group that includes the Pitjantjatjara and Yankunytjatjara - have lived in the Western Desert of Australia for thousands of years. Your people were the first to venerate Uluru and the Kata Tjuta mountains, and the first to recognize the songlines that connect those sites to the rest of the continent around them. When the British arrived on Australia, your populace's way of life was significantly disrupted, as settlers and ranchers intruded upon much of your land. However, your people have begun to bounce back in recent decades, as the aboriginal Land Councils have granted your people legal rights of their ancestral lands.[NEWLINE][NEWLINE]Great Tjilpi, your people may be on the upswing, but they long for the great days of old. Can you restore the glory of the Anangu, and lead your people to spread all across - or even beyond - the deserts of Australia? Can you build a civilization that will stand the test of time?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_THP_ANANGU_SHORT">
+            <Text>Tjukurpa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_THP_ANANGU">
+            <Text>Upon adopting a [ICON_RELIGION_PANTHEON]Pantheon, Desert tiles provide [ICON_GOLDEN_AGE] Golden Age points when worked. Upon the dawn of a [ICON_GOLDEN_AGE] Golden Age, select a cumulative Dreaming Bonus.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_WARMALA">
+            <Text>Warmala</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_WARMALA_HELP">
+            <Text>Exploration unit. Available right from the start of the game. Only the Anangu may build it. Moves at double speed in Desert, and spawns a Settler when discovering an unclaimed Natural Wonder.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_WARMALA_STRATEGY">
+            <Text>The Warmala is a crucial exploration unit for your early game. Send them out to explore your lands and search for Natural Wonders - and if a Warmala discovers one, you get a free Settler to make sure you can take its yields for yourself.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_WARMALA_TEXT">
+            <Text>Warmala is a word in the Pitjantjatjara language, meaning "war party." The predominant weapon used by the Anangu was the woomera, a spear-thrower much like an atlatl.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_NYINTIRINGKUPAI">
+            <Text>Nyintiringkupai</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_NYINTIRINGKUPAI_HELP">
+            <Text>Unique replacement for the Shrine. Only the Anangu may build it. In addition to the normal Shrine benefits, the Nyintiringkupai generates +1 Faith and Culture for every Natural Wonder owned by your empire. Units trained in its city begin with the Survivalism I promotion.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_NYINTIRINGKUPAI_HELP_EXCE">
+            <Text>Unique replacement for the Shrine. Only the Anangu may build it. In addition to the normal Shrine benefits, the Nyintiringkupai generates +1 Faith and Culture for every Natural Wonder owned by your empire. Units trained in its city begin with the Survivalism I promotion, and are immune to Desert attrition.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_NYINTIRINGKUPAI_STRATEGY">
+            <Text>The Nyintiringkupai is a useful early source of Faith, helping you to get a Pantheon and begin redeeming Golden Age Points from worked Desert tiles. It also grants your units Survivalism I, allowing them to explore more safely, and thereby helping you to discover Natural Wonders and strengthen your empire.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_NYINTIRINGKUPAI_TEXT">
+            <Text>Nyintiringkupai is a word in the Pitjantjatjara language, meaning "place of learning."</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_ANANGU_DESERT_SPEED">
+            <Text>Songline Walker</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_ANANGU_DESERT_SPEED_HELP">
+            <Text>Double Movement in Desert</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_WARMALA">
+            <Text>Travels of Wanambi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_WARMALA_HELP">
+            <Text>Spawns a Settler when discovering a Natural Wonder.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_ANANGU_EXCE_DUMMY">
+            <Text>Anangu + ExCE Dummy</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_ANANGU_DREAM_DUMMY">
+            <Text>Anangu Miilmiilpa Dummy</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BLDG_THP_ANANGU_YIELDS">
+            <Text>Anangu NW Dummy</Text>
+        </Row>
+        
+        <!--Dreamtime Policies-->
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAMTIME_MESSAGE">
+            <Text>Select a Dreaming Bonus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAM_NAME_1">
+            <Text>Iwara</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAM_NAME_2">
+            <Text>Kalaya</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAM_NAME_3">
+            <Text>Miilmiilpa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAM_NAME_4">
+            <Text>Miru</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAM_NAME_5">
+            <Text>Ngangkari</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAM_NAME_6">
+            <Text>Ngintaka</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAM_NAME_7">
+            <Text>Tjala</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAM_NAME_8">
+            <Text>Tjukuritja</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAM_NAME_9">
+            <Text>Wanampi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_DREAM_NAME_10">
+            <Text>Watiku</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_1">
+            <Text>Iwara: No Road maintenance on Desert. City Connections yield +3 [ICON_PEACE] Faith.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_2">
+            <Text>Kalaya: Natural Wonders yield +2 [ICON_RESEARCH] Science, increasing to +3 with Astronomy.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_3">
+            <Text>Miilmiilpa: Natural Wonders yield +2 [ICON_PEACE] Faith and +2 [ICON_HAPPINESS_1] Happiness.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_4">
+            <Text>Miru: Archery Units provide +1 [ICON_PRODUCTION] Production while on Desert tiles.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_5">
+            <Text>Ngangkari: Shrines and Temples yield +1 [ICON_FOOD] Food.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_6">
+            <Text>Ngintaka: Natural Wonders provide +1 [ICON_FOOD] Food to all adjacent tiles.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_7">
+            <Text>Tjala: Cities founded on Desert provide +1 [ICON_FOOD] Food to all adjacent tiles.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_8">
+            <Text>Tjukuritja: Natural Wonders and Landmarks yield +2 [ICON_PEACE] Faith and +2 [ICON_CULTURE] Culture.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_9">
+            <Text>Wanampi: Oasis tiles yield +1 [ICON_PEACE] Faith, +1 [ICON_FOOD] Food, and +1 [ICON_CULTURE] Culture.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_10">
+            <Text>Watiku: Land Units start with XP equal to half the [ICON_PEACE] Faith produced by their city.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_THP_ANANGU_NOTIFICATION_SHORT">
+            <Text>Dreaming Bonus Chosen</Text>
+        </Row>
+        
+        <!--Mod Support-->
+        <Row Tag="TXT_KEY_GENERIC_THP_ANANGU_INFLUENTIAL_ON_AI_1">
+            <Text>Our people are now painting their bodies and venerating the mountains. I worry that the rest of the world will also succumb to the influence of your culture.</Text>
+        </Row>
+        
+        <!--Additional Achievements-->
+        <Row Tag="TXT_KEY_MOD_THP_ANANGU_NAME">
+            <Text>TopHat's Anangu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_ANANGU_ID_CFC">
+            <Text>a6a46011-2018-1217-bf3e-754f7db79a54</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_ANANGU_ID_STEAM">
+            <Text>0b25dd30-4844-4c4f-86b7-aab21928b9e2</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_ANANGU_AUTHORS">
+            <Text>TopHatPaladin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_ANANGU_VICTORY_HEADER">
+            <Text>Dreamtimes Come True</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_ANANGU_VICTORY_TEXT">
+            <Text>Win the game on any difficulty setting as the Anangu.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_ANANGU_SPECIAL_HEADER">
+            <Text>Where We're Going, We Don't Need Water</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_ANANGU_SPECIAL_TEXT">
+            <Text>As the Anangu, build Petra in a city that owns a Natural Wonder.</Text>
+        </Row>
+        
+        <!--E&D Support-->
+        <Row Tag="TXT_KEY_DECISIONS_THP_ANANGU_ULURU">
+             <Text>Forbid Climbing Sacred Mountains</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_ANANGU_ULURU_DESC">
+            <Text>Our mountains have long been sacred ground, where the Anangu are forbidden to tread; but foreigners have begun to visit our land, and they do not share these taboos. We must be proactive about protecting such important sites!
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]Player must be the Anangu
+             [NEWLINE][ICON_BULLET]Must have built at least one Hotel
+             [NEWLINE][ICON_BULLET]May only be enacted once per game
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]250 [ICON_GOLD] Gold
+             [NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]Mountains yield +1 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_ANANGU_ULURU_ENACTED_DESC">
+             <Text>Our mountains have long been sacred ground, where the Anangu are forbidden to tread; but foreigners have begun to visit our land, and they do not share these taboos. We must be proactive about protecting such important sites!
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]Mountains yield +1 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_WORLD_EVENT_THP_ANANGU_ULURU">
+            <Text>{1_LeaderName} has barred climbers from the sacred mountains of {2_CivName}!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_ANANGU_MUSIC">
+             <Text>Develop Syncretic Musical Styles</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_ANANGU_MUSIC_DESC">
+             <Text>We have long used song as a navigation tool, as we walk the songlines throughout our domain - but neighboring civilizations have introduced new purposes for music, as a bold and bombastic thing used for entertainment. By combining these two uses of music, we can bring the songlines to a new generation.
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]Player must be the Anangu
+             [NEWLINE][ICON_BULLET]Must have an Opera House in all cities
+             [NEWLINE][ICON_BULLET]May only be enacted once per game
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]400 [ICON_CULTURE] Culture
+             [NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]Receive a free Great Musician in the Capital
+             [NEWLINE][ICON_BULLET]When adopting a new Social Policy, receive a free Great Musician if you have an open Great Work of Music slot
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_ANANGU_MUSIC_ENACTED_DESC">
+             <Text>We have long used song as a navigation tool, as we walk the songlines throughout our domain - but neighboring civilizations have introduced new purposes for music, as a bold and bombastic thing used for entertainment. By combining these two uses of music, we can bring the songlines to a new generation.
+                 [NEWLINE]-------------------------
+                 [NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+                 [NEWLINE]-------------------------
+                 [NEWLINE][ICON_BULLET]Receive a free Great Musician in the Capital
+                 [NEWLINE][ICON_BULLET]When adopting a new Social Policy, receive a free Great Musician if you have an open Great Work of Music slot
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_WORLD_EVENT_THP_ANANGU_MUSIC">
+             <Text>{1_LeaderName} has promoted syncretism in the {3_CivAdj} music industry!</Text>
+        </Row>
+        </Language_en_US>
+    </GameData>

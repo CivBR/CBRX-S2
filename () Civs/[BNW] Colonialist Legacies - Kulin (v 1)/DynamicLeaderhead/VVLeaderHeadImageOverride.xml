@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/23/2015 3:23:46 PM -->
+<Context Name="VVLeaderHeadImageOverride">
+	<Instance Name="Instance">
+		<Box Size="Full,Full" Color="0.0.0.255" ID="Box">
+			<Image Size="Full,Full" Anchor="C,C" ID="Image" Sampler="Linear"/>
+		</Box>
+	</Instance>
+</Context>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="faed8aea-187f-436d-824c-0f1d3249e475" version="1">
+  <Properties>
+    <Name>TopHat's Somalia</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds Somalia, led by Mohamed Siad Barre, to the game. Requires Brave New World.</Teaser>
+    <Description>Adds the Somali Democratic Republic, led by Mohamed Siad Barre, to the game. Requires Brave New World.</Description>
+    <Authors>TopHatPaladin</Authors>
+    <SpecialThanks>Urdnot_Scott, Lime, Ekmek</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="432bc547-eb05-4189-9e46-232dbde8f09f" minversion="0" maxversion="999" title="Additional Achievements" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD and Pouakai's Mercenaries" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="324B4C6BD9BA2B9F3CB3A7D7F498A194" import="1">Art/Map_Somalia.dds</File>
+    <File md5="BAC75387265C3F6F69B1FD22818F5A1C" import="1">Art/SiadBarre_DOM.dds</File>
+    <File md5="F47D59C7B416BB533C5B3CE9BD5EDDC6" import="1">Art/SiadBarre_scene.dds</File>
+    <File md5="A7B17D724853D7F0F0CA5CEEB161545B" import="1">Art/sv_duubcas.dds</File>
+    <File md5="E33C9B2735BB8EA858A6B40DE2BC2AD5" import="1">Art/sv_gabyaga.dds</File>
+    <File md5="EB8C35B69C6A6A0315B40D4782134CF9" import="1">Art/THP_SomaliaAlpha128.dds</File>
+    <File md5="90407BF57ADDE3100A347712B4FEB0B7" import="1">Art/THP_SomaliaAlpha16.dds</File>
+    <File md5="61C1A8FE0BD2E0AB95E9C2696F426B7F" import="1">Art/THP_SomaliaAlpha24.dds</File>
+    <File md5="16B69E5119E7A821A40514524D85ED23" import="1">Art/THP_SomaliaAlpha32.dds</File>
+    <File md5="EAB85ED4CC8FA823414B4A0D25FEFB37" import="1">Art/THP_SomaliaAlpha48.dds</File>
+    <File md5="EC0E2B42CE1674F6E1B624CEBDB9E6FD" import="1">Art/THP_SomaliaAlpha64.dds</File>
+    <File md5="3FB9F7850F80AD1228DF4919134C77B0" import="1">Art/THP_SomaliaAtlas128.dds</File>
+    <File md5="C4BEDBA4AD9B900CC8F6A0ABC268D75A" import="1">Art/THP_SomaliaAtlas256.dds</File>
+    <File md5="6D744FDB6DDB83D65BADD4C5BBAE317B" import="1">Art/THP_SomaliaAtlas32.dds</File>
+    <File md5="37F37E8FB228FF880EDA14645364D6CC" import="1">Art/THP_SomaliaAtlas45.dds</File>
+    <File md5="8B3EF6E8FABA80ED18AE39B7A9253B76" import="1">Art/THP_SomaliaAtlas64.dds</File>
+    <File md5="AE6E5472782E54C97D4DE970170AE9DD" import="1">Art/THP_SomaliaAtlas80.dds</File>
+    <File md5="8E4313EC3DE30E4A1931593F02BA4423" import="1">Art/UnitModel/RB_diff.dds</File>
+    <File md5="2FEFF8E343B2C7CFFF39FD000A1A2B7B" import="1">Art/UnitModel/redberet.fxsxml</File>
+    <File md5="A33605F2EA1DF6004E6668C6D05AFFC6" import="1">Art/UnitModel/RedBeret.gr2</File>
+    <File md5="D9C04337711CB2AEC905EE94BB19ED93" import="1">Art/Unit_DuubCas_Flag_32.dds</File>
+    <File md5="C2D450B469897060DC3AADF407AA5DCC" import="1">Art/Unit_Gabyaga_Flag_32.dds</File>
+    <File md5="65A8EE2F7877FE58F2DAB5BD12452164" import="1">Audio/Somalia_Peace.mp3</File>
+    <File md5="0B5BB2AA78B20C847FBDEBCFECFE024E" import="1">Audio/Somalia_War.mp3</File>
+    <File md5="4D35A939F092524C427B5C538B53E311" import="0">Core/DiploText.xml</File>
+    <File md5="4B131655A1DAF45B1CE6B8221141AD56" import="0">Core/GameText.xml</File>
+    <File md5="9C824DA1BD56DCDD099D339FCC30BBCB" import="1">Core/Leaderhead_SiadBarre.xml</File>
+    <File md5="283947389B61553B09725739BC4A3F20" import="0">Core/ModSupport_Somalia.sql</File>
+    <File md5="A1723D6659D999F237B57A71D6A2DD86" import="0">Core/Somalia_ArtDef.sql</File>
+    <File md5="2112262777CB15FB21AB2C5A73EC6AA2" import="0">Core/Somalia_GameDef.sql</File>
+    <File md5="1368ACF988CC8834BB7AD60585E8B936" import="1">Lua/AdditionalAchievementsUtility.lua</File>
+    <File md5="14B64D63E77AE92F1DFEE2157CAA602F" import="0">Lua/Somalia_Functions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/DiploText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/ModSupport_Somalia.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Somalia_ArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Somalia_GameDef.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Somalia_Functions.lua">
+      <Name>TophatSomaliaFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

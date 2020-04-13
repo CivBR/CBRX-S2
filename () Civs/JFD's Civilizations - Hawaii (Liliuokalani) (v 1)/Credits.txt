@@ -1,0 +1,42 @@
+-- Credits
+-- Author: JFD
+-- DateCreated: 1/6/2018 1:43:31 PM
+----------------
+JFD: 
+----------------
+	Author
+	Coding 
+	Design 
+	Research 
+	Writing
+----------------
+Janboruta: 
+----------------
+	Art (Civ Icon; Leaderscene; Leader Icon; Building Icon; Unit Icon; Unit Flag Icon; Map)
+----------------
+Pouakai: 
+----------------
+	Pedias (Hawaii)
+	Research (City List)
+----------------
+Wolfdog: 
+----------------
+	Graphics (Unit Model)
+	https://forums.civfanatics.com/resources/civ5-iroclad-battleship.22563/
+----------------
+The Orchard Enterprises: 
+----------------
+	Music (Hawaiian War Chant (Ta-Hu-Wa-Hu-Wai))
+	https://www.youtube.com/watch?v=42jZS0_xTjg
+----------------
+Britannica.com: 
+----------------
+	Pedias
+	https://www.britannica.com/biography/Liliuokalani
+----------------
+Wikipedia.com: 
+----------------
+	https://en.wikipedia.org/wiki/Kaimiloa
+	https://en.wikipedia.org/wiki/%CA%BBIolani_Palace
+--------------------------------------------------------------
+--------------------------------------------------------------

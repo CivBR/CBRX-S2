@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<Language_en_US>
+		<!--==========================================-->
+		<!--=== Sukritact's Events & Decisions =======-->
+		<!--==========================================-->
+		<!--==========================================-->
+		<!--=== Enlightenment Era ====================-->
+		<!--==========================================-->
+		<!--==========================================-->
+		<!--=== Unique Cultural Influence ============-->
+		<!--==========================================-->
+		<Row Tag="TXT_KEY_GENERIC_MC_TUAREG_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now all trading across the desert and playing blues rock! I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

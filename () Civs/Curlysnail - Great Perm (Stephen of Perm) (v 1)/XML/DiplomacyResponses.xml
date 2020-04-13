@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_LEADER_STEPHEN_FIRST_GREETING_1">
+			<Text>Blessings be to you weary traveler! I am Saint Stephen of Perm, and I welcome you to my lands. Would you care to trade?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STEPHEN_FIRST_GREETING_2">
+			<Text>Welcome to the lands of Perm, friend, I am Saint Stephen. If it's trade you seek, you have come to the right place!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STEPHEN_DEFEATED_1">
+			<Text>Perm once again fades into darkness, but our name will live on. You would have gained more wealth from working with us, friend.</Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>
