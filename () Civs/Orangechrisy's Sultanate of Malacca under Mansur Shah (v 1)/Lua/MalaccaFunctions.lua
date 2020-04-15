@@ -51,7 +51,7 @@ for row in DB.Query("SELECT ID FROM Resources WHERE ResourceClassType = 'RESOURC
 end
 
 function ORG_GetMalaccaResourceGoldBonus(iPlayer)
-	print("check resource trade start")
+	--print("check resource trade start")
 	local pPlayer = Players[iPlayer]
 	local iNumLandRes = 0
 	local iNumSeaRes = 0
@@ -79,10 +79,10 @@ function ORG_GetMalaccaResourceGoldBonus(iPlayer)
 								if pPlot:IsResourceConnectedByImprovement(iNeededImprovement) then
 									if pPlot:IsWater() then
 										iCitySeaRes = iCitySeaRes + 1
-										print("check got sea resource")
+										--print("check got sea resource")
 									else
 										iCityLandRes = iCityLandRes + 1
-										print("check got land resource")
+										--print("check got land resource")
 									end
 									tCheckedRes[iResource] = true
 									break
@@ -96,12 +96,12 @@ function ORG_GetMalaccaResourceGoldBonus(iPlayer)
 			tSeasPerCity[pCity] = iCitySeaRes
 			iNumLandRes = iNumLandRes + iCityLandRes
 			iNumSeaRes = iNumSeaRes + iCitySeaRes
-			print("Malacca: " .. iNumLandRes .. " land resources and " .. iNumSeaRes .. " sea resources")
+			--print("Malacca: " .. iNumLandRes .. " land resources and " .. iNumSeaRes .. " sea resources")
 		end
 	end
 	local iTotalGold = (1 * iNumLandRes) + (2 * iNumSeaRes)
 	
-	print("check UA trade bonus gold")
+	--print("check UA trade bonus gold")
 	return iTotalGold
 end
 
@@ -119,7 +119,7 @@ GameEvents.PlayerDoTurn.Add(ORG_MalaccaResourceTradeBonus)
 --------------------------------------------------------------
 function ORG_CountPlayerAllies(pPlayer) --get my allies
     local tAllies = {}
-    for checkedID = 0, GameDefines.MAX_MINOR_CIVS - 1, 1 do
+    for checkedID = 0, GameDefines.MAX_MAJOR_CIVS - 1, 1 do
         local pCheckedPlayer = Players[checkedID]
         if pCheckedPlayer then
             if pCheckedPlayer:IsMinorCiv() then
@@ -149,9 +149,9 @@ function ORG_MalaccaJongGold(iPlayer)
 					local tToolTip = pPlayer:GetInternationalTradeRoutePlotToolTip(pPlot)
 					if #tToolTip > 0 then
 						pPlayer:ChangeGold(4)
-					for kPlayer, v in pairs(tAllies) do
-						kPlayer:ChangeGold(4)
-					end
+						for kPlayer, v in pairs(tAllies) do
+							kPlayer:ChangeGold(4)
+						end
 						if pPlayer:IsHuman() then
 							Events.AddPopupTextEvent(HexToWorld(ToHexFromGrid(Vector2(pPlot:GetX(), pPlot:GetY()))), "+4[ICON_GOLD]", 0)
 						end
@@ -172,12 +172,12 @@ GameEvents.PlayerDoTurn.Add(ORG_MalaccaJongGold)
 -- Laksamana (UU2)
 --------------------------------------------------------------
 --Button Lua mostly stolen from JakeWalrusWhale's Seychelles which is adapted from Porkbean
-include("FLuaVector.lua")
-include("IconSupport.lua")
-IconHookup(35, 45, "UNIT_ACTION_ATLAS", Controls.LaksamanaResourceImage)
-IconHookup(57, 45, "UNIT_ACTION_ATLAS", Controls.LaksamanaTradeImage)
-Controls.LaksamanaResourceBackground:SetHide(true)
-Controls.LaksamanaTradeBackground:SetHide(true)
+--include("FLuaVector.lua")
+--include("IconSupport.lua")
+--IconHookup(35, 45, "UNIT_ACTION_ATLAS", Controls.LaksamanaResourceImage)
+--IconHookup(57, 45, "UNIT_ACTION_ATLAS", Controls.LaksamanaTradeImage)
+--Controls.LaksamanaResourceBackground:SetHide(true)
+--Controls.LaksamanaTradeBackground:SetHide(true)
 local pSelUnit
 
 local iCoast = GameInfoTypes.TERRAIN_COAST
@@ -221,10 +221,10 @@ function ORG_AddSeaResource(playerID, unitID)
 	end
 end
 
-function SpendLaksamanaResource()
-	ORG_AddSeaResource(Game.GetActivePlayer(), pSelUnit:GetID())
-end
-Controls.LaksamanaResource:RegisterCallback(Mouse.eLClick, SpendLaksamanaResource)
+-- function SpendLaksamanaResource()
+	-- ORG_AddSeaResource(Game.GetActivePlayer(), pSelUnit:GetID())
+-- end
+-- Controls.LaksamanaResource:RegisterCallback(Mouse.eLClick, SpendLaksamanaResource)
 
 function ORG_LaksamanaTradeBonus(iPlayer)
 	local pPlayer = Players[iPlayer]
@@ -236,12 +236,12 @@ function ORG_LaksamanaTradeBonus(iPlayer)
 			for k, v in pairs(tRoutes) do
 				if(v.FromCity == pCity) then
 					iGoldInCity = iGoldInCity + v.FromGPT / 100 + iTotalGold
-					print("check laksamana " .. v.FromGPT / 100 .. " gold")
-					print("check laksamana " .. iTotalGold .. " gold")
+					--print("check laksamana " .. v.FromGPT / 100 .. " gold")
+					--print("check laksamana " .. iTotalGold .. " gold")
 				end
 			end
 			pPlayer:ChangeGold(math.ceil(iGoldInCity / 5))
-			print ("got gold")
+			--print ("got gold")
 		end
 	end
 end
@@ -255,7 +255,7 @@ function ORG_CanDoLaksamanaBonus(unit) -- checks if a unit is on a valid plot
 	if unit:GetOwner() ~= pPlot:GetOwner() then return pBool end
 	if pPlot ~= nil then
 		if (not pPlot:IsCity()) then return pBool end
-			print ("check city laksamana bonus")
+			--print ("check city laksamana bonus")
 			local pCity = pPlot:GetPlotCity()
 			if (pCity:IsHasBuilding(iTradeDummy) == true) then return pBool
 			else
@@ -277,51 +277,50 @@ function ORG_AddLaksamanaBonus(playerID, unitID)
 	end
 end
 
-function SpendLaksamanaTrade()
-	ORG_AddLaksamanaBonus(Game.GetActivePlayer(), pSelUnit:GetID())
-end
-Controls.LaksamanaTrade:RegisterCallback(Mouse.eLClick, SpendLaksamanaTrade)
+-- function SpendLaksamanaTrade()
+	-- ORG_AddLaksamanaBonus(Game.GetActivePlayer(), pSelUnit:GetID())
+-- end
+-- Controls.LaksamanaTrade:RegisterCallback(Mouse.eLClick, SpendLaksamanaTrade)
 
-function ORG_LaksamanaSelection(playerID, unitID, x, y, a5, bool)
-	if bool then
-		local pPlayer = Players[playerID]
-		local pUnit = pPlayer:GetUnitByID(unitID);
-		if pUnit:GetUnitType() == iLaksamana then
-			ContextPtr:SetHide(false)
-			Controls.LaksamanaResourceBackground:SetHide(false)
-			pSelUnit = pUnit;
-			Controls.LaksamanaResource:SetDisabled(not ORG_CanAddSeaResource(pUnit))
+-- function ORG_LaksamanaSelection(playerID, unitID, x, y, a5, bool)
+	-- if bool then
+		-- local pPlayer = Players[playerID]
+		-- local pUnit = pPlayer:GetUnitByID(unitID);
+		-- if pUnit:GetUnitType() == iLaksamana then
+			-- ContextPtr:SetHide(false)
+			-- Controls.LaksamanaResourceBackground:SetHide(false)
+			-- pSelUnit = pUnit;
+			-- Controls.LaksamanaResource:SetDisabled(not ORG_CanAddSeaResource(pUnit))
 
-			local sTT = Locale.ConvertTextKey("[COLOR_POSITIVE_TEXT]Create Resource![ENDCOLOR][NEWLINE][NEWLINE]Expend this unit to create a random luxury sea resource on the tile.[NEWLINE][NEWLINE]Unit must be in friendly coastal territory, and have moves remaining.")
-			Controls.LaksamanaResource:LocalizeAndSetToolTip("" .. sTT .. "")
-		end
-	else
-		Controls.LaksamanaResourceBackground:SetHide(true)
-		pSelUnit = nil;
-	end
-end
+			-- local sTT = Locale.ConvertTextKey("[COLOR_POSITIVE_TEXT]Create Resource![ENDCOLOR][NEWLINE][NEWLINE]Expend this unit to create a random luxury sea resource on the tile.[NEWLINE][NEWLINE]Unit must be in friendly coastal territory, and have moves remaining.")
+			-- Controls.LaksamanaResource:LocalizeAndSetToolTip("" .. sTT .. "")
+		-- end
+	-- else
+		-- Controls.LaksamanaResourceBackground:SetHide(true)
+		-- pSelUnit = nil;
+	-- end
+-- end
+--Events.UnitSelectionChanged.Add(ORG_LaksamanaSelection)
 
-Events.UnitSelectionChanged.Add(ORG_LaksamanaSelection)
+-- function ORG_LaksamanaSelectionTwo(playerID, unitID, x, y, a5, bool)
+    -- if bool then
+        -- local pPlayer = Players[playerID]
+        -- local pUnit = pPlayer:GetUnitByID(unitID);
+        -- if pUnit:GetUnitType() == iLaksamana then
+            -- ContextPtr:SetHide(false)
+            -- Controls.LaksamanaTradeBackground:SetHide(false)
+            -- pSelUnit = pUnit;
+            -- Controls.LaksamanaTrade:SetDisabled(not ORG_CanDoLaksamanaBonus(pUnit))
 
-function ORG_LaksamanaSelectionTwo(playerID, unitID, x, y, a5, bool)
-    if bool then
-        local pPlayer = Players[playerID]
-        local pUnit = pPlayer:GetUnitByID(unitID);
-        if pUnit:GetUnitType() == iLaksamana then
-            ContextPtr:SetHide(false)
-            Controls.LaksamanaTradeBackground:SetHide(false)
-            pSelUnit = pUnit;
-            Controls.LaksamanaTrade:SetDisabled(not ORG_CanDoLaksamanaBonus(pUnit))
-
-            local sTT = Locale.ConvertTextKey("[COLOR_POSITIVE_TEXT]Promote Trade![ENDCOLOR][NEWLINE][NEWLINE]Expend this unit to boost gold from trade by 20%.[NEWLINE][NEWLINE]Unit must be stationed within a controlled city, and have moves remaining.")
-            Controls.LaksamanaTrade:LocalizeAndSetToolTip("" .. sTT .. "")
-        end
-    else
-        Controls.LaksamanaTradeBackground:SetHide(true)
-        pSelUnit = nil;
-    end
-end
-Events.UnitSelectionChanged.Add(ORG_LaksamanaSelectionTwo)
+            -- local sTT = Locale.ConvertTextKey("[COLOR_POSITIVE_TEXT]Promote Trade![ENDCOLOR][NEWLINE][NEWLINE]Expend this unit to boost gold from trade by 20%.[NEWLINE][NEWLINE]Unit must be stationed within a controlled city, and have moves remaining.")
+            -- Controls.LaksamanaTrade:LocalizeAndSetToolTip("" .. sTT .. "")
+        -- end
+    -- else
+        -- Controls.LaksamanaTradeBackground:SetHide(true)
+        -- pSelUnit = nil;
+    -- end
+-- end
+-- Events.UnitSelectionChanged.Add(ORG_LaksamanaSelectionTwo)
 
 function Laksamana_DoTurn(playerID)
 	local pPlayer = Players[playerID]
