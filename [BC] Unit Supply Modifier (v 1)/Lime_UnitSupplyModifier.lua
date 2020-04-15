@@ -3,6 +3,9 @@ local productionDebuffSea = GameInfoTypes["BUILDING_LIME_PRODUCTION_DEBUFF_SEA"]
 local unitDomainLand = GameInfoTypes["UNIT_WARRIOR"]
 local unitDomainSea = GameInfoTypes["UNIT_GALLEASS"]
 
+local min = math.min
+local max = math.max
+
 function Lime_NewUnitSupply(iPlayer)
   local player = Players[iPlayer]
   if not player then return end
@@ -16,11 +19,10 @@ function Lime_NewUnitSupply(iPlayer)
       local landUnitProductionModifier = city:GetUnitProductionModifier(unitDomainLand)
       local seaUnitProductionModifier = city:GetUnitProductionModifier(unitDomainSea)
 
-      city:SetNumRealBuildings(productionDebuffLand, max(0, landUnitProductionModifier - min(95, numUnitsOver)))
-      city:SetNumRealBuildings(productionDebuffSea, max(0, seaUnitProductionModifier - min(95, numUnitsOver)))
+      city:SetNumRealBuilding(productionDebuffLand, max(0, landUnitProductionModifier - min(95, numUnitsOver)))
+      city:SetNumRealBuilding(productionDebuffSea, max(0, seaUnitProductionModifier - min(95, numUnitsOver)))
 
     end
   end
 end
-
-Events.PlayerDoTurn.Add(Lime_NewUnitSupply)
+GameEvents.PlayerDoTurn.Add(Lime_NewUnitSupply)

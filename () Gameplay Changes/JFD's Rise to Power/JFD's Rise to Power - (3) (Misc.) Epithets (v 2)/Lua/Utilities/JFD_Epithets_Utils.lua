@@ -194,7 +194,7 @@ function Player.SetHasEpithet(player, epithetID, setHasEpithet)
 			JFD_RTP[playerID] = {}
 		end
 		JFD_RTP[playerID]["EPITHET"] = epithetID
-		LuaEvent.JFD_EpithetGranted(playerID, epithetID)
+		LuaEvents.JFD_EpithetGranted(playerID, epithetID)
 	else
 		JFD_RTP[playerID] = {}
 	end

@@ -94,7 +94,7 @@ end
 LuaEvents.IGE_Plop.Add(OnPlop);
 
 function OnSetMouseMode(mode)
-	print("IGE_SetMouseMode"..", mode="..getstr(mode));
+	--print("IGE_SetMouseMode"..", mode="..getstr(mode));
 end
 LuaEvents.IGE_SetMouseMode.Add(OnSetMouseMode);
 
@@ -117,27 +117,27 @@ LuaEvents.IGE_Undo.Add(OnUndo);
 -- PANELS & TABS MANAGEMENT
 --===============================================================================================
 function OnSelectedPanel(ID)
-	print("IGE_SelectedPanel"..", ID="..getstr(ID));
+	--print("IGE_SelectedPanel"..", ID="..getstr(ID));
 end
 LuaEvents.IGE_SelectedPanel.Add(OnSelectedPanel);
 
 function OnRegisterTab(ID, name, icon, group, toolTip, topData)
-	print("IGE_RegisterTab"..", ID="..getstr(ID)..", name="..getstr(name)..", icon="..getstr(icon)..", group="..getstr(group));
+	--print("IGE_RegisterTab"..", ID="..getstr(ID)..", name="..getstr(name)..", icon="..getstr(icon)..", group="..getstr(group));
 end
 LuaEvents.IGE_RegisterTab.Add(OnRegisterTab);
 
 function OnSetTabData(data)
-	print("IGE_SetTabData"..", data="..getstr(data));
+	--print("IGE_SetTabData"..", data="..getstr(data));
 end
 LuaEvents.IGE_SetTabData.Add(OnSetTabData);
 
 function OnClosePlayerSelection()
-	print("IGE_ClosePlayerSelection");
+	--print("IGE_ClosePlayerSelection");
 end
 LuaEvents.IGE_ClosePlayerSelection.Add(OnClosePlayerSelection);
 
 function OnSetTab(tab)
-	print("IGE_SetTab"..", tab="..getstr(tab));
+	--print("IGE_SetTab"..", tab="..getstr(tab));
 end
 LuaEvents.IGE_SetTab.Add(OnSetTab);
 
@@ -145,12 +145,12 @@ LuaEvents.IGE_SetTab.Add(OnSetTab);
 -- OPTIONS
 --===============================================================================================
 function OnUpdateOptions(options)
-	print("IGE_UpdateOptions"..", options="..getstr(options));
+	--print("IGE_UpdateOptions"..", options="..getstr(options));
 end
 LuaEvents.IGE_UpdateOptions.Add(OnUpdateOptions);
 
 function OnUpdatedOptions(IGE)
-	print("IGE_UpdatedOptions"..", IGE="..getstr(IGE));
+	--print("IGE_UpdatedOptions"..", IGE="..getstr(IGE));
 end
 LuaEvents.IGE_UpdatedOptions.Add(OnUpdatedOptions);
 

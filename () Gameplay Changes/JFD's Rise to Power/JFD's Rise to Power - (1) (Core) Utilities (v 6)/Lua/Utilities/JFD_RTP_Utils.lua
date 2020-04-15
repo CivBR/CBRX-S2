@@ -145,7 +145,7 @@ end
 --Player:SendWorldEvent
 local notificationWorldEventID = NotificationTypes["NOTIFICATION_DIPLOMACY_DECLARATION"]
 function Player.SendWorldEvent(player, description)
-	print("Sending World Event: ", description)
+	--print("Sending World Event: ", description)
 	local activePlayer = Players[Game.GetActivePlayer()]
 	local playerTeam = Teams[player:GetTeam()]
 	if (not playerTeam:IsHasMet(Game.GetActiveTeam())) then return end
