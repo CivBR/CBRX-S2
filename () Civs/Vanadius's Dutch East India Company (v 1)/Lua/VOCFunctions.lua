@@ -158,18 +158,18 @@ function VOCSpices_CityCapture(oldOwnerID, isCapital, iX, iY, newOwnerID, iPop, 
 							if player:IsHuman() then
 								Events.GameplayAlertMessage(Locale.ConvertTextKey("We have secured new land for [ICON_RES_NUTMEG] [COLOR_POSITIVE_TEXT]Nutmeg[ENDCOLOR] production!"))
 							end
-						end
-							else
-								city:SetNumRealBuilding(GameInfoTypes["BUILDING_VANA_DVOC_4"], 1)
-								if player:IsHuman() then
-									Events.GameplayAlertMessage(Locale.ConvertTextKey("We have secured new land for [ICON_RES_SPICES] [COLOR_POSITIVE_TEXT]Spices[ENDCOLOR] production!"))
-								end
+						else
+							city:SetNumRealBuilding(GameInfoTypes["BUILDING_VANA_DVOC_4"], 1)
+							if player:IsHuman() then
+								Events.GameplayAlertMessage(Locale.ConvertTextKey("We have secured new land for [ICON_RES_SPICES] [COLOR_POSITIVE_TEXT]Spices[ENDCOLOR] production!"))
 							end
 						end
 					end
 				else
 					if player:IsHuman() then
 						Events.GameplayAlertMessage(Locale.ConvertTextKey("The captured land is unsuitable for Spice production!"))
+					end
+				end
 			end
 		end
 	end
@@ -265,7 +265,7 @@ function VOC_DummyBuildingUpdate(playerID)
 	if pPlayer:GetCivilizationType() ~= iCiv then return end
 	if not pPlayer:IsAlive() then return end
 	for city in pPlayer:Cities() do
-	local cityPlot = Map.GetPlot(city:GetX(), city:GetY())
+		local cityPlot = Map.GetPlot(city:GetX(), city:GetY())
 		-- check for opperhoofd and place dummy
 		if VOC_CheckGM(city) then
 		local numLuxs	= 0
@@ -273,6 +273,7 @@ function VOC_DummyBuildingUpdate(playerID)
 				if (city:IsWorkingPlot(loopPlot) and (loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_PEARLS or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_GOLD or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_SILVER or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_GEMS or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_MARBLE or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_IVORY or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_FUR or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_DYE or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_SPICES or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_SILK or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_SUGAR or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_COTTON or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_WINE or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_INCENSE or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_JEWELRY or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_PORCELAIN or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_COPPER or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_SALT or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_CRAB or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_TRUFFLES or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_CITRUS)) then
 					numLuxs = numLuxs + 1
 				end
+			end
 			pCity:SetNumRealBuilding(iYieldDummy, mathMin(JFD_GetNumOutgoingTradeRoutes(playerID, city) + numLuxs))
 		else
 			pCity:SetNumRealBuilding(iYieldDummy, 0)
@@ -280,7 +281,6 @@ function VOC_DummyBuildingUpdate(playerID)
 	end
 
 end
-
 GameEvents.PlayerDoTurn.Add(VOC_DummyBuildingUpdate)
 
 
