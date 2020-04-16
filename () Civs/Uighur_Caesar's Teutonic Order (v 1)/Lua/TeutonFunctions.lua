@@ -31,7 +31,7 @@ local isTeutonCivActive	= JFD_IsCivilisationActive(teutonID)
 function TeutonPolicyStart(player)
 	for iPlayer=0, GameDefines.MAX_CIV_PLAYERS - 1 do
 		local player = Players[iPlayer]
-		if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_UC_TEUTONS"] and player:IsAlive() then
+		if (player:GetCivilizationType() == teutonID) and player:IsAlive() then
 			if not player:HasPolicy(GameInfoTypes["POLICY_UC_TEUTON"]) then
 				player:SetNumFreePolicies(1)
 				player:SetNumFreePolicies(0)
@@ -184,7 +184,7 @@ function TeutonHonorCheck(player)
 	end
 	
 	for k, v in ipairs(tHonorPolicies) do
-		if (honor >= v.Cost) and (not player:HasPolicy(v.Policy) then
+		if (honor >= v.Cost) and (not player:HasPolicy(v.Policy)) then
 			player:SetNumFreePolicies(1)
 			player:SetNumFreePolicies(0)
 			player:SetHasPolicy(v.Policy, true)
