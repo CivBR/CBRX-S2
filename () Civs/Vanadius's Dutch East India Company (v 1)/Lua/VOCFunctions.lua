@@ -229,8 +229,8 @@ GameEvents.CityTrained.Add(Vlad_VOC_CityTrained)
 ---------------------------------------------
 
 local iCiv = GameInfoTypes["CIVILIZATION_VANA_VOC"]
-local iDutchGMClass = GameInfoTypes[GameInfo.Units[iDutchGM].Class]
 local iDutchGM = GameInfoTypes["UNIT_VANA_OPPERHOOFD"]
+local iDutchGMClass = GameInfoTypes[GameInfo.Units[iDutchGM].Class]
 local iYieldDummy = GameInfoTypes["BUILDING_VANA_GM_BUILDING"]
 local mathMin  = math.min
 
@@ -274,9 +274,9 @@ function VOC_DummyBuildingUpdate(playerID)
 					numLuxs = numLuxs + 1
 				end
 			end
-			pCity:SetNumRealBuilding(iYieldDummy, mathMin(JFD_GetNumOutgoingTradeRoutes(playerID, city) + numLuxs))
+			city:SetNumRealBuilding(iYieldDummy, mathMin(JFD_GetNumOutgoingTradeRoutes(playerID, city) + numLuxs))
 		else
-			pCity:SetNumRealBuilding(iYieldDummy, 0)
+			city:SetNumRealBuilding(iYieldDummy, 0)
 		end
 	end
 

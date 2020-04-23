@@ -35,7 +35,7 @@ local Decisions_CLKulinEstablishTanderrum = {}
                         for pCity in pPlayer:Cities() do
                                 iCityCount = iCityCount + 1
                         end
-                        if (iCityCount < iCityReq) then return true, false, end
+                        if (iCityCount < iCityReq) then return true, false end
                         Decisions_CLKulinEstablishTanderrum.Desc = Locale.ConvertTextKey("TXT_KEY_DECISIONS_CLKULINESTABLISHTANDERRUM_DESC", iTanderrumGoldCost * iMod, iTanderrumCultureCost * iMod, iTanderrumMagistrateCost, iCityReq, iCSAllyReq, iOBCultureBoost)
                         if (pPlayer:GetGold >= (iTanderrumGoldCost * iMod) and pPlayer:GetNumResourceAvailable(iMagistrate, false) >= iTanderrumMagistrateCost and pPlayer:GetJONSCulture() >= (iTanderrumCultureCost * iMod)) then
                                 return true, true
