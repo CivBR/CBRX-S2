@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/10/16 11:51:00 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_UC_HEJAZ_ADJECTIVE">
+			<Text>Hejazi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_HEJAZ_DESC">
+			<Text>Kingdom of Hejaz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_UC_HEJAZ">
+			<Text>Peace be upon your great Sharif Hussein bin Ali of Mecca! During the Great War, you heralded the Arab cause for independence from the Ottoman Empire. Through the use of diplomacy you managed to receive aid from European powers that would prove instrumental in the war. Although these allies would ultimately go back on their promise of creating a Pan-Arab nation headed by the Hashemites, you would be awarded the Kingdom of Hejaz for your efforts. However, the greater legacy of the Arab Revolt would be the establishment of nearly all modern Middle Eastern countries, for which Arabs today still respect you.[NEWLINE][NEWLINE]Righteous Sharif, the Arab people have become disunited a require a grand leader to lead them to greatness once again. Can you create a broad coalition of allies to achieve your peoples's goals? Can you resist colonial intervention and insure independence? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_HEJAZ_SHORT_DESC">
+			<Text>Hejaz</Text>
+		</Row>
+		<!--Agueybana II-->
+		<Row Tag="TXT_KEY_LEADER_UC_HUSSEIN">
+			<Text>Hussein bin Ali</Text>
+		</Row>
+		<!--Trait-->
+		<Row Tag="TXT_KEY_TRAIT_UC_HEJAZ_SHORT">
+			<Text>Race to Damascus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UC_HEJAZ">
+			<Text>When an allied Civ gains a Great General, receive points toward one and XP for all land units. All Gun unit may move after attacking.</Text>
+		</Row>
+		<!--FOREIGN_OP-->
+		<Row Tag="TXT_KEY_UNIT_UC_FOREIGN_OP">
+			<Text>Foreign Op</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_UC_FOREIGN_OP">
+			<Text>Replaces Great General. Provides a smaller combat bonus to nearby allied units. May apply debuffs to nearby enemy units 3 times. (Debuffs don't stack and are removed upon making peace)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_FOREIGN_OP_STRATEGY">
+			<Text>Replaces Great General. Provides a smaller combat bonus to nearby allied units. May apply debuffs to nearby enemy units 3 times. (Debuffs don't stack and are removed upon making peace)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_FOREIGN_OP_TEXT">
+			<Text>The Arab Revolt was aided for the help of European powers, most notably the British and the France. Of the many European officers who offered assistance to the Arab cause were T.E Lawrence, Edmund Allenby, and Henry Chauvel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_SHARIF">
+			<Text>Sharifian Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_SHARIF_STRATEGY">
+			<Text>GWI Replacement. [ICON_ARROW_RIGHT] Double movement on Desert tiles. Receives a slight combat bonus and no cost to pillage when starting a turn with no adjancent enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_UC_SHARIF">
+			<Text>GWI Replacement. [ICON_ARROW_RIGHT] Double movement on Desert tiles. Receives a slight combat bonus and no cost to pillage when starting a turn with no adjancent enemies.</Text>
+		</Row>
+		<!-- City Names-->
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_0">
+			<Text>Mecca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_1">
+			<Text>Medina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_2">
+			<Text>Jeddah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_3">
+			<Text>Ta'if</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_4">
+			<Text>Yanbu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_5">
+			<Text>Tabuk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_6">
+			<Text>Rabigh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_7">
+			<Text>Badr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_8">
+			<Text>Al Bahah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_9">
+			<Text>Al Qunfidhah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_10">
+			<Text>Al Jumum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_11">
+			<Text>Khaybar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_12">
+			<Text>Tayma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_13">
+			<Text>Duba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_14">
+			<Text>Haql</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_15">
+			<Text>Khamis Mushayt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_16">
+			<Text>Qal'at Bishah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_17">
+			<Text>Bareq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_18">
+			<Text>Abha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_19">
+			<Text>Al Namas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_20">
+			<Text>Sarat Ubaida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_21">
+			<Text>Baljorash</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_22">
+			<Text>Almikhwah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_23">
+			<Text>Rahwat Albar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_24">
+			<Text>Sabt Alalaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_HEJAZ_25">
+			<Text>Al Qunfunda</Text>
+		</Row>
+		<!--Unique Dialogue-->
+		<Row Tag="TXT_KEY_LEADER_UC_HUSSEIN_FIRST_GREETING_1">
+			<Text>Peace be upon you traveler. Welcome to Hejaz, land of the two most holy mosques. I am their custodian, Sharif Hussein bin Ali. Do you come for piety or conflict?</Text>
+		</Row>
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_LEADER_UC_HUSSEIN_DESC">
+			<Text>Hussein bin Ali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HUSSEIN_LIVED">
+			<Text>1853 - 1931 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HUSSEIN_NAME">
+			<Text>Hussein bin Ali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HUSSEIN_SUBTITLE">
+			<Text>Leader of the Hejaz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_HUSSEIN_TITLES_1">
+			<Text>Sharif of Mecca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_0">
+			<Text>T.E Lawrence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_1">
+			<Text>Edmund Allenby</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_2">
+			<Text>Harry Chauvel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_3">
+			<Text>John Maxwell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_4">
+			<Text>Archibald Murray</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_5">
+			<Text>Edward Bulfin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_6">
+			<Text>Philip Chetwode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_7">
+			<Text>Wiliam Meldrum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_8">
+			<Text>John Shea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_9">
+			<Text>George J. Younghusband</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_10">
+			<Text>Percival Hill-Thompson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_11">
+			<Text>John Nixon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_12">
+			<Text>Percy Lake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_13">
+			<Text>Frederick Maude</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_14">
+			<Text>Charles Townshend</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_15">
+			<Text>Henry Hodgson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_16">
+			<Text>Henry John Macandrew</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_17">
+			<Text>Cyril Rodney Harbord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_18">
+			<Text>George Barrow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_19">
+			<Text>Lachlan Wilson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_20">
+			<Text>William Grant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_21">
+			<Text>Edward Chaytor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_22">
+			<Text>Stewart Francis Newcombe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_23">
+			<Text>Henry McMahon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_24">
+			<Text>Noel Brazier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_25">
+			<Text>Harry Olden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_FOREIGN_OP_26">
+			<Text>William Raine Marshall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_SHARIF">
+			<Text>Asymmetrical Warfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_SHARIF_HELP">
+			<Text>Double movement on Desert. May pillage for free and gains a slight combat bonus when starting adjacent to no enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_FOREIGN_OP_SUPPORT">
+			<Text>Foreign Op Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_FOREIGN_OP_SUPPORT_HELP">
+			<Text>+10% Combat Strength from starting near a friendly Foreign Op.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_FOREIGN_OP">
+			<Text>Saboteur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_FOREIGN_OP_3_HELP">
+			<Text>May Sabotage 3 times.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_FOREIGN_OP_2_HELP">
+			<Text>May Sabotage 2 times.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_FOREIGN_OP_1_HELP">
+			<Text>May Sabotage 1 time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_HEJAZ_DEBUFF">
+			<Text>Sabotaged!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_HEJAZ_MOVEMENT_DEBUFF">
+			<Text>Sabotaged by a Foreign Op. -1 [ICON_ARROW_RIGHT] Moves until you make peace with Hejaz.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF">
+			<Text>Sabotaged by a Foreign Op. -10% [ICON_STRENGTH] Strength until you make peace with Hejaz.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_HEJAZ_HEAL_DEBUFF">
+			<Text>Sabotaged by a Foreign Op. -5 HP per heal until you make peace with Hejaz.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_HEJAZ_SIEGE_DEBUFF">
+			<Text>Sabotaged by a Foreign Op. -50% [ICON_STRENGTH] Strength against cities until you make peace with Hejaz.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_HEJAZ_RANGE_DEBUFF">
+			<Text>Sabotaged by a Foreign Op. -1 Range until you make peace with Hejaz.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_HEJAZ_SABOTAGE">
+			<Text>Sabotage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_HEJAZ_SABOTAGE_TOOLTIP">
+			<Text>Applies a random debuff to all land enemies within 2 tiles. This debuff will not be removed until the enemy makes peace with Hejaz.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UC_HEJAZ_UA">
+			<Text>+{1_Num} [ICON_GREAT_PEOPLE] Foreign Op points and +15 XP for all units from {2_Name} earning a Great General.</Text>
+		</Row>
+		
+		
+	</Language_en_US>
+  
+</GameData>

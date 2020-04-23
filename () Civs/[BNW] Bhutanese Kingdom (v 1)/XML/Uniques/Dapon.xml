@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/10/2014 6:07:17 AM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_ARCHER</Class>
+			<Type>UNIT_DAPON</Type>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
+			<Combat>5</Combat>
+			<RangedCombat>7</RangedCombat>
+			<Cost>40</Cost>
+			<FaithCost>80</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_DAPON</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_DAPON_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_DAPON_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_DAPON</Help>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_COMPOSITE_BOWMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_DAPON</UnitArtInfo>
+			<UnitFlagAtlas>DAPON_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_BHUTAN</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_DAPON</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_DAPON</UnitType>
+			<UnitClassType>UNITCLASS_COMPOSITE_BOWMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_DAPON</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DAPON</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DAPON</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_DAPON</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DAPON</UnitType>
+			<PromotionType>PROMOTION_DAPON</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_DAPON</Type>
+			<Description>TXT_KEY_PROMOTION_DAPON</Description>
+			<Help>TXT_KEY_PROMOTION_DAPON_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>2</OrderPriority>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_DAPON</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_DAPONBONUS</Type>
+			<Description>TXT_KEY_PROMOTION_DAPONBONUS</Description>
+			<Help>TXT_KEY_PROMOTION_DAPONBONUS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>2</OrderPriority>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_DAPONBONUS</PediaEntry>
+			<CombatPercent>10</CombatPercent>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_DAPON">
+			<Text>Arrow Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAPON_HELP">
+			<Text>This unit provides a 10% Combat Bonus to adjacent Ranged units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAPONBONUS">
+			<Text>Arrow Militia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DAPONBONUS_HELP">
+			<Text>10% Combat Bonus from adjacent Dapon.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

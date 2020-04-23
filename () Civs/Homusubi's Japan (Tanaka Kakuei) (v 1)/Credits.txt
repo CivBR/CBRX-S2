@@ -1,0 +1,25 @@
+-- Text File1
+-- Author: Homusubi
+-- DateCreated: 9/22/2019 8:46:24 PM
+--------------------------------------------------------------
+
+Tanaka Kakuei's Japan - Credits
+
+--------------------------------------------------------------
+
+Homusubi: original author, XML, art, most Lua
+
+TopHatPaladin: Lua advisory, most of Lockheed Fighter Lua
+JFD: Lua advisory/snippets, especially around the Shinkansen effects; IsCivilisationActive utility function
+PorkBean: Lua advisory/snippets, especially around the Keiretsu
+
+Whoward: RouteConnections.lua file (used to make Shinkansen effects work; recommended by JFD)
+Neirai: GetNearestCity utility function
+
+Peace theme by Sakamoto Kyu (cover by Akmal Hariri)
+War theme by Koseki Yuji (cover by Bear McCreary)
+
+Civilopedia:
+Homusubi (Keiretsu, Lockheed Fighter, Shinkansen, part of leader)
+Firaxis (civ)
+Online Encyclopaedia Britannica (most of leader)

@@ -1,0 +1,12 @@
+
+JakeWalrusWhale: Research, Code, Mod Support, Design, and Art (Map, UB and UU Icons)
+
+DarthStarkiller: Art (Map, Civ Icon and Colors)
+
+RawSasquatch: Art (Leaderscene, Dawn of Man Image, and Leader Icon)
+
+Danrell: Unit Model
+
+HoopThrower: Finding Music
+	-Peace: "Saraton" by Dilorom Saidaminova
+	-War: "In Memory of My Friends" by Dilorom Saidaminova

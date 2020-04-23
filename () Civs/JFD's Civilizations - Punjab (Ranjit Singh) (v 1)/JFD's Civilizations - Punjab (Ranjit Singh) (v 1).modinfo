@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="423c7746-cb0b-474b-9454-07111553866a" version="1">
+  <Properties>
+    <Name>JFD's Civilizations - Punjab (Ranjit Singh)</Name>
+    <Teaser>Adds [COLOR_CYAN]Punjab under Ranjit Singh[ENDCOLOR]. Click for details.</Teaser>
+    <Description>PUNJAB (RANJIT SINGH)[NEWLINE][NEWLINE]UNIQUE TRAIT: SARKAR-I KHALAR[NEWLINE][ICON_BULLET]Cities with your Religion enter a WLTKD instead of [ICON_RESISTANCE] Resistance when conquered.[NEWLINE][ICON_BULLET]Conquered cities start with your Religious Building (or a Monastery).[NEWLINE][NEWLINE]UNIQUE BUILDING: PHAUNDARI[NEWLINE][ICON_BULLET]Replaces Arsenal/Gunsmith.[NEWLINE][ICON_BULLET]Siege Units trained in this city receive a 15% combat bonus when stacked with a Great General.[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Production when training Siege Units.[NEWLINE][NEWLINE]UNIQUE UNIT: AKALI[NEWLINE][ICON_BULLET]Replaces Rifleman.[NEWLINE][ICON_BULLET]Possesses a short Ranged Attack.[NEWLINE][ICON_BULLET]Cheap to purchase with [ICON_PEACE] Faith.[NEWLINE][ICON_BULLET]Starts with a free Promotion if trained in a Holy City.</Description>
+    <Authors>JFD, Rawsasquatch, Leugi, Deliverator, Janboruta</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Pouakai's Enlightenment Era" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="49504A3B98FD91B9364903D9D89433E7" import="1">Art/Graphics/Akali/Akali.dds</File>
+    <File md5="A5FEE47F4CFEACDBC5FB3996753361BC" import="1">Art/Graphics/Akali/Akali.fxsxml</File>
+    <File md5="60E7886F9F62FEEED91732BA7BB632B9" import="1">Art/Graphics/Akali/Akali.gr2</File>
+    <File md5="6B9CF0D86F68C5277D9E26410CDE393F" import="1">Art/Graphics/Akali/sv_Akali.dds</File>
+    <File md5="47ECEC5B7C12934DA49B83713A7F8B1D" import="1">Art/Icons/JFD_Punjab_AlphaAtlas_128.dds</File>
+    <File md5="2BA78DE54BF0D71859EBC15A8CD230C6" import="1">Art/Icons/JFD_Punjab_AlphaAtlas_16.dds</File>
+    <File md5="8B823DC6686864B56647A7406FBA31E1" import="1">Art/Icons/JFD_Punjab_AlphaAtlas_24.dds</File>
+    <File md5="BCAEECB3E1E4B78268A612A023EC3AEB" import="1">Art/Icons/JFD_Punjab_AlphaAtlas_32.dds</File>
+    <File md5="CF3474E04C80EB66061E52BB61C34308" import="1">Art/Icons/JFD_Punjab_AlphaAtlas_45.dds</File>
+    <File md5="E7B2C97FEB1BA01A85D91CDF4675BDC5" import="1">Art/Icons/JFD_Punjab_AlphaAtlas_48.dds</File>
+    <File md5="B3827DE77F42B313B6A8DEF1256DB73A" import="1">Art/Icons/JFD_Punjab_AlphaAtlas_64.dds</File>
+    <File md5="A0D3FE5C5707A2129C1F2A3E792EC75D" import="1">Art/Icons/JFD_Punjab_AlphaAtlas_80.dds</File>
+    <File md5="B9D2BDF1E81671DF5762238C11795DE0" import="1">Art/Icons/JFD_Punjab_IconAtlas_128.dds</File>
+    <File md5="412D7548E82BDB69B7A7253B395B5B4A" import="1">Art/Icons/JFD_Punjab_IconAtlas_256.dds</File>
+    <File md5="BA9F24CDC4B6B4E840287F15CC6A4A1E" import="1">Art/Icons/JFD_Punjab_IconAtlas_32.dds</File>
+    <File md5="3DD9C6952D031518405D03A248E59898" import="1">Art/Icons/JFD_Punjab_IconAtlas_45.dds</File>
+    <File md5="4AA2A2B8EF62F9BDAFA079BA6C4866F4" import="1">Art/Icons/JFD_Punjab_IconAtlas_64.dds</File>
+    <File md5="1183871BF9B12992A9A8FFB2F526D914" import="1">Art/Icons/JFD_Punjab_IconAtlas_80.dds</File>
+    <File md5="F6D6134EB3DA0C349247D8215BB796A2" import="1">Art/Icons/JFD_Punjab_UnitFlagAtlas_32.dds</File>
+    <File md5="21CDCEED7D81983A502F1C20ED00BC57" import="1">Art/Icons/Tomatekh_PromotionAtlas_256.dds</File>
+    <File md5="4515CFD32CBCA5FD9B31BA7E74BDF85D" import="1">Art/Icons/Tomatekh_PromotionAtlas_32.dds</File>
+    <File md5="2D64910169FF17FBFD6D2CFAAAADE518" import="1">Art/Icons/Tomatekh_PromotionAtlas_45.dds</File>
+    <File md5="D2E665F6B269588CF10F19FE789271C9" import="1">Art/Icons/Tomatekh_PromotionAtlas_64.dds</File>
+    <File md5="7F9188A388D0995AFBD911907CD21335" import="1">Art/Leaderscene/JFD_RanjitSingh_Diplo.dds</File>
+    <File md5="0847B6A46A9E639E6BDC8D883CA24D3E" import="1">Art/Leaderscene/JFD_RanjitSingh_Scene.xml</File>
+    <File md5="739407B95304DB8782F28B76D418F763" import="1">Art/Maps/JFD_DOM_RanjitSingh.dds</File>
+    <File md5="1D6CB7B5BF9A647D52B8D9F639535164" import="1">Art/Maps/JFD_MapPunjab512.dds</File>
+    <File md5="394066050FDCC4D3EF136BBB114DFA51" import="1">Audio/JFD_RanjitSingh_Peace.mp3</File>
+    <File md5="E27AE08887795C2F0B66C40574D3AEDF" import="1">Audio/JFD_RanjitSingh_War.mp3</File>
+    <File md5="3BF458CE00A6FB56CF9EB9187CD368AF" import="0">Core/Punjab_ArtDefines.sql</File>
+    <File md5="1456549E5AF2FC30A32F9BB467F92FE8" import="0">Core/Punjab_GameDefines.sql</File>
+    <File md5="A6D52477D1DD618ABEB457C2FA5A2BB6" import="0">Core/Punjab_ModSupport.sql</File>
+    <File md5="A807023D7E16BFBDE93009E2429DDBB8" import="0">Core/Punjab_GameText.xml</File>
+    <File md5="B29003AC19DFFC21F08EC6B3EAE1FBE9" import="0">Credits.txt</File>
+    <File md5="8077AABF0F00B8E86C99CFF741C947C7" import="0">Lua/JFD_Civs_Punjab_Functions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Punjab_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Punjab_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Punjab_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Punjab_ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Civs_Punjab_Functions.lua">
+      <Name>JFD_Civs_Sikhs_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

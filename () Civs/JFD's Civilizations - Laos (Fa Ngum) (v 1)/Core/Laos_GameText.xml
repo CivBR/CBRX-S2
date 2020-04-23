@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--MOD-->
+		<Row Tag="TXT_KEY_MOD_JFD_LAOS_DESCRIPTION">
+			<Text>LAOS (FA NGUM)[NEWLINE][NEWLINE]UNIQUE TRAIT: ONE MILLION ELEPHANTS AND A WHITE PARASOL[NEWLINE][ICON_BULLET]Conquering Holy Cities and City-States converts them to your Religion and grants a Uparaja.[NEWLINE][ICON_BULLET] Religious Followers in owned cities increase [ICON_FOOD] Growth in the Capital.[NEWLINE][NEWLINE]UNIQUE UNIT: UPARAJA[NEWLINE][ICON_BULLET]Replaces Great General.[NEWLINE][ICON_BULLET]Spawns two War Elephants.[NEWLINE][ICON_BULLET]War Elephants have 100% [ICON_STRENGTH] Combat Strength versus cities.[NEWLINE][ICON_BULLET]War Elephants have double [ICON_MOVES] Moves in Jungle and Forest.[NEWLINE][NEWLINE]UNIQUE BUILDING: THART[NEWLINE][ICON_BULLET]Replaces Shrine.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Local Happiness.[NEWLINE][ICON_BULLET]Reduces the [ICON_RESISTANCE] Resistance turns of other cities that were originally founded by the owner of the city with a Thart.</Text>
+		</Row>
+		<!--LAOS-->
+		<Row Tag="TXT_KEY_CIV_JFD_LAOS_ADJECTIVE">
+			<Text>Laotian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_LAOS_DESC">
+			<Text>Laotian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_LAOS_SHORT_DESC">
+			<Text>Laos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_LAOS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_LAOS_TEXT_1">
+			<Text>Although archaeological evidence indicates that settlers along the Mekong had learned agriculture, metallurgy, and pottery making by 3000 bc, little is known about the early history of the land that today bears the name of Laos. The lowland Lao are believed to be the descendants of Thai tribes that were pushed southward in the 8th century. According to tradition, the kingdom called Lan Xang ("a million elephants") was established in 756 by King Thao Khoun Lo. In 1353, it was reunified by Fa-Ngoum, who had been raised at the court of Angkor in Kampuchea and returned with a force of Khmer troops. He is also credited with the introduction of Hinayana Buddhism into Laos. Lan Xang waged intermittent wars with the Khmers, Burmese, Vietnamese, and Thai and developed an effective administrative system, an elaborate military organization, and an active commerce with neighboring countries. In 1707, internal dissensions brought about a split of Lan Xang into two kingdoms, Luangphrabang in the north (present-day upper Laos) and Vientiane in the south (lower Laos). Strong neighboring states took advantage of this split to invade the region. Vientiane was overrun and annexed by Siam (Thailand) in 1828, while Luangphrabang became a vassal of both the Chinese and the Vietnamese. In 1893, France, which had already established a protectorate over what is now central and northern Vietnam, extended its control to both Vientiane and Luangphrabang, and Laos was ruled by France as part of Indochina. Although French control over Luangphrabang took the nominal form of a protectorate, the French colonial administration directly ruled the rest of Laos, legal justification being ultimately provided in the Lao-French convention of 1917.[NEWLINE][NEWLINE]During World War II, Laos was occupied by Japan. After the Japanese proclaimed on 10 March 1945 that "the colonial status of Indochina has ended," the king of Luangphrabang, Sisavang Vong, was compelled to issue a declaration of independence. the nationalist Free Lao (Lao Issarak) movement deposed the monarch soon after, but French forces reoccupied Laos, and on 27 August 1946, France concluded an agreement establishing him as king of Laos and reimposing French domination over the country. In May 1947, the king established a constitution providing for a democratic government. On 19 July 1949, Laos nominally became an independent sovereign state within the French Union. Additional conventions transferring full sovereignty to Laos were signed on 6 February 1950 and on 22 October 1953. All special economic ties with France and the other Indochinese states were abolished by the Paris pacts of 29 December 1954. In the meantime, Vietnamese Communist (Viet-Minh) forces had invaded Laos in the spring of 1953. A Laotian Communist movement, the Pathet Lao (Lao State), created on 13 August 1950 and led by Prince Souphanouvong, collaborated with the Viet-Minh during its Laotian offensive. Under the Geneva cease-fire of 21 July 1954, all Viet-Minh and most French troops were to withdraw, and the Pathet Lao was to pull back to two northern provinces, pending reunification talks with the national government under the leadership of Souvanna Phouma (Souphanouvong's half-brother). The negotiations were completed on 2 November 1957, and the Pathet Lao transformed itself into a legal political party called the National Political Front (Neo Lao Hak Xat). However, a political swing to the right that led to the ouster of Souvanna Phouma as prime minister, coupled with the refusal of the Pathet Lao forces to integrate into the Royal Lao Army, led to a renewal of fighting in May 1959.[NEWLINE][NEWLINE]A bloodless right-wing coup in January 1960 was answered in August by a coup led by paratroops, under the command of Capt. Kong Le; in the ensuing turmoil, Souvanna Phouma returned to power. After a three-day artillery battle that destroyed much of Vientiane, right-wing military elements under Gen. Phoumi Nosavan and Prince Boun Oum occupied the capital on 11 December. A new right-wing government under Prince Boun Oum was established, but further military reverses, despite a heavy influx of US aid and advisers, caused the government to ask for a cease-fire in May 1961. An international conference assembled in Geneva to guarantee the cease-fire. All three Laotian political factions agreed on 11 June 1962 to accept a coalition government, with Souvanna Phouma as prime minister. On 23 July, the powers assembled at Geneva signed an agreement on the independence and neutrality of Laos, which provided for the evacuation of all foreign forces by 7 October. The United States announced full compliance, under supervision of the International Control Commission (ICC), set up in 1954. Communist forces were not withdrawn. Fighting resumed in the spring of 1963, and Laos was steadily drawn into the role of a main theater in the escalating Vietnam War. the Laotian segment of the so-called Ho Chi Minh trail emerged as a vital route for troops and supplies moving south from the Democratic Republic of Vietnam (DRV), also known as North Vietnam, and was the target for heavy and persistent US bombing raids. While the Vientiane government was heavily bolstered by US military and economic support, the Pathet Lao received key support from the DRV, which was reported to have 20,000 troops stationed in Laos by 1974. Efforts to negotiate a settlement in Laos resumed with US backing in 1971, but a settlement was not concluded until February 1973, a month after a Vietnam peace agreement was signed in Paris. On 5 April 1974, a new coalition government was set up, with equal representation for Pathet Lao and non-Communist elements. Souvanna Phouma, 73 years old and in failing health, stayed on as prime minister, while Prince Souphanouvong was brought closer to the center of political authority as head of the newly created Joint National Political Council.[NEWLINE][NEWLINE]The Pathet Lao had by this time asserted its control over three-fourths of the national territory. Following the fall of the US backed regimes in Vietnam and Cambodia in April 1975, the Laotian Communists embarked on a campaign to achieve complete military and political supremacy in Laos. On 23 August, Vientiane was declared "liberated" by the Pathet Lao, whose effective control of Laos was thereby secured. On 2 December 1975, the Lao People's Democratic Republic (LPDR) was established, with Prince Souphanouvong as president and Kaysone Phomvihan as prime minister. King Savang Vatthana abdicated his throne, ending the monarchy that had survived in Laos for 622 years. Elections for a new National Assembly were called for April 1976; however, voting was put off indefinitely, amid reports of civil unrest and sabotage. A Supreme People's Council was convened, meanwhile, with Prince Souphanouvong as chairman, and was charged with the task of drafting a new constitution.[NEWLINE][NEWLINE]During the late 1970s, the Communists moved to consolidate their control and socialize the economy. Private trade was banned, factories were nationalized, and forcible collectivization of agriculture was initiated. "Reeducation" camps for an estimated 40,000 former royalists and military leaders were established in remote areas; as of 1986, the government maintained that almost all the inmates had been released, but Amnesty International claimed that about 5,000 remained. A 25-year friendship treaty with Vietnam, signed in July 1977, led to closer relations with that country (already signaled by the continued presence in Laos of Vietnamese troops) and with the former USSR, and also to the subsequent dismissal from Laos of all Chinese technicians and advisers. China, for its part, began to give support and training to several small antigovernment guerrilla groups. With the economy in 1979 near collapse, in part because of severe drought in 1977 and flooding in 1978, the Laotian government slowed the process of socialization and announced a return to private enterprise and a readiness to accept aid from the non-Communist world. Throughout the 1980s armed opposition to the government persisted, particularly from the Hmong hill tribe rebels. At the Fourth Party Congress of the Lao People's Revolutionary Party (LPRP), in December 1986, a "new economic management mechanism" (NEM) was set up, aiming at granting increased autonomy in the management of formerly state-run enterprises to the private sector.[NEWLINE][NEWLINE]In 1988 the Lao national legislature, the Supreme People's Assembly (SPA), adopted new election laws and the first elections since the formation of the LPDR in 1975 were held. Local and provincial elections were held in 1988, and on 27 March 1989 national elections took place for an enlarged Supreme People's Assembly. In March 1991 the Fifth Party Congress of the LPRP changed Kaysone Phomvihan's title from prime minister to president, elected a new 11-member politburo, pledged to continue economic reforms in line with free-market principles while denying the need for political pluralism, and changed the national motto by substituting the words "democracy and prosperity" for "socialism." the newly elected SPA drafted a constitution adopted on 14 August 1991. The constitution provided for a national assembly functioning on principles of "democratic centralism," established the LPRP as the political system's "leading organ," created a presidency with executive powers, and mandated a market-oriented economy with rights of private ownership.[NEWLINE][NEWLINE]President Kaysone Phomvihan, longtime LPRP leader, died on 21 November 1992. A special session of parliament on 24 November 1992 elected hard-line Communist Nouhak Phoumsavan as the next president. Gen. Khamtai Suphandon, who had been prime minister since 15 August 1991, remained in that post. National Assembly elections were held in December 1992. One day before these elections, three former officials who called for a multiparty democracy and had been detained in 1990 were sentenced to 14 years imprisonment. The National Assembly convened in February 1993 and approved government reorganization designed to improve public administration. On 9 January 1995, longtime leader Prince Souphanouvong died, unofficially marking an end to Laos' long dalliance with hard-line Marxism. Although the NEM had initiated an opening up to international investment and improved relations with the rest of the world, there remained elements of the old guard in positions of power. With the death of Souphanouvong, the only old-time hard-line Marxist still in power as of 1996 was the country's president, Nouhak Phoumsavan. Khamtai Siphandon, prime minister and party chief, was more powerful than Nouhak and is largely credited with exerting a moderating influence on the hard-liner. Nonetheless, there remains a strongly conservative mindset among the politboro members that still pulls the government back from economic flexibility or any hint of political liberalization.[NEWLINE][NEWLINE]Laos has actively improved its already "special relations" with Vietnam and Cambodia, while always seeking to improve relations with Thailand, the People's Republic of China (PRC), and the United States. Periodic meetings are held to promote the cooperative development of the Mekong River region by Laos, Thailand, Vietnam, and Cambodia. Laos and the People's Republic of China restored full diplomatic relations in 1989 and are now full fledged trading partners. Mutual suspicions, characterizing the relationship between Laos and Thailand, improved with agreements to withdraw troops and resolve border disputes, and agreements between the United Nations High Commissioner for Refugees (UNHCR) to repatriate or resettle nearly 60,000 Lao refugees in Thailand. Laos has cooperated with the United States in recovering the remains of US soldiers missing in action in Laos since the Vietnam War and in efforts to suppress drug-trafficking. the US Department of State objects to Laos' restrictions on free speech, freedom of assembly and religious freedom. US Assistant Secretary of State Stanley Roth commented in March 2000 that Laos was unlikely to gain Most Favored Nation trading status unless it accounted for the fate of two naturalized US citizens, Hmong activists who disappeared in Laos during 1999. The debate over whether to grant Laos normal trade relations status was ongoing as of early 2003.[NEWLINE][NEWLINE]On 26 February 1998, Khamtai Siphandon was elected president, and he was reelected in March 2001. Beginning in 2000, Vientiane was hit by a series of bomb blasts, attributed to antigovernment groups based abroad. Bombings targeted crowded markets and buses in the city during 2003. Triggered by Thailand's closing of refugee camps on its side of the Laos-Thai border, tens of thousands of exiles were forced to return home. Most were expected to be jailed or executed for their antigovernment activities, but instead, the government encouraged their peaceful settlement among the lowland population. Certain right-wing guerrilla factions among the Hmong, long fighting the Pathet Lao, subsequently reacted violently to the government's pacification efforts to integrate moderate Hmong villagers. On 6 February 2003 near Vang Vieng, a bus and two Western bicyclers were attacked by gunmen, who killed 12 people. Militant Hmong were blamed for the attack. The government launched a major military crackdown on Hmong insurgents during 2004. Hmong was accused of causing hundreds of civilians' deaths in rebel-held areas.[NEWLINE][NEWLINE]On 24 February 2002, parliamentary elections were held, but all but one of the 166 candidates were from the Lao People's Revolutionary Party (LPRP). The LPRP won 108 of 109 seats in the National Assembly. Laos hosted the annual ministerial summit of the Association of Southeast Asian Nations (ASEAN) in November 2004. Under heavy security, the ASEAN ministers met in Vientiane for two days and a significant free trade agreement was signed by ASEAN and China.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_01">
+			<Text>Luang Prabang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_02">
+			<Text>Viang Chan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_03">
+			<Text>Thakhek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_04">
+			<Text>Pakse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_05">
+			<Text>Muang Thaeng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_06">
+			<Text>Xiang Hung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_07">
+			<Text>Roi Et</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_08">
+			<Text>Xiang Khuang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_09">
+			<Text>Nakhon Phanom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_10">
+			<Text>Champasak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_11">
+			<Text>Ubon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_12">
+			<Text>Yasothon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_13">
+			<Text>Khon Kaen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_14">
+			<Text>Kalasin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_15">
+			<Text>Attapeu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_16">
+			<Text>Ban Houayxay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_17">
+			<Text>Paksan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_18">
+			<Text>Xam Neua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_19">
+			<Text>Luang Namtha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_20">
+			<Text>Muang Xai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_21">
+			<Text>Khanthabouli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_22">
+			<Text>Phongsali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_23">
+			<Text>Sayabouly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_24">
+			<Text>Phonsavan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_25">
+			<Text>Salavan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_26">
+			<Text>Anouvong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_27">
+			<Text>Xaysomboun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_28">
+			<Text>Sekong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_29">
+			<Text>Phonhong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_30">
+			<Text>Viang Xai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_31">
+			<Text>Xiang Kho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_32">
+			<Text>Muang Kho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_33">
+			<Text>Paklay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_34">
+			<Text>Phontiou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_LAOS_35">
+			<Text>Pakmong</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_0">
+			<Text>Nang</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_1">
+			<Text>Mahakani</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_2">
+			<Text>Wangsapuri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_3">
+			<Text>Anusha</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_4">
+			<Text>Lusai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_5">
+			<Text>Vang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_6">
+			<Text>Yukhon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_7">
+			<Text>Nu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_8">
+			<Text>Keo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_9">
+			<Text>Oun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_10">
+			<Text>Maha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_LAOS_11">
+			<Text>Souvanna</Text>
+		</Row>
+		<!--FA NGUM-->
+		<Row Tag="TXT_KEY_LEADER_JFD_LAOS">
+			<Text>Fa Ngum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LAOS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LAOS_TEXT_1">
+			<Text>Fa Ngum, also spelled Fa Ngoun, was the founder and first king of the Lao kingdom of Lan Xang who created the first unified state of the Lao people.[NEWLINE][NEWLINE]Fa Ngum was the grandson of Souvanna Khamphong, the last in a long line of local rulers of the principality of Muang Swa, later called Luang Prabang, on the upper Mekong River. According to local legend, Souvanna Khamphong banished Fa Ngum’s father for having seduced one of his concubines. The family is said to have fled to the Cambodian capital at Angkor, where Fa Ngum was reared and married a Khmer princess.[NEWLINE][NEWLINE]About 1350 Fa Ngum and his father raised an army in Cambodia and fought their way through the numerous Lao principalities of the southern and central Mekong River valley, in the course of which his father died. Fa Ngum continued on to the conquest of Xieng Khouang and then, in 1353, took Muang Swa, forced the abdication of Souvanna Khamphong, and proclaimed himself king of the expanded kingdom of Lan Xang (“a million elephants”). Small Lao principalities to the north recognized his suzerainty, but he had to fight to gain the allegiance of the south. His major conquest was of the kingdom of Vientiane, which fell in 1356. Before his death, Fa Ngum’s empire extended through virtually the entire area of what was to become Laos, plus the Black River valley of present northern Vietnam and the northern and eastern edges of the Khorat Plateau of present-day Thailand. He could administer such a vast area only by manipulating personal relationships with countless local chiefs and rulers, and it would be some generations before regular administrative institutions were evolved.[NEWLINE][NEWLINE]During Fa Ngum’s reign Theravāda Buddhism of the Sinhalese school was introduced into Laos, perhaps from Cambodia; and it is believed that the Prabang Buddha image, which served as the kingdom’s palladium and gave Luang Prabang its new name, was brought from Ceylon.[NEWLINE][NEWLINE]By the last years of his reign, Fa Ngum had become insensitive to growing public dissatisfaction with constant warfare and demands for labour service. His ministers finally deposed him in 1373 and exiled him to the principality of Nan in present-day Thailand, where his ashes are interred. He was succeeded by his son Un Heuan, who ruled as Sam Saen Thai.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LAOS_NAME">
+			<Text>Fa Ngum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LAOS_SUBTITLE">
+			<Text>Leader of Laos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LAOS_TITLES_1">
+			<Text>King of Lan Xang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_LAOS_LIVED">
+			<Text>1316 - 1374</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_JFD_LAOS_TEXT">
+			<Text>May good fortune bless you, O' great Fa Ngum, founder of Laos. For centuries, your people had lived in isolation in the heart of Indochina. But it was under your unifying rule that they would come to prosper as one nation. With expert military and diplomatic skill, you carefully bonded the land into Lan Xang - the land of a million elephants and one white parasol. Thus would the groundwork be laid for the future Laotian state, and you would be remembered as a father of the Lao people.[NEWLINE][NEWLINE]The people of Lan Xang seek your guidance once more, Fa Ngum. Can you stand atop an army of elephants and bring with them unity and peace? Can you spread the spinning wheel of Darhma far throughout the land? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--Responses-->
+		<Row Tag="TXT_KEY_LEADER_JFD_LAOS_FIRSTGREETING_1">
+			<Text>Welcome to the land of a million elephants and one white parasol. I am Fa Ngum. Come in peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_LAOS_DEFEATED_1">
+			<Text>I will fight in another life.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_LAOS_ATTACKED_HOSTILE_1">
+			<Text>My war elephants will trample your soldiers, you will see.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_LAOS_DEC_FRIENDSHIP_1">
+			<Text>I see in you a friend. Do you care to confirm our bonds in a public Declaration of Friendship?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_LAOS_DENOUNCE_1">
+			<Text>You are a danger to peace in the world.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_LAOS_DENOUNCE_FRIEND_1">
+			<Text>Our friendship has only proven that you are a danger to this world.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_LAOS_DOW_GENERIC_1">
+			<Text>War exists in a delicate balance with peace. There has been too much peace. Now there must be war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_LAOS_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>This does not concern me.</Text>
+		</Row>
+		<!--ONE MILLION ELEPHANTS AND A WHITE PARASOL-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_LAOS_SHORT">
+			<Text>One Million Elephants and a White Parasol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_LAOS">
+			<Text>Conquering Holy Cities and City-States converts them to your Religion and grants a Uparaja. Religious Followers in your cities increase [ICON_FOOD] Growth in the Capital.</Text>
+		</Row>
+		<!--JFD: Laos Growth-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_LAOS_GROWTH">
+			<Text>JFD: Laos Growth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_LAOS_GROWTH_HELP">
+			<Text></Text>
+		</Row>
+		<!--MCIS-->
+		<Row Tag="TXT_KEY_JFD_LAOS_GROWTH_CITY_VIEW_HELP">
+			<Text>[NEWLINE][NEWLINE]+{1_Num}% [ICON_FOOD] Growth from {2_Icon} Followers.</Text>
+		</Row>
+		<!--THART-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_THART">
+			<Text>Thart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_THART_HELP">
+			<Text>Reduces the [ICON_RESISTANCE] Resistance turns of other cities that were originally founded by the owner of the city with a Thart. Only Laos can construct it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_THART_STRATEGY">
+			<Text>The Thart is the unique Shrine replacement for Laos. Unlike the Shrine, this building increases [ICON_HAPPINESS_1] Local Happiness in the city. It also reduces the [ICON_RESISTANCE] Resistance turns of other cities that were originally founded by the owner of the city with a Thart.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_THART_TEXT">
+			<Text>A Thart is a stupa. A stupa is a mound-like or hemispherical structure containing relics (such as sarira – typically the remains of Buddhist monks or nuns) that is used as a place of meditation. A related architectural term is a chaitya, which is a prayer hall or temple containing a stupa. Stupa architecture was adopted in Southeast and East Asia, where it became prominent as a Buddhist monument used for enshrining sacred relics.</Text>
+		</Row>
+		<!--UPARAJA-->
+		<Row Tag="TXT_KEY_UNIT_JFD_UPARAJA">
+			<Text>Uparaja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_UPARAJA_HELP">
+			<Text>Unique Great General replacement for Laos that spawns with two War Elephants. War Elephants deal massive damage to cities and are especially effective at moving through Jungle and Forest.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_UPARAJA_STRATEGY">
+			<Text>The unique Uparaja replaces the Great General for Laos. This unit does not come with inherent bonuses besides the standard Great General bonuses. Instead, it spawns with two War Elephants, which are deadly against cities. War Elephants also [ICON_MOVES] move at double the normal rate in Forest or Jungle. Their base [ICON_STRENGTH] Combat Strength is also determined based on the Era in which they are spawned. Earning many Uparajas will ensure a powerful Elephantine army with which to mow down cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_UPARAJA_TEXT">
+			<Text>Uparaja was a royal title reserved for the viceroy in the Buddhist dynasties in Burma, Cambodia, and Laos and Thailand, as well as some of their minor tributary kingdoms. In Cambodia, the word Ouparach is derived from both Sanskrit and Pali languages, literally means Vice King, who obtains the position following the crowned king. The full term of Ouparach in order to provide the proper honor is Samdach Preah Ouparac or Samdach Preah Moha Ouparach. According to tradition of Kingdom of Cambodia, Samdach Preah Moha Ouparach positions as the supreme official controlling other high and low officials. In Siam, Uparat as pronounced in historical Siam, translates to viceroy. Front Palace, however, was the more usual designation, often referred to in English as Second King or Vice King.</Text>
+		</Row>
+		<!--Uparaja-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_UPARAJA">
+			<Text>Uparaja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_UPARAJA_HELP">
+			<Text>This unit was spawned with two War Elephants.</Text>
+		</Row>
+		<!--Unique Names-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_1">
+			<Text>Bounkhong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_2">
+			<Text>Boun Oum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_3">
+			<Text>Kham-Oun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_4">
+			<Text>Khamphoui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_5">
+			<Text>Khun Lo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_6">
+			<Text>Chao Nôy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_7">
+			<Text>Ngao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_8">
+			<Text>Sauryavong Savang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_9">
+			<Text>Soulivong Savang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_10">
+			<Text>Thanyavong Savang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_11">
+			<Text>Ratsadanay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_12">
+			<Text>Sourigna Vongsa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_13">
+			<Text>Tissa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_14">
+			<Text>Souvannarath</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_15">
+			<Text>Mangkra Souvanna Phouma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_16">
+			<Text>Souvanna Phouma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_17">
+			<Text>Souphanouvong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_18">
+			<Text>Savivanh Savang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_19">
+			<Text>Vong Savang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JFD_UPARAJA_20">
+			<Text>Phetsarath Ratanavongsa</Text>
+		</Row>
+		<!--WAR ELEPHANT-->
+		<Row Tag="TXT_KEY_UNIT_JFD_UPARAJA_ELEPHANT">
+			<Text>War Elephant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_UPARAJA_ELEPHANT_HELP">
+			<Text>Powerful Melee Unit that can only be spawned with Uparajas. Deadly against cities and moves at double the normal rate through Jungle and Forest.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_UPARAJA_ELEPHANT_STRATEGY">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_UPARAJA_ELEPHANT_TEXT">
+			<Text></Text>
+		</Row>
+		<!--Uparaja-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_UPARAJA_ELEPHANT">
+			<Text>Lao War Elephant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_UPARAJA_ELEPHANT_HELP">
+			<Text>+100% [ICON_STRENGTH] Strength against cities. Double [ICON_MOVES] Movement through Jungle and Forest.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

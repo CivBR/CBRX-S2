@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6b4f8161-c9e2-44c3-9c4e-96e1150c0aef" version="1">
+  <Properties>
+    <Name>[BNW] Senshi's Manchu (Nurhaci)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the powerful Manchu peoples into the game, under their unifier, Nurhaci!</Teaser>
+    <Description>Adds the powerful Manchu peoples into the game, under their unifier, Nurhaci!</Description>
+    <Authors>senshidenshi</Authors>
+    <SpecialThanks>LeeS, Neirai the Forgiven, TarcisioCM, TPangolin, Guandao, Klisz, Neirai, danrell, bernie14</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD’s Sovereignty" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="Mercenaries" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD’s Claims, Colonies, and Crimes" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="7E07B882BE42DBD42D9F6552A4052C13" import="0">Art/Atlas/AtlasDefines.xml</File>
+    <File md5="A6C63F0F3B6A7C5DA759291426D281EE" import="1">Art/Atlas/Bannerman128.dds</File>
+    <File md5="13C710B7964060906B0C3E76046D72FD" import="1">Art/Atlas/Bannerman32.dds</File>
+    <File md5="980655D4EA513475A67E441DC00A3BBD" import="1">Art/Atlas/GreenStandard128.dds</File>
+    <File md5="77B6AB640BCD1B1D83B91A583177F1A3" import="1">Art/Atlas/GreenStandard32.dds</File>
+    <File md5="0D79DFBB77320E1A9C6D0A68BFE16F24" import="1">Art/Atlas/ManchuAlpha128.dds</File>
+    <File md5="E97B8AA308E4A5F6FE1C5C58309F7374" import="1">Art/Atlas/ManchuAlpha16.dds</File>
+    <File md5="7694E427C41267769473AD356F75F073" import="1">Art/Atlas/ManchuAlpha22.dds</File>
+    <File md5="DD37376856A5FEF093443944853BAF45" import="1">Art/Atlas/ManchuAlpha24.dds</File>
+    <File md5="2793B67F47BD1B3AF54AAECB43A264FD" import="1">Art/Atlas/ManchuAlpha256.dds</File>
+    <File md5="3DCA21005D23416AE3E7DB0FB21839F1" import="1">Art/Atlas/ManchuAlpha32.dds</File>
+    <File md5="5C0F7F8038C02CB3EA69D36BA9A0611C" import="1">Art/Atlas/ManchuAlpha45.dds</File>
+    <File md5="BF70445BD48CBD639AD83E099B96AFEA" import="1">Art/Atlas/ManchuAlpha48.dds</File>
+    <File md5="7E655F0B32F5CD31743B8838B55417DE" import="1">Art/Atlas/ManchuAlpha64.dds</File>
+    <File md5="3D784697F9D801EBA75F9211A011222B" import="1">Art/Atlas/ManchuAlpha80.dds</File>
+    <File md5="9EBF05CB3E0A122412E213C0B3B113A1" import="1">Art/Atlas/ManchuAtlas128.dds</File>
+    <File md5="B7EBCC54EC8F45D43B6F63194A14E191" import="1">Art/Atlas/ManchuAtlas256.dds</File>
+    <File md5="20A1FEDEA7A07417C2CB52FA93763692" import="1">Art/Atlas/ManchuAtlas32.dds</File>
+    <File md5="B1CD5643FC45063D73EC1B7FBCC13A6D" import="1">Art/Atlas/ManchuAtlas45.dds</File>
+    <File md5="69C077580F20EB19FB29D16979A6F1A7" import="1">Art/Atlas/ManchuAtlas64.dds</File>
+    <File md5="1A9CA1F23362C20E817ED14F8353F5B3" import="1">Art/Atlas/ManchuAtlas80.dds</File>
+    <File md5="83649FCD3C9B3478E63DE2D7CAE1DA3A" import="1">Art/Bannerman/HorseArcher_Mongol.blend</File>
+    <File md5="EBA855474CCB7C92C068F1FEEE3E7513" import="1">Art/Bannerman/HorseArcher_Mongol.dds</File>
+    <File md5="D0ED4C6743DC6254B7FFC013B6C7254D" import="1">Art/Bannerman/HorseArcher_Mongol.fxsxml</File>
+    <File md5="BC2EC94F7FF3C4EC0E7CD605FC160027" import="1">Art/Bannerman/HorseArcher_Mongol.gr2</File>
+    <File md5="7EA3B6C9B6AFD3C3B14E48C5626FFBE7" import="1">Art/Bannerman/HorseArcher_Mongol_gloss.dds</File>
+    <File md5="ED76F6C0472BACA1DE4B269178C0501C" import="1">Art/Bannerman/HorseArcher_Mongol_Horse.dds</File>
+    <File md5="5F7695BDA765DBAF25E1214DDD1F619A" import="0">Art/Bannerman/HorseArcher.xml</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Bannerman/no_gloss.dds</File>
+    <File md5="026557E9BC514065E33655ACBD927F8E" import="1">Art/GreenStandard/chirm1.dds</File>
+    <File md5="9CA3CAACC7A3B99A4493242FC92CEDDA" import="1">Art/GreenStandard/chirm1_sref.dds</File>
+    <File md5="17BDCEC8F03571FF39FF02364D9AF5EA" import="1">Art/GreenStandard/civ5_chirm1.blend</File>
+    <File md5="783F65B5E134554F49469B6D7A30F96E" import="1">Art/GreenStandard/civ5_chirm1.fbx</File>
+    <File md5="9E4C1A26B111722C5729567D8C9D191A" import="1">Art/GreenStandard/civ5_chirm1.fxsxml</File>
+    <File md5="C7863C7EC431D9EA89CB541CB15C4B93" import="1">Art/GreenStandard/civ5_chirm1.gr2</File>
+    <File md5="C302BEFA06F2A5D1B37732E5E8F5E7F3" import="0">Art/GreenStandard/Rifleman.xml</File>
+    <File md5="19AE131F7AEF4CEB76760F02F17C081C" import="1">Art/ManchuMap.dds</File>
+    <File md5="58B8D2670AE7B4D5858D9A52ADB8259B" import="1">Art/NurhaciDOM.dds</File>
+    <File md5="A4F63030A198B08141FD869928CBD28B" import="1">Art/Nurhaci_Scene.dds</File>
+    <File md5="0D30D94587C6E3D0CC20AF9C0F25CCA0" import="1">Art/Sound/ManchuPeace.mp3</File>
+    <File md5="E0E6C508EC03B7012E2DFE5C182B817D" import="1">Art/Sound/ManchuWar.mp3</File>
+    <File md5="A5F7DC59819EC76A15F755DB12F67CB6" import="0">Art/Sound/SoundRig.xml</File>
+    <File md5="1AF681C7641B5CC7A9EDD2A66534A549" import="0">Core/Civilizations.sql</File>
+    <File md5="4A71ACBFBF4B8A82E7BAF9EAA52251E8" import="1">Core/Nurhaci_Scene.xml</File>
+    <File md5="AA490DCB8858E9AA7B3A782108A0365F" import="0">Core/DiplomacyResponses.xml</File>
+    <File md5="7BEE99C26E1EA17C13B1A06AC42F88C8" import="0">Core/GameText.xml</File>
+    <File md5="7F8CC9028715150EFD20AA5376C428E3" import="0">Core/Leaderhead.sql</File>
+    <File md5="B13A29E741D89D99AB0E44142563CE32" import="0">Core/PlayerColours.sql</File>
+    <File md5="580FA43C142F32A7C84418FEFE43C1BD" import="0">Core/Banners.xml</File>
+    <File md5="281317C00CE070836D175225EBA88F87" import="0">Core/Traits.sql</File>
+    <File md5="070092717F5870D98C5DE6422F963B7F" import="0">Core/UnitBannerman.sql</File>
+    <File md5="2357600F94F430FF43EF314B2566D912" import="0">Core/UnitGreenStandard.sql</File>
+    <File md5="155B0ECE6A502DF081AA320D18DAE5DB" import="0">Lua/GreenStandard.lua</File>
+    <File md5="D33F6D1555F3782AF5A34B188FF4F0C7" import="0">Lua/ManchuLua.lua</File>
+    <File md5="19D73486586D9FE81A97CD0B551CCA4C" import="1">Lua/PlotIterators.lua</File>
+    <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Lua/Promotion_Created.xml</File>
+    <File md5="E3AB73844886B35F4B78A604FA2D13D2" import="0">Lua/SerialEventUnitCreatedGood.lua</File>
+    <File md5="5869B1203B4F82094998E8CFE65417C5" import="0">ModSupport/DecisionsDummies.sql</File>
+    <File md5="AAAAC8557ABC3D50C229C96F79C28BB7" import="0">ModSupport/GameText_ModSupport.xml</File>
+    <File md5="503000C53ACC8045B317C54FF40877D3" import="0">ModSupport/DecisionsFix.sql</File>
+    <File md5="5AF308A3B0462F72FE15A4EA6DD587CB" import="1">ModSupport/ManchuDecisions.lua</File>
+    <File md5="BAA180B057E9DD686298796CC48709BA" import="0">ModSupport/ModSupport.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Atlas/AtlasDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Bannerman/HorseArcher.xml</UpdateDatabase>
+      <UpdateDatabase>Art/GreenStandard/Rifleman.xml</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Banners.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/UnitBannerman.sql</UpdateDatabase>
+      <UpdateDatabase>Core/UnitGreenStandard.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/DiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>Lua/Promotion_Created.xml</UpdateDatabase>
+      <UpdateDatabase>ModSupport/ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>ModSupport/DecisionsDummies.sql</UpdateDatabase>
+      <UpdateDatabase>ModSupport/GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>ModSupport/DecisionsFix.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/SerialEventUnitCreatedGood.lua">
+      <Name>SerialEventUnitCreatedGood</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/ManchuLua.lua">
+      <Name>ManchuLua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/GreenStandard.lua">
+      <Name>Green Standard</Name>
+      <Description>Makes the Green Standard work</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

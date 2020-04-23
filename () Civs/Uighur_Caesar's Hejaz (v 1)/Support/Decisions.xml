@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 09/01/17 5:25:09 PM -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_UC_HEJAZ_HAJJ</Type>
+			<Description>TXT_KEY_POLICY_MERITOCRACY</Description>
+			<Civilopedia>TXT_KEY_CIV5_POLICY_MERITOCRACY_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_MERITOCRACY_HELP</Help>
+			<GridX>1000</GridX>
+			<GridY>1000</GridY>
+			<SharedReligionTourismModifier>25</SharedReligionTourismModifier>
+			<PortraitIndex>29</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<Type>POLICY_UC_HEJAZ_RAILWAY</Type>
+			<Description>TXT_KEY_POLICY_MERITOCRACY</Description>
+			<Civilopedia>TXT_KEY_CIV5_POLICY_MERITOCRACY_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_MERITOCRACY_HELP</Help>
+			<GridX>1000</GridX>
+			<GridY>1000</GridY>
+			<RouteGoldMaintenanceMod>-50</RouteGoldMaintenanceMod>
+			<PortraitIndex>29</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_ImprovementCultureChanges>
+		<Row>
+			<PolicyType>POLICY_UC_HEJAZ_HAJJ</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<CultureChange>3</CultureChange>
+		</Row>
+	</Policy_ImprovementCultureChanges>
+  
+</GameData>

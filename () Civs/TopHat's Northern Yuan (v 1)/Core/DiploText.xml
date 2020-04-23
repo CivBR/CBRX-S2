@@ -1,0 +1,88 @@
+<GameData>
+<Language_en_US>
+<!-- First Greeting -->
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_FIRSTGREETING_1">
+    <Text>You stand before Mandukhai Khatun, the descendant of Genghis Khan and the reunifier of his peoples. What accomplishments can you boast of?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_GENGHIS_GREETING_1">
+    <Text>Temüjin, is that you? I am Mandukhai, a descendant of yours, and it has long been my ambition to match your accomplishments.</Text>
+</Row>
+
+<!-- Defeated -->
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_DEFEATED_1">
+    <Text>Impossible! It must have been sabotage... how else could I have failed?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_GENGHIS_DEFEATED_1">
+    <Text>As much as it pains me to have failed, it was still an honor to witness you in battle.</Text>
+</Row>
+
+<!-- Diplomacy: Wars, Denunciatios, and DoF -->
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_ATTACKED_GENERIC_1">
+    <Text>Fool! You have just initiated your own annihilation.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_DEC_FRIENDSHIP_1">
+    <Text>Typically I prefer to unify by conquest, but you are the rare leader who may actually be my equal. Let us make a public Declaration of Friendship, and watch the world tremble.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_DENOUNCE_1">
+    <Text>You are a worm, lower than a worm, and I relish the idea of crushing you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_DOW_GENERIC_1">
+    <Text>It is time that your people fall under my dominion.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_GENGHIS_DOW_GENERIC_1">
+    <Text>I am no longer impressed by you. Your leadership has become outmoded, and the Mongols shall now bow to me.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_EXPANSION_SERIOUS_WARNING_1">
+    <Text>You've been expanding quite a bit lately... your new settlements look ripe for conquest.</Text>
+</Row>
+
+<!-- Greetings -->
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_GREETING_AT_WAR_HOSTILE_1">
+    <Text>Come to beg for a reprieve?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_GREETING_POLITE_HELLO_1">
+    <Text>Greetings, friend! When I heard it was you, I had to ride out from the city to see.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_GREETING_NEUTRAL_HELLO_1">
+    <Text>What brings you to my court today?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_GREETING_HOSTILE_HELLO_1">
+    <Text>I see you still think yourself worthy of my presence. State your case quickly and then begone.</Text>
+</Row>
+
+<!-- Misc -->
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+    <Text>You have been flaunting your military lately. Is this a challenge?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_LETS_HEAR_IT_1">
+    <Text>What do you have to offer to me?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_LOSEWAR_1">
+    <Text>An embarrassing showing by my generals... I will have them replaced and come back stronger.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_LUXURY_TRADE_1">
+    <Text>The Mongol peoples demand your goods, but I think it is best to acquire them peacefully for now. Shall we trade?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_NO_PEACE_1">
+    <Text>I cannot rest until your destruction is complete.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_OPEN_BORDERS_EXCHANGE">
+    <Text>My people are going to be traveling through your lands. I trust you will allow them to do so peacefully.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_REPEAT_NO_1">
+    <Text>Your pathetic offerings insult me.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_RESPONSE_REQUEST_1">
+    <Text>The Mongols are a proud people, but even so, we must sometimes admit weakness. Is it within your power to assist us?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_RESPONSE_TO_BEING_DENOUNCED_1">
+    <Text>Pathetic. I have made a mistake in tolerating you this long.</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_TOO_SOON_NO_PEACE_1">
+    <Text>Are you a coward? Do you fear the heat of battle?</Text>
+</Row>
+<Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_WINWAR_1">
+    <Text>A great triumph for the Mongols. Now, what laws shall I impose on your people...?</Text>
+</Row>
+</Language_en_US>
+</GameData>

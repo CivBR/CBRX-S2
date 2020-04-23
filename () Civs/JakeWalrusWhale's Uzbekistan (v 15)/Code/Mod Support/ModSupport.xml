@@ -1,0 +1,113 @@
+
+<GameData>
+	<!-- Additional Achievements -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_MOD_JWW_UZBEKISTAN_NAME">
+			<Text>JakeWalrusWhale's Uzbekistan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_JWW_UZBEKISTAN_MODID">
+			<Text>e3f9aa11-1956-4164-a276-428149dfb360</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOD_JWW_UZBEKISTAN_AUTHORS">
+			<Text>JakeWalrusWhale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_JWW_UZBEKISTAN_VICTORY_HEADER">
+			<Text>Kuch Adolatdadir!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AA_JWW_UZBEKISTAN_VICTORY_TEXT">
+			<Text>Win as Uzbekistan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAB_JWW_CIVS_HEADER">
+			<Text>JakeWalrusWhale's Civilizations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAB_JWW_CIVS_DESCRIPTION">
+			<Text>Achievements for mods created by JakeWalrusWhale</Text>
+		</Row>
+	<!-- JFD's SOVEREIGNTY -->
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_1">
+			<Text>Abdulaziz Komilov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_2">
+			<Text>Adham Ahmedbaev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_3">
+			<Text>Rustam Azimov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_4">
+			<Text>Kabul Berdiev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_5">
+			<Text>Tursinkhon Khudayberganov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_6">
+			<Text>Nigmatilla Yuldoshev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_7">
+			<Text>Elyor Ganiev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_8">
+			<Text>Galina Saidova</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_9">
+			<Text>Minkhajidin Khodjimatov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_10">
+			<Text>Shukhrat Teshayev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_11">
+			<Text>Aktam Khaitov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_12">
+			<Text>Bakhodir Khodiev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_13">
+			<Text>Ulugbek Inoyatov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_14">
+			<Text>Alimov Anvar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_15">
+			<Text>Diloram Tashmukhamedova</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_16">
+			<Text>Erkin Khalilov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_17">
+			<Text>Nuriddinjon Ismailov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_18">
+			<Text>Murat Sharifkhodjayev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_19">
+			<Text>Ilgizar Sobirov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_20">
+			<Text>Nigmatilla Yuldashev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_21">
+			<Text>Baxtiyor Mirboboyev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_22">
+			<Text>Shoyunus Gaziev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_23">
+			<Text>Kozimjon Komilov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_24">
+			<Text>Abdulla Aripov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JWW_UZBEKISTAN_25">
+			<Text>Shavkat Mirziyoyev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LEGISLATURE_CIVILIZATION_JWW_UZBEKISTAN">
+			<Text>Oliy Majlis</Text>
+		</Row>
+		<!-- Cultural Influence -->
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now draining the Aral Sea and becoming slaves working in the cotton fields. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_INFLUENTIAL_ON_HUMAN_1">
+			<Text>We are glad to see that your people are now draining the Aral Sea and becoming slaves working in the cotton fields. The amazing works of our civilization are truly inspiring!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

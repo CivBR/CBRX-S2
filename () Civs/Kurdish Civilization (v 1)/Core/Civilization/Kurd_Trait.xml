@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/2/2014 4:50:12 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_NO_FRIENDS_MOUNTAINS</Type>
+			<Description>TXT_KEY_TRAIT_NO_FRIENDS_MOUNTAINS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_NO_FRIENDS_MOUNTAINS_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_NO_FRIENDS_MOUNTAINS</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_UC_KURD_UA</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_NO_FRIENDS_MOUNTAINS</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_UC_KURD_UA</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_NO_FRIENDS_MOUNTAINS</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_UC_KURD_UA</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_NO_FRIENDS_MOUNTAINS</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_UC_KURD_UA</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_NO_FRIENDS_MOUNTAINS</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_UC_KURD_UA</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_NO_FRIENDS_MOUNTAINS</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_UC_KURD_UA</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_NO_FRIENDS_MOUNTAINS</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_UC_KURD_UA</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+</GameData>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="49f5b2b0-c474-4699-abd7-8f97b21e2259" version="1">
+  <Properties>
+    <Name>Uighur_Caesar's Hejaz</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Kingdom of Hejaz under Sharif Hussein bin Ali to the game.</Teaser>
+    <Description>ADA</Description>
+    <Authors>Uighur_Caesar</Authors>
+    <SpecialThanks>Urdnot_Scott, Tomatekh</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="Culdic" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="rtp" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="ynaemp" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="ml" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="red" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="civ4 traits" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="0128B0D7721651ABA1FA61ED103646BD" import="1">Art/aragw1.blend</File>
+    <File md5="F300F9B16034F4F70400992664DCEA6C" import="1">Art/aragw1.dds</File>
+    <File md5="64F2B44057A1E8AA6D63DBC3D1F774D6" import="1">Art/aragw1.fbx</File>
+    <File md5="5F7BEEDC31FF596B16A442F90973D2DF" import="1">Art/aragw1.fxsxml</File>
+    <File md5="9341A3EA92B5F4BAD415CAA3660184F4" import="1">Art/aragw1.gr2</File>
+    <File md5="194D63D3DB0C7BAF0524DC50887D444C" import="1">Art/flag.dds</File>
+    <File md5="9BCB5617B7D9C9ACC4F63DFD81082AB2" import="1">Art/gergw1.dds</File>
+    <File md5="8BCCD98D36FB50516FF92ADB2474EC55" import="1">Art/gergw1.fxsxml</File>
+    <File md5="7F0730D4A157E40CBF26384BCF16851E" import="1">Art/gergw1.gr2</File>
+    <File md5="EFCFDFB3E822D1F78AFBDA29A1C4DC1E" import="1">Art/Hejaz128.dds</File>
+    <File md5="C451C679FA025AED4EAD6820AA657CD4" import="1">Art/Hejaz256.dds</File>
+    <File md5="2D7800D3BE734946893BFD32558E8319" import="1">Art/Hejaz32.dds</File>
+    <File md5="00B4A2795B4BABAEFEF5F5231ABB5696" import="1">Art/Hejaz45.dds</File>
+    <File md5="EC0E41B69556289445483B16AD4E9BCA" import="1">Art/Hejaz64.dds</File>
+    <File md5="576534A3080664CC03289C1B88924FBD" import="1">Art/Hejaz80.dds</File>
+    <File md5="389BF4F5ADA02BD8335861CD76B47591" import="1">Art/HejazAlpha128.dds</File>
+    <File md5="0ABF06C7F7F0A3A4F461EB2A2B7B2708" import="1">Art/HejazAlpha16.dds</File>
+    <File md5="BBBA5B2470A9CF319687CBC0726FB42F" import="1">Art/HejazAlpha24.dds</File>
+    <File md5="103D0DEF1E89D5D9C0576EDD5076504C" import="1">Art/HejazAlpha256.dds</File>
+    <File md5="90197CE935D6EF5E12FDEC76498799BF" import="1">Art/HejazAlpha32.dds</File>
+    <File md5="BFC326A795C9902F6977E667DA4362C0" import="1">Art/HejazAlpha45.dds</File>
+    <File md5="55EDE406DF2DAC2E7267E8177E6263DC" import="1">Art/HejazAlpha48.dds</File>
+    <File md5="C1F757A9F8CEAAD52AC3A01C67C21A40" import="1">Art/HejazAlpha64.dds</File>
+    <File md5="8A1BD118D62899D0B54B8147B0CB4A41" import="1">Art/HejazAlpha80.dds</File>
+    <File md5="9A4D1E823F7D0F7FB78DF3B3E5AED95D" import="1">Art/HejazDoM.dds</File>
+    <File md5="159ABF4B720A60E50B7A3413777E831D" import="1">Art/HejazMap.dds</File>
+    <File md5="1BF9D59B5C96CE488CE35359ACFB54B7" import="1">Art/HusseinAli.dds</File>
+    <File md5="6301EDD8330D37F082B1FDD6AFC32362" import="1">Art/Sharifianflag.dds</File>
+    <File md5="55FD532C93CF106B3F8F31511A366D02" import="1">Art/tcm_modern_Adviser.dds</File>
+    <File md5="CC9BC4B137CC04F0D02D7659AE0AF94D" import="1">Art/tcm_modern_Adviser.fxsxml</File>
+    <File md5="1EAEEA0572C4C9C78AA42CD25129AE49" import="1">Art/tcm_modern_Adviser.gr2</File>
+    <File md5="CDF006EE9CD8DA34AD75E8C53A319F5F" import="1">Art/tcm_modern_Adviser_diff.dds</File>
+    <File md5="513562F9FBE05CB74D4DB0C3A5199488" import="0">Core/Civ.xml</File>
+    <File md5="8F23FAE125425494A6C82A046D860CD0" import="0">Core/Defines.sql</File>
+    <File md5="34A43709474617EFA28A86DC3252C00A" import="1">Core/HusseinScene.xml</File>
+    <File md5="4687C86C8A5024205F43905F502CCCDE" import="0">Core/Leader.xml</File>
+    <File md5="6CD29F333DFF41E4C59A559576183212" import="0">Core/Units.xml</File>
+    <File md5="FFE436F9019FF5AD9E3E6056E8B4D8A0" import="1">Lua/HejazFunctions.xml</File>
+    <File md5="D18B815BE62EAA666AC7CAE2EE6097C0" import="0">Lua/HejazFunctions.lua</File>
+    <File md5="07D7C9CB2D306C92E4BE0C2E8F6C2D98" import="1">Lua/HejazDecision.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="BB5FE43441753D64E4004FFE177D9855" import="0">Support/Decisions.xml</File>
+    <File md5="B2209F4042FC39C67FE38C7E3F751A47" import="0">Support/DecisionText.xml</File>
+    <File md5="6E52C851C22FDEACD9F8C4A21B66B0BD" import="0">Support/Support.sql</File>
+    <File md5="DC66207E285A7AAE5DCD93BA3F0666BB" import="0">Text/Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Civ.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Support/Support.sql</UpdateDatabase>
+      <UpdateDatabase>Support/Decisions.xml</UpdateDatabase>
+      <UpdateDatabase>Support/DecisionText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/HejazFunctions.lua">
+      <Name>fyukuyfum</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

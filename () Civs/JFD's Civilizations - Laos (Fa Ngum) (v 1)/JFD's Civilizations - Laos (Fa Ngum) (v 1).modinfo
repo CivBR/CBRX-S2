@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="876eee63-616c-4169-96ef-acc3c93ae824" version="1">
+  <Properties>
+    <Name>JFD's Civilizations - Laos (Fa Ngum)</Name>
+    <Teaser>Adds [COLOR_CYAN]Laos under Fa Ngum[ENDCOLOR]. Click for details.</Teaser>
+    <Description>LAOS (FA NGUM)[NEWLINE][NEWLINE]UNIQUE TRAIT: ONE MILLION ELEPHANTS AND A WHITE PARASOL[NEWLINE][ICON_BULLET]Conquering Holy Cities and City-States converts them to your Religion and grants a Uparaja.[NEWLINE][ICON_BULLET] Religious Followers in owned cities increase [ICON_FOOD] Growth in the Capital.[NEWLINE][NEWLINE]UNIQUE UNIT: UPARAJA[NEWLINE][ICON_BULLET]Replaces Great General.[NEWLINE][ICON_BULLET]Spawns two War Elephants.[NEWLINE][ICON_BULLET]War Elephants have 100% [ICON_STRENGTH] Combat Strength versus cities.[NEWLINE][ICON_BULLET]War Elephants have double [ICON_MOVES] Moves in Jungle and Forest.[NEWLINE][NEWLINE]UNIQUE BUILDING: THART[NEWLINE][ICON_BULLET]Replaces Shrine.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Local Happiness.[NEWLINE][ICON_BULLET]Reduces the [ICON_RESISTANCE] Resistance turns of other cities that were originally founded by the owner of the city with a Thart.</Description>
+    <Authors>JFD, Sukritact</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="53D26C8E9557FFC6BE4A234F1D6DEB29" import="1">Art/Graphics/Uparaja/fx_triggers_royal_tromeak.ftsxml</File>
+    <File md5="AA6A64D3B3FB4C262FAD9773332B2CF1" import="1">Art/Graphics/Uparaja/sv_Uparaja.dds</File>
+    <File md5="7EFDEC9C9EFC25DCE4E45EFB1DB195E3" import="1">Art/Graphics/Uparaja/tromeak_activate.gr2</File>
+    <File md5="7EFDEC9C9EFC25DCE4E45EFB1DB195E3" import="1">Art/Graphics/Uparaja/tromeak_activate_idle.gr2</File>
+    <File md5="61BDD46044715E6B9BE6B5542BBE9D45" import="1">Art/Graphics/Uparaja/uparaja.fxsxml</File>
+    <File md5="4520D70332D825A79697EEC81953C581" import="1">Art/Graphics/Uparaja/uparaja.gr2</File>
+    <File md5="3D2B66149D7CCD9F58BDF36F501E3134" import="1">Art/Graphics/Uparaja/uparaja_diff.dds</File>
+    <File md5="C9883FA002E0559B186BD57C353F7479" import="1">Art/Graphics/War Elephant/sv_UparajaElephant.dds</File>
+    <File md5="35B3A1EE510EC4D9F3148DF9A81EC2C8" import="1">Art/Icons/JFD_Laos_AlphaAtlas_128.dds</File>
+    <File md5="681DC6481621A618C9D44F84C6A69619" import="1">Art/Icons/JFD_Laos_AlphaAtlas_16.dds</File>
+    <File md5="80D494D74E0927F888DDC28AE43271F7" import="1">Art/Icons/JFD_Laos_AlphaAtlas_24.dds</File>
+    <File md5="B73BFB21F3CC41B36492F836FBE74601" import="1">Art/Icons/JFD_Laos_AlphaAtlas_32.dds</File>
+    <File md5="92EFF60A2F5D5AD17854BA92CCD2894B" import="1">Art/Icons/JFD_Laos_AlphaAtlas_45.dds</File>
+    <File md5="361E7E2D6476F1128165A01C9A4BCCBC" import="1">Art/Icons/JFD_Laos_AlphaAtlas_48.dds</File>
+    <File md5="E712949F65EFF24C6C50DE86E4FF6C92" import="1">Art/Icons/JFD_Laos_AlphaAtlas_64.dds</File>
+    <File md5="2E9A15AC40601DB4BC2164937B145E20" import="1">Art/Icons/JFD_Laos_AlphaAtlas_80.dds</File>
+    <File md5="7FE3589AC039BBC66C6246376E6265FE" import="1">Art/Icons/JFD_Laos_IconAtlas_128.dds</File>
+    <File md5="D9082554B2DAABD723403AD53475C9D4" import="1">Art/Icons/JFD_Laos_IconAtlas_256.dds</File>
+    <File md5="DB18BC0EA18A04691DD080A24D79ACE7" import="1">Art/Icons/JFD_Laos_IconAtlas_32.dds</File>
+    <File md5="DDC5E22AF08007FA5249578B4AAC01FF" import="1">Art/Icons/JFD_Laos_IconAtlas_45.dds</File>
+    <File md5="7689974AF73AC64B954568DE67AA4A3F" import="1">Art/Icons/JFD_Laos_IconAtlas_64.dds</File>
+    <File md5="87238F7CE8606911C2491E737AEADA12" import="1">Art/Icons/JFD_Laos_IconAtlas_80.dds</File>
+    <File md5="84C3BF454995F1043A3867F148B60A26" import="1">Art/Icons/JFD_Laos_UnitFlagAtlas_32.dds</File>
+    <File md5="21CDCEED7D81983A502F1C20ED00BC57" import="1">Art/Icons/Tomatekh_PromotionAtlas_256.dds</File>
+    <File md5="4515CFD32CBCA5FD9B31BA7E74BDF85D" import="1">Art/Icons/Tomatekh_PromotionAtlas_32.dds</File>
+    <File md5="2D64910169FF17FBFD6D2CFAAAADE518" import="1">Art/Icons/Tomatekh_PromotionAtlas_45.dds</File>
+    <File md5="D2E665F6B269588CF10F19FE789271C9" import="1">Art/Icons/Tomatekh_PromotionAtlas_64.dds</File>
+    <File md5="21C6F7B940F304799BA8632E006A4224" import="1">Art/Leaderscene/JFD_Laos_Diplo.dds</File>
+    <File md5="E6D90A34F8D17BDBD9A23C5B76475BF3" import="1">Art/Leaderscene/JFD_Laos_Scene.xml</File>
+    <File md5="EF2FB1D94B212D02A46DBC10423939D0" import="1">Art/Maps/JFD_DOM_Laos.dds</File>
+    <File md5="FF6F751C9429A9AD28B51C2123B6EDE7" import="1">Art/Maps/JFD_MapLaos512.dds</File>
+    <File md5="A8563A5F6C6BAA07B78EC88F5321652D" import="1">Audio/JFD_Laos_Peace.mp3</File>
+    <File md5="1BDC0BE9E0F1B2F7874567444030808D" import="1">Audio/JFD_Laos_War.mp3</File>
+    <File md5="201971581FF061EF7E9FAA08D64BCF4D" import="0">Core/Laos_ArtDefines.sql</File>
+    <File md5="A438B9BFE8D0CCF09E4B8CCCA925914A" import="0">Core/Laos_GameDefines.sql</File>
+    <File md5="427E83DD5A4E883012D34DE8ED2232B2" import="0">Core/Laos_GameText.xml</File>
+    <File md5="6B755E3983327AB6FE16945E3B7DC6A6" import="0">Core/Laos_ModSupport.sql</File>
+    <File md5="569991760374D18F6CD1C2DFF2ECB374" import="0">Credits.txt</File>
+    <File md5="7710EE8C1823CDEDD2210AC6749483FC" import="0">Lua/JFD_Civs_Laos_Functions.lua</File>
+    <File md5="64DF635BD57CDEB13DC1038934568A7E" import="0">Lua/Utilities/Sukritact MCIS/CityInfoStack.lua</File>
+    <File md5="4E7C5E4894BC0A0E0CBA1743787E1015" import="0">Lua/Utilities/Sukritact MCIS/CityInfoStack.xml</File>
+    <File md5="FADE292F391F99BE66F943A24AA173BA" import="0">Lua/Utilities/Sukritact MCIS/JFD_Civs_Laos_UA_CityInfo.lua</File>
+    <File md5="4CBA896B4B5CA1671E98C4794959DD22" import="0">Lua/Utilities/Sukritact MCIS/JFD_Civs_Laos_UA_CityInfo.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Laos_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Laos_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Laos_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Laos_ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Civs_Laos_Functions.lua">
+      <Name>JFD_Civs_Laos_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Utilities/Sukritact MCIS/CityInfoStack.lua">
+      <Name>CityInfoStack.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Utilities/Sukritact MCIS/JFD_Civs_Laos_UA_CityInfo.lua">
+      <Name>JFD_Civs_Laos_UA_CityInfo.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

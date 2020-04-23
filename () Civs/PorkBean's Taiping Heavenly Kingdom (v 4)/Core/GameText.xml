@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/2/2019 3:35:36 PM -->
+<GameData>
+	<Language_en_US>
+		<!--Civilization-->
+		<Row Tag="TXT_KEY_CIV_PB_TAIPING_DESC">
+			<Text>Taiping Heavenly Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_PB_TAIPING_SHORT_DESC">
+			<Text>The Heavenly Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_PB_TAIPING_ADJECTIVE">
+			<Text>Taiping</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING__FACTIOD_HEADING">
+			<Text>Taiping Factoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_FACTOID_TEXT">
+			<Text>The Taiping Rebellion was the largest conflict in China since the Qing conquest in 1644, and it also ranks as one of the bloodiest wars in human history, the bloodiest civil war, and the largest conflict of the 19th century, with estimates of the war dead ranging from 20–70 million to as high as 100 million, with millions more displaced.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_TEXT_1">
+			<Text>The Taiping Heavenly Kingdom, officially The Heavenly Kingdom of Great Peace, was an oppositional state in China from 1851 to 1864, supporting the overthrow of the Qing dynasty by Hong Xiuquan and his followers. The unsuccessful war it waged against the Qing is known as the Taiping Rebellion. Its capital was at Tianjing (present-day Nanjing).[NEWLINE][NEWLINE]A self-proclaimed convert to Christianity, Hong Xiuquan led an army that controlled a significant part of southern China during the middle of the 19th century, eventually expanding to a size of nearly 30 million people. The rebel kingdom announced social reforms and the replacement of Confucianism, Buddhism, and Chinese folk religion by his form of Christianity, holding that he was the second son of God and the younger brother of Jesus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_HEADING_2">
+			<Text>Geography</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_TEXT_2">
+			<Text>At its height, the Heavenly Kingdom controlled south China, centered on the fertile Yangtze River Valley. Taiping territory included Zhejian and Jiangxi provinces, as well as parts of Hubei, Anhui and Jiangsu provinces. Control of the river meant that the Taiping could easily supply their capital. From there, the Taiping rebels sent armies west into the upper reaches of the Yangtze, and north to capture Beijing, the capital of the Qing dynasty. The attempt to take Beijing failed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_HEADING_3">
+			<Text>Jintian Uprising</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_TEXT_3">
+			<Text>The Taiping Rebellion began in 1850 in Guangxi. On January 11, 1851 (the 11th day of the 1st lunar month), incidentally Hong Xiuquan's birthday, Hong declared himself "Heavenly King" of a new dynasty, the "Heavenly Kingdom of Great Peace". After minor clashes, the violence escalated into the Jintian Uprising in February 1851, in which a 10,000-strong rebel army routed and defeated a smaller Qing force. Feng Yushan was to be the strategist of the rebellion and the administrator of the kingdom during its early days, until his death in 1852.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_HEADING_4">
+			<Text>Capture of Nanjing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_TEXT_4">
+			<Text>In 1853 the Taiping forces captured Nanjing, making it their capital and renaming it Tianjing ("Heavenly Capital"). Hong converted the office of the Viceroy of Liangjiang into his Palace of Heavenly King. Since Hong Xiuquan had been supposedly instructed in his dream to exterminate all "demons", which was what the Taipings considered the Manchus to be, thus they set out to kill and wipe out the entire Manchu population. When Nanjing was occupied, the Taipings went on a rampage killing, burning and hacking 40,000 Manchus to death in the city. They first killed all the Manchu men, then forced the Manchu women outside the city and burnt them to death.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_HEADING_5">
+			<Text>Administration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_TEXT_5">
+			<Text>In 1853 Hong withdrew from active control of policies and administration, ruling exclusively by written proclamations often in religious language. Hong disagreed with Yang in certain matters of policy and became increasingly suspicious of Yang's ambitions, his extensive network of spies, and his declarations when "speaking as God". Yang and his family were put to death by Hong's followers in 1856, followed by the killing of troops loyal to Yang.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_HEADING_6">
+			<Text>Internal Conflicts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_TEXT_6">
+			<Text>With their leader largely out of the picture, Taiping delegates tried to widen their popular support with the Chinese middle classes and forge alliances with European powers, but failed on both counts. The Europeans decided to stay neutral. Inside China, the rebellion faced resistance from the traditionalist middle class because of their hostility to Chinese customs and Confucian values. The land-owning upper class, unsettled by the Taiping rebels' peasant mannerisms and their policy of strict separation of the sexes, even for married couples, sided with the Qing forces and their Western allies.[NEWLINE][NEWLINE]In 1859 Hong Rengan, a cousin of Hong, joined the Taiping Rebellion in Nanjing, and was given considerable power by Hong. He developed an ambitious plan to expand the kingdom's boundaries. In 1860 the Taiping rebels were successful in taking Hangzhou and Suzhou to the east (See also: Second rout of the Army Group Jiangnan), but failed to take Shanghai, which marked the beginning of the decline of the Kingdom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_HEADING_7">
+			<Text>Fall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_TAIPING_TEXT_7">
+			<Text>An attempt to take Shanghai in August 1860 was initially successful but finally repulsed by a force of Chinese troops and European officers under the command of Frederick Townsend Ward. This army would later become the "Ever Victorious Army", led by "Chinese" Gordon, and would be instrumental in the defeat of the Taiping rebels. Imperial forces were reorganized under the command of Zeng Guofan and Li Hongzhang, and the Qing government's reconquest began in earnest. By early 1864, Qing control in most areas was well established.[NEWLINE][NEWLINE]Hong declared that God would defend Nanjing, but in June 1864, with Qing forces approaching, he died of food poisoning as the result of eating wild vegetables as the city began to run out of food. He was sick for twenty days before the Qing forces could take the city. Only a few days after his death the Qing forces took the city. His body was buried and was later exhumed by Zeng to verify his death, and cremated. Hong's ashes were later blasted out of a cannon in order to ensure that his remains have no resting place as eternal punishment for the uprising.[NEWLINE][NEWLINE]Four months before the fall of the Taiping Heavenly Kingdom, Hong Xiuquan abdicated in favour of Hong Tianguifu, his eldest son, who was 15 years old then. Hong Tianguifu was unable to do anything to restore the kingdom, so the kingdom was quickly destroyed when Nanjing fell in July 1864 to Qing forces after vicious fighting in the streets. Most of the so-called princes were executed by Qing officials in Jinling Town, Nanjing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_PB_TAIPING_TEXT">
+			<Text>Praise be to Him, Hong Xiuquan, Son of God and Tian Wang of the Heavenly Kingdom. Divine King, spurned at a young age by imperial academics, your grand revelation came to you after an encounter with a Christian missionary. In your dream you saw your Celestial Family, your Holy Father and Brother, lamenting the fall of the Middle Kingdom to foreign demons. With their guidance you took up your divine mission, preaching the Word of God among your people and organizing a congregation that would number into the tens of thousands. As government forces began to approach your villages and threaten your followers, you proclaimed the Heavenly Kingdom of Great Peace, and rose up in rebellion against the great demons themselves - the hated Manchus.[NEWLINE][NEWLINE]Godsent King, in your hand you wield the Universe. The time has come again for you to heed the Word of the Lord. Can you, with divine authority, execute evil and preserve the righteous? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--Leader-->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG">
+			<Text>Hong Xiuquan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_NAME">
+			<Text>Hong Xiuquan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_SUBTITLE">
+			<Text>Tian Wang of The Heavenly Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_TITLES_1">
+			<Text>Tian Wang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_TITLES_2">
+			<Text>Heavenly King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_TITLES_3">
+			<Text>Son of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_LIVED">
+			<Text>1814 - 1864 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_FACT_1">
+			<Text>Views and opinions on Hong differ greatly. The Communists under Mao Zedong generally admired Hong and his movement as a legitimate peasant uprising that anticipated their own. Sun Yat-sen came from the same area as Hong and was said to have identified with Hong since his childhood days.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_HEADING_1">
+			<Text>Early Life and the Imperial Examinations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_TEXT_1">
+			<Text>Hong Xiuquan, born "Hong Huoxiu", was the third and youngest son of a poor Hakka family. He was born in Fuyuan Springs, Hua county (now part of Huadu District, Guangzhou), Guangdong to Hong Jingyang, a farmer and elected headman, and Madam Wang. He and his family moved to Guanlubu Village shortly after his birth. Upon marrying his wife Lai Xiying, Hong received the courtesy name "Renkun."[NEWLINE][NEWLINE]Hong showed an interest in scholarship at an early age, so his family made financial sacrifices to provide a formal education for him, in the hope that he could one day complete all of the civil service examinations. Hong began studying at a primary school in his village at the age of five. He was able to recite the Four Books after five or six years. He then took the local preliminary civil service examinations and placed first. A few years later, he traveled to the nearby city of Guangzhou to take the imperial examinations. He was unsuccessful and, his parents being unable to afford to continue his education, he was forced to return to agricultural work. The next year, he accompanied a wealthy schoolmate elsewhere for a year of study and became a village schoolteacher upon his return.[NEWLINE][NEWLINE]In 1836, at the age of 22, Hong returned to Guangzhou to retake the imperial examinations. While in Guangzhou, Hong heard Edwin Stevens, a foreign missionary, and his interpreter preaching about Christianity. From them, Hong received a set of pamphlets entitled "Good Words for Exhorting the Age", which were written by Liang Fa, Stevens's assistant, and contained excerpts from the Bible along with homilies and other material prepared by Liang. Supposedly, Hong only briefly looked over these pamphlets and did not pay much attention to them at the time. Unsurprisingly, he again failed the imperial examinations, which had a pass rate of less than one percent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_HEADING_2">
+			<Text>Visions and Conversion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_TEXT_2">
+			<Text>In 1837, Hong attempted and failed the imperial examinations for a third time, leading to a nervous breakdown. He was delirious for days and his family feared for his life. While convalescing, Hong dreamt that he visited Heaven and discovered that he possessed a celestial family distinct from his earthly family, which included a heavenly father, mother, elder brother, sister-in-law, wife, and son. His heavenly father, wearing a black dragon robe and high-brimmed hat with a long golden beard, lamented that men were worshiping demons rather than him and presented Hong with a sword and golden seal with which to slay the demons infesting Heaven. Hong dreamt that he did so with the help of his celestial older-brother and a heavenly army. The father figure later informed Hong that his given name violated taboos and must be changed, suggesting as one option the "Hong Xiuquan" moniker ultimately adopted by Hong. In later embellishments, Hong would declare that he also saw Confucius being punished by Hong's celestial father for leading the people astray. His acquaintances would later claim that after awakening from his dreams Hong became more careful, friendly, and open, while his pace became imposing and firm and his height and size increased. Hong stopped studying for the imperial examinations and sought work as a teacher. For the next several years Hong taught at several schools around the area of his hometown.[NEWLINE][NEWLINE]n 1843, Hong failed the imperial examinations for the fourth and final time. It was only then, prompted by a visit by his cousin, that Hong took time to carefully examine the Christian pamphlets he had received. After reading these pamphlets, Hong came to believe that they had given him the key to interpreting his visions: his celestial father was God the Father (whom he identified with Shangdi from Chinese tradition), the elder brother that he had seen was Jesus Christ, and he had been directed to rid the world of demon worship. This interpretation led him to conclude that he was the literal son of God and younger brother to Jesus. In contrast to some of the later leaders of his movement, Hong appears to have genuinely believed in his ascent to Heaven and divine mission. After coming to this conclusion Hong began destroying idols and enthusiastically preaching his interpretation of Christianity. As a symbolic gesture to purge China of Confucianism, he and the cousin asked for two giant swords, three chi (about 1 metre) long and nine jin (about 4.5 kg), called the "demon-slaying swords", to be forged.[NEWLINE][NEWLINE]Hong began by burning all Confucian and Buddhist statues and books in his house, and began preaching to his community about his visions. Some of his earliest converts were relatives of his who had also failed their examinations and belonged to the Hakka minority, Feng Yunshan and Hong Rengan. He collaborated with them to destroy holy statues in small villages, to the ire of local citizens and officials. Hong and his converts' acts were considered sacrilegious and they were persecuted by Confucians who forced them to leave their positions as village tutors. In April 1844, Hong, Feng Yunshan, and two other relatives of Hong left Hua county to travel and preach. They first journeyed to Guangzhou and preached in the outlying areas before heading northwest to White Tiger Village. There, Hong and Feng Yunshan split off and traveled some 250 miles to the southwest to the village of Sigu, Guiping county, Guangxi, where distant relatives of Hong's resided, including two early converts who had returned home. It is in or near Sigu that Hong begins to draft "Exhortations to Worship the One True God," his first substantial work. In November 1844, after having preached in Guangxi for five months, Hong returned home without Feng and resumed his previous job as a village teacher, while continuing to write religious tracts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_HEADING_3">
+			<Text>The God Worshipping Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_TEXT_3">
+			<Text>Most of Hong Xiuquan's knowledge of the scriptures came from the books known as "Good Words to Admonish the Age" by the Chinese preacher Liang Fa and a localized Bible translated into Chinese. Many Western missionaries grew jealous of Hong and his local ministry. These missionaries were fond of spreading rumors about him, one such rumor being that he had not been baptized (Hong and his cousin were in fact both baptized according to the way prescribed in the pamphlet "Good words to admonish the age").[NEWLINE][NEWLINE]In 1847, Hong began his translation and adaptation of the Bible, what came to be known as "Authorized Taiping Version of the Bible, or "The Taiping Bible", which he based on Gutzlaff's translation. He presented his followers with the Bible as a vision of the authentic religion that had existed in ancient China before it was wiped out by Confucius and the imperial system. The deity of the Old Testament punished evil nations and rewarded those who followed his commandments, even music, food, and marriage laws.[NEWLINE][NEWLINE]Hong made some minor changes in the text, such as correcting misprints and improving the prose style, but adapted the meaning elsewhere to fit his own theology and moral teachings. For instance, in Genesis 27:25 the Israelites did not drink wine, and in Genesis 38:16-26 he omitted the sexual relations between the father and his son's widow. Hong preached a mixture of communal utopianism, evangelism, and Christianity. While proclaiming sexual equality, the sect segregated men from women and encouraged all its followers to pay their assets into a communal treasury.[NEWLINE][NEWLINE]When Hong returned to Guangxi, he found that Feng Yunshan had accumulated a following of around 2,000 converts. Guangxi was a dangerous area at this time with many bandit groups based in the mountains and pirates on the rivers. Perhaps due to these more pressing concerns, the authorities were largely tolerant of Hong and his followers. However, the instability of the region meant that Hong's followers were inevitably drawn into conflict with other groups, not least because of their predominately Hakka ethnicity. There are records of numerous incidents when local villages and clans, as well as groups of pirates and bandits, came into conflict with the authorities, and responded by fleeing to join Hong's movement. The rising tension between the sect and the authorities was probably the most important factor in Hong's eventual decision to rebel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_HEADING_4">
+			<Text>The Rebellion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_TEXT_4">
+			<Text>By 1850 Hong had between 10,000 and 30,000 followers. The authorities were alarmed at the growing size of the sect and ordered them to disperse. A local force was sent to attack them when they refused, but the imperial troops were routed and a deputy magistrate killed. A full-scale attack was launched by government forces in the first month of 1851, in what came to be known as the Jintian Uprising, named after the town of Jintian (present-day Guiping, Guangxi) where the sect was based. Hong's followers emerged victorious and beheaded the Manchu commander of the government army. Hong declared the founding of the "Heavenly Kingdom of Transcendent Peace" on 11 January 1851. Despite this evidence of planning, Hong and his followers faced immediate challenges. The local Green Standard Army outnumbered them ten to one, and had recruited the help of the river pirates to keep the rebellion contained to Jintian. After a month of preparation the rebels managed to break through the blockade and fight their way to the town of Yongan (not to be confused with Yong'an), which fell to them on 25 September 1851.[NEWLINE][NEWLINE]After establishing his capital at Nanjing Hong implemented an ambitious programme of reforms. He created an elaborate civil bureaucracy, reformed the calendar used in his kingdom, outlawed opium use, and introduced a number of reforms designed to make women more socially equal to men.[2] Hong ruled by making frequent proclamations from his Heavenly Palace, demanding strict compliance with various moral and religious rules. Most trade was suppressed, and some communal land ownership was introduced. Polygamy was forbidden and men and women were separated, although Hong and other leaders maintained groups of concubines.[NEWLINE][NEWLINE]Yang Xiuqing, also known as the "East King", was a fellow Taiping leader who had directed successful military campaigns and who often claimed to speak with the voice of God. Hong became increasingly suspicious of Yang's ambitions and his network of spies. In 1856, he and others in the Taiping élite had Yang and his family murdered in a purge that spiralled out of control, resulting in the further purge of its main perpetrator Wei Changhui.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_HEADING_5">
+			<Text>Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_TEXT_5">
+			<Text>In the spring of 1864, Nanjing was besieged and dangerously low on food supplies. Hong's solution was to order his subjects to eat manna, which had been translated into Chinese as sweetened dew and a medicinal herb. Hong himself gathered weeds from the grounds of his palace, which he then ate. Hong fell ill in April 1864, possibly due to his ingestion of the weeds, and died on June 1, 1864. Although Hong likely died of his illness, suicide by poison has also been suggested. He was buried in a yellow-silk shroud without a coffin in the bare ground, per Taiping custom. He was succeeded by his teenage son, Hong Tianguifu.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_HEADING_6">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PEDIA_TEXT_6">
+			<Text>In 1959, the People's Republic of China established a small museum, Hong Xiuquan's Former Residence Memorial Museum, in his birthplace, where there is a longan tree planted by him. The museum's plate is written by the famous literary figure Guo Moruo (1892–1978). The residence and Book Chamber Building were renovated in 1961.[NEWLINE][NEWLINE]There has been an active academic debate on the degree to which Hong is similar or dissimilar to Falun Gong founder Li Hongzhi. Scholars that promote the opinion that a strong similarity exists between Li and Hong note that both rallied a large number of people behind a religious or spiritual cause in order to challenge the status quo. Scholars disputing a close relationship note that Li's political intentions are debatable.</Text>
+		</Row>
+		<!--Trait-->
+		<Row Tag="TXT_KEY_TRAIT_PB_BROTHER_OF_CHRIST">
+			<Text>Upon capturing a City, earn a boost of [ICON_PEACE] Faith and a restore a portion of the City's HP for each pillaged tile within working distance. Puppet Cities produce +25% Religious Pressure while following your Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_PB_BROTHER_OF_CHRIST_SHORT">
+			<Text>Brother of Christ</Text>
+		</Row>
+		<!--City Names-->
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_1">
+			<Text>Tianjing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_2">
+			<Text>Anqing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_3">
+			<Text>Wuchang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_4">
+			<Text>Suzhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_5">
+			<Text>Hangzhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_6">
+			<Text>Nanchang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_7">
+			<Text>Ningbo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_8">
+			<Text>Jiujiang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_9">
+			<Text>Wusong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_10">
+			<Text>Qingpu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_11">
+			<Text>Luzhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_12">
+			<Text>Songjiang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_13">
+			<Text>Shouzhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_14">
+			<Text>Pukou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_15">
+			<Text>Tongcheng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_16">
+			<Text>Wuhu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_17">
+			<Text>Chengtang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_18">
+			<Text>Huangmei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_19">
+			<Text>Hankow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_20">
+			<Text>Wuxi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_21">
+			<Text>Longping</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_22">
+			<Text>Zhelin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_23">
+			<Text>Danyang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_24">
+			<Text>Qimen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_25">
+			<Text>Zhenjiang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_26">
+			<Text>Xiuning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_27">
+			<Text>Hanyang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_28">
+			<Text>Zhapu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_29">
+			<Text>Huizhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_30">
+			<Text>Yangzhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_TAIPING_31">
+			<Text>Jingdezhen</Text>
+		</Row>
+		<!--Spy Names-->
+		<Row Tag="TXT_KEY_SPY_NAME_PB_TAIPING_0">
+			<Text>Hong Rengan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_TAIPING_1">
+			<Text>Yang Xiuqing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_TAIPING_2">
+			<Text>Shi Dakai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_TAIPING_3">
+			<Text>Feng Yunshan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_TAIPING_4">
+			<Text>Xiao Chaogui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_TAIPING_5">
+			<Text>Wei Changhui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_TAIPING_6">
+			<Text>Li Xiucheng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_TAIPING_7">
+			<Text>Chen Yucheng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_TAIPING_8">
+			<Text>Lai Wenkwok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_TAIPING_9">
+			<Text>Fu Shanxiang</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--Units-->
+		<Row Tag="TXT_KEY_UNIT_PB_CHANG_MAO">
+			<Text>Changmao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PB_CHANG_MAO_HELP">
+			<Text>+50% [ICON_STRENGTH] Combat Strength bonus vs Cities when fighting on a pillaged tile. Captured Cities gain a free line of defensive buildings. Only the Heavenly Kingdom may build it. Replaces the Musketman.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PB_CHANG_MAO_STRATEGY">
+			<Text>The Changmao is the Taiping unique unit, replacing the Musketman. When fighting on a pillaged tile, this unit is 50% more effective at capturing Cities. In addition, when a Changmao successfully captures a city, the city will be reinforced with a full line of available defensive buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PB_CHANG_MAO_TEXT">
+			<Text>At the time of the Taiping Rebellion, males living under the Qing dynasty were required to shave their hair at the front in a sign of submission to the Qing Emperor. The Taiping openly defied this custom, growing their hair out long as part of their typical appearance. It is for this that the rebels were nicknamed Changmao or "Long-Hair" by their adversaries.</Text>
+		</Row>
+		<!-- Promotions -->
+		<Row Tag="TXT_KEY_PROMOTION_PB_CHM_CITY_COMBAT">
+			<Text>Good Words</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PB_HH_PILLAGE">
+			<Text>Demon-Slayer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PB_CHM_CITY_CAPTURE">
+			<Text>Long-Hair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PB_CHM_CITY_COMBAT_HELP">
+			<Text>+50% Combat Strength vs Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PB_HH_PILLAGE_HELP">
+			<Text>No Movement Cost to Pillage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PB_CHM_CITY_CAPTURE_HELP">
+			<Text>Captured Cities gain a free line of defensive buildings</Text>
+		</Row>
+		<!-- Buildings -->
+		<Row Tag="TXT_KEY_BUILDING_PB_HEAVENLY_HALL">
+			<Text>Heavenly Hall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PB_HEAVENLY_HALL_HELP">
+			<Text>Unique Taiping Opera House replacement. +2 [ICON_PEACE] Faith and +4 Defensive Strength for this city. Units constructed in this city during a We Love the King Day may pillage tiles with no movement cost.[NEWLINE][NEWLINE]City must have a Temple.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PB_HEAVENLY_HALL_STRATEGY">
+			<Text>The Heavenly Hall is the Taiping unique building, replacing the Opera House. This unique renaissance-era religious building provides +2 Faith in addition to normal effects. It also strengthens the Defense of the city by 4. During a We Love the King Day, units produced in a city with a Heavenly Hall gain the Demon-Slayer promotion and may pillage tiles for no movement cost. The city must have a Temple in order to construct a Heavenly Hall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PB_HEAVENLY_HALL_TEXT">
+			<Text>Taiping places of worship were usually called the "Heavenly Hall", "Heavenly Father Hall", or "Heavenly Chamber". Any building was considered suitable to be converted into a Heavenly Hall, from the Hall of Glory in Tianjing's Heavenly Palace to a lowly barracks or pagan temple. In Taiping theology the key to worship was to do so with sincerity and a pure heart, making the location of the house of worship somewhat insignificant.[NEWLINE][NEWLINE]Local governments within the Heavenly Kingdom were required to construct a common treasury and Heavenly Hall for every 25 families; the Heavenly Hall often served dual purpose as a religious house of worship and a government office.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PB_TAIPING_FAITH_DUMMY">
+			<Text>Taiping Religion Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PB_TAIPING_FAITH_DUMMY_HELP">
+			<Text>+25% Religious Pressure in Puppet Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PB_TAIPING_PROM_DUMMY">
+			<Text>Taiping Promotion Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PB_TAIPING_PROM_DUMMY_HELP">
+			<Text>Units trained in this city gain free pillage</Text>
+		</Row>
+		<!-- Religions -->
+		<Row Tag="TXT_KEY_RELIGION_PB_GOD_WORSHIPPING">
+			<Text>Bai Shangdi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_PB_GOD_WORSHIPPING_HELP">
+			<Text>The God Worshipping Society (Bai Shangdi Jiao) was a religious movement founded and led by Hong Xiuquan which drew on his own unique interpretation of Christianity and combined it with Chinese folk religion, faith in Shangdi, and other religious traditions. According to historical evidence, his first contact with Christian pamphlets occurred in 1836 when he directly received American Congregationalist missionary Edwin Stevens' personal copy of "Good Words to Admonish the Age" (Liang Fa, 1832). He only briefly looked over and did not carefully examine it.[NEWLINE][NEWLINE]Subsequently, Hong had supposedly experienced mystical visions in the wake of his third failure of the imperial examinations in 1837 and after failing for a fourth time in 1843, he sat down to carefully examine the tracts with his distant cousin Feng Yunshan, believing that they were "the key to interpreting his visions" coming to the conclusion that he was "the son of God the Father and the younger brother of Jesus Christ who had been directed to rid the world of demon worship."</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

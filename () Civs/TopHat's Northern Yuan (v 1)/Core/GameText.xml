@@ -1,0 +1,354 @@
+<GameData>
+    <Language_en_US>
+        <!--Cities-->
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_1">
+            <Text>Karakorum</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_2">
+            <Text>Shangdu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_3">
+            <Text>Yingchang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_4">
+            <Text>Ordos</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_5">
+            <Text>Burkhan Khaldun</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_6">
+            <Text>Khalkha</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_7">
+            <Text>Orkhon</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_8">
+            <Text>Hohhot</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_9">
+            <Text>Chahar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_10">
+            <Text>Kherlen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_11">
+            <Text>Bayanbulag</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_12">
+            <Text>Tuul</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_13">
+            <Text>Khentii</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_14">
+            <Text>Ikh Khorig</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_15">
+            <Text>Tümed</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_16">
+            <Text>Bayankhongor</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_17">
+            <Text>Shargaljuut</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_18">
+            <Text>Erdene Zuu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_19">
+            <Text>Onon</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_20">
+            <Text>Ögii</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_21">
+            <Text>Uriankhai</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_22">
+            <Text>Yünsheebüü</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_23">
+            <Text>Tumu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_24">
+            <Text>Darkhad</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_25">
+            <Text>Xilinhot</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_26">
+            <Text>Baotou</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_27">
+            <Text>Hulun</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_28">
+            <Text>Amur</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_THP_NORTHYUAN_29">
+            <Text>Hami</Text>
+        </Row>
+        
+        <!--Spies-->
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NORTHYUAN_0">
+            <Text>Batumöngke</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NORTHYUAN_1">
+            <Text>Barsbolad</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NORTHYUAN_2">
+            <Text>Turbolad</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NORTHYUAN_3">
+            <Text>Manduul</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NORTHYUAN_4">
+            <Text>Mahakörgis</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NORTHYUAN_5">
+            <Text>Chorosbai</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NORTHYUAN_6">
+            <Text>Samar</Text>
+            <Gender>feminine</Gender>s
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NORTHYUAN_7">
+            <Text>Yeke Qabar-tu</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NORTHYUAN_8">
+            <Text>Khusei</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_THP_NORTHYUAN_9">
+            <Text>Jimisgene</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        
+        <!--Basic Info-->
+        <Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI">
+            <Text>Mandukhai</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_NORTHYUAN_ADJECTIVE">
+            <Text>Northern Yuan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_NORTHYUAN_DESC">
+            <Text>Northern Yuan Dynasty</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV_THP_NORTHYUAN_SHORT_DESC">
+            <Text>Northern Yuan</Text>
+        </Row>
+        
+        <!--Civilopedia-->
+        <Row Tag="TXT_KEY_PEDIA_THP_NORTHYUAN_HEADING_1">
+            <Text>History</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PEDIA_THP_NORTHYUAN_TEXT_1">
+            <Text>The Northern Yuan Dynasty is the designation used for the Mongols of the Yuan Dynasty, after the Ming drove them out of China proper in the later 14th century. The Yuan power was most severely broken in 1388, after the Ming achieved a decisive victory over them at the Battle of Buyur Lake. This caused the Mongols to fragment, initiating a time known as the "period of small kings"; Ming intervention in the early 15th century also prevented any one group from achieving primacy.[NEWLINE]
+                [NEWLINE]The Oirats were the most powerful group in the region during this period, and they reached the height of their power under the rule of Esen Taishi (fl. 1438-1455). Esen Taishi was an accomplished commander, even capturing the Ming Zhengton Emperor in 1449, but after his death the steppes fell back into fragmentation. The Oirats remained prominent among the Mongol subgroups, but their power was broken by Mandukhai in her reunification of the Northern Yuan. This reinstated the power of the Borjigin dynasty; Mandukhai and her husband, Dayan Khan, went on to restructure the Mongols' administrative divisions into six tümens. Upon Dayan's death in 1543, these tümens were divided between his sons; thus, while the Borjigins retained complete control as a dynasty, there was nevertheless political decentralization.[NEWLINE]
+                [NEWLINE]As the 16th century progressed, the combined factors of smallpox epidemics and a lack of trade drove the Northern Yuan to increase the amount of raiding they did against Ming China. The Ming opened trade relations with the Northern Yuan in 1571 in an effort to curtail these raids, and the new route of communication caused Tibetan Buddhism to propagate widely among the Mongols. The final period of the Northern Yuan came with the ascendancy of the Manchu and the formation of the Qing dynasty; after Ligdan Khan's unsuccessful campaign against the Manchu (1628-1634), his son surrendered entirely to them, bringing the Northern Yuan to an end.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_PEDIA_NAME">
+            <Text>Mandukhai</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_PEDIA_SUBTITLE">
+            <Text>Leader of the Northern Yuan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_PEDIA_TITLES_1">
+            <Text>Khatun of the Northern Yuan Dynasty</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_PEDIA_LIVED">
+            <Text>ca. 1449 - 1510</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_PEDIA_HEADING_1">
+            <Text>Biography</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_THP_MANDUKHAI_PEDIA_TEXT_1">
+            <Text>Mandukhai was born in approximately 1449; her father was Chorosbai, an aristocrat who held the title of chingsang (grand councillor). She first entered renown after marrying Manduul Khan at age sixteen, especially after she came to be Manduul's favorite wife - taking precedence over his first wife, Yeke Qabar-tu. In 1479, Manduul died suddenly with no children, leading to a succession crisis. Mandukhai procured Batumöngke, a seven-year-old orphan descended directly from Genghis Khan; she then adopted the boy and had him crowned as Dayan Khan, thereby placing herself in the position of regent.[NEWLINE][NEWLINE]During her regency, Mandukhai led a hugely successful war against the Oirats, and cemented the Borjigin dominance over them by imposing several humiliating laws upon the Oirat. Then, when Dayan Khan reached adulthood, Mandukhai married him in order to retain her hold on power. She continued personally leading campaigns against the Oirat and Ming, even while pregnant, and in one famous incident she apparently gave birth to twins on the battlefield.[NEWLINE][NEWLINE]Mandukhai died in 1510 for unknown reasons. The most credible sources agree that her death was of natural causes, but speculation persists that she was assassinated by a Ming spy or by one of Dayan Khan's concubines.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIV5_DAWN_THP_NORTHYUAN_TEXT">
+            <Text>Salutations, Mandukhai Khatun the Wise, reunifier of the Mongol peoples! After being driven out of China, the Yuan - now Northern Yuan - were largely subjected to the Oirats in the 15th century. Under your rule, that changed; after the death of your first husband, you assumed control over the Mongols and led them to a grand victory over their ancient Oirat foes. This unified the Mongols for the first time in a century, and your prudent reorganization of the tümens helped preserve the Northern Yuan for a century beyond your death.[NEWLINE][NEWLINE]O Mandukhai, your successes have survived in the imagination of the Mongols, and they clamor for the triumph and glory that they experienced under your control. Can you overrun your foes and rebuild Mongol dominance? Can you build a civilization that will stand the test of time?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_THP_NORTHYUAN_SHORT">
+            <Text>Eight White Yurts</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_THP_NORTHYUAN">
+            <Text>Units trained in conquered Cities receive +1 [ICON_MOVES] Movement while at war with the player you took it from. Defeating Units damages adjacent Cities.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_HUIHUI_PAO">
+            <Text>Huihui Pao</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_HUIHUI_PAO_HELP">
+            <Text>Powerful medieval siege unit. Only the Northern Yuan may build it. The Huihui Pao can chop down Forests, each time allowing it to perform a single attack without setting up.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_HUIHUI_PAO_STRATEGY">
+            <Text>The ability to chop down Forests, allowing you in effect to set up an attack in advance, makes the Huihui Pao a useful tool for attacking a city with speed and mobility. Clear your forests judiciously and use a group of Huihui Pao to launch an unexpected first strike against your enemies.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_HUIHUI_PAO_TEXT">
+            <Text>The huihui pao, literally meaning "Muslim trebuchet," is a Chinese term for the counterweight trebuchet. Originally built by Muslim engineers from modern-day Iraq, the huihui pao was designed to have greater range and accuracy than the preceding torsion trebuchet. The range of the huihui pao also made it possible to safely launch explosive shells with it.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_CHONGZU">
+            <Text>Chongzu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_CHONGZU_HELP">
+            <Text>Renaissance Era mounted unit. Only the Northern Yuan may build it. The Chongzu receives doubled Experience, and may be expended in a City to contribute Production (based on its accumulated Experience) to the unit currently being trained.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_CHONGZU_STRATEGY">
+            <Text>Thanks to its early unlocking, the Chongzu is sure to be a potent force throughout the entirety of your Renaissance Era; by using it early on, before other players have unlocked Lancers, you can dominate the battlefield and earn large sums of Experience. Then, once the Chongzu has become obsolete, you can repurpose its Experience to speed the training of your next generation of units.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_THP_CHONGZU_TEXT">
+            <Text>The chongzu, a Chinese term for "gun soldier," was a type of warrior that was prominent under the Yuan and Northern Yuan dynasties. Our best attestation for the chongzu comes from Song Lian's History of Yuan; this text is also where we first see the term 'chong' used for hand cannons, as opposed to the 'huo tong' which had been popular earlier.[NEWLINE][NEWLINE]The most famous usage of the chongzu was by Li Ting in 1288, when he launched an attack on the camps of the rebel Nayan. Not only were hand cannons highly effective in the battle, they startled and confused Nayan's forces so much that many of the rebels ended up unwittingly killing one another.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_MANDUKHAI_MOVES">
+            <Text>Laws of the Oirat</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_MANDUKHAI_MOVES_HELP">
+            <Text>This unit was trained in a city conquered from one of your current enemies, granting it additional movement.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_HUIHUI_PAO">
+            <Text>Counterweight</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_HUIHUI_PAO_HELP">
+            <Text>This exceptionally mobile trebuchet can clear forest, and will subsequently be able to attack once without setup.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_CHONGZU">
+            <Text>Alarming Fire</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_CHONGZU_HELP">
+            <Text>Gains double Experience, and may expend that Experience in cities to help train units.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_HHP_POSTCOMBAT">
+            <Text>Spare Wood Expended</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_THP_HHP_POSTCOMBAT_HELP">
+            <Text>This unit has used its free attack.</Text>
+        </Row>
+        
+        <!--Mod Support-->
+        <Row Tag="TXT_KEY_GENERIC_THP_NORTHYUAN_INFLUENTIAL_ON_AI_1">
+            <Text>Our people are now wielding your hand cannons and living in your yurts. I worry that the rest of the world will also succumb to the influence of your culture.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CLASS_JFD_ELITE_NORTHYUAN">
+            <Text>Sain Humun</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CLASS_JFD_PROFESSIONAL_NORTHYUAN">
+            <Text>Dund Humun</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CLASS_JFD_COMMON_NORTHYUAN">
+            <Text>Magu Humun</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOVERNMENT_JFD_EMPIRE_TITLE_LEADER_NORTHYUAN">
+            <Text>Khagan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOVERNMENT_JFD_EMPIRE_TITLE_LEADER_NORTHYUAN_FEMININE">
+            <Text>Taihu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_TITLE_LEADER_NORTHYUAN">
+            <Text>Khan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_TITLE_LEADER_NORTHYUAN_FEMININE">
+            <Text>Khatun</Text>
+        </Row>
+        <Row Tag="TXT_KEY_COUNCILLOR_JFD_CHANCELLOR_DESC_THP_NORTHYUAN">
+            <Text>Chingsang</Text>
+        </Row>
+        
+        <!--Additional Achievements-->
+        <Row Tag="TXT_KEY_MOD_THP_NORTHYUAN_NAME">
+            <Text>TopHat's Northern Yuan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_NORTHYUAN_ID_CFC">
+            <Text>!TODO mod id</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_NORTHYUAN_ID_STEAM">
+            <Text>ee2c6fb8-4333-4418-bd48-6c272773119b</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOD_THP_NORTHYUAN_AUTHORS">
+            <Text>TopHatPaladin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_NORTHYUAN_VICTORY_HEADER">
+            <Text>Borjigin Family Reunion</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_NORTHYUAN_VICTORY_TEXT">
+            <Text>Win the game on any difficulty setting as Northern Yuan.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_NORTHYUAN_SPECIAL_HEADER">
+            <Text>The Ultimate Hand Cannon</Text>
+        </Row>
+        <Row Tag="TXT_KEY_AA_THP_NORTHYUAN_SPECIAL_TEXT">
+            <Text>As Northern Yuan, use a Chongzu to contribute Production toward a nuclear weapon.</Text>
+        </Row>
+        
+        <!--E&D Support-->
+        <Row Tag="TXT_KEY_DECISIONS_THP_NORTHYUAN_OIRATLAW">
+             <Text>Impose Symbolic Laws</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_NORTHYUAN_OIRATLAW_DESC">
+            <Text>Our conquered peoples seem pacified now, but there's always a risk of uprising later. In order to remind them of their place, we should pass laws prohibiting these subjugated populations from wearing crested helmets or using the term 'ordon' for their homes.
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]Player must be Northern Yuan
+             [NEWLINE][ICON_BULLET]Must have entered the Medieval Era
+             [NEWLINE][ICON_BULLET]Must have at least one Puppeted city
+             [NEWLINE][ICON_BULLET]May only be enacted once per game
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]300 [ICON_GOLD] Gold
+             [NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]Gain a sum of [ICON_CULTURE] Culture whenever a Puppeted city completes a building
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_NORTHYUAN_OIRATLAW_ENACTED_DESC">
+             <Text>Our conquered peoples seem pacified now, but there's always a risk of uprising later. In order to remind them of their place, we should pass laws prohibiting these subjugated populations from wearing crested helmets or using the term 'ordon' for their homes.
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]Gain a sum of [ICON_CULTURE] Culture whenever a Puppeted city completes a building
+             [NEWLINE][ICON_BULLET]Quantity scales with the [ICON_CITIZEN] Population of the city
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_WORLD_EVENT_THP_NORTHYUAN_OIRATLAW">
+            <Text>{1_LeaderName} has imposed symbolic laws upon the conquered populations of {2_CivName}!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_NORTHYUAN_NEWFAITH">
+             <Text>Explore Foreign Religion</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_NORTHYUAN_NEWFAITH_DESC">
+            <Text>The trade routes we recently developed have been a great success, but the new visitors to our country have begun promoting their religion. Our people seem to like this faith; maybe we would be wise to formally embrace it.
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]Player must be Northern Yuan
+             [NEWLINE][ICON_BULLET]Must have entered the Renaissance Era
+             [NEWLINE][ICON_BULLET]Must have a trade route to a foreign Holy City
+             [NEWLINE][ICON_BULLET]May only be enacted once per game
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]400 [ICON_GOLD] Gold
+             [NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+             [NEWLINE]-------------------------
+             [NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+             [NEWLINE]-------------------------
+             [NEWLINE][ICON_BULLET]Gain a free Pagoda in the origin city of each of your Trade Routes
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_DECISIONS_THP_NORTHYUAN_NEWFAITH_ENACTED_DESC">
+             <Text>The trade routes we recently developed have been a great success, but the new visitors to our country have begun promoting their religion. Our people seem to like this faith; maybe we would be wise to formally embrace it.
+                 [NEWLINE]-------------------------
+                 [NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+                 [NEWLINE]-------------------------
+                 [NEWLINE][ICON_BULLET]Gain a free Pagoda in the origin city of each of your Trade Routes
+             </Text>
+        </Row>
+        <Row Tag="TXT_KEY_WORLD_EVENT_THP_NORTHYUAN_NEWFAITH">
+            <Text>{1_LeaderName} has begun patronizing foreign religions in {2_CivName}!</Text>
+        </Row>
+        </Language_en_US>
+    </GameData>

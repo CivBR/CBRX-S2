@@ -1,0 +1,112 @@
+<GameData>
+	<Language_en_US>
+		<!--Heads of Govt.-->
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU">
+			<Text>Huangdi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_1">
+			<Text>Hong Taiji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_2">
+			<Text>Dorgon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_3">
+			<Text>Shunzhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_4">
+			<Text>Kangxi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_5">
+			<Text>Yongzheng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_6">
+			<Text>Qianlong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_7">
+			<Text>Jiaqing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_8">
+			<Text>Daoguang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_9">
+			<Text>Xianfeng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_10">
+			<Text>Tongzhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_11">
+			<Text>Guangxu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_SENSHI_MANCHU_12">
+			<Text>Xuantong</Text>
+		</Row>
+		<!--RYOGA UNIQUE CULTURAL INFLUENCE-->
+		<Row Tag="TXT_KEY_GENERIC_SENSHI_MANCHU_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are utterly obsessed with flags! Flags here! Banners there! I'm so sick of it! Couldn't you have chosen someone else to eclipse in culture?!</Text>
+		</Row>
+		<!--E&D-->
+		<Row Tag="TXT_KEY_DECISIONS_SENSHI_MANCHU_QING">
+			<Text>Establish the Qing Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_SENSHI_MANCHU_QING_DESC">
+			<Text>
+				We have conquered foreign lands of great wealth and prestige. Let us reform our empire to match the glory of the lands we have acquired.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Manchu
+				[NEWLINE][ICON_BULLET]Must have conquered 2 [ICON_CAPITAL] Capitals or 5 cities
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_CULTURE] Culture
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A 15 turn [ICON_GOLDEN_AGE] Golden Age starts.
+				[NEWLINE][ICON_BULLET]Empire is renamed to Qing
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_SENSHI_MANCHU_QING_ENACTED_DESC">
+			<Text>
+				We have conquered foreign lands of great wealth and prestige. Let us reform our empire to match the glory of the lands we have acquired.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A 15 turn [ICON_GOLDEN_AGE] Golden Age starts.
+				[NEWLINE][ICON_BULLET]Civ is renamed the "Qing Dynasty."
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_SENSHI_MANCHU_QUEUE">
+			<Text>Enforce the Queue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_SENSHI_MANCHU_QUEUE_DESC">
+			<Text>
+				We must enforce order over our conquered subjects. To do so, we will implement a system where every foreign subject must maintain their hair in a queue, lest they face punishment by death.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Manchu
+				[NEWLINE][ICON_BULLET]Must be in at least the Renaissance
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Courthouses are built 100% faster and yield +2 [ICON_CULTURE] Culture.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_SENSHI_MANCHU_QUEUE_ENACTED_DESC">
+			<Text>
+				We must enforce order over our conquered subjects. To do so, we will implement a system where every foreign subject must maintain their hair in a queue, lest they face punishment by death.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Courthouses are built 100% faster and yield +2 [ICON_CULTURE] Culture.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_SENSHI_QING_ADJECTIVE">
+			<Text>Qing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_QING_DESC">
+			<Text>Qing Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_QING_SHORT_DESC">
+			<Text>Qing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_SENSHI_MANCHU_QING">
+			<Text>{1_LeaderName} has received the Mandate of Heaven and declared themself Emperor of the Qing Dynasty!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

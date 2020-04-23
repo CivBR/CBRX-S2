@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/29/2014 3:02:01 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_PESHMERGA">
+			<Text>Peshmerga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PESHMERGA_HELP">
+			<Text>Move at double speed through Hills and can cross Mountain tiles. Removes defensive terrain bonuses from adjacent enemies it starts its turn next to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KURD_UA">
+			<Text>No Friends but the Mountains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_KURD_UA_HELP">
+			<Text>+25% [ICON_STRENGTH] Defense on Hills.</Text>
+		</Row>
+		<!--Kurdistan-->
+		<Row Tag="TXT_KEY_CIV_KURD_DESC">
+			<Text>Kurdistan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_KURD_SHORT_DESC">
+			<Text>Kurdistan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_KURD_ADJECTIVE">
+			<Text>Kurdish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_KURD_TEXT">
+			<Text>Long may your days of freedom be, Mullah Mustafa Barzani, for none deserves it more than a Kurd! Others have sought to imprison you since you were five years old, as insurrection after bloody insurrection rocked your home and made your people into the enemies of great powers and mighty empires, all in the pursuit of freedom and nationhood. With Barzinji you stood against the British Mandate of Iraq, and were beaten back. With Qazi Muhammad you stood for the Republic of Mahabad, only to be betrayed by the Soviets. Who now shall stand with you, great leader? With whom shall you fight?[NEWLINE][NEWLINE]For the Kurds will rise and rise and keep on rising, rising to sovereignty, rising to prosperity, rising to freedom from persecution and oppression by every nation that gets the chance. Who shall you lead against your enemy, Mullah with a thousand enemies? Can you build a true Kurdistan with them? Can that Kurdistan, that Civilization, stand the test of time?</Text>
+		</Row>
+		<!--Barzani-->
+		<Row Tag="TXT_KEY_LEADER_BARZANI_DESC">
+			<Text>Mustafa Barzani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_NO_FRIENDS_MOUNTAINS">
+			<Text>Unit gain Indirect Fire and +25% [ICON_STRENGTH] Defense when on Hills. Your borders claim adjacent Mountains when expanding, and provide random yields when doing so.</Text>
+	</Row>
+		<Row Tag="TXT_KEY_TRAIT_NO_FRIENDS_MOUNTAINS_SHORT">
+			<Text>No Friends but the Mountains</Text>
+		</Row>
+		<!--Peshmerga-->
+		<Row Tag="TXT_KEY_UNIT_PESHMERGA">
+			<Text>Peshmerga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PESHMERGA">
+			<Text>Unique Infantry. May cross Mountains and has double [ICON_ARROW_RIGHT] Moves in Hills. When attacking into rough terrain, it damages all adjacent enemies also in rough terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PESHMERGA_STRATEGY">
+			<Text>Unique Infantry. May cross Mountains and has double [ICON_ARROW_RIGHT] Moves in Hills. When attacking into rough terrain, it damages all adjacent enemies also in rough terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_PESHMERGA_TEXT">
+			<Text>The Boer Commando was the basic unit of organisation of Boer militias during the Boer Wars and various native conflicts. In 1658, war erupted between the Dutch settlers at Cape Colony and the native Khoi-khoi. In order to protect the settlement, all able-bodied men were conscripted. After the conclusion of this war, all men in the colony were liable for military service and were expected to be ready on short notice. Light, mobile commandos were undeniably better-suited than the slow-moving columns of imperial troops for warfare in the rough frontier mountains of South Africa. During the Great Trek, this system was used and remained in use in the Boer republics. Both republics issued commando laws, making commando service mandatory in times of need for all male citizens between the ages of 16 and 60. During the Anglo-Boer War (1899–1902) the Boer commando formed the backbone of the Boer forces. Commandos were issued with firearms by the government of the day, and were obliged to keep those weapons serviceable and ready at all times, the most common rifles aquired by these units being German Mauser rifles and British Martini-Henry rifles. After the declaration of peace in 1902, the commandos were disbanded. In 1912, the commandos were reformed as an Active Citizen Force in the Union Defence Force of South Africa. This system was in operation until 2005, when all commandos were disbanded again.</Text>
+		</Row>
+		<!--Citadel-->
+		<Row Tag="TXT_KEY_BUILDING_ERBILCITADEL_DESC">
+			<Text>Qela</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ERBILCITADEL_STRATEGY">
+			<Text>Replaces Walls. +1 [ICON_FOOD] Food for every 2 worked Hills and carries over 25% of [ICON_FOOD] Food when a [ICON_CITIZEN] Citizen is born. +1 [ICON_PRODUCTION] Production for every Mountain in this city's borders, along with +1 [ICON_TOURISM] Tourism after Archaeology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ERBILCITADEL_HELP">
+			<Text>Replaces Walls. +1 [ICON_FOOD] Food for every 2 worked Hills and carries over 25% of [ICON_FOOD] Food when a [ICON_CITIZEN] Citizen is born. +1 [ICON_PRODUCTION] Production for every Mountain in this city's borders, along with +1 [ICON_TOURISM] Tourism after Archaeology.</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_KURD_9">
+			<Text>Qazi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_KURD_8">
+			<Text>Mesud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_KURD_7">
+			<Text>Ibrahim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_KURD_6">
+			<Text>Simko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_KURD_5">
+			<Text>Ghazi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_KURD_4">
+			<Text>Nizami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_KURD_3">
+			<Text>Sadiq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_KURD_2">
+			<Text>Ebdulrehman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_KURD_1">
+			<Text>Ihsan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_KURD_0">
+			<Text>Selahedine</Text>
+		</Row>
+		<!--City Names-->
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_1">
+			<Text>Hewler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_2">
+			<Text>Silemani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_3">
+			<Text>Kerkuk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_4">
+			<Text>Dihok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_5">
+			<Text>Amed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_6">
+			<Text>Kirmasan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_7">
+			<Text>Batman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_KOBANE">
+			<Text>Kobani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_8">
+			<Text>Riha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_9">
+			<Text>Wan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_10">
+			<Text>Piranshahr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_11">
+			<Text>Eleziz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_12">
+			<Text>Zaxo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_13">
+			<Text>Senne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_14">
+			<Text>Kalar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_15">
+			<Text>Samsur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_16">
+			<Text>Ranye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_17">
+			<Text>Hesice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_18">
+			<Text>Qamislo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_19">
+			<Text>Bokan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_20">
+			<Text>Mahabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_21">
+			<Text>Qoser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_22">
+			<Text>Sert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_23">
+			<Text>Seqiz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_24">
+			<Text>Sewreg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_25">
+			<Text>Helebce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_26">
+			<Text>Qerekose</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_27">
+			<Text>Cizir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_28">
+			<Text>Rewandiz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KURD_29">
+			<Text>Semel</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

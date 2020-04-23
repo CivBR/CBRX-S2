@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="55cd96f5-3168-4bce-a470-34289bbef9b5" version="1">
+  <Properties>
+    <Name>C15's Vietnam - Ho Chi Minh</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Play as Ho Chi Minh, hero of Vietnam!</Teaser>
+    <Description>Play as Ho Chi Minh, hero of Vietnam!</Description>
+    <Authors>Chrisy15</Authors>
+    <SpecialThanks>DMS, Darth, Lung, Lads</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="CulDiv" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFDDLC" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D." />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP (v25)" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="E&amp;D" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="031EDAC4EE48350F0A623A1448AA187E" import="1">Art/C15_DOM_VietnamHo.dds</File>
+    <File md5="A8F0810D0992E57636FB3980F3C6FEB5" import="1">Art/C15_HoAlpha_128.dds</File>
+    <File md5="53ACC35B8DEDC53A3E7BEDE85DE624A9" import="1">Art/C15_HoAlpha_16.dds</File>
+    <File md5="B3FDC543950DAE1344E3996ECF9B44A4" import="1">Art/C15_HoAlpha_24.dds</File>
+    <File md5="C9ED045C83D0F59D37357072F8FDF462" import="1">Art/C15_HoAlpha_32.dds</File>
+    <File md5="CACABCFEEC8BEA569B62459CF7242D62" import="1">Art/C15_HoAlpha_45.dds</File>
+    <File md5="B34FF1CF1E5E55B28D7609E2FE9BA4F6" import="1">Art/C15_HoAlpha_48.dds</File>
+    <File md5="560E3A7E1E08BD3B17BD34DB38CF152E" import="1">Art/C15_HoAlpha_64.dds</File>
+    <File md5="B0CE8D6E9FF145FC9634C9B6256D560C" import="1">Art/C15_HoAlpha_80.dds</File>
+    <File md5="AB9C2C0B7B25D0C0FFADEB400562FEDC" import="1">Art/C15_HoAtlas_128.dds</File>
+    <File md5="27C8F159059DE53B2FDE98615E1D9490" import="1">Art/C15_HoAtlas_256.dds</File>
+    <File md5="907DF2AA0ED1B5C9BBF182BF1C4415E0" import="1">Art/C15_HoAtlas_32.dds</File>
+    <File md5="34F6392A37350D20A30A5E0778B2DD2C" import="1">Art/C15_HoAtlas_45.dds</File>
+    <File md5="C70F70CEE0FD35065C6570B519A6CC85" import="1">Art/C15_HoAtlas_64.dds</File>
+    <File md5="071715F6324BD953FE0F66722FE3DDD2" import="1">Art/C15_HoAtlas_80.dds</File>
+    <File md5="053F241B90E6605D0363665233DC278D" import="1">Art/C15_HoUnitFlag32.dds</File>
+    <File md5="0C44FA6C888EC36B9076EB67F96F6759" import="1">Art/HCM_leaderscene.dds</File>
+    <File md5="06E3C76BCEE45CC1527DA3271113A6AF" import="1">Art/HoChiMinhMap.dds</File>
+    <File md5="C7C7C60C85626D062FD9BD631030829B" import="1">Core/C15_UncleHo_Decisions.lua</File>
+    <File md5="C1FB83CBF9B00628FE8AC7C6A9F02E32" import="0">Core/C15_UncleHo_Defines.sql</File>
+    <File md5="DF7FD4C7E00C99E1940294B4C45C029E" import="0">Core/C15_UncleHo_Functions.lua</File>
+    <File md5="F18305DA3406AEFA185D05FD370D4A12" import="1">Core/C15_UncleHo_LS.xml</File>
+    <File md5="22634C34AA380BF2351750AA8D4B9AEF" import="0">Core/C15_UncleHo_ModSupport.sql</File>
+    <File md5="B124F532BB6CEF82788A498F68D54ACA" import="0">Core/C15_UncleHo_Text.xml</File>
+    <File md5="D57B225255629782828B49A54D2C559D" import="0">Core/MCIS/C15_NViet_Tet_MCIS.lua</File>
+    <File md5="D77C371DE449EC95FB9D7531ED545CE8" import="0">Core/MCIS/C15_NViet_Tet_MCIS.xml</File>
+    <File md5="3C986EEFC6F4FC8E20DB62A4AA4AB943" import="0">Core/MCIS/C15_NViet_UB_MCIS.lua</File>
+    <File md5="1B2CE52B8615EBA431D0AC84442E50CD" import="0">Core/MCIS/C15_NViet_UB_MCIS.xml</File>
+    <File md5="64DF635BD57CDEB13DC1038934568A7E" import="0">Core/MCIS/CityInfoStack.lua</File>
+    <File md5="120EB71025973A8A48B38314241DD0B3" import="0">Core/MCIS/CityInfoStack.xml</File>
+    <File md5="9B09DB0BAA8DE38E4407AC91420F2985" import="1">Utilities/RouteConnections.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/C15_UncleHo_Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/C15_UncleHo_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/C15_UncleHo_Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Core/C15_UncleHo_Functions.lua">
+      <Name>C15_UncleHo_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Core/MCIS/CityInfoStack.lua">
+      <Name>Suk MCIS</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Core/MCIS/C15_NViet_UB_MCIS.lua">
+      <Name>C15_NViet_MCIS</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Core/MCIS/C15_NViet_Tet_MCIS.lua">
+      <Name>C15_NViet_Tet_MCIS</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 03/12/17 12:37:44 PM -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_UC_KURD_HAMIDIYE</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_UC_KURD_HAMIDIYE</Description>
+			<Civilopedia>TXT_KEY_POLICY_UC_KURD_HAMIDIYE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_BRANCH_UC_KURD_HAMIDIYE_HELP</Help>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<GridX>1000</GridX>
+			<GridY>1000</GridY>
+		</Row>
+		<Row>
+			<Type>POLICY_UC_KURD_NEWROZ</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_UC_KURD_HAMIDIYE</Description>
+			<Civilopedia>TXT_KEY_POLICY_UC_KURD_HAMIDIYE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_BRANCH_UC_KURD_HAMIDIYE_HELP</Help>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<GridX>1000</GridX>
+			<GridY>1000</GridY>
+		</Row>
+	</Policies>
+	<Policy_FreePromotions>
+		<Row>
+			<PolicyType>POLICY_UC_KURD_HAMIDIYE</PolicyType>
+			<PromotionType>PROMOTION_UC_KURD_HAMIDIYE</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_UC_KURD_HAMIDIYE</Type>
+			<Description>TXT_KEY_PROMOTION_UC_KURD_HAMIDIYE</Description>
+			<Help>TXT_KEY_PROMOTION_UC_KURD_HAMIDIYE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_UC_KURD_HAMIDIYE</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<FriendlyLandsModifier>20</FriendlyLandsModifier>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_UC_KURD_HAMIDIYE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_UC_KURD_NEWROZ</PolicyType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	
+  
+</GameData>

@@ -1,0 +1,22 @@
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_SENSHI_NURHACI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SENSHI_NURHACI_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SENSHI_NURHACI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SENSHI_NURHACI_DEFEATED%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<!--General phrases -->
+		<!--Greeting (first time meeting) -->
+		<Row Tag="TXT_KEY_LEADER_SENSHI_NURHACI_FIRSTGREETING_1">
+			<Text>You stand before Nurhaci, Brilliant Khan Who Benefits All Nations. Will you be a worthwhile ally or mere fodder for my armies?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_NURHACI_DEFEATED_1">
+			<Text>You have bested me, warrior. I have no choice but to submit. Which banner shall I be allocated to? What do you mean, "we don't sort our troops by banner"?!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

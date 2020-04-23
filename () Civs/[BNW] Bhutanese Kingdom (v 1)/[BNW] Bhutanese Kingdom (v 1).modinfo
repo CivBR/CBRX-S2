@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f3384bda-304d-48b6-aa80-5511f5e7c3f1" version="1">
+  <Properties>
+    <Name>[BNW] Bhutanese Kingdom</Name>
+    <Stability>Beta</Stability>
+    <Teaser>This mod adds the Bhutanese Kingdom, lead by Jigme Singye Wangchuck!</Teaser>
+    <Description>This mod adds the Bhutanese Kingdom, lead by Jigme Singye Wangchuck!</Description>
+    <Authors>Sasquatch (AKA Kramer), TarcisioCM, GPuzzle, Ekmek</Authors>
+    <SpecialThanks>danrell, TPangolin, sukritact, Walter Hawkwood</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="59a97415-76c7-47e8-8f69-d268dccd9535" minversion="0" maxversion="999" title="Buddhist Denominations" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events &amp; Decisions" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Piety and Prestige" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="Mercenaries" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="EC56021155F4E4542DA6230E95C458CC" import="1">Art/Atlas/AlphaBhutanIcon128.dds</File>
+    <File md5="EE1DE5311D3958BDE24D0221B266B7B8" import="1">Art/Atlas/AlphaBhutanIcon16.dds</File>
+    <File md5="C4B3098504A8F313762D2887637E9FA9" import="1">Art/Atlas/AlphaBhutanIcon24.dds</File>
+    <File md5="11709B23E3037590AFA546A186884AB0" import="1">Art/Atlas/AlphaBhutanIcon32.dds</File>
+    <File md5="2CEA03F1E6E06E7B59F2BB03D0A93B0A" import="1">Art/Atlas/AlphaBhutanIcon48.dds</File>
+    <File md5="7DABCF3C4A299FA9B8D9497BBDE91F15" import="1">Art/Atlas/AlphaBhutanIcon64.dds</File>
+    <File md5="17A53B0ED5B5FD148C98841B28FEE04B" import="1">Art/Atlas/AlphaBhutanIcon80.dds</File>
+    <File md5="784106CF177D2D96E1D2290A1AB55934" import="1">Art/Atlas/BhutanIcons128.dds</File>
+    <File md5="A60CAFDE2A68BB91FD43EA34035178F2" import="1">Art/Atlas/BhutanIcons256.dds</File>
+    <File md5="11B9583CD42CE746F2383F93563B8BA4" import="1">Art/Atlas/BhutanIcons32.dds</File>
+    <File md5="DEEEAEFDB0876861CBBCC3970018C8C7" import="1">Art/Atlas/BhutanIcons45.dds</File>
+    <File md5="1B8AF6B15D88F5FEB70C1412AE1A723F" import="1">Art/Atlas/BhutanIcons48.dds</File>
+    <File md5="1EB36106F0CA7AD7EC57D1232B2DB147" import="1">Art/Atlas/BhutanIcons64.dds</File>
+    <File md5="769E019CF88653337A96062CACDE5E99" import="1">Art/Atlas/BhutanIcons80.dds</File>
+    <File md5="5C0107EA140A2AD5643F5BF43DECFF19" import="0">Art/Atlas/BhutanTextureAtlases.xml</File>
+    <File md5="0360B623FFC2CC2A846E5D254E0390DD" import="1">Art/bhutanmap.dds</File>
+    <File md5="8366F05DB9E39F1504633DDE0D2493DC" import="1">Art/daponflag.dds</File>
+    <File md5="DA393B9B4507E618DB23B4B7590A9266" import="1">Art/Dapon/Archer_China.dds</File>
+    <File md5="4692A12338BE58D8C4274ABF4EC703DA" import="1">Art/Dapon/Archer_China.fxsxml</File>
+    <File md5="4F9AA34B5A4DF56EFD1B4C50F074344B" import="1">Art/Dapon/Archer_China.gr2</File>
+    <File md5="173E74084501374898D550F60929FCCE" import="1">Art/Dapon/Archer_China_gloss.dds</File>
+    <File md5="A178D66290D02DF1BE8059FF04B7970B" import="0">Art/Dzong/ArtDef_Dzong.sql</File>
+    <File md5="DDBC1BA3F2C10C0B93BF6C0E792A52A5" import="1">Art/Dzong/Dzong_B.gr2</File>
+    <File md5="8926D9902AB2A9B22ED7C0AD512C2827" import="1">Art/Dzong/Dzong_HB.gr2</File>
+    <File md5="904187955A4A829400FB226B25B59D13" import="1">Art/Dzong/dzong_pil.dds</File>
+    <File md5="DB05C416BBEF58B8EF73F26939027C1D" import="1">Art/Dzong/Dzong_PL.gr2</File>
+    <File md5="365F50964B2B013BB6D3C65557A4DD56" import="1">Art/Dzong/fortasia10-1.dds</File>
+    <File md5="0C42A27227B3932A39D32374C743C3FC" import="1">Art/Dzong/Dzong_B.fxsxml</File>
+    <File md5="92DC2BEBA22540A540ED79CA348DEC52" import="1">Art/Dzong/Dzong_HB.fxsxml</File>
+    <File md5="D8AF04C72B193BBF038FDDECE3B4F621" import="1">Art/Dzong/Dzong_PL.fxsxml</File>
+    <File md5="8C62675C83DEB1328CB0EC34A04438F2" import="1">Art/JigmeSingyeWangchuck_Diplo.dds</File>
+    <File md5="1E69CB3DF1CFD3219084A195FC513F0A" import="1">Art/sv_dapon.dds</File>
+    <File md5="675B7ED3F73EAE4A87C4095F1DBD357F" import="1">Art/sv_dzong.dds</File>
+    <File md5="2A98657E13D15618D62A0C7EFA5EF291" import="1">Art/Wangchuck_DOM.dds</File>
+    <File md5="10441D8009E2948DB3230588D66C8758" import="1">Lua/BhutanDecisions.lua</File>
+    <File md5="EFBC852692EF6BB85159C013429BC14B" import="0">Lua/BhutanLuaMain.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/PlotIterators.lua</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Sukritact_SaveUtils.lua</File>
+    <File md5="2D2C9212BB3FF429E6CFCB78ADBF0E1A" import="1">Music/Bhutan_Peace.mp3</File>
+    <File md5="F356B021A881A87BBE27EC5FA41498E1" import="1">Music/Bhutan_War.mp3</File>
+    <File md5="B7B1A2866E2F9B347713D3C1B5B3F40C" import="0">XML/Bhutan Mod Support.sql</File>
+    <File md5="E52D9771BA48FC3C134A5B39BE5B2EAE" import="0">XML/BhutanHiddenBuildings.sql</File>
+    <File md5="8DD67CB9D82094E53AFFAEC87FC90AEC" import="0">XML/Civilization/Bhutan_Trait.xml</File>
+    <File md5="8A01E21701A1DC5DF0A57E8E06A71F6A" import="0">XML/Civilization/Civ_Bhutan.xml</File>
+    <File md5="3382A56DEC78BFE8266711669ED58BAD" import="0">XML/Gameinfo/Bhutan_Text.xml</File>
+    <File md5="2B3298BDB5C61AB9E7A98833BEB754C6" import="1">XML/Gameinfo/DaponArtDefines.xml</File>
+    <File md5="F5CBB00128733FBED5F849050EC4F061" import="0">XML/Leader/JigmeSingyeWangchuck.xml</File>
+    <File md5="88C0C4C769F74CF17727D36D45446E8D" import="1">XML/Leader/JigmeSingyeWangchuck_Scene.xml</File>
+    <File md5="4EA06E3759137010F00131CD714AB5E2" import="1">XML/Leader/Wangchuck_Music.xml</File>
+    <File md5="44CD19F6D76475A3DE27AB6ED6A0831A" import="0">XML/Uniques/Dapon.xml</File>
+    <File md5="C87F6C0BFCA9266B67B8849CE4FC7C14" import="0">XML/Uniques/Dzong.xml</File>
+    <File md5="222B03CA0FFA8870C7A477FE5687771C" import="0">XML/Uniques/HiddenAttributes.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Civilization/Bhutan_Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization/Civ_Bhutan.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Atlas/BhutanTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Dzong/ArtDef_Dzong.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Leader/JigmeSingyeWangchuck.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Uniques/Dapon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Uniques/Dzong.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Uniques/HiddenAttributes.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gameinfo/Bhutan_Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gameinfo/DaponArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leader/JigmeSingyeWangchuck_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leader/Wangchuck_Music.xml</UpdateDatabase>
+      <UpdateDatabase>XML/BhutanHiddenBuildings.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Bhutan Mod Support.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/BhutanLuaMain.lua">
+      <Name>BhutanLuaMain</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/BhutanDecisions.lua">
+      <Name>BhutanDecisions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

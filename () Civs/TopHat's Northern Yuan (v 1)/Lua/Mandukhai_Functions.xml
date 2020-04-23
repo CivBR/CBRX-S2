@@ -1,0 +1,10 @@
+<Context>
+    <Box ID="TomButtonBackground" Hidden="1" Anchor="L,B" Size="35,35" Offset="106,85" Color="0,0,0,0" ConsumeMouse="1">
+        <Grid Size="1,1" Anchor="C,C" Offset="0,0" ConsumeMouse="1">
+            <GridButton ID="TomButton" Size="35,35" Anchor="C,C" Offset="0,0" Style="BaseButton">
+                <Image ID="TomButtonImage" Anchor="C,C" Offset="0,0" Size="45,45" Texture="UnitActions360.dds">
+                </Image>
+            </GridButton>
+        </Grid>
+    </Box>
+</Context>

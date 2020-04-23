@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/10/2014 5:41:31 AM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_DRUK</Type>
+			<Description>TXT_KEY_TRAIT_DRUK</Description>
+			<ShortDescription>TXT_KEY_TRAIT_DRUK_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+</GameData>

@@ -1,0 +1,385 @@
+﻿<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_01">
+			<Text>Mukden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_02">
+			<Text>Harbin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_03">
+			<Text>Cangcon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_04">
+			<Text>Girin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_05">
+			<Text>Ningguta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_06">
+			<Text>Cicigar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_07">
+			<Text>Suniha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_08">
+			<Text>Yehe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_09">
+			<Text>Tuhe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_10">
+			<Text>Sarhu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_11">
+			<Text>Jamuhu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_12">
+			<Text>Hunehe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_13">
+			<Text>Sunggari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_14">
+			<Text>Akuri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_15">
+			<Text>Musi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_16">
+			<Text>Heseri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_17">
+			<Text>Giyaliku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_18">
+			<Text>Socoro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_19">
+			<Text>Hulun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_20">
+			<Text>Irkule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_21">
+			<Text>Erdun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_22">
+			<Text>Nurhan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_23">
+			<Text>Bektu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_24">
+			<Text>Cinggeri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_25">
+			<Text>Janggin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_26">
+			<Text>Kersun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_27">
+			<Text>Mongguri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_28">
+			<Text>Yengge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_29">
+			<Text>Silergi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_30">
+			<Text>Tanggiya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_31">
+			<Text>Ukuri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_32">
+			<Text>Supingkai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_33">
+			<Text>Boduna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MANCHU_34">
+			<Text>Giyamusi</Text>
+		</Row>
+
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MANCHU_0">
+			<Text>Hong Taiji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MANCHU_1">
+			<Text>Dorgon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MANCHU_2">
+			<Text>Fulin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MANCHU_3">
+			<Text>Xuanye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MANCHU_4">
+			<Text>Yinzhen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MANCHU_5">
+			<Text>Hongli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MANCHU_6">
+			<Text>Yongyan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MANCHU_7">
+			<Text>Minning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MANCHU_8">
+			<Text>Oboi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MANCHU_9">
+			<Text>Cixi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+		<!--Demonyms-->
+		<Row Tag="TXT_KEY_CIV_SENSHI_MANCHU_ADJECTIVE">
+			<Text>Manchu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_MANCHU_DESC">
+			<Text>Manchurian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_MANCHU_SHORT_DESC">
+			<Text>The Manchu</Text>
+			<Plurality>2</Plurality>
+		</Row>
+
+		<!--DoM-->
+		<Row Tag="TXT_KEY_CIV5_DOM_SENSHI_NURHACI_TEXT">
+			<Text>The Eight Banners bow down before you, oh great Nurhaci, Brilliant Khan Who Benefits All Nations, unifier of the Manchu peoples! Under your rule, a collection of scattered Jurchen tribes were unified into a great empire! Your reign was a period of great victory and progress for the Manchu people, consisting of constantly successful campaigns against the Ming, the Koreans, the Mongols and other Jurchen tribes. Truly, no empire in East Asia could withstand the might of the Manchu! Your reign is notable for more than sheer conquest, however, with great and important leaps in Manchu culture, such as the funding of the Eight Banners and the creation of a Manchu Alphabet. And your successors would build off your great achievements, conquering the entirety of China and founding one of the greatest dynasties of all time![NEWLINE][NEWLINE]Oh, bold and noble Khan and Chieftain, the empire your actions shaped has fallen, and the Manchu have been reduced to a mere minority group in another nation’s empire. But your people call your name unto the heavens, desperate for your strong and wise leadership to lead them to glory once more! Will you ride with your Bannermen to the field of battle once more? Will you build a civilization to stand the test of time?</Text>
+		</Row>
+
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_TEXT_1">
+			<Text>The Manchu are an ethnic minority in China, and the people from whom Manchuria derives its name. They form the largest branch of the Tungusic peoples. The Qing Dynasty was founded by ethnic Manchus who took over China.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_TEXT_2">
+			<Text>The Manchu lived in the northeastern region of what is now China, in the modern provinces of Heilongjiang, Jilin, and Liaoning. Heilongjiang is a land of varied topography. Much of the province is dominated by mountain ranges such as the Greater Khingan Range and Lesser Khingan Range, Zhangguangcai Mountains, Laoye Mountains, and Wanda Mountains. The highest peak is Mount Datudingzi at 1,690 metres (5,540 ft), located on the border with Jilin province. The Greater Khingan Range contains China's largest remaining virgin forest and is an important area for China's forestry industry. The east and southwest of the province, which are relatively flat and low in altitude, contain the Muling River, the Naoli River, the Songhua River, the Nen River, and the Mudan River, all tributaries of the Amur, while the northern border forms part of the Amur valley. Xingkai Lake (or Khanka Lake) is found on the border with Russia's Primorsky Krai. A humid continental climate predominates in the province, though areas in the far north are subarctic. Winters are long and bitter, with an average of −31 to −15 °C (−24 to 5 °F) in January, and summers are short and warm to very warm with an average of 18 to 23 °C (64 to 73 °F) in July. The annual average rainfall is 400 to 700 millimetres (16 to 28 in), concentrated heavily in summer. Clear weather is prevalent throughout the year, and in the spring, the Songnen Plain and the Sanpingjiang Plain provide abundant sources of wind energy. Jilin is highest in altitude in the southeast and drops gently towards the northwest. The Changbai Mountains run through its southeastern regions and contains the highest peak of the province, Paektu Mountain at 2744 m. Other ranges include the Jilinhada Mountains, Zhang Guangcai Mountains, and Longgang Mountains. Jilin is drained by the Yalu and Tumen rivers in the extreme southeast, by tributaries of the Liao River in the southwest, and by the Songhua and Nen rivers in the north, both eventually flowing into the Amur. Jilin has a northerly continental monsoon climate, with long, cold winters and short, warm summers. Average January temperatures range from -20 to -14°C. Rainfall averages at 350 to 1000 mm. It is possible to think of Liaoning as three approximate geographical regions: the highlands in the west, plains in the middle, and hills in the east. The highlands in the west are dominated by the Nulu'erhu Mountains, which roughly follow the border between Liaoning and Inner Mongolia. The entire region is dominated by low hills. The central part of Liaoning consists of a basin drained by rivers such as the Liao, Daliao, and their tributaries. This region is mostly flat and low-lying. The eastern part of Liaoning is dominated by the Changbai Shan and Qianshan ranges, which extend into the sea to form the Liaodong Peninsula. The highest point in Liaoning, Mount Huabozi (1336 m), is found in this region. Liaoning has a continental monsoon climate, and rainfall averages to about 440 to 1130 mm annually. Summer is rainy while the other seasons are dry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_HEADING_3">
+			<Text>Origins and Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_TEXT_3">
+			<Text>The Manchus are descended from the Jurchen people who earlier established the Jin dynasty (1115–1234) in China, but as early as the semi-mythological chronicles of the Three Sovereigns and Five Emperors there is mention of the Sushen, a Tungusic people from the northern Manchurian region of northeast Asia, who paid bows and arrows as tribute to Emperor Shun and later to the Zhou dynasty. The Sushen reportedly used flint-headed wooden arrows, farmed, hunted and fished, and lived in caves and trees. The cognates Sushen or Jichen again appear in the Shan Hai Jing and Book of Wei during the dynastic era referring to Tungusic Mohe tribes of the far northeast. The Mohe practiced pig farming extensively and were mainly sedentary, and also used both pig and dog skins for coats. They were predominantly farmers and grew soybeans, wheat, millet and rice, in addition to hunting.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_HEADING_4">
+			<Text>Medieval Period: The Jurchens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_TEXT_4">
+			<Text>In the 10th century CE, the term Jurchen first appeared in documents of the late Tang dynasty in reference to the state of Balhae in present-day northeastern China. Following the fall of Balhae, the Jurchens became vassals of the Khitan-led Liao dynasty. In the year 1114, Wanyan Aguda united the Jurchen tribes and established the Jin dynasty (1115–1234). His brother and successor, Wanyan Wuqimai defeated the Liao dynasty. After the fall of the Liao dynasty, the Jurchens went to war with the Northern Song dynasty, and captured most of northern China in the Jin–Song wars. During the Jin dynasty, the first Jurchen script came into use in the 1120s. It was mainly derived from the Khitan script. The Jurchens extorted gifts and rewards from the Korean kingdom Goryeo by threatening them militarily. The Jurchens were sedentary, settled farmers with advanced agriculture. They farmed grain and millet as their cereal crops, grew flax, and raised oxen, pigs, sheep and horses. Their farming way of life was very different from the pastoral nomadism of the Mongols and the Khitans on the steppes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_HEADING_5">
+			<Text>Mongols’ Rise to Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_TEXT_5">
+			<Text>In 1206, the Mongols who were vassals to the Jurchens rose in Mongolia. Their leader, Genghis Khan, led Mongol troops against the Jurchens who were finally defeated by Ögedei Khan in 1234. Under the Mongols' control, the Jurchens were divided into two groups and treated differently: the ones who were born and raised in North China and fluent in Chinese were considered to be Chinese (Han), but the people who were born and raised in the Jurchen homeland (Manchuria) without Chinese-speaking abilities were treated as Mongols politically. From that time, the Jurchens of North China increasingly merged with the Han Chinese while those living in their homeland started to be Mongolized. They adopted Mongolian customs, names and the Mongolian language. As time went on, fewer and fewer Jurchens could recognize their own script.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_HEADING_6">
+			<Text>Ming Dynasty Period</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_TEXT_6">
+			<Text>The Mongol-led Yuan dynasty was replaced by the Ming dynasty in 1368. In 1387, Ming forces defeated the Mongol commander Naghachu's resisting forces who settled in the Haixi area and began to summon the Jurchen tribes to pay tribute. At the time, some Jurchen clans were vassals to the Joseon dynasty of Korea such as Odoli and Huligai. Their elites served in the Korean royal bodyguard. The Joseon Koreans tried to deal with the military threat posed by the Jurchen by using both forceful means and incentives, and by launching military attacks. At the same time, they tried to appease them with titles and degrees, traded with them, and sought to acculturate them by having Korean women marry Jurchens and integrating them into Korean culture. Despite these measures, however, fighting continued between the Jurchen and the Koreans. Their relationship was eventually stopped by the Ming dynasty government who wanted the Jurchens to protect the border. In 1403, Ahacu, chieftain of Huligai, paid tribute to the Yongle Emperor of the Ming dynasty. Soon after that, Möngke Temür, chieftain of the Odoli clan of the Jianzhou Jurchens, defected from paying tribute to Korea, becoming a tributary state to China instead. Yi Seong-gye, the Taejo of Joseon, asked the Ming Empire to send Möngke Temür back but was refused. The Yongle Emperor was determined to wrest the Jurchens out of Korean influence and have China dominate them instead. Korea tried to persuade Möngke Temür to reject the Ming overtures, but was unsuccessful since Möngke Temür submitted to the Ming Empire. Since then, more and more Jurchen tribes presented tribute to the Ming Empire in succession. They were divided into 384 guards by Ming, and the Jurchen became vassals to the Ming Empire. During the Ming dynasty, the name for the Jurchen land was Nurgan. The Jurchens became part of the Ming dynasty's Nurgan Regional Military Commission under the Yongle Emperor, with Ming forces erecting the Yongning Temple Stele in 1413, at the headquarters of Nurgan. The stele was inscribed in Chinese, Jurchen, Mongolian, and Tibetan. In 1449, Mongol taishi Esen attacked the Ming Empire and captured the Zhengtong Emperor in Tumu. Some Jurchen guards in Jianzhou and Haixi cooperated with Esen's action, but more were attacked by the Mongol invasion. Many Jurchen chieftains lost their hereditary certificates granted by the Ming government.They had to present tribute as secretariats with less reward from the Ming court than in the time when they were heads of guards – an unpopular development. Subsequently, more and more Jurchens recognized the Ming Empire's declining power due to Esen's invasion. The Zhengtong Emperor's capture directly caused Jurchen guards to go out of control. Tribal leaders, such as Cungšan and Wang Gao, brazenly plundered Ming territory. At about this time, the Jurchen script was officially abandoned. More Jurchens adopted Mongolian as their writing language and fewer used Chinese. 1526 was the year in which the final remaining recorded Jurchen writing was dated to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_HEADING_7">
+			<Text>Manchu Lifestyle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_TEXT_7">
+			<Text>The Manchus are sometimes mistaken as nomadic people while they are not nomads. The Manchu way of life (economy) was described as agricultural, farming crops and raising animals on farms. Manchus practiced Slash-and-burn agriculture in the areas north of Shenyang. The Haixi Jurchens were "semi-agricultural, the Jianzhou Jurchens and Maolian Jurchens were sedentary, while hunting and fishing was the way of life of the "Wild Jurchens". Han Chinese society resembled that of the sedentary Jianzhou and Maolian, who were farmers. Hunting, archery on horseback, horsemanship, livestock raising, and sedentary agriculture were all practiced by the Jianzhou Jurchens as part of their culture. In spite of the fact that the Manchus practiced archery on horseback and equestrianism, the Manchus' immediate progenitors practiced sedentary agriculture. Although the Manchus also partook in hunting, they were sedentary. Although their Mohe ancestors did not respect dogs, the Jurchens began to respect dogs around the time of the Ming dynasty, and passed this tradition on to the Manchus. It was prohibited in Jurchen culture to use dog skin, and forbidden for Jurchens to harm, kill, or eat dogs. For political reasons, the Jurchen leader Nurhaci chose variously to emphasize either differences or similarities in lifestyles with other peoples like the Mongols. Nurhaci said to the Mongols that "The languages of the Chinese and Koreans are different, but their clothing and way of life is the same. It is the same with us Manchus and Mongols. Our languages are different, but our clothing and way of life is the same." Later Nurhaci indicated that the bond with the Mongols was not based in any real shared culture. It was for pragmatic reasons of "mutual opportunism", since Nurhaci said to the Mongols: "You Mongols raise livestock, eat meat and wear pelts. My people till the fields and live on grain. We two are not one country and we have different languages."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_HEADING_8">
+			<Text>Manchu Rule Over China</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_TEXT_8">
+			<Text>A century after the chaos started in the Jurchen lands, Nurhaci, a chieftain of the Jianzhou Left Guard, began a campaign against the Ming Empire in revenge for their manslaughter of his grandfather and father in 1583. He reunified the Jurchen tribes, established a military system called the "Eight Banners", which organized Jurchen soldiers into groups of "Bannermen", and ordered his scholar Erdeni and minister Gagai to create a new Jurchen script (later known as Manchu script) using the traditional Mongolian alphabet as a reference. In 1603, Nurhaci gained recognition as the Sure Kundulen Khan ("wise and respected khan") from his Khalkha Mongol allies, then in 1616 he publicly enthroned himself and issued a proclamation naming himself Genggiyen Khan ("bright khan") of the Later Jin dynasty. Nurhaci then launched his attack on the Ming dynasty and moved the capital to Mukden after his conquest of Liaodong. In 1635, his son and successor Huangtaiji changed the name of the Jurchen ethnic group to the Manchu. A year later, Huangtaiji proclaimed himself the emperor of the Qing dynasty. Factors for the change of name of these people from Jurchen to Manchu include the fact that the term "Jurchen" had negative connotations associated with it, since the Jurchens had been in a servile position to the Ming dynasty for several hundred years and it also referred to people of the "dependent class". In 1644, the Ming capital, Beijing, was sacked by a peasant revolt led by Li Zicheng, a former minor Ming official who became the leader of the peasant revolt, who then proclaimed the establishment of the Shun dynasty. The last Ming ruler, the Chongzhen Emperor, committed suicide by hanging himself when the city fell. When Li Zicheng moved against the Ming general Wu Sangui, the latter made an alliance with the Manchus and opened the Shanhai Pass to the Manchu army. After the Manchus defeated Li Zicheng, they moved the capital of their new Qing Empire to Beijing in the same year. The Qing government differentiated between Han Bannermen and ordinary Han civilians. Han Bannermen were made out of Han Chinese who defected to the Qing Empire up to 1644 and joined the Eight Banners, giving them social and legal privileges in addition to being acculturated to Manchu culture. So many Han defected to the Qing Empire and swelled up the ranks of the Eight Banners that ethnic Manchus became a minority within the Banners, making up only 16% in 1648, with Han Bannermen dominating at 75% and Mongol Bannermen making up the rest. It was this multi-ethnic, majority Han force in which Manchus were a minority, which conquered China for the Qing Empire. A mass marriage of Han Chinese officers and officials to Manchu women numbering 1,000 couples was arranged by Prince Yoto and Hong Taiji in 1632 to promote harmony between the two ethnic groups. To promote ethnic harmony, a 1648 decree from the Shunzhi Emperor allowed Han Chinese civilian men to marry Manchu women from the Banners with the permission of the Board of Revenue if they were registered daughters of officials or commoners or the permission of their banner company captain if they were unregistered commoners. It was only later in the dynasty that these policies allowing intermarriage were done away with. As a result of their conquest of China, almost all the Manchus followed the prince regent Dorgon and the Shunzhi Emperor to Beijing and mainly settled there. A few of them were sent to other places such as Inner Mongolia, Xinjiang and Tibet to serve as garrison troops. There were only 1524 Bannermen left in Manchuria at the time of the initial Manchu conquest. After a series of border conflicts began with the Russians, the Qing emperors started to realize the strategic importance of Manchuria and gradually sent Manchus back to where they originally came from. However, throughout the Qing dynasty, Beijing was the only focal point of the ruling Manchus in the political, economic and cultural spheres of this era of Chinese civilization. The Yongzheng Emperor noted: "Garrisons are the places of stationed works, Beijing is their homeland." While the Manchu ruling elite at the Qing imperial court in Beijing and posts of authority throughout China increasingly adopted Han culture, the Qing imperial government viewed the Manchu communities (as well as those of various tribal people) in Manchuria as a place where traditional Manchu virtues could be preserved, and as a vital reservoir of military manpower fully dedicated to the regime. The Qing emperors tried to protect the traditional way of life of the Manchus (as well as various other tribal peoples) in central and northern Manchuria by a variety of means. In particular, they restricted the migration of Han settlers to the region. This ideal, however, had to be balanced with practical needs, such as maintaining the defense of northern China against the Russians and the Mongols, supplying government farms with a skilled work force, and conducting trade in the region's products, which resulted in a continuous trickle of Han convicts, workers, and merchants to the northeast. However, this policy of artificially isolating the Manchus of the northeast from the rest of China could not last forever. In the 1850s, large numbers of Manchu bannermen were sent to central China to fight the Taiping rebels. (For example, just the Heilongjiang province - which at the time included only the northern part of today's Heilongjiang - contributed 67,730 bannermen to the campaign, of which only 10-20% survived). Those few who returned were demoralized and often disposed to opium addiction. In 1860, in the aftermath of the loss of the "Outer Manchuria", and with the imperial and provincial governments in deep financial trouble, parts of Manchuria became officially open to Chinese settlement; within a few decades, the Manchus became a minority in most of Manchuria's districts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_HEADING_9">
+			<Text>End of Qing Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_TEXT_9">
+			<Text>Many Manchu Bannermen in Beijing supported the Boxers in the Boxer Rebellion and shared their anti-foreign sentiment. The Manchu Bannermen were devastated by the fighting during the First Sino-Japanese War and the Boxer Rebellion, sustaining massive casualties sustained during the wars and subsequently being driven into extreme suffering and hardship. Much of the fighting in the Boxer Rebellion against the foreigners in defense of Beijing and Manchuria was done by Manchu Banner armies which were destroyed while resisting the invasion, the German Minister Clemens von Ketteler was assassinated by a Manchu. Thousands of Manchus fled south from Aigun during the fighting in the Boxer Rebellion in 1900, their cattle and horses were then stolen by Russian Cossacks who then burned their villages and homes until only ashes were left. The clan system of the Manchus in Aigun was obliterated by the despoliation of the area at the hands of the Russian invaders. By the 19th century, most Manchus in the city garrisons no longer spoke Manchu, instead they spoke the Beijing dialect of Mandarin Chinese or Standard Chinese- which still marked them out as distinctive compared to their Han neighbors in southern China who spoke non-Mandarin dialects. The fact that they spoke Beijing dialect (but not Manchu) made recognizing Manchus relatively easy. It was northern Standard Chinese which the Manchu Bannermen spoke instead of the local dialect which the Han people around the garrison spoke, so that Manchus in the garrisons at Jingzhou and Guangzhou both spoke Mandarin despite the fact that Cantonese was spoken at Guangzhou, and the Beijing dialect marked out the Manchu bannermen at the Xi'an garrison apart from other people. Many Manchu Bannermen got jobs as Mandarin teachers, writing textbooks for learning Mandarin and instructing people in Mandarin. In Guangdong, the Manchu Mandarin teacher Sun Yizun advised that the Yinyun Chanwei and Kangxi Zidian, dictionaries issued by the Qing government, were the correct guides to Mandarin pronunciation, rather than the pronunciation of the Beijing and Nanjing dialects. For teaching the Beijing dialect, Kyugaigo, the Japanese foreign language school, hired a Manchu in 1876. As the end of the Qing dynasty approached, Manchus were portrayed as outside colonizers by Chinese nationalists such as Sun Yat-sen, even though the Republican revolution he brought about was supported by many reform-minded Manchu officials and military officers. This portrayal dissipated somewhat after the 1911 revolution as the new Republic of China now sought to include Manchus within its national identity. In order to blend in, some Manchus switched to speaking the local dialect instead of Standard Chinese. By the early years of the Republic of China, very few areas of China still had traditional Manchu populations. Among the few regions where such comparatively traditional communities could be found, and where the Manchu language was still widely spoken, were the Aigun District and the Qiqihar District of Heilongjiang Province.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_HEADING_10">
+			<Text>20th Century</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MANCHU_TEXT_10">
+			<Text>Until 1924, the Chinese government continued to pay stipends to Manchu bannermen; however, many cut their links with their banners and took on Han-style names in shame to avoid persecution. The official total of Manchus fell by more than half during this period, as they refused to admit to their ethnicity when asked by government officials or other outsiders. On the other hand, in warlord Zhang Zuolin's reign in Manchuria, a much better treatment than the situation of Manchus in mainland China was reported. There were not any particular persecutions towards Manchus. Even the mausoleums of Qing's emperors were still allowed to be managed by Manchu guardsmen like it was in the past. In this case, many Manchus joined the Fengtian clique, such as Xi Qia who was a member of the Qing dynasty's imperial clan. As a follow-up action to the Mukden Incident, Manchukuo, a puppet state in Manchuria, was created by the Empire of Japan which was nominally ruled by the deposed Last Emperor, Puyi, in 1932. Although the nation's name was related to Manchus, it was actually a completely new country for all the ethnicities in Manchuria, which had a majority Han population and was opposed by many Manchus like people of other ethnicities who fought against Japan in the Second Sino-Japanese War, too. The Japanese Ueda Kyōsuke labelled all 30 million people in Manchuria as "Manchus", including Han Chinese, despite the fact that most of them were not ethnic Manchu, and the Japanese-written "Great Manchukuo" built upon Ueda's argument to claim that all 30 million "Manchus" in Manchukuo had the right to independence to justify splitting Manchukuo from China. In 1942 the Japanese-written "Ten Year History of the Construction of Manchukuo" attempted to emphasize the right of ethnic Japanese to the land of Manchukuo while attempting to de-legitimize the Manchus' claim to Manchukuo as their native land, noting that most Manchus moved out during the Qing dynasty and only returned later. In 1952, after the failure of both Manchukuo and the Nationalist Government (KMT), the newborn People's Republic of China officially recognized the Manchu as one of the ethnic minorities in 1952. In the 1953 census, 2.5 million people identified themselves as Manchu. The Communist government also attempted to improve the treatment of Manchu people; some Manchu people who had hidden their ancestry during the period of KMT rule thus became more comfortable to reveal their ancestry, such as the writer Lao She, who began to include Manchu characters in his fictional works in the 1950s. Between 1982 and 1990, the official count of Manchu people more than doubled from 4,299,159 to 9,821,180, making them China's fastest-growing ethnic minority. In fact, however, this growth was not due to natural increase, but instead people formerly registered as Han applying for official recognition as Manchu. Since the 1980s, thirteen Manchu autonomous counties have been created in Liaoning, Jilin, Hebei and Heilongjiang. The Eight Banners system is one of the most important ethnic identity of today's Manchu people. So nowadays, Manchus are more like an ethnic community which not only contains the descendants of Manchu bannermen, also has a large number of Manchu-assimilated Chinese and Mongol bannermen. However, five ethnic groups which were considered as Manchu bannermen under the Qing dynasty (the Solon, Xibe, Daur, Evenki, Oroqen, and Hezhe) were registered as independent ethnic groups by the PRC government. Since the 1980s, the reform after Cultural Revolution, there has been a renaissance of Manchu culture and language among the government, scholars and social activities with remarkable achievements. It was also reported that the resurgence of interest also spread among Han Chinese.</Text>
+		</Row>
+
+		<!--Leader-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_TEXT_1">
+			<Text>Nurhaci was a Jurchen chieftain who rose to prominence in the late 16th century in Manchuria. Nurhaci was part of the Aisin Gioro clan, and reigned from 1616 to his death in September 1626. Nurhaci reorganized and united various Jurchen tribes (the later "Manchu"), consolidated the Eight Banners military system, and eventually launched attacks on Ming China and Joseon Korea. His conquest of Ming China's northeastern Liaoning province laid the groundwork for the conquest of the rest of China by his descendants, who founded the Qing dynasty in 1644. He is also generally credited with ordering the creation of a written script for the Manchu language.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_HEADING_2">
+			<Text>Names</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_TEXT_2">
+			<Text>The meaning of the name Nurhaci in the Manchu language is "the skin of a wild boar". Regarded as the founding father of the Qing dynasty, he is given the customary temple name of Taizu, which is traditionally assigned to founders of dynasties. His name is also alternatively spelled Nurgaci, Nurhachi, or Nu-er-ha-chi (the last of these simply the transcription of the Chinese characters used to write his name). Nurhaci was the last chieftain of the Jianzhou Jurchens and First Khan of the Later Jin dynasty. His title in Manchu as Khan was Geren gurun-be ujire genggiyen Han ("Brilliant Khan Who Benefits All Nations"). His regnal name was Tianming, in Mongolian Tengri-yin Süldetü. It means "The Emperor of Heaven's Mandate." He was given a posthumous name in 1736, the shortened form of which was "Emperor Gao".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_HEADING_3">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_TEXT_3">
+			<Text>Nurhaci was born in 1559. Being a member of the Gioro clan of the Suksuhu River tribe, Nurhaci also claimed descent from Möngke Temür, a Jurchen headman who lived some two centuries earlier. According to Chinese sources, the young man grew up as a soldier in the household of the Ming dynasty general Li Chengliang in Fushun, where he learned Chinese. He named his clan Aisin Gioro around 1612, when he formally ascended the throne as the Khan of the Later Jin dynasty. In 1582, Nurhaci's father Taksi and grandfather Giocangga were killed in an attack on Gure (now a village in Xinbin Manchu Autonomous County) by a rival Jurchen chieftain, Nikan Wailan ("Nikan Wailan" means "secretary of Chinese people" in the Jurchen language, thus his existence is suspected by some historians.) while being led by Li Chengliang. The following year, Nurhaci began to unify the Jurchen bands around his area. In 1584, when Nurhaci was 25, he attacked Nikan Wailan at Tulun (today a village in Xinbin too) to avenge the deaths of his father and grandfather, who are said to have left him nothing but thirteen suits of armor. Nikan Wailan fled away to Erhun, which Nurhaci attacked again in 1587. Nikan Wailan this time fled to Li Chengliang's territory. Later, as a way to build relationship, Li gave Nikan Wailan to Nurhaci, who beheaded him immediately. With Li's support, Nurhaci gradually grew his strength in the following years.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_HEADING_4">
+			<Text>Unifying the Jurchen Tribes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_TEXT_4">
+			<Text>In 1593, an alliance of nine tribes composed of Yehe, Hada, Ula, Hoifa, Khorchin, Sibe, Guwalca, Jušeri, and Neyen attacked Nurhaci and were defeated at the Battle of Gure. From 1599 to 1618, Nurhaci sets out on a campaign against the four Hulun tribes. He began by attacking the Hada in 1599 and conquering them in 1603. Then in 1607, Hoifa was also conquered with the death of its beile Baindari, followed by an expedition against Ula and its beile Bujantai in 1613, and finally the Yehe and its beile Gintaisi at the Battle of Sarhu in 1619. In 1599, Nurhaci gave two of his translators, Erdeni Bagshi and Dahai Jarguchi, the task of creating a Manchu alphabet by adapting the Mongolian script. In 1606, he was granted the title of Kundulun Khan by the Mongols. At the Battle of Sarhu Nurhaci defeated a four pronged Chinese offensive intended to capture his capital of Hetu Ala by concentrating his forces in one column at a time. In 1616, Nurhaci declared himself Khan and founded the Jin dynasty (aisin gurun), often called the Later Jin in reference to the legacy of the earlier Jurchen Jin dynasty of the 12th century. He constructed a palace at Mukden (present-day Shenyang, Liaoning). The "Later Jin" was renamed to "Qing" by his son Hong Taiji after his death in 1626, however Nurhaci is usually referred to as the founder of the Qing dynasty. In order to help with the newly organized administration, five of his trusted companions were appointed as his chief councilors, Anfiyanggū, Eidu, Hūrhan, Fiongdon, and Hohori. Nurhaci captured Liaoyang in 1621 and made it the capital of his empire until 1625. Only after he became Khan did he finally unify the Ula (clan of his consort Lady Abahai, mentioned below) and the Yehe Nara clan, the clan of his consort Monggo. Nurhaci chose to variously emphasize either differences or similarities in lifestyles with other peoples like the Mongols for political reasons. Nurhaci said to the Mongols that "The languages of the Chinese and Koreans are different, but their clothing and way of life is the same. It is the same with us Manchus and Mongols. Our languages are different, but our clothing and way of life is the same." Later Nurhaci indicated that the bond with the Mongols was not based in any real shared culture, rather it was for pragmatic reasons of "mutual opportunism", when he said to the Mongols: "You Mongols raise livestock, eat meat and wear pelts. My people till the fields and live on grain. We two are not one country and we have different languages."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_HEADING_5">
+			<Text>Challenging Ming China and Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_TEXT_5">
+			<Text>In 1618, Nurhaci commissioned a document entitled the Seven Grievances in which he enumerated seven problems with Ming rule and began to rebel against the domination of the Ming dynasty. A majority of the grievances dealt with conflicts against Yehe, and Ming favouritism of Yehe. In 1621, Nurhaci started the construction of a new palace for his Later Jin dynasty's capital in Mukden. Nurhaci led many successful engagements against the Ming Chinese, the Koreans, the Mongols, and other Jurchen clans, greatly enlarging the territory under his control. The first capitals of the state established by Nurhaci were Fe Ala and Hetu Ala. Han Chinese participated in the construction of Hetu Ala, the capital of Nurhaci's state. Defectors from the Ming side played a massive role in the Qing conquest of the Ming. Ming generals who defected to the Manchus were often married to women from the Aisin Gioro clan while lower-ranked defectors were given non-imperial Manchu women as wives. Nurhaci arranged for a marriage between one of his granddaughters and the Ming general Li Yongfang after Li surrendered Fushun in Liaoning to the Manchus in 1618. The Han prisoner of war Gong Zhenglu (Onoi) was appointed to instruct Nurhaci's sons and received gifts of slaves, wives, and a domicile from Nurhaci after Nurhaci rejected offers of payment to release him back to his relatives. Nurhaci had treated Han in Liaodong differently according to how much grain they had, those with less than 5 to 7 sin were treated like chattel while those with more than that amount were rewarded with property. Due to a revolt by Han in Liaodong in 1623, Nurhachi, who previously gave concessions to conquered Han subjects in Liaodong, turned against them and ordered that they no longer be trusted and enacted discriminatory policies and killings against them, while ordering that Han who assimilated to the Jurchen (in Jilin) before 1619 be treated equally as Jurchens were and not like the conquered Han in Liaodong. By May 1621, Nurhaci had conquered the cities of Liaoyang and Shenyang. In April 1625, he designated Shenyang the new capital city, which would hold that status until the Qing conquest of the Ming in 1644. Finally, in 1626, Nurhaci suffered the first serious military defeat of his life at the hands of the Ming general Yuan Chonghuan. Nurhaci was wounded by the Portuguese-made cannons in Yuan's army at the Battle of Ningyuan. Unable to recover either physically or mentally, he died two days later in Aiji Fort; in present-day Da'aijinbao Village, Dijia Township, Yuhong District, Shenyang) on 30 September at the age of 68. His tomb is located east of Shenyang.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_HEADING_6">
+			<Text>Post-Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_TEXT_6">
+			<Text>The details of Hong Taiji's succession as the Khan of the Later Jin dynasty are unclear. When he died in late 1626, Nurhaci did not designate an heir; instead he encouraged his sons to rule collegially. Three of his sons and a nephew were the "four senior beiles": Daishan (43 years old), Amin (son of Nurhaci's brother Shurhaci; 40 or 41), Manggūltai (38 or 39), and Hong Taiji himself (33). On the day after Nurhaci's death, they coerced his primary consort Lady Abahai (1590–1626)––who had borne him three sons: Ajige, Dorgon, and Dodo––to commit suicide to accompany him in death. This gesture has made some historians suspect that Nurhaci had in fact named the fifteen-year-old Dorgon as a successor, with Daishan as regent. By forcing Dorgon's mother to kill herself, the princes removed a strong base of support for Dorgon. The reason such intrigue was necessary is that Nurhaci had left the two elite Yellow Banners to Dorgun and Dodo, who were the sons of Lady Abahai. Hong Taiji exchanged control of his two White Banners for that of the two Yellow Banners, shifting their influence and power from his young brothers onto himself. According to Hong Taiji's later recollections, Amin and the other beile were willing to accept Hong Taiji as Khan, but Amin then would have wanted to leave with his Bordered Blue Banner, threatening to dissolve Nurhaci's unification of the Jurchens. Eventually the older Daishan worked out a compromise that allowed Hong Taiji as the Khan, but almost equal to the other three senior beiles. Hong Taiji would eventually find ways to become the undisputed leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_HEADING_7">
+			<Text>Judgment of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_TEXT_7">
+			<Text>In his conquest of parts of Northeastern Ming ruled territories, Nurhaci helped create the foundation for the later Qing Dynasty, whose rulers were his descendants. Among the most lasting contributions Nurhaci left his descendants was the establishment of the Eight Banners, which would eventually form the backbone of the military that dominated the Qing Empire. The status of Banners did not change much over the course of Nurhaci's lifetime, nor in subsequent reigns, remaining mostly under the control of the royal family. The two elite Yellow Banners were consistently under Nurhaci's control. The two Blue Banners were controlled by Nurhaci's brother Shurhaci until he died, at which point the Blue Banners were given to Shurhaci's two sons, Chiurhala and Amin. Nurhaci's eldest son, Cuyen, controlled the White Banner for most of his father's reign until he rebelled. Then the Bordered White Banner was given to Nurhaci's grandson and the Plain White was given to his eighth son and heir, Hong Taiji. However, by the end of Nurhaci's reign, Hong Taiji controlled both White Banners. Finally, the Red Banner was run by Nurhaci's second son Daišan. Later in Nurhaci's reign, the Bordered Red Banner was handed down to his son. Daišan and his son would continue holding the two Red Banners well into the end of Hong Taiji's reign. </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_LIVED">
+			<Text>1559 - 1626</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_NAME">
+			<Text>Nurhaci</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_SUBTITLE">
+			<Text>Unifier of the Jurchens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_NURHACI">
+			<Text>Nurhaci</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_NURHACI_TITLES_1">
+			<Text>Jurchen Chief, Khan of the Jin Dynasty, First Qing Emperor</Text>
+		</Row>
+
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_MANCHU_SHORT">
+			<Text>Eight Banners</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_MANCHU">
+			<Text>Land Units are randomly assigned one of eight [ICON_TEAM_3] Banners upon their construction. Units receive additional [ICON_STRENGTH] Combat Strength and [ICON_MOVES] Movement when beginning a turn adjacent to a unit of the same [ICON_TEAM_3] Banner.</Text>
+		</Row>
+
+		<!--Unique Unit-->
+		<Row Tag="TXT_KEY_UNIT_SENSHI_BANNERMAN">
+			<Text>Bannerman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_BANNERMAN_STRATEGY">
+			<Text>Slightly cheaper than the Lancer, which it replaces, the Bannerman is a ranged unit with the ability to Indirect Fire. In addition, it may attack twice per turn when beginning adjacent to two or more units that share its Banner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_BANNERMAN_HELP">
+			<Text>Slightly cheaper than the Lancer, which it replaces, the Bannerman is a ranged unit with the ability to Indirect Fire. In addition, it may attack twice per turn when beginning adjacent to two or more units that share its Banner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNIT_SENSHI_BANNERMAN_TEXT">
+			<Text>The Eight Banners were administrative/military divisions under the Qing dynasty into which all Manchu households were placed. In war, the Eight Banners functioned as armies, but the banner system was also the basic organizational framework of all of Manchu society. Created in the early 17th century by Nurhaci, the banner armies played an instrumental role in his unification of the fragmented Jurchen people and in the Qing dynasty's conquest of the Ming dynasty. As Mongol and Han forces were incorporated into the growing Qing military establishment, the Mongol Eight Banners and Han Eight Banners were created alongside the original Manchu banners. The banner armies were considered the elite forces of the Qing military, while the remainder of imperial troops were incorporated into the vast Green Standard Army. Membership in the banners became hereditary, and bannermen were granted land and income. After the defeat of the Ming dynasty, Qing emperors continued to rely on the Eight Banners in their subsequent military campaigns. After the Ten Great Campaigns of the Qianlong Emperor, the quality of banner troops gradually decreased, and by the 19th century the task of defending the empire had largely fallen upon regional armies such as the Xiang Army. Over time, the Eight Banners became synonymous with Manchu identity even as their military strength vanished. Initially, Nurhaci's forces were organized into small hunting parties of about a dozen men related by blood, marriage, clan, or place of residence, as was the typical Jurchen custom. In 1601, with the number of men under his command growing, Nurhaci reorganized his troops into companies of 300 households. Five companies made up a battalion, and ten battalions a banner. Four banners were originally created: Yellow, White, Red, and Blue, each named after the color of its flag. By 1614, the number of companies had grown to around 400. In 1615, the number of banners was doubled through the creation of "bordered" banners. The troops of each of the original four banners would be split between a plain and a bordered banner. The bordered variant of each flag was to have a red border, except for the Bordered Red Banner, which had a white border instead. The banner armies expanded rapidly after a string of military victories under Nurhaci and his successors. Beginning in the late 1620s, the Jurchens incorporated allied and conquered Mongol tribes into the Eight Banner system. In 1635, Hong Taiji, son of Nurhaci, renamed his people from Jurchen to Manchu. That same year the Mongols were separated into the Mongol Eight Banners. Between 1637 and 1642, the Old Han Army, mostly made up of Liaodong natives who had surrendered at Yongping, Fushun, Dalinghe, etc., were organized into the Chinese Eight Banners. The original Eight Banners were thereafter referred to as the Manchu Eight Banners. Although still called the "Eight Banners" in name, there were now effectively twenty-four banner armies, eight for each of the three main ethnic groups. Among the Banners gunpowder weapons, such as muskets and artillery, were specifically wielded by the Chinese Banners. During the Boxer Rebellion, 1899–1901, 10,000 Bannermen were recruited from the Metropolitan Banners and given modernized training and weapons. One of these was the Hushenying. Many Manchu Bannermen in Beijing supported the Boxers and shared their anti-foreign sentiment. The Manchu Bannermen were devastated by the fighting during the Boxer Rebellion, sustaining enormous casualties during the war and subsequently being driven into desperate poverty. By the late 19th century, the Qing Dynasty began training and creating New Army units based on Western training, equipment and organization. Nevertheless, the banner system remained in existence until the fall of the Qing in 1911, and even beyond, with a rump organization continuing to function until the expulsion of Puyi (the former Xuantong emperor) from the Forbidden City in 1924. At the end of the Qing dynasty, all members of the Eight Banners, regardless of their original ethnicity, were considered by the Republic of China to be Manchu.</Text>
+		</Row>
+
+		<!--Unique Unit-->
+		<Row Tag="TXT_KEY_UNIT_SENSHI_GREEN_STANDARD">
+			<Text>Green Standard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_GREEN_STANDARD_STRATEGY">
+			<Text>Unlike the Musketman, which it replaces, the Green Standard is cheaper to construct in cities with a Courthouse. In addition, it has a chance of converting enemy units it defeats, which gain the same Banner as them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_GREEN_STANDARD_HELP">
+			<Text>Unlike the Musketman, which it replaces, the Green Standard is cheaper to construct in cities with a Courthouse. In addition, it has a chance of converting enemy units it defeats, which gain the same Banner as them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNIT_SENSHI_GREEN_STANDARD_TEXT">
+			<Text>The Green Standard Army was the name of a category of military units under the control of Qing dynasty China. It was made up mostly of ethnic Han soldiers and operated concurrently with the Manchu-Mongol-Han Eight Banner armies. In areas with a high concentration of Hui people, Muslims served as soldiers in the Green Standard Army. After the Qing consolidated control over China, the Green Standard Army was primarily used as a police force. The original Green Standard troops were the soldiers of the Ming commanders who surrendered to the Qing in 1644 and after. Their troops enlisted voluntarily and for long terms of service; they usually came from the socially disadvantaged, and remained segregated from Chinese society, partly because of the latter's deep anti-military bias during the late Ming period, and partly because they were paid too poorly and irregularly to marry and support a family. The Qing relied on the Green Standard soldiers, made out of defected Han Chinese Ming military forces who joined the Qing, in order to help rule northern China. It was Green Standard Han Chinese troops who actively military governed China locally while Han Chinese Bannermen, Mongol Bannermen, and Manchu Bannermen who were only brought into emergency situations where there was sustained military resistance. From the 18th century onwards, the Green Standard Army served primarily as a gendarmerie or constabulary force, designed to maintain local law and order and quell small-scale disturbances. However, it also contributed the bulk of forces dispatched in major campaigns. The Green Standard Army was extremely fragmented, with literally thousands of large and small outposts throughout the empire, many with as few as twelve men. It was divided into garrisons of battalion size, reporting through regional brigade generals to commanders-in-chief in each province. Governors and governor-generals each had a battalion of Green Standard troops under their personal command, but their primary duties lay in the judicial and revenue areas rather than coping with invasion or rebellion. During peacetime, it was rare for one officer to command more than 5,000 men. Strictly speaking, the Green Standard Army was not a hereditary force, although the dynasty directed its recruiting efforts primarily at sons and other relatives of serving soldiers. Enlistment was considered a lifetime occupation, but it was generally very simple to be reclassified as a civilian. A system of rotation was used for Green Standard troops in frontier areas. In Kashgaria, troops of the Green Standard from Shaanxi and Gansu had to serve for three-year tours of duty, later increased to five years, then returned home.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_1">
+			<Text>Plain Yellow Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_1_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength and +1 [ICON_MOVES] Movement when adjacent to another unit with a Plain Yellow Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_2">
+			<Text>Bordered Yellow Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_2_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength and +1 [ICON_MOVES] Movement when adjacent to another unit with a Bordered Yellow Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_3">
+			<Text>Plain White Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_3_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength and +1 [ICON_MOVES] Movement when adjacent to another unit with a Plain White Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_4">
+			<Text>Bordered White Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_4_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength and +1 [ICON_MOVES] Movement when adjacent to another unit with a Bordered White Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_5">
+			<Text>Plain Red Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_5_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength and +1 [ICON_MOVES] Movement when adjacent to another unit with a Plain Red Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_6">
+			<Text>Bordered Red Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_6_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength and +1 [ICON_MOVES] Movement when adjacent to another unit with a Bordered Red Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_7">
+			<Text>Plain Blue Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_7_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength and +1 [ICON_MOVES] Movement when adjacent to another unit with a Plain Blue Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_8">
+			<Text>Bordered Blue Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_8_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength and +1 [ICON_MOVES] Movement when adjacent to another unit with a Bordered Blue Banner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_BONUS">
+			<Text>Adjacent to a Unit of the same Banner!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNER_BONUS_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength and +1 [ICON_MOVES] Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNERWATCH">
+			<Text>Green Standard Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNERWATCH_HELP">
+			<Text>15% chance to convert defeated units. (Captured units receive the same banner type as their capturer)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNERDO">
+			<Text> </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_BANNERDO_HELP">
+			<Text> </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SENSHI_BANNER">
+			<Text>The Eight Banners were administrative/military divisions under the Qing dynasty into which all Manchu households were placed. In war, the Eight Banners functioned as armies, but the banner system was also the basic organizational framework of all of Manchu society. Created in the early 17th century by Nurhaci, the banner armies played an instrumental role in his unification of the fragmented Jurchen people and in the Qing dynasty's conquest of the Ming dynasty. As Mongol and Han forces were incorporated into the growing Qing military establishment, the Mongol Eight Banners and Han Eight Banners were created alongside the original Manchu banners. The banner armies were considered the elite forces of the Qing military, while the remainder of imperial troops were incorporated into the vast Green Standard Army. Membership in the banners became hereditary, and bannermen were granted land and income. After the defeat of the Ming dynasty, Qing emperors continued to rely on the Eight Banners in their subsequent military campaigns. After the Ten Great Campaigns of the Qianlong Emperor, the quality of banner troops gradually decreased, and by the 19th century the task of defending the empire had largely fallen upon regional armies such as the Xiang Army. Over time, the Eight Banners became synonymous with Manchu identity even as their military strength vanished. Initially, Nurhaci's forces were organized into small hunting parties of about a dozen men related by blood, marriage, clan, or place of residence, as was the typical Jurchen custom. In 1601, with the number of men under his command growing, Nurhaci reorganized his troops into companies of 300 households. Five companies made up a battalion, and ten battalions a banner. Four banners were originally created: Yellow, White, Red, and Blue, each named after the color of its flag. By 1614, the number of companies had grown to around 400. In 1615, the number of banners was doubled through the creation of "bordered" banners. The troops of each of the original four banners would be split between a plain and a bordered banner. The bordered variant of each flag was to have a red border, except for the Bordered Red Banner, which had a white border instead. The banner armies expanded rapidly after a string of military victories under Nurhaci and his successors. Beginning in the late 1620s, the Jurchens incorporated allied and conquered Mongol tribes into the Eight Banner system. In 1635, Hong Taiji, son of Nurhaci, renamed his people from Jurchen to Manchu. That same year the Mongols were separated into the Mongol Eight Banners. Between 1637 and 1642, the Old Han Army, mostly made up of Liaodong natives who had surrendered at Yongping, Fushun, Dalinghe, etc., were organized into the Chinese Eight Banners. The original Eight Banners were thereafter referred to as the Manchu Eight Banners. Although still called the "Eight Banners" in name, there were now effectively twenty-four banner armies, eight for each of the three main ethnic groups. Among the Banners gunpowder weapons, such as muskets and artillery, were specifically wielded by the Chinese Banners. During the Boxer Rebellion, 1899–1901, 10,000 Bannermen were recruited from the Metropolitan Banners and given modernized training and weapons. One of these was the Hushenying. Many Manchu Bannermen in Beijing supported the Boxers and shared their anti-foreign sentiment. The Manchu Bannermen were devastated by the fighting during the Boxer Rebellion, sustaining enormous casualties during the war and subsequently being driven into desperate poverty. By the late 19th century, the Qing Dynasty began training and creating New Army units based on Western training, equipment and organization. Nevertheless, the banner system remained in existence until the fall of the Qing in 1911, and even beyond, with a rump organization continuing to function until the expulsion of Puyi (the former Xuantong emperor) from the Forbidden City in 1924. At the end of the Qing dynasty, all members of the Eight Banners, regardless of their original ethnicity, were considered by the Republic of China to be Manchu.</Text>
+		</Row>
+	</Language_en_US>
+	<!-- Don't ask why this is here. :P-->
+</GameData>

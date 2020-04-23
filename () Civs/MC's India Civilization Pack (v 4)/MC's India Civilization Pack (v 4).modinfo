@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f4e1183c-24ca-4ee6-8415-619cb7c69a12" version="4">
+  <Properties>
+    <Name>MC's India Civilization Pack</Name>
+    <Teaser>Adds the [COLOR_POSITIVE_TEXT]Chola, Maratha, Maurya, and the Mughals[ENDCOLOR] to the game as playable civilisations</Teaser>
+    <Description>The Indian Subcontinent has been home to many empires and countless cultures which rose and fell throughout its recorded history. Nestled between the Indus and Ganges rivers, Indian civilizations developed a unique culture of unparalelled grandiosity, majesty and refinement. Here, four of those civilizations await your command.</Description>
+    <Authors>More Civs and Friends</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="Rise to Power" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events &amp; Decisions" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="ExCE" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="Mercenaries" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="Cities in Development" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="40AAE6ECB0EC1F1F69F8D2BADEC55939" import="1">Art/Atlases/MC_IndiaAlpha_128.dds</File>
+    <File md5="8CFE8C52E700B8D1E25551749F32B9F0" import="1">Art/Atlases/MC_IndiaAlpha_16.dds</File>
+    <File md5="388076B43D805C23A72B7377E807D940" import="1">Art/Atlases/MC_IndiaAlpha_24.dds</File>
+    <File md5="B3470F017435ADAAD31CC8C6F15E2BCC" import="1">Art/Atlases/MC_IndiaAlpha_32.dds</File>
+    <File md5="EF0CBBC1A07B11EF7AB9D24621192A9C" import="1">Art/Atlases/MC_IndiaAlpha_48.dds</File>
+    <File md5="B97DB880C5A95202C88D2F26A2262214" import="1">Art/Atlases/MC_IndiaAlpha_64.dds</File>
+    <File md5="0D13EBE440439617C0FB83DE5829ED82" import="1">Art/Atlases/MC_India_128.dds</File>
+    <File md5="1B8A59238D91D61D2FCD86542783A93F" import="1">Art/Atlases/MC_India_16.dds</File>
+    <File md5="88D08857101787B97DE9FE5942EC17EB" import="1">Art/Atlases/MC_India_24.dds</File>
+    <File md5="A0B826A35E0E65FB8144536623E33A99" import="1">Art/Atlases/MC_India_256.dds</File>
+    <File md5="5E3230CBDDA8F217104B1C4867768767" import="1">Art/Atlases/MC_India_32.dds</File>
+    <File md5="D7203DB2847A2DEC723B0CAA65838AE9" import="1">Art/Atlases/MC_India_45.dds</File>
+    <File md5="098034218CB01BE492831319EB2C19CC" import="1">Art/Atlases/MC_India_48.dds</File>
+    <File md5="B6B50BBA6ED7EB5740D8AAC32C207F5B" import="1">Art/Atlases/MC_India_64.dds</File>
+    <File md5="240063BF1380C2C4051775EC86CA8B7A" import="1">Art/Atlases/MC_India_80.dds</File>
+    <File md5="EB6BAFB52C6FD629B96ECAE72972D4BF" import="1">Art/Atlases/MC_Raigad_128.dds</File>
+    <File md5="8254D0FE65EC24A3CD1C2C61659C1DD5" import="1">Art/Atlases/MC_Raigad_256.dds</File>
+    <File md5="23FB9F8487CDF262C72261F0FE8F1476" import="1">Art/Atlases/MC_Raigad_45.dds</File>
+    <File md5="8C380021D72AE53732BB8A39495E31C1" import="1">Art/Atlases/MC_Raigad_64.dds</File>
+    <File md5="BE89B4A9DE88B133634CFBD3287CC1BD" import="1">Art/Atlases/MC_Raigad_80.dds</File>
+    <File md5="263238877B81B8B3E314A9CCA6EDB60F" import="1">Art/Scenes/MC_Chola_Leaderhead.dds</File>
+    <File md5="361C78CBAEA452A31DEA3F7980B0F511" import="1">Art/Scenes/MC_Mughal_Leaderhead.dds</File>
+    <File md5="1A2411ED7F309F21A4F4362D403640BA" import="1">Art/Scenes/MC_Maurya_Leaderhead.dds</File>
+    <File md5="277C0D90C2BF3D51F2301FCED741AD05" import="1">Art/Scenes/MC_Chola_DoM.dds</File>
+    <File md5="27F2A856CEE89C4988996C3242FEB669" import="1">Art/Scenes/MC_Chola_Map.dds</File>
+    <File md5="3FC1FC8CBFFFBCA1E1397CC7130252CF" import="1">Art/Scenes/MC_Maratha_DoM.dds</File>
+    <File md5="0B59D0DD578F62417129FB826F8B1CE0" import="1">Art/Scenes/MC_Maratha_Map.dds</File>
+    <File md5="B010C53A91265DE934451A5E260AB52C" import="1">Art/Scenes/MC_Maurya_DoM.dds</File>
+    <File md5="26B2D73406F494267FDC0B41775F625B" import="1">Art/Scenes/MC_Maurya_Map.dds</File>
+    <File md5="76648FD65729C60641E86D222D0E4179" import="1">Art/Scenes/MC_Mughal_DoM.dds</File>
+    <File md5="17F97EC2D9823D47D2E7C52766CCFCA5" import="1">Art/Scenes/MC_Mughal_Map.dds</File>
+    <File md5="587442E2C1695C56E57AF90A9CAA3594" import="1">Art/Scenes/MC_Maratha_Leaderhead.dds</File>
+    <File md5="8FE3E154DE21050D5C9373FA40CB1791" import="1">Art/Unit Models/Farsakh Cannon/farsakh_cannon.fxsxml</File>
+    <File md5="A5FE6D1BBACB7BC1575175CE1B6E5674" import="1">Art/Unit Models/Farsakh Cannon/farsakh_cannon.gr2</File>
+    <File md5="0B1534B32C405A3EE4B9D784471DA90B" import="1">Art/Unit Models/Farsakh Cannon/farsakh_cannon_diff.dds</File>
+    <File md5="B72AF20074CF79CA94D5327FDDC096CC" import="1">Art/Unit Models/Farsakh Cannon/farsakh_cannon_sref.dds</File>
+    <File md5="4DA2B4CAAE9C895CDFCD92F3EDD41D0D" import="1">Art/Unit Models/Farsakh Cannon/farsakh_crew_diff.dds</File>
+    <File md5="06564AF83EA8596757335E633FDDE1AE" import="1">Art/Unit Models/Farsakh Cannon/farsakh_elephant.fxsxml</File>
+    <File md5="C7DF1E9E7597019C09BE5A7C91D02EAD" import="1">Art/Unit Models/Farsakh Cannon/farsakh_elephant.gr2</File>
+    <File md5="4AB4D78A537CE704533A1B69DDB093FC" import="1">Art/Unit Models/Farsakh Cannon/farsakh_elephant_diff.dds</File>
+    <File md5="DC11DA8B9C652DECDB2A43FA5E7C17AE" import="1">Art/Unit Models/Farsakh Cannon/farsakh_elephant_sref.dds</File>
+    <File md5="6AE8151D34D01BE2D2805047C6F0EE38" import="1">Art/Unit Models/Farsakh Cannon/farsakh_flag.dds</File>
+    <File md5="4CEE5B2ED27A49344FD9D321126B93E9" import="1">Art/Unit Models/Farsakh Cannon/sv_farsakh_cannon.dds</File>
+    <File md5="C0FAF8B1789E05DA7763C1F082673DBE" import="1">Art/Unit Models/Farsakh Cannon/unitformations.xml</File>
+    <File md5="0BFC7070CCADCBE828ADF5408FEF3AC6" import="1">Art/Unit Models/Gurkha/flag_gurkha.dds</File>
+    <File md5="52412BFB63B611D2956711ED3FAF833F" import="1">Art/Unit Models/Gurkha/gurkha.fxsxml</File>
+    <File md5="4C41A4E5AF432900A9D49204E51442AB" import="1">Art/Unit Models/Gurkha/gurkha.gr2</File>
+    <File md5="EFF5409A4D8D39A45EA3CA78CC2DCB47" import="1">Art/Unit Models/Gurkha/gurkha_diff.dds</File>
+    <File md5="9D7E6844EA94E147D46729B2CE19A1FF" import="1">Art/Unit Models/Gurkha/gurkha_sref.dds</File>
+    <File md5="35EDE8703216B551ECBD78FB9F133C27" import="1">Art/Unit Models/Gurkha/sv_gurkha.dds</File>
+    <File md5="20C717237A51393B87DBD43CF2F8292C" import="1">Art/Unit Models/Kadatpadai/flag_kadatpadai.dds</File>
+    <File md5="B4C7A8C24D6797C475633A4024B09574" import="1">Art/Unit Models/Kadatpadai/fx_triggers_kadatpadai.ftsxml</File>
+    <File md5="C884A8681EFC93EC14FCC52B5566E7FE" import="1">Art/Unit Models/Kadatpadai/kadatpadai.fxsxml</File>
+    <File md5="BF5A6B9AC90757D3B88A4DBF67EF8D38" import="1">Art/Unit Models/Kadatpadai/kadatpadai.gr2</File>
+    <File md5="98EBC9EFEA2E8FF56BFFDAAA0555A5A8" import="1">Art/Unit Models/Kadatpadai/kadatpadai_attacka.gr2</File>
+    <File md5="770C3254AB7B19C541D444B98A4969C9" import="1">Art/Unit Models/Kadatpadai/kadatpadai_attackb.gr2</File>
+    <File md5="8D584F8089630A6D2E187753E67EA1A5" import="1">Art/Unit Models/Kadatpadai/kadatpadai_bombard_defense.gr2</File>
+    <File md5="AE51392B573FD8F357BF44429C718141" import="1">Art/Unit Models/Kadatpadai/kadatpadai_bombard_defense_idle.gr2</File>
+    <File md5="DFFDF944E74532D6EB5F8AB1DF478297" import="1">Art/Unit Models/Kadatpadai/kadatpadai_bombard_defense_idle_trans_idlea.gr2</File>
+    <File md5="910655BF05DEDC9C66D2566A6646BB2C" import="1">Art/Unit Models/Kadatpadai/kadatpadai_charge_run.gr2</File>
+    <File md5="A512EE5ED9674F3826ECDC86331D18BE" import="1">Art/Unit Models/Kadatpadai/kadatpadai_charge_start_run.gr2</File>
+    <File md5="5C2935E73FD443D08102E8857DE41151" import="1">Art/Unit Models/Kadatpadai/kadatpadai_combat_ready.gr2</File>
+    <File md5="C180249A97ACA9DC3C4AC6995A5C2509" import="1">Art/Unit Models/Kadatpadai/kadatpadai_combat_ready_idle.gr2</File>
+    <File md5="CF97D8D8C8369A8F303329E5965F9639" import="1">Art/Unit Models/Kadatpadai/kadatpadai_combat_ready_idle_trans_idlea.gr2</File>
+    <File md5="E2812AF366496AE09E3B6005AA59EC5E" import="1">Art/Unit Models/Kadatpadai/kadatpadai_damage_diff.dds</File>
+    <File md5="0E0385B94C811F890DEE37CA0D9C9EA3" import="1">Art/Unit Models/Kadatpadai/kadatpadai_deatha.gr2</File>
+    <File md5="9571E1F462ACA3421130905668D63865" import="1">Art/Unit Models/Kadatpadai/kadatpadai_deatha_idle.gr2</File>
+    <File md5="D57DB05FFCDC01DAA5F87B3D6CE9401A" import="1">Art/Unit Models/Kadatpadai/kadatpadai_deathb.gr2</File>
+    <File md5="D09AB038A11874D156728F4FB3E01D07" import="1">Art/Unit Models/Kadatpadai/kadatpadai_deathb_idle.gr2</File>
+    <File md5="D4F48DBF7A6995C4ED20E313922A657F" import="1">Art/Unit Models/Kadatpadai/kadatpadai_diff.dds</File>
+    <File md5="7347290892BB545A275B8E4985DBBA3B" import="1">Art/Unit Models/Kadatpadai/kadatpadai_fidgeta.gr2</File>
+    <File md5="FAE0F633E4F1F7551B6DC05F6A6C59EA" import="1">Art/Unit Models/Kadatpadai/kadatpadai_fidgetb.gr2</File>
+    <File md5="33F44D20A96E2C1994DB0ECF896733A9" import="1">Art/Unit Models/Kadatpadai/kadatpadai_fortify.gr2</File>
+    <File md5="E29048EA811228BB0507B8AD8343AC52" import="1">Art/Unit Models/Kadatpadai/kadatpadai_fortify_idle.gr2</File>
+    <File md5="F15A3F088DF1FADBA40F17A0A9B7C62B" import="1">Art/Unit Models/Kadatpadai/kadatpadai_fortify_idle_fidget.gr2</File>
+    <File md5="B96D92EBC787B3A9519296399D90D8A9" import="1">Art/Unit Models/Kadatpadai/kadatpadai_fortify_idle_trans_combat_ready_idle.gr2</File>
+    <File md5="6A87416EB094BFF2A743DD4B4E0DA520" import="1">Art/Unit Models/Kadatpadai/kadatpadai_fortify_idle_trans_idlea.gr2</File>
+    <File md5="A26918A91EE45E4AAF8EC5C007D7CFA1" import="1">Art/Unit Models/Kadatpadai/kadatpadai_idlea.gr2</File>
+    <File md5="E6CA61DBF1E5A17EE96A45405EF8D5F2" import="1">Art/Unit Models/Kadatpadai/kadatpadai_idlea_trans_idleb.gr2</File>
+    <File md5="C0F0CA4A475CEF5519395C62223A8F1B" import="1">Art/Unit Models/Kadatpadai/kadatpadai_idleb.gr2</File>
+    <File md5="6F043F7FC0B6A3BC9A60E2BDBBE1E7CF" import="1">Art/Unit Models/Kadatpadai/kadatpadai_idleb_trans_idlea.gr2</File>
+    <File md5="1BBEB67A298939EAB6A0FB9667DFDA08" import="1">Art/Unit Models/Kadatpadai/kadatpadai_rig.gr2</File>
+    <File md5="694C2D513802004F4B5560A3AFC36996" import="1">Art/Unit Models/Kadatpadai/kadatpadai_run.gr2</File>
+    <File md5="523A1602673A2731307FCBA20E011AFE" import="1">Art/Unit Models/Kadatpadai/kadatpadai_sref.dds</File>
+    <File md5="DA9B51CA03DC57820004352FFC46B54F" import="1">Art/Unit Models/Kadatpadai/kadatpadai_start_run.gr2</File>
+    <File md5="B9EB37D9BA57CCA70158E4BD4E5EA919" import="1">Art/Unit Models/Kadatpadai/kadatpadai_stop_run.gr2</File>
+    <File md5="0052F577A2F98CA5E71C483A89714D05" import="1">Art/Unit Models/Kadatpadai/kadatpadai_victory.gr2</File>
+    <File md5="FBB65852B0AAB33D23C7216E63880DFB" import="1">Art/Unit Models/Kadatpadai/sv_kadatpadai.dds</File>
+    <File md5="CF9D7FD547F8FD2CF58088B5CE53CF6B" import="1">Art/Unit Models/Pindari/flag_pindari.dds</File>
+    <File md5="28D9130A127B22273C9DD8EC5BDC4195" import="1">Art/Unit Models/Pindari/pindari.dds</File>
+    <File md5="1C4BF3B72C0310FF288E4F0336667AD6" import="1">Art/Unit Models/Pindari/pindari.fxsxml</File>
+    <File md5="F5513E442513945D0194476067C91D9E" import="1">Art/Unit Models/Pindari/pindari.gr2</File>
+    <File md5="75E6B99FC26C0F099D0DB337F0C359A1" import="1">Art/Unit Models/Pindari/pindari_gloss.dds</File>
+    <File md5="57707CC3E04470E913D2EBA842924865" import="1">Art/Unit Models/Pindari/pindari_Horse.dds</File>
+    <File md5="7EF1C790041A20ACCF72BEFB96529A20" import="1">Art/Unit Models/Pindari/pindari_Horse_gloss.dds</File>
+    <File md5="3642C56E4BFE3AD1D2259BDF022C7FEC" import="1">Art/Unit Models/Pindari/sv_pindari.dds</File>
+    <File md5="65453F824770AC4E7EDF0840AB43BBD6" import="1">Art/Unit Models/Sepoy/flag_sepoy.dds</File>
+    <File md5="C2C3B58C77034E5C0307EEC2B987B4AC" import="1">Art/Unit Models/Sepoy/sepoy.fxsxml</File>
+    <File md5="EB64FD433391A97BB4B72CA9B4AC96F1" import="1">Art/Unit Models/Sepoy/Sepoy.gr2</File>
+    <File md5="3367CC8D673E21E57D41BA488859EF3E" import="1">Art/Unit Models/Sepoy/sepoy_1.gr2</File>
+    <File md5="E6DFE5C1129604C640BD35BBEDAE37D6" import="1">Art/Unit Models/Sepoy/sepoy_diff.dds</File>
+    <File md5="6A7F4156101AD4072032806F35316183" import="1">Art/Unit Models/Sepoy/sv_sepoy.dds</File>
+    <File md5="E361EFFF3CC8A4FA50C7AD0598A84F15" import="1">Art/Unit Models/Sepoy/u_maratha_sepoy.gr2</File>
+    <File md5="F325D00E47068AC2128B4E86CBE401F9" import="1">Art/Unit Models/Sepoy/u_sepoy.gr2</File>
+    <File md5="49E78D4F4441904AD024F4EEE08814AB" import="1">Art/Unit Models/Thalai-Thirvai/flag_thalai.dds</File>
+    <File md5="2A15E1A3D866B52425ADB20A1FBE5FFA" import="1">Art/Unit Models/Thalai-Thirvai/sv_thalai.dds</File>
+    <File md5="61B15B60FEDA3738C98D447F1D329E6F" import="1">Art/Unit Models/Thalai-Thirvai/thalaithirvai.fxsxml</File>
+    <File md5="D5C1FE49C673C0F50CE62FD576890561" import="1">Art/Unit Models/Thalai-Thirvai/thalaithirvai.gr2</File>
+    <File md5="ABE467BA4AC42F2BF1676D8BAD5E073B" import="1">Art/Unit Models/Thalai-Thirvai/thalai_diff.dds</File>
+    <File md5="146C45CDEE2A9A4761E5623F5FED5846" import="1">Art/Unit Models/Thalai-Thirvai/thalai_sref.dds</File>
+    <File md5="9B929E3A7356FC421D9AB78FF96E22E1" import="1">Art/Unit Models/u_indian_warelephant_diff.dds</File>
+    <File md5="2C0211C8785E239C943D155B88E00E65" import="1">Audio/Music/MCAkbarPeace.mp3</File>
+    <File md5="D4DC64079598C2BED9CC9F00EC857392" import="1">Audio/Music/MCAkbarWar.mp3</File>
+    <File md5="22427695930CCB5A6B7794DFAFA0D9EF" import="1">Audio/Music/MCAshokaPeace.mp3</File>
+    <File md5="F248A0B1B6317A7EEAE34259CAA81B00" import="1">Audio/Music/MCAshokaWar.mp3</File>
+    <File md5="9DB3535359E88F5EF4AEFC6AB34C50E1" import="1">Audio/Music/MCRajarajaPeace.mp3</File>
+    <File md5="708F7211A4DDC9BA241E0E1D0EEFB5A7" import="1">Audio/Music/MCRajarajaWar.mp3</File>
+    <File md5="EDFDCC862936E7A07CA60B08DFE2B73C" import="1">Audio/Music/MCShivajiPeace.mp3</File>
+    <File md5="44BC0CE133A20AB2E84D1070F131DF60" import="1">Audio/Music/MCShivajiWar.mp3</File>
+    <File md5="AA8B986B667600632070F9848C97D0B6" import="1">Audio/Speech/MCMarathaDoM.mp3</File>
+    <File md5="5E9A7067A4A71C98439A800DE530BAED" import="1">Audio/Speech/MCMauryaDoM.mp3</File>
+    <File md5="C6B8E84CFCFB1B3FEE4A8D9929057E29" import="1">Audio/Speech/MCCholaDoM.mp3</File>
+    <File md5="DD03561656107D27D479863944E37110" import="1">Audio/Speech/MCMughalDoM.mp3</File>
+    <File md5="78A1DDD0C7FF3F9C852A0079EC9FC193" import="0">Core/Art/ArtDefines/MC_FarsakhDefines.sql</File>
+    <File md5="8253B3F9D93FB594906D72D61C6238EA" import="0">Core/Art/ArtDefines/MC_GurkhaDefines.sql</File>
+    <File md5="43470EFA5F8F50BA450BC4295FAC3529" import="0">Core/Art/ArtDefines/MC_KadatpadaiDefines.sql</File>
+    <File md5="891CCDB67C9AB220D60D9B3B21681571" import="0">Core/Art/ArtDefines/MC_PindariDefines.sql</File>
+    <File md5="D8BFEF256582BDD030E7267DA5B0A538" import="0">Core/Art/ArtDefines/MC_SepoyDefines.sql</File>
+    <File md5="EB3544785AEDC7A6D6736ACF2BDE6406" import="0">Core/Art/ArtDefines/MC_ThalaiDefines.sql</File>
+    <File md5="8A7F3FE8FAED8567AE84BD2027336C0B" import="1">Core/Art/Leaderscenes/MC_Chola_Leaderhead.xml</File>
+    <File md5="AF8DFA3C6498B4FF473191D24310F26C" import="1">Core/Art/Leaderscenes/MC_Maratha_Leaderhead.xml</File>
+    <File md5="DCA4115662ED7BAFE7D45C39DCA15329" import="1">Core/Art/Leaderscenes/MC_Maurya_Leaderhead.xml</File>
+    <File md5="9E8852A7D407288106A2CFC02793BFF8" import="1">Core/Art/Leaderscenes/MC_Mughal_Leaderhead.xml</File>
+    <File md5="92FAFF735309EB3EF5E0278B65DDE6AD" import="0">Core/Art/NewTables.sql</File>
+    <File md5="8EA8CCAA74024C05146CA9AB8180A19B" import="0">Core/Buildings/MC_India_Buildings.sql</File>
+    <File md5="AEB0D483D6673EF7263DA354DC8761A2" import="0">Core/Buildings/MC_India_Buildings.xml</File>
+    <File md5="4980397DD5CDDC813C273063987A4AEA" import="0">Core/Civilizations/MC_India_Civilizations.xml</File>
+    <File md5="82CB7E9606F23A7460A042C60C04DA29" import="0">Core/GameInfo/MC_India_IconTextureAtlases.xml</File>
+    <File md5="CF63A8411E1B0EE2E74EFC47941EB8A7" import="0">Core/GameInfo/MC_India_Sounds.xml</File>
+    <File md5="5D1CF1DBF1B4D1DF27435A74B7F1FF93" import="0">Core/GameInfo/MC_India_Traits.xml</File>
+    <File md5="3EA165F806D599166B121CA0A21189D2" import="0">Core/Leaders/MC_India_LeaderFlavors.sql</File>
+    <File md5="541C295EE3BCDCC2D2FB769ED171669D" import="0">Core/Leaders/MC_India_Leader.xml</File>
+    <File md5="C99DC624C13B713E783CA991C14996C6" import="0">Core/Text/MC_India_Text.xml</File>
+    <File md5="950743C4DEA03DB00F1ECA183A0FDECF" import="0">Core/Units/MC_India_UnitPromotions.xml</File>
+    <File md5="4D06111353EA768E296626C7A274B961" import="0">Core/Units/MC_India_Units.xml</File>
+    <File md5="4166D416B490779282A338A29F00E9BB" import="0">Lua/BarbarianAdjacentBonus.lua</File>
+    <File md5="70A4DFD9EFF2DF85B29F16EC1DB0F5FB" import="0">Lua/BattleAdmiral.lua</File>
+    <File md5="67455C7EDCDF75EC77DC4BF1D9764C1A" import="0">Lua/CholaUA.lua</File>
+    <File md5="4486E05E92C6A1829D1BD4FC8EAB80DE" import="1">Lua/CultureOverview Fix/CultureOverview.lua</File>
+    <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">Lua/CultureOverview Fix/CultureOverview.xml</File>
+    <File md5="A7502A6F0797A7CCAC83860F97F3D8C6" import="0">Lua/DummyPolicyTrait.lua</File>
+    <File md5="7C89582144B69A1CF9227148195FDF52" import="0">Lua/FaithPerPop.lua</File>
+    <File md5="11E4395F376C03D162B9C35E2BE4F6AF" import="0">Lua/FreeUnitQuantity.lua</File>
+    <File md5="C9B90F577B887CEA838E9F0467CFEF02" import="0">Lua/ImmobileWhileDamaged.lua</File>
+    <File md5="C0CBE01FBFC135EB6469E649C5A1CF9A" import="0">Lua/IndiaUA.lua</File>
+    <File md5="D63E3BE82418194F07B62D8ABE919E3D" import="0">Lua/India_YnAEMPCapitalChange.lua</File>
+    <File md5="D52367F1ABD72DBB409EE2F13A201A3F" import="0">Lua/MarathaTrait.lua</File>
+    <File md5="6B329F88E4F17FBC2AD4C20F3DA874BC" import="0">Lua/MauryaUA.lua</File>
+    <File md5="502CE1F9EC582247352AEC954EF38462" import="0">Lua/MughalUA.lua</File>
+    <File md5="E27EE5A76DBD31C60238F44C49D255C7" import="0">Lua/PillarsofAshoka.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="A8E83DF8B80AFBAD1B2013BFA8B9FED8" import="0">Lua/QilaCode.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Lua/SaveUtils.lua</File>
+    <File md5="6B3F22662F6DB06F74B07386141CEFC6" import="1">Support/MC_India_Decisions.lua</File>
+    <File md5="5DA5DD5BEE6F4839A55CE54173340163" import="0">Support/MC_India_Decisions.xml</File>
+    <File md5="962D6A1CD56BA4BFDE19147219D91A68" import="0">Support/MC_India_ModSupport.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Art/ArtDefines/MC_FarsakhDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDefines/MC_GurkhaDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDefines/MC_KadatpadaiDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDefines/MC_PindariDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDefines/MC_SepoyDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/ArtDefines/MC_ThalaiDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Art/NewTables.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings/MC_India_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings/MC_India_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations/MC_India_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_India_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_India_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_India_Traits.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders/MC_India_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders/MC_India_LeaderFlavors.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Text/MC_India_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_India_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_India_Units.xml</UpdateDatabase>
+      <UpdateDatabase>Support/MC_India_Decisions.xml</UpdateDatabase>
+      <UpdateDatabase>Support/MC_India_ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/BarbarianAdjacentBonus.lua">
+      <Name>BarbarianAdjacentBonus</Name>
+      <Description>Combat bonus when adjacent to barbarians</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/BattleAdmiral.lua">
+      <Name>BattleAdmiral</Name>
+      <Description>Allows an admiral unit to fight</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/CholaUA.lua">
+      <Name>CholaUA</Name>
+      <Description>UA code for the Chola</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/DummyPolicyTrait.lua">
+      <Name>DummyPolicyTrait</Name>
+      <Description>Allows a policy to be hidden</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/FaithPerPop.lua">
+      <Name>FaithPerPop</Name>
+      <Description>Gives faith per pop using existing table</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/FreeUnitQuantity.lua">
+      <Name>FreeUnitQuantity</Name>
+      <Description>Modifies Babylon's UA code by allowing a definable number of units</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/ImmobileWhileDamaged.lua">
+      <Name>ImmobileWhileDamaged</Name>
+      <Description>Prevents a unit from moving except at full strength</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/IndiaUA.lua">
+      <Name>IndiaUA</Name>
+      <Description>UA code for India</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/MarathaTrait.lua">
+      <Name>MarathaTrait</Name>
+      <Description>UA code for the Maratha</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/MauryaUA.lua">
+      <Name>MauryaUA</Name>
+      <Description>UA code for Maurya</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/MughalUA.lua">
+      <Name>MughalUA</Name>
+      <Description>UA code for the Mughals </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/PillarsofAshoka.lua">
+      <Name>PillarsofAshoka</Name>
+      <Description>Conversion effect for the Pillars of Ashoka</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/QilaCode.lua">
+      <Name>QilaCode</Name>
+      <Description>Golden Age points for buildings I think</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/India_YnAEMPCapitalChange.lua">
+      <Name>India Capital Change</Name>
+      <Description>Changes the capital to Kolkata with YnAEMP</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

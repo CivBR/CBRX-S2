@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5df3fae7-a04d-42c4-be82-0af7838227d6" version="1">
+  <Properties>
+    <Name>[BNW] Senshi's Chukchi (Lawtiliwadlin)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the resilient Chukchi peoples into the game, under the great warrior Lawtiliwadlin!</Teaser>
+    <Description>Adds the resilient Chukchi peoples into the game, under the great warrior Lawtiliwadlin!
+
+Credits:
+Senshi: Design, Code, Text
+AngelOfSloths: Concept, Art (Map)
+TPangolin: Art (Map, Leaderscene, Unique Icons)
+Janboruta: Art (Civ Icon and Alpha)
+TopHatPaladin: Lua</Description>
+    <Authors>Senshi</Authors>
+    <SpecialThanks>AngelOfSloths, TPangolin, TopHatPaladin, Janboruta</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="6787615CD294C4EB44F759C056ECE102" import="0">Art/Atlas/AtlasDefines.xml</File>
+    <File md5="F292261399FF1ECD4BE1B46EADD328F4" import="1">Art/Atlas/ChukchiAlpha128.dds</File>
+    <File md5="34FCCB873640327D274B8A30CBEDB4B6" import="1">Art/Atlas/ChukchiAlpha16.dds</File>
+    <File md5="0A24492398E17C9F63DEBCDD449F0060" import="1">Art/Atlas/ChukchiAlpha24.dds</File>
+    <File md5="BB73382B9325E9683958C12D7DD916DE" import="1">Art/Atlas/ChukchiAlpha256.dds</File>
+    <File md5="F604965BF43A1ACDDE98456F81E65F0B" import="1">Art/Atlas/ChukchiAlpha32.dds</File>
+    <File md5="04392780022AF4803C85EE815CC973E4" import="1">Art/Atlas/ChukchiAlpha48.dds</File>
+    <File md5="E8EECD70EEA3B8D1EC79E18FBA5D6ED1" import="1">Art/Atlas/ChukchiAlpha64.dds</File>
+    <File md5="A13D0192E83FCC6339A7A0A4709D4736" import="1">Art/Atlas/ChukchiAlpha80.dds</File>
+    <File md5="55BF9257F27B6C6CD2C026C66479117F" import="1">Art/Atlas/ChukchiAtlas128.dds</File>
+    <File md5="DF5CEEB17804CF7E5DE16F7C0780D58B" import="1">Art/Atlas/ChukchiAtlas256.dds</File>
+    <File md5="8DC8F3D0B9A4E413280F60819E8621D4" import="1">Art/Atlas/ChukchiAtlas32.dds</File>
+    <File md5="233FB0925026176F6438C41B763B6D1B" import="1">Art/Atlas/ChukchiAtlas45.dds</File>
+    <File md5="1081BE7A80C053573412D354A738CCAE" import="1">Art/Atlas/ChukchiAtlas48.dds</File>
+    <File md5="2089BE783B46D5F4FE5F06420DA21711" import="1">Art/Atlas/ChukchiAtlas64.dds</File>
+    <File md5="A51B03C4936F7951ED6785C113FDD2A9" import="1">Art/Atlas/ChukchiAtlas80.dds</File>
+    <File md5="0D8DBCC1E2AF51A6076029669BC779A7" import="1">Art/Atlas/ChultenninFlag32.dds</File>
+    <File md5="CAF743B89BE83E05F0805674596B13B9" import="1">Art/ChukchiMap412.dds</File>
+    <File md5="D030FDD5546EF0E71FB4E6C39DD3DB2C" import="0">Art/Chultennin/ChultenninDefines.xml</File>
+    <File md5="A383125465EEA3708A8B0AC2625EFD50" import="1">Art/Chultennin/Longbowman_Mongol.blend</File>
+    <File md5="1E9FC17D0566721010E2FEBD97FFE30C" import="1">Art/Chultennin/Longbowman_Mongol.dds</File>
+    <File md5="C7543C1792ACFFB23737B8931ABCFE72" import="1">Art/Chultennin/Longbowman_Mongol.fxsxml</File>
+    <File md5="678E5EB832D9EB048A9FA9F62F962BDC" import="1">Art/Chultennin/Longbowman_Mongol.gr2</File>
+    <File md5="1972F58FD21B7F7190EA6C92C34D1C20" import="1">Art/Chultennin/Longbowman_Mongol_gloss.dds</File>
+    <File md5="A3E0911E60B9F9EFED97508B088F8099" import="1">Art/Chultennin/sv_Chultennin.dds</File>
+    <File md5="43332B407A4EE7ED0B771A253F855C25" import="1">Art/LawtiliwadlinDoM.dds</File>
+    <File md5="7B41F08D1AA620D2F10B9ED8CE81839C" import="1">Art/LawtiliwadlinLS.dds</File>
+    <File md5="C0D8B6AABC7846B95CC86483B1C90808" import="1">Art/Music/ChukchiPeace.mp3</File>
+    <File md5="6ABE382CCF7D8A2858C694D85FBD9F3A" import="1">Art/Music/ChukchiWar.mp3</File>
+    <File md5="BE14E9716B6DA4E0CD51A0601A1C9708" import="0">Art/Music/SoundRig.xml</File>
+    <File md5="F78DC9F84635F9EC7E1A702B08493CC0" import="0">Core/Buildings.sql</File>
+    <File md5="B7695160B2BC72954D42E60E43A1300F" import="0">Core/Chukchi_Functions.lua</File>
+    <File md5="E34FD2609AA54FE49A1A02CA2C8A325B" import="0">Core/Civilizations.sql</File>
+    <File md5="0435E6EDD2FD70B7DA010F98DA4CC992" import="0">Core/DiplomacyResponses.xml</File>
+    <File md5="ACF1910B6BA7E80BE620D3B7B35CF503" import="0">Core/GameText.xml</File>
+    <File md5="816552F9218E49E2BD228B290E992497" import="0">Core/Leaderhead.sql</File>
+    <File md5="FB695A5B9105DC0B2AE126576D753BDA" import="0">Core/ModSupport.sql</File>
+    <File md5="2D7F84BD592B8A9162AF8C5D2555C913" import="0">Core/PlayerColours.sql</File>
+    <File md5="C7688585AACAABA9CB96D1F2B3DD7695" import="0">Core/Promotions.sql</File>
+    <File md5="3814B7490D7F40ABE129AD4010D31769" import="1">Core/Senshi_Lawtiliwadlin_Scene.xml</File>
+    <File md5="9538B3CBCF186C0FDF04EFC20B0E2555" import="0">Core/Traits.sql</File>
+    <File md5="9CA44674FCA07AD8A949FDDBBECCAB69" import="0">Core/Units.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Atlas/AtlasDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Chultennin/ChultenninDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Music/SoundRig.xml</UpdateDatabase>
+      <UpdateDatabase>Core/ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Core/Chukchi_Functions.lua">
+      <Name>Chukchi_Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

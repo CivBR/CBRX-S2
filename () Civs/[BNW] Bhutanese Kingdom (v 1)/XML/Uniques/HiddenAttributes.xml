@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/10/2014 7:41:34 AM -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_BHUTAN_GNH</Type>
+			<Description>TXT_KEY_BHUTAN_GNH</Description>
+			<GoldenAgeTurns>10</GoldenAgeTurns>
+		</Row>
+	</Policies>
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_BHUTAN_GNH</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BHUTAN_GNH</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BHUTAN_GNH</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_BHUTAN_GNH</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BHUTAN_GNH</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BHUTAN_GNH</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_BHUTANHAPPYHAPPYJOYJOY</Type>
+			<DefaultBuilding>BUILDING_BHUTANHAPPYHAPPYJOYJOY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY</Description>
+			<NoLimit>true</NoLimit>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_BHUTANFAITH</Type>
+			<DefaultBuilding>BUILDING_BHUTANFAITH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BUILDING_BHUTANFAITH</Description>
+			<NoLimit>true</NoLimit>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_THONGDREL_ARTISTS</Type>
+			<DefaultBuilding>BUILDING_THONGDREL_ARTISTS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_THONGDREL_ARTISTS</Description>
+			<NoLimit>true</NoLimit>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_THONGDREL_RELIGION</Type>
+			<DefaultBuilding>BUILDING_THONGDREL_RELIGION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_THONGDREL_RELIGION</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_BHUTANHAPPYHAPPYJOYJOY</Type>
+			<BuildingClass>BUILDINGCLASS_BHUTANHAPPYHAPPYJOYJOY</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech>null</PrereqTech>
+			<Help>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY_STRATEGY</Strategy>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>1</NeverCapture>
+			<IconAtlas>CIV_COLOR_ATLAS_BHUTAN</IconAtlas>
+			<Happiness>1</Happiness>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_BHUTANFAITH</Type>
+			<BuildingClass>BUILDINGCLASS_BHUTANFAITH</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech>null</PrereqTech>
+			<Help>TXT_KEY_BUILDING_BHUTANFAITH_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BHUTANFAITH</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY_STRATEGY</Strategy>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>1</NeverCapture>
+			<IconAtlas>CIV_COLOR_ATLAS_BHUTAN</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_THONGDREL_ARTISTS</Type>
+			<BuildingClass>BUILDINGCLASS_THONGDREL_ARTISTS</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech>null</PrereqTech>
+			<Help>TXT_KEY_BUILDING_THONGDREL_ARTISTS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_THONGDREL_ARTISTS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY_STRATEGY</Strategy>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>0</SpecialistCount>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>1</NeverCapture>
+			<IconAtlas>CIV_COLOR_ATLAS_BHUTAN</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_THONGDREL_RELIGION</Type>
+			<BuildingClass>BUILDINGCLASS_THONGDREL_RELIGION</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech>null</PrereqTech>
+			<Help>TXT_KEY_BUILDING_THONGDREL_RELIGION_HELP</Help>
+			<Description>TXT_KEY_BUILDING_THONGDREL_RELIGION</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY_STRATEGY</Strategy>
+			<ReligiousPressureModifier>100</ReligiousPressureModifier>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>1</NeverCapture>
+			<IconAtlas>CIV_COLOR_ATLAS_BHUTAN</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BHUTANFAITH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY">
+			<Text>Bhutan Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BHUTANFAITH">
+			<Text>Bhutan Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_THONGDREL_ARTISTS">
+			<Text>Bhutan: Thongdrel Artists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_THONGDREL_RELIGION">
+			<Text>Bhutan: Thongdrel Pressure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BHUTANFAITH_HELP">
+			<Text>+1 [ICON_PEACE] Faith from Mountains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BHUTANHAPPYHAPPYJOYJOY_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ee2c6fb8-4333-4418-bd48-6c272773119b" version="1">
+  <Properties>
+    <Name>TopHat's Northern Yuan</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Northern Yuan dynasty, led by Mandukhai Khatun, to the game. Requires Brave New World.</Teaser>
+    <Description>Adds the Northern Yuan dynasty, led by Mandukhai Khatun, to the game. Requires Brave New World.</Description>
+    <Authors>TopHatPaladin</Authors>
+    <SpecialThanks>TarcisioCM, Chrisy15, EmeraldRange</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits in Civ V" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD's Cities in Development" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Piety" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD's Prestige" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD and Pouakai's Mercenaries" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact's Events &amp; Decisions" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="432bc547-eb05-4189-9e46-232dbde8f09f" minversion="0" maxversion="999" title="Additional Achievements" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="3E45AB1ADC70F2E5A3B4F36A41CAC3BD" import="1">Art/ChongzuModel/tcmFireLancer.dds</File>
+    <File md5="5085405AED4AE2480FED94C0B9E0EEA9" import="1">Art/ChongzuModel/tcmFireLancer.fxsxml</File>
+    <File md5="93D23A396BAC8CFEBE481726286C9DBE" import="1">Art/ChongzuModel/tcmFireLancer.gr2</File>
+    <File md5="60843AD11B4C78C2A222B362E8F369BF" import="1">Art/ChongzuModel/tcmFireLancer_sref.dds</File>
+    <File md5="89ED0732ED5F24086DC2C98B79945603" import="1">Art/Mandukhai_DOM.dds</File>
+    <File md5="CEEDBAA86CA0AE94E5C5B738D4E98AB2" import="1">Art/Mandukhai_scene.dds</File>
+    <File md5="8E2E415A68BF6C2609DF486EB7D13318" import="1">Art/Map_Mandukhai.dds</File>
+    <File md5="B63099B27435715701004E897C2388B2" import="1">Art/sv_chongzu.dds</File>
+    <File md5="B679F2AD0A4D9E340A6272EB7E07A545" import="1">Art/sv_huihuipao.dds</File>
+    <File md5="EB55E0FE20CC04D7E635CE71792D834F" import="1">Art/THP_MandukhaiAlpha128.dds</File>
+    <File md5="9B80F44AA27D0D9EB51AC74AF6DB2E82" import="1">Art/THP_MandukhaiAlpha16.dds</File>
+    <File md5="D0ABA06AB32158B03F2E32F802FB201D" import="1">Art/THP_MandukhaiAlpha24.dds</File>
+    <File md5="6FA0B41F1B0E0F9D4F1B095C6DC86691" import="1">Art/THP_MandukhaiAlpha32.dds</File>
+    <File md5="6406CABFA179C5B7435D41D93E51CA5C" import="1">Art/THP_MandukhaiAlpha48.dds</File>
+    <File md5="DE056BC48A8A9ECA5B378A003EEC422C" import="1">Art/THP_MandukhaiAlpha64.dds</File>
+    <File md5="138A1AFAC2661CF8747491268BF0EDCE" import="1">Art/THP_MandukhaiAtlas128.dds</File>
+    <File md5="471ABEF180C160F45C4FED8ED2080D62" import="1">Art/THP_MandukhaiAtlas256.dds</File>
+    <File md5="92300AD946DE332A2D5625B98EC0676A" import="1">Art/THP_MandukhaiAtlas32.dds</File>
+    <File md5="5A2B2DD3610E527AAAD734912E043AD0" import="1">Art/THP_MandukhaiAtlas45.dds</File>
+    <File md5="A2F86DE42868950FAA64FF83E2140518" import="1">Art/THP_MandukhaiAtlas64.dds</File>
+    <File md5="AA94D98E6A5C12CCE92B22C7541543DE" import="1">Art/THP_MandukhaiAtlas80.dds</File>
+    <File md5="16E231BB568249F43F238CE918062F04" import="1">Art/Unit_Chongzu_Flag_32.dds</File>
+    <File md5="462BC8E0AE0F7B665BB069A6A4D9C586" import="1">Art/Unit_HuihuiPao_Flag_32.dds</File>
+    <File md5="636A3E6A3D1DE1BDDC316582C8586F6D" import="1">Audio/Mandukhai_Peace.mp3</File>
+    <File md5="690BF9B09BE1D1F40329FCA8D362F9A7" import="1">Audio/Mandukhai_War.mp3</File>
+    <File md5="FA799617B3C251C261A1A3B4C0001F23" import="0">Core/DiploText.xml</File>
+    <File md5="FB037530EAFA247878CB45E26772F448" import="0">Core/GameText.xml</File>
+    <File md5="78E819EC868D5AE69D8E94486B1B8FAA" import="1">Core/Leaderhead_Mandukhai.xml</File>
+    <File md5="E1A196D212521898C55A15B4360BC14F" import="0">Core/Mandukhai_ArtDef.sql</File>
+    <File md5="82128933A548014CC21BAF9188EAE949" import="0">Core/Mandukhai_GameDef.sql</File>
+    <File md5="A63DF2D48612E0D5A4F2D6BF64F4F05A" import="0">Core/ModSupport_Mandukhai.sql</File>
+    <File md5="1368ACF988CC8834BB7AD60585E8B936" import="1">Lua/AdditionalAchievementsUtility.lua</File>
+    <File md5="B28A795DDEC66854B6F855238E8F419C" import="1">Lua/Mandukhai_Decisions.lua</File>
+    <File md5="1EB66FF6AE0595C4B284D7629059FEA0" import="0">Lua/Mandukhai_Functions.lua</File>
+    <File md5="C42DD751E376E921E3D1CE6185558BC4" import="0">Lua/Mandukhai_Functions.xml</File>
+    <File md5="CD3E8C278CE1FD36806AA4CF6BE3BF88" import="1">Lua/TSL/TableSaverLoader016.lua</File>
+    <File md5="91C7CF05EAFDADF2EC45E27E7C91BE55" import="1">Lua/TSL/THP_Mandukhai_GlobalDefines.lua</File>
+    <File md5="3511AF92D19768CE816957995E59D20C" import="1">Lua/TSL/THP_Mandukhai_TSLSerializerV3.lua</File>
+    <File md5="69FCADF0D2AE7C0C2CEC9D821AD41883" import="1">Lua/TSL/TSLSerializerCoreV3.lua</File>
+    <File md5="A4759D7B62448C31C908D01635EC0FB7" import="1">Lua/UniqueDiplomacyUtilsV2.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Mandukhai_ArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Mandukhai_GameDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/ModSupport_Mandukhai.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DiploText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Mandukhai_Functions.lua">
+      <Name>TophatMandukhaiFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

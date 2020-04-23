@@ -1,0 +1,364 @@
+<GameData>
+	<Language_en_US>
+		<!-- Civilization -->
+		<Row Tag="TXT_KEY_CIV5_JWW_UZBEKISTAN_TITLE">
+			<Text>Uzbekistan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JWW_UZBEKISTAN_DESC">
+			<Text>Republic of Uzbekistan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JWW_UZBEKISTAN_SHORT_DESC">
+			<Text>Uzbekistan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JWW_UZBEKISTAN_ADJECTIVE">
+			<Text>Uzbek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_JWW_UZBEKISTAN_TEXT">
+			<Text>Eternal glory and praise for you, strong president of the republic of Uzbekistan! In a time dominated by communism, you not only secured transfering the country into a republic, but also successfully stood with your people as one.  After suffering terrible punishment and humiliation at the hand of the USSR, you rallied your people to become a republic, not a communist state. Despite disagreements from other nation, you helped Uzbeksitan become a major power in the world economy, becoming a major exporter of cotton by any means necessary. You helped Uzbekistan return to its former glory after the Soviets took it away![NEWLINE][NEWLINE]Oh powerful leader, your people desire that you rise and lead them again in the calling that is your namesake.  Will you meet their challenge on the open field and lead Uzbekistan to everlasting victory? Will you restore your lands and build an empire to stand the test of time?</Text>
+		</Row>
+		<!-- Trait -->
+		<Row Tag="TXT_KEY_TRAIT_JWW_STRENGTH_IN_JUSTICE">
+			<Text>On city growth, [ICON_CITIZEN] Population has a chance to be sacrificed in return for random amounts of [ICON_GOLD] Gold, [ICON_HAPPINESS_1] Happiness, [ICON_PRODUCTION] Production, or civilian units. [ICON_CITIZEN] Population is boosted with every project completed in a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JWW_STRENGTH_IN_JUSTICE_SHORT">
+			<Text>Strength in Justice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JWW_UZBEK_UA_DUMMY">
+			<Text>Uzbek UA Dummy</Text>
+		</Row>
+		<!-- Leader -->
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV">
+			<Text>Islam Karimov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ISLAM_KARIMOV_LIVED">
+			<Text>1938-2016 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ISLAM_KARIMOV_NAME">
+			<Text>Islam Abduganievich Karimov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ISLAM_KARIMOV_SUBTITLE">
+			<Text>President of Uzbekistan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ISLAM_KARIMOV_TITLES_1">
+			<Text>President of Uzbek Soviet Socialist Republic</Text>
+		</Row>
+		<!-- Building -->
+		<Row Tag="TXT_KEY_BUILDING_JWW_SUGORISH_KANALI">
+			<Text>Sug'orish Kanali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JWW_SUGORISH_KANALI_STRATEGY">
+			<Text>The Sug'orish Kanali is a Industrial-era building unique to Uzbekistan, replacing the Hydro Plant. It provides +1 [ICON_PRODUCTION] Production on worked tiles bordering a river. Lakes and coasts switch between making [ICON_FOOD] food and [ICON_PRODUCTION] production every 5-10 turns. Allows for a worker to remove a sea resource for massive amounts of [ICON_PRODUCTION] production in all cities. Unlike the Hydro Plant, it does not require [ICON_RES_ALUMINUM] aluminum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JWW_SUGORISH_KANALI_HELP">
+			<Text>
+				Lakes and coasts switch between making [ICON_FOOD] food and [ICON_PRODUCTION] production every 5-10 turns. [NEWLINE]
+				Allows for a worker to remove a sea resource for massive amounts of [ICON_PRODUCTION] production in all cities.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JWW_WORKER_CANAL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Clear Resources for Production[ENDCOLOR][NEWLINE][NEWLINE]Removes the resources on this lake/coast tile to be used for irrigation, resulting in massive amounts of [ICON_PRODUCTION] production to all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JWW_KANALI_PROD_DUMMY">
+			<Text>Uzbek UB Production Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JWW_KANALI_FOOD_DUMMY">
+			<Text>Uzbek UB Food Dummy</Text>
+		</Row>
+		<!-- Unit -->
+		<Row Tag="TXT_KEY_UNIT_JWW_MAXSUS_KUCHLAR">
+			<Text>Maxsus Kuchlar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JWW_MAXSUS_KUCHLAR_STRATEGY">
+			<Text>The Maxsus Kuchlar is the Uzbek unique unit. It replaces the infantry, providing +2 [ICON_ARROW_RIGHT] movement when starting on desert tiles. It starts with the Blitz Promotion, but is slightly weaker than the infantry it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JWW_MAXSUS_KUCHLAR">
+			<Text>[NEWLINE]
+				[ICON_BULLET]Only Uzbekistan may build this unit.[NEWLINE]
+				[ICON_BULLET]Slightly weaker than the Infantry it replaces.[NEWLINE]
+				[ICON_BULLET]Starts with extra [ICON_ARROW_RIGHT] movement when starting the turn on desert.[NEWLINE]
+				[ICON_BULLET]Starts with the Biltz Promotion.
+			</Text>
+		</Row>
+		<!-- Civilopedia -->
+		<Row Tag="TXT_KEY_CIV5_JWW_UZBEKISTAN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JWW_UZBEKISTAN_TEXT_1">
+			<Text>The Republic of Uzbekistan, which means "the land of Uzbeks", is a presential republic land-locked in Central Asia. Uzbekistan first became wealthy in the first millennium BC, where early villages such as Samarkand and Bukhara first became weathly on the Silk Road, which was a huge trading route from Europe to China that passed through Central Asia. And because the silk road, the Uzbeks (currently under the state of Transoxiana) became rich. And in the 1200s, the Mongols under Genghis Khan conquered all of Central Asia, including the Uzbeks. After Genghis Khan's reign, Transoxiana came back to power under Tamerlane (also known as Timur), the leader of the Timurids. But when the Timurids started to split, the Uzbeks siezed thier opportunity. In the eary 1500s, the Uzbeks conquered all of Central Asia with thier Cho'l Jangchis (in English they are called Steppe Warriors). The Uzbeks established 2 rival khanates after thier conquest in the 1500s, the Bukhoro Khanate, and the Khiva Khanate. The Bukhoro Khanate was the most powerful, and it controlled the cities of Bukhara, Tashkent, and Fergana. It was lead by the Shaybanid Dynasty. The Khiva Khanate was established in the oasis of Khorazm and controlled all of the Amu Darya and areas around it. The Uzbeks were at war with Persia for a long time becuase of religious disputes (The Uzbeks were Sunni Muslim and the Persians were Shia Muslim). The war with Persia didn't really go anywhere but the Uzbeks started to weaken due to the discovering of Ocean Transport (the Silk Road was used less and went into a steady decline). Before the end of the Persia-Uzbek war the Russians arrived in Kazakhstan and the troops were used at Uzbekistan's defence against the Russians. During the American Civil War, cotton exports to Russia decreased by a ton, and Russia looked toward Central Asia as a replacement for that cotton. They conquered Central Asia and turned many people in slaves for cotton. And after Russia turned into the USSR after the Russian revolution, Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan, Turkmenistan, Azerbijan, Georgia, Armenia, Belarus, Moldova, Ukraine, Lithuania, Latvia, and Estonia were all turned into Soviet Republics. Uzbekistan's name in particular was Uzbek SSR (Uzbek Soviet Socialist Republic). The Uzbek SSR and many other SSR's were abused of thier resources, for example, the Aral Sea is nearly all dry becuase of the USSR's disregard for environmental concerns. But after the collapse of the USSR in 1991, Uzbekistan became its own independent republic. Islam Karimov was the first president, and he lead them until his death in 2016. Uzbekistan became a cotton-dependent economy, using irrigation canals that drained the Aral Sea and ultilizing slaves. Uzbekistan continues to have one of the worst cases of modern slavery in the world today.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JWW_UZBEKISTAN_FACTOID_HEADING">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JWW_UZBEKISTAN_FACTOID_TEXT">
+			<Text>
+		  [ICON_BULLET]Uzbekistan was the first Soviet Socialist Republic in Central Asia to declare independence from the USSR.
+		  [NEWLINE][ICON_BULLET]Uzbekistan is one of the two land-locked countries in the world to be completely surrounded by land-locked countries.
+		  [NEWLINE][ICON_BULLET]Bukhara is more than 2,000 years old and was declared a UNESCO World Heritage Site in 1993.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ISLAM_KARIMOV_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ISLAM_KARIMOV_TEXT_1">
+			<Text>Islam Abduganievich Karimov was born on January 3rd, 1938 in Samarkand in a family of a civil servant. He had a harsh childhood, and he joined the military. He had to share food with people who fled to Uzbekistan during World War II, even though food became hard to come by. In 1945, Karimov went to Samarkand School No. 21 and finished with the highest grades. In 1955, Karimov was admitted to the Central Asian Polytechnic Institute. In 1960, he graduated with a diploma in Mechnical Engineering. After his graduation he worked at the TASHSELMASH (Tashkent Agricultural Machinery) factory. And after a short time he went up the ranks, first as an assistant foreman, then a foreman, and then finally an industrial engineer. He learned of the various machines of agriculture and experienced everything first-hand. In 1961, was appointed as an engineer of the Taskent Aviation Plant, on of the largest plants of the Soviet Union. He eventually became the leading design engineer there, but left after 1966. In 1967, with "on-the-job traning" Karimov was able to finish the evening department of the Tashkent Institute of National Economy. In that same place he defended his thesis on "The structure of the Uzbek SSR's industrial base and the main directions for its improvement". In 1975, Karimov graduated from the Institute of National Economy Management in Moscow. He had gotten majors in modern management methods, organization of production, and planning using economic and mathematical methods and computer technology. In 1966, Karimov  was transferred to the State Planning Committee of Uzbekistan, and started as a chief specialist and finished as the First Deputy Chairman of the Committee, and he worked there until 1983. In 1983, he became Minister of Finance and 3 years later he became the Vice Chairman of the Concil of Ministers and the Chairman of the State Planning Committee of Uzbekistan. In 1986, Karimov made a ver citical review on the economic status of the Republic and came to a conclusion that the country was facing an economic collapse. Karimov thought that this statement would cause decisions to be made because of the this. However, this was not the case. Instead the government wanted to get rid of Islam Karimov. Karimov was then transferred to the Kashkadarya region, which contained much more problems than the rest of Uzbekistan. Karimov then worked for 3 years in Kashkadarya, trying to improve the situation there, and change the public opinion. In 1989, Karimov was elected the First Secretary of the Central Committee of the Communist Party of Uzbekistan. At the time the republic economy was at the state of collapse. Karimov stopped the inter-ethnic confrontation and rising of a civil-war. Literally the next day of this happened, Karimov was elected the Head of Uzbekistan on June 24th, 1989. Karimov then decided to provide households to almost 2.5 million families. The next law he passed was the State Language Law. The Uzbek language, which had previously used to be in subordinate roles, had been been given the status of the state language. Uzbekistan was the first of all the SSR's to have its own elected president. And in 1990, when Mikhail Gorbachev, the president of the USSR at the time, was furious at the state. And on August 31st, 1991, Karimov proclaimed the independence of the Republic of Uzbekistan from The Soviet Union. Until Karimov's death on Septmember 2, 2016, Karimov lead Uzbekistan to become a notable world-power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JWW_MAXSUS_KUCHLAR_TEXT">
+			<Text>The Uzbek Maxsus Kuchlar, or Uzbek Special Forces, is a branch term for the National Security Service (SNB), Frontier Sevice, Internal Troops, Spetsnaz Battlions, and Uzbekistan Nation Guard. These forces are tasked with defending within the border of Uzbekistan. The SNB is the secret police of Uzbekistan, and was associated with Karimov's authoritarian administration, and are accused of multiple human rights abuses. They are responsable for Torture, the Andijan Massacre (between 187 and 1,000 protesters killed), and Internet Censorship. The Frontier Service controls the borders and rivers of Uzbekistan. The Internal Troops are in charge of Anti-Terrorism. The Spetsnaz Battalions include: Scorpion Group, Bars, Ts, and Alpha Group. Lastly, the Uzbekistan National Guard, located in Tashkent, are tasked with guarding important bases, facilities and the President under Karimov.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_JWW_SUGORISH_KANALI_TEXT">
+			<Text>The Sug'orish Kanali, Uzbek for "Irrigation Canal", is an irrigation canal used throughout Uzbekistan, taking water from the Aral Sea. These canals were first established throughout modern Kazakhstan, Turkmenistan, and Uzbekistan in the 1940s as a result of Soviet irrigation projects. These canals were used to irrigate the desert and grow rice, melons, cereals, and cotton. Cotton was intended to become a major export of Uzbekistan, and it did become one of the world's largest exporters of cotton, as a result of these canals. However, many of these canals were poorly built or ineffective and ended up wasting water. As a result of the canals using so much water, the Aral Sea is today 10% of the size it was in 1960 (68,000 squared kilometers). This is been noted as one of the planet's worst environmental disasters, with the creation of the Aralkum Desert. By 1987, the Aral Sea was separated into 2 separate bodies of war as a result of the drainage. After Uzbekistan achieved independence in 1991, Islam Karimov continued Uzbekistan's Soviet Style economy, continuing the mass export of cotton (which happened to widely use slaves for), and thus the continuation of the irrigation system. This system also required massive amounts of pesticides and fertilizer, polluting the vanishing sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_FIRSTGREETING_1">
+			<Text>Welcome to Uzbekistan! Now, get out.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_FIRSTGREETING_2">
+			<Text>Welcome to Uzbekistan! Hopefully you'll stay on my good side, you don't want to be on my bad side.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_FIRSTGREETING_3">
+			<Text>Welcome to Uzbekistan! Enjoy your stay! You won't be around soon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_DEFEATED_1">
+			<Text>The great country of Uzbekistan has been defeated? This cannot be.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_DEFEATED_2">
+			<Text>I never saw this day coming. The great Uzbek country.. is dead.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_DEFEATED_3">
+			<Text>I cannot believe it. My great country of Uzbekistan has fallen? And to you of all people?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_GREETING_POLITE_HELLO_1">
+			<Text>Hello, friend of Uzbekistan, how can I of be of service?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_GREETING_NEUTRAL_HELLO_1">
+			<Text>Oh. Hello. Do you need something?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_GREETING_HOSTILE_HELLO_1">
+			<Text>What do you want? Don't worry, I'll put you ou of your misery soon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Listen here, if that army's going to attack me, you're in for a treat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Back off, Uzbekistan may be the greatest country, but it isn't yours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_REQUEST_1">
+			<Text>Sorry, friend, but Uzbekistan needs some help.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_LUXURY_TRADE_1">
+			<Text>Hello again, do you think you could lend some luxuries to an old friend? You get something out of it, of course!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_OPEN_BORDERS_EXCHANGE_1">
+			<Text>How about open borders? You get access to the greatest country, and I get access to, um, your territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_ATTACKED_BETRAYED_1">
+			<Text>Oh, I see how it is, get ready for the full force of Uzbekistan!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_ATTACKED_EXCITED_1">
+			<Text>Oh, how lovely! You didn't make a wise choice, old friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_ATTACKED_HOSTILE_1">
+			<Text>Wow! What an idiot! You made a huge mistake, and its not going to end up well for you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_DECLAREWAR_1">
+			<Text>Did you think you could hide from Uzbekistan forever?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_TRADE_NEEDMORE_ANGRY_1">
+			<Text>Are you kidding? No.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_TRADE_NEEDMORE_HAPPY_1">
+			<Text>I would, old friend, but Uzbekistan needs it even more!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ISLAM_KARIMOV_TRADE_NEEDMORE_NEUTRAL_1">
+			<Text>I'm good, go bother someone else.</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_0">
+			<Text>Tashkent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_1">
+			<Text>Namangan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_2">
+			<Text>Samarkand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_3">
+			<Text>Andijan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_4">
+			<Text>Nukus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_5">
+			<Text>Bukhara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_6">
+			<Text>Qarshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_7">
+			<Text>Fergana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_8">
+			<Text>Kokand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_9">
+			<Text>Khiva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_10">
+			<Text>Urgench</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_11">
+			<Text>Navoiy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_12">
+			<Text>Jizzakh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_13">
+			<Text>Shakhrisabz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_14">
+			<Text>Termez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_15">
+			<Text>Bekabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_16">
+			<Text>Denov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_17">
+			<Text>Xo'jayli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_18">
+			<Text>Guliston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_19">
+			<Text>Margilan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_20">
+			<Text>Kattakurgan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_21">
+			<Text>Quvasoy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_22">
+			<Text>Qo'ng'irot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_23">
+			<Text>Zarafshan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_24">
+			<Text>Asaka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_25">
+			<Text>Chust</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_26">
+			<Text>Yangiyo'l</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_27">
+			<Text>Kogon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_28">
+			<Text>To'rtko'l</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_29">
+			<Text>Urgut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_30">
+			<Text>Oqtosh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_31">
+			<Text>G'ijduvon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_32">
+			<Text>Okhangaron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_33">
+			<Text>Quva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_34">
+			<Text>Nurota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_35">
+			<Text>Rishton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_36">
+			<Text>Yangiyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_37">
+			<Text>Sirdaryo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_38">
+			<Text>Uchkuduk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_39">
+			<Text>Khakkulabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_40">
+			<Text>Dashtobod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_41">
+			<Text>Muborak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_42">
+			<Text>G'uzor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_43">
+			<Text>Nurafshon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_44">
+			<Text>Mo'ynoq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_UZBEKISTAN_45">
+			<Text>Vobkent</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_UZBEKISTAN_0">
+			<Text>Abdulaziz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_UZBEKISTAN_1">
+			<Text>Bilol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_UZBEKISTAN_2">
+			<Text>Farrukh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_UZBEKISTAN_3">
+			<Text>Nasrin</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_UZBEKISTAN_4">
+			<Text>Hidayat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_UZBEKISTAN_5">
+			<Text>Darisa</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_UZBEKISTAN_6">
+			<Text>Muhammadjon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_UZBEKISTAN_7">
+			<Text>Sunnat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_UZBEKISTAN_8">
+			<Text>Walid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_UZBEKISTAN_9">
+			<Text>Ajva</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!-- City State -->
+		<Row Tag="TXT_KEY_CITYSTATE_JWW_BISHKEK">
+			<Text>Bishkek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JWW_BISHKEK_DESC">
+			<Text>Bishkek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JWW_BISHKEK_SHORT_DESC">
+			<Text>Bishkek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JWW_BISHKEK_ADJECTIVE">
+			<Text>Krygyz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JWW_BISHKEK_TEXT">
+			<Text>Bishkek, formerly Pishpek and Frunze, is the capital and largest city of Kyrgyzstan (Kyrgyz Republic). Bishkek is also the most commonly administrative centre of the Chuy Region. The province surrounds the city, although the city itself is not part of the province, but rather a province-level unit of Kyrgyzstan. In 1825 Khokand authorities established the fortress of "Pishpek" to control local caravan routes and to collect tribute from Kyrgyz tribes. On 4 September 1860, with the approval of the Kyrgyz, Russian forces led by Colonel Apollon Zimmermann destroyed the fortress. In 1868 a Russian settlement was established on the site of the fortress under its original name, "Pishpek". It lay within the General Governorship of Russian Turkestan and its Semirechye Oblast. In 1925 the Kara-Kirghiz Autonomous Oblast was established in Russian Turkestan, promoting Pishpek to its capital. In 1926 the Communist Party of the Soviet Union renamed the city as Frunze, after the Bolshevik military leader Mikhail Frunze (1885–1925), who was born there. In 1936, the city of Frunze became the capital of the Kirghiz Soviet Socialist Republic, during the final stages of the national delimitation in the Soviet Union. In 1991 the Kyrgyz parliament changed the capital's name to "Bishkek". Bishkek is situated at an altitude of about 800 meters (2,600 ft), just off the northern fringe of the Kyrgyz Ala-Too range, an extension of the Tian Shan mountain range. These mountains rise to a height of 4,855 meters (15,928 ft). North of the city, a fertile and gently undulating steppe extends far north into neighboring Kazakhstan. The Chui River drains most of the area. Bishkek is connected to the Turkestan-Siberia Railway by a spur line. Bishkek is a city of wide boulevards and marble-faced public buildings combined with numerous Soviet-style apartment blocks surrounding interior courtyards. There are also thousands of smaller privately built houses, mostly outside the city centre. Streets follow a grid pattern, with most flanked on both sides by narrow irrigation channels, watering innumerable trees to provide shade in the hot summers.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

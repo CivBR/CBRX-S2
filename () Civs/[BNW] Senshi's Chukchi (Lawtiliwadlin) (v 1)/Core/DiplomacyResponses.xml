@@ -1,0 +1,22 @@
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_SENSHI_LAWTILIWADLIN">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SENSHI_LAWTILIWADLIN_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SENSHI_LAWTILIWADLIN">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SENSHI_LAWTILIWADLIN_DEFEATED%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<!--General phrases -->
+		<!--Greeting (first time meeting) -->
+		<Row Tag="TXT_KEY_LEADER_SENSHI_LAWTILIWADLIN_FIRSTGREETING_1">
+			<Text>Halt! Who are you to come into these lands? I am the great warrior Lawtiliwadlin, and if you dare challenge the Chukchi I will break you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_LAWTILIWADLIN_DEFEATED_1">
+			<Text>How can this be?! The great and powerful Chukchi, subjugated at your hands! You are no mortal man!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

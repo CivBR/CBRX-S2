@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<Language_en_US>
+		<!--=======================================================================================================================-->
+		<!-- Sukritact's Events & Decisions -->
+		<!--=======================================================================================================================-->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--Chola: Construct the Great Living Temples-->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<Row Tag="TXT_KEY_DECISIONS_MC_CHOLA_GREAT_LIVING_TEMPLES">
+			<Text>Construct the Great Living Temples</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_CHOLA_GREAT_LIVING_TEMPLES_DESC">
+			<Text>
+				Oh great king, our religious devotion is waning, and our subjects lack satisfaction with our rule! We should commission a grand project with the finest artisans to construct vast temples across our empire that show the world our might![NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Chola.
+				[NEWLINE][ICON_BULLET]Must have researched Theology.
+				[NEWLINE][ICON_BULLET]Must have at least three Temples.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold.
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]All Temples yield +1 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, and +1 [ICON_HAPPINESS_1] Happiness.
+				[NEWLINE][ICON_BULLET]Grand Temple yields +2 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, and +2 [ICON_HAPPINESS_1] Happiness.
+				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Note: The [ICON_GOLD] Gold cost increases with each Temple.[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_CHOLA_GREAT_LIVING_TEMPLES_ENACTED_DESC">
+			<Text>
+				Oh great king, our religious devotion is waning, and our subjects lack satisfaction with our rule! We should commission a grand project with the finest artisans to construct vast temples across our empire that show the world our might![NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]All Temples yield +1 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, and +1 [ICON_HAPPINESS_1] Happiness.
+				[NEWLINE][ICON_BULLET]Grand Temple yields +2 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, and +2 [ICON_HAPPINESS_1] Happiness.
+			</Text>
+		</Row>
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--Chola: Celebrate Adiperukku-->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_MC_CHOLA_ADIPERUKKU">
+			<Text>Celebrate Adiperukku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_MC_CHOLA_ADIPERUKKU_DESC">
+			<Text>
+				It is fast approaching the monsoon season - our people look to us for the hosting of our annual Adiperukku festival, honouring the gods for the bounty of water they have bestowed upon us![NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Chola.
+				[NEWLINE][ICON_BULLET]Must have founded a Religion.
+				[NEWLINE][ICON_BULLET]Must have access to Fresh Water.
+				[NEWLINE][ICON_BULLET]May only be enacted once per era.
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold.
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]All cities with access to Fresh Water begin celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 10 turns.
+				[NEWLINE][ICON_BULLET]Gain [ICON_PEACE] Faith for each source of Fresh Water.
+				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Note: The [ICON_GOLD] Gold cost increases with each city with access to Fresh Water and with each era.[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_MC_CHOLA_ADIPERUKKU_ENACTED_DESC">
+			<Text>
+				It is fast approaching the monsoon season - our people look to us for the hosting of our annual Adiperukku festival, honouring the gods for the bounty of water they have bestowed upon us![NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]All cities with access to Fresh Water begin celebrating [ICON_JFD_WLTKD] 'We Love the King Day' for 10 turns.
+				[NEWLINE][ICON_BULLET]Gain a lump sum of [ICON_PEACE] Faith for each source of Fresh Water.
+			</Text>
+		</Row>
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- India: Commemorate the Salt Satyagraha -->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<Row Tag="TXT_KEY_DECISIONS_MC_INDIA_SALT">
+			<Text>Commemorate the Salt Satyagraha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_INDIA_SALT_DESC">
+			<Text>Your protest against the salt tax galvanized the Indian independence movement. As the anniversary of this momentous event approaches, the people wish to recreate your march to collect salt and remind the world of the power of nonviolent resistance.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be India
+				[NEWLINE][ICON_BULLET]Must have a mined source of [ICON_RES_SALT] Salt
+				[NEWLINE][ICON_BULLET]Must have reached the Modern Era
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Culture} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] Culture from [ICON_RES_SALT] Salt
+				[NEWLINE][ICON_BULLET]Cities with a source of [ICON_RES_SALT] Salt provide +1 Delegate
+				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: The amount of [ICON_CULTURE] Culture needed increases based on your number of Cities.[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_INDIA_SALT_ENACTED_DESC">
+			<Text>Your protest against the salt tax galvanized the Indian independence movement. As the anniversary of this momentous event approaches, the people wish to recreate your march to collect salt and remind the world of the power of nonviolent resistance.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] Culture from [ICON_RES_SALT] Salt
+				[NEWLINE][ICON_BULLET]Cities with a source of [ICON_RES_SALT] Salt provide +1 Delegate
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDIA_SALT_DUMMY_DESC">
+			<Text>India Decision Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDIA_SALT_DUMMY_HELP">
+			<Text>+2 [ICON_CULTURE] Culture from [ICON_RES_SALT] Salt. Cities with a source of [ICON_RES_SALT] Salt provide +1 Delegate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDIA_SALT_DUMMY_STRATEGY">
+			<Text>This building cannot be constructed but rather facilitates the India's unique abilities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDIA_SALT_DUMMY_TEXT">
+			<Text>The Salt March, also known as the Dandi March and the Salt Satyagraha, was an act of nonviolent civil disobedience in colonial India initiated by Mohandas Gandhi to produce salt from seawater, as was the practice of the local populace until British officials introduced taxation on salt production, deemed their sea-salt reclamation activities illegal, and then repeatedly used force to stop it. The 24-day march began on 12 March 1930 as a direct action campaign of tax resistance and nonviolent protest against the British salt monopoly, and it gained worldwide attention which gave impetus to the Indian independence movement and started the nationwide Civil Disobedience Movement.</Text>
+		</Row>
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- India: Defend the Rights of the Dalits -->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<Row Tag="TXT_KEY_DECISIONS_MC_INDIA_DALITS">
+			<Text>Defend the Rights of the Dalits</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_INDIA_DALITS_DESC">
+			<Text>For too long the Dalit population of India has been deemed "untouchable" by the varna caste system. Segregated and ostracized, the Dalits have not been permitted to participate fully in our society. The time has come to institute new reforms so that all might share in the prosperity of India.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be India
+				[NEWLINE][ICON_BULLET]Must have completed at least 2 Social Policy trees
+				[NEWLINE][ICON_BULLET]Must have reached the Industrial Era
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Culture} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+10% [ICON_PRODUCTION] Production and +10% [ICON_GOLD] Gold in all Cities
+				[NEWLINE][ICON_BULLET]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_INDIA_DALITS_ENACTED_DESC">
+			<Text>For too long the Dalit population of India has been deemed "untouchable" by the varna caste system. Segregated and ostracized, the Dalits have not been permitted to participate fully in our society. The time has come to institute new reforms so that all might share in the prosperity of India.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+10% [ICON_PRODUCTION] Production and +10% [ICON_GOLD] Gold in all Cities.
+				[NEWLINE][ICON_BULLET]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_INDIA_DALITS">
+			<Text>India Decision Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_INDIA_DALITS_TEXT">
+			<Text>India Decision Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_INDIA_DALITS_HELP">
+			<Text>-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities. +10% [ICON_PRODUCTION] Production and +10% [ICON_GOLD] Gold in all Cities.</Text>
+		</Row>
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- Maratha: Convene the Ashtapradhan -->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<Row Tag="TXT_KEY_DECISIONS_MC_MARATHA_ASHTAPRADHAN">
+			<Text>Convene the Ashtapradhan</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_DECISIONS_MC_MARATHA_ASHTAPRADHAN_DESC">
+			<Text>Our growing empire requires wise counsel in order to prosper and defend itself against our enemies. By assembling eight ministers to oversee the affairs of state, you will ensure the dawning of a shining new era for our people.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Maratha
+				[NEWLINE][ICON_BULLET]Must have reached the Renaissance
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Culture} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+8% [ICON_CULTURE] Culture in all Cities
+				[NEWLINE][ICON_BULLET]The empire enters a [ICON_GOLDEN_AGE] Golden Age
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_MARATHA_ASHTAPRADHAN_ENACTED_DESC">
+			<Text>Our growing empire requires wise counsel in order to prosper and defend itself against our enemies. By assembling eight ministers to oversee the affairs of state, you will ensure the dawning of a shining new era for our people.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+8% [ICON_CULTURE] Culture in all Cities
+				[NEWLINE][ICON_BULLET]The empire enters a [ICON_GOLDEN_AGE] Golden Age
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MARATHA_ASHTAPRA_DUMMY_DESC">
+			<Text>Maratha Decision Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MARATHA_ASHTAPRA_DUMMY_HELP">
+			<Text>+8% [ICON_CULTURE] Culture all Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MARATHA_ASHTAPRA_DUMMY_STRATEGY">
+			<Text>This building cannot be constructed but rather facilitates the Maratha's unique abilities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MARATHA_ASHTAPRA_DUMMY_TEXT">
+			<Text>The Ashta Pradhan was a council of eight ministers that administered the Maratha empire. The council was formed in 1674 by their king, Shivaji.</Text>
+		</Row>
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- Maratha: Construct the Raigad -->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<Row Tag="TXT_KEY_DECISIONS_MC_MARATHA_RAIGAD">
+			<Text>Construct the Raigad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_MARATHA_RAIGAD_DESC">
+			<Text>My king, the mountains of Rairi offer an ideal strategic position to defend against our enemies. We should construct a great fort at the location to both strengthen our military and celebrate your reign.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Maratha
+				[NEWLINE][ICON_BULLET]Must have a City within 2 tiles of a Mountain
+				[NEWLINE][ICON_BULLET]Must have researched Gunpowder
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]The Raigad will be constructed in your [ICON_CAPITAL] Capital
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_MARATHA_RAIGAD_ENACTED_DESC">
+			<Text>My king, the mountains of Rairi offer an ideal strategic position to defend against our enemies. We should construct a great fort at the location to both strengthen our military and celebrate your reign.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]The Raigad will be constructed in your [ICON_CAPITAL] Capital
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_RAIGAD">
+			<Text>Raigad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_RAIGAD_HELP">
+			<Text>May only be enacted by the Maratha through the "Construct the Raigad" decision. Increases hitpoints and [ICON_STRENGTH] Combat strength of the city. Provides additional [ICON_CULTURE] Culture if the Military Caste policy is adopted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_RAIGAD_PEDIA">
+			<Text>Shivaji had seized the fort in 1656, then the fort of Rairi, from the royal house of Chandrarrao Mores, a junior or Cadet dynasty to descended from the ancient Maurya imperial dynasty. The last More king (or raja) was a feudatory of the Sultan of Bijapur. Shivaji renovated and expanded the fort of Rairi and renamed it Raigad (the King's Fort). It became the capital of Shivaji's kingdom. Pachad and Raigadwadi villages are located at the base of the Raigad. These two were very important villages during the Maratha rule. Actual climb on the top of Raigad starts from Pachad. In Maratha rule 10000 cavalry was always kept as a standby in Pachad village.</Text>
+		</Row>
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- Mughals: Arm of the Empire -->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<Row Tag="TXT_KEY_DECISIONS_MC_MUGHAL_ARM_OF_EMPIRE">
+			<Text>The Arm of the Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_MUGHAL_ARM_OF_EMPIRE_DESC">
+			<Text>The brilliant scientist Fathullah Shirazi has offered his services to the empire and has already begun drawing up designs for devastating new weaponry.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Mughals
+				[NEWLINE][ICON_BULLET]Must have a Great Scientist
+				[NEWLINE][ICON_BULLET]Must have researched Industrialization
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A Gatling Gun appears near your [ICON_CAPITAL] Capital
+				[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Production when building Siege Units
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_MUGHAL_ARM_OF_EMPIRE_ENACTED_DESC">
+			<Text>The brilliant scientist Fathullah Shirazi has offered his services to the empire and has already begun drawing up designs for devastating new weaponry.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A Gatling Gun appears near your [ICON_CAPITAL] Capital
+				[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Production when building Siege Units
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_SIEGE_DUMMY_DESC">
+			<Text>Mughal Decision Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_SIEGE_DUMMY_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production when building Siege Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_SIEGE_DUMMY_STRATEGY">
+			<Text>This building cannot be constructed but rather facilitates the Mughals's unique abilities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_SIEGE_DUMMY_TEXT">
+			<Text>Fathullah Shirazi (c. 1582), sometimes referred to as Amir Fathullah Shirazi, was a Persian-Indian polymath - a scholar, Islamic jurist, finance minister, mechanical engineer, inventor, mathematician, astronomer, physician, philosopher and artist - who worked for Akbar, ruler of the Mughal Empire. Shirazi was given the title of 'Azuddudaulah, translated as "The Arm of the Empire."</Text>
+		</Row>
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- Mughals: Found the Din-e Ilahi -->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<Row Tag="TXT_KEY_DECISIONS_MC_MUGHAL_DIN_E_ILAHI">
+			<Text>Found the Din-e Ilahi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_MUGHAL_DIN_E_ILAHI_DESC">
+			<Text>Many ancient faiths lie scattered throughout our empire, espousing sacred philosophy and ruminative worship. But these faiths all share a common unity,and for the good of the empire, should be converged into one.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Mughals
+				[NEWLINE][ICON_BULLET]Player must have more than one Religion in the Empire
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Faith} [ICON_PEACE] Faith
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_PEACE] Faith for every [ICON_CITIZEN] Citizen in the [ICON_CAPITAL] Capital
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MC_MUGHAL_DIN_E_ILAHI_ENACTED_DESC">
+			<Text>Many ancient faiths lie scattered throughout our empire, espousing sacred philosophy and ruminative worship. But these faiths all share a common unity,and for the good of the empire, should be converged into one.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_PEACE] Faith for every [ICON_CITIZEN] Citizen in the [ICON_CAPITAL] Capital
+			</Text>
+		</Row>
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- Maurya: Issue the Edict of Ashoka -->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<Row Tag="TXT_KEY_DECISIONS_MAURYAEDICTS">
+			<Text>Issue the Edicts of Ashoka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MAURYAEDICTS_DESC">
+			<Text>
+				We have been enlightened by the Truth of religion. As Chakravartin, it is our duty to ensure our subjects are ruled fairly and justly and that they know the principles of our rule are in accordance with all that is right and virtuous! It is our duty that our subjects and our neighbours learn of our faith! Sadhu![NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Maurya
+				[NEWLINE][ICON_BULLET]Player must have founded a Religion or have a State Religion
+				[NEWLINE][ICON_BULLET]Player must have a Pillar of Ashoka in all cities
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Culture} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]2 Missionaries appear near the capital
+				[NEWLINE][ICON_BULLET]Pillars of Ashoka gain +2 [ICON_HAPPINESS_1] Happiness
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MAURYAEDICTS_ENACTED_DESC">
+			<Text>
+				We have been enlightened by the Truth of religion. As Chakravartin, it is our duty to ensure our subjects are ruled fairly and justly and that they know the principles of our rule are in accordance with all that is right and virtuous! It is our duty that our subjects and our neighbours learn of our faith! Sadhu![NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]2 Missionaries appear near the capital
+				[NEWLINE][ICON_BULLET]Pillars of Ashoka gain +2 [ICON_HAPPINESS_1] Happiness
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DECISIONS_MAURYAEDICTS_HELP">
+			<Text>+2 Happiness from Pillars of Ashoka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DECISIONS_MAURYAEDICTS">
+			<Text>MC: Issue the Edicts of Ashoka Dummy Policy</Text>
+		</Row>
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!--Maurya: Establish the Office of Chief Elephant Forester-->
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<Row Tag="TXT_KEY_DECISIONS_MAURYAELEPHANTS">
+			<Text>Establish the Office of Chief Elephant Forester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MAURYAELEPHANTS_DESC">
+			<Text>
+				Elephants are vital to the success of our empire; vital for heavy lifting and unparalleled in war. Thus we should establish an office to care for them. The Chief Elephant Forester will be charged with recording, tracking, and protecting these animals as well as selecting individual elephants to be captured for military and domestic purposes.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Maurya
+				[NEWLINE][ICON_BULLET]Player must have researched The Wheel
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Reveals three sources of [ICON_RES_IVORY] Ivory near the [ICON_CAPITAL] Capital
+				[NEWLINE][ICON_BULLET]War Elephants gain experience 25% faster
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_MAURYAELEPHANTS_ENACTED_DESC">
+			<Text>
+				Elephants are vital to the success of our empire; vital for heavy lifting and unparalleled in war. Thus we should establish an office to care for them. The Chief Elephant Forester will be charged with recording, tracking, and protecting these animals as well as selecting individual elephants to be captured for military and domestic purposes.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Reveals three sources of [ICON_RES_IVORY] Ivory near the [ICON_CAPITAL] Capital
+				[NEWLINE][ICON_BULLET]War Elephants gain experience 25% faster
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DECISIONS_MAURYAELEPHANTS_HELP">
+			<Text>Unit gains experience 25% faster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DECISIONS_MAURYAELEPHANTS">
+			<Text>Chief Elephant Forester</Text>
+		</Row>
+	</Language_en_US>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_MUGHAL_SIEGE_DUMMY</Type>
+			<DefaultBuilding>BUILDING_MUGHAL_SIEGE_DUMMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MUGHAL_SIEGE_DUMMY_DESC</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_INDIA_SALT_DUMMY</Type>
+			<DefaultBuilding>BUILDING_INDIA_SALT_DUMMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_INDIA_SALT_DUMMY_DESC</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MARATHA_ASHTAPRA_DUMMY</Type>
+			<DefaultBuilding>BUILDING_INDIA_MARATHA_ASHTAPRA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MARATHA_ASHTAPRA_DUMMY_DESC</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MC_RAIGAD</Type>
+			<DefaultBuilding>BUILDING_MC_RAIGAD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MC_RAIGAD</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MUGHAL_SIEGE_DUMMY</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MUGHAL_SIEGE_DUMMY</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_INDIA_SALT_DUMMY</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_INDIA_SALT_DUMMY</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MARATHA_ASHTAPRA_DUMMY</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MARATHA_ASHTAPRA_DUMMY</BuildingClassType>
+			<BuildingType/>
+		</Row>	
+	</Civilization_BuildingClassOverrides>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MUGHAL_SIEGE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_MUGHAL_SIEGE_DUMMY</BuildingClass>
+			<!-- -->
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<!-- -->
+			<Help>TXT_KEY_BUILDING_MUGHAL_SIEGE_DUMMY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MUGHAL_SIEGE_DUMMY_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MUGHAL_SIEGE_DUMMY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MUGHAL_SIEGE_DUMMY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_INDIA_SALT_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_INDIA_SALT_DUMMY</BuildingClass>
+			<!-- -->
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<!-- -->
+			<Help>TXT_KEY_BUILDING_INDIA_SALT_DUMMY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_INDIA_SALT_DUMMY_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_INDIA_SALT_DUMMY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_INDIA_SALT_DUMMY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<ExtraLeagueVotes>1</ExtraLeagueVotes>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_INDIA_MARATHA_ASHTAPRA</Type>
+			<BuildingClass>BUILDINGCLASS_MARATHA_ASHTAPRA_DUMMY</BuildingClass>
+			<!-- -->
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<!-- -->
+			<Help>TXT_KEY_BUILDING_MARATHA_ASHTAPRA_DUMMY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MARATHA_ASHTAPRA_DUMMY_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MARATHA_ASHTAPRA_DUMMY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MARATHA_ASHTAPRA_DUMMY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<GlobalCultureRateModifier>8</GlobalCultureRateModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_MC_RAIGAD</Type>
+			<BuildingClass>BUILDINGCLASS_MC_RAIGAD</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech>NULL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MC_RAIGAD_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MC_RAIGAD</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MC_RAIGAD_PEDIA</Civilopedia>
+			<Defense>750</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MC_RAIGAD_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_MUGHAL_SIEGE_DUMMY</BuildingType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_INDIA_SALT_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Policies>
+		<Row>
+			<Type>POLICY_INDIA_DALITS</Type>
+			<Description>TXT_KEY_POLICY_INDIA_DALITS</Description>
+			<Civilopedia>TXT_KEY_POLICY_INDIA_DALITS_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_INDIA_DALITS_HELP</Help>
+			<GridX>1000</GridX>
+			<GridY>1000</GridY>
+			<UnhappinessMod>-10</UnhappinessMod>
+			<PortraitIndex>47</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		<Row>
+			<Type>POLICY_DECISIONS_MAURYAEDICTS</Type>
+			<Description>TXT_KEY_POLICY_DECISIONS_MAURYAEDICTS</Description>
+			<Civilopedia>TXT_KEY_POLICY_DECISIONS_MAURYAEDICTS</Civilopedia>
+			<Help>TXT_KEY_POLICY_DECISIONS_MAURYAEDICTS_HELP</Help>
+			<GridX>1000</GridX>
+			<GridY>1000</GridY>
+			<UnhappinessMod>-10</UnhappinessMod>
+			<PortraitIndex>47</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_DECISIONS_MAURYAEDICTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+	<Policy_FreeUnitClasses>
+		<Row>
+			<PolicyType>POLICY_DECISIONS_MAURYAEDICTS</PolicyType>
+			<UnitClassType>UNITCLASS_MISSIONARY</UnitClassType>
+			<Count>2</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	<Policy_YieldModifiers>
+		<Row>
+			<PolicyType>POLICY_INDIA_DALITS</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_INDIA_DALITS</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Policy_YieldModifiers>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_DECISIONS_MAURYAELEPHANTS</Type>
+			<Description>TXT_KEY_PROMOTION_DECISIONS_MAURYAELEPHANTS</Description>
+			<Help>TXT_KEY_PROMOTION_DECISIONS_MAURYAELEPHANTS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>57</PortraitIndex>
+			<ExperiencePercent>25</ExperiencePercent>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_DECISIONS_MAURYAELEPHANTS_HELP</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MC_RAIGAD</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_MC_RAIGAD</BuildingType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MC_RAIGAD</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>MC_RAIGAD_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>MC_RAIGAD_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MC_RAIGAD_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>MC_RAIGAD_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MC_RAIGAD_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>MC_RAIGAD_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MC_RAIGAD_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>MC_RAIGAD_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MC_RAIGAD_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>MC_RAIGAD_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

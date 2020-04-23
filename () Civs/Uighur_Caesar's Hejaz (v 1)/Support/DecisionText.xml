@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 09/01/17 6:02:58 PM -->
+<GameData>
+	<Language_en_US>
+		<!--SUKRITACT DECISIONS-->
+		<!--Adopt Early Firearms-->
+		<Row Tag="TXT_KEY_DECISIONS_UC_HEJAZ_HAJJ">
+			<Text>Celebrate Hajj</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_HEJAZ_HAJJ_DESC">
+			<Text>
+				Our nation is home to the holiest temple of the one true faith. Let us celebrate the Hajj by inviting followers around the world to join our festivites.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Player must be Hejaz.
+				[NEWLINE][ICON_BULLET]Must have build a Grand Temple.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]1000 [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrate.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]+8 [ICON_CULTURE] Culture for the Grand Temple.
+				[NEWLINE][ICON_BULLET]+{1_Num} [ICON_CULTURE] Culture (increases with number of global followers).
+				[NEWLINE][ICON_BULLET]+25% [ICON_TOURISM] Tourism with other civs following your religion.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_HEJAZ_HAJJ_ENACTED_DESC">
+			<Text>
+				Our nation is home to the holiest temple of the one true faith. Let us celebrate the Hajj by inviting followers around the world to join our festivites.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]+3 [ICON_CULTURE] from Holy Sites.
+				[NEWLINE][ICON_BULLET]+{1_Num} [ICON_CULTURE] Culture (increases with number of global followers).
+				[NEWLINE][ICON_BULLET]+25% [ICON_TOURISM] Tourism with other civs following your religion.
+			</Text>
+		</Row>
+		<!--Form the JUCHEn Nation-->
+		<Row Tag="TXT_KEY_DECISIONS_HEJAZ_RAILWAY">
+			<Text>Construct the Hejaz Railway</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_HEJAZ_RAILWAY_DESC">
+			<Text>
+				In order to modernize our transport and warfare, we must establish a central railway for our nation.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Player must be Hejaz.
+				[NEWLINE][ICON_BULLET]Must have researched Railroad.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]1500 [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]-50% [ICON_GOLD] Maintenance for roads.
+				[NEWLINE][ICON_BULLET][ICON_TRADE] Cities connected to the Capital provide +10 XP to new units.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_HEJAZ_RAILWAY_ENACTED_DESC">
+			<Text>
+				In order to modernize our transport and warfare, we must establish a central railway for our nation.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]-50% [ICON_GOLD] Maintenance for roads.
+				[NEWLINE][ICON_BULLET][ICON_TRADE] Cities connected to the Capital provide +10 XP to new units.
+			</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e3f9aa11-1956-4164-a276-428149dfb360" version="15">
+  <Properties>
+    <Name>JakeWalrusWhale's Uzbekistan</Name>
+    <Teaser>Adds the Republic of [COLOR_POSITIVE_TEXT]Uzbekistan[ENDCOLOR] under Islam Karimov.</Teaser>
+    <Description>Uzbekistan[NEWLINE]
+Leader: Islam Karimov[NEWLINE][NEWLINE]
+
+UA: Strength in Justice: [NEWLINE]
+On city growth, Population has a chance to be sacrificed in return for random amounts Gold, Local Happiness, or even civilian units. Population is boosted with every project completed in a city.[NEWLINE][NEWLINE]
+
+UB: Sug'orish Kanali: [NEWLINE]
+Replaces the Hydro Plant, but it does not require aluminum. Lakes and coasts switch between making food and production every 5-10 turns. Allows for a worker to remove a sea resource for massive amounts of production in all cities. [NEWLINE][NEWLINE]
+
+UU: Maxsus Kuchlar: [NEWLINE]
+Replaces the infantry. +2 movement when starting on desert tiles. Starts with the Blitz Promotion, but is slightly weaker than the infantry it replaces.</Description>
+    <Authors>JakeWalrusWhale</Authors>
+    <SpecialThanks>DarthKyofu</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Overhaul" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD's Cities In Development" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD's Mercenaries" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Rise to Power" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D." />
+    <Mod id="432bc547-eb05-4189-9e46-232dbde8f09f" minversion="0" maxversion="999" title="Additional Achievements" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="C0E19D99CD7D5861E9B2F6934E9AC0B0" import="1">Art/Atlas/MaxsusIcon256.dds</File>
+    <File md5="C4D0B57517848A0D9FA7D083C1379CD3" import="1">Art/Atlas/MaxsusIcon32.dds</File>
+    <File md5="CE140A8E953C0DBAA7A62891C768407A" import="1">Art/Atlas/sv_Maxsus.dds</File>
+    <File md5="DBEA88094175BD6056288C7004A70B4B" import="1">Art/Atlas/UzbekIconAtlas128.dds</File>
+    <File md5="8B3A9F4A21CA3A1FBB4DF7F3A5584720" import="1">Art/Atlas/UzbekIconAtlas16.dds</File>
+    <File md5="6EEEBF6DF04C99E4C7652BAD043681F6" import="1">Art/Atlas/UzbekIconAtlas24.dds</File>
+    <File md5="AD462961D562E23CCF6722FF5FEB616F" import="1">Art/Atlas/UzbekIconAtlas256.dds</File>
+    <File md5="7955A30284EC23ECECF7740B4F1E5FDB" import="1">Art/Atlas/UzbekIconAtlas32.dds</File>
+    <File md5="E3DAE99764F1F1CAD5C471F5442E3551" import="1">Art/Atlas/UzbekIconAtlas45.dds</File>
+    <File md5="12407D9143ED558D46E51C7AA8F19863" import="1">Art/Atlas/UzbekIconAtlas48.dds</File>
+    <File md5="22D70C4F2BB67268A06760B95EB05DF8" import="1">Art/Atlas/UzbekIconAtlas64.dds</File>
+    <File md5="AD272CD70E8132D01C09653EDF88083E" import="1">Art/Atlas/UzbekIconAtlas80.dds</File>
+    <File md5="187CFBD7144629A0A535AD2A6792ACC5" import="1">Art/KarimovDOM.dds</File>
+    <File md5="FB9B863C372B3A1E4039290EED896F77" import="1">Art/KarimovScene.dds</File>
+    <File md5="9309774C33232FFC6E47E09F56BDD3C5" import="1">Art/Model/edited_aim_attack_city_to_run.dge</File>
+    <File md5="FA9CE373BB700CFCD8F0FA3A955B1E69" import="1">Art/Model/edited_aim_attack_to_run_graph.dge</File>
+    <File md5="BA4F6AEB27527AB47CC284B27C8288A8" import="1">Art/Model/edited_aim_bombard_defend_loop_graph.dge</File>
+    <File md5="933E4A224EFE615D537517EFE06B34BC" import="1">Art/Model/edited_aim_civilian_activate_captured.dge</File>
+    <File md5="87476FD4384999BCCBF43AEEF9B3A652" import="1">Art/Model/edited_aim_civilian_death_final.dge</File>
+    <File md5="9AB143ED19D8B61A7794C90D5D65EE97" import="1">Art/Model/edited_aim_civilian_enter_bombard_defend.dge</File>
+    <File md5="7BCAF33AE57FA6E4F56F767E1799955E" import="1">Art/Model/edited_aim_civilian_state_01.fsmxml</File>
+    <File md5="CD02EC91E73F396297C2B3434A8BA034" import="1">Art/Model/edited_aim_combat_ready_graph.dge</File>
+    <File md5="6B4338103039DFBD431A44C89DA198D6" import="1">Art/Model/edited_aim_death_final_graph.dge</File>
+    <File md5="F9F109E1E43FD75DFC765D9B3A43CE48" import="1">Art/Model/edited_aim_death_graph.dge</File>
+    <File md5="014FBFBCB17012BEC0B32D9FFDBF721E" import="1">Art/Model/edited_aim_enter_bombard_defend_graph.dge</File>
+    <File md5="7A5A0ADFBBB05D6E4FB126383988B264" import="1">Art/Model/edited_aim_enter_combat_ready_graph.dge</File>
+    <File md5="34488A641F9D948D865BBECF8B3878DF" import="1">Art/Model/edited_aim_enter_fortify.dge</File>
+    <File md5="ADAECB630FF73EEFBBE3EE3661F1819C" import="1">Art/Model/edited_aim_enter_sleep_civilian.dge</File>
+    <File md5="F245B80AAC985C0011FEE5CBF3FB25DF" import="1">Art/Model/edited_aim_fidgets_graph.dge</File>
+    <File md5="65FED4E2E20D7512D6B5E92C1CD37EF7" import="1">Art/Model/edited_aim_fortify_fidget_graph.dge</File>
+    <File md5="F758D65157483D32C6763F817B216937" import="1">Art/Model/edited_aim_fortify_graph.dge</File>
+    <File md5="C2C8D0ADFA388980A03E814BF2B335F5" import="1">Art/Model/edited_aim_fortify_leave_graph.dge</File>
+    <File md5="AD4E2A013238410D8FCE2666AEB1DC08" import="1">Art/Model/edited_aim_fortify_to_idle_a.dge</File>
+    <File md5="EF6168FF0903555EDCBB9FD626CFB00F" import="1">Art/Model/edited_aim_idle_graph.dge</File>
+    <File md5="268797759660DA55A0F792A966EB586B" import="1">Art/Model/edited_aim_idle_offset_continue_true_graph.dge</File>
+    <File md5="C4D8B3EB164B5525B92514645521D0C3" import="1">Art/Model/edited_aim_leave_bombard_defend_trans_idle_a_graph.dge</File>
+    <File md5="189E34C23C7A19F2C190E1ACB4212C91" import="1">Art/Model/edited_aim_leave_combat_ready.dge</File>
+    <File md5="225D164523FE1270306005CCD71B075A" import="1">Art/Model/edited_aim_melee_attacks.dge</File>
+    <File md5="71E511A38054110B5D9A23B311AC0104" import="1">Art/Model/edited_aim_modern_ship_attacks.dge</File>
+    <File md5="BA0D234DE017F5CEB6DEF37CE7DFE384" import="1">Art/Model/edited_aim_ms_attack_city_to_run.dge</File>
+    <File md5="75D8FBC3A2C4D56B1089F20A2E9D9DA1" import="1">Art/Model/edited_aim_ms_attack_to_run_graph.dge</File>
+    <File md5="82C3CE94F7827159DEA80CCF8AAF5D9E" import="0">Art/Model/edited_aim_ms_bombard_defend_loop_graph.dge</File>
+    <File md5="FF8A929D15C8ECE5089A806AFBC80C8E" import="1">Art/Model/edited_aim_ms_civilian_activate_captured.dge</File>
+    <File md5="1AE83D5303F9671277D4FEC7F327A2BB" import="1">Art/Model/edited_aim_ms_civilian_death_final.dge</File>
+    <File md5="0021307C276C3516A57BBADDAC07ACE7" import="0">Art/Model/edited_aim_ms_civilian_enter_bombard_defend.dge</File>
+    <File md5="C3686411D2E96A715267F9A5C72A5EB1" import="1">Art/Model/edited_aim_ms_combat_ready_graph.dge</File>
+    <File md5="FE5B902745DEE0860ECEE5BA421D141F" import="1">Art/Model/edited_aim_ms_death_final_graph.dge</File>
+    <File md5="21659FCED7A08D6FB464A693D0E82597" import="1">Art/Model/edited_aim_ms_death_graph.dge</File>
+    <File md5="B66FF4B10706BE666A916B917D14AC83" import="1">Art/Model/edited_aim_ms_enter_bombard_defend_graph.dge</File>
+    <File md5="9B18015ACB470CD66C3294FDA203C27E" import="1">Art/Model/edited_aim_ms_enter_combat_ready_graph.dge</File>
+    <File md5="FD1B5EABA624344B944CD37BD71DE110" import="1">Art/Model/edited_aim_ms_enter_fortify.dge</File>
+    <File md5="2470ABA98F462C27DD3C1AC013BD3AC6" import="1">Art/Model/edited_aim_ms_enter_sleep_civilian.dge</File>
+    <File md5="04680D47D3519A5FFB950F1147D7B1D4" import="1">Art/Model/edited_aim_ms_fidgets_graph.dge</File>
+    <File md5="327CB90C3BCF5BAC71F77DA677997631" import="1">Art/Model/edited_aim_ms_fortify_fidget_graph.dge</File>
+    <File md5="998F9D5F9FCAFE31E97022C5C50C67E8" import="1">Art/Model/edited_aim_ms_fortify_graph.dge</File>
+    <File md5="39370F05801D7D017D605CE224EE11E7" import="1">Art/Model/edited_aim_ms_fortify_leave_graph.dge</File>
+    <File md5="7BC464D9DF686D87145362DEE0F68A04" import="1">Art/Model/edited_aim_ms_fortify_to_idle_a.dge</File>
+    <File md5="EF3E7C919600B18CDC0D6F1BCDD45F64" import="1">Art/Model/edited_aim_ms_idle_graph.dge</File>
+    <File md5="2F7C2570D10BD4E5879F105F9BB3BC53" import="1">Art/Model/edited_aim_ms_idle_offset_continue_true_graph.dge</File>
+    <File md5="7AAA31587E2E15A0B887A31C861D4B45" import="1">Art/Model/edited_aim_ms_leave_bombard_defend_trans_idle_a_graph.dge</File>
+    <File md5="4BB9881AAB8B9F3571AA787BB89B4FF1" import="1">Art/Model/edited_aim_ms_leave_combat_ready.dge</File>
+    <File md5="2937CE1A002CB18C85FA2E3E63221139" import="1">Art/Model/edited_aim_ms_melee_attacks.dge</File>
+    <File md5="E538938BAD81B88082C8DF076514653E" import="0">Art/Model/edited_aim_ms_modern_ship_attacks.dge</File>
+    <File md5="DBFC96AE4406957395EC439CEFF8584A" import="1">Art/Model/edited_aim_ms_running_loop.dge</File>
+    <File md5="BD96EBE9953A41BD78D450DC26561AFC" import="1">Art/Model/edited_aim_ms_run_no_charge_loop.dge</File>
+    <File md5="91A772D3D07C64329ED801632EB689C7" import="1">Art/Model/edited_aim_ms_run_start_civilian.dge</File>
+    <File md5="C017AA3F2D83AAB3B6B939B6418071A3" import="1">Art/Model/edited_aim_ms_start_running.dge</File>
+    <File md5="34D584D857E6CBA51D87EE2FD6950EC6" import="1">Art/Model/edited_aim_ms_stop_running.dge</File>
+    <File md5="8D3450B63AF23F48CF9DEDC3B586B022" import="1">Art/Model/edited_aim_ms_stop_running_civilian.dge</File>
+    <File md5="500F6DEDBDB767CAE8C964DBEE647459" import="1">Art/Model/edited_aim_ms_transitions_for_idles.dge</File>
+    <File md5="A64E86033B61613B4F39979D5603E65F" import="1">Art/Model/edited_aim_running_loop.dge</File>
+    <File md5="E38EAF3E95C835B93C7E7849A7F4F23B" import="1">Art/Model/edited_aim_run_no_charge_loop.dge</File>
+    <File md5="9432853873B222F5AEF1CE53C1CD98DA" import="1">Art/Model/edited_aim_run_start_civilian.dge</File>
+    <File md5="BCF1F945C0CBE7A1C9F62E5B46F84F99" import="1">Art/Model/edited_aim_start_running.dge</File>
+    <File md5="7B0232A8BE345EB899FF221FBD7BDCFB" import="1">Art/Model/edited_aim_stop_running.dge</File>
+    <File md5="38B813F99CCD01B77FB798D2AFE91571" import="1">Art/Model/edited_aim_stop_running_civilian.dge</File>
+    <File md5="2506D6C118D6A9FB915723F731C95FD4" import="1">Art/Model/edited_aim_transitions_for_idles.dge</File>
+    <File md5="57E688AF2606E958CA088BD229D43F5B" import="1">Art/Model/edited_fx_triggers_infantry.ftsxml</File>
+    <File md5="CE3CD82F111AA5AFF962C358B370D593" import="1">Art/Model/Infantry_Russia.blend</File>
+    <File md5="1B3E15D722572F49B6A2042A86E12727" import="1">Art/Model/Infantry_Russia.dds</File>
+    <File md5="462A1D0CCACE955EF40B3A859FD8B6C2" import="1">Art/Model/Infantry_Russia.fxsxml</File>
+    <File md5="7F4E21C5B5898E73A88D31CCC7D4DEF2" import="1">Art/Model/Infantry_Russia.gr2</File>
+    <File md5="4FAADEA72D9F9B15D2C458475AD0C987" import="1">Art/Model/Infantry_Russia.jpg</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Model/no_gloss.dds</File>
+    <File md5="6B71877DBEBA992FA88DE03D122E6807" import="1">Art/UzbekistanMap.dds</File>
+    <File md5="34D242CC15D6F9027B59E8678D834D7B" import="1">Code/Database/KarimovScene.xml</File>
+    <File md5="93175C12D2FAFD32C77BE638B04135BE" import="0">Code/Database/UzbekistanArtDefines.sql</File>
+    <File md5="472A3882CBFC66D85A0F3A9B29E60BB4" import="0">Code/Database/UzbekistanGameDefines.sql</File>
+    <File md5="2B27B373333D548A70A4FADDF9102A3A" import="0">Code/Database/UzbekistanText.xml</File>
+    <File md5="E93FBD34979BC208AEE5F66EC2478B9C" import="0">Code/Lua/UzbekistanFunctions.lua</File>
+    <File md5="409CE15D8D2F543B2E329C56E99468F0" import="0">Code/Lua/UzbekistanFunctions.xml</File>
+    <File md5="DB281D399634B414F7F1C5D02CAE8445" import="0">Code/Mod Support/ModSupport.sql</File>
+    <File md5="6DA564F1FE619F9A3FC9B459E6965C56" import="0">Code/Mod Support/ModSupport.xml</File>
+    <File md5="F2FC32E97E0552E08E4D61DCF889F24B" import="0">Credits.txt</File>
+    <File md5="0CC21157B174EB6F33C42A0A02D60635" import="1">Music/Uzbekistan_Peace.mp3</File>
+    <File md5="3DBA93D3CDDB3E7D934CA43D97234A7B" import="1">Music/Uzbekistan_War.mp3</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/Mod Support/ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Code/Mod Support/ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Database/KarimovScene.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Database/UzbekistanArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/Database/UzbekistanGameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/Database/UzbekistanText.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Lua/UzbekistanFunctions.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Code/Lua/UzbekistanFunctions.lua">
+      <Name>Uzbek Functions</Name>
+      <Description>yep</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

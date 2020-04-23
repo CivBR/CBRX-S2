@@ -1,0 +1,240 @@
+﻿<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_01">
+			<Text>Kagyrgyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_02">
+			<Text>Pagytkenay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_03">
+			<Text>Irvykynnot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_04">
+			<Text>Uvelen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_05">
+			<Text>Guvrel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_06">
+			<Text>Kytryn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_07">
+			<Text>Gachgatagyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_08">
+			<Text>Lyuren</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_09">
+			<Text>Gynryretyk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_10">
+			<Text>Ujvyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_11">
+			<Text>Ryrkampan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_12">
+			<Text>Naskuk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_13">
+			<Text>Konchalyt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_14">
+			<Text>O'mvaam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_15">
+			<Text>Yrytkuchyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_16">
+			<Text>Ichuvuveyem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_17">
+			<Text>Varen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_18">
+			<Text>Il-Kappeya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_19">
+			<Text>Kei'i'yergyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_20">
+			<Text>Meynypilgyno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_21">
+			<Text>I'nchuvin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_22">
+			<Text>Vatyrkan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_23">
+			<Text>Enmelen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_24">
+			<Text>Yanrakynnot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_25">
+			<Text>Keperveyem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_26">
+			<Text>Keyelivtyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_27">
+			<Text>I'nnurmin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_28">
+			<Text>Alkatvaam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_29">
+			<Text>Ilirney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_30">
+			<Text>Ayo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_31">
+			<Text>Valkall'an</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_32">
+			<Text>Yanranay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_33">
+			<Text>Valkyran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_34">
+			<Text>Vankaremen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_35">
+			<Text>Nutepelmen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_36">
+			<Text>Kitepveyem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_37">
+			<Text>Gylmymyl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_CHUKCHI_38">
+			<Text>Apaapalgyn</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_CHUKCHI_0">
+			<Text>Elennut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_CHUKCHI_1">
+			<Text>Nankachhat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_CHUKCHI_2">
+			<Text>Chimkil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_CHUKCHI_3">
+			<Text>Ajnairhin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_CHUKCHI_4">
+			<Text>Tawe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_CHUKCHI_5">
+			<Text>Amloo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_CHUKCHI_6">
+			<Text>Kymytval</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_CHUKCHI_7">
+			<Text>Tenevil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_CHUKCHI_8">
+			<Text>Rytgev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_CHUKCHI_9">
+			<Text>Bone-Face</Text>
+		</Row>
+
+		<!--Demonyms-->
+		<Row Tag="TXT_KEY_CIV_SENSHI_CHUKCHI_ADJECTIVE">
+			<Text>Chukchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_CHUKCHI_DESC">
+			<Text>The Chukchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_CHUKCHI_SHORT_DESC">
+			<Text>The Chukchi</Text>
+		</Row>
+
+		<!--DoM-->
+		<Row Tag="TXT_KEY_CIV5_DOM_SENSHI_LAWTILIWADLIN_TEXT">
+			<Text>May all your enemies tremble at your name, great Lawtiliwadlin, he who beckons with a nod! You lead the great Chukchi people. Though the world your people inhabit is hostile - due to the mercilessness of both the Arctic and your neighbours - the Chukchi survive and thrive in these harsh conditions. Across the tundras of the Siberian Far East, the Chukchi are known as the most formidable of warriors, able to vanquish any enemy that would dare challenge them! Even Siberia's vast subjugator, the Russian Empire, failed to defeat your people, signing a peace for a meagre tribute of fur.[NEWLINE][NEWLINE]Oh great Lawtiliwadlin, your name is still cherished by your people, and your deeds in battle will be forever remembered. But the Chukchi people require your guidance once more! Will you lead your people on to further greatness? Will you build a civilization to stand the test of time?</Text>
+		</Row>
+
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIV5_SENSHI_CHUKCHI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_CHUKCHI_TEXT_1">
+			<Text>The Chukchi are an Arctic people who chiefly inhabit the Chukchi peninsula, or Chukotka, in the extreme northeastern section of Siberia that faces North America across the Bering Strait. Archeological and linguistic evidence suggests that their original homeland probably lay further to the south along the shores of the Sea of Okhotsk, from which they migrated to their present area about six thousand years ago. The Chukchi who live in the interior of the Chukchi peninsula have traditionally been herdsman and hunters of reindeer; those who live along the coasts of the Arctic Ocean, the Chukchi Sea, and the Bering Sea have customarily hunted sea mammals such as seals, whales, walruses, and sea lions. The Chukchi were one of the last Siberian peoples to fall under Russian rule. Russian Cossacks and adventurers in Siberia first learned of the Chukchi from the neighboring Yukagirs and Koriaks in the 1640s, but no serious attempt was made to conquer them at first. Russia was at that time occupied with subduing Siberia's other indigenous peoples, and in any event the harsh tundra lands inhabited by the Chukchi were relatively poor in sable and other valuable fur-bearing animals sought by the Russians. But Chukchi raids on nearby Cossack settlers, combined with a need to find new sources of furs after stocks in other parts of Siberia had been depleted, led Russia to launch a series of vigorous military campaigns against the Chukchi in 1729. The Chukchi put up a ferocious resistance and, when surrounded, they frequently committed mass suicide rather than surrender. By the 1760s, the Russian government decided that the cost of vanquishing the Chukchi was too high in terms of money and troops and ended the war on the condition that the Chukchi cease attacking Russian settlers.</Text>
+		</Row>
+		
+		<!--Leader-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_LAWTILIWADLIN_LIVED">
+			<Text>unknown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_LAWTILIWADLIN_NAME">
+			<Text>Lawtiliwadlin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_LAWTILIWADLIN_SUBTITLE">
+			<Text>Great Warrior of the Chukchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_LAWTILIWADLIN">
+			<Text>Lawtiliwadlin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_LAWTILIWADLIN_TITLES_1">
+			<Text>Man Beckoning With A Nod, Man With A Bear's Neck</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_LAWTILIWADLIN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_LAWTILIWADLIN_TEXT_1">
+			<Text>Lawtiliwadlin, meaning Man-Beckoning-With-A-Nod or Man-With-The-Neck-Of-A-Bear, was a principal warrior among the Chukchi people. He led the Chukchi in hostilities against the Koryaks and Chuvans, rival tribes in Siberia. Lawtiliwadlin is described as a "destroyer of homes." "At the sound of his voice the courage of the strongest fails, and women slay their children that they may not fall into his hands. His arrows fall like rain."</Text>
+		</Row>
+
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_CHUKCHI_SHORT">
+			<Text>Enapyeratirghin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_CHUKCHI">
+			<Text>Units provide Culture and damage adjacent enemies upon earning a Promotion, and may force units to retreat when starting within your territory. If destroyed adjacent to your Borders, enemy units claim their occupied tile for your Empire.</Text>
+		</Row>
+
+		<!--Unique Units-->
+		<Row Tag="TXT_KEY_UNIT_SENSHI_CHULTENNIN">
+			<Text>Chulte'nnin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_CHULTENNIN_STRATEGY">
+			<Text>Unique Chukchi replacement for the Composite Bowman which receives twice the usual defensive bonus from rough terrain. The unit additionally earns experience whenever an adjacent enemy unit dies, even if it was not involved, and heals instantly upon earning a Promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_CHULTENNIN_HELP">
+			<Text>Unique Chukchi replacement for the Composite Bowman which receives twice the usual defensive bonus from rough terrain. The unit additionally earns experience whenever an adjacent enemy unit dies, even if it was not involved, and heals instantly upon earning a Promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNIT_SENSHI_CHULTENNIN_TEXT">
+			<Text>Pedias tba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHULTENNIN">
+			<Text>Laminar Hunter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHULTENNIN_HELP">
+			<Text>Doubled defense in rough terrain</Text>
+		</Row>
+
+		<!--Unique Buildings-->
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_YARANGA">
+			<Text>Yaranga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_YARANGA_STRATEGY">
+			<Text>Unique Chukchi replacement for the Barracks. Provides an additional +5 Experience to newly trained units in coastal cities for every Sea Resource worked, and +3 Experience in inland cities for every Bonus Resource worked. Additionally, it increases the city's border expansion rate based on the amount of Experience granted to newly trained units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_YARANGA_HELP">
+			<Text>Unique Chukchi replacement for the Barracks. Provides an additional +5 Experience to newly trained units in coastal cities for every Sea Resource worked, and +3 Experience in inland cities for every Bonus Resource worked. Additionally, it increases the city's border expansion rate based on the amount of Experience granted to newly trained units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_SENSHI_YARANGA_TEXT">
+			<Text>Pedias tba</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

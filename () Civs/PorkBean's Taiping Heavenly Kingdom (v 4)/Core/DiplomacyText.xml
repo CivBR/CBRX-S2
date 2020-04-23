@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/19/2019 9:55:42 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- When you first meet this AI player -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_FIRSTGREETING_1">
+			<Text>Welcome to the Heavenly Kingdom, child. I am Hong Xiuquan, Son of God on Earth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_FIRSTGREETING_2">
+			<Text>I am the Heavenly King, Hong Xiuquan. Know that ours is a divine mission, blessed with the authority of the Heavenly Father and Elder Brother.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_FIRSTGREETING_3">
+			<Text>Lost child, find peace and protection in the Heavenly Kingdom. I am Hong Xiuquan, second son of the Heavenly Father.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_QING_MANCHU_FIRSTGREETING">
+			<Text>Poison-swallowed one, you enter the Court of the Heavenly King. Know that we will oppose you to the last, and unify the world in light.</Text>
+		</Row>
+		<!-- When you've defeated this AI player through conquest -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DEFEATED_1">
+			<Text>And so the fate that befell the Elder Brother, befalls the younger. I go now to reunite with my Celestial Family.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DEFEATED_2">
+			<Text>I can no longer bear witness to this suffering. I yield myself and my Kingdom to you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_QING_MANCHU_DEFEATED">
+			<Text>Red-eyed serpent devil, one day your evils will be wiped from this Earth. Death is not the end for the Son of God.</Text>
+		</Row>
+		<!-- Trying to contact or trade with the AI too many times; "REPEAT" appears first, and then "TOO_MUCH" if you continue (regardless of AI feelings) -->
+		<!-- Repeatedly contacting the AI -->
+		<!-- AI has no strong feelings -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_REPEAT_1">
+			<Text>Welcome back, lost child.</Text>
+		</Row>
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_REPEAT_1">
+			<Text>The world will not wait for you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_REPEAT_2">
+			<Text>Do not do the demons' work.</Text>
+		</Row>
+		<!-- You have contacted them for a fifth time -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_REPEAT_TOO_MUCH_1">
+			<Text>...</Text>
+		</Row>
+		<!-- Repeatedly trying to trade with the AI -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_REPEAT_TRADE_1">
+			<Text>I, the Heavenly King, will not be tempted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_REPEAT_TRADE_2">
+			<Text>We have all that we require.</Text>
+		</Row>
+		<!-- You have tried for a fifth time (?) -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>...</Text>
+		</Row>
+
+		<!-- ==================================== Greetings ==================================== -->
+		<!-- Generic greetings depending on how the AI feels about you -->
+		<!-- AI likes you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_POLITE_HELLO_1">
+			<Text>The Heavenly Elder Brother guides you back to me. Come, blessed child.</Text>
+		</Row>
+		<!-- AI has no strong feelings -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_NEUTRAL_HELLO_1">
+			<Text>Lost child, are you not empty without the Heavenly Father? Do you not require completeness?</Text>
+		</Row>
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_HELLO_1">
+			<Text>Do not bring low our sacred land. Repent, or begone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_HELLO_2">
+			<Text>Prostrate yourself before the Heavenly King.</Text>
+		</Row>
+
+		<!-- Greetings while at war -->
+		<!-- All other times -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_AT_WAR_HOSTILE_1">
+			<Text>I command the heavenly hosts. I will show no mercy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_AT_WAR_HOSTILE_2">
+			<Text>The wiles of of devilry will not avail you now.</Text>
+		</Row>
+
+		<!-- Situational greetings -->
+		<!-- You have a Declaration of Friendship with them -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_WORKING_WITH_1">
+			<Text>It is a great blessing that you join us, in the Court of the Heavenly King.</Text>
+		</Row>
+		<!-- The human is at war -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>The Heavenly Father will protect all his children.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HUMAN_AT_WAR_1">
+			<Text>I, the Heavenly King, grant my blessings to your righteous campaign.</Text>
+		</Row>
+		<!-- The human has an aggressive military posture -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_AGGRESSIVE_MILITARY_1">
+			<Text>Those who assemble against the Heavenly King are but the pawns and slaves of demon devils.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_AGGRESSIVE_MILITARY_1">
+			<Text>No number of soldiers may match the power of the Heavenly Father.</Text>
+		</Row>
+		<!-- The human is aggressively setting cities -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>I, the Heavenly King, will unify the world in light.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>Know that the path to Heaven is not an earthly one.</Text>
+		</Row>
+		<!-- The human is aggressively claiming plots -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>Heaven will decide the true ownership of the Earth.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>Lost child, know that the Earth is a gift that comes only from the Heavenly Father.</Text>
+		</Row>
+		<!-- AI is praising your strong military -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>Though we prefer the path of peace, our Heavenly Army is duly necessary. Your soliders may too enjoy the blessings of the Heavenly King.</Text>
+		</Row>
+		<!-- AI is praising your strong economy -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>May all the riches of Heaven be upon you, blessed child.</Text>
+		</Row>
+		<!-- AI is mocking you for having fewer cities than them -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>I, the Heavenly King, have no time for local warlords.</Text>
+		</Row>
+		<!-- AI is mocking you for having a small military -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>Walk without arms, and be at the mercy of the demon devils.</Text>
+		</Row>
+		<!-- AI considers you to be a warmonger -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>Know that God has sent me, the Heavenly King, to defeat the rampaging demons of Earth.</Text>
+		</Row>
+
+		<!-- ==================================== Declarations of Friendship and Denouncing ==================================== -->
+		<!-- AI offers you a Declaration of Friendship -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DEC_FRIENDSHIP_1">
+			<Text>Only I, the Heavenly King, may offer friendship and protection.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DEC_FRIENDSHIP_2">
+			<Text>Join the Heavenly Kingdom in friendship, and the devils of this Earth will flee before us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DEC_FRIENDSHIP_3">
+			<Text>All men should worship God, and we should do so in friendship.</Text>
+		</Row>
+		<!-- AI isn't ready for a Declaration of Friendship yet -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_TOO_SOON_FOR_DOF_1">
+			<Text>We welcome your fidelity. Perhaps some day you may serve the Heavenly Kingdom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_TOO_SOON_FOR_DOF_2">
+			<Text>I recommend that you first learn to revere Heaven.</Text>
+		</Row>
+		<!-- AI, as your friend, wants you to denounce another civilization -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DOF_AI_DENOUNCE_REQUEST_1">
+			<Text>From the moment of their birth, the people of {1_CivName} are deluded by devils. Lend your voice to my divine displeasure.</Text>
+		</Row>
+		<!-- AI is denouncing you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DENOUNCE_1">
+			<Text>Those who truly believe in God are the sons and daughters of heaven. Those that worship devils will be dragged away.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DENOUNCE_2">
+			<Text>Demon devil, know that your evil ways will not withstand the light of God.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<!-- AI is responding to you denouncing them -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>The Heavenly Elder Brother, too, was scorned by those afraid of his power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_RESPONSE_TO_BEING_DENOUNCED_2">
+			<Text>You deceive the hearts of God's sons and daughters.</Text>
+		</Row>
+		<!-- AI contacting you after you befriend their friend -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_HUMAN_DOFED_FRIEND_1">
+			<Text>The leader of {1_CivName} has been named a Loyal King. I am pleased to see that you seek their friendship.</Text>
+		</Row>
+		<!-- AI contacting you after you befriend their enemy -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_HUMAN_DOFED_ENEMY_1">
+			<Text>Know that soon, the light of God will pierce the darkness of {1_CivName}. You must not stand in its path.</Text>
+		</Row>
+		<!-- AI contacting you after you denounce their friend -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>The Loyal King of {1_CivName} shares in our divine friendship, and enjoys the protection of Heaven.</Text>
+		</Row>
+		<!-- AI contacting you after you denounce their enemy -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>The Heavenly Father has sent me to destroy {1_CivName}. Your loyalty is a great blessing.</Text>
+		</Row>
+		<!-- AI contacting you after they befriend your friend -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>We pray to the Heavenly Father for a trinity of peace and friendship between you, {1_CivName}, and the Heavenly Kingdom.</Text>
+		</Row>
+		<!-- AI contacting you after they denounce your enemy -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>Your eyes see the truth. Serpent-devils hold {1_CivName} in their evil clutches.</Text>
+		</Row>
+		<!-- AI contacting you after they denounce your friend -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>You shamelessly dare to let {1_CivName} worship you? We will bring them the light of the Heavenly Father.</Text>
+		</Row>
+		<!-- AI contacting you after they befriend your enemy -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_HUMAN_DENOUNCE_SO_AI_DOF_1">
+			<Text>In my vision, I saw the divine forces of {1_CivName} defeat your evil army. I am certain that the Heavenly Father will grant them victory.</Text>
+		</Row>
+
+		<!-- ==================================== AI warnings ==================================== -->
+		<!-- AI has noticed your military posture is aggressive -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Now, at last, the murky mists begin to lift. Bring your armies out of the shadows and be scattered by the light.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>My eyes see through beyond the west, the north, the rivers, and the mountains. Do not hide your forces from my gaze.</Text>
+		</Row>
+
+		<!-- AI has noticed your aggressive settling -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_EXPANSION_SERIOUS_WARNING_1">
+			<Text>My voice shakes the east and the south, the sun and the moon. Go back where you came from and do not intrude upon the Heavenly Kingdom.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_EXPANSION_WARNING_1">
+			<Text>This place, under the Lord's divine gaze, is part of the Heavenly Kingdom.</Text>
+		</Row>
+
+		<!-- AI has noticed your aggressive plot claiming -->
+		<!-- AI dislikes you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>I suggest you revere Heaven instead of riches. Your possession of this land will be fleeting.</Text>
+		</Row>
+		<!-- AI has no negative feelings -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_PLOT_BUYING_WARNING_1">
+			<Text>Money is worthless in the Kingdom of God, lost child.</Text>
+		</Row>
+
+		<!-- ==================================== War requests ==================================== -->
+		<!-- AI wants you to go to war against a third party -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_COOP_WAR_REQUEST_1">
+			<Text>In my vision I saw myself with you, as we fought and defeated the evil {1_PlayerName:textkey}. Surely this message from God must not go unheard.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_COOP_WAR_REQUEST_2">
+			<Text>It is our divine mission to execute evil, and to slay demons like {1_PlayerName:textkey}. Join me, child, and together we will carry out God's will.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_COOP_WAR_REQUEST_3">
+			<Text>The great demon {1_PlayerName:textkey} casts a dark shadow over this world. Together, we must drive out evil and preserve the righteous.</Text>
+		</Row>
+
+		<!-- ==================================== Miscellanious comments ==================================== -->
+		<!-- You and the AI are competing for the same city states -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_MINOR_CIV_COMPETITION_1">
+			<Text>Rulers and subjects alike revere the Lord of Heaven. {1_MinorCivName:textkey} is our subject and does not need your guidance.</Text>
+		</Row>
+
+		<!-- ==================================== Player requests ==================================== -->
+		<!-- You continue to ask for something that the AI is not interested in -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_REPEAT_NO_1">
+			<Text>Enough.</Text>
+		</Row>
+		<!-- You ask the AI to not settle near you -->
+		<!-- AI agrees -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DONT_SETTLE_YES_1">
+			<Text>Then, may the path of God lead us elsewhere.</Text>
+		</Row>
+		<!-- AI doesn't agree -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DONT_SETTLE_NO_1">
+			<Text>This land was granted to us by the Heavenly Father. Know that it is ours by divine right.</Text>
+		</Row>
+
+		<!-- ==================================== Insults ==================================== -->
+		<!-- Generic insult if no others are picked -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_GENERIC_1">
+			<Text>I couldn't help but notice how pathetic you are. And when I realized it I couldn't help but share.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_GENERIC_2">
+			<Text>Ah, it's always nice to see my favorite city-state again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_GENERIC_3">
+			<Text>I'm really getting tired of seeing your face. My hope is that one day you'll just go away or something.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_GENERIC_4">
+			<Text>Ah, it's you. My apologies. Sometimes I get you mixed up with the barbarians I have to swat from time to time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_MILITARY_1">
+			<Text>I thought you might like to know that your army is a little on the weak side. Better watch your back.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_MILITARY_2">
+			<Text>With an army so weak it's a surprise your empire hasn't succumb to a barbarian invasion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_NUKE_1">
+			<Text>Our words are backed with nuclear weapons!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_BULLY_1">
+			<Text>It's a shame there are some leaders in this world who have their fun by picking on the weak. Don't you agree?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_UNHAPPINESS_1">
+			<Text>I can hear your people wailing in sorrow all the way over in my empire. If you don't do something soon they might just pack up and find a real civilization to live in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_UNHAPPINESS_2">
+			<Text>With people so unhappy it's a shock to me that they'd keep you around as their leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_CITIES_1">
+			<Text>It's come to my attention that your empire appears to be quite puny. Did you forget to expand your borders or are you just having a little trouble with that?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_POPULATION_1">
+			<Text>Travelers have told us that your empire's economy is in pretty sad shape. If you beg a little I might give you a hand. Okay, actually I won't.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_CULTURE_1">
+			<Text>What a sad sight... your empire is so uncultured. What do your citizens do all day, beat rocks together?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INSULT_CULTURE_2">
+			<Text>Rumor has it that your culture is so laughable that even the barbarians are shying away from your lands.</Text>
+		</Row>
+
+		<!-- ==================================== Trade ==================================== -->
+		<!-- AI is offering a trade because they want a luxury from you -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_LUXURY_TRADE_1">
+			<Text>Human beings enjoy the blessings and creation of our Lord God. It is our profound duty to share all that we have.</Text>
+		</Row>
+		<!-- AI is asking for a mutual open borders agreement -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Men have lost their original natures. They require Quan - this sense of completeness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_TRADE_NEEDMORE_ANGRY">
+			<Text>Consider again your offer to the Heavenly King.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_TRADE_NEEDMORE_HAPPY">
+			<Text>Your offering is admirable, devout child, but it is not enough for the Heavenly King.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_TRADE_NEEDMORE_NEUTRAL">
+			<Text>Offerings to the Heavenly King should be made as though they were to the Heavenly Father himself.</Text>
+		</Row>
+
+		<!-- ==================================== Player declares war on the AI ==================================== -->
+		<!-- AI Attacked by another player -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_ATTACKED_HOSTILE_1">
+			<Text>Pitiful serpent-devil, know that your days are numbered.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_ATTACKED_HOSTILE_2">
+			<Text>We will harshly punish this act of evil in the name of the Lord God.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_ATTACKED_BETRAYED">
+			<Text>It seems the Loyal King is not so loyal. God is the punisher of evil and treachery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_ATTACKED_EXCITED">
+			<Text>Demon, throw yourself into the gaze of the Heavenly King and be justly exterminated.</Text>
+		</Row>
+
+		<!-- ==================================== AI declares war on the player ==================================== -->
+		<!-- Generic response -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DOW_GENERIC_1">
+			<Text>In my hand, I wield the Universe; the power to create and destroy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DOW_GENERIC_2">
+			<Text>It was the Lord who gave me this sword of authority. I, the Heavenly King, will use it to strike you down.</Text>
+		</Row>
+		<!-- AI is in a land dispute with the player -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DOW_LAND_1">
+			<Text>You shamelessly dare to seize holy lands. I will bring you the light of the Lord.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_DOW_LAND_2">
+			<Text>The Earth belongs only to the Heavenly Father. We will restore it to his divine glory.</Text>
+		</Row>
+		<!-- AI declares war after the player refuses a demand -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_WAR_DEMAND_REFUSED_1">
+			<Text>You dare disobey the word of the Heavenly King?</Text>
+		</Row>
+
+		<!-- ==================================== Peace offers ==================================== -->
+
+		<!-- AI doesn't want to have peace -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_NO_PEACE_1">
+			<Text>You must first repent your sins.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_NO_PEACE_2">
+			<Text>Know that there will be no negotiations.</Text>
+		</Row>
+		<!-- Player asks for peace on the same turn war was declared - no peace! -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_TOO_SOON_NO_PEACE_1">
+			<Text>Your evil ways will not withstand the light of God.</Text>
+		</Row>
+
+		<!-- ==================================== Cultural Influence ==================================== -->
+		<!-- Player is influential on the AI (Our people are wearing your blue jeans...) -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now forging your demon-slaying swords and praising your divinity. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<!-- AI is influential on the player -->
+		<Row Tag="TXT_KEY_LEADER_PB_HONG_INFLUENTIAL_ON_HUMAN_1">
+			<Text>We are glad to see that your people are forging their own demon-slaying swords and praising my divinity. The amazing works of our civilization are truly inspiring!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

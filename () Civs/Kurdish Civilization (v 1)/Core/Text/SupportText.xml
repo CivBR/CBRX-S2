@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 03/02/17 7:13:35 PM -->
+<GameData>
+	<Language_en_US>
+		<!--JFD PROVINCES-->
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_KURD">
+			<Text>Sereke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_KURD">
+			<Text>Serok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_KURD">
+			<Text>Qirali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_KURD">
+			<Text>Qiral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_KURD">
+			<Text>Emirat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_KURD">
+			<Text>Prens</Text>
+		</Row>
+		<!--JFD SOVEREIGNTY-->
+		<!--Government-->
+		<Row Tag="TXT_KEY_JFD_LEGISLATURE_NAME_CIVILIZATION_KURD">
+			<Text>Perleman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KURD">
+			<Text>Serokwezir</Text>
+		</Row>
+		<!--Heads of Govt.-->
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_1">
+			<Text>Masoud Barzani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_2">
+			<Text>Jalal Talabani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_3">
+			<Text>Fuad Masum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_4">
+			<Text>Kosrat Rasul Ali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_5">
+			<Text>Barham Salih</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_6">
+			<Text>Omer Fattah Hussain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_7">
+			<Text>Rowsch Shaways</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_8">
+			<Text>Nechervan Barzani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_9">
+			<Text>Hevi Ibrahim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_10">
+			<Text>Akram Hesso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_11">
+			<Text>Enver Muslim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_12">
+			<Text>Ismail Musa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_13">
+			<Text>Hediya Yousef</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_14">
+			<Text>Mansur Selum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_15">
+			<Text>Abdollah Ramezanzadeh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_16">
+			<Text>Qadir Barzanji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_17">
+			<Text>Ibrahim Heski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_18">
+			<Text>Ihsan Nuri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_19">
+			<Text>Qazi Muhammad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_20">
+			<Text>Haji Baba Sheikh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_KURD_21">
+			<Text>Mahmud Barzanji</Text>
+		</Row>
+		<!--Political Parties-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_KURD">
+			<Text>Society for Kurdistan's Rise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULARIST_KURD">
+			<Text>Freedom Hawks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_COMMUNIST_KURD">
+			<Text>Kurdistan Workers' Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CONSERVATIVE_KURD">
+			<Text>Democratic Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERTARIAN_KURD">
+			<Text>Free Life Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_FASCIST_KURD">
+			<Text>Ba'ath Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERAL_KURD">
+			<Text>Patrotic Union</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REVOLUTIONARY_KURD">
+			<Text>Xoybun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_SOCIALIST_KURD">
+			<Text>Komala</Text>
+		</Row>
+		<!--Titles-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_TITLE_LEADER_KURD">
+			<Text>High King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_TITLE_GOVERNMENT_KURD">
+			<Text>High Kingdom of {1_CivDesc}</Text>
+		</Row>
+		<!--SUKRITACT DECISIONS-->
+		<!--Appoint the Chief Ollam-->
+		<Row Tag="TXT_KEY_DECISIONS_UC_KURD_HAMIDIYE">
+			<Text>Establish the Hamidiye Regiments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_KURD_HAMIDIYE_DESC">
+			<Text>
+				Our military forces will be much improved if we establish a new elite cavalry unit to defend our nation.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Player must be Kurdistan.
+				[NEWLINE][ICON_BULLET]May only be enacted from the beginning of the Renaissance Era.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]700 [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Mounted units receive a +20% [ICON_STRENGTH] Combat bonus in friendly territory and may receive defensive terrain bonuses.
+				[NEWLINE][ICON_BULLET]Every city with a Barracks receives a free Stable.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_KURD_HAMIDIYE_ENACTED_DESC">
+			<Text>
+				Our military forces will be much improved if we establish a new elite cavalry unit to defend our nation.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Mounted units receive a +20% [ICON_STRENGTH] Combat bonus in friendly territory.
+				[NEWLINE][ICON_BULLET]Every city with a Barracks receives a free Stable.
+			</Text>
+		</Row>
+		<!--Restore the Monasteries-->
+		<Row Tag="TXT_KEY_DECISIONS_UC_KURD_NEWROZ">
+			<Text>Adopt Newroz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_KURD_NEWROZ_DESC">
+			<Text>
+				The New Year holiday of Newroz was practiced by our ancestors to celebrate our deliverance from tyranny and to denounce the devil and his ways. We shall revive this holiday to commemorate our history and culture.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Player must be Kurdistan.
+				[NEWLINE][ICON_BULLET]Most city must follow your religion.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]200 [ICON_CULTURE] Culture.
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Cities following your religion will enter We Love the King Day whenever you enter a new era.
+				[NEWLINE][ICON_BULLET]+5 [ICON_PEACE] on Landmarks.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_KURD_NEWROZ_ENACTED_DESC">
+			<Text>
+				The New Year holiday of Newroz was practiced by our ancestors to celebrate our deliverance from tyranny and to denounce the devil and his ways. We shall revive this holiday to commemorate our history and culture.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Cities following your religion will enter We Love the King Day whenever you enter a new era.
+				[NEWLINE][ICON_BULLET]+5 [ICON_PEACE] on Landmarks.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_UC_KURD_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now being referred to as :poop: by a shady man who claims not to be a Turk. Not gonna lie, you guys have it pretty shitty. I don't know why my people decided to follow your ways but I still fear the rest of the world will succumb to your culture somehow.</Text>
+		</Row>
+		
+	</Language_en_US>
+  
+</GameData>

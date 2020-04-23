@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--MOD-->
+		<Row Tag="TXT_KEY_MOD_JFD_PUNJAB_DESCRIPTION">
+			<Text>PUNJAB (RANJIT SINGH)[NEWLINE][NEWLINE]UNIQUE TRAIT: SARKAR-I KHALAR[NEWLINE][ICON_BULLET]Cities with your Religion enter a WLTKD instead of [ICON_RESISTANCE] Resistance when conquered.[NEWLINE][ICON_BULLET]Conquered cities start with your Religious Building (or a Monastery).[NEWLINE][NEWLINE]UNIQUE BUILDING: PHAUNDARI[NEWLINE][ICON_BULLET]Replaces Arsenal/Gunsmith.[NEWLINE][ICON_BULLET]Siege Units trained in this city receive a 15% combat bonus when stacked with a Great General.[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Production when training Siege Units.[NEWLINE][NEWLINE]UNIQUE UNIT: AKALI[NEWLINE][ICON_BULLET]Replaces Rifleman.[NEWLINE][ICON_BULLET]Possesses a short Ranged Attack.[NEWLINE][ICON_BULLET]Cheap to purchase with [ICON_PEACE] Faith.[NEWLINE][ICON_BULLET]Starts with a free Promotion if trained in a Holy City.</Text>
+		</Row>
+		<!--PUNJAB-->
+		<Row Tag="TXT_KEY_CIV_JFD_PUNJAB_ADJECTIVE">
+			<Text>Punjabi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_PUNJAB_DESC">
+			<Text>Punjabi Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_PUNJAB_SHORT_DESC">
+			<Text>Punjab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_PUNJAB_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_PUNJAB_TEXT_1">
+			<Text>The Sikh Empire was a major power in the Indian subcontinent, that arose under the leadership of Maharaja Ranjit Singh who established the empire basing it around the Punjab. The empire existed from 1799, when Ranjit Singh captured Lahore, to 1849 and was forged on the foundations of the Khalsa from a collection of autonomous Sikh misls. At its peak in the 19th century, the Empire extended from the Khyber Pass in the west to western Tibet in the east, and from Mithankot in the south to Kashmir in the north. It was the last major region of the subcontinent to be conquered by the British.[NEWLINE][NEWLINE]The foundations of the Sikh Empire can be traced to as early as 1707, the year of Aurangzeb's death and the start of the downfall of the Mughal Empire. With the Mughals significantly weakened, the Sikh army, known as the Dal Khalsa, a rearrangement of the Khalsa inaugurated by Guru Gobind Singh, led expeditions against them and the Afghans in the west. This led to a growth of the army which split into different confederacies or semi-independent misls (from a Persian word that means similar). Each of these component armies controlled different areas and cities. However, in the period from 1762-1799, Sikh commanders of the misls appeared to be coming into their own as independent warlords.[NEWLINE][NEWLINE]The formation of the empire began with the capture of Lahore, by Ranjit Singh, from its Afghan ruler, Zaman Shah Durrani, and the subsequent and progressive expulsion of Afghans from the Punjab and the unification of the separate Sikh misls. Ranjit Singh was proclaimed as Maharaja of the Punjab on 12 April 1801 (to coincide with Vaisakhi), creating a unified political state. Sahib Singh Bedi, a descendant of Guru Nanak, conducted the coronation. Ranjit Singh rose to power in a very short period, from a leader of a single misl to finally becoming the Maharaja of Punjab. He began to modernise his army, using the latest training as well as weapons and artillery. After the death of Ranjit Singh, the empire was weakened by internal divisions and political mismanagement. Finally, by 1849 the state was dissolved after the defeat in the Anglo-Sikh wars.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_01">
+			<Text>Lahore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_02">
+			<Text>Gujranwala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_03">
+			<Text>Amritsar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_04">
+			<Text>Multan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_05">
+			<Text>Rawalpindi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_06">
+			<Text>Faisalabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_07">
+			<Text>Sialkot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_08">
+			<Text>Peshawar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_09">
+			<Text>Jammu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_10">
+			<Text>Gujrat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_11">
+			<Text>Haripur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_12">
+			<Text>Srinagar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_13">
+			<Text>Shujabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_14">
+			<Text>Jhelum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_15">
+			<Text>Dera Ghazi Khan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_16">
+			<Text>Kapurthala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_17">
+			<Text>Gurdaspur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_18">
+			<Text>Pakpattan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_19">
+			<Text>Poonch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_20">
+			<Text>Shahpur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_21">
+			<Text>Dera Ismail Khan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_22">
+			<Text>Kohat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_23">
+			<Text>Mithankot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_24">
+			<Text>Bannu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_25">
+			<Text>Nowshera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_26">
+			<Text>Wazirabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_27">
+			<Text>Mianwali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_28">
+			<Text>Jamrud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_29">
+			<Text>Gilgit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_PUNJAB_30">
+			<Text>Hoshiarpur</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PUNJAB_0">
+			<Text>Bijai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PUNJAB_1">
+			<Text>Chatar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PUNJAB_2">
+			<Text>Kirpal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PUNJAB_3">
+			<Text>Sharni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PUNJAB_4">
+			<Text>Harneet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PUNJAB_5">
+			<Text>Sukhwant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PUNJAB_6">
+			<Text>Harpreet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PUNJAB_7">
+			<Text>Yuvleen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PUNJAB_8">
+			<Text>Jaskeerat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_PUNJAB_9">
+			<Text>Inderjit</Text>
+		</Row>
+		<!--RANJIT SINGH-->
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH">
+			<Text>Ranjit Singh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_RANJIT_SINGH_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_RANJIT_SINGH_TEXT_1">
+			<Text>Ranjit Singh was the first Indian in a millennium to turn the tide of invasion back into the homelands of the traditional conquerors of India, the Pashtuns (Afghans), and he thus became known as the Lion of the Punjab. At their height, his domains extended from the Khyber Pass in the northwest to the Sutlej River in the east and from the Kashmir region at the northern limit of the Indian subcontinent southward to the Thar (Great Indian) Desert. Although he was uneducated, he was a shrewd judge of people and events, free from religious bigotry, and was mild in the treatment of his adversaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_RANJIT_SINGH_HEADING_2">
+			<Text>Early life and conquests</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_RANJIT_SINGH_TEXT_2">
+			<Text>Ranjit Singh was reported to be short and unattractive. He was blind in one eye and had a face pitted with pockmarks. A lover of life, he liked to surround himself with handsome men and women, and he had a passion for hunting, horses, and strong liquor.[NEWLINE][NEWLINE]He was the only child of Maha Singh, on whose death in 1792 he became chief of the Shukerchakias, a Sikh group. His inheritance included Gujranwala town and the surrounding villages, now in Pakistan. At 15 he married the daughter of a chieftain of the Kanhayas, and for many years his affairs were directed by his ambitious mother-in-law, the widow Sada Kaur. A second marriage, to a girl of the Nakkais, made Ranjit Singh preeminent among the clans of the Sikh confederacy.[NEWLINE][NEWLINE]In July 1799 he seized Lahore, the capital of the Punjab (now the capital of Punjab province, Pakistan). The Afghan king, Zamān Shah, confirmed Ranjit Singh as governor of the city, but in 1801 Ranjit Singh proclaimed himself maharaja of the Punjab. He had coins struck in the name of the Sikh Gurus, the revered line of Sikh leaders, and proceeded to administer the state in the name of the Sikh commonwealth. A year later he captured Amritsar (now in Punjab state, India), the most-important commercial entrepôt in northern India and sacred city of the Sikhs. Thereafter, he proceeded to subdue the smaller Sikh and Pashtun principalities that were scattered throughout the Punjab.[NEWLINE][NEWLINE]His later forays eastward, however, were checked by the English. By a treaty with them, signed in 1806, he agreed to expel a Maratha force that had sought refuge in the Punjab. The English then thwarted his ambition to bring together all of the Sikh territories extending up to the vicinity of Delhi. In 1809 they compelled him to sign the Treaty of Amritsar, which fixed the Sutlej River as the eastern boundary of his territories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_RANJIT_SINGH_HEADING_3">
+			<Text>Consolidation of territory and later career</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_RANJIT_SINGH_TEXT_3">
+			<Text>Ranjit Singh then turned his ambitions in other directions. In December 1809 he went to the aid of Raja Sansar Chand of Kangra in the Lesser Himalayas (in what is now western Himachal Pradesh state) and, after defeating an advancing Ghurka force, acquired Kangra for himself. In 1813 he joined a Bārakzay Afghan expedition into Kashmir. Although the Bārakzays betrayed him by keeping Kashmir for themselves, he more than settled scores with them by rescuing Shah Shojāʿ—brother of Zamān Shah, who had been deposed as Afghan king in 1803 and had fled from the Bārakzays—and by occupying the fort at Attock on the Indus River, southeast of Peshawar, the Pashtun citadel. Shah Shojāʿ was taken to Lahore and pressured into parting with the famous Koh-i-noor diamond. In the summer of 1818 Rangit Singh’s troops captured the city of Multan, and six months later they entered Peshawar. In July 1819 he finally expelled the Pashtuns from the Vale of Kashmir, and by 1820 he had consolidated his rule over the whole Punjab between the Sutlej and Indus rivers.[NEWLINE][NEWLINE]All Ranjit Singh’s conquests were achieved by Punjabi armies composed of Sikhs, Muslims, and Hindus. His commanders were also drawn from different religious communities, as were his cabinet ministers. In 1820 Ranjit Singh began to modernize his army, using European officers—many of whom had served in the army of Napoleon I—to train the infantry and the artillery. The modernized Punjabi army fought well in campaigns in the North-West Frontier (now Khyber Pakhtunkhwa province, Pakistan, on the Afghanistan border), including quelling an uprising by tribesmen there in 1831 and repulsing an Afghan counterattack on Peshawar in 1837.[NEWLINE][NEWLINE]In October 1831 Ranjit Singh met with British officials regarding the disposition of Sindh province (now in southeastern Pakistan). The British, who had already begun to navigate the Indus River and were eager to keep Sindh for themselves, prevailed on Ranjit Singh to accept their plan. Ranjit Singh, however, was chagrined by the British design to put a cordon around him. He opened negotiations with the Afghans and sanctioned an expedition led by the Dogra commander Zorawar Singh that extended Ranjit Singh’s northern territories into Ladakh (a region of eastern Kashmir now in Jammu and Kashmir state, India) in 1834.[NEWLINE][NEWLINE]In 1838 he agreed to a treaty with the British viceroy Lord Auckland to restore Shah Shojāʿ to the Afghan throne at Kabul. In pursuance of that agreement, the British Army of the Indus entered Afghanistan from the south, while Ranjit Singh’s troops went through the Khyber Pass and took part in the victory parade in Kabul. Shortly afterward, Ranjit Singh was taken ill, and he died at Lahore in June 1839—almost exactly 40 years after he entered the city as a conqueror. In little more than six years after his death, the Sikh state he had created collapsed because of the internecine strife of rival chiefs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_RANJIT_SINGH_LIVED">
+			<Text>1780 - 1839</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_RANJIT_SINGH_NAME">
+			<Text>Ranjit Singh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_RANJIT_SINGH_SUBTITLE">
+			<Text>Leader of Punjab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_RANJIT_SINGH_TITLES_1">
+			<Text>Maharaja of Punjab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_JFD_PUNJAB_TEXT">
+			<Text>The great Maharaja of Punjab and Lahore, Ranjit Singh, welcome. Although a sickly child, you would rise to become one of India's most powerful and celebrated rulers. A patron of the Sikh Gurus, your dominion over Punjab would see the expulsion of the Afghans and the consolidation of a Sikh Empire. With a modern cannonry trained in the style of Napoleon at your command, yours and the power of the Sikhs would reach such a height that it would never again be repeated.[NEWLINE][NEWLINE]O' Lion of Punjab, India's faithful Sikhs and Hindus long for the day that your tolerant empire reigns again. Can you expel their enemies and bring peace and happiness to their cities? Can you raise an army that can match any foe? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--SARKAR-I KHALSA-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_PUNJAB_SHORT">
+			<Text>Sarkar-i Khalsa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_PUNJAB">
+			<Text>Cities with your Religion enter a WLTKD instead of [ICON_RESISTANCE] Resistance when conquered. Conquered cities start with your Religious Building (or a Monastery).</Text>
+		</Row>
+		<!--Responses-->
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_FIRSTGREETING_1">
+			<Text>You have entered the court of Ranjit Singh, the Lion of Punjab. Come forth, and speak your mind.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_DEFEATED_1">
+			<Text>I have never before faced such a foe as you. You have earned your triumph.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_ATTACKED_EXCITED_1">
+			<Text>Forgive me if I smile. I have been awaiting this day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_ATTACKED_HOSTILE_1">
+			<Text>I have repulsed foes ten times as great as you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_ATTACKED_SAD_1">
+			<Text>This comes as an unpleasant surprise. But very well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_DEC_FRIENDSHIP_1">
+			<Text>I have much need for strong allies like yourself. Will you make a public Declaration of Friendship with me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_DENOUNCE_1">
+			<Text>If you cannot abide by peace, then someone will be forced to put you down eventually.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_DONT_SETTLE_NO_1">
+			<Text>You've made an error in making a command of me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_DONT_SETTLE_YES_1">
+			<Text>I will honour our friendship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_DOW_GENERIC_1">
+			<Text>Your people would benefit under my reign more than under yours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_DOW_LAND_1">
+			<Text>It is my right to rule over your lands. I have come to claim that right.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_DOW_WORLD_CONQUEST_1">
+			<Text>I shall have dominion over the world, and finally bring upon it peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_EMBASSY_EXCHANGE_1">
+			<Text>I offer a diplomatic embassy between us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_EXPANSION_SERIOUS_WARNING_1">
+			<Text>I will not for long sit idly as you claim every plot of land arround us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_GREETING_AT_WAR_HOSTILE_1">
+			<Text>Bold of you to present yourself to my court. What is it?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_GREETING_POLITE_HELLO_1">
+			<Text>It is always a pleasure to see you in my court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_GREETING_NEUTRAL_HELLO_1">
+			<Text>You have something to say?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_GREETING_HOSTILE_HELLO_1">
+			<Text>Speak.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>My guns will fire on my command. Remove your soldiers from these lands, or I will give the order.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now reading the works of the Gurus and celebrating the Maghi festival! We're worried the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_INFLUENTIAL_ON_HUMAN_1">
+			<Text>We are glad to see that your people are now reading the works of the Gurus and celebrating the Maghi festival. The amazing works of our civilization are truly inspiring!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_LETS_HEAR_IT_1">
+			<Text>You have my ear.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_LUXURY_TRADE_1">
+			<Text>Your great wealth is legendary. I ask that you share a little.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_NO_PEACE_1">
+			<Text>There can be no peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_OPEN_BORDERS_EXCHANGE">
+			<Text>I come with an offer that we open our borders to one another?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_PEACE_OFFER_1">
+			<Text>I have come with an offer of peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_REPEAT_NO_1">
+			<Text>As before, no.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_REPEAT_TRADE_1">
+			<Text>This deal cannot be done.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_RESPONSE_REQUEST_1">
+			<Text>Please, I ask if you will share in us your great wealth?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>If that is all...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_TOO_SOON_FOR_DOF_1">
+			<Text>I will not allow it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_TOO_SOON_NO_PEACE_1">
+			<Text>There is no cause to end this war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_WARMONGER_1">
+			<Text>What brings the warmonger to my court?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_RANJIT_SINGH_WINWAR_1">
+			<Text>The war is nearly done, and I have triumphed. Give me your surrender or I'll have your defeat.</Text>
+		</Row>
+		<!--PHAUNDARI-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PHAUNDARI">
+			<Text>Phaundari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HELP_JFD_PHAUNDARI">
+			<Text>Siege Units trained in this city receive a 15% combat bonus when stacked with a Great General. +15% [ICON_PRODUCTION] Production when training Siege Units.[NEWLINE][NEWLINE]City must have a Castle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HELP_JFD_PHAUNDARI_EE">
+			<Text>Siege Units trained in this city receive a 15% combat bonus when stacked with a Great General. +15% [ICON_PRODUCTION] Production when training Gun and Siege Units.[NEWLINE][NEWLINE]City must have a Bastion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PHAUNDARI_STRATEGY">
+			<Text>The unique Phaundari is the Punjab replacement for the Arsenal. Siege Units trained in a city with a Phaundari receive a free promotion that increases their [ICON_STRENGTH] Combat Strength when stacked with a Great General. In addition, the Phaundari increases the [ICON_PRODUCTION] Production of Siege Units. The city must have a Castle before a Phaundari can be built, however. Build Phaundaries in your military centres to support your conquests.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PHAUNDARI_STRATEGY_EE">
+			<Text>The unique Phaundari is the Punjab replacement for the Gunsmith. Siege Units trained in a city with a Phaundari receive a free promotion that increases their [ICON_STRENGTH] Combat Strength when stacked with a Great General. In addition, the Phaundari increases the [ICON_PRODUCTION] Production of Siege Units. The city must have a Bastion before a Phaundari can be built, however. Build Phaundaries in your military centres to support your conquests.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_PHAUNDARI_TEXT">
+			<Text>Phaundari is the punjabi word for Foundry. A foundry is a factory that produces metal castings. Metals are cast into shapes by melting them into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. Ranjit Singh paid particular attention to maintaining independent foundaries in order to keep his empire running.</Text>
+		</Row>
+		<!--AKALI-->
+		<Row Tag="TXT_KEY_UNIT_JFD_AKALI">
+			<Text>Akali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_AKALI_HELP">
+			<Text>Industrial Era Gun Unit with a short Ranged Attack. Cheap to purchase with [ICON_PEACE] Faith. Starts with a free Promotion if trained in a Holy City. Only Punjab may train it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_AKALI_STRATEGY">
+			<Text>The Akali is much cheaper to purchase with [ICON_PEACE] Faith than the Rifleman that it replaces. It also possesses a 1-hex Ranged Attack, so it doesn't make contact when attacking or defeating an enemy unit. In addition, Akali that are trained in a Holy City (even for other Religions) begin with enough bonus XP to earn a new Promotion. Train Akali in a religiously diverse empire in order to reap the benefits of this Punjabi unique unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_AKALI_TEXT">
+			<Text>An Akali is a member of the Khalsa. Khalsa refers to both a special group of initiated Sikh warriors, as well as a community that considers Sikhism as its faith. The Khalsa tradition was initiated in 1699 by the last living Guru of Sikhism, Guru Gobind Singh. Its formation was a key event in the history of Sikhism. The founding of Khalsa is celebrated by Sikhs during the festival of Vaisakhi.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

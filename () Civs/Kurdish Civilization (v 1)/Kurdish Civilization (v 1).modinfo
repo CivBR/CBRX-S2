@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="56e25636-bb7e-4803-a1c2-85da256cd236" version="1">
+  <Properties>
+    <Name>Kurdish Civilization</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>This mod adds a playable Kurdistan civ, lead by Mustafa Barzani!</Teaser>
+    <Description>This mod adds a playable Kurdistan civ, lead by Mustafa Barzani!</Description>
+    <Authors>Sasquatch (AKA Kramer), Uighur_Caesar</Authors>
+    <SpecialThanks>COF, HoopThrower, Scapegrace</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD'S CulDiv" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD'S RTP" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact's E&amp;D" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YNAEMP" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="MAP LABELSS" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="RED" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="CIV TRAITS" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Tomartekh's HR" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD'S CID" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="C399F310245EA615968757C5B089A78A" import="1">Art/Alpha24.dds</File>
+    <File md5="F5655ED106DF8FABD68ABB0E223DB160" import="1">Art/Alpha256.dds</File>
+    <File md5="5BCA2B5C077CAE7DFC09F8C0F45B7C50" import="1">Art/Alpha32.dds</File>
+    <File md5="B62E72582D3F4C1C9EBCE9ED314FC4F0" import="1">Art/Alpha48.dds</File>
+    <File md5="F983E7A70AD9DA45239EA78BF278023D" import="1">Art/Alpha64.dds</File>
+    <File md5="B9A24D59F32948A1D1596952005AB0A4" import="1">Art/Barzani_Diplo.dds</File>
+    <File md5="942305FBFD4DF3D1AA6BDB2137E228DF" import="1">Art/Barzani_DOM.dds</File>
+    <File md5="E933F5CCECC54294AF7AFFE9BE7F69D1" import="1">Art/KurdAtlas128.dds</File>
+    <File md5="B297A8C871E4ABBF77E47788C80FED04" import="1">Art/KurdAtlas256.dds</File>
+    <File md5="DDD9CA0CFF1D4EBAD8006B26760CBD3E" import="1">Art/KurdAtlas32.dds</File>
+    <File md5="1135F11A0FE0611A2D9DB07AEA861B71" import="1">Art/KurdAtlas45.dds</File>
+    <File md5="D2593A7D221318110033039964B3DD41" import="1">Art/KurdAtlas64.dds</File>
+    <File md5="01ECBFD1B2E57875EC97BC16994F293D" import="1">Art/KurdAtlas80.dds</File>
+    <File md5="FA47F677B412956EB0951A8A390F52BE" import="0">Art/KurdIconAtlases.xml</File>
+    <File md5="7E304041A6D3C74D3D1614E6EE2D0BAB" import="1">Art/KurdWar.mp3</File>
+    <File md5="55CCE21BC2D915DFF902C3669B5C73B4" import="1">Art/KurdPeace.mp3</File>
+    <File md5="F9AAD35D513847ECAC5DAB279CF4F0F3" import="1">Art/kurdmap.dds</File>
+    <File md5="DFF56FD4DFDD42E0C8C9B365C4B7CD36" import="1">Art/pesh128.dds</File>
+    <File md5="67FE7D6B7C736BE6A69402ED733CD683" import="1">Art/pesh32.dds</File>
+    <File md5="715843CE61A574DC0BE244264509937D" import="1">Art/peshmergaflag.dds</File>
+    <File md5="3E3E7D31C885F89ABE5FFAF0068CE50F" import="1">Art/Peshmerga/AfricanSF_diff.dds</File>
+    <File md5="3219C7F0764A15773AB89FBF10433929" import="1">Art/Peshmerga/AfricanSF_sref.dds</File>
+    <File md5="5B8FBDD532486EB60ECB727286CA7706" import="1">Art/Peshmerga/Animations/fx_triggers_modernmarine.ftsxml</File>
+    <File md5="10FBE81A38F4D40FBB262AA7848681E8" import="1">Art/Peshmerga/Animations/ModernMarine_Attack.gr2</File>
+    <File md5="82C1973B3CED9ACEFFFE2C2003A603D4" import="1">Art/Peshmerga/Animations/ModernMarine_Bombard_Defense.gr2</File>
+    <File md5="4E5C1205401B54CBE76140F440D3200D" import="1">Art/Peshmerga/Animations/ModernMarine_DeathA.gr2</File>
+    <File md5="5D434BEDA164FA4674D624BBD5D5D2A1" import="1">Art/Peshmerga/Animations/ModernMarine_DeathA_Idle.gr2</File>
+    <File md5="90EEA8E512E8E0B848BD323FE8A99780" import="1">Art/Peshmerga/Animations/ModernMarine_DeathB.gr2</File>
+    <File md5="0208C41187615F90A266AB8AF44EFF0A" import="1">Art/Peshmerga/Animations/ModernMarine_DeathB_Idle.gr2</File>
+    <File md5="17FA15D5AF19204D2FBDDBDF0BCD6313" import="1">Art/Peshmerga/Animations/ModernMarine_Fidget.gr2</File>
+    <File md5="B63A001D59F2A07B413BB02898D2E656" import="1">Art/Peshmerga/Animations/ModernMarine_Fortify.gr2</File>
+    <File md5="4DB8C1D2B17255833878519BA8CF4568" import="1">Art/Peshmerga/Animations/ModernMarine_Fortify_Idle.gr2</File>
+    <File md5="A6DDF301AB9DFC99838E77EC71416A0C" import="1">Art/Peshmerga/Animations/ModernMarine_Idle.gr2</File>
+    <File md5="DCB52786F02DF0FE8C8C64A68733041A" import="1">Art/Peshmerga/Animations/ModernMarine_Run.gr2</File>
+    <File md5="3F5B1931056EFB8FD48197ED5CBF3EE6" import="1">Art/Peshmerga/Civ5_AfricanSF_v2.fxsxml</File>
+    <File md5="A2458B61E895BA29881AB655175ABA4A" import="1">Art/Peshmerga/Civ5_AfricanSF_v2.gr2</File>
+    <File md5="2267BDB507C33A8CAD40A588F9D99949" import="0">Art/Peshmerga/Defines.sql</File>
+    <File md5="8D169EE0641467BC594929FA3667C49D" import="1">Art/Peshmerga/marine_modern_diff.dds</File>
+    <File md5="B1A588F639A766680D09A0B9E7283482" import="1">Art/Peshmerga/marine_modern_sref.dds</File>
+    <File md5="AD270D7AEBDA18F4C0A84FCFB4D72039" import="1">Art/SV_Peshmerga.dds</File>
+    <File md5="3FF4AAFF01E606E9144315D9BBCA0603" import="0">Core/Buildings/ErbilCitadel.xml</File>
+    <File md5="ACF5E70B3A698468BD3C1EBD20C00CB8" import="0">Core/Civilization/Decisions.xml</File>
+    <File md5="614CF76BBFEE02D52C42E73137EF0759" import="0">Core/Civilization/Support.sql</File>
+    <File md5="15943553D70BBCDDFF35B797261ADE36" import="0">Core/Civilization/Kurdistan.xml</File>
+    <File md5="EABD1D1EC1D1DBAAA14DF624C5981857" import="0">Core/Civilization/Kurd_Trait.xml</File>
+    <File md5="192D4CCFAF9076AAE867CE0B6A852C70" import="0">Core/Leader/MustafaBarzani.xml</File>
+    <File md5="088C14EE2D2CA0B6DB69B6D71F9BC441" import="1">Core/Leader/MustafaBarzaniScene.xml</File>
+    <File md5="DBCC0C290EAFBAA98FE2D8C575F6E8A9" import="0">Core/Text/SupportText.xml</File>
+    <File md5="F27D95F452A9F98AA217023E2782A3F3" import="0">Core/Text/KurdishText.xml</File>
+    <File md5="DF70E5690C91513A1C4AD371798122C9" import="0">Core/Units/Peshmerga.xml</File>
+    <File md5="44EA92F3D1E8DEA028DDEF504096ABF0" import="0">Core/Units/PeshmergaArtDefines.xml</File>
+    <File md5="9764F761115D49E20117CEA2E26E9C46" import="0">Lua/KurdFunctions.lua</File>
+    <File md5="E496F8BAE5A446C9EEEF35AE623682E4" import="1">Lua/KurdDecisions.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/PlotIterators.lua</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Civilization/Kurdistan.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leader/MustafaBarzani.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Text/KurdishText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/Peshmerga.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings/ErbilCitadel.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Civilization/Kurd_Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/PeshmergaArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leader/MustafaBarzaniScene.xml</UpdateDatabase>
+      <UpdateDatabase>Art/KurdIconAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Peshmerga/Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilization/Decisions.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Civilization/Support.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Text/SupportText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/KurdFunctions.lua">
+      <Name>hetwtnnrrwy</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
