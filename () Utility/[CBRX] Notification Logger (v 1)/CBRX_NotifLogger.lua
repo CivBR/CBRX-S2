@@ -21,7 +21,7 @@ end
 for row in GameInfo.BuildingClasses() do
 	if row.MaxGlobalInstances == 1 then
 		print(row.Type)
-		local buildingID = GameInfo.Buildings[row.Type].ID;
+		local buildingID = GameInfo.Buildings[row.DefaultBuilding].ID;
 		if buildingID then
 			IsWonder[buildingID] = true;
 		end
