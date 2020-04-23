@@ -181,7 +181,9 @@ local governmentPrincipalityID = GameInfoTypes["GOVERNMENT_JFD_PRINCIPALITY"]
 local governmentRepublicID = GameInfoTypes["GOVERNMENT_JFD_REPUBLIC"]
 local governmentTheocracyID = GameInfoTypes["GOVERNMENT_JFD_THEOCRACY"]
 local governmentDictatorshipID = GameInfoTypes["GOVERNMENT_JFD_DICTATORSHIP"]
+local governmentCaliphateID = GameInfoTypes["GOVERNMENT_JFD_CALIPHATE"]
 local governmentHREID = GameInfoTypes["GOVERNMENT_JFD_HOLY_ROMAN_EMPIRE"]
+local governmentMandateID = GameInfoTypes["GOVERNMENT_JFD_MANDATE_OF_HEAVEN"]
 local governmentPapacyID = GameInfoTypes["GOVERNMENT_JFD_PAPACY"]
 local governmentShogunateID = GameInfoTypes["GOVERNMENT_JFD_SHOGUNATE"]
 
@@ -1388,6 +1390,10 @@ function Player.CanChangeGovernment(player)
 		end
 	end
 	
+	if (player:GetExcessHappiness() > 0 and (not player:IsHuman())) then
+		return false
+	end
+	
 	return false, g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_VIEW_GOVERNMENTS_TT_DISABLED")
 end
 ----------------------------------------------------------------------------------------------------------------------------
@@ -1645,6 +1651,30 @@ function Player_GetGovernmentPreference(player, isRandom)
 					local flavour2 = player:GetFlavorValue(government.FlavorType2)
 					local weight = flavour1 + flavour2 + row.Weight
 					return governmentPrefID, weight
+				elseif governmentPrefID == govermentDictatorshipID or governmentPrefID == govermentShogunateID then
+					governmentPrefID = governmentRepublicID
+					if governmentPrefID and player:CanHaveGovernment(governmentPrefID) then
+						local flavour1 = player:GetFlavorValue(government.FlavorType1)
+						local flavour2 = player:GetFlavorValue(government.FlavorType2)
+						local weight = flavour1 + flavour2 + row.Weight
+						return governmentPrefID, weight
+					end
+				elseif (governmentPrefID == govermentHREID or governmentPrefID == govermentMandateID or governmentPrefID == govermentCaliphateID) then
+					governmentPrefID = governmentMonarchyID
+					if governmentPrefID and player:CanHaveGovernment(governmentPrefID) then
+						local flavour1 = player:GetFlavorValue(government.FlavorType1)
+						local flavour2 = player:GetFlavorValue(government.FlavorType2)
+						local weight = flavour1 + flavour2 + row.Weight
+						return governmentPrefID, weight
+					end
+				elseif governmentPrefID == govermentPapacyID then
+					governmentPrefID = governmentTheocracyID
+					if governmentPrefID and player:CanHaveGovernment(governmentPrefID) then
+						local flavour1 = player:GetFlavorValue(government.FlavorType1)
+						local flavour2 = player:GetFlavorValue(government.FlavorType2)
+						local weight = flavour1 + flavour2 + row.Weight
+						return governmentPrefID, weight
+					end
 				end
 			end
 		end
@@ -1721,7 +1751,7 @@ function Player.InitiateGovernmentChoice(player, governmentID, isFree)
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:InitiateGovernmentChangeConsideration
-function Player.InitiateGovernmentChangeConsideration(player, currentGovernmentID)
+function Player.InitiateGovernmentChangeConsideration(player, currentGovernmentID, isReligious, isIdeological)
 	if (not player:IsHuman()) then
 		print(Game.GetGameTurn() .. " " .. player:GetName() .. " is considering changing Government!")
 
@@ -1738,6 +1768,9 @@ function Player.InitiateGovernmentChangeConsideration(player, currentGovernmentI
 
 			if (not hasChosenDictatorship) then
 				local prefGovernmentID = Player_GetGovernmentPreference(player)
+				if isReligious and prefGovernmentID ~= governmentTheocracyID then return end
+				if isIdeological and prefGovernmentID ~= governmentDictatorshipID then return end
+				
 				if prefGovernmentID and prefGovernmentID ~= currentGovernmentID then
 					player:SetHasGovernment(prefGovernmentID, false)
 				end
@@ -2699,6 +2732,12 @@ function Player.GetGovernmentName(player, governmentID)
 	local governmentType = government.Type
 	local currentEraID = player:GetCurrentEra()
 	local strGovernmentName = g_ConvertTextKey(government.Description)
+	
+	if player:IsAnarchy() then
+		return g_ConvertTextKey("TXT_KEY_GOVERNMENT_JFD_ANARCHY_DESC")
+	elseif government.IsUnique then
+		return strGovernmentName
+	end
 	 
 	--g_JFD_Government_Names_Table
 	local governmentsTable = g_JFD_Government_Names_Table

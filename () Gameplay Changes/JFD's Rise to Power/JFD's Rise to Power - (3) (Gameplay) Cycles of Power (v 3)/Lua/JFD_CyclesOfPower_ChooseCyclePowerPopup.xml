@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+
+<Context ID="ChoosePowerPopup" ColorSet="Beige_Black_Alpha" Font="TwCenMT16" FontStyle="Shadow">
+	<Box ID="MainUIBG" Style="BGBlock_ClearTopBar" Hidden="0" ConsumeMouse="1" />
+	<Instance Name="CivInstance">
+		<Image ID="CivIconFrame" Size="32,32" Texture="IconFrame_32.dds">
+			<Image ID="CivIconBG" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+			<Image ID="CivIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+			<Image ID="CivIcon" Size="24.24" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+			<Image ID="CivIconHighlight" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="0,0" Texture="CivIconBGSizes_Highlight.dds"/>
+		</Image>
+	</Instance>
+	<Instance Name="ItemInstance">
+		<Button Anchor="L,C" Size="418,145" Color="255,255,255,255" Offset="0,0" StateOffsetIncrement="0,0" ID="Button">
+			<ShowOnMouseOver>
+				<AlphaAnim ID="BounceAnim" Anchor="L,T" Size="400,165" Offset="0,-3" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+					<Grid ID="BounceGrid" Size="400,110" Offset="0,0" Padding="0,0" Style="Grid9FrameTurnsHL"/>
+				</AlphaAnim>
+			</ShowOnMouseOver>
+
+			<Box Anchor="L,T" Size="418,175" Color="19,32,46,120" ID="Box" />
+			<Image Hidden="1" Anchor="C,C" Size="418,260" Offset="0,-5" Color="255,255,255,50" TextureOffset="0,0" Texture="SocialPoliciesPiety.dds" ID="GovtPowerImage" Sampler="None"/>
+			<Stack Anchor="C,B" Offset="0,0" Padding="5" StackGrowth="Bottom" ID="GovtPowerStack">
+				<Label Anchor="L,T" Offset="10,5" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="Name"/>
+				<Label Anchor="L,T" Offset="10,0" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="395" ID="Help"/>
+				<Image Anchor="L,B" Offset="0,10" Texture="BlueBar500x3.dds" Size="418,1"/>
+			</Stack>
+		</Button>
+	</Instance>
+	<!-- BOTTOM PANEL-->
+	<Grid Size="494,963" Anchor="L,T" Offset="-42,100" Padding="0,0" Style="Grid9DetailSix140" ConsumeMouse="1" ID="BottomPanel">
+		<Label ID="ChooseCyclesOptions" WrapWidth="400" Anchor="L,T" Offset="60,60" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_CHOOSE_JFD_CYCLE_OF_POWER_SUMMARY"/>
+		<Box Color="0,0,0,0" Offset="42,124" Size="290,664">
+			<ScrollPanel Anchor="L,T" Offset="0,104" Size="436,638" Vertical="1" ID="ItemScrollPanel" AutoScrollBar="0">
+				<!-- Scroll Controls -->
+				<ScrollBar Style="VertSlider" Length="508" Offset="2,24" Anchor="L,T" AnchorSide="I,I"/>
+				<UpButton Offset="2,14" Style="ScrollBarUp" Anchor="L,T" AnchorSide="I,I"/>
+				<DownButton Offset="2,0" Style="ScrollBarDown" Anchor="L,B" AnchorSide="I,I"/>
+				<Stack Anchor="L,T" Offset="22,20" StackGrowth="Bottom" Padding="5" ID="ItemStack"/>
+			</ScrollPanel>
+		</Box>
+
+		<Image Anchor="L,B" Texture="HorizontalTrim.dds" Offset="42,90" Size="436,5"/>
+
+		<!-- Back Button -->
+		<GridButton Anchor="C,B" Style="BaseButton" Size="250,36" Offset="0,48" StateOffsetIncrement="0,0" ID="CloseButton">
+			<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_MODDING_BACK" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+		</GridButton>
+	</Grid>
+	<!-- TOP PANEL-->
+	<Image Anchor="L,T" TextureOffset="74,0" Offset="480,30" Texture="assets\UI\Art\WorldView\TopCornerLeft.DDS" Size="180,88"/>
+	<Grid Size="530,128" Anchor="L,T" Offset="-42,30" Padding="0,0" Texture="Grid9DetailFive140.dds" ULSize="5,2" ULTexStart="65,40" UCSize="1,2" UCTexStart="70,40" URSize="74,2" URTexStart="70,40" LSize="5,1" LTexStart="65,70" CSize="1,1" CTexStart="70,70" RSize="74,1" RTexStart="70,70" LLSize="5,50" LLTexStart="65,90" LCSize="1,70" LCTexStart="70,70" LRSize="74,50" LRTexStart="70,90">
+		<Image Anchor="L,T" Offset="42,0" Texture="LeftPortraitDecor128.dds" Size="103,89">
+			<Image Anchor="L,T" Offset="-5,-19" Texture="CyclePowerChoice128.dds" Size="128,128"/>
+		</Image>
+		<Label Anchor="L,T" Offset="150,30" String="TXT_KEY_CHOOSE_JFD_CYCLE_OF_POWER_TITLE" Font="TwCenMT24" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+		<Image Anchor="L,T" Offset="60,315" Texture="BlueBar500x3.dds" Size="418,1" ID="Bar"/>
+		<Image Anchor="L,T" Offset="520,0" Texture="IconFrame64.dds" Size="64.64">
+			<Image ID="CivIconBG" Size="64.64" Anchor="C,C" Offset="-1,-1" Texture="CivIconBGSizes.dds"/>
+			<Image ID="CivIconShadow" Size="48.48" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
+			<Image ID="CivIcon" Size="48,48" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor512.dds"/>
+		</Image>
+	</Grid>
+	<Image Anchor="L,B" Offset="446,0" Texture="BottomLeft128x224.dds" Size="128,224"/>
+
+	<!-- Confirmation Popup -->
+	<Box Color="Black.200" Size="Full.Full" ID="ChooseConfirm" Hidden="1"  ConsumeMouse="1">
+		<Grid Size="500,350" Anchor="C,C" Offset="0,0" Padding="0,20" Style="Grid9DetailFive140" Hidden="0">
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+			<Image Anchor="C,T" AnchorSide="I.O" Offset="0,-14" Size="256,64" Texture="Top512IconTrim.dds">
+				<Image Anchor="C,C" Offset="0,-6" Size="80,80" Texture="NotificationFrameBase.dds">
+					<AlphaAnim Anchor="C,C" Offset="0,0" Size="80,80" Texture="assets\UI\Art\Notification\NotificationGenericGlow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".5"/>
+				</Image>
+			</Image>
+			<Label Anchor="C,T" ID="ConfirmText" Offset="0,80" WrapWidth="440" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+			<Stack Anchor="C,B" Offset="0,80" Padding="24" StackGrowth="Bottom" ID="ButtonStack">
+				<!-- Yes Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmYes" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_YES_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+				<!-- No Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmNo" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_NO_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+			</Stack>
+		</Grid>
+	</Box>
+</Context>

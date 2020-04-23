@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fcff0553-e017-4d54-ac55-2082f016b8a7" version="3">
+  <Properties>
+    <Name>JFD's Rise to Power - (3) (Gameplay) Cycles of Power</Name>
+    <Teaser>[COLOR_CYAN]Cycles of Power[ENDCOLOR] component for Rise to Power. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Cycles of Power[ENDCOLOR] is a new gameplay mechanic. Each civilization now starts with a choice of one of three Cycle Powers: Autocracy, Oligarchy, or Democracy, with each affecting the rate of your global Gold, Science, and Culture outputs.[NEWLINE][NEWLINE]With your chosen Cycle Power, you will have a unique way of generating the new yield Virtue, which decays each turn. If your Virtue reaches 0, you will descend into Anarchy, after which your Cycle Power is replaced with a new one.[NEWLINE][NEWLINE]In addition to these three Cycle Powers, the unique Theocracy Power is available to the first player that founds a Religion. This Cycle Power replaces the previous Power, and is permanently lost if the player loses all Virtue and enters into Anarchy.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
+    <Mod id="aeea1d87-bb9b-4542-af59-5e3541fc1b06" minversion="0" maxversion="999" title="JFD's Rise to Power - (UI) Info Panel" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="4AA19533E7CA043B1C5D58201E189662" import="1">Art/Fonts/FontIcons_JFD_CycleOfPower_22.dds</File>
+    <File md5="3A20B0E51C8DB4B7847B3C44536BD39A" import="1">Art/Fonts/FontIcons_JFD_CyclePower_22.dds</File>
+    <File md5="3D8794FB13E6CC27DE3AC06978B5A084" import="1">Art/Fonts/FontIcons_JFD_CyclePower_22.ggxml</File>
+    <File md5="E7AA274EA3C23B7E09FFD44D67A9E8F7" import="1">Art/Fonts/FontIcons_JFD_CycleOfPower_22.ggxml</File>
+    <File md5="568B6FA5D02BBF3592A1EE915434B6AA" import="1">Art/Icons/JFD_CyclesOfPower_NotificationAtlas_128.dds</File>
+    <File md5="A58B56E6081A22EF33B81F84D3D294FA" import="1">Art/Icons/JFD_CyclesOfPower_NotificationAtlas_256.dds</File>
+    <File md5="126F6F190945C3BACF1E1A58B3B612FB" import="1">Art/Icons/JFD_CyclesOfPower_NotificationAtlas_80.dds</File>
+    <File md5="97C5F1FE730D688D31DB863542EB3C6D" import="1">Art/Icons/JFD_CyclesOfPower_NotificationAtlas_64.dds</File>
+    <File md5="678C0FF2D13E8464F1453CC30338A512" import="1">Art/Images/CyclePowerChoice128.dds</File>
+    <File md5="6E56801386A34126721EF97A10D7D4A2" import="1">Audio/Sounds/Anarchy.mp3</File>
+    <File md5="F96BAF543AB02586B4CD913507F7420E" import="1">Audio/Sounds/GenericChoice.mp3</File>
+    <File md5="4A39A65595BC230C5313CBAC7329E131" import="1">Audio/Sounds/CycleOfPower.wav</File>
+    <File md5="65353526B59CEAA5916088F621F7D78F" import="0">Core/CyclesOfPower_Concepts.sql</File>
+    <File md5="1577542679468BF6496DB74A96DC175D" import="0">Core/CyclesOfPower_Defines.sql</File>
+    <File md5="66EEEF55B91807EC5E2F930C675B3DA6" import="0">Core/CyclesOfPower_GameText.sql</File>
+    <File md5="C745449A0EA52C3CA5C327BCA348679F" import="0">Core/CyclesOfPower_CyclePowers.sql</File>
+    <File md5="0D7E8EE0EB38C0715536E131B950F40A" import="0">Core/CyclesOfPower_GameText.xml</File>
+    <File md5="B0CC4DE0280A32F1DA5BE20820CDA2A7" import="0">Core/CyclesOfPower_GameText_Interface.xml</File>
+    <File md5="E1D6CB919A5A6F3CF90FE7A7A4F8E9BE" import="0">Core/CyclesOfPower_Master.sql</File>
+    <File md5="3487B420E34683AB3C5AB9CB33DF6E29" import="0">Core/CyclesOfPower_ArtDefines.sql</File>
+    <File md5="F3BFA05322A01321EEE95AF77918B0B1" import="0">Core/CyclesOfPower_Notifications.sql</File>
+    <File md5="B28B39C1667F48109519F0A2C6CD7C1D" import="0">Core/CyclesOfPower_Triggers.sql</File>
+    <File md5="6FA50902AA984E9B2228D1D86ECF93FE" import="0">Credits.txt</File>
+    <File md5="898DC340343FDF9032BCB0D78550FB30" import="0">Lua/JFD_CyclesOfPower_ChooseCyclePowerPopup.lua</File>
+    <File md5="B27B94F55C989D307E8949A27043EE5D" import="0">Lua/JFD_CyclesOfPower_Functions.lua</File>
+    <File md5="AC1E55ABF07B7A79A9F0E99471AF7708" import="0">Lua/JFD_CyclesOfPower_ChooseCyclePowerPopup.xml</File>
+    <File md5="BC586DF0F36353AED9D2959B50B08D31" import="0">Lua/JFD_CyclesOfPower_EndTurnButton.lua</File>
+    <File md5="58A16A96FD60F76C39457A5F03FE79EE" import="0">Lua/JFD_CyclesOfPower_EndTurnButton.xml</File>
+    <File md5="E5CE0503D0CACD36CD361BD903C775A9" import="0">Lua/JFD_CyclesOfPower_TopPanel.lua</File>
+    <File md5="0F2977A5826A810E066859039C7E528B" import="0">Lua/JFD_CyclesOfPower_TopPanel.xml</File>
+    <File md5="4CF66D9C0923415E02615690EAB17318" import="1">Lua/Utilities/JFD_CyclesOfPower_Utils.lua</File>
+    <File md5="490C046F11A5182F880AD62B54D8D211" import="0">Lua/JFD_CyclesOfPower_CyclePowerPopup.lua</File>
+    <File md5="6BB521E3388C2EDDD8A5524010241F9A" import="0">Lua/JFD_CyclesOfPower_CyclePowerPopup.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/CyclesOfPower_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CyclesOfPower_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CyclesOfPower_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CyclesOfPower_Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CyclesOfPower_CyclePowers.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CyclesOfPower_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CyclesOfPower_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/CyclesOfPower_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/CyclesOfPower_Notifications.sql</UpdateDatabase>
+      <UpdateDatabase>Core/CyclesOfPower_Triggers.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_CyclesOfPower_Functions.lua">
+      <Name>JFD_CyclesOfPower_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_CyclesOfPower_EndTurnButton.lua">
+      <Name>JFD_CyclesOfPower_EndTurnButton.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_CyclesOfPower_ChooseCyclePowerPopup.lua">
+      <Name>JFD_CyclesOfPower_ChooseCyclePowerPopup.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_CyclesOfPower_CyclePowerPopup.lua">
+      <Name>JFD_CyclesPower_CyclePowerPopup.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_CyclesOfPower_TopPanel.lua">
+      <Name>JFD_CyclesOfPower_TopPanel.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

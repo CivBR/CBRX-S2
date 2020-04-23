@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Epithets-->
+		<Row Tag="TXT_KEY_JFD_EPITHETS_HEADING1_TITLE">
+			<Text>Epithets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_EPITHETS_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Epithets[ENDCOLOR] is a new gameplay mechanic based upon your people's assessment of your rule at the beginning of each new Era. During any given Era, certain actions will accumulate Epithet Progress. On entering a new Era, if you have enough Epithet Progress, your people will recognise you with an Epithet - a special title and a one-time reward based on your dominant actions during the last Era. This will continue each Era until the end of the game.[NEWLINE][NEWLINE]Epithet Progress can be accumulated by building Wonders, earning Great People, conquering and razing cities, clearing Barbarian Camps, starting Golden Ages and WLTKDs, and spending Faith and Gold.[NEWLINE][NEWLINE]Progress is reset each Era.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--EPITHETS-->
+		<!--===================================================-->
+		<!--August-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_AUGUSTUS_DESC">
+			<Text>the August</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_AUGUSTUS_SHORT_DESC">
+			<Text>August</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_AUGUSTUS_HELP">
+			<Text>Your monuments have left their mark; for the many National Wonders that you have built, you have become known as '[COLOR_JFD_EPITHET]the August[ENDCOLOR],' starting a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<!--Beloved-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_BELOVED_DESC">
+			<Text>the Beloved</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BELOVED_SHORT_DESC">
+			<Text>Beloved</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BELOVED_HELP">
+			<Text>Your kindness has left its mark; for the many 'We Love the King Days' that you have started, you have become known as '[COLOR_JFD_EPITHET]the Beloved[ENDCOLOR],' granting you [ICON_PRODUCTION] Production in all your cities.</Text>
+		</Row>
+		<!--Brave-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_BRAVE_DESC">
+			<Text>the Brave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BRAVE_SHORT_DESC">
+			<Text>Brave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BRAVE_HELP">
+			<Text>Your battles have left their mark; for the many Barbarian Camps that you have cleared, you have become known as '[COLOR_JFD_EPITHET]the Brave[ENDCOLOR],' granting you a free Great General.</Text>
+		</Row>
+		<!--Builder-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_BUILDER_DESC">
+			<Text>the Builder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BUILDER_SHORT_DESC">
+			<Text>Builder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_BUILDER_HELP">
+			<Text>Your industry has left its mark; for the many Great Engineers that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Builder[ENDCOLOR],' granting you a free [ICON_RESEARCH] Technology.</Text>
+		</Row>
+		<!--Conqueror-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_CONQUEROR_DESC">
+			<Text>the Conqueror</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CONQUEROR_SHORT_DESC">
+			<Text>Conqueror</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CONQUEROR_HELP">
+			<Text>Your conquests have left their mark; for the many cities that you have captured, you have become known as '[COLOR_JFD_EPITHET]the Conqueror[ENDCOLOR],' granting you XP for all your Units.</Text>
+		</Row>
+		<!--Crusader-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_CRUSADER_DESC">
+			<Text>the Crusader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CRUSADER_SHORT_DESC">
+			<Text>Crusader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_CRUSADER_HELP">
+			<Text>Your crusades have left their mark; for the many Holy cities that you have captured, you have become known as '[COLOR_JFD_EPITHET]the Crusader[ENDCOLOR],' granting you XP for all your Units.</Text>
+		</Row>
+		<!--Diplomat-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_DIPLOMAT_DESC">
+			<Text>the Diplomat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_DIPLOMAT_SHORT_DESC">
+			<Text>Diplomat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_DIPLOMAT_HELP">
+			<Text>Your entrepreneurship has left its mark; for the many Great Merchants that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Diplomat[ENDCOLOR],' granting you a free [ICON_RESEARCH] Technology.</Text>
+		</Row>
+		<!--Enlightened-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_ENLIGHTENED_DESC">
+			<Text>the Enlightened</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_ENLIGHTENED_SHORT_DESC">
+			<Text>Enlightened</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_ENLIGHTENED_HELP">
+			<Text>Your progress has left its mark; for being the first to enter the Enlightenment Era, you have become known as '[COLOR_JFD_EPITHET]the Enlightened[ENDCOLOR],' starting a 'We Love the King Day' in all cities as well as a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<!--Glorious-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_GLORIOUS_DESC">
+			<Text>the Glorious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_GLORIOUS_SHORT_DESC">
+			<Text>Glorious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_GLORIOUS_HELP">
+			<Text>Your prestige has left its mark; for the many Golden Ages that you have started, you have become known as '[COLOR_JFD_EPITHET]the Glorious[ENDCOLOR],' starting a 'We Love the King Day' in all cities.</Text>
+		</Row>
+		<!--Good-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_GOOD_DESC">
+			<Text>the Good</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_GOOD_SHORT_DESC">
+			<Text>Good</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_GOOD_HELP">
+			<Text>Your goodness has left its mark; for the many Golden Ages that you have started, you have become known as '[COLOR_JFD_EPITHET]the Good[ENDCOLOR],' starting a 'We Love the King Day' in all cities.</Text>
+		</Row>
+		<!--Great-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_GREAT_DESC">
+			<Text>the Great</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_GREAT_SHORT_DESC">
+			<Text>Great</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_GREAT_HELP">
+			<Text>Your battles have left their mark; for the many Great Generals that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Great[ENDCOLOR],' granting you [ICON_INFLUENCE] Influence with all currently known City-States.</Text>
+		</Row>
+		<!--Holy-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_HOLY_DESC">
+			<Text>the Holy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_HOLY_SHORT_DESC">
+			<Text>Holy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_HOLY_HELP">
+			<Text>Your devotion has left its mark; for the Faith that you have spent on units, you have become known as '[COLOR_JFD_EPITHET]the Holy[ENDCOLOR],' granting you a free [ICON_GREAT_PEOPLE] Great Person of your choice.</Text>
+		</Row>
+		<!--Humane-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_HUMANE_DESC">
+			<Text>the Humane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_HUMANE_SHORT_DESC">
+			<Text>Humane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_HUMANE_HELP">
+			<Text>Your humanity has left its mark; for the many Great Doctors that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Humane[ENDCOLOR],' granting you a free [ICON_RESEARCH] Technology.</Text>
+		</Row>
+		<!--Illustrious-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_ILLUSTRIOUS_DESC">
+			<Text>the Illustrious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_ILLUSTRIOUS_SHORT_DESC">
+			<Text>Illustrious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_ILLUSTRIOUS_HELP">
+			<Text>Your great works have left their mark; for the Cultural Great People that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Illustrious[ENDCOLOR],' granting you a free [ICON_CULTURE] Social Policy.</Text>
+		</Row>
+		<!--Just-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_JUST_DESC">
+			<Text>the Just</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_JUST_SHORT_DESC">
+			<Text>Just</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_JUST_HELP">
+			<Text>Your fairness has left its mark; for the many Courthouses that you have built, you have become known as '[COLOR_JFD_EPITHET]the Just[ENDCOLOR],' granting a free [ICON_CITIZEN] Citizen in all cities.</Text>
+		</Row>
+		<!--Magnanimous-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNANIMOUS_DESC">
+			<Text>the Magnanimous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNANIMOUS_SHORT_DESC">
+			<Text>Magnanimous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNANIMOUS_HELP">
+			<Text>Your generosity has left its mark; for the Gold that you have spent on buildings, you have become known as '[COLOR_JFD_EPITHET]the Magnanimous[ENDCOLOR],' granting [ICON_FOOD] Food in all your cities.</Text>
+		</Row>
+		<!--Magnificent-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNIFICENT_DESC">
+			<Text>the Magnificent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNIFICENT_SHORT_DESC">
+			<Text>Magnificent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_MAGNIFICENT_HELP">
+			<Text>Your monuments have left their mark; for the many World Wonders that you have built, you have become known as '[COLOR_JFD_EPITHET]the Magnificent[ENDCOLOR],' starting a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<!--Navigator-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_NAVIGATOR_DESC">
+			<Text>the Navigator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_NAVIGATOR_SHORT_DESC">
+			<Text>Navigator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_NAVIGATOR_HELP">
+			<Text>Your discoveries have left their mark; for the many Great Admirals that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Navigator[ENDCOLOR],' granting you [ICON_INFLUENCE] Influence with all currently known City-States.</Text>
+		</Row>
+		<!--Noble-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_NOBLE_DESC">
+			<Text>the Noble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_NOBLE_SHORT_DESC">
+			<Text>Noble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_NOBLE_HELP">
+			<Text>Your diplomacy has left its mark; for the many Great Dignitaries that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Noble[ENDCOLOR],' granting you a free [ICON_RESEARCH] Technology.</Text>
+		</Row>
+		<!--Pious-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_PIOUS_DESC">
+			<Text>the Pious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_PIOUS_SHORT_DESC">
+			<Text>Pious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_PIOUS_HELP">
+			<Text>Your piety has left its mark; for the Faith that you have spent on buildings, you have become known as '[COLOR_JFD_EPITHET]the Holy[ENDCOLOR],' granting you a free [ICON_GREAT_PEOPLE] Great Person of your choice.</Text>
+		</Row>
+		<!--Philosopher-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_PHILOSOPHER_DESC">
+			<Text>the Philosopher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_PHILOSOPHER_SHORT_DESC">
+			<Text>Philosopher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_PHILOSOPHER_HELP">
+			<Text>Your thought has left its mark; for the Great Philosophers that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Philosopher[ENDCOLOR],' granting you a free [ICON_CULTURE] Social Policy.</Text>
+		</Row>
+		<!--Restorer-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_RESTORER_DESC">
+			<Text>the Restorer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_RESTORER_SHORT_DESC">
+			<Text>Restorer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_RESTORER_HELP">
+			<Text>Your restoration has left its mark; for the many cities that you have liberated, you have become known as '[COLOR_JFD_EPITHET]the Restorer[ENDCOLOR],' granting you XP for all your Units.</Text>
+		</Row>
+		<!--Terrible-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_TERRIBLE_DESC">
+			<Text>the Terrible</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_TERRIBLE_SHORT_DESC">
+			<Text>Terrible</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_TERRIBLE_HELP">
+			<Text>Your brutality has left its mark; for the many cities that you have Razed, you have become known as '[COLOR_JFD_EPITHET]the Terrible[ENDCOLOR],' ending [ICON_RESISTANCE] Resistance in all your cities.</Text>
+		</Row>
+		<!--Saint-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_SAINT_DESC">
+			<Text>the Saint</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SAINT_SHORT_DESC">
+			<Text>Saint</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SAINT_HELP">
+			<Text>Your faith has left its mark; for the Great Prophets that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Saint[ENDCOLOR],' converting all your Citizens to your Religion.</Text>
+		</Row>
+		<!--Silent-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_SILENT_DESC">
+			<Text>the Silent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SILENT_SHORT_DESC">
+			<Text>Silent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SILENT_HELP">
+			<Text>Your cunning has left its mark; for the many Great Spies that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Silent[ENDCOLOR],' granting you a free [ICON_RESEARCH] Technology.</Text>
+		</Row>
+		<!--Soldier-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_SOLDIER_DESC">
+			<Text>the Soldier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SOLDIER_SHORT_DESC">
+			<Text>Soldier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SOLDIER_HELP">
+			<Text>Your generosity has left its mark; for the Gold that you have spent on units, you have become known as '[COLOR_JFD_EPITHET]the Soldier[ENDCOLOR],' granting [ICON_FOOD] Food in all your cities.</Text>
+		</Row>
+		<!--Sun-King-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_SUN_KING_DESC">
+			<Text>the Sun-King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SUN_KING_SHORT_DESC">
+			<Text>Sun-King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_SUN_KING_HELP">
+			<Text>Your affluence has left their mark; for having built Versailles, you have become known as '[COLOR_JFD_EPITHET]the Sun-King[ENDCOLOR],' starting a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<!--Victorious-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_VICTORIOUS_DESC">
+			<Text>the Victorious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_VICTORIOUS_SHORT_DESC">
+			<Text>Victorious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_VICTORIOUS_HELP">
+			<Text>Your victories have left their mark; for the many Capitals that you have captured, you have become known as '[COLOR_JFD_EPITHET]the Victorious[ENDCOLOR],' granting you XP for all your Units.</Text>
+		</Row>
+		<!--Wise-->
+		<Row Tag="TXT_KEY_EPITHET_JFD_WISE_DESC">
+			<Text>the Wise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_WISE_SHORT_DESC">
+			<Text>Wise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EPITHET_JFD_WISE_HELP">
+			<Text>Your wisdom has left its mark; for the many Great Scientists that you have borne, you have become known as '[COLOR_JFD_EPITHET]the Wise[ENDCOLOR],' granting you a free [ICON_RESEARCH] Technology.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--POLICY BRANCHES-->
+		<!--===================================================-->
+		<Replace Tag="TXT_KEY_AESTHETICS_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_AUTOCRACY_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COMMERCE_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EXPLORATION_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_FREEDOM_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HONOR_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_LIBERTY_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_ORDER_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PATRONAGE_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PIETY_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RATIONALISM_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRADITION_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>

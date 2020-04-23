@@ -66,7 +66,7 @@
 			<Text>Enlightened</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_EXILED_DESC">
-			<Text>Exiled</Text>
+			<Text>In-Exile</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_FEDERAL_DESC">
 			<Text>Federal</Text>

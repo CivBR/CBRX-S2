@@ -3053,8 +3053,8 @@ FROM JFD_Reforms WHERE ReformSubBranchType = 'REFORM_SUBBRANCH_JFD_PEERAGE';
 -------------------------------------------------------------------------
 INSERT INTO Policy_CapitalYieldModifiers
 		(PolicyType,								YieldType, 		 Yield)
-VALUES	('POLICY_REFORM_JFD_PEERAGE_PRIVILEGED', 	'YIELD_CULTURE', 15),
-		('POLICY_REFORM_JFD_PEERAGE_ABOLISHED', 	'YIELD_CULTURE', -15);	
+VALUES	('POLICY_REFORM_JFD_PEERAGE_PRIVILEGED', 	'YIELD_CULTURE', 25),
+		('POLICY_REFORM_JFD_PEERAGE_ABOLISHED', 	'YIELD_CULTURE', -25);	
 -------------------------------------------------------------------------
 INSERT INTO Policy_YieldModifiers
 		(PolicyType,								YieldType, 		 Yield)

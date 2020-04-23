@@ -123,29 +123,35 @@
 	<!-- World Governments Instance -->
 	<Instance Name="WorldGovernmentInstance">
 		<Box Size="930,30" Color="0,0,0,0" ID="Base">
-			<Stack StackGrowth="Right" ID="WorldGovtStack">
-				<Box Size="220,30" Color="0,0,0,0" ID="CivilizationNameBox">
-					<Box Size="45,45" Anchor="L,C" Color="0,0,0,0">
-						<Image ID="CivilizationIconBG" Size="45,45" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
-						<Image ID="CivilizationIconShadow" Size="32,32" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
-						<Image ID="CivilizationIcon" Size="32,32" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
-						<Image ID="CivilizationIconHighlight" Size="45,45" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+			<Stack StackGrowth="Bottom" ID="EntryStack" Padding="8">
+				<Stack StackGrowth="Right" ID="WorldGovtStack">
+					<Box Size="220,30" Color="0,0,0,0" ID="CivilizationNameBox">
+						<Box Size="45,45" Anchor="L,C" Color="0,0,0,0">
+							<Image ID="CivilizationIconBG" Size="45,45" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+							<Image ID="CivilizationIconShadow" Size="32,32" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+							<Image ID="CivilizationIcon" Size="32,32" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+							<Image ID="CivilizationIconHighlight" Size="45,45" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+						</Box>
+						<Label Anchor="L,C" Offset="50,0" Font="TwCenMT18" WrapWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="CivilizationName" />
 					</Box>
-					<Label Anchor="L,C" Offset="50,0" Font="TwCenMT18" WrapWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="CivilizationName" />
-				</Box>
-				<Box Size="220,30" Color="0,0,0,0" ID="LeaderNameBox">
-					<Label Anchor="L,C" Offset="35,0" Font="TwCenMT18" WrapWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="LeaderName" />
-				</Box>
-				<Box Size="200,30" Color="0,0,0,0" ID="FactionTypeBox">
-					<Label Anchor="L,C" Offset="15,0" Font="TwCenMT16" WrapWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="FactionType" />
-				</Box>
-				<Box Size="230,30" Color="0,0,0,0" ID="GovernmentTypeBox">
-					<Image Anchor="L,C" Offset="20,0" Size="48,48" Texture="" ID="GovernmentTypeIcon" Hidden="0"/>
-					<Label Anchor="L,C" Offset="70,0" Font="TwCenMT16" WrapWidth="120" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="GovernmentType" />
-				</Box>
-				<Box Size="180,30" Color="0,0,0,0">
-					<Label Anchor="C,C" Offset="-80,0" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="CyclePowerType" />
-				</Box>
+					<Box Size="220,30" Color="0,0,0,0" ID="LeaderNameBox">
+						<Label Anchor="L,C" Offset="35,0" Font="TwCenMT18" WrapWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="LeaderName" />
+					</Box>
+					<Box Size="200,30" Color="0,0,0,0" ID="FactionTypeBox">
+						<Label Anchor="L,C" Offset="15,0" Font="TwCenMT16" WrapWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="FactionType" />
+					</Box>
+					<Box Size="230,30" Color="0,0,0,0" ID="GovernmentTypeBox">
+						<Image Anchor="L,C" Offset="20,0" Size="48,48" Texture="" ID="GovernmentTypeIcon" Hidden="0"/>
+						<Label Anchor="L,C" Offset="70,0" Font="TwCenMT16" WrapWidth="120" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="GovernmentType" />
+					</Box>
+					<Box Size="180,30" Color="0,0,0,0">
+						<Label Anchor="C,C" Offset="-80,0" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="CyclePowerType" />
+					</Box>
+				</Stack>
+				<Stack StackGrowth="Right" ID="BarStack">
+					<Image Anchor="L,T" Offset="0,0" TextureOffset="50,0" Texture="bar900x2.dds" Size="468,1" />
+					<Image Anchor="R,T" Offset="0,0" TextureOffset="368,0" Texture="bar900x2.dds" Size="467,1" />
+				</Stack>
 			</Stack>
 		</Box>
 	</Instance>

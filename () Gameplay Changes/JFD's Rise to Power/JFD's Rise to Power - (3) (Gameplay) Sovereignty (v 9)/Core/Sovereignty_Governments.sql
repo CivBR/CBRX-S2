@@ -64,7 +64,7 @@ VALUES	('GOVERNMENT_JFD_ANARCHY');
 -------------------------------------------------------------------------------------------------------------------------
 INSERT INTO JFD_Government_Names
 		(GovernmentType, 						UseReligionAdj,		Name, 													IsNoCities,			EraType,				BuildingType,						IdeologyType,					PolicyType,						ReformType,									ReformTypeAND, 							ReformTypeNOT)
-VALUES	(null,									0,					'TXT_KEY_JFD_GOVERNMENT_NAME_EXILED_DESC',				1,					null,					null,								null,							null,							'REFORM_JFD_EXECUTIVE_CONSTITUTIONAL',		null,									null),
+VALUES	(null,									0,					'TXT_KEY_JFD_GOVERNMENT_NAME_EXILED_DESC',				1,					null,					null,								null,							null,							null,										null,									null),
 		(null,									0,					'TXT_KEY_JFD_GOVERNMENT_NAME_CONSTITUTIONAL_DESC',		0,					null,					null,								null,							null,							'REFORM_JFD_EXECUTIVE_CONSTITUTIONAL',		null,									null),
 		(null,									0,					'TXT_KEY_JFD_GOVERNMENT_NAME_DESPOTIC_DESC',			0,					null,					null,								null,							null,							'REFORM_JFD_EXECUTIVE_DESPOTIC',			'REFORM_JFD_POWER_POLICE_STATE',		null),		
 		(null,									0,					'TXT_KEY_JFD_GOVERNMENT_NAME_FEDERAL_DESC',				0,					null,					null,								null,							null,							'REFORM_JFD_STRUCTURE_FEDERATION',			null,									null),

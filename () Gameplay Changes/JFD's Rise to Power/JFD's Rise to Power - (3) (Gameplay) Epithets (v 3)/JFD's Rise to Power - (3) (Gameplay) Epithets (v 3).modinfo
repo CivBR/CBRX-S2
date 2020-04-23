@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0ccc2940-56dc-460f-aa85-8704a837ffdd" version="3">
+  <Properties>
+    <Name>JFD's Rise to Power - (3) (Gameplay) Epithets</Name>
+    <Teaser>[COLOR_CYAN]Epithets[ENDCOLOR] component for Rise to Power. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Epithets[ENDCOLOR] is a new gameplay mechanic based upon your people's assessment of your rule at the beginning of each new Era. During any given Era, certain actions will accumulate Epithet Progress. On entering a new Era, if you have enough Epithet Progress, your people will recognise you with an Epithet - a special title and a one-time reward based on your dominant actions during the last Era. This will continue each Era until the end of the game.[NEWLINE][NEWLINE]Epithet Progress can be accumulated by building Wonders, earning Great People, conquering and razing cities, clearing Barbarian camps, starting Golden Ages and WLTKDs, and spending Faith and Gold.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />
+    <Mod id="cad8d4eb-6e81-4c91-8ba1-02598b3234f5" minversion="0" maxversion="999" title="JFD's Rise to Power - (4) (Content) Additional Policy Trees" />
+    <Mod id="0d8117aa-bc83-4530-930e-98a685fde2c9" minversion="0" maxversion="999" title="JFD's Rise to Power - (3) (Gameplay) Great Philosophers" />
+    <Mod id="74fbcefb-4fda-4378-8419-af32ce927b28" minversion="0" maxversion="999" title="JFD's Rise to Power - (3) (Gameplay) Spirit Ideology" />
+    <Mod id="7f1a0a39-424f-449c-8b34-0ab09014f625" minversion="0" maxversion="999" title="JFD's Rise to Power - (4) (Content) Neutrality Ideology" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="1C0CF9E59638735515AB125EA39FF69C" import="1">Art/Fonts/FontIcons_JFD_EpithetProgress_22.ggxml</File>
+    <File md5="D33AF90819568FCDA7603E52783ACDA7" import="1">Art/Fonts/FontIcons_JFD_EpithetProgress_22.dds</File>
+    <File md5="2EAD849482342728597027966D295AF3" import="1">Art/Icons/JFD_Epithets_NotificationAtlas_80.dds</File>
+    <File md5="0D97DE10C31BC7E626A711E614F63A00" import="1">Art/Images/EpithetBG.dds</File>
+    <File md5="B17482D3C95F161EE5301C94DD0A97B1" import="1">Art/Images/Epithets80.dds</File>
+    <File md5="E5FF84C3A2276FF961AC048028D919FB" import="1">Audio/Sounds/Epithet_Popup.wav</File>
+    <File md5="F96BAF543AB02586B4CD913507F7420E" import="1">Audio/Sounds/GenericChoice.mp3</File>
+    <File md5="D5B4F08E228C7501CB04A46F2BDD5315" import="0">Core/Epithets_ArtDefines.sql</File>
+    <File md5="E37B38E237DE561DD0B7541B485B7381" import="0">Core/Epithets_Concepts.sql</File>
+    <File md5="7908832011E0B6DFFAC6FA282251DBE6" import="0">Core/Epithets_Epithets.sql</File>
+    <File md5="53FFBD3E6F2B5732BC782A64A0B192FC" import="0">Core/Epithets_Eras.sql</File>
+    <File md5="F53552BE846818AA7EA6EFD62086E1B5" import="0">Core/Epithets_GameText.sql</File>
+    <File md5="E2106434A6D0AE86516A902524019FB1" import="0">Core/Epithets_GameText.xml</File>
+    <File md5="ABA443B3B0053C963B6764AA6486131A" import="0">Core/Epithets_GameText_Interface.xml</File>
+    <File md5="EE8CA250D768665B56F86B39F1B30F91" import="0">Core/Epithets_Master.sql</File>
+    <File md5="7DACAE4988E2CD0A4E044E614B69BB75" import="0">Core/Epithets_Notifications.sql</File>
+    <File md5="45850032D3622723229EB778CE1C9319" import="0">Core/Epithets_Triggers.sql</File>
+    <File md5="F8B613B842D2AD5CF5C1A5F41F8E1C28" import="0">Credits.txt</File>
+    <File md5="FF015DFE5FFFC008A650A84739A520AC" import="0">Lua/JFD_RTP_Epithets_Functions.lua</File>
+    <File md5="433AAC77B7D82E983F80C1A993F5FF3F" import="0">Lua/JFD_RTP_Epithets_Functions.xml</File>
+    <File md5="45FCD88DD34C4AC5CE020ECDF8DE0914" import="0">Lua/JFD_Epithets_TopPanel.lua</File>
+    <File md5="89ADAE9D31118347611528E5E550FA49" import="0">Lua/JFD_Epithets_TopPanel.xml</File>
+    <File md5="CFA60483FCE050A595A484DB0920B051" import="1">Lua/Utilities/JFD_Epithets_Utils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Epithets_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Epithets_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Epithets_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Epithets_Epithets.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Epithets_Eras.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Epithets_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Epithets_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Epithets_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Epithets_Notifications.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Epithets_Triggers.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Epithets_Functions.lua">
+      <Name>JFD_Epithets_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Epithets_TopPanel.lua">
+      <Name>JFD_Epithets_TopPanel.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

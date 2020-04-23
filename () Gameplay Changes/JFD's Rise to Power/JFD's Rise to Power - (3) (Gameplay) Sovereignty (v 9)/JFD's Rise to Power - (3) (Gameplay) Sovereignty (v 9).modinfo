@@ -285,19 +285,19 @@
     <File md5="255AA237D2C94DA2BBF705AF59895547" import="0">Core/Sovereignty_ArtDefines.sql</File>
     <File md5="5CEFC1FA0BFCF263B07344AEBCF8D7D2" import="0">Core/Sovereignty_Defines.sql</File>
     <File md5="420B8035361E9894CBEEBAE31DB3DCC8" import="0">Core/Sovereignty_GameText_Reforms.xml</File>
-    <File md5="DD34449926861824852CE9456914F55B" import="0">Core/Sovereignty_GameText_Titles.xml</File>
-    <File md5="47BEDA2D6B03BFA563E013DE82BB0700" import="0">Core/Sovereignty_Governments.sql</File>
+    <File md5="244DCE06B974592909F8030A15EC41E7" import="0">Core/Sovereignty_GameText_Titles.xml</File>
+    <File md5="CC19D9A5884E0694E67C009829E9BA25" import="0">Core/Sovereignty_Governments.sql</File>
     <File md5="37657B99A098ADE44FBCA88326CC3765" import="0">Core/Sovereignty_GameText.xml</File>
-    <File md5="7FEE658394B5EF107F94E052964F07BA" import="0">Core/Sovereignty_GameText_Interface.xml</File>
+    <File md5="670359839409AE77DEB0AD788A2F2971" import="0">Core/Sovereignty_GameText_Interface.xml</File>
     <File md5="28CFD0D5E3BA2AB6470D48A55B4C98E5" import="0">Core/Sovereignty_Leaders.sql</File>
     <File md5="EDF3B7C4471CE50F229409E3085FF180" import="0">Core/Sovereignty_Master.sql</File>
     <File md5="7C9931216381EE9AE1BACF93E79C6498" import="0">Core/Sovereignty_Notifications.sql</File>
     <File md5="F74E4D62AA1F8A1698943518D77E83B3" import="0">Core/Sovereignty_Concepts.sql</File>
     <File md5="C8161F05E65A166654D6802F8CE9E471" import="0">Core/Sovereignty_Councillors.sql</File>
     <File md5="F2A6DBF65681AAB94AA62867B2670610" import="0">Core/Sovereignty_ReformBranches.sql</File>
-    <File md5="632809B3803CDE947C855E978D218FB9" import="0">Core/Sovereignty_Reforms.sql</File>
+    <File md5="F3954A180DAED453B25FDA6E8264C939" import="0">Core/Sovereignty_Reforms.sql</File>
     <File md5="50C3FC0DC753016DBA5962B282C67941" import="0">Core/Sovereignty_Technologies.sql</File>
-    <File md5="17E3D28F4C6DF7E8461ABDB4D26F3398" import="0">Core/Sovereignty_Triggers.sql</File>
+    <File md5="0754BC97ECC5C0F9D07DD76E3E48CC63" import="0">Core/Sovereignty_Triggers.sql</File>
     <File md5="9DBDD9FAA5B73481F52978B67EF7A70F" import="0">Core/Sovereignty_WondersCP.sql</File>
     <File md5="FD473DFBB39D9492BB601C2102400117" import="0">Credits.txt</File>
     <File md5="984E19D8400E3ED7C25C771E4EB0F3DE" import="0">Lua/JFD_Sovereignty_GovernmentOverview.lua.bak</File>
@@ -308,14 +308,14 @@
     <File md5="5B62031249F1FFF2C61001F8AF5E751C" import="0">Lua/JFD_Sovereignty_ChooseGovernmentPopup.xml</File>
     <File md5="E1B227504115A7CAD7116D886CA00FDD" import="0">Lua/JFD_Sovereignty_EndTurnButton.lua</File>
     <File md5="58A16A96FD60F76C39457A5F03FE79EE" import="0">Lua/JFD_Sovereignty_EndTurnButton.xml</File>
-    <File md5="04008F43F04E2314F0B3C965363A1B52" import="0">Lua/JFD_Sovereignty_GovernmentOverview.lua</File>
-    <File md5="E48CACE0EAAEF1ECA171D5147169E242" import="0">Lua/JFD_Sovereignty_GovernmentOverview.xml</File>
-    <File md5="8B6B14CD757FE70AAE57AE66B41E8883" import="0">Lua/JFD_Sovereignty_Functions.lua</File>
+    <File md5="CEA4B0725887DC866B080216C418CD6E" import="0">Lua/JFD_Sovereignty_GovernmentOverview.lua</File>
+    <File md5="17D35E064ADB27D404333FC59655E74C" import="0">Lua/JFD_Sovereignty_GovernmentOverview.xml</File>
+    <File md5="37BDCBFFDE667046CBD3CD39FCD0FD8A" import="0">Lua/JFD_Sovereignty_Functions.lua</File>
     <File md5="4F3419F1BBB248705D8E3A7D70730B31" import="0">Lua/UI/FrontEnd/LoadScreen/LoadScreen.lua</File>
     <File md5="9A5D72EA1546D093FC4CC62D7106E89A" import="1">Lua/UI/InGame/Popups/GreatPersonRewardPopup.lua</File>
     <File md5="1D34451A1779533FAF3D242F517E37CA" import="1">Lua/UI/InGame/Popups/GreatPersonRewardPopup.xml</File>
     <File md5="A1B46754F7908183BF39C0442406933A" import="0">Lua/Utilities/JFD_Sovereignty_Utils.bak</File>
-    <File md5="D86C39551C411C44D87EDDA0C192BB25" import="1">Lua/Utilities/JFD_Sovereignty_Utils.lua</File>
+    <File md5="2D0E5BC4C5C3C8E154D2E13836D5D7AF" import="1">Lua/Utilities/JFD_Sovereignty_Utils.lua</File>
   </Files>
   <Actions>
     <OnModActivated>

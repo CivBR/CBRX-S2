@@ -372,7 +372,7 @@ function JFD_Sovereignty_TeamSetEra(teamID, eraID)
 	local playerID = Teams[teamID]:GetLeaderID()
 	local player = Players[playerID]
 	if player:IsHuman() then return end
-	if eraID > eraRenaissanceID then
+	if eraID == eraModernID then
 		if player:IsHasGovernment() then
 			local currentGovernmentID = player:GetCurrentGovernment()
 			local currentGovernment = GameInfo.JFD_Governments[currentGovernmentID]
@@ -398,7 +398,7 @@ function JFD_Sovereignty_IdeologyAdopted(playerID, newIdeologyID)
 			local currentGovernmentID = player:GetCurrentGovernment()
 			local currentGovernment = GameInfo.JFD_Governments[currentGovernmentID]
 			if (not currentGovernment.IsUnique) then
-				player:InitiateGovernmentChangeConsideration(currentGovernmentID)
+				player:InitiateGovernmentChangeConsideration(currentGovernmentID, false, true)
 			end
 		end
 	end
@@ -415,7 +415,7 @@ function JFD_Sovereignty_ReligionFounded(playerID, newIdeologyID)
 			local currentGovernmentID = player:GetCurrentGovernment()
 			local currentGovernment = GameInfo.JFD_Governments[currentGovernmentID]
 			if (not currentGovernment.IsUnique) then
-				player:InitiateGovernmentChangeConsideration(currentGovernmentID)
+				player:InitiateGovernmentChangeConsideration(currentGovernmentID, true)
 			end
 		end
 	end

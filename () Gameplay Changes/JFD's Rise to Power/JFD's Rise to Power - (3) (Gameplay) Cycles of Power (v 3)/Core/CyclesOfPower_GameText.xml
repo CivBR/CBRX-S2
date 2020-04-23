@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2019 5:53:11 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Cycles of Power-->
+		<Row Tag="TXT_KEY_JFD_CYCLES_OF_POWER_HEADING1_TITLE">
+			<Text>Cycles of Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CYCLES_OF_POWER_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Cycles of Power[ENDCOLOR] is a new gameplay mechanic. Each civilization now starts with a choice of one of three Cycle Powers: Autocracy, Oligarchy, or Democracy, with each affecting the rate of your global Gold, Science, and Culture outputs.[NEWLINE][NEWLINE]With your chosen Cycle Power, you will have a unique way of generating the new yield Virtue, which decays each turn. If your Virtue reaches 0, you will descend into Anarchy, after which your Cycle Power is replaced with a new one.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--CYCLE POWERS-->
+		<!--===================================================-->
+		<!--ANARCHY-->
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_ANARCHY_DESC">
+			<Text>[COLOR_WARNING_TEXT]Anarchy![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_ANARCHY_HELP">
+			<Text>[COLOR_NEGATIVE_TEXT]During Anarchy, you will not gain any [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_CULTURE] Culture, or [ICON_PEACE] Faith, and cities have no [ICON_PRODUCTION] Production to build anything.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_ANARCHY_STRATEGY">
+			<Text>Rule of none. None hold ultimate authority.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_ANARCHY_QUOTE">
+			<Text>"Hereby it is manifest that during the time men live without a common Power to hold them in awe, they are in that condition which is called War; and such a war is of every man against every man." - Thomas Hobbes[NEWLINE][TAB]</Text>
+		</Row>
+		<!--AUTOCRACY-->
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_AUTOCRACY_DESC">
+			<Text>Autocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_AUTOCRACY_HELP">
+			<Text>[ICON_BULLET]Loses 1 [ICON_JFD_VIRTUE] Virtue per 2 Capital Population.[NEWLINE][ICON_BULLET]Generates [ICON_JFD_VIRTUE] Virtue from unlocking Technologies.[NEWLINE][ICON_BULLET]Becomes Oligarchy after [ICON_RESISTANCE] Anarchy.[NEWLINE][ICON_BULLET]Yield Rates: [ICON_RESEARCH] [COLOR_POSITIVE_TEXT]125%[ENDCOLOR], [ICON_GOLD] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR], [ICON_CULTURE] [COLOR_NEGATIVE_TEXT]75%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_AUTOCRACY_STRATEGY">
+			<Text>Rule of one. A single individual holds ultimate authority.[NEWLINE]{TXT_KEY_CYCLE_POWER_JFD_AUTOCRACY_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_AUTOCRACY_STRATEGY_SOVEREIGNTY">
+			<Text>Rule of one. A single individual holds ultimate authority.[NEWLINE]{TXT_KEY_CYCLE_POWER_JFD_AUTOCRACY_HELP_SOVEREIGNTY}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_AUTOCRACY_QUOTE">
+			<Text>"Kingship, he held, demands not indolence, but manly virtue." - Xenophon[NEWLINE][TAB]</Text>
+		</Row>
+		<!--DEMOCRACY-->
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_DEMOCRACY_DESC">
+			<Text>Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_DEMOCRACY_HELP">
+			<Text>[ICON_BULLET]Loses 1 [ICON_JFD_VIRTUE] Virtue per City.[NEWLINE][ICON_BULLET]Generates [ICON_JFD_VIRTUE] Virtue from adopting Social Policies.[NEWLINE][ICON_BULLET]Becomes Autocracy after [ICON_RESISTANCE] Anarchy.[NEWLINE][ICON_BULLET]Yield Rates: [ICON_CULTURE] [COLOR_POSITIVE_TEXT]125%[ENDCOLOR], [ICON_RESEARCH] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR], [ICON_GOLD][COLOR_NEGATIVE_TEXT]75%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_DEMOCRACY_STRATEGY">
+			<Text>Rule of many. The majority holds ultimate authority.[NEWLINE]{TXT_KEY_CYCLE_POWER_JFD_DEMOCRACY_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_DEMOCRACY_STRATEGY_SOVEREIGNTY">
+			<Text>Rule of many. The majority holds ultimate authority.[NEWLINE]{TXT_KEY_CYCLE_POWER_JFD_DEMOCRACY_HELP_SOVEREIGNTY}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_DEMOCRACY_QUOTE">
+			<Text>"Although only a few may originate a policy, we are all able to judge it." - Pericles[NEWLINE][TAB]</Text>
+		</Row>
+		<!--OLIGARCHY-->
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_OLIGARCHY_DESC">
+			<Text>Oligarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_OLIGARCHY_HELP">
+			<Text>[ICON_BULLET]Loses 1 [ICON_JFD_VIRTUE] Virtue per 10 Population.[NEWLINE][ICON_BULLET]Generates [ICON_JFD_VIRTUE] Virtue from constructing Buildings.[NEWLINE][ICON_BULLET]Becomes Democracy after [ICON_RESISTANCE] Anarchy.[NEWLINE][ICON_BULLET]Yield Rates: [ICON_GOLD] [COLOR_POSITIVE_TEXT]125%[ENDCOLOR], [ICON_CULTURE] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR], [ICON_RESEARCH] [COLOR_NEGATIVE_TEXT]75%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_OLIGARCHY_STRATEGY">
+			<Text>Rule of few. A select few holds ultimate authority.[NEWLINE]{TXT_KEY_CYCLE_POWER_JFD_OLIGARCHY_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_OLIGARCHY_STRATEGY_SOVEREIGNTY">
+			<Text>Rule of few. A select few holds ultimate authority.[NEWLINE]{TXT_KEY_CYCLE_POWER_JFD_OLIGARCHY_HELP_SOVEREIGNTY}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_OLIGARCHY_QUOTE">
+			<Text>"The wise man must not be ordered but must order, and he must not obey another, but the less wise must obey him." - Aristotle[NEWLINE][TAB]</Text>
+		</Row>
+		<!--THEOCRACY-->
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_DESC">
+			<Text>Theocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_HELP">
+			<Text>[ICON_BULLET]Loses 1 [ICON_JFD_VIRTUE] Virtue per City NOT following your Religion.[NEWLINE][ICON_BULLET]Reverts to your previous Power after [ICON_RESISTANCE] Anarchy.[NEWLINE][ICON_BULLET]Generates [ICON_JFD_VIRTUE] Virtue from spending Faith.[NEWLINE][ICON_BULLET]Yield Rates: [ICON_PEACE] [COLOR_POSITIVE_TEXT]125%[ENDCOLOR], [ICON_RESEARCH] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR], [ICON_GOLD] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR], [ICON_CULTURE] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_STRATEGY">
+			<Text>Rule of God. God holds ultimate authority.[NEWLINE]{TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_STRATEGY_SOVEREIGNTY">
+			<Text>Rule of God. God holds ultimate authority.[NEWLINE]{TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_HELP_SOVEREIGNTY}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_STRATEGY_SHORT">
+			<Text>Rule of God. God holds ultimate authority.[NEWLINE]{TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_STRATEGY_WARNING">
+			<Text>[COLOR_WARNING_TEXT]This Power is only granted if you establish a Theocracy government. It cannot be recovered if lost to Anarchy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_QUOTE">
+			<Text>"I do not ask you for it any payment; my payment is only from the Lord of the worlds."[NEWLINE] - The Koran[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

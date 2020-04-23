@@ -985,26 +985,22 @@ function RefreshWorldGovernments()
 			local governmentID = v.GovernmentID
 			local _, _, strLeaderTitleStyleText = player:GetLeaderTitle(governmentID, true, true, true, nil, true)
 			local government = GameInfo.JFD_Governments[governmentID]
-			local governmentDesc 
-			if player:IsAnarchy() then
-				governmentDesc = Locale.ConvertTextKey("TXT_KEY_GOVERNMENT_JFD_ANARCHY_DESC")
-			else
-				if government.IsUnique then
-					governmentDesc = Locale.ConvertTextKey(government.Description)
-				else
-					governmentDesc = player:GetGovernmentName(governmentID)
-				end
-			end
+			local governmentDesc = player:GetGovernmentName(governmentID)
 			instance.CivilizationName:SetText(civShortDesc)
 			instance.CivilizationName:LocalizeAndSetToolTip(strStateTitleText)
+			instance.CivilizationName:ReprocessAnchoring()
 			instance.LeaderName:SetText(v.LeaderDesc)
 			instance.LeaderName:LocalizeAndSetToolTip(strLeaderTitleStyleText)
+			instance.LeaderName:ReprocessAnchoring()
 			instance.GovernmentType:SetText(governmentDesc)
 			instance.GovernmentType:LocalizeAndSetToolTip(governmentDesc)
+			instance.GovernmentType:ReprocessAnchoring()
 			instance.FactionType:LocalizeAndSetText(v.FactionType)
 			instance.FactionType:LocalizeAndSetToolTip(v.FactionTT)
+			instance.FactionType:ReprocessAnchoring()
 			instance.CyclePowerType:LocalizeAndSetText(v.CyclePowerType)
 			instance.CyclePowerType:LocalizeAndSetToolTip(v.CyclePowerType)
+			instance.CyclePowerType:ReprocessAnchoring()
 			
 			local civTypeSize = instance.CivilizationName:GetSizeY()
 			if civTypeSize > thisLargestSize then
@@ -1024,7 +1020,7 @@ function RefreshWorldGovernments()
 			local govtTypeSize = instance.GovernmentType:GetSizeY()
 			if govtTypeSize > thisLargestSize then
 				thisLargestSize = govtTypeSize
-				instance.GovernmentTypeBox:SetSizeY(thisLargestSize);
+				instance.GovernmentTypeBox:SetSizeY(thisLargestSize+10);
 			end
 			instance.Base:SetSizeY(thisLargestSize+10);
 			instance.WorldGovtStack:CalculateSize();

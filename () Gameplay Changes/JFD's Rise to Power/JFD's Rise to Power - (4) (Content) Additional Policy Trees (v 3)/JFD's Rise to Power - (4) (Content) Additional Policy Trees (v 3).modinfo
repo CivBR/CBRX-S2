@@ -75,9 +75,9 @@
     <File md5="0461793674EF38FA5365ED029A84073E" import="0">Core/Intrigue_Policies.sql</File>
     <File md5="CBDEA4B7D33ABF88D8927D26BCF575A2" import="0">Core/Intrigue_PoliciesCP.sql</File>
     <File md5="30E08CA9E3DC5469C93FC6EF69E2A432" import="0">Credits.txt</File>
-    <File md5="6B928B81D0444D1E82569125739CAC14" import="0">Lua/JFD_Conservation_Functions.lua</File>
-    <File md5="FFF5FD23FC65E49F34537561016773C3" import="0">Lua/JFD_Industry_Functions.lua</File>
-    <File md5="80DDFD26CE237F6463B4C48D8D42A7FA" import="0">Lua/JFD_Intrigue_Functions.lua</File>
+    <File md5="6B928B81D0444D1E82569125739CAC14" import="0">Lua/JFD_RTP_Conservation_Functions.lua</File>
+    <File md5="FFF5FD23FC65E49F34537561016773C3" import="0">Lua/JFD_RTP_Industry_Functions.lua</File>
+    <File md5="0D002DB963B0C4E73FA0980DCD7FDA69" import="0">Lua/JFD_RTP_Intrigue_Functions.lua</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -100,18 +100,18 @@
     </OnModActivated>
   </Actions>
   <EntryPoints>
-    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Industry_Functions.lua">
-      <Name>JFD_Innovations_Functions.lua</Name>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Industry_Functions.lua">
+      <Name>JFD_RTP_Industry_Functions.lua</Name>
       <Description>
       </Description>
     </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Conservation_Functions.lua">
-      <Name>JFD_Conservation_Functions.lua</Name>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Conservation_Functions.lua">
+      <Name>JFD_RTP_Conservation_Functions.lua</Name>
       <Description>
       </Description>
     </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Intrigue_Functions.lua">
-      <Name>JFD_Intrigue_Functions.lua</Name>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Intrigue_Functions.lua">
+      <Name>JFD_RTP_Intrigue_Functions.lua</Name>
       <Description>
       </Description>
     </EntryPoint>
