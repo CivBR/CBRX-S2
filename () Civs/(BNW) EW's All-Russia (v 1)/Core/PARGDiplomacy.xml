@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/27/2019 6:24:00 AM -->
+<GameData>
+	<Diplomacy_Responses>
+		<Row Leadertype="LEADER_EW_KOLCHAK">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_EW_KOLCHAK_FIRSTGREETING_%</Response>
+		</Row>
+		<Row Leadertype="LEADER_EW_KOLCHAK">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_EW_KOLCHAK_DEFEATED</Response>
+		</Row>
+	</Diplomacy_Responses>
+</GameData>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/12/2019 12:25:05 AM -->
+<GameData>
+	<Language_en_US>
+		<!--DOM-->
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_PARG_DOM">
+			<Text>Salutations, Admiral Alexander Kolchak. You may not like the position you found yourself in- trapped, betrayed, leading a people with only naval experience. Russia was left in your hands, and you fought harshly, if not valiantly. Though people may say you were cruel and emotionless, you delayed the spread of communism throughout Russia for years- an impact that would be followed by others for decades. However, you could not hold on forever, and on your retreat you were betrayed once more, handed over to the Bolsheviks to be executed. Your last words showed the truth of you- a tragic man in a bad place.[NEWLINE][NEWLINE]Kolchak, it is with great sorrow that we ask you to take up the reigns of Russia once again. May you lead them to victory or to the gates of hell, they'll stand by your side. Can you prove yourself the leader you weren't before? Can you demolish your foes like they once demolished you? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--Leader-->
+		<Row Tag="TXT_KEY_LEADER_EW_KOLCHAK">
+			<Text>Kolchak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_EW_KOLCHAK_PEDIA">
+			<Text>Admiral Alexander Kolchak was the Supreme Ruler of Russia and leader of the Russian State that emerged from the Provisional All-Russian Government (or PA-RG.) A strong military leader rather lacking in administrative skills, Kolchak made many enemies during his brief stint as ruler of Russia. However, his undeniable impact in leading the White Forces has provided an interesting character of study. Kolchak was considered kind and yet severe and reserved. Notable accusations claim Kolchak's forces razed several Russian villages during the revolution, and so Kolchak remains a controversial figure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_HEADING_1">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_TEXT_1">
+			<Text>Alexander Kolchak was born to Russian Nobility of Moldovan descent in St. Petersburg, 1874. Kolchak's father was a retired Major-General, with Kolchak continuing the legacy by studying for a Naval career. He served in Vladivostok for 4 years, later serving as a Hydrologist on the Russian Polar Expedition aboard the Zarya. During this time, he received a rather charming nickname- Kolchak the Polar.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_HEADING_2">
+			<Text>Naval Career</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_TEXT_2">
+			<Text>Kolchak's Naval career continued in a rather depressing form. On his way to marry his Fiancee, the young Kolchak was summoned to fight in the Russo-Japanese War, which had just begun. Showing incredible naval prowess, Kolchak received honors for his role in sinking the Takasago. Later, he was held as a Prisoner of War in Nagasaki. In 1905, at the age of 31, he was promoted to Lieutenant Commander and served on several more research expeditions. Alexander's naval career would continue, until it reached time for the Great War.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_HEADING_3">
+			<Text>World War I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_TEXT_3">
+			<Text>The start of the first World War was rather defensive for the Russians, and Kolchak himself was on the flagship Pogranichik, overseeing the laying of naval mines. Becoming the youngest Vice-Admiral, Kolchak served his duty in World War I up until the Revolution. During the February Revolution, he was invited to the Provisional Government, where he stated his belief that the only way to tie the country together was to re-establish capital punishment in the military branches. Many during this period spoke of Kolchak as a future dictator for his beliefs. Many supported him, however, and when a plot was made to put Kolchak in charge, Alexander Kerensky sent Kolchak to the US, where he had only a brief visit. Later, during the Russian Civil War, he returned to Russia through Japan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_HEADING_4">
+			<Text>Civil War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_TEXT_4">
+			<Text>On his return to Russia through Vladivostok, and learning that Russia was no longer engaged in the fight against Germany, Kolchak offered to join the British Army, as he believed in the cause against the German Empire. However, the Allies had other plans- Kolchak was to topple Vladimir Lenin and return the Russian country to the Allies. Kolchak was reluctant to accept. Soon, the creation of the Provisional All-Russian Government launched Kolchak into a leadership position, and he was now in charge of armies, which he had never led before. Later, giving a haunting manifesto, Kolchak announced the end of the PA-RG and asked his citizens to fight and die for the Anti-Bolshevik cause. A controversial statement, many were pleased with Kolchak's ascent to power. There was, indeed, some success against the Bolsheviks early on- however it would not last.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_HEADING_5">
+			<Text>Downfall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_TEXT_5">
+			<Text>While initially leading the White Army to great success, Kolchak's brutish tactics would arouse hatred in allies. The Czechoslovak Legion and Polish 5th Rifle Division would later withdraw from the conflict, and the Americans would serve only to defend the Trans-Siberian Railway. Kolchak was later betrayed by the Czechoslovaks, who offered him safe passage to a British mission in Irkutsk, only to turn him in to the Left SR authorities. Kolchak was sentenced to death by Firing Squad, where he remained calm. His final words asked for the commander in charge to relay a message to his wife, blessing his son. The commander joked in response that he'd try, "if I don't forget about it."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_HEADING_6">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_TEXT_6">
+			<Text>Kolchak may be one of the most interesting figures during the Russian Civil War. A complicated personality who never showed emotion, Kolchak was an able military leader but not fit to lead a country. Dying before he turned 50, Kolchak rose through the ranks only for his success to lead to his betrayal and demise. However, there are movements in Russia seeking to rehabilitate Kolchak's image. Kolchak served not for the Monarchy, but out of a Patriotic cause. Several monuments were built to honor the man.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_LIVED">
+			<Text>1874-1920</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_SUBTITLE">
+			<Text>Supreme Ruler of Russia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_EW_KOLCHAK_NAME">
+			<Text>Admiral Kolchak</Text>
+		</Row>
+		<!--Trait-->
+		<Row Tag="TXT_KEY_TRAIT_EW_TSRR_SHORT">
+			<Text>Siberian Intervention</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_EW_TSRR">
+			<Text>Upon entering war, Trade Routes grant you a Unit near your capital for the duration. Occupied cities earn more production.</Text>
+		</Row>
+		<!--Civilization-->
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_PARG">
+			<Text>Russian State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_PARG_SHORT">
+			<Text>All-Russia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_PARG_ADJ">
+			<Text>All-Russian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_PARG_PEDIA_HEADING_1">
+			<Text>Short History of the Russian State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_PARG_PEDIA_TEXT_1">
+			<Text>The Provisional All-Russian Government was the government centered in Omsk ruled by Alexander Kolchak. The stronghold of the White forces after the fall of the Monarchy, the PA-RG would later become known as the Russian State, a short-lived period of Monarchist rule. Controlling the majority of Siberia along the Trans-Siberian Railroad, the Russian State would pose a fierce resistance to the Red Army. However, it was too late to stop the rise of Communism.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_EW_PARG_CITY_1">
+			<Text>Omsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_2">
+			<Text>Ufa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_3">
+			<Text>Perm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_4">
+			<Text>Samara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_5">
+			<Text>Saratov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_6">
+			<Text>Arkhangelsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_7">
+			<Text>Kazan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_8">
+			<Text>Glazov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_9">
+			<Text>Tomsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_10">
+			<Text>Yekaterinburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_11">
+			<Text>Vladivostok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_12">
+			<Text>Simbirsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_13">
+			<Text>Viatka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_14">
+			<Text>Orenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_15">
+			<Text>Uralsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_16">
+			<Text>Chelyabinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_17">
+			<Text>Irkutsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_18">
+			<Text>Taiga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_19">
+			<Text>Kansk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_20">
+			<Text>Nizhneudinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_21">
+			<Text>Kurgan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_22">
+			<Text>Troitsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_23">
+			<Text>Petropavlovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_24">
+			<Text>Tiumen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_25">
+			<Text>Tobolsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_26">
+			<Text>Ishim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_27">
+			<Text>Chita</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_28">
+			<Text>Verjneudinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_29">
+			<Text>Nerchinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_30">
+			<Text>Jabarovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_31">
+			<Text>Kainsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_CITY_32">
+			<Text>Iman</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_EW_PARG_SPY_1">
+			<Text>Nikolai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_SPY_2">
+			<Text>Vladimir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_SPY_3">
+			<Text>Pyotr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_SPY_4">
+			<Text>Vasily</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_SPY_5">
+			<Text>Sergey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_SPY_6">
+			<Text>Grigory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_SPY_7">
+			<Text>Mikhail Diterikhs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_SPY_8">
+			<Text>Rudolf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_PARG_SPY_9">
+			<Text>Anatoly</Text>
+		</Row>
+		<!--Units-->
+		<Row Tag="TXT_KEY_UNIT_EW_BRONEPOEZD">
+			<Text>Bronepoezd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EW_BRONEPOEZD_HELP">
+			<Text>Replaces the Landship. Less movement but stronger, and can build Railroads. While not on a route, loses all movement and gets a ranged attack. Upon building a Railroad, restores mobility.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EW_BRONEPOEZD_STRATEGY">
+			<Text>A unit primarily for defense, it can move around your own lands quickly- so long as there's a route in place. With the defense of the landship in addition to a powerful ranged attack, it can fortify any position.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EW_BRONEPOEZD_PEDIA">
+			<Text>The Armored Train, or Bronepoezd, was used by both sides during the Russian Civil War, mostly to transport supplies. However, they were vital to keeping the war going- albeit only for a short time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EW_LEGIONE">
+			<Text>Legione Redenta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EW_LEGIONE_HELP">
+			<Text>Standalone Melee Unit unlocked at Replaceable Parts. Earned as a Temporary Unit, but can be produced during war to spawn more. Has the Sapper promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EW_LEGIONE_STRATEGY">
+			<Text>Cheaper than the Great War Infantry, but can only be trained during war, the Legione Redenta makes for a great unit in your offense. In addition, their Sapper ability makes them a vital unit for taking your enemies down.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EW_LEGIONE_PEDIA">
+			<Text>The Legione Redenta were Italian interventionists who fought alongside the Czechoslovak Legion in Siberia. Composed mostly of prisoners from Austria-Hungary, upon their return home they were treated as heroes. Thus, the name "Redeemed Legion."</Text>
+		</Row>
+		<!--Promotions-->
+		<Row Tag="TXT_KEY_PROMOTION_EW_PARGFOREIGN">
+			<Text>Interventionist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EW_PARGFOREIGN_HELP">
+			<Text>Disbands upon Peace.</Text>
+		</Row>
+		<!--Diplomacy-->
+		<Row Tag="TXT_KEY_LEADER_EW_KOLCHAK_FIRSTGREETING_1">
+			<Text>The gates of hell are inviting, fellow leader. Welcome to the true man's Russia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_EW_KOLCHAK_FIRSTGREETING_2">
+			<Text>Greetings, I am Admiral Kolchak. That is all you need to know.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_EW_KOLCHAK_DEFEATED">
+			<Text>It was treachery, not the monarchy, that led Russia to fall. If I also fall, would you tell my wife that I bless our son?</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
