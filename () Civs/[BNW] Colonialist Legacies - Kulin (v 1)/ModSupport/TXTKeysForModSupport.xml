@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 9/22/2015 8:02:14 PM -->
 <GameData>
-	<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_TITLE_LEADER_KULIN">
-		<Text>Elder</Text>
-	</Row>
-	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_1">
-		<Text>Derrimut</Text>
-	</Row>
-	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_2">
-		<Text>Billibellary</Text>
-	</Row>
-	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_3">
-		<Text>Simon Wonga</Text>
-	</Row>
-	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_4">
-		<Text>Munangabum</Text>
-	</Row>
-	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_5">
-		<Text>Aunty Sue Rankin</Text>
-	</Row>
-	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_6">
-		<Text>Murrangurk</Text>
-	</Row>
-	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_7">
-		<Text>Mick Harding</Text>
-	</Row>
-	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_8">
-		<Text>Kuller Kullup</Text>
-	</Row>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_TITLE_LEADER_KULIN">
+			<Text>Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_1">
+			<Text>Derrimut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_2">
+			<Text>Billibellary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_3">
+			<Text>Simon Wonga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_4">
+			<Text>Munangabum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_5">
+			<Text>Aunty Sue Rankin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_6">
+			<Text>Murrangurk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_7">
+			<Text>Mick Harding</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_8">
+			<Text>Kuller Kullup</Text>
+		</Row>
+	</Language_en_US>
 </GameData>
