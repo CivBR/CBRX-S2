@@ -20,7 +20,7 @@ INSERT INTO ArtDefine_UnitMemberInfos (Type, Scale, ZOffset, Domain, Model, Mate
 
 INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset )
 	SELECT	('ART_DEF_UNIT_UC_ACA_VERA'), TileType, ('sv_caraya.dds')
-	FROM ArtDefine_StrategicView WHERE (Type = 'ART_DEF_UNIT_CAVALRY');
+	FROM ArtDefine_StrategicView WHERE (StrategicViewType = 'ART_DEF_UNIT_CAVALRY');
 --==========================================================================================================================
 --==========================================================================================================================
 --==========================================================================================================================
