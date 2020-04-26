@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CIVILIZATION-->
+		<Row Tag="TXT_KEY_CIV_PG_GRANCOLOMBIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_PG_GRANCOLOMBIA_TEXT_1">
+			<Text>
+				Gran Colombia (Great Colombia) is a name used today for the state that encompassed much of northern South America and part of southern Central America from 1819 to 1831. This short-lived republic included the territories of present-day Colombia, Venezuela, Ecuador, Panama, northern Peru and northwest Brazil. The first three were the successor states to Gran Colombia at its dissolution. Panama was separated from Colombia in 1903. Since Gran Colombia's territory corresponded more or less to the original jurisdiction of the former Viceroyalty of New Granada, it also claimed the Caribbean coast of Costa Rica and Nicaragua, the Mosquito Coast, and Guayana Esequiba in Guyana.
+				[NEWLINE][NEWLINE]
+				Its existence was marked by a struggle between those who supported a centralized government with a strong presidency and those who supported a decentralized, federal form of government. At the same time, another political division emerged between those who supported the Constitution of Cucuta and two groups who sought to do away with the Constitution, either in favor of breaking up the nation into smaller republics or maintaining the union but creating an even stronger presidency. The faction that favored constitutional rule coalesced around Vice-President Francisco de Paula Santander, while those who supported the creation of a stronger presidency were led by President Simon Bolivar. The two men had been allies in the war against Spanish rule, but by 1825, their differences had become public and were an important part of the political instability from that year onward.
+			</Text>
+		</Row>
+		
+		<!--LEADER-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PG_BOLIVAR_SUBTITLE">
+			<Text>El Hombre de América</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PG_BOLIVAR_TITLES_1">
+			<Text>Libertador</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PG_BOLIVAR_TITLES_2">
+			<Text>Presidente</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PG_BOLIVAR_TITLES_3">
+			<Text>Dictador</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PG_BOLIVAR_LIVED">
+			<Text>24 July 1783 – 17 December 1830C</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PG_BOLIVAR_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PG_BOLIVAR_TEXT_1">
+			<Text>
+				Simon Jose Antonio de la Santisima Trinidad Bolivar y Palacios Ponte y Blanco (24 July 1783 – 17 December 1830), commonly known as Simon Bolivar was a Venezuelan military and political leader. Bolivar played a key role in Latin America's successful struggle for independence from the Spanish Empire, and is today considered one of the most influential politicians in the history of the Americas.
+				[NEWLINE][NEWLINE]
+				Following the triumph over the Spanish monarchy, Bolivar participated in the foundation of the first union of independent nations in Hispanic-America, a republic, which was named Gran Colombia, of which he was president from 1819 to 1830. Bolivar remains regarded in Hispanic-America as a hero, visionary, revolutionary, and liberator. During his lifetime, he led Venezuela, Colombia (including Panama at the time), Ecuador, Peru (together with Don Jose de San Martin), and Bolivia to independence, and helped lay the foundations for democratic ideology in much of Latin America.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_PG_BOLIVAR_TEXT">
+			<Text>Gran Libertador, Simon Bolivar. You led South America to its independency against the Spanish Empire.
+				[NEWLINE][NEWLINE]Following the triumph over the Spanish monarchy, you participated in the foundation of the first union of independent nations in Hispanic-America, a republic, which was named Gran Colombia. You led Venezuela, Colombia (including Panama at the time), Ecuador, Peru , and Bolivia to independence, and helped lay the foundations for democratic ideology in much of Latin America.
+				[NEWLINE][NEWLINE]Your dream had been to engender an American Revolution-style federation among all the newly independent republics, with a government set up solely to recognize and uphold the rights of the individual. The dream didn't live long however, as clashing interests within the Libertadores of each region made the idea lose strenght and influence, it was the only and short time so many countries in South America were under only one government.
+				[NEWLINE][NEWLINE]These differences still manage to generate problems to South America. Will you help them reunite again? Will you build a civilization that will stand the test of time?
+			</Text>
+		</Row>
+		
+		<!--LLANERO-->
+		<Row Tag="TXT_KEY_UNIT_PG_LLANERO_TEXT">
+			<Text>
+				A llanero (Plainsman) is a Venezuelan or Colombian herder. The name is taken from the Llanos grasslands occupying western Venezuela and eastern Colombia. The Llanero were originally part Spanish and Indian and have a strong culture including a distinctive form of music.
+				[NEWLINE][NEWLINE]
+				During the wars of independence, Llaneros served in both armies and provided the bulk of the cavalry during the war. In 1819, an army of Llaneros, led by Simon Bolivar and Jose Antonio Paez, defeated the Spanish with a surprise attack when they crossed over the Orinoco plains and the Andes mountains.
+			</Text>
+		</Row>
+
+		<!--LIBERTADOR-->
+		<Row Tag="TXT_KEY_UNIT_PG_LIBERTADOR_TEXT">
+			<Text>
+				Libertadores ("Liberators") were the principal leaders of the Latin American wars of independence from Spain and Portugal. They are named that way in contrast with the Conquistadors, who were so far the only Spanish/Portuguese peoples recorded in the South American history.
+				[NEWLINE][NEWLINE]
+				They were largely bourgeois, criollos (local-born people of European, mostly of Spanish or Portuguese, ancestry) influenced by liberalism and in most cases with military training in the metropole (mother country).
+			</Text>
+		</Row>
+		<Update>
+			<Set Text="Supported against Cities"/>
+			<Where Tag="TXT_KEY_EUPANEL_CITY_SAPPED"/>
+		</Update>
+		
+	</Language_en_US>
+</GameData>

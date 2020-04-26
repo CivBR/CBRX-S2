@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="89d6512d-51df-42b6-97ec-49d18a364b0d" version="1">
+  <Properties>
+    <Name>Sukritact's Three Affiliated Tribes</Name>
+    <Teaser>Sukritact's Three Affiliated Tribes</Teaser>
+    <Description>Sukritact's Three Affiliated Tribes</Description>
+    <Authors>Sukritact, Reedstilt</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD’s Prestige" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD's Cities in Development" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD's and Pouakai's Mercenaries" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions" />
+    <Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="0" maxversion="999" title="More Luxuries" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="46412FD0EBA5B4C61F6718D714A2FF54" import="1">Art/Atlases/MC_MHA_128.dds</File>
+    <File md5="5E9C84F17B9A7CFA636C978EDBFEABFA" import="1">Art/Atlases/MC_MHA_256.dds</File>
+    <File md5="6FE62A522B0E1F92DE131C109DA74E7C" import="1">Art/Atlases/MC_MHA_32.dds</File>
+    <File md5="6130820F6430D333AC0D25053510E198" import="1">Art/Atlases/MC_MHA_45.dds</File>
+    <File md5="945CE5C655AD54906101B58AE42BEDB1" import="1">Art/Atlases/MC_MHA_64.dds</File>
+    <File md5="425BEA77E0EA6CD00A2EE2377CB6ADFF" import="1">Art/Atlases/MC_MHA_80.dds</File>
+    <File md5="02967D4D09FE92E4E8938E8A727FCF6B" import="1">Art/Atlases/MC_MHA_Alpha_128.dds</File>
+    <File md5="6CC76FA5B31283ADEAC51D23A5A0E4FC" import="1">Art/Atlases/MC_MHA_Alpha_16.dds</File>
+    <File md5="E4FB98C21CCE2EAA7B960A55054EAA1C" import="1">Art/Atlases/MC_MHA_Alpha_24.dds</File>
+    <File md5="E7791253915AE752701792314225F914" import="1">Art/Atlases/MC_MHA_Alpha_32.dds</File>
+    <File md5="47BE1C37A9A364C7AE50BE528FEE27E9" import="1">Art/Atlases/MC_MHA_Alpha_45.dds</File>
+    <File md5="1A8395F792962EA569D5ED17824A279C" import="1">Art/Atlases/MC_MHA_Alpha_48.dds</File>
+    <File md5="65D99422775CD636A07D8643501F58BE" import="1">Art/Atlases/MC_MHA_Alpha_64.dds</File>
+    <File md5="48CCDE76EBB743384F4FEB5780774C41" import="1">Art/Atlases/MC_MHA_Alpha_80.dds</File>
+    <File md5="79AEFC5A2654293E462736FD0DAE2149" import="1">Art/Scenes/MC_FourBears_Scene.xml</File>
+    <File md5="64CE0EB0490265B5558D6E2787A3D512" import="1">Art/Scenes/MC_FourBears.dds</File>
+    <File md5="8AFE46857688EF098591B1D116CB4913" import="1">Art/Scenes/MC_FourBears_DOM.dds</File>
+    <File md5="66200CF6F03357EBCD3E1873D45C18F8" import="1">Art/Scenes/MHAMap512.dds</File>
+    <File md5="5642AD48B9CB1B553576CFC78614ECE1" import="1">Art/Unit/MC_BlackMouth.fxsxml</File>
+    <File md5="7EB55721699BEEBA58DD6E24FCF9F65B" import="1">Art/Unit/MC_BlackMouth.gr2</File>
+    <File md5="AA13E09B34AE27B5454585C4851D648C" import="1">Art/Unit/MC_BlackMouth_32.dds</File>
+    <File md5="2570D7987C07CF4F29B1F245D4675DBB" import="1">Art/Unit/MC_BlackMouth_diff.dds</File>
+    <File md5="230D7B1ABC6F6D3A5093BA965C3EF454" import="1">Art/Unit/sv_MC_BlackMouth.dds</File>
+    <File md5="B2D46FAFFD816B4D78F399D8D316A3C9" import="1">Audio/MHA_Peace.mp3</File>
+    <File md5="A017DE86797DE551D0C1A1B2D26EF85A" import="1">Audio/MHA_War.mp3</File>
+    <File md5="E698F43F3E2530C019F3DEBF46EE0B00" import="1">Core/Decisions Support/MHA_Decisions.lua</File>
+    <File md5="C74E5D7ED8DF0B23107128FE3F89A8B2" import="0">Core/Decisions Support/MHA_Decisions.sql</File>
+    <File md5="7E3C149F610FAE2EA7503DD3C76BCEBB" import="0">Core/MHA_ArtDefines.sql</File>
+    <File md5="6E03127B1335185E70FB9BD932A08D37" import="0">Core/MHA_Leaderhead.sql</File>
+    <File md5="6B4BA4C9A5C5F3F21200CE55C66C4A77" import="0">Core/MHA_Buildings.sql</File>
+    <File md5="7F48E1A1F776252919CE1FCB8B06F522" import="0">Core/MHA_Civilizations.sql</File>
+    <File md5="96D27EC7812FF7763BA92C21DFC83DD9" import="0">Core/MHA_Diplomacy.sql</File>
+    <File md5="70690F7A043B530A418E0387DA4B5DF1" import="0">Core/MHA_EN_US.sql</File>
+    <File md5="159AAE2F1EB78D5E968D1CE0F2F43EAE" import="0">Core/MHA_ModSupport.sql</File>
+    <File md5="4D9E3D13E5297ED7B2ABCCD18A128B26" import="0">Core/MHA_PlayerColours.sql</File>
+    <File md5="465FEFBB770DF5163D9B977CD0DA48FA" import="0">Core/MHA_Units.sql</File>
+    <File md5="A60883B2DD7CACF9669AAA6BD3E7B933" import="0">Lua/MHA_ChooseSociety.lua</File>
+    <File md5="C5954B0C99122B97B790DC94638EAA10" import="0">Lua/MHA_ChooseSociety.xml</File>
+    <File md5="101C53268B4645D5F0D2705CB3903B5C" import="0">Lua/MC_MHA_Functions.lua</File>
+    <File md5="5244308719C5B41D37E35BCE6F354D41" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="B750065D7A8E3E4CDDEB871C28A09289" import="0">Lua/Utilities/Sukritact's MCIS/CityInfoStack.lua</File>
+    <File md5="120EB71025973A8A48B38314241DD0B3" import="0">Lua/Utilities/Sukritact's MCIS/CityInfoStack.xml</File>
+    <File md5="ED1D02CAF021D84FFE394A225746657F" import="0">Lua/Utilities/Sukritact's MCIS/MC_MHA_CityInfo.lua</File>
+    <File md5="F4CCDD6C69F577F65377D971930AE41C" import="0">Lua/Utilities/Sukritact's MCIS/MC_MHA_CityInfo.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/MHA_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MHA_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MHA_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MHA_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MHA_EN_US.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MHA_Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MHA_PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MHA_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MHA_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Decisions Support/MHA_Decisions.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Utilities/Sukritact's MCIS/CityInfoStack.lua">
+      <Name>CityInfoStack.lua</Name>
+      <Description>CityInfoStack.lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Utilities/Sukritact's MCIS/MC_MHA_CityInfo.lua">
+      <Name>MC_MHA_CityInfo.lua</Name>
+      <Description>MC_MHA_CityInfo.lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/MC_MHA_Functions.lua">
+      <Name>MC_MHA_Functions.lua</Name>
+      <Description>MC_MHA_Functions.lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/MHA_ChooseSociety.lua">
+      <Name>MHA_ChooseSociety.lua</Name>
+      <Description>MHA_ChooseSociety.lua</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

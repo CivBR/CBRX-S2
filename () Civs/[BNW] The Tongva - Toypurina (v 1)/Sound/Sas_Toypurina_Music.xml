@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/9/2020 1:40:41 PM -->
+<GameData>
+	<Audio_Sounds>
+		<!--Beausoleil Music-->
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_SAS_TOYPURINA_PEACE</SoundID>
+			<Filename>Sas_Toypurina_Peace</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_SAS_TOYPURINA_WAR</SoundID>
+			<Filename>Sas_Toypurina_War</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<!--Beausoleil Music-->
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<!--Beausoleil Music For Audio Scripts-->
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_SAS_TOYPURINA_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_SAS_TOYPURINA_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>70</MinVolume>
+			<MaxVolume>70</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_SAS_TOYPURINA_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_SAS_TOYPURINA_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>65</MinVolume>
+			<MaxVolume>65</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_AMBIENCE_LEADER_SAS_TOYPURINA_AMBIENCE</ScriptID>
+			<SoundID>SND_AMBIENCE_COAST_BED</SoundID>
+			<SoundType>GAME_SFX</SoundType>
+			<Looping>true</Looping>
+			<MinVolume>20</MinVolume>
+			<MaxVolume>20</MaxVolume>
+		</Row>
+		<!--Beausoleil Music-->
+	</Audio_2DSounds>
+</GameData>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8066ef36-c011-41a5-8298-2d4e974163d2" version="4">
+  <Properties>
+    <Name>PorkBean's Quilombo dos Palmares</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the [COLOR_POSITIVE_TEXT]Quilombo dos Palmares[ENDCOLOR] (1605-1694), led by Zumbi! Part of PorkBean's Rebellions and Failed States.</Teaser>
+    <Description>This mod adds the [COLOR_CITY_GREEN]Quilombo dos Palmares[ENDCOLOR] by Porkbean to the game as a playable civilization.
+[NEWLINE]
+[NEWLINE]
+[NEWLINE][COLOR_CITY_GREEN]Leader: [ENDCOLOR]Zumbi
+[NEWLINE]
+[NEWLINE][COLOR_CITY_GREEN]Angola Janga: [ENDCOLOR]May capture all enemy civilian Units. Your civilian Units deal slight damage to adjacent enemies.
+[NEWLINE]
+[NEWLINE][COLOR_CITY_GREEN]Capoeirista: [ENDCOLOR]Ancient Era unit that gains double Movement in Jungle. If it begins a turn adjacent to two or more enemy units, the Capoeirista will ignore their Zone of Control and gain an extra [ICON_MOVES] Movement point. Replaces the Warrior.
+[NEWLINE]
+[NEWLINE][COLOR_CITY_GREEN]Mocambo: [ENDCOLOR]Must be built in Forest or Jungle, and may be built in friendly or neutral territory.  Yields +1 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production. A Palmarista Unit stationed on a Mocambo gains a +50% Defense bonus, and may capture defeated enemies. Unlocks at Guilds.</Description>
+    <Authors>PorkBean</Authors>
+    <SpecialThanks>DuskJockey, DarthKyoku, TPangolin, JFD, TopHatPaladin, ExplosiveWatermelon</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>https://civilization-v-customisation.fandom.com/wiki/Palmares_(Zumbi)</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>4</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack" />
+    <Mod id="8c101299-95c5-4b28-b7ed-4e0f774857ef" minversion="0" maxversion="999" title="Historical Religions" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Pouakai's Enlightenment Era" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="7D72CC6175F2A8291466469BC3BB773B" import="1">Art/Mocambo/Mocambo.dds</File>
+    <File md5="10E9D16F3AA5D080E226C9B91CAD58C9" import="1">Art/Mocambo/Mocambo.gr2</File>
+    <File md5="884537E38CFD07D26F58E80DF15DA30B" import="1">Art/Mocambo_Flag45.dds</File>
+    <File md5="87957B6A56B044A9B80F012FD6A1AD5E" import="1">Art/Mocambo_Flag64.dds</File>
+    <File md5="AB03467C5511E6CC17066CCC184E93AD" import="1">Art/PalmaresAlpha128.dds</File>
+    <File md5="3E8FD3B26095E6081917F078AB1509AC" import="1">Art/PalmaresAlpha16.dds</File>
+    <File md5="2ED45E38D4622B78515F7F51DF028E6C" import="1">Art/PalmaresAlpha24.dds</File>
+    <File md5="6DB0C18B64CFBAE3FFB759631B63D6E4" import="1">Art/PalmaresAlpha256.dds</File>
+    <File md5="16343DCAAB3A1F220710590FC55B1839" import="1">Art/PalmaresAlpha32.dds</File>
+    <File md5="38CD780841D41C59C2469C41AEA0FD41" import="1">Art/PalmaresAlpha45.dds</File>
+    <File md5="650BB7675652A8A7C32211381E372CE9" import="1">Art/PalmaresAlpha48.dds</File>
+    <File md5="5DFA9490EB06104CC36CCD52213C7DAD" import="1">Art/PalmaresAlpha64.dds</File>
+    <File md5="802C68D6392A5377F8EB3275407520F2" import="1">Art/PalmaresAlpha80.dds</File>
+    <File md5="F857449FD1E09FA615C8E651AF75DE13" import="1">Art/Palmares_Atlas128.dds</File>
+    <File md5="B9A87892D5526CA54868BC377BAAB328" import="1">Art/Palmares_Atlas214.dds</File>
+    <File md5="31455C5D0CFB6D04877A5C30D33CFE15" import="1">Art/Palmares_Atlas256.dds</File>
+    <File md5="DF2CB7DEA26EC5C25BDAA74A6FA2F1B6" import="1">Art/Palmares_Atlas32.dds</File>
+    <File md5="11902FA9CC6D768D49B4A7EB4A49A567" import="1">Art/Palmares_Atlas45.dds</File>
+    <File md5="EBBC14BF722FBDC8F8230F085653E141" import="1">Art/Palmares_Atlas64.dds</File>
+    <File md5="CF676895839EE472A529F5EBEE41CDE4" import="1">Art/Palmares_Atlas80.dds</File>
+    <File md5="460C6BCB86E589C3054921818863DC7F" import="1">Art/Palmares_DOM.dds</File>
+    <File md5="C6C38701DD4E523A4D3C0D69B3F960C5" import="1">Art/Palmares_Map.dds</File>
+    <File md5="A793CB81EAC852EC9E0599416BE67916" import="1">Art/Capoeirista/Capoeirista.dds</File>
+    <File md5="A1170E65BE653060E91EA0BF9B05B12C" import="1">Art/Capoeirista/Capoeirista.fxsxml</File>
+    <File md5="7D010548665335E2547525A2325BBAAD" import="1">Art/Capoeirista/Capoeirista.gr2</File>
+    <File md5="85CC97ED04CDA6A9C6472FE69B6BD678" import="1">Art/Capoeirista/Capoeirista_sref.dds</File>
+    <File md5="1E525F8DE56140A16DCA0DA15B80AAF3" import="1">Art/capo_sv.dds</File>
+    <File md5="0F24826A8CE5757BA8A54E4261CD85A2" import="1">Art/Flag_Capoeirista.dds</File>
+    <File md5="CBA3D2AC2362F45875D02720C8FC18DC" import="1">Art/Scene_Zumbi.dds</File>
+    <File md5="77A36A9561C4F75FB659ADE1C829ACF5" import="1">Art/SV_Mocambo.dds</File>
+    <File md5="75DDE3B9DFDE45178E6A845AD7B50DDA" import="1">Art/ZumbiPeace.mp3</File>
+    <File md5="2197F516622761A6A6F22E72CDB695C5" import="1">Art/ZumbiWar.mp3</File>
+    <File md5="B3B10C32F8D88E875F4F3D66E5C0FE68" import="1">Art/Mocambo/Mocambo_hb.fxsxml</File>
+    <File md5="30BA0CDDCB2655923AFDBD225406C056" import="1">Art/Mocambo/Mocambo_pl.fxsxml</File>
+    <File md5="ED664978F16CAAC52BDF47B208188BD0" import="0">Art/Mocambo/MocamboDefine.sql</File>
+    <File md5="EF7FB1B29E99BB0F4615717291371D35" import="1">Art/Mocambo/Mocambo_01.fxsxml</File>
+    <File md5="10812FB975CC18661C071F3F2994A239" import="0">Core/ArtDefines.sql</File>
+    <File md5="D6D6F0C610E1CFEB1A5F78710BFF65E7" import="0">Core/DiplomacyDefines.sql</File>
+    <File md5="133D0846954408B6571CAED0306D9C3E" import="0">Core/DiplomacyText.xml</File>
+    <File md5="BB22060DE2186500AB3DB5128F63E569" import="0">Core/GameDefines.sql</File>
+    <File md5="3D88AB327D91A097FD3AA0368DCC36F7" import="0">Core/GameText.xml</File>
+    <File md5="2BB1F972E087D1EE87A9523D502CF0CB" import="0">Core/ModSupport.sql</File>
+    <File md5="4C1327F752E67C3A37CB6AA27CF1838A" import="1">Core/Zumbi_Scene.xml</File>
+    <File md5="BF9883AF1E25B0952B3EA8041826F5C6" import="0">Lua/Palmares_Functions.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/PlotIterators.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Mocambo/MocamboDefine.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DiplomacyText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/DiplomacyDefines.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Palmares_Functions.lua">
+      <Name>Palmares_Functions.lua</Name>
+      <Description>Lua for the Palmares functions</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

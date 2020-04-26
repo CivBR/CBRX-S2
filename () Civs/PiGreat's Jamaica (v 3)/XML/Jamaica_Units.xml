@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/11/2017 9:19:31 PM -->
+<GameData>
+	
+
+	-<Units>
+
+		
+		-<Row>
+			
+			<Class>UNITCLASS_GATLINGGUN</Class>
+
+			<Type>UNIT_PI_JAMAICA_MAROON_REBEL</Type>
+
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+
+			<Combat>27</Combat>
+			<RangedCombat>27</RangedCombat>
+			<Range>1</Range>
+			<Cost>215</Cost>
+
+			<FaithCost>430</FaithCost>
+
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+
+			<Moves>2</Moves>
+
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+
+			<Domain>DOMAIN_LAND</Domain>
+
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+
+			<Description>TXT_KEY_UNIT_PI_JAMAICA_MAROON_REBEL</Description>
+
+			<Civilopedia>TXT_KEY_CIVLOPEDIA_JAMAICA_MAROON_REBEL_TEXT</Civilopedia>
+
+			<Strategy>TXT_KEY_UNIT_PI_JAMAICA_MAROON_REBEL_STRATEGY</Strategy>
+
+			<Help>TXT_KEY_UNIT_PI_JAMAICA_MAROON_REBEL_HELP</Help>
+
+			<MilitarySupport>true</MilitarySupport>
+
+			<MilitaryProduction>true</MilitaryProduction>
+
+			<Pillage>true</Pillage>
+
+			<ObsoleteTech>TECH_BALLISTICS</ObsoleteTech>
+
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MACHINE_GUN</GoodyHutUpgradeUnitClass>
+
+			<AdvancedStartCost>15</AdvancedStartCost>
+
+			<XPValueAttack>3</XPValueAttack>
+
+			<XPValueDefense>3</XPValueDefense>
+
+			<Conscription>2</Conscription>
+
+			<UnitArtInfo>ART_DEF_UNIT_PI_MAROON</UnitArtInfo>
+
+			<UnitFlagAtlas>PI_JAMAICA_MAROON_REBEL_ATLAS</UnitFlagAtlas>
+
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+
+			<IconAtlas>PI_JAMAICA_ATLAS</IconAtlas>
+
+			<PortraitIndex>2</PortraitIndex>
+				
+		</Row>
+		
+
+		
+		-<Row>
+			
+			<Class>UNITCLASS_CARGO_SHIP</Class>
+
+			<Type>UNIT_PI_JAMAICA_BLACK_STAR_LINER</Type>
+
+			<PrereqTech>TECH_SAILING</PrereqTech>
+
+			<Cost>100</Cost>
+
+			<HurryCostModifier>20</HurryCostModifier>
+
+			<NoMaintenance>true</NoMaintenance>
+
+			<Moves>1</Moves>
+
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+
+			<Domain>DOMAIN_SEA</Domain>
+
+			<DefaultUnitAI>UNITAI_TRADE_UNIT</DefaultUnitAI>
+
+			<Description>TXT_KEY_UNIT_PI_JAMAICA_BLACK_STAR_LINER</Description>
+
+			<Civilopedia>TXT_KEY_CIV5_PI_JAMAICA_BLACK_STAR_LINER_TEXT</Civilopedia>
+
+			<Strategy>TXT_KEY_UNIT_PI_JAMAICA_BLACK_STAR_LINER_STRATEGY</Strategy>
+
+			<Help>TXT_KEY_UNIT_HELP_PI_JAMAICA_BLACK_STAR_LINER</Help>
+
+			<MilitarySupport>true</MilitarySupport>
+
+			<MilitaryProduction>true</MilitaryProduction>
+
+			<Mechanized>true</Mechanized>
+
+			<AdvancedStartCost>10</AdvancedStartCost>
+
+			<CombatLimit>0</CombatLimit>
+
+			<XPValueDefense>3</XPValueDefense>
+
+			<Trade>true</Trade>
+
+			<Immobile>true</Immobile>
+
+			<UnitArtInfo>ART_DEF_UNIT_CARGO_SHIP</UnitArtInfo>
+
+			<UnitFlagAtlas>PI_JAMAICA_BLACK_STAR_LINER_FLAG_ATLAS</UnitFlagAtlas>
+
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+
+			<IconAtlas>PI_JAMAICA_ATLAS</IconAtlas>
+
+			<PortraitIndex>3</PortraitIndex>
+				
+		</Row>
+		
+	</Units>
+
+	<Unit_FreePromotions>
+
+
+	-<Row>
+
+		<UnitType>UNIT_PI_JAMAICA_MAROON_REBEL</UnitType>
+
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		
+	</Row>
+
+		
+	</Unit_FreePromotions>
+	-<Unit_AITypes>
+
+
+		-<Row>
+
+			<UnitType>UNIT_PI_JAMAICA_MAROON_REBEL</UnitType>
+
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+
+		</Row>
+
+
+		-<Row>
+
+			<UnitType>UNIT_PI_JAMAICA_MAROON_REBEL</UnitType>
+
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+
+		</Row>
+
+
+		-<Row>
+
+			<UnitType>UNIT_PI_JAMAICA_MAROON_REBEL</UnitType>
+
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+
+		</Row>
+
+	</Unit_AITypes>
+
+
+	-<Unit_ClassUpgrades>
+
+
+		-<Row>
+
+			<UnitType>UNIT_PI_JAMAICA_MAROON_REBEL</UnitType>
+
+			<UnitClassType>UNITCLASS_MACHINE_GUN</UnitClassType>
+
+		</Row>
+
+	</Unit_ClassUpgrades>
+
+
+	-<Unit_Flavors>
+
+
+		-<Row>
+
+			<UnitType>UNIT_PI_JAMAICA_MAROON_REBEL</UnitType>
+
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+
+			<Flavor>4</Flavor>
+
+		</Row>
+
+
+		-<Row>
+
+			<UnitType>UNIT_PI_JAMAICA_MAROON_REBEL</UnitType>
+
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+
+			<Flavor>5</Flavor>
+
+		</Row>
+
+
+		-<Row>
+
+			<UnitType>UNIT_PI_JAMAICA_BLACK_STAR_LINER</UnitType>
+
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+
+			<Flavor>20</Flavor>
+
+		</Row>
+
+
+		-<Row>
+
+			<UnitType>UNIT_PI_JAMAICA_BLACK_STAR_LINER</UnitType>
+
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+
+			<Flavor>20</Flavor>
+
+		</Row>
+	</Unit_Flavors>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_PI_JAMAICA_MAROON_REBEL</UnitType>
+			<SelectionSound>AS2D_SELECT_CANNON</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CANNON</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+</GameData>

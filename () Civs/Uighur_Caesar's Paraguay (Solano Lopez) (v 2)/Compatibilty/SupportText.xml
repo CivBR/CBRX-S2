@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/31/16 5:15:59 PM -->
+<GameData>
+	<Language_en_US>
+		<!--JFD SOVEREIGNTY-->
+		<!--Government-->
+		<Row Tag="TXT_KEY_JFD_LEGISLATURE_NAME_CIVILIZATION_UC_PARAGUAY">
+			<Text>National Congress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY">
+			<Text>President</Text>
+		</Row>
+		<!--Heads of Govt.-->
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_1">
+			<Text>José Gaspar Rodríguez de Francia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_2">
+			<Text>Fulgencio Yegros</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_3">
+			<Text>Manuel Antonio Ortiz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_4">
+			<Text>Juan José Medina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_5">
+			<Text>Mariano Roque Alonzo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_6">
+			<Text>Carlos Antonio López</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_7">
+			<Text>Cirilo Antonio Rivarola</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_8">
+			<Text>Facundo Machaín</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_9">
+			<Text>Salvador Jovellanos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_10">
+			<Text>Juan Bautista Gill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_11">
+			<Text>Higinio Uriarte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_12">
+			<Text>Cándido Bareiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_13">
+			<Text>Bernardino Caballero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_14">
+			<Text>Patricio Escobar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_15">
+			<Text>Juan Gualberto González</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_16">
+			<Text>Fernando Lugo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_17">
+			<Text>Horacio Cartes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_18">
+			<Text>José Estigarribia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_19">
+			<Text>Rafael Franco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_20">
+			<Text>Eusebio Ayala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_UC_PARAGUAY_21">
+			<Text>Alfredo Stroessner</Text>
+		</Row>
+		<!--Political Parties-->
+		<Row Tag="TXT_KEY_JFD_ASSEMBLY_JFD_MILITARY_UC_PARAGUAY">
+			<Text>Junta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_UC_PARAGUAY">
+			<Text>Beloved Fatherland Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULARIST_UC_PARAGUAY">
+			<Text>Guasú Front</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_COMMUNIST_UC_PARAGUAY">
+			<Text>Workers' Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CONSERVATIVE_UC_PARAGUAY">
+			<Text>Colorado Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_FASCIST_UC_PARAGUAY">
+			<Text>The Revisionists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERAL_UC_PARAGUAY">
+			<Text>Authentic Radical Liberal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERTARIAN_UC_PARAGUAY">
+			<Text>Blue Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REACTIONARY_UC_PARAGUAY">
+			<Text>National Union of Ethical Citizens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REVOLUTIONARY_UC_PARAGUAY">
+			<Text>Febrerista Revolutionary Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_SOCIALIST_UC_PARAGUAY">
+			<Text>Party for a Country of Solidarity</Text>
+		</Row>
+		<!--Titles-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_DICTATORSHIP_TITLE_LEADER_UC_PARAGUAY">
+			<Text>Supreme and Perpetual Dictator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_DICTATORSHIP_TITLE_GOVERNMENT_UC_PARAGUAY">
+			<Text>Democratic People's Republic of {1_CivDesc}</Text>
+		</Row>
+		<!--SUKRITACT DECISIONS-->
+		<!--Adopt Early Firearms-->
+		<Row Tag="TXT_KEY_DECISIONS_UC_SOLANO_ESTANCIA">
+			<Text>Distribute National Estancias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_SOLANO_ESTANCIA_DESC">
+			<Text>
+				Our nation has acquired large tracts of ariable land that would best be used by the common man. We shall distribute these farmlands to our poorer citizens in order to expand our economy and ensure future prosperity (barring a horribly disastrous war, but not like that'll happen...)
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Player must be Solano Lopez's Paraguay.
+				[NEWLINE][ICON_BULLET]Must been in at least the Renaissance.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]300 [ICON_CULTURE] Culture.
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] and +1 [ICON_CULTURE] on Plantations.
+				[NEWLINE][ICON_BULLET]+1 [ICON_GOLD] on Farms.
+				[NEWLINE][ICON_BULLET]-5% [ICON_HAPPINESS_4] Unhappiness from unoccupied citizens.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_SOLANO_ESTANCIA_ENACTED_DESC">
+			<Text>
+				Our nation has acquired large tracts of ariable land that would best be used by the common man. We shall distribute these farmlands to our poorer citizens in order to expand our economy and ensure future prosperity (barring a horribly disastrous war, but not like that'll happen...)
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] and +1 [ICON_CULTURE] on Plantations.
+				[NEWLINE][ICON_BULLET]+1 [ICON_GOLD] on Farms.
+				[NEWLINE][ICON_BULLET]-5% [ICON_HAPPINESS_4] Unhappiness from unoccupied citizens.
+			</Text>
+		</Row>
+		<!--Form the JUCHEn Nation-->
+		<Row Tag="TXT_KEY_DECISIONS_UC_SOLANO_ROCKETS">
+			<Text>Import Congreve Rockets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_SOLANO_ROCKETS_DESC">
+			<Text>
+				Our nation finds itself in a difficult time, with war ravaging the land. To gain an advantage in this fight, we'll import new weaponry, rockets, to surprise the enemy and lay waste to their cities. 
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Player must be Solano Lopez's Paraguay.
+				[NEWLINE][ICON_BULLET]Must have researched Gunpowder.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE][ICON_BULLET]Must be at war.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]650 [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]+15 XP for Siege units.
+				[NEWLINE][ICON_BULLET]Siege units will pillage forts and citadels automatically when attacking enemies stationed on one.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_UC_SOLANO_ROCKETS_ENACTED_DESC">
+			<Text>
+				Our nation finds itself in a difficult time, with war ravaging the land. To gain an advantage in this fight, we'll import new weaponry, rockets, to surprise the enemy and lay waste to their cities.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]+15 XP for Siege units.
+				[NEWLINE][ICON_BULLET]Siege units will pillage forts and citadels automatically when attacking enemies stationed on one.
+			</Text>
+		</Row>
+		<!--RYOGA UNIQUE CULTURAL INFLUENCE-->
+		<Row Tag="TXT_KEY_GENERIC_UC_PARAGUAY_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now starting irrational conflicts, refusing to surrender, no matter the circumstances and revisioning their national history. I fear the rest of the world will succumb to the influence of your culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_SOLANO_ROCKET">
+			<Text>Congreve Rockets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_SOLANO_ROCKET_HELP">
+			<Text>Attacking an enemy on a fort or citadel will pillage the tile.</Text>
+		</Row>
+	</Language_en_US>
+	
+		
+  
+</GameData>

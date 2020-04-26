@@ -1,0 +1,299 @@
+<GameData>
+	<Language_en_US>
+		<!-- Civilization -->
+		<Row Tag="TXT_KEY_CIV5_JWW_RIO_GRANDE_TITLE">
+			<Text>Rio Grande</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JWW_RIO_GRANDE_DESC">
+			<Text>Republic of the Rio Grande</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JWW_RIO_GRANDE_SHORT_DESC">
+			<Text>Rio Grande</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JWW_RIO_GRANDE_ADJECTIVE">
+			<Text>Rio Grande</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_JWW_RIO_GRANDE_TEXT">
+			<Text>Howdy to you, General Antonio Canales Rosillo of the Republic of the Rio Grande! You fought what you believed in, by creating a Federalist republic in protest to Santa Anna's crooked Centralist ways. You built up a great army, solely on volunteers, to win multiple battles against your former Mexican brethren. You helped create a government, to show the seriousness and bravery of your true intentions. You became a local hero in the Northern Mexican states of Coahuila, Nuevo León, and Tamaulipas, and got a backing in supplies, soldiers, and loyalty from the people themselves. Despite being against all odds, you held your head high and didn't give up.[NEWLINE][NEWLINE]Oh, brave leader, can you continue the fame and bravery you once had? Can you fight, even when hope seemed to have run out, against your enemies with courage? Can you create a state that your people will be proud to be apart of? Can you build a civilzation that will stand the test of time?</Text>
+		</Row>
+		<!-- Trait -->
+		<Row Tag="TXT_KEY_TRAIT_JWW_DIOS_LIBERTAD_CONVENCION">
+			<Text>Mounted units are trained with additional experience based on the number of horse resources you have. During war, all tiles with a river provide damage to enemy units on them or adjacent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JWW_DIOS_LIBERTAD_CONVENCION_SHORT">
+			<Text>Dios, Libertad y Convención</Text>
+		</Row>
+		<!-- Leader -->
+		<Row Tag="TXT_KEY_LEADER_JWW_ANTONIO_CANALES">
+			<Text>Antonio Canales Rosillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ANTONIO_CANALES_LIVED">
+			<Text>1802-1852 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ANTONIO_CANALES_NAME">
+			<Text>Antonio Canales Rosillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ANTONIO_CANALES_SUBTITLE">
+			<Text>Commander-in-Chief of Rio Grande</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ANTONIO_CANALES_TITLES_1">
+			<Text>El Zorro del Chaparral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ANTONIO_CANALES_TITLES_2">
+			<Text>Brigader General of The Mexican Army</Text>
+		</Row>
+		<!-- Building -->
+		<Row Tag="TXT_KEY_BUILDING_JWW_FORTALEZA_COLONIAL">
+			<Text>Fortaleza Colonial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JWW_FORTALEZA_COLONIAL_STRATEGY">
+			<Text>The Fortaleza Colonial is an early Industrial-era building unique to the Republic of the Rio Grande. Replacing the Military Academy, the border grows 2 times faster during war, and it provides experience for military units constructed in the city. Additionally, the city gets +1 [ICON_STRENGTH] City Defense for every river tile owned by the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JWW_FORTALEZA_COLONIAL_HELP">
+			<Text>+15 XP for all Units. Border growth is faster during war. Rivers provide defense for the city.[NEWLINE][NEWLINE]City must have a Barracks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JWW_RG_FC_RIVER_DUMMY">
+			<Text>RG UB Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JWW_RG_UA_DUMMY">
+			<Text>RG UA Dummy</Text>
+		</Row>
+		<!-- Unit -->
+		<Row Tag="TXT_KEY_UNIT_JWW_VAQUERO">
+			<Text>Vaquero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JWW_VAQUERO_STRATEGY">
+			<Text>The Vaquero is the Republic of the Rio Grande unique unit. It is the replacement of the Rifleman, but it is mounted and it requires 1 [ICON_RES_HORSE] Horse. It can build pastures and It has combat bonus on rivers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JWW_VAQUERO">
+			<Text>Only Rio Grande may build this unit. It is a Mounted Unit that replaces the Rifleman, and is able to build pastures. It also has combat bonus on rivers.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_HORSE] Horse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JWW_VAQUERO">
+			<Text>Vaquero River Promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JWW_VAQUERO_HELP">
+			<Text>+50% Combat Strength on Rivers.</Text>
+		</Row>
+		<!-- Civilopedia -->
+		<Row Tag="TXT_KEY_CIV5_JWW_RIO_GRANDE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JWW_RIO_GRANDE_TEXT_1">
+			<Text>The Republic of the Rio came to exist (and ceased to exist) as a result of the Mexican Federalist war. Due to the anger behind the abolishment of the Federal Constitution of the United Mexican States of 1824, Antonio Canales Rosillo issued a pronunciamiento (a military rebellion) against the government due to the fact that he wanted a federalist government, not a centralized government. In January 1839, Canales held a convention in Laredo and began gathering recruits (mainly vaqueros and Caddo Indians). Important Colonels enlisted were Texans Samuel Jordan and Reuben Ross. He also recieved support from Texas (although they claimed to be neutral). They first fought at Mier, and forced the Mexicans to surrender. Canales incorporated these soldiers into his army. After this successful battle, towns and cities in Northern Mexico began supporting Canales' cause, and sent soldiers, supplies, and etc. They moved to Matamoros, but withdrew due to being outmanned. Jordan left Canales' army due to withdraw, because he wanted to fight anyways. Canales' went to Monterrey instead, but a Mexican spy bribed 500 soldiers to switch sides, so Canales and the remaining soldiers had to flee. In January 1840, another meeting was held near Laredo. Representatives from Coahuila, Nuevo León, and Tamaulipas came to this meeting, to address how the republic will come to be. Although the state governments didn't do anything to support the republic, The Republic was formed, with a newspaper: “Correo del Rio Bravo del Norte”, and a motto: "Dios, Libertad y Convención". Canales became the commander-in-chief, but in reality, he was still the leader, despite not being the president. After the meeting, word got out that Mexican forces arrived at the Rio Grande. Jordan wanted Canales to retreat to get more troops, but Canales refused, so he left the army. The govenment fled to Victoria, Texas while Canales' army fought. In March 1840, Antonio Zapata, an important general, got surrounded at Santa Rita de Morelos, and killed Zapata. Canales had to flee as well, as he was defeated at San Fernando. After the defeat, Canales rebuilt his army at Sen Fernando, Texas under Colonel Jordan, who rejoined the army. They were able to retake Laredo, Guerrero, Mier, and Camargo without too much trouble. Part of the army sacked Cuidad Victoria, under the leadership of Jordan and Juan Molano. On 25 October 1840,  The 2 armies marched to Saltillo, but were betrayed by Molano and Colonel Lopez. Jordan's army took refuge into a hacienda and were able to defend the hacienda from the Mexicans, with minimal losses. After this defeat, Canales surrendered at Camargo in 6 Novmember 1840. Shortly after, the government surrendered too. As a part of the conditions of surrender, no members of the republic would be harmed, and Canales became a soldier in Santa Anna's army.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JWW_RIO_GRANDE_FACTOID_HEADING">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JWW_RIO_GRANDE_FACTOID_TEXT">
+			<Text>
+				[ICON_BULLET] There are seven flags over Laredo, with the seventh flag being the Republic of the Rio Grande.
+				[NEWLINE][NEWLINE][ICON_BULLET] The Republic lasted for only 11 months.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JWW_VAQUERO_TEXT">
+			<Text>The Vaquero, Spanish for "Herder of Cattle", was a livestock herder, typically in Mexico, Texas, and California. The Vaqueros rode on horses, and made a living on cattle herding. They joined forces with the Texans, Californians, and the Rio Grande army during their revolution, by volunteering and bringing along rifles and horses. When they're not on the battlefield, they are back to ranching, with the old cowboy tradition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_JWW_FORTALEZA_COLONIAL_TEXT">
+			<Text>The Fortaleza Colonial, Spanish for "Colonial Fort", were a series of forts set up on the Rio Grande. One Fort was Fort McIntosh, a fort set up near Laredo. These were used by Mexicans and their enemies alike to gain a strategic hold on the land.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ANTONIO_CANALES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JWW_ANTONIO_CANALES_TEXT_1">
+			<Text>Antonio Canales Rosillo, born on 1802 in Monterrey, was a Mexican Brigadier General. He fought in the Apache Wars in Mexico. He wasw also a Federalist, and openly opposed Santa Anna's move against the Federalist government. Due to his dislike for Santa Anna, he founded the Republic of the Rio Grande, and was the commander-in-chief. Eventually, he abandoned the cause, and joined Santa Anna's army as a Brigadier General. He led campains against the Texans, his former allies, at Corpus Christi, San Patricio, and Mier in 1842. In the Mexican-American War, He fought in the Battles of Resaca de Guerrero-Palo Alto, Cerralvo, and Buena Vista. In this war he earned the nickname of "El Zorro del Chaparral", which means "The Fox of the Thicket". From 1848 to 1851 he served as a surveyor general, legislative envoy, and interim governor of Tamaulipas. He later died in Camargua in 1852 while suppressing a rebellion.</Text>
+		</Row>
+		<!-- Diplomacy Responses -->
+		<Row Tag="TXT_KEY_LEADER_JWW_ANTONIO_CANALES_FIRSTGREETING_1">
+			<Text>¡Hola, compañero líder! I am Antonio Canales, commander of the newly formed República del Río Grande! I'm curious as to what our future relations will be like.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ANTONIO_CANALES_DEFEATED_1">
+			<Text>Río Grande... is no more. Who would've thought?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ANTONIO_CANALES_GREETING_POLITE_HELLO_1">
+			<Text>¿Quihobo, socio? What do you need?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ANTONIO_CANALES_GREETING_NEUTRAL_HELLO_1">
+			<Text>What brings you around these parts?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ANTONIO_CANALES_GREETING_HOSTILE_HELLO_1">
+			<Text>You're bold showing your face around here, gringo.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ANTONIO_CANALES_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Tell your army to stand down. I don't want a repeat of Saltillo.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ANTONIO_CANALES_EXPANSION_SERIOUS_WARNING_1">
+			<Text>This is my river, not yours. We can't coexist if you're going to be like this, gringo.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ANTONIO_CANALES_REQUEST_1">
+			<Text>¿Qué pasa, amigo? Do you think you could do a favor for me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JWW_ANTONIO_CANALES_DECLAREWAR_1">
+			<Text>I'm sorry it had to come to this. You're an obstacle to Rio Grande's soveriegnty.</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_0">
+			<Text>Laredo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_1">
+			<Text>Monterrey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_2">
+			<Text>Saltillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_3">
+			<Text>Reynosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_4">
+			<Text>Guadalupe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_5">
+			<Text>Matamoros</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_6">
+			<Text>Ciudad Victoria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_7">
+			<Text>Nuevo Santander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_8">
+			<Text>Apodaca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_9">
+			<Text>Tampico</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_10">
+			<Text>Monclova</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_11">
+			<Text>Jiménez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_12">
+			<Text>San Nicolás de los Garza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_13">
+			<Text>Topo de los Ayala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_14">
+			<Text>García</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_15">
+			<Text>Hacienda San José de los González</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_16">
+			<Text>Miramar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_17">
+			<Text>Villa Juárez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_18">
+			<Text>Mier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_19">
+			<Text>Guerrero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_20">
+			<Text>Camargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_21">
+			<Text>Sabinas Hidalgo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_22">
+			<Text>Linares</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_23">
+			<Text>Montemorelos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_24">
+			<Text>Parras de la Fuente</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_25">
+			<Text>Nuestra Señora de los Dolores y Cuatro Ciénegas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_26">
+			<Text>Morelos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_27">
+			<Text>Alcantra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_28">
+			<Text>San Fernando</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_29">
+			<Text>Victoria</Text>
+			<!-- In Texas -->
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_30">
+			<Text>San Patricio</Text>
+			<!-- In Texas -->
+		</Row>
+		<!-- The rest were found here: http://www.ichaz.com/maps.html -->
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_31">
+			<Text>Refugio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_32">
+			<Text>Seralvo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_33">
+			<Text>Nadadores</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_34">
+			<Text>San José</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_35">
+			<Text>Hojos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_36">
+			<Text>Magiscatzín</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_37">
+			<Text>Río Bravo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_38">
+			<Text>Revilla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_39">
+			<Text>Llera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_40">
+			<Text>Anelo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_41">
+			<Text>La Punta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JWW_RIO_GRANDE_42">
+			<Text>Escandón</Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_RIO_GRANDE_0">
+			<Text>Zapata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_RIO_GRANDE_1">
+			<Text>López</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_RIO_GRANDE_2">
+			<Text>Antonio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_RIO_GRANDE_3">
+			<Text>María</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_RIO_GRANDE_4">
+			<Text>Samuel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_RIO_GRANDE_5">
+			<Text>José</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_RIO_GRANDE_6">
+			<Text>Manuel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_RIO_GRANDE_7">
+			<Text>Francisco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_RIO_GRANDE_8">
+			<Text>Juan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JWW_RIO_GRANDE_9">
+			<Text>Jesús</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

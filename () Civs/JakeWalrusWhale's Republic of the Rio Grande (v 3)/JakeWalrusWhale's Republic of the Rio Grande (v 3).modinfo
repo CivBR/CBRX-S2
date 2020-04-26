@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2d3fed2b-ccec-4bd5-85f9-fb58560a8a00" version="3">
+  <Properties>
+    <Name>JakeWalrusWhale's Republic of the Rio Grande</Name>
+    <Teaser>Adds the [COLOR_MAGENTA]Republic of the Rio Grande[ENDCOLOR]  led by Antonio Canales Rosillo.</Teaser>
+    <Description>Adds the Republic of the Rio Grande under Antonio Canales Rosillo.
+[NEWLINE][NEWLINE][NEWLINE]
+UA: Dios, Libertad y Convención - Units are trained with additional experience based on the number of horse resources you have per city. During war, all friendly tiles with a river provide damage to enemy units on them or adjacent.
+[NEWLINE][NEWLINE]
+UU: Vaquero- Replaces the Cavalry. Can be expended to make an upgraded horse  resource. They get a combat bonus when attacking across a river.
+[NEWLINE][NEWLINE]
+UB: Fortaleza Colonial - Replaces the Military Academy- Border grows 2 times faster in this city during times of war. +1 city defense for every river tile owned by the city.</Description>
+    <Authors>JakeWalrusWhale</Authors>
+    <SpecialThanks>PorkBean, Senshi, the OCP</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D." />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="Rise to Power" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="Cultural Diversity" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="Mercanaries" />
+    <Mod id="432bc547-eb05-4189-9e46-232dbde8f09f" minversion="0" maxversion="999" title="Additonal Achievements" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events and Decisions" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="C8F35AAB7C8094D9D0F1A6B3932F679A" import="1">Art/Atlas/RioGrandeIconAtlas128.dds</File>
+    <File md5="23C38A2085FBB5F0CFF7F40C32F02749" import="1">Art/Atlas/RioGrandeIconAtlas16.dds</File>
+    <File md5="234A20C1F983847B77E360CF542B3FBA" import="1">Art/Atlas/RioGrandeIconAtlas24.dds</File>
+    <File md5="3595E097EDA241ED88AACBAC4087A028" import="1">Art/Atlas/RioGrandeIconAtlas256.dds</File>
+    <File md5="7FDE2A57E7A8DB65B706E49A1B1F1971" import="1">Art/Atlas/RioGrandeIconAtlas32.dds</File>
+    <File md5="094970B739BE9533152E6F1DE10DF191" import="1">Art/Atlas/RioGrandeIconAtlas45.dds</File>
+    <File md5="E98414A3D507CA1421674B995A2171B8" import="1">Art/Atlas/RioGrandeIconAtlas48.dds</File>
+    <File md5="54F80F31FDE1FE79C366386B67ED578F" import="1">Art/Atlas/RioGrandeIconAtlas64.dds</File>
+    <File md5="5689BE983FDA654303C8B094563E5248" import="1">Art/Atlas/RioGrandeIconAtlas80.dds</File>
+    <File md5="6E42A225D25700FBAC61B09B7796B092" import="1">Art/Atlas/VaqueroAlpha256.dds</File>
+    <File md5="054CA5BD32F67D21E6F76D66C9D709A9" import="1">Art/Atlas/VaqueroAlpha32.dds</File>
+    <File md5="73B28586EEAA5AEBF22D67D7B86D138A" import="1">Art/Atlas/Vaquero_sv.dds</File>
+    <File md5="07FC212021040BFECEDD8D4EB847AF35" import="1">Art/Model/vaquero.fxsxml</File>
+    <File md5="1DE320DAB42FC677163D2B7B62B48F57" import="1">Art/Model/vaquero.gr2</File>
+    <File md5="D297FB5686624D76F9BA3F250CC0F14B" import="1">Art/Model/vaquero_DIFF.dds</File>
+    <File md5="ABD9864CA39C8D39312753318F5943C1" import="1">Art/Model/vaquero_SREF.dds</File>
+    <File md5="86B9E70AC1513DA0F30696307387E59B" import="1">Art/RGMap.dds</File>
+    <File md5="AC54883069EF739C710AD53F3105EC35" import="1">Art/RosilloDOM.dds</File>
+    <File md5="585BE068D7BA5404FA13E58C5FBE7561" import="1">Art/RosilloScene.dds</File>
+    <File md5="EF55FE304926582BA9DBA5D5AF681885" import="0">Code/Database/RioGrandeArtDefines.sql</File>
+    <File md5="BEA63309144DA0B5CD8EBB3417C50667" import="1">Code/Database/RosilloScene.xml</File>
+    <File md5="C3F3B244C50F7AA9D69C2CD7C10D1AE1" import="0">Code/Database/RioGrandeGameDefines.sql</File>
+    <File md5="67BAEFECE3884878C21DC3609F45BC55" import="0">Code/Database/RioGrandeText.xml</File>
+    <File md5="D7E3C1BD70AA0F58461041D560AC5716" import="0">Code/Lua/RioGrandeFunctions.lua</File>
+    <File md5="782874D52414E545B2039D90B16A6BEA" import="0">Code/Lua/RioGrandeFunctions.xml</File>
+    <File md5="5B204276619D2B35C98002E79B442FBB" import="1">Mod Support/AdditionalAchievementsUtility.lua</File>
+    <File md5="0DA799C3444C5F059C1F836916B8A36C" import="0">Mod Support/RioGrandeAASupport.lua</File>
+    <File md5="1FA8E89A107EA12BF87745776E9D3F1C" import="0">Mod Support/RioGrandeModSupport.sql</File>
+    <File md5="A5EF6E4B4252CC74AEE85C6A8FF5CC13" import="0">Mod Support/RioGrandeModSupportText.xml</File>
+    <File md5="F60CC00E99A6A24DDA21F6CE2727E101" import="0">Credits.txt</File>
+    <File md5="B7B12494B37FEA2AA9927F06E0501813" import="1">Mod Support/RioGrande_Decisions.lua</File>
+    <File md5="10FF2EADC3493CD16CA299B8B3CEEAE3" import="1">Music/RioGrande_Peace.mp3</File>
+    <File md5="C9F94E6F2EF934447E8FB1CC9E55DD66" import="1">Music/RioGrande_War.mp3</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/Database/RioGrandeGameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/Database/RioGrandeText.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Database/RosilloScene.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Database/RioGrandeArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/RioGrandeModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/RioGrandeModSupportText.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Lua/RioGrandeFunctions.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Mod Support/RioGrandeAASupport.lua">
+      <Name>RG AA</Name>
+      <Description>adds that achievement</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Code/Lua/RioGrandeFunctions.lua">
+      <Name>RG Functions</Name>
+      <Description>Seems important I guess</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

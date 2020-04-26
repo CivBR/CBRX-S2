@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh-->
+<GameData>
+	<Language_ES_ES>
+		<!-- -->
+		<Row Tag="TXT_KEY_TRAIT_ANCESTOR_OF_MESOAMERICA_SHORT">
+			<Text>Venus Cycle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ANCESTOR_OF_MESOAMERICA">
+			<Text>After researching Calendar, your Civilization enters Venus Cycles, which increase [ICON_GREAT_PEOPLE] Great People generation by 25%, and earns +1 [ICON_TOURISM] Tourism for every Technology researched but not yet discovered by another Civilization.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_LEUGI_OLMEC_TEXT">
+			<Text>Oh mighty and righteous U Kix Chan, King of Palenque and son of the Lady White Quetzal, your people prostrate themselves in awe and reverence! A skilled and ingenious people, the Olmec emerged along the Coatzacoalcos river basin in what is today the southern Mexican Gulf Coast. Quick to exploit the natural wonders of their surroundings, they developed new technologies - boiling rubber from tree sap - and carved colossal monuments from the basalt boulders of the Tuxtlas Mountains. From this cradle, Mesoamerican civilization would flourish. As the Maya would rise in the Yucatán to the east and the Aztec in the Valley of Mexico to the west, the true legacy of the Olmec would be the indelible mark left on these great empires to come.[NEWLINE][NEWLINE]Ancient King, history has not been kind to your land. Foreign crowns have crossed the sea to kill your children and ravage their civilizations. The people of Mesoamerica now pray to their ancestors for guidance. Will you return to restore the glory of your culture and legacy? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_DESC">
+			<Text>U Kix Chan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_LIVED">
+			<Text>c. 993 BC ?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_NAME">
+			<Text>U Kix Chan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_SUBTITLE">
+			<Text>Leader of the Olmec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_TITLES_1">
+			<Text>King of Palenque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_TEXT_1">
+			<Text>Little is directly known about the societal or political structure of Olmec society. Although the Olmec possessed a form of writing, nothing has been found like the Maya stelae which name specific rulers and provide the dates of their rule. Several later Mesoamerican civilizations, however, mention Olmec kings, although it is impossible to verify the historicity of these rulers. U Kix Chan is a legendary Olmec ruler first mentioned by the later Maya civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_HEADING_2">
+			<Text>Palenque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_TEXT_2">
+			<Text>In the texts written on the walls of the Pyramids of Palenque, ancient kings when to extraordinary lengths to establish the legitimacy of their rule. The historical content of these proclamations traces the lineage of the Palenque dynasty back to the founder, Balam-Kuk, who was born around AD 397. From Balam-Kuk the lineage is extended into pre-history and the time of the Olmec, mentioning the birth of the great U Kix Chan around 993 BC. U Kix Chan's lineage is then traced to the mythological time of creation with the birth of Na Sac Kuk, the Lady White Quetzal, in the year 3121 BC.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_HEADING_3">
+			<Text>Olmec Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_TEXT_3">
+			<Text>Large and small scale site surveys provide evidence of considerable centralization within the Olmec region, first at San Lorenzo and then at La Venta. No other Olmec sites come close to these in terms of area or in the quantity and quality of architecture and sculpture. This evidence of geographic and demographic centralization leads archaeologists to propose that Olmec society itself was hierarchical, concentrated first at San Lorenzo and then at La Venta, with an elite that was able to use their control over materials such as water and monumental stone to exert command and legitimize their regime. Nonetheless, Olmec society is thought to lack many of the institutions of later civilizations, such as a standing army or priestly caste. And there is no evidence that San Lorenzo or La Venta controlled, even during their heyday, all of the Olmec heartland. Studies of the Tuxtla Mountain settlements indicate that this area was composed of more or less egalitarian communities outside the control of the lowland centers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_HEADING_4">
+			<Text>Verdict of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_TEXT_4">
+			<Text>It is impossible to pass judgment on such a legendary figure. For the Maya, such lineages confirmed the right of the king to perform the official act of ascending to the throne of a state, the sacral character of the kingdom having its roots in the holy realm of the gods, and the ruler's powers are supernatural forces allowing mediation between the gods and man.[NEWLINE][NEWLINE]Although it is widely speculated due to archeological evidence that the Olmec set a cultural foundation for the later Mesoamerican civilizations, the inclusion of U Kix Chan within a royal Mayan genealogy shows how the idea of the Olmec as great ancestors and fathers of civilization was prevalent among Mesoamerican cultures themselves and not just an invention of modern historians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_HEADING_5">
+			<Text>Factoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_TEXT_5">
+			<Text>It is assumed by most researchers that the colossal heads and several other Olmec sculptures represent rulers. The colossal heads most likely did not just represent individuals, but were representative to the Olmecs of the very concept of rulership itself.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_LEUGI_OLMEC_DESC">
+			<Text>Olmec Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEUGI_OLMEC_SHORT_DESC">
+			<Text>The Olmec</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_LEUGI_OLMEC_ADJECTIVE">
+			<Text>Olmec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEUGI_OLMEC">
+			<Text>The Olmec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_TITLE">
+			<Text>The Olmec</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_TEXT_1">
+			<Text>The first major civilization of Mesoamerica, Olmec culture emerged during the middle of Mesoamerica's Formative Period; ca. 1600 to 400 BC. They are recognized as one of the six sites where civilization independently originated in the ancient world and was the last such site to develop. The Olmecs are thought to have set many of the fundamental cultural patterns demonstrated by later Mexican and Central American civilizations, notably the Aztec and Maya, and are perhaps best known today through the colossal stone heads uncovered at Olmec sites.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_TEXT_2">
+			<Text>The Olmec heartland lay along the Gulf Coast in what is today Veracruz and Tabasco in southern Mexico. This area is characterized by swampy lowlands punctuated by low hills, ridges, and volcanoes, with the Tuxtlas Mountains rising sharply in the north along the Bay of Campeche. The rise of civilization here was assisted by the local ecology of well-watered alluvial soil, as well as by the transportation network that the Coatzacoalcos river basin provided. Natural resources such as cacao, rubber, and salt would prove vital to the Olmec economy and contribute to the growth of its major sites.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_HEADING_3">
+			<Text>Origins and Major Centres</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_TEXT_3">
+			<Text>San Lorenzo, La Venta, Laguna de los Cerros, and Tres Zapotes are recognized as the four primary archeological sites of the Olmec heartland and much of what is known about the Olmec has been inferred from excavations at these sites. Large earthen pyramids, platforms, and monumental stone carvings form the core of Olmec material remains. Olmec civilization seems to have first originated near the San Lorenzo site, with distinct cultural features appearing around 1400 BC. Here, the Coatzacoalcos river basin provided an environment comparable to the other major cradle civilizations such as the Nile, Indus, and Yellow river valleys.[NEWLINE][NEWLINE]However, San Lorenzo was all but abandoned around 900 BC; at about the same time that La Venta rose to prominence. A wholesale destruction of many San Lorenzo monuments also occurred circa 950 BC. The cause of this is uncertain with theories including internal uprisings, invasion, or environmental shift. Following the decline of San Lorenzo, La Venta became the most prominent Olmec center, lasting from 900 BC until its abandonment around 400 BC. La Venta sustained the Olmec cultural traditions, but with spectacular displays of power and wealth. The Great Pyramid was the largest Mesoamerican structure of its time, and buried deep within La Venta, lay opulent, labor-intensive "offerings".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_HEADING_4">
+			<Text>Trade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_TEXT_4">
+			<Text>The Olmecs developed a wide trading network, and between 1100 and 800 BC their cultural influence spread northwestward to the Valley of Mexico and southeastward to parts of Central America. The three major Olmec centers were also spaced from east to west across their domain so that each center could exploit, control, and provide a distinct set of natural resources valuable to the overall Olmec economy.[NEWLINE][NEWLINE]La Venta, the eastern center, is near the rich estuaries of the coast, and also could have provided cacao, rubber, and salt. San Lorenzo, at the center of the Olmec domain, controlled the vast flood plain area of Coatzacoalcos basin and riverline trade routes. Laguna de los Cerros, adjacent to the Tuxtlas mountains, is positioned near important sources of basalt, a stone needed to manufacture manos, metates, and monuments. Perhaps marriage alliances between Olmec centers helped maintain such an exchange network.[NEWLINE][NEWLINE]Many Olmec luxuries, such as jade, obsidian, and magnetite, came from distant locations. The source of the most valued jade, for example, is found in the Motagua River valley in eastern Guatemala, and Olmec obsidian has been traced to sources in the Guatemala highlands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_HEADING_5">
+			<Text>Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_TEXT_5">
+			<Text>The Olmec culture was first defined as an art style, and this continues to be the hallmark of the culture. Wrought in a large number of media (jade, clay, basalt, and greenstone) much of Olmec art is surprisingly naturalistic. Other art expresses fantastic anthropomorphic creatures, often highly stylized, using an iconography reflective of a religious meaning. Common motifs include downturned mouths and a cleft head, both of which are seen in representations of were-jaguars.[NEWLINE][NEWLINE]While Olmec figurines are found abundantly in sites throughout the Formative Period, the stone monuments are the most recognizable feature of Olmec culture. These monuments can be divided into four classes: colossal heads; rectangular altars or thrones; free-standing sculpture; and stelae. The stelae form was generally introduced later than the colossal heads, altars, or free-standing sculptures. Over time, the stelae changed from simple representation of figures, toward representations of historical events, particularly acts legitimizing rulers. This trend would culminate in post-Olmec monuments which combine images of rulers with script and calendar dates.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_HEADING_6">
+			<Text>Technology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_TEXT_6">
+			<Text>In the late 20th century a stone slab engraved with symbols that appear to have been the Olmec writing system (sometimes called epi-Olmec, or Isthmian) was discovered in the village of Cascajal, near San Lorenzo. The Cascajal stone dates to approximately 900 BC and may be the oldest example of writing from the Americas. Other objects containing glyphs include the Tuxtla Statuette, the Chiapa de Corzo shard, and the La Mojarra stela. The last object, which displays 465 glyphs, greatly facilitated the interpretation of the epi-Olmec language, though many questions remain.[NEWLINE][NEWLINE]The Long Count calendar used by many subsequent Mesoamerican civilizations, as well as the concept of zero, may have been devised by the Olmecs. Because the six artifacts with the earliest Long Count calendar dates were all discovered outside the immediate Maya homeland (three of which within the Olmec heartland), it is likely that this calendar predated the Maya and was possibly the invention of the Olmecs. However, the Olmec civilization had ended by the 4th century BC, several centuries before the earliest known Long Count date artifact, making the connection difficult to verify. The Long Count calendar required the use of zero as a place-holder within its vigesimal positional numeral system. This is one of the earliest uses of the zero concept in history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_HEADING_7">
+			<Text>Decline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_TEXT_7">
+			<Text>Between 400 and 350 BC, the population in the eastern half of the Olmec heartland dropped precipitously, with the area continuing to be sparsely inhabited until the 19th century. Such significant and long-term depopulation of an area is usually due to serious environmental changes potentially triggered by tectonic upheavals or the silting up of rivers due to agricultural practices. Alternatively, volcanic eruptions during the Early, Late and Terminal Formative periods could have blanketed the lands and forced the Olmec to move their settlements. Whatever the cause, the Olmec depended on their riverine environment for agriculture, hunting and gathering, and transportation, which was now left unsuited to support a large population.[NEWLINE][NEWLINE]Olmec stylistic influence throughout Mesoamerica also disappeared after around 400 BC. Not all of the Olmec sites were abandoned, but Olmec culture gradually changed and ceased to dominate Mesoamerica. The Tres Zapotes site, on the western edge of the Olmec heartland, continued to be occupied well past 400 BC, but without the hallmarks of the Olmec culture. This post-Olmec civilization is often labeled the Epi-Olmec civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_STATBOX">
+			<Text>[NEWLINE]        Leader: U Kix Chan[NEWLINE]        Unique Unit: Konuks'wu[NEWLINE]        Unique Improvement: Colossal Head[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_FACTOID_HEADING">
+			<Text>Olmec Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_LEUGI_OLMEC_FACTOID_TEXT">
+			<Text>The term Olmec comes from the Nahuatl name for the people, Olmecatl, meaning; "rubber people".</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_GENERIC_LEUGI_OLMEC_INFLUENTIAL_ON_AI_1">
+			<Text>My people have begun to decorate their lawns with giant stone heads. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_FIRST_GREETING_1">
+			<Text>You stand before U Kix Chan; King of Palenque and son of the Lady White Quetzal! What business do you have in my lands?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_FIRST_GREETING_2">
+			<Text>Greetings traveler! Do you come bearing jade or obsidian? There is much we would be willing to teach in exchange.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_DEFEATED_1">
+			<Text>You may have defeated my kingdom, but its mark shall never leave these lands!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LEUGI_U_KIX_CHAN_DEFEATED_2">
+			<Text>Really, we lost to you? I swear, I thought over-farming and climate change would've been our downfall...</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_CITYSTATE_MOD_CHAVIN">
+			<Text>Chavín de Huántar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MOD_CHAVIN_ADJ">
+			<Text>Chavín de Huántar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MOD_CHAVIN_PEDIA">
+			<Text>The Chavín culture was a major pre-Incan culture of the Andes, long thought to be the first such civilization to arise in the Americas until the discovery and documentation of Norte Chico in the late 1990s. It flourished between about 900 and 200 BC and, during this time, Chavín artistic influence spread throughout the northern and central parts of what is now Peru. During this period a sedentary agricultural way of life became fully established in Peru, with the development of such crafts as weaving, pottery making, and stone carving. The significance of the Chavín period is that for the first time many of the local or regional cultures of the area were unified by a common ideology or religion (although the full extent of political unification during the Chavín period remains uncertain).[NEWLINE][NEWLINE]Chavín de Huántar is an archaeological site located in the Ancash Region of Peru. It was constructed by the Chavín sometime around 1200 BC and served as the political and religious center for the Chavín people. The central building at Chavín de Huántar is a massive temple complex constructed of dressed rectangular stone blocks and containing interior galleries and incorporating bas-relief carvings on pillars and lintels. The principal motifs of the Chavín style are human, avian, feline, and crocodilian or serpentine figures; these are often combined in highly complex and fantastic images. The site continued to be occupied by later cultures until at least around 400 BC.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_UNIT_LEUGI_JADE_WARRIOR">
+			<Text>Konuks'wu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LEUGI_JADE_WARRIOR_HELP">
+			<Text>Ancient Era Unit which specializes in defeating Mounted Units. Only the Olmec may build it. The Konuks'wu earns [ICON_RESEARCH] Science for defeating enemy Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LEUGI_JADE_WARRIOR_STRATEGY">
+			<Text>The Konuks'wu is the Olmec unique unit. It earns [ICON_RESEARCH] Science for every unit it kills, constantly advancing your civilization and helping to earn [ICON_TOURISM] Tourism through the Olmec unique ability. Additionally, after your civilization researches Calendar, the Konuks'wu gains a minor combat bonus whenever Venus (Chak Ek') is observed in the eastern sky (this effect switches every 12 turns on Standard speed).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LEUGI_JADE_WARRIOR_TEXT">
+			<Text>Very little is known about Olmec military. Although later Mesoamerican civilizations such as the Aztec were intimately dependent on tribute systems from conquered peoples, the same can't be said of the Olmec. There is concrete evidence of warlike activity, however. Altars and stele from La Venta and Tres Zapotes depict human captives as well as representations of swords, lances, and knives. Although such visual representations are rare, it must be noted that depictions of warriors are not especially characteristic of Mesoamerican art (even among the warlike Aztec).[NEWLINE][NEWLINE]The Epi-Olmec culture is more forthcoming, with descriptions of warrior kings and so-called star-warriors. For the later Mayans, a "star war" referred to a full-scale war planned in accordance with specific astronomical events, usually the first appearance in the morning sky of the planet Venus. Warriors who participated in these events were often blessed in time with astronomical occurrences and were known as "Hallowed Ones", or Konuks'wu.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_LEUGI_COLOSSAL_HEADS">
+			<Text>Colossal Head</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEUGI_COLOSSAL_HEADS_HELP">
+			<Text>The Olmec Colossal Head is a versatile improvement allowing you to maintain a strong science focus without sacrificing other yields. They may be constructed by any type of Great Person (excluding the Great Admiral) to provide +4 [ICON_RESEARCH] Science as well as an additional yield equal to the type and half the amount of the Great Person's standard Improvement. So, for example, while a Great Prophet can normally construct a Holy Site providing +6 [ICON_PEACE] Faith, an Olmec Great Prophet also has the option to construct a Colossal Head providing +4 [ICON_RESEARCH] Science, +3 [ICON_PEACE] Faith. Colossal Heads constructed by a Great Scientist or Great General will provide +2 [ICON_GOLDEN_AGE] Golden Age Points in place of the additional yield.[NEWLINE][NEWLINE]Colossal Heads will not remove Jungle from tiles when built, allowing you to stack the [ICON_RESEARCH] Science bonus provided by the University. Similar to other Great Person Improvements, Colossal Heads may be constructed on resource tiles. However, they will not connect the resource to your trade network. Constructing a Colossal Head will consume the Great Person.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEUGI_COLOSSAL_HEADS_TEXT">
+			<Text>The Olmec Colossal Head is a versatile improvement allowing you to maintain a strong science focus without sacrificing other yields. They may be constructed by any type of Great Person (excluding the Great Admiral) to provide +4 [ICON_RESEARCH] Science as well as an additional yield equal to the type and half the amount of the Great Person's standard Improvement. So, for example, while a Great Prophet can normally construct a Holy Site providing +6 [ICON_PEACE] Faith, an Olmec Great Prophet also has the option to construct a Colossal Head providing +4 [ICON_RESEARCH] Science, +3 [ICON_PEACE] Faith. Colossal Heads constructed by a Great Scientist or Great General will provide +2 [ICON_GOLDEN_AGE] Golden Age Points in place of the additional yield.[NEWLINE][NEWLINE]Colossal Heads will not remove Jungle from tiles when built, allowing you to stack the [ICON_RESEARCH] Science bonus provided by the University. Similar to other Great Person Improvements, Colossal Heads may be constructed on resource tiles. However, they will not connect the resource to your trade network. Constructing a Colossal Head will consume the Great Person.[NEWLINE][NEWLINE]The Olmec Colossal Heads are at least seventeen monumental stone representations of human heads sculpted from large basalt boulders. The heads date from at least before 900 BC and are a distinctive feature of the Olmec civilization of ancient Mesoamerica. All portray mature men with fleshy cheeks, flat noses, and slightly crossed eyes; their physical characteristics correspond to a type that is still common among the inhabitants of Tabasco and Veracruz. The backs of the monuments are often flat. The boulders were brought from the Sierra de los Tuxtlas mountains of Veracruz. Given that the extremely large slabs of stone used in their production were transported over large distances, requiring a great deal of human effort and resources, it is thought that the monuments represent portraits of powerful individual Olmec rulers. Each of the known examples has a distinctive headdress, and the heads were variously arranged in lines or groups at major Olmec centres (although the method and logistics used to transport the stone to these sites remains unclear).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LEUGI_COLOSSAL_HEADS">
+			<Text>Construct a [LINK=IMPROVEMENT_LEUGI_COLOSSAL_HEADS]Colossal Head[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LEUGI_COLOSSAL_HEADS_HELP">
+			<Text>The Olmec Colossal Heads may be constructed by any type of Great Person. They generate [ICON_RESEARCH] Science as well as an additional yield equal to the type and half the amount of the Great Person's standard Improvement.[NEWLINE][NEWLINE]Unit will be consumed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LEUGI_COLOSSAL_HEADS_REC">
+			<Text>The Olmec Colossal Heads may be constructed by any type of Great Person. They generate [ICON_RESEARCH] Science as well as an additional yield equal to the type and half the amount of the Great Person's standard Improvement.[NEWLINE][NEWLINE]Unit will be consumed.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_SAN_LORENZO">
+			<Text>Coatzacoalcos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_LA_VENTA">
+			<Text>Tonalá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_LAGUNA_DE_LOS_CERROS">
+			<Text>Papaloapan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_TRES_ZAPOTES">
+			<Text>Tzapotl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_TUXTLAS">
+			<Text>Tuxtlas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_ABAJ_TAKALIK">
+			<Text>Tak'alik A'baj</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_OXTOTITLAN">
+			<Text>Oxtotitlán</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_CHALCATZINGO">
+			<Text>Chalcatzingo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_JUXTLAHUACA">
+			<Text>Juxtlahuaca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_BALANCAN">
+			<Text>Balancán</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_XOC">
+			<Text>Xoc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_PIJIJIAPAN">
+			<Text>Pijijiapan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_IZAPA">
+			<Text>Izapa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_TEOPANTECUANITLAN">
+			<Text>Teopantecuanitlán</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_TLATILCO">
+			<Text>Tlatilco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_CUICUILCO">
+			<Text>Cuicuilco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_TEXPA">
+			<Text>Texpa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_CHALCHUAPA">
+			<Text>Chalchuapa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_ZAZACATLA">
+			<Text>Zazacatla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_TLAPACOYA">
+			<Text>Tlapacoya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LEUGI_OLMEC_PALENQUE">
+			<Text>Palenque</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_SPY_NAME_LEUGI_OLMEC_0">
+			<Text>Bada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_LEUGI_OLMEC_1">
+			<Text>Kele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_LEUGI_OLMEC_2">
+			<Text>Ajaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_LEUGI_OLMEC_3">
+			<Text>Yo Pe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_LEUGI_OLMEC_4">
+			<Text>Po Ngbe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_LEUGI_OLMEC_5">
+			<Text>Akhushtal</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_LEUGI_OLMEC_6">
+			<Text>Coatlicue</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_LEUGI_OLMEC_7">
+			<Text>Na Sac Kuk</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_LEUGI_OLMEC_8">
+			<Text>Ixtab</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_LEUGI_OLMEC_9">
+			<Text>Ix Chel</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_BUILDING_LEUGI_OLMEC_UA_EDIT_DUMMY_DESC">
+			<Text>Olmec Dummy Ed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LEUGI_OLMEC_DUMMY_DESC">
+			<Text>Olmec Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LEUGI_OLMEC_DUMMY_STRATEGY">
+			<Text>This building cannot be constructed but rather facilitates the Olmec's unique abilities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LEUGI_OLMEC_DUMMY_TEXT">
+			<Text>The first major civilization of Mesoamerica, Olmec culture emerged during the middle of Mesoamerica's Formative Period; ca. 1600 to 400 BC. They are recognized as one of the six sites where civilization independently originated in the ancient world and was the last such site to develop. The Olmecs are thought to have set many of the fundamental cultural patterns demonstrated by later Mexican and Central American civilizations, notably the Aztec and Maya, and are perhaps best known today through the colossal stone heads uncovered at Olmec sites.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_TP_OLMEC_GA_PLUS">
+			<Text>{1_Num} is added per turn from your Colossal Heads.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_PMMM_LEADER_MG_NAME_LEUGI_U_KIX_CHAN">
+			<Text>Na Sac Kuk</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_EVENT_CULDEV_TOMATEKH_OLMEC_01">
+			<Text>A "baby-face" figurine has been sculpted in {1_City}.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_0_OLMEC">
+			<Text>0 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_1_OLMEC">
+			<Text>1 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_2_OLMEC">
+			<Text>2 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_4_OLMEC">
+			<Text>4 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_8_OLMEC">
+			<Text>8 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_16_OLMEC">
+			<Text>16 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_32_OLMEC">
+			<Text>32 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_40_OLMEC">
+			<Text>40 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_64_OLMEC">
+			<Text>64 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_128_OLMEC">
+			<Text>128 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_256_OLMEC">
+			<Text>256 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_512_OLMEC">
+			<Text>512 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_1024_OLMEC">
+			<Text>1024 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_2048_OLMEC">
+			<Text>2048 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_4096_OLMEC">
+			<Text>4096 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SUKRITACT_TOURISM_DUMMY_8192_OLMEC">
+			<Text>8192 [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_OLMEC_BONUS_TITLE_0">
+			<Text>Choose Great Person</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_BONUS_BODY_0">
+			<Text>You may select a free great person for your empire!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_BONUS_TITLE_1">
+			<Text>Great Merchant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_BONUS_BODY_1">
+			<Text>The Great Merchant can construct the special Custom House improvement which, when worked, produces loads of [ICON_GOLD] Gold. The Great Merchant can also journey to a city-state and perform a "trade mission" which produces gobs of [ICON_GOLD] Gold and garners many Influence Points with the city-state. The Great Merchant is expended when used in either of these ways.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_OLMEC_BONUS_TITLE_2">
+			<Text>Great Artist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_BONUS_BODY_2">
+			<Text>A Great Artist can create a Great Work of Art (generates both [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism) that is places in the nearest city that has an appropriate building with an empty slot (like the Palace, a Museum, or a Cathedral). A Great Artist can also create a Golden Age. Great Artists are expended when used either of these ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_BONUS_CURRENT">
+			<Text>[COLOR_NEGATIVE_TEXT]This Great Person has already been chosen.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OLMEC_UNIQUE_ART">
+			<Text>Bada Ku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_OLMEC_UNIQUE_ART">
+			<Text>Man Seated on Throne</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_PROMOTION_VENUS_MORNING_BONUS">
+			<Text>Star-Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VENUS_MORNING_BONUS_DESC">
+			<Text>+10% [ICON_STRENGTH] Combat Strength when Venus appears in the eastern sky.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_OLMEC_LEADER_CIV_IV_TRAITS">
+			<Text>U Kix Chan[ICON_RESEARCH][ICON_GREAT_PEOPLE]</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_OLMEC_QOL_TITLE_1">
+			<Text>[COLOR_CYAN]Venus Cycle[ENDCOLOR][NEWLINE]----------------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_QOL_TITLE_2">
+			<Text>[NEWLINE][NEWLINE][COLOR_CYAN]Unique Technologies[ENDCOLOR][NEWLINE]----------------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_QOL_BODY_0">
+			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]Research Calendar to observe Venus Cycles.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_QOL_BODY_1">
+			<Text>[NEWLINE][COLOR_POSITIVE_TEXT]Venus appears in the eastern sky.[ENDCOLOR][NEWLINE]Venus Cycles change every {1_VenusTurn} turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_QOL_BODY_2">
+			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]Venus appears in the western sky.[ENDCOLOR][NEWLINE]Venus Cycles change every {1_VenusTurn} turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_QOL_BODY_3">
+			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]You do not know any unique Technologies.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OLMEC_QOL_BODY_EXTRA">
+			<Text>turns.</Text>
+		</Row>
+		<!-- -->
+	</Language_ES_ES>	
+</GameData>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData><Language_en_US>
+	<!-- Civilization ==================================================================================-->
+	<Row Tag="TXT_KEY_CIV_PG_GRANCOLOMBIA_DESC">				<Text>La Gran Colombia</Text></Row>
+	<Row Tag="TXT_KEY_CIV_PG_GRANCOLOMBIA_SHORT_DESC">			<Text>Gran Colombia</Text></Row>
+	<Row Tag="TXT_KEY_CIV_PG_GRANCOLOMBIA_ADJECTIVE">			<Text>Colombian</Text></Row>
+	<!-- Leader ========================================================================================-->
+	<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PG_BOLIVAR_NAME">	<Text>Simon Jose Antonio de la Santisima Trinidad Bolivar Ponte y Palacios Blanco</Text></Row>
+	<Row Tag="TXT_KEY_LEADER_PG_BOLIVAR">					<Text>Simón Bolívar</Text></Row>
+	<!-- Trait =========================================================================================-->
+	<Row Tag="TXT_KEY_TRAIT_PG_GRANCOLOMBIA_SHORT">				<Text>The Independence of a Continent</Text></Row>
+	<Row Tag="TXT_KEY_TRAIT_PG_GRANCOLOMBIA">					<Text>[ICON_OCCUPIED]Occupied cities start with a Courthouse. Liberating a Civilization or a [ICON_CITY_STATE]City-State starts a [ICON_GOLDEN_AGE]Golden Age. Great People may be turned into Libertadores, losing the ability of building Citadels.</Text></Row>
+	
+	<!--===================================================-->
+	<!-- Units -->
+	<!--===================================================-->
+
+	<!-- Llanero -->
+	<!-- Unit =========================================================================================-->
+	<Row Tag="TXT_KEY_UNIT_PG_LLANERO">						<Text>Llanero</Text></Row>
+	<Row Tag="TXT_KEY_UNIT_PG_LLANERO_HELP">				<Text>The Llanero has a combat bonus on Open terrain, and also transfers its movement to Libertadores, unlike the Lancer which it replaces.</Text></Row>
+	<Row Tag="TXT_KEY_UNIT_PG_LLANERO_STRATEGY">			<Text>The Llaneros have a lot of mobility and their ability to increase the movement of Libertadores can help in changing the tide of battle.</Text></Row>
+	<!-- Promotion =========================================================================================-->
+	<Row Tag="TXT_KEY_PROMOTION_LLANERO">					<Text>Joropo</Text></Row>
+	<Row Tag="TXT_KEY_PROMOTION_LLANERO_HELP">				<Text>Increased Combat Bonus in Open Terrain (No Hills, No Forests, No Jungle). Movement speed transferred to near Great Generals.</Text></Row>
+
+	<!-- Libertador -->
+	<!-- Unit =========================================================================================-->
+	<Row Tag="TXT_KEY_UNIT_PG_LIBERTADOR">					<Text>Libertador</Text></Row>
+	<Row Tag="TXT_KEY_UNIT_PG_LIBERTADOR_HELP">				<Text>Replacement of the Great General. The Libertador grants a bonus against cities when adjacent to a city. It can also add turns of Golden Age for the Empire.</Text></Row>
+	<Row Tag="TXT_KEY_UNIT_PG_LIBERTADOR_STRATEGY">			<Text>As a replacement for the Great Generals, the Libertadores get an important advantage, as the extra combat strenght near cities can prove handy when conquering or liberating cities.</Text></Row>
+	<!-- Promotion =========================================================================================-->
+	<Row Tag="TXT_KEY_PROMOTION_PG_LIBERATIONIST">			<Text>Padre de la Patria</Text></Row>
+	<Row Tag="TXT_KEY_PROMOTION_PG_LIBERATIONIST_HELP">		<Text>Gives +50% bonus vs. Cities to all friendly units within 2 tiles, but not on the same tile, of the Libertador when adjacent to a city.</Text></Row>
+	<!-- Action =========================================================================================-->
+	<Row Tag="TXT_KEY_MISSION_PG_RECRUIT">					<Text>Recruit Great Person</Text></Row>
+	<Row Tag="TXT_KEY_MISSION_PG_RECRUIT_HELP">				<Text>Turn this Great Person into a Libertador (The Libertador won't be able of building Citadels). Costs 100 [ICON_CULTURE] Culture.</Text></Row>
+	<Row Tag="TXT_KEY_MISSION_PG_RECRUIT_DISABLED_HELP">	<Text>You either don't have enough [ICON_CULTURE] Culture to perform this action or the unit is not on a land tile inside your territory.</Text></Row>
+
+</Language_en_US></GameData>

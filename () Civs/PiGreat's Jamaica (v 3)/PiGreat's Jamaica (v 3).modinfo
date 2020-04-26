@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a564f519-33fe-4652-94b9-0f6b34b039dc" version="3">
+  <Properties>
+    <Name>PiGreat's Jamaica</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds Jamaica under its first national hero Marcus Garvey to Brave New World.</Teaser>
+    <Description>Adds Jamaica under the legendary Marcus Garvey to the game.</Description>
+    <Authors>PiGreat</Authors>
+    <SpecialThanks>Urdnot_Scott, Uighur_Caesar, Hoop Thrower, Chrisy15, TopHatPaladin, DarthKyofu</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5 " minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="d60c32bd-6826-4ca3-8161-2e37ebab5883 " minversion="0" maxversion="999" title="Protestant Denominations" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD &amp; Pouakai's Mercenaries" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Rise to Power" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="23" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact's Events and Decisions" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD's Cities In Development" />
+    <Mod id="d9ece224-6cd8-4519-a27a-c417b59cdf35" minversion="0" maxversion="999" title="Future Worlds" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="6D2F9725BE98049CD30651D2AA568186" import="1">Art/IconAtlas/JamaicaAlpha128.dds</File>
+    <File md5="3E57C981BB91796A698C7D3DE494C42A" import="1">Art/IconAtlas/JamaicaAlpha16.dds</File>
+    <File md5="E1E81293F60F3E1A89926DD8F83E41EA" import="1">Art/IconAtlas/JamaicaAlpha24.dds</File>
+    <File md5="EC7D9D0937EBD3A5526E0D3162F4CA45" import="1">Art/IconAtlas/JamaicaAlpha32.dds</File>
+    <File md5="B16DE02B2671D6CDC4571984B6FB8932" import="1">Art/IconAtlas/JamaicaAlpha45.dds</File>
+    <File md5="1D4FD669E24094C9F04F030455E63C4B" import="1">Art/IconAtlas/JamaicaAlpha48.dds</File>
+    <File md5="0B0D8DB7C553DCAF6CDA74AF4A0ED34F" import="1">Art/IconAtlas/JamaicaAlpha64.dds</File>
+    <File md5="4C96AD0AFB1CDF88F83EE5EA0E3308F4" import="1">Art/IconAtlas/JamaicaAlpha80.dds</File>
+    <File md5="E800A549797FE16F7CA66A650BB78C91" import="1">Art/IconAtlas/JamaicaAtlas128.dds</File>
+    <File md5="ED3AF9B48AE5D89EF98786B6E0FF0E6F" import="1">Art/IconAtlas/JamaicaAtlas256.dds</File>
+    <File md5="D8FBFDBAD216704FD6A1975CC8C5F8EC" import="1">Art/IconAtlas/JamaicaAtlas32.dds</File>
+    <File md5="942C84A51501B65C637D3427C1ABC7AC" import="1">Art/IconAtlas/JamaicaAtlas45.dds</File>
+    <File md5="4C5512D4F94DF88D1ECF681C1D15B9D0" import="1">Art/IconAtlas/JamaicaAtlas64.dds</File>
+    <File md5="03DB690A4D3A41F17B805A94718F8092" import="1">Art/IconAtlas/JamaicaAtlas80.dds</File>
+    <File md5="A3901E18B7064F9FE716ED646825A9DD" import="1">Art/Leader/JamaicaDoM.dds</File>
+    <File md5="E7B033A665F29A012289DF551717C4D0" import="1">Art/Leader/MarcusGarveyLS.dds</File>
+    <File md5="9B973075679C44976CA344EB76174FFE" import="1">Art/Map/JamaicaMapSmall.dds</File>
+    <File md5="67CFB6A9D0411D482C7E36B789E9261A" import="1">Art/Model/cimarron.fxsxml</File>
+    <File md5="30D746316AEFFFD3072FB1B2A0C704E7" import="1">Art/Model/cimarron.gr2</File>
+    <File md5="6D6E4998C14C414C77A680ADDEB31D60" import="1">Art/Model/cimarron_diff.dds</File>
+    <File md5="591201C4CC61996383039D35ABCDA2C8" import="1">Art/Sound/Pi_Jamaica_Peace.mp3</File>
+    <File md5="931C0EFF7A7E99A5D1FBAA1CAD84D1EA" import="1">Art/Sound/Pi_Jamaica_War.mp3</File>
+    <File md5="462EC7C1A9595FA07C163AA4CA0D277A" import="1">Art/UnitFlags/LinerFlag128.dds</File>
+    <File md5="12D36A3266516427A450B64CB1337100" import="1">Art/UnitFlags/LinerFlag.dds</File>
+    <File md5="042712F3B5C45238EC308C5ACDC78A71" import="1">Art/UnitFlags/MaroonFlag128.dds</File>
+    <File md5="DAE2555BD53F3BC070A78B2786492978" import="1">Art/UnitFlags/MaroonFlag.dds</File>
+    <File md5="7E2E44BAA55D8738A6A492E67F2B184F" import="0">lua/Jamaica_Maroon.lua</File>
+    <File md5="8DFF7B7FE119C4B6D77809B07C772AA6" import="0">lua/Jamaica_UA.lua</File>
+    <File md5="AC103B3FE40CDD05D2975DC4DDE97A3D" import="0">lua/Jamaica_BSL.lua</File>
+    <File md5="79F32C83DF34A03C1CB4F3E1AD002473" import="1">lua/Jamaica_Decisions.lua</File>
+    <File md5="CABC13A8178D9288A2377B373E3E0AE5" import="0">SQL/ArtDefines.sql</File>
+    <File md5="5CC1110B98D59889A9D51B6283B120BD" import="0">SQL/Decision_Dummies.sql</File>
+    <File md5="8FCFE3464BB8AC59D2F78B09B71FC3C1" import="0">SQL/IconAtlases.sql</File>
+    <File md5="4A8D7CD9388E9BEBCBAE4FF5D9D92C46" import="0">SQL/Jamaica_Buildings.sql</File>
+    <File md5="41E287A718C633747B08201B65872F9F" import="0">SQL/Jamaica_Mods.sql</File>
+    <File md5="84A1A25BDF879C6FE1C4BF99216060AE" import="0">SQL/Jamaica_Promotions.sql</File>
+    <File md5="8891366970F5E35C86D0D4D0AE907445" import="0">XML/Jamaica_Dummies.xml</File>
+    <File md5="EAB4D8C3F294C48D94E5BC316B60C2F8" import="0">XML/Jamaica_GameText.xml</File>
+    <File md5="6682D9301FDAC51505A594A61F04FA80" import="1">XML/Jamaica_Leader_Screen_Mod.xml</File>
+    <File md5="F92D0273FE5191FA62DC98A4F0DB2F2C" import="0">XML/Jamaica_Music.xml</File>
+    <File md5="7DCFE53AFF50270231E97708FD924414" import="0">XML/Jamaica_Traits.xml</File>
+    <File md5="12A2462C0E3C5BE25FEF0D82C3DA160A" import="0">XML/Jamaica_Civilizations.xml</File>
+    <File md5="A0A01BF9C3E9BEF83E3A294A3BB24902" import="0">XML/Jamaica_Leaders.xml</File>
+    <File md5="BDBCC20A08DA8591B0D68A29B6A238E0" import="0">XML/Jamaica_Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Jamaica_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Jamaica_Leaders.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Jamaica_Traits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Jamaica_Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Jamaica_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Jamaica_Music.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Jamaica_Dummies.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/IconAtlases.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Jamaica_Mods.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Jamaica_Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Decision_Dummies.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Jamaica_Buildings.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="lua/Jamaica_BSL.lua">
+      <Name>Black Star Liner</Name>
+      <Description>UU1</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="lua/Jamaica_Maroon.lua">
+      <Name>Maroon Rebel</Name>
+      <Description>UU2</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="lua/Jamaica_UA.lua">
+      <Name>One Love</Name>
+      <Description>UA</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

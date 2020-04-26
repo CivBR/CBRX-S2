@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0cc8daf2-d8b0-4e76-a4de-c8fe48a67350" version="40">
+  <Properties>
+    <Name>The Mississippi (Brave New World)</Name>
+    <Teaser>Adds the Mississippi to the base game. Requires the Brave New World expansion.</Teaser>
+    <Description>Adds the Mississippi to the base game. Requires the Brave New World expansion.
+[NEWLINE][NEWLINE]~~~
+[NEWLINE][NEWLINE]Note: 
+[NEWLINE]- Requires the Brave New World expansion .
+[NEWLINE]- Updates to the Mod will most likely break save games. Please do not update until you are ready to begin a new game.
+[NEWLINE][NEWLINE]~~~
+[NEWLINE][NEWLINE]Leader: Tuskaloosa
+[NEWLINE][NEWLINE]UA: Maize Economy
+[NEWLINE]UU: Falcon Dancer
+[NEWLINE]UB: Mound Temple</Description>
+    <Authors>Tomatekh</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=472751</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>40</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events and Decisions" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="Cultural Diversity" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Cultural Influence" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="C. Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="C. Balance Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D." />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="Piety" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="Soverignty" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="Mercenaries" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="CiD" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="ExCE" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="E381992641DE1B3873A6CB9EC59B65F6" import="1">Art/Alpha/MississippiModAtlasAlpha128.dds</File>
+    <File md5="EFB6C16F3BE82C61B59B8C52AE4E4624" import="1">Art/Alpha/MississippiModAtlasAlpha16.dds</File>
+    <File md5="47D8FFE518FA20EC68E0A95351E27826" import="1">Art/Alpha/MississippiModAtlasAlpha24.dds</File>
+    <File md5="5BC9AA80EF99EFEED9B33CF263981B2D" import="1">Art/Alpha/MississippiModAtlasAlpha32.dds</File>
+    <File md5="96283B7415E3DDFA3DD51885F566B2AF" import="1">Art/Alpha/MississippiModAtlasAlpha48.dds</File>
+    <File md5="D8424A96728D920246F48C18074E402D" import="1">Art/Alpha/MississippiModAtlasAlpha64.dds</File>
+    <File md5="E9074941630D67CBFDE944D75F90C176" import="1">Art/Atlas/MississippiModAtlas128.dds</File>
+    <File md5="A68E20DE3EEEAAD590BBBDB013486EE1" import="1">Art/Atlas/MississippiModAtlas214.dds</File>
+    <File md5="22003DD5F773696CE1441327DEF2092A" import="1">Art/Atlas/MississippiModAtlas256.dds</File>
+    <File md5="14D5B506E62B7A5B3A67FB984BB91D60" import="1">Art/Atlas/MississippiModAtlas32.dds</File>
+    <File md5="E756CCFCB83B9865BA6D69F582CCB2C3" import="1">Art/Atlas/MississippiModAtlas45.dds</File>
+    <File md5="43B2FE90700B78DC8B33B795CDC5BAC7" import="1">Art/Atlas/MississippiModAtlas64.dds</File>
+    <File md5="7E4F1257AE5808780F294269FC4CC35C" import="1">Art/Atlas/MississippiModAtlas80.dds</File>
+    <File md5="5DFFB2CCA467960E36AFD0228FDFAA37" import="1">Art/Improvement/Model/iroqueseMarket_cm.dds</File>
+    <File md5="D3CB178C76E0361D4CCD6749B70A10F5" import="1">Art/Improvement/Model/iroqueseWall_cm.dds</File>
+    <File md5="9D74329F2DDCC8B1AF698C632227CC1C" import="1">Art/Improvement/Model/iroqueseWorkshop_cm.dds</File>
+    <File md5="AB2AD91E7E5F27ABD88C3C4D74F7F6CC" import="1">Art/Improvement/Model/sv_Huron.dds</File>
+    <File md5="17315BEC5A92B0848C34B1EAB8E1ACD9" import="1">Art/Improvement/Model/Tribe_Huron.fxsxml</File>
+    <File md5="EB7E2B5EFB7813AF29428078137170CA" import="1">Art/Improvement/Model/Tribe_Huron.gr2</File>
+    <File md5="54A5ACD5A27DCEFB1493951F0876DEE5" import="1">Art/Improvement/Model/Tribe_Huron.indiedefs</File>
+    <File md5="ED15C8C908C98CCF4C5F0587D57FFF98" import="1">Art/Improvement/sv_MississippianPlatform.dds</File>
+    <File md5="E5E78C8748412E8B45F67DBB8DDF7CAB" import="1">Art/Leader/MississippiModDiplo.dds</File>
+    <File md5="27110A1CFABA32FADC5C9B863C661DEE" import="1">Art/Leader/MississippiModDoM.dds</File>
+    <File md5="1292B8951B604831FDC7BAB1C95A089E" import="1">Art/Leader/MississippiModMap.dds</File>
+    <File md5="2938705FC94D30CDCFFD3CCB7DACC07C" import="1">Art/Unit/MississippianUnitAlphaAtlas.dds</File>
+    <File md5="6DC2E106FA8D9A1789E5794D6C1BF2A6" import="1">Art/Unit/Model/AztecEagleWarrior.fxsxml</File>
+    <File md5="97BAFB58B2976BDBC4A46343358F8AE4" import="1">Art/Unit/Model/AztecEagleWarrior7.gr2</File>
+    <File md5="3EE647487CF8A0B2A76ACA7AE07E1958" import="1">Art/Unit/Model/EagleWarrior_Aztec.dds</File>
+    <File md5="264DB95B51EE95A4E2D6DEECCCF3FC4E" import="1">Art/Unit/Model/EagleWarrior_gloss.dds</File>
+    <File md5="8B05D9EE16A82A4E0914C040533723F5" import="1">Art/Unit/sv_Mississippian_Unit.dds</File>
+    <File md5="DC4F22310FB59A5A07B50AA6A42C10AD" import="1">Audio/MississippianPeace.mp3</File>
+    <File md5="CFAB464001B64826C7E60E2DFDE04B90" import="1">Audio/MississippianWar.mp3</File>
+    <File md5="0DA2E7A925D99084819A9B7CE8C0D7A4" import="0">City-State/Cahokia City State Update.sql</File>
+    <File md5="34F305CDCAD17CB98D3C2CB78584F9A9" import="1">Decisions/MississippiTomatekhDecisions.lua</File>
+    <File md5="F1E1E347726D3277588D7F5EAF02A7DE" import="0">Decisions/MississippiTomatekhDecisions.xml</File>
+    <File md5="2B345A3AADCCC37BD78CB80427DB920D" import="1">Decisions/MississippiTomatekhEvents.lua</File>
+    <File md5="6AB70A5620C72540952DD18056C03669" import="1">Decisions/MoundGameEvent.dds</File>
+    <File md5="9C52EB292442047BC061C3AE40DCEF19" import="0">Lua/City Info/Mississippi City Info.lua</File>
+    <File md5="99F671D039E347DFB946846860B83493" import="1">Lua/City Info/Mississippi City Info.xml</File>
+    <File md5="4B847B9BA137BE3A7131B490E98C1797" import="0">Lua/Mississippi Mod Check.lua</File>
+    <File md5="22366DEAF400B342A3AF560DDB2E5F31" import="1">Lua/Mississippi Mod Edits.lua</File>
+    <File md5="A7C16EF9A199CAB8AFF091BBD8C3F5BB" import="1">Lua/Mississippi Mod Scripts.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Lua/SaveUtils.lua</File>
+    <File md5="CB2701F4FCEF8904C93474D183FB3BDE" import="0">Lua/UI/JFD_Tomatekh_UI.lua</File>
+    <File md5="C6450714CB4AB7DF26779987088F674B" import="1">Lua/UI/JFD_Tomatekh_UI.xml</File>
+    <File md5="DE0C58B4E82D290254FEAA14BD9863D8" import="0">SQL/Mississippi Mod Graphic Defines.sql</File>
+    <File md5="64984404315AED237AD4280651690E29" import="0">SQL/Mississippi Mod Buildings Units.sql</File>
+    <File md5="9157C076CFCBE88B4A25E3092A398760" import="0">SQL/Mississippi Mod Civ Leader.sql</File>
+    <File md5="2E1AF7E9FC3371B7AFEA068FBF3CB4FE" import="0">SQL/Mississippi Mod Game Info.sql</File>
+    <File md5="E4FB3704A3F370E12A3D4BD11BC0906C" import="0">SQL/Mississippi Mod Support.sql</File>
+    <File md5="BB23B09695F5B9367224AF0FCF610394" import="1">XML/Art/Mississippi_Mod_Tomatekh_Leader_Scene.xml</File>
+    <File md5="A873D4356824F9F1F7D232B774D9EED8" import="0">XML/Buildings/Mississippi Mod Overlap.xml</File>
+    <File md5="F598E4559485DE1ED23EC8A872A76EB4" import="0">XML/Mississippi Mod Text.xml</File>
+    <File md5="B1A09F8C2F69864DB7DBBD5E577A1FD9" import="0">XML/Non English XML Tags/Mississippi Mod Text DE_DE.xml</File>
+    <File md5="9AC98EC2FB5AB6F43B8B6833EC9DD2C6" import="0">XML/Non English XML Tags/Mississippi Mod Text ES_ES.xml</File>
+    <File md5="792B8222B6D4F4DF62C07835DF4138CA" import="0">XML/Non English XML Tags/Mississippi Mod Text FR_FR.xml</File>
+    <File md5="BF42BE06298534169912763F5C406B45" import="0">XML/Non English XML Tags/Mississippi Mod Text IT_IT.xml</File>
+    <File md5="3031C385E5E301A312F42C61D0D067F1" import="0">XML/Non English XML Tags/Mississippi Mod Text JA_JP.xml</File>
+    <File md5="E48ED03E2BA9D43C34356C73843535C2" import="0">XML/Non English XML Tags/Mississippi Mod Text KO_KR.xml</File>
+    <File md5="5230CDC39AD9BF3E34596332367A31BF" import="0">XML/Non English XML Tags/Mississippi Mod Text PL_PL.xml</File>
+    <File md5="9A42E64D6E1C238FBA172C777A581F25" import="0">XML/Non English XML Tags/Mississippi Mod Text RU_RU.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/Mississippi Mod Civ Leader.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Mississippi Mod Game Info.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Mississippi Mod Buildings Units.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Mississippi Mod Graphic Defines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Mississippi Mod Overlap.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Mississippi Mod Support.sql</UpdateDatabase>
+      <UpdateDatabase>Decisions/MississippiTomatekhDecisions.xml</UpdateDatabase>
+      <UpdateDatabase>City-State/Cahokia City State Update.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Mississippi Mod Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Non English XML Tags/Mississippi Mod Text DE_DE.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Non English XML Tags/Mississippi Mod Text ES_ES.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Non English XML Tags/Mississippi Mod Text FR_FR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Non English XML Tags/Mississippi Mod Text IT_IT.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Non English XML Tags/Mississippi Mod Text JA_JP.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Non English XML Tags/Mississippi Mod Text KO_KR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Non English XML Tags/Mississippi Mod Text PL_PL.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Non English XML Tags/Mississippi Mod Text RU_RU.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Mississippi Mod Check.lua">
+      <Name>Mississippi</Name>
+      <Description>Mississippi</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/City Info/Mississippi City Info.lua">
+      <Name>City Info</Name>
+      <Description>City Info</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/UI/JFD_Tomatekh_UI.lua">
+      <Name>UI</Name>
+      <Description>UI</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

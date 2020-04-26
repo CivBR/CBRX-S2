@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2019 10:46:35 PM -->
+<GameData>
+	<Language_en_US>
+		<!--Civilization, Leader & Pedias-->
+		<Row Tag="TXT_KEY_CIV_PB_PALMARES_DESC">
+			<Text>Quilombo dos Palmares</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_PB_PALMARES_SHORT_DESC">
+			<Text>Palmares</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_PB_PALMARES_ADJECTIVE">
+			<Text>Palmarista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_FACTOID_HEADING">
+			<Text>Factoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_FACTOID_TEXT">
+			<Text>A semi-fictional account of Palmares was made into the 1984 Brazilian film by Carlos Diegues, Quilombo.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_TEXT_1">
+			<Text>Palmares, or the Quilombo dos Palmares, was a fugitive community of escaped slaves and others in colonial Brazil that developed from 1605 until its suppression in 1694. It was located in what is today the Brazilian state of Alagoas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_TEXT_2">
+			<Text>The state's name originates with the lakes along its coast near the city of Maceió. The coast is bordered by fringing reefs and many fine beaches. Behind the beaches, sometimes only hundreds of meters and defined by steep scarps, lies a stretch of green coastal hills having enough rainfall for considerable agriculture and scarce remnants of the Mata Atlântica (Atlantic Rain Forest) that now is largely limited to steep hill tops or steep valley sides and bottoms. This is the area long dominated by sugar cane.[NEWLINE][NEWLINE]Still farther inland lies the Sertão of the Northeast region of the nation. The Sertão is a high dry region dominated by scrub that is often thorn-filled and sometimes toxic, the caatinga. This area and its people are famed in legend and song. It is the land of the cowboy who is clad from head to toe (if he is lucky) with very thick leather to avoid the sharp vegetation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_HEADING_3">
+			<Text>Establishment of the Quilombos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_TEXT_3">
+			<Text>Palmares was the general name given by the Portuguese in Pernambuco and Alagoas to the interior districts beyond the settlements on the coast, especially the mountain ranges, because there were many palm trees there. As early as 1602, Portuguese settlers complained to the government that their captives were running away into this inaccessible region and building mocambos, or small communities. However, the Portuguese were unable to dislodge these communities, which were probably small and scattered, and so expeditions continued periodically into the interior.[NEWLINE][NEWLINE]During this time the vast majority of the enslaved Africans who were brought to Pernambuco were from Portuguese Angola, perhaps as many as 90%, and therefore it is no surprise that tradition, reported as early as 1671 related that its first founders were Angolan. This large number was primarily because the Portuguese used the colony of Angola as a major raiding base, and there was a close relationship between the holders of the contract of Angola, the governors of Angola, and the governors of Pernambuco.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_HEADING_4">
+			<Text>The Portuguese and the Dutch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_TEXT_4">
+			<Text>In 1630 the Dutch West India Company sent a fleet to conquer Pernambuco, in the context of the Dutch-Portuguese War, during the period of the Iberian Union. Although they captured and held the city of Recife, they were unable (and generally unwilling) to conquer the rest of the province. As a result, there was a constant low-intensity war between Dutch and Portuguese settlers. During this time thousands of enslaved people escaped and went to the Palmares.[NEWLINE][NEWLINE]Although initially the Dutch considered making an alliance with Palmares against the Portuguese,peace agreements put them in the position of supporting the sugar plantation economy of Pernambuco. Consequently, the Dutch leader John Maurice of Nassau decided to send expeditions against Palmares. These expeditions also collected intelligence about them, and it is from these accounts that we learn about the organization of Palmares in their time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_HEADING_5">
+			<Text>Emergence of Monarchies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_TEXT_5">
+			<Text>By the 1640s, many of the mocambos had consolidated into larger entities ruled by kings. Dutch descriptions by Kaspar Barlei (Casparus Barleus) (1647) and Johan Nieuhoff (published 1682) spoke of two larger consolidated entities, "Great Palmares" and "Little Palmares". In each of these units there was a large central town that was fortified and held 5,000-6,000 people. The surrounding hills and valleys were filled with many more mocambos of 50 to 100 people. A description of the visit of Johan Blaer to one of the larger mocambos in 1645 (which had been abandoned) revealed that there were 220 buildings in the community, a church, four smithies, and a council house. Churches were common in Palmares partly because Angolans were frequently Christianized, either from the Portuguese colony or from the Kingdom of Kongo, which was a Christianized country at that time. Others had been converted to Christianity while enslaved. According to the Dutch, they used a local person who knew something of the church as a priest, though they did not think he practiced the religion in its usual form.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_HEADING_6">
+			<Text>Zumbi overthrows Ganga Zumba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_TEXT_6">
+			<Text>After 1654 the Dutch were expelled, and the Portuguese began organizing expeditions against the mocambos of Palmares. In the post-Iberian Union period (after 1640), the kingdoms of Palmares grew and became even more consolidated. Two descriptions, one an anonymous account called "Relação das Guerras de Palmares" (1678) (Account of the war of Palmares), the other written by Manuel Injosa (1677), describe a large consolidated entity with nine major settlements and many smaller ones. Slightly later accounts tell us that the kingdom was named "Angola Janga" which according to the Portuguese meant "Little Angola," although this is not a direct translation from a Kimbundu term as one might expect. The two texts agree that it was ruled by a king, which the "Relação das Guerras" named "Ganga Zumba" and that members of his family ruled other settlements, suggesting an incipient royal family. He also had officials and judges as well as a more or less standing army.[NEWLINE][NEWLINE]After a particularly devastating attack by the captain Fernão Carrilho that wounded Zumba and led to the capture of some of his children and grandchildren, Ganga Zumba sent a letter to the Governor of Pernambuco asking for peace. The governor responded by agreeing to pardon Gana Zumba and all his followers, on condition that they move to a position closer to the Portuguese settlements and return all enslaved Africans that had not been born in Palmares. Although Gana Zumba agreed to the terms, one of his more powerful leaders, Zumbi refused to accept the terms. According to a deposition made in 1692 by a Portuguese priest, Zumbi was born in Palmares in 1655, but was captured by Portuguese forces in a raid while still an infant. He was raised by the priest, and taught to read and write Portuguese and Latin. At the age of 15, however, Zumbi escaped and returned to Palmares. There he quickly won a reputation for military skill and bravery and was promoted to the leader of a large mocambo.[NEWLINE][NEWLINE]In a short time, Zumbi had organized a rebellion against Ganga Zumba, who was styled as his uncle, and poisoned him (though this is not proven, and many believe Zumba poisoned himself as a warning not to trust the Portuguese). It is argued that Zumba was sick of fighting, but even more wary of signing the deal with the Portuguese, foreseeing their betrayal, and renewed war. By 1679 the Portuguese were again sending military expeditions against Zumbi. Meanwhile, the sugar planters reneged on the agreement and re-enslaved many of Gana Zumba's followers who had moved closer to the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_HEADING_7">
+			<Text>Zumbi's Reign and End of the Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PB_PALMARES_TEXT_7">
+			<Text>From 1680 to 1694, the Portuguese and Zumbi, now the new king of Angola Janga, waged an almost constant war of greater or lesser violence. The Portuguese government finally brought in the famed Portuguese military commanders Domingos Jorge Velho and Bernardo Vieira de Melo, who had made their reputation fighting Indigenous peoples in Brazil peoples in São Paulo and then in the São Francisco valley. The final assault against Palmares occurred in January 1694. Cerca do Macaco, the main settlement, fell; and Zumbi was wounded. He eluded the Portuguese, but was betrayed, finally captured, and beheaded on November 20, 1695.[NEWLINE][NEWLINE]Zumbi's brother continued the resistance, but Palmares was ultimately destroyed, and Velho and his followers were given land grants in the territory of Angola Janga, which they occupied as a means of keeping the kingdom from being reconstituted. Palmares had been destroyed by a large army of Indians under the command of white and caboclo (white/Indian mixed-bloods) captains-of-war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_PB_PALMARES_TEXT">
+			<Text>Hail Zumbi, liberator and king of the Quilombo dos Palmares! The slave trade saw many of your people torn from their homes on the West African coast and shipped to the sugar plantations of colonial Brazil, to be worked in harrowing conditions often until their death. Those that could escape the shackles of enslavement did so, fleeing to the Brazilian hinterlands to form a free society. The quilombos grew into kingdoms with their own unique culture and practices, including capoeira; the engimatic dance of war, with which an unarmed escapee could defend themself from recapture by the raiding bandieras.[NEWLINE][NEWLINE]King Zumbi, who united and led the quilombos in defiance of the Portuguese authorities, your people call your name again! Can you resist subjugation and protect your way of life? Can you cultivate a home for your scattered people? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI">
+			<Text>Zumbi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA">
+			<Text>Zumbi, also known as Zumbi dos Palmares, was an important warrior figure in Brazilian history, being one of the pioneers of resistance to slavery. He was also the last of the kings of the Quilombo dos Palmares, a settlement of Afro-Brazilian people who had liberated themselves from enslavement, in the present-day state of Alagoas, Brazil. Zumbi today is revered in Afro-Brazilian culture as a powerful symbol of anti-slave and anti-colonial resistance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_FACT_1">
+			<Text>November 20 is celebrated, chiefly in Brazil, as a day of Afro-Brazilian consciousness. The day has special meaning for those Brazilians of African descent who honour Zumbi as a hero, freedom fighter, and symbol of freedom. Zumbi has become a hero of the 20th-century Afro-Brazilian political movement, as well as a national hero in Brazil. Today, Zumbi is considered a hero of great magnitude amongst Afro-Brazilians who celebrate his courage, leadership qualities, and heroic resistance to Portuguese colonial rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_TEXT_1">
+			<Text>Zumbi's mother Sabina was a sister of Ganga Zumba, who is said to have been the son of princess Aqualtune, daughter of an unknown King of Kongo. It is unknown if Zumbi's mother was also daughter of the princess, but this still makes him related to the Kongo nobility. Zumbi and his relatives are of Western African descent. They were brought to the Americas after the Battle of Mbwila, which occurred in modern-day Angola. The Portuguese won the battle eventually, killing 5,000 men, and captured the king, his two sons, his two nephews, four governors, various court officials, 95 title holders and 400 other nobles who were put on ships and sold as slaves in the Americas. It is very probable that Ganga and Sabina were among these nobles. The whereabouts of the rest of the individuals captured after the Battle of Mbwila is unknown. Some are believed to have been sent to Spanish America, but Ganga Zumba, his brother Zona and Sabina were made slaves at the plantation of Santa Rita in the Captaincy of Pernambuco in what is now northeast Brazil. From there, they escaped to Palmares.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_TEXT_2">
+			<Text>Zumbi was born free in Palmares in 1655, believed to be descended from the Imbangala warriors from Angola. He was captured by the Portuguese and given to a missionary, Father António Melo, when he was approximately six years old. Father António Melo baptized Zumbi and gave him the name of Francisco. Zumbi was taught the sacraments, learned Portuguese and Latin, and helped with Catholic mass. Despite attempts to subjugate him, Zumbi escaped in 1670 and, at the age of 15, returned to his birthplace. Zumbi became known for his physical prowess and cunning in battle and he was a respected military strategist by the time he was in his early twenties.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_HEADING_3">
+			<Text>Rise to Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_TEXT_3">
+			<Text>By 1678, the governor of the captaincy of Pernambuco, Pedro Almeida, weary of the longstanding conflict with Palmares, approached its king Ganga Zumba with an olive branch. Almeida offered freedom for all runaway slaves if Palmares would submit to Portuguese authority, a proposal which Ganga Zumba favored. But Zumbi – who became the commander-in-chief of the Kingdom's forces in 1675 - was distrustful of the Portuguese. Further, he refused to accept freedom for the people of Palmares while other Africans remained enslaved. He rejected Almeida's overture and challenged Ganga Zumba's kingship. In 1687 Ganga Zumba was killed by his nephew Zumbi, who sought to implement a far more aggressive stance against the Portuguese. Vowing to continue the resistance to Portuguese oppression, Zumbi became the new king of Palmares.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_HEADING_4">
+			<Text>Conflict with Portgual</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_TEXT_4">
+			<Text>Zumbi's determination and heroic efforts to fight for Palmares' independence increased his prestige. However, when Zumbi gained authority, tensions with the Portuguese quickly escalated. In 1694, fifteen years after Zumbi assumed kingship of Palmares, the Portuguese colonists under the military commanders Domingos Jorge Velho and Bernardo Vieira de Melo launched an assault on the Palmares. They made use of artillery as well as a fierce force of Brazilian Indian fighters, which took 42 days to defeat the kingdom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_HEADING_5">
+			<Text>Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_TEXT_5">
+			<Text>On February 6, 1694, after 67 years of ceaseless conflict with the cafuzos, or Maroons, of Palmares, the Portuguese succeeded in destroying Cerca do Macaco, the kingdom's central settlement. Some resistance continued, but on November 20, 1695 Zumbi was killed and decapitated, his head displayed on a pike to dispel any legends of his immortality. Although it was eventually crushed, the success of Palmares through most of the 17th century greatly challenged colonial authority and would stand as a beacon of slave resistance in the times to come.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_LIVED">
+			<Text>c. 1655 - 1695 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_NAME">
+			<Text>Zumbi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_SUBTITLE">
+			<Text>King of the Quilombo dos Palmares</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PB_ZUMBI_PEDIA_TITLES_1">
+			<Text>King</Text>
+		</Row>
+		<!--Trait-->
+		<Row Tag="TXT_KEY_TRAIT_PB_ANGOLA_JANGA">
+			<Text>May capture all enemy civilian Units. Your civilian Units deal slight damage to adjacent enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_PB_ANGOLA_JANGA_SHORT">
+			<Text>Angola Janga</Text>
+		</Row>
+		<!--City Names-->
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_1">
+			<Text>Macaco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_2">
+			<Text>Andalaquituxe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_3">
+			<Text>Subupira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_4">
+			<Text>Dambrapanga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_5">
+			<Text>Zumbi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_6">
+			<Text>Tabocas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_7">
+			<Text>Arotirene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_8">
+			<Text>Aqualtene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_9">
+			<Text>Amaro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_10">
+			<Text>Cabula</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_11">
+			<Text>Quiricós</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_12">
+			<Text>Acaranquanha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_13">
+			<Text>Camisão</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_14">
+			<Text>Irará</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_15">
+			<Text>Urubá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_16">
+			<Text>Matas do Concavo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_17">
+			<Text>Buraco de Tatú</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_18">
+			<Text>Rio das Contãs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_19">
+			<Text>Santana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_20">
+			<Text>Cairú</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_21">
+			<Text>Jacobina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_22">
+			<Text>Camamú</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_23">
+			<Text>Canaveíras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_24">
+			<Text>Ilhéus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_25">
+			<Text>Jeremobão</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_26">
+			<Text>Inhambupe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_27">
+			<Text>Sertão</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_28">
+			<Text>Itapicuru</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_29">
+			<Text>Jaguaripe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PB_PALMARES_30">
+			<Text>Torre</Text>
+		</Row>
+		<!--Spy Names-->
+		<Row Tag="TXT_KEY_SPY_NAME_PB_PALMARES_0">
+			<Text>Dandara</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_PALMARES_1">
+			<Text>Ganga Zumba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_PALMARES_2">
+			<Text>Aqualtune</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_PALMARES_3">
+			<Text>Andalaquituche</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_PALMARES_4">
+			<Text>Camuanga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_PALMARES_5">
+			<Text>Ganga Zona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_PALMARES_6">
+			<Text>Sabina</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_PALMARES_7">
+			<Text>Motumbo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_PALMARES_8">
+			<Text>Harmódio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PB_PALMARES_9">
+			<Text>Aristogíton</Text>
+		</Row>
+		<!--Units-->
+		<Row Tag="TXT_KEY_UNIT_PB_CAPOEIRISTA">
+			<Text>Capoeirista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PB_CAPOEIRISTA_TEXT">
+			<Text>In the 16th century, Portugal had claimed one of the largest territories of the colonial empires, but lacked people to colonize it, especially workers. In the Brazilian colony, the Portuguese, like many European colonists, chose to use slavery to build their economy. In its first century, the main economic activity in the colony was the production and processing of sugar cane. Portuguese colonists created large sugarcane farms called "engenhos", literally "engines" (of economic activity), which depended on the labor of slaves. Slaves, living in inhumane conditions, were forced to work hard and often suffered physical punishment for small misbehaviors.[NEWLINE][NEWLINE]Although slaves often outnumbered colonists, rebellions were rare because of the lack of weapons, harsh colonial law, disagreement between slaves coming from different African cultures, and lack of knowledge about the new land and its surroundings. In this environment, capoeira was born as a simple method of survival. It was a tool with which an escaped slave, completely unequipped, could survive in the hostile, unknown land and face the hunt of the capitães-do-mato, the armed and mounted colonial agents who were charged with finding and capturing escapees.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PB_CAPOEIRISTA_STRATEGY">
+			<Text>The Capoeirista is the Palmarista Unique Unit, replacing the Warrior. The Capoeirista moves at double speed through Jungle tiles, making it an excellent unit for early reconnaissance. The Capoeirista will additionally gain a bonus Movement point and ignore enemy Zone of Control if it begins a turn adjacent to two or more enemy units, giving it excellent escape options when overwhelmed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PB_CAPOEIRISTA_HELP">
+			<Text>Ancient Era Unit that may move quickly through Jungle. If it begins a turn flanked by two or more enemy Units, it will gain an extra [ICON_MOVES] Movement point and ignore their Zone of Control. Only Palmares may build it. Replaces the Warrior.</Text>
+		</Row>
+		<!--Promotions-->
+		<Row Tag="TXT_KEY_PROMOTION_PB_DOUBLE_MOVES">
+			<Text>Jungle Survivor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PB_ESCAPE_ZOC">
+			<Text>Escapee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PB_MOCAMBO_CAPTURE">
+			<Text>Mocambeiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PB_DOUBLE_MOVES_HELP">
+			<Text>Double Movement on Jungle tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PB_ESCAPE_ZOC_HELP">
+			<Text>+1 Movement and ignores enemy Zone of Control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PB_MOCAMBO_CAPTURE_HELP">
+			<Text>+50% Defense and may capture defeated enemy units.</Text>
+		</Row>
+		<!--Builds-->
+		<Row Tag="TXT_KEY_BUILD_PB_MOCAMBO">
+			<Text>Construct a Mocambo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_PB_MOCAMBO_HELP">
+			<Text>Constructs a Mocambo village, which increases the Culture and Production yield of this tile. Palmarista Units stationed on this tile gain 50% additional Defense and may capture defeated enemy Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_PB_MOCAMBO_REC">
+			<Text>It will increase the amount of [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production provided by this tile. The improvement also increases Defense for any stationed Palmarista Unit and grants the ability to capture defeated enemies.</Text>
+		</Row>
+		<!--Improvements-->
+		<Row Tag="TXT_KEY_IMPROVEMENT_PB_MOCAMBO">
+			<Text>Mocambo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_PB_MOCAMBO_TEXT">
+			<Text>The mocambos were village-sized communities mainly of runaway slaves in colonial Brazil, during the Portuguese rule. A mocambo differed from a quilombo in size—a quilombo, like the Quilombo dos Palmares, might embrace many distinct mocambos. The terms were not always used consistently, however.[NEWLINE][NEWLINE]Mocambos are exile communities established by fugitive Brazilian slaves between the 18th and 19th century. The purpose of these settlements was to protect the slaves from the Portuguese opposition, thanks to their hidden location, which was difficult to find for the punitive military expeditions. Mocambos were a threat to the economy and the social fabric of the slave regime, because the parasitic economy of these communities was mostly composed of theft, extortion and raiding. Though the minority of communities lived off agriculture and arms trade. Mocambos were not controlled by the government and because of the high percentage of Brazilian slaves, which incorporated one third of the total population, the number and the importance of Mocambos was continually increasing. For this reason Mocambos inhabitants were executed by punitive military expeditions and the children born in the Mocambos became property of the leaders of the exterminating expeditions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_PB_MOCAMBO_HELP">
+			<Text>A Mocambo must be built in Forest or Jungle. It produces +1 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production per turn. Any Palmarista Unit stationed on a Mocambo gains +50% extra Defense and may capture defeated enemy Units.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

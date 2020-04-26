@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- When you first meet this AI player -->
+		<Row Tag="TXT_KEY_LEADER_PG_BOLIVAR_FIRSTGREETING_1">
+			<Text>Well Met. I'm Simon Bolivar, El Libertador. Welcome to my greatest project: The Gran Colombia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PG_BOLIVAR_FIRSTGREETING_2">
+			<Text>Greetings, I hope you can be an ally of our freedom. I'm Simon Bolivar, El Libertador, founder of the Gran Colombia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PG_BOLIVAR_FIRSTGREETING_3">
+			<Text>My name is Simon Bolivar, El Libertador, though I prefer just being called a citizen. Will you aid us in the path of our freedom?</Text>
+		</Row>
+		
+		<!--Defeated and removed from game -->
+		<Row Tag="TXT_KEY_LEADER_PG_BOLIVAR_DEFEATED_1">
+			<Text>And the Gran Colombia, lies defeated. But the dreams of freedom will not perish!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PG_BOLIVAR_DEFEATED_2">
+			<Text>So, it is the end of this dream... Let's hope justice manages to punish you eventually.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_PG_BOLIVAR_DEFEATED_3">
+			<Text>And so its come to this... I devoted my life to building this Gran Colombia, so know that this is not the end!.</Text>
+		</Row>
+		<!-- ==================================== Cultural Influence ==================================== -->
+		<!-- Player is influential on the AI (Our people are wearing your blue jeans...) -->
+		<Row Tag="TXT_KEY_LEADER_PG_BOLIVAR_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now playing your Arpas and praising your Libertadores! We're worried the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<!-- AI is influential on the player -->
+		<Row Tag="TXT_KEY_LEADER_PG_BOLIVAR_INFLUENTIAL_ON_HUMAN_1">
+			<Text>Your people and my people are now very similar. We now share a culture and so you are called to join my Patria Grande!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="18c3991a-57dd-49db-9bb2-a3685461ec34" version="1">
+  <Properties>
+    <Name>[BNW] Senshi's Marajoara (P'kuee)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Marajoara culture, moundbuilders at the mouth of the Amazon, into the game!</Teaser>
+    <Description>Adds the Marajoara culture, moundbuilders at the mouth of the Amazon, into the game!
+
+Credits:
+Senshi: Design, Code, Art (Map, Civ Icon)
+DarthKyofu: Art (Civ Icon, Leaderscene)
+TopHatPaladin: Lua
+TPangolin: Art (Unit and Building Icons)</Description>
+    <Authors>Senshi, DarthKyofu</Authors>
+    <SpecialThanks>TopHatPaladin, TPangolin</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="6642DE3FAE69FF645A00363E177CC6E9" import="0">Art/Atlas/AtlasDefines.xml</File>
+    <File md5="3524E69C5EB3D9F62A986FFFBA757DBD" import="1">Art/Atlas/MarajoAlpha128.dds</File>
+    <File md5="DC15B18474B8FDB5A53360E36D5448AC" import="1">Art/Atlas/MarajoAlpha16.dds</File>
+    <File md5="9EFAE152676CFD88D0F3FDDF233F389F" import="1">Art/Atlas/MarajoAlpha24.dds</File>
+    <File md5="3183FD0E2DD5903EA26239D285178851" import="1">Art/Atlas/MarajoAlpha256.dds</File>
+    <File md5="2282F620A80E7725D64DD39FA7C2AC61" import="1">Art/Atlas/MarajoAlpha32.dds</File>
+    <File md5="73CFF719F6DAA1DA1A99D4786D770E7A" import="1">Art/Atlas/MarajoAlpha48.dds</File>
+    <File md5="4B0BE2C3DCEF04F3EA48E7E9B8A04ADE" import="1">Art/Atlas/MarajoAlpha64.dds</File>
+    <File md5="DFF390A9AA6FFBB6A386B89752113D7C" import="1">Art/Atlas/MarajoAlpha80.dds</File>
+    <File md5="8D1E0139B38DF019E919B8AB5D558496" import="1">Art/Atlas/MarajoAtlas128.dds</File>
+    <File md5="B1EB629C37C8B5BFB238B765610175AD" import="1">Art/Atlas/MarajoAtlas256.dds</File>
+    <File md5="DA3FFF2E96936ABD6E4F427E96B4B46C" import="1">Art/Atlas/MarajoAtlas32.dds</File>
+    <File md5="6BF818A7162299A09E93468FC5D9BC26" import="1">Art/Atlas/MarajoAtlas45.dds</File>
+    <File md5="FBC67113BA8062754F3A36823ADC244B" import="1">Art/Atlas/MarajoAtlas48.dds</File>
+    <File md5="C363AF3F2E679128DD24AD53DE9B8163" import="1">Art/Atlas/MarajoAtlas64.dds</File>
+    <File md5="787EBFA8AC6D271B47269EB8B08C991C" import="1">Art/Atlas/MarajoAtlas80.dds</File>
+    <File md5="1102941C329073A72EF1FD4824F27D43" import="1">Art/Atlas/SnakeCanoeFlag32.dds</File>
+    <File md5="41EEBC91CD448DA02FD4FB66E2722C60" import="1">Art/Canoe/canoe.fxsxml</File>
+    <File md5="2C7FB150D34B0A388E842FDB51F14C56" import="1">Art/Canoe/canoe.gr2</File>
+    <File md5="439ABADCC1BB492A05FDD9984232A189" import="0">Art/Canoe/CanoeUnitArt.xml</File>
+    <File md5="B0E83C9A7A20409E59C2CADC928CCC43" import="1">Art/Canoe/canoe_diff.dds</File>
+    <File md5="4DA6E824B78BBDEA4B0E2D509908AAD5" import="1">Art/Canoe/rower.dds</File>
+    <File md5="770E92F929AD618C02F96FDE7809400B" import="1">Art/Canoe/sv_SnakeCanoe.dds</File>
+    <File md5="320EB22484BF3332535C04F486998B80" import="1">Art/MarajoDoM.dds</File>
+    <File md5="782D44ACA9493EE1336200D52101039E" import="1">Art/MarajoMap412.dds</File>
+    <File md5="51BC9E7FBF909766D0BEE310CE48B4A4" import="1">Art/PkueeLS.dds</File>
+    <File md5="0F4F13D26C0608FBCD6F9B738D638DDB" import="0">Core/Buildings.sql</File>
+    <File md5="53BBDBB828877849257E2CD9B610EDF5" import="0">Core/Civilizations.sql</File>
+    <File md5="D275718B58E913E78658DFFF7B762131" import="0">Core/DiplomacyResponses.xml</File>
+    <File md5="08006199B07D441FB6F46E8759446245" import="0">Core/FreshWater.xml</File>
+    <File md5="AA61C016F741776634087A084DB0608E" import="0">Core/GameText.xml</File>
+    <File md5="836D7ABFDC11A78B68A5EF66A2129122" import="0">Core/Leaderhead.sql</File>
+    <File md5="8D49692384099FFC6B265B31270A35DA" import="0">Core/Marajoara_Functions.lua</File>
+    <File md5="DBD0483CB8ED55E55C076004E868CDBB" import="0">Core/ModSupport.sql</File>
+    <File md5="0A32FE3E301DF3D2869F40915F176AE8" import="0">Core/PlayerColours.sql</File>
+    <File md5="D49D8D586D6BE1139C548C54DA3F78A6" import="1">Core/Senshi_Marajo_Scene.xml</File>
+    <File md5="A8FAE7EF808BC2EB1EA8E92A81C7E633" import="0">Core/Traits.sql</File>
+    <File md5="508570BC4206B5DF13BCD2279AE1221C" import="0">Core/Units.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Atlas/AtlasDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Canoe/CanoeUnitArt.xml</UpdateDatabase>
+      <UpdateDatabase>Core/FreshWater.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Core/Marajoara_Functions.lua">
+      <Name>Marajoara Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

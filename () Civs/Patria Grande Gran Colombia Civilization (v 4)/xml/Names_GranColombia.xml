@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData><Language_en_US>
+
+	<!-- Spies ==================================================================================-->
+	<Row Tag="TXT_KEY_SPY_NAME_PG_GRANCOLOMBIA_0">	<Text>Rodriguez</Text></Row>
+	<Row Tag="TXT_KEY_SPY_NAME_PG_GRANCOLOMBIA_1">	<Text>San Martin</Text></Row>
+	<Row Tag="TXT_KEY_SPY_NAME_PG_GRANCOLOMBIA_2">	<Text>Castilla</Text></Row>
+	<Row Tag="TXT_KEY_SPY_NAME_PG_GRANCOLOMBIA_3">	<Text>Artigas</Text></Row>
+	<Row Tag="TXT_KEY_SPY_NAME_PG_GRANCOLOMBIA_4">	<Text>Hidalgo</Text></Row>
+	<Row Tag="TXT_KEY_SPY_NAME_PG_GRANCOLOMBIA_5">	<Text>Saenz</Text></Row>
+	<Row Tag="TXT_KEY_SPY_NAME_PG_GRANCOLOMBIA_6">	<Text>Miranda</Text></Row>
+	<Row Tag="TXT_KEY_SPY_NAME_PG_GRANCOLOMBIA_7">	<Text>Piar</Text></Row>
+	<Row Tag="TXT_KEY_SPY_NAME_PG_GRANCOLOMBIA_8">	<Text>Arenales</Text></Row>
+	<Row Tag="TXT_KEY_SPY_NAME_PG_GRANCOLOMBIA_9">	<Text>Mariscal</Text></Row>
+
+	<!-- Cities ==================================================================================-->
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_00">	<Text>Bogotá</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_01">	<Text>Caracas</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_02">	<Text>Quito</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_03">	<Text>Panamá</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_04">	<Text>Mompox</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_05">	<Text>Pamplona</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_06">	<Text>Cartagena de Indias</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_07">	<Text>Portobelo</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_08">	<Text>Guayaquil</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_09">	<Text>Maracaibo</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_10">	<Text>Cumaná</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_11">	<Text>Puerto Cabello</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_12">	<Text>Popayán</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_13">	<Text>Angostura</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_14">	<Text>Santiago de Cali</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_15">	<Text>Tunja</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_16">	<Text>Medellín</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_17">	<Text>Santa Marta</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_18">	<Text>Antioquía</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_19">	<Text>Mariquita</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_20">	<Text>Neiva</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_21">	<Text>Chocó</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_22">	<Text>Casanare</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_23">	<Text>Pamplona</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_24">	<Text>Socorro</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_25">	<Text>Margarita</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_26">	<Text>Barinas</Text></Row>
+	<Row Tag="TXT_KEY_CITY_NAME_PG_GRANCOLOMBIA_27">	<Text>Trujillo</Text></Row>
+	
+	<!-- Libertadores Names ==================================================================================-->
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_00">	<Text>Simon Bolivar</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_01">	<Text>Jose de San Martín</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_02">	<Text>Francisco de Miranda</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_03">	<Text>Antonio Jose de Sucre</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_04">	<Text>Jose Antonio Paez</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_05">	<Text>Jose Felix Ribas</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_06">	<Text>Rafael Urdaneta</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_07">	<Text>Santander</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_08">	<Text>Antonio Nariño</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_09">	<Text>Manuel Belgrano</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_10">	<Text>Miguel Estanislao Soler</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_11">	<Text>Guillermo Brown</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_12">	<Text>Mariano Moreno</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_13">	<Text>Martín Miguel de Guemes</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_14">	<Text>Juan Gregorio</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_15">	<Text>Jose Gervasio Artigas</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_16">	<Text>Juan Antonio Lavalleja</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_17">	<Text>Bernardo O'Higgins</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_18">	<Text>Thomas Cochrane</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_19">	<Text>Fulgencio Yegros</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_20">	<Text>Manuel Ascencio Padilla</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_21">	<Text>Juana Azurduy</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_22">	<Text>Jose Miguel Lanza</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_23">	<Text>Andres de Santa Cruz</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_24">	<Text>Francisco Morazan</Text></Row>
+	<Row Tag="TXT_KEY_PG_LIBERTADOR_NAME_25">	<Text>Jose de Fabrega</Text></Row>
+
+
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_1">	<Text>Virgen de Guadalupe</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_2">	<Text>Virgen del Luján</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_3">	<Text>Virgencita de Copacabana</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_4">	<Text>Aparecida</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_5">	<Text>Virgen del Carmen de Maipú</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_6">	<Text>Virgen de Chiquinquirá</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_7">	<Text>Virgen de La Caridad del Cobre</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_8">	<Text>Virgen del Quinche</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_9">	<Text>Virgen de los Angeles</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_10">	<Text>Santa María del Rosario</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_11">	<Text>Virgen del Perpetuo Socorro</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_12">	<Text>Virgen de Suyapa</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_13">	<Text>La Purísima</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_14">	<Text>Virgen de la Merced</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_15">	<Text>Virgen de los Milagros de Caacupé</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_16">	<Text>Virgen de los Treinta y Tres</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_17">	<Text>Virgen de Coromoto</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_18">	<Text>Virgen del Socavón</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_19">	<Text>Virgen de Urkupiña</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_20">	<Text>Señor del Gran Poder</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_21">	<Text>Tata Santiago</Text></Row>
+	<Row Tag="TXT_KEY_PG_DEVOTION_NAME_22">	<Text>San Judas Tadeo</Text></Row>
+
+
+
+	<!--JFD Governments ==================================================================================-->
+	<!--Tribe ==================================================================================-->
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_TITLE_GOVERNMENT_PG_GRANCOLOMBIA">				<Text>Pueblo Colombiano</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_TITLE_LEADER_PG_GRANCOLOMBIA">					<Text>Cacique</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_TITLE_LEADER_PG_GRANCOLOMBIA_FEMININE">			<Text>Cacique</Text></Row>
+	<!--Principality ==================================================================================-->
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_TITLE_GOVERNMENT_PG_GRANCOLOMBIA">		<Text>Junta Colombiana</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_TITLE_LEADER_PG_GRANCOLOMBIA">			<Text>Presidente</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_TITLE_LEADER_PG_GRANCOLOMBIA_FEMININE">	<Text>Presidente</Text></Row>
+	<!--Monarchy ==================================================================================-->
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_TITLE_GOVERNMENT_PG_GRANCOLOMBIA">			<Text>Virreinato de la Gran Colombia</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_TITLE_LEADER_PG_GRANCOLOMBIA">				<Text>Virrey</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_TITLE_LEADER_PG_GRANCOLOMBIA_FEMININE">		<Text>Virreina</Text></Row>
+	<!--Empire ==================================================================================-->
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_EMPIRE_TITLE_GOVERNMENT_PG_GRANCOLOMBIA">				<Text>Gran Imperio de Colombia</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_EMPIRE_TITLE_LEADER_PG_GRANCOLOMBIA">					<Text>Gran Libertador</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_EMPIRE_TITLE_LEADER_PG_GRANCOLOMBIA_FEMININE">			<Text>Gran Libertadora</Text></Row>
+	<!--Commonwealth ==================================================================================-->
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_COMMONWEALTH_TITLE_GOVERNMENT_PG_GRANCOLOMBIA">		<Text>Provincias de la Gran Colombia</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_COMMONWEALTH_TITLE_LEADER_PG_GRANCOLOMBIA">			<Text>Director Supremo</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_COMMONWEALTH_TITLE_LEADER_PG_GRANCOLOMBIA_FEMININE">	<Text>Directora Suprema</Text></Row>
+	<!--Republic ==================================================================================-->
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_TITLE_GOVERNMENT_PG_GRANCOLOMBIA">			<Text>Republica de Colombia</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_TITLE_LEADER_PG_GRANCOLOMBIA">				<Text>Gobernador</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_TITLE_LEADER_PG_GRANCOLOMBIA_FEMININE">		<Text>Gobernadora</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_TITLE_LEADER_LATE_PG_GRANCOLOMBIA">			<Text>Presidente</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_TITLE_LEADER_LATE_PG_GRANCOLOMBIA_FEMININE">	<Text>Presidente</Text></Row>
+	<!--Dictatorship ==================================================================================-->
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_DICTATORSHIP_TITLE_GOVERNMENT_PG_GRANCOLOMBIA">		<Text>Dictadura Colombiana</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_DICTATORSHIP_TITLE_LEADER_PG_GRANCOLOMBIA">			<Text>Dictador</Text></Row>
+	<Row Tag="TXT_KEY_GOVERNMENT_JFD_DICTATORSHIP_TITLE_LEADER_PG_GRANCOLOMBIA_FEMININE">	<Text>Dictadora</Text></Row>
+
+	<!--JFD Provinces ==================================================================================-->
+	<!--Barony ==================================================================================-->
+	<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_PG_GRANCOLOMBIA">						<Text>Canton</Text></Row>
+	<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_PG_GRANCOLOMBIA">					<Text>Intendente</Text></Row>
+	<Row Tag="TXT_KEY_PROVINCE_JFD_BARONY_DESC_RULER_PG_GRANCOLOMBIA_FEMININE">			<Text>Intendente</Text></Row>
+	<!--County ==================================================================================-->
+	<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_PG_GRANCOLOMBIA">						<Text>Provincia</Text></Row>
+	<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_PG_GRANCOLOMBIA">					<Text>Alcalde</Text></Row>
+	<Row Tag="TXT_KEY_PROVINCE_JFD_COUNTY_DESC_RULER_PG_GRANCOLOMBIA_FEMININE">			<Text>Alcaldesa</Text></Row>
+	<!--Duchy ==================================================================================-->
+	<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_PG_GRANCOLOMBIA">							<Text>Departamento</Text></Row>
+	<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_PG_GRANCOLOMBIA">					<Text>Gobernador</Text></Row>
+	<Row Tag="TXT_KEY_PROVINCE_JFD_DUCHY_DESC_RULER_PG_GRANCOLOMBIA_FEMININE">			<Text>Gobernadora</Text></Row>
+	<!--Colony ==================================================================================-->
+	<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_PG_GRANCOLOMBIA">						<Text>Distrito Judicial</Text></Row>
+	<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_PG_GRANCOLOMBIA">					<Text>Gobernador</Text></Row>
+	<Row Tag="TXT_KEY_PROVINCE_JFD_COLONY_DESC_RULER_PG_GRANCOLOMBIA_FEMININE">			<Text>Gobernadora</Text></Row>
+
+	<!--JFD Legislature ==================================================================================-->
+	<Row Tag="TXT_KEY_JFD_LEGISLATURE_NAME_CIVILIZATION_PG_GRANCOLOMBIA">				<Text>Congreso</Text></Row>
+	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_PG_GRANCOLOMBIA">		<Text>Jurista</Text></Row>
+
+	<!--JFD Heads of Government ==================================================================================-->
+	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_PG_GRANCOLOMBIA_1">		<Text>Francisco de Paula</Text></Row>
+	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_PG_GRANCOLOMBIA_2">		<Text>Domingo Caycedo</Text></Row>
+	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_PG_GRANCOLOMBIA_3">		<Text>Joaquín Mosquera</Text></Row>
+	<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_PG_GRANCOLOMBIA_4">		<Text>Rafael Urdaneta</Text></Row>
+
+</Language_en_US></GameData>

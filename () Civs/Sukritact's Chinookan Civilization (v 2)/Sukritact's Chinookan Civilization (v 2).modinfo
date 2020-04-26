@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="588f831d-23f2-4072-87b0-9f33c7ab709f" version="2">
+  <Properties>
+    <Name>Sukritact's Chinookan Civilization</Name>
+    <Teaser>The Chinook: Salmon Fishers</Teaser>
+    <Description>The Chinook are a Native American culture centred around the Columbia River. They were famous as traders, with connections stretching as far as the Great Plains. The Columbia was a major indigenous thoroughfare, and the Chinooks' location facilitated contact with northern and southern coastal peoples as well as with interior groups. The river was a rich source of salmon, the basis of the regional economy, and many groups traded with the Chinook for dried fish.</Description>
+    <Authors>Sukritact, Reedstilt, Tomatekh, Viregel</Authors>
+    <SpecialThanks>Andrew Holt</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="bc987abc-83bc-450a-991b-e28ae64e9c1a" minversion="0" maxversion="999" title="More Pantheons - Addon" />
+    <Mod id="43868e8d-de88-48a1-a8d9-ce144e07f5e0" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety &amp; Prestige" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="E6909616E8C03513E19B0441C3F42F88" import="1">Art/Atlas/ChinookAlpha_48.dds</File>
+    <File md5="B188DDBFF012F8D251AB6C0E09C42C03" import="1">Art/Atlas/Unit_MC_Chinook_Whaler_Flag_32.dds</File>
+    <File md5="7BD83A6D62C76AB094411C190533F9DA" import="1">Art/Audio/ChinookPeace.mp3</File>
+    <File md5="A048C882E42C8632CACF12E9723DA2A7" import="1">Art/Audio/ChinookWar.mp3</File>
+    <File md5="8D13FB8316538026FECF621E027D195A" import="1">Art/Audio/ChinookDoM.mp3</File>
+    <File md5="B5E8FFA247DB598D8431A2FC0A08B51A" import="1">Art/Graphics/MC_OrcaFontIcons_22.ggxml</File>
+    <File md5="6F92F96667DC435494EC3657586EF672" import="1">Art/Graphics/MC_SalmonFontIcons_22.ggxml</File>
+    <File md5="E26ED45C3609798409E06F4343D19DF1" import="1">Art/Graphics/MC_OrcaFontIcons.dds</File>
+    <File md5="56319598780D42FFECE5A7DA56906D15" import="1">Art/Graphics/MC_SalmonFontIcons.dds</File>
+    <File md5="220075CB18653486ACB7921B2A6C43D1" import="1">Art/Graphics/sv_MC_Orca.dds</File>
+    <File md5="30B97F0430D0CEDF1BBFEF6FF3567E6F" import="1">Art/Graphics/sv_MC_Salmon.dds</File>
+    <File md5="F9FA1C41C27A2E431325EB411F6DA92A" import="1">Art/Graphics/Unit/MC_Chinook_Whaler_diff.dds</File>
+    <File md5="CE7FE5F6F35C5F89CE41B2FC61EEA66D" import="1">Art/Graphics/Unit/MC_Chinook_Whaler_sref.dds</File>
+    <File md5="4A98047F3552355B1259DDEDF0DCD084" import="1">Art/Graphics/Unit/sv_MC_Chinook_Whaler.dds</File>
+    <File md5="8C055C6867210113DE6CABC11801702F" import="1">Art/Graphics/Unit/MC_Chinook_Whaler.fxsxml</File>
+    <File md5="FCDA47D0FB1B1B15CC8ADDD9E0104A3B" import="1">Art/Graphics/Unit/MC_Chinook_Whaler.gr2</File>
+    <File md5="1370099896B84778D58C6B8ADFFA5275" import="0">Art/MC_Chinook_ArtDefines.sql</File>
+    <File md5="8FE1B135CDE150CC37D6E7F84CA3E743" import="1">Art/Atlas/ChinookAlpha_128.dds</File>
+    <File md5="572D1BD01884DEED1D51A3B140BCB383" import="1">Art/Atlas/ChinookAlpha_16.dds</File>
+    <File md5="51537EDF312B5DB575EE6C128B123D80" import="1">Art/Atlas/ChinookAlpha_24.dds</File>
+    <File md5="CCA363243F8E14A12AD05E7F3CCB3083" import="1">Art/Atlas/ChinookAlpha_32.dds</File>
+    <File md5="9B0E2774799C2FB88FE56C660DA28878" import="1">Art/Atlas/ChinookAlpha_45.dds</File>
+    <File md5="F23EAA28A716EA152C81A66F368FDE87" import="1">Art/Atlas/ChinookAlpha_64.dds</File>
+    <File md5="EB11227DE0C0D1D2D9855D0972A98DD8" import="1">Art/Atlas/ChinookAlpha_80.dds</File>
+    <File md5="6E4B96C403DAFD1C858C9D6A80B0FB6C" import="1">Art/Atlas/ChinookAtlas_128.dds</File>
+    <File md5="445321CEB227D5468749D89611FCFF54" import="1">Art/Atlas/ChinookAtlas_16.dds</File>
+    <File md5="7F32895B6DD76E0F567BE2BF4892AE66" import="1">Art/Atlas/ChinookAtlas_24.dds</File>
+    <File md5="27FA117E74307A31B9DC85D29FDDF665" import="1">Art/Atlas/ChinookAtlas_256.dds</File>
+    <File md5="526CFD5D16C09C275795A65443766940" import="1">Art/Atlas/ChinookAtlas_32.dds</File>
+    <File md5="473C97F788A9AB61C3A34DFD007A0A71" import="1">Art/Atlas/ChinookAtlas_45.dds</File>
+    <File md5="241565851E4C0BDB5D93E562437EA513" import="1">Art/Atlas/ChinookAtlas_48.dds</File>
+    <File md5="CD2EE3C9E258967A5CD0B35DA7B12270" import="1">Art/Atlas/ChinookAtlas_64.dds</File>
+    <File md5="268947CF5C4BE6466CB6ED097CD6B34E" import="1">Art/Atlas/ChinookAtlas_80.dds</File>
+    <File md5="73723E54C163FCA8D4811DB5DAC79AF1" import="0">Art/MC_Chinook_Audio.sql</File>
+    <File md5="B62277AD4AC5B1B4951C74391442D445" import="1">Art/Scenes/ChinookMap512.dds</File>
+    <File md5="979DCAB403FC28C992D7FCB891C21DC3" import="1">Art/Scenes/Comcomly_Diplo.dds</File>
+    <File md5="CE68DE1D96F0C400E38B4FFE63C3BF89" import="1">Art/Scenes/Comcomly_Scene.xml</File>
+    <File md5="2EDE4AC2B59063C4630D4776C460CF95" import="1">Art/Scenes/Comcomly_DOM.dds</File>
+    <File md5="1ADC566FB7760FFF9462750783F85E81" import="1">Core/Decisions Support/MC_Chinook_Decisions.lua</File>
+    <File md5="EBD683320DFB57B9B7EE2CD267B3720D" import="0">Core/Decisions Support/MC_Chinook_Decisions.sql</File>
+    <File md5="1B0AFA4BD5A8A1EFE09877AA244C4417" import="0">Core/MC_Chinook_Buildings.sql</File>
+    <File md5="F393F0CF201B15C1CF8DAD8D2DDFAD9F" import="0">Core/MC_Chinook_Diplomacy.sql</File>
+    <File md5="238F0D6470AD48E6CBC4E8DEDF8A5D9C" import="0">Core/MC_Chinook_DiplomacyText.sql</File>
+    <File md5="A251D3EBE811DB230A47F7420E0AE53C" import="0">Core/MC_Chinook_GameText.sql</File>
+    <File md5="2E13432996A435DF488462ABD36B29AF" import="0">Core/MC_Chinook_Leaderhead.sql</File>
+    <File md5="A8FA40485FEBC7A417A7D0B3C1A933DB" import="0">Core/MC_Chinook_Civilization.sql</File>
+    <File md5="5D9A44862D19C5E52B8312D0AA40A50B" import="0">Core/MC_Chinook_PlayerColours.sql</File>
+    <File md5="5DEC440514600ADEF09BF44D432F07E4" import="0">Core/MC_Chinook_Promotions.sql</File>
+    <File md5="C7444048578B0A5AC5933EF36CEC1B8A" import="0">Core/MC_Chinook_Traits.sql</File>
+    <File md5="049023269BC678FBED3613A19A47BF1C" import="0">Core/MC_Chinook_Units.sql</File>
+    <File md5="7432C7CE128BAE10BB980E13E1A848EF" import="0">Core/MC_Chinook_Resources.sql</File>
+    <File md5="B1825A37FDF464A26AC4640653B36F65" import="0">Core/YnAEMP Support/MC_Chinook_TSL.sql</File>
+    <File md5="758C0512C3223BBD527C84B357D17A26" import="0">Lua/MC_Chinook_Functions.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/PlotIterators.lua</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Sukritact_SaveUtils.lua</File>
+    <File md5="65C5205ACE6E77F798FE6F92249829FD" import="0">Lua/TourismHandler/TourismHandler.lua</File>
+    <File md5="DE8479C4A2412EB20FBA62FEDCE1C053" import="0">Lua/TourismHandler/TourismHandler.SQL</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/MC_Chinook_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Art/MC_Chinook_Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_Civilization.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_DiplomacyText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_Resources.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Chinook_Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Lua/TourismHandler/TourismHandler.SQL</UpdateDatabase>
+      <UpdateDatabase>Core/Decisions Support/MC_Chinook_Decisions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/YnAEMP Support/MC_Chinook_TSL.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/MC_Chinook_Functions.lua">
+      <Name>MC_Chinook_Functions.lua</Name>
+      <Description>MC_Chinook_Functions.lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/TourismHandler/TourismHandler.lua">
+      <Name>TourismHandler.lua</Name>
+      <Description>TourismHandler.lua</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

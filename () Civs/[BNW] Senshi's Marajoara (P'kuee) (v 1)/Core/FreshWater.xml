@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/29/2013 1:06:09 PM -->
+<GameData>
+	<Features>
+		<Row>
+			<Type>FEATURE_SENSHI_MARAJO_FRESHWATER</Type>
+			<Description>TXT_KEY_FEATURE_SENSHI_MARAJO_FRESHWATER</Description>
+			<Civilopedia>TXT_KEY_FEATURE_SENSHI_MARAJO_FRESHWATER_TEXT</Civilopedia>
+			<Movement>1</Movement>
+			<AddsFreshWater>true</AddsFreshWater>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>NEW_TERRAIN_ATLAS_DLC</IconAtlas>
+		</Row>
+	</Features>
+</GameData>

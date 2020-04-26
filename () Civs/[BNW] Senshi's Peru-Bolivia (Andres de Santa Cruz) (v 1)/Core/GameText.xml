@@ -1,0 +1,219 @@
+﻿<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_01">
+			<Text>Tacna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_02">
+			<Text>La Paz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_03">
+			<Text>Lima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_04">
+			<Text>Sucre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_05">
+			<Text>Arequipa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_06">
+			<Text>Cobija</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_07">
+			<Text>Trujillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_08">
+			<Text>Santa Cruz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_09">
+			<Text>Huancayo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_10">
+			<Text>Potosí</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_11">
+			<Text>Cusco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_12">
+			<Text>Oruro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_13">
+			<Text>Iquitos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_14">
+			<Text>Ayacucho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_15">
+			<Text>Tarija</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_16">
+			<Text>Piura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_17">
+			<Text>Arica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_18">
+			<Text>Puno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_19">
+			<Text>Trinidad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_20">
+			<Text>Chiclayo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_21">
+			<Text>Abancay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_22">
+			<Text>Montero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_23">
+			<Text>Chimbote</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_24">
+			<Text>Ica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_25">
+			<Text>Llallagua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_26">
+			<Text>Pucallpa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_27">
+			<Text>Juliaca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_PERUBOLIVIA_28">
+			<Text>Desaguadero</Text>
+		</Row>
+
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_PERUBOLIVIA_0">
+			<Text>Miguel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_PERUBOLIVIA_1">
+			<Text>Luis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_PERUBOLIVIA_2">
+			<Text>José</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_PERUBOLIVIA_3">
+			<Text>Ramón</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_PERUBOLIVIA_4">
+			<Text>Pío</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_PERUBOLIVIA_5">
+			<Text>Juana</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_PERUBOLIVIA_6">
+			<Text>Manuel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_PERUBOLIVIA_7">
+			<Text>Francisca</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_PERUBOLIVIA_8">
+			<Text>Agustín</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_PERUBOLIVIA_9">
+			<Text>Santiago</Text>
+		</Row>
+
+		<!--Demonyms-->
+		<Row Tag="TXT_KEY_CIV_SENSHI_PERUBOLIVIA_ADJECTIVE">
+			<Text>Peru-Bolivian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_PERUBOLIVIA_DESC">
+			<Text>Peru-Bolivian Confederation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_PERUBOLIVIA_SHORT_DESC">
+			<Text>Peru-Bolivia</Text>
+		</Row>
+
+		<!--DoM-->
+		<Row Tag="TXT_KEY_CIV5_DOM_SENSHI_SANTACRUZ_TEXT">
+			<Text>Andrés de Santa Cruz, it is said that the distinguishing characteristic of small republics is stability. While you were a military-man for most of your life, you finally served under Simón Bolívar in Peru in 1824, and later went to become the president of Bolivia. Through a number of reforms, you built Bolivia into an island of stability in a sea of Latin American turmoil, and it was upon that foundation that you would build the Peru-Bolivian Confederation, what should have become a triumph of Bolivarian ideals: internationally recognized, reformed, and just. But it was by the Argentine and Chilean hand that this dream collapsed, as rival Latin American powers feared the power and potential of this bold confederation. In defeat, you were exiled from the land, and when Peru withdrew from Bolivia, chaos fell upon the nations once more.[NEWLINE][NEWLINE]Santa Cruz, Peru-Bolivia needs its Supreme Protector once again. Can you build it into a land of stability in a world of conflict? Can you protect your people from the tyrants who would muzzle them? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIV5_SENSHI_PERUBOLIVIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_PERUBOLIVIA_TEXT_1">
+			<Text>The Peru-Bolivian Confederation was a short-lived state in South America created by Andrés de Santa Cruz. After he became president of Bolivia in 1829, Santa Cruz began forging the confederation through decisive political and military action. Officially proclaimed on 1 May 1837, it was composed of the republics of North Peru, South Peru and Bolivia, each with a separate administration. Santa Cruz was proclaimed the protector for ten years and became the absolute ruler. The confederation was recognized by France and Britain but provoked the military intervention of Argentina and Chile. Argentine forces were repulsed, but after initial success against the Chilean contingents, troops commanded by Santa Cruz were routed on 20 January 1839, at the battle of Yungay. Santa Cruz fled into exile aboard a British frigate. A united Peru and an independent Bolivia emerged.</Text>
+		</Row>
+		
+		<!--Leader-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_SANTACRUZ_LIVED">
+			<Text>1792 - 1865</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_SANTACRUZ_NAME">
+			<Text>Andrés de Santa Cruz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_SANTACRUZ_SUBTITLE">
+			<Text>Protector of the Confederation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_SANTACRUZ">
+			<Text>Andrés de Santa Cruz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_SANTACRUZ_TITLES_1">
+			<Text>Supreme Protector, President of Peru, President of Bolivia</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_SANTACRUZ_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_SANTACRUZ_TEXT_1">
+			<Text>A royalist officer who switched to the patriot side in 1820, Andrés de Santa Cruz distinguished himself in the Wars of Independence and later became one of the longest lasting and most able presidents of Bolivia. His reorganization of governmental institutions on the Napoleonic model provided the basis for republican government for over a century. However, his marginally successful attempt in 1836 to reunite Peru and Bolivia engendered a Chilean invasion that led to his downfall in 1839.</Text>
+		</Row>
+
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_PERUBOLIVIA_SHORT">
+			<Text>Supreme Confederation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_PERUBOLIVIA">
+			<Text>Internal Trade Routes eliminate [ICON_HAPPINESS_4] Occupied Unhappiness and provide [ICON_GOLD] Gold equal to the amount of Food or Production sent out. Gain an additional Trade Route slot for each enemy [ICON_CAPITAL] Capital conquered.</Text>
+		</Row>
+
+		<!--Unique Units-->
+		<Row Tag="TXT_KEY_UNIT_SENSHI_RABONA">
+			<Text>Rabona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_RABONA_STRATEGY">
+			<Text>Unique Peru-Bolivian replacement for the Gatling Gun. Has a greater range than the Gatling Gun and may Indirect Fire, at the cost of weaker Ranged Strength. At the beginning of your turn, the Rabona heals adjacent friendly units if it did not enter combat on the previous turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_RABONA_HELP">
+			<Text>Unique Peru-Bolivian replacement for the Gatling Gun. Has a greater range than the Gatling Gun and may Indirect Fire, at the cost of weaker Ranged Strength. At the beginning of your turn, the Rabona heals adjacent friendly units if it did not enter combat on the previous turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNIT_SENSHI_RABONA_TEXT">
+			<Text>Rabona is a term used in Bolivia and Peru for the women who accompanied soldiers in marches and military campaigns of the nineteenth century. Its name derives from the fact that it usually marched in the tail - the "rabo", of the columns. During wartime, the rabonas prepared food and attended to their husbands, couples or relatives, repairing their uniforms and performing other care tasks, which at that time could be considered logistics.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_RABONA">
+			<Text>Ready To Heal!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_RABONA_HELP">
+			<Text>Will heal adjacent units at the beginning of your next turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_RABONA_POSTCOMBAT">
+			<Text>No Time To Heal!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENSHI_RABONA_POSTCOMBAT_HELP">
+			<Text>[COLOR_NEGATIVE_TEXT]This Rabona was too preoccupied fighting to heal adjacent units.[ENDCOLOR]</Text>
+		</Row>
+
+		<!--Unique Buildings-->
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_PUERTOLIBRE">
+			<Text>Puerto Libre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_PUERTOLIBRE_STRATEGY">
+			<Text>Unique Peru-Bolivian replacement for the Harbour. Grants the Coastal Raider I promotion to newly trained naval units, and allows both Food and Production to be traded internally as if the city had a Granary or Workshop. Enemy civilizations receive twice the usual amount of Gold upon capturing this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_PUERTOLIBRE_HELP">
+			<Text>Unique Peru-Bolivian replacement for the Harbour. Grants the Coastal Raider I promotion to newly trained naval units, and allows both Food and Production to be traded internally as if the city had a Granary or Workshop. Enemy civilizations receive twice the usual amount of Gold upon capturing this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_SENSHI_PUERTOLIBRE_TEXT">
+			<Text>A key ambition of Santa Cruz's government was the proliferation of free trade across Bolivia. To achieve this end, Santa Cruz established multiple "puertos libres" - or free ports - on the Pacific Coast. The most notable of these was Cobija, which served as Bolivia's chief port until its destruction in 1868. All the free ports set up by Santa Cruz were either dismantled by the Peruvian government or annexed by Chile following the War of the Confederation and War of the Pacific, respectively.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

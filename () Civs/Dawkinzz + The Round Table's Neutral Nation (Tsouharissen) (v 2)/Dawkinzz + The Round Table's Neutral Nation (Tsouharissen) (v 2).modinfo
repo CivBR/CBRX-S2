@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9dfa5765-7c96-46b6-944f-9dc80fee3b8e" version="2">
+  <Properties>
+    <Name>Dawkinzz + The Round Table's Neutral Nation (Tsouharissen)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the [COLOR_POSITIVE_TEXT]Neutral Nation[ENDCOLOR] led by Tsouharissen!</Teaser>
+    <Description>Adds the Neutral Nation led by Tsouharissen!
+
+[img]https://i.imgur.com/4BR1gHu.png[/img]
+
+The Neutral Nation led by Tsouharissen is a custom civilization by Round Table, produced by Dawkinzz, Limaeus, and ExplosiveWatermelon, with contributions from TopHatPaladin, Sketto, Coiot, Timrtabor123, JackWalrusWhale, Gragg9, and Tpangolin.
+
+Full credits can be found in the included Credits.txt file.
+
+Requires Brave New World</Description>
+    <Authors>Dawkinzz, Limaeus, ExplosiveWatermelon</Authors>
+    <SpecialThanks>The Round Table</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="1C9F6417B6A5C7DEE95AFDC613BD7E53" import="1">Art/Atlases/RT_NeutralAlphaAtlas_128.dds</File>
+    <File md5="0D06D394C6308F885B3EBD053FEC6070" import="1">Art/Atlases/RT_NeutralAlphaAtlas_16.dds</File>
+    <File md5="3263B51976F8028F81A40BE9DC2F1610" import="1">Art/Atlases/RT_NeutralAlphaAtlas_24.dds</File>
+    <File md5="DDAFACE545782B3D88178917FDF33F99" import="1">Art/Atlases/RT_NeutralAlphaAtlas_256.dds</File>
+    <File md5="39AE2EBCE00DCB905F25940A16CE2B93" import="1">Art/Atlases/RT_NeutralAlphaAtlas_32.dds</File>
+    <File md5="5768642569EE00F6BDED6411C0104108" import="1">Art/Atlases/RT_NeutralAlphaAtlas_45.dds</File>
+    <File md5="4143E523EDD96705734273A16A835022" import="1">Art/Atlases/RT_NeutralAlphaAtlas_48.dds</File>
+    <File md5="F1A6DB84B6D4D3C42A0C3AB34C571936" import="1">Art/Atlases/RT_NeutralAlphaAtlas_64.dds</File>
+    <File md5="28E47C8B1D0B4913CDBB8A3085D853B1" import="1">Art/Atlases/RT_NeutralAlphaAtlas_80.dds</File>
+    <File md5="E3FCFAB1CC4EAD3878516B7ED51D90C3" import="1">Art/Atlases/RT_NeutralAtlas_128.dds</File>
+    <File md5="BDD58D90DD537A506B7FFCEDED109A2B" import="1">Art/Atlases/RT_NeutralAtlas_256.dds</File>
+    <File md5="AF295424A5BC8374C599B8FDF7569BEC" import="1">Art/Atlases/RT_NeutralAtlas_32.dds</File>
+    <File md5="9BEAF4D0285CD07830EC8859FBD0DA08" import="1">Art/Atlases/RT_NeutralAtlas_45.dds</File>
+    <File md5="C0C187ABFDD2A257D57A179376B38DAE" import="1">Art/Atlases/RT_NeutralAtlas_64.dds</File>
+    <File md5="AB3BCE4FF95E38C332757E29F37D7118" import="1">Art/Atlases/RT_NeutralAtlas_80.dds</File>
+    <File md5="8EA5D494A3810707C647EB258E30295D" import="1">Art/Chonnonton/Chonnonton.fxsxml</File>
+    <File md5="FCEADA1CE4569ACB724393CA4E020302" import="1">Art/Chonnonton/Chonnonton.gr2</File>
+    <File md5="42DFCF13976557B60C218FD88C4F986A" import="1">Art/Chonnonton/chonnonton_diff.dds</File>
+    <File md5="11CF80625EA7C4A271D5E2CEFB32D49B" import="1">Art/Chonnonton/chonnonton_sref.dds</File>
+    <File md5="4B39F365E2B2713B1F0E4D1F3DC24FF8" import="1">Art/Chonnonton/SV_Chonnonton.dds</File>
+    <File md5="4BA77D5BCDFC95F9C639826CEBE561DC" import="1">Art/Chonnonton/Unit_Chonnonton_Flag_32.dds</File>
+    <File md5="001C7CE72B89F3867693C34A87F4352D" import="1">Art/Diplomacy/LS_Tsouharissen.dds</File>
+    <File md5="AAB230D37A61627CB956C40744EE395E" import="1">Art/Diplomacy/Neutral_DOM.dds</File>
+    <File md5="FB3E08A9CDDA3B989F85D665A531ACCF" import="1">Art/Diplomacy/Neutral_Map.dds</File>
+    <File md5="B09A17C1C05AA0AB058886DF583F8654" import="1">Art/Diplomacy/Tsouharissen_Scene.xml</File>
+    <File md5="5E5EC6DA2D7180F66651264441A3BC13" import="1">Art/Flint/Flint.fxsxml</File>
+    <File md5="E3B584499F723D9C04A2A88634001FDE" import="1">Art/Flint/FlintModel.gr2</File>
+    <File md5="E7F45C4BA22616EC8B5D708F3066A236" import="1">Art/Flint/FlintOre.dds</File>
+    <File md5="92649A24F83323CD67FD3147E9272ACF" import="1">Art/Flint/FlintOreSref.dds</File>
+    <File md5="31F4A2CDA531B30485698B0AF279E7C6" import="1">Art/Flint/Lime_FlintFontIcon_22.dds</File>
+    <File md5="C0F1B4E89245DE3589A361F1F60607E0" import="1">Art/Flint/sv_Flint.dds</File>
+    <File md5="B7A60D52E678634AE258A5058345752D" import="1">Art/Audio/Neutral_DOM.mp3</File>
+    <File md5="5878EE62E9B83C36F0888CE0DD37D693" import="0">Core/DeleteMissingReferences.xml</File>
+    <File md5="36DC12A6F21CD6CAF1E52145DD74DF00" import="0">Core/Neutral_ArtDefines.sql</File>
+    <File md5="6E99B2FEC2E3B7D2998FC5648577DF85" import="0">Core/Neutral_GameDefines.sql</File>
+    <File md5="7675EBEEBB7F09AE23C4C59217BAAE58" import="0">Core/Neutral_GameText.xml</File>
+    <File md5="BACB911BA5DCDE2044C869EFD727D3B2" import="0">Core/Neutral_ModSupport.sql</File>
+    <File md5="5A584A3062BE6EEBD9172DB27762CFDB" import="0">Credits.txt</File>
+    <File md5="E5AB3D75527E776507C18A6EE4609CDA" import="0">Lua/Neutral_Functions.lua</File>
+    <File md5="0560D26CB56F67D55199A3B5B1C0D318" import="0">Lua/Neutral_Functions.xml</File>
+    <File md5="372F94739A09939A0CF8FB2AE9B969B2" import="1">Lua/UnitSpawnHandler.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Neutral_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Neutral_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Neutral_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Neutral_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DeleteMissingReferences.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Neutral_Functions.lua">
+      <Name>Neutral_Functions</Name>
+      <Description>Neutral_Functions</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

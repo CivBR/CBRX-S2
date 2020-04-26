@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/23/2017 9:28:44 AM -->
+<GameData>
+	<Language_en_US>
+	<!--SUKRITACT EVENTS-->
+	<!-- Independece -->
+	<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_INDEPENDENCE">
+		<Text>Grito de Independencia!</Text>
+	</Row>
+	<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_INDEPENDENCE_DESC">
+		<Text>Your people look up to you in this moment. Long have they been subdued by a foreign empire, and the time has come to break the chains of oppression. The criollos of your region have gathered their forces and are ready to proclaim independence! Now is the hour of our victory!</Text>
+	</Row>
+	
+	<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_INDEPENDENCE_OUTCOME_1">
+		<Text>¡Viva la Patria!</Text>
+	</Row>
+	<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_INDEPENDENCE_OUTCOME_RESULT_1">
+		<Text>
+			[ICON_BULLET][COLOR_NEGATIVE_TEXT]Start {1_Turns} Turns of [ICON_RESISTANCE] Anarchy.[ENDCOLOR]
+			[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Receive a {2_UnitStr} unit![ENDCOLOR]
+			[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Receive {3_Quantity} {4_UUStr} units![ENDCOLOR]
+		</Text>
+	</Row>
+	<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_INDEPENDENCE_OUTCOME_RESULT_1_NOTIFICATION">
+		<Text>The people of {1_CivName} has declared their independence!</Text>
+	</Row>
+		
+		<!-- Devocion -->
+		<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_DEVOTION">
+			<Text>Procesión</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_DEVOTION_DESC">
+			<Text>The people have gathered at the main square on {1_Cityname}. Today we celebrate our most holy {2_DevotionName}. The faithful have asked for you to contribute to the festivities, as it is one of our most important traditions.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_DEVOTION_OUTCOME_1">
+			<Text>Amen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_DEVOTION_OUTCOME_RESULT_1">
+			<Text>
+				[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Gold} [ICON_PEACE] Gold.[ENDCOLOR]
+				[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Start a We Love the King Day at the city of {2_CityName}![ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_DEVOTION_OUTCOME_RESULT_FESTIVALS_1">
+			<Text>
+				[ICON_BULLET][COLOR_NEGATIVE_TEXT]Lose {1_Gold} [ICON_GOLD] Gold.[ENDCOLOR]
+				[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Start a Level 2 [ICON_FESTIVAL] Religious Observance Festival at the city of {2_City}![ENDCOLOR]
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_DEVOTION_OUTCOME_RESULT_1_NOTIFICATION">
+			<Text>A Procesión is being celebrated at the city of {1_CityName}!</Text>
+		</Row>
+
+		<!-- Caudillos -->
+		<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_CAUDILLOS">
+			<Text>Opposition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_CAUDILLOS_DESC">
+			<Text>Great leader, although our independence efforts have been highly successful, some of the Libertadores oppose our current government and disagree with our policies. They have come to our capital with the intention of establishing a coup. We must stop them!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_CAUDILLOS_OUTCOME_1">
+			<Text>They will fall!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_PG_LATINCOLONIAL_CAUDILLOS_OUTCOME_RESULT_1">
+			<Text>
+				[ICON_BULLET][COLOR_NEGATIVE_TEXT]Your opposition will appear at the Capital, and the Capital will enter [ICON_RESISTANCE] Resistance.[ENDCOLOR]
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

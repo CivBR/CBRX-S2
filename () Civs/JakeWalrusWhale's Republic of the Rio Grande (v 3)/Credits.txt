@@ -1,0 +1,20 @@
+Credits:
+
+Project headed by JakeWalrusWhale
+
+Art-
+Icon, Alpha, and Colors: Senshi
+Everything else: JakeWalrusWhale
+
+Lua-
+Bits of code pillaged from: Nehrai, Tomatekh
+Parts of the UA and UU: Porkbean
+Everything else: JakeWalrusWhale
+
+Text, SQL, and XML-
+JakeWalrusWhale
+
+Music-
+Peace Theme: https://www.youtube.com/watch?v=sOgFx4GyEPE
+War Theme: https://www.youtube.com/watch?v=KCCHCSrmF4o
+

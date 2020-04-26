@@ -1,0 +1,412 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="9004">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9013">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7006">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7070">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7015">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="6000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7001">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7010">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9021">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9030">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9007">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9071">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9016">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="8001">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9002">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9011">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7004">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7013">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7008">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7021">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9005">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7030">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9014">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7007">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7071">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7002">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9050">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7011">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9022">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9031">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9017">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9003">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9012">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7005">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7014">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7009">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7050">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9006">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9070">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7031">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9015">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="8000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9001">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="9010">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7003">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="7012">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+  </event_tracks>
+  <triggers>
+    <trigger type="FTimedTriggerSound" id="8" time="0.851852" duration="0" repeat="0" ec="9012" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_HATE_NO_LAYER_02" bone="" />
+    <trigger type="FTimedTriggerSound" id="16" time="1.5037" duration="0" repeat="0" ec="7014" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_NEUTRAL_NO_LAYER_02" bone="" />
+    <trigger type="FTimedTriggerSound" id="1" time="0.233569" duration="0" repeat="0" ec="9002" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_ATTACKED" bone="" />
+    <trigger type="FTimedTriggerSound" id="9" time="0.666667" duration="0" repeat="0" ec="9006" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_HATE_YES_LAYER_01" bone="" />
+    <trigger type="FTimedTriggerSound" id="17" time="0.666667" duration="0" repeat="0" ec="7005" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_NEUTRAL_YES_LAYER_01" bone="" />
+    <trigger type="FTimedTriggerSound" id="2" time="0.155555" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_DECLARES_WAR" bone="" />
+    <trigger type="FTimedTriggerSound" id="10" time="1.1037" duration="0" repeat="0" ec="9014" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_HATE_YES_LAYER_02" bone="" />
+    <trigger type="FTimedTriggerSound" id="18" time="0.674074" duration="0" repeat="0" ec="7012" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_NEUTRAL_YES_LAYER_02" bone="" />
+    <trigger type="FTimedTriggerSound" id="3" time="0.66667" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_DEFEATED" bone="" />
+    <trigger type="FTimedTriggerSound" id="11" time="1.17037" duration="0" repeat="0" ec="6000" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_GREETING" bone="" />
+    <trigger type="FTimedTriggerSound" id="19" time="0.340741" duration="0" repeat="0" ec="7002" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_REQUEST" bone="" />
+    <trigger type="FTimedTriggerSound" id="4" time="0.333334" duration="0" repeat="0" ec="9007" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_HATE_HEARIT_01" bone="" />
+    <trigger type="FTimedTriggerSound" id="12" time="0.333333" duration="0" repeat="0" ec="7007" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_NEUTRAL_HEARIT_01" bone="" />
+    <trigger type="FTimedTriggerSound" id="20" time="0.133968" duration="0" repeat="0" ec="7001" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_PEACEFUL" bone="" />
+    <trigger type="FTimedTriggerSound" id="5" time="0.340741" duration="0" repeat="0" ec="9016" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_HATE_HEARIT_02" bone="" />
+    <trigger type="FTimedTriggerSound" id="13" time="0.340741" duration="0" repeat="0" ec="7010" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_NEUTRAL_HEARIT_02" bone="" />
+    <trigger type="FTimedTriggerSound" id="6" time="0.340741" duration="0" repeat="0" ec="9004" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_HATE_HELLO" bone="" />
+    <trigger type="FTimedTriggerSound" id="14" time="0.333333" duration="0" repeat="0" ec="7003" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_NEUTRAL_HELLO" bone="" />
+    <trigger type="FTimedTriggerSound" id="7" time="0.903703" duration="0" repeat="0" ec="9005" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_HATE_NO_LAYER_01" bone="" />
+    <trigger type="FTimedTriggerSound" id="15" time="1" duration="0" repeat="0" ec="7006" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_NEUTRAL_NO_LAYER_01" bone="" />
+    <trigger type="FTimedTriggerSound" id="22" time="2.15714288" duration="0" repeat="0" ec="7001" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="23" time="1.42916632" duration="0" repeat="0" ec="7001" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="29" time="1.17142916" duration="0" repeat="0" ec="7050" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="30" time="1.079443" duration="0" repeat="0" ec="7050" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="31" time="8.195169" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="32" time="6.76568" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="33" time="8.257144" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="34" time="1.80769277" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="35" time="1.08571458" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="36" time="4.999997" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="39" time="5.59999657" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="40" time="1.942858" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="45" time="1.19999528" duration="0" repeat="0" ec="9021" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="46" time="0.471789926" duration="0" repeat="0" ec="9021" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="48" time="2.217949" duration="0" repeat="0" ec="9070" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="51" time="0.674074" duration="0" repeat="0" ec="7013" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_NEUTRAL_YES_LAYER_02" bone="" />
+    <trigger type="FTimedTriggerSound" id="53" time="1.5037" duration="0" repeat="0" ec="7015" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_NEUTRAL_NO_LAYER_02" bone="" />
+    <trigger type="FTimedTriggerSound" id="55" time="0.340741" duration="0" repeat="0" ec="7011" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_NEUTRAL_HEARIT_03" bone="" />
+    <trigger type="FTimedTriggerSound" id="56" time="1.1037" duration="0" repeat="0" ec="9015" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_HATE_YES_LAYER_02" bone="" />
+    <trigger type="FTimedTriggerSound" id="57" time="0.851852" duration="0" repeat="0" ec="9013" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_HATE_NO_LAYER_02" bone="" />
+    <trigger type="FTimedTriggerSound" id="58" time="0.340741" duration="0" repeat="0" ec="9017" track="1" tier="0" event="AS2D_LEADER_SPEECH_UC_SOLANO_HATE_HEARIT_03" bone="" />
+    <trigger type="FTimedTriggerSound" id="50" time="2.66510034" duration="0" repeat="0" ec="6000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS" bone="" />
+    <trigger type="FTimedTriggerSound" id="60" time="1.76766407" duration="0" repeat="0" ec="6000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS" bone="" />
+    <trigger type="FTimedTriggerSound" id="62" time="1.11725211" duration="0" repeat="0" ec="7001" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS" bone="" />
+    <trigger type="FTimedTriggerSound" id="63" time="2.24202275" duration="0" repeat="0" ec="7001" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS" bone="" />
+    <trigger type="FTimedTriggerSound" id="64" time="3.33176661" duration="0" repeat="0" ec="7001" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="65" time="0.331766367" duration="0" repeat="0" ec="7002" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="70" time="5.57707739" duration="0" repeat="0" ec="7002" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="71" time="0.7035615" duration="0" repeat="0" ec="7003" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="66" time="2.139459" duration="0" repeat="0" ec="7008" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="72" time="0.229202747" duration="0" repeat="0" ec="7008" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="73" time="0.472792476" duration="0" repeat="0" ec="7009" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="74" time="1.932142" duration="0" repeat="0" ec="7009" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="21" time="0.290322572" duration="0" repeat="0" ec="7021" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="24" time="0.290322572" duration="0" repeat="0" ec="7021" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="76" time="0.14864561" duration="0" repeat="0" ec="7030" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="77" time="1.5992465" duration="0" repeat="0" ec="7030" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="25" time="2.08571458" duration="0" repeat="0" ec="7001" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="26" time="1.34285712" duration="0" repeat="0" ec="7001" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="52" time="2.48561239" duration="0" repeat="0" ec="7002" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="54" time="2.14802718" duration="0" repeat="0" ec="7031" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="59" time="0.6425481" duration="0" repeat="0" ec="7031" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="61" time="1.25778341" duration="0" repeat="0" ec="7031" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="75" time="0.54285717" duration="0" repeat="0" ec="7050" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="78" time="0.6099303" duration="0" repeat="0" ec="7050" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="79" time="0.6852311" duration="0" repeat="0" ec="7050" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="80" time="2.14802718" duration="0" repeat="0" ec="7070" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="81" time="1.25778341" duration="0" repeat="0" ec="7070" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="82" time="0.6425481" duration="0" repeat="0" ec="7070" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="83" time="2.14802718" duration="0" repeat="0" ec="7071" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="84" time="1.25778341" duration="0" repeat="0" ec="7071" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="85" time="0.6425481" duration="0" repeat="0" ec="7071" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="86" time="7.77357531" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="87" time="7.857144" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="88" time="6.8571434" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="89" time="2.14802718" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="90" time="4.760753" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="91" time="5.015681" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="92" time="4.900296" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="93" time="6.68383169" duration="0" repeat="0" ec="8000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="94" time="0.114285715" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="95" time="0" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="96" time="3.41025615" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="97" time="5.25641155" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="98" time="1.48717916" duration="0" repeat="0" ec="9000" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="99" time="4.512823" duration="0" repeat="0" ec="9002" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="100" time="0.153847367" duration="0" repeat="0" ec="9002" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="101" time="2.615386" duration="0" repeat="0" ec="9002" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="102" time="3.153848" duration="0" repeat="0" ec="9002" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="103" time="1.88461876" duration="0" repeat="0" ec="9003" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="104" time="0.205130726" duration="0" repeat="0" ec="9003" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="105" time="0.961542" duration="0" repeat="0" ec="9004" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="106" time="1.88461876" duration="0" repeat="0" ec="9010" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="107" time="0.205130726" duration="0" repeat="0" ec="9010" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="108" time="2.58974671" duration="0" repeat="0" ec="9011" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="109" time="0.205130726" duration="0" repeat="0" ec="9011" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="110" time="1.446149" duration="0" repeat="0" ec="9021" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="111" time="0.5999951" duration="0" repeat="0" ec="9021" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="112" time="0.589746833" duration="0" repeat="0" ec="9021" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="113" time="0.410259575" duration="0" repeat="0" ec="9022" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="114" time="0.205130726" duration="0" repeat="0" ec="9030" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="115" time="1.88461876" duration="0" repeat="0" ec="9030" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="116" time="1.98718214" duration="0" repeat="0" ec="9031" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="117" time="0.3333359" duration="0" repeat="0" ec="9031" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="118" time="0.3974384" duration="0" repeat="0" ec="9050" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="122" time="1.03589225" duration="0" repeat="0" ec="9050" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="123" time="0.8281999" duration="0" repeat="0" ec="9050" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_STEP" bone="" />
+    <trigger type="FTimedTriggerSound" id="124" time="1.02564371" duration="0" repeat="0" ec="9070" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="125" time="1.46154118" duration="0" repeat="0" ec="9070" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="126" time="0.769233644" duration="0" repeat="0" ec="9071" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="127" time="1.80769479" duration="0" repeat="0" ec="9071" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+    <trigger type="FTimedTriggerSound" id="128" time="1.08974636" duration="0" repeat="0" ec="9071" track="1" tier="0" event="AS2D_UNIT_LEADER_BISMARCK_CLOTH_MOVE_DRESS_LOW" bone="" />
+  </triggers>
+</trigger_system>

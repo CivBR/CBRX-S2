@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_NIEUW_AMSTERDAM">
+			<Text>New Amsterdam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BEVERWYCK">
+			<Text>Beverwyck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BEVERSREDE">
+			<Text>Beversrede</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_NIEUW_AMSTEL">
+			<Text>New Amstel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_WILTWYCK">
+			<Text>Wiltwyck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_SLAPERSHAVEN">
+			<Text>Slapershaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_KINDERHOEK">
+			<Text>Kinderhoek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_SWAANENDAEL">
+			<Text>Swaanendael</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_HEENSTEDE">
+			<Text>Heenstede</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_KIEVTIS_HOEK">
+			<Text>Kievtis Hoek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_HUYS_DE_GOEDE_HOOP">
+			<Text>Huys de Goede Hoop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BARNDE_GAT">
+			<Text>Barnde Gat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_ALTENA">
+			<Text>Altena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_RENSSELAERWYCK">
+			<Text>Rensselaerwyck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_HAVERSTROO">
+			<Text>Haverstroo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_TERWE_DORP">
+			<Text>Terwe Dorp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_RODENBERG">
+			<Text>Rodenberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_SCHENECTADY">
+			<Text>Schenectady</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_NOORTWYCK">
+			<Text>Noortwyck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_NIEUW_HAARLEM">
+			<Text>New Haarlem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BRONCKS">
+			<Text>Broncks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_VRIESSENDAEL">
+			<Text>Vriessendael</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BREUCKELEN">
+			<Text>Breuckelen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_MASPAT">
+			<Text>Maspat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_BOSWYCK">
+			<Text>Boswyck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_ROODE_HOEK">
+			<Text>Roode Hoek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_NIEUW_UTRECHT">
+			<Text>New Utrecht</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_OUDE_DORP">
+			<Text>Oude Dorp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_NIEUW_DORP">
+			<Text>New Dorp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_RYCKENS_EYLANDT">
+			<Text>Ryckens Eylandt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_MIDWOUT">
+			<Text>Midwout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_GRAVESEND">
+			<Text>Gravesend</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_AMERSFOORT">
+			<Text>Amersfoort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_RUSTDORP">
+			<Text>Rustdorp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_JONKHEER">
+			<Text>Jonkheer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_OESTER_BAAI">
+			<Text>Oester Baai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VANA_NEWNETHERLAND_37">
+			<Text>Batavia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_NEWNETHERLAND_0">
+			<Text>Pieter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_NEWNETHERLAND_1">
+			<Text>Hendrik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_NEWNETHERLAND_2">
+			<Text>Anthony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_NEWNETHERLAND_3">
+			<Text>Diantha</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_NEWNETHERLAND_4">
+			<Text>Geertruida</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_NEWNETHERLAND_5">
+			<Text>Cornelis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_NEWNETHERLAND_6">
+			<Text>Joan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_NEWNETHERLAND_7">
+			<Text>Williem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_NEWNETHERLAND_8">
+			<Text>Christoffel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_VANA_NEWNETHERLAND_9">
+			<Text>Mattheus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_VANA_NEWNETHERLAND_ADJECTIVE">
+			<Text>New Netherlander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_VANA_NEWNETHERLAND_DESC">
+			<Text>New Netherland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_VANA_NEWNETHERLAND_SHORT_DESC">
+			<Text>New Netherland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VANA_STUYVESANT">
+			<Text>Peter Stuyvesant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_VANA_STUYVESANT_PEDIA">
+			<Text>Peter Stuyvesant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_VANA_STUYVESANT">
+			<Text>Director-General Peter Stuyvesant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TITLE">
+			<Text>New Netherland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_1">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_2">
+			<Text>Terrain and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_2">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_3">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_3">
+			<Text>Before the 16th Century,</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_4">
+			<Text>European Sightings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_4">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_5">
+			<Text>Establishment of the Colonies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_5">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_6">
+			<Text>Founding of Batavia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_6">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_7">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_7">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_8">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_8">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_9">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_9">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_10">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_10">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_HEADING_11">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_TEXT_11">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_NEWNETHERLAND_FACTOID_TEXT">
+			<Text>WIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_VANA_NEWNETHERLAND_SHORT">
+			<Text>The Island at the Centre of the World</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_VANA_NEWNETHERLAND">
+			<Text>Forts claim adjacent unclaimed freshwater tiles when constructed, and can be used to improve Luxury Resources. +5% Great Person Generation in cities for each outgoing trade route and foreign religion present.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VANA_SCHUTTERIJ">
+			<Text>Schutterij</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNIT_VANA_SCHUTTERIJ_TEXT">
+			<Text>Schutterij were the city militia of Dutch Republic and its colonies, organised into a Schuttersgilde. These Schuttersgilde are now well known for their tradition of comissioned group portraits which include some of the grandest portraiture of the Dutch Golden Age. An example of which is Rembrandt's The Night Watch.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VANA_SCHUTTERIJ_STRATEGY">
+			<Text>The Schutterij is the New Netherlander Unique Unit, replacing the Musketman. The Schutterij has the same abilities as the Musketman but is weaker. However it also generates [ICON_GREAT_PEOPLE] Great Artist points when Fortified [ICON_STRENGTH] in either a City or Fort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VANA_SCHUTTERIJ_HELP">
+			<Text>One of the first gunpowder Units of the game. Only New Netherland may build it. This Unit generates [ICON_GREAT_PEOPLE] Great Artist points when Fortified [ICON_STRENGTH] in either a City or Fort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VANA_BEAVER_FACTORIJ">
+			<Text>Beverpels Factorij</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VANA_BEAVER_FACTORIJ_HELP">
+			<Text>Unique New Netherlander Caravansary replacement. Upon construction possible discovery of up to 3 Fur [ICON_RES_FUR] Resources on Freshwater unimproved Forests and Forts. +1 Culture [ICON_CULTURE] on Camps and Forts, increased Trade Range for each worked Fort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VANA_BEAVER_FACTORIJ_STRATEGY">
+			<Text>The Beverpels Factorij is a Trade building unique to Stuyvesant's New Netherland, replacing the Caravansary. Beverpels Factorij provide upon construction the possible discovery of up to 3 Fur [ICON_RES_FUR] Resources. They also provide benifts to working Camps and Forts, +1 Culture [ICON_CULTURE] per turn for each, and increase Trade Range for each Fort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VANA_BEAVER_FACTORIJ_TEXT">
+			<Text>The beaver fur trade was instrumental to the success of New Netherland and was the impetus for its establisment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_VANA_DNN">
+			<Text>dummy</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

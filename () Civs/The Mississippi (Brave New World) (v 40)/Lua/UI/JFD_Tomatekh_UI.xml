@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+	<Image ID="IconFrame" Anchor="R,B" Offset="400,0" Texture="notificationframebase.dds" Size="80,80" Hidden='1' >
+		<Image ID="IconImage" Size="80,80" Anchor="C,C" Texture="CivSymbolsColor512.dds"/>
+	</Image>
+</Context>

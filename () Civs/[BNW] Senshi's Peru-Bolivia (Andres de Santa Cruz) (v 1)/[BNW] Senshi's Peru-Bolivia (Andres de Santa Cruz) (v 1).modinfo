@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0c7e79af-9b8e-413d-ada2-f7f36f7851ea" version="1">
+  <Properties>
+    <Name>[BNW] Senshi's Peru-Bolivia (Andres de Santa Cruz)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the short-lived Peru-Bolivian Confederation into the game, under its Supreme Protector Andres de Santa Cruz!</Teaser>
+    <Description>Adds the short-lived Peru-Bolivian Confederation into the game, under its Supreme Protector Andres de Santa Cruz!
+
+Credits:
+Senshi: Design, Code, Art (Map, Colours, Rabona Model Retexture), Text
+Leugi: Design Consultation, Art (Leaderscene, Civ Icon and Alpha, Rabona Icon, Colorado Model)
+TopHatPaladin: Lua
+DarthKyofu: Art (Leader Icon, Puerto Libre Icon)
+Lime: Dawn of Man</Description>
+    <Authors>Senshi, Leugi</Authors>
+    <SpecialThanks>TopHatPaladin, DarthKyofu, Lime</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="02E8F053A13A1A132BFF46CC5B8E632B" import="0">Art/Atlas/AtlasDefines.xml</File>
+    <File md5="AEB16C157DB039515B4E1375E047AF5F" import="1">Art/Atlas/PeruBoliviaAlpha128.dds</File>
+    <File md5="B39BCBC88AFC7EF7CBD56D93694551D0" import="1">Art/Atlas/PeruBoliviaAlpha16.dds</File>
+    <File md5="21B6CDB7481BBC42CDA08CFA44A798EF" import="1">Art/Atlas/PeruBoliviaAlpha24.dds</File>
+    <File md5="7B43333A57162E9AEF79145F5EB17529" import="1">Art/Atlas/PeruBoliviaAlpha256.dds</File>
+    <File md5="C1F1C3AEE9BC945D5F220D5AD9CBF59E" import="1">Art/Atlas/PeruBoliviaAlpha32.dds</File>
+    <File md5="B63DEE6B4FD8858D6ED4C80F647A28BE" import="1">Art/Atlas/PeruBoliviaAlpha48.dds</File>
+    <File md5="D6D6EE1E4DC995409FAE6F01558A9209" import="1">Art/Atlas/PeruBoliviaAlpha64.dds</File>
+    <File md5="83BE354A65C1DF96F2070E1F41942DA3" import="1">Art/Atlas/PeruBoliviaAlpha80.dds</File>
+    <File md5="4269A8E97A9DA123EC18C1BEFBFA82F6" import="1">Art/Atlas/PeruBoliviaAtlas128.dds</File>
+    <File md5="2CF2E0DF484DB272AE0AF5512B1B7B30" import="1">Art/Atlas/PeruBoliviaAtlas256.dds</File>
+    <File md5="C465E82F3D5A4017A6CE2F30B48FF715" import="1">Art/Atlas/PeruBoliviaAtlas32.dds</File>
+    <File md5="11A70D5BA40FA36C168900B99330A928" import="1">Art/Atlas/PeruBoliviaAtlas45.dds</File>
+    <File md5="AD18179F04EBCFD8AAEEE933EAB1335C" import="1">Art/Atlas/PeruBoliviaAtlas48.dds</File>
+    <File md5="24B128BBF408859021AE99972EEBF581" import="1">Art/Atlas/PeruBoliviaAtlas64.dds</File>
+    <File md5="7CAFF31094F58F76563A50D3B6927AE8" import="1">Art/Atlas/PeruBoliviaAtlas80.dds</File>
+    <File md5="282F63F7504BB4F1C5FE43B6815E5E1D" import="1">Art/Atlas/RabonaFlag32.dds</File>
+    <File md5="F13D2A298CB546B573BE40D73D44A91A" import="1">Art/Music/PeruBoliviaPeace.mp3</File>
+    <File md5="A933D0CB3E5710197992EA05C5E5F05D" import="1">Art/Music/PeruBoliviaWar.mp3</File>
+    <File md5="73AC7576F829A547E2DBBF36AD0BC0A0" import="0">Art/Music/SoundRig.xml</File>
+    <File md5="E99C072E1A3DBDF1660BC6BA7125B67A" import="1">Art/PeruBoliviaMap412.dds</File>
+    <File md5="C3D280D33A80E4B43CA62A4616C0D48C" import="1">Art/Rabona/Colorado Model/colorado.fxsxml</File>
+    <File md5="9402EE68197B194229A2CB31E4E4E2BC" import="1">Art/Rabona/Colorado Model/u_colorado.gr2</File>
+    <File md5="DBC06A21EA1B7E60011F02F9D33C2852" import="1">Art/Rabona/Colorado Model/u_colorado_diff.dds</File>
+    <File md5="63AF76D5D3BB51D0BCF4CD8B0B15A662" import="1">Art/Rabona/Colorado Model/u_colorado_sref.dds</File>
+    <File md5="FA1F8C2CE7ACDE718BD4A3E3A5F5B500" import="1">Art/Rabona/Rabona Model/redcoat_female.fxsxml</File>
+    <File md5="BE06C0E0631DC3BABB3D3F705D0333C2" import="1">Art/Rabona/Rabona Model/redcoat_female.gr2</File>
+    <File md5="78C9820F331987C4A998A2CFF3B522A9" import="1">Art/Rabona/Rabona Model/redcoat_female_128.dds</File>
+    <File md5="AF4D7D825D8F9718AF7EAF778709D7DF" import="1">Art/Rabona/Rabona Model/redcoat_female_gloss.dds</File>
+    <File md5="6788EB39B620C922FEBB7C3781EC0935" import="0">Art/Rabona/Rabona.xml</File>
+    <File md5="F488C9456CA52017AE5EC95646EE4BAB" import="1">Art/Rabona/sv_Rabona.dds</File>
+    <File md5="D45E55C2724E46EEF39893E79118A7CE" import="1">Art/SantaCruzDoM.dds</File>
+    <File md5="91142C19792CB083A4B795C8B589FA73" import="1">Art/SantaCruzLS.dds</File>
+    <File md5="1C29823B4D728E288985878BB5F749B7" import="0">Core/ModSupport.sql</File>
+    <File md5="DC488CAF71EAB8E92DCB2D6D35E650C9" import="0">Core/Buildings.sql</File>
+    <File md5="0435FA3EB35DFF388D5BC6FFB866EF2E" import="0">Core/Civilizations.sql</File>
+    <File md5="EE9E229648806AF59CDC3FD4C2AE756F" import="0">Core/DiplomacyResponses.xml</File>
+    <File md5="9A86246DDA0FA4F7688F43BDA129EF4E" import="0">Core/GameText.xml</File>
+    <File md5="7B64BC28DF7CBDDB4D1A506CDF3E9BD4" import="0">Core/Leaderhead.sql</File>
+    <File md5="1D02D8421A274BF679D853014014E5AD" import="0">Core/PeruBolivia_Functions.lua</File>
+    <File md5="5AD6506A2DC361F55F38DFC97842CB43" import="0">Core/PlayerColours.sql</File>
+    <File md5="46250D826EBF20028073D8E104694D67" import="0">Core/Promotions.sql</File>
+    <File md5="84CAEEA2DB372FF92E9953EE1567573F" import="1">Core/Senshi_SantaCruz_Scene.xml</File>
+    <File md5="62D0ABEE6DB9389B73124B2BC0C3AD29" import="0">Core/Traits.sql</File>
+    <File md5="18DBAA31ACEC06F1F865B5879F0F997B" import="0">Core/Units.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Atlas/AtlasDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Rabona/Rabona.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Music/SoundRig.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Core/PeruBolivia_Functions.lua">
+      <Name>PeruBolivia_Functions</Name>
+      <Description>By TopHatLad</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

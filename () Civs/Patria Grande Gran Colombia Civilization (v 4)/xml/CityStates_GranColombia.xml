@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/6/2013 9:18:46 AM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Set Text="San Juan"/>
+			<Where Tag="TXT_KEY_CITYSTATE_PANAMA_CITY"/>
+		</Update>
+		<Update>
+			<Set Text="San Juan"/>
+			<Where Tag="TXT_KEY_CITYSTATE_PANAMA_CITY_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="San Juan (Saint John), officially Municipio de la Ciudad Capital San Juan Bautista (Municipality of the Capital City, Saint John the Baptist), is the capital and most populous municipality in Puerto Rico, an unincorporated territory of the United States. As of the 2010 census, it had a population of 395,326 making it the 46th-largest city under the jurisdiction of the United States. San Juan was founded by Spanish colonists in 1521, who called it Ciudad de Puerto Rico (Rich Port City). Puerto Rico's capital is the second oldest European-established city in the Americas, after Santo Domingo, in the Dominican Republic. Several historical buildings are located in San Juan; among the most notable are the city's former defensive forts, Fort San Felipe del Morro and Fort San Cristóbal, and La Fortaleza, the oldest executive mansion in continuous use in the Americas.
+
+Today, San Juan is one of Puerto Rico's most important seaports, and is the island's manufacturing[citation needed], financial, cultural, and tourism center. The population of the Metropolitan Statistical Area, including San Juan and the municipalities of Bayamón, Guaynabo, Cataño, Canóvanas, Caguas, Toa Alta, Toa Baja, Carolina and Trujillo Alto, is about 2 million inhabitants; thus, about half the population of Puerto Rico now lives and works in this area. San Juan is also a principal city of the San Juan-Caguas-Fajardo Combined Statistical Area. The city has been the host of numerous important events within the sports community, including the 1979 Pan American Games, 1966 Central American and Caribbean Games, events of the 2006, 2009 and 2013 World Baseball Classics, the Caribbean Series and the Special Olympics and MLB San Juan Series in 2010."/>
+			<Where Tag="TXT_KEY_CIV5_PANAMA_TEXT"/>
+		</Update>
+
+		<Update>
+			<Set Text="Quito"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BOGOTA"/>
+		</Update>
+		<Update>
+			<Set Text="Quito"/>
+			<Where Tag="TXT_KEY_CITYSTATE_BOGOTA_ADJ"/>
+		</Update>
+		<Update>
+			<Set Text="Quito, formally San Francisco de Quito, is the capital city of Ecuador, and at an elevation of 9,350 feet (2,800 meters above sea level), it is the highest capital city in the world housing the administrative, legislative and judicial functions. It is located in north-central Ecuador in the Guayllabamba river basin, on the eastern slopes of Pichincha, an active stratovolcano in the Andes mountains. With a population of 2,239,191 according to the last census (2010), Quito is the second most populous city in Ecuador, after Guayaquil. It is also the capital of the Pichincha province and the seat of Metropolitan District of Quito. The canton recorded a population of 1,842,201 residents in the 2001 national census. In 2008, the city was designated as the headquarters of the Union of South American Nations.
+
+[NEWLINE][NEWLINEThe historic center of Quito has one of the largest, least-altered and best-preserved historic centers in the Americas.[4] Quito, along with Kraków, were the first World Cultural Heritage Sites declared by UNESCO in 1978. The central square of Quito is located about 25 kilometres (16 mi) south of the equator; the city itself extends to within about 1 kilometre (0.62 mi) of zero latitude. A monument and museum marking the general location of the equator is known locally as la mitad del mundo (the middle of the world), to avoid confusion, as the word ecuador is Spanish for equator."/>
+			<Where Tag="TXT_KEY_CIV5_BOGOTA_TEXT"/>
+		</Update>
+		
+
+	</Language_en_US>
+	
+	
+	<MinorCivilizations>
+		<Update>
+			<Set ArtStyleType="ARTSTYLE_GRECO_ROMAN"/>
+			<Where Type="MINOR_CIV_PANAMA_CITY"/>
+		</Update>
+		<Update>
+			<Set ArtStyleType="ARTSTYLE_GRECO_ROMAN"/>
+			<Where Type="MINOR_CIV_BOGOTA"/>
+		</Update>
+
+	</MinorCivilizations>
+
+</GameData>

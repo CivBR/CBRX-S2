@@ -1,0 +1,22 @@
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_SENSHI_SANTACRUZ">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SENSHI_SANTACRUZ_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SENSHI_SANTACRUZ">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SENSHI_SANTACRUZ_DEFEATED%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<!--General phrases -->
+		<!--Greeting (first time meeting) -->
+		<Row Tag="TXT_KEY_LEADER_SENSHI_SANTACRUZ_FIRSTGREETING_1">
+			<Text>Welcome to the great Peru-Bolivian Confederation! I am Marshal Andrés de Santa Cruz, its humble Supreme Protector, and protect I shall! If you recognise our independence, we shall have no quarrel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_SANTACRUZ_DEFEATED_1">
+			<Text>Alas, the order and unity I have brought to these lands will surely fade, and the successors of the Confederation will be left in chaos. I hope you're proud.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

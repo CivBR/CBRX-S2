@@ -1,0 +1,20 @@
+INSERT INTO IconTextureAtlases 
+        (Atlas,                                 IconSize,     Filename,                                 IconsPerRow,     IconsPerColumn)
+VALUES    ('PI_JAMAICA_ATLAS',                 256,         'JamaicaAtlas256.dds',            2,                 2),
+        ('PI_JAMAICA_ATLAS',                 128,         'JamaicaAtlas128.dds',            2,                 2),
+        ('PI_JAMAICA_ATLAS',                 80,         'JamaicaAtlas80.dds',            2,                 2),
+        ('PI_JAMAICA_ATLAS',                 64,         'JamaicaAtlas64.dds',            2,                 2),
+        ('PI_JAMAICA_ATLAS',                 45,         'JamaicaAtlas45.dds',            2,                 2),
+        ('PI_JAMAICA_ATLAS',                 32,         'JamaicaAtlas32.dds',            2,                 2),
+        ('PI_JAMAICA_ALPHA_ATLAS',         128,         'JamaicaAlpha128.dds',    1,                1),
+        ('PI_JAMAICA_ALPHA_ATLAS',         80,         'JamaicaAlpha80.dds',        1,                 1),
+        ('PI_JAMAICA_ALPHA_ATLAS',         64,         'JamaicaAlpha64.dds',        1,                 1),
+        ('PI_JAMAICA_ALPHA_ATLAS',         48,         'JamaicaAlpha48.dds',        1,                 1),
+        ('PI_JAMAICA_ALPHA_ATLAS',         45,         'JamaicaAlpha45.dds',        1,                 1),
+        ('PI_JAMAICA_ALPHA_ATLAS',         32,         'JamaicaAlpha32.dds',        1,                 1),
+        ('PI_JAMAICA_ALPHA_ATLAS',         24,         'JamaicaAlpha24.dds',        1,                 1),
+        ('PI_JAMAICA_ALPHA_ATLAS',         16,         'JamaicaAlpha16.dds',        1,                 1),
+		('PI_JAMAICA_MAROON_REBEL_ATLAS',         128,         'MaroonFlag128.dds',        1,                 1),
+		('PI_JAMAICA_MAROON_REBEL_ATLAS',         32,         'MaroonFlag.dds',        1,                 1),
+		('PI_JAMAICA_BLACK_STAR_LINER_FLAG_ATLAS',         128,         'LinerFlag128.dds',        1,                 1),
+		('PI_JAMAICA_BLACK_STAR_LINER_FLAG_ATLAS',         32,         'LinerFlag.dds',        1,                 1);

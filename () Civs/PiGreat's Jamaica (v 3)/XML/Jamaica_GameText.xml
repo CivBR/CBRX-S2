@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/14/2017 10:11:28 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Normal Stuff -->
+		<Row Tag="TXT_KEY_PI_JAMAICA_DESC">
+			<Text>Commonwealth of Jamaica</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_PI_JAMAICA_SHORT_DESC">
+			<Text>Jamaica</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_PI_JAMAICA_ADJECTIVE">
+			<Text>Jamaican</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CIVLOPEDIA_PI_JAMAICA_ADJECTIVE">
+			<Text>Jamaican</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_PI_JAMAICA_TEXT">
+			<Text>
+				Praise be to you Marcus Mosiah Garvey, civil rights pioneer and national hero of Jamaica! From your humble roots as a travelling Jamaican worker and the youngest of eleven children, you managed to rally the hopes of the long-suffering African American populace to an extent that would not be matched for many years! Marcus Garvey, you proved to Black communities across the world that they could succeed and thrive even under the oppressive racism that plagued the Western world at the time. You founded the Black Star Line, the first large-scale American shipping line owned and run by black people, whose influence can still be felt today. Your relentless promotion of Pan-Africanism fostered a powerful sense of community in black people like few other things could. It is on your influence that Jamaica was built; a proud nation, and a cultural powerhouse free of its colonial past.[NEWLINE][NEWLINE]
+
+				Honourable Mr. Garvey, though you tragically did not live to see a free Jamaica, you have been given a second chance! Your people cry out for your leadership and guidance! Can you build Jamaica to even greater heights? Can you bring Jamaican culture even further into the world's spotlight? Can you build a civilization that will stand the test of time?
+			</Text>
+		</Row>
+
+
+		<!-- City Names -->
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_KINGSTON">
+			<Text>Kingston</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_MONTEGO_BAY">
+			<Text>Montego Bay</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_SPANISH_TOWN">
+			<Text>Spanish Town</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_PORTMORE">
+			<Text>Portmore</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_MAY_PEN">
+			<Text>May Pen</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_MANDEVILLE">
+			<Text>Mandeville</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_OLD_HARBOUR">
+			<Text>Old Harbour</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_SAVANNA-LA-MAR">
+			<Text>Savanna-la-Mar</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_LINSTEAD">
+			<Text>Linstead</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_PORT_ANTONIO">
+			<Text>Port Antonio</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_CONSTANT_SPRING">
+			<Text>Constant Spring</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_SAINT_ANNS_BAY">
+			<Text>Saint Ann's Bay</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_MORANT_BAY">
+			<Text>Morant Bay</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_BOG_WALK">
+			<Text>Bog Walk</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_EWARTON">
+			<Text>Ewarton</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_HAYES">
+			<Text>Hayes</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_STONY_HILL">
+			<Text>Stony Hill</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_OCHO_RIOS">
+			<Text>Ocho Rios</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_SANTA_CRUZ">
+			<Text>Santa Cruz</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_PORT_MARIA">
+			<Text>Port Maria</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_FALMOUTH">
+			<Text>Falmouth</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_CHRISTIANA">
+			<Text>Christiana</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_YALLAHS">
+			<Text>Yallahs</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_BROWNS_TOWN">
+			<Text>Brown's Town</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_GRANGE_HILL">
+			<Text>Grange Hill</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_LUCIA">
+			<Text>Lucia</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_RUNAWAY_BAY">
+			<Text>Runaway Bay</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_ANNOTTO_BAY">
+			<Text>Annotto Bay</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_HIGHGATE">
+			<Text>Highgate</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_OLD_HARBOUR_BAY">
+			<Text>Old Harbour Bay</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_PORUS">
+			<Text>Porus</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_LIONEL_TOWN">
+			<Text>Lionel Town</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_SANDY_BAY">
+			<Text>Sandy Bay</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_HOPEWELL">
+			<Text>Hopewell</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CITY_NAME_PI_JAMAICA_LONG_WOOD">
+			<Text>Long Wood</Text>
+		</Row>
+
+
+		<!-- Spy Names -->
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_BRANDON">
+			<Text>Brandon</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_SELENA">
+			<Text>Selena</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_ASHANI">
+			<Text>Ashani</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_SAMANTHA">
+			<Text>Samantha</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_CHRIS">
+			<Text>Chris</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_TARA">
+			<Text>Tara</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_LLANZO">
+			<Text>Llanzo</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_SHANICE">
+			<Text>Shanice</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_KYMANI">
+			<Text>Kymani</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_CHRISTINA">
+			<Text>Christina</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SPY_NAME_PI_JAMAICA_JOEL">
+			<Text>Joel</Text>
+		</Row>
+
+
+		<!--Leaders File-->
+
+
+		<Row Tag="TXT_KEY_LEADER_PI_MARCUS_GARVEY_DESC">
+			<Text>Marcus Garvey</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_LEADER_PI_MARCUS_GARVEY_PEDIA">
+			<Text>
+				Marcus Mosiah Garvey, Jr., ONH (17 August 1887 – 10 June 1940), was a Jamaican political leader, publisher, journalist, entrepreneur, and orator who was a proponent of the Pan-Africanism movement, to which end he founded the Universal Negro Improvement Association and African Communities League (UNIA-ACL). He also founded the Black Star Line, a shipping and passenger line which promoted the return of the African diaspora to their ancestral lands.
+
+				Prior to the 20th century, leaders such as Prince Hall, Martin Delany, Edward Wilmot Blyden, and Henry Highland Garnet advocated the involvement of the African diaspora in African affairs. Garvey was unique in advancing a Pan-African philosophy to inspire a global mass movement and economic empowerment focusing on Africa known as Garveyism. Promoted by the UNIA as a movement of African Redemption, Garveyism would eventually inspire others, ranging from the Nation of Islam to the Rastafari movement (some sects of which proclaim Garvey as a prophet.)
+
+				Garveyism intended persons of African ancestry in the diaspora to "redeem" the nations of Africa and for the European colonial powers to leave the continent. His essential ideas about Africa were stated in an editorial in Negro World entitled "African Fundamentalism", where he wrote: "Our union must know no clime, boundary, or nationality… to let us hold together under all climes and in every country…"
+			</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_LEADER_PI_MARCUS_GARVEY">
+			<Text>Marcus Garvey</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_LEADER_PI_MARCUS_GARVEY_FIRST_GREETING_1">
+			<Text>Welcome to Jamaica. We are a cultured people who want only peace and freedom; but please know that if you disregard these wants, it will be you who suffers.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_LEADER_PI_MARCUS_GARVEY_FIRST_GREETING_2">
+			<Text>I greet you on behalf of the Jamaican people. We raise our children to value love and respect above all else. If your people do the same, we will get along wonderfully.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_LEADER_PI_MARCUS_GARVEY_DEFEATED_1">
+			<Text>Fine. I will concede defeat. I can only ask that you let the few surviving Jamaican people live free.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_LEADER_PI_MARCUS_GARVEY_DEFEATED_2">
+			<Text>My people have been slaughtered, my armies have been crushed and my lands have been plundered. I know that I cannot defeat you, so I will concede. But I will never forget your wrongs.</Text>
+		</Row>
+
+
+		<!-- Units -->
+
+
+		<Row Tag="TXT_KEY_UNIT_PI_JAMAICA_MAROON_REBEL">
+			<Text>Maroon Rebel</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CIVLOPEDIA_JAMAICA_MAROON_REBEL_TEXT">
+			<Text>
+				'Maroon' is the cultural identity adopted by Africans who escaped slavery before its abolition, as well as their descendents. Due to the nature of the Caribbean islands' past as major hubs for slave trading and plantation work, it is perhaps unsurprising that these islands possess significant Maroon communities. Jamaica is home to one of the most significant Maroon communities, which can be owed at least partially to the slave revolts that came to be known as the Maroon Wars.[NEWLINE][NEWLINE]
+
+				The First Maroon War came about as a result of the British Empire's colonial forces and their constant friction with the existing Jamaican Maroons - who had settled and allied with Jamaica's native Taíno people in the centre of the island. This friction was compounded by the very low ratio of white colonists to black slaves, which resulted in Britain's failure to successfully control the entire island. Minor conflicts and skirmishes between Maroons and colonists were the norm for the next 76 years, until tensions came to a head in 1673. 200 slaves in St. Ann's Parish formed an alliance with a group of Maroons from Madagascar, who had survived a shipwreck and set up their own community on Jamaica. This rebel faction became stronger after every slave revolt on the island, utilising guerilla warfare to hold off British attempts to quash the rebellions. Between 1739 and 1740, the British forces realised that they were unable to defeat the Maroon rebels, who had much greater knowledge of the Jamaican terrain and who were more willing to use unconventional guerilla tactics. A peace treaty was signed, with the colonists allowing their escaped slaves a very minor level of autonomy. However, the peace treaty did little to quell the Maroons in their thirst for independence. In 1795, the Second Maroon War began.[NEWLINE][NEWLINE]
+
+				The Second Maroon War began when, after two Maroons were flogged by a slave for stealing two pigs, the British Empire took six Maroon leaders prisoner after they presented their grievances. The war itself was a stalemate: although the Maroons were outnumbered ten-to-one (British forces numbered around 5,000 while Maroon forces numbered only 500), the Maroons once again had greater knowledge of the forested and mountainous central Jamaican terrain. For the whole eight months of the conflict, the Maroon rebels held off the colonial forces with guerilla tactics. However, the British and their use of bloodhounds finally turned the tables against the Maroons. In December, 1795, the Maroons surrendered. This resulted in the eventual deportation of several Jamaican Maroon communities - first to Nova Scotia, and later to the new British colony of Sierra Leone.
+			</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_UNIT_PI_JAMAICA_MAROON_REBEL_STRATEGY">
+			<Text>The Maroon Rebel is an especially useful unit when stationed on thick Jungles or areas with a great deal of Hills. These areas are easy to fortify against oncoming foes, and the Maroon Rebel's combat bonuses in these regions make them a force to be reckoned with if positioned correctly.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_UNIT_PI_JAMAICA_MAROON_REBEL_HELP">
+			<Text>
+				Gatling Gun replacement which is slightly weaker, but slightly less expensive. Receives double defensive bonuses when starting on Jungle or Hills. Adjacent enemy units receive no defensive terrain bonuses.
+			</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_UNIT_PI_JAMAICA_BLACK_STAR_LINER">
+			<Text>Black Star Liner</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_CIV5_PI_JAMAICA_BLACK_STAR_LINER_TEXT">
+			<Text>
+				The Black Star Line was incorporated as a Delaware corporation on June 27, 1919. Having a maximum capitalization of $500,000, BSL stocks were sold at UNIA conventions at five dollars each.
+
+				The first directors of the Black Star Line were Marcus Garvey, Edgar M. Grey, Richard E. Warner, George Tobias, Jeremiah Certain, Henrietta Vinton Davis, and Janie Jenkins. The officers of the corporation were President Marcus Garvey, First Vice President — Jeremiah Certain, Second Vice President Henrietta Vinton Davis, Treasurer George Tobias, Secretary Richard E. Warner, Assistant Secretary Edgar M. Grey and Assistant Treasurer Janie Jenkins. Six months after incorporation the Board of Directors voted to increase the Black Star Line market capitalization to $10,000,000.[NEWLINE][NEWLINE]
+
+				The Black Star Line surprised all its critics when, only three months after being incorporated, the first of four ships, the SS Yarmouth was purchased with the intention of it being rechristened the SS Frederick Douglass. The Yarmouth was a coal boat during the First World War, and was in poor condition when purchased by the Black Star Line. Once reconditioned, the Yarmouth proceeded to sail for three years between the U.S. and the West Indies as the first Black Star Line ship with an all-black crew and a black captain. Later Joshua Cockburn, the captain of the Yarmouth, was accused of receiving a "kick back from the purchase price".[NEWLINE][NEWLINE]
+
+				The SS Yarmouth was not the only ship to be purchased in poor condition and to be completely oversold. Garvey spent another $200,000 for more ships. One, the SS Shadyside, sailed the "cruise to nowhere" on the Hudson River one summer and sank the next fall because of a leak. Another was a steam yacht once owned by Henry Huttleston Rogers. Booker T. Washington had been an honored guest aboard the ship when it was owned by his friend and confidant, Rogers, and was known as the Kanawha. However, Rogers had died in 1909, and the once well-maintained yacht had also served in the first World War. After having been renamed the SS Antonio Maceo by the Black Star Line, it blew a boiler and killed a man.[NEWLINE][NEWLINE]
+
+				Besides oversold and poorly conditioned ships, the Black Star Line was beset by mismanagement and infiltration by agents of J. Edgar Hoover's Bureau of Investigation (the forerunner to the Federal Bureau of Investigation), who − according to historian Winston James − sabotaged it by throwing foreign matter into the fuel, damaging the engines. On its first commission, the Yarmouth brought a shipment of whiskey from the U.S. to Cuba (before prohibition) in record time, but because it did not have docking arrangements in Havana, it lost money sitting in the docks while the longshoremen had a strike. A cargo-load of coconuts rotted in the hull of a ship on another voyage because Garvey insisted on having the ships make ceremonial stops at politically important ports.[NEWLINE][NEWLINE]
+
+				In 1919, J. Edgar Hoover and the BOI charged Marcus Garvey and three other officers with mail fraud. The prosecution stated that the brochure of the Black Star Line contained a picture of a ship that the BSL did not own. The ship pictured was the Orion, which in the brochure was renamed the Phyllis Wheatley, and at the time was going to be bought by the BSL, but which they did not yet own. The fact that the ship was not owned yet by the BSL warranted mail fraud. "In 1922, Garvey and three other Black Star Line officials were indicted by the U.S. government for using the mails fraudulently to solicit stock for the recently defunct steamship line." The Jury only convicted Garvey, not the other three officers, and he was sentenced to five years in prison. In 1927, President Calvin Coolidge deported Garvey back to Jamaica.[NEWLINE][NEWLINE]
+
+				The Black Star Line ceased sailing in February 1922. The company's losses were estimated to be between $630,000 and $1.25 million. It is regarded as a considerable accomplishment for African Americans of the time, despite mismanagement, engineers who overcharged, and the Bureau of Investigation's acts of infiltration and sabotage.
+			</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_UNIT_PI_JAMAICA_BLACK_STAR_LINER_STRATEGY">
+			<Text>The Black Star Liner is a highly useful Cargo Ship replacement, as it provides much-needed Culture bonuses to Jamaica along with the Cargo Ship's normal yields of Food, Science and Religious Pressure. However, it only receives this bonus Culture when sent to a City State with less access to Resources than Jamaica. Therefore, for maximum efficiency, Black Star Liners should only be sent to City States if they have less Resource diversity than the host city. Black Star Liners also work best with the Patronage and Exploration policy trees, which allow them to make up for the lower gold yield inherent to trading with City States rather than major Civilizations.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_UNIT_HELP_PI_JAMAICA_BLACK_STAR_LINER">
+			<Text>Cargo Ship replacement with increased range. Gains [ICON_CULTURE] Culture and [ICON_GREAT_MUSICIAN] Great Musician points when trading with a [ICON_CITY_STATE] City State, per resource your city has that the [ICON_CITY_STATE] City State doesn't.</Text>
+		</Row>
+
+
+		<!-- Traits File -->
+
+
+		<Row Tag="TXT_KEY_TRAIT_ONE_LOVE">
+			<Text>[ICON_HAPPINESS_1] Happiness buildings receive [ICON_GREAT_MUSICIAN] Great Work of Music slots and generate [ICON_GREAT_PEOPLE] Great Musician points. Up to four Cities with no empty [ICON_GREAT_WORK] Great Work slots may construct additional [ICON_CULTURE] Cultural guilds.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_TRAIT_ONE_LOVE_SHORT">
+			<Text>One Love</Text>
+		</Row>
+
+
+		<!-- Sovereignty -->
+
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CLERGY_PI_JAMAICA">
+			<Text>Church of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_CONSERVATIVE_PI_JAMAICA">
+			<Text>Jamaica Labour Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERAL_PI_JAMAICA">
+			<Text>People's National Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_NATIONALIST_PI_JAMAICA">
+			<Text>National Democratic Movement</Text>
+		</Row>
+
+
+		<!--Decisions-->
+
+		-<Row Tag="TXT_KEY_PI_JAMAICA_PANAF_NOTIFICATION">
+
+			<Text>Our Pan-African policies have earnt us {1_GAP} [ICON_GOLDEN_AGE] Golden Age Points!</Text>
+
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PI_JAMAICA_DEFENSEMOD">
+			<Text>Guerilla Warfare</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PI_JAMAICA_DEFENSEMOD_HELP">
+			<Text>Receives double defensive terrain bonuses starting on Hills or Jungle.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PI_JAMAICA_NODEFENSEMOD">
+			<Text>Vulnerable Target</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PI_JAMAICA_NODEFENSEMOD_HELP">
+			<Text>Receives no defensive terrain bonuses adjacent to Maroon Rebels.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_PI_JAMAICA_RASTA_NAME">
+			<Text>Acknowledge Rastafarianism</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PI_JAMAICA_RASTA_DESC">
+			<Text>
+				The people of Jamaica have recently started spreading a way of life that promotes spirituality and the rejection of materialism. This culture is spreading like wildfire across the country, bringing with it a great deal of music; and many of these 'Rastafari' regard you as a prophet. We should embrace this new culture, as it will bring a great deal of happiness to the people as a whole.
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Jamaica
+				[NEWLINE][ICON_BULLET]May only be enacted from the Modern Era onwards
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_HAPPINESS_1] Global Happiness
+				[NEWLINE][ICON_BULLET]A [ICON_GREAT_MUSICIAN] Great Musician appears near the Capital
+				[NEWLINE][ICON_BULLET][ICON_GREAT_MUSICIAN] Great Musicians generate [ICON_PEACE] Faith when performing Concert Tours
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PI_JAMAICA_RASTA_DESC_ENACTED">
+			<Text>
+				You have given your official endorsement of Rastafarianism, and our people have taken to the culture like ducks to water!
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+2 [ICON_HAPPINESS_1] Global Happiness
+				[NEWLINE][ICON_BULLET]A [ICON_GREAT_MUSICIAN] Great Musician appears near the Capital
+				[NEWLINE][ICON_BULLET][ICON_GREAT_MUSICIAN] Great Musicians generate [ICON_PEACE] Faith when performing Concert Tours
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PI_JAMAICA_PANAF">
+			<Text>Promote the Pan-African Movement</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PI_JAMAICA_PANAF_DESC">
+			<Text>
+				As the descendants of slaves, many Jamaican citizens have taken an interest in the idea of returning to their ancestral homes. Our intelligence suggests that these nations are also receptive to the concept of the families of their stolen people making a return. It is our duty to give the people what they want, and with our Black Star Liners as symbols of hope, we should endorse this desire and usher in a new age of mutual prosperity!
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Jamaica
+				[NEWLINE][ICON_BULLET]Must have researched Steam Power
+				[NEWLINE][ICON_BULLET]Must have at least one city on another continent
+				[NEWLINE][ICON_BULLET]Must have at least one internal [ICON_INTERNATIONAL_TRADE] Trade Route with Black Star Liners
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Culture} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Black Star Liners generate [ICON_INFLUENCE] Influence and [ICON_GOLDEN_AGE] Golden Age points when connected to [ICON_CITY_STATE] City States.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PI_JAMAICA_PANAF_DESC_ENACTED">
+			<Text>
+				The Pan-African Movement was a huge success! Our people feel a strong sense of unity with one another, and we have had a huge influence on our trading partners!
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Black Star Liners generate [ICON_INFLUENCE] Influence and [ICON_GOLDEN_AGE] Golden Age points when connected to [ICON_CITY_STATE] City States.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PI_GMP_DUMMY">
+			<Text>GMP Dummy</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PI_CULTURE_DUMMY">
+			<Text>Culture Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PI_BSL_DUMMY">
+			<Text>BSL Dummy</Text>
+		</Row>
+		
+		
+		<!-- UCI -->
+		<Row Tag="TXT_KEY_GENERIC_PI_JAMAICA_INFLUENTIAL_ON_AI_1">
+
+			<Text>Our people have started smoking your ganja and... haha, oh man, hahaha! What, haha, what was I saying again?</Text>
+
+		</Row>
+
+	</Language_en_US>
+</GameData>

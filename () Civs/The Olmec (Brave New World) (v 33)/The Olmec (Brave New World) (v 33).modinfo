@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a22a3bc1-fe10-4698-9a64-8ba2d4a07509" version="33">
+  <Properties>
+    <Name>The Olmec (Brave New World)</Name>
+    <Teaser>Adds the Olmec to the base game. Requires the Brave New World Expansion.</Teaser>
+    <Description>Adds the Olmec to the base game.
+[NEWLINE][NEWLINE]~~~
+[NEWLINE][NEWLINE]Note: 
+[NEWLINE]- Requires the Brave New World expansion.
+[NEWLINE]- Updates to the Mod will most likely break save games. Please do not update until you are ready to begin a new game.
+[NEWLINE][NEWLINE]~~~
+[NEWLINE][NEWLINE]Leader: U Kix Chan
+[NEWLINE][NEWLINE]UA: Venus Cycle
+[NEWLINE]UU: Konuks'wu
+[NEWLINE]UI: Colossal Head</Description>
+    <Authors>Tomatekh, Leugi</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=488283</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>33</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events and Decisions" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="Cultural Diversity" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Cultural Influence" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits" />
+    <Mod id="43868e8d-de88-48a1-a8d9-ce144e07f5e0" minversion="0" maxversion="999" title="ExCE" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="C. Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="C. Balance Patch" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D." />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="Piety" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="Sovereignty" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="Mercenaries" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment" />
+    <Mod id="27744840-51d5-48b3-89d8-bc595ba27b7e" minversion="0" maxversion="999" title="PeC" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="B0012AC354C845538C80879EAC1523B4" import="1">Art/Alpha/OlmecAlphaAtlas128.dds</File>
+    <File md5="D011213E20CED497443822681F98877F" import="1">Art/Alpha/OlmecAlphaAtlas16.dds</File>
+    <File md5="6D2E27C5EB6CC231BE8809792693BC49" import="1">Art/Alpha/OlmecAlphaAtlas24.dds</File>
+    <File md5="AC659605732A583C46D4D85EAFEBD396" import="1">Art/Alpha/OlmecAlphaAtlas32.dds</File>
+    <File md5="86F5437DF2C1A937315F69C5FFDADAD7" import="1">Art/Alpha/OlmecAlphaAtlas48.dds</File>
+    <File md5="947BC050BD18DD6836E402060DCC6F62" import="1">Art/Alpha/OlmecAlphaAtlas64.dds</File>
+    <File md5="4489596CF21E1D0CA246C6ACB243B759" import="1">Art/Atlas/OlmecAtlas128.dds</File>
+    <File md5="957C472B5AE23525DE8A10F2089A9B52" import="1">Art/Atlas/OlmecAtlas214.dds</File>
+    <File md5="818F903CAA0C6AF84FAEE1DA978057E6" import="1">Art/Atlas/OlmecAtlas256.dds</File>
+    <File md5="BAA666ED1FA285BEBF0B5B08A77D3D7D" import="1">Art/Atlas/OlmecAtlas32.dds</File>
+    <File md5="71AEE6ED2CA5C65DCA5B2BE1CC8FF139" import="1">Art/Atlas/OlmecAtlas45.dds</File>
+    <File md5="4FCD12AE2014604503780E3E8970DF76" import="1">Art/Atlas/OlmecAtlas64.dds</File>
+    <File md5="8BE69596FDB45602527D3C9FEC485A2F" import="1">Art/Atlas/OlmecAtlas80.dds</File>
+    <File md5="EE0EC99791DADD418C56F76D731832DF" import="1">Art/OlmecDiploMod.dds</File>
+    <File md5="9948B798233CDDB911F545487115C5B5" import="1">Art/OlmecDoMMod.dds</File>
+    <File md5="7BAF4ECC0BED3D6F16D6B7224DDD298D" import="1">Art/OlmecMapMod.dds</File>
+    <File md5="21CDCEED7D81983A502F1C20ED00BC57" import="1">Art/Promotion/OlmecPromotion256.dds</File>
+    <File md5="4515CFD32CBCA5FD9B31BA7E74BDF85D" import="1">Art/Promotion/OlmecPromotion32.dds</File>
+    <File md5="2D64910169FF17FBFD6D2CFAAAADE518" import="1">Art/Promotion/OlmecPromotion45.dds</File>
+    <File md5="D2E665F6B269588CF10F19FE789271C9" import="1">Art/Promotion/OlmecPromotion64.dds</File>
+    <File md5="1B7DD117DE666027423530CC3BDC3B67" import="1">Art/UI/Build/Olmec_Build_45.dds</File>
+    <File md5="14E841C484601CD0772321D619E98385" import="1">Art/UI/Build/Olmec_Build_64.dds</File>
+    <File md5="23C8A0657263E253FD575E81A3D7C2C4" import="1">Art/UI/Build/Olmec_Gold_Build_45.dds</File>
+    <File md5="35CA2C33453D305B34C2BC34972A60B1" import="1">Art/UI/Build/Olmec_Gold_Build_64.dds</File>
+    <File md5="94A3969CF375B0C83DE70B94AADAE06D" import="1">Art/UI/Build/sv_olmec_colossal_heads.dds</File>
+    <File md5="7205B60620B7067EE8BE2D922E4AA585" import="0">Art/UI/Olmec UI Define.sql</File>
+    <File md5="8ED798C5395DF9C8B71A9D8F923E74ED" import="1">Art/UI/olmec_colossalheads.fxsxml</File>
+    <File md5="DE81EF912FD3226CBC3580D3F8DBA5C3" import="1">Art/UI/olmec_colossalheads.gr2</File>
+    <File md5="2202D80B590A3B6090E95785E7BF149E" import="1">Art/UI/olmec_colossalheads_pl.fxsxml</File>
+    <File md5="E0C2D0D0FB2869430D3EE8CF6B8F7EDE" import="1">Art/UI/olmec_heads.gr2</File>
+    <File md5="1FF685BC9DCD528E859CE663AED55A8E" import="1">Art/UI/olmec_heads_diff.dds</File>
+    <File md5="E75AB40CC96C6FF9BA634061E529F60B" import="1">Art/UI/olmec_heads_pl.gr2</File>
+    <File md5="73461A84539A49D9F04E6766F5FF5F72" import="1">Art/UI/olmec_heads_pl_diff.dds</File>
+    <File md5="D7AFA8336400620E67470909EAFC432D" import="1">Art/UI/olmec_head_decal_01.dds</File>
+    <File md5="837E60137CB520D0ACA3157C43474CEC" import="1">Art/Unit/Alpha/OlmecUUAlphaAlt.dds</File>
+    <File md5="44A60805192DE96BE5319CCE52856228" import="1">Art/Unit/Alpha/OlmecUUAlpha.dds</File>
+    <File md5="21A24B742CA118374B6A89BC07B42991" import="1">Art/Unit/Alpha/sv_OlmecUUAlt.dds</File>
+    <File md5="E2D95F5DB8DB822463FAD1E833103D15" import="1">Art/Unit/Alpha/sv_OlmecUU.dds</File>
+    <File md5="A1690E9738A95978EC1B68F1F3821539" import="1">Art/Unit/olmec_konukswu.fxsxml</File>
+    <File md5="5C425F3B7531DA5936AD6D4911031DE3" import="1">Art/Unit/olmec_konukswu.gr2</File>
+    <File md5="002EBE2A0D790B5E2768C807CB22C9E0" import="1">Art/Unit/olmec_starwarrior.dds</File>
+    <File md5="0BF9501D43282BA7BEDFBBBB6CD14D3E" import="1">Art/Unit/olmec_starwarrior_gloss.dds</File>
+    <File md5="C0C7701CE9405F805DBBFEB5156C17C9" import="1">Decisions/LeugiOlmecDecisions.lua</File>
+    <File md5="67C6B21101F254BBD6DA38DCCE059AE8" import="0">Decisions/LeugiOlmecDecisions.xml</File>
+    <File md5="98B98DB84FBE0C7DBC30FFD1E0359167" import="1">Decisions/LeugiOlmecEvents.lua</File>
+    <File md5="BB3FDF95D126654294123AFCF330E96B" import="1">Decisions/OlmecEvent1.dds</File>
+    <File md5="36D3EB209500BBC2B3444B3CFD7BB4BB" import="1">Decisions/OlmecEvent2.dds</File>
+    <File md5="DAED873AA43E5EDB4CD03A6DDB52650E" import="0">Lua/Interface/QoL_Olmec_UI.lua</File>
+    <File md5="C6450714CB4AB7DF26779987088F674B" import="1">Lua/Interface/QoL_Olmec_UI.xml</File>
+    <File md5="A8CE26E33E64F1D65AE61E16E1BC028C" import="0">Lua/Olmec Lua Check.lua</File>
+    <File md5="A1925DFA24B68D5A29B3AE05052E3FE7" import="1">Lua/Olmec Lua Scripts.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Lua/Other/SaveUtils.lua</File>
+    <File md5="0FB43AE84ED15A1B879A2FC59FDAA698" import="1">Lua/Popup/gw_olmec_unique_art.dds</File>
+    <File md5="7780ABFF8EC243CCD80A5972599EF485" import="1">Lua/Popup/OlmecGPPopup.xml</File>
+    <File md5="555AB26DBB406A3D6BEF5661F87B8B8A" import="1">Lua/Popup/OlmecChooseAtlas64.dds</File>
+    <File md5="48CE40762A25C9A02AA79694B3F95D68" import="0">Lua/Popup/OlmecGPPopup.lua</File>
+    <File md5="4811EF1E7B166430825487C623B54CD6" import="0">Lua/Sukritact Tourism/Sukritact Tourism Dummies.sql</File>
+    <File md5="2DDF9069B33E2258559694BD0C10360F" import="1">Lua/UI/Olmec Top Panel Edits.lua</File>
+    <File md5="83D86967A952EA8D4567E4308DF3B41C" import="1">Sounds/OlmecDoM.mp3</File>
+    <File md5="9205EC1F24D8186851A5A2D328C5F124" import="1">Sounds/OlmecPeace.mp3</File>
+    <File md5="AADFFEB0F39ABC014DB1F076AD14870B" import="1">Sounds/OlmecWar.mp3</File>
+    <File md5="B78CE85EB685A692B7E435E3EE12BF99" import="0">SQL/Olmec Mod Support.sql</File>
+    <File md5="7C0369CE5CF827C34E3EE2C5DBF5F0D5" import="0">SQL/Olmec Unit Define.sql</File>
+    <File md5="5F5879A2010BEB05FB3A349093FDB048" import="0">SQL/Olmec YnAEMP Support.sql</File>
+    <File md5="8BAF683877BAC665CBFA6FD30840194F" import="0">XML/Art/Olmec Mod Atlas.xml</File>
+    <File md5="ED14886A517F5B8CC78BA0FB2060735E" import="1">XML/Art/Olmec_Leader_Scene_Mod.xml</File>
+    <File md5="E309451A4E8D9202BE3B3F6456EFA4A6" import="0">XML/Buildings/Olmec Building Mod.xml</File>
+    <File md5="8E375F196626290988D85FF68954EDE8" import="0">XML/Buildings/Olmec Buildingclass Mod.xml</File>
+    <File md5="F8F8D4BE9F6B63E05DE4B4DC5D90594F" import="0">XML/City-State/Olmec City-State Update.xml</File>
+    <File md5="16E7473429C3AD296CDCC7BF2C9B23D2" import="0">XML/Civilization/Olmec Civilization Mod.xml</File>
+    <File md5="1F92FB232E3B89C43F29DD2AB0742757" import="0">XML/Civilization/Olmec Leader Mod.xml</File>
+    <File md5="261B61CABD2D11E683265C4B6337EAE4" import="0">XML/Civilization/Olmec Trait Mod.xml</File>
+    <File md5="7785E6A0CAB7FAADCA3EB64D9460D69B" import="0">XML/Diplomacy/Olmec Diplomacy Mod.xml</File>
+    <File md5="685DB969C231412D7D39E1FEE2787AC5" import="0">XML/Sounds/Olmec Sounds Mod.xml</File>
+    <File md5="934ECD46F5E1D7043AE76369CE7A0949" import="0">XML/Terrain/Olmec Mod Improvements.xml</File>
+    <File md5="C8D0625CBC7EA0C219778FADC4ADFFD0" import="0">XML/Text/Non English XML Tags/Olmec Game Text DE_DE.xml</File>
+    <File md5="D3706600CA23B4DDFA533E7386F9AB7B" import="0">XML/Text/Non English XML Tags/Olmec Game Text ES_ES.xml</File>
+    <File md5="6FD85275AC79A286E123B43A16F76CCA" import="0">XML/Text/Non English XML Tags/Olmec Game Text FR_FR.xml</File>
+    <File md5="20A8219AAEB62138D04FF312AE07DE6F" import="0">XML/Text/Non English XML Tags/Olmec Game Text IT_IT.xml</File>
+    <File md5="691BC9CBFD51E08FA79BBEE55713A1B6" import="0">XML/Text/Non English XML Tags/Olmec Game Text JA_JP.xml</File>
+    <File md5="5C6018D836089FFAE6DC5BD37B5788B5" import="0">XML/Text/Non English XML Tags/Olmec Game Text KO_KR.xml</File>
+    <File md5="90CD8CACA6D23E3D2AFDB1D8726A846D" import="0">XML/Text/Non English XML Tags/Olmec Game Text PL_PL.xml</File>
+    <File md5="46768FC0DDC0411235DDB415BACA5250" import="0">XML/Text/Non English XML Tags/Olmec Game Text RU_RU.xml</File>
+    <File md5="3DE305E3FA23B4359890165C31C59525" import="0">XML/Text/Olmec Mod Text.xml</File>
+    <File md5="71831DFFCAA2D05BAB416386CB04E86A" import="0">XML/Units/Olmec Unit Mod.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Civilization/Olmec Trait Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization/Olmec Leader Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization/Olmec Civilization Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/Olmec Mod Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Olmec Unit Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Olmec Mod Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Olmec Diplomacy Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/City-State/Olmec City-State Update.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Olmec Buildingclass Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Olmec Building Mod.xml</UpdateDatabase>
+      <UpdateDatabase>Lua/Sukritact Tourism/Sukritact Tourism Dummies.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Olmec Unit Define.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Sounds/Olmec Sounds Mod.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Olmec Mod Support.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Olmec YnAEMP Support.sql</UpdateDatabase>
+      <UpdateDatabase>Decisions/LeugiOlmecDecisions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Olmec Mod Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Olmec Game Text DE_DE.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Olmec Game Text ES_ES.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Olmec Game Text FR_FR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Olmec Game Text IT_IT.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Olmec Game Text JA_JP.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Olmec Game Text KO_KR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Olmec Game Text PL_PL.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Olmec Game Text RU_RU.xml</UpdateDatabase>
+      <UpdateDatabase>Art/UI/Olmec UI Define.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Olmec Lua Check.lua">
+      <Name>Olmec</Name>
+      <Description>Olmec</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Popup/OlmecGPPopup.lua">
+      <Name>Popup</Name>
+      <Description>Popup</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Interface/QoL_Olmec_UI.lua">
+      <Name>UI</Name>
+      <Description>UI</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

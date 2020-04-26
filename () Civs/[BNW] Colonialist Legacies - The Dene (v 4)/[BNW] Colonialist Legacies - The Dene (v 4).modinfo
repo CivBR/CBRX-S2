@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="43dc58a4-11f3-4054-8864-6ef926393176" version="4">
+  <Properties>
+    <Name>[BNW] Colonialist Legacies - The Dene</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Brings the drums of the Dene people to the game!</Teaser>
+    <Description>Thanadelthur leads the Dene people in Civilization V
+[NEWLINE]
+Although she was never a chief of her peoples,Thanadelthur was instrumental in producing lasting peace between her people, the Chipewyan (Dene Suline,) the Cree, and the British. Taken as a slave by the Cree at a young age, she escaped and faced the hostile Canadian wilderness before meeting the British, who brought her to her people. She used her knowledge of the Cree and the British to forge the peace pact that became her legacy.
+[NEWLINE]
+Sacred Drummers (UA) - Dene religious buildings (Shrine, Temple, Grand Temple) have additional slots for Great Works of Music and the Dene gain Great Musician points in their capital. After the Industrial Era, Dene Holy Sites produce Tourism as well as Faith.
+[NEWLINE]
+Dene Great Musicians spawn as Sacred Drummers (UU), who can produce great works of music and create Holy Sites, but cannot embark on World Tours.
+[NEWLINE]
+Yellowknife Encampment (UI) - Can only be built on Copper, Silver, or Gold. Functions as a mine, but produces one Iron.</Description>
+    <Authors>Neirai the Forgiven, TPangolin, Hiram</Authors>
+    <SpecialThanks>LastSword and JFD</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="B272B112988F66D2D20EDFA49BE0EA32" import="1">Art/dene128.dds</File>
+    <File md5="C264C2E607CEDBB0FFC76617EBDE9335" import="1">Art/dene214.dds</File>
+    <File md5="94FF9C19035929C7DC8DF52C8A1BD798" import="1">Art/dene256.dds</File>
+    <File md5="F0D5CF83E503660095D07CF5DBF88B85" import="1">Art/dene32.dds</File>
+    <File md5="533BCA9A0BECD17B2318F47F0DF67109" import="1">Art/dene45.dds</File>
+    <File md5="7938B346F0D7EF1788C1B6665780773B" import="1">Art/dene64.dds</File>
+    <File md5="5F2FDF2567F075D10FE2103F9786C048" import="1">Art/dene80.dds</File>
+    <File md5="8AC0D610D1AD6BB780A32CAD553F2C7A" import="1">Art/denealpha128.dds</File>
+    <File md5="7BBFF11810F123F760050D98413E8269" import="1">Art/denealpha16.dds</File>
+    <File md5="B434F791C0F7DF0AFF072D9209FE0695" import="1">Art/denealpha24.dds</File>
+    <File md5="5CB6467B6483991E296297E4FBCAE111" import="1">Art/denealpha32.dds</File>
+    <File md5="84D41FD4541EF43449F5B07175A17880" import="1">Art/denealpha48.dds</File>
+    <File md5="EC071B2B4658702670B4663A111726B4" import="1">Art/denealpha64.dds</File>
+    <File md5="8EEDE3B034F83E37B316FD2B221D0961" import="0">Art/DeneAtlas.xml</File>
+    <File md5="B4DEE0C103CBD03CD111DF5E259F51C3" import="1">Art/deneunit128.dds</File>
+    <File md5="A9D26EDB4D189F4E3A286A7D587D74AF" import="1">Art/deneunit256.dds</File>
+    <File md5="0257AFE1562DBA0C2DE582C381AC7734" import="1">Art/deneunit45.dds</File>
+    <File md5="29A18D1A1DA5F5B1944A9A4F8682E146" import="1">Art/deneunit64.dds</File>
+    <File md5="F0CCA144BFB3EDE4D34C680CAC75FD29" import="1">Art/deneunit80.dds</File>
+    <File md5="8BE3BE31B99D33DCEF1A35BE2D1DAA8C" import="1">Art/deneunitalpha32.dds</File>
+    <File md5="33E446DDBEE2115E1AB417DC57A4F431" import="1">Art/deneunitsv.dds</File>
+    <File md5="FE0E577899E5A0453FD3D29BFBE4518E" import="1">Art/FirstNationDene_Map.dds</File>
+    <File md5="EFF270D21242AD543276CBC096EC0EB6" import="1">Art/SacredDrummer.dds</File>
+    <File md5="847C909E36B8107A85A6A2A629C743C3" import="0">Art/SacredDrummerArt.xml</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/no_gloss.dds</File>
+    <File md5="A5BFD5C7CD0D2F3B2EA7DBADC0752F2C" import="1">Art/SacredDrummer.fxsxml</File>
+    <File md5="DF31486671571972460502381D766D50" import="1">Art/SacredDrummer.gr2</File>
+    <File md5="5F1C7179DAD6EEEDFDFB462FD4EFC256" import="1">Art/thanadelthur128.dds</File>
+    <File md5="71BD3C6E59979D22EA3077BE15EBC49A" import="1">Art/thanadelthur256.dds</File>
+    <File md5="6B53A2A104810FF9673B11D341055E68" import="1">Art/thanadelthur64.dds</File>
+    <File md5="0354EF76B44356CF9D2888DEEBCE4818" import="1">Art/ThanadelthurDOM.dds</File>
+    <File md5="196EDCAF21C0F91A6BE8732319898086" import="1">Art/Thanadelthur_Scene.dds</File>
+    <File md5="C209EFB7597193D0CEA0F96F5F4A7F37" import="1">Art/TipiBuild_45.dds</File>
+    <File md5="6BF61B1785D609B26E1EAC14B0D5A4E7" import="1">Art/TipiBuild_64.dds</File>
+    <File md5="38B5E24A4A731F3B5D306697C9A9365A" import="1">Art/TipiIcon_128.dds</File>
+    <File md5="269FD8F9169AC84877A5F5792EDB86A8" import="1">Art/TipiIcon_256.dds</File>
+    <File md5="52E2D43E3ABB92CDE888B598ABA869E1" import="1">Art/TipiIcon_45.dds</File>
+    <File md5="E37EF7C85406A6BFD764D9606C69ECEE" import="1">Art/TipiIcon_64.dds</File>
+    <File md5="A7AF721D4A0C30411D2AA405AF86C816" import="1">Art/TipiIcon_80.dds</File>
+    <File md5="4486E05E92C6A1829D1BD4FC8EAB80DE" import="1">Lua/CultureOverview.lua</File>
+    <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">Lua/CultureOverview.xml</File>
+    <File md5="7B36D5557ADB56D994769AECC4A1BB25" import="0">Lua/DeneLua.lua</File>
+    <File md5="DDE61E7E9D9BAE1ABFDE9484B89B05E0" import="1">Lua/DeneDecisions.lua</File>
+    <File md5="9971274B09AB2B62B2506207DBF4FBB9" import="0">Lua/Decisions.sql</File>
+    <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Lua/Promotion_Created.xml</File>
+    <File md5="E3AB73844886B35F4B78A604FA2D13D2" import="0">Lua/SerialEventUnitCreatedGood.lua</File>
+    <File md5="64DF635BD57CDEB13DC1038934568A7E" import="0">Lua/Sukritact MCIS/CityInfoStack.lua</File>
+    <File md5="4E7C5E4894BC0A0E0CBA1743787E1015" import="0">Lua/Sukritact MCIS/CityInfoStack.xml</File>
+    <File md5="F4F124FB563DC1BE8D1A31CE576E7C9B" import="0">Lua/Sukritact MCIS/C15_Dene_CityInfo.lua</File>
+    <File md5="F1D5F0A3868FAC1D461189F7017D9A5B" import="0">Lua/Sukritact MCIS/C15_Dene_CityInfo.xml</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="0">Lua/Sukritact_SaveUtils.lua</File>
+    <File md5="10B1FE4FE7924F6833546D862FE607EE" import="1">Music/ThanadelthurDOM.mp3</File>
+    <File md5="4C317AF6F7C8DF506C10E20ABC7E31E5" import="0">Music/ThanadelthurMusic.xml</File>
+    <File md5="10E9040B9BCD2FE4F5718BBA6A761DDF" import="1">Music/ThanadelthurPeace.mp3</File>
+    <File md5="B754BC9A1F05A55E2AEE4A8CCAAC040B" import="1">Music/ThanadelthurWar.mp3</File>
+    <File md5="C8665350BF17989EEDA6B53D663730D4" import="0">XML/Dene.xml</File>
+    <File md5="888C43015E159AC41F04A204979AAFE4" import="0">XML/DeneTSL.xml</File>
+    <File md5="79E616DB3C52565D7B11DFB57688AF36" import="0">XML/ModSupport.sql</File>
+    <File md5="95BBE25D25E86D288F5FCE8B7EA06FA0" import="0">XML/MusicBuildingsSQL.sql</File>
+    <File md5="CA9C77626C5683FA18D94CCFDA70A0BD" import="0">XML/YellowknifeCamp.xml</File>
+    <File md5="2721AD3D0825CE9491C392FBFE120AA6" import="0">XML/MusicBuildings.xml</File>
+    <File md5="5C04D1EA48C9BCCECD9A051B6DB7BF81" import="0">XML/Thanadelthur_Talks.xml</File>
+    <File md5="645C0B7D6AF88FEC7F04D9447BD5DA3B" import="0">XML/Thanadelthur.xml</File>
+    <File md5="CCB201B2143515999E752596A685C0CF" import="1">XML/Thanadelthur_Scene.xml</File>
+    <File md5="9AA059CDFEB31C7B230EAC6FDB1E2C79" import="0">XML/SacredDrummers.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Lua/Promotion_Created.xml</UpdateDatabase>
+      <UpdateDatabase>Art/DeneAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/YellowknifeCamp.xml</UpdateDatabase>
+      <UpdateDatabase>Art/SacredDrummerArt.xml</UpdateDatabase>
+      <UpdateDatabase>XML/SacredDrummers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/MusicBuildingsSQL.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Thanadelthur_Talks.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Thanadelthur.xml</UpdateDatabase>
+      <UpdateDatabase>Music/ThanadelthurMusic.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Dene.xml</UpdateDatabase>
+      <UpdateDatabase>Lua/Decisions.sql</UpdateDatabase>
+      <UpdateDatabase>XML/ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/DeneLua.lua">
+      <Name>DeneLua</Name>
+      <Description>Dene Lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/SerialEventUnitCreatedGood.lua">
+      <Name>SerialEventUnitCreatedGood</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Sukritact MCIS/CityInfoStack.lua">
+      <Name>SukritactMCIS</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Sukritact MCIS/C15_Dene_CityInfo.lua">
+      <Name>C15_Dene_CityInfo</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

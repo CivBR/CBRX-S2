@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--Congress-->
+		<Row Tag="TXT_KEY_DECISIONS_GC_PATCH_CONGRESS">
+			<Text>Hold the Congress of Cúcuta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_GC_PATCH_CONGRESS_DESC">
+			<Text>
+				At long last we have liberated our cities from foreign rule. It is time for us to unite, to declare ourselves a free and just republic, and establish laws to guide our fledgling nation into the future.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Gran Colombia
+				[NEWLINE][ICON_BULLET]Must have Liberated a City-State
+				[NEWLINE][ICON_BULLET]Player must not be at War
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Captured Cities will produce no [ICON_RESISTANCE] Resistance
+				[NEWLINE][ICON_BULLET]Courthouses will also provide +20% [ICON_CULTURE] Culture
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_GC_PATCH_CONGRESS_ENACTED_DESC">
+			<Text>
+				At long last we have liberated our cities from foreign rule. It is time for us to unite, to declare ourselves a free and just republic, and establish laws to guide our fledgling nation into the future.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Captured Cities produce no [ICON_RESISTANCE] Resistance
+				[NEWLINE][ICON_BULLET]Courthouses will also provide +20% [ICON_CULTURE] Culture
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GC_PATCH_ED_DUMMY_HELP">
+			<Text>+20% [ICON_CULTURE] Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GC_PATCH_ED_DUMMY_DESC">
+			<Text>Colombia Dummy 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GC_PATCH_ED_DUMMY_TEXT">
+			<Text>The Congress of Cúcuta was a constituent assembly where Gran Colombia was created. The Congress elected Simón Bolívar and Francisco de Paula Santander president and vice-president, respectively.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GC_PATCH_ED_DUMMY_STRATEGY">
+			<Text>This building cannot be constructed but rather facilitates Gran Colombia's unique abilities.</Text>
+		</Row>
+		<!-- Conference -->
+		<Row Tag="TXT_KEY_DECISIONS_GC_PATCH_CONFERENCE">
+			<Text>Hold the Conference of Guayaquil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_GC_PATCH_CONFERENCE_DESC">
+			<Text>
+				Presidente, your fellow libertadores wish to meet and discuss the future of the region and whether or not our newly independent neighbors should join our great nation.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Gran Colombia
+				[NEWLINE][ICON_BULLET]Must have at least 1 City-State Ally
+				[NEWLINE][ICON_BULLET]Must have at least 1 Libertador
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]1 Libertador will be lost
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Your highest [ICON_CITIZEN] Population City-State Ally will be Annexed into your empire
+				[NEWLINE][ICON_BULLET]+15 [ICON_INFLUENCE] Influence with all other met City-States
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_GC_PATCH_CONFERENCE_ENACTED_DESC">
+			<Text>
+				Presidente, your fellow libertadores wish to meet and discuss the future of the region and whether or not our newly independent neighbors should join our great nation.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Your highest [ICON_CITIZEN] Population City-State Ally will be Annexed into your empire
+				[NEWLINE][ICON_BULLET]+15 [ICON_INFLUENCE] Influence with all other met City-States
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

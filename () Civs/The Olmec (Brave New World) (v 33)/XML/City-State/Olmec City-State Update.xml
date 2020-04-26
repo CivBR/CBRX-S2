@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<MinorCivilizations>
+		<Update>
+			<Where Type="MINOR_CIV_LA_VENTA"/>
+			<Set>
+				<Description>TXT_KEY_CITYSTATE_MOD_CHAVIN</Description>
+				<ShortDescription>TXT_KEY_CITYSTATE_MOD_CHAVIN</ShortDescription>
+				<Adjective>TXT_KEY_CITYSTATE_MOD_CHAVIN_ADJ</Adjective>
+				<Civilopedia>TXT_KEY_CITYSTATE_MOD_CHAVIN_PEDIA</Civilopedia>
+			</Set>
+		</Update>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Delete MinorCivType="MINOR_CIV_LA_VENTA" CityName="TXT_KEY_CITYSTATE_LA_VENTA"/>
+		<Row>
+			<MinorCivType>MINOR_CIV_LA_VENTA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MOD_CHAVIN</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+</GameData>

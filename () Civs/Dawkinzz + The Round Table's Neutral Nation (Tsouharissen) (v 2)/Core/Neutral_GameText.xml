@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/26/2019 7:46:45 PM -->
+<GameData>
+	<Language_en_US>
+		<!--Leader-->
+		<Row Tag="TXT_KEY_LEADER_EW_TSOUHARISSEN">
+			<Text>Tsouharissen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_EW_TSOUHARISSEN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_EW_TSOUHARISSEN_TEXT_1">
+			<Text>The chief of 28 villages, villas, and towns in the last years of the Neutral confederacy was named Tsouharissen ("Child of the Sun") who led several raids against the Mascouten (aka "The Fire Nation"), who lived in territory in present-day Michigan and Ohio. A 1627 report called him the chief of all his nation (Neutrals). Tsouharissen died around 1646. Within a generation (by the early 1670s) all the nearby first nations, the Erie, the Huron, Neutrals, Tobacco tribes, and even the fierce Susquehannocks would all fall between rampaging epidemic diseases or in the bloody Beaver Wars between themselves and/or to the last tribe standing with any significant military power, the Iroquois.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_EW_TSOUHARISSEN_NAME">
+			<Text>Tsouharissen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_EW_TSOUHARISSEN_SUBTITLE">
+			<Text>Leader of the Neutral Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_EW_TSOUHARISSEN_TITLES_1">
+			<Text>Chief of Kandoucho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_EW_TSOUHARISSEN_LIVED">
+			<Text>Early to Mid 1600s</Text>
+		</Row>
+		<!--Trait-->
+		<Row Tag="TXT_KEY_TRAIT_EW_TSOUHARISSEN">
+			<Text>Captured enemy cities produce one Weakened Military Unit for every turn they are in resistance. Upon researching Gunpowder, Iron resources within city borders convert to Flint.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_EW_TSOUHARISSEN_SHORT">
+			<Text>Child of the Sun</Text>
+		</Row>
+		<!--Civilization-->
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL">
+			<Text>Neutral Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_SHORT">
+			<Text>Neutral Nation</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_ADJ">
+			<Text>Neutral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EW_NEUTRAL_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EW_NEUTRAL_TEXT_1">
+			<Text>The Neutral Confederacy or Neutral Nation or Neutral people were an Iroquoian-speaking North American indigenous people who lived near the northern shores of Lake Ontario and Lake Erie, on the west side of the Niagara River, west of the Tabacco Nation. They were related to the Iroquois Confederation to their southeast, the Huron peoples also living around Lake Ontario, the Erie people of the south shore of Lake Erie, the Tabacco people situated east of Lake Erie, and the Susquehannocks of Central Pennsylvania. Like the others of Iroquoian culture, the tribes would raid and feud with fellow Iroquoian tribes when they weren't gaming and engaging in friendly competitions. They were generally wary of rival Algonquian peoples, such as those that inhabited Canada to the East, along the Saint Lawrence valley drainage catchment. Iroquoian tribes were later known to historians for the fierce ways in which they waged war. Some tribes were highly inclined to competitive games. A largely agrarian society, Neutral farmsteads were admired and marveled over by European leaders writing reports home. [NEWLINE][NEWLINE] Since they were not at war with the Huron or Iroquois in 1600, Jesuits traveling in the area of what is now Hamilton, the lower Grand Valley and Niagara, called them the Neutrals. However, the confederacy did have feuds with the Algonkian people who were believed to live in what is now Michigan. [NEWLINE][NEWLINE] The Neutrals had an alliance with the Wenrohronon, also Iroquoian-language people, to defend against the powerful Iroquois Nations, who were also Iroquoian speakers. This dissolved in 1639, with devastating effects, particularly to the Wenrohronon. The Wenrohronon made an alliance with the Huron, who were located further away, and could not offer much support. [NEWLINE][NEWLINE] By 1653, the Iroquoian Confederacy had practically annihilated the smaller Neutral Nation, destroying their villages, including Kandoucho at the east end of the Nation. [NEWLINE][NEWLINE] In further detail, after destroying the Hurons, the Iroquois attacked the Neutrals. Around 1650, during a period now loosely referred to as the Beaver Wars, referring to the theft of furs, the Iroquois Confederacy declared war on the Neutral Nation. Some historians state that the Iroquois destroyed the Neutral society which ended as a separate entity in 1651. However, the Neutral population had already been reduced by diseases such as smallpox and measles carried by Europeans. By 1652, the Iroquois had also destroyed the Huron, Petun and Erie Nations. Some of the Neutrals were incorporated into Seneca villages in upstate New York, and others were absorbed into various other societies. [NEWLINE][NEWLINE] Jesuits wintered with the Neutral people in 1652-1653; the last reference to the Neutrals as an independent society was made in the fall of 1653. A historical mention in 1864 refers to the "Huron de la nation neuter" and "Hurons neutres" (neutral Hurons).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EW_NEUTRAL_HEADING_2">
+			<Text>Citations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EW_NEUTRAL_TEXT_2">
+			<Text>https://en.wikipedia.org/wiki/Neutral_Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_DOM">
+			<Text>Blessings upon you Tsouharissen, chief of the proud Neutral Nation. From the mists of Niagara Falls to the shores of Lake Huron and the Detroit River, your people have prospered in the fertile lands that have come to be known as Southern Ontario.  Having chosen to remain peaceful in the ongoing wars between the Huron and Iroquois, your wisdom was not mistaken for weakness, as you led your warriors into glorious battle against the Fire Nation. In your lifetime, your lands were considered a fortress of noble fighters and palisades, until your death and the Neutral Nation's eventual defeat during the Beaver Wars.[NEWLINE][NEWLINE]Child of the Sun, Tsouharrissen, your people call for you once more! They seek your strength and guidance to reclaim your rightful lands and defeat your enemies, old and new. Will you lead the Neutral Nation into a new era of prosperity and greatness? Will you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--Unit-->
+		<Row Tag="TXT_KEY_UNIT_EW_CHONNONTON">
+			<Text>Chonnonton War Band</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EW_CHONNONTON_HELP">
+			<Text>Replaces the Swordsman. Stronger offensively but slightly more expensive to produce and is weaker when defending. Upon being trained, may spawn a source of Flint. Can upgrade to a Musketman for free when on a source of Flint upon researching Gunpowder.[NEWLINE][NEWLINE]Bonuses: +3 Combat, +25 [ICON_PRODUCTION]Production, +25% attacking bonus, -10% defending penalty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EW_CHONNONTON_STRATEGY">
+			<Text>The Chonnonton has the chance to compound your army, since every source of Flint it spawns produces more Iron, which means you can build more Chonnonton. Each one can then be upgraded for free when standing on top of Flint, meaning your army can quickly modernize once you hit the Renaissance Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EW_CHONNONTON_PEDIA">
+			<Text>The Neutrals were primarily engaged in hunting, and traded with others using animal skins. The largest group referred to themselves as Chonnonton ("Keepers of The Deer") — partly due to their practice of herding deer into pens, a strategy used while hunting. Another group, the Onguiaahra ("Near the big waters" or possibly "The Strait"), populated the more southern Niagara Peninsula, and account for the origin of the word, "Niagara." The Chonnonton territory contained large deposits of flint, which was a valuable resource for sharp tools, fire-starting and, eventually, firearms, which, as a primary resource, allowed them to trade simultaneously with oft-warring Huron and Iroquois tribes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEUTRAL_CHONNONTON_UPGRADE_TAG">
+			<Text>Upgrade the Chonnonton into a Musketman</Text>
+		</Row>
+		<!--Building-->
+		<Row Tag="TXT_KEY_BUILDING_EW_TATTOOIST">
+			<Text>Tattooist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EW_TATTOOIST_HELP">
+			<Text>Replaces the Forge. Bonus production for Military Units, and those units get a combat Bonus against Cities. When a Weakened Unit enters a city with a Tattooist, it loses the Weakened promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EW_TATTOOIST_STRATEGY">
+			<Text>The Tattooist can help you build up a strong army capable of quickly taking down cities. Moreover, once you capture those cities, the Tattooist can strengthen the weaker units that those cities produce, growing your army even more.[NEWLINE][NEWLINE]Bonuses are as follows: +5% [ICON_PRODUCTION]Production towards land military units, all units trained in this city get a +10% combat bonus against cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EW_TATTOOIST_PEDIA">
+			<Text>The Neutral Confederacy had much in common with the Petun Nation and may have had shared ancestry. Jesuit Relations (chronicles) of 1652 describes tattooing among the Petun (also called the Tobacco Nation) as well as the Neutrals: "And this (tattooing) in some nations is so common that in the one which we called the Tobacco, and ... the Neutral. I know not whether a single individual was found, who was not painted in this manner, on some part of the body."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LIME_NEUTRAL_1_DESC">
+			<Text>Dummy Building for Chonnonton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LIME_NEUTRAL_1_HELP">
+			<Text>Dummy Building for Chonnonton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGCLASS_LIME_NEUTRAL_1_DESC">
+			<Text>Dummy Building Class for Chonnonton</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_1">
+			<Text>Kandoucho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_2">
+			<Text>Niagara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_3">
+			<Text>Quinaoutatoua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_4">
+			<Text>Andachkhrob</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_5">
+			<Text>Khioetoa </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_6">
+			<Text>Onguiaahra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_7">
+			<Text>Ounonisaton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_8">
+			<Text>Teotoguiaton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_9">
+			<Text>Kakouagoga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_10">
+			<Text>Aondironon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_11">
+			<Text>Ahiragenrega</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_12">
+			<Text>Michilimackinac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_13">
+			<Text>Rhageratka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_14">
+			<Text>Atiaonrek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_15">
+			<Text>Kehesetoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_16">
+			<Text>Skenchioe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_17">
+			<Text>Attiuoaisgon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_18">
+			<Text>Ahondihronon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_19">
+			<Text>Onguiaronon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_20">
+			<Text>Antouaronon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_21">
+			<Text>Caughnawaga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_22">
+			<Text>Atirhagenrat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_23">
+			<Text>Gandongarae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_24">
+			<Text>Atiraguenrek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_25">
+			<Text>Ouaroronon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_26">
+			<Text>Attiragenrega</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_27">
+			<Text>Ongniaahraronon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_28">
+			<Text>Lawson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_29">
+			<Text>Badenoch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_30">
+			<Text>Puslinch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_31">
+			<Text>Little Lake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_32">
+			<Text>Aberfoyle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_EW_NEUTRAL_CITY_33">
+			<Text>Arkell</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_EW_NEUTRAL_SPY_1">
+			<Text>Djikonsa’se</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_EW_NEUTRAL_SPY_2">
+			<Text>Tsikónhsase</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_EW_NEUTRAL_SPY_3">
+			<Text>Kenjockety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_NEUTRAL_SPY_4">
+			<Text>Sastharhetse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_NEUTRAL_SPY_5">
+			<Text>Thăstchetci</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_NEUTRAL_SPY_6">
+			<Text>Chenundady</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_NEUTRAL_SPY_7">
+			<Text>Guyandot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_NEUTRAL_SPY_8">
+			<Text>Yendat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EW_NEUTRAL_SPY_9">
+			<Text>Tobacs</Text>
+		</Row>
+		<!--Promotion-->
+		<Row Tag="TXT_KEY_PROMOTION_EW_WAR_TATTOO">
+			<Text>War Tattoos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EW_WAR_TATTOO_HELP">
+			<Text>+10% Combat Strength against Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EW_NEUTRALITY">
+			<Text>Neutrality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EW_NEUTRALITY_HELP">
+			<Text>-10% Combat Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EW_ATTACK_DEFENSE">
+			<Text>Chonnonton Buffs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EW_ATTACK_DEFENSE_HELP">
+			<Text>+25% Combat Strength when attacking, -10% combat strength when defending</Text>
+		</Row>
+		<!--Resource-->
+		<Row Tag="TXT_KEY_RESOURCE_EW_FLINT">
+			<Text>[ICON_RESOURCE_EW_FLINT]Flint</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_EW_FLINT_PEDIA">
+			<Text>[ICON_RESOURCE_EW_FLINT]Flint gives +1 [ICON_PRODUCTION]Production and +1 [ICON_GOLD]Gold. Provides 3 [ICON_RES_IRON]Iron as a resource. +10% Unit Production to any city working a source of Flint.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

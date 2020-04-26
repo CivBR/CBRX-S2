@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 02/28/16 3:48:18 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_PARAGUAY_0">
+			<Text>Gaspar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_PARAGUAY_1">
+			<Text>Carlos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_PARAGUAY_2">
+			<Text>Franco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_PARAGUAY_3">
+			<Text>Blanca</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_PARAGUAY_4">
+			<Text>Domingo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_PARAGUAY_5">
+			<Text>Alfredo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_PARAGUAY_6">
+			<Text>Andrés</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_PARAGUAY_7">
+			<Text>Lino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_PARAGUAY_8">
+			<Text>Fernando</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_PARAGUAY_9">
+			<Text>Horacio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_PARAGUAY_DESC">
+			<Text>Republic of Paraguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_PARAGUAY_SHORT_DESC">
+			<Text>Paraguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_PARAGUAY_ADJECTIVE">
+			<Text>Paraguayan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_PARAGUAY">
+			<Text>Paraguay</Text>
+		</Row>
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_0">
+			<Text>Asunción</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_2">
+			<Text>Encarnación</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_3">
+			<Text>Piribebuy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_4">
+			<Text>Humaitá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_5">
+			<Text>Ybycuí</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_6">
+			<Text>San Lorenzo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_7">
+			<Text>Luque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_8">
+			<Text>Capiatá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_9">
+			<Text>Lambaré</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_10">
+			<Text>Fernando de la Mora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_11">
+			<Text>Limpio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_12">
+			<Text>Ñemby</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_13">
+			<Text>Curupayty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_14">
+			<Text>Tuyutí</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_15">
+			<Text>Curuzú</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_16">
+			<Text>Potrero Obella</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_17">
+			<Text>Tatayibá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_18">
+			<Text>Cerro Corá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_19">
+			<Text>Villa Elisa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_20">
+			<Text>Caaguazú</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_21">
+			<Text>Hernandarias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_22">
+			<Text>Itauguá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_23">
+			<Text>Concepción</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_24">
+			<Text>Villarrica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_PARAGUAY_25">
+			<Text>Areguá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_SOLANO">
+			<Text>Solano Lopez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_ACA_VERA">
+			<Text>Aca Vera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_UC_ACA_VERA_TEXT">
+			<Text>The Aca Vera cavalry, alongside the Aca Caraya, formed the presidential escort of Francisco Solano Lopez during the War of the Triple Alliance. The Aca Vera were notable for the bronze band across the top of their helmet, from which their name, meaning "Shining Head" in Guarani, arises. The vast majority of the Aca Vera perished in the war, however they inflicted several casualties against enemy forces. The few remaining Aca Veras fought alongside Solano Lopez in his final moments at Cerro Cora.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_ACA_VERA_STRATEGY">
+			<Text>Replaces Cavalry, but does not require [ICON_RES_HORSE] Horses. If built when [ICON_RES_HORSE] Horses are available, this unit receives +15 XP. Ignores enemy ZOC and gains +3 [ICON_STRENGTH] Combat Strength for every enemy it starts adjacent to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_UC_ACA_VERA">
+			<Text>Replaces Cavalry, but does not require [ICON_RES_HORSE] Horses. If built when [ICON_RES_HORSE] Horses are available, this unit receives +15 XP. Ignores enemy ZOC and gains +3 [ICON_STRENGTH] Combat Strength for every enemy it starts adjacent to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UC_FOUNDRY">
+			<Text>Artillery Foundry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_UC_FOUNDRY_TEXT">
+			<Text>Established by President Carlos Antonio López in 1850, as part of a major program of military and state economic expansion, the foundry of Ybycuí (or La Rosada) was well situated to take advantage of local iron deposits and sources of water. It was the only government-sponsored ironworks in South America at the time, and has since become the subject of much scholarly inquiry as a possible example of internally generated industrialization.[NEWLINE][NEWLINE]Work at the foundry was directed by foreign engineers contracted by López. The labor force was made up of convicts, slaves, some free workers, and, after the beginning of the War of the Triple Alliance (1864–1870), by prisoners of war. Operations at the foundry were often hampered by technical difficulties. Nonetheless, it did produce a substantial quantity of iron, much of which was for military use (especially for cannonballs and artillery pieces). This made Ybycuí a prime target during the fighting. In May 1869, it was raided by a roving Uruguayan cavalry unit, and a month afterward, Brazilian demolition teams dynamited what was left of the foundry. It was partially restored in the 1960s and now serves as a historical museum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UC_FOUNDRY_STRATEGY">
+			<Text>Replaces the Forge but does not require [ICON_RES_IRON] Iron, but still provides +1 [ICON_PRODUCTION] Production  on them. +20% [ICON_PRODUCTION] Production towards Siege units instead of a +15% boost towards Land Units. Gain a [ICON_PRODUCTION] Production boost whenever a Strategic resource is improved within 3 tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UC_FOUNDRY_HELP">
+			<Text>Replaces the Forge but does not require [ICON_RES_IRON] Iron, but still provides +1 [ICON_PRODUCTION] Production  on them. +20% [ICON_PRODUCTION] Production towards Siege units instead of a +15% boost towards Land Units. Gain a [ICON_PRODUCTION] Production boost whenever a Strategic resource is improved within 3 tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_SOLANO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_SOLANO_TEXT_1">
+			<Text>Francisco Solano López (24 July 1827 – 1 March 1870) was President of Paraguay from 1862 until his death in 1870. He was the eldest son of Juana Pabla Carrillo and the president Carlos Antonio López, who had left his son a prosperous nation.[NEWLINE][NEWLINE]Francisco Solano López is one of the most controversial figures in Latin American history, particularly because of the Paraguayan War, known in the Plate Basin as "Guerra de la Triple Alianza". From one perspective, his ambitions were the main reason for the outbreak of the war while other arguments maintain he was a fierce champion of the independence of South American nations against foreign rule and interests. He resisted until the very end and was killed in action during the Battle of Cerro Corá, which marked the end of the war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_SOLANO_LIVED">
+			<Text>1827 - 1870</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_UC_PARAGUAY">
+			<Text>Greetings Marshal Francisco Solano Lopez, president of Paraguay and commander of their armies during the War of the Triple Alliance. Your nation had for decades adhered to isolationist policies, focusing on developing Paraguay's industry and economy. The successs of your predecessors, including your father, left you with one of the most advanced nations in South America. Seeking to take advantage of this status, you sought to expand Paraguay's borders, but ulitmately resulted in its destruction. The War of the Triple Alliance led to slaughter of 90% of Paraguayan men, a complete devastation of its infrastructure, and plunged Paraguay into a depths from which it never fully recovered.[NEWLINE][NEWLINE]Marshal, the Paraguayan people are somehow willing to give you another chance to lead them. No idea why to be honest, but why would you refuse? Can you protect Paraguay from enemies attacking from all sides? Can you melt down all the church bells in the nation into cannons? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_SOLANO_NAME">
+			<Text>Solano Lopez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_SOLANO_SUBTITLE">
+			<Text>Leader of Paraguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_SOLANO_TITLES_1">
+			<Text>President of Paraguay (1862 - 1870)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UC_PARAGUAY">
+			<Text>Buildings can be built without strategic resource requirements present or nearby. Can sell buildings to rush the [ICON_PRODUCTION] Production of military units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UC_PARAGUAY_SHORT">
+			<Text>Muero Con Mi Patria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_PARAGUAY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_PARAGUAY_TEXT_1">
+			<Text>Paraguay, officially the Republic of Paraguay, is a landlocked country in central South America, bordered by Argentina to the south and southwest, Brazil to the east and northeast, and Bolivia to the northwest. Paraguay lies on both banks of the Paraguay River, which runs through the center of the country from north to south. Due to its central location in South America, it is sometimes referred to as Corazón de Sudamérica ("Heart of South America"). Paraguay is one of the two landlocked countries (the other is Bolivia) that lie outside Afro-Eurasia. Paraguay is the smallest landlocked country in the Americas.[NEWLINE][NEWLINE]The indigenous Guaraní had been living in Paraguay for at least a millennium before the Spanish conquered the territory in the 16th century. Spanish settlers and Jesuit missions introduced Christianity and Spanish culture to the region. Paraguay was a peripheral colony of the Spanish Empire, with few urban centers and settlers. Following independence from Spain in 1811, Paraguay was ruled by a series of dictators who generally implemented isolationist and protectionist policies.[NEWLINE][NEWLINE]Following the disastrous Paraguayan War (1864–1870), the country lost 60 to 70 percent of its population through war and disease, and about 140,000 square kilometers (54,054 sq mi), one quarter of its territory, to Argentina and Brazil.[NEWLINE][NEWLINE]Through the 20th century, Paraguay continued to endure a succession of authoritarian governments, culminating in the regime of Alfredo Stroessner, who led South America's longest-lived military dictatorship from 1954 to 1989. He was toppled in an internal military coup, and free multi-party elections were organized and held for the first time in 1993. A year later, Paraguay joined Argentina, Brazil and Uruguay to found Mercosur, a regional economic collaborative.[NEWLINE][NEWLINE]As of 2009, Paraguay's population was estimated to be at around 6.5 million, most of whom are concentrated in the southeast region of the country. The capital and largest city is Asunción, of which the metropolitan area is home to nearly a third of Paraguay's population. In contrast to most Latin American nations, Paraguay's indigenous language and culture, Guaraní, remains highly influential. In each census, residents predominantly identify as mestizo, reflecting years of intermarriage among the different ethnic groups. Guaraní is recognized as an official language alongside Spanish, and both languages are widely spoken in the country.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_ACA_VERA">
+			<Text>Till the Very End</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_ACA_VERA_HELP">
+			<Text>Ignores ZOC. Fights with +3 [ICON_STRENGTH] Combat Strength for every enemy it starts adjacent to.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

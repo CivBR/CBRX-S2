@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="90614ab3-338f-4362-b452-6cae66d1f0af" version="4">
+  <Properties>
+    <Name>ⓩ Patria Grande: Gran Colombia Civilization</Name>
+    <Teaser>Adds the [COLOR_YIELD_GOLD]Gran Colombia civilization[ENDCOLOR] with [COLOR_YIELD_GOLD]Simón Bolivar[ENDCOLOR] as its leader!</Teaser>
+    <Description>Adds the [COLOR_YIELD_GOLD]Gran Colombia civilization[ENDCOLOR] with [COLOR_YIELD_GOLD]Simón Bolivar[ENDCOLOR] as its leader!
+[NEWLINE][NEWLINE]
+----------------------------------------------------------------------------------------------
+[NEWLINE][NEWLINE]
+[COLOR_YIELD_GOLD]Civilization Concept:[ENDCOLOR]
+The Gran Colombia was short lived, but Simon Bolivar's legacy to the Americas and the World is undeniable. Simon Bolivar led the Libertadores in South America, and as such, he leads a powerful militaristic and cultural based civilization. The Libertadores are the main part of his unique characteristics, as they provide a huge bonus against cities and can be easily acquired even during peace.
+[NEWLINE][NEWLINE]
+[COLOR_YIELD_GOLD]Main Strengths:[ENDCOLOR] [ICON_GOLDEN_AGE]Golden Ages and [ICON_WAR]War.
+[NEWLINE][NEWLINE]
+----------------------------------------------------------------------------------------------
+[NEWLINE][NEWLINE]
+[COLOR_CITY_BLU]Abilities:[ENDCOLOR]
+[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]UA: The Independence of a Continent: [ENDCOLOR][ICON_OCCUPIED]Occupied cities start with a Courthouse. Liberating a Civilization or a [ICON_CITY_STATE]City-State starts a [ICON_GOLDEN_AGE]Golden Age. Great People may be upgraded to Libertadores, losing the ability of building Citadels.
+[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]UU: Llanero: [ENDCOLOR]The Llanero has a combat bonus on Open terrain, and also transfers its movement to Libertadores, unlike the Lancer which it replaces.
+[NEWLINE][ICON_BULLET][COLOR_YIELD_GOLD]UU: Libertador: [ENDCOLOR]Replacement of the Great General. The Libertador grants a bonus against cities when adjacent to a city. It can also write a political treatise, which generates a big ammount of [ICON_GOLDEN_AGE] Culture.
+[NEWLINE][NEWLINE]
+----------------------------------------------------------------------------------------------
+[NEWLINE][NEWLINE]
+[COLOR_YIELD_GOLD]Included Compatibility:[ENDCOLOR]
+[NEWLINE][ICON_BULLET] JFD's Cultural Diversity.
+[NEWLINE][ICON_BULLET] JFD's Rise to Power.
+[NEWLINE][ICON_BULLET] Sukritact's Events &amp;amp;amp; Decisions
+[NEWLINE][ICON_BULLET] JFD's Cities In Development
+[NEWLINE][ICON_BULLET] Yet (not) Another Earth Map Pack
+[NEWLINE][ICON_BULLET] Ethnic Units
+[NEWLINE][ICON_BULLET] Civ IV Leader Traits in Civ V
+[NEWLINE][ICON_BULLET] Unique Cultural Influence.
+[NEWLINE][NEWLINE]</Description>
+    <Authors>Leugi, Tomatekh</Authors>
+    <SpecialThanks>whoward, Zipa_DH</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Rise to Power" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) another Earth Maps Pack" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d&quot;" minversion="0" maxversion="999" title="Civ IV Traits" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD's Cities in Development" />
+    <Mod id="cae0781c-556f-4c97-8fba-4d6eb612533f" minversion="0" maxversion="999" title="JFD's Cultural Diversity Soundtrack" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="9BACC6FCF76EFA7E10CCFE8F4CACF6B7" import="1">Art/Events/Event_LatinCaudillos.dds</File>
+    <File md5="4BE82AD6EB7B080226B19285C3683472" import="1">Art/Events/Event_LatinDevocion.dds</File>
+    <File md5="02798D4AB3A1E98C3C6B06297874071C" import="1">Art/Events/Event_LatinIndependence.dds</File>
+    <File md5="C698FDB142B3B14CF3C18154AA14F08B" import="1">Art/Events/Event_LatinTriumph.dds</File>
+    <File md5="4358379956FCC724650B4A64F4D367DD" import="1">Art/Events/IdealBackground_JFD_Colonial.dds</File>
+    <File md5="3F4D7014DB94AE2BA3388BDC3F4B1199" import="1">Art/Icons/flag_libertador.dds</File>
+    <File md5="123E116B5CB3C0BBD1E4FCD53A67DBA6" import="1">Art/Icons/flag_llanero.dds</File>
+    <File md5="D3380D75E9A191939262B222F3A4F6BD" import="1">Art/Icons/GranColombiaIcons128.dds</File>
+    <File md5="8EC90D4D4C6DA0143A8D9D1BE4BCE627" import="1">Art/Icons/GranColombiaIcons16.dds</File>
+    <File md5="783A631B284A53BA859099E41ECDB657" import="1">Art/Icons/GranColombiaIcons24.dds</File>
+    <File md5="CC7DEEC48236B630FECD5218E3A309FE" import="1">Art/Icons/GranColombiaIcons256.dds</File>
+    <File md5="402A0BEA636008EF59231A7D65D33037" import="1">Art/Icons/GranColombiaIcons32.dds</File>
+    <File md5="25A4030ED5524C44F10EE280AB385A0F" import="1">Art/Icons/GranColombiaIcons45.dds</File>
+    <File md5="5E3FD5209EE24567A1D62E3AC67F0D7C" import="1">Art/Icons/GranColombiaIcons48.dds</File>
+    <File md5="DABC267D41624DEA743E9B42D37DA5D3" import="1">Art/Icons/GranColombiaIcons64.dds</File>
+    <File md5="53E00F26900F802AEB4EC9CCFCC7D22F" import="1">Art/Icons/GranColombiaIcons80.dds</File>
+    <File md5="12261CFC4689550E60A4B58413BAC456" import="1">Art/Icons/LibertadorAction_45.dds</File>
+    <File md5="D27785F55CDD224F9D3EA2B579914B9E" import="1">Art/Icons/LibertadorAction_64.dds</File>
+    <File md5="65DCA61FDB58BD8487ECF3A4218B2CF7" import="1">Art/Icons/sv_libertador.dds</File>
+    <File md5="3FCB513BAAC9CF93A31DA25E34CC4283" import="1">Art/Icons/sv_llanero.dds</File>
+    <File md5="9307D13C5F082C92ECE1190A44F89C65" import="1">Art/Models/independist.dds</File>
+    <File md5="FE7666ECDC2A1FDD80F349FCC9330E2F" import="1">Art/Models/independist.fxsxml</File>
+    <File md5="E49AF6F43740D4418BFA20030DC3F3BB" import="1">Art/Models/independist.gr2</File>
+    <File md5="265FCEB3E3AF30BD8632A237868F631F" import="1">Art/Models/independist_sref.dds</File>
+    <File md5="8D187DDE531DE97416B8AEBDD4D6B9B8" import="1">Art/Models/Llanero.dds</File>
+    <File md5="2295F752239D49657EE6165CEC8DE582" import="1">Art/Models/Llanero.fxsxml</File>
+    <File md5="70C46E0708A978FDE9BDDCC7FAD1B81F" import="1">Art/Models/Llanero.gr2</File>
+    <File md5="C52348B54F94859816323E6B2352117C" import="1">Art/Models/Llanero_gloss.dds</File>
+    <File md5="EF22E34CAE3CAD8F98198D4BE0EBBBB6" import="1">Art/Models/Llanero_Horse.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Models/no_gloss.dds</File>
+    <File md5="C08A0B3FACB485AC4E426EFAE926650B" import="1">Art/Music/BolivarPeace.mp3</File>
+    <File md5="70710DEAEF9BCEC949FF104C981454AE" import="1">Art/Music/BolivarWar.mp3</File>
+    <File md5="09C0576F85176400504DFFC5F3ED8341" import="1">Art/Other/Bolivar.dds</File>
+    <File md5="D9BD81E8E1519EAAA670C947CDBD8E62" import="1">Art/Other/DOM_Bolivar.dds</File>
+    <File md5="2F0C4710238D8CA3960854408980944B" import="1">Art/Other/Bolivar_Scene.xml</File>
+    <File md5="022D1A6CF2EE79FE43F6DE47AAACD169" import="1">Art/Other/Map_Colombia.dds</File>
+    <File md5="101133C91938AEAF9228249D52D59846" import="0">Lua/ColombiaScripts.lua</File>
+    <File md5="8C7D67EE3BFB40261E498F6B5EB581C9" import="1">Lua/Decisions_GranColombia.lua</File>
+    <File md5="4E94CBC1431A3AAE8BE396DA8CFCA67B" import="1">Lua/LatinAmericanEvents.lua</File>
+    <File md5="E0BFBC6BB5ABA114482D93E549F60E85" import="1">Lua/Utils/Leugi_GranColombia_Utils.lua</File>
+    <File md5="BD0F1912CFB86034BC03AF82A3A837DB" import="1">Lua/Utils/Leugi_Trait_FreePolicies.lua</File>
+    <File md5="E494CFFC4EC5C61537F9B79D4CEE7C2E" import="0">sql/ArtDefines_GranColombia.sql</File>
+    <File md5="8471954979D220DE6C903D9776ABD28B" import="0">sql/Civilization_GranColombia.sql</File>
+    <File md5="1F340E9DF8F3560DD966A9A6C4FF12BE" import="0">sql/Events_LatinAmerica.sql</File>
+    <File md5="77E757EAD7A741D450A67FEDBC260DAB" import="0">sql/LeaderDiplo_GranColombia.sql</File>
+    <File md5="7BB352717F87583F6ADC57A0765B9350" import="0">sql/Leader_GranColombia.sql</File>
+    <File md5="D918E47A36A52E1C6B83167C0E1D6CBE" import="0">sql/ModSupport_GranColombia.sql</File>
+    <File md5="0ABB156C43DD5B2FD492D60246EDD2C9" import="0">sql/Policies_GranColombia.sql</File>
+    <File md5="602BB4793151A0422F03EAD887A827C1" import="0">sql/Trait_GranColombia.sql</File>
+    <File md5="FA38E311575B0636AAC59D2AEAB2C281" import="0">sql/Units_GranColombia.sql</File>
+    <File md5="19935C769216E9BDC726E89B06DDFB66" import="0">UI/LibertadorAction.lua</File>
+    <File md5="8F32B56FF722C2D388F1D3410CE345C5" import="1">UI/LibertadorAction.xml</File>
+    <File md5="C28DEF059585C2145549AA2DB0D9D08D" import="0">xml/CityStates_GranColombia.xml</File>
+    <File md5="895907DC8819DE9FCC520EFD62F88340" import="0">xml/Decisions_GranColombia.xml</File>
+    <File md5="5F053709B0870CEAC041EF7159F012B8" import="0">xml/Diplomacy_GranColombia.xml</File>
+    <File md5="E3091AF44EFA617FEA4FF10418C63DC2" import="0">xml/Events_LatinAmerica.xml</File>
+    <File md5="630B9F3919494ECB92F284DF417EDDB5" import="0">xml/Names_GranColombia.xml</File>
+    <File md5="DDB44B97B5E052540373292DF88F1012" import="0">xml/Pedias_GranColombia.xml</File>
+    <File md5="341F78D02B8B62A5E4B9D0DFFA1CF8AB" import="0">xml/Text_GranColombia.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>sql/ArtDefines_GranColombia.sql</UpdateDatabase>
+      <UpdateDatabase>sql/Civilization_GranColombia.sql</UpdateDatabase>
+      <UpdateDatabase>sql/Leader_GranColombia.sql</UpdateDatabase>
+      <UpdateDatabase>sql/LeaderDiplo_GranColombia.sql</UpdateDatabase>
+      <UpdateDatabase>sql/ModSupport_GranColombia.sql</UpdateDatabase>
+      <UpdateDatabase>sql/Policies_GranColombia.sql</UpdateDatabase>
+      <UpdateDatabase>sql/Trait_GranColombia.sql</UpdateDatabase>
+      <UpdateDatabase>sql/Units_GranColombia.sql</UpdateDatabase>
+      <UpdateDatabase>xml/CityStates_GranColombia.xml</UpdateDatabase>
+      <UpdateDatabase>xml/Decisions_GranColombia.xml</UpdateDatabase>
+      <UpdateDatabase>xml/Diplomacy_GranColombia.xml</UpdateDatabase>
+      <UpdateDatabase>xml/Pedias_GranColombia.xml</UpdateDatabase>
+      <UpdateDatabase>xml/Text_GranColombia.xml</UpdateDatabase>
+      <UpdateDatabase>xml/Names_GranColombia.xml</UpdateDatabase>
+      <UpdateDatabase>xml/Events_LatinAmerica.xml</UpdateDatabase>
+      <UpdateDatabase>sql/Events_LatinAmerica.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/ColombiaScripts.lua">
+      <Name>Colombia Scripts</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="UI/LibertadorAction.lua">
+      <Name>Libertador Action</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

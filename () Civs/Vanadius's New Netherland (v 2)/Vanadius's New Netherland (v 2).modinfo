@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="38d8fc8c-4e73-4598-947b-0acedb72ebc9" version="2">
+  <Properties>
+    <Name>Vanadius's New Netherland</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the New Netherland Colony to Civilization 5</Teaser>
+    <Description>Adds the New Netherland Colony to Civilization 5</Description>
+    <Authors>Vanadius</Authors>
+    <SpecialThanks>BanthaFood</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="C20B31E5057FB46E3F9FC7529ADE6571" import="1">Art/Atlas/NNAlpha24.dds</File>
+    <File md5="5849C84CABFEAF42A1B0619AE6F29A51" import="1">Art/Atlas/NNAlpha32.dds</File>
+    <File md5="8330F938DE276B754F4DFC9A7224BA80" import="1">Art/Atlas/NNAlpha48.dds</File>
+    <File md5="137C4C2E201E74732761A81492B9BBA0" import="1">Art/Atlas/NNAlpha64.dds</File>
+    <File md5="AA201826288712DA326A0046B720041E" import="1">Art/Atlas/NNAtlas128.dds</File>
+    <File md5="425D2655E20F102632BFFF942BB33ED8" import="1">Art/Atlas/NNAtlas256.dds</File>
+    <File md5="7CEE51400C60BA3CD7773CBC0B4D012B" import="1">Art/Atlas/NNAtlas32.dds</File>
+    <File md5="C0C2249C3D9EEA0215C7C98753B77288" import="1">Art/Atlas/NNAtlas45.dds</File>
+    <File md5="4F6DE8AA780E3784143BAFBB1A77B905" import="1">Art/Atlas/NNAtlas64.dds</File>
+    <File md5="F26408F2EFA770FDA6DD58792E17953E" import="1">Art/Atlas/NNAtlas80.dds</File>
+    <File md5="32F28C6BF9501311EE81D6E5F9F92F8C" import="1">Art/NNDOM.dds</File>
+    <File md5="04CD2C371362B02E32D5E7CD1D2EA98C" import="1">Art/NNMapSmall.dds</File>
+    <File md5="C1E31957BA46FF254846B6E30B1FFD41" import="1">Art/Stuyvesant_Scene.xml</File>
+    <File md5="05CCE70F2F41240DB134F717A0D87FA7" import="1">Art/Stuyvesant_Diplo.dds</File>
+    <File md5="BE13AAABA6ADF3D6BBD4C0C7E74995B0" import="1">Art/Unit/landsknecht_musket_a.fxsxml</File>
+    <File md5="E35D47160A14C7CB836554C78D7E4C2F" import="1">Art/Unit/landsknecht_musket_a.gr2</File>
+    <File md5="A46ECF0ED5D09BF60FB18C2256970125" import="1">Art/Unit/landsknecht_musket_b.fxsxml</File>
+    <File md5="913B1B54EDD19872B5300CB364174863" import="1">Art/Unit/landsknecht_musket_b.gr2</File>
+    <File md5="13AFF5082E850213CEED1228BE4169A4" import="1">Art/Unit/SchutterijAlpha.dds</File>
+    <File md5="8E49D4E0DA2C994F9EDFA6494AA1D3EF" import="0">Core/ArtDefines.sql</File>
+    <File md5="9DEF792BFBD36F00B6881C50AF4B3F2A" import="0">Core/NN_Text_Diplo.xml</File>
+    <File md5="F77D852C708D7A6D54163E03F48EF0D7" import="0">Core/GameDefines.sql</File>
+    <File md5="1198BC3C0760DC2BB5327824FB5596A9" import="0">Core/NN_Text.xml</File>
+    <File md5="4C08C4CF9F4611589A0A80862CBB486B" import="0">Core/Schutterij.xml</File>
+    <File md5="AC2D2FED33960946829B7239AEF78F7C" import="0">Lua/LuaFunctions.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/PlotIterators.lua</File>
+    <File md5="397899D65836CCF320C7C09BFC462305" import="0">Lua/Unit.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/NN_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Schutterij.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/NN_Text_Diplo.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Unit.lua">
+      <Name>Unit</Name>
+      <Description>Unit</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/LuaFunctions.lua">
+      <Name>Lua Functions</Name>
+      <Description>lua</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

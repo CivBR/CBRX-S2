@@ -1,0 +1,250 @@
+﻿<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_01">
+			<Text>Camutins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_02">
+			<Text>Bichos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_03">
+			<Text>Pacoval</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_04">
+			<Text>Sanharão</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_05">
+			<Text>Matinados</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_06">
+			<Text>Tapera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_07">
+			<Text>China</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_08">
+			<Text>Curuxis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_09">
+			<Text>Severino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_10">
+			<Text>Cajueiros</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_11">
+			<Text>Nazaré</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_12">
+			<Text>Pacoval de Arari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_13">
+			<Text>Taperebá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_14">
+			<Text>Santa Brígida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_15">
+			<Text>Caratateua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_16">
+			<Text>Laranjeiras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_17">
+			<Text>Tapera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_18">
+			<Text>Ilha de Fogo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_19">
+			<Text>Marcos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_20">
+			<Text>Pacoval do Cururu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_21">
+			<Text>Monte Carmelo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_22">
+			<Text>Desterro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_23">
+			<Text>Santa Luzia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_24">
+			<Text>Macacão</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_25">
+			<Text>Casinhas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_26">
+			<Text>Diamatina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_MARAJO_27">
+			<Text>Fortaleza</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MARAJO_0">
+			<Text>Abá</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MARAJO_1">
+			<Text>Sanapu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MARAJO_2">
+			<Text>Sidja</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MARAJO_3">
+			<Text>Kunhaporanga</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MARAJO_4">
+			<Text>Iakaré</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MARAJO_5">
+			<Text>Morubixaba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MARAJO_6">
+			<Text>Siri</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MARAJO_7">
+			<Text>Peró</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MARAJO_8">
+			<Text>Arara</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_MARAJO_9">
+			<Text>Kunha</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+		<!--Demonyms-->
+		<Row Tag="TXT_KEY_CIV_SENSHI_MARAJO_ADJECTIVE">
+			<Text>Marajoara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_MARAJO_DESC">
+			<Text>The Marajoara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_MARAJO_SHORT_DESC">
+			<Text>The Marajoara</Text>
+		</Row>
+
+		<!--DoM-->
+		<Row Tag="TXT_KEY_CIV5_DOM_SENSHI_MARAJO_TEXT">
+			<Text>O great leader, may the gods smile upon you and your people! You are of the culture they now call Marajoara, a grand society that flourished at the mouth of the mighty Amazon River. The Marajoara were a culture of builders - far from the nomadic hunter-gatherers lifestyle of your neighbours, your people constructed great mounds, farmed many crops, and harvested fish in masses. So great were the achievements of your culture that explorers and archaeologists stumbling across your remains could hardly believe such a state could exist![NEWLINE][NEWLINE]Great leader, it is time for you to return, time to build the tesos up once more. Will you and your people stand strong as you did in ancient times? Will you build a civilization to stand the test of time?</Text>
+		</Row>
+
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MARAJO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MARAJO_TEXT_1">
+			<Text>Known since the nineteenth century for its elaborate polychrome funerary pottery and numerous monumental earthen mounds, the Marajoara culture at the mouth of the Amazon in Brazil was attributed by early professional archaeologists to an invasion from the Andes, because the tropical forest was considered to be too poor to support large human populations and complex cultures. However, the habitat of the Marajoara is not terra firme (upland) tropical forest lowland but floodplain, so the influence of the habitat need not have been as limiting as assumed earlier. The culture has now been dated with twenty-four radiocarbon dates, and these reveal that the culture is earlier than related Andean cultures, and the physical anthropology of the people affiliates them with Amazonian populations, rather than Andeans. Thus, Marajoara now must be presumed a local development of the tropical lowlands. The Marajoara mounds had been characterized by earlier archaeologists as purely ceremonial, but recent geophysical surveys and excavations show them to be large platforms for entire villages of earth, pole, and thatch longhouses with adjacent cemeteries and garbage dumps. The fishbones, seeds, and tools of exotic rocks in the mounds indicate a mixed economy of fishing, gathering, trade, and horticulture, and several carbonized maize specimens were recovered in the excavations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MARAJO_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MARAJO_TEXT_2">
+			<Text>The northeast coastline of Marajó faces the Atlantic Ocean. The outflow from the Amazon between January and July is so great that the sea at the mouth is made up of freshwater for some distance from shore. The city of Belém lies to the south across the southern fork (also called the Pará River) of the river's mouth. The island sits almost directly on the equator. Together with smaller neighboring islands, separated from Marajó by rivers, it forms the Marajó Archipelago, with an aggregate area of 49,602 square kilometres. The archipelago is contained in the 59,985 square kilometres Marajó Archipelago Environmental Protection Area, a sustainable-use conservation unit established in 1989 to protect the environment of the delta region. Large parts of the islands are flooded during the rainy season because of higher water levels of the Amazon River along the coast and heavy rainfall in the interior. Marajó is almost entirely flat. During the rainy season, much of the island becomes flooded as a large lake. The island is known for the pororoca, a tidal bore phenomenon in the river that creates large waves reaching 4 m in height. It is a tourist destination, especially for surfing of the bore.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MARAJO_HEADING_3">
+			<Text>Background</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MARAJO_TEXT_3">
+			<Text>
+				Archeologists have found sophisticated pottery in their excavations on the island. These pieces are large, and elaborately painted and incised with representations of plants and animals. These provided the first evidence that a complex society had existed on Marajó. Evidence of mound building further suggests that well-populated, complex and sophisticated settlements developed on this island, as only such settlements were believed capable of such extended projects as major earthworks.
+				[NEWLINE][NEWLINE]The extent, level of complexity, and resource interactions of the Marajoara culture have been disputed. Working in the 1950s in some of her earliest research, American Betty Meggers suggested that the society migrated from the Andes and settled on the island. Many researchers believed that the Andes were populated by Paleoindian migrants from North America who gradually moved south after being hunters on the plains.
+				[NEWLINE][NEWLINE]In the 1980s, another American archeologist, Anna Curtenius Roosevelt, led excavations and geophysical surveys of the mound Teso dos Bichos. She concluded that the society that constructed the mounds originated on the island itself.
+				[NEWLINE][NEWLINE]The pre-Columbian culture of Marajó may have developed social stratification and supported a population as large as 100,000 people.The Native Americans of the Amazon rain forest may have used their method of developing and working in Terra preta to make the land suitable for the large-scale agriculture needed to support large populations and complex social formations such as chiefdoms.
+				[NEWLINE][NEWLINE]There is also controversy over whether the tesos are manmade or repurposed natural structures, although the general consensus nowadays is that these structures were built with specific purposes in mind.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MARAJO_HEADING_4">
+			<Text>Agriculture and Economy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MARAJO_TEXT_4">
+			<Text>
+				Plant remains on Marajo Island show a subsistence pattern that relied heavily on small seed crops, as well as small fish, which were either cultivated or protected by indigenous peoples. Many of the carbonized seed remains have not yet been identified, though they seem to be herbaceous and derived from local grasses. Trees such as the açaí and tucuma palms also provided important supplements in the Marajo diet, as well being used for manufacturing items such as baskets or canoes. Evidence from human remains show that Marajo peoples limited their consumption of starchy root crops like manioc; rather, the heavy wear patterns of teeth suggest a diet based predominantly on seed crops, tree fruits, and fish. Since small fish make up the majority of biomass fauna and there are relatively few terrestrial animals, it follows that pre-historic peoples focused on the abundant populations of small fish. The method for catching fish was likely very similar to present-day techniques, which involves stunning fish with the poisonous liana plant and collecting them as they float to the surface. This method of mass harvesting is not as useful in the rainy season as it is during the dry months when fish are trapped in receding streams or ponds.
+				[NEWLINE][NEWLINE]The agricultural technology at Marajo is limited to, primarily, stone axes that were introduced in the Marajoara Phase. Other stone artifacts include griddles found at Teso Dos Bichos during Roosevelt’s excavations, although these are very rare. Their rarity is another marker of the absence of root crops from the diet at Marajo.
+				[NEWLINE][NEWLINE]Earthen mounds, unlike lithic artifacts, are abundant. They were used for cemetery purposes as well as for habitation, as the low-lying areas are prone to flooding in the rainy season. Mounds may have served a defensive purpose too. Pre-historic peoples of Marajo Island may have also constructed ramps, canals, ponds, and drained fields found near earthworks mounds, but most of the evidence has likely been buried by sediment in seasonal floods.
+				[NEWLINE][NEWLINE]Evidence for trade networks at Marajo is found mostly in lithics, because the island has no local source of suitable igneous or metamorphic rock. None of the lithic artifacts have been sourced, although they are primarily made from a green, microcrystalline mafic rock. Such greenstones are typically more associated with Mesoamerica, a possible point of origin for Marajo’s imported stone.
+				[NEWLINE][NEWLINE]An increased complexity of ceremonial wares and uniformity of utilitarian wares occurred with the Marajoara phase, suggesting ceramic manufacture became a specialized industry at this time. Sometime into the Marajoara phase, however, there was a decline in characteristics that indicate specialization of ceramics.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MARAJO_HEADING_5">
+			<Text>Phases and the End</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_MARAJO_TEXT_5">
+			<Text>Society in Marajó has traditionally been divided in several phases. Their apogee, where most of what remains of them was produced, was the fourth phase, also known as the Marajoara phase. This lasted until shortly before European colonization. The tesos were abandoned and their elaborate ceramics stopped being made, while the population dropped drastically for reasons unknown. The remaining Marajoara, now known as Aruan, proved themselves troublesome for the invading Portuguese and made alliances with Dutch and British colonizers, but were ultimately wiped out, in large part due to foreign diseases.</Text>
+		</Row>
+		
+		<!--Leader-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_MARAJO_LIVED">
+			<Text>N/A</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_MARAJO_NAME">
+			<Text>P'küee</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_MARAJO_SUBTITLE">
+			<Text>Leader of the Marajoara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_MARAJO">
+			<Text>P'küee</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_MARAJO_TITLES_1">
+			<Text>Leader of the Marajoara</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_MARAJO_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_MARAJO_TEXT_1">
+			<Text>While very little is known about the Marajoara, there are records of one real leader they had, Cacique Piyé Mapuá, who led their resistance against Portuguese colonizers during the seventeenth century. However, since this mod is mainly based on the Marajoara phase of their culture, a stand-in leader from the period was chosen, more representative of the distinguishing aspects of their culture. The name P’Küee stands for ‘head’, being the closest thing to a title of leadership in the few words known in their language. Women are featured predominantly in Marajoara art, where they are portrayed as shamans and founders of lineages, leading researchers to theorise the Marajoara culture was matrilineal.</Text>
+		</Row>
+
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_MARAJO_SHORT">
+			<Text>Terra Preta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_MARAJO">
+			<Text>Cities and Great Person Improvements with access to Fresh Water spread it to adjacent tiles. Receive a free Teso in the Capital upon founding a City with access to Fresh Water.</Text>
+		</Row>
+
+		<!--Unique Units-->
+		<Row Tag="TXT_KEY_UNIT_SENSHI_SNAKECANOE">
+			<Text>Snake-Canoe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_SNAKECANOE_STRATEGY">
+			<Text>Unique Marajoara replacement for the Galleass. The Snake-Canoe begins with the Bombardment I Promotion, and drains HP from adjacent enemy units at the beginning of your turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_SNAKECANOE_HELP">
+			<Text>Unique Marajoara replacement for the Galleass. The Snake-Canoe begins with the Bombardment I Promotion, and drains HP from adjacent enemy units at the beginning of your turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNIT_SENSHI_SNAKECANOE_TEXT">
+			<Text></Text>
+		</Row>
+
+		<!--Unique Buildings-->
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_TESO">
+			<Text>Teso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_TESO_STRATEGY">
+			<Text>Unique Marajoara replacement for the Shrine, which costs no maintenance. The Teso additionally provides +5 City Health and carries over +2% of Food when a new Citizen is born. Once per Era, Cities may construct another Teso.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_TESO_HELP">
+			<Text>Unique Marajoara replacement for the Shrine, which costs no maintenance. The Teso additionally provides +5 City Health and carries over +2% of Food when a new Citizen is born. Once per Era, Cities may construct another Teso.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_SENSHI_TESO_TEXT">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_FEATURE_SENSHI_MARAJO_FRESHWATER">
+			<Text>Fresh Water</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_SENSHI_MARAJO_FRESHWATER_TEXT">
+			<Text>Fresh Water the Marajoara can spread with cities and improvements.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

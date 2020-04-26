@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/9/2020 11:56:36 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_SAS_TONGVA_ADJECTIVE">
+			<Text>Tongva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SAS_TONGVA_DESC">
+			<Text>Tongva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_SAS_TONGVA_TEXT">
+			<Text>May your strength be with you, fearless Toypurina! Growing up in a world rapidly changing at the merciless hands of the Spanish, you saw firsthand the tyranny they imposed upon the Tongva, and the threat they posed to your very culture. When the Spaniards overstepped their bounds one too many times, your people came to you for help. They respected your great power and knowledge, and you used that influence to unite 6 independent villages under the banner of your cause -- a revolt against the Mission authorities. However, the plot was betrayed and your fellow rebels were ambushed on the eve of the attack. Given a show trial by your tormentors to discredit you as a witch and seductress, it seemed that truth and justice were to be buried with you, but your story's survived through the generations as a rallying cry for your people. Your bravery and defiance inspires not only the Tongva, but women, indigenous peoples, and honest people the world over even today.[NEWLINE][NEWLINE]Oh, Toypurina, your people are in need of guidance once more. Can you again unify a nation under your banner, and preserve its prosperity from those who would exploit it? Shall you take up arms against the wicked? Can you build a civilization to stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SAS_TONGVA_SHORT_DESC">
+			<Text>The Tongva</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SAS_TONGVA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SAS_TONGVA_TEXT_1">
+			<Text>The Tongva are a Native American people of Southern California. They historically inhabited the Los Angeles Basin and the Southern Channel Islands, an area covering approximately 4,000 square miles (10,000 km2). The Tongva are also known as the Gabrieleño and Fernandeño people, names derived from the Spanish missions built on their territory: Mission San Gabriel Arcángel and Mission San Fernando Rey de España. Along with the neighboring Chumash, the Tongva were the most powerful indigenous people to inhabit Southern California. At the time of European contact, they may have numbered 5,000 to 10,000.[NEWLINE][NEWLINE]Many lines of evidence suggest that the Tongva are descended from Uto-Aztecan-speaking peoples who originated in what is now Nevada and moved southwest into coastal Southern California 3,500 years ago. These migrants either absorbed or pushed out the Hokan-speaking peoples in the region. By 500 AD, the Tongva had come to occupy all the lands now associated with them. A hunter-gatherer society, the Tongva traded widely with neighboring peoples. Over time, scattered communities came to speak distinct dialects of the Tongva language, part of the Takic subgroup of the Uto-Aztecan language family. There may have been five or more such dialects (three on the southernmost Channel Islands and at least two on the mainland). The Tongva language became extinct in the twentieth century, but a reconstructed form continues to be spoken today.[NEWLINE][NEWLINE]Initial Spanish exploration of the Los Angeles area occurred in 1542, but sustained contact with the Tongva came only after Mission San Gabriel Arcángel was constructed in 1771. This marked the beginning of an era of forced relocation and exposure to Old World diseases, leading to the rapid collapse of the Tongva population because of high mortality from the diseases. At times the Tongva violently resisted Spanish rule, such as the 1785 rebellion led by Toypurina. In 1821, Mexico gained its independence from Spain and the government sold mission lands to ranchers, forcing the Tongva to culturally assimilate. Three decades later, California was ceded to the United States following its success in the Mexican-American War. Although a California Senate Bill of 2008 asserts that the US government signed treaties with the Tongva, promising 8.5 million acres (3,400,000 ha) of land for reservations, and that these treaties were never ratified, a paper published in 1972 by R.F. Heiser of Stanford University shows that the eighteen treaties made between April 29, 1851, and August 22, 1852 were negotiated with persons who were not representing any actual "tribes", and that none of these persons had authority to cede lands that belonged to the Indians. By the turn of the 20th century, the Island Tongva had disappeared and the mainland communities were also nearing extinction.[NEWLINE][NEWLINE]The endonym Tongva was recorded by American ethnographer C. Hart Merriam in 1903 and has been widely adopted by scholars and descendants. Today, certain groups prefer the term "Kizh", which was the first-recorded endonym of the group but discounted by later anthropologists.</Text>
+		</Row>
+		<!--Leader-->
+		<Row Tag="TXT_KEY_LEADER_SAS_TOYPURINA">
+			<Text>Toypurina</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAS_TOYPURINA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAS_TOYPURINA_TEXT_1">
+			<Text>Toypurina was a Medicine woman of the Tongva nation; a nation also known as the Gabrieliño, due to their association with the Spanish mission San Gabriel, or the Kizh. She is famous for her opposition of the colonial rule by Spanish Missionaries in California, and for her part in the planned 1785 rebellion against the mission San Gabriel, where she recruited 6 of the 8 villages which participated in the attack.[NEWLINE][NEWLINE]The causes of the San Gabriel rebellion were complex. The rebellion originated from both the Tongva people's frustration at the Spanish mission's imposition on their traditional territory, as well as their oppressive rule over the Tongva's culture, language, labor, and sexual life, and the dissatisfaction and anger of the Neophytes due to both poor treatment at the hands of the Spanish, and legal suppression of their culture and ceremonies. The tangible threat imposed by the Spanish colonies to the Tongva nation's territorial boundaries and settlements was a primary factor for growing anger among the Tongva. There was also a rapid growth in the population of new Neophytes at Mission San Gabriel, some of whom were from villages who had had previous conflicts with the Tongva. Their presence, along with the rapid increase in livestock numbers in the area which increased pressure on the Tongva's ability to survive off their land, created further tension and resentment of the Mission. Tensions and resentment rose further, however, when in 1782, the Spanish governor ordered soldiers inside the missions to never allow baptized Indigenous people to have dances in their villages. In the fall, the season of the rebellion, the Tongva held their annual Mourning Ceremony, a culmination of a series of death rituals, and through its performance the souls of the deceased achieved release from the earth and entrance into the land of the dead. By the end of October 1785, Nicolás José, a Neophyte and key figure in the 1785 rebellion, mourning the loss of a son and frustrated by the ceremony's ban, among others at the Mission, concluded that the ban on dances was intolerable and that it jeopardized the repose of their dead relative's spirits.[NEWLINE][NEWLINE]Nicolás José approached Toypurina, who was widely renowned as a wise and talented Medicine person and whose brother was the head of her village-a kinship connection which was another likely reason for José coming to ask for her aid. José reportedly gave her beads, as for Tongva people it is customary to give a gift to doctors in return for their services, in exchange for her calling together a meeting of unbaptized Indigenous peoples from the area. Toypurina agreed, and went on to contact leaders of other villages to convince them to join the revolt.[NEWLINE][NEWLINE]On the night of the attack, the men involved in the attack went to the mission armed with bows and arrows, Toypurina coming along unarmed with the intention of encouraging the men's will to fight. However, someone had betrayed the Tongva to the Mission guards, and the participants and ringleaders, Toypurina included, were captured. Spanish officials sentenced five of the attack's participants to twenty-five lashes, and another twelve to fifteen or twenty lashes. The punishments were carried out in public as a warning and lesson to all members of the mission. Toypurina, Nicolás José and two other leaders of the rebellion, Chief Tomasajaquichi of Juvit village and a man named Alijivit, from nearby village of Jajamovit, were put on trial.[NEWLINE][NEWLINE]When questioned about the attack, Toypurina is famously quoted in as saying that she participated in the instigation because "[she hated] the padres and all of you, for living here on my native soil, for trespassing upon the land of my forefathers and despoiling our tribal domains... I came [to the mission] to inspire the dirty cowards to fight, and not to quail at the sight of Spanish sticks that spit fire and death, nor [to] retch at the evil smell of gunsmoke - and be done with you white invaders!" This quote, from Thomas Workman Temple II's article "Toypurina the Witch and the Indian Uprising at San Gabriel" is arguably a mistranslation and embellishment of her actual testimony. According to the soldier who recorded her words, she stated simply that she "was angry with the Padres and the others of the Mission, because they had come to live and establish themselves in her land." Spanish officials found her and the three other men on trial to be guilty of leading the attack. The three men were held at the prison (presidio) in San Diego, and Toypurina was imprisoned at the prison in San Gabriel while they awaited word of their punishment. In June 1788, nearly three years later, their sentences arrived from Mexico City: Nicolás José was banned from San Gabriel and sentenced to six years of hard labour in irons at the most distant penitentiary in the region. Toypurina was banished from Mission San Gabriel and sent to the most distant Spanish mission.[NEWLINE][NEWLINE]According to trial records, Toypurina was forcibly coerced into being baptized in 1787 at Mission San Gabriel. Shortly after, she was moved to Mission San Carlos Borromeo. Two years after her Baptism, she was divorced from her native husband and married to a Spaniard and soldier named Mañuel Montero, who had been serving at el Pueblo de Los Angeles, and received a tract of land from the governor. They lived in Monterey and had 3 children together (Cesario, Juana de Dios, and Maria Clementina). There is debate between scholars over whether her marriage to this soldier was a sign of her accepting Spanish religion and ways of life, something forced by the Spanish to break her spirit, or whether the marriage was one of convenience; Toypurina seeking marriage as a way to protect herself from the often harsh conditions of Spanish missions. On May 22, 1799, Toypurina died at Mission San Juan Bautista in northern Alta California at age 39. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAS_TOYPURINA_LIVED">
+			<Text>1760 - 1799 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAS_TOYPURINA_NAME">
+			<Text>Toypurina</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAS_TOYPURINA_SUBTITLE">
+			<Text>Leader of The Tongva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SAS_TOYPURINA_TITLES_1">
+			<Text>Medicine Woman</Text>
+		</Row>
+		<!--Trait-->
+		<Row Tag="TXT_KEY_TRAIT_SAS_TOVANGAR_SHORT">
+			<Text>Továngar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SAS_TOVANGAR">
+			<Text>Acquiring Coast tiles provides a boost of [ICON_CULTURE] Culture, increased in cities on a landmass away from your Capital. Completing a Social Policy tree starts a We Love The King Day in all cities.</Text>
+		</Row>
+		<!--Ti'at-->
+		<Row Tag="TXT_KEY_UNIT_SAS_TIAT">
+			<Text>Ti'at</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SAS_TIAT_HELP">
+			<Text>Unique Scout for The Tongva. Costs more than the unit it replaces, but can embark immediately with +1 Sight and extra [ICON_STRENGTH] Strength. Additionally, it can settle cities when on landmasses away from your Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SAS_TIAT_STRATEGY">
+			<Text>Tongva's unique unit, replacing the Scout. Costs more, but can embark immediately with extra Sight and Strength, making it better at discovering islands upon which it can settle cities. Note that it still cannot cross Ocean tiles until Astronomy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SAS_TIAT_TEXT">
+			<Text>Ti'ats are plank-built boats, historically and currently used by the Tongva and Chumash (who called it Tomol) tribes of Native Americans. Ti'ats and Tomols can range from 8 to 30 feet in length, capable of holding a large number of paddlers and cargo. Ti'ats were preferably built out of redwood that had drifted down the coast, but when supplies of redwood were lacking, local native pine was used. When splitting the wood the crafters would seek straight planks without knotholes, then sand them with sharkskin. To bind the wood together, small holes were drilled in the planks so they could be lashed to one another. Finally, the seams were caulked with 'yop', a mixture of hard tar and pine pitch melted and then boiled. Red paint and shell mosaics were often added as decorations. Tiats were propelled with kayak-like paddles with the user in a crouching position, unlike kayaks where sitting is the norm. They were highly maneuverable, and quite capable of oceanic travel. The Tongva used them to paddle to the Southern Channel Islands through long-established routes, fostering trade of exotic and vital resources (such as Steatite, which was quarried on Catalina) between the independent islander and mainland villages, and even further to other tribes along the Pacific coast. Tongva goods, like shell jewelery, have been found in pre-colonial settlements as far east as the Hopi in New Mexico, exemplifying the range of pre-Columbian trade routes.</Text>
+		</Row>
+		<!--Kihay-->
+		<Row Tag="TXT_KEY_BUILDING_SAS_KIHAY">
+			<Text>Kihay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SAS_KIHAY_PEDIA">
+			<Text>The Tongva lived in villages of extended family members that numbered from 50 to 100 individuals. The families lived in thatched huts called Kihays (also Ki, Ki'sh, or Kizh), which were framed using willow branches or whale bones and then covered in tightly woven rushes or animal skins. A kihay housed anywhere from a single family to as many as 50 people. Father Antonio de la Ascensión, a passenger on the 1602 Spanish ship of explorer Sebastian Vizcaíno, who named Santa Catalina Island, reported that these mats were so densely woven that "…neither rain nor the sun penetrates them." The Tongva were resourceful and manufactured goods from a variety of natural materials. They used rushes to create water bottles, tarred on the inside with asphaltum to prevent leaking. Baskets, mats, and skirts were woven from local plants and grasses. They made tools, weapons, jewelry and instruments from shells, stones and bones. Clay and minerals were used to create paints and dyes. Ingenious in their use of natural resources, the Tongva developed an effective food system utilizing the local flora and fauna. Men were responsible for hunting and fishing, while the women gathered seeds, nuts, roots, berries, acorns, mushrooms and other items. They judiciously managed the distribution of supplies, even to the point of banishing or executing a chief found guilty of mismanagement. To minimize any privileges for successful hunters and fishermen, these game gatherers were discouraged from eating their own kill. Rather, they were urged to contribute their catch to a communal supply.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SAS_KIHAY_STRATEGY">
+			<Text>Tongva's unique Lighthouse that costs no [ICON_GOLD] Maintenance and can be built in any city. It also provides +1 of a specific yield based upon what pre-Medieval Social Policies have been taken, doubled to +2 during We Love The King Day.[NEWLINE][NEWLINE]Tradition: [ICON_FOOD] Food[NEWLINE]Liberty: [ICON_PRODUCTION] Production[NEWLINE]Honor: [ICON_GOLD] Gold[NEWLINE]Piety: [ICON_PEACE] Faith[NEWLINE]Patronage: [ICON_RESEARCH] Science[NEWLINE]Aesthetics: [ICON_CULTURE] Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SAS_KIHAY_HELP">
+			<Text>Replacing the Lighthouse for The Tongva, the Kihay costs no [ICON_GOLD] Maintenance and can be built even in cities away from the coast. Additionally, it provides +1 of specific yields based upon what pre-Medieval Social Policy trees have been taken. These yields are increased to +2 during We Love The King Day. </Text>
+		</Row>
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_SAS_TONGVA_9">
+			<Text>Red Blood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_SAS_TONGVA_8">
+			<Text>Hahamog'na</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_SAS_TONGVA_7">
+			<Text>Hoó-nahr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_SAS_TONGVA_6">
+			<Text>Pí-yah-hó-naht</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_SAS_TONGVA_5">
+			<Text>Quaoar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_SAS_TONGVA_4">
+			<Text>Weywot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_SAS_TONGVA_3">
+			<Text>Tomasajaquichi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_SAS_TONGVA_2">
+			<Text>Nicolás</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_SAS_TONGVA_1">
+			<Text>Alijivit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CIV_SAS_TONGVA_0">
+			<Text>Tux'uu</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--City Names-->
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_1">
+			<Text>Juyubit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_2">
+			<Text>Puvunga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_3">
+			<Text>Kuruvungna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_4">
+			<Text>Pipiimar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_5">
+			<Text>Chowiinga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_6">
+			<Text>Yaanga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_7">
+			<Text>Tujunga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_8">
+			<Text>Naayxoxar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_9">
+			<Text>Tevaaxa'anga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_10">
+			<Text>Tibahagna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_11">
+			<Text>Kuukaamonga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_12">
+			<Text>'Ongoova'nga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_13">
+			<Text>Topa'nga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_14">
+			<Text>Azucasabit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_15">
+			<Text>Japchivit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_16">
+			<Text>Paxauxa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_17">
+			<Text>Quapa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_18">
+			<Text>Siba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_19">
+			<Text>Yoatngna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_20">
+			<Text>Xaraashnga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_21">
+			<Text>Wapijangna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_22">
+			<Text>Cahuenga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_23">
+			<Text>Atavsangna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_24">
+			<Text>Jucjauynga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_25">
+			<Text>Isanthcogna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_26">
+			<Text>Hotuuknga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_27">
+			<Text>Lopuuknga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_28">
+			<Text>Guinguina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_29">
+			<Text>Sa'anga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_30">
+			<Text>Momwahmomutngna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_31">
+			<Text>Toviseanga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_32">
+			<Text>Pamajam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_33">
+			<Text>Juvit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_34">
+			<Text>Jajamovi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SAS_TONGVA_35">
+			<Text>'Tchunashnga</Text>
+		</Row>
+		<!-- DIPLOMACY: VANILLA -->
+		<Row Tag="TXT_KEY_GENERIC_SAS_TONGVA_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now eating pashí and taking open-ocean canoeing trips. I worry the rest of the world will soon succumb to the influence of your culture.</Text>
+		</Row>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_SAS_TOYPURINA_FIRSTGREETING_1">
+			<Text>Welcome to our realm, traveler. We're preparing a welcome song and feast for you, to celebrate your arrival.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAS_TOYPURINA_FIRSTGREETING_2">
+			<Text>Welcome to the realm of the Tongva, traveler. I am Toypurina, holder of power. You would be wise to celebrate peace with us.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_SAS_TOYPURINA_DEFEATED_1">
+			<Text>I hate you, for living here on my native soil, for trespassing upon the land of my forefathers and despoiling our tribal domains! </Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SAS_TOYPURINA_DEFEATED_2">
+			<Text>Do what you will with me, but you can never destroy my people... and one day, they shall unite against you in my name! E’kwa’shem! </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

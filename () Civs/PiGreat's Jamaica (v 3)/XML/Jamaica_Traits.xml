@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/11/2017 9:03:03 PM -->
+<GameData>
+
+
+	-<Traits>
+		
+		-<Row>
+			<Type>TRAIT_ONE_LOVE</Type>
+
+			<Description>TXT_KEY_TRAIT_ONE_LOVE</Description>
+
+			<ShortDescription>TXT_KEY_TRAIT_ONE_LOVE_SHORT</ShortDescription>
+		</Row>
+		
+	</Traits>
+	
+</GameData>
+  

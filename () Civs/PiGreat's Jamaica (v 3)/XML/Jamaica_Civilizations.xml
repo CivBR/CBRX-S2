@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Created by PiGreat -->
+
+<GameData>
+
+	-<Civilizations>
+		
+		-<Row>
+			
+			<Type>CIVILIZATION_PI_JAMAICA</Type>
+
+			<Description>TXT_KEY_PI_JAMAICA_DESC</Description>
+
+			<ShortDescription>TXT_KEY_PI_JAMAICA_SHORT_DESC</ShortDescription>
+
+			<Adjective>TXT_KEY_PI_JAMAICA_ADJECTIVE</Adjective>
+
+			<CivilopediaTag>TXT_KEY_CIVLOPEDIA_PI_JAMAICA</CivilopediaTag>
+
+			<DefaultPlayerColor>PLAYERCOLOR_PI_JAMAICA</DefaultPlayerColor>
+
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+
+			<PortraitIndex>0</PortraitIndex>
+
+			<IconAtlas>PI_JAMAICA_ATLAS</IconAtlas>
+
+			<AlphaIconAtlas>PI_JAMAICA_ALPHA_ATLAS</AlphaIconAtlas>
+
+			<MapImage>JamaicaMapSmall.dds</MapImage>
+
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+
+			<DawnOfManQuote>TXT_KEY_DAWN_OF_MAN_PI_JAMAICA_TEXT</DawnOfManQuote>
+
+			<DawnOfManAudio>AS2D_DOM_SPEECH_PI_JAMAICA</DawnOfManAudio>
+
+			<DawnOfManImage>JamaicaDoM.dds</DawnOfManImage>
+
+			<SoundtrackTag>Ethiopia</SoundtrackTag>
+				
+		</Row>
+	</Civilizations>
+
+
+	-<Civilization_Leaders>
+
+
+		-<Row>
+
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<LeaderheadType>LEADER_PI_MARCUS_GARVEY</LeaderheadType>
+
+		</Row>
+
+	</Civilization_Leaders>
+
+
+	-<Civilization_FreeBuildingClasses>
+
+
+		-<Row>
+
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+
+		</Row>
+
+	</Civilization_FreeBuildingClasses>
+
+
+	-<Civilization_FreeTechs>
+
+
+		-<Row>
+
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<TechType>TECH_AGRICULTURE</TechType>
+
+		</Row>
+
+	</Civilization_FreeTechs>
+
+
+	-<Civilization_FreeUnits>
+
+
+		-<Row>
+
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+
+			<Count>1</Count>
+
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+
+		</Row>
+
+	</Civilization_FreeUnits>
+
+
+	-<Civilization_UnitClassOverrides>
+
+
+		-<Row>
+
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<UnitClassType>UNITCLASS_CARGO_SHIP</UnitClassType>
+
+			<UnitType>UNIT_PI_JAMAICA_BLACK_STAR_LINER</UnitType>
+
+		</Row>
+
+
+		-<Row>
+
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<UnitClassType>UNITCLASS_GATLINGGUN</UnitClassType>
+
+			<UnitType>UNIT_PI_JAMAICA_MAROON_REBEL</UnitType>
+
+		</Row>
+
+	</Civilization_UnitClassOverrides>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+		<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+		<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
+
+		<BuildingType>BUILDING_PI_CIRCUS</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+
+			<BuildingType>BUILDING_PI_COLOSSEUM</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+
+			<BuildingType>BUILDING_PI_THEATRE</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
+
+			<BuildingType>BUILDING_PI_STADIUM</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_EE_MENAGERIE</BuildingClassType>
+
+			<BuildingType>BUILDING_PI_MENAGERIE</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_EE_TAVERN</BuildingClassType>
+
+			<BuildingType>BUILDING_PI_TAVERN</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_FW_CRECHE</BuildingClassType>
+
+			<BuildingType>BUILDING_PI_CRECHE</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_FW_UTILITY_FOG</BuildingClassType>
+
+			<BuildingType>BUILDING_PI_UTILITY_FOG</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_FW_FEEDSITE_HUB</BuildingClassType>
+
+			<BuildingType>BUILDING_PI_FEEDSITE_HUB</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<BuildingClassType>BUILDINGCLASS_FW_VERTICAL_FARM</BuildingClassType>
+
+			<BuildingType>BUILDING_PI_VERTICAL_FARM</BuildingType>
+		</Row>		
+	</Civilization_BuildingClassOverrides>
+
+
+	-<Civilization_Start_Along_Ocean>
+
+
+		-<Row>
+
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<StartAlongOcean>true</StartAlongOcean>
+
+		</Row>
+
+	</Civilization_Start_Along_Ocean>
+	-<Civilization_Start_Place_First_Along_Ocean>
+
+
+		-<Row>
+
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<PlaceFirst>1</PlaceFirst>
+
+		</Row>
+
+	</Civilization_Start_Place_First_Along_Ocean>
+
+
+	-<Civilization_Religions>
+
+
+		-<Row>
+
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+
+		</Row>
+
+	</Civilization_Religions>
+
+
+	-<Colors>
+
+
+		-<Row>
+
+			<Type>COLOR_PLAYER_PI_JAMAICA_ICON</Type>
+
+			<Red>.871</Red>
+
+			<Green>.737</Green>
+
+			<Blue>.337</Blue>
+
+			<Alpha>1</Alpha>
+
+		</Row>
+
+
+		-<Row>
+
+			<Type>COLOR_PLAYER_PI_JAMAICA_BACKGROUND</Type>
+
+			<Red>.149</Red>
+
+			<Green>.290</Green>
+
+			<Blue>.067</Blue>
+
+			<Alpha>1</Alpha>
+
+		</Row>
+
+	</Colors>
+
+
+	-<PlayerColors>
+
+
+		-<Row>
+
+			<Type>PLAYERCOLOR_PI_JAMAICA</Type>
+
+			<PrimaryColor>COLOR_PLAYER_PI_JAMAICA_ICON</PrimaryColor>
+
+			<SecondaryColor>COLOR_PLAYER_PI_JAMAICA_BACKGROUND</SecondaryColor>
+
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+
+		</Row>
+
+	</PlayerColors>
+
+
+	-<Civilization_CityNames>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_KINGSTON</CityName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_MONTEGO_BAY</CityName>
+				
+		</Row>
+	
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_SPANISH_TOWN</CityName>
+				
+		</Row>
+
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_PORTMORE</CityName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_MAY_PEN</CityName>
+				
+		</Row>
+
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_MANDEVILLE</CityName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_OLD_HARBOUR</CityName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_SAVANNA-LA-MAR</CityName>
+				
+		</Row>
+
+		-<Row>
+			
+				<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+				<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_LINSTEAD</CityName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_PORT_ANTONIO</CityName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_CONSTANT_SPRING</CityName>
+				
+		</Row>
+
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_SAINT_ANNS_BAY</CityName>
+				
+		</Row>
+		
+		-<Row>
+			
+				<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+				<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_MORANT_BAY</CityName>
+				
+		</Row>
+
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_BOG_WALK</CityName>
+				
+		</Row>
+
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_EWARTON</CityName>
+				
+		</Row>
+
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_HAYES</CityName>
+				
+		</Row>
+
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_STONY_HILL</CityName>
+				
+		</Row>
+
+		-<Row>
+			
+				<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+				<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_OCHO_RIOS</CityName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_SANTA_CRUZ</CityName>
+				
+		</Row>
+
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_PORT_MARIA</CityName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_FALMOUTH</CityName>
+				
+		</Row>
+
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_CHRISTIANA</CityName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_YALLAHS</CityName>
+				
+		</Row>
+		
+		-<Row>
+			
+				<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+				<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_BROWNS_TOWN</CityName>
+				
+		</Row>
+		
+		-<Row>
+			
+				<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+				<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_GRANGE_HILL</CityName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_LUCIA</CityName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_RUNAWAY_BAY</CityName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+				<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+				<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_ANNOTTO_BAY</CityName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_HIGHGATE</CityName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_OLD_HARBOUR_BAY</CityName>
+				
+		</Row>
+
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_PORUS</CityName>
+				
+		</Row>
+
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_LIONEL_TOWN</CityName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_SANDY_BAY</CityName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_HOPEWELL</CityName>
+				
+		</Row>
+
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<CityName>TXT_KEY_CITY_NAME_PI_JAMAICA_LONG_WOOD</CityName>
+			
+		</Row>
+		
+	</Civilization_CityNames>
+
+
+	-<Civilization_SpyNames>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_BRANDON</SpyName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_SELENA</SpyName>
+				
+		</Row>
+
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_ASHANI</SpyName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_SAMANTHA</SpyName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_CHRIS</SpyName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_TARA</SpyName>
+				
+		</Row>
+
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_LLANZO</SpyName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_SHANICE</SpyName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_KYMANI</SpyName>
+				
+		</Row>
+		
+		-<Row>
+			
+				<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+				<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_CHRISTINA</SpyName>
+				
+		</Row>
+		
+		-<Row>
+			
+			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
+
+			<SpyName>TXT_KEY_SPY_NAME_PI_JAMAICA_JOEL</SpyName>
+				
+		</Row>
+	</Civilization_SpyNames>	
+</GameData>

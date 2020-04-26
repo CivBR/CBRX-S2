@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 02/28/16 2:42:06 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_UC_PARAGUAY</Type>
+			<Description>TXT_KEY_TRAIT_UC_PARAGUAY</Description>
+			<ShortDescription>TXT_KEY_TRAIT_UC_PARAGUAY_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+  
+</GameData>

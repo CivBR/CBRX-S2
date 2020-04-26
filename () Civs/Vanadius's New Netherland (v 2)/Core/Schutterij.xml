@@ -1,0 +1,34 @@
+<GameData>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_VANA_SCHUTTERIJ</UnitType>
+			<PromotionType>PROMOTION_SCHUTTERIJDEFENSE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SCHUTTERIJDEFENSE</Type>
+			<Description>TXT_KEY_PROMOTION_SCHUTTERIJDEFENSE</Description>
+			<Help>TXT_KEY_PROMOTION_SCHUTTERIJDEFENSE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<DefenseMod>25</DefenseMod>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SCHUTTERIJDEFENSE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_SCHUTTERIJDEFENSE">
+			<Text>Schuttersgilde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCHUTTERIJDEFENSE_HELP">
+			<Text>+25% Defensive strength when in a city or stationed on an Fort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SCHUTTERIJDEFENSE">
+			<Text>Schuttersgilde</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

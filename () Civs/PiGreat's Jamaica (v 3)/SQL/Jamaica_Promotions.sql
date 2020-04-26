@@ -1,0 +1,4 @@
+INSERT INTO UnitPromotions
+        (Type,                                Description,                        Help,                                CannotBeChosen,        PediaType,            PediaEntry,                                 IconAtlas,            PortraitIndex, DefenseMod, NoDefensiveBonus)
+VALUES ('PROMOTION_PI_JAMAICA_DEFENSEMOD', 'TXT_KEY_PROMOTION_PI_JAMAICA_DEFENSEMOD', 'TXT_KEY_PROMOTION_PI_JAMAICA_DEFENSEMOD_HELP', 1, 'PEDIA_SHARED', 'TXT_KEY_PROMOTION_PI_JAMAICA_DEFENSEMOD', 'ABILITY_ATLAS', 59, 25, 0),
+	('PROMOTION_PI_JAMAICA_NODEFENSEMOD', 'TXT_KEY_PROMOTION_PI_JAMAICA_NODEFENSEMOD', 'TXT_KEY_PROMOTION_PI_JAMAICA_NODEFENSEMOD_HELP', 1, 'PEDIA_SHARED', 'TXT_KEY_PROMOTION_PI_JAMAICA_NODEFENSEMOD', 'ABILITY_ATLAS', 57, 0, 1);

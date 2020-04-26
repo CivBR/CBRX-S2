@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="83665d03-bb67-4873-8be2-6d945b023ac0" version="2">
+  <Properties>
+    <Name>Uighur_Caesar's Paraguay (Solano Lopez)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Republic of Paraguay under Francisco Solano Lopez to the game.</Teaser>
+    <Description>Adds the Republic of Paraguay under the fully voice (thanks to Age of Empires 3) Solano Lopez to the game.
+
+[IMG]http://i.imgur.com/wHUwCaf.png[/IMG]</Description>
+    <Authors>Uighur_Caesar</Authors>
+    <SpecialThanks>Hoop Thrower, DarthStarKiller, TPangolin, Janboruta, Leugi, CBP, Age of Empires 3</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's CulDiv" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Rise to Power" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="E&amp;D" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YNAEMP" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="RD" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="CIV TRAITS" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="UCI" />
+    <Mod id="c1871abe-b596-4028-a121-6568c154cb8d" minversion="0" maxversion="999" title="Sukritact's Suzerainty" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="4F05D38A6247B13023D480CC1863A9ED" import="1">Art/AcaVeraFlag.dds</File>
+    <File md5="9C44B52C1395F343FBD893242B197697" import="1">Art/AcaVeraSV.dds</File>
+    <File md5="96A3DF20B398ED92893CFEDA684E6C3F" import="1">Art/SolanoAlpha128.dds</File>
+    <File md5="0C2AD857DA09BCAF3172012AD867EB94" import="1">Art/SolanoAlpha16.dds</File>
+    <File md5="03C873D54D52510A8D276D0ED99C6206" import="1">Art/SolanoAlpha24.dds</File>
+    <File md5="2E9B13FE1457F952302DF2E5296E8162" import="1">Art/SolanoAlpha256.dds</File>
+    <File md5="3FE9CE876E944E0FC10445524982BFAB" import="1">Art/SolanoAlpha32.dds</File>
+    <File md5="93E434C1948E5A9425CD91057BAAFEB7" import="1">Art/SolanoAlpha45.dds</File>
+    <File md5="2462B8F324899C2AFD1FDB5AB54E71C6" import="1">Art/SolanoAlpha48.dds</File>
+    <File md5="ABAEC16B3DADDF605AA1D25EC9C93713" import="1">Art/SolanoAlpha64.dds</File>
+    <File md5="FC132ACB22498D65CE99315B3A2E7130" import="1">Art/SolanoAlpha80.dds</File>
+    <File md5="20A889C243B94A2F33E41F7C51712B71" import="1">Art/Solano.dds</File>
+    <File md5="65DA98270DEEFF5E9B60878A7459BE6C" import="1">Art/aca_caraya.fxsxml</File>
+    <File md5="DB888FDCE796BAE1EB0C670D9AF980A0" import="1">Art/aca_caraya.gr2</File>
+    <File md5="B52E64390033B2455BE50C4CDC02E973" import="1">Art/aca_caraya_diff.dds</File>
+    <File md5="E41EF1BC66EAD0E06D3322F808D3AD61" import="1">Art/aca_caraya_sref.dds</File>
+    <File md5="C34596E3A61CF74E9D11D41D8BB36FEA" import="1">Art/Solano128.dds</File>
+    <File md5="03EDF46BCCB8411658BA2FEB26D07EF1" import="1">Art/Solano256.dds</File>
+    <File md5="EB4C0201D002F4A79B700AC5C5A8292D" import="1">Art/Solano32.dds</File>
+    <File md5="4B279EED611986CED673E17B22FC1EC0" import="1">Art/Solano45.dds</File>
+    <File md5="8DEA051E1CAF8E3AB7BEF37974E3AB60" import="1">Art/Solano64.dds</File>
+    <File md5="8892F2965A6C17775D1523140E16A941" import="1">Art/Solano80.dds</File>
+    <File md5="AD6DED50E726EDFAA4D7EC78F9EFD40C" import="1">Art/SolanoDOM.dds</File>
+    <File md5="C87175D254E3BBC211046CC5A7542DED" import="1">Art/SolanoMap.dds</File>
+    <File md5="D7B16E0B23E775453E1CD36009A299F6" import="0">Compatibilty/SupportText.xml</File>
+    <File md5="1883D8B2A4CA0F2198648C43C3D4CF60" import="0">Compatibilty/Policy.xml</File>
+    <File md5="3338975540BFCE2CE8544BE36CD42F6A" import="0">Compatibilty/ModSupport.sql</File>
+    <File md5="D262D6A6ED26C0C2B5F5D253B155E8DF" import="1">Compatibilty/SolanoDecisions.lua</File>
+    <File md5="AE0CEB431EA4CA81F52B07C36BD4FF25" import="0">Core/Defines.sql</File>
+    <File md5="59C0EC10A80A5141851CE273A02D6202" import="0">Core/Defines.xml</File>
+    <File md5="9DAAC2B724F2206CC10FF0207A161C62" import="1">Core/fx_triggers_solano.ftsxml</File>
+    <File md5="6C963DAE1A579A358BD0A67BBD72C9FC" import="1">Core/solano.fxsxml</File>
+    <File md5="B2FCD7E425F584E6958FDA526CAE6394" import="0">Core/SolanoSpeech.sql</File>
+    <File md5="213F88EA89EE127746C596546B3B2E34" import="1">Core/Solano.xml</File>
+    <File md5="E221FE836FD7B0106260C92DF7F02DBD" import="0">Core/Paraguay.xml</File>
+    <File md5="212C9C568007D4875A3451D73B63F238" import="0">Core/Lopez.xml</File>
+    <File md5="4EFCE5E7721DE0373B1EC2A2A30F1136" import="0">Core/Units.xml</File>
+    <File md5="7C468456BA518583144C75FDE2E6E16D" import="0">Core/Trait.xml</File>
+    <File md5="BCD4E426AAE8F8685065D818FD1AFB70" import="0">Core/ArtDefines.xml</File>
+    <File md5="42CD0BD8CE4C7F1E108BD4D05BB30FBD" import="0">Core/Buildings.xml</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="C19B9E16F4A3F0C0C73481A65545B5FC" import="0">Lua/SolanoFunctions.lua</File>
+    <File md5="5ACC5B8910D1BF0F3BD0671AB9121D57" import="1">Music/SolanoAmbience.mp3</File>
+    <File md5="8EB24A535B2897F5B23B8D03916600ED" import="1">Music/SolanoPeace.mp3</File>
+    <File md5="F530AA8D03AB790D9795C6844BF79648" import="1">Music/SolanoWar.mp3</File>
+    <File md5="F49951549CDA19CD6BE4FFCDF581AAA5" import="1">Sound/SolanoLopezAttacked.mp3</File>
+    <File md5="058AAA42404EB0FC7523D11E37B9582E" import="1">Sound/SolanoLopezDeclaresWar.mp3</File>
+    <File md5="5243A18377ABAA611A4AA39FB6867890" import="1">Sound/SolanoLopezDefeated.mp3</File>
+    <File md5="96D78B0EC703E35C98C081541022BF8E" import="1">Sound/SolanoLopezDemand.mp3</File>
+    <File md5="3D2CD486D22979DD2EF21E05FF180905" import="1">Sound/SolanoLopezGloat.mp3</File>
+    <File md5="C1AF6E4067DB7A1B8E52AE63D336D27D" import="1">Sound/SolanoLopezGreeting.mp3</File>
+    <File md5="8E9F674CCE381DD252077160D96A43A4" import="1">Sound/SolanoLopezHateHearIt.mp3</File>
+    <File md5="B1AAA0453A88575E563D56CE47A45D5B" import="1">Sound/SolanoLopezHateHearit2.mp3</File>
+    <File md5="3EB8ADB793835407E5EB7DE3B7143785" import="1">Sound/SolanoLopezHateHearit3.mp3</File>
+    <File md5="AA516022BAAFF12D18B161C616487B8D" import="1">Sound/SolanoLopezHateHello.mp3</File>
+    <File md5="EC7CD5A03575B67DEEC5E10CF0196B33" import="1">Sound/SolanoLopezHateNo.mp3</File>
+    <File md5="66DF6D85ABFE92C0BD183E78DB5C1306" import="1">Sound/SolanoLopezHateNo2.mp3</File>
+    <File md5="56E6324C61462975E806094BACEF8187" import="1">Sound/SolanoLopezHateYes.mp3</File>
+    <File md5="09808ECFC6E2D47A22F2C800A0AB6DEC" import="1">Sound/SolanoLopezHateYes2.mp3</File>
+    <File md5="1D0D46B550282F5F18629899689250AD" import="1">Sound/SolanoLopezNeutralHearit.mp3</File>
+    <File md5="38514C1881B1B67E90718F84EA05C7D5" import="1">Sound/SolanoLopezNeutralHearIt2.mp3</File>
+    <File md5="5EF81E7D0C9CB8E50CA1532BE62A467C" import="1">Sound/SolanoLopezNeutralHearIt3.mp3</File>
+    <File md5="7E1781938A392D663C99200910B452FE" import="1">Sound/SolanoLopezNeutralHello.mp3</File>
+    <File md5="01FC25160A0DF3DD99C4400B7F4D8FE4" import="1">Sound/SolanoLopezNeutralNo.mp3</File>
+    <File md5="8314442977A3DCEB7511BB538DD17772" import="1">Sound/SolanoLopezNeutralNo2.mp3</File>
+    <File md5="63C32FA19F9D2DE60E069B5C19D2D546" import="1">Sound/SolanoLopezNeutralYes.mp3</File>
+    <File md5="CB7333E971A0A662DBFB7350E0279687" import="1">Sound/SolanoLopezNeutralYes2.mp3</File>
+    <File md5="B5A3765F83FFA6214AC827D2169B8C3E" import="1">Sound/SolanoLopezPeaceful.mp3</File>
+    <File md5="9C5E738983CE558A33767619253AD1BD" import="1">Sound/SolanoLopezRequest.mp3</File>
+    <File md5="AA111981F5CA8C54A055C4BAB20B14B5" import="0">Text/Diplo.xml</File>
+    <File md5="AE1DBCB23565DD6486E74C52452DEB05" import="0">Text/Diplo.sql</File>
+    <File md5="76905F530A615C82A1AB7810D0C2D58C" import="0">Text/Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/ArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Lopez.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Paraguay.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Text.xml</UpdateDatabase>
+      <UpdateDatabase>Compatibilty/Policy.xml</UpdateDatabase>
+      <UpdateDatabase>Compatibilty/ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Compatibilty/SupportText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Defines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SolanoSpeech.sql</UpdateDatabase>
+      <UpdateDatabase>Text/Diplo.sql</UpdateDatabase>
+      <UpdateDatabase>Text/Diplo.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/SolanoFunctions.lua">
+      <Name>eynstbaerv</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

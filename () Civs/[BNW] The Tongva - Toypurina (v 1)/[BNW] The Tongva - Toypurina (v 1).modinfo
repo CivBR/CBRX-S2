@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="76296df0-e557-4176-9fe1-53a9a9fb7833" version="1">
+  <Properties>
+    <Name>[BNW] The Tongva - Toypurina</Name>
+    <Stability>Beta</Stability>
+    <Teaser>This mod adds the Tongva peoples, aka the Gabrielino or the Kizh, to the game!</Teaser>
+    <Description>This mod adds the Tongva peoples, aka the Gabrielino or the Kizh, to the game!</Description>
+    <Authors>Sasquatch (AKA Kramer), JakeWalrusWhale, TopHatPaladin, Chrisy15</Authors>
+    <SpecialThanks>DarthKyofu, PorkBean</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="Rise To Power" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="CiD" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="ExCE" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="8c101299-95c5-4b28-b7ed-4e0f774857ef" minversion="0" maxversion="999" title="Historical Religions" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="FE1029566B5683B86C4582A07BBCDAF8" import="1">Art/Atlases/Alpha/SasTongvaAlpha_128.dds</File>
+    <File md5="3C9962077B9BF097935928BD568EA093" import="1">Art/Atlases/Alpha/SasTongvaAlpha_16.dds</File>
+    <File md5="37C5460BD293CE5A1A0B44FDD4176100" import="1">Art/Atlases/Alpha/SasTongvaAlpha_24.dds</File>
+    <File md5="F573A73EEBF52B012D31FB046242ABCF" import="1">Art/Atlases/Alpha/SasTongvaAlpha_32.dds</File>
+    <File md5="436164A8C7CC3A75062AF7954285D1E2" import="1">Art/Atlases/Alpha/SasTongvaAlpha_45.dds</File>
+    <File md5="59DC9FD68D8FF9FFE0A8005FC4A4FCFD" import="1">Art/Atlases/Alpha/SasTongvaAlpha_48.dds</File>
+    <File md5="C567FB00BC69C60320734915BFE70D85" import="1">Art/Atlases/Alpha/SasTongvaAlpha_64.dds</File>
+    <File md5="7685F5A27167F6E4AD0CC1A5EFCDCE66" import="1">Art/Atlases/Alpha/SasTongvaAlpha_80.dds</File>
+    <File md5="78F97BA75324E2D95E05B535A789BCAD" import="1">Art/Atlases/SasTongvaAtlas128.dds</File>
+    <File md5="92D999AB39B05960F1B016B893B5AA65" import="1">Art/Atlases/SasTongvaAtlas256.dds</File>
+    <File md5="03F316270FD30166D051C4218129F1F3" import="1">Art/Atlases/SasTongvaAtlas32.dds</File>
+    <File md5="2037A96F1C2B5954BFD9AF7074052EE4" import="1">Art/Atlases/SasTongvaAtlas45.dds</File>
+    <File md5="42C41A61DC2E385E1C74DC149FA7A5F0" import="1">Art/Atlases/SasTongvaAtlas64.dds</File>
+    <File md5="A1C781E9E104469F8555A0A64B681781" import="1">Art/Atlases/SasTongvaAtlas80.dds</File>
+    <File md5="5F66659AB0B41C97D2492B19723B963E" import="1">Art/Atlases/SasTongvaAtlases.xml</File>
+    <File md5="27A6A4D3AA6CAECC6229176E8A0D059D" import="1">Art/SasTiatFlag.dds</File>
+    <File md5="38DEDDF5320D5B67F1647E8410257674" import="1">Art/SasTongvaMap.dds</File>
+    <File md5="42AB50752656580B07D4BC7449E727F3" import="1">Art/Sas_Toypurina_Diplo.dds</File>
+    <File md5="92B382F71137A5CCCEECAD65525C8421" import="1">Art/Sas_Toypurina_DOM.dds</File>
+    <File md5="9A853455DBC5EA14478CAF64770963BF" import="1">Art/SV_SasTiat.dds</File>
+    <File md5="1221BF9B3C4C4DB7DEDAE2DC4F930ACF" import="1">Art/Tiat/Scout_Tongva.dds</File>
+    <File md5="4908D68CFD3AF3C0E37FE68D4EE7D6FC" import="1">Art/Tiat/Scout_Tongva.fxsxml</File>
+    <File md5="F5BCF7289BACF0F182AA8A41A3983E19" import="1">Art/Tiat/Scout_Tongva.gr2</File>
+    <File md5="CC72DB433B6EF3971DCF4DE417A75200" import="1">Art/Tiat/Scout_Tongva_gloss.dds</File>
+    <File md5="246E7E7B0DC6EEBCF3A88452961325EC" import="1">Art/Tiat/TiatArtDefines.xml</File>
+    <File md5="4D9820F420645611C19536F284C03886" import="0">Core/CivilizationSasTongva.xml</File>
+    <File md5="9AC867924BF6FB0D429171D7CA635523" import="0">Core/LeaderSasToypurina.xml</File>
+    <File md5="AC863AD10F927C390DF202F05F94DC82" import="1">Core/Sas_Toypurina_Scene.xml</File>
+    <File md5="124B1781894B1D707DB6BCE083B2760C" import="0">Core/TongvaModSupport.sql</File>
+    <File md5="E8267B8A21CD3578A3F99DB7F0102C43" import="0">Core/TongvaText.xml</File>
+    <File md5="DD689F0BAF50EE3EE2A35C87D6C67886" import="0">Core/TongvaUniques.sql</File>
+    <File md5="8E0D8A2E595CC7B5929ABEC155F42783" import="0">Lua/TongvaKihay.lua</File>
+    <File md5="E64D9810BA57AEFC9DBEFFE16FC070A0" import="0">Lua/TongvaUA.lua</File>
+    <File md5="32BCE9F7CD27BE7472A99CDDF7A59064" import="0">Sound/Sas_Toypurina_Music.xml</File>
+    <File md5="FE880815A742D1792290C7AFDF5D0D6B" import="1">Sound/Sas_Toypurina_Peace.mp3</File>
+    <File md5="A32256C28D17329673B31A7198714733" import="1">Sound/Sas_Toypurina_War.mp3</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Atlases/SasTongvaAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Core/CivilizationSasTongva.xml</UpdateDatabase>
+      <UpdateDatabase>Core/LeaderSasToypurina.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Sas_Toypurina_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Core/TongvaUniques.sql</UpdateDatabase>
+      <UpdateDatabase>Core/TongvaText.xml</UpdateDatabase>
+      <UpdateDatabase>Sound/Sas_Toypurina_Music.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Tiat/TiatArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/TongvaModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/TongvaKihay.lua">
+      <Name>TongvaKihayLua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/TongvaUA.lua">
+      <Name>TongvaUA</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

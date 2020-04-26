@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<Language_en_US>
+		<!--Ballgame Champions-->
+		<Row Tag="TXT_KEY_DECISIONS_OLMEC_BALLGAME_CHAMPIONS">
+			<Text>Celebrate the Champions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_OLMEC_BALLGAME_CHAMPIONS_DESC">
+			<Text>A mighty game of pitz has just concluded in our capital, ensuring peace with the neighboring kingdoms for the coming season. We must hold a great celebration filled with feasting and sacrifice to honour our champions and appease the gods.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Olmec
+				[NEWLINE][ICON_BULLET]Must have constructed at least 3 Colosseums
+				[NEWLINE][ICON_BULLET]Must have enacted the 'Invent Rubber' decision
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Choose either a free Great Merchant or Great Artist
+				[NEWLINE][ICON_BULLET]A "We Love the King Day" is triggered in your [ICON_CAPITAL] Capital
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_OLMEC_BALLGAME_CHAMPIONS_ENACTED_DESC">
+			<Text>A mighty game of pitz has just concluded in our capital, ensuring peace with the neighboring kingdoms for the coming season. We must hold a great celebration filled with feasting and sacrifice to honour our champions and appease the gods.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Choose either a free Great Merchant or Great Artist
+				[NEWLINE][ICON_BULLET]A "We Love the King Day" is triggered in your [ICON_CAPITAL] Capital
+			</Text>
+		</Row>		
+		<!--Invent Rubber-->
+		<Row Tag="TXT_KEY_DECISIONS_OLMEC_RUBBER">
+			<Text>Invent Rubber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_OLMEC_RUBBER_DESC">
+			<Text>Our people have discovered that if we boil the sap of the olicuahuitl tree over several days with the juice from the moon vine we can create a durable, elastic ball. We should promote this discovery and try to find a use for this new innovation.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Olmec
+				[NEWLINE][ICON_BULLET]Must have built at least 4 Plantations
+				[NEWLINE][ICON_BULLET]Must have at least 1 City settled near Jungle
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_RESEARCH] Science
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] Production from each worked Jungle tile (bonus increases to +2 [ICON_PRODUCTION] Production after Industrialization is researched)
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_OLMEC_RUBBER_ENACTED_DESC">
+			<Text>Our people have discovered that if we boil the sap of the olicuahuitl tree over several days with the juice from the moon vine we can create a durable, elastic ball. We should promote this discovery and try to find a use for this new innovation.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] Production from each worked Jungle tile (bonus increases to +2 [ICON_PRODUCTION] Production after Industrialization is researched)
+			</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_BUILDING_LEUGI_OLMEC_BALLGAME_DECISIONS_DUMMY_DESC">
+			<Text>Olmec Champions Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LEUGI_OLMEC_RUBBER_DECISIONS_DUMMY_DESC">
+			<Text>Olmec Rubber Dummy</Text>
+		</Row>
+		<!-- -->
+		<!-- Ballgame Event -->
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GAME">
+			<Text>Pitz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GAME_EXTRA">
+			<Text>Ollamaliztli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GAME_DESC">
+			<Text>The City-State of {1_iName} has challenged us to a ritual ballgame. If we accept the invitation, we are likely to curry favor with the city and possibly renown for our warriors. However, our advisors warn that it might not be the best time for such a match and wonder if we would not be better served devoting our resources to domestic affairs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GAME_OUTCOME_1">
+			<Text>We accept their challenge!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GAME_OUTCOME_1_DESC">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]50% chance to suffer 2 turns of [ICON_RESISTANCE] Resistance in your [ICON_CAPITAL] Capital[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]50% chance to celebrate a 'We Love the King Day' in your [ICON_CAPITAL] Capital[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+20 [ICON_INFLUENCE] Influence with {1_iName}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GAME_OUTCOME_2">
+			<Text>We must regretfully decline...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GAME_OUTCOME_2_DESC">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]-10 [ICON_INFLUENCE] Influence with {1_iName}[ENDCOLOR][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]+{2_iGold} [ICON_GOLD] Gold[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GAME_OUTCOME_1_NOTIFICATION">
+			<Text>We have accepted {1_iName}'s challenge to a ritual ballgame!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GAME_OUTCOME_2_NOTIFICATION">
+			<Text>We have declined {1_iName}'s challenge to a ritual ballgame.</Text>
+		</Row>
+		<!-- Glyph Event -->
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GLYPHS">
+			<Text>Expand the Glyph System</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GLYPHS_DESC">
+			<Text>Neighboring civilizations have begun to use our system of glyphs for trade and ritual use. We should encourage this development expand our library of glyphs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GLYPHS_OUTCOME_1">
+			<Text>This will likely improve relations with our neighbors...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GLYPHS_OUTCOME_1_DESC">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_iTourism} [ICON_TOURISM] Tourism with all known Civilizations[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVENT_TOMATEKH_MESO_GLYPHS_OUTCOME_1_NOTIFICATION">
+			<Text>We have expanded our system of glyphs!</Text>
+		</Row>
+	</Language_en_US>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_LEUGI_OLMEC_DECISIONS_DUMMY</Type>
+			<DefaultBuilding>BUILDING_LEUGI_OLMEC_DECISIONS_DUMMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_LEUGI_OLMEC_BALLGAME_DECISIONS_DUMMY_DESC</Description>
+		</Row>
+	</BuildingClasses>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LEUGI_OLMEC_DECISIONS_DUMMY</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LEUGI_OLMEC_DECISIONS_DUMMY</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>	
+	<Buildings>
+		<Row>
+			<Type>BUILDING_LEUGI_OLMEC_DECISIONS_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_LEUGI_OLMEC_DECISIONS_DUMMY</BuildingClass>
+			<!-- -->
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<!-- -->
+			<Description>TXT_KEY_BUILDING_LEUGI_OLMEC_BALLGAME_DECISIONS_DUMMY_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEUGI_OLMEC_DUMMY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_LEUGI_OLMEC_DUMMY_STRATEGY</Strategy>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_LEUGI_OLMEC_RUBBER_DECISIONS_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_LEUGI_OLMEC_DECISIONS_DUMMY</BuildingClass>
+			<!-- -->
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<!-- -->
+			<Description>TXT_KEY_BUILDING_LEUGI_OLMEC_RUBBER_DECISIONS_DUMMY_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LEUGI_OLMEC_DUMMY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_LEUGI_OLMEC_DUMMY_STRATEGY</Strategy>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+		</Row>		
+	</Buildings>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_LEUGI_OLMEC_RUBBER_DECISIONS_DUMMY</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>	
+</GameData>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh-->
+<GameData>
+	<Language_ES_ES>
+		<!-- -->
+		<Row Tag="TXT_KEY_TRAIT_MISSISSIPPI_MOD_TOMATEKH_SHORT">
+			<Text>Maize Economy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_MISSISSIPPI_MOD_TOMATEKH">
+			<Text>Your highest [ICON_CITIZEN] Population Cities form Regional Centers which increase [ICON_FOOD] Food and decrease Building Maintenance in nearby Cities.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_INTRO">
+			<Text>[COLOR_POSITIVE_TEXT]Maize Economy[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_DESCRIPTION">
+			<Text>{1_CityName} is currently a tributary of {2_CityName} and is receiving bonus [ICON_FOOD] Food and reduced Building Maintenance based on its distance to {2_CityName} and {2_CityName}'s current [ICON_CITIZEN] Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_DESCRIPTION_CENTER">
+			<Text>{1_CityName} has the highest [ICON_CITIZEN] Population in the area and is currently acting as a Regional Center. Settle Cities within {2_level7} tiles of {1_CityName} to increase their [ICON_FOOD] Food and decrease their Building Maintenance. {1_CityName} will also receive tribute equal to the bonus received by its nearest City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_DESCRIPTION_NONE">
+			<Text>{1_CityName} is over {2_level7} tiles from the nearest Regional Center ({3_CityName}) and is currently not receiving bonus yields. Additional Regional Centers can be established on unique Continents and in Cities at least {4_RegionDistance} tiles away from all current Regional Centers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_HEADING">
+			<Text>[NEWLINE][COLOR_CYAN]Regional Center[ENDCOLOR][NEWLINE]----------------[NEWLINE]{1_CityName}[NEWLINE][ICON_BULLET]Size: {2_Population} [ICON_CITIZEN] Population[NEWLINE][ICON_BULLET]Distance: {3_MinDistance} Tiles[NEWLINE][ICON_BULLET]Administration Level: {4_AdminLevel}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_HEADING_CENTER_0">
+			<Text>[NEWLINE][COLOR_CYAN]Tributaries[ENDCOLOR][NEWLINE]----------------[NEWLINE][COLOR_NEGATIVE_TEXT]There are currently no Cities settled near {1_CityName} to send tribute.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_HEADING_CENTER_1">
+			<Text>[NEWLINE][COLOR_CYAN]Nearest City[ENDCOLOR][NEWLINE]----------------[NEWLINE]{1_CityName}[NEWLINE][ICON_BULLET]Distance: {2_MinDistance2} Tiles[NEWLINE][ICON_BULLET]Administration Level: {3_AdminLevel3}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_HEADING_CENTER_3">
+			<Text>[NEWLINE][COLOR_CYAN]Bonus[ENDCOLOR][NEWLINE]----------------[NEWLINE]{1_CityName}[NEWLINE][ICON_BULLET]+{2_FoodBonus}% [ICON_FOOD] Food[NEWLINE][ICON_BULLET]-{3_GoldBonus}% [ICON_GOLD] Maintenance[COLOR_POSITIVE_TEXT]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_HEADING_NONE">
+			<Text>[NEWLINE][COLOR_CYAN]Regional Center[ENDCOLOR][NEWLINE]----------------[NEWLINE][COLOR_NEGATIVE_TEXT]None</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_HEADING_2">
+			<Text>[NEWLINE][COLOR_CYAN]Bonus[ENDCOLOR][NEWLINE]----------------[NEWLINE]{1_CityName}[NEWLINE][ICON_BULLET]+{2_FoodBonus}% [ICON_FOOD] Food[NEWLINE][ICON_BULLET]-{3_GoldBonus}% [ICON_GOLD] Maintenance[COLOR_POSITIVE_TEXT]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_HEADING_2_CENTER">
+			<Text>[NEWLINE][COLOR_CYAN]Tributaries[ENDCOLOR][NEWLINE]----------------</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_HEADING_3_CENTER">
+			<Text>[COLOR_CYAN]Regional Centers[ENDCOLOR][NEWLINE]----------------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_UA_LIST_1_CENTER">
+			<Text>[COLOR_NEGATIVE_TEXT]You do not have any active Regional Centers.[ENDCOLOR]</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_CIV5_DAWN_MISSISSIPPI_MOD_TOMATEKH_TEXT">
+			<Text>Hensci, Tuskaloosa, Chief of Atahachi and leader of the Mississippian people! Your prowess in battle is matched only by your cunning. The culmination of the mound builder tradition, the Mississippi represent one of the most advanced societies of pre-Columbian North America. A gifted and industrious people, they developed widespread trade networks and utilized impressive agricultural projects to sustain some of the largest cities in the medieval world. Yet, the Little Ice Age would ultimately devastate the great population centers of Cahokia and Moundville; destroying their economy and dispersing their people. By the time Europeans arrived in the Americas, the Mississippi were a mere shadow of their former selves and the legacy of the mound builders would soon fade into legend.[NEWLINE][NEWLINE]Feared warrior, the Mississippian culture has all but vanished and even your descendants have forgotten the great earthworks of their ancestors. It is time to return, to reclaim the Big River, and grow the maize that once sustained your mighty cities. Can you restore your lost chiefdom? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_FIRST_GREETING_1">
+			<Text>Hensci! I am Tuskaloosa, Chief of Atahachi and leader of the Mississippian people. You are welcome to trade and make offering in my cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_FIRST_GREETING_2">
+			<Text>You approach Tuskaloosa, Paramount Chief of Atahachi. I hope you've brought tribute...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_DEFEATED_1">
+			<Text>I have a victory gift for you. It's just... in my other town. We should go there... together. This is in no way suspicious.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_DEFEATED_2">
+			<Text>Like a coward, you hide behind your men! Cehecvres!</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_MOD_TOMATEKH_DESC">
+			<Text>Mound Temple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BUILDING_MISSISSIPPI_MOD_TOMATEKH_TEXT">
+			<Text>Astronomical observations played a significant role in Mississippian architecture. The entire city of Cahokia was orientated towards the axis of the rising and setting moon, while wooden henges would align with the sun during solstices and equinoxes. This likely held religious significance, particularly in regard to fertility and agricultural cults. Temples would often be constructed on top of platform mounds, which symbolically recreated the cosmos though its four-sided construction and flat top; replicating the four directions of the earth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_MOD_TOMATEKH_STRATEGY">
+			<Text>The Mound Temple is the Mississippian replacement for the Temple. Unlike the standard Temple, which provides a set amount of [ICON_PEACE] Faith, the Mound Temple's [ICON_PEACE] Faith output varies based on the latitude of the City it is constructed in. The closer the City is settled to the map's equator, the more [ICON_PEACE] Faith it provides. Additionally, the Mound Temple can also provide [ICON_RESEARCH] Science; however, its [ICON_RESEARCH] Science yield increases the closer the City is settled to the map's poles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_MOD_TOMATEKH_HELP">
+			<Text>Provides [ICON_PEACE] Faith and [ICON_RESEARCH] Science based on the latitude of the City. Centers the equator on the world map.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_UNIT_MISSISSIPPI_MOD_TOMATEKH">
+			<Text>Falcon Dancer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_TEXT">
+			<Text>The falcon is one of the most conspicuous symbols of the Southeastern Ceremonial Complex. It was simultaneously an avatar of warriors and an object of supplication for a long life and healthy family. At Cahokia, falcon imagery was elaborated in figural expression, and its supernatural origin is placed in the Upper World with a pantheon including the Sun, Moon, and Four Stars. Although the figure of the falcon dancer was not always shown in the act of playing chunkey, motifs often associated it with the sport. It's likely that the falcon first gained prominence during the Hopewell period, and it would ultimately survive the Mississippian culture through the Red Horn mythological cycle and the native religions of descendant cultures.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSISSIPPI_MOD_TOMATEKH_STRATEGY">
+			<Text>The Falcon Dancer is the Mississippian unique unit. Unlike the standard Longswordsman, it does not require Iron to build. Additionally, if trained in a Regional Center, the Falcon Dancer is significantly quicker to produce and will begin with bonus XP equal to the City's [ICON_CITIZEN] Population. Use your [ICON_CAPITAL] Capital to quickly train powerful, experienced units during the Medieval Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSISSIPPI_MOD_TOMATEKH_HELP">
+			<Text>Veteran Medieval Unit. The Falcon Dancer can quickly defend Regional Centers. Only the Mississippi may build it.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_MISSISSIPPIAN_PLATFORM_MOD">
+			<Text>Regional Center</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MISSISSIPPIAN_PLATFORM_MOD_HELP">
+			<Text>A Platform Mound indicates a City is a Regional Center.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MISSISSIPPIAN_PLATFORM_MOD_TEXT">
+			<Text>A Platform Mound indicates a Mississippian City is a Regional Center. Regional Centers increase [ICON_FOOD] Food and decrease Building Maintenance in nearby Cities.[NEWLINE][NEWLINE]The indigenous peoples of North America built substructure mounds for well over a thousand years starting in the Archaic period and continuing through the Woodland period. Many different archaeological cultures of North America's Eastern Woodlands are specifically well known for using platform mounds as a central aspect of their overarching religious practices and beliefs. These platform mounds are usually four-sided truncated pyramids, steeply sided, with steps built of wooden logs ascending one side of the earthworks. When European first arrived in North America, the peoples of the Mississippian culture were still using and building platform mounds. Documented uses for Mississippian platform mounds include the chief's residence, temples, mortuary buildings and burial sites, public lodges, residences, and square ground and rotunda platforms.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_DESC">
+			<Text>Tuskaloosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_LIVED">
+			<Text>ca. AD 1540</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_NAME">
+			<Text>Tuskaloosa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_SUBTITLE">
+			<Text>Leader of the Mississippi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_TITLES_1">
+			<Text>Paramount Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_TEXT_1">
+			<Text>Tuskaloosa was a paramount chief of a Mississippian chiefdom in what is now the state of Alabama. He is primarily known through the accounts of the Spanish conquistador Hernando de Soto and is notable for leading the Battle of Mabila. Contemporary records describe Tuskaloosa as being very tall and well built, being feared equally by his vassals and neighboring nations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_HEADING_2">
+			<Text>Hernando de Soto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_TEXT_2">
+			<Text>Tuskaloosa's province consisted of a series of villages, mostly along the Coosa and Alabama rivers. Each village had its own chief who was a vassal to Tuskaloosa, the paramount chief. His chiefdom is recorded in the chronicles of Hernando de Soto's expedition, which arrived in North America ca. AD 1539. De Soto had been appointed Governor of Cuba by King Carlos I of Spain, who directed him to conquer what is now the southern United States.[NEWLINE][NEWLINE]Conquistadors frequently took local chiefs hostage in order to guarantee safe passage through their territory and act as interpreters for neighboring language groups. While traveling through the Coosa Province, de Soto took the paramount chief of the region hostage; believing that this would secure aid from the nearby village of Talisi. However, though the chief of Talisi supplied the Spaniards with deerskin, food, laborers, and women to secure the release of the Coosa chief, it is likely that Talisi actually fell under the domain of Tuskaloosa instead of the Coosa. This attracted the attention of Tuskaloosa who then sent an envoy to meet with the Spanish.[NEWLINE][NEWLINE]De Soto eventually arrived at the village of Atahachi, where Tuskaloosa held court. Both groups attempted to intimidate the other. Tuskaloosa presented a very intimidating figure and seemed unimpressed by the Spanish. Nevertheless, de Soto demanded supplies and women from Tuskaloosa. Refusing de Soto's demands, Tuskaloosa was taken hostage and de Soto and his men prepared to set out. At this point, Tuskaloosa apparently relented and promised to meet de Soto's demands. However, he informed de Soto that they would need to go to the nearby village of Mabila to properly supply the requested amount of women.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_HEADING_3">
+			<Text>Battle of Mabila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_TEXT_3">
+			<Text>As de Soto approached the town, the chief of Mabila came out to greet him; bringing three robes of deerskin as gifts. De Soto and several of his men dismounted and entered the town, as their native bearers placed de Soto's supplies next to the palisade. The Mabilians danced and sang to the Spanish, seemingly to allay their fears and to distract them. While the spectacle unfolded, Tuskaloosa told de Soto he was tired of marching with the Spanish and wished to stay in Mabila. De Soto refused and Tuskaloosa asked to confer with some of his nobles in one of the large houses on the plaza. After some time, De Soto sent officers to retrieve Tuskaloosa.[NEWLINE][NEWLINE]When de Soto sent men into the house to retrieve Tuskaloosa, they discovered it was full of armed warriors prepared to protect their chief. Tuskaloosa had sent a messenger ahead of them from Atahachi to warn of the approaching Spaniards and prepare the town. De Soto asked the chief of Mabila to demand the women promised by Tuskaloosa. The chief of Mabila refused and de Soto grabbed him and prepared to take him hostage. With this, the Mabilians attacked. Natives came from their houses, confiscated de Soto's supplies, and pushed the Spanish back to the town gates.[NEWLINE][NEWLINE]The Spanish barely escaped from the well-fortified town, suffering significant losses. De Soto was determined to attack the town but, after numerous assaults and many hours, relented to set the village on fire. The exact count of the dead is not known, but Spanish accounts at the time put the number of natives killed between 2,500 and 3,000. This range would make the battle one of the bloodiest in recorded North American history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_HEADING_4">
+			<Text>Judgment of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_TEXT_4">
+			<Text>So little is known about Mississippian chiefs that it is difficult to adequately compare Tuskaloosa to his contemporaries. What is known of Tuskaloosa's life is also told through the eyes of foreign invaders, and thus not the most reliable account of his character. Nevertheless, it appears Tuskaloosa was an intimidating figure; both physically and politically. He was feared and respected by his numerous vassal states as well as neighboring nations. His role in the Battle of Mabila also paints Tuskaloosa as a clever strategist and steadfast defender of his people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_HEADING_5">
+			<Text>Factoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_TEXT_5">
+			<Text>Tuskaloosa's name is derived from the western Muskogean language, meaning "Black Warrior".</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_MISSISSIPPI_MOD_TOMATEKH_DESC">
+			<Text>Mississippian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_MOD_TOMATEKH_SHORT_DESC">
+			<Text>The Mississippi</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_MOD_TOMATEKH_ADJECTIVE">
+			<Text>Mississippian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSISSIPPI_MOD_TOMATEKH">
+			<Text>The Mississippi</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_TITLE">
+			<Text>The Mississippi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_TEXT_1">
+			<Text>The Mississippian Culture was the last major pre-Columbian cultural development in North America, lasting from around AD 700 to the time of the arrival of the first European explorers; ca. AD 1600. It spread over a great area of the American Southeast and mid-continental river valleys, with scattered extensions northward and westward into the Great Plains. The culture was based on the intensive cultivation of maize, which resulted in large population centersm and participated within a larger exchange network known as the Southeastern Ceremonial Complex.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_TEXT_2">
+			<Text>Formed from thick layers of the Mississippi River's silt deposits, the Mississippi Embayment is one of the most fertile agricultural regions of North America; allowing indigenous groups to form prolific agricultural societies. The Mississippi also served as a vital transportation artery and communications link, connecting the cultures of the Rockies, Great Lakes, Gulf of Mexico, and Atlantic regions. Mississippian cultures in the South Appalachian region similarly settled on riverine floodplains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_HEADING_3">
+			<Text>Origins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_TEXT_3">
+			<Text>The Mississippi Culture is the third of the major mound building cultures of the North American continent; following the trade cultures of Poverty Point (1650 to 700 BC), and the Hopewell (200 BC to AD 500). Specifically, the Mississippian culture of Cahokia is believed to be descended from the Havana Hopewell, which began in the Ohio and Illinois River valleys around 300 BC.[NEWLINE][NEWLINE]Around AD 500 the Hopewell exchange network ceased, mound building stopped, and art forms were no longer produced. War is a possible cause, as villages dating to the Late Woodland Period shifted to larger communities building defensive fortifications and ditches. Colder climatic conditions could have also driven game animals north or west, as weather would have a detrimental effect on plant life, drastically cutting the subsistence base for these foods. It is also possible that the breakdown of the Hopewell social organization could have been directly tied to the rise of full-scale agriculture in the region.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_HEADING_4">
+			<Text>Chronology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_TEXT_4">
+			<Text>The Mississippi Culture is usually divided into three or more chronological periods. The Early Mississippi period (ca. AD 1000 to 1200) represents a transition from the Late Woodland Period way of life. Different groups abandoned tribal patterns for increasing complexity, sedentism, centralization, and agriculture. Production of surplus corn and attractions of the regional chiefdoms led to rapid population concentrations in major centers.[NEWLINE][NEWLINE]The Middle Mississippi period (ca. AD 1200 to 1400) is understood as the apex of the Mississippi Era. The expansion of the great metropolis and ceremonial complex at Cahokia, the formation of other complex chiefdoms, and the spread and development of the Southeastern Ceremonial Complex are characteristic of this period. Middle Mississippian cultures, especially those of Cahokia and Moundville, were very influential on neighboring societies. High status artifacts, including stone statuary and elite pottery, have been found far outside of the Middle Mississippian area. These items, especially the pottery, were also copied by local artists.[NEWLINE][NEWLINE]The Late Mississippi period (ca AD 1400 to 1540) is characterized by increased warfare, political turmoil, and population movement. The population of Cahokia dispersed early in this period, perhaps migrating to other rising political centers. More defensive structures are often seen at sites, and sometimes a decline in mound-building and large scale public ceremonialism. Although some areas continued an essentially Middle Mississippian culture until the first significant contact with Europeans, the population of most areas had dispersed or were experiencing severe social stress by 1500. Along with the contemporaneous Ancestral Pueblo peoples, these cultural collapses coincide with the global climate change of the Little Ice Age. Scholars theorize drought and the reduction of maize agriculture, together with possible deforestation and overhunting by the concentrated populations, forced them to move away from major sites. This period ended with European contact in the 16th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_HEADING_5">
+			<Text>Cultural Traits</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_TEXT_5">
+			<Text>A number of cultural traits are recognized as being characteristic of the Mississippians; distinguishing them from the Hopewell Culture. These traits include: the construction of large, truncated platform mounds; maize based agriculture; the use of riverine shells as tempering agents in their pottery; widespread trade networks; chiefdom level social complexity and institutionalized social inequality; a centralization of control of combined political and religious power; settlement hierarchy; and the adoption of the paraphernalia of the Southeastern Ceremonial Complex.[NEWLINE][NEWLINE]In most places, the development of Mississippian culture coincided with the adoption of comparatively large-scale, intensive maize agriculture, which supported larger populations and craft specialization. The Mississippians had no writing system or stone architecture. They worked naturally occurring metal deposits, such as hammering and annealing copper for ritual objects and other decorations, but did not smelt iron or practice bronze metallurgy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_HEADING_6">
+			<Text>Polities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_TEXT_6">
+			<Text>Politically and culturally, each large Mississippian town or village dominated a satellite of lesser villages. A central ceremonial plaza provided the nucleus of a Mississippian town, and each settlement had one or more platform mounds, surmounted by a temple or chief's residence, grouped around the plaza. This settlement pattern was typical of most of Middle America, but it had not diffused into North America until the advent of the Mississippian Culture. The scale of public works in the Mississippian Culture can be estimated based on the culture's largest earthworks, such as Monks Mound at Cahokia.[NEWLINE][NEWLINE]The magnitude of such public works and the distribution of temples suggest a dominant religious cult and a cadre of priest-rulers who could command the services of a large stable population, as well as several craftsmen guilds. Government, then, was likely in the hands of priest-rulers, and the complexes might best be understood as theocratic village-states. Warfare, which was apparently frequent, also produced larger alliances and even confederacies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_HEADING_7">
+			<Text>European Contact and Decline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_TEXT_7">
+			<Text>Native Americans of the Mississippian Culture interacted with Spanish colonizers, particularly expeditions led by Juan Pardo (1567 to 1568) and Hernando de Soto (1539 to 1543). Both expeditions ended violently, with the Battle of Mabilia, where Chief Tuskaloosa faced off against de Soto, understood to have been one of the bloodiest indigenous encounters in North American history. Nevertheless, the chronicles of de Soto are among the first documents written about Mississippian peoples and are an invaluable source of information on their cultural practices.[NEWLINE][NEWLINE]After the destruction and flight of the de Soto expedition, the Mississippian peoples continued their way of life with little direct European influence. Indirectly, however, European introductions dramatically changed native societies in the Eastern United States. Because the natives lacked immunity to new infectious diseases, such as measles and smallpox, epidemics caused so many fatalities that they undermined the social order of many chiefdoms. Some groups adopted European horses and changed to nomadism. Political structures collapsed in many places.[NEWLINE][NEWLINE]By the time more documentary accounts were being written, the Mississippian way of life had changed irrevocably. Some groups maintained a link through oral tradition to their mound-building past, such as the late nineteenth century Cherokee. Other Native American groups, having migrated many hundreds of miles and lost their elders to diseases, did not know their ancestors had built the mounds dotting the landscape.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_STATBOX">
+			<Text>[NEWLINE]        Leader: Tuskaloosa[NEWLINE]        Unique Unit: Falcon Dancer[NEWLINE]        Unique Building: Mound Temple[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_FACTOID_HEADING">
+			<Text>Mississippian Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MISSISSIPPI_MOD_TOMATEKH_FACTOID_TEXT">
+			<Text>By AD 1250, Cahokia hosted a larger population than many contemporaneous European cities, including London and Paris.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_1">
+			<Text>Cahokia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_2">
+			<Text>Moundville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_3">
+			<Text>Spiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_4">
+			<Text>Angel Mounds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_5">
+			<Text>Atahachi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_6">
+			<Text>Emerald Mound</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_7">
+			<Text>Etowah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_8">
+			<Text>Kincaid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_9">
+			<Text>Castalian Springs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_10">
+			<Text>Cloverdale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_11">
+			<Text>Grand Village</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_12">
+			<Text>Mabila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_13">
+			<Text>Holly Bluff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_14">
+			<Text>Jaketown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_15">
+			<Text>Bottle Creek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_16">
+			<Text>Boyd Mounds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_17">
+			<Text>Fox Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_18">
+			<Text>Long Swamp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_19">
+			<Text>Mound Bottom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_20">
+			<Text>Ocmulgee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_21">
+			<Text>Nodena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_22">
+			<Text>Murphy Mound</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_23">
+			<Text>Nikwasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_24">
+			<Text>Slack Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_25">
+			<Text>Tolu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_26">
+			<Text>Winterville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_27">
+			<Text>Twin Mounds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_28">
+			<Text>Talisi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_29">
+			<Text>Caxa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_30">
+			<Text>Eaker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_31">
+			<Text>Midway Village</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_32">
+			<Text>Dyar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_33">
+			<Text>Sellars Mound</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_34">
+			<Text>Uxapita</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISSISSIPPI_MOD_TOMATEKH_35">
+			<Text>Sixtoe Mound</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_SPY_NAME_MISSISSIPPI_MOD_TOMATEKH_0">
+			<Text>Kikikwawason</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MISSISSIPPI_MOD_TOMATEKH_1">
+			<Text>Tomochichi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MISSISSIPPI_MOD_TOMATEKH_2">
+			<Text>Emistesigo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MISSISSIPPI_MOD_TOMATEKH_3">
+			<Text>Lamochattee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MISSISSIPPI_MOD_TOMATEKH_4">
+			<Text>Osceola</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MISSISSIPPI_MOD_TOMATEKH_5">
+			<Text>Eyota</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MISSISSIPPI_MOD_TOMATEKH_6">
+			<Text>Onawa</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MISSISSIPPI_MOD_TOMATEKH_7">
+			<Text>Halona</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MISSISSIPPI_MOD_TOMATEKH_8">
+			<Text>Mausi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MISSISSIPPI_MOD_TOMATEKH_9">
+			<Text>Cocheta</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_CITYSTATE_MOD_PUEBLO">
+			<Text>Chaco Canyon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MOD_PUEBLO_ADJ">
+			<Text>Chaco Canyon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MOD_PUEBLO_PEDIA">
+			<Text>Chaco Canyon is an archeological complex in what is today the southwestern United States which preserves some of the most notable and complex ruins of the Ancestral Pueblo people. It has been a site of continuous habitation since at least 7000 BC, with the Ancestral Pueblo emerging from the local Basketmaker culture around AD 750. It is around this time that they built the mesa's first pueblos, crescent shaped complexes, and ceremonial kivas. Between AD 850 to 1250, Chaco Canyon served as the administrative, economic, and ceremonial center for the Ancestral Pueblo. Strong evidence also attests to a canyon wide turquoise processing and trading industry dating from the tenth century.[NEWLINE][NEWLINE]The Ancestral Pueblo survived using a combination of hunting, gathering, and subsistence farming of crops such as corn, beans, and squash. They used astronomical observations to plan their farming and religious ceremonies, drawing on both natural features in the landscape and masonry structures built for this purpose. Several great houses in the region were aligned to the cardinal directions, which positioned windows, doors, and walls along the path of the sun; whose rays would indicate the passing of seasons.[NEWLINE][NEWLINE]The Chaco Canyon political system began unravelling around AD 1140 following a period of social and environmental instability driven by a series of severe and prolonged droughts. Outlying communities began to depopulate and, by the end of the century, the buildings in the central canyon had been neatly sealed and abandoned. The Ancestral Pueblo ultimately migrated from the area and moved south to locations in Arizona and New Mexico.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_FOOD_DUMMY_DESC">
+			<Text>Mississippi Dummy 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_FOOD_DUMMY_HELP">
+			<Text>+1% [ICON_FOOD] Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_MAINT_DUMMY_DESC">
+			<Text>Mississippi Dummy 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_MAINT_DUMMY_HELP">
+			<Text>-10% Building Maintenance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_PROD_DUMMY_DESC">
+			<Text>Mississippi Dummy 3</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_PROD_DUMMY_HELP">
+			<Text>+50% [ICON_PRODUCTION] Production when building Land Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_FOOD_DUMMY_STRATEGY">
+			<Text>This building cannot be constructed but rather facilitates the Mississippian unique abilities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MISSISSIPPI_FOOD_DUMMY_TEXT">
+			<Text>In most places, the development of Mississippian culture coincided with adoption of comparatively large-scale, intensive maize agriculture, which supported larger populations and craft specialization.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_LEADER_MISSISSIPPI_MOD_TOMATEKH_DESC_MOD">
+			<Text>Tuskaloosa[ICON_STRENGTH][ICON_TRADE]</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_GENERIC_MISSISSIPPI_MOD_TOMATEKH_INFLUENTIAL_ON_AI_1">
+			<Text>My people are now playing chunkey and trading shell gorgets. I worry the rest of the world will soon succumb to your culture.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_PMMM_LEADER_MG_NAME_MISSISSIPPI_MOD_TOMATEKH">
+			<Text>Sehoy</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_EVENT_CULDEV_TOMATEKH_MISSISSIPPI_01">
+			<Text>Flint-clay cult figures have been carved in {1_City}.</Text>
+		</Row>
+		<!-- -->
+	</Language_ES_ES>	
+</GameData>

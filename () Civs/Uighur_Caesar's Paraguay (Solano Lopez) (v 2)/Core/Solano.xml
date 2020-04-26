@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 01/01/17 12:44:13 PM -->
+<LeaderScene FallbackImage="Solano.dds">
+	<LeaderObject  model="solano.fxsxml"></LeaderObject>
+</LeaderScene>
+
+
+	
+
+
