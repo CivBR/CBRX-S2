@@ -3,8 +3,8 @@
 --==========================================================================================================================
 INSERT INTO BuildingClasses
                 (Type,                                                          NoLimit)
-VALUES  ('BUILDINGCLASS_CLKULIN_TANDERRUM',     true),
-                ('BUILDINGCLASS_CLKULIN_OMW',           true);
+VALUES  ('BUILDINGCLASS_CLKULIN_TANDERRUM',     1),
+                ('BUILDINGCLASS_CLKULIN_OMW',           1);
  
 --==========================================================================================================================
 -- Buildings
