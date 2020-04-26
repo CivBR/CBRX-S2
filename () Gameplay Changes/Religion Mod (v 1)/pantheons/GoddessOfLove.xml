@@ -3,7 +3,7 @@
 <GameData>
     <Beliefs>
         <Update>
-            <Set MinPopulation="8" HappinessPerCity="2">
+            <Set MinPopulation="8" HappinessPerCity="2"/>
             <Where Type="BELIEF_GODDESS_LOVE" />
         </Update>
     </Beliefs>
