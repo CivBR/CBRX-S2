@@ -46,7 +46,7 @@ INSERT INTO Civilizations_YnAEMP
 		(CivilizationType,			MapPrefix,				X,		Y,		AltX,	AltY,	CapitalName, AltCapitalName)
 VALUES	('CIVILIZATION_SF_KOSOVO',	'AfriAsiaAus',			35,		78,		34,		79,		null,		 null),
 		('CIVILIZATION_SF_KOSOVO',	'AfriSouthEuro',		43,		73,		41,		74,		null,		 null),
-		('CIVILIZATION_SF_KOSOVO',	'Adriatic'				60,		60,		59,		61,		null,		 null),
+		('CIVILIZATION_SF_KOSOVO',	'Adriatic',				60,		60,		59,		61,		null,		 null),
 		('CIVILIZATION_SF_KOSOVO',	'Apennine',				58,		38,		57,		39,		null,		 null),
 		('CIVILIZATION_SF_KOSOVO',	'Caucasus'				4,		47,		3,		48,		null,		 null),		
 		('CIVILIZATION_SF_KOSOVO',	'Cordiform',			41,		24,		40,		25,		null,		 null),
