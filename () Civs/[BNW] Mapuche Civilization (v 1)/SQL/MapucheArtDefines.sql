@@ -20,6 +20,6 @@ INSERT INTO ArtDefine_UnitMemberInfos (Type, Scale, ZOffset, Domain, Model, Mate
 
 INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset )
 	SELECT	('ART_DEF_UNIT_TOQUI'), TileType, ('sv_toqui.dds')
-	FROM ArtDefine_StrategicView WHERE (Type = 'ART_DEF_UNIT_GENERAL');
+	FROM ArtDefine_StrategicView WHERE (StrategicViewType = 'ART_DEF_UNIT_GENERAL');
 
 	--
