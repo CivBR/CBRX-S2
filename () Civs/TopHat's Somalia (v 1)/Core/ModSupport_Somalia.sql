@@ -59,7 +59,7 @@ DELETE FROM MinorCivilizations_YnAEMP WHERE CivilizationType IN ('MINOR_CIV_MOGA
 
 -- Credit to DarthKyofu for finding the TSLs for Aden
 INSERT INTO MinorCivilizations_YnAEMP
-	(CivilizationType,	MapPrefix,		X,	Y)
+	(MinorCivType,	MapPrefix,		X,	Y)
 VALUES	('MINOR_CIV_MOGADISHU',	'AfriAsiaAust',		60,	28),
 	('MINOR_CIV_MOGADISHU',	'AfriGiant',		51,	15),
 	('MINOR_CIV_MOGADISHU',	'AfriSouthEuro',	18,	53),
