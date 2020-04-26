@@ -1202,9 +1202,9 @@
 		<Row Tag="TXT_KEY_BUILDING_FW_ULTIMATOWER">
 			<Text>Ultima Tower</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_FW_MiapolisCT">
-			<Text>Miapolis</Text>
-		</Row>
+		<!-- <Row Tag="TXT_KEY_BUILDING_FW_MIAPOLISCT"> -->
+			<!-- <Text>Miapolis</Text> -->
+		<!-- </Row> -->
 		<Row Tag="TXT_KEY_BUILDING_FW_BUENOSAIRESFORUM">
 			<Text>Buenos Aires Forum</Text>
 		</Row>

@@ -38,7 +38,7 @@ end)
 
 function DoLogAI(type, val1, val2, val3, val4, val5, val6, val7)
 	if not bVictory then
-		LuaEvents.JustAILogDoLog(type, val1, val2, val3, val4, val5, val6, val7)
+		--LuaEvents.JustAILogDoLog(type, val1, val2, val3, val4, val5, val6, val7)
 --		table.insert(aiLog, 1, {type, Game.GetGameTurn(), val1, val2, val3, val4, val5, val6, val7})
 		if type == 1 then
 			print(Game.GetGameTurn() .. "T: <<" .. val2 .. ">> Founded by " .. Players[val1]:GetName() .. " (" .. val3 .. "," .. val4 .. ")")

@@ -14,12 +14,12 @@
 			<Description>TXT_KEY_BUILDING_FW_BUENOSAIRESFORUM</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
-		<Row>
-			<Type>BUILDINGCLASS_FW_MiapolisCT</Type>
-			<DefaultBuilding>BUILDING_FW_MiapolisCT</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_FW_MiapolisCT</Description>
-			<MaxGlobalInstances>1</MaxGlobalInstances>
-		</Row>
+		<!-- <Row> -->
+			<!-- <Type>BUILDINGCLASS_FW_MIAPOLISCT</Type> -->
+			<!-- <DefaultBuilding>BUILDING_FW_MIAPOLISCT</DefaultBuilding> -->
+			<!-- <Description>TXT_KEY_BUILDING_FW_MIAPOLISCT</Description> -->
+			<!-- <MaxGlobalInstances>1</MaxGlobalInstances> -->
+		<!-- </Row> -->
 		<Row>
 			<Type>BUILDINGCLASS_FW_ULTIMATOWER</Type>
 			<DefaultBuilding>BUILDING_FW_ULTIMATOWER</DefaultBuilding>
