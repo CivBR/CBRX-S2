@@ -19,4 +19,4 @@ INSERT INTO ArtDefine_UnitMemberInfos (Type, Scale, ZOffset, Domain, Model, Mate
 
 INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset )
 	SELECT	('ART_DEF_UNIT_SENSHI_JAHAZI'), TileType, 'sv_Jahazi.dds'
-	FROM ArtDefine_StrategicView WHERE (Type = 'ART_DEF_UNIT_CARAVEL');
+	FROM ArtDefine_StrategicView WHERE (StrategicViewType = 'ART_DEF_UNIT_CARAVEL');
