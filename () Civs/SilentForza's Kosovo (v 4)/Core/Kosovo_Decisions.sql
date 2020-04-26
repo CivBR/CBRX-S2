@@ -27,5 +27,5 @@ INSERT INTO Policies
 VALUES	('POLICY_SF_KOSOVO_TOURISM',		'TXT_KEY_SF_KOSOVO_DECISIONS_WINEINDUSTRY');	
 
 INSERT INTO Policy_BuildingClassTourismModifiers
-		(Type, 							BuildingClassType, 					TourismModifier)
+		(PolicyType, 							BuildingClassType, 					TourismModifier)
 VALUES	('POLICY_SF_KOSOVO_TOURISM', 	'BUILDINGCLASS_SF_KOSOVO_TOURISM',	2);
