@@ -115,7 +115,7 @@ VALUES          ('CIVILIZATION_CL_KULIN',                       NULL,           
 INSERT INTO Civilization_JFD_RevolutionaryCivilizationsToSpawn
                 (CivilizationType,                                              RevolutionaryCivilizationType)
 SELECT  ('CIVILIZATION_CL_KULIN'),      ('CIVILIZATION_CL_AUSTRALIA')
-WHERE EXISTS (SELECT TYPE FROM Civilizations WHERE TYPE = 'CIVILIZATION_CL_AUSTRALIA')
+WHERE EXISTS (SELECT TYPE FROM Civilizations WHERE TYPE = 'CIVILIZATION_CL_AUSTRALIA');
  
 --==========================================================================================================================   
 -- JFD's and Pouakai's MERCENARIES
@@ -196,7 +196,7 @@ VALUES  ('CIVILIZATION_CL_KULIN',               'TXT_KEY_JFD_HEAD_OF_GOVERNMENT_
         ('CIVILIZATION_CL_KULIN',               'TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_5'),
         ('CIVILIZATION_CL_KULIN',               'TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_6'),
         ('CIVILIZATION_CL_KULIN',               'TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_7'),
-        ('CIVILIZATION_CL_KULIN',               'TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_8'),
+        ('CIVILIZATION_CL_KULIN',               'TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_KULIN_8');
 ------------------------------------------------------------
 -- Flavors
 ------------------------------------------------------------   
