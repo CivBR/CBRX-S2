@@ -11,8 +11,8 @@ VALUES  ('BUILDINGCLASS_CLKULIN_TANDERRUM',     1),
 --==========================================================================================================================
 INSERT INTO     Buildings
                         (Type,                                                  BuildingClass,                                          Cost,   NukeImmune, NeverConquest)
-        VALUES  ('BUILDING_CLKULINTANDERRUM',   'BUILDINGCLASS_CLKULIN_TANDERRUM',      -1,             true,           true),
-                        ('BUILDING_CLKULINOMW',                 'BUILDINGCLASS_CLKULIN_OMW',            -1,             true,           true);
+        VALUES  ('BUILDING_CLKULINTANDERRUM',   'BUILDINGCLASS_CLKULIN_TANDERRUM',      -1,             1,           1),
+                        ('BUILDING_CLKULINOMW',                 'BUILDINGCLASS_CLKULIN_OMW',            -1,             1,           1);
  
 UPDATE          Buildings
         SET             TradeRouteSeaDistanceModifier = 10,     TradeRouteLandDistanceModifier = 10
