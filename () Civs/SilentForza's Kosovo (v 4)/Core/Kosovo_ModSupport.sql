@@ -48,7 +48,7 @@ VALUES	('CIVILIZATION_SF_KOSOVO',	'AfriAsiaAus',			35,		78,		34,		79,		null,		 n
 		('CIVILIZATION_SF_KOSOVO',	'AfriSouthEuro',		43,		73,		41,		74,		null,		 null),
 		('CIVILIZATION_SF_KOSOVO',	'Adriatic',				60,		60,		59,		61,		null,		 null),
 		('CIVILIZATION_SF_KOSOVO',	'Apennine',				58,		38,		57,		39,		null,		 null),
-		('CIVILIZATION_SF_KOSOVO',	'Caucasus'				4,		47,		3,		48,		null,		 null),		
+		('CIVILIZATION_SF_KOSOVO',	'Caucasus',				4,		47,		3,		48,		null,		 null),		
 		('CIVILIZATION_SF_KOSOVO',	'Cordiform',			41,		24,		40,		25,		null,		 null),
 		('CIVILIZATION_SF_KOSOVO',	'EarthMk3',				22,		54,		20,		56,		null,		 null),
 		('CIVILIZATION_SF_KOSOVO',	'EuroGiant',			83,		37,		82,		38,		null,		 null),
