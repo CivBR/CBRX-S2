@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1c617543-4e37-4fe5-9ce6-655a7695bdc2" version="1">
+  <Properties>
+    <Name>TarcisioCM's Yuan - Kublai Khan</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Yuan Dynasty of China to the game under Kublai Khan.</Teaser>
+    <Description>Adds the Yuan Dynasty of China to the game under Kublai Khan.</Description>
+    <Authors>TarcisioCM</Authors>
+    <SpecialThanks>Tranq, Chrisy</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP v23/25" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="Cultural Diversity" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFDDLC" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Suk's Events and Decisions" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="5A580836015F9C850AB35F55E2B6E160" import="1">Art Files/3D Models/WarJunk.fxsxml</File>
+    <File md5="9055CFE68543E265F5F097FD57516888" import="1">Art Files/3D Models/WarJunk.gr2</File>
+    <File md5="7038C2D91B8CFDBE084AE650311D0165" import="1">Art Files/3D Models/WarJunk_diff.dds</File>
+    <File md5="A0259BA1FB1B544F89BBD5A07BE8B90F" import="1">Art Files/3D Models/WarJunk_sref.dds</File>
+    <File md5="34436D6CD30A0E6806395A56C747DB7C" import="1">Art Files/Icon Atlases/Tar_Yuan_Alpha128.dds</File>
+    <File md5="5BF450D2953F4E128E7C535C13EA2785" import="1">Art Files/Icon Atlases/Tar_Yuan_Alpha16.dds</File>
+    <File md5="E1C6FA78A475FC60D757DD5B7721D38E" import="1">Art Files/Icon Atlases/Tar_Yuan_Alpha24.dds</File>
+    <File md5="FDF4DDCD9FF78D6499C95986FEA25ACF" import="1">Art Files/Icon Atlases/Tar_Yuan_Alpha256.dds</File>
+    <File md5="78C469FE6B38B44F450A113F16AC50C9" import="1">Art Files/Icon Atlases/Tar_Yuan_Alpha32.dds</File>
+    <File md5="FFEEAEC012E111AFA666D5B3291D194A" import="1">Art Files/Icon Atlases/Tar_Yuan_Alpha45.dds</File>
+    <File md5="7D8DA7A2B8B9D453A65981EDD5A38C7D" import="1">Art Files/Icon Atlases/Tar_Yuan_Alpha48.dds</File>
+    <File md5="D154A914420DD989DCFACA4349F2B45C" import="1">Art Files/Icon Atlases/Tar_Yuan_Alpha64.dds</File>
+    <File md5="146D7A5AA3C3DF2EBDF0C1920CA535A2" import="1">Art Files/Icon Atlases/Tar_Yuan_Alpha80.dds</File>
+    <File md5="7C14174F5E772D08679BBCE054C74627" import="1">Art Files/Icon Atlases/Tar_Yuan_Icons_128.dds</File>
+    <File md5="3B77FA9E6D588604AAE3DCC45680A0C6" import="1">Art Files/Icon Atlases/Tar_Yuan_Icons_256.dds</File>
+    <File md5="5A296B9B49CD8316F63D44D163F12918" import="1">Art Files/Icon Atlases/Tar_Yuan_Icons_32.dds</File>
+    <File md5="130D69C3B27602A4BC408B3932940EA6" import="1">Art Files/Icon Atlases/Tar_Yuan_Icons_45.dds</File>
+    <File md5="D4686B6EF1BB67635AAFF55CB9D831D9" import="1">Art Files/Icon Atlases/Tar_Yuan_Icons_64.dds</File>
+    <File md5="BBC30E74B9418DF46FCE6883F1EA0B23" import="1">Art Files/Icon Atlases/Tar_Yuan_Icons_80.dds</File>
+    <File md5="8A9DF05BE7B854A7A7E36CB6E8CE1B60" import="1">Art Files/Icon Atlases/Tar_Yuan_Sao_Alpha_128.dds</File>
+    <File md5="86A53260299975A3A97E7BDA485FB8DF" import="1">Art Files/Icon Atlases/Tar_Yuan_Sao_Alpha_32.dds</File>
+    <File md5="5B1115ED459AE08A0B79AC77D4973D56" import="1">Art Files/Splash Artworks/Tar_Yuan_DOM.dds</File>
+    <File md5="BE4F774E87CC028FD374D0F87B42FFA4" import="1">Art Files/Splash Artworks/Tar_Yuan_Leaderscreen.dds</File>
+    <File md5="15C95F8D8099EB236EAB9775325838E7" import="1">Art Files/Splash Artworks/Tar_Yuan_Map.dds</File>
+    <File md5="B2FEA59C1A9C2F367CED000C32940F9F" import="0">Code/ArtDefines.sql</File>
+    <File md5="FD53F04D41ADF69D4FDE8C6A26CBBDF9" import="0">Code/Functions.lua</File>
+    <File md5="399D475B1D2203ACC8811815A0EA76AF" import="0">Code/GameDefines.sql</File>
+    <File md5="A7BE0C5EB157D178A3BA45D8BAAA9437" import="0">Code/ModSupport.sql</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Code/Sukritact_SaveUtils.lua</File>
+    <File md5="772DD9402954C0918FDCF2369E12C47F" import="0">Code/TextDefines.xml</File>
+    <File md5="8650AD86016D3DE7A9493EFDB165752D" import="1">Code/YuanDecisions.lua</File>
+    <File md5="A016E127D5F61176F4A6D275D0847D7E" import="1">Code/YuanLeaderscreen.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Code/TextDefines.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Code/Functions.lua">
+      <Name>TarYuanLua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

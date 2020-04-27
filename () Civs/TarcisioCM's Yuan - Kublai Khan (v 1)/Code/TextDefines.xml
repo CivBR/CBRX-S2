@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_TAR_YUAN_DESC">
+			<Text>Yuan Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAR_YUAN_SHORT_DESC">
+			<Text>Yuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAR_YUAN_ADJECTIVE">
+			<Text>Yuan</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_DOM_TAR_YUAN_TEXT">
+			<Text>Praise to you, Emperor Kublai Khan of the Yuan Dynasty. You are renowned as one of history's great conquerors, unifying China using her own technology and claiming her Mandate of Heaven for yourself. Your excellence extends further, though: your domestic reforms were beneficial and progressive, ensuring your family would control China for many generations. While many will know that your invasion of Japan was unsuccessful, the torment of nature is but a footnote to your many successes on the mainland.[NEWLINE][NEWLINE]Son of Heaven, the Chinese and Mongolian peoples require your guidance. Will you take advantage of technology to end infighting and bring unity? Will you introduce startling new reforms, ahead of their time in economic and tolerant thinking? Will you build a civilization to stand the test of time?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_TAR_YUAN_TITLE">
+			<Text>Yuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_YUAN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_YUAN_TEXT_1">
+			<Text>The Mongolian Empire formed the largest contiguous empire in the history of the world, stretching from the Danube to the Sea of Japan and from Siberia to Cambodia - roughly 22% of the Earth's land area. From humble beginnings as a mish-mash of unaligned nomadic tribes, the Mongols changed the face of the ancient world and became one of the most feared and effective military forces ever to walk the land.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TAR_KUBLAI_KHAN_PEDIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_KUBLAI_KHAN_PEDIA_TEXT_1">
+			<Text>The grandson of the great Mongol leader Genghis Khan, Kublai oversaw the transformation of the Mongol people from nomadic warriors to sedentary farmers and townsfolk. He also captured the southern half of China, reunifying the country under one rule and taking for himself the title of "Emperor."[NEWLINE][NEWLINE]Ascending to the throne in 1260 at around the age of 45, Kublai was revealed to be a shrewd and skilled political leader. As Emperor of China, he followed his father's precepts of being gentle with the subject peoples in order to keep them happy; he restored many of the Chinese traditions and institutions that his predecessors had banned. Further, Kublai returned much political control back to the native people, and he reinstated numerous Confucian rituals and ceremonies at court. He also commissioned many public works, including the repair of the Grand Canal and extending China's highway system. Through these actions he secured his throne, allowing him to turn his attention to conquering the southern half of China, which was under the control of the Song dynasty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_KUBLAI_KHAN_PEDIA_LIVED">
+			<Text>1215 - 1294 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_KUBLAI_KHAN_PEDIA_NAME">
+			<Text>Kublai Khan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_KUBLAI_KHAN_PEDIA_SUBTITLE">
+			<Text>Leader of Yuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_KUBLAI_KHAN_PEDIA_TITLES_1">
+			<Text>Khagan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_KUBLAI_KHAN_PEDIA_TITLES_2">
+			<Text>Emperor</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TAR_KUBLAI_KHAN">
+			<Text>Kublai Khan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TAR_YUAN_KUBLAI_KHAN_SHORT">
+			<Text>Mandate Lost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TAR_YUAN_KUBLAI_KHAN">
+			<Text>While at war, passively researches a technology from the enemy; their cities will take damage each turn once they are surpassed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAR_YUAN_C15_UA_TEXT">
+			<Text>Our work researching our enemies technologies has generated +{2_Science} [ICON_RESEARCH] Science towards {1_Tech}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_KUBLAI_KHAN_FIRSTGREETING_1">
+			<Text>Tremble in fear, visitor, for you stand before the Son of Heaven himself. What business could you have with a conqueror as great as myself?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_KUBLAI_KHAN_DEFEATED_1">
+			<Text>My empire has fallen; my mandate is yours.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TAR_SECRETARIAT">
+			<Text>Secretariat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TAR_SECRETARIAT_HELP">
+			<Text>Courthouse replacement that doubles the amount of Units produced if your enemies have a larger combined army.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TAR_SECRETARIAT_STRATEGY">
+			<Text>The Secretariat is a powerful Courthouse that allows you to rapidly increase your military output from conquered Cities. Although it doesn't provide [ICON_PRODUCTION] Production bonuses, it instead produces double the usual Units you'd receive while your army is smaller than the force you face.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_SECRETARIAT_TEXT">
+			<Text>Dw it's actually a different icon to the Summer Palace so it's fine.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_TAR_SAO">
+			<Text>Sao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TAR_SAO">
+			<Text>Overwhelming Naval Unit produced in groups of three, but destroying one sinks all three. Only Yuan may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TAR_SAO_STRATEGY">
+			<Text>The Sao is a Galleass replacement for Yuan that creates multiple copies of itself when trained. Although this provides you with significant combat power, care is required as losing one of these Units will destroy both its partners!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_TAR_SAO_TEXT">
+			<Text>Smth smth Divine Wind</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GENERIC_TAR_YUAN_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now playing the Morin Khuur while singing with their throats. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_DECISIONS_TAR_GUANG_HUI_SI">
+			<Text>Establish the Guang Hui Si</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_GUANG_HUI_SI_DESC">
+			<Text>
+				Certain religious minorities within our empire appear posess a impressive scientific and medical aptitude. Perhaps it would be smart to place these people in charge of our medical practices, for the benefit of our wider population?
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Yuan
+				[NEWLINE][ICON_BULLET]Player must have discovered the Education technology
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE][ICON_BULLET]Must have a {3_Religion} Religion
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]{2_Faith} [ICON_PEACE] Faith
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]{5_Specialists} Specialists yield +1 {4_Yield} in all Cities
+				[NEWLINE][ICON_BULLET]Receive a free Hospital in all Cities that don't follow your {3_Religion} Religion
+				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]The [ICON_PEACE] Faith cost increases with the number of your Cities that don't follow your {3_Religion} Religion.[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_GUANG_HUI_SI_DESC_ENACTED">
+			<Text>
+				Certain religious minorities within our empire appear posess a impressive scientific and medical aptitude. Perhaps it would be smart to place these people in charge of our medical practices, for the benefit of our wider population?
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]{3_Specialists} Specialists yield +1 {2_Yield} in all Cities
+				[NEWLINE][ICON_BULLET]Receive a free Hospital in all Cities that don't follow your {1_Religion} Religion
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_CHAO">
+			<Text>Establish the Chao Currency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_CHAO_DESC">
+			<Text>
+				A key aspect of an economy is to keep money moving. The issue is however that if someone accumulates a great amount of wealth, they have to lug it all around with them when they want to go shopping. Therefore, introducing a paper currency will allow our wealthy population to continue to spend money without having to carry more cash in than products out!
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Yuan
+				[NEWLINE][ICON_BULLET]Player must have discovered the Banking technology
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE][ICON_BULLET]Must have at least one Mint
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Culture} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Yield Bonuses on Resources from Mints removed
+				[NEWLINE][ICON_BULLET]Cost of [ICON_GOLD] Gold Purchasing in all Cities reduced by 25%
+				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]The [ICON_CULTURE] Culture cost is equal to the size of your [ICON_GOLD] Gold treasury.[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_CHAO_DESC_ENACTED">
+			<Text>
+				A key aspect of an economy is to keep money moving. The issue is however that if someone accumulates a great amount of wealth, they have to lug it all around with them when they want to go shopping. Therefore, introducing a paper currency will allow our wealthy population to continue to spend money without having to carry more cash in than products out!
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Yield Bonuses on Resources from Mints removed
+				[NEWLINE][ICON_BULLET]Cost of [ICON_GOLD] Gold Purchasing in all Cities reduced by 25%
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

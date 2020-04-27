@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="13d30740-eb56-4aa6-90cf-af0087e0a2dd" version="1">
+  <Properties>
+    <Name>TarcisioCM - Spain (Carlos III)</Name>
+    <Teaser>Adds [COLOR_POSITIVE_TEXT]Spain[ENDCOLOR] under Carlos III. Requires BNW.</Teaser>
+    <Description>Adds [COLOR_POSITIVE_TEXT]Spain[ENDCOLOR] under Carlos III. Requires BNW.</Description>
+    <Authors>TarcisioCM, Janboruta, Regalman</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="JFD’s Sovereignty" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD’s and Pouakai’s Mercenaries	" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD’s Claims and Colonies" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="D95525BCB419174B51CCACCDA2168ABF" import="1">Art/DDS/CarlosIII_Leaderhead.xml</File>
+    <File md5="A83C5103FAB9C333B823F31EE65D8A10" import="1">Art/DDS/sv_SantisimaTrinidad.dds</File>
+    <File md5="008DDF98F0910607807202271E712BD4" import="1">Art/DDS/sv_WalloonGuard.dds</File>
+    <File md5="485EC5543ACE043BDDBEBD18CD3B39C9" import="1">Art/DDS/TCM_BOURBON_SPAIN_DOM.dds</File>
+    <File md5="1436DD57076A390F92055B2235745F33" import="1">Art/DDS/TCM_BOURBON_SPAIN_MAP.dds</File>
+    <File md5="22ACDFD5071262C81868DC667DDC4B9E" import="1">Art/DDS/TCM_CarlosIII_Diplo.dds</File>
+    <File md5="A6FFAFA0F6467E4AAE9C8984E1206E86" import="1">Art/DDS/TCM_SpainCarlosIIIAlphaAtlas_128.dds</File>
+    <File md5="41CD098BBB37568366789D7DA45485B1" import="1">Art/DDS/TCM_SpainCarlosIIIAlphaAtlas_16.dds</File>
+    <File md5="8C8EB58B6D91A8CC25D318EA625F5F8D" import="1">Art/DDS/TCM_SpainCarlosIIIAlphaAtlas_22.dds</File>
+    <File md5="8CCCF9374CFFF0EC231BCC7E3C958A5A" import="1">Art/DDS/TCM_SpainCarlosIIIAlphaAtlas_24.dds</File>
+    <File md5="2416034973B990F78D4BBA7AB9804886" import="1">Art/DDS/TCM_SpainCarlosIIIAlphaAtlas_256.dds</File>
+    <File md5="8F9B9F3C7EEDAA6C26F3CDE28247021B" import="1">Art/DDS/TCM_SpainCarlosIIIAlphaAtlas_32.dds</File>
+    <File md5="398F23F86FC2633BDF4199E345683F0D" import="1">Art/DDS/TCM_SpainCarlosIIIAlphaAtlas_45.dds</File>
+    <File md5="D9776604BFB2489D510787FDE975992A" import="1">Art/DDS/TCM_SpainCarlosIIIAlphaAtlas_48.dds</File>
+    <File md5="D9BE3AC185ED3EEE008B3438A5FF2A11" import="1">Art/DDS/TCM_SpainCarlosIIIAlphaAtlas_64.dds</File>
+    <File md5="146EA937312BB7267CD682F6E5C9C86F" import="1">Art/DDS/TCM_SpainCarlosIIIAlphaAtlas_80.dds</File>
+    <File md5="65FEF3024EE732198CEA7152C5F772BD" import="1">Art/DDS/TCM_SpainCarlosIIIAtlas_128.dds</File>
+    <File md5="81F848C7180DF382DE3AFB151E1862F4" import="1">Art/DDS/TCM_SpainCarlosIIIAtlas_256.dds</File>
+    <File md5="DC504CC59DF4FF5A456BC707774B411E" import="1">Art/DDS/TCM_SpainCarlosIIIAtlas_32.dds</File>
+    <File md5="43FD25F8C51E3501CFCC3B9C91C0F954" import="1">Art/DDS/TCM_SpainCarlosIIIAtlas_45.dds</File>
+    <File md5="FFF0D896DD9A4BD2EDA2D64B89E4936D" import="1">Art/DDS/TCM_SpainCarlosIIIAtlas_64.dds</File>
+    <File md5="EA98D29BDEB197F0D39CB557537C6974" import="1">Art/DDS/TCM_SpainCarlosIIIAtlas_80.dds</File>
+    <File md5="92FB619E2DF736269554518E2767E86D" import="1">Art/DDS/tcm_SpainSantisimaTrinidadFlag_32.dds</File>
+    <File md5="81C5D528E81536D44378EAB0A1D1A6FC" import="1">Art/DDS/tcm_SpainWalloonGuardFlag_32.dds</File>
+    <File md5="2D58516855318B028994F69E0FF96924" import="1">Art/Models/spain_santisimatrinidad.fxsxml</File>
+    <File md5="BF5C56BF4A83C7635AA408AD0058FD8F" import="1">Art/Models/spain_santisimatrinidad.gr2</File>
+    <File md5="9FD8FAF7CEF8D8F490A570F685F5152E" import="1">Art/Models/spain_santisimatrinidad_diff.dds</File>
+    <File md5="F194EF0E05696E922BCF54C3D47F1C94" import="1">Art/Models/spain_santisimatrinidad_dmg_diff.dds</File>
+    <File md5="6E79240DD7A9BE6AB018F48ED65456FB" import="1">Art/Models/spain_santisimatrinidad_sref.dds</File>
+    <File md5="5F4A0E41A19DA43F1CC5C134D5F9BB91" import="1">Art/Models/spain_walloonguard.fxsxml</File>
+    <File md5="8BC6D8D3B879995DD727E552813BE395" import="1">Art/Models/spain_walloonguard.gr2</File>
+    <File md5="B67D8609CC65BC1A2C0DB8E07F8D9285" import="1">Art/Models/spain_walloonguard_diff.dds</File>
+    <File md5="141A9B2F15279D3BF71B2461E0F09E38" import="1">Art/Models/spain_walloonguard_sref.dds</File>
+    <File md5="C7D4BC83B536E77A72BC9C5462A7DF4B" import="1">Art/Music/TCM_BOURBON_SPAIN_PEACE.mp3</File>
+    <File md5="A845F1332CC4A7037D8CB43AED926A90" import="1">Art/Music/TCM_BOURBON_SPAIN_WAR.mp3</File>
+    <File md5="C5CD28267E3DF953A10C32A2D380F543" import="0">Code/ArtDef.sql</File>
+    <File md5="596066AA279EAA33A3FFDF7B78C02F5B" import="0">Code/CodeCore.sql</File>
+    <File md5="EB7FD7DBD50B7B151495CD9B6A880DCA" import="1">Code/Events and Decisions/tcmBourbonSpainDecisions.lua</File>
+    <File md5="675D7A99450123761BFAA537D470D5B5" import="0">Code/Functions.lua</File>
+    <File md5="A85A17159F8844013945516D5CC47D96" import="0">Code/Functions.xml</File>
+    <File md5="4132E769F7B729F3497F6D76E030A6BE" import="0">Code/GameText.xml</File>
+    <File md5="2B768C8EDCA096D4BCED558A3A210AD8" import="0">Code/ModSupport.sql</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Code/PlotIterators.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Code/SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/CodeCore.sql</UpdateDatabase>
+      <UpdateDatabase>Code/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Code/ArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Code/ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Code/Functions.lua">
+      <Name>Charles III Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
