@@ -43,16 +43,6 @@
 			<Text>[COLOR_POSITIVE_TEXT]Economic Union[ENDCOLOR][NEWLINE]+3 [ICON_GOLD] Gold from all your trade routes with other civilizations following this Ideology.</Text>
 		</Replace>
 		<!--LEVEL 1-->
-		<!--Developmentalism-->
-		<Row Tag="TXT_KEY_POLICY_JFD_DEVELOPMENTALISM">
-			<Text>Developmentalism</Text>
-		</Row>
-		<Row Tag="TXT_KEY_POLICY_JFD_DEVELOPMENTALISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Developmentalism[ENDCOLOR][NEWLINE]+15% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_POLICY_JFD_DEVELOPMENTALISM_TEXT">
-			<Text>Developmentalism is an economic theory which states that the best way for less developed economies to develop is through fostering a strong and varied internal market and imposing high tariffs on imported goods. The theory is based on the assumption that not only are there similar stages to development for all countries but also that there is a linear movement from one stage to another that goes from traditional or primitive to modern or industrialized. Though initially the preserve of emerging economies in the Asia Pacific area, Latin America and Africa, the notion of developmentalism has resurfaced more recently in the developed world - notably in the economic planks of 'unorthodox' policy makers such as Donald Trump and Bernie Sanders in the United States.</Text>
-		</Row>
 		<!--Hearts and Minds-->
 		<Row Tag="TXT_KEY_POLICY_JFD_HEARTS_AND_MINDS">
 			<Text>Hearts and Minds</Text>
@@ -80,16 +70,6 @@
 		<Row Tag="TXT_KEY_PROMOTION_JFD_HONOUR_GUARD_HELP">
 			<Text>20% stronger while fighting in the capital; bonus falls off as the unit gets further away.</Text>
 		</Row>
-		<!--National Church-->
-		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_CHURCH">
-			<Text>National Church</Text>
-		</Row>
-		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_CHURCH_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]National Church[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness per Monastery and Temple.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_CHURCH_TEXT">
-			<Text>A national church is a Christian church associated with a specific ethnic group or nation state. The idea was notably discussed during the 19th century, during the emergence of modern nationalism. The concept of a national church remains alive in the Protestantism of England and Scandinavia in particular. While, in a context of England, the national church remains a common denominator for the Church of England, some of the Lutheran "folk churches" of Scandinavia, characterized as national churches in the ethnic sense as opposed to the idea of a state church, emerged in the second half of the 19th century following the lead of Grundtvig. However, in countries in which the state church (also known as the established church) has the following of the majority of citizens, the state church may also be the national church, and may be declared as such by the government e.g. Church of Denmark, Church of Greece, Church of Iceland.</Text>
-		</Row>
 		<!--Language Revival-->
 		<Row Tag="TXT_KEY_POLICY_JFD_LANGUAGE_REVIVAL">
 			<Text>Language Revival</Text>
@@ -99,6 +79,26 @@
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_JFD_LANGUAGE_REVIVAL_TEXT">
 			<Text>Language revitalization, also referred to as language revival or reversing language shift, is an attempt to halt or reverse the decline of a language or to revive an extinct one. Those involved can include parties such as linguists, cultural or community groups, or governments. Some argue for a distinction between language revival (the resurrection of a dead language with no existing native speakers) and language revitalization (the rescue of a "dying" language). It has been pointed out that there has only been one successful instance of a complete language revival, that of the Hebrew language, creating a new generation of native speakers without any pre-existing native speakers as a model.</Text>
+		</Row>
+		<!--Moral Education-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MORAL_EDUCATION">
+			<Text>Moral Education</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MORAL_EDUCATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Moral Education[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture per Public School and University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MORAL_EDUCATION_TEXT">
+			<Text>Character education is an umbrella term loosely used to describe the teaching of children in a manner that will help them develop variously as moral, civic, good, mannered, behaved, non-bullying, healthy, critical, successful, traditional, compliant or socially acceptable beings. Concepts that now and in the past have fallen under this term include social and emotional learning, moral reasoning and cognitive development, life skills education, health education, violence prevention, critical thinking, ethical reasoning, and conflict resolution and mediation. Many of these are now considered failed programs, i.e. "religious education", "moral education", "values clarification".</Text>
+		</Row>
+		<!--National Church-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_CHURCH">
+			<Text>National Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_CHURCH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]National Church[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness per Monastery and Temple.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_CHURCH_TEXT">
+			<Text>A national church is a Christian church associated with a specific ethnic group or nation state. The idea was notably discussed during the 19th century, during the emergence of modern nationalism. The concept of a national church remains alive in the Protestantism of England and Scandinavia in particular. While, in a context of England, the national church remains a common denominator for the Church of England, some of the Lutheran "folk churches" of Scandinavia, characterized as national churches in the ethnic sense as opposed to the idea of a state church, emerged in the second half of the 19th century following the lead of Grundtvig. However, in countries in which the state church (also known as the established church) has the following of the majority of citizens, the state church may also be the national church, and may be declared as such by the government e.g. Church of Denmark, Church of Greece, Church of Iceland.</Text>
 		</Row>
 		<!--National Ethic-->
 		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_ETHIC">
@@ -131,15 +131,15 @@
 		<Row Tag="TXT_KEY_POLICY_JFD_AGRARIANISM_TEXT">
 			<Text>Agrarianism is a social philosophy or political philosophy which values rural society as superior to urban society and the independent farmer as superior to the paid worker, and sees farming as a way of life that can shape the ideal social values. It stresses the superiority of a simpler rural life as opposed to the complexity of city life. The philosophical roots of agrarianism include European and Chinese philosophers.</Text>
 		</Row>
-		<!--Moral Education-->
-		<Row Tag="TXT_KEY_POLICY_JFD_MORAL_EDUCATION">
-			<Text>Moral Education</Text>
+		<!--Monarchism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MONARCHISM">
+			<Text>Monarchism</Text>
 		</Row>
-		<Row Tag="TXT_KEY_POLICY_JFD_MORAL_EDUCATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Moral Education[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture per Public School and University.</Text>
+		<Row Tag="TXT_KEY_POLICY_JFD_MONARCHISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Monarchism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness, +2 [ICON_CULTURE] Culture, and +3 [ICON_PEACE] Faith from the Palace.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_POLICY_JFD_MORAL_EDUCATION_TEXT">
-			<Text>Character education is an umbrella term loosely used to describe the teaching of children in a manner that will help them develop variously as moral, civic, good, mannered, behaved, non-bullying, healthy, critical, successful, traditional, compliant or socially acceptable beings. Concepts that now and in the past have fallen under this term include social and emotional learning, moral reasoning and cognitive development, life skills education, health education, violence prevention, critical thinking, ethical reasoning, and conflict resolution and mediation. Many of these are now considered failed programs, i.e. "religious education", "moral education", "values clarification".</Text>
+		<Row Tag="TXT_KEY_POLICY_JFD_MONARCHISM_TEXT">
+			<Text>Monarchism is the advocacy of a monarch or monarchical rule. A monarchist is an individual who supports this form of government, independent of any specific monarch; one who espouses a particular monarch is a royalist. Conversely, the opposition to monarchical rule is sometimes referred to as republicanism. Depending on the country, a monarchist may advocate for the rule of the person who sits on the throne, a pretender, or someone who would otherwise occupy the throne but has been deposed.</Text>
 		</Row>
 		<!--National Rejuvenation-->
 		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_REJUVENATION">
@@ -151,15 +151,15 @@
 		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_REJUVENATION_TEXT">
 			<Text>A nation is a stable community of people, formed on the basis of a common language, territory, history, ethnicity, or psychological make-up manifested in a common culture. A nation is distinct from a people,[1] and is more abstract, and more overtly political, than an ethnic group. It is a cultural-political community that has become conscious of its autonomy, unity, and particular interests. A national rejuvenation, then, is the enhancement or promotion of a nation's consciousness and interests.</Text>
 		</Row>
-		<!--Monarchism-->
-		<Row Tag="TXT_KEY_POLICY_JFD_MONARCHISM">
-			<Text>Monarchism</Text>
+		<!--Patriotic Economics-->
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRIOTIC_ECONOMICS">
+			<Text>Patriotic Economics</Text>
 		</Row>
-		<Row Tag="TXT_KEY_POLICY_JFD_MONARCHISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Monarchism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness, +2 [ICON_CULTURE] Culture, and +3 [ICON_PEACE] Faith from the Palace.</Text>
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRIOTIC_ECONOMICS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Patriotic Economics[ENDCOLOR][NEWLINE]+15% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_POLICY_JFD_MONARCHISM_TEXT">
-			<Text>Monarchism is the advocacy of a monarch or monarchical rule. A monarchist is an individual who supports this form of government, independent of any specific monarch; one who espouses a particular monarch is a royalist. Conversely, the opposition to monarchical rule is sometimes referred to as republicanism. Depending on the country, a monarchist may advocate for the rule of the person who sits on the throne, a pretender, or someone who would otherwise occupy the throne but has been deposed.</Text>
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRIOTIC_ECONOMICS_TEXT">
+			<Text>Economic nationalism, or economic patriotism, economic populism, refers to an ideology that favors state interventionism over other market mechanisms, with policies such as domestic control of the economy, labor, and capital formation, even if this requires the imposition of tariffs and other restrictions on the movement of labor, goods and capital. In many cases, economic nationalists oppose globalization or at least question the benefits of unrestricted free trade. Economic nationalism is disputed as the doctrine of mercantilism, and as such favors protectionism.</Text>
 		</Row>
 		<!--Patriotic History-->
 		<Row Tag="TXT_KEY_POLICY_JFD_PATRIOTIC_HISTORY">

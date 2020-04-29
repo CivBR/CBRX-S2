@@ -62,7 +62,7 @@ SELECT PolicyType || '_A', YieldType, Yield
 FROM Policy_FounderYield WHERE PolicyType IS NOT NULL
 AND PolicyType IN (SELECT Type FROM Policies WHERE PolicyBranchType IN ('POLICY_BRANCH_FREEDOM', 'POLICY_BRANCH_ORDER') AND IsDuplicateIdeologicalTenet = 0);
 --------------------------------------------------------------------------------------------------------------------------
-CREATE TABLE IF NOT EXISTS Policy_ReligionBuildingYieldMod(PolicyType, BuildingClassType, YieldType, Yield);
+CREATE TABLE IF NOT EXISTS Policy_ReligionBuildingYieldMod(PolicyType, BuildingClassType, YieldType, YieldMod);
 INSERT INTO Policy_ReligionBuildingYieldMod (PolicyType, BuildingClassType, YieldType, YieldMod)
 SELECT PolicyType || '_A', BuildingClassType, YieldType, YieldMod
 FROM Policy_ReligionBuildingYieldMod WHERE PolicyType IS NOT NULL

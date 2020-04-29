@@ -38,8 +38,8 @@
     <File md5="C8636F2CF2BDDC8E7C7B49DC6A1E32B7" import="0">Core/SocialPolicyScreen_PolicyPanels.sql</File>
     <File md5="A28A8F973FDDEA78C912423380436399" import="0">Core/SocialPolicyScreen_Trigger.sql</File>
     <File md5="E885013441A5AFBF76CED09E1BA39D29" import="0">Credits.txt</File>
-    <File md5="D15E67151C7187DA3591BEF50F7BA703" import="1">Lua/UI/InGame/Popups/ChooseIdeologyPopup.lua</File>
-    <File md5="431D06E0A82B98F0B0BC7F5350E98F59" import="1">Lua/UI/InGame/Popups/ChooseIdeologyPopup.xml</File>
+    <File md5="24863F94C14A4D3A3E30CBC6BE642700" import="1">Lua/UI/InGame/Popups/ChooseIdeologyPopup.lua</File>
+    <File md5="05E6BF8341F579826D5E87AD0D5E22C5" import="1">Lua/UI/InGame/Popups/ChooseIdeologyPopup.xml</File>
     <File md5="AB86EF79594ED4CB35E9C7BE0291AE5D" import="1">Lua/UI/InGame/Popups/SocialPolicyPopup.lua</File>
     <File md5="9E8770DC943E903AF4BB066D087A773C" import="1">Lua/UI/InGame/Popups/SocialPolicyPopup.xml</File>
     <File md5="2A1C1C9A9B57C1E998467DE7A1119C9F" import="1">Lua/Utilities/JFD_SocialPolicyScreen_Utils.lua</File>

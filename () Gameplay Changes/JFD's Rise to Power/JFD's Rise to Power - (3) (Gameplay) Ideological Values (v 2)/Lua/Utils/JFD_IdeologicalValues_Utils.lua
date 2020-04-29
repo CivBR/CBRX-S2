@@ -101,13 +101,13 @@ function Player.GetIdeologicalValues(player)
 	numTotal = numAuthority + numEquality + numLiberty
 
 	if numAuthority > 0 then
-		numAuthorityPercent = Game.GetRound((numAuthority/numTotal)*100)
+		numAuthorityPercent = g_GetRound((numAuthority/numTotal)*100)
 	end
 	if numLiberty > 0 then
-		numLibertyPercent = Game.GetRound((numLiberty/numTotal)*100)
+		numLibertyPercent = g_GetRound((numLiberty/numTotal)*100)
 	end
 	if numEquality > 0 then
-		numEqualityPercent = Game.GetRound((numEquality/numTotal)*100)
+		numEqualityPercent = g_GetRound((numEquality/numTotal)*100)
 	end
 
 	return numAuthorityPercent, numLibertyPercent, numEqualityPercent
@@ -116,11 +116,11 @@ end
 --Player:HasIdeologicalValuesForTenet
 function Player.HasIdeologicalValuesForTenet(player, policyID)
 	local tenet = GameInfo.Policies[policyID]
-	local ideologicalValueType = player:GetPolicyIdeologicalValue(policyID)
-	if (not ideologicalValueType) then return true end
+	local ideologicalValueID = player:GetPolicyIdeologicalValue(policyID)
+	if (not ideologicalValueID) then return true end
 
 	local numAuthorityPercent, numEqualityPercent, numLibertyPercent = player:GetIdeologicalValues()
-	local ideologicalValue = GameInfo.JFD_IdeologicalValues[ideologicalValueType]
+	local ideologicalValueType = GameInfo.JFD_IdeologicalValues[ideologicalValueID].Type
 	local ideologicalValueReq = tenet.IdeologicalValueReq
 	if ideologicalValueType == "IDEOLOGICAL_VALUE_JFD_AUTHORITY" then
 		if (numAuthorityPercent >= ideologicalValueReq or tenet.PolicyBranchType == "POLICY_BRANCH_AUTOCRACY") then

@@ -639,24 +639,24 @@ function UpdateCombatOddsUnitVsCity(pMyUnit, pCity)
 					controlTable.Text:LocalizeAndSetText( "TXT_KEY_EUPANEL_NEARBYPROMOTION_CITY_COMBAT_BONUS" );
 					controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
 				end
-			end
-			-- Great General bonus
-			if (pMyUnit:IsNearGreatGeneral()) then
-				iModifier = pMyPlayer:GetGreatGeneralCombatBonus() + pMyUnit:GetGreatGeneralAuraBonus();
-				iModifier = iModifier + pMyPlayer:GetTraitGreatGeneralExtraBonus();
-				controlTable = g_MyCombatDataIM:GetInstance();
-				if (pMyUnit:GetDomainType() == DomainTypes.DOMAIN_LAND) then
-					controlTable.Text:LocalizeAndSetText( "TXT_KEY_EUPANEL_GG_NEAR" );
-				else
-					controlTable.Text:LocalizeAndSetText( "TXT_KEY_EUPANEL_GA_NEAR" );
-				end
-				controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
-				
-				-- Ignores Great General penalty
-				if (pMyUnit:IsIgnoreGreatGeneralBenefit()) then
+				-- Great General bonus
+				if (pMyUnit:IsNearGreatGeneral()) then
+					iModifier = pMyPlayer:GetGreatGeneralCombatBonus() + pMyUnit:GetGreatGeneralAuraBonus();
+					iModifier = iModifier + pMyPlayer:GetTraitGreatGeneralExtraBonus();
 					controlTable = g_MyCombatDataIM:GetInstance();
-					controlTable.Text:LocalizeAndSetText("TXT_KEY_EUPANEL_IGG");
-					controlTable.Value:SetText(GetFormattedText(strText, -iModifier, true, true));
+					if (pMyUnit:GetDomainType() == DomainTypes.DOMAIN_LAND) then
+						controlTable.Text:LocalizeAndSetText( "TXT_KEY_EUPANEL_GG_NEAR" );
+					else
+						controlTable.Text:LocalizeAndSetText( "TXT_KEY_EUPANEL_GA_NEAR" );
+					end
+					controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
+					
+					-- Ignores Great General penalty
+					if (pMyUnit:IsIgnoreGreatGeneralBenefit()) then
+						controlTable = g_MyCombatDataIM:GetInstance();
+						controlTable.Text:LocalizeAndSetText("TXT_KEY_EUPANEL_IGG");
+						controlTable.Value:SetText(GetFormattedText(strText, -iModifier, true, true));
+					end
 				end
 			end
 			
@@ -683,12 +683,14 @@ function UpdateCombatOddsUnitVsCity(pMyUnit, pCity)
 				controlTable.Text:LocalizeAndSetText( "TXT_KEY_EUPANEL_IMPROVEMENT_NEAR" );
 				controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
 			end
-			-- Nearby UnitClass modifier
-			if (pMyUnit:GetNearbyUnitClassModifierFromUnitClass(pFromPlot) ~= 0) then
-				iModifier = pMyUnit:GetNearbyUnitClassModifierFromUnitClass(pFromPlot);
-				controlTable = g_MyCombatDataIM:GetInstance();
-				controlTable.Text:LocalizeAndSetText( "TXT_KEY_EUPANEL_UNITCLASS_NEAR" );
-				controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
+			if g_IsCPActive then
+				-- Nearby UnitClass modifier
+				if (pMyUnit:GetNearbyUnitClassModifierFromUnitClass(pFromPlot) ~= 0) then
+					iModifier = pMyUnit:GetNearbyUnitClassModifierFromUnitClass(pFromPlot);
+					controlTable = g_MyCombatDataIM:GetInstance();
+					controlTable.Text:LocalizeAndSetText( "TXT_KEY_EUPANEL_UNITCLASS_NEAR" );
+					controlTable.Value:SetText( GetFormattedText(strText, iModifier, true, true) );
+				end
 			end
 			-- Empire Unhappy
 			iModifier = pMyUnit:GetUnhappinessCombatPenalty();
@@ -1056,7 +1058,10 @@ function UpdateCombatOddsUnitVsUnit(pMyUnit, pTheirUnit)
 			end
 			-- Great General bonus
 			if (pMyUnit:IsNearGreatGeneral()) then
-				iModifier = pMyPlayer:GetGreatGeneralCombatBonus() + pMyUnit:GetGreatGeneralAuraBonus();
+				iModifier = pMyPlayer:GetGreatGeneralCombatBonus() 
+				if g_IsCPActive then
+					iModifier = iModifier + pMyUnit:GetGreatGeneralAuraBonus();
+				end
 				iModifier = iModifier + pMyPlayer:GetTraitGreatGeneralExtraBonus();
 				controlTable = g_MyCombatDataIM:GetInstance();
 				if (pMyUnit:GetDomainType() == DomainTypes.DOMAIN_LAND) then

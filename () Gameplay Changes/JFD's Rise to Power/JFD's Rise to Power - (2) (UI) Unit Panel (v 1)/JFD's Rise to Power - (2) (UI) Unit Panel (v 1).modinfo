@@ -26,7 +26,7 @@
   </References>
   <Blocks />
   <Files>
-    <File md5="3992347921E042F1BAA230EFF613E04F" import="1">Lua/UI/InGame/WorldView/EnemyUnitPanel.lua</File>
+    <File md5="7B68FDE7511320F140E3A25B68AC6684" import="1">Lua/UI/InGame/WorldView/EnemyUnitPanel.lua</File>
     <File md5="A0C179985739E70196DEF088672B0136" import="1">Lua/UI/InGame/WorldView/EnemyUnitPanel.xml</File>
     <File md5="FE2009CDE3773919757E284FC10B273B" import="1">Lua/UI/InGame/WorldView/EnemyUnitPanel_small.xml</File>
     <File md5="CC24C70B15131452376D223D9C5D6812" import="1">Lua/UI/InGame/WorldView/UnitPanel.lua</File>

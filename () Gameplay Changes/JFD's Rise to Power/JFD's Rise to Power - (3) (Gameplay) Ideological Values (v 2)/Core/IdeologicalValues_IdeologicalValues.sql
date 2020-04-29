@@ -44,7 +44,7 @@ FROM Policies WHERE Type IN ('POLICY_CITIZENSHIP', 'POLICY_COLLECTIVE_RULE', 'PO
 INSERT INTO Policy_JFD_IdeologicalValues
 		(PolicyType, IdeologicalValueType)
 SELECT	Type,		'IDEOLOGICAL_VALUE_JFD_EQUALITY'
-FROM Policies WHERE OriginalPolicyBranchType = 'IDEOLOGICAL_VALUE_JFD_EQUALITY';
+FROM Policies WHERE OriginalPolicyBranchType = 'POLICY_BRANCH_ORDER';
 
 INSERT INTO Policy_JFD_IdeologicalValues
 		(PolicyType, IdeologicalValueType)

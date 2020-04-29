@@ -90,7 +90,6 @@ Controls.CloseButton:RegisterCallback( Mouse.eLClick, OnClose );
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
-local policyBranchHeritageID = GameInfoTypes["POLICY_BRANCH_ISKA_HERITAGE"]
 function RefreshList()
 	g_ItemManager:ResetInstances();
 		
@@ -98,77 +97,45 @@ function RefreshList()
 	CivIconHookup( pPlayer:GetID(), 64, Controls.CivIcon, Controls.CivIconBG, Controls.CivIconShadow, false, true );
 	   
 	local ideologies 
-	if policyBranchHeritageID then
-		ideologies = {
-			{
-				PolicyBranchType = "POLICY_BRANCH_ISKA_HERITAGE",
-				VictoryTypes = {"CultureVictory", "DominationVictory", "ReligionVictory"},
-				Image = "Iska_HeritageSplash.dds",
-				ImageOffsetX = 0,
-				ImageOffsetY = 20,
-			},
-			{
-				PolicyBranchType = "POLICY_BRANCH_AUTOCRACY",
-				VictoryTypes = {"DiplomaticVictory", "DominationVictory", "ScienceVictory"},
-				Image = "SocialPoliciesAutocracy.dds",
-				ImageOffsetX = 0,
-				ImageOffsetY = 20,
-			},
-			{
-				PolicyBranchType = "POLICY_BRANCH_FREEDOM",
-				VictoryTypes = {"CultureVictory", "DiplomaticVictory", "ScienceVictory"},
-				Image = "SocialPoliciesFreedom.dds",
-				ImageOffsetX = 0,
-				ImageOffsetY = 0,
-			},
-			{
-				PolicyBranchType = "POLICY_BRANCH_ORDER",
-				VictoryTypes = {"CultureVictory", "DominationVictory", "ScienceVictory"},
-				Image = "SocialPoliciesOrder.dds",
-				ImageOffsetX = 0,
-				ImageOffsetY = 0,
-			},			
-			{
-				PolicyBranchType = "POLICY_BRANCH_JFD_NEUTRALITY",
-				VictoryTypes = {"DiplomaticVictory", "CultureVictory", "DominationVictory", "ScienceVictory", "ReligionVictory"},
-				Image = "SocialPoliciesNeutrality.dds",
-				ImageOffsetX = 0,
-				ImageOffsetY = 50,
-			}		
-		}	
-	else
-	
-		ideologies = {
-			{
-				PolicyBranchType = "POLICY_BRANCH_AUTOCRACY",
-				VictoryTypes = {"CultureVictory", "DiplomaticVictory", "DominationVictory"},
-				Image = "SocialPoliciesAutocracy.dds",
-				ImageOffsetX = 0,
-				ImageOffsetY = 20,
-			},
-			{
-				PolicyBranchType = "POLICY_BRANCH_FREEDOM",
-				VictoryTypes = {"CultureVictory", "DiplomaticVictory", "ScienceVictory"},
-				Image = "SocialPoliciesFreedom.dds",
-				ImageOffsetX = 0,
-				ImageOffsetY = 0,
-			},
-			{
-				PolicyBranchType = "POLICY_BRANCH_ORDER",
-				VictoryTypes = {"CultureVictory", "DominationVictory", "ScienceVictory"},
-				Image = "SocialPoliciesOrder.dds",
-				ImageOffsetX = 0,
-				ImageOffsetY = 0,
-			},		
-			{
-				PolicyBranchType = "POLICY_BRANCH_JFD_NEUTRALITY",
-				VictoryTypes = {"DiplomaticVictory", "CultureVictory", "DominationVictory", "ScienceVictory"},
-				Image = "SocialPoliciesNeutrality.dds",
-				ImageOffsetX = 0,
-				ImageOffsetY = 50,
-			}			
-		}	
-	end
+	ideologies = {
+		{
+			PolicyBranchType = "POLICY_BRANCH_ORDER",
+			VictoryTypes = {"CultureVictory", "DominationVictory", "ScienceVictory"},
+			Image = "SocialPoliciesOrder.dds",
+			ImageOffsetX = 0,
+			ImageOffsetY = 0,
+			-- JFD
+			IdeologicalValue = "IDEOLOGICAL_VALUE_JFD_EQUALITY",
+			-- JFD
+		},		
+		{
+			PolicyBranchType = "POLICY_BRANCH_AUTOCRACY",
+			VictoryTypes = {"CultureVictory", "DiplomaticVictory", "DominationVictory"},
+			Image = "SocialPoliciesAutocracy.dds",
+			ImageOffsetX = 0,
+			ImageOffsetY = 20,
+			-- JFD
+			IdeologicalValue = "IDEOLOGICAL_VALUE_JFD_AUTHORITY",
+			-- JFD
+		},
+		{
+			PolicyBranchType = "POLICY_BRANCH_FREEDOM",
+			VictoryTypes = {"CultureVictory", "DiplomaticVictory", "ScienceVictory"},
+			Image = "SocialPoliciesFreedom.dds",
+			ImageOffsetX = 0,
+			ImageOffsetY = 0,
+			-- JFD
+			IdeologicalValue = "IDEOLOGICAL_VALUE_JFD_LIBERTY",
+			-- JFD
+		},
+		{
+			PolicyBranchType = "POLICY_BRANCH_JFD_NEUTRALITY",
+			VictoryTypes = {"DiplomaticVictory", "CultureVictory", "DominationVictory", "ScienceVictory"},
+			Image = "SocialPoliciesNeutrality.dds",
+			ImageOffsetX = 0,
+			ImageOffsetY = 50,
+		}			
+	}	
 	
 	local adoptedIdeologies = {};
 	
@@ -188,11 +155,22 @@ function RefreshList()
 	local tick = true;
 	for _, ideology in ipairs(ideologies) do
 	
-		    local branch = GameInfo.PolicyBranchTypes[ideology.PolicyBranchType];
-		    local branchID = branch.ID;
+		local branch = GameInfo.PolicyBranchTypes[ideology.PolicyBranchType];
+		if branch then 
+			local branchID = branch.ID;
 			local itemInstance = g_ItemManager:GetInstance();
 			itemInstance.Name:LocalizeAndSetText(branch.Description);
 			
+			print(ideology.IdeologicalValue)
+			if GameInfoTypes[ideology.IdeologicalValue] then
+				local pPreferredIdeologicalValue = GameInfo.JFD_IdeologicalValues[ideology.IdeologicalValue]
+				itemInstance.IdeologicalValue:SetHide(false)
+				itemInstance.IdeologicalValue:LocalizeAndSetText("TXT_KEY_CHOOSE_IDEOLOGY_IDEOLOGICAL_VALUE", pPreferredIdeologicalValue.IconString, pPreferredIdeologicalValue.Description)
+				itemInstance.IdeologicalValue:LocalizeAndSetToolTip("TXT_KEY_CHOOSE_IDEOLOGY_IDEOLOGICAL_VALUE_TT", pPreferredIdeologicalValue.IconString, pPreferredIdeologicalValue.Description)
+			else
+				itemInstance.IdeologicalValue:SetHide(true)
+			end
+	
 			local iFreePolicies = Game.GetNumFreePolicies(branch.ID);
 			local szFreePolicyInfo = Locale.Lookup("TXT_KEY_CHOOSE_IDEOLOGY_NUM_FREE_POLICIES", iFreePolicies);
 			if (iFreePolicies > 0) then
@@ -204,7 +182,7 @@ function RefreshList()
 			itemInstance.DiplomaticVictory:SetHide(true);
 			itemInstance.DominationVictory:SetHide(true);
 			itemInstance.ScienceVictory:SetHide(true);
-        
+		
 			for _, victoryControl in ipairs(ideology.VictoryTypes) do
 				print(victoryControl);
 				itemInstance[victoryControl]:SetHide(false);
@@ -255,15 +233,27 @@ function RefreshList()
 			else
 				itemInstance.AdoptedByNobody:SetHide(false);
 			end
-			
+		
 			itemInstance.AdoptedByStack1:CalculateSize();
 			itemInstance.AdoptedByStack1:ReprocessAnchoring();
 			itemInstance.AdoptedByStack2:CalculateSize();
 			itemInstance.AdoptedByStack2:ReprocessAnchoring();
 			itemInstance.AdoptedByStacks:CalculateSize();
 			itemInstance.AdoptedByStacks:ReprocessAnchoring();
-		 
+		
 			itemInstance.Button:RegisterCallback(Mouse.eLClick, function() SelectIdeologyChoice(branch.ID); end);
+			
+			if ideology.PolicyBranchType == "POLICY_BRANCH_JFD_NEUTRALITY" then
+				if (not pPlayer:CanAdoptNeutralityIdeology()) then
+					itemInstance.Button:SetAlpha(0.5)
+					itemInstance.Button:SetDisabled(true)
+					itemInstance.Button:LocalizeAndSetToolTip("TXT_KEY_JFD_IDEOLOGY_NEUTRALITY_DISABLED_TT")
+				else
+					itemInstance.Button:SetAlpha(1)
+					itemInstance.Button:SetDisabled(false)
+					itemInstance.Button:LocalizeAndSetToolTip(nil)
+				end
+			end	
 			
 			local color = tick and ltBlue or dkBlue;
 			tick = not tick;
@@ -291,7 +281,7 @@ function RefreshList()
 			itemInstance.ShowTenets:RegisterCallback(Mouse.eLClick, function()
 				ViewTenets(ideology.PolicyBranchType);
 			end);
-				
+		end
 	end
 	
 	Controls.ItemStack:CalculateSize();
@@ -323,16 +313,42 @@ Controls.ConfirmNo:RegisterCallback( Mouse.eLClick, OnConfirmNo );
 
 
 function ViewTenets(branchType)
+	print("branchType", branchType)
 	g_ViewTenetsLevel1Manager:ResetInstances();
 	g_ViewTenetsLevel2Manager:ResetInstances();
 	g_ViewTenetsLevel3Manager:ResetInstances();
 	
 	local tick = true;	
 	
-	function PopulateInstance(instance, text)
+	function PopulateInstance(instance, row, text)
+		local pPlayer = Players[Game.GetActivePlayer()]
+		
 		instance.TenetDescription:LocalizeAndSetText(text);
 		instance.Button:SetDisabled(true);
 		
+		local width,height = instance.TenetDescription:GetSizeVal();
+		local newHeight = height + 30;
+		instance.Button:SetSizeVal(width, newHeight);
+		
+		-- JFD
+		if Player.HasIdeologicalValuesForTenet then
+			local ideologicalValue = pPlayer:GetPolicyIdeologicalValue(row.ID)
+			local ideologicalValueReq = row.IdeologicalValueReq
+			local hasIdeologicalValuesForTenet = pPlayer:HasIdeologicalValuesForTenet(row.ID)
+			if hasIdeologicalValuesForTenet then
+				instance.IdeologicalValueLabel:LocalizeAndSetText("{1_Icon} [COLOR_UNIT_TEXT]{2_Num}%[ENDCOLOR]", GameInfo.JFD_IdeologicalValues[ideologicalValue].IconString, ideologicalValueReq)
+				instance.Button:SetAlpha(1)
+				instance.Button:LocalizeAndSetToolTip("TXT_KEY_CHOOSE_IDEOLOGY_PREVIEW_IDEOLOGICAL_VALUE_POSITIVE_TT")
+				instance.IdeologicalValueLabel:LocalizeAndSetToolTip("TXT_KEY_CHOOSE_IDEOLOGY_PREVIEW_IDEOLOGICAL_VALUE_POSITIVE_TT")
+			else
+				instance.IdeologicalValueLabel:LocalizeAndSetText("{1_Icon} [COLOR_WARNING_TEXT]{2_Num}%[ENDCOLOR]", GameInfo.JFD_IdeologicalValues[ideologicalValue].IconString, ideologicalValueReq)
+				instance.Button:SetAlpha(0.5)
+				instance.Button:LocalizeAndSetToolTip("TXT_KEY_CHOOSE_IDEOLOGY_PREVIEW_IDEOLOGICAL_VALUE_WARNING_TT")
+				instance.IdeologicalValueLabel:LocalizeAndSetToolTip("TXT_KEY_CHOOSE_IDEOLOGY_PREVIEW_IDEOLOGICAL_VALUE_WARNING_TT")
+			end
+		end
+		-- JFD
+					
 		local width,height = instance.TenetDescription:GetSizeVal();
 		local newHeight = height + 30;
 		instance.Button:SetSizeVal(width, newHeight);
@@ -346,21 +362,94 @@ function ViewTenets(branchType)
 		instance.Box:SetColorVal(unpack(color));
 	end
 	
-	for row in GameInfo.Policies{PolicyBranchType = branchType, Level = 1} do
-		local instance = g_ViewTenetsLevel1Manager:GetInstance();
-		PopulateInstance(instance, row.Help);
-	end
+	-- JFD
+	if Player.HasIdeologicalValuesForTenet then
+		local pPlayer = Players[Game.GetActivePlayer()]
+		
+		local level1Tenets = {}
+		local level1TenetsCount = 1
+		for row in GameInfo.Policies{PolicyBranchType = branchType, Level = 1} do
+			local tenet = {};
+			tenet.Tenet = row;
+			tenet.Description = Locale.ConvertTextKey(row.Description);
+			level1Tenets[level1TenetsCount] = tenet
+			level1TenetsCount = level1TenetsCount + 1
+			table.sort(level1Tenets, function(a, b) return a.Description < b.Description end);
+		end
+		local numLevel1Tenets = #level1Tenets
+		for index = 1, numLevel1Tenets do
+			local row = level1Tenets[index].Tenet
+			local instance = g_ViewTenetsLevel1Manager:GetInstance();
+			local ideologicalValue = pPlayer:GetPolicyIdeologicalValue(row.ID)
+			local ideologicalValueReq = row.IdeologicalValueReq
+			if ideologicalValue then
+				local helpText = Locale.ConvertTextKey(row.Help)
+				PopulateInstance(instance, row, helpText);
+			end
+		end
+		
+		local level2Tenets = {}
+		local level2TenetsCount = 1
+		for row in GameInfo.Policies{PolicyBranchType = branchType, Level = 2} do
+			local tenet = {};
+			tenet.Tenet = row;
+			tenet.Description = Locale.ConvertTextKey(row.Description);
+			level2Tenets[level2TenetsCount] = tenet
+			level2TenetsCount = level2TenetsCount + 1
+			table.sort(level2Tenets, function(a, b) return a.Description < b.Description end);
+		end
+		local numLevel2Tenets = #level2Tenets
+		for index = 2, numLevel2Tenets do
+			local row = level2Tenets[index].Tenet
+			local instance = g_ViewTenetsLevel2Manager:GetInstance();
+			local ideologicalValue = pPlayer:GetPolicyIdeologicalValue(row.ID)
+			local ideologicalValueReq = row.IdeologicalValueReq
+			if ideologicalValue then
+				local helpText = Locale.ConvertTextKey(row.Help)
+				PopulateInstance(instance, row, helpText);
+			end
+		end
+		
+		local level3Tenets = {}
+		local level3TenetsCount = 1
+		for row in GameInfo.Policies{PolicyBranchType = branchType, Level = 3} do
+			local tenet = {};
+			tenet.Tenet = row;
+			tenet.Description = Locale.ConvertTextKey(row.Description);
+			level3Tenets[level3TenetsCount] = tenet
+			level3TenetsCount = level3TenetsCount + 1
+			table.sort(level3Tenets, function(a, b) return a.Description < b.Description end);
+		end
+		local numLevel3Tenets = #level3Tenets
+		for index = 3, numLevel3Tenets do
+			local row = level3Tenets[index].Tenet
+			local instance = g_ViewTenetsLevel3Manager:GetInstance();
+			local ideologicalValue = pPlayer:GetPolicyIdeologicalValue(row.ID)
+			local ideologicalValueReq = row.IdeologicalValueReq
+			if ideologicalValue then
+				local helpText = Locale.ConvertTextKey(row.Help)
+				PopulateInstance(instance, row, helpText);
+			end
+		end
+	-- JFD
 	
-	for row in GameInfo.Policies{PolicyBranchType = branchType, Level = 2} do
-		local instance = g_ViewTenetsLevel2Manager:GetInstance();
-		PopulateInstance(instance, row.Help);
+	else
+		for row in GameInfo.Policies{PolicyBranchType = branchType, Level = 1} do
+			local instance = g_ViewTenetsLevel1Manager:GetInstance();
+			PopulateInstance(instance, nil, row.Help);
+		end
+		
+		for row in GameInfo.Policies{PolicyBranchType = branchType, Level = 2} do
+			local instance = g_ViewTenetsLevel2Manager:GetInstance();
+			PopulateInstance(instance, nil, row.Help);
+		end
+		
+		for row in GameInfo.Policies{PolicyBranchType = branchType, Level = 3} do
+			local instance = g_ViewTenetsLevel3Manager:GetInstance();
+			PopulateInstance(instance, nil, row.Help);
+		end
 	end
-	
-	for row in GameInfo.Policies{PolicyBranchType = branchType, Level = 3} do
-		local instance = g_ViewTenetsLevel3Manager:GetInstance();
-		PopulateInstance(instance, row.Help);
-	end
-	
+
 	Controls.Level1TenetsStack:CalculateSize();
 	Controls.Level1TenetsStack:ReprocessAnchoring();
 	Controls.Level2TenetsStack:CalculateSize();

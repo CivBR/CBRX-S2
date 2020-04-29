@@ -45,8 +45,9 @@ local ideologySpiritID = GameInfoTypes["POLICY_BRANCH_JFD_SPIRIT"]
 -- ACTIVE MODS
 --==========================================================================================================================
 -------------------------------------------------------------------------------------------------------------------------
-local g_IsCPActive = Game.IsCPActive()
+local g_IsCPActive			= Game.IsCPActive()
 local g_IsNationalismActive = Game.IsNationalismActive()
+local g_IsVMCActive			= Game.IsVMCActive()
 --==========================================================================================================================
 -- SPIRIT UTILS
 --==========================================================================================================================
@@ -70,7 +71,7 @@ function Player.CanReformIdeology(player)
 	end
 
 	if player:IsHuman() then
-		if (not g_IsCPActive) then 
+		if (not g_IsVMCActive) then 
 			local cost = player:GetReformIdeologyCost()
 			if g_IsNationalismActive then
 				if player:GetNationalism() < cost then
@@ -164,7 +165,7 @@ function Player.DoAdoptSpiritIdeology(player)
 		player:ChangeJONSCulture(-cost)
 	end
 
-	if g_IsCPActive then
+	if Player.SwapPolicy then
 		--g_Policy_OriginalPolicyBranchType_Table
 		local policiesTable = g_Policy_OriginalPolicyBranchType_Table
 		local numPolicies = #policiesTable
@@ -184,8 +185,6 @@ function Player.DoAdoptSpiritIdeology(player)
 			local row = policiesTable[index]
 			local policyID = row.ID
 			if row.PolicyBranchType == originalIdeologyType and player:HasPolicy(policyID) then
-				player:SetNumFreePolicies(1)
-				player:SetNumFreePolicies(0)
 				player:ChangeNumFreeTenets(1)
 				player:SetHasPolicy(policyID, false)
 			end
