@@ -212,7 +212,7 @@ local direction_types = {
                         DirectionTypes.DIRECTION_SOUTHEAST,
                         DirectionTypes.DIRECTION_SOUTHWEST,
                         DirectionTypes.DIRECTION_WEST,
-                        DirectionTypes.DIRECTION_NORTHWEST,
+                        DirectionTypes.DIRECTION_NORTHWEST
                 	}
 
 function CreateChemamull(iKiller, iPlayer, iUnitType)
