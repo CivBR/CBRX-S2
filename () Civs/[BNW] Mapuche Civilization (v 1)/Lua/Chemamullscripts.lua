@@ -220,7 +220,7 @@ function CreateChemamull(iKiller, iPlayer, iUnitType)
 		local pPlayer = Players[iPlayer]
 		if (pPlayer:GetCivilizationType() == iCivType) and (pPlayer == pDeadOwner) then
 			if (deadUnit:GetUnitType() == iUnitType) then
-				print ("... and the Mapuche Unit actually died on combat")
+				--print ("... and the Mapuche Unit actually died on combat")
 				local teamID = pPlayer:GetTeam();
 				local pTeam = Teams[teamID];
 				if (pTeam:IsHasTech(iPrereq)) then
