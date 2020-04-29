@@ -250,8 +250,8 @@ end
 if (IsCivInPlay(iMyCiv)) then
   	GameEvents.UnitKilledInCombat.Add(CreateChemamull)
 	GameEvents.CanSaveUnit.Add(OnCanSaveUnit)
-	GameEvents.PlayerDoTurn.Add(GetUnpillagedChem);
-	GameEvents.PlayerDoTurn.Add(KillChem);
+	GameEvents.PlayerDoTurn.Add(GetUnpillagedChem)
+	--GameEvents.PlayerDoTurn.Add(KillChem)
 	GameEvents.BuildFinished.Add(onImprovementCreated)
-	GameEvents.PlayerDoTurn.Add(CheckChemamull);
+	GameEvents.PlayerDoTurn.Add(CheckChemamull)
 end
