@@ -251,7 +251,7 @@ function SM_Neirai_GetNearestCity(pPlayer, pPlot)
 end
 
 function SM_KakJapan_ConstructionBonus(playerID, plotX, plotY, improvementID)
-	print ("SM_KakJapan_ConstructionBonus activated")
+	--print ("SM_KakJapan_ConstructionBonus activated")
 	local pPlayer = Players[playerID]
 	if pPlayer:GetCivilizationType() == iTanakaCiv then
 		local pPlot = Map.GetPlot(plotX, plotY)
@@ -265,7 +265,7 @@ function SM_KakJapan_ConstructionBonus(playerID, plotX, plotY, improvementID)
 		else
 			CityProduction = pPlotCity:GetYieldRate(GameInfoTypes["YIELD_PRODUCTION"])
 		end
-		print(pDebugName, improvementID, CityProduction)
+		--print(pDebugName, improvementID, CityProduction)
 		pPlotCity:ChangeProduction(CityProduction)
 		if pPlayer:IsHuman() then
 			Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_TRAIT_SM_SHADOW_SHOGUN_NOTIFICATION", CityProduction, pDebugName))

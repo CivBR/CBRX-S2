@@ -16,6 +16,21 @@ function JFD_IsCivilisationActive(civilizationID)
 	return false
 end
 
+function Neirai_GetNearestCity(pPlayer, pPlot)
+	local distance = 9999
+	local cNearestCity = nil
+	for cCity in pPlayer:Cities() do
+		local pCityPlot = cCity:Plot()
+		local between = Map.PlotDistance(pPlot:GetX(), pPlot:GetY(), pCityPlot:GetX(), pCityPlot:GetY())
+		if between < distance then
+			distance = between
+			cNearestCity = cCity
+		end
+	end
+	return cNearestCity
+end
+
+
 -- ======= --
 -- DEFINES --
 -- ======= --
@@ -98,8 +113,11 @@ function ChukchiPrekillBonuses(playerID, unitID, unitType, iX, iY, bDelay, kille
 		
 		-- if adjacent to Chukchi territory, Chukchi gain the plot
 		local iAdjPlotOwner = pAdjPlot:GetOwner()
-		if Players[iAdjPlotOwner]:GetCivilizationType() == iCiv then
-			pPlot:SetOwner(iAdjPlotOwner)
+		if iAdjPlotOwner then
+			if Players[iAdjPlotOwner]:GetCivilizationType() == iCiv then
+				local pNearestCity = Neirai_GetNearestCity(iAdjPlotOwner, pAdjPlot)
+				pPlot:SetOwner(iAdjPlotOwner, pNearestCity:GetID())
+			end
 		end
 		
 		-- adjacent Chulteninn gains XP, regardless of involvement
