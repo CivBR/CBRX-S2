@@ -142,11 +142,11 @@ local function JFD_Laos_PlayerDoTurn(playerID)
 	--ONE MILLION ELEPHANTS AND A WHITE PARASOL
 	if HasTrait(player, traitLaosID) then
 		local religionID = -1
-		if g_IsCPActive then
-			if religionID <= 0 then
-				religionID = player:GetStateReligion()
-			end
-		end
+		-- if g_IsCPActive then
+			-- if religionID <= 0 then
+				-- religionID = player:GetStateReligion()
+			-- end
+		-- end
 		if religionID <= 0 then
 			religionID = player:GetReligionCreatedByPlayer()
 		end
@@ -201,11 +201,11 @@ local function JFD_Laos_CityCaptureComplete(oldPlayerID, isCapital, plotX, plotY
 	local city = g_MapGetPlot(plotX, plotY):GetPlotCity()
 	
 	local religionToConvertID = -1
-	if g_IsCPActive then
-		if religionToConvertID == -1 then
-			religionToConvertID = player:GetStateReligion()
-		end
-	end
+	-- if g_IsCPActive then
+		-- if religionToConvertID == -1 then
+			-- religionToConvertID = player:GetStateReligion()
+		-- end
+	-- end
 	if religionToConvertID == -1 then
 		religionToConvertID = player:GetReligionCreatedByPlayer()
 	end
