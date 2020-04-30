@@ -31,7 +31,7 @@ VALUES	('ATLAS_RT_NEUTRAL', 				256, 		'RT_NeutralAtlas_256.dds',			3, 						2),
 ------------------------------
 INSERT INTO Colors
 		(Type,	Red,	Green,	Blue,	Alpha)
-VALUES	('COLOR_EW_NEUTRAL_PRIMARY',	.95,	0.62,	0.26,	1),
+VALUES	('COLOR_EW_NEUTRAL_PRIMARY',	0.95,	0.62,	0.26,	1),
 		('COLOR_EW_NEUTRAL_SECONDARY',	0.32,	0.31,	0.28,	1);
 
 ------------------------------
