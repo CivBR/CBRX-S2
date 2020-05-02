@@ -2,11 +2,11 @@
 
 local iCivType = GameInfoTypes["CIVILIZATION_MAPUCHE"]
 
-function IsCivInPlay(iCivType)
+function IsCivInPlay(iCiv)
   for iSlot = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
     local iSlotStatus = PreGame.GetSlotStatus(iSlot)
     if (iSlotStatus == SlotStatus.SS_TAKEN or iSlotStatus == SlotStatus.SS_COMPUTER) then
-      if (PreGame.GetCivilization(iSlot) == iCivType) then
+      if (PreGame.GetCivilization(iSlot) == iCiv) then
         return true
       end
     end
@@ -172,86 +172,34 @@ end
 
 -- Chemamull's Generation
 
-local deadUnit = nil
-local deadUnitT = nil
-local deadPlot = nil
-local pDeadOwner = nil
-local Mapucheck = 0
-
-function OnCanSaveUnit(iPlayer, iUnit)
-	--fires for both combat and non-combat death (disband, settler settled, etc)
-	--for combat death, fires right before and after OnUnitKilledInCombat; use this to capture unit data before death
-	unit = Players[iPlayer]:GetUnitByID(iUnit)
-	unitTypeID = unit and unit:GetUnitType()
-	--print("CanSaveUnit Listener test; iPlayer, iUnit, unitType = ", iPlayer, iUnit, unitTypeID and GameInfo.Units[unitTypeID].Type)
-	g_infoAboutUnitX = unit:GetX()
-	g_infoAboutUnitY = unit:GetY()
-	g_infoAboutUnitDMG = unit:GetDamage()
-	--etc...
-	--return false
-	pPlayer = Players[iPlayer]
-
-	-- Now, let's make our globals work!
-	deadUnit = unit;
-	deadPlot = Map.GetPlot(g_infoAboutUnitX, g_infoAboutUnitY)
-	deadUnitT = unitTypeID
-	pDeadOwner = pPlayer
-
-	if (deadOwner:GetCivilizationType() == iCivType) then
-		Mapucheck = 1
-		--print ("A Mapuche unit is lost")
-	else
-		Mapucheck = 0
-	end
-end
-
 local iPrereq = GameInfoTypes["TECH_CALENDAR"]
-local direction_types = {
-                        DirectionTypes.DIRECTION_NORTHEAST,
-                        DirectionTypes.DIRECTION_EAST,
-                        DirectionTypes.DIRECTION_SOUTHEAST,
-                        DirectionTypes.DIRECTION_SOUTHWEST,
-                        DirectionTypes.DIRECTION_WEST,
-                        DirectionTypes.DIRECTION_NORTHWEST
-                	}
 
-function CreateChemamull(iKiller, iPlayer, iUnitType)
-	if Mapucheck == 1 then
-		local pPlayer = Players[iPlayer]
-		if (pPlayer:GetCivilizationType() == iCivType) and (pPlayer == pDeadOwner) then
-			if (deadUnit:GetUnitType() == iUnitType) then
-				--print ("... and the Mapuche Unit actually died on combat")
-				local teamID = pPlayer:GetTeam();
-				local pTeam = Teams[teamID];
-				if (pTeam:IsHasTech(iPrereq)) then
-					if (deadPlot:GetImprovementType() == -1) then
-						if not deadPlot:IsWater() then
-							deadPlot:SetImprovementType(iChemamull)
-							local pNearestCity = Neirai_GetNearestCity(pPlayer, deadPlot)
-							deadPlot:SetOwner(iPlayer, pNearestCity:GetID())
-						end
-					end
-					if deadPlot:IsImprovementPillaged() then
-						deadPlot:SetImprovementType(iChemamull)
-						local pNearestCity = Neirai_GetNearestCity(pPlayer, deadPlot)
-						deadPlot:SetOwner(iPlayer, pNearestCity:GetID())
-					end
+function CreateChemamullOnDeath(playerID, unitID, unitType, iX, iY, bDelay, killerID)
+	if (not bDelay) then return end
+	if (killerID == -1) then return end
+	local pPlayer = Players[playerID]
+	if pPlayer:GetCivilizationType() == iCivType then
+		print("CCOD: killed unit is Mapuche")
+		local pTeam = Teams[pPlayer:GetTeam()]
+		if pTeam:IsHasTech(iPrereq) then
+			local pPlot = Map.GetPlot(iX, iY)
+			if pPlot and (not pPlot:IsWater()) then
+				if (pPlot:GetImprovementType() == -1) then
+					pPlot:SetImprovementType(iChemamull)
+					local pNearestCity = Neirai_GetNearestCity(pPlayer, pPlot)
+					pPlot:SetOwner(pPlayer, pNearestCity:GetID())
+				elseif pPlot:IsImprovementPillaged() then
+					pPlot:SetImprovementType(iChemamull)
+					local pNearestCity = Neirai_GetNearestCity(pPlayer, pPlot)
+					pPlot:SetOwner(pPlayer, pNearestCity:GetID())
 				end
 			end
 		end
 	end
-	deadUnit = nil
-	deadUnitT = nil
-	deadPlot = nil
-	deadOwner = nil
-	Mapucheck = 0
 end
 
-if (IsCivInPlay(iMyCiv)) then
-  	GameEvents.UnitKilledInCombat.Add(CreateChemamull)
-	GameEvents.CanSaveUnit.Add(OnCanSaveUnit)
-	GameEvents.PlayerDoTurn.Add(GetUnpillagedChem)
-	--GameEvents.PlayerDoTurn.Add(KillChem)
-	GameEvents.BuildFinished.Add(onImprovementCreated)
-	GameEvents.PlayerDoTurn.Add(CheckChemamull)
-end
+GameEvents.UnitPrekill.Add(CreateChemamullOnDeath)
+GameEvents.PlayerDoTurn.Add(GetUnpillagedChem)
+--GameEvents.PlayerDoTurn.Add(KillChem)
+GameEvents.BuildFinished.Add(onImprovementCreated)
+GameEvents.PlayerDoTurn.Add(CheckChemamull)
