@@ -2,74 +2,83 @@
 -- Author: Leugi
 -- DateCreated: 7/31/2013 4:10:03 PM
 --------------------------------------------------------------
-print("The Battle General Lua loaded succesfully")
+print("The Battle General Lua loaded successfully")
 
+local iCiv = GameInfoTypes["CIVILIZATION_MAPUCHE"]
+local iLatestTech = -1
+local BGeneralPromotion = GameInfoTypes["PROMOTION_BATTLE_GENERAL_0"]
 
-local BGeneralPromotion = GameInfo.UnitPromotions["PROMOTION_BATTLE_GENERAL_0"].ID
-local BGLevel1 = GameInfo.UnitPromotions["PROMOTION_BATTLE_GENERAL_1"].ID
-local BGLevel2 = GameInfo.UnitPromotions["PROMOTION_BATTLE_GENERAL_2"].ID
-local BGLevel3 = GameInfo.UnitPromotions["PROMOTION_BATTLE_GENERAL_3"].ID
-local BGLevel4 = GameInfo.UnitPromotions["PROMOTION_BATTLE_GENERAL_4"].ID
+local tGeneralLevels = {
+	{Promo = GameInfoTypes["PROMOTION_BATTLE_GENERAL_1"], Prereq = GameInfoTypes["TECH_HORSEBACK_RIDING"], Combat = 13},
+	{Promo = GameInfoTypes["PROMOTION_BATTLE_GENERAL_2"], Prereq = GameInfoTypes["TECH_CHIVALRY"], Combat = 21},
+	{Promo = GameInfoTypes["PROMOTION_BATTLE_GENERAL_3"], Prereq = GameInfoTypes["TECH_METALLURGY"], Combat = 26},
+	{Promo = GameInfoTypes["PROMOTION_BATTLE_GENERAL_4"], Prereq = GameInfoTypes["TECH_MILITARY_SCIENCE"], Combat = 35},
+	}
 
-local BGLevel1Prereq = GameInfo.Technologies["TECH_HORSEBACK_RIDING"].ID
-local BGLevel2Prereq = GameInfo.Technologies["TECH_CHIVALRY"].ID
-local BGLevel3Prereq = GameInfo.Technologies["TECH_METALLURGY"].ID
-local BGLevel4Prereq = GameInfo.Technologies["TECH_MILITARY_SCIENCE"].ID
-
-local BGLevel1Combat = 13
-local BGLevel2Combat = 21
-local BGLevel3Combat = 26
-local BGLevel4Combat = 35
+function CheckMapucheTechAtStart()
+	for k, vPlayer in pairs(Players) do
+		if vPlayer:GetCivilizationType() == iCiv then
+			local pTeam = Teams[vPlayer:GetTeam()]
+			for k, v in ipairs(tGeneralLevels) do
+				if pTeam:IsHasTech(v.Prereq) then
+					iLatestTech = v.Prereq
+				else break end
+			end
+		end
+	end
+end
+Events.SequenceGameInitComplete.Add(CheckMapucheTechAtStart)
 
 
 function BattleGeneral(iPlayer)
-	for _, pPlayer in pairs(Players) do
-	local teamID = pPlayer:GetTeam();
-	local pTeam = Teams[teamID];
-	if (pPlayer:IsAlive()) then
-			if (pTeam:IsHasTech(BGLevel1Prereq)) then
-				for bgunit in pPlayer:Units() do
-					if (bgunit:IsHasPromotion(BGeneralPromotion)) then
-						bgunit:SetHasPromotion(BGLevel1, true);
-						bgunit:SetBaseCombatStrength(BGLevel1Combat)
-						print ("A Battle General Level 1 is here!");
-						
+	local pPlayer = Players[iPlayer]
+	-- i add the GetCivilizationType check b/c only the Mapuche will have a Toqui in the CBR
+	if (pPlayer:IsAlive()) and (pPlayer:GetCivilizationType() == iCiv) then
+		local teamID = pPlayer:GetTeam()
+		local pTeam = Teams[teamID]
+		local tLatestBatch = nil
+		for k, v in ipairs(tGeneralLevels) do
+			if pTeam:IsHasTech(v.Prereq) then
+				tLatestBatch = v
+			else break end
+		end
+		
+		if tLatestBatch then
+			if (iLatestTech ~= tLatestBatch.Prereq) then
+				for pUnit in pPlayer:Units() do
+					if pUnit:IsHasPromotion(BGeneralPromotion) then
+						for k, v in ipairs(tGeneralLevels) do
+							pUnit:SetHasPromotion(v.Promo, false)
+						end
+						pUnit:SetHasPromotion(tLatestBatch.Promo, true)
+						pUnit:SetBaseCombatStrength(tLatestBatch.Combat)
 					end
 				end
 			end
-			if (pTeam:IsHasTech(BGLevel2Prereq)) then
-				for bgunit in pPlayer:Units() do
-					if (bgunit:IsHasPromotion(BGeneralPromotion)) then
-						bgunit:SetHasPromotion(BGLevel1, false);
-						bgunit:SetHasPromotion(BGLevel2, true);
-						bgunit:SetBaseCombatStrength(BGLevel2Combat)
-						print ("A Battle General Level 2 is here!");
-					end
-				end
-			end
-			if (pTeam:IsHasTech(BGLevel3Prereq)) then
-				for bgunit in pPlayer:Units() do
-					if (bgunit:IsHasPromotion(BGeneralPromotion)) then
-						bgunit:SetHasPromotion(BGLevel2, false);
-						bgunit:SetHasPromotion(BGLevel3, true);
-						bgunit:SetBaseCombatStrength(BGLevel3Combat)
-						print ("A Battle General Level 3 is here!");
-					end
-				end
-			end
-			if (pTeam:IsHasTech(BGLevel4Prereq)) then
-				for bgunit in pPlayer:Units() do
-					if (bgunit:IsHasPromotion(BGeneralPromotion)) then
-						bgunit:SetHasPromotion(BGLevel3, false);
-						bgunit:SetHasPromotion(BGLevel4, true);
-						bgunit:SetBaseCombatStrength(BGLevel4Combat)
-						print ("A Battle General Level 4 is here!");
-					end
-				end
-			end
-	end
+			iLatestTech = tLatestBatch.Prereq
+		end
 	end
 end
 
-GameEvents.PlayerAdoptPolicy.Add(BattleGeneral);
-GameEvents.PlayerDoTurn.Add(BattleGeneral);
+local iToqui = GameInfoTypes["UNIT_TOQUI"]
+
+function Mapuche_NewBattleGeneral(playerID, unitID)
+	local pPlayer = Players[playerID]
+	local pUnit = pPlayer:GetUnitByID(unitID)
+	if pUnit:GetUnitType() == iToqui then
+		local pTeam = Teams[pPlayer:GetTeam()]
+		local tLatestBatch = nil
+		for k, v in ipairs(tGeneralLevels) do
+			if pTeam:IsHasTech(v.Prereq) then
+				tLatestBatch = v
+			else break end
+		end
+		if tLatestBatch then
+			pUnit:SetHasPromotion(tLatestBatch.Promo, true)
+			pUnit:SetBaseCombatStrength(tLatestBatch.Combat)
+		end
+	end
+end
+
+GameEvents.PlayerDoTurn.Add(BattleGeneral)
+Events.SerialEventUnitCreated.Add(Mapuche_NewBattleGeneral)
