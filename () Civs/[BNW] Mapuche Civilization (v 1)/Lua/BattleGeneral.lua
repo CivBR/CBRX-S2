@@ -18,7 +18,7 @@ local tGeneralLevels = {
 function CheckMapucheTechAtStart()
 	for k, vPlayer in pairs(Players) do
 		if vPlayer:GetCivilizationType() == iCiv then
-			local pTeam = Teams[pPlayer:GetTeam()]
+			local pTeam = Teams[vPlayer:GetTeam()]
 			for k, v in ipairs(tGeneralLevels) do
 				if pTeam:IsHasTech(v.Prereq) then
 					iLatestTech = v.Prereq
@@ -73,8 +73,10 @@ function Mapuche_NewBattleGeneral(playerID, unitID)
 				tLatestBatch = v
 			else break end
 		end
-		pUnit:SetHasPromotion(tLatestBatch.Promo, true)
-		pUnit:SetBaseCombatStrength(tLatestBatch.Combat)
+		if tLatestBatch then
+			pUnit:SetHasPromotion(tLatestBatch.Promo, true)
+			pUnit:SetBaseCombatStrength(tLatestBatch.Combat)
+		end
 	end
 end
 
