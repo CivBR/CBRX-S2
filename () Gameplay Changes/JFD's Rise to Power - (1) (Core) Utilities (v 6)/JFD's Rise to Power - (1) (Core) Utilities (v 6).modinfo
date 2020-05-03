@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" version="6">
+  <Properties>
+    <Name>JFD's Rise to Power - (1) (Core) Utilities</Name>
+    <Teaser>[COLOR_CYAN]Core Utilities[ENDCOLOR] for Rise to Power.</Teaser>
+    <Description>[COLOR_CYAN]Core Utilities[ENDCOLOR] for Rise to Power.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="(2) Community Balance Overhaul" />
+    <Mod id="c7bf7064-d1b1-4708-9e93-7a1560868582" minversion="0" maxversion="999" title="(4) C4DF - CBP" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />
+    <Mod id="828b5b4b-7c62-4afb-a43f-034b596ef5e4" minversion="0" maxversion="999" title="(6b) Community Balance Overhaul - Compatibility Files (No-EUI)" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="(6a) Community Balance Overhaul - Compatibility Files (EUI)" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete (BNW or GK)" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="A8318155CBD76A706A51ABF0F351C0F9" import="1">Art/Fonts/FontIcons_JFD_City_22.dds</File>
+    <File md5="1CA139E4937C29540575324BD309ACB4" import="1">Art/Fonts/FontIcons_JFD_City_22.ggxml</File>
+    <File md5="CBEEDB4881F57E8F72C84CA4A1111C20" import="1">Art/Fonts/FontIcons_JFD_Cross_22.dds</File>
+    <File md5="34E19CF8D8AB66166D9265765D562C2B" import="1">Art/Fonts/FontIcons_JFD_Cross_22.ggxml</File>
+    <File md5="A7D73E6C659358D1B54ADFCAC7C85710" import="1">Art/Fonts/FontIcons_JFD_Ideology_22.dds</File>
+    <File md5="D56F1D1096F62244FC7123E10E65F9FA" import="1">Art/Fonts/FontIcons_JFD_Ideology_22.ggxml</File>
+    <File md5="B5549D39EFCE94201B5E2C73D46B8D2C" import="1">Art/Fonts/FontIcons_JFD_NormalAge_22.dds</File>
+    <File md5="301C47BB539D96453A7702A5A03BA289" import="1">Art/Fonts/FontIcons_JFD_NormalAge_22.ggxml</File>
+    <File md5="CCBE75FED03C984A2131176F39388500" import="0">Core/RTP_ArtDefines.sql</File>
+    <File md5="EC85F8B660BEFDA2A1B38352E651E897" import="0">Core/RTP_Buildings.sql</File>
+    <File md5="EDF9328FD79BCF5B3A7C04F2A399BEBD" import="0">Core/RTP_Colors.sql</File>
+    <File md5="D047C8CEC83031964DA0EAA70B87A8B9" import="0">Core/RTP_Defines.sql</File>
+    <File md5="72950D5531A37FE6B75D445934BDF981" import="0">Core/RTP_GameText.sql</File>
+    <File md5="CA9F4C60E2F6C65661DD566A5DD7CEB8" import="0">Core/RTP_GameText.xml</File>
+    <File md5="8FE253769E883DC2F1D319BFE8B5E796" import="0">Core/RTP_GameText_Interface.xml</File>
+    <File md5="A0105693685F6073612B29DADC0CA3EC" import="0">Core/RTP_Master.sql</File>
+    <File md5="F8E83EF2A0AB6A6B0CF32E85EF58E060" import="0">Core/RTP_PolicyBranches.sql</File>
+    <File md5="0FB41979401D0842CA4B097DB7BBDB58" import="0">Core/RTP_Religions.sql</File>
+    <File md5="7F544020FD41B180497A4840B10EA7BC" import="0">Core/RTP_Shared.sql</File>
+    <File md5="F561347C7EFE9BF157F9259D453002C4" import="0">Core/RTP_Triggers.sql</File>
+    <File md5="757C2BF81956E8D23E6664DE936ED3D7" import="0">Core/RTP_Units.sql</File>
+    <File md5="F8580ABBCB3EFEDD444E5306E3AED93A" import="0">Credits.txt</File>
+    <File md5="A7178AD9A14F49D019FB1FDD43AFF3AD" import="1">Lua/Gameplay/GameplayUtilities.lua</File>
+    <File md5="6F0E59C6CDA8491C4D41BCF0984ABF21" import="0">Lua/JFD_RTP_Functions.lua</File>
+    <File md5="D7DF0FDF6A7C2EC5C2E61768775E547E" import="1">Lua/UI/Civilopedia/CivilopediaScreen.lua</File>
+    <File md5="BD0E261E68173225BEE9E06595259CB1" import="1">Lua/UI/Civilopedia/CivilopediaScreen.xml</File>
+    <File md5="CA7432FC2F5C20D78942FF38CFAFB71C" import="1">Lua/UI/Civilopedia/Images/civilopediatopbuttonsgovernment.dds</File>
+    <File md5="E415477FC68360AAD9D488895670745F" import="0">Lua/UI/InGame/TurnProcessing.lua</File>
+    <File md5="7A6397F6DE772C5A0111D536D655C6D0" import="0">Lua/UI/InGame/TurnProcessing.xml</File>
+    <File md5="D5BB21C1E5C544F61240962E4D0AA140" import="1">Lua/UI/Popups/DiploCurrentDeals.lua</File>
+    <File md5="7E8F4B2E9623CA9D0D215AA1972DE8E9" import="1">Lua/UI/Popups/DiploCurrentDeals.xml</File>
+    <File md5="25108A615FA680D0AD4FE0D35D4A4DB4" import="1">Lua/UI/Popups/DiploGlobalRelationships.lua</File>
+    <File md5="9964F751B3DFCBB0D3EB0F22EB6C9734" import="1">Lua/UI/Popups/DiploGlobalRelationships.xml</File>
+    <File md5="025614BA85437B57E6B2E060D7F4A585" import="1">Lua/UI/Popups/DiploList.lua</File>
+    <File md5="B1DD026DD1EE2DC00D2C098CD4AD6DE7" import="1">Lua/UI/Popups/DiploList.xml</File>
+    <File md5="C56C2C954C780706A4BEA3B6164116E3" import="1">Lua/UI/Popups/DiploRelationships.lua</File>
+    <File md5="C490D02A42BFC71013B12CED3759430C" import="1">Lua/UI/Popups/DiploRelationships.xml</File>
+    <File md5="499D258A7F485F8BA82863D9215E6B8D" import="1">Lua/UI/WorldView/NotificationPanel/Images/CityEventNotification80.dds</File>
+    <File md5="E721649DC27B61FD4840A61585E42440" import="1">Lua/UI/WorldView/NotificationPanel/Images/EventNotification80.dds</File>
+    <File md5="DE48FBA4B06265C41F73C1E0F30D6990" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationCityEventGlow.dds</File>
+    <File md5="4FEA391E88CC5EEF3C49EA84122B8D61" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationCityEventOrange.dds</File>
+    <File md5="9B462A7834306B3AAFF520277317E62F" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationCycleOfPower80.dds</File>
+    <File md5="2D61AD0B13A91BC3801C47F9516ED3DF" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationCycleOfPowerAnarchy80.dds</File>
+    <File md5="7BFFB58710DC2874332A118082D7A4E3" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationCycleOfPowerChoice.dds</File>
+    <File md5="166E402C9B0FFF84BACB0D7353C22AED" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationCycleOfPowerChoiceGlow.dds</File>
+    <File md5="B9E7AEEC47B5364AFAF7DF28400CA453" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationCyclePower80.dds</File>
+    <File md5="15ABB7696E1038B5D450275D976B2721" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationEpithet80.dds</File>
+    <File md5="95D498B7DD244272391492AF9BA4F4A1" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationEventGlow.dds</File>
+    <File md5="879CF550A56D42755709363D22253E11" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationEventOrange.dds</File>
+    <File md5="E463E66F2C4B4D68096FE89B649CBFF8" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationGovernment80.dds</File>
+    <File md5="AF755B76FE5E7E38CADFBE85E5BBBA81" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationGovernmentChoice.dds</File>
+    <File md5="E367C3B7B8990CCF3DFD2E2C76B400AD" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationGovernmentChoiceGlow.dds</File>
+    <File md5="29009EB1EF5F8A4453D58CD7B2C25D6B" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationGovernmentLegislature80.dds</File>
+    <File md5="BE942011C373A5F8796E9BCB5C75A3CA" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationGovernmentReform80.dds</File>
+    <File md5="803293271444EA6ED50AB7BB23D778EA" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationGovernmentReformAnarchy80.dds</File>
+    <File md5="89B738E5E0A0F1B5E0B888979F6C0C7E" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationDarkAge.dds</File>
+    <File md5="1A94FDF4044AA8DC320F0B8571F245A3" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationDarkAgeGlow.dds</File>
+    <File md5="54B70708D12B938EC8DC6499BBD2D07F" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationModernization80.dds</File>
+    <File md5="3CF38E3B5CFCDFF35F944ECDC638BD0D" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationModernizationChoice.dds</File>
+    <File md5="220306130073FC3D8FDD8C944F5F128F" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationModernizationChoiceGlow.dds</File>
+    <File md5="686C33EE03A424DD22EC1A6DB51FF627" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationPrisonersWar80.dds</File>
+    <File md5="E3344429E77FD371EDA6FA14BF247288" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationPrisonersWarChoice.dds</File>
+    <File md5="FB9F2D4577E6E1185E6236F1CEB1A543" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationPrisonersWarChoiceGlow.dds</File>
+    <File md5="686C33EE03A424DD22EC1A6DB51FF627" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationSpiritIdeology80.dds</File>
+    <File md5="440326FB58E0E05AFAC4BD004DCA030D" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationSpiritIdeologyGlow80.dds</File>
+    <File md5="CCD06E2F126D1ABBD6E19F32FC0B9DD9" import="1">Lua/UI/WorldView/NotificationPanel/NotificationPanel.lua</File>
+    <File md5="4D86196594E5DBF43C70ACAE6AA4D8CB" import="1">Lua/UI/WorldView/NotificationPanel/NotificationPanel.xml</File>
+    <File md5="AB4A665BF8CE90F1A00DA09AF68F831A" import="1">Lua/Utilities/JFD_RTP_Utils.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="B0CA0ECC2CE567244BDD1A9F7284FF64" import="1">Lua/Utilities/Save Utils/JFD_RTP_GlobalDefines.lua</File>
+    <File md5="DA8EA3845484D248B753AE2622B580D9" import="1">Lua/Utilities/Save Utils/JFD_RTP_TSLSerializerV3.lua</File>
+    <File md5="CD3E8C278CE1FD36806AA4CF6BE3BF88" import="1">Lua/Utilities/Save Utils/TableSaverLoader016.lua</File>
+    <File md5="48564059451C920C9228F50640B3CBDB" import="1">Lua/Utilities/Save Utils/TSLSerializerCoreV3.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/RTP_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_Shared.sql</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_Colors.sql</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_PolicyBranches.sql</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_Religions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/RTP_Triggers.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Functions.lua">
+      <Name>JFD_RTP_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

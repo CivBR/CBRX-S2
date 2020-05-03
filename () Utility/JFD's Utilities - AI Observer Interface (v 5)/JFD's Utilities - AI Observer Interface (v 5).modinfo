@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="970aae10-1004-4c8a-af2d-8d601de5ec02" version="5">
+  <Properties>
+    <Name>JFD's Utilities - AI Observer Interface</Name>
+    <Teaser>[COLOR_POSITIVE_TEXT]AI Observer Interface[ENDCOLOR] mod for CBR/AI games.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]AI Observer Interface[ENDCOLOR] mod for CBR/AI games.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="a8ac71dc-dcd9-4f87-af61-8ae7951ade57" minversion="0" maxversion="999" title="JFD's Rise to Power - (2) (UI) Top Panel" />
+    <Mod id="3fc450d7-c1d9-46e3-97ea-6d60a3485187" minversion="0" maxversion="999" title="JFD's Rise to Power - (2) (UI) Diplo Corner" />
+    <Mod id="aeea1d87-bb9b-4542-af59-5e3541fc1b06" minversion="0" maxversion="999" title="" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="D3858C1C5913DC0739470D08B8BFA5FA" import="1">Art/Images/BannerBody.dds</File>
+    <File md5="21561ACE763D15645C30051A1B8E75D4" import="1">Art/Images/BannerHeader.dds</File>
+    <File md5="745AFEF96BFBBC809954934FC537EA1B" import="1">Art/Images/BannerHeaderDesature.dds</File>
+    <File md5="6725A4A0D1512F67946212DBB1204066" import="1">Art/Images/civsymbolsframe32.dds</File>
+    <File md5="907529ACDF38E85E90CFABCD58B5C842" import="1">Art/Images/TurnBanner.dds</File>
+    <File md5="A61A32BB15F7DDC345F368ABB4C6CAED" import="0">Core/Observer_GameDefines.sql</File>
+    <File md5="324A0327857EBA1EB98DF6EE126E7962" import="0">Core/Observer_GameText.xml</File>
+    <File md5="9CB6370E75184151DFA37315DF0235A9" import="0">Lua/JFD_AI_Observer_Function.lua</File>
+    <File md5="9772F54D5DA575657FDA9062D7DAD3E1" import="0">Lua/UI/Bak/TopPanel.lua</File>
+    <File md5="610F6E98B7585FA8BFCC919C8AEF78CF" import="0">Lua/UI/Bak/TopPanel.xml</File>
+    <File md5="2DA843F7E5C25AA3A75F67B414067379" import="1">Lua/UI/Overrides/CityBannerManager.lua</File>
+    <File md5="6E543DCF4CAE93466906E1C6546D4438" import="1">Lua/UI/Overrides/CityBannerManager.xml</File>
+    <File md5="5E04567CC8C39ED4BAD328184601946D" import="1">Lua/UI/Overrides/DiploCorner.lua</File>
+    <File md5="800BFB7302072D6F4277628F8A481656" import="1">Lua/UI/Overrides/DiploCorner.xml</File>
+    <File md5="C70BEEFBC2603C16C88A164597049134" import="1">Lua/UI/Overrides/Governments_BannerCivicUnlocked.dds</File>
+    <File md5="70ED2021A914CFEEDAF76B033C0C2761" import="0">Lua/UI/Overrides/InfoCorner.lua</File>
+    <File md5="862B2724D799B8FDB3B2C76FE0D4532D" import="0">Lua/UI/Overrides/InfoCorner.xml</File>
+    <File md5="6FE6DBD6D83A756EDFA860B72C960C28" import="0">Lua/UI/Overrides/MiniMapPanel.lua</File>
+    <File md5="08A439366BEDAAA8BB3F7F2267F52BA7" import="0">Lua/UI/Overrides/MiniMapPanel.xml</File>
+    <File md5="C80B7BB2F60CA2FC37C2D389BF18B59D" import="1">Lua/UI/Overrides/NewTurn.lua</File>
+    <File md5="17F59F6E9D3F22C3DCEE613F5F6FC60A" import="1">Lua/UI/Overrides/NewTurn.xml</File>
+    <File md5="8560FE9B44439B7C7DE1C8162168DC38" import="1">Lua/UI/Overrides/TopPanel.lua</File>
+    <File md5="E4CF3A91E3C1C0543E12B8420E884EFE" import="1">Lua/UI/Overrides/TopPanel.xml</File>
+    <File md5="1ACD2840B8620EE3802C3A660BA23ED9" import="1">Lua/UI/Overrides/TopPanel_Back.lua</File>
+    <File md5="27357CD506F22FB4AAB5624A7558BA12" import="1">Lua/UI/Overrides/TurnProcessing.lua</File>
+    <File md5="7A6397F6DE772C5A0111D536D655C6D0" import="1">Lua/UI/Overrides/TurnProcessing.xml</File>
+    <File md5="04CC959A5D43EAF515F80FBE6571891C" import="1">Lua/Utilities/Shared/JFD_AI_Observer_Utils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Observer_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Observer_GameText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_AI_Observer_Function.lua">
+      <Name>JFD_AI_Observer_Function.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

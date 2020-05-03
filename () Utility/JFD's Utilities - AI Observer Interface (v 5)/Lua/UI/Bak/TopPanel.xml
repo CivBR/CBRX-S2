@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Font="TwCenMT16" FontStyle="Base" Color="Beige" ColorSet="Beige_Black" >
+
+	<Instance Name="RelationsCivInstance">
+		<Box Size="32,32" Color="255,255,255,0" ID="RelationsCivBase">
+			<Box ID="RelationsCivIconBox" Size="32,32" Anchor="L,T" Offset="0,-3" Color="0,0,0,0">
+				<Image ID="RelationsCivIconBG" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+				<Image ID="RelationsCivIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+				<Image ID="RelationsCivIcon" Size="24.24" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+				<Image ID="RelationsCivIconHighlight" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+				<Label Anchor="C,B" Offset="0,0" String="" Font="TwCenMT14" ID="RelationsIcon" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="350" />
+			</Box>
+		</Box>
+	</Instance>
+	<Instance Name="RelationsCiv2Instance">
+		<Box Size="32,32" Color="255,255,255,0" ID="RelationsCiv2Base">
+			<Box ID="RelationsCiv2IconBox" Size="32,32" Anchor="L,T" Offset="0,-3" Color="0,0,0,0">
+				<Image ID="RelationsCiv2IconBG" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+				<Image ID="RelationsCiv2IconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+				<Image ID="RelationsCiv2Icon" Size="24.24" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+				<Image ID="RelationsCiv2IconHighlight" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+				<Label Anchor="C,B" Offset="0,0" String="" Font="TwCenMT14" ID="Relations2Icon" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="350" />
+			</Box>
+		</Box>
+	</Instance>
+
+	<Image Anchor="L,T" Offset="0,0" Texture="TopLeft001.dds" Size="512.128" />
+
+	<GridButton Size="175,90" Anchor="R,T" Offset="5,5" Padding="0,0" Style="BaseButton" ConsumeMouse="0" ID="DateGrid">
+		<Label Hidden="0" Offset="0,-20" Anchor="C,C" String="" ToolTip="Current Date" Font="TwCenMT22" ID="CurrentDate"/>
+		<Label Hidden="0" Offset="0,4" Anchor="C,C" String="" ToolTip="Current Era" Font="TwCenMT18" ID="CurrentEra"/>
+		<Label Hidden="0" Offset="0,25" Anchor="C,C" String="" ToolTip="Current Turn" Font="TwCenMT16" ID="CurrentTern"/>
+	</GridButton>
+	<PullDown ConsumeMouse="1" Offset="180,5" Anchor="R,T" Size="45,45" AutoSizePopUp="0" SpaceForScroll="0" ScrollThreshold="999" ID="MultiPull">
+		<ButtonData>
+			<Button Anchor="R,T" Size="45.45" Texture="assets\UI\Art\Notification\NotificationNotes.dds" ToolTip="TXT_KEY_DIPLO_ADDITIONAL">
+				<ShowOnMouseOver>
+					<Image Anchor="R,T" Offset="0,0" Size="45.45" Texture="assets\UI\Art\Notification\NotificationNotes.dds"/>
+					<AlphaAnim Anchor="R,T" Offset="0,0" Size="45.45" TextureOffset="0.0" Texture="assets\UI\Art\Notification\NotificationNotesHL.dds" Pause="0" Cycle="Bounce" Speed="2" AlphaStart="0.95" AlphaEnd="0.55"/>
+				</ShowOnMouseOver>
+			</Button>
+		</ButtonData>
+		<GridData Anchor="L,T" Offset="-200,-41" AutoSize="1" Style="Grid9DetailTwo140" Padding="0,0"/>
+		<ScrollPanelData Anchor="L,T" Size="140,200" Vertical="1" HideScrollBar="1" AutoScrollBar="0">
+			<!-- Scroll Controls -->
+			<ScrollBar Style="VertSlider" Anchor="R,C" AnchorSide="O,I"/>
+			<UpButton Style="ScrollBarUp" Anchor="R,T" AnchorSide="O,I"/>
+			<DownButton Style="ScrollBarDown" Anchor="R,B" AnchorSide="O,I"/>
+		</ScrollPanelData>
+		<StackData StackGrowth="Bottom" Padding="0" Size="140,300" Anchor="L,T"/>
+		<InstanceData Name="InstanceOne">
+			<Button Size="210,24" Anchor="C,T" ID="Button">
+				<ShowOnMouseOver>
+					<AlphaAnim Anchor="C,C" Offset="0,0" Size="180,24" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd="0">
+						<Grid Size="180,26" Offset="0,0" Padding="0,0" Style="Grid9FrameTurns"/>
+					</AlphaAnim>
+				</ShowOnMouseOver>
+			</Button>
+		</InstanceData>
+	</PullDown>
+
+	<Stack Anchor="L,T" Offset="0,0" Padding="10" StackGrowth="Bottom" ID="InfoStack" Hidden="0">
+		<Grid Anchor="L,T" Offset="-20,0"  Size="635,195" Color="255,255,255,255" StateOffsetIncrement="0,0" Style="Grid9Detail48Black" ID="ActiveStyle" Hidden="0" ConsumeMouse="1">
+			<!--<AlphaAnim ID="BgImage" Anchor="R,T" Offset="17,60" Size="273,139" TextureOffset="0,0" Texture="TribalTest1.dds" Cycle="Once" Stopped="1" AlphaStart="0.4" AlphaEnd="0.4" Speed="1"/>-->
+			<Stack Anchor="C,C" Offset="65,30" Padding="0" StackGrowth="Bottom" ID="InfoStack2" Hidden="0">
+				<TextButton Anchor="L,T" Offset="10,-18" String="Score: " Font="TwCenMT18" ID="Score" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="350" />
+				<Stack Anchor="T,C" Offset="10,5" Padding="10" StackGrowth="Bottom" ID="LeftInfoStack" Hidden="0">
+					<Image ID="Bar" Anchor="L,C" Offset="-65,0" Texture="bar300x2.dds" Size="300.1"/>
+					<TextButton Anchor="L,B" Offset="0,0" String="Cycle:" Font="TwCenMT14" ID="CurrentCycle" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="190" Hidden="1"/>
+					<TextButton Anchor="L,B" Offset="0,0" String="Government:" Font="TwCenMT14" ID="CurrentGovernment" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="190" Hidden="1"/>
+					<TextButton Anchor="L,B" Offset="0,0" String="Faction:" Font="TwCenMT14" ID="DominantFaction" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="190" Hidden="1"/>
+					<TextButton Anchor="L,B" Offset="0,0" String="Last Reform:" Font="TwCenMT14" ID="LastReform" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="200" Hidden="1"/>
+					<TextButton Anchor="L,B" Offset="0,0" String="Religion:" Font="TwCenMT14" ID="DominantReligion" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="190" Hidden="0"/>
+					<TextButton Anchor="L,B" Offset="0,0" String="Society:" Font="TwCenMT14" ID="DominantPolicy" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="190" Hidden="0"/>
+					<TextButton Anchor="L,B" Offset="0,0" String="Technology:" Font="TwCenMT14" ID="CurrentResearch" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="190" Hidden="0"/>
+				</Stack>
+			</Stack>
+			<Stack Anchor="R,T" Offset="148,100" Padding="10" StackGrowth="Bottom" ID="RightInfoStack" Hidden="0">
+				<TextButton Anchor="L,B" Offset="0,0" String="Land:" Font="TwCenMT14" ID="CurrentLandmass" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="180" Hidden="1"/>
+				<TextButton Anchor="L,B" Offset="0,0" String="Population:" Font="TwCenMT14" ID="CurrentPopulation" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="180" Hidden="1"/>
+				<TextButton Anchor="L,B" Offset="0,0" String="Manpower:" Font="TwCenMT14" ID="CurrentManpower" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="180" Hidden="1"/>
+				<TextButton Anchor="L,B" Offset="0,0" String="Tourism:" Font="TwCenMT14" ID="CurrentUnitSupplyProportion" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="180" Hidden="0"/>
+				<TextButton Anchor="L,B" Offset="0,0" String="Production:" Font="TwCenMT14" ID="CurrentProduction" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="180" Hidden="1"/>
+			</Stack>
+			<!--<Grid Anchor="L,T" Offset="20,-150"  Size="545,20" Color="255,255,255,200" StateOffsetIncrement="0,0" Style="GridSquare8" ID="DiploBox" Hidden="0">-->
+			<!--</Grid>-->
+		</Grid>
+		<Grid Anchor="L,B" Offset="-20,-50"  Size="635,170" Color="255,255,255,255" StateOffsetIncrement="0,0" Style="Grid9DetailTwo140" ID="DiploGrid" Hidden="0">
+			<Stack Anchor="L,T" Offset="0,60" Padding="0" StackGrowth="Bottom" ID="DiploStack" Hidden="0">
+				<!--<Label Anchor="L,C" Offset="30,0" String="[ICON_INFLUENCE] Allies[NEWLINE]" Font="TwCenMT14" ID="AlliesLabel" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="500" Hidden="0"/>
+				<Stack Anchor="L,C" Offset="25,0" StackGrowth="Right" ID="AlliesCivStack" Padding="-5"/>-->
+				<Label Anchor="L,C" Offset="30,-10" String="Relations:[NEWLINE]" Font="TwCenMT16" ID="RelationsLabel" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="500" Hidden="0"/>
+				<Stack Anchor="L,C" Offset="25,-12" StackGrowth="Right" ID="RelationsCivStack" Padding="0"/>
+				<Stack Anchor="L,C" Offset="25,-5" StackGrowth="Right" ID="RelationsCivStack2" Padding="0"/>
+				<Stack Anchor="L,C" Offset="25,2" StackGrowth="Right" ID="RelationsCivStack3" Padding="0"/>
+				<Stack Anchor="L,C" Offset="25,9" StackGrowth="Right" ID="RelationsCivStack4" Padding="0"/>
+				<!--<Label Anchor="L,C" Offset="30,0" String="[ICON_DIPLOMAT] Friends[NEWLINE]" Font="TwCenMT14" ID="FriendsLabel" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="500" Hidden="0"/>
+				<Stack Anchor="L,C" Offset="25,0" StackGrowth="Right" ID="FriendsCivStack" Padding="-5"/>
+				<Label Anchor="L,C" Offset="30,0" String="" Font="TwCenMT14" ID="EnemiesLabel" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="500" Hidden="0"/>
+				<Stack Anchor="L,C" Offset="-10,5" StackGrowth="Right" ID="EnemiesCivStack" Padding="-5"/>
+				<Label Anchor="L,C" Offset="30,0" String="[ICON_WAR] Wars[NEWLINE]" Font="TwCenMT14" ID="WarLabel" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="500" Hidden="0"/>
+				<Stack Anchor="L,C" Offset="25,0" StackGrowth="Right" ID="WarCivStack" Padding="-5"/>-->
+			</Stack>
+		</Grid>
+	</Stack>
+
+	<Image Anchor="L,T" Texture="assets\UI\Art\WorldView\TopLeft001.dds"  Offset="0,30"  Size="512,128" Hidden="0"/>
+	<Image Anchor="L,T" Texture="assets\UI\Art\WorldView\TopLeft022.dds"  Offset="0,30"  Size="512,128" Hidden="0"/>
+
+	<Grid Style="Grid9BlueFrame" Anchor="L,T" Size="615,55" Color="255,255,255,255" Offset="5,0" StateOffsetIncrement="0,0" ID="CivTitleGrid">
+		<Box Size="450,55" Offset="150,0" Color="255,255,255,0">
+			<Label Anchor="L,C" Offset="30,-10" Font="TwCenMT24" ID="CivText" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+			<TextButton Anchor="R,C" Offset="40,-10" Font="TwCenMT16" ID="StatusText" ColorSet="Beige_Black_Alpha" String="" FontStyle="Shadow" />
+			<Label Anchor="R,C" Offset="40,10" Font="TwCenMT14" ID="IdValuesText" ColorSet="Beige_Black_Alpha" String="" FontStyle="Shadow" />
+			<Image ID="Bar2" Anchor="L,C" Offset="20,5" Texture="bar300x2.dds" Size="300.1" Hidden="1"/>
+			<Stack Anchor="L,C" Offset="0,12" Padding="0" StackGrowth="Right" ID="RightInfoStack" Hidden="0">
+				<Label Anchor="C,C" Offset="30,0" String="" Font="TwCenMT16" ID="LeaderTitle" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" TruncateWidth="350" />
+			</Stack>
+		</Box>
+	</Grid>
+
+	<Button ConsumeMouse="1" Anchor="C,T" Offset="-364,5" Size="45.45" Texture="assets\UI\Art\Icons\mainopen.dds" ID="ShowInterfaceButton" Hidden="0" ToolTip="Hide/Show Interface" >
+		<ShowOnMouseOver>
+			<Image Anchor="C,C" Offset="0,0" Size="45.45" Texture="assets\UI\Art\Icons\mainopen.dds" ID="ShowInterfaceMO" />
+			<AlphaAnim Anchor="C,C" Offset="0,0" Size="45.45"  TextureOffset="0.0" Texture="assets\UI\Art\Icons\mainopenhl.dds" ID="ShowInterfaceHL"  Pause="0" Cycle="Bounce" Speed="2" AlphaStart="0.95" AlphaEnd="0.55"/>
+		</ShowOnMouseOver>
+	</Button>
+
+
+
+	<Button Anchor="L,T" NoStateChange="1" Offset="-40,-20"  Texture="256x256frame.dds" Size="256.256" ID="LeaderButton" >
+		<Image Anchor="C,C"  Size="256.256" ID="LeaderIcon" Hidden="0"/>
+	</Button>
+	<Button Anchor="L,T" NoStateChange="1" Offset="-5,0"  Texture="iconframe64.dds" Size="64.64" ID="CivButton" >
+		<Image Anchor="C,C"  Size="64.64" ID="CivIcon" Hidden="0"/>
+	</Button>
+	<Button Anchor="L,T" NoStateChange="1" Offset="-5,155"  Texture="iconframe64.dds" Size="64.64" ID="CultureButton" >
+		<Image Anchor="C,C"  Size="64.64" ID="CultureIcon" Hidden="0"/>
+	</Button>
+
+
+
+	<!--Hide the old top panel stuff-->
+	<Image Anchor="C,T" Texture="assets\UI\Art\WorldView\TopPanelBar.dds" Size="Full.32" ConsumeMouse="true" Hidden="1"/>
+
+	<Stack Anchor="L,T" Offset="10,6" Padding="10" StackGrowth="Right" ID="TopPanelInfoStack" Hidden="1">
+
+		<TextButton Anchor="C,T" Offset="0,0" String="000 Turn"  Color="Science" ID="SciencePerTurn" ToolTipType="TooltipTypeTopPanel" />
+
+		<TextButton Anchor="C,T" Offset="-0,0" String="000,000 Turn: Total 000,000" ColorLayer0="255,235,0,255"  ID="GoldPerTurn" ToolTipType="TooltipTypeTopPanel" />
+
+		<TextButton Anchor="C,T" Offset="-0,0" String="000,000 Turn: Total 000,000" ColorLayer0="255,235,0,255"  ID="ProsperityScore" ToolTipType="TooltipTypeTopPanel" Hidden="1" />
+
+		<TextButton Anchor="C,T" Offset="-0,0" String="000,000 Turn: Total 000,000" ColorLayer0="255,235,0,255"  ID="InternationalTradeRoutes" ToolTipType="TooltipTypeTopPanel" />
+
+		<TextButton Anchor="C,T" String="HAPPINESS!" ColorLayer0="255,255,200,255"  ID="HappinessString" ToolTipType="TooltipTypeTopPanel"/>
+
+		<TextButton Anchor="C,T" String="GOLDEN AGE!"  ColorLayer0="255,255,255,255"  ID="GoldenAgeString" ToolTipType="TooltipTypeTopPanel"/>
+
+		<TextButton Anchor="C,T" String="LOYALTY!" ColorLayer0="255,255,200,255"  ID="LoyaltyString" ToolTipType="TooltipTypeTopPanel" Hidden="1"/>
+		<TextButton Anchor="C,T" String="SOVEREIGNTY!" ColorLayer0="255,255,200,255"  ID="SovereigntyString" ToolTipType="TooltipTypeTopPanel" Hidden="1"/>
+		<TextButton Anchor="C,T" String="CULTURE!" ColorLayer0="255,255,200,255"  ID="CultureString" ToolTipType="TooltipTypeTopPanel"/>
+
+		<TextButton Anchor="C,T" String="Tourism!" ColorLayer0="255,255,200,255"  ID="TourismString" ToolTipType="TooltipTypeTopPanel"/>
+
+		<TextButton Anchor="C,T" String="PIETY!" ColorLayer0="255,255,200,255"  ID="PietyString" ToolTipType="TooltipTypeTopPanel" Hidden="1"/>
+		<TextButton Anchor="C,T" String="FAITH!" ColorLayer0="255,255,200,255"  ID="FaithString" ToolTipType="TooltipTypeTopPanel"/>
+
+
+		<!--<TextButton Anchor="C,C" String="TXT_KEY_UNIT_SUPPLY_REACHED" ID="UnitSupplyString" Hidden="1"/>-->
+		<Image Anchor="C,T" Offset="0,-3" Texture="assets\UI\Art\WorldView\OverSupplyLimit.dds" Size="20.20" ID="UnitSupplyString" />
+	</Stack>
+
+	<Image Anchor="R,T" Texture="assets\UI\Art\WorldView\TopPanelBar.dds" Size="295.32" ConsumeMouse="true" Hidden="1"/>
+	<Stack Anchor="R,T" Offset="10,4" Padding="10" StackGrowth="Left" ID="TopPanelInfoStackLeft" Hidden="1">
+		<TextButton Offset="0,-12" Anchor="C,C"  String="TXT_KEY_MENU_CAPS"   Font="TwCenMT20" NormalState="Beige_Black"  MouseOver="White_Black" ButtonDown="Beige_Black_Alpha" ID="MenuButton" ToolTip="TXT_KEY_MENU_TOOLTIP" />
+		<Image Offset="0,-10" Anchor="C,C" TextureOffset="5,0" Texture="assets\UI\Art\WorldView\Divider.dds" Size="5.16"  />
+		<TextButton Offset="0,-12" Anchor="C,C"  String=""   Font="TwCenMT20" NormalState="Beige_Black"  MouseOver="White_Black" ButtonDown="Beige_Black_Alpha" ID="CurrentTime"/>
+		<Image Offset="0,-12" Anchor="C,C" TextureOffset="5,0" Texture="assets\UI\Art\WorldView\Divider.dds" Size="5.16"  />
+		<TextButton Offset="0,-12" Anchor="C,C"  String="?"   Font="TwCenMT20" NormalState="Beige_Black"  MouseOver="White_Black" ButtonDown="Beige_Black_Alpha" ID="CivilopediaButton" ToolTip="TXT_KEY_CIVILOPEDIA_TOOLTIP" />
+		<Image Offset="0,-12" Anchor="C,C" TextureOffset="5,0" Texture="assets\UI\Art\WorldView\Divider.dds" Size="5.16"  />
+		<!--<Label Offset="0,-12" Anchor="C,C" String="Date: 2100 AD"  Font="TwCenMT20" ID="CurrentDate"/>-->
+		<Label Offset="0,-12" Anchor="C,C" String="Turn: 1"  Font="TwCenMT20" ID="CurrentTurn"/>
+		<Image Offset="0,-12" Anchor="C,C" TextureOffset="5,0" Texture="assets\UI\Art\WorldView\Divider.dds" Size="5.16"  />
+		<TextButton Offset="0,3" Anchor="C,T" String="" ColorLayer0="255,0,255,255"  ID="ResourceString" ToolTipType="TooltipTypeTopPanel"/>
+		<Button Anchor="C,C" Size="32,32" Offset="-10,-10" ToolTip="TXT_KEY_JFD_UNHIDE_RESOURCES" Texture="CityNamePanelArrows.dds" ID="UnhideResources" Hidden="1">
+		</Button>
+		<Button Anchor="C,C" Size="32,32" TextureOffset="32.0" ToolTip="TXT_KEY_JFD_HIDE_RESOURCES" Offset="-10,-10" Texture="CityNamePanelArrows.dds" ID="HideResources" Hidden="0">
+		</Button>
+		<Label Hidden="1" Offset="0,-12" Anchor="C,C" String=""  Font="TwCenMT20" ID="MagistratesDignitaries"/>
+
+	</Stack>
+
+
+	<ToolTipType Name="TooltipTypeTopPanel" >
+		<Grid Size="530,90" Offset="8.0" Padding="8,8" Style="GridBlack8"  ID="TopPanelMouseover" NoClip="1" >
+			<Label Offset="12,12" Font="TwCenMT16" ID="TooltipLabel" String="Brief description" LeadingOffset="-5" WrapWidth="512" />
+		</Grid>
+	</ToolTipType>
+
+
+
+
+
+
+</Context>

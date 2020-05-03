@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7f1a0a39-424f-449c-8b34-0ab09014f625" version="1">
+  <Properties>
+    <Name>JFD's Rise to Power - (4) (Content) Neutrality Ideology</Name>
+    <Teaser>[COLOR_CYAN]Neutrality Ideology[ENDCOLOR] component for Rise to Power. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Neutrality[ENDCOLOR] is a new Ideology. It can only be chosen if you have entered the Modern Era and have not yet adopted another Ideology. With Neutrality, you will be able to access a selection of Ideological Tenets from amongst the other available Ideologies.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="8822c973-60de-47f8-a4f2-96045dcc468e" minversion="0" maxversion="999" title="JFD's Rise to Power - (2) (UI) Social Policy Screen" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="573058478C98EBCA217DCF91EAAFF7C7" import="1">Art/Fonts/FontIcons_JFD_NeutralityIdeology_22.dds</File>
+    <File md5="05907B8C81788EA1DDCD0CACE12BC666" import="1">Art/Fonts/FontIcons_JFD_NeutralityIdeology_22.ggxml</File>
+    <File md5="CD86E2C901619F9093E5BC7C9BEFD018" import="0">Art/Icons/JFD_NeutralityIdeology_NotificationAtlas_80.dds</File>
+    <File md5="5592973B93F792D7171FFCDF7F43D5AB" import="0">Art/Icons/JFD_NeutralityIdeology_PolicyAtlas_256.dds</File>
+    <File md5="A350973E05DC0815AD8F24EE352BD2A3" import="0">Art/Icons/JFD_NeutralityIdeology_PolicyAtlas_64.dds</File>
+    <File md5="CF4B76C2D2139C5ADD0F6D79E68D9F05" import="1">Art/Images/socialpoliciesneutrality.dds</File>
+    <File md5="146C1391E46BFDF6F0BB63ABC93B062B" import="0">Core/NeutralityIdeology_Master.sql</File>
+    <File md5="5D49538E9340D46978E1CA3628B1D7AF" import="0">Core/NeutralityIdeology_ArtDefines.sql</File>
+    <File md5="C35BDF34912EC1F20AD3DF41317E302A" import="0">Core/NeutralityIdeology_Concepts.sql</File>
+    <File md5="508A5E3AF1BCDECF0EC7DD36F1F7EB32" import="0">Core/NeutralityIdeology_GameText.sql</File>
+    <File md5="CE1A44CD6D56C6611E0C9A8FE983D15A" import="0">Core/NeutralityIdeology_GameText.xml</File>
+    <File md5="AEAA254F39AC0525D5D64C206FA6BB45" import="0">Core/NeutralityIdeology_GameText_Interface.xml</File>
+    <File md5="1DCB4D9D2EFBDD7801605DCECDF1C1E6" import="0">Core/NeutralityIdeology_IdeologicalTenets.sql</File>
+    <File md5="34F53B4BE8FCCCD362FD7C64957DCAFD" import="0">Core/NeutralityIdeology_Ideologies.sql</File>
+    <File md5="90E4DB2B6C25317E819259730A92FD06" import="0">Core/NeutralityIdeology_Notifications.sql</File>
+    <File md5="D99752496694107D4F8EB5FD6E188563" import="0">Core/NeutralityIdeology_Triggers.sql</File>
+    <File md5="EF2E72B6C254B60BDFFF6C9AD85FB035" import="0">Credits.txt</File>
+    <File md5="82345D02A45B3623649AA18D52211467" import="0">Lua/JFD_RTP_NeutralityIdeology_Functions.lua</File>
+    <File md5="571AD9EB567CEF3C80A63945FE2F9D50" import="1">Lua/Utilities/JFD_NeutralityIdeology_Utils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/NeutralityIdeology_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/NeutralityIdeology_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/NeutralityIdeology_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/NeutralityIdeology_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/NeutralityIdeology_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/NeutralityIdeology_IdeologicalTenets.sql</UpdateDatabase>
+      <UpdateDatabase>Core/NeutralityIdeology_Ideologies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/NeutralityIdeology_Notifications.sql</UpdateDatabase>
+      <UpdateDatabase>Core/NeutralityIdeology_Triggers.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_NeutralityIdeology_Functions.lua">
+      <Name>JFD_RTP_NeutralityIdeology_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

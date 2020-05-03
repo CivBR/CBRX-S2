@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Neutrality Ideology-->
+		<Row Tag="TXT_KEY_JFD_NEUTRALITY_IDEOLOGY_HEADING1_TITLE">
+			<Text>Neutrality Ideology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEUTRALITY_IDEOLOGY_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Neutrality[ENDCOLOR] is a new Ideology. It can only be chosen if you have entered the Modern Era and have not yet adopted another Ideology. With Neutrality, you will be able to access a selection of Ideological Tenets from amongst the other available Ideologies.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--IDEOLOGIES-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_NEUTRALITY">
+			<Text>Neutrality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_NEUTRALITY_CAP">
+			<Text>NEUTRALITY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_NEUTRALITY_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NEUTRALITY_TEXT">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEUTRALITY_TITLE">
+			<Text>Representative {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<!--===================================================-->
+		<!--IDEOLOGICAL TENETS-->
+		<!--===================================================-->
+		<Replace Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cultural Revolution[ENDCOLOR][NEWLINE]+34% Tourism [ICON_TOURISM] to other civilizations with this Ideology.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Economic Union[ENDCOLOR][NEWLINE]+3 [ICON_GOLD] Gold from all your trade routes with other civilizations following this Ideology.</Text>
+		</Replace>
+		<!--LEVEL 1-->
+		<!--Cultural Roots-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CULTURAL_ROOTS">
+			<Text>Cultural Roots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CULTURAL_ROOTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cultural Roots[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture from each Great Work. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CULTURAL_ROOTS_TEXT">
+			<Text>Cultural heritage is the legacy of physical artifacts and intangible attributes of a group or society that is inherited from past generations. Not all legacies of past generations are "heritage", rather heritage is a product of selection by society. Cultural heritage includes tangible culture (such as buildings, monuments, landscapes, books, works of art, and artifacts), intangible culture (such as folklore, traditions, language, and knowledge), and natural heritage (including culturally significant landscapes, and biodiversity).</Text>
+		</Row>
+		<!--Democratization-->
+		<Row Tag="TXT_KEY_POLICY_JFD_DEMOCRATIZATION">
+			<Text>Democratization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_DEMOCRATIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Democratization[ENDCOLOR][NEWLINE]Specialists consume only half the normal amount of [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_DEMOCRATIZATION_TEXT">
+			<Text>Democratization is the transition to a more democratic political regime, including substantive political changes moving in a democratic direction. It may be the transition from an authoritarian regime to a full democracy, a transition from an authoritarian political system to a semi-democracy or transition from a semi-authoritarian political system to a democratic political system. The outcome may be consolidated (as it was for example in the United Kingdom) or democratization may face frequent reversals (as it has faced for example in Chile in 1973). Different patterns of democratization are often used to explain other political phenomena, such as whether a country goes to a war or whether its economy grows.</Text>
+		</Row>
+		<!--Mixed Economy-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MIXED_ECONOMY">
+			<Text>Mixed Economy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MIXED_ECONOMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mixed Economy[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of purchasing buildings reduced by 33%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MIXED_ECONOMY_TEXT">
+			<Text>A mixed economy is variously defined as an economic system blending elements of market economies with elements of planned economies, free markets with state interventionism, or private enterprise with public enterprise.[1] As such, there is no single definition of a mixed economy. One definition is about a mixture of markets with state interventionism, referring specifically to capitalist market economies with strong regulatory oversight and extensive interventions into markets. The other definition is apolitical in nature, strictly referring to an economy containing a mixture of private enterprise with public enterprise.</Text>
+		</Row>
+		<!--Mutual Security-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MUTUAL_SECURITY">
+			<Text>Mutual Security</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MUTUAL_SECURITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mutual Security[ENDCOLOR][NEWLINE]Militaristic City-States gift units twice as often when at war with a common foe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MUTUAL_SECURITY_TEXT">
+			<Text>A defense pact is a type of treaty or military alliance in which the signatories promise to support each other militarily and to defend each other. In general, the signatories point out the threats in the treaty and concretely prepare to respond to it together. The treaty has lasted longer than any other alliance between two great powers since the 1648 Peace of Westphalia. The Treaty of Mutual Cooperation and Security Between the United States and Japan has lasted longer than any other alliance between two great powers since the 1648 Peace of Westphalia. The treaty had a minimum term of 10 years. However, it provided that it would remain in force permanently unless one party gives one year's notice that it wishes to terminate it. </Text>
+		</Row>
+		<!--National Liberty-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_LIBERTY">
+			<Text>National Liberty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_LIBERTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]National Liberty[ENDCOLOR][NEWLINE]Wounded Military Units inflict 25% more damage than normal. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_LIBERTY_TEXT">
+			<Text>Wars of national liberation or national liberation revolutions are conflicts fought by nations to gain independence. The term is used in conjunction with wars against foreign powers (or at least those perceived as foreign) to establish separate sovereign states for the rebelling nationality. From a different point of view, these wars are called insurgencies, rebellions, or wars of independence. Guerrilla warfare or asymmetric warfare is often utilized by groups labeled as national liberation movements, often with support from other states.</Text>
+		</Row>
+		<!--Revanchism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_REVANCHISM">
+			<Text>Revanchism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_REVANCHISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Revanchism[ENDCOLOR][NEWLINE]+15% attack bonus when fighting in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_REVANCHISM_TEXT">
+			<Text>Revanchism is the political manifestation of the will to reverse territorial losses incurred by a country, often following a war or social movement. Revanchist politics often rely on the identification of a nation with a nation state, often mobilizing deep-rooted sentiments of ethnic nationalism, claiming territories outside the state where members of the ethnic group live, while using heavy-handed nationalism to mobilize support for these aims. Revanchist justifications are often presented as based on ancient or even autochthonous occupation of a territory since "time immemorial", an assertion that is usually inextricably involved in revanchism and irredentism and justifies them in the eyes of their proponents.</Text>
+		</Row>
+		<!--LEVEL 2-->
+		<!--Demilitarization-->
+		<Row Tag="TXT_KEY_POLICY_JFD_DEMILITARIZATION">
+			<Text>Demilitarization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_DEMILITARIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Demilitarization[ENDCOLOR][NEWLINE]Unit Maintenance cost reduced by 33%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_DEMILITARIZATION_TEXT">
+			<Text>Demilitarisation or demilitarization may mean the reduction of state armed forces, it is the opposite of militarisation in many respects. For instance, the demilitarisation of Northern Ireland entailed the reduction of British security and military apparatuses. Demilitarisation in this sense is usually the result of a peace treaty ending a war or a major conflict. The principle is distinguished from demobilization, which refers to the drastic voluntary reduction in the size of a victorious army.</Text>
+		</Row>
+		<!--Developmentalism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_DEVELOPMENTALISM">
+			<Text>Developmentalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_DEVELOPMENTALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Developmentalism[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture, [ICON_FOOD] Food, [ICON_GOLD] Gold, [ICON_PRODUCTION] Production and [ICON_RESEARCH] Science per City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_DEVELOPMENTALISM_TEXT">
+			<Text>Developmentalism is an economic theory which states that the best way for less developed economies to develop is through fostering a strong and varied internal market and imposing high tariffs on imported goods. Developmentalism in the international economic context can be understood as consisting of a set of ideas which converge to place economic development at the center of political endeavors and institutions and also as a means through which to establish legitimacy in the political sphere. Adherents to the theory of developmentalism hold that the development of economic success in developing nations (particularly in Latin America and East Asia) grants legitimate leadership to political figures who would not otherwise have the benefit of a social consensus regarding who should lead and how they should do conduct themselves in the international sphere.</Text>
+		</Row>
+		<!--New Industrialization-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NEW_INDUSTRIALIZATION">
+			<Text>New Industrialization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NEW_INDUSTRIALIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]New Industrialization[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production per City. +1 [ICON_PRODUCTION] Production per Mine and Quarry. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NEW_INDUSTRIALIZATION_TEXT">
+			<Text>The category of newly industrialized country (NIC) is a socioeconomic classification applied to several countries around the world by political scientists and economists. They represent a subset of developing countries whose economic growth is much higher than other developing countries; and where the social consequences of industrialization, such as urbanization, are reorganizing society. The term came into use around 1970, when the Four Asian Tigers of Taiwan, Singapore, Hong Kong and South Korea rose to global dominance in science, technological innovation and economic prosperity as well as NICs in the 1970s and 1980s, with exceptionally fast industrial growth since the 1960s; all four countries having since graduated into high-tech industrialized developed countries with wealthy high-income economies.</Text>
+		</Row>
+		<!--Party Centrism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_PARTY_CENTRISM">
+			<Text>Party Centrism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PARTY_CENTRISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Party Centrism[ENDCOLOR][NEWLINE][ICON_HAPPINESS_4] Unhappiness from Specialists is halved. [ICON_GOLDEN_AGE] Golden Ages last 50% longer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PARTY_CENTRISM_TEXT">
+			<Text>In politics, centrism is a political outlook or specific position that involves acceptance or support of a balance of a degree of social equality and a degree of social hierarchy, while opposing political changes which would result in a significant shift of society strongly to either the left or the right. Both centre-left and centre-right politics involve a general association with centrism that is combined with leaning somewhat to their respective sides of the spectrum. Various political ideologies such as Christian democracy can be classified as centrist ones.</Text>
+		</Row>
+		<!--Peacekeeping-->
+		<Row Tag="TXT_KEY_POLICY_JFD_PEACEKEEPING">
+			<Text>Peacekeeping</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PEACEKEEPING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Peacekeeping[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production towards Military Units. Gain 15 [ICON_INFLUENCE] Influence from each Military Unit gift to City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PEACEKEEPING_TEXT">
+			<Text>Peacekeeping comprises activities intended to create conditions that favour lasting peace. Research generally finds that peacekeeping reduces civilian and battlefield deaths, as well as reduces the risk of renewed warfare. Under international law, peacekeepers are non-combatants due to their neutral stance in the conflict between two or more belligerent parties (to the same extent as neutral personnel and properties outside of peacekeeping duties) and are to be protected from attacks at all times.</Text>
+		</Row>
+		<!--Third Way-->
+		<Row Tag="TXT_KEY_POLICY_JFD_THIRD_WAY">
+			<Text>Third Way</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_THIRD_WAY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Third Way[ENDCOLOR][NEWLINE]Strategic Resources provide double quantity. +5 [ICON_FOOD] Food and [ICON_RESEARCH] Science in Capital. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_THIRD_WAY_TEXT">
+			<Text>The Third Way is a political philosophy and political position akin to centrism that attempts to reconcile right-wing and left-wing politics by advocating a varying synthesis of centre-right and centrist economic platforms with some centre-left social policies. The Third Way was created as a re-evaluation of political policies within various centre-left progressive movements in response to doubt regarding the economic viability of the state and the overuse of economic interventionist policies that had previously been popularised by Keynesianism, but which at that time contrasted with the rise of popularity for neoliberalism and the New Right starting in the late 1970s and throughout the 1980s. The Third Way has been promoted by social liberal and social democratic parties.</Text>
+		</Row>
+		<!--LEVEL 3-->
+		<!--Armed Neutrality-->
+		<Row Tag="TXT_KEY_POLICY_JFD_ARMED_NEUTRALITY">
+			<Text>Armed Neutrality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_ARMED_NEUTRALITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Armed Neutrality[ENDCOLOR][NEWLINE]Gain 6 more [ICON_INFLUENCE] Influence per turn with City-States you could demand tribute from. Military units are 50% more effective at intimidating City-States. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_ARMED_NEUTRALITY_TEXT">
+			<Text>Armed neutrality is the posture of a state or group of states that has no alliance with either side in a war, but asserts that it will defend itself against resulting incursions from any party. The term derives from the historic maritime neutrality of the League of Armed Neutrality that the Nordic countries and Russia under the leadership of Katherine the Great invented in the late 18th Century, but has since been used only to refer to country neutralities. Sweden and Switzerland are, independent of each other, famed for their armed neutralities, which they maintained throughout both World War I and World War II.</Text>
+		</Row>
+		<!--Cross-Cultural Communication-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CROSS_CULTURAL_COMMUNICATION">
+			<Text>Cross-Cultural Communication</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CROSS_CULTURAL_COMMUNICATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cross-Cultural Communication[ENDCOLOR][NEWLINE]+34% [ICON_TOURISM] Tourism generated by Cities with a Broadcast Tower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CROSS_CULTURAL_COMMUNICATION_TEXT">
+			<Text>Cross-cultural communication is a field of study that looks at how people from differing cultural backgrounds communicate, in similar and different ways among themselves, and how they endeavor to communicate across cultures. With increasing globalization and international trade, it is unavoidable that different cultures will meet, conflict, and blend together. People from different culture find it is difficult to communicate not only due to language barriers, but also are affected by culture styles.</Text>
+		</Row>
+		<!--Self-Sufficiency-->
+		<Row Tag="TXT_KEY_POLICY_JFD_SELF_SUFFICIENCY">
+			<Text>Self-Sufficiency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_SELF_SUFFICIENCY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Self-Sufficiency[ENDCOLOR][NEWLINE]Free Courthouse when capturing a City. +50% [ICON_FOOD] Food or [ICON_PRODUCTION] Production from internal trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_SELF_SUFFICIENCY_TEXT">
+			<Text>Self-sustainability and self-sufficiency are overlapping states of being in which a person or organization needs little or no help from, or interaction with, others. Self-sufficiency entails the self being enough (to fulfill needs), and a self-sustaining entity can maintain self-sufficiency indefinitely. These states represent types of personal or collective autonomy. A self-sufficient economy is one that requires little or no trade with the outside world and is called an autarky.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

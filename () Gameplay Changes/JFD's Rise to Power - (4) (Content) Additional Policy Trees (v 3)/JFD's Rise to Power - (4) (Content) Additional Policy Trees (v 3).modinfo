@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cad8d4eb-6e81-4c91-8ba1-02598b3234f5" version="3">
+  <Properties>
+    <Name>JFD's Rise to Power - (4) (Content) Additional Policy Trees</Name>
+    <Teaser>[COLOR_CYAN]Additional Policy Trees[ENDCOLOR] component for Rise to Power. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Conservation[ENDCOLOR], [COLOR_POSITIVE_TEXT]Industry[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Intrigue[ENDCOLOR] are three new Social Policy Trees, focusing on Food, Production, and Espionage. They offer an alternative path before pursuing Ideologies.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="8822c973-60de-47f8-a4f2-96045dcc468e" minversion="0" maxversion="999" title="JFD's Rise to Power - (2) (UI) Social Policy Screen" />
+    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (1) (Core) Utilities" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="4c28c1b1-b15c-466b-9543-345bb498c102" minversion="0" maxversion="999" title="JFD's Rise to Power - (Gameplay) Ideological Values" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Pouakai's Enlightenment Era" />
+    <Mod id="5a5a2637-0e30-49a9-bc38-b5dbffd0abb7" minversion="0" maxversion="999" title="Great Spy (Brave New World)" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="4575A81274740E90A429B90EAE4B3FDF" import="1">Art/Icons/JFD_Conservation_WonderAtlas_128.dds</File>
+    <File md5="6497C6198C283E7D34BEC7C0BF44F285" import="1">Art/Icons/JFD_Conservation_WonderAtlas_256.dds</File>
+    <File md5="3EDB05B32B148C07D05AE6A4C09EA18A" import="1">Art/Icons/JFD_Conservation_WonderAtlas_45.dds</File>
+    <File md5="FFFCA278A069054D2293D4559C7280C1" import="1">Art/Icons/JFD_Conservation_WonderAtlas_64.dds</File>
+    <File md5="92C5D70C8C3FD87163434AB11663E988" import="1">Art/Icons/JFD_Conservation_WonderAtlas_80.dds</File>
+    <File md5="EF295F28C5F887386727EC776F113775" import="1">Art/Icons/JFD_Conservation_PolicyAAtlas_64.dds</File>
+    <File md5="A984B8CC294AF982178499D354E3D850" import="1">Art/Icons/JFD_Conservation_PolicyAtlas_64.dds</File>
+    <File md5="2227BDCBDAE28EF4983D6BA912CC5847" import="1">Art/Icons/JFD_Industry_PolicyAAtlas_64.dds</File>
+    <File md5="85F169E93863DE93D0D1BC448D8A7FF3" import="1">Art/Icons/JFD_Industry_PolicyAtlas_64.dds</File>
+    <File md5="93ABF18E82180AC9BCF6634579D45578" import="1">Art/Icons/JFD_Intrigue_BuildingAtlas_128.dds</File>
+    <File md5="F7DF2542ED67885AC4F931FAB73C75C8" import="1">Art/Icons/JFD_Intrigue_BuildingAtlas_256.dds</File>
+    <File md5="4E329FCC4380AB484EB6936BC14A05C5" import="1">Art/Icons/JFD_Intrigue_BuildingAtlas_32.dds</File>
+    <File md5="37C7571D680C1ABF96F98A9D35515027" import="1">Art/Icons/JFD_Intrigue_BuildingAtlas_45.dds</File>
+    <File md5="406FE1537E64F7639901C121D229412A" import="1">Art/Icons/JFD_Intrigue_BuildingAtlas_64.dds</File>
+    <File md5="099DE598F744D0808AD66484CA0E860B" import="1">Art/Icons/JFD_Intrigue_BuildingAtlas_80.dds</File>
+    <File md5="AB9E9B1703E0DCCDEAC15EA8560DBA05" import="1">Art/Icons/JFD_Intrigue_WonderAtlas_128.dds</File>
+    <File md5="78A546032975C8CA451F4CAA70F70917" import="1">Art/Icons/JFD_Intrigue_WonderAtlas_256.dds</File>
+    <File md5="298DAA4C71FD815EC903199CD9E485BC" import="1">Art/Icons/JFD_Intrigue_WonderAtlas_32.dds</File>
+    <File md5="9C8953FEE93774FB1C4640F2CC822EC3" import="1">Art/Icons/JFD_Intrigue_WonderAtlas_45.dds</File>
+    <File md5="8590E9A9EB060CEC4D38F423E24BF01E" import="1">Art/Icons/JFD_Intrigue_WonderAtlas_64.dds</File>
+    <File md5="71AD112A28C8159A391CD50F8E22BCF4" import="1">Art/Icons/JFD_Intrigue_WonderAtlas_80.dds</File>
+    <File md5="F82DD7E03F00832913A82C06DAFAF856" import="1">Art/Icons/JFD_Intrigue_PolicyAAtlas_64.dds</File>
+    <File md5="2F3E92A67C70C4EBE7F3D62560E18854" import="1">Art/Icons/JFD_Intrigue_PolicyAtlas_64.dds</File>
+    <File md5="216842ECD8D8CF2C7773D76D8D176CE3" import="1">Art/Images/Wonders/Wonder_MtRushmore.dds</File>
+    <File md5="7F03FF215D47C2505210B435C62DAA58" import="1">Art/Images/Wonders/Wonder_WhiteTower.dds</File>
+    <File md5="13B7C68F5DEF203BF5EE5DBBF2746AE7" import="1">Audio/Wonders/Wonder_MtRushmore.mp3</File>
+    <File md5="0F86B6CCC076905E994292F47C62519D" import="1">Audio/Wonders/Wonder_PanamaCanal.mp3</File>
+    <File md5="625C1566E6CE37C0248F8A183EFB1356" import="1">Audio/Wonders/Wonder_WhiteTower.mp3</File>
+    <File md5="6FB0BCBB48606E60045BEF983B40C329" import="0">Core/Conservation_GameText.xml</File>
+    <File md5="6DAFEC9210F981289FEE547A8BCC0CEB" import="0">Core/Conservation_Policies.sql</File>
+    <File md5="11CDB340ED8EE405298073EA829C2E9E" import="0">Core/Conservation_Wonders.sql</File>
+    <File md5="F1D318F1C9150306B20F7D266AFF60B1" import="0">Core/Conservation_ArtDefines.sql</File>
+    <File md5="B457F87B3C105CA7DF096F14ECBEB643" import="0">Core/Conservation_Trigger.sql</File>
+    <File md5="42C5E86D1F7853B0F0406C9888727772" import="0">Core/Industry_ArtDefines.sql</File>
+    <File md5="7F5202CAFCC20C8DCA92CFBF9AF67393" import="0">Core/Industry_Wonders.sql</File>
+    <File md5="A8398423F2A3314D469D6D7B143F663B" import="0">Core/Industry_GameText.xml</File>
+    <File md5="3A28FB886F190D2C2C25124F5B44EB1C" import="0">Core/Industry_Policies.sql</File>
+    <File md5="1104C9269DC9C7B31E23384CD3F1E8B6" import="0">Core/Industry_Triggers.sql</File>
+    <File md5="A05130C8A1025F61EF665E0631B3C06E" import="0">Core/Intrigue_ArtDefines.sql</File>
+    <File md5="151377BC77FEE52B927288B6FAE84656" import="0">Core/Intrigue_Buildings.sql</File>
+    <File md5="258D3B1DCDEDAE41D9FF80ECCDD02FF3" import="0">Core/Intrigue_Triggers.sql</File>
+    <File md5="A8765171E9C2C46C9BB9857F75844695" import="0">Core/Intrigue_Wonders.sql</File>
+    <File md5="B2544F065D70C2B517CCD72D4A20AA94" import="0">Core/Intrigue_GameText.xml</File>
+    <File md5="0461793674EF38FA5365ED029A84073E" import="0">Core/Intrigue_Policies.sql</File>
+    <File md5="CBDEA4B7D33ABF88D8927D26BCF575A2" import="0">Core/Intrigue_PoliciesCP.sql</File>
+    <File md5="30E08CA9E3DC5469C93FC6EF69E2A432" import="0">Credits.txt</File>
+    <File md5="6B928B81D0444D1E82569125739CAC14" import="0">Lua/JFD_RTP_Conservation_Functions.lua</File>
+    <File md5="FFF5FD23FC65E49F34537561016773C3" import="0">Lua/JFD_RTP_Industry_Functions.lua</File>
+    <File md5="0D002DB963B0C4E73FA0980DCD7FDA69" import="0">Lua/JFD_RTP_Intrigue_Functions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Intrigue_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Intrigue_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Intrigue_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Intrigue_PoliciesCP.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Intrigue_Triggers.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Intrigue_Wonders.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Industry_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Industry_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Industry_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Industry_Wonders.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Intrigue_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Industry_Triggers.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Conservation_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Conservation_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Conservation_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Conservation_Wonders.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Industry_Functions.lua">
+      <Name>JFD_RTP_Industry_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Conservation_Functions.lua">
+      <Name>JFD_RTP_Conservation_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Intrigue_Functions.lua">
+      <Name>JFD_RTP_Intrigue_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8822c973-60de-47f8-a4f2-96045dcc468e" version="4">
+  <Properties>
+    <Name>JFD's Rise to Power - (2) (UI) Social Policy Screen</Name>
+    <Teaser>[COLOR_CYAN]Social Policy Screen[ENDCOLOR] replacement for Rise to Power.</Teaser>
+    <Description>[COLOR_CYAN]Social Policy Screen[ENDCOLOR] replacement for Rise to Power.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
+  </Dependencies>
+  <References>
+    <Mod id="828b5b4b-7c62-4afb-a43f-034b596ef5e4" minversion="0" maxversion="999" title="(6b) Community Balance Overhaul - Compatibility Files (No-EUI)" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="(6a) Community Balance Overhaul - Compatibility Files (EUI)" />
+    <Mod id="12cadb3a-6565-47e8-b0bc-0bf8c1017c09" minversion="0" maxversion="999" title="Iska's World at War" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="6FA2A433A1BE4BF6A7538AB8DA4C014E" import="1">Art/Images/SocialPoliciesConservation.dds</File>
+    <File md5="813E4648CF740FF4A667F7D8E383EF73" import="1">Art/Images/SocialPoliciesIndustry.dds</File>
+    <File md5="DDA9AAB76F6021B349199BB4D9EB46F9" import="1">Art/Images/SocialPoliciesIntrigue.dds</File>
+    <File md5="CD2C3E3ACEB1C57B674D412B6B29C0E8" import="1">Art/Images/SocialPoliciesPhilosophy.dds</File>
+    <File md5="08F00F4C104D22A09F2D577F08BE2C4B" import="1">Art/Images/socialpoliciesbranchblackmask2.dds</File>
+    <File md5="4620E229D18729EA6B1923B82A9064F5" import="0">Core/SocialPolicyScreen_GameText_Interface.xml</File>
+    <File md5="88C94B278C1EAE462FA020A59828E73E" import="0">Core/SocialPolicyScreen_Master.sql</File>
+    <File md5="F21EC16497DA3F5E4216ECA2C954219B" import="0">Core/SocialPolicyScreen_Policies.sql</File>
+    <File md5="90483494A4E18340536284C7C0E05CA2" import="0">Core/SocialPolicyScreen_PolicyPanels.sql</File>
+    <File md5="A28A8F973FDDEA78C912423380436399" import="0">Core/SocialPolicyScreen_Trigger.sql</File>
+    <File md5="E885013441A5AFBF76CED09E1BA39D29" import="0">Credits.txt</File>
+    <File md5="24863F94C14A4D3A3E30CBC6BE642700" import="1">Lua/UI/InGame/Popups/ChooseIdeologyPopup.lua</File>
+    <File md5="05E6BF8341F579826D5E87AD0D5E22C5" import="1">Lua/UI/InGame/Popups/ChooseIdeologyPopup.xml</File>
+    <File md5="0F310B690B262300EDF96F48192DDE54" import="1">Lua/UI/InGame/Popups/SocialPolicyPopup.lua</File>
+    <File md5="A441EA5D8AEFA2DC323019AFC136E7CF" import="1">Lua/UI/InGame/Popups/SocialPolicyPopup.xml</File>
+    <File md5="2A1C1C9A9B57C1E998467DE7A1119C9F" import="1">Lua/Utilities/JFD_SocialPolicyScreen_Utils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/SocialPolicyScreen_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SocialPolicyScreen_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SocialPolicyScreen_PolicyPanels.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SocialPolicyScreen_Policies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SocialPolicyScreen_Trigger.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CHOOSE IDEOLOGY POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_IDEOLOGY_NEUTRALITY_DISABLED_TT">
+			<Text>You cannot adopt this Ideology until the Modern Era.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--NOTIFICATIONS-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NEUTRALITY_IDEOLOGY_SHORT_DESC">
+			<Text>Ideology Adopted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NEUTRALITY_IDEOLOGY_DESC">
+			<Text>You have adopted the Neutrality Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NEUTRALITY_IDEOLOGY_OTHER_SHORT_DESC">
+			<Text>Ideology Adopted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NEUTRALITY_IDEOLOGY_OTHER_DESC">
+			<Text>{1_CivName} has adopted the Neutrality Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NEUTRALITY_IDEOLOGY_OTHER_UNMET_DESC">
+			<Text>An unmet civilization has adopted the Neutrality Ideology.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

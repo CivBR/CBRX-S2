@@ -23,7 +23,7 @@
   <Blocks />
   <Files>
     <File md5="D2DF936046CA659871E22419DC75DC1F" import="0">Buildings.sql</File>
-    <File md5="6C44B29756B498F019634DDC8098C045" import="0">Lime_UnitSupplyModifier.lua</File>
+    <File md5="C0CC8B574AF600467E4F58214D64E711" import="0">Lime_UnitSupplyModifier.lua</File>
   </Files>
   <Actions>
     <OnModActivated>
