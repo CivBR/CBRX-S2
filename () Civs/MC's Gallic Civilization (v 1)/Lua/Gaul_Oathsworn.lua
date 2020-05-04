@@ -77,7 +77,7 @@ function UnitDestroyed(iPlayer, iUnit, iUnitType, iX, iY, bDelay, iByPlayer)
 	local pPlayer = Players[iPlayer]
 	local pUnit = pPlayer:GetUnitByID(iUnit)
 
-	print(iByPlayer)
+	--print(iByPlayer)
 	
 	--Clear Battle Fury Data
 	for iFreePromotion, iRank in pairs(tFreePromotions) do

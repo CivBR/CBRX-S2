@@ -2,31 +2,11 @@
 -- Author: JFD
 -- DateCreated: 6/14/2015 1:54:45 AM
 --==========================================================================================================================
--- UTILITY FUNCTIONS
---==========================================================================================================================
--- MOD CHECKS
---------------------------------------------------------------------------------------------------------------------------
--- JFD_IsCommunityPatchDLLActive
-function JFD_IsCommunityPatchDLLActive()
-	local communityPatchDLLID = "d1b6328c-ff44-4b0d-aad7-c657f83610cd"
-	local isUsingCPDLL = false
-	for _, mod in pairs(Modding.GetActivatedMods()) do
-		if (mod.ID == communityPatchDLLID) then
-			isUsingCPDLL = true
-			break
-		end
-	end
-	return isUsingCPDLL
-end
-local isUsingCPDLL = JFD_IsCommunityPatchDLLActive()
---==========================================================================================================================
 -- INCLUDES
 --==========================================================================================================================
 -- Globals
 ----------------------------------------------------------------------------------------------------------------------------
-if (not isUsingCPDLL) then
-	include("PlotIterators.lua")
-end
+include("PlotIterators.lua")
 --==========================================================================================================================
 -- UU FUNCTIONS
 --==========================================================================================================================
@@ -41,9 +21,6 @@ function JFD_SwedenGustavus_RegalShip(playerID)
 		for unit in player:Units() do
 			if (unit:GetDamage() > 0 and unit:GetDomainType() == domainLandID) then
 				local isRegalShipNearby = false
-				if isUsingCPDLL then
-					isRegalShipNearby = unit:IsWithinDistanceOfUnitPromotion(unitPromotionRegalShipID, 2, true, false)
-				else
 					local unitPlot = unit:GetPlot()
 					if unitPlot then
 						for loopPlot in PlotAreaSpiralIterator(unitPlot, 2, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do

@@ -146,7 +146,7 @@ function DoesPlotTriggerAbility(pCheckedPlot)
 	if cCheckedCity and cCheckedCity:IsHasBuilding(bKhauxanas) then
 		if not pCheckedPlot:IsHills() then
 			if (pCheckedPlot:GetTerrainType() == tDesert) or (pCheckedPlot:GetTerrainType() == tSnow) or (pCheckedPlot:GetTerrainType() == tTundra) then
-				print("Namibia: DPTA: plot meets all conditions")
+				--print("Namibia: DPTA: plot meets all conditions")
 				return true
 			end
 		end
@@ -239,11 +239,11 @@ end)
 GameEvents.BuildFinished.Add(function(iPlayer, x, y, improID)
 	if improID == iCitadel then
 		local pBuildPlot = Map.GetPlot(x, y)
-		print("LS: calling DPTA on BuildFinished")
+		--print("LS: calling DPTA on BuildFinished")
 		if DoesPlotTriggerAbility(pBuildPlot) then
-			print("LS: DPTA approved on BuildFinished. Adding pBuildPlot to table")
+			--print("LS: DPTA approved on BuildFinished. Adding pBuildPlot to table")
 			citadels[pBuildPlot] = 1;
-		else print("LS: DPTA rejected on BuildFinished") end
+		end
 		if isAAActive then
 			if IsAAUnlocked('AA_THP_NAMIBIA_SPECIAL') then return end
 			local pPlayer = Players[iPlayer]
@@ -272,13 +272,13 @@ function CityConstructsKhauxanas(playerID, cityID, buildingType)
 		local cCity = pPlayer:GetCityByID(cityID)
 		for i = 0, cCity:GetNumCityPlots() - 1, 1 do
 			local pCheckedPlot = cCity:GetCityIndexPlot(i)
-			print("CCK: CityConstructsKhauxanas is calling DPTA")
+			--print("CCK: CityConstructsKhauxanas is calling DPTA")
 			if (pCheckedPlot:GetImprovementType() == iCitadel) and (DoesPlotTriggerAbility(pCheckedPlot)) then
-				print("CCK: adding a new citadel to the table")
+				--print("CCK: adding a new citadel to the table")
 				citadels[pCheckedPlot] = 1;
 			end
 		end
-	else print("CCK: new building is not Khauxanas") end
+	end
 end
 if bIsActive then
 	GameEvents.CityConstructed.Add(CityConstructsKhauxanas)
@@ -539,26 +539,26 @@ end
 
 -- sets up how to make citadels attack, I think
 function DoTurnOnInstances(bInit)
-	print("LS: DTOI: DoTurnOnInstances has been called")
+	--print("LS: DTOI: DoTurnOnInstances has been called")
 	local iPlayer = Game.GetActivePlayer();
 	if ValidPlayerTable[iPlayer] then
 		local gTurn = Game.GetGameTurn();
 		-- cut out a whole large chunk about cities doing their thing
 		for plot, sth in pairs(citadels) do
-			print("LS: DoTurnOnInstances is triggering DPTA")
+			--print("LS: DoTurnOnInstances is triggering DPTA")
 			if (plot:GetImprovementType() == iCitadel) and (DoesPlotTriggerAbility(plot)) then
-				print("LS: DTOI: citadel has passed DPTA")
+				--print("LS: DTOI: citadel has passed DPTA")
 				if not plot:IsCity() then
 					if plot:GetOwner() == iPlayer then
 						if not plot:IsImprovementPillaged() then
 							if not plot:IsVisibleEnemyUnit(iPlayer) then
-								print("LS: DTOI: all conditions seem to be passed")
+								--print("LS: DTOI: all conditions seem to be passed")
 								local sIndex = plot:GetPlotIndex();
 								if (not bInit) or (load(sIndex .. "LS17bnJA") ~= gTurn) then
 									if not hIT[sIndex] then
 										local controlTable = {}
 										controlTable = g_TeamIM:GetInstance();
-										print("LS: DTOI: successfully built controlTable")
+										--print("LS: DTOI: successfully built controlTable")
 										controlTable.CityRangeStrikeButton:SetVoid1( sIndex );
 										controlTable.CityRangeStrikeButton:RegisterCallback( Mouse.eLClick, OnCityRangeStrikeButtonClick );
 										if IsStratV then
@@ -579,9 +579,9 @@ function DoTurnOnInstances(bInit)
 				end
 			else
 				if not (plot:GetImprovementType() == iCitadel) then
-					print("LS: DTOI: plot is not a citadel")
+					--print("LS: DTOI: plot is not a citadel")
 					citadels[plot] = nil;
-				else print("LS: DTOI: citadel on an inappropriate plot") end
+				end
 			end
 		end
 	end
@@ -597,7 +597,7 @@ end
 
 -- executes the attack
 function DoAnAbilityAttack(sPlot, sIndex, iPlayer, tPlot)
-	print("LS: DOAA: calling DoAnAbilityAttack")
+	--print("LS: DOAA: calling DoAnAbilityAttack")
 	save(sIndex .. "LS17bnJA", Game.GetGameTurn())
 	local jUnit = Players[iPlayer]:InitUnit(uDummyAttacker, sPlot:GetX(), sPlot:GetY());
 	-- DoAdjustStrengthOfUnit(jUnit, sPlot, iPlayer, tPlot) -- if this code works, then remove this line entirely

@@ -334,17 +334,18 @@ GameEvents.TeamTechResearched.Add(researchBattleships)
 ----------------------------------------------------------------------------------------------------------------------------
 -- updateToUpgradeableVersion
 ----------------------------------------------------------------------------------------------------------------------------
+local battleshipTech = GameInfo.Units["UNIT_BATTLESHIP"].PrereqTech
+
 function updateToUpgradeableVersion(playerID, unitID)
 	local player = Players[playerID]
 	local unit = player:GetUnitByID(unitID)
+	if not unit then return end
 	if unit:GetUnitType() == GameInfoTypes["UNIT_TCM_SANTISIMA_TRINIDAD"] then
-		local battleshipTech = GameInfo.Units["UNIT_BATTLESHIP"].PrereqTech
 		local teamTechs = Teams[player:GetTeam()]:GetTeamTechs()
 		if teamTechs:HasTech(GameInfoTypes[battleshipTech]) then
-			local moves = unit:GetMoves()
 			newUnit = player:InitUnit(GameInfoTypes["UNIT_TCM_SANTISIMA_TRINIDAD_UPGRADEABLE"], unit:GetX(), unit:GetY())
 			newUnit:Convert(unit)
-			newUnit:SetMoves(moves)
+			newUnit:SetMoves(unit:GetMoves())
 		end
 	end
 end

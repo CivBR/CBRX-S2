@@ -1,4 +1,4 @@
-print("successfully loaded")
+--print("successfully loaded")
 
 local civilizationID = GameInfoTypes["CIVILIZATION_FINNS"]
 
@@ -109,7 +109,7 @@ function Hyp_NumUnimprovedForests(playerID)
 						end
 					end
 				end
-			print ("Rune Singer points =" ..numUnimprovedForests)
+			--print ("Rune Singer points =" ..numUnimprovedForests)
 			end
 		end
 	end

@@ -293,32 +293,34 @@ function showVisibleCivIcons()
       local iconcontrol = Controls["IARelIcon-" .. thisIcon];
       local framecontrol = Controls["IARelIconFrame-" .. thisIcon];
 
-      iconcontrol:SetHide(false);
-      SimpleCivIconHookup( iPlayerLoop, 64, iconcontrol);
+	-- Lime injection to make sure we actually have an icon
+	  if iconcontrol then
+		  iconcontrol:SetHide(false);
+		  SimpleCivIconHookup( iPlayerLoop, 64, iconcontrol);
 
-      -- Dim the icon if the civ is dead
-      if (not Players[iPlayerLoop]:IsAlive() ) then
-        iconcontrol:SetAlpha(.2);
-      else
-        iconcontrol:SetAlpha(1);
-      end;
+		  -- Dim the icon if the civ is dead
+		  if (not Players[iPlayerLoop]:IsAlive() ) then
+			iconcontrol:SetAlpha(.2);
+		  else
+			iconcontrol:SetAlpha(1);
+		  end;
 
-      local buttonarg = iPlayerLoop;
-      if (not Players[iPlayerLoop]:IsAlive()) then
-        buttonarg = -1;
-        framecontrol:SetHide(true);
-      end;
+		  local buttonarg = iPlayerLoop;
+		  if (not Players[iPlayerLoop]:IsAlive()) then
+			buttonarg = -1;
+			framecontrol:SetHide(true);
+		  end;
 
-      local buttoncontrol = Controls["IARelIconButton-" .. thisIcon];
-      buttoncontrol:SetVoid1(buttonarg);
-      buttoncontrol:RegisterCallback( Mouse.eLClick, civIconButtonHandler );
+		  local buttoncontrol = Controls["IARelIconButton-" .. thisIcon];
+		  buttoncontrol:SetVoid1(buttonarg);
+		  buttoncontrol:RegisterCallback( Mouse.eLClick, civIconButtonHandler );
 
-      if (civSelected[iPlayerLoop] == true) then
-        framecontrol:SetHide(false);
-      else
-        framecontrol:SetHide(true);
-      end;
-
+		  if (civSelected[iPlayerLoop] == true) then
+			framecontrol:SetHide(false);
+		  else
+			framecontrol:SetHide(true);
+		  end;
+	  end
     end;
   end;
 end;

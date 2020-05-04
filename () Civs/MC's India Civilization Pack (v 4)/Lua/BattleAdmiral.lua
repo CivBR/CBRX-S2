@@ -35,7 +35,7 @@ function BattleAdmiral(iPlayer)
 					if (bgunit:IsHasPromotion(BAdmiralPromotion)) then
 						bgunit:SetHasPromotion(BGLevel1, true);
 						bgunit:SetBaseCombatStrength(BGLevel1Combat)
-						print ("A Battle Admiral Level 1 is here!");
+						--print ("A Battle Admiral Level 1 is here!");
 						
 					end
 				end
@@ -46,7 +46,7 @@ function BattleAdmiral(iPlayer)
 						bgunit:SetHasPromotion(BGLevel1, false);
 						bgunit:SetHasPromotion(BGLevel2, true);
 						bgunit:SetBaseCombatStrength(BGLevel2Combat)
-						print ("A Battle Admiral Level 2 is here!");
+						--print ("A Battle Admiral Level 2 is here!");
 					end
 				end
 			end
@@ -56,7 +56,7 @@ function BattleAdmiral(iPlayer)
 						bgunit:SetHasPromotion(BGLevel2, false);
 						bgunit:SetHasPromotion(BGLevel3, true);
 						bgunit:SetBaseCombatStrength(BGLevel3Combat)
-						print ("A Battle Admiral Level 3 is here!");
+						--print ("A Battle Admiral Level 3 is here!");
 					end
 				end
 			end
@@ -66,7 +66,7 @@ function BattleAdmiral(iPlayer)
 						bgunit:SetHasPromotion(BGLevel3, false);
 						bgunit:SetHasPromotion(BGLevel4, true);
 						bgunit:SetBaseCombatStrength(BGLevel4Combat)
-						print ("A Battle Admiral Level 4 is here!");
+						--print ("A Battle Admiral Level 4 is here!");
 					end
 				end
 			end
@@ -76,7 +76,7 @@ function BattleAdmiral(iPlayer)
 						bgunit:SetHasPromotion(BGLevel4, false);
 						bgunit:SetHasPromotion(BGLevel5, true);
 						bgunit:SetBaseCombatStrength(BGLevel4Combat)
-						print ("A Battle Admiral Level 5 is here!");
+						--print ("A Battle Admiral Level 5 is here!");
 					end
 				end
 			end
