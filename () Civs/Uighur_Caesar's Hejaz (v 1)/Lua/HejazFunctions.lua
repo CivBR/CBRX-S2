@@ -41,33 +41,33 @@ end
 
 
 function HejazGGBirth(playerID, unitID)
-local player = Players[playerID]
+	local player = Players[playerID]
 	if player:GetCivilizationType() ~= civilizationID and JFD_IsDoFWithRussiaAlexanderI(playerID) then
-	local unit = player:GetUnitByID(unitID)
-	local class = unit:GetUnitClassType()
-	if class == GameInfoTypes["UNITCLASS_GREAT_GENERAL"] then
-	for otherPlayerID = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
-			local otherPlayer = Players[otherPlayerID]
-			if (otherPlayer:GetCivilizationType() == civilizationID and otherPlayer:IsAlive()) then
-			local threshold = otherPlayer:GreatGeneralThreshold()
-			otherPlayer:ChangeCombatExperience(threshold * .25)
-			for unit in otherPlayer:Units() do
-				local BaseXP = unit:GetExperience()
-				local newXP = BaseXP + 10
-				unit:SetExperience(newXP)
-				if otherPlayer:IsHuman() then
-				local bonus = threshold * .25
-			local alertmessage = Locale.ConvertTextKey("TXT_KEY_UC_HEJAZ_UA", bonus, player:GetName())
-			Events.GameplayAlertMessage(alertmessage)
-									end
-								end
-							end
+		local unit = player:GetUnitByID(unitID)
+		local class = unit:GetUnitClassType()
+		if class == GameInfoTypes["UNITCLASS_GREAT_GENERAL"] then
+			for otherPlayerID = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
+				local otherPlayer = Players[otherPlayerID]
+				if (otherPlayer:GetCivilizationType() == civilizationID and otherPlayer:IsAlive()) then
+					local threshold = otherPlayer:GreatGeneralThreshold()
+					otherPlayer:ChangeCombatExperience(threshold * .25)
+					for unit in otherPlayer:Units() do
+						local BaseXP = unit:GetExperience()
+						local newXP = BaseXP + 10
+						unit:SetExperience(newXP)
+						if otherPlayer:IsHuman() then
+							local bonus = threshold * .25
+							local alertmessage = Locale.ConvertTextKey("TXT_KEY_UC_HEJAZ_UA", bonus, player:GetName())
+							Events.GameplayAlertMessage(alertmessage)
 						end
 					end
 				end
 			end
+		end
+	end
+end
 if isHejazActive then
-Events.SerialEventUnitCreated.Add(HejazGGBirth)
+	Events.SerialEventUnitCreated.Add(HejazGGBirth)
 end
 
 function IsInRange(iUnit, hT)
@@ -175,8 +175,8 @@ Events.UnitSelectionCleared.Add(UC_HejazUnitSelectionCleared)
 function HejazForeignOpPopUp()
 	local unit = UI.GetHeadSelectedUnit()
 	if unit and unit:GetUnitType() == GameInfoTypes.UNIT_UC_FOREIGN_OP then
-	local owner = unit:GetOwner()
-		print('being')
+		local owner = unit:GetOwner()
+		--print('being')
 		ForeignOpDebuff(owner, unit)
 		if unit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_FOREIGN_OP_3) then
 		unit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_FOREIGN_OP_3, false)
@@ -216,99 +216,99 @@ function JFD_GetRandom(lower, upper)
 end
 
 function ForeignOpDebuff(playerID, unit)
-local player = Players[playerID]
-local team = player:GetTeam();
-		local plot = unit:GetPlot()
-		for loopPlot in PlotAreaSpiralIterator(plot, 2, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-		print('loop')
+	local player = Players[playerID]
+	local team = player:GetTeam();
+	local plot = unit:GetPlot()
+	for loopPlot in PlotAreaSpiralIterator(plot, 2, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
+		--print('loop')
 		if loopPlot:IsUnit() then
-		print('unit')
-		local loopUnit = loopPlot:GetUnit()
-		local loopPlayer = Players[loopUnit:GetOwner()]
-		local loopTeam = loopPlayer:GetTeam();
-		if Teams[team]:IsAtWar(loopTeam) then
-			print('poop')
-			if loopUnit:IsCombatUnit() and loopUnit:GetDomainType() == GameInfoTypes.DOMAIN_LAND and not (loopUnit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_MOVEMENT_DEBUFF) or loopUnit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF) or loopUnit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_SIEGE_DEBUFF) or loopUnit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_RANGE_DEBUFF) or loopUnit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF)) then
-			print('check')
-			local hex = ToHexFromGrid(Vector2(loopUnit:GetX(), loopUnit:GetY()))
-			local type = loopUnit:GetUnitCombatType()
-				if type == GameInfoTypes.UNITCOMBAT_MOUNTED or type == GameInfoTypes.UNITCOMBAT_ARMOR or type == GameInfoTypes.UNITCOMBAT_HELICOPTER then
-				print('first set')
-				local chance = JFD_GetRandom(1, 3)
-					if chance == 1 then
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_MOVEMENT_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					else
-					if chance == 2 then
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					else
-					if chance == 3 then
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					end
-				end
-			end
-				else
-				if type == GameInfoTypes.UNITCOMBAT_SIEGE then
-				print('second')
-					local chance = JFD_GetRandom(1, 4)
-					if chance == 1 then
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_SIEGE_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					else
-					if chance == 2 then
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_RANGE_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					else
-					if chance == 3 then
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					else
-					if chance == 4 then
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					end
-				end
-			end
-		end
-				else
-				if type == GameInfoTypes.UNITCOMBAT_ARCHER then
-				print('third')
+			--print('unit')
+			local loopUnit = loopPlot:GetUnit()
+			local loopPlayer = Players[loopUnit:GetOwner()]
+			local loopTeam = loopPlayer:GetTeam();
+			if Teams[team]:IsAtWar(loopTeam) then
+				--print('poop')
+				if loopUnit:IsCombatUnit() and loopUnit:GetDomainType() == GameInfoTypes.DOMAIN_LAND and not (loopUnit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_MOVEMENT_DEBUFF) or loopUnit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF) or loopUnit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_SIEGE_DEBUFF) or loopUnit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_RANGE_DEBUFF) or loopUnit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF)) then
+				--print('check')
+				local hex = ToHexFromGrid(Vector2(loopUnit:GetX(), loopUnit:GetY()))
+				local type = loopUnit:GetUnitCombatType()
+					if type == GameInfoTypes.UNITCOMBAT_MOUNTED or type == GameInfoTypes.UNITCOMBAT_ARMOR or type == GameInfoTypes.UNITCOMBAT_HELICOPTER then
+					--print('first set')
 					local chance = JFD_GetRandom(1, 3)
-					if chance == 1 then
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_RANGE_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						if chance == 1 then
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_MOVEMENT_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						else
+						if chance == 2 then
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						else
+						if chance == 3 then
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						end
+					end
+				end
 					else
-					if chance == 2 then
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					else
-					if chance == 3 then
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+					if type == GameInfoTypes.UNITCOMBAT_SIEGE then
+					--print('second')
+						local chance = JFD_GetRandom(1, 4)
+						if chance == 1 then
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_SIEGE_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						else
+						if chance == 2 then
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_RANGE_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						else
+						if chance == 3 then
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						else
+						if chance == 4 then
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						end
 					end
 				end
 			end
-				else
-				if type == GameInfoTypes.UNITCOMBAT_MELEE or type == GameInfoTypes.UNITCOMBAT_GUN or type == GameInfoTypes.UNITCOMBAT_RECON then
-				print('fourth')
-					local chance = JFD_GetRandom(1, 2)
-					if chance == 1 then
-					print('1')
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					elseif chance == 2 then
-					print('2')
-					loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF, true)
-					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+					else
+					if type == GameInfoTypes.UNITCOMBAT_ARCHER then
+					--print('third')
+						local chance = JFD_GetRandom(1, 3)
+						if chance == 1 then
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_RANGE_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						else
+						if chance == 2 then
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						else
+						if chance == 3 then
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						end
+					end
+				end
+					else
+					if type == GameInfoTypes.UNITCOMBAT_MELEE or type == GameInfoTypes.UNITCOMBAT_GUN or type == GameInfoTypes.UNITCOMBAT_RECON then
+					--print('fourth')
+						local chance = JFD_GetRandom(1, 2)
+						if chance == 1 then
+						--print('1')
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+						elseif chance == 2 then
+						--print('2')
+						loopUnit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF, true)
+						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+										end
 									end
 								end
 							end
 						end
 					end
 				end
-			end
 		end
 	end
 end
@@ -318,9 +318,9 @@ function HejazClear(teamID, otherTeamID)
 	local playerID = team:GetLeaderID()
 	local player = Players[playerID]
 	if (player:GetCivilizationType() == civilizationID) then 
-	local otherTeam = Teams[otherTeamID]
-	local otherPlayerID = otherTeam:GetLeaderID()
-	local otherPlayer = Players[otherPlayerID]
+		local otherTeam = Teams[otherTeamID]
+		local otherPlayerID = otherTeam:GetLeaderID()
+		local otherPlayer = Players[otherPlayerID]
 		for unit in otherPlayer:Units() do
 			if unit:IsCombatUnit() and unit:GetDomainType() == GameInfoTypes.DOMAIN_LAND and (unit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_MOVEMENT_DEBUFF) or unit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_STRENGTH_DEBUFF) or unit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_SIEGE_DEBUFF) or unit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_RANGE_DEBUFF) or unit:IsHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_HEAL_DEBUFF)) then
 				unit:SetHasPromotion(GameInfoTypes.PROMOTION_UC_HEJAZ_MOVEMENT_DEBUFF, false)
