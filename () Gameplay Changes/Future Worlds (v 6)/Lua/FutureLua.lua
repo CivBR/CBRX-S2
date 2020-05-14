@@ -1,150 +1,180 @@
 -- FutureLua
--- Author: user
+-- Author: Bouncymischa
+-- Optimization: Limaeus for the CBR
 -- DateCreated: 4/15/2015 9:16:51 AM
 --------------------------------------------------------------
 
-print("Future Worlds code loaded")
+print("Future Worlds code is loading")
 
 include("MischaIteratingPlotsFunctions")
 include("CityNearbyMapDatasV4")
 
-local iImprovementAcademy = GameInfoTypes.IMPROVEMENT_ACADEMY
-local iImprovementHERC = GameInfoTypes.IMPROVEMENT_FW_HERC
-local iImprovementPreserve = GameInfoTypes.IMPROVEMENT_FW_PRESERVE
-local iImprovementBiowell = GameInfoTypes.IMPROVEMENT_FW_BIOWELL
-local iImprovementGenerator = GameInfoTypes.IMPROVEMENT_FW_GENERATOR
-local iImprovementCore = GameInfoTypes.IMPROVEMENT_FW_CORE
-local iImprovementCommArray = GameInfoTypes.IMPROVEMENT_FW_COMM_ARRAY
-local iImprovementIndustrialComplex = GameInfoTypes.IMPROVEMENT_FW_INDUSTRIAL_COMPLEX
-local iImprovementDome = GameInfoTypes.IMPROVEMENT_FW_HYDROPONICS_DOME
-local iImprovementArcology = GameInfoTypes.IMPROVEMENT_FW_ARCOLOGY
-local iImprovementFungus = GameInfoTypes.IMPROVEMENT_FW_FUNGAL_GROWTH
-local iImprovementFarm = GameInfoTypes.IMPROVEMENT_FARM
-local iImprovementPasture = GameInfoTypes.IMPROVEMENT_PASTURE
+----------------------------------------------------------------------------------------------------------------------------
+-- GLOBAL
+----------------------------------------------------------------------------------------------------------------------------
 
-local iImprovementFarm = GameInfoTypes.IMPROVEMENT_FARM
-local iImprovementPlantation = GameInfoTypes.IMPROVEMENT_PLANTATION
+-- Improvements
+local improvementAcademy = GameInfoTypes["IMPROVEMENT_ACADEMY"]
+local improvementArcology = GameInfoTypes["IMPROVEMENT_FW_ARCOLOGY"]
+local improvementCommArray = GameInfoTypes["IMPROVEMENT_FW_COMM_ARRAY"]
+local improvementCore = GameInfoTypes["IMPROVEMENT_FW_CORE"]
+local improvementDome = GameInfoTypes["IMPROVEMENT_FW_HYDROPONICS_DOME"]
+local improvementFarm = GameInfoTypes["IMPROVEMENT_FARM"]
+local improvementFungus = GameInfoTypes["IMPROVEMENT_FW_FUNGAL_GROWTH"]
+local improvementGenerator = GameInfoTypes["IMPROVEMENT_FW_GENERATOR"]
+local improvementHERC = GameInfoTypes["IMPROVEMENT_FW_HERC"]
+local improvementPlantation = GameInfoTypes["IMPROVEMENT_PLANTATION"]
+local improvementPreserve = GameInfoTypes["IMPROVEMENT_FW_PRESERVE"]
 
-local iOcean = GameInfoTypes.TERRAIN_OCEAN
-local iCopper = GameInfoTypes.RESOURCE_COPPER
-local iSilver = GameInfoTypes.RESOURCE_SILVER
-local iGold = GameInfoTypes.RESOURCE_GOLD
+-- Terrain
+local terrainGrasslands = GameInfoTypes["TERRAIN_GRASS"]
+local terrainPlains = GameInfoTypes["TERRAIN_PLAINS"]
 
-local iMarsh = GameInfoTypes.FEATURE_MARSH
-local iJungle = GameInfoTypes.FEATURE_JUNGLE
-local iFloodPlains =GameInfoTypes.FEATURE_FLOOD_PLAINS
-local iPlains = GameInfoTypes.TERRAIN_PLAINS
-local iGrasslands = GameInfoTypes.TERRAIN_GRASS
+-- Buildings
+local buildingAutoPlantDummy = GameInfoTypes["BUILDING_FW_AUTOPLANT_DUMMY"]
+local buildingAutoplant = GameInfoTypes["BUILDING_FW_AUTOPLANT"]
+local buildingBiofactory = GameInfoTypes["BUILDING_FW_BIOFACTORY"]
+local buildingBrainUploading = GameInfoTypes["BUILDING_FW_BRAIN_UPLOADING"]
+local buildingBrainUploadingDummy = GameInfoTypes["BUILDING_FW_BRAIN_UPLOADING_DUMMY_1"]
+local buildingClassECommerceServer = GameInfoTypes["BUILDINGCLASS_FW_COMMERCE_SERVER"]
+local buildingClassEntertainmentServer = GameInfoTypes["BUILDINGCLASS_FW_ENTERTAINMENT_SERVER"]
+local buildingClassResearchServer = GameInfoTypes["BUILDINGCLASS_FW_RESEARCH_SERVER"]
+local buildingClassServerHub = GameInfoTypes["BUILDINGCLASS_FW_SERVER_HUB"]
+local buildingCloneLab = GameInfoTypes["BUILDING_FW_CLONE_LAB"]
+local buildingColosseum = GameInfoTypes["BUILDING_COLOSSEUM"]
+local buildingCommModule = GameInfoTypes["BUILDING_FW_COMM_MODULE_1"]
+local buildingDistributionHub = GameInfoTypes["BUILDING_FW_DISTRIBUTION_HUB"]
+local buildingDistributionHubDummy = GameInfoTypes["BUILDING_FW_DISTRIBUTION_HUB_DUMMY"]
+local buildingDroneHive = GameInfoTypes["BUILDING_FW_DRONE_HIVE"]
+local buildingDroneHiveDummy_1 = GameInfoTypes["BUILDING_FW_DRONE_HIVE_DUMMY_1"]
+local buildingEctogenesisPod = GameInfoTypes["BUILDING_FW_ECTOGENESIS_POD"]
+local buildingEngineeringModule = GameInfoTypes["BUILDING_FW_ENGINEERING_MODULE_1"]
+local buildingFeedsiteHub = GameInfoTypes["BUILDING_FW_FEEDSITE_HUB"]
+local buildingFeedsiteHubDummy_1 = GameInfoTypes["BUILDING_FW_FEEDSITE_HUB_DUMMY_1"]
+local buildingFeedsiteHubDummy_2 = GameInfoTypes["BUILDING_FW_FEEDSITE_HUB_DUMMY_2"]
+local buildingGeneJackFacility = GameInfoTypes["BUILDING_FW_GENEJACK_FACILITY"]
+local buildingGeneLab = GameInfoTypes["BUILDING_FW_GENE_LAB"]
+local buildingGeneLabDummy = GameInfoTypes["BUILDING_FW_GENE_LAB_DUMMY"]
+local buildingMenagerie = GameInfoTypes["BUILDING_EE_MENAGERIE"]
+local buildingMetroplexHub = GameInfoTypes["BUILDING_FW_METROPLEX_HUB"]
+local buildingMetroplexHubDummy = GameInfoTypes["BUILDING_FW_METROPLEX_HUB_DUMMY"]
+local buildingMycoproteinVats = GameInfoTypes["BUILDING_FW_MYCOPROTEIN_VATS"]
+local buildingNetworkBackbone = GameInfoTypes["BUILDING_FW_NETWORK_BACKBONE"]
+local buildingNetworkBackboneDummy_1 = GameInfoTypes["BUILDING_FW_NETWORK_BACKBONE_DUMMY_1"]
+local buildingNetworkBackboneDummy_2 = GameInfoTypes["BUILDING_FW_NETWORK_BACKBONE_DUMMY_2"]
+local buildingNetworkBackboneDummy_3 = GameInfoTypes["BUILDING_FW_NETWORK_BACKBONE_DUMMY_3"]
+local buildingOrbitalHabitat = GameInfoTypes["BUILDING_FW_ORBITAL_HABITAT"]
+local buildingOrbitalHabitatDummy = GameInfoTypes["BUILDING_FW_ORBITAL_HABITAT_DUMMY"]
+local buildingResearchModule = GameInfoTypes["BUILDING_FW_RESEARCH_MODULE_1"]
+local buildingSanctuary = GameInfoTypes["BUILDING_FW_SANCTUARY"]
+local buildingSanctuaryDummy = GameInfoTypes["BUILDING_FW_SANCTUARY_DUMMY"]
+local buildingSimulationServer = GameInfoTypes["BUILDING_FW_SIMULATION_SERVER"]
+local buildingSimulationServerDummy_2 = GameInfoTypes["BUILDING_FW_SIMULATION_SERVER_DUMMY_2"]
+local buildingSolarPlant = GameInfoTypes["BUILDING_SOLAR_PLANT"]
+local buildingStadium = GameInfoTypes["BUILDING_STADIUM"]
+local buildingTGNursery = GameInfoTypes["BUILDING_FW_TG_NURSERY"]
+local buildingTelepresenceDummy = GameInfoTypes["BUILDING_FW_TELEPRESENCE_HUB_DUMMY"]
+local buildingTelepresenceHub = GameInfoTypes["BUILDING_FW_TELEPRESENCE_HUB"]
+local buildingUtilityFog = GameInfoTypes["BUILDING_FW_UTILITY_FOG"]
+local buildingVerticalFarm = GameInfoTypes["BUILDING_FW_VERTICAL_FARM"]
+local buildingVerticalFarmDummy = GameInfoTypes["BUILDING_FW_VERTICAL_FARM_DUMMY"]
 
-local iArtist = GameInfo.Specialists.SPECIALIST_ARTIST.ID
-local iScientist = GameInfo.Specialists.SPECIALIST_SCIENTIST.ID
-local iMerchant = GameInfo.Specialists.SPECIALIST_MERCHANT.ID
-local iEngineer = GameInfo.Specialists.SPECIALIST_ENGINEER.ID
+-- Wonders
+local wonderAccelerator = GameInfoTypes["BUILDING_FW_ACCELERATOR"]
+local wonderAngelnet = GameInfoTypes["BUILDING_FW_ANGELNET"]
+local wonderAngelnetDummy = GameInfoTypes["BUILDING_FW_ANGELNET_DUMMY"]
+local wonderBionicTower = GameInfoTypes["BUILDING_FW_BIONICTOWER"]
+local wonderBionicTower = GameInfoTypes["BUILDING_FW_BIONICTOWER"]
+local wonderBorehole = GameInfoTypes["BUILDING_FW_BOREHOLE"]
+local wonderBuenosAiresForum = GameInfoTypes["BUILDING_FW_BUENOSAIRESFORUM"]
+local wonderDataHaven = GameInfoTypes["BUILDING_FW_DATA_HAVEN"]
+local wonderDataHavenDummy_3 = GameInfoTypes["BUILDING_FW_DATA_HAVEN_DUMMY_3"]
+local wonderGeneVault = GameInfoTypes["BUILDING_FW_GENE_VAULT"]
+local wonderGeneVault = GameInfoTypes["BUILDING_FW_GENE_VAULT"]
+local wonderHelios = GameInfoTypes["BUILDING_FW_HELIOS"]
+local wonderJurassicPark = GameInfoTypes["BUILDING_FW_JURASSIC_PARK"]
+local wonderMnesmosyne = GameInfoTypes["BUILDING_FW_MNEMOSYNE"]
+local wonderNephilim = GameInfoTypes["BUILDING_FW_NEPHILIM_GENE_TEMPLATE"]
+local wonderNephilimDummy = GameInfoTypes["BUILDING_FW_NEPHILIMGENETEMPLATE_DUMMY"]
+local wonderPholusMutagen = GameInfoTypes["BUILDING_FW_PHOLUS_MUTAGEN"]
+local wonderShimizu = GameInfoTypes["BUILDING_FW_SHIMIZUMCP"]
+local wonderShimizuDummy = GameInfoTypes["BUILDING_FW_SHIMIZUMCP_DUMMY"]
+local wonderSkynet = GameInfoTypes["BUILDING_FW_SKYNET"]
 
-local iBuildingGeneLab = GameInfoTypes.BUILDING_FW_GENE_LAB
-local iBuildingCloneLab = GameInfoTypes.BUILDING_FW_CLONE_LAB
-local iBuildingTGNursery = GameInfoTypes.BUILDING_FW_TG_NURSERY
+local wonderClassAccelerator = GameInfoTypes["BUILDINGCLASS_FW_ACCELERATOR"]
+local wonderClassAngelnet = GameInfoTypes["BUILDINGCLASS_FW_ANGELNET"]
+local wonderClassBionicTower = GameInfoTypes["BUILDINGCLASS_FW_BIONICTOWER"]
+local wonderClassBorehole = GameInfoTypes["BUILDINGCLASS_FW_BOREHOLE"]
+local wonderClassBuenosAiresForum = GameInfoTypes["BUILDINGCLASS_FW_BUENOSAIRESFORUM"]
+local wonderClassDataHaven = GameInfoTypes["BUILDINGCLASS_FW_DATA_HAVEN"]
+local wonderClassGeneVault = GameInfoTypes["BUILDINGCLASS_FW_GENE_VAULT"]
+local wonderClassHelios = GameInfoTypes["BUILDINGCLASS_FW_HELIOS"]
+local wonderClassJurassicPark = GameInfoTypes["BUILDINGCLASS_FW_JURASSIC_PARK"]
+local wonderClassLaunchFacility = GameInfoTypes["BUILDINGCLASS_FW_LAUNCH_FACILITY"]
+local wonderClassMnemosyne = GameInfoTypes["BUILDINGCLASS_FW_MNEMOSYNE"]
+local wonderClassNephilim = GameInfoTypes["BUILDINGCLASS_FW_NEPHILIM_GENE_TEMPLATE"]
+local wonderClassPholusMutagen = GameInfoTypes["BUILDINGCLASS_FW_PHOLUS_MUTAGEN"]
+local wonderClassShimizu = GameInfoTypes["BUILDINGCLASS_FW_SHIMIZUMCP"]
+local wonderClassSkynet = GameInfoTypes["BUILDINGCLASS_FW_SKYNET"]
 
-local iBuildingBiofactory = GameInfoTypes.BUILDING_FW_BIOFACTORY
-local iBuildingEctogenesisPod = GameInfoTypes.BUILDING_FW_ECTOGENESIS_POD
-local iBuildingGeneJackFacility = GameInfoTypes.BUILDING_FW_GENEJACK_FACILITY
+-- PreReq Techs
+local techGengineering = GameInfoTypes["TECH_GENGINEERING"]
 
-local iBuildingAutoplant = GameInfoTypes.BUILDING_FW_AUTOPLANT
-local iBuildingDroneHive = GameInfoTypes.BUILDING_FW_DRONE_HIVE
-local iBuildingUtilityFog = GameInfoTypes.BUILDING_FW_UTILITY_FOG
+-- Promotions
+local promotionBiomods = GameInfoTypes["PROMOTION_FW_BIOMODS"]
+local promotionBoostMod = GameInfoTypes["PROMOTION_FW_BOOST_MOD"]
+local promotionBoostModEmpty = GameInfoTypes["PROMOTION_FW_BOOST_MOD_EMPTY"]
+local promotionBoostMod_1 = GameInfoTypes["PROMOTION_FW_BOOST_MOD_EFFECT_1"]
+local promotionBoostMod_2 = GameInfoTypes["PROMOTION_FW_BOOST_MOD_EFFECT_2"]
+local promotionBoostMod_3 = GameInfoTypes["PROMOTION_FW_BOOST_MOD_EFFECT_3"]
+local promotionEmbarkation_1 = GameInfoTypes["PROMOTION_EMBARKATION"]
+local promotionEmbarkation_2 = GameInfoTypes["PROMOTION_DEFENSIVE_EMBARKATION"]
+local promotionEmbarkation_3 = GameInfoTypes["PROMOTION_ALLWATER_EMBARKATION"]
+local promotionGengineered = GameInfoTypes["PROMOTION_FW_GENGINEERED"]
+local promotionMutation = GameInfoTypes["PROMOTION_FW_MUTATION"]
+local promotionNanohive = GameInfoTypes["PROMOTION_FW_NANOHIVE_PROMOTION"]
+local promotionStimMod = GameInfoTypes["PROMOTION_FW_STIM_MOD"]
+local promotionStimModEmpty = GameInfoTypes["PROMOTION_FW_STIM_MOD_EMPTY"]
+local promotionToxinMod = GameInfoTypes["PROMOTION_FW_TOXIN_MOD"]
 
-local iBuildingNetworkBackbone = GameInfoTypes.BUILDING_FW_NETWORK_BACKBONE
-local iBuildingTelepresenceHub = GameInfoTypes.BUILDING_FW_TELEPRESENCE_HUB
-local iBuildingSimulationServer = GameInfoTypes.BUILDING_FW_SIMULATION_SERVER
+-- Units
+local unitAutomaton = GameInfoTypes["UNIT_FW_AUTOMATON"]
+local unitCrawler = GameInfoTypes["UNIT_FW_CRAWLER"]
+local unitHydra = GameInfoTypes["UNIT_FW_HYDRA"]
+local unitHyperMissile = GameInfoTypes["UNIT_FW_HYPERMISSILE"]
+local unitRaptor = GameInfoTypes["UNIT_FW_RAPTOR"]
+local unitRobotInfantry = GameInfoTypes["UNIT_FW_ROBOT_INFANTRY"]
+local unitSwarm = GameInfoTypes["UNIT_FW_SWARM"]
+local unitSwarm = GameInfoTypes["UNIT_FW_SWARM"]
+local unitTRex = GameInfoTypes["UNIT_FW_TREX"]
+local unitTriceratops = GameInfoTypes["UNIT_FW_TRICERATOPS"]
 
-local iBuildingFeedsiteHub = GameInfoTypes.BUILDING_FW_FEEDSITE_HUB
-local iBuildingDistributionHub = GameInfoTypes.BUILDING_FW_DISTRIBUTION_HUB
-local iBuildingMetroplexHub = GameInfoTypes.BUILDING_FW_METROPLEX_HUB
-local iBuildingColosseum = GameInfoTypes.BUILDING_COLOSSEUM
-local iBuildingTheatre = GameInfoTypes.BUILDING_THEATRE
-local iBuildingStadium = GameInfoTypes.BUILDING_STADIUM
+-- Policies
+local poBionicTower = GameInfoTypes["POLICY_BIONIC_TOWER"]
+local poBionicTowerDummy = GameInfoTypes["POLICY_BIONIC_TOWER_DUMMY"]
+local poBorehole = GameInfoTypes["POLICY_BOREHOLE"]
+local poBoreholeDummy = GameInfoTypes["POLICY_BOREHOLE_DUMMY"]
+local poGeneVault = GameInfoTypes["POLICY_GENE_VAULT"]
+local poGeneVaultDummy = GameInfoTypes["POLICY_GENE_VAULT_DUMMY"]
+local poHelios = GameInfoTypes["POLICY_HELIOS"]
+local poHeliosDummy = GameInfoTypes["POLICY_HELIOS_DUMMY"]
 
-local iBuildingVerticalFarm = GameInfoTypes.BUILDING_FW_VERTICAL_FARM
-local iBuildingMycoproteinVats = GameInfoTypes.BUILDING_FW_MYCOPROTEIN_VATS
-local iBuildingOrbitalHabitat = GameInfoTypes.BUILDING_FW_ORBITAL_HABITAT
-
-local iBuildingResearchModule = GameInfoTypes.BUILDING_FW_RESEARCH_MODULE_1
-local iBuildingCommModule = GameInfoTypes.BUILDING_FW_COMM_MODULE_1
-local iBuildingEngineeringModule = GameInfoTypes.BUILDING_FW_ENGINEERING_MODULE_1
-
-local iBuildingSolarPlant = GameInfoTypes.BUILDING_SOLAR_PLANT
-local iBuildingSanctuary = GameInfoTypes.BUILDING_FW_SANCTUARY
-local iBuildingUnderseaMining = GameInfoTypes.BUILDING_FW_UNDERSEA_MINING
-local iBuildingBrainUploading = GameInfoTypes.BUILDING_FW_BRAIN_UPLOADING
-local iBuildingBrainUploadingDummy = GameInfoTypes.BUILDING_FW_BRAIN_UPLOADING_DUMMY_1
-local iBuildingBioModTank = GameInfoTypes.BUILDING_FW_BIOMOD_TANK
-local iBuildingZoo = GameInfoTypes.BUILDING_THEATRE
-local iBuildingMenagerie = GameInfoTypes.BUILDING_EE_MENAGERIE
-
-local iBuildingServerHubClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_SERVER_HUB.ID
-local iBuildingResearchServerClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_RESEARCH_SERVER.ID
-local iBuildingEntertainmentServerClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_ENTERTAINMENT_SERVER.ID
-local iBuildingECommerceServerClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_COMMERCE_SERVER.ID
-local iBuildingCyberclinicClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_CYBERCLINIC.ID
-
-local iBuildingAccelerator = GameInfoTypes.BUILDING_FW_ACCELERATOR
-local iBuildingAcceleratorClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_ACCELERATOR.ID
-local iBuildingSkynetClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_SKYNET.ID
-local iBuildingPholusMutagen = GameInfoTypes.BUILDING_FW_PHOLUS_MUTAGEN
-local iBuildingPholusMutagenClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_PHOLUS_MUTAGEN.ID
-local iBuildingGeneVault = GameInfoTypes.BUILDING_FW_GENE_VAULT
-local iBuildingGeneVaultClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_GENE_VAULT.ID
-local iBuildingLaunchFacilityClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_LAUNCH_FACILITY.ID
-local iBuildingNephilimGeneTemplateClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_NEPHILIM_GENE_TEMPLATE.ID
-local iBuildingNephilimGeneTemplateDummy = GameInfoTypes.BUILDING_FW_NEPHILIMGENETEMPLATE_DUMMY
-local iBuildingAngelnetClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_ANGELNET.ID
-local iBuildingsShimizuMCP = GameInfoTypes.BUILDING_FW_SHIMIZUMCP
-local iBuildingBionicTower = GameInfoTypes.BUILDING_FW_BIONICTOWER
-local iBuildingBionicTowerClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_BIONICTOWER.ID
-local iBuildingHeliosClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_HELIOS.ID
-local iBuildingBoreholeClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_BOREHOLE.ID
-local iBuildingMnemosyne = GameInfoTypes.BUILDING_FW_MNEMOSYNE
-local iBuildingBuenosAiresForum = GameInfoTypes.BUILDING_FW_BUENOSAIRESFORUM
-local iBuildingJurassicParkClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_JURASSIC_PARK.ID
-local iBuildingPholusMutagenClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_PHOLUS_MUTAGEN.ID
-local iBuildingCentralCommandClass = GameInfo.BuildingClasses.BUILDINGCLASS_FW_CENTRAL_COMMAND.ID
-
-local iPrereq1 = GameInfo.Technologies["TECH_NEURAL_INTERFACE"].ID
-local iPrereq2 = GameInfo.Technologies["TECH_GENGINEERING"].ID
-
-local iGengineeredPromotion = GameInfoTypes.PROMOTION_FW_GENGINEERED
-local iBiomodsPromotion = GameInfoTypes.PROMOTION_FW_BIOMODS
-local iNodePromotion = GameInfoTypes.PROMOTION_FW_NETWORKED
-local iNanohivePromotion = GameInfoTypes.PROMOTION_FW_NANOHIVE_PROMOTION
-local iMutationPromotion = GameInfoTypes.PROMOTION_FW_MUTATION
-local iToxinModPromotion = GameInfoTypes.PROMOTION_FW_TOXIN_MOD
-local iStimModPromotion = GameInfoTypes.PROMOTION_FW_STIM_MOD
-local iStimModEmptyPromotion = GameInfoTypes.PROMOTION_FW_STIM_MOD_EMPTY
-local iBoostModPromotion = GameInfoTypes.PROMOTION_FW_BOOST_MOD
-local iBoostModEmptyPromotion = GameInfoTypes.PROMOTION_FW_BOOST_MOD_EMPTY
-local iBoostModEffect3Promotion = GameInfoTypes.PROMOTION_FW_BOOST_MOD_EFFECT_3
-local iBoostModEffect2Promotion = GameInfoTypes.PROMOTION_FW_BOOST_MOD_EFFECT_2
-local iBoostModEffect1Promotion = GameInfoTypes.PROMOTION_FW_BOOST_MOD_EFFECT_1
-local iEmbarkationPromotion1 = GameInfoTypes.PROMOTION_EMBARKATION
-local iEmbarkationPromotion2 = GameInfoTypes.PROMOTION_DEFENSIVE_EMBARKATION
-local iEmbarkationPromotion3 = GameInfoTypes.PROMOTION_ALLWATER_EMBARKATION
-
-local iHypermissile = GameInfoTypes.UNIT_FW_HYPERMISSILE
-local iTRex = GameInfoTypes.UNIT_FW_TREX
-local iTriceratops = GameInfoTypes.UNIT_FW_TRICERATOPS
-local iRaptor = GameInfoTypes.UNIT_FW_RAPTOR
-local iSwarm = GameInfoTypes.UNIT_FW_SWARM
-local iRobotInfantry = GameInfoTypes.UNIT_FW_ROBOT_INFANTRY
-local iAutomaton = GameInfoTypes.UNIT_FW_AUTOMATON
-local tSkynetUnits = { [GameInfoTypes.UNIT_FW_ROBOT_INFANTRY] = UNITCLASS_FW_ROBOT_INFANTRY }
-
-local tBioPromotions = { [GameInfoTypes.PROMOTION_FW_GENGINEERED] = GameInfoTypes.PROMOTION_FW_GENGINEERED, [GameInfoTypes.PROMOTION_FW_BIOMODS] = GameInfoTypes.PROMOTION_FW_BIOMODS }
-local tRoboticUnits = { [GameInfoTypes.UNIT_FW_ROBOT_INFANTRY] = GameInfoTypes.UNIT_FW_ROBOT_INFANTRY, [GameInfoTypes.UNIT_FW_AUTOMATON] = GameInfoTypes.UNIT_FW_AUTOMATON}
-
-local iChanceDinos = 7
-local iChanceMissileProduction = 33
-local iChanceForFungus = 1
+-- Constants
 local iAdjacentFungusModifier = 1
+local iChanceDinos = 7
+local iChanceForFungus = 1
+local iChanceMissileProduction = 33
+
+local bGeneVaultCompleted = false
+local bBionicTowerCompleted = false
+local bHeliosCompleted = false
+local bMnemosyneCompleted = false
+local bJurassicParkCompleted = false
+local bPholusMutagenCompleted = false
+local bNephilimCompleted = false
+local bAngelnetCompleted = false
+local bDataHavenCompleted = false
+local bBuenosAiresForumCompleted = false
 
 --------------------------------------------------------------------------------------------------------------------------
 -- JFD_GetRandom
@@ -153,63 +183,46 @@ function JFD_GetRandom(lower, upper)
     return Game.Rand((upper + 1) - lower, "") + lower
 end
 
-
 ----------------------------------------------------------------------------------------------------------------------------
 -- Future Worlds Functions
 ----------------------------------------------------------------------------------------------------------------------------
-
-
 function CityBuiltTest(iPlayer, iCity, iBuilding, bGold, bFaithOrCulture)
-        if iBuilding == iBuildingAccelerator then
-			local pPlayer = Players[iPlayer]
-			for pCity in pPlayer:Cities() do
-				local i;
-				for i = 0, pCity:GetNumCityPlots() - 1, 1 do
-					local pPlot = pCity:GetCityIndexPlot( i );
-					if (pPlot ~= nil) then
-						if ( pPlot:GetOwner() == pCity:GetOwner() ) then
-							local ImpID = pPlot:GetImprovementType()
-							if (ImpID == iImprovementAcademy) then
-								pPlot:SetImprovementType(iImprovementHERC)
-							end
+	if iBuilding == wonderAccelerator then
+		local player = Players[iPlayer]
+		for pCity in player:Cities() do
+			for i = 0, pCity:GetNumCityPlots() - 1, 1 do
+				local pPlot = pCity:GetCityIndexPlot( i )
+				if pPlot then
+					if pPlot:GetOwner() == pCity:GetOwner() then
+						if pPlot:GetImprovementType() == improvementAcademy then
+							pPlot:SetImprovementType(improvementHERC)
 						end
 					end
 				end
 			end
-        end
-		if (iBuilding == iBuildingBrainUploading) then
-			local pPlayer = Players[iPlayer];
-			local pCity = pPlayer:GetCityByID(iCity)
-			if pCity:GetNumRealBuilding(iBuildingBrainUploadingDummy) == 0 then
-				local iCityPop = pCity:GetPopulation()
-				local iUploadedCitizens = math.floor(iCityPop / 4)
-				pCity:ChangePopulation((-1 * iUploadedCitizens), true);
-				pCity:SetNumRealBuilding(iBuildingBrainUploadingDummy, iUploadedCitizens)
-				local title = "Citizens Uploaded";
-				local descr = iUploadedCitizens .. " [ICON_CITIZEN] Citizens have been digitally uploaded.";
-				pPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, descr, title, pCity:GetX(), pCity:GetY(), -1);	
-				--print(descr)
-			end
 		end
+	end
+	if iBuilding == buildingBrainUploading then
+		local player = Players[iPlayer]
+		local pCity = player:GetCityByID(iCity)
+		if pCity:GetNumRealBuilding(buildingBrainUploadingDummy) == 0 then
+			local iCityPop = pCity:GetPopulation()
+			local iUploadedCitizens = math.floor(iCityPop / 4)
+			pCity:ChangePopulation((-1 * iUploadedCitizens), true)
+			pCity:SetNumRealBuilding(buildingBrainUploadingDummy, iUploadedCitizens)
+		end
+	end
 end
 GameEvents.CityConstructed.Add(CityBuiltTest)
 
 function CheckUploading(iPlotX, iPlotY, iOldPop, iNewPop)
 	local pCity = Map.GetPlot(iPlotX, iPlotY):GetPlotCity()
-	if (pCity:GetNumRealBuilding(iBuildingBrainUploading) > 0) and (iNewPop > 3) and (iNewPop > iOldPop) then
-		local randomNumber = JFD_GetRandom(1, 100)
-		if (randomNumber < 25) then
-			local iUploadedCitizens = pCity:GetNumRealBuilding(iBuildingBrainUploadingDummy)
-			pCity:ChangePopulation(-1, true);
+	if (pCity:GetNumRealBuilding(buildingBrainUploading) > 0) and (iNewPop > 3) and (iNewPop > iOldPop) then
+		if (JFD_GetRandom(1, 100) < 25) then
+			local iUploadedCitizens = pCity:GetNumRealBuilding(buildingBrainUploadingDummy)
+			pCity:ChangePopulation(-1, true)
 			iUploadedCitizens = iUploadedCitizens + 1
-			pCity:SetNumRealBuilding(iBuildingBrainUploadingDummy, iUploadedCitizens)
-			local pCityName = pCity:GetName()
-			local iCityOwner = pCity:GetOwner()
-			local pPlayer = Players[iCityOwner]
-			local title = "Citizen Uploaded";
-			local descr = "1 [ICON_CITIZEN] Citizen has been digitally uploaded in " .. pCityName;
-			pPlayer:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, descr, title, pCity:GetX(), pCity:GetY(), -1);	
-			--print(descr)
+			pCity:SetNumRealBuilding(buildingBrainUploadingDummy, iUploadedCitizens)
 		end
 	end
 end
@@ -219,436 +232,154 @@ function CheckImprovements (iHexX, iHexY, iContinent1, iContinent2)
 	local pPlot = Map.GetPlot(ToGridFromHex(iHexX, iHexY))
 	local ImpID = pPlot:GetImprovementType()
 	local Owner = pPlot:GetOwner()
-	local pPlayer = Players[Owner];
-	if (pPlayer) then
-		if (ImpID == iImprovementAcademy and (pPlayer:GetBuildingClassCount(iBuildingAcceleratorClass) > 0)) then
-			pPlot:SetImprovementType(iImprovementHERC)
+	local player = Players[Owner]
+	if player then
+		if (ImpID == improvementAcademy and (player:GetBuildingClassCount(wonderClassAccelerator) > 0)) then
+			pPlot:SetImprovementType(improvementHERC)
 		end
 	end
 end
-Events.SerialEventImprovementCreated.Add(CheckImprovements);
+Events.SerialEventImprovementCreated.Add(CheckImprovements)
 
 function FWBuildingImprovementBonuses(iPlayer)
-	local pPlayer = Players[iPlayer]
+	local player = Players[iPlayer]
+	if (not player:IsAlive()) then return end
+	if not (player:GetCurrentEra() > 5) then return end
 	local tMyWheatPlotsThisTurn = {}
-	for pCity in pPlayer:Cities() do
+	for pCity in player:Cities() do
 		local tNearbyDatas = GetCityMapDatas(pCity)
-		if pCity:IsHasBuilding(iBuildingGeneLab) then
-			local iNumFarms = GetNumCityWorkingImprovementPlots(tNearbyDatas, iImprovementFarm)
-			--print("Num Farms: " .. iNumFarms)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_GENE_LAB_DUMMY"], iNumFarms)
+		if pCity:IsHasBuilding(buildingGeneLab) then
+			local iNumFarms = GetNumCityWorkingImprovementPlots(tNearbyDatas, improvementFarm)
+			
+			pCity:SetNumRealBuilding(buildingGeneLabDummy, iNumFarms)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_GENE_LAB_DUMMY"], 0)
+			pCity:SetNumRealBuilding(buildingGeneLabDummy, 0)
 		end
-		--if pCity:IsHasBuilding(iBuildingCloneLab) then
-		--	local iNumPastures = GetNumCityWorkingImprovementPlots(tNearbyDatas, iImprovementPasture)
-		--	pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_CLONE_LAB_DUMMY"], iNumPastures)
-		--else
-		--	pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_CLONE_LAB_DUMMY"], 0)
-		--end
-		if pCity:IsHasBuilding(iBuildingSanctuary) then
-			local iNumPreserves = GetNumCityWorkingImprovementPlots(tNearbyDatas, iImprovementPreserve)
-			--print("Num Preserves: " .. iNumPreserves)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_SANCTUARY_DUMMY"], iNumPreserves)
+		if pCity:IsHasBuilding(buildingSanctuary) then
+			local iNumPreserves = GetNumCityWorkingImprovementPlots(tNearbyDatas, improvementPreserve)
+			
+			pCity:SetNumRealBuilding(buildingSanctuaryDummy, iNumPreserves)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_SANCTUARY_DUMMY"], 0)
+			pCity:SetNumRealBuilding(buildingSanctuaryDummy, 0)
 		end
-		if pCity:IsHasBuilding(iBuildingNetworkBackbone) then
-			local tCommArrayPlots = GetCityImprovementPlots(tNearbyDatas, iImprovementCommArray, "Plots")
+		if pCity:IsHasBuilding(buildingNetworkBackbone) then
+			local tCommArrayPlots = GetCityImprovementPlots(tNearbyDatas, improvementCommArray, "Plots")
 			local iNumCommArrays = #tCommArrayPlots
-			--print("Num CommArrays: " .. iNumCommArrays)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_NETWORK_BACKBONE_DUMMY_3"], iNumCommArrays)
+			
+			pCity:SetNumRealBuilding(buildingNetworkBackboneDummy_3, iNumCommArrays)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_NETWORK_BACKBONE_DUMMY_3"], 0)
+			pCity:SetNumRealBuilding(buildingNetworkBackboneDummy_3, 0)
 		end
-		if pCity:IsHasBuilding(iBuildingDroneHive) then
-			local tGeneratorPlots = GetCityImprovementPlots(tNearbyDatas, iImprovementGenerator, "Plots")
+		if pCity:IsHasBuilding(buildingDroneHive) then
+			local tGeneratorPlots = GetCityImprovementPlots(tNearbyDatas, improvementGenerator, "Plots")
 			local iNumGenerators = #tGeneratorPlots
-			--print("Num Generators: " .. iNumGenerators)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_DRONE_HIVE_DUMMY_1"], iNumGenerators)
+			
+			pCity:SetNumRealBuilding(buildingDroneHiveDummy_1, iNumGenerators)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_DRONE_HIVE_DUMMY_1"], 0)
+			pCity:SetNumRealBuilding(buildingDroneHiveDummy_1, 0)
 		end
-		if pCity:IsHasBuilding(iBuildingSimulationServer) then
-			local tCorePlots = GetCityImprovementPlots(tNearbyDatas, iImprovementCore, "Plots")
+		if pCity:IsHasBuilding(buildingSimulationServer) then
+			local tCorePlots = GetCityImprovementPlots(tNearbyDatas, improvementCore, "Plots")
 			local iNumCores = #tCorePlots
-			--print("Num Cores: " .. iNumCores)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_SIMULATION_SERVER_DUMMY_2"], iNumCores)
+			
+			pCity:SetNumRealBuilding(buildingSimulationServerDummy_2, iNumCores)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_DRONE_HIVE_DUMMY_2"], 0)
+			pCity:SetNumRealBuilding(buildingSimulationServerDummy_2, 0)
 		end
-		if pCity:IsHasBuilding(iBuildingDistributionHub) then
+		if pCity:IsHasBuilding(buildingDistributionHub) then
 			local iNumIndustrialSites = GetNumCityWorkingImprovementPlots(tNearbyDatas, iImprovementIndustrialSite)
-			--if (pPlayer:GetBuildingClassCount(iBuildingCentralCommandClass) > 0) then
-			--	iNumIndustrialSites = iNumIndustrialSites * 2
-			--end
-			--print("Num Industrial Sites: " .. iNumIndustrialSites)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_DISTRIBUTION_HUB_DUMMY"], iNumIndustrialSites)
+			pCity:SetNumRealBuilding(buildingDistributionHubDummy, iNumIndustrialSites)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_DISTRIBUTION_HUB_DUMMY"], 0)
+			pCity:SetNumRealBuilding(buildingDistributionHubDummy, 0)
 		end
-		if pCity:IsHasBuilding(iBuildingMetroplexHub) then
-			local iNumArcologies = GetNumCityWorkingImprovementPlots(tNearbyDatas, iImprovementArcology)
-			--if (pPlayer:GetBuildingClassCount(iBuildingCentralCommandClass) > 0) then
-			--	iNumArcologies = iNumArcologies * 2
-			--end
-			print("Num Arcologies: " .. iNumArcologies)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_METROPLEX_HUB_DUMMY"], iNumArcologies)
+		if pCity:IsHasBuilding(buildingMetroplexHub) then
+			local iNumArcologies = GetNumCityWorkingImprovementPlots(tNearbyDatas, improvementArcology)
+			pCity:SetNumRealBuilding(buildingMetroplexHubDummy, iNumArcologies)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_METROPLEX_HUB_DUMMY"], 0)
+			pCity:SetNumRealBuilding(buildingMetroplexHubDummy, 0)
 		end
-		if pCity:IsHasBuilding(iBuildingVerticalFarm) then
-			local iNumDomes = GetNumCityWorkingImprovementPlots(tNearbyDatas, iImprovementDome)
-			--print("Num Domes: " .. iNumDomes)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_VERTICAL_FARM_DUMMY"], iNumDomes)
+		if pCity:IsHasBuilding(buildingVerticalFarm) then
+			local iNumDomes = GetNumCityWorkingImprovementPlots(tNearbyDatas, improvementDome)
+			
+			pCity:SetNumRealBuilding(buildingVerticalFarmDummy, iNumDomes)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_VERTICAL_FARM_DUMMY"], 0)
+			pCity:SetNumRealBuilding(buildingVerticalFarmDummy, 0)
 		end
 	end
 end
 GameEvents.PlayerDoTurn.Add(FWBuildingImprovementBonuses)
 
+function FutureTurnBonuses(iPlayer)
+	local player = Players[iPlayer]
+	if (not player:IsAlive()) then return end
+	if not (player:GetCurrentEra() > 5) then return end
 
-function FeedsiteHubBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	local pCapital = pPlayer:GetCapitalCity();
-	local iNumHappiness = 0
-	local iNumCulture = 0
-	--print("Checking Feedsite Hub Bonus")
-	for pCity in pPlayer:Cities() do
-		if pCity:IsHasBuilding(iBuildingFeedsiteHub) then
-			--print("Feedsite Hub found")
-			iNumCulture = pCity:GetNumGreatWorks()
-			if pCity:IsHasBuilding(iBuildingColosseum) then iNumHappiness = iNumHappiness + 1 end
-			if (iBuildingMenagerie == nil) then
-				if pCity:IsHasBuilding(iBuildingTheatre) then iNumHappiness = iNumHappiness + 1 end
-			else
-				if pCity:IsHasBuilding(iBuildingMenagerie) then iNumHappiness = iNumHappiness + 1 end
-			end
-			if pCity:IsHasBuilding(iBuildingStadium) then iNumHappiness = iNumHappiness + 1 end
-			--if (pPlayer:GetBuildingClassCount(iBuildingCentralCommandClass) > 0) then
-			--	iNumCulture = iNumCulture * 2
-			--	iNumHappiness = iNumHappiness * 2
-			--end
-			--print("iNumHappiness: " .. iNumHappiness .. ", iNumCulture: " .. iNumCulture)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_FEEDSITE_HUB_DUMMY_2"], iNumHappiness)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_FEEDSITE_HUB_DUMMY_1"], iNumCulture)
+	for pCity in player:Cities() do
+		-- Feedsite or Information Hub Building
+		if pCity:IsHasBuilding(buildingFeedsiteHub) then
+			local iNumHappiness = 0
+			if pCity:IsHasBuilding(buildingColosseum) then iNumHappiness = iNumHappiness + 1 end
+			if pCity:IsHasBuilding(buildingMenagerie) then iNumHappiness = iNumHappiness + 1 end
+			if pCity:IsHasBuilding(buildingStadium) then iNumHappiness = iNumHappiness + 1 end
+			pCity:SetNumRealBuilding(buildingFeedsiteHubDummy_2, iNumHappiness)
+			pCity:SetNumRealBuilding(buildingFeedsiteHubDummy_1, pCity:GetNumGreatWorks())
 		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(FeedsiteHubBonus)
 
-function NephilimGeneTemplateBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	for pCity in pPlayer:Cities() do
-		if (pPlayer:GetBuildingClassCount(iBuildingNephilimGeneTemplateClass) > 0) then
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_NEPHILIMGENETEMPLATE_DUMMY"], 1)
-		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_NEPHILIMGENETEMPLATE_DUMMY"], 0)
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(NephilimGeneTemplateBonus)
-
-function AngelnetBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	for pCity in pPlayer:Cities() do
-		if pCity:IsHasBuilding(iBuildingUtilityFog) and (pPlayer:GetBuildingClassCount(iBuildingAngelnetClass) > 0) then
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_ANGELNET_DUMMY"], 1)
-		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_ANGELNET_DUMMY"], 0)
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(AngelnetBonus)
-
-function DataHavenBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	for pCity in pPlayer:Cities() do
-		if pCity:IsHasBuilding(iBuildingDataHaven) then
-			local iNumServers = pPlayer:GetBuildingClassCount(iBuildingServerHubClass)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_DATA_HAVEN_DUMMY_3"], iNumServers)
-		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_DATA_HAVEN_DUMMY_1"], 0)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_DATA_HAVEN_DUMMY_2"], 0)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_DATA_HAVEN_DUMMY_3"], 0)
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(DataHavenBonus)
-
-function BuenosAiresForumBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	for pCity in pPlayer:Cities() do
-		if pCity:IsHasBuilding(iBuildingBuenosAiresForum) then
-			local iPop = pCity:GetPopulation();
-			pPlayer:ChangeGoldenAgeProgressMeter(iPop)
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(BuenosAiresForumBonus)
-
-function ShimizuMCPBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	for pCity in pPlayer:Cities() do
-		if pCity:IsHasBuilding(iBuildingShimizuMCP) then
-			local iBuildingMaintenance = pCity:GetTotalBaseBuildingMaintenance();
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_SHIMIZUMCP_DUMMY"], iBuildingMaintenance)
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(ShimizuMCPBonus)
-
-function JurassicParkBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	--print("Checking for Jurassic Park")
-	if (pPlayer:GetBuildingClassCount(iBuildingJurassicParkClass) > 0) then
-		--print("Jurassic Park found.")
-		local iCheckForDinos = JFD_GetRandom(1, 100)
-		--print("Dino number is " .. iCheckForDinos)
-		if (iCheckForDinos < iChanceDinos) then
-			local tPlots ={}
-			for pCity in pPlayer:Cities() do
-				if (iBuildingMenagerie == nil) then
-					if pCity:IsHasBuilding(iBuildingZoo) then
-						--print("Zoo found")
-						local pCentralPlot = pCity:Plot()
-						for pPlot in PlotAreaSpiralIterator(pCentralPlot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-							local iImprovement = pPlot:GetImprovementType()
-							local iTerrain = pPlot:GetTerrainType()
-							local iOwner = pPlot:GetOwner()
-							if (((iTerrain == iPlains) or (iTerrain == iGrasslands)) and (iOwner == iPlayer) and (pPlot:GetNumUnits() == 0) and not (pPlot:IsMountain())) then
-								table.insert(tPlots, pPlot)
-								--print("Inserted plot")
-							end
-						end
-					end
-				else
-					if pCity:IsHasBuilding(iBuildingMenagerie) then
-						--print("Menagerie found")
-						local pCentralPlot = pCity:Plot()
-						for pPlot in PlotAreaSpiralIterator(pCentralPlot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-							local iImprovement = pPlot:GetImprovementType()
-							local iTerrain = pPlot:GetTerrainType()
-							local iOwner = pPlot:GetOwner()
-							if (((iTerrain == iPlains) or (iTerrain == iGrasslands)) and (iOwner == iPlayer) and (pPlot:GetNumUnits() == 0) and not (pPlot:IsMountain())) then
-								table.insert(tPlots, pPlot)
-								--print("Inserted plot")
-							end
-						end
-					end
-				end
-			end
-			if #tPlots > 0 then
-				local randomNumber = JFD_GetRandom(1, #tPlots)
-				local tPlot = tPlots[randomNumber]
-				local iDinoNumber = JFD_GetRandom(1, 6)
-				--print("Dino Type is " .. iDinoNumber)
-				local iDinoType = iTRex
-				if (iDinoNumber > 3) then 
-					iDinoType = iRaptor
-				else
-					if (iDinoNumber > 1) then
-						iDinoType = iTriceratops
-					end
-				end
-				local teamID = pPlayer:GetTeam();
-				local pTeam = Teams[teamID];
-				if not (pTeam:IsHasTech(iPrereq2)) then
-					local nUnit = Players[63]:InitUnit(iDinoType, tPlot:GetX(), tPlot:GetY())
-				end
-			end
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(JurassicParkBonus)
-
-function PholusMutagenBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	--print("Checking for Pholus Mutagen")
-	if (pPlayer:GetBuildingClassCount(iBuildingPholusMutagenClass) > 0) then
-		--print("Mutagen found")
-		for pCity in pPlayer:Cities() do
-			--print("Checking city")
-			local iNumDomes = 0
-			local i;
-			for i = 0, pCity:GetNumCityPlots() - 1, 1 do
-				local pPlot = pCity:GetCityIndexPlot( i );
-				if (pPlot ~= nil) then
-					--print("Checking plot")
-					if (pPlot:GetOwner() == pCity:GetOwner()) then
-						local iImprovement = pPlot:GetImprovementType()
-						local iTerrain = pPlot:GetTerrainType()
-						--print("Improvement is type " .. iImprovement)
-						if ((iImprovement == iImprovementFarm) or (iImprovement == iImprovementPlantation) or (iImprovement == iImprovementPreserve) or (iImprovement == -1)) and (((iTerrain == iPlains) or (iTerrain == iGrasslands)) and not (pPlot:IsMountain()) and not (pPlot:IsCity())) then
-							local iCheckForFungus = JFD_GetRandom(1, 100)
-							local iChanceFungusGrowth = iChanceForFungus
-							local iAdjacentFungusBonus = 0
-
-							for loopPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-								local iLoopImprovement = loopPlot:GetImprovementType()
-								if (iLoopImprovement == iImprovementFungus) then
-									--print("Adjacent fungus found")
-									iAdjacentFungusBonus = iAdjacentFungusBonus + iAdjacentFungusModifier
-								end
-							end
-
-							if iAdjacentFungusBonus > 3 then iAdjacentFungusBonus = 3 end
-							iChanceFungusGrowth = iChanceFungusGrowth + iAdjacentFungusBonus
-							--print("Chance for fungus: " .. iChanceFungusGrowth)
-							--print("Rolled: " .. iCheckForFungus)
-
-							if (iCheckForFungus < iChanceFungusGrowth) then
-								pPlot:SetImprovementType(iImprovementFungus)
-							end
-						end
-					end
-				end
-			end
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(PholusMutagenBonus)
-
-function NetworkBackboneBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	for pCity in pPlayer:Cities() do
-		if pCity:IsHasBuilding(iBuildingNetworkBackbone) then
-			local iNumResearchServers = pPlayer:GetBuildingClassCount(iBuildingResearchServerClass)
+		-- Network Backbone Building
+		if pCity:IsHasBuilding(buildingNetworkBackbone) then
+			local iNumResearchServers = player:GetBuildingClassCount(buildingClassResearchServer)
 			if iNumResearchServers > 10 then iNumResearchServers = 10 end
-			local iNumEntertainmentServers = pPlayer:GetBuildingClassCount(iBuildingEntertainmentServerClass)
+			local iNumEntertainmentServers = player:GetBuildingClassCount(buildingClassEntertainmentServer)
 			if iNumEntertainmentServers > 10 then iNumEntertainmentServers = 10 end
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_NETWORK_BACKBONE_DUMMY_1"], iNumResearchServers)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_NETWORK_BACKBONE_DUMMY_2"], iNumEntertainmentServers)
+			pCity:SetNumRealBuilding(buildingNetworkBackboneDummy_1, iNumResearchServers)
+			pCity:SetNumRealBuilding(buildingNetworkBackboneDummy_2, iNumEntertainmentServers)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_NETWORK_BACKBONE_DUMMY_1"], 0)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_NETWORK_BACKBONE_DUMMY_2"], 0)
+			pCity:SetNumRealBuilding(buildingNetworkBackboneDummy_1, 0)
+			pCity:SetNumRealBuilding(buildingNetworkBackboneDummy_2, 0)
 		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(NetworkBackboneBonus)
-
-function AutoplantBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	for pCity in pPlayer:Cities() do
-		if pCity:IsHasBuilding(iBuildingAutoplant) then
-			local iNumECommerceServers = pPlayer:GetBuildingClassCount(iBuildingECommerceServerClass)
-			if iNumECommerceServers > 10 then iNumECommerceServers = 10 end
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_AUTOPLANT_DUMMY"], iNumECommerceServers)
+		
+		-- Autoplant Building
+		if pCity:IsHasBuilding(buildingAutoplant) then
+			local iNumECommerceServers = math.min(10, player:GetBuildingClassCount(buildingClassECommerceServer))
+			pCity:SetNumRealBuilding(buildingAutoPlantDummy, iNumECommerceServers)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_AUTOPLANT_DUMMY"], 0)
+			pCity:SetNumRealBuilding(buildingAutoPlantDummy, 0)
 		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(AutoplantBonus)
-
-function TelepresenceHubBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	for pCity in pPlayer:Cities() do
-		if pCity:IsHasBuilding(iBuildingTelepresenceHub) then
-			local iNumCyberclincs = pPlayer:GetBuildingClassCount(iBuildingCyberclincClass)
-			if iNumCyberclnics > 10 then iNumCyberclinics = 10 end
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_TELEPRESENCE_HUB_DUMMY"], iNumCyberclincs)
+		
+		-- Telepresence Hub Building
+		if pCity:IsHasBuilding(buildingTelepresenceHub) then
+			local iNumCyberclincs = math.min(10, player:GetBuildingClassCount(iBuildingCyberclincClass))
+			pCity:SetNumRealBuilding(buildingTelepresenceDummy, iNumCyberclincs)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_TELEPRESENCE_HUB_DUMMY"], 0)
+			pCity:SetNumRealBuilding(buildingTelepresenceDummy, 0)
 		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(TelepresenceHubBonus)
-
-function OrbitalHabitatBonus(iPlayer)
-	local pPlayer = Players[iPlayer];
-	for pCity in pPlayer:Cities() do
-		if pCity:IsHasBuilding(iBuildingOrbitalHabitat) then
-			local iNumScientists = pCity:GetNumSpecialistsInBuilding(iBuildingResearchModule)
-			local iNumMerchants = pCity:GetNumSpecialistsInBuilding(iBuildingCommModule)
-			local iNumEngineers = pCity:GetNumSpecialistsInBuilding(iBuildingEngineeringModule)
+		
+		-- Orbital Habitat building
+		if pCity:IsHasBuilding(buildingOrbitalHabitat) then
+			local iNumScientists = pCity:GetNumSpecialistsInBuilding(buildingResearchModule)
+			local iNumMerchants = pCity:GetNumSpecialistsInBuilding(buildingCommModule)
+			local iNumEngineers = pCity:GetNumSpecialistsInBuilding(buildingEngineeringModule)
 			local iNumSpecialists = iNumScientists + iNumMerchants + iNumEngineers
 
-			print("Scientists: " .. iNumScientists .. ", iNumMerchants: " .. iNumMerchants .. ", Engineers: " .. iNumEngineers)
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_ORBITAL_HABITAT_DUMMY"], iNumSpecialists)
+			pCity:SetNumRealBuilding(buildingOrbitalHabitatDummy, iNumSpecialists)
 		else
-			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_FW_ORBITAL_HABITAT_DUMMY"], 0)
+			pCity:SetNumRealBuilding(buildingOrbitalHabitatDummy, 0)
 		end
 	end
 end
-GameEvents.PlayerDoTurn.Add(OrbitalHabitatBonus)
-
-function CityScreenBuildingBonuses()
-	local iPlayer = Game.GetActivePlayer()
-	FWBuildingImprovementBonuses(iPlayer)
-	FeedsiteHubBonus(iPlayer)
-	NephilimGeneTemplateBonus(iPlayer)
-	ShimizuMCPBonus(iPlayer)
-	NetworkBackboneBonus(iPlayer)
-	AutoplantBonus(iPlayer)
-	TelepresenceHubBonus(iPlayer)
-	OrbitalHabitatBonus(iPlayer)
-end
-Events.SerialEventExitCityScreen.Add(CityScreenBuildingBonuses)
-
-function HeliosDamage(iPlayer)
-	local pPlayer = Players[iPlayer]
-	local teamID = pPlayer:GetTeam()
-	local pPlayerTeam = Teams[teamID]
-	if pPlayer:GetBuildingClassCount(iBuildingHeliosClass) > 0 then
-		for pCity in pPlayer:Cities() do
-			if pCity:GetNumRealBuilding(iBuildingSolarPlant) > 0 then
-				local pCityX = pCity:GetX()
-				local pCityY = pCity:GetY()
-				local plot = Map.GetPlot(pCityX, pCityY)
-				for loopPlot in PlotAreaSweepIterator(plot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-					for iVal = 0,(loopPlot:GetNumUnits() - 1) do
-						local loopUnit = loopPlot:GetUnit(iVal)
-						if loopUnit:GetOwner() ~= iPlayer then
-							local loopUnitOwner = loopUnit:GetOwner()
-							local otherPlayer = Players[loopUnitOwner]
-							local otherTeamID = otherPlayer:GetTeam()
-							if pPlayerTeam:IsAtWar(otherTeamID) then
-								loopUnit:ChangeDamage(20)
-							end
-						end
-					end
-				end
-			end
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(HeliosDamage)
-
-function SkynetRobots(iPlayer)
-	local pPlayer = Players[iPlayer]
-	if pPlayer:IsAlive() then
-		for pUnit in pPlayer:Units() do
-			if (pUnit:GetUnitType() == GameInfoTypes["UNIT_FW_ROBOT_INFANTRY"]) and (pPlayer:GetBuildingClassCount(iBuildingSkynetClass) == 0) then
-				for iCheckID, pOtherPlayer in pairs(Players) do
-					if (pPlayer ~= pOtherPlayer) and (pOtherPlayer:GetBuildingClassCount(iBuildingSkynetClass) > 0) then
-						local iDMG = loopUnit:GetDamage()
-						local UnitType = loopUnit:GetUnitType()
-						local iX = pUnit:GetX()
-						local iY = pUnit:GetY()
-						pUnit:Kill()
-						local nUnit = pOtherPlayer:InitUnit(UnitType, iX, iY)
-						nUnit:SetDamage(iDMG)
-					end
-				end
-			end
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(SkynetRobots)
+GameEvents.PlayerDoTurn.Add(FutureTurnBonuses)
 
 function CoreHealing(iPlayer)
-	local pPlayer = Players[iPlayer]
-	if pPlayer:IsAlive() then
-		for pUnit in pPlayer:Units() do
+	local player = Players[iPlayer]
+	if not (player:GetCurrentEra() > 5) then return end
+	if player:IsAlive() then
+		for pUnit in player:Units() do
 			local pPlot = pUnit:GetPlot()
-			local iRadius = 1
 			local bCorePresent = false
-			for pAdjacentPlot in PlotAreaSpiralIterator(pPlot, iRadius, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
+			for pAdjacentPlot in PlotAreaSpiralIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
 				local iImprovement = pAdjacentPlot:GetImprovementType()
 				local iOwner = pAdjacentPlot:GetOwner()
-				if (iImprovement == iImprovementCore) and (iOwner == iPlayer) then
+				if (iImprovement == improvementCore) and (iOwner == iPlayer) then
 					bCorePresent = true
 				end			
 			end
@@ -661,29 +392,26 @@ end
 GameEvents.PlayerDoTurn.Add(CoreHealing)
 
 function NanohiveEffects(iPlayer)
-	local pPlayer = Players[iPlayer]
-	local teamID = pPlayer:GetTeam()
+	local player = Players[iPlayer]
+	if (not player:IsAlive()) then return end
+	if not (player:GetCurrentEra() > 5) then return end
+	local teamID = player:GetTeam()
 	local pPlayerTeam = Teams[teamID]
-	--print("Checking for Nanohives")
-	for pUnit in pPlayer:Units() do
-		if pUnit:IsHasPromotion(iNanohivePromotion) then
-			print("Nanohive found")
+	for pUnit in player:Units() do
+		if pUnit:IsHasPromotion(promotionNanohive) then
 			local pPlot = pUnit:GetPlot()
-			if (pPlot ~= nil) then
+			if pPlot then
 				for loopPlot in PlotAreaSweepIterator(pPlot, 2, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
 					for iVal = 0,(loopPlot:GetNumUnits() - 1) do
 						local loopUnit = loopPlot:GetUnit(iVal)
 						if loopUnit:GetOwner() == iPlayer then
 							if (loopUnit:GetDamage() > 0) then
-								print("Healing damaged unit")
 								loopUnit:ChangeDamage(-10)
 							end
 						else 
-							local loopUnitOwner = loopUnit:GetOwner()
-							local otherPlayer = Players[loopUnitOwner]
+							local otherPlayer = Players[loopUnit:GetOwner()]
 							local otherTeamID = otherPlayer:GetTeam()
 							if pPlayerTeam:IsAtWar(otherTeamID) then
-								print("Damaging enemy unit")
 								loopUnit:ChangeDamage(10)
 							end
 						end
@@ -696,25 +424,23 @@ end
 GameEvents.PlayerDoTurn.Add(NanohiveEffects)
 
 function CrawlerEffects(iPlayer)
-	local pPlayer = Players[iPlayer]
-	for pUnit in pPlayer:Units() do
-		if (pUnit:GetUnitType() == GameInfoTypes["UNIT_FW_CRAWLER"]) then
-			--print("Crawler found")
+	local player = Players[iPlayer]
+	if not (player:GetCurrentEra() > 5) then return end
+	for pUnit in player:Units() do
+		if pUnit:GetUnitType() == unitCrawler then
 			local iCheckForMissileProduction = JFD_GetRandom(1, 100)
 			if (iCheckForMissileProduction < iChanceMissileProduction) then
 				local pPlot = pUnit:GetPlot()
-				if (pPlot ~= nil) then
+				if pPlot then
 					local iNumMissiles = 0
 					for iVal = 0,(pPlot:GetNumUnits() - 1) do
 						local loopUnit = pPlot:GetUnit(iVal)
-						if (loopUnit:GetUnitType() == GameInfoTypes["UNIT_FW_HYPERMISSILE"]) then
-							--print("Missile found")
+						if loopUnit:GetUnitType() == unitHyperMissile then
 							iNumMissiles = iNumMissiles + 1
 						end
 					end
-					--print("Total missiles: " .. iNumMissiles)
-					if (iNumMissiles < 3) then
-						local pNewUnit = pPlayer:InitUnit(iHypermissile, pPlot:GetX(), pPlot:GetY())
+					if iNumMissiles < 3 then
+						local pNewUnit = player:InitUnit(unitHyperMissile, pPlot:GetX(), pPlot:GetY())
 					end
 				end
 			end
@@ -724,42 +450,34 @@ end
 GameEvents.PlayerDoTurn.Add(CrawlerEffects)
 
 function HydraEffects(iPlayer)
-	local pPlayer = Players[iPlayer]
-	local teamID = pPlayer:GetTeam()
+	local player = Players[iPlayer]
+	if not (player:GetCurrentEra() > 5) then return end
+	local teamID = player:GetTeam()
 	local pPlayerTeam = Teams[teamID]
-	for pUnit in pPlayer:Units() do
-		if (pUnit:GetUnitType() == GameInfoTypes["UNIT_FW_HYDRA"]) then
-			--print("Hydra found")
+	for pUnit in player:Units() do
+		if pUnit:GetUnitType() == unitHydra then
 			local pPlot = pUnit:GetPlot()
 			local bEnemyPresent = false
-			local iRadius = 2
-			--print("Entering loop")
-			for pAdjacentPlot in PlotAreaSpiralIterator(pPlot, iRadius, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
-				--print("Checking for enemy units")
-				if pAdjacentPlot and not (pAdjacentPlot:IsWater()) then
+			for pAdjacentPlot in PlotAreaSpiralIterator(pPlot, 2, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
+				if pAdjacentPlot and not pAdjacentPlot:IsWater() then
 					for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
-						--print("Unit found")
 						local loopUnit = pAdjacentPlot:GetUnit(iVal)
-						if loopUnit:GetOwner() ~= iPlayer then
-							--print("Isn't player")
-							local loopUnitOwner = loopUnit:GetOwner()
-							local otherPlayer = Players[loopUnitOwner]
-							local otherTeamID = otherPlayer:GetTeam()
+						if not loopUnit:GetOwner() == iPlayer then
+							local otherTeamID = Players[loopUnit:GetOwner()]:GetTeam()
 							if pPlayerTeam:IsAtWar(otherTeamID) then
-								--print("Enemy unit found")
 								bEnemyPresent = true
 							end
 						end
 					end
 				end
 			end
-			if bEnemyPresent and not (pPlot:IsWater()) then
-				local tPlots ={}
+			if bEnemyPresent and not pPlot:IsWater() then
+				local tPlots = {}
 				local pPlot = pUnit:GetPlot()
-				if (pPlot ~= nil) then
+				if pPlot then
 					for loopPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
 						if (loopPlot ~= nil) then
-							if loopPlot:GetNumUnits() < 1 and not (loopPlot:IsWater()) and not (loopPlot:IsMountain()) and not (loopPlot:IsCity()) then
+							if loopPlot:GetNumUnits() < 1 and not loopPlot:IsWater() and not loopPlot:IsMountain() and not loopPlot:IsCity() then
 								table.insert(tPlots, loopPlot)
 							end
 						end
@@ -767,38 +485,22 @@ function HydraEffects(iPlayer)
 					if #tPlots > 0 then
 						local randomNumber = JFD_GetRandom(1, #tPlots)
 						local tPlot = tPlots[randomNumber]
-						local pNewUnit1 = pPlayer:InitUnit(iSwarm, tPlot:GetX(), tPlot:GetY())
+						player:InitUnit(unitSwarm, tPlot:GetX(), tPlot:GetY())
 						table.remove(tPlots, randomNumber)
 						if #tPlots > 0 then
 							local randomNumber2 = JFD_GetRandom(1, #tPlots)
 							local tPlot2 = tPlots[randomNumber2]
-							local pNewUnit2 = pPlayer:InitUnit(iSwarm, tPlot2:GetX(), tPlot2:GetY())
-						else	
-							for pAdjacentPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-								for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
-									local loopUnit = pAdjacentPlot:GetUnit(iVal)
-									if loopUnit:GetOwner() ~= iPlayer then
-										local loopUnitOwner = loopUnit:GetOwner()
-										local otherPlayer = Players[loopUnitOwner]
-										local otherTeamID = otherPlayer:GetTeam()
-										if pPlayerTeam:IsAtWar(otherTeamID) then
-											loopUnit:ChangeDamage(10)
-										end
-									end
-								end
-							end
+							player:InitUnit(unitSwarm, tPlot2:GetX(), tPlot2:GetY())
+							return
 						end
-					else
-						for pAdjacentPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-							for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
-								local loopUnit = pAdjacentPlot:GetUnit(iVal)
-								if loopUnit:GetOwner() ~= iPlayer then
-									local loopUnitOwner = loopUnit:GetOwner()
-									local otherPlayer = Players[loopUnitOwner]
-									local otherTeamID = otherPlayer:GetTeam()
-									if pPlayerTeam:IsAtWar(otherTeamID) then
-										loopUnit:ChangeDamage(10)
-									end
+					end
+					for pAdjacentPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
+						for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
+							local loopUnit = pAdjacentPlot:GetUnit(iVal)
+							if loopUnit:GetOwner() ~= iPlayer then
+								local otherTeamID = Players[loopUnit:GetOwner()]:GetTeam()
+								if pPlayerTeam:IsAtWar(otherTeamID) then
+									loopUnit:ChangeDamage(10)
 								end
 							end
 						end
@@ -812,20 +514,18 @@ GameEvents.PlayerDoTurn.Add(HydraEffects)
 
 function SwarmEffects()
 	local iPlayer = Game.GetActivePlayer()
-	local pPlayer = Players[iPlayer]
-	local teamID = pPlayer:GetTeam()
+	local player = Players[iPlayer]
+	if not (player:GetCurrentEra() > 5) then return end
+	local teamID = player:GetTeam()
 	local pPlayerTeam = Teams[teamID]
-	for pUnit in pPlayer:Units() do
-		if (pUnit:GetUnitType() == GameInfoTypes["UNIT_FW_SWARM"]) then
-			--print("Swarm found")
+	for pUnit in player:Units() do
+		if pUnit:GetUnitType() == unitSwarm then
 			local pPlot = pUnit:GetPlot()	
 			for pAdjacentPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
 				for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
 					local loopUnit = pAdjacentPlot:GetUnit(iVal)
 					if loopUnit:GetOwner() ~= iPlayer then
-						local loopUnitOwner = loopUnit:GetOwner()
-						local otherPlayer = Players[loopUnitOwner]
-						local otherTeamID = otherPlayer:GetTeam()
+						local otherTeamID = Players[loopUnit:GetOwner()]:GetTeam()
 						if pPlayerTeam:IsAtWar(otherTeamID) then
 							loopUnit:ChangeDamage(10)
 						end
@@ -839,51 +539,49 @@ end
 Events.ActivePlayerTurnEnd.Add(SwarmEffects)
 
 function BioModEffects(iPlayer)
-	local pPlayer = Players[iPlayer]
-	for pUnit in pPlayer:Units() do
-		if (pUnit:IsHasPromotion(iBoostModEffect1Promotion)) then
-			pUnit:SetHasPromotion(iBoostModEffect1Promotion, false)
+	local player = Players[iPlayer]
+	if not player:IsAlive() then return end
+	if not (player:GetCurrentEra() > 5) then return end
+	for pUnit in player:Units() do
+		if pUnit:IsHasPromotion(promotionBoostMod_1) then
+			pUnit:SetHasPromotion(promotionBoostMod_1, false)
 		end
-		if (pUnit:IsHasPromotion(iBoostModEffect2Promotion)) then
-			pUnit:SetHasPromotion(iBoostModEffect2Promotion, false)
-			pUnit:SetHasPromotion(iBoostModEffect1Promotion, true)
+		if pUnit:IsHasPromotion(promotionBoostMod_2) then
+			pUnit:SetHasPromotion(promotionBoostMod_2, false)
+			pUnit:SetHasPromotion(promotionBoostMod_1, true)
 		end
-		if (pUnit:IsHasPromotion(iBoostModEffect3Promotion)) then
-			pUnit:SetHasPromotion(iBoostModEffect3Promotion, false)
-			pUnit:SetHasPromotion(iBoostModEffect2Promotion, true)
+		if pUnit:IsHasPromotion(promotionBoostMod_3) then
+			pUnit:SetHasPromotion(promotionBoostMod_3, false)
+			pUnit:SetHasPromotion(promotionBoostMod_2, true)
 		end
-		if (pUnit:IsHasPromotion(iBoostModPromotion)) then
+		if pUnit:IsHasPromotion(promotionBoostMod) then
 			if (pUnit:GetDamage() > 50) then
-				pUnit:SetHasPromotion(iBoostModEffect1Promotion, false)
-				pUnit:SetHasPromotion(iBoostModEffect2Promotion, false)
-				pUnit:SetHasPromotion(iBoostModEffect3Promotion, true)
-				pUnit:SetHasPromotion(iBoostModPromotion, false)
-				pUnit:SetHasPromotion(iBoostModEmptyPromotion, true)
+				pUnit:SetHasPromotion(promotionBoostMod_1, false)
+				pUnit:SetHasPromotion(promotionBoostMod_2, false)
+				pUnit:SetHasPromotion(promotionBoostMod_3, true)
+				pUnit:SetHasPromotion(promotionBoostMod, false)
+				pUnit:SetHasPromotion(promotionBoostModEmpty, true)
 			end
 		end
-		if (pUnit:IsHasPromotion(iStimModPromotion)) then
+		if pUnit:IsHasPromotion(promotionStimMod) then
 			if (pUnit:GetDamage() > 50) then
 				pUnit:ChangeDamage(-25)
-				pUnit:SetHasPromotion(iStimModPromotion, false)
-				pUnit:SetHasPromotion(iStimModEmptyPromotion, true)
+				pUnit:SetHasPromotion(promotionStimMod, false)
+				pUnit:SetHasPromotion(promotionStimModEmpty, true)
 			end
 		end
-		if (pUnit:IsHasPromotion(iStimModEmptyPromotion) or pUnit:IsHasPromotion(iBoostModEmptyPromotion)) then
-			local iX = pUnit:GetX()
-			local iY = pUnit:GetY()
-			for pCity in pPlayer:Cities() do
-				local iCityX = pCity:GetX()
-				local iCityY = pCity:GetY()
-				if (iX == iCityX and iY == iCityY) then
-					if pCity:IsHasBuilding(iBioModTank) then
-						if pUnit:IsHasPromotion(iStimModEmptyPromotion) then
-							pUnit:SetHasPromotion(iStimModEmptyPromotion, false)
-							pUnit:SetHasPromotion(iStimModPromotion, true)
-						end
-						if pUnit:IsHasPromotion(iBoostModEmptyPromotion) then
-							pUnit:SetHasPromotion(iBoostModEmptyPromotion, false)
-							pUnit:SetHasPromotion(iBoostModPromotion, true)
-						end
+		if (pUnit:IsHasPromotion(promotionStimModEmpty) or pUnit:IsHasPromotion(promotionBoostModEmpty)) then
+			local pPlot = pUnit:GetPlot()
+			if pPlot:IsCity() then
+				local pCity = pPlot:GetWorkingCity()
+				if pCity:IsHasBuilding(iBioModTank) then
+					if pUnit:IsHasPromotion(promotionStimModEmpty) then
+						pUnit:SetHasPromotion(promotionStimModEmpty, false)
+						pUnit:SetHasPromotion(promotionStimMod, true)
+					end
+					if pUnit:IsHasPromotion(promotionBoostModEmpty) then
+						pUnit:SetHasPromotion(promotionBoostModEmpty, false)
+						pUnit:SetHasPromotion(promotionBoostMod, true)
 					end
 				end
 			end
@@ -893,67 +591,53 @@ end
 GameEvents.PlayerDoTurn.Add(BioModEffects)
 
 function BioModReload(iPlayer, iUnit, ePromotion)
-	local pPlayer = Players[iPlayer]
-	local pUnit = pPlayer:GetUnitByID(iUnit)
-	if pUnit:IsHasPromotion(iStimModPromotion) then
-		pUnit:SetHasPromotion(iStimModEmptyPromotion, false)
+	local player = Players[iPlayer]
+	if not (player:GetCurrentEra() > 5) then return end
+	local pUnit = player:GetUnitByID(iUnit)
+	if pUnit:IsHasPromotion(promotionStimMod) then
+		pUnit:SetHasPromotion(promotionStimModEmpty, false)
 	end
-	if pUnit:IsHasPromotion(iBoostModPromotion) then
-		pUnit:SetHasPromotion(iBoostModEmptyPromotion, false)
+	if pUnit:IsHasPromotion(promotionBoostMod) then
+		pUnit:SetHasPromotion(promotionBoostModEmpty, false)
 	end
 end
 GameEvents.UnitPromoted.Add(BioModReload)
 
 function FWUnitDestroyed(iPlayer, iUnit, iUnitType, iX, iY, bDelay, iByPlayer)
-
-	local pPlayer = Players[iPlayer]
-	local teamID = pPlayer:GetTeam()
+	local player = Players[iPlayer]
+	if not player:IsAlive() then return end
+	if not (player:GetCurrentEra() > 5) then return end
+	local teamID = player:GetTeam()
 	local pPlayerTeam = Teams[teamID]
-	local pUnit = pPlayer:GetUnitByID(iUnit)
+	local pUnit = player:GetUnitByID(iUnit)
 
-	--print("Unit destroyed")
-
-	--print("iPlayer = " .. iPlayer)
-	--print("iByPlayer = " .. iByPlayer)
-	
 	-- Must have been killed by another Player
 	if iPlayer == iByPlayer then return end
 	if iByPlayer == -1 then return end
 	
 	-- Must have the Mutation Promotion
-	bMutant = pUnit:IsHasPromotion(iMutationPromotion)
-	bToxin = pUnit:IsHasPromotion(iToxinModPromotion)
+	bMutant = pUnit:IsHasPromotion(promotionMutation)
+	bToxin = pUnit:IsHasPromotion(promotionToxinMod)
 	if not(bMutant or bToxin) then return end
-	print("Has Mutation or Toxin")
 
 	local pPlot = pUnit:GetPlot()	
 	for pAdjacentPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-		print("Checking plot")
 		for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
-			print("Checking unit")
 			local loopUnit = pAdjacentPlot:GetUnit(iVal)
 			if loopUnit:GetOwner() ~= iPlayer then
-				print("Not same owner")
-				local loopUnitOwner = loopUnit:GetOwner()
-				local otherPlayer = Players[loopUnitOwner]
-				local otherTeamID = otherPlayer:GetTeam()
+				local otherTeamID = Players[loopUnit:GetOwner()]:GetTeam()
 				if pPlayerTeam:IsAtWar(otherTeamID) then
-					if (bToxin) then
+					if bToxin then
 						loopUnit:ChangeDamage(10)
 					end
-					if (bMutant) then
-						print("Mutation found")
+					if bMutant then
 						local randomNumber = JFD_GetRandom(1, 100)
 						local loopDMG = loopUnit:GetDamage()
-						print("DMG is " .. loopDMG .. ", random number is " .. randomNumber)
 						if (loopDMG > 50) and (randomNumber < loopDMG) and not (pAdjacentPlot:IsCity()) then
-							print("Target affected")
 							local loopType = loopUnit:GetUnitType()
 							loopUnit:Kill()
-							print("Target killed")
 							local nUnit = Players[63]:InitUnit(loopType, pAdjacentPlot:GetX(), pAdjacentPlot:GetY())
 							nUnit:SetDamage(loopDMG)
-							print("Barbarian spawned")
 						end
 					end
 				end
@@ -963,240 +647,678 @@ function FWUnitDestroyed(iPlayer, iUnit, iUnitType, iX, iY, bDelay, iByPlayer)
 end
 GameEvents.UnitPrekill.Add(FWUnitDestroyed)
 
-function WonderPoliciesCheck(playerID)
+--==========================================================================================================================
+-- WONDERS
+--==========================================================================================================================
+-- Utility Functions
+----------------------------------------------------------------------------------------------------------------------------
+
+function WonderPolicyUtility(playerID, buildingClass, policy, policyDummy)
 	local player = Players[playerID]
-	if player:IsAlive() and (player:GetBuildingClassCount(iBuildingGeneVaultClass) > 0) and not player:HasPolicy(GameInfoTypes["POLICY_GENE_VAULT"]) then
-		if not (player:HasPolicy(GameInfoTypes["POLICY_GENE_VAULT_DUMMY"])) then
+	if not player:IsAlive() then return end
+	
+	if player:GetBuildingClassCount(buildingClass) > 0 and not player:HasPolicy(policy) then
+		if not player:HasPolicy(policyDummy) then
 			player:SetNumFreePolicies(1)
 			player:SetNumFreePolicies(0)
 		else
-			player:SetHasPolicy(GameInfoTypes["POLICY_GENE_VAULT_DUMMY"], false)
+			player:SetHasPolicy(policyDummy, false)
 		end	
-		player:SetHasPolicy(GameInfoTypes["POLICY_GENE_VAULT"], true)	
+		player:SetHasPolicy(policy, true)	
 	end
-	if player:IsAlive() and (player:GetBuildingClassCount(iBuildingGeneVaultClass) == 0) and player:HasPolicy(GameInfoTypes["POLICY_GENE_VAULT"]) then
-		player:SetHasPolicy(GameInfoTypes["POLICY_GENE_VAULT"], false)
-		player:SetHasPolicy(GameInfoTypes["POLICY_GENE_VAULT_DUMMY"], true)	
-	end
-
-	if player:IsAlive() and (player:GetBuildingClassCount(iBuildingBionicTowerClass) > 0) and not player:HasPolicy(GameInfoTypes["POLICY_BIONIC_TOWER"]) then
-		if not (player:HasPolicy(GameInfoTypes["POLICY_BIONIC_TOWER_DUMMY"])) then
-			player:SetNumFreePolicies(1)
-			player:SetNumFreePolicies(0)
-		else
-			player:SetHasPolicy(GameInfoTypes["POLICY_BIONIC_TOWER_DUMMY"], false)
-		end	
-		player:SetHasPolicy(GameInfoTypes["POLICY_BIONIC_TOWER"], true)	
-	end
-	if player:IsAlive() and (player:GetBuildingClassCount(iBuildingBionicTowerClass) == 0) and player:HasPolicy(GameInfoTypes["POLICY_BIONIC_TOWER"]) then
-		player:SetHasPolicy(GameInfoTypes["POLICY_BIONIC_TOWER"], false)
-		player:SetHasPolicy(GameInfoTypes["POLICY_BIONIC_TOWER_DUMMY"], true)	
-	end
-
-	if player:IsAlive() and (player:GetBuildingClassCount(iBuildingHeliosClass) > 0) and not player:HasPolicy(GameInfoTypes["POLICY_HELIOS"]) then
-		if not (player:HasPolicy(GameInfoTypes["POLICY_HELIOS_DUMMY"])) then
-			player:SetNumFreePolicies(1)
-			player:SetNumFreePolicies(0)
-		else
-			player:SetHasPolicy(GameInfoTypes["POLICY_HELIOS_DUMMY"], false)
-		end	
-		player:SetHasPolicy(GameInfoTypes["POLICY_HELIOS"], true)	
-	end
-	if player:IsAlive() and (player:GetBuildingClassCount(iBuildingHeliosClass) == 0) and player:HasPolicy(GameInfoTypes["POLICY_HELIOS"]) then
-		player:SetHasPolicy(GameInfoTypes["POLICY_HELIOS"], false)
-		player:SetHasPolicy(GameInfoTypes["POLICY_HELIOS_DUMMY"], true)	
-	end
-
-	if player:IsAlive() and (player:GetBuildingClassCount(iBuildingBoreholeClass) > 0) and not player:HasPolicy(GameInfoTypes["POLICY_BOREHOLE"]) then
-		if not (player:HasPolicy(GameInfoTypes["POLICY_BOREHOLE_DUMMY"])) then
-			player:SetNumFreePolicies(1)
-			player:SetNumFreePolicies(0)
-		else
-			player:SetHasPolicy(GameInfoTypes["POLICY_BOREHOLE_DUMMY"], false)
-		end	
-		player:SetHasPolicy(GameInfoTypes["POLICY_BOREHOLE"], true)	
-	end
-	if player:IsAlive() and (player:GetBuildingClassCount(iBuildingBoreholeClass) == 0) and player:HasPolicy(GameInfoTypes["POLICY_BOREHOLE"]) then
-		player:SetHasPolicy(GameInfoTypes["POLICY_BOREHOLE"], false)
-		player:SetHasPolicy(GameInfoTypes["POLICY_BOREHOLE_DUMMY"], true)	
+	if not player:IsHasBuilding(buildingClass) and player:HasPolicy(policy) then
+		player:SetHasPolicy(policy, false)
+		player:SetHasPolicy(policyDummy, true)	
 	end
 end
-GameEvents.PlayerDoTurn.Add(WonderPoliciesCheck)
 
-function ConstructionCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
-	if buildingType == GameInfoTypes["BUILDING_FW_GENE_VAULT"] then
-		local pPlayer = Players[ownerId]
-		pPlayer:SetNumFreePolicies(1)
-		pPlayer:SetNumFreePolicies(0)
-		pPlayer:SetHasPolicy(GameInfoTypes["POLICY_GENE_VAULT"], true)
-	end
-	if buildingType == GameInfoTypes["BUILDING_FW_BIONICTOWER"] then
-		local pPlayer = Players[ownerId]
-		pPlayer:SetNumFreePolicies(1)
-		pPlayer:SetNumFreePolicies(0)
-		pPlayer:SetHasPolicy(GameInfoTypes["POLICY_BIONIC_TOWER"], true)
-	end
-	if buildingType == GameInfoTypes["BUILDING_FW_HELIOS"] then
-		local pPlayer = Players[ownerId]
-		pPlayer:SetNumFreePolicies(1)
-		pPlayer:SetNumFreePolicies(0)
-		pPlayer:SetHasPolicy(GameInfoTypes["POLICY_HELIOS"], true)
-	end
-	if buildingType == GameInfoTypes["BUILDING_FW_BOREHOLE"] then
-		local pPlayer = Players[ownerId]
-		pPlayer:SetNumFreePolicies(1)
-		pPlayer:SetNumFreePolicies(0)
-		pPlayer:SetHasPolicy(GameInfoTypes["POLICY_BOREHOLE"], true)
-	end
-end
-GameEvents.CityConstructed.Add(ConstructionCompleted)
-
-function MnemosyneBonus(iPlayer, iCity, iUnitID, bGold, bFaithOrCulture)
-	local pPlayer = Players[iPlayer]
-	local pUnit = pPlayer:GetUnitByID(iUnitID)
-	local pCity = pPlayer:GetCityByID(iCity)
-	if pCity:IsHasBuilding(iBuildingMnemosyne) then
-		local iHighestUnitLevel = pPlayer:GetHighestUnitLevel()
-		local iNewXP = iHighestUnitLevel * 10
-		if iNewXP > 60 then
-			iNewXP = 60
-		end
+----------------------------------------------------------------------------------------------------------------------------
+-- City Trained Events
+----------------------------------------------------------------------------------------------------------------------------
+function MnemosyneCityTrained(iPlayer, iCity, iUnitID)
+	local player = Players[iPlayer]
+	local pUnit = player:GetUnitByID(iUnitID)
+	local pCity = player:GetCityByID(iCity)
+	if pCity:IsHasBuilding(wonderMnesmosyne) then
 		if pUnit:IsCombatUnit() then
+			local iHighestUnitLevel = player:GetHighestUnitLevel()
+			local iNewXP = math.min(60, iHighestUnitLevel * 10)
 			pUnit:ChangeExperience(iNewXP)
 		end
 	end
 end
-GameEvents.CityTrained.Add(MnemosyneBonus)
+
+----------------------------------------------------------------------------------------------------------------------------
+-- City Captured Events 
+----------------------------------------------------------------------------------------------------------------------------
+function GeneVaultCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
+	if pCity:IsHasBuilding(wonderGeneVault) then
+		WonderPolicyUtility(iOldOwner, wonderClassGeneVault, poGeneVault, poGeneVaultDummy)
+		WonderPolicyUtility(iNewOwner, wonderClassGeneVault, poGeneVault, poGeneVaultDummy)
+	end
+end
+
+function BionicTowerCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
+	if pCity:IsHasBuilding(wonderBionicTower) then
+		WonderPolicyUtility(iOldOwner, wonderClassBionicTower, poBionicTower, poBionicTowerDummy)
+		WonderPolicyUtility(iNewOwner, wonderClassBionicTower, poBionicTower, poBionicTowerDummy)
+	end
+end
+
+function HeliosCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
+	if pCity:IsHasBuilding(wonderHelios) then
+		WonderPolicyUtility(iOldOwner, wonderClassHelios, poHelios, poHeliosDummy)
+		WonderPolicyUtility(iNewOwner, wonderClassHelios, poHelios, poHeliosDummy)
+	end
+end
+
+function BoreholeCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
+	if pCity:IsHasBuilding(wonderBorehole) then
+		WonderPolicyUtility(iOldOwner, wonderClassBorehole, poBorehole, poBoreholeDummy)
+		-- don't do the new owner because this is a national wonder
+	end
+end
+
+function NephilimCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
+	if pCity:IsHasBuilding(wonderNephilim) then
+		local oldOwner = Players[iOldOwner]
+		for city in oldOwner:Cities() do
+			city:SetNumRealBuilding(wonderNephilimDummy, 0)
+		end
+		local newOwner = Players[iNewOwner]
+		for city in newOwner:Cities() do
+			city:SetNumRealBuilding(wonderNephilimDummy, 1)
+		end
+	end
+end
+
+function AngelnetCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
+	if pCity:IsHasBuilding(wonderAngelnet) then
+		local oldOwner = Players[iOldOwner]
+		for city in oldOwner:Cities() do
+			city:SetNumRealBuilding(wonderAngelnetDummy, 0)
+		end
+		local newOwner = Players[iNewOwner]
+		for city in newOwner:Cities() do
+			if city:IsHasBuilding(buildingUtilityFog) then
+				city:SetNumRealBuilding(wonderAngelnetDummy, 1)
+			else
+				city:SetNumRealBuilding(wonderAngelnetDummy, 0)
+			end
+		end
+	end
+end
+
+function DataHavenCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
+	if pCity:IsHasBuilding(wonderDataHaven) then
+		local oldOwner = Players[iOldOwner]
+		for city in oldOwner:Cities() do
+			city:SetNumRealBuilding(wonderDataHavenDummy_3, 0)
+		end
+		local newOwner = Players[iNewOwner]
+		for city in newOwner:Cities() do
+			if city:IsHasBuilding(wonderDataHaven) then
+				local iNumServers = player:GetBuildingClassCount(buildingClassServerHub)
+				city:SetNumRealBuilding(wonderDataHavenDummy_3, iNumServers)
+			else
+				city:SetNumRealBuilding(wonderDataHavenDummy_3, 0)
+			end
+		end
+	end
+end
+
+function ShimizuCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
+	if pCity:IsHasBuilding(wonderShimizu) then
+		local iBuildingMaintenance = pCity:GetTotalBaseBuildingMaintenance()
+		pCity:SetNumRealBuilding(wonderShimizuDummy, iBuildingMaintenance)
+	end
+end
+
+function SkynetCityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop, bConquest)
+	local pCity = Map.GetPlot(iX, iY):GetPlotCity()
+	if pCity:IsHasBuilding(wonderSkynet) then
+		local oldOwner = Players[iOldOwner]
+		local newOwner = Players[iNewOwner]
+		for pUnit in oldOwner:Units() do
+			if pUnit:GetUnitType() == unitRobotInfantry then
+				local iDMG = pUnit:GetDamage()
+				local iX = pUnit:GetX()
+				local iY = pUnit:GetY()
+				pUnit:Kill()
+				local nUnit = newOwner:InitUnit(unitRobotInfantry, iX, iY)
+				nUnit:SetDamage(iDMG)
+			end
+		end
+	end
+end
+----------------------------------------------------------------------------------------------------------------------------
+-- Player Do Turn Events
+----------------------------------------------------------------------------------------------------------------------------
+function JurassicParkDoTurn(iPlayer)
+	local player = Players[iPlayer]
+	if (player:GetBuildingClassCount(wonderClassJurassicPark) > 0) then
+		local iCheckForDinos = JFD_GetRandom(1, 100)
+		if (iCheckForDinos < iChanceDinos) then
+			local tPlots = {}
+			for pCity in player:Cities() do
+				if pCity:IsHasBuilding(buildingMenagerie) then
+					local pCentralPlot = pCity:Plot()
+					for pPlot in PlotAreaSpiralIterator(pCentralPlot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
+						local iTerrain = pPlot:GetTerrainType()
+						local iOwner = pPlot:GetOwner()
+						if (((iTerrain == terrainPlains) or (iTerrain == terrainGrasslands)) and (iOwner == iPlayer) and (pPlot:GetNumUnits() == 0) and not (pPlot:IsMountain())) then
+							table.insert(tPlots, pPlot)
+						end
+					end
+				end
+			end
+			if #tPlots > 0 then
+				local randomNumber = JFD_GetRandom(1, #tPlots)
+				local tPlot = tPlots[randomNumber]
+				local iDinoNumber = JFD_GetRandom(1, 6)
+				
+				local iDinoType = unitTRex
+				if (iDinoNumber > 3) then 
+					iDinoType = unitRaptor
+				else
+					if (iDinoNumber > 1) then
+						iDinoType = unitTriceratops
+					end
+				end
+				local teamID = player:GetTeam()
+				local pTeam = Teams[teamID]
+				if not (pTeam:IsHasTech(techGengineering)) then
+					local nUnit = Players[63]:InitUnit(iDinoType, tPlot:GetX(), tPlot:GetY())
+				end
+			end
+		end
+	end
+end
+
+function PholusMutagenDoTurn(iPlayer)
+	local player = Players[iPlayer]
+	if player:GetBuildingClassCount(wonderClassPholusMutagen) > 0 then
+		for pCity in player:Cities() do
+			local iNumDomes = 0
+			for i = 0, pCity:GetNumCityPlots() - 1, 1 do
+				local pPlot = pCity:GetCityIndexPlot( i )
+				if pPlot then
+					if pPlot:GetOwner() == pCity:GetOwner() then
+						local iImprovement = pPlot:GetImprovementType()
+						local iTerrain = pPlot:GetTerrainType()
+						if ((iImprovement == improvementFarm) or (iImprovement == improvementPlantation) or (iImprovement == improvementPreserve) or (iImprovement == -1)) and (((iTerrain == terrainPlains) or (iTerrain == terrainGrasslands)) and not (pPlot:IsMountain()) and not (pPlot:IsCity())) then
+							local iCheckForFungus = JFD_GetRandom(1, 100)
+							local iAdjacentFungusBonus = 0
+
+							for loopPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
+								if loopPlot:GetImprovementType() == improvementFungus then
+									iAdjacentFungusBonus = iAdjacentFungusBonus + iAdjacentFungusModifier
+								end
+							end
+
+							if iAdjacentFungusBonus > 3 then iAdjacentFungusBonus = 3 end
+							iChanceForFungus = iChanceForFungus + iAdjacentFungusBonus
+
+							if (iCheckForFungus < iChanceForFungus) then
+								pPlot:SetImprovementType(improvementFungus)
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+function HeliosDoTurn(iPlayer)
+	local player = Players[iPlayer]
+	if player:GetBuildingClassCount(wonderClassHelios) > 0 then
+		local teamID = player:GetTeam()
+		local pPlayerTeam = Teams[teamID]
+		for pCity in player:Cities() do
+			if pCity:GetNumRealBuilding(buildingSolarPlant) > 0 then
+				local plot = Map.GetPlot(pCity:GetX(), pCity:GetY())
+				for loopPlot in PlotAreaSweepIterator(plot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
+					for iVal = 0, (loopPlot:GetNumUnits() - 1) do
+						local loopUnit = loopPlot:GetUnit(iVal)
+						if loopUnit:GetOwner() ~= iPlayer then
+							local otherTeamID = Players[loopUnit:GetOwner()]:GetTeam()
+							if pPlayerTeam:IsAtWar(otherTeamID) then
+								loopUnit:ChangeDamage(20)
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+function DataHavenDoTurn(playerID)
+	local player = Players[playerID]
+	if not player:IsAlive() then return end
+	
+	for city in player:Cities() do
+		if city:IsHasBuilding(wonderDataHaven) then
+			local iNumServers = player:GetBuildingClassCount(buildingClassServerHub)
+			city:SetNumRealBuilding(wonderDataHavenDummy_3, iNumServers)
+		else
+			city:SetNumRealBuilding(wonderDataHavenDummy_3, 0)
+		end
+	end
+end
+
+function BuenosAiresForumDoTurn(playerID)
+	local player = Players[playerID]
+	if not player:IsAlive() then return end
+	if player:GetBuildingClassCount(wonderClassBuenosAiresForum) == 0 then return end
+	
+	for city in player:Cities() do
+		if city:IsHasBuilding(wonderBuenosAiresForum) then
+			player:ChangeGoldenAgeProgressMeter(city:GetPopulation())
+		end
+	end
+end
+
+function ShimizuDoTurn(playerID)
+	local player = Players[playerID]
+	if not player:IsAlive() then return end
+	if player:GetBuildingClassCount(wonderClassShimizu) == 0 then return end
+	
+	for city in player:Cities() do
+		if city:IsHasBuilding(wonderShimizu) then
+			local iBuildingMaintenance = city:GetTotalBaseBuildingMaintenance()
+			city:SetNumRealBuilding(wonderShimizuDummy, iBuildingMaintenance)
+		end
+	end
+end
+
+----------------------------------------------------------------------------------------------------------------------------
+-- Construction Completion Events
+----------------------------------------------------------------------------------------------------------------------------
+function GeneVaultCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderGeneVault then
+		WonderPolicyUtility(ownerId, wonderClassGeneVault, poGeneVault, poGeneVaultDummy)
+		GameEvents.CityCaptureComplete.Add(GeneVaultCityCaptured)
+	end
+end
+
+function BionicTowerCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderBionicTower then
+		WonderPolicyUtility(ownerId, wonderClassBionicTower, poBionicTower, poBionicTowerDummy)
+		GameEvents.CityCaptureComplete.Add(BionicTowerCityCaptured)
+	end
+end
+
+function HeliosCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderHelios then
+		WonderPolicyUtility(ownerId, wonderClassHelios, poHelios, poHeliosDummy)
+		GameEvents.CityCaptureComplete.Add(HeliosCityCaptured)
+		GameEvents.PlayerDoTurn.Add(HeliosDoTurn)
+	end
+end
+
+function BoreholeCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderBorehole then
+		WonderPolicyUtility(ownerId, wonderClassBorehole, poBorehole, poBoreholeDummy)
+		GameEvents.CityCaptureComplete.Add(BoreholeCityCaptured)
+	end
+end
+GameEvents.CityConstructed.Add(BoreholeCompleted) -- national wonder, so need for special world checking
+
+function MnemosyneCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderMnesmosyne then
+		GameEvents.CityTrained.Add(MnemosyneCityTrained)
+	end
+end
+
+function JurassicParkCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderJurassicPark then
+		GameEvents.PlayerDoTurn.Add(JurassicParkDoTurn)
+	end
+end
+
+function PholusMutagenCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderPholusMutagen then
+		GameEvents.PlayerDoTurn.Add(PholusMutagenDoTurn)
+	end
+end
+
+function NephilimCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderNephilim then
+		local owner = Players[ownerId]
+		for city in owner:Cities() do
+			city:SetNumRealBuilding(wonderNephilimDummy, 1)
+		end
+		GameEvents.CityCaptureComplete.Add(NephilimCityCaptured)
+	end
+end
+
+function AngelnetCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderAngelnet then
+		local owner = Players[ownerId]
+		for city in owner:Cities() do
+			if city:IsHasBuilding(buildingUtilityFog) then
+				city:SetNumRealBuilding(wonderAngelnetDummy, 1)
+			end
+		end
+		GameEvents.CityCaptureComplete.Add(AngelnetCityCaptured)
+	elseif buildingType == buildingUtilityFog then
+		local owner = Players[ownerId]
+		if owner:GetBuildingClassCount(wonderClassAngelnet) == 0 then return end
+		local city = player:GetCityByID(cityId)
+		city:SetNumRealBuilding(wonderAngelnetDummy, 1)
+	end
+end
+
+function DataHavenCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderDataHaven then
+		local owner = Players[ownerId]
+		for city in owner:Cities() do
+			if city:IsHasBuilding(wonderDataHaven) then
+				local iNumServers = player:GetBuildingClassCount(buildingClassServerHub)
+				city:SetNumRealBuilding(wonderDataHavenDummy_3, iNumServers)
+			else
+				city:SetNumRealBuilding(wonderDataHavenDummy_3, 0)
+			end
+		end
+		GameEvents.CityCaptureComplete.Add(DataHavenCityCaptured)
+		GameEvents.PlayerDoTurn.Add(DataHavenDoTurn)
+	end
+end
+
+function BuenosAiresForumCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderBuenosAiresForum then
+		local player = Players[ownerId]
+		local city = player:GetCityByID(cityId)
+		player:ChangeGoldenAgeProgressMeter(city:GetPopulation())
+		GameEvents.PlayerDoTurn.Add(BuenosAiresForumDoTurn)
+	end
+end
+
+function ShimizuCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderDataHaven then
+		local owner = Players[ownerId]
+		for city in owner:Cities() do
+			if city:IsHasBuilding(wonderDataHaven) then
+				local iNumServers = player:GetBuildingClassCount(buildingClassServerHub)
+				city:SetNumRealBuilding(wonderDataHavenDummy_3, iNumServers)
+			else
+				city:SetNumRealBuilding(wonderDataHavenDummy_3, 0)
+			end
+		end
+		GameEvents.CityCaptureComplete.Add(ShimizuCityCaptured)
+		GameEvents.PlayerDoTurn.Add(ShimizuDoTurn)
+	end
+end
+
+function SkynetCompleted(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
+	if buildingType == wonderSkynet then
+		GameEvents.CityCaptureComplete.Add(SkynetCityCaptured)
+	end
+end
+
+----------------------------------------------------------------------------------------------------------------------------
+-- Smart Event Hooks
+----------------------------------------------------------------------------------------------------------------------------
+for iPlayer = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
+	local player = Players[iPlayer]
+	if player:IsAlive() then
+		if not bGeneVaultCompleted then
+			if player:GetBuildingClassCount(wonderClassGeneVault) > 0 then
+				GameEvents.CityCaptureComplete.Add(GeneVaultCityCaptured)
+				bGeneVaultCompleted = true
+			end
+		end
+		if not bBionicTowerCompleted then
+			if player:GetBuildingClassCount(wonderClassBionicTower) > 0 then
+				GameEvents.CityCaptureComplete.Add(BionicTowerCityCaptured)
+				bBionicTowerCompleted = true
+			end
+		end
+		if not bHeliosCompleted then
+			if player:GetBuildingClassCount(wonderClassHelios) > 0 then
+				GameEvents.CityCaptureComplete.Add(HeliosCityCaptured)
+				GameEvents.PlayerDoTurn.Add(HeliosDoTurn)
+				bHeliosCompleted = true
+			end
+		end
+		if not bMnemosyneCompleted then
+			if player:GetBuildingClassCount(wonderClassMnemosyne) > 0 then
+				GameEvents.CityTrained.Add(MnemosyneCityTrained)
+				bMnemosyneCompleted = true
+			end
+		end
+		if not bJurassicParkCompleted then
+			if player:GetBuildingClassCount(wonderClassJurassicPark) > 0 then
+				GameEvents.PlayerDoTurn.Add(JurassicParkDoTurn)
+				bJurassicParkCompleted = true
+			end
+		end
+		if not bPholusMutagenCompleted then
+			if player:GetBuildingClassCount(wonderClassPholusMutagen) > 0 then
+				GameEvents.PlayerDoTurn.Add(PholusMutagenDoTurn)
+				bPholusMutagenCompleted = true
+			end
+		end
+		if not bNephilimCompleted then
+			if player:GetBuildingClassCount(wonderClassNephilim) > 0 then
+				GameEvents.CityCaptureComplete.Add(NephilimCityCaptured)
+				bNephilimCompleted = true
+			end
+		end
+		if not bAngelnetCompleted then
+			if player:GetBuildingClassCount(wonderClassAngelnet) > 0 then
+				GameEvents.CityCaptureComplete.Add(AngelnetCityCaptured)
+				bAngelnetCompleted = true
+			end
+		end
+		if not bDataHavenCompleted then
+			if player:GetBuildingClassCount(wonderClassDataHaven) > 0 then
+				GameEvents.CityCaptureComplete.Add(DataHavenCityCaptured)
+				GameEvents.PlayerDoTurn.Add(DataHavenDoTurn)
+				bDataHavenCompleted = true
+			end
+		end
+		if not bBuenosAiresForumCompleted then
+			if player:GetBuildingClassCount(wonderClassBuenosAiresForum) > 0 then
+				GameEvents.PlayerDoTurn.Add(BuenosAiresForumDoTurn)
+				bBuenosAiresForumCompleted = true
+			end
+		end
+		if not bShimizuCompleted then
+			if player:GetBuildingClassCount(wonderClassShimizu) > 0 then
+				GameEvents.PlayerDoTurn.Add(ShimizuDoTurn)
+				bShimizuCompleted = true
+			end
+		end
+		if not bSkynetCompleted then
+			if player:GetBuildingClassCount(wonderClassSkynet) > 0 then
+				GameEvents.CityCaptureComplete.Add(SkynetCityCapture)
+				bSkynetCompleted = true
+			end
+		end
+	end
+end
+
+if not bGeneVaultCompleted then
+	GameEvents.CityConstructed.Add(GeneVaultCompleted)
+end
+if not bBionicTowerCompleted then
+	GameEvents.CityConstructed.Add(BionicTowerCompleted)
+end
+if not bHeliosCompleted then
+	GameEvents.CityConstructed.Add(HeliosCompleted)
+end
+if not bMnemosyneCompleted then
+	GameEvents.CityConstructed.Add(MnemosyneCompleted)
+end
+if not bJurassicParkCompleted then
+	GameEvents.CityConstructed.Add(JurassicParkCompleted)
+end
+if not bPholusMutagenCompleted then
+	GameEvents.CityConstructed.Add(PholusMutagenCompleted)
+end
+if not bNephilimCompleted then
+	GameEvents.CityConstructed.Add(NephilimCompleted)
+end
+if not bAngelnetCompleted then
+	GameEvents.CityConstructed.Add(AngelnetCompleted)
+end
+if not bDataHavenCompleted then
+	GameEvents.CityConstructed.Add(DataHavenCompleted)
+end
+if not bBuenosAiresForumCompleted then
+	GameEvents.CityConstructed.Add(BuenosAiresForumCompleted)
+end
+if not bShimizuCompleted then
+	GameEvents.CityConstructed.Add(ShimizuCompleted)
+end
+if not bSkynetCompleted then
+	GameEvents.CityConstructed.Add(SkynetCompleted)
+end
+
+--==========================================================================================================================
+-- MISC
+--==========================================================================================================================
+-- Requirements and Restrictions
+----------------------------------------------------------------------------------------------------------------------------
 
 function FWUnitUpgradeRestrictions(iPlayer, iUnit)
-	local pPlayer = Players[iPlayer]
-	local pUnit = pPlayer:GetUnitByID(iUnit)
-	if (pUnit:GetUnitType() == iAutomaton) then
-		if (pPlayer:GetBuildingClassCount(iBuildingSkynetClass) < 1) then
-			return false;
+	local player = Players[iPlayer]
+	if (not player:IsAlive()) then return end
+	local pUnit = player:GetUnitByID(iUnit)
+	if pUnit:GetUnitType() == unitAutomaton then
+		if player:GetBuildingClassCount(wonderClassSkynet) < 1 then
+			return false
 		end
 	end
-
-  return true;
+	return true
 end
-GameEvents.CanHaveAnyUpgrade.Add(FWUnitUpgradeRestrictions);
-
+GameEvents.CanHaveAnyUpgrade.Add(FWUnitUpgradeRestrictions)
 
 function FWUnitRestrictions(iPlayer, iCity, iUnit)
-	local pPlayer = Players[iPlayer]
-	if (iUnit == iRobotInfantry) then
-		if (pPlayer:GetBuildingClassCount(iBuildingSkynetClass) < 1) then
-			return false;
+	local player = Players[iPlayer]
+	if (not player:IsAlive()) then return end
+	if iUnit == unitRobotInfantry then
+		if player:GetBuildingClassCount(wonderClassSkynet) < 1 then
+			return false
 		end
-	end
-	if (iUnit == iTRex) or (iUnit == iTriceratops) or (iUnit == iRaptor) then
-		if (pPlayer:GetBuildingClassCount(iBuildingJurassicParkClass) > 0) then
-			local pTeam = pPlayer:GetTeam();
-			if (pTeam:IsHasTech(iPrereq2)) then
-				return true;
-			else
-				return false;
-			end
-		else
-			return false;
+	elseif (iUnit == unitTRex) or (iUnit == unitTriceratops) or (iUnit == unitRaptor) then
+		if player:GetBuildingClassCount(wonderClassJurassicPark) > 0 then
+			local pTeam = player:GetTeam()
+			if pTeam:IsHasTech(techGengineering) then return true end
 		end
+		return false
 	end
 
-  return true;
+	return true
 end
-GameEvents.CityCanTrain.Add(FWUnitRestrictions);
+GameEvents.CityCanTrain.Add(FWUnitRestrictions)
+
+local bSpaceStation = GameInfoTypes["BUILDING_FW_SPACE_STATION"]
 
 function SpaceStationRequirement(playerID, buildingType)
-  local player = Players[playerID];
+  local player = Players[playerID]
+  if (not player:IsAlive()) then return end
 
-  if(buildingType ~= GameInfoTypes["BUILDING_FW_SPACE_STATION"]) then
-    return true;
-  end
-
-  if(player:GetBuildingClassCount(iBuildingLaunchFacilityClass) > 0) then
-    return true;
-  end
-
-  return false;
+  if not buildingType == bSpaceStation then return true end
+  if player:GetBuildingClassCount(wonderClassLaunchFacility) > 0 then return true end
+  
+  return false
 end
-GameEvents.PlayerCanConstruct.Add(SpaceStationRequirement);
+GameEvents.PlayerCanConstruct.Add(SpaceStationRequirement)
 
 function AffinityRestrictedBuildings(iPlayer, iCity, iBuilding)
-  local pPlayer = Players[iPlayer];
-  local pCity = pPlayer:GetCityByID(iCity);
+  local player = Players[iPlayer]
+  local pCity = player:GetCityByID(iCity)
 
-	if (iBuilding == iBuildingGeneLab) or (iBuilding == iBuildingCloneLab) or (iBuilding == iBuildingTGNursery) then
-		if pCity:IsHasBuilding(iBuildingVerticalFarm) or pCity:IsHasBuilding(iBuildingMycoproteinVats) or pCity:IsHasBuilding(iBuildingOrbitalHabitat) then
-			return false;
-		end
-	  end
-
-	if (iBuilding == iBuildingBiofactory) or (iBuilding == iBuildingEctogenesisPod) or (iBuilding == iBuildingGeneJackFacility) then
-		if pCity:IsHasBuilding(iBuildingAutoplant) or pCity:IsHasBuilding(iBuildingDroneHive) or pCity:IsHasBuilding(iBuildingUtilityFog) then
-			return false;
+	if (iBuilding == buildingGeneLab) or (iBuilding == buildingCloneLab) or (iBuilding == buildingTGNursery) then
+		if pCity:IsHasBuilding(buildingVerticalFarm) or pCity:IsHasBuilding(buildingMycoproteinVats) or pCity:IsHasBuilding(buildingOrbitalHabitat) then
+			return false
 		end
 	end
 
-    if (iBuilding == iBuildingAutoplant) or (iBuilding == iBuildingDroneHive) or (iBuilding == iBuildingUtilityFog) then
-		if pCity:IsHasBuilding(iBuildingBiofactory) or pCity:IsHasBuilding(iBuildingEctogenesisPod) or pCity:IsHasBuilding(iBuildingGeneJackFacility) then
-			return false;
+	if (iBuilding == buildingBiofactory) or (iBuilding == buildingEctogenesisPod) or (iBuilding == buildingGeneJackFacility) then
+		if pCity:IsHasBuilding(buildingAutoplant) or pCity:IsHasBuilding(buildingDroneHive) or pCity:IsHasBuilding(buildingUtilityFog) then
+			return false
 		end
 	end
 
-    if (iBuilding == iBuildingNetworkBackbone) or (iBuilding == iBuildingTelepresenceHub) or (iBuilding == iBuildingSimulationServer) then
-		if pCity:IsHasBuilding(iBuildingFeedsiteHub) or pCity:IsHasBuilding(iBuildingDistributionHub) or pCity:IsHasBuilding(iBuildingMetroplexHub) then
-			return false;
+    if (iBuilding == buildingAutoplant) or (iBuilding == buildingDroneHive) or (iBuilding == buildingUtilityFog) then
+		if pCity:IsHasBuilding(buildingBiofactory) or pCity:IsHasBuilding(buildingEctogenesisPod) or pCity:IsHasBuilding(buildingGeneJackFacility) then
+			return false
 		end
 	end
 
-    if (iBuilding == iBuildingFeedsiteHub) or (iBuilding == iBuildingDistributionHub) or (iBuilding == iBuildingMetroplexHub) then
-		if pCity:IsHasBuilding(iBuildingNetworkBackbone) or pCity:IsHasBuilding(iBuildingTelepresenceHub) or pCity:IsHasBuilding(iBuildingSimulationServer) then
-			return false;
+    if (iBuilding == buildingNetworkBackbone) or (iBuilding == buildingTelepresenceHub) or (iBuilding == buildingSimulationServer) then
+		if pCity:IsHasBuilding(buildingFeedsiteHub) or pCity:IsHasBuilding(buildingDistributionHub) or pCity:IsHasBuilding(buildingMetroplexHub) then
+			return false
 		end
 	end
 
-    if (iBuilding == iBuildingVerticalFarm) or (iBuilding == iBuildingMycoproteinVats) or (iBuilding == iBuildingOrbitalHabitat) then
-		if pCity:IsHasBuilding(iBuildingGeneLab) or pCity:IsHasBuilding(iBuildingCloneLab) or pCity:IsHasBuilding(iBuildingTGNursery) then
-			return false;
+    if (iBuilding == buildingFeedsiteHub) or (iBuilding == buildingDistributionHub) or (iBuilding == buildingMetroplexHub) then
+		if pCity:IsHasBuilding(buildingNetworkBackbone) or pCity:IsHasBuilding(buildingTelepresenceHub) or pCity:IsHasBuilding(buildingSimulationServer) then
+			return false
 		end
 	end
 
-  return true;
+    if (iBuilding == buildingVerticalFarm) or (iBuilding == buildingMycoproteinVats) or (iBuilding == buildingOrbitalHabitat) then
+		if pCity:IsHasBuilding(buildingGeneLab) or pCity:IsHasBuilding(buildingCloneLab) or pCity:IsHasBuilding(buildingTGNursery) then
+			return false
+		end
+	end
+
+  return true
 end
-GameEvents.CityCanConstruct.Add(AffinityRestrictedBuildings);
+GameEvents.CityCanConstruct.Add(AffinityRestrictedBuildings)
+
+----------------------------------------------------------------------------------------------------------------------------
+-- Removing Extra Promotions for Nexus, Automaton and Robot Infantry
+----------------------------------------------------------------------------------------------------------------------------
+
+local uNexus = GameInfoTypes.UNIT_FW_NEXUS
 
 function RemoveUnwantedPromotions(iPlayer, iUnit)
-    local pPlayer = Players[iPlayer];
-	if pPlayer:GetUnitByID(iUnit) ~= nil then
-		pUnit = pPlayer:GetUnitByID(iUnit);
+    local player = Players[iPlayer]
+	if player:GetUnitByID(iUnit) then
+		local pUnit = player:GetUnitByID(iUnit)
 		local iUnitType = pUnit:GetUnitType()
-		if (iUnitType == GameInfoTypes.UNIT_FW_NEXUS) then
-			pUnit:SetHasPromotion(iEmbarkationPromotion1, false)
-			pUnit:SetHasPromotion(iEmbarkationPromotion2, false)
-			pUnit:SetHasPromotion(iEmbarkationPromotion3, false)
-		end
-		if (iUnitType == GameInfoTypes.UNIT_FW_AUTOMATON) or (iUnitType == GameInfoTypes.UNIT_FW_ROBOT_INFANTRY) then
-			pUnit:SetHasPromotion(iGengineeredPromotion, false)
-			pUnit:SetHasPromotion(iBiomodsPromotion, false)
+		if (iUnitType == uNexus) then
+			pUnit:SetHasPromotion(promotionEmbarkation_1, false)
+			pUnit:SetHasPromotion(promotionEmbarkation_2, false)
+			pUnit:SetHasPromotion(promotionEmbarkation_3, false)
+		elseif ((iUnitType == unitAutomaton) or (iUnitType == unitRobotInfantry)) then
+			pUnit:SetHasPromotion(promotionGengineered, false)
+			pUnit:SetHasPromotion(promotionBiomods, false)
 		end
     end
 end
 Events.SerialEventUnitCreated.Add(RemoveUnwantedPromotions)
 
 function RemoveUnwantedPromotions2(iPlayer, iUnit, iX, iY)
-	if Map.GetPlot(iX,iY) ~= nil then
-		local pPlayer = Players[iPlayer];
-		local pUnit = pPlayer:GetUnitByID(iUnit);
+	if Map.GetPlot(iX,iY) then
+		local player = Players[iPlayer]
+		local pUnit = player:GetUnitByID(iUnit)
 		local iUnitType = pUnit:GetUnitType()
-		if (iUnitType == GameInfoTypes.UNIT_FW_NEXUS) then
-			pUnit:SetHasPromotion(iEmbarkationPromotion1, false)
-			pUnit:SetHasPromotion(iEmbarkationPromotion2, false)
-			pUnit:SetHasPromotion(iEmbarkationPromotion3, false)
-		end
-		if (iUnitType == GameInfoTypes.UNIT_FW_AUTOMATON) or (iUnitType == GameInfoTypes.UNIT_FW_ROBOT_INFANTRY) then
-			pUnit:SetHasPromotion(iGengineeredPromotion, false)
-			pUnit:SetHasPromotion(iBiomodsPromotion, false)
+		if iUnitType == uNexus then
+			pUnit:SetHasPromotion(promotionEmbarkation_1, false)
+			pUnit:SetHasPromotion(promotionEmbarkation_2, false)
+			pUnit:SetHasPromotion(promotionEmbarkation_3, false)
+		elseif ((iUnitType == unitAutomaton) or (iUnitType == unitRobotInfantry)) then
+			pUnit:SetHasPromotion(promotionGengineered, false)
+			pUnit:SetHasPromotion(promotionBiomods, false)
 		end
 	end
 end
 GameEvents.UnitSetXY.Add(RemoveUnwantedPromotions2)
+
+print("Future Worlds code loaded successfully")
