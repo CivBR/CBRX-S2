@@ -15,7 +15,7 @@ function Lime_NewUnitSupply(iPlayer)
   local numUnitsOver = player:GetNumMilitaryUnits() - iUnitSupply
 
   if numUnitsOver > 0 then
-	print("Grrr have less units, you have this many more than you should " .. tostring(numUnitsOver))
+	--print("Grrr have less units, you have this many more than you should " .. tostring(numUnitsOver))
     for city in player:Cities() do
       local landUnitProductionModifier = city:GetUnitProductionModifier(unitDomainLand)
       local seaUnitProductionModifier = city:GetUnitProductionModifier(unitDomainSea)

@@ -32,7 +32,7 @@ function unitSpawner(iTeam, iTech, iChange)
 				for i, UnitType in pairs(unitsIDTable) do
 					if i == iRand then
 						SpawnAtPlot(pPlayer, GameInfoTypes[UnitType.sUnitType], city:GetX(), city:GetY(), 0, 0, "NO_NAME", UnitType.Promotions)
-						print("Spawned a new unit: " .. GameInfoTypes[UnitType.sUnitType]:GetName() " at X:" .. city:GetX() .. ",Y:" .. city:GetY() .. " for player: " .. pPlayer:GetName())
+						--print("Spawned a new unit: " .. GameInfoTypes[UnitType.sUnitType]:GetName() " at X:" .. city:GetX() .. ",Y:" .. city:GetY() .. " for player: " .. pPlayer:GetName())
 					end
 				end				
 			end
