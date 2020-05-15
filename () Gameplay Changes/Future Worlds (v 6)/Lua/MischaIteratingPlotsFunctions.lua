@@ -148,7 +148,7 @@ end
 
 
 function PlotAreaSweepIterator(pPlot, r, sector, anticlock, inwards, centre)
-  print(string.format("PlotAreaSweepIterator((%i, %i), r=%i, s=%i, d=%s, w=%s, c=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd"), (inwards and "in" or "out"), (centre and "yes" or "no")))
+  --print(string.format("PlotAreaSweepIterator((%i, %i), r=%i, s=%i, d=%s, w=%s, c=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd"), (inwards and "in" or "out"), (centre and "yes" or "no")))
   -- This coroutine walks each radial in sequence
   local next = coroutine.create(function ()
     if (centre and not inwards) then
@@ -192,47 +192,3 @@ function PlotAreaSweepIterator(pPlot, r, sector, anticlock, inwards, centre)
     return success and pAreaPlot or nil
   end
 end
-
-
---
--- Test functions
---
-
-highlights = {
-  RED     = {x=1.0, y=0.0, z=0.0, w=1.0},
-  GREEN   = {x=0.0, y=1.0, z=0.0, w=1.0},
-  BLUE    = {x=0.0, y=0.0, z=1.0, w=1.0},
-  CYAN    = {x=0.0, y=1.0, z=1.0, w=1.0},
-  YELLOW  = {x=1.0, y=1.0, z=0.0, w=1.0},
-  MAGENTA = {x=1.0, y=0.0, z=1.0, w=1.0},
-  BLACK   = {x=0.5, y=0.5, z=0.5, w=1.0}
-}
-
-function TestPlotHighlight(pPlot, highlight)
-  print(pPlot:GetX(), pPlot:GetY())
-  if (highlight ~= nil) then
-    Events.SerialEventHexHighlight(ToHexFromGrid(Vector2(pPlot:GetX(), pPlot:GetY())), true, highlight)
-  end
-end
-
-function TestPlotRingIterator(pPlot, r, sector, anticlock, highlight)
-  for pEdgePlot in PlotRingIterator(pPlot, r, sector, anticlock) do
-    TestPlotHighlight(pEdgePlot, highlight)
-  end
-end
-
-function TestPlotAreaSpiralIterator(pPlot, r, sector, anticlock, inwards, centre, highlight)
-  for pAreaPlot in PlotAreaSpiralIterator(pPlot, r, sector, anticlock, inwards, centre) do
-    TestPlotHighlight(pAreaPlot, highlight)
-  end
-end
-
-function TestPlotAreaSweepIterator(pPlot, r, sector, anticlock, inwards, centre, highlight)
-  for pAreaPlot in PlotAreaSweepIterator(pPlot, r, sector, anticlock, inwards, centre) do
-    TestPlotHighlight(pAreaPlot, highlight)
-  end
-end
-
--- TestPlotRingIterator(Players[0]:GetCapitalCity():Plot(), 4, SECTOR_NORTH, DIRECTION_CLOCKWISE, highlights.RED)
--- TestPlotAreaSpiralIterator(Players[0]:GetCapitalCity():Plot(), 3, SECTOR_SOUTH, DIRECTION_ANTICLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE)
--- TestPlotAreaSweepIterator(Players[0]:GetCapitalCity():Plot(), 3, SECTOR_SOUTH, DIRECTION_ANTICLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE)
