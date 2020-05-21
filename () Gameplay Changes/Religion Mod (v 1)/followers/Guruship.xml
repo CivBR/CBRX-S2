@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
 <GameData>
 
-	<!-- +1 Production from Great Person tile improvements -->
 	<Beliefs>
 		<Update>
 			<Set Follower="true" Founder="false" />
@@ -13,63 +11,33 @@
 	<Belief_YieldChangeAnySpecialist>
 		<Delete BeliefType="BELIEF_GURUSHIP" />
 	</Belief_YieldChangeAnySpecialist>
-	<Belief_ImprovementYieldChanges>
+	
+	<Belief_SpecialistYieldChanges>
 		<Row>
 			<BeliefType>BELIEF_GURUSHIP</BeliefType>
-			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<SpecialistType>SPECIALIST_ENGINEER</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_GURUSHIP</BeliefType>
-			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<SpecialistType>SPECIALIST_MERCHANT</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_GURUSHIP</BeliefType>
-			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<SpecialistType>SPECIALIST_SCIENTIST</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
 		</Row>
-		<Row>
-			<BeliefType>BELIEF_GURUSHIP</BeliefType>
-			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GURUSHIP</BeliefType>
-			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Belief_ImprovementYieldChanges>
+	</Belief_SpecialistYieldChanges>
 
-	<!-- localization -->
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_GURUSHIP" />
 		<Row Tag="TXT_KEY_BELIEF_GURUSHIP">
-			<Text>+1 [ICON_PRODUCTION] Production from Great Person tile improvements</Text>
+			<Text>+2 [ICON_PEACE] Faith from Scientist, Engineer, and Merchant Specialists.</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_GURUSHIP" />
-		<Row Tag="TXT_KEY_BELIEF_GURUSHIP">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_PRODUCTION] Production from Great Person tile improvements</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_GURUSHIP" />
-		<Row Tag="TXT_KEY_BELIEF_GURUSHIP">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_PRODUCTION] Production from Great Person tile improvements</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_GURUSHIP" />
-		<Row Tag="TXT_KEY_BELIEF_GURUSHIP">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_PRODUCTION] Production from Great Person tile improvements</Text>
-		</Row>
-	</Language_RU_RU>
 	
 </GameData>

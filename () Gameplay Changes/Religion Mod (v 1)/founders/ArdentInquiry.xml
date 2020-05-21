@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+	
+  	<Belief_YieldChangePerForeignCity>
+	 	 <Row>
+			<BeliefType>BELIEF_ARDENTINQUIRY</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		 </Row>
+		 <Row>
+			<BeliefType>BELIEF_ARDENTINQUIRY</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		 </Row>
+	</Belief_YieldChangePerForeignCity>
+  
+  	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_ARDENTINQUIRY">
+			<Text>1 [ICON_SCIENCE] Science and 1 [ICON_CULTURE] Culture for each foreign City following this Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ARDENTINQUIRY_SHORT">
+			<Text>Ardent Inquiry</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

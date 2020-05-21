@@ -1,77 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 8/20/2018 10:32:54 AM -->
 <GameData>
 
 	<Beliefs>
 		<Row>
-			<Type>BELIEF_OCEANS_BOUNTY</Type>
-			<Description>TXT_KEY_BELIEF_OCEANS_BOUNTY</Description>
-			<ShortDescription>TXT_KEY_BELIEF_OCEANS_BOUNTY_SHORT</ShortDescription>
+			<Type>BELIEF_OCEANSBOUNTY</Type>
+			<Description>TXT_KEY_BELIEF_OCEANSBOUNTY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_OCEANSBOUNTY_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
 		</Row>
 	</Beliefs>
 
-	<Belief_BuildingClassYieldChanges>
+		<Belief_TerrainYieldChanges>
 		<Row>
-			<BeliefType>BELIEF_OCEANS_BOUNTY</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>1</YieldChange>
+			<BeliefType>BELIEF_OCEANSBOUNTY</BeliefType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
 		</Row>
-		<Row>
-			<BeliefType>BELIEF_OCEANS_BOUNTY</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_OCEANS_BOUNTY</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-	</Belief_BuildingClassYieldChanges>
-	
+	</Belief_TerrainYieldChange>
+
 	<Language_en_US>
-		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY_SHORT">
-			<Text>Ocean's Bounty</Text>
+		<Row Tag="TXT_KEY_BELIEF_OCEANSBOUNTY">
+			<Text>+1 [ICON_PEACE] Faith from Coastal Tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OCEANSBOUNTY_SHORT">
+			<Text>Ocean‘s Bounty</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY_SHORT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Ocean's Bounty</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY_SHORT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Ocean's Bounty</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY_SHORT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Ocean's Bounty</Text>
-		</Row>
-	</Language_RU_RU>
-	
-	<Language_en_US>
-		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY">
-			<Text>+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_CULTURE] Culture from Lighthouses</Text>
-		</Row>
-	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_CULTURE] Culture from Lighthouses</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_CULTURE] Culture from Lighthouses</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_CULTURE] Culture from Lighthouses</Text>
-		</Row>
-	</Language_RU_RU>
-  
+    
 </GameData>

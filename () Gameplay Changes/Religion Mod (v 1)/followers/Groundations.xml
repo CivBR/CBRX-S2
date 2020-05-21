@@ -14,132 +14,6 @@
 		<Row>
 			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
 			<ResourceType>RESOURCE_WHALE</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_PEARLS</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_GOLD</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_SILVER</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_GEMS</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_IVORY</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_FUR</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_DYE</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_SPICES</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_SILK</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_SUGAR</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_COTTON</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_WINE</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_INCENSE</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_COCOA</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_SALT</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_CITRUS</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_GROUNDATIONS</BeliefType>
-			<ResourceType>RESOURCE_WHALE</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -267,7 +141,7 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_GROUNDATIONS">
-			<Text>+1 [ICON_FOOD] Food but -1 [ICON_GOLD] Gold from all Luxury Resources</Text>
+			<Text>+1 [ICON_FOOD] Food from all Luxury Resources</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_GROUNDATIONS_SHORT">
 			<Text>Groundations</Text>

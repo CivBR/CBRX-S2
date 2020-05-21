@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_WORKETHIC</Type>
+			<Description>TXT_KEY_BELIEF_WORKETHIC</Description>
+			<ShortDescription>TXT_KEY_BELIEF_WORKETHIC_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+	</Beliefs>
+	
+	<Belief_SpecialistYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_WORKETHIC</BeliefType>
+			<SpecialistType>SPECIALIST_ENGINEER</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_WORKETHIC</BeliefType>
+			<SpecialistType>SPECIALIST_MERCHANT</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_WORKETHIC</BeliefType>
+			<SpecialistType>SPECIALIST_SCIENTIST</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Belief_SpecialistYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_WORKETHIC">
+			<Text>+2 [ICON_FOOD] Food from Scientist, Engineer, and Merchant Specialists.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_BELIEF_WORKETHIC_SHORT">
+			<Text>Work Ethic</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

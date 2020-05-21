@@ -10,42 +10,17 @@
 		</Row>
 	</Beliefs>
 
-	<Belief_BuildingClassYieldChanges>
-		<Row>
-			<BeliefType>BELIEF_TREASURY_MANDATE</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_TREASURY_MANDATE</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+	  	<Belief_YieldChangePerForeignCity>
+	 	 <Row>
+			<BeliefType>BELIEF_ATREASURY_MANDATE</BeliefType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_TREASURY_MANDATE</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_TREASURY_MANDATE</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>1</YieldChange>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_TREASURY_MANDATE</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>5</YieldChange>
-		</Row>
-	</Belief_BuildingClassYieldChanges>
+			<Yield>2</Yield>
+		 </Row>
+	</Belief_YieldChangePerForeignCity>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_TREASURY_MANDATE">
-			<Text>+1 [ICON_PEACE] and +2 [ICON_GOLD] Gold from Markets and Banks. East India Trade Company provides an additional +5 [ICON_GOLD] Gold.</Text>
+			<Text>2 [ICON_GOLD] Gold for each foreign City following this Religion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_TREASURY_MANDATE_SHORT">
 			<Text>Treasury Mandate</Text>

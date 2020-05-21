@@ -72,24 +72,9 @@
 		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
 			<Text>+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_TOURISM] Tourism from Guilds</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART_SHORT">
+			<Text>Religious Artisans</Text>
+		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_ART" />
-		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_TOURISM] Tourism from Guilds</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_ART" />
-		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_TOURISM] Tourism from Guilds</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_ART" />
-		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_TOURISM] Tourism from Guilds</Text>
-		</Row>
-	</Language_RU_RU>
 
 </GameData>

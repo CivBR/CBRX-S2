@@ -41,8 +41,7 @@
 			<ConquestProb>66</ConquestProb>
 			<PortraitIndex>11</PortraitIndex>
 			<!-- Gameplay effects below -->
-			<ReligiousPressureModifier>50</ReligiousPressureModifier>
-			<ExtraMissionarySpreads>1</ExtraMissionarySpreads>
+			<ReligiousPressureModifier>30</ReligiousPressureModifier>
 		</Row>
 	</Buildings>
 	<Building_Flavors>
@@ -73,7 +72,7 @@
 	<!-- localization -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_STUPAS">
-			<Text>Use [ICON_PEACE] Faith to purchase Stupas (+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, +50% religious pressure emanating from this City, Missionaries born in this City can spread religion one extra time)</Text>
+			<Text>Use [ICON_PEACE] Faith to purchase Stupas (+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, +30% religious pressure emanating from this City)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_STUPAS_SHORT">
 			<Text>Stupas</Text>
@@ -82,7 +81,7 @@
 			<Text>Stupa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_HELP">
-			<Text>+50% religious pressure emanating from this City, Missionaries born in this City can spread religion one extra time</Text>
+			<Text>+30% religious pressure emanating from this City</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STUPA_TEXT">
 			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Chaitya)[ENDCOLOR][NEWLINE][NEWLINE]A chaitya, chaitya hall, chaitya-griha, or caitya refers to a shrine, sanctuary, temple or prayer hall in Indian religions. The term is most common in Buddhism, where it includes a stupa at one end. Strictly, the chaitya is actually the stupa itself, and the Indian buildings are chaitya halls, but this distinction is often not observed. Outside India, the term is used by Buddhists for local styles of small stupa-like monuments in Nepal, Cambodia, Indonesia and elsewhere. In the historical texts of Jainism and Hinduism, including those relating to architecture, chaitya refers to a temple, sanctuary or any sacred monument.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
@@ -91,65 +90,6 @@
 			<Text>Can only be built in cities following a religion with the Stupas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_STUPAS">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Stupas (+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, +50% religious pressure emanating from this City, Missionaries born in this City can spread religion one extra time)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_STUPAS_SHORT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Stupas</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STUPA">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Stupa</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STUPA_HELP">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+50% religious pressure emanating from this City, Missionaries born in this City can spread religion one extra time</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STUPA_TEXT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Chaitya)[ENDCOLOR][NEWLINE][NEWLINE]A chaitya, chaitya hall, chaitya-griha, or caitya refers to a shrine, sanctuary, temple or prayer hall in Indian religions. The term is most common in Buddhism, where it includes a stupa at one end. Strictly, the chaitya is actually the stupa itself, and the Indian buildings are chaitya halls, but this distinction is often not observed. Outside India, the term is used by Buddhists for local styles of small stupa-like monuments in Nepal, Cambodia, Indonesia and elsewhere. In the historical texts of Jainism and Hinduism, including those relating to architecture, chaitya refers to a temple, sanctuary or any sacred monument.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STUPA_STRATEGY">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Can only be built in cities following a religion with the Stupas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_STUPAS">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Stupas (+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, +50% religious pressure emanating from this City, Missionaries born in this City can spread religion one extra time)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_STUPAS_SHORT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Stupas</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STUPA">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Stupa</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STUPA_HELP">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+50% religious pressure emanating from this City, Missionaries born in this City can spread religion one extra time</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STUPA_TEXT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Chaitya)[ENDCOLOR][NEWLINE][NEWLINE]A chaitya, chaitya hall, chaitya-griha, or caitya refers to a shrine, sanctuary, temple or prayer hall in Indian religions. The term is most common in Buddhism, where it includes a stupa at one end. Strictly, the chaitya is actually the stupa itself, and the Indian buildings are chaitya halls, but this distinction is often not observed. Outside India, the term is used by Buddhists for local styles of small stupa-like monuments in Nepal, Cambodia, Indonesia and elsewhere. In the historical texts of Jainism and Hinduism, including those relating to architecture, chaitya refers to a temple, sanctuary or any sacred monument.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STUPA_STRATEGY">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Can only be built in cities following a religion with the Stupas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_STUPAS">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Stupas (+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, +50% religious pressure emanating from this City, Missionaries born in this City can spread religion one extra time)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_STUPAS_SHORT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Stupas</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STUPA">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Stupa</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STUPA_HELP">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+50% religious pressure emanating from this City, Missionaries born in this City can spread religion one extra time</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STUPA_TEXT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Chaitya)[ENDCOLOR][NEWLINE][NEWLINE]A chaitya, chaitya hall, chaitya-griha, or caitya refers to a shrine, sanctuary, temple or prayer hall in Indian religions. The term is most common in Buddhism, where it includes a stupa at one end. Strictly, the chaitya is actually the stupa itself, and the Indian buildings are chaitya halls, but this distinction is often not observed. Outside India, the term is used by Buddhists for local styles of small stupa-like monuments in Nepal, Cambodia, Indonesia and elsewhere. In the historical texts of Jainism and Hinduism, including those relating to architecture, chaitya refers to a temple, sanctuary or any sacred monument.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STUPA_STRATEGY">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Can only be built in cities following a religion with the Stupas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
-		</Row>
-	</Language_RU_RU>
+
 
 </GameData>

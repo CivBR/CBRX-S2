@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/29/2018 11:22:31 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_GLACIER_SPIRITS</Type>
+			<Description>TXT_KEY_BELIEF_GLACIER_SPIRITS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_GLACIER_SPIRITS_SHORT</ShortDescription>
+			<Founder>false</Founder>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+
+	<Belief_TerrainYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_GLACIER_SPIRITS</BeliefType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GLACIER_SPIRITS</BeliefType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_TerrainYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_GLACIER_SPIRITS">
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith from all Snow Tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GLACIER_SPIRITS_SHORT">
+			<Text>Glacier Spirits</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

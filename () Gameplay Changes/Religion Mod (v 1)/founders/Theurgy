@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+		<Beliefs>
+		<Row>
+			<Type>BELIEF_THEURGY</Type>
+			<Description>TXT_KEY_BELIEF_THEURGY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_THEURGY_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+
+	<Belief_YieldPerXFollowers>
+		<Row>
+			<BeliefType>BELIEF_THEURGY</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<PerXFollowers>10</PerXFollowers>
+		</Row>
+	</Belief_YieldPerXFollowers>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_THEURGY" />
+		<Row Tag="TXT_KEY_BELIEF_THEURGY">
+			<Text>+1 [ICON_SCIENCE] Science for every 10 followers of this Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_THEURGY_SHORT">
+			<Text>Theurgy</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

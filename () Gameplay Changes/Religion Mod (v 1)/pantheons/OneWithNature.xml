@@ -1,37 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
 <GameData>
-	
-	<Belief_YieldChangeNaturalWonder>
-		<Update>
-			<Set Yield="5" />
-			<Where BeliefType="BELIEF_ONE_WITH_NATURE" />
-		</Update>
-	</Belief_YieldChangeNaturalWonder>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_ONEWITHNATURE</Type>
+			<Description>TXT_KEY_BELIEF_ONEWITHNATURE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ONEWITHNATURE_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+  
+  <Belief_UnimprovedFeatureYieldChanges>
+		 <Row>
+			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		 </Row>
+     		 <Row>
+			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		 </Row>
+	  	 <Row>
+			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		 </Row>
+     		 <Row>
+			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		 </Row>
+	  	 <Row>
+			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		 </Row>
+     		 <Row>
+			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		 </Row>
+	  	 <Row>
+			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		 </Row>
+     		 <Row>
+			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		 </Row>
+	  	 <Row>
+			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		 </Row>
+     		 <Row>
+			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		 </Row>
+	</Belief_UnimprovedFeatureYieldChanges>
+  
 
 	<Language_en_US>
-		<Delete Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE" />
-		<Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
-			<Text>+5 [ICON_PEACE] Faith from Natural Wonders</Text>
+		<Row Tag="TXT_KEY_BELIEF_ONEWITHNATURE">
+			<Text>+4 [ICON_CULTURE] Culture and 4 [ICON_PEACE] Faith from unimproved features.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ONEWITHNATURE_SHORT">
+			<Text>One with Nature</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE" />
-		<Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+5 [ICON_PEACE] Faith from Natural Wonders</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE" />
-		<Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+5 [ICON_PEACE] Faith from Natural Wonders</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE" />
-		<Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+5 [ICON_PEACE] Faith from Natural Wonders</Text>
-		</Row>
-	</Language_RU_RU>
-
+    
 </GameData>

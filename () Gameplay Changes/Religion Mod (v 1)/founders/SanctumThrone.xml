@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_SANCTUMTHRONE</Type>
+			<Description>TXT_KEY_BELIEF_SANCTUMTHRONE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_SANCTUMTHRONE_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+	
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_SANCTUMTHRONE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Belief_MaxYieldModifierPerFollower>
+		<Update>
+			<Set Max="10" />
+			<Where BeliefType="BELIEF_SANCTUMTHRONE" YieldType="YIELD_CULTURE" />
+		</Update>
+	</Belief_MaxYieldModifierPerFollower>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_SANCTUMTHRONE">
+			<Text>+5 [ICON_CULTURE] Culture from the Palace. +1% [ICON_CULTURE] Culture for each follower (max +10%)</Text>
+		</Row>
+	<Row Tag="TXT_KEY_BELIEF_SANCTUMTHRONE_SHORT">
+			<Text>Sanctum Throne</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

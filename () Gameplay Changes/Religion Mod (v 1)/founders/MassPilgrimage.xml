@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/2/2018 10:44:47 PM -->
+<GameData>
+  
+  <Belief_YieldChangePerForeignCity>
+	  <Row>
+			<BeliefType>BELIEF_PILGRIMAGE</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		 </Row>
+	</Belief_YieldChangePerForeignCity>
+  
+  	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_PILGRIMAGE">
+			<Text>1 Faith for each foreign City following this Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_PILGRIMAGE">
+			<Text>Mass Pilgrimage</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

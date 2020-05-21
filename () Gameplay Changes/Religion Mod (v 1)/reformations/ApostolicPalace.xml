@@ -49,39 +49,22 @@
 			<YieldChange>5</YieldChange>
 		</Row>
 	</Belief_BuildingClassYieldChanges>
-
-	<!-- localization -->
+	
+	<Belief_BuildingClassTourism>
+		<Row>
+			<BeliefType>BELIEF_APOSTOLIC_PALACE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<Tourism>5</Tourism>
+		</Row>
+	</Belief_BuildingClassTourism>
+	
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_APOSTOLIC_PALACE">
-			<Text>Grand Temple provides +5 [ICON_FOOD] Food, +5 [ICON_PRODUCTION] Production, +5 [ICON_RESEARCH] Science, +5 [ICON_GOLD] Gold, +5 [ICON_CULTURE] Culture, and +5 [ICON_PEACE] Faith</Text>
+			<Text>Grand Temple provides +5 [ICON_FOOD] Food, +5 [ICON_PRODUCTION] Production, +5 [ICON_RESEARCH] Science, +5 [ICON_GOLD] Gold, +5 [ICON_CULTURE] Culture, +5 [ICON_PEACE] Faith, and +5 [ICON_TOURISM] Tourism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_APOSTOLIC_PALACE_SHORT">
 			<Text>Apostolic Palace</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_APOSTOLIC_PALACE">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Grand Temple provides +5 [ICON_FOOD] Food, +5 [ICON_PRODUCTION] Production, +5 [ICON_RESEARCH] Science, +5 [ICON_GOLD] Gold, +5 [ICON_CULTURE] Culture, and +5 [ICON_PEACE] Faith</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_APOSTOLIC_PALACE_SHORT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Apostolic Palace</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_APOSTOLIC_PALACE">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Grand Temple provides +5 [ICON_FOOD] Food, +5 [ICON_PRODUCTION] Production, +5 [ICON_RESEARCH] Science, +5 [ICON_GOLD] Gold, +5 [ICON_CULTURE] Culture, and +5 [ICON_PEACE] Faith</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_APOSTOLIC_PALACE_SHORT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Apostolic Palace</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_APOSTOLIC_PALACE">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Grand Temple provides +5 [ICON_FOOD] Food, +5 [ICON_PRODUCTION] Production, +5 [ICON_RESEARCH] Science, +5 [ICON_GOLD] Gold, +5 [ICON_CULTURE] Culture, and +5 [ICON_PEACE] Faith</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_APOSTOLIC_PALACE_SHORT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Apostolic Palace</Text>
-		</Row>
-	</Language_RU_RU>
 	
 </GameData>

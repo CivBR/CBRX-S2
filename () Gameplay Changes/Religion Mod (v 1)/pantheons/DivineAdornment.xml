@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<GameData>
+
+	<!-- +1 Faith and +1 Culture from Copper, Silver, Gold, and Gems. -->
+	<Belief_ResourceYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_FORMAL_LITURGY</BeliefType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FORMAL_LITURGY</BeliefType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FORMAL_LITURGY</BeliefType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FORMAL_LITURGY</BeliefType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_ResourceYieldChanges>
+	
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_FORMAL_LITURGY" />
+		<Row Tag="TXT_KEY_BELIEF_FORMAL_LITURGY">
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith from Copper, Gems, Gold, and Silver</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_BELIEF_FORMAL_LITURGY_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_FORMAL_LITURGY_SHORT">
+			<Text>Divine Adornment</Text>
+		</Row>
+		
+	</Language_en_US>
+</GameData>

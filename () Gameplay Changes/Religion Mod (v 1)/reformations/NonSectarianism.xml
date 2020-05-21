@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_NONSECTARIANISM</Type>
+			<Description>TXT_KEY_BELIEF_NONSECTARIANISM</Description>
+			<ShortDescription>TXT_KEY_BELIEF_NONSECTARIANISM_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+      			<FaithBuildingTourism>4</FaithBuildingTourism>
+		</Row>
+	</Beliefs>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_NONSECTARIANISM">
+			<Text>Great Person tile improvements provide additional +4 of the appropriate yield</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NONSECTARIANISM_SHORT">
+			<Text>Non-Sectarianism </Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

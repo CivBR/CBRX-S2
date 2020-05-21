@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/20/2018 10:32:54 AM -->
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_AQUATICUNDERWORLD</Type>
+			<Description>TXT_KEY_BELIEF_AQUATICUNDERWORLD</Description>
+			<ShortDescription>TXT_KEY_BELIEF_AQUATICUNDERWORLD_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_AQUATICUNDERWORLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_AQUATICUNDERWORLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_AQUATICUNDERWORLD</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_AQUATICUNDERWORLD_SHORT">
+			<Text>Aquatic Underworld</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

@@ -1,7 +1,9 @@
+local policyReformationID = GameInfo.Policies["POLICY_PIETY"].ID
+
 function Iska_WaW_HW_Reformation(playerID)
 	player = Players[playerID]
-	if GameInfo.Policies["POLICY_REFORMATION"].ID ~= nil then
-		if player:HasPolicy(GameInfo.Policies["POLICY_REFORMATION"].ID) and player:GetReligionCreatedByPlayer() < 1 then
+	if GameInfo.Policies["POLICY_PIETY"].ID ~= nil then
+		if player:HasPolicy(GameInfo.Policies["POLICY_PIETY"].ID) and player:GetReligionCreatedByPlayer() < 1 then
 			for city in player:Cities() do
 				if city:IsHolyCityAnyReligion() and city:IsHolyCityForReligion(player:GetCapitalCity():GetReligiousMajority()) then
 					if Iska_HW_Debug then print("Starting code Iska_WaW_HW_Reformation: religion: " ..  city:IsHolyCityForReligion(player:GetCapitalCity():GetReligiousMajority())) end

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/20/2018 8:19:04 AM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_CENTRALSYNOD</Type>
+			<Description>TXT_KEY_BELIEF_CENTRALSYNOD</Description>
+			<ShortDescription>TXT_KEY_BELIEF_CENTRALSYNOD_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+	
+	<Belief_HolyCityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_CENTRALSYNOD</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+	</Belief_HolyCityYieldChanges>
+
+	<Belief_MaxYieldModifierPerFollower>
+		<Update>
+			<Set Max="10" />
+			<Where BeliefType="BELIEF_CENTRALSYNOD" YieldType="YIELD_SCIENCE" />
+		</Update>
+	</Belief_MaxYieldModifierPerFollower>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_CENTRALSYNOD">
+			<Text>+5 Science from the Holy City. +1% [ICON_SCIENCE] Science for each follower (max +10%)</Text>
+		</Row>
+	<Row Tag="TXT_KEY_BELIEF_CENTRALSYNOD_SHORT">
+			<Text>Central Synod</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

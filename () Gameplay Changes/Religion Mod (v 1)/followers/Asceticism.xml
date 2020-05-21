@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_ASCETICISM</Type>
+			<Description>TXT_KEY_BELIEF_ASCETICISM</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ASCETICISM_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+	</Beliefs>
+	
+	<Belief_SpecialistYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_ASCETICISM</BeliefType>
+			<SpecialistType>SPECIALIST_ARTIST</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ASCETICISM</BeliefType>
+			<SpecialistType>SPECIALIST_WRITER</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ASCETICISM</BeliefType>
+			<SpecialistType>SPECIALIST_MUSICIAN</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Belief_SpecialistYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_ASCETICISM">
+			<Text>+2 [ICON_FOOD] Food from Artist, Writer, and Musician Specialists.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_BELIEF_ASCETICISM_SHORT">
+			<Text>Asceticism</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

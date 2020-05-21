@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_HEROWORSHIP</Type>
+			<Description>TXT_KEY_BELIEF_HEROWORSHIP</Description>
+			<ShortDescription>TXT_KEY_BELIEF_HEROWORSHIP_SHORT</ShortDescription>
+			<Founder>true</Founder>
+      			<GreatPersonExpendedFaith>20</GreatPersonExpendedFaith>
+      			<FaithPurchaseAllGreatPeople>true</FaithPurchaseAllGreatPeople>
+		</Row>
+	</Beliefs>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_HEROWORSHIP">
+			<Text>Gain 20 [ICON_PEACE] Faith each time a Great Person is expended, Purchase Great People with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_HEROWORSHIP_SHORT">
+			<Text>Hero Worship</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

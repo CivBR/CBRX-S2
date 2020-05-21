@@ -1,59 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<!-- Created by ModBuddy on 8/19/2018 6:46:44 PM -->
 <GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_THRIFT</Type>
+			<Description>TXT_KEY_BELIEF_THRIFT</Description>
+			<ShortDescription>TXT_KEY_BELIEF_THRIFT_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
 
-	<!-- +1 Faith and +1 Culture from Copper, Silver, Gold, and Gems. -->
-	<Belief_ResourceYieldChanges>
+	<Belief_BuildingClassYieldChanges>
 		<Row>
-			<BeliefType>BELIEF_FORMAL_LITURGY</BeliefType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<BeliefType>BELIEF_THRIFT</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
-			<BeliefType>BELIEF_FORMAL_LITURGY</BeliefType>
-			<ResourceType>RESOURCE_GEMS</ResourceType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_FORMAL_LITURGY</BeliefType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BeliefType>BELIEF_THRIFT</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<YieldChange>1</YieldChange>
 		</Row>
-		<Row>
-			<BeliefType>BELIEF_FORMAL_LITURGY</BeliefType>
-			<ResourceType>RESOURCE_GEMS</ResourceType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Belief_ResourceYieldChanges>
-	
-	<!-- localization -->
+	</Belief_BuildingClassYieldChanges>
+
 	<Language_en_US>
-		<Delete Tag="TXT_KEY_BELIEF_FORMAL_LITURGY" />
-		<Row Tag="TXT_KEY_BELIEF_FORMAL_LITURGY">
-			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith from Copper, Gems, Gold, and Silver</Text>
+		<Row Tag="TXT_KEY_BELIEF_THRIFT">
+			<Text>+1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture from Monuments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_THRIFT_SHORT">
+			<Text>Religious Idols</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_FORMAL_LITURGY" />
-		<Row Tag="TXT_KEY_BELIEF_FORMAL_LITURGY">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith from Copper, Gems, Gold, and Silver</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_FORMAL_LITURGY" />
-		<Row Tag="TXT_KEY_BELIEF_FORMAL_LITURGY">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith from Copper, Gems, Gold, and Silver</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_FORMAL_LITURGY" />
-		<Row Tag="TXT_KEY_BELIEF_FORMAL_LITURGY">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith from Copper, Gems, Gold, and Silver</Text>
-		</Row>
-	</Language_RU_RU>
-
+  
 </GameData>

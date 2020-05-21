@@ -20,14 +20,14 @@
 			<BeliefType>BELIEF_BLESSED_BE_THE_CHEESEMAKERS</BeliefType>
 			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 	</Belief_ImprovementYieldChanges>
 
 	<!-- localization -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_BLESSED_BE_THE_CHEESEMAKERS">
-			<Text>+1 [ICON_PRODUCTION] Production, and +2 [ICON_PEACE] Faith from Pastures.</Text>
+			<Text>+1 [ICON_PRODUCTION] Production and +1 [ICON_PEACE] Faith from Pastures.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_BLESSED_BE_THE_CHEESEMAKERS_SHORT">
 			<Text>Blessed Be The Cheesemakers</Text>

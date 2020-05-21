@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_DEVOUTCORVEE</Type>
+			<Description>TXT_KEY_BELIEF_DEVOUTCORVEE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_DEVOUTCORVEE_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+	
+	<Belief_HolyCityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_DEVOUTCORVEE</BeliefType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+	</Belief_HolyCityYieldChanges>
+
+	<Belief_MaxYieldModifierPerFollower>
+		<Update>
+			<Set Max="15" />
+			<Where BeliefType="BELIEF_DEVOUTCORVEE" YieldType="YIELD_PRODUCTION" />
+		</Update>
+	</Belief_MaxYieldModifierPerFollower>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_DEVOUTCORVEE">
+			<Text>+5 [ICON_PRODUCTION] Production from the Holy City. +1% [ICON_PRODUCTION] Production for each follower (max +15%)</Text>
+		</Row>
+	<Row Tag="TXT_KEY_BELIEF_DEVOUTCORVEE_SHORT">
+			<Text>Devout Corvee</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

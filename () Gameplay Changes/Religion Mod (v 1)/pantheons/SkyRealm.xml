@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_SKYREALM</Type>
+			<Description>TXT_KEY_BELIEF_SKYREALM</Description>
+			<ShortDescription>TXT_KEY_BELIEF_SKYREALM_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+
+		<Belief_TerrainYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_SKYREALM</BeliefType>
+			<TerrainType>TERRAIN_MOUNTAIN</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Belief_TerrainYieldChange>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_SKYREALM">
+			<Text>+2 [ICON_PEACE] Faith from Mountain Tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SKYREALM_SHORT">
+			<Text>Sky Realm</Text>
+		</Row>
+	</Language_en_US>
+    
+</GameData>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
 <GameData>
 
-	<!-- May use Faith to purchase Basilicas (+1 Faith, +2 Gold, 1 Merchant slot) -->
 	<Beliefs>
 		<Row>
 			<Type>BELIEF_BASILICAS</Type>
@@ -18,7 +16,6 @@
 		</Row>
 	</Belief_BuildingClassFaithPurchase>
 
-	<!-- Basilica building -->
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_BASILICA</Type>
@@ -35,10 +32,8 @@
 			<UnlockedByBelief>true</UnlockedByBelief>
 			<Description>TXT_KEY_BUILDING_BASILICA</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BASILICA_TEXT</Civilopedia>
-			<!--Help>TXT_KEY_BUILDING_BASILICA_HELP</Help> This is not needed because there's no extra effects to be explained in text. -->
 			<Strategy>TXT_KEY_BUILDING_BASILICA_STRATEGY</Strategy>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<GreatWorksTourismModifier>50<GreatWorksTourismModifier>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
@@ -50,26 +45,16 @@
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_BASILICA</BuildingType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>4</Flavor>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BASILICA</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BASILICA</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 	</Building_Flavors>
 	<Building_YieldChanges>
-		<Row>
-			<BuildingType>BUILDING_BASILICA</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_BASILICA</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -78,14 +63,13 @@
 		<Row>
 			<BuildingType>BUILDING_BASILICA</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
 
-	<!-- localization -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_BASILICAS">
-			<Text>Use [ICON_PEACE] Faith to purchase Basilicas (+1 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith, +2 [ICON_GOLD] Gold, 1 Merchant Specialist slot)</Text>
+			<Text>Use [ICON_PEACE] Faith to purchase Basilicas (+2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, +50% Tourism from Greak Works)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_BASILICAS_SHORT">
 			<Text>Basilicas</Text>
@@ -100,56 +84,5 @@
 			<Text>Can only be built in cities following a religion with the Basilicas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_BASILICAS">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Basilicas (+1 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith, +2 [ICON_GOLD] Gold, 1 Merchant Specialist slot)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_BASILICAS_SHORT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Basilicas</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BASILICA">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Basilica</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BASILICA_TEXT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Basilica)[ENDCOLOR][NEWLINE][NEWLINE]The Latin word basilica has three distinct applications in modern English. The word was originally used to describe an ancient Roman public building where courts were held, as well as serving other official and public functions. To a large extent these were the town halls of ancient Roman life. The basilica was centrally located in every Roman town, usually adjacent to the main forum. These buildings, an example of which is the Basilica Ulpia, were rectangular, and often had a central nave and aisles, usually with a slightly raised platform and an apse at each of the two ends, adorned with a statue perhaps of the emperor, while the entrances were from the long sides. By extension the name was applied to Christian churches which adopted the same basic plan and it continues to be used as an architectural term to describe such buildings, which form the majority of church buildings in Western Christianity, though the basilican building plan became less dominant in new buildings from the later 20th century. Later, the term came to refer specifically to a large and important Roman Catholic church that has been given special ceremonial rights by the Pope.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BASILICA_STRATEGY">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Can only be built in cities following a religion with the Basilicas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_BASILICAS">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Basilicas (+1 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith, +2 [ICON_GOLD] Gold, 1 Merchant Specialist slot)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_BASILICAS_SHORT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Basilicas</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BASILICA">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Basilica</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BASILICA_TEXT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Basilica)[ENDCOLOR][NEWLINE][NEWLINE]The Latin word basilica has three distinct applications in modern English. The word was originally used to describe an ancient Roman public building where courts were held, as well as serving other official and public functions. To a large extent these were the town halls of ancient Roman life. The basilica was centrally located in every Roman town, usually adjacent to the main forum. These buildings, an example of which is the Basilica Ulpia, were rectangular, and often had a central nave and aisles, usually with a slightly raised platform and an apse at each of the two ends, adorned with a statue perhaps of the emperor, while the entrances were from the long sides. By extension the name was applied to Christian churches which adopted the same basic plan and it continues to be used as an architectural term to describe such buildings, which form the majority of church buildings in Western Christianity, though the basilican building plan became less dominant in new buildings from the later 20th century. Later, the term came to refer specifically to a large and important Roman Catholic church that has been given special ceremonial rights by the Pope.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BASILICA_STRATEGY">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Can only be built in cities following a religion with the Basilicas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_BASILICAS">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Basilicas (+1 [ICON_CULTURE] Culture, +1 [ICON_PEACE] Faith, +2 [ICON_GOLD] Gold, 1 Merchant Specialist slot)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_BASILICAS_SHORT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Basilicas</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BASILICA">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Basilica</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BASILICA_TEXT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Basilica)[ENDCOLOR][NEWLINE][NEWLINE]The Latin word basilica has three distinct applications in modern English. The word was originally used to describe an ancient Roman public building where courts were held, as well as serving other official and public functions. To a large extent these were the town halls of ancient Roman life. The basilica was centrally located in every Roman town, usually adjacent to the main forum. These buildings, an example of which is the Basilica Ulpia, were rectangular, and often had a central nave and aisles, usually with a slightly raised platform and an apse at each of the two ends, adorned with a statue perhaps of the emperor, while the entrances were from the long sides. By extension the name was applied to Christian churches which adopted the same basic plan and it continues to be used as an architectural term to describe such buildings, which form the majority of church buildings in Western Christianity, though the basilican building plan became less dominant in new buildings from the later 20th century. Later, the term came to refer specifically to a large and important Roman Catholic church that has been given special ceremonial rights by the Pope.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BASILICA_STRATEGY">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Can only be built in cities following a religion with the Basilicas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
-		</Row>
-	</Language_RU_RU>
 
 </GameData>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_HOUNFOURS</Type>
+			<Description>TXT_KEY_BELIEF_HOUNFOURS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_HOUNFOURS_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_HOUNFOURS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HOUNFOURS</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+
+	<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+	<SpecialistCount>1</SpecialistCount>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_HOUNFOURS</Type>
+			<DefaultBuilding>BUILDING_HOUNFOURS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HOUNFOURS/Description>
+		</Row>
+	</BuildingClasses>
+		
+	<Buildings>
+		<Row>
+			<Type>BUILDING_HOUNFOURS</Type>
+			<BuildingClass>BUILDINGCLASS_HOUNFOURS</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>225</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
+			<Description>TXT_KEY_BUILDING_HOUNFOURS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_HOUNFOURS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HOUNFOURS_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
+			<NeverCapture>false</NeverCapture>
+			<ConquestProb>66</ConquestProb>
+			<PortraitIndex>33</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HOUNFOURS</BuildingType>
+			<FlavorType>FLAVOR_Culture</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HOUNFOURS</BuildingType>
+			<YieldType>YIELD_Culture</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_HOUNFOURS">
+			<Text>Use [ICON_PEACE] Faith to purchase Mandirs (+4 [ICON_CULTURE] Culture, 1 Music Specialist).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_HOUNFOURS_SHORT">
+			<Text>Hounfours</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOUNFOURS">
+			<Text>Hounfour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_HOUNFOURS_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Basilica)[ENDCOLOR][NEWLINE][NEWLINE]The Latin word basilica has three distinct applications in modern English. The word was originally used to describe an ancient Roman public building where courts were held, as well as serving other official and public functions. To a large extent these were the town halls of ancient Roman life. The basilica was centrally located in every Roman town, usually adjacent to the main forum. These buildings, an example of which is the Basilica Ulpia, were rectangular, and often had a central nave and aisles, usually with a slightly raised platform and an apse at each of the two ends, adorned with a statue perhaps of the emperor, while the entrances were from the long sides. By extension the name was applied to Christian churches which adopted the same basic plan and it continues to be used as an architectural term to describe such buildings, which form the majority of church buildings in Western Christianity, though the basilican building plan became less dominant in new buildings from the later 20th century. Later, the term came to refer specifically to a large and important Roman Catholic church that has been given special ceremonial rights by the Pope.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOUNFOURS_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Basilicas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

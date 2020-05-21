@@ -15,50 +15,14 @@
 			<BeliefType>BELIEF_GOD_OF_WAR</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 	</Belief_BuildingClassYieldChanges>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR">
-			<Text>+2 [ICON_PRODUCTION] Production from Barracks</Text>
+			<Text>+3 [ICON_PRODUCTION] Production from Barracks</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+2 [ICON_PRODUCTION] Production from Barracks</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+2 [ICON_PRODUCTION] Production from Barracks</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+2 [ICON_PRODUCTION] Production from Barracks</Text>
-		</Row>
-	</Language_RU_RU>
-	
-	<Language_en_US>
-		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR_SHORT">
-			<Text>God of War</Text>
-		</Row>
-	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR_SHORT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]God of War</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR_SHORT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]God of War</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR_SHORT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]God of War</Text>
-		</Row>
-	</Language_RU_RU>
   
 </GameData>

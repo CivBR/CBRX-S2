@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 11/2/2018 5:17:47 PM -->
 <GameData>
 	<Beliefs>
 		<Row>
@@ -16,40 +15,34 @@
 			<BeliefType>BELIEF_WAR_MEMORIAL</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_WAR_MEMORIAL</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
 	</Belief_BuildingClassYieldChanges>
 
 	<Belief_ImprovementYieldChanges>
-		<Row>
+			<Row>
 			<BeliefType>BELIEF_WAR_MEMORIAL</BeliefType>
-			<ImprovementType>IMPROVEMENT_CITY_RUINS</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_WAR_MEMORIAL</BeliefType>
-			<ImprovementType>IMPROVEMENT_CITY_RUINS</ImprovementType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_WAR_MEMORIAL</BeliefType>
-			<ImprovementType>IMPROVEMENT_CITY_RUINS</ImprovementType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
 		</Row>
 	</Belief_ImprovementYieldChanges>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_WAR_MEMORIAL">
-			<Text>+2 [ICON_PEACE] Faith from Walls and Castles. +2 [ICON_FOOD] Food, +2 [ICON_PRODUCTION] Production, +2 [ICON_PEACE] Faith from City Ruins.</Text>
+			<Text>+1 [ICON_PEACE] Faith from Walls and Castles. +1 [ICON_PRODUCTION] Production from Forts and Citadels.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_WAR_MEMORIAL_SHORT">
 			<Text>War Memorial</Text>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/11/2018 9:30:31 PM -->
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_ENLIGHTENED_SPIRIT</Type>
+			<Description>TXT_KEY_BELIEF_ENLIGHTENED_SPIRIT</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ENLIGHTENED_SPIRIT_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+	<Belief_YieldChangeAnySpecialist>
+		<Row>
+			<BeliefType>BELIEF_ENLIGHTENED_SPIRIT</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ENLIGHTENED_SPIRIT</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Belief_YieldChangeAnySpecialist>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_ENLIGHTENED_SPIRIT">
+			<Text>+4 [ICON_CULTURE] Culture and +4 [ICON_SCIENCE] Science from Cities with a Specialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ENLIGHTENED_SPIRIT_SHORT">
+			<Text>Astral Projection</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

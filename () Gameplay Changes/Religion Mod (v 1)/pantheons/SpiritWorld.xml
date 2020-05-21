@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<GameData>
+	
+	<Belief_YieldChangeNaturalWonder>
+		<Update>
+			<Set Yield="10" />
+			<Where BeliefType="BELIEF_ONE_WITH_NATURE" />
+		</Update>
+	</Belief_YieldChangeNaturalWonder>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE" />
+		<Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
+			<Text>+10 [ICON_PEACE] Faith from Natural Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE_SHORT">
+			<Text>Spirit World</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

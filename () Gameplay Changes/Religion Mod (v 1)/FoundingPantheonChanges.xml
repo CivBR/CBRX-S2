@@ -4,7 +4,7 @@
 
 	<Defines>
 		<Update>
-			<Set Value="23" />
+			<Set Value="30" />
 			<Where Name="RELIGION_MIN_FAITH_FIRST_PANTHEON" />
 		</Update>
 		<Update>

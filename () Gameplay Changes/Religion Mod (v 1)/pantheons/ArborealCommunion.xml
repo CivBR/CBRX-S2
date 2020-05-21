@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+		<Beliefs>
+		<Row>
+			<Type>BELIEF_ARBOREALCOMMUNION</Type>
+			<Description>TXT_KEY_BELIEF_ARBOREALCOMMUNION</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ARBOREALCOMMUNION_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+
+	<Belief_FeatureYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_ARBOREALCOMMUNION</BeliefType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ARBOREALCOMMUNION</BeliefType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ARBOREALCOMMUNION</BeliefType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ARBOREALCOMMUNION</BeliefType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_FeatureYieldChanges>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_ARBOREALCOMMUNION" />
+		<Row Tag="TXT_KEY_BELIEF_ARBOREALCOMMUNION">
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith from Forests and Jungles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ARBOREALCOMMUNION_SHORT">
+			<Text>Arboreal Communion</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

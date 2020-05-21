@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_ROMANTICISM</Type>
+			<Description>TXT_KEY_BELIEF_ROMANTICISM</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ROMANTICISM_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+		</Row>
+	</Beliefs>
+  
+  <Belief_GreatWorkYieldChanges>
+    <Row>
+		  <BeliefType>BELIEF_ROMANTICISM</BeliefType>
+		  <YieldType>YIELD_SCIENCE</YieldType>
+		  <Yield>1</Yield>
+    </Row>
+       <Row>
+		  <BeliefType>BELIEF_ROMANTICISM</BeliefType>
+		  <YieldType>YIELD_CULTURE</YieldType>
+		  <Yield>2</Yield>
+    </Row>
+	</Belief_GreatWorkYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_ROMANTICISM">
+			<Text>+2 [ICON_CULTURE] Culture and +1 [ICON_SCIENCE] Science from Great Works.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ROMANTICISM_SHORT">
+			<Text>Romanticism</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

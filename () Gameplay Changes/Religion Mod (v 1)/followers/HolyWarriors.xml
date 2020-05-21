@@ -1,136 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
 <GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_HOLY_WARRIORS</Type>
+			<Description>TXT_KEY_BELIEF_HOLY_WARRIORS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_HOLY_WARRIORS_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+	</Beliefs>
 
-	<!-- Use Faith to purchase Land and Naval Units -->
-	<Belief_EraFaithUnitPurchase>
+	<Belief_YieldFromKills>
 		<Row>
 			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
-			<EraType>ERA_INDUSTRIAL</EraType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
-			<EraType>ERA_MODERN</EraType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
 		</Row>
-		<Row>
-			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
-			<EraType>ERA_POSTMODERN</EraType>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
-			<EraType>ERA_FUTURE</EraType>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
-			<EraType>ERA_FW_FUTURE</EraType>
-		</Row>
-	</Belief_EraFaithUnitPurchase>
-	
-	<!-- Add Faith costs to all Naval Units and their unique counterparts. Danish Longship is handled in DenmarkChanges.xml -->
+	</Belief_YieldFromKills>
 
-	<Units>
-		<Update>
-			<Set FaithCost="850" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_MISSILE_CRUISER" />
-		</Update>
-		<Update>
-			<Set FaithCost="850" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_NUCLEAR_SUBMARINE" />
-		</Update>
-		<Update>
-			<Set FaithCost="750" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_CARRIER" />
-		</Update>
-		<Update>
-			<Set FaithCost="750" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_BATTLESHIP" />
-		</Update>
-		<Update>
-			<Set FaithCost="650" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_SUBMARINE" />
-		</Update>
-		<Update>
-			<Set FaithCost="500" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_IRONCLAD" />
-		</Update>
-		<Update>
-			<Set FaithCost="650" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_DESTROYER" />
-		</Update>
-		<Update>
-			<Set FaithCost="370" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_FRIGATE" />
-		</Update>
-		<Update>
-			<Set FaithCost="340" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_ENGLISH_SHIPOFTHELINE" />
-		</Update>
-		<Update>
-			<Set FaithCost="240" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_CARAVEL" />
-		</Update>
-		<Update>
-			<Set FaithCost="90" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_TRIREME" />
-		</Update>
-		<Update>
-			<Set FaithCost="240" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_KOREAN_TURTLE_SHIP" />
-		</Update>
-		<Update>
-			<Set FaithCost="112" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_BYZANTINE_DROMON" />
-		</Update>
-		<Update>
-			<Set FaithCost="90" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_CARTHAGINIAN_QUINQUEREME" />
-		</Update>
-		<Update>
-			<Set FaithCost="300" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_DUTCH_SEA_BEGGAR" />
-		</Update>
-		<Update>
-			<Set FaithCost="200" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_GALLEASS" />
-		</Update>
-		<Update>
-			<Set FaithCost="300" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_PRIVATEER" />
-		</Update>
-		<Update>
-			<Set FaithCost="240" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_PORTUGUESE_NAU" />
-		</Update>
-		<Update>
-			<Set FaithCost="200" RequiresFaithPurchaseEnabled="true" />
-			<Where Type="UNIT_VENETIAN_GALLEASS" />
-		</Update>
-	</Units>
-
-	<!-- localization -->
 	<Language_en_US>
-		<Delete Tag="TXT_KEY_BELIEF_HOLY_WARRIORS" />
 		<Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
-			<Text>Use [ICON_PEACE] Faith to purchase Land and Naval Units</Text>
+			<Text>Unit Kills yield 4 [ICON_PEACE] Faith and 1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS_SHORT">
+			<Text>Bacchanalia</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_HOLY_WARRIORS" />
-		<Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Land and Naval Units</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_HOLY_WARRIORS" />
-		<Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Land and Naval Units</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_HOLY_WARRIORS" />
-		<Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Land and Naval Units</Text>
-		</Row>
-	</Language_RU_RU>
-	
+
 </GameData>

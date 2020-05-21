@@ -3,7 +3,7 @@
 <GameData>
     <Beliefs>
         <Update>
-            <Set MinPopulation="8" HappinessPerCity="2"/>
+            <Set MinPopulation="5" HappinessPerCity="1"/>
             <Where Type="BELIEF_GODDESS_LOVE" />
         </Update>
     </Beliefs>
@@ -12,7 +12,7 @@
     <Language_en_US>
         <Delete Tag="TXT_KEY_BELIEF_GODDESS_LOVE" />
         <Row Tag="TXT_KEY_BELIEF_GODDESS_LOVE">
-            <Text>Gain 2 happiness when a city following this religion has eight of more population.</Text>
+            <Text>+1 Happiness from Cities with 5+ Population.</Text>
         </Row>
     </Language_en_US>    
 </GameData>

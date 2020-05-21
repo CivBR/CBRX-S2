@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_GODOFCRAFTSMEN</Type>
+			<Description>TXT_KEY_BELIEF_GODOFCRAFTSMEN</Description>
+			<ShortDescription>TXT_KEY_BELIEF_GODOFCRAFTSMEN_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+
+		<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_GODOFCRAFTSMEN</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_STONE_WORKS</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_GODOFCRAFTSMEN">
+			<Text>2 [ICON_PRODUCTION] Production from Stone Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GODOFCRAFTSMEN_SHORT">
+			<Text>God of Craftsmen</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

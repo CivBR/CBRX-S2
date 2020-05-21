@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_FAERIECHARMS</Type>
+			<Description>TXT_KEY_BELIEF_FAERIECHARMS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_FAERIECHARMS_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+
+		<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_FAERIECHARMS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+    		<Row>
+			<BeliefType>BELIEF_FAERIECHARMS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+    	<Row>
+			<BeliefType>BELIEF_FAERIECHARMS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>-2</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_FAERIECHARMS">
+			<Text>1 [ICON_PRODUCTION] Production and 1 [ICON_PEACE] Faith but -2 [ICON_GOLD] Gold from Shrines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_FAERIECHARMS_SHORT">
+			<Text>Faerie Charms</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

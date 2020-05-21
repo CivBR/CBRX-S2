@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_CHOSENPEOPLE</Type>
+			<Description>TXT_KEY_BELIEF_CHOSENPEOPLE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_CHOSENPEOPLE_SHORT</ShortDescription>
+			<Founder>true</Founder>
+			<MinFollowers>10</MinFollowers>
+		</Row>
+	</Beliefs>
+
+	<Belief_CityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_CHOSENPEOPLE</BeliefType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_CHOSENPEOPLE</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Belief_CityYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_CHOSENPEOPLE">
+			<Text>+5 [ICON_CULTURE] and +5 [ICON_SCIENCE] Culture in cities with 10 followers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CHOSENPEOPLE_SHORT">
+			<Text>Chosen People</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+		<Beliefs>
+		<Row>
+			<Type>BELIEF_FILIALPIETY</Type>
+			<Description>TXT_KEY_BELIEF_FILIALPIETY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_FILIALPIETY_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+
+	<Belief_YieldPerXFollowers>
+		<Row>
+			<BeliefType>BELIEF_FILIALPIETY</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<PerXFollowers>10</PerXFollowers>
+		</Row>
+	</Belief_YieldPerXFollowers>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_FILIALPIETY" />
+		<Row Tag="TXT_KEY_BELIEF_FILIALPIETY">
+			<Text>+1 [ICON_CULTURE] Culture for every 10 followers of this Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_FILIALPIETY_SHORT">
+			<Text>Filial Piety</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

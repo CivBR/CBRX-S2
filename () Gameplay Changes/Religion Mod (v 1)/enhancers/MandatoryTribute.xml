@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 10/22/2018 12:47:35 AM -->
 <GameData>
 	<Beliefs>
 		<Row>
@@ -15,16 +14,15 @@
 			<BeliefType>BELIEF_MANDATORY_TRIBUTE</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>8</YieldChange>
+			<YieldChange>13</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_MANDATORY_TRIBUTE</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>8</YieldChange>
+			<YieldChange>13</YieldChange>
 		</Row>
 	</Belief_BuildingClassYieldChanges>
-	
 	
 	<Belief_CityYieldChanges>
 		<Row>
@@ -34,20 +32,14 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_MANDATORY_TRIBUTE</BeliefType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>-2</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_MANDATORY_TRIBUTE</BeliefType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>-2</Yield>
 		</Row>
 	</Belief_CityYieldChanges>
 
-	<!-- localization -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_MANDATORY_TRIBUTE">
-			<Text>+10 [ICON_FOOD] Food and +10 [ICON_PRODUCTION] in the Capital but -2 [ICON_FAITH] Faith, -2 [ICON_CULTURE] Culture and -2 [ICON_SCIENCE] Science in all other cities.</Text>
+			<Text>+15 [ICON_FOOD] Food and +15 [ICON_PRODUCTION] in the Capital but -2 [ICON_FAITH] Faith and -2 [ICON_CULTURE] Culture in all other cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MANDATORY_TRIBUTE_SHORT">
 			<Text>Mandatory Tribute</Text>

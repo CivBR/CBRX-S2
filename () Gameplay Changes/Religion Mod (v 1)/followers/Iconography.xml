@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_ICONOGRAPHY</Type>
+			<Description>TXT_KEY_BELIEF_ICONOGRAPHY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ICONOGRAPHY_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+	</Beliefs>
+	
+	<Belief_SpecialistYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_ICONOGRAPHY</BeliefType>
+			<SpecialistType>SPECIALIST_ARTIST</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ICONOGRAPHY</BeliefType>
+			<SpecialistType>SPECIALIST_WRITER</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ICONOGRAPHY</BeliefType>
+			<SpecialistType>SPECIALIST_MUSICIAN</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Belief_SpecialistYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_ICONOGRAPHY">
+			<Text>+2 [ICON_PEACE] Faith from Artist, Writer, and Musician Specialists.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_BELIEF_ICONOGRAPHY_SHORT">
+			<Text>Iconography</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

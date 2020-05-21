@@ -33,13 +33,13 @@
 			<BeliefType>BELIEF_RAMADAN</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>3</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RAMADAN</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>3</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RAMADAN</BeliefType>
@@ -49,17 +49,9 @@
 		</Row>
 	</Belief_BuildingClassYieldChanges>
 
-	<Belief_BuildingClassHappiness>
-		<Row>
-			<BeliefType>BELIEF_RELIGIOUS_CENTER</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
-			<Happiness>1</Happiness>
-		</Row>
-	</Belief_BuildingClassHappiness>
-
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_RAMADAN">
-			<Text>+2 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture and +1 [ICON_HAPPINESS_1] Happiness but -1 Food from Granary. +2 [ICON_FASTING] Faith, +2 [ICON_CULTURE] Culture and +1 [ICON_HAPPINESS_1] Happiness but -1 Food from Water Mill.</Text>
+			<Text>+2 [ICON_PEACE] Faith and +2 [ICON_CULTURE] Culture but -1 [ICON_FOOD] Food from Granaries and Water Mills.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RAMADAN_SHORT">
 			<Text>Ramadan</Text>

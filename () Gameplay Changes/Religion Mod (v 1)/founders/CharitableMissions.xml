@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-26 00:15:53 -->
 <GameData>
-	
-	<!-- Gold gifts to City States earn 25% more Influence. -->
 	<Beliefs>
 		<Update>
-			<Set Reformation="false" Founder="true" CityStateInfluenceModifier="25" />
+			<Set Reformation="false" Founder="true" CityStateInfluenceModifier="0" />
 			<Where Type="BELIEF_CHARITABLE_MISSIONS" />
 		</Update>
+		<Row>
+			<Type>BELIEF_CHARITABLE_MISSIONS</Type>
+			<Description>TXT_KEY_BELIEF_CHARITABLE_MISSIONS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT</ShortDescription>
+		</Row>
 	</Beliefs>
+	
+	<Belief_HolyCityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_CHARITABLE_MISSIONS</BeliefType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+	</Belief_HolyCityYieldChanges>
+
+	<Belief_MaxYieldModifierPerFollower>
+		<Update>
+			<Set Max="10" />
+			<Where BeliefType="BELIEF_CHARITABLE_MISSIONS" YieldType="YIELD_FOOD" />
+		</Update>
+	</Belief_MaxYieldModifierPerFollower>
 
 	<Language_en_US>
-		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
 		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
-			<Text>Influence boosts from [ICON_GOLD] Gold gifts to City-States are increased by 25%</Text>
+			<Text>+5 [ICON_FOOD] Food from the Holy City. +1% [ICON_FOOD] Food for each follower (max +10%)</Text>
+		</Row>
+	<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT">
+			<Text>Charitable Missions</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
-		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Influence boosts from [ICON_GOLD] Gold gifts to City-States are increased by 25%</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
-		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Influence boosts from [ICON_GOLD] Gold gifts to City-States are increased by 25%</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
-		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Influence boosts from [ICON_GOLD] Gold gifts to City-States are increased by 25%</Text>
-		</Row>
-	</Language_RU_RU>
-	
+
 </GameData>

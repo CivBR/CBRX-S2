@@ -15,50 +15,14 @@
 			<BeliefType>BELIEF_GODDESS_OF_PROTECTION</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 	</Belief_BuildingClassYieldChanges>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION">
-			<Text>+2 [ICON_PEACE] Faith from Walls</Text>
+			<Text>+3 [ICON_PEACE] Faith from Walls</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+2 [ICON_PEACE] Faith from Walls</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+2 [ICON_PEACE] Faith from Walls</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+2 [ICON_PEACE] Faith from Walls</Text>
-		</Row>
-	</Language_RU_RU>
-
-	<Language_en_US>
-		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION_SHORT">
-			<Text>Goddess of Protection</Text>
-		</Row>
-	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION_SHORT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Goddess of Protection</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION_SHORT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Goddess of Protection</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION_SHORT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Goddess of Protection</Text>
-		</Row>
-	</Language_RU_RU>
   
 </GameData>

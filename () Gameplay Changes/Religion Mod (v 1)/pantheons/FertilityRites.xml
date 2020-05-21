@@ -7,6 +7,7 @@
 			<Description>TXT_KEY_BELIEF_FERTILITY_RITES_NQ</Description>
 			<ShortDescription>TXT_KEY_BELIEF_FERTILITY_RITES_NQ_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
+			<RiverHappiness>1</RiverHappiness>
 		</Row>
 	</Beliefs>
 

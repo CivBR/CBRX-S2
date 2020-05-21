@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_PEACELOVING</Type>
+			<Description>TXT_KEY_BELIEF_PEACELOVING</Description>
+			<ShortDescription>TXT_KEY_BELIEF_PEACELOVING_SHORT</ShortDescription>
+			<Founder>true</Founder>
+      <HappinessPerXPeacefulForeignFollowers>10</HappinessPerXPeacefulForeignFollowers>
+		</Row>
+	</Beliefs>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_PEACELOVING">
+			<Text>10 [ICON_HAPPINESS_1] Happiness for every 10 followers of this Religion in non-enemy foreign cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_PEACELOVING_SHORT">
+			<Text>Peace Loving</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

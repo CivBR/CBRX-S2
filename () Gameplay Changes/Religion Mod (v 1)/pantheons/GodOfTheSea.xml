@@ -31,6 +31,30 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Belief_ResourceYieldChanges>
 	<Belief_FeatureYieldChanges>
 		<Row>
@@ -39,34 +63,20 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Belief_FeatureYieldChanges>
 	
 	<!-- localization -->
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_GOD_SEA" />
 		<Row Tag="TXT_KEY_BELIEF_GOD_SEA">
-			<Text>+1 [ICON_PEACE] Faith from Atolls, Crab, Fish, Pearls, and Whales</Text>
+			<Text>+1 [ICON_PEACE] Faith and +1 [ICON_PRODUCTION] Production from Atolls, Crab, Fish, Pearls, and Whales</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_GOD_SEA" />
-		<Row Tag="TXT_KEY_BELIEF_GOD_SEA">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_PEACE] Faith from Atolls, Crab, Fish, Pearls, and Whales</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_GOD_SEA" />
-		<Row Tag="TXT_KEY_BELIEF_GOD_SEA">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_PEACE] Faith from Atolls, Crab, Fish, Pearls, and Whales</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_GOD_SEA" />
-		<Row Tag="TXT_KEY_BELIEF_GOD_SEA">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_PEACE] Faith from Atolls, Crab, Fish, Pearls, and Whales</Text>
-		</Row>
-	</Language_RU_RU>
-
-
 
 </GameData>

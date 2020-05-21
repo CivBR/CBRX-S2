@@ -37,7 +37,8 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GURDWARA_TEXT</Civilopedia>
 			<Help>TXT_KEY_BUILDING_GURDWARA_HELP</Help>
 			<Strategy>TXT_KEY_BUILDING_GURDWARA_STRATEGY</Strategy>
-			<Happiness>1</Happiness>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<IconAtlas>BUILDING_ATLAS_GURRA_GURDWARA</IconAtlas>
@@ -59,27 +60,27 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GURDWARA</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
 	</Building_Flavors>
-	<Building_YieldChangesPerReligion>
+	<Building_YieldChanges>
 		<Row>
-			<BuildingType>BUILDING_GURDWARA</BuildingType>
+			<BuildingType>BUILDING_BASILICA</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>100</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_GURDWARA</BuildingType>
+			<BuildingType>BUILDING_BASILICA</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>100</Yield>
+			<Yield>2/Yield>
 		</Row>
-	</Building_YieldChangesPerReligion>
+	</Building_YieldChanges>
 
 	<!-- localization -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_GURDWARAS">
-			<Text>Use [ICON_PEACE] Faith to purchase Gurdwaras (+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for each Religion in the City, +1 [ICON_HAPPINESS_1] Happiness)</Text>
+			<Text>Use [ICON_PEACE] Faith to purchase Gurdwaras (+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, 1 Science Specialist)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_GURDWARAS_SHORT">
 			<Text>Gurdwaras</Text>
@@ -97,65 +98,5 @@
 			<Text>Can only be built in cities following a religion with the Gurdwaras belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_GURDWARAS">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Gurdwaras (+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for each Religion in the City, +1 [ICON_HAPPINESS_1] Happiness)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_GURDWARAS_SHORT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Gurdwaras</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GURDWARA">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Gurdwara</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for each World Religion that has at least 1 follower in the city</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GURDWARA_TEXT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Gurdwara)[ENDCOLOR][NEWLINE][NEWLINE]A gurdwara is the place of worship for Sikhs. People from all faiths, and those who do not profess any faith, are welcomed in Sikh gurdwaras. Each gurdwara has a Darbar Sahib where the current and everlasting Guru of the Sikhs, the holy scripture Guru Granth Sahib is placed on a Takhat (an elevated throne) in a prominent central position. The Raagis (who sing Ragas) recite, sing and explain, the verses from the Guru Granth Sahib, in the presence of the holy congregation.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Sikh Empire - Gurra, TPangolin, JFD, AgressiveWimp[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GURDWARA_STRATEGY">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Can only be built in cities following a religion with the Gurdwaras belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_GURDWARAS">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Gurdwaras (+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for each Religion in the City, +1 [ICON_HAPPINESS_1] Happiness)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_GURDWARAS_SHORT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Gurdwaras</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GURDWARA">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Gurdwara</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for each World Religion that has at least 1 follower in the city</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GURDWARA_TEXT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Gurdwara)[ENDCOLOR][NEWLINE][NEWLINE]A gurdwara is the place of worship for Sikhs. People from all faiths, and those who do not profess any faith, are welcomed in Sikh gurdwaras. Each gurdwara has a Darbar Sahib where the current and everlasting Guru of the Sikhs, the holy scripture Guru Granth Sahib is placed on a Takhat (an elevated throne) in a prominent central position. The Raagis (who sing Ragas) recite, sing and explain, the verses from the Guru Granth Sahib, in the presence of the holy congregation.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Sikh Empire - Gurra, TPangolin, JFD, AgressiveWimp[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GURDWARA_STRATEGY">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Can only be built in cities following a religion with the Gurdwaras belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_GURDWARAS">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Use [ICON_PEACE] Faith to purchase Gurdwaras (+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for each Religion in the City, +1 [ICON_HAPPINESS_1] Happiness)</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_GURDWARAS_SHORT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Gurdwaras</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GURDWARA">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Gurdwara</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for each World Religion that has at least 1 follower in the city</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GURDWARA_TEXT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Gurdwara)[ENDCOLOR][NEWLINE][NEWLINE]A gurdwara is the place of worship for Sikhs. People from all faiths, and those who do not profess any faith, are welcomed in Sikh gurdwaras. Each gurdwara has a Darbar Sahib where the current and everlasting Guru of the Sikhs, the holy scripture Guru Granth Sahib is placed on a Takhat (an elevated throne) in a prominent central position. The Raagis (who sing Ragas) recite, sing and explain, the verses from the Guru Granth Sahib, in the presence of the holy congregation.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Sikh Empire - Gurra, TPangolin, JFD, AgressiveWimp[ENDCOLOR]</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_GURDWARA_STRATEGY">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Can only be built in cities following a religion with the Gurdwaras belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
-		</Row>
-	</Language_RU_RU>
 
 </GameData>

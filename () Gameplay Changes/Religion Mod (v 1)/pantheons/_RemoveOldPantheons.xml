@@ -14,19 +14,12 @@
 	
 	<Beliefs>
 		<Delete Type="BELIEF_DANCE_AURORA" />
-		<Delete Type="BELIEF_FERTILITY_RITES" />
-		<Delete Type="BELIEF_GOD_CRAFTSMEN" />
-		<Delete Type="BELIEF_GOD_WAR" />
 		<Delete Type="BELIEF_GODDESS_STRATEGY" />
 		<Delete Type="BELIEF_TEARS_OF_GODS" />
-		<Delete Type="BELIEF_RELIGIOUS_SETTLEMENTS" />
 	</Beliefs>
 	<Belief_TerrainYieldChanges>
 		<Delete BeliefType="BELIEF_DANCE_AURORA" />
 	</Belief_TerrainYieldChanges>
-	<Belief_CityYieldChanges>
-		<Delete BeliefType="BELIEF_GOD_CRAFTSMEN" />
-	</Belief_CityYieldChanges>
 	<Belief_ResourceYieldChanges>
 		<Delete BeliefType="BELIEF_TEARS_OF_GODS" />
 	</Belief_ResourceYieldChanges>

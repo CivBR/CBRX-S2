@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+  
+  <Beliefs>
+	  <Row>
+			<Type>BELIEF_HOLYORDER</Type>
+			<Description>TXT_KEY_BELIEF_HOLYORDER</Description>
+			<ShortDescription>TXT_KEY_BELIEF_HOLYORDER_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+			<MissionaryCostModifier>-40</MissionaryCostModifier>
+		</Row>
+  </Beliefs>
+  
+  	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_HOLYORDER_TEXTS">
+			<Text>Missionaries and Inquisitors cost 40% less [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_HOLYORDER_SHORT">
+			<Text>Holy Order</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

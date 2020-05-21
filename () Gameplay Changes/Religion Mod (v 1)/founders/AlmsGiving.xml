@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+		<Beliefs>
+		<Row>
+			<Type>BELIEF_ALMSGIVING</Type>
+			<Description>TXT_KEY_BELIEF_ALMSGIVING</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ALMSGIVING_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+
+	<Belief_YieldPerXFollowers>
+		<Row>
+			<BeliefType>BELIEF_ALMSGIVING</BeliefType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<PerXFollowers>10</PerXFollowers>
+		</Row>
+	</Belief_YieldPerXFollowers>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_ALMSGIVING" />
+		<Row Tag="TXT_KEY_BELIEF_ALMSGIVING">
+			<Text>+1 [ICON_FOOD] Food for every 10 followers of this Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ALMSGIVING_SHORT">
+			<Text>Alms Giving</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

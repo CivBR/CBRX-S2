@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_RELIGIOUSSETTLEMENTS</Type>
+			<Description>TXT_KEY_BELIEF_RELIGIOUSSETTLEMENTS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_RELIGIOUSSETTLEMENTS_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+			<PlotCultureCostModifier>-20</PlotCultureCostModifier>
+		</Row>
+	</Beliefs>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUSSETTLEMENTS">
+			<Text>20% faster border growth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUSSETTLEMENTS_SHORT">
+			<Text>Religious Settlements</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

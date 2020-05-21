@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
 <GameData>
-
-	<!--+20% Combat Strength near enemy cities that follow this religion.-->
-
-	<!-- No changes needed. NOTE: If this file is modified, don't forget to add it to the OnModActivated list. -->
+<Beliefs>
+	<Row>
+		<Type>BELIEF_JUST_WAR</Type>
+		<Description>TXT_KEY_BELIEF_JUST_WAR</Description>
+		<ShortDescription>TXT_KEY_BELIEF_JUST_WAR_SHORT</ShortDescription>
+		<Enhancer>true</Enhancer>
+		<CombatModifierEnemyCities>25</CombatModifierEnemyCities>
+	</Row>
+</Beliefs>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_JUST_WAR">
+			<Text>25% Combat Strength near enemy Cities that follow this Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JUST_WAR_SHORT">
+			<Text>Just War</Text>
+		</Row>
+	</Language_en_US>
 
 </GameData>

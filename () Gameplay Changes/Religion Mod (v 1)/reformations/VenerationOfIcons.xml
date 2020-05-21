@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_VENERATIONOFICONS</Type>
+			<Description>TXT_KEY_BELIEF_VENERATIONOFICONS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_VENERATIONOFICONS_SHORT</ShortDescription>
+			<Reformation>true</Reformation>
+		</Row>
+	</Beliefs>
+	
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_VENERATIONOFICONS</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_VENERATIONOFICONS</BeliefType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_VENERATIONOFICONS</BeliefType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_VENERATIONOFICONS</BeliefType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_VENERATIONOFICONS">
+			<Text>Great Person tile improvements provide additional +4 of the appropriate yield</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_VENERATIONOFICONS_SHORT">
+			<Text>Veneration of Icons</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

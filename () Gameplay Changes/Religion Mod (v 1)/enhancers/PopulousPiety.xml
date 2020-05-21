@@ -7,7 +7,7 @@
 			<Description>TXT_KEY_BELIEF_POPULOUS_PIETY</Description>
 			<ShortDescription>TXT_KEY_BELIEF_POPULOUS_PIETY_SHORT</ShortDescription>
 			<Enhancer>true</Enhancer>
-			<MinFollowers>12</MinFollowers>
+			<MinFollowers>10</MinFollowers>
 		</Row>
 	</Beliefs>
 
@@ -15,13 +15,13 @@
 		<Row>
 			<BeliefType>BELIEF_POPULOUS_PIETY</BeliefType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>12</Yield>
+			<Yield>10</Yield>
 		</Row>
 	</Belief_CityYieldChanges>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_POPULOUS_PIETY">
-			<Text>+12 [ICON_FAITH] Faith in cities with 12 followers</Text>
+			<Text>+10 [ICON_FAITH] Faith in Cities with 10 followers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_POPULOUS_PIETY_SHORT">
 			<Text>Populous Piety</Text>

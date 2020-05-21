@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_OPENSKY</Type>
+			<Description>TXT_KEY_BELIEF_OPENSKY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_OPENSKY_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+
+	<Belief_TerrainYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_OPENSKY</BeliefType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_TerrainYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_OPENSKY">
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith from all Snow Tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OPENSKY_SHORT">
+			<Text>Open Sky</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

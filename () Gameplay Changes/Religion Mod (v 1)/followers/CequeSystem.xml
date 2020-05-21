@@ -15,7 +15,7 @@
 		<Row>
 			<BeliefType>BELIEF_CEQUE_SYSTEM</BeliefType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>3</Yield>
+			<Yield>1</Yield>
 		</Row>
 	</Belief_YieldChangeTradeRoute>
 
@@ -30,7 +30,7 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_CEQUE_SYSTEM">
-			<Text>+2 [ICON_PEACE] Faith from all cities connected to the [ICON_CAPITAL] Capital. +2 [ICON_PEACE]from Caranvansaries.</Text>
+			<Text>+2 [ICON_PEACE] from Caranvansaries.. +1 [ICON_PEACE] Faith from all cities connected to the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CEQUE_SYSTEM_SHORT">
 			<Text>Ceque System</Text>

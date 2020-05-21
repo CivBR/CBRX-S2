@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+		<Beliefs>
+		<Row>
+			<Type>BELIEF_ANCESTORWORSHIP</Type>
+			<Description>TXT_KEY_BELIEF_ANCESTORWORSHIP</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ANCESTORWORSHIP_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+
+	<Belief_YieldPerXFollowers>
+		<Row>
+			<BeliefType>BELIEF_ANCESTORWORSHIP</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<PerXFollowers>10</PerXFollowers>
+		</Row>
+	</Belief_YieldPerXFollowers>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_ANCESTORWORSHIP" />
+		<Row Tag="TXT_KEY_BELIEF_ANCESTORWORSHIP">
+			<Text>+1 [ICON_PEACE] Faith for every 10 followers of this Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ANCESTORWORSHIP_SHORT">
+			<Text>Ancestor Worship</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

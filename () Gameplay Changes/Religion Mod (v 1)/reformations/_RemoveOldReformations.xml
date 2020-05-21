@@ -5,7 +5,6 @@
 	<!-- Removed or moved the following Reformations: Charitable Missions, Evangelism, Heathen Conversion, Religious Fervor, To The Glory Of God, Unity of the Prophets -->
 	<Beliefs>
 		<!-- BELIEF_CHARITABLE_MISSIONS moved to Founder in /religion/founders/CharitableMissions.xml -->
-		<Delete Type="BELIEF_EVANGELISM" />
 		<Delete Type="BELIEF_HEATHEN_CONVERSION" />
 		<Delete Type="BELIEF_RELIGIOUS_FERVOR" />
 		<Delete Type="BELIEF_TO_GLORY_OF_GOD" />

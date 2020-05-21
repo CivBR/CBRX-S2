@@ -20,7 +20,7 @@
 		<Row>
 			<BeliefType>BELIEF_RAGNAROK</BeliefType>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
-			<YieldType>YIELD_FAITH</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -32,14 +32,14 @@
 		<Row>
 			<BeliefType>BELIEF_RAGNAROK</BeliefType>
 			<TerrainType>TERRAIN_SNOW</TerrainType>
-			<YieldType>YIELD_FAITH</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Belief_TerrainYieldChanges>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_RAGNAROK">
-			<Text>+1 [ICON_PRODUCTION] Production and +1 [ICON_PEACE] Faith from Tundra and Snow tiles.</Text>
+			<Text>+1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture from Tundra and Snow Tiles.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RAGNAROK_SHORT">
 			<Text>Ragnarok</Text>

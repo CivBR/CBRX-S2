@@ -14,31 +14,45 @@
 		<Row>
 			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
+			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
 	</Belief_ImprovementYieldChanges>
+	
+	
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_FORS_FORTUNA">
-			<Text>+2 [ICON_PEACE] Faith and +1 [ICON_GOLD] for Farms and Hydroponic Domes.</Text>
+			<Text>+1 [ICON_FOOD] Food, +1 [ICON_GOLD] Gold, and +2 [ICON_CULTURE] Culture for Farms and Hydroponic Domes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_FORS_FORTUNA_SHORT">
 			<Text>Fors Fortuna</Text>

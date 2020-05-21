@@ -2,12 +2,22 @@
 <!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
 <GameData>
 
-	<!-- +1 Culture from Temples added -->
-
 	<Belief_BuildingClassYieldChanges>
 		<Row>
 			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
@@ -16,26 +26,8 @@
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP" />
 		<Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
-			<Text>+1 [ICON_CULTURE] Culture from Shrines and Temples</Text>
+			<Text>+1 [ICON_CULTURE] Culture from Shrines, Temples, Libraries</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP" />
-		<Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_CULTURE] Culture from Shrines and Temples</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP" />
-		<Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_CULTURE] Culture from Shrines and Temples</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP" />
-		<Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_CULTURE] Culture from Shrines and Temples</Text>
-		</Row>
-	</Language_RU_RU>
 
 </GameData>

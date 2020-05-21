@@ -1,48 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
 <GameData>
-
-	<!-- No changes needed. NOTE: If this file is modified, don't forget to add it to the OnModActivated list. -->
-
 	<Beliefs>
-		<Update>
-			<Set GoldPerFollowingCity="0" />
-			<Where Type="BELIEF_CHURCH_PROPERTY" />
-		</Update>
-	</Beliefs>
-
-	<Belief_BuildingClassYieldChanges>
 		<Row>
-			<BeliefType>BELIEF_CHURCH_PROPERTY</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>8</YieldChange>
+			<Type>BELIEF_CHURCHPROPERTY</Type>
+			<Description>TXT_KEY_BELIEF_CHURCHPROPERTY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_CHURCHPROPERTY_SHORT</ShortDescription>
+			<Founder>true</Founder>
 		</Row>
-	</Belief_BuildingClassYieldChanges>
+	</Beliefs>
+	
+	<Belief_HolyCityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_CHURCHPROPERTY</BeliefType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+	</Belief_HolyCityYieldChanges>
+
+	<Belief_MaxYieldModifierPerFollower>
+		<Update>
+			<Set Max="10" />
+			<Where BeliefType="BELIEF_CHURCHPROPERTY" YieldType="YIELD_GOLD" />
+		</Update>
+	</Belief_MaxYieldModifierPerFollower>
 
 	<Language_en_US>
-		<Delete Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY" />
-		<Row Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
-			<Text>+8 [ICON_GOLD] Gold from the Palace</Text>
+		<Row Tag="TXT_KEY_BELIEF_CHURCHPROPERTY">
+			<Text>+5 [ICON_GOLD] Gold from the Holy City. +1% [ICON_GOLD] Gold for each follower (max +10%)</Text>
+		</Row>
+	<Row Tag="TXT_KEY_BELIEF_CHURCHPROPERTY_SHORT">
+			<Text>Church Property</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY" />
-		<Row Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+8 [ICON_GOLD] Gold from the Palace</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY" />
-		<Row Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+8 [ICON_GOLD] Gold from the Palace</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY" />
-		<Row Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+8 [ICON_GOLD] Gold from the Palace</Text>
-		</Row>
-	</Language_RU_RU>
 
 </GameData>
