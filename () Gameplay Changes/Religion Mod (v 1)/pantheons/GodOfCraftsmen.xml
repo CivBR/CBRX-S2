@@ -20,6 +20,7 @@
 	</Belief_BuildingClassYieldChanges>
 
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_GODOFCRAFTSMEN" />
 		<Row Tag="TXT_KEY_BELIEF_GODOFCRAFTSMEN">
 			<Text>2 [ICON_PRODUCTION] Production from Stone Works</Text>
 		</Row>

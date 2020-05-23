@@ -12,6 +12,7 @@
 	</Beliefs>
 
 	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_PEACELOVING" />
 		<Row Tag="TXT_KEY_BELIEF_PEACELOVING">
 			<Text>10 [ICON_HAPPINESS_1] Happiness for every 10 followers of this Religion in non-enemy foreign cities.</Text>
 		</Row>

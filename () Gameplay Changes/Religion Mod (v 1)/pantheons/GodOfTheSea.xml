@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
 <GameData>
 
-	<!-- +1 Faith from Fish, Whales, Crab, Pearls, and Atolls. -->
 	<Belief_ImprovementYieldChanges>
 		<Delete BeliefType="BELIEF_GOD_SEA" ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_PRODUCTION" Yield="1" />
 	</Belief_ImprovementYieldChanges>
@@ -71,7 +69,6 @@
 		</Row>
 	</Belief_FeatureYieldChanges>
 	
-	<!-- localization -->
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_GOD_SEA" />
 		<Row Tag="TXT_KEY_BELIEF_GOD_SEA">

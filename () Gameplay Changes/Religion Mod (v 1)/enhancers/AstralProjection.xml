@@ -23,9 +23,11 @@
 		</Row>
 	</Belief_YieldChangeAnySpecialist>
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_ENLIGHTENED_SPIRIT" />
 		<Row Tag="TXT_KEY_BELIEF_ENLIGHTENED_SPIRIT">
 			<Text>+4 [ICON_CULTURE] Culture and +4 [ICON_SCIENCE] Science from Cities with a Specialist</Text>
 		</Row>
+		<Delete Tag="TXT_KEY_BELIEF_ENLIGHTENED_SPIRIT_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_ENLIGHTENED_SPIRIT_SHORT">
 			<Text>Astral Projection</Text>
 		</Row>

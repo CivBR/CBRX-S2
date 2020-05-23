@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 8/19/2018 6:46:44 PM -->
 <GameData>
 	<Beliefs>
 		<Row>
@@ -20,8 +19,12 @@
 	</Belief_BuildingClassYieldChanges>
 
 	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_GOD_OF_WAR" />
 		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR">
-			<Text>+3 [ICON_PRODUCTION] Production from Barracks</Text>
+			<Text>+3 [ICON_PRODUCTION] Production from Barracks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR_SHORT">
+			<Text>God of War</Text>
 		</Row>
 	</Language_en_US>
   

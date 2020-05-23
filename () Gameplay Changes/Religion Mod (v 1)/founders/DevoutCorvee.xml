@@ -25,10 +25,12 @@
 	</Belief_MaxYieldModifierPerFollower>
 
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_DEVOUTCORVEE" />
 		<Row Tag="TXT_KEY_BELIEF_DEVOUTCORVEE">
 			<Text>+5 [ICON_PRODUCTION] Production from the Holy City. +1% [ICON_PRODUCTION] Production for each follower (max +15%)</Text>
 		</Row>
-	<Row Tag="TXT_KEY_BELIEF_DEVOUTCORVEE_SHORT">
+		<Delete Tag="TXT_KEY_BELIEF_DEVOUTCORVEE_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_DEVOUTCORVEE_SHORT">
 			<Text>Devout Corvee</Text>
 		</Row>
 	</Language_en_US>

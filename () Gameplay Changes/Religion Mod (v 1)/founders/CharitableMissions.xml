@@ -28,6 +28,7 @@
 	</Belief_MaxYieldModifierPerFollower>
 
 	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
 		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
 			<Text>+5 [ICON_FOOD] Food from the Holy City. +1% [ICON_FOOD] Food for each follower (max +10%)</Text>
 		</Row>

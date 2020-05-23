@@ -13,7 +13,8 @@
   </Beliefs>
   
   	<Language_en_US>
-		<Row Tag="TXT_KEY_BELIEF_HOLYORDER_TEXTS">
+	  <Delete Tag="TXT_KEY_BELIEF_HOLYORDER" />
+		<Row Tag="TXT_KEY_BELIEF_HOLYORDER">
 			<Text>Missionaries and Inquisitors cost 40% less [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_HOLYORDER_SHORT">

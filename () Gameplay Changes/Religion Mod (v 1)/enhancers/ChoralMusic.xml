@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_CHORAL_MUSIC</Type>
+			<Description>TXT_KEY_BELIEF_CHORAL_MUSIC</Description>
+			<ShortDescription>TXT_KEY_BELIEF_CHORAL_MUSIC_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+            <MinFollowers>5</MinFollowers>
+		</Row>
+	</Beliefs>
+
+<Belief_BuildingClassYieldChanges>
+    	<Row>
+			<BeliefType>BELIEF_CHORAL_MUSIC</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+</Belief_BuildingClassYieldChanges>
+
+<Belief_BuildingClassTourism>
+		<Row>
+			<BeliefType>BELIEF_CHORAL_MUSIC</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<Tourism>2</Tourism>
+		</Row>
+</Belief_BuildingClassTourism>
+
+	<Language_en_US>
+	 <Delete Tag="TXT_KEY_BELIEF_CHORAL_MUSIC" />
+		<Row Tag="TXT_KEY_BELIEF_CHORAL_MUSIC">
+			<Text>Temples provide +4 Culture and +2 Tourism with 10 followers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CHORAL_MUSIC_SHORT">
+			<Text>Choral Music</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -11,6 +11,7 @@
 </Beliefs>
 	
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_JUST_WAR" />
 		<Row Tag="TXT_KEY_BELIEF_JUST_WAR">
 			<Text>25% Combat Strength near enemy Cities that follow this Religion.</Text>
 		</Row>

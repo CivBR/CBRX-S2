@@ -38,6 +38,7 @@
 	</Belief_CityYieldChanges>
 
 	<Language_en_US>
+	 <Delete Tag="TXT_KEY_BELIEF_FROMGIVINGHANDS" />
 		<Row Tag="TXT_KEY_BELIEF_FROMGIVINGHANDS">
 			<Text>-15 [ICON_GOLD] Gold and -15 [ICON_PRODUCTION] in the Capital but +2 [ICON_FOOD] Food and +2 [ICON_SCIENCE] Science in all other cities.</Text>
 		</Row>

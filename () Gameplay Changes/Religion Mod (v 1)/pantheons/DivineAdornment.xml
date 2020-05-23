@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
 <GameData>
 
-	<!-- +1 Faith and +1 Culture from Copper, Silver, Gold, and Gems. -->
 	<Belief_ResourceYieldChanges>
 		<Row>
 			<BeliefType>BELIEF_FORMAL_LITURGY</BeliefType>
@@ -30,7 +28,6 @@
 		</Row>
 	</Belief_ResourceYieldChanges>
 	
-	<!-- localization -->
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_FORMAL_LITURGY" />
 		<Row Tag="TXT_KEY_BELIEF_FORMAL_LITURGY">

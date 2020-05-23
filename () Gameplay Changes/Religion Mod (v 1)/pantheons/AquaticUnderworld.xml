@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 8/20/2018 10:32:54 AM -->
 <GameData>
 
 	<Beliefs>
@@ -33,6 +32,7 @@
 	</Belief_BuildingClassYieldChanges>
 	
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_AQUATICUNDERWORLD_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_AQUATICUNDERWORLD_SHORT">
 			<Text>Aquatic Underworld</Text>
 		</Row>

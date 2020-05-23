@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 5/7/2017 2:12:31 PM -->
+
 <GameData>
     <Beliefs>
         <Update>
@@ -8,7 +8,6 @@
         </Update>
     </Beliefs>
 
-    <!-- localization -->
     <Language_en_US>
         <Delete Tag="TXT_KEY_BELIEF_GODDESS_LOVE" />
         <Row Tag="TXT_KEY_BELIEF_GODDESS_LOVE">

@@ -6,7 +6,7 @@
 			<Type>BELIEF_AXISMUNDI</Type>
 			<Description>TXT_KEY_BELIEF_AXISMUNDI</Description>
 			<ShortDescription>TXT_KEY_BELIEF_AXISMUNDI_SHORT</ShortDescription>
-			<Pantheon>true</Pantheon>
+			<Founder>true</Founder>
 			<SpreadStrengthModifier>5</SpreadStrengthModifier>
 		</Row>
 	</Beliefs>
@@ -15,13 +15,13 @@
 		<Row>
 			<Type>BUILDING_PALACE</Type>
 			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
-			<ReligiousPressureModifier>30</ReligiousPressureModifier>
+			<ReligiousPressureModifier>50</ReligiousPressureModifier>
 		</Row>
 	</Buildings>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_AXISMUNDI">
-			<Text>50% religious pressure from the Holy City </Text>
+			<Text>50% religious pressure from the Holy City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_AXISMUNDI_SHORT">
 			<Text>Axis Mundi</Text>

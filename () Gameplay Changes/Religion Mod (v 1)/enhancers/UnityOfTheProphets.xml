@@ -17,7 +17,6 @@
 		</Row>
 	</Belief_ImprovementYieldChanges>
 
-	<!-- localization -->
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_UNITY_OF_PROPHETS" />
 		<Row Tag="TXT_KEY_BELIEF_UNITY_OF_PROPHETS">

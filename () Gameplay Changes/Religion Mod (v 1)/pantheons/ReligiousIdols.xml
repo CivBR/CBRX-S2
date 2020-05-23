@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 8/19/2018 6:46:44 PM -->
 <GameData>
 	<Beliefs>
 		<Row>
@@ -26,9 +25,11 @@
 	</Belief_BuildingClassYieldChanges>
 
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_THRIFT" />
 		<Row Tag="TXT_KEY_BELIEF_THRIFT">
 			<Text>+1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture from Monuments</Text>
 		</Row>
+		<Delete Tag="TXT_KEY_BELIEF_THRIFT_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_THRIFT_SHORT">
 			<Text>Religious Idols</Text>
 		</Row>

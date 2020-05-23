@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
 <GameData>
 
-	<!-- Units adjacent to the city heal 25 HP and bombard strength of Cities increased by 25% -->
 	<Beliefs>
 		<Update>
 			<Set Pantheon="false" Follower="true" FriendlyHealChange="25" CityRangeStrikeModifier="25" />
@@ -16,23 +14,5 @@
 			<Text>Units adjacent to a friendly City heal additional 25 HP per turn, +25% increase in City [ICON_RANGE_STRENGTH] Ranged Combat Strength</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_FAITH_HEALERS" />
-		<Row Tag="TXT_KEY_BELIEF_FAITH_HEALERS">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Units adjacent to a friendly City heal additional 25 HP per turn, +25% increase in City [ICON_RANGE_STRENGTH] Ranged Combat Strength</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_FAITH_HEALERS" />
-		<Row Tag="TXT_KEY_BELIEF_FAITH_HEALERS">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Units adjacent to a friendly City heal additional 25 HP per turn, +25% increase in City [ICON_RANGE_STRENGTH] Ranged Combat Strength</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_FAITH_HEALERS" />
-		<Row Tag="TXT_KEY_BELIEF_FAITH_HEALERS">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Units adjacent to a friendly City heal additional 25 HP per turn, +25% increase in City [ICON_RANGE_STRENGTH] Ranged Combat Strength</Text>
-		</Row>
-	</Language_RU_RU>
 
 </GameData>

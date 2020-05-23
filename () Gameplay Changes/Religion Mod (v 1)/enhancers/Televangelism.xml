@@ -27,6 +27,7 @@
 	</Belief_BuildingClassYieldChanges>
 
 	<Language_en_US>
+	  <Delete Tag="TXT_KEY_BELIEF_TELEVANGELISM" />
 		<Row Tag="TXT_KEY_BELIEF_TELEVANGELISM">
 			<Text>Can purchase Broadcast Towers and they provide +2 [ICON GOLD] Gold and +2 [ICON_PEACE]. In addition, religion spreads 30% further away.</Text>
 		</Row>

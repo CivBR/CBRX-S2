@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 10/29/2018 11:22:31 PM -->
 <GameData>
 	<Beliefs>
 		<Row>
@@ -27,6 +26,7 @@
 	</Belief_TerrainYieldChanges>
 
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_GLACIER_SPIRITS" />
 		<Row Tag="TXT_KEY_BELIEF_GLACIER_SPIRITS">
 			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith from all Snow Tiles.</Text>
 		</Row>

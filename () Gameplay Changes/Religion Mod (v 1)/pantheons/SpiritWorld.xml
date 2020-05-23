@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
 <GameData>
 	
 	<Belief_YieldChangeNaturalWonder>
@@ -14,6 +13,7 @@
 		<Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
 			<Text>+10 [ICON_PEACE] Faith from Natural Wonders</Text>
 		</Row>
+		<Delete Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE_SHORT">
 			<Text>Spirit World</Text>
 		</Row>
