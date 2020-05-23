@@ -72,6 +72,7 @@
 		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
 			<Text>+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_TOURISM] Tourism from Guilds</Text>
 		</Row>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_ART_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART_SHORT">
 			<Text>Religious Artisans</Text>
 		</Row>

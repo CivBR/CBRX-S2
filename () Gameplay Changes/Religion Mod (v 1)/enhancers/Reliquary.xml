@@ -17,23 +17,5 @@
 			<Text>Gain [ICON_PEACE] Faith whenever a Great Person is expended, scaling with Era</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Delete Tag="TXT_KEY_BELIEF_RELIQUARY" />
-		<Row Tag="TXT_KEY_BELIEF_RELIQUARY">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Gain [ICON_PEACE] Faith whenever a Great Person is expended, scaling with Era</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Delete Tag="TXT_KEY_BELIEF_RELIQUARY" />
-		<Row Tag="TXT_KEY_BELIEF_RELIQUARY">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Gain [ICON_PEACE] Faith whenever a Great Person is expended, scaling with Era</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Delete Tag="TXT_KEY_BELIEF_RELIQUARY" />
-		<Row Tag="TXT_KEY_BELIEF_RELIQUARY">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Gain [ICON_PEACE] Faith whenever a Great Person is expended, scaling with Era</Text>
-		</Row>
-	</Language_RU_RU>
 
 </GameData>

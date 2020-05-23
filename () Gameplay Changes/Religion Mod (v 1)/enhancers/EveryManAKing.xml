@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 10/29/2018 7:12:28 PM -->
+
 <GameData>
 	<Beliefs>
 		<Row>
@@ -56,6 +56,7 @@
 	</Belief_CityYieldChanges>
 
 	<Language_en_US>
+	 <Delete Tag="TXT_KEY_BELIEF_EVERY_MAN_A_KING" />
 		<Row Tag="TXT_KEY_BELIEF_EVERY_MAN_A_KING">
 			<Text>All cities recieve +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, [ICON_PEACE] Faith, [ICON_CULTURE] Culture, [ICON_SCIENCE] Science per city. However the Palace loses 15 [ICON_CULTURE], [ICON_SCIENCE] Science and [ICON_PEACE] Faith.</Text>
 		</Row>

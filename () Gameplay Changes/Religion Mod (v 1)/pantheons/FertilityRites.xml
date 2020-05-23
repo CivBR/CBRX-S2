@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 8/19/2018 6:41:17 PM -->
 <GameData>
 	<Beliefs>
 		<Row>
@@ -27,45 +26,10 @@
 	</Belief_BuildingClassYieldChanges>
 
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_FERTILITY_RITES_NQ" />
 		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES_NQ">
-			<Text>+1 [ICON_FOOD] Food from Aqueducts and Water Mills</Text>
+			<Text>+1 [ICON_FOOD] Food from Aqueducts and Water Mills. +1 Happiness from Cities on Rivers.</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES_NQ">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_FOOD] Food from Aqueducts and Water Mills</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES_NQ">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_FOOD] Food from Aqueducts and Water Mills</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES_NQ">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_FOOD] Food from Aqueducts and Water Mills</Text>
-		</Row>
-	</Language_RU_RU>
-
-	<Language_en_US>
-		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES_NQ_SHORT">
-			<Text>Fertility Rites</Text>
-		</Row>
-	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES_NQ_SHORT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Fertility Rites</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES_NQ_SHORT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Fertility Rites</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES_NQ_SHORT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Fertility Rites</Text>
-		</Row>
-	</Language_RU_RU>
   
 </GameData>

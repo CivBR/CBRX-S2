@@ -38,6 +38,7 @@
 	</Belief_CityYieldChanges>
 
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_MANDATORY_TRIBUTE" />
 		<Row Tag="TXT_KEY_BELIEF_MANDATORY_TRIBUTE">
 			<Text>+15 [ICON_FOOD] Food and +15 [ICON_PRODUCTION] in the Capital but -2 [ICON_FAITH] Faith and -2 [ICON_CULTURE] Culture in all other cities.</Text>
 		</Row>

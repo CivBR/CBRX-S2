@@ -13,7 +13,8 @@
   </Beliefs>
   
   	<Language_en_US>
-		<Row Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS_TEXTS">
+	  <Delete Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS" />
+		<Row Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS">
 			<Text>Religion spreads to cities 35% further away.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS_SHORT">

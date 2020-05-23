@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 10/22/2018 12:22:57 AM -->
+
 <GameData>
 	<Beliefs>
 		<Row>
@@ -20,6 +20,7 @@
 	</Belief_CityYieldChanges>
 
 	<Language_en_US>
+	 <Delete Tag="TXT_KEY_BELIEF_POPULOUS_PIETY" />
 		<Row Tag="TXT_KEY_BELIEF_POPULOUS_PIETY">
 			<Text>+10 [ICON_FAITH] Faith in Cities with 10 followers</Text>
 		</Row>

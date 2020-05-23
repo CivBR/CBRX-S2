@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 8/19/2018 6:46:44 PM -->
+
 <GameData>
 	<Beliefs>
 		<Row>
@@ -20,8 +20,12 @@
 	</Belief_BuildingClassYieldChanges>
 
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION" />
 		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION">
 			<Text>+3 [ICON_PEACE] Faith from Walls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION_SHORT">
+			<Text>Goddess of Protection</Text>
 		</Row>
 	</Language_en_US>
   

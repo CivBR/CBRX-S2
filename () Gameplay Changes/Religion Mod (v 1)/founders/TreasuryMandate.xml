@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 10/29/2018 11:40:11 PM -->
+
 <GameData>
 	<Beliefs>
 		<Row>
@@ -19,6 +19,7 @@
 	</Belief_YieldChangePerForeignCity>
 
 	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_TREASURY_MANDATE" />
 		<Row Tag="TXT_KEY_BELIEF_TREASURY_MANDATE">
 			<Text>2 [ICON_GOLD] Gold for each foreign City following this Religion</Text>
 		</Row>

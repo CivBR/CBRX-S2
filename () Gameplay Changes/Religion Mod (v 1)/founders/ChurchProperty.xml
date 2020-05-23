@@ -25,6 +25,7 @@
 	</Belief_MaxYieldModifierPerFollower>
 
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_CHURCHPROPERTY" />
 		<Row Tag="TXT_KEY_BELIEF_CHURCHPROPERTY">
 			<Text>+5 [ICON_GOLD] Gold from the Holy City. +1% [ICON_GOLD] Gold for each follower (max +10%)</Text>
 		</Row>

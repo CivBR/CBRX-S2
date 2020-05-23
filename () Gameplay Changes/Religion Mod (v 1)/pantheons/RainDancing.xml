@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
 <GameData>
 
-	<!-- +1 Culture and +1 Faith from Lakes and Oases. -->
 	<Beliefs>
 		<Row>
 			<Type>BELIEF_RAIN_DANCING</Type>
@@ -59,29 +57,5 @@
 			<Text>Rain Dancing</Text>
 		</Row>
 	</Language_en_US>
-	<Language_DE_DE>
-		<Row Tag="TXT_KEY_BELIEF_RAIN_DANCING">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_GOLD] Gold, +1 [ICON_CULTURE] Culture, and +1 [ICON_PEACE] Faith from Lakes and Oases</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_RAIN_DANCING_SHORT">
-			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Rain Dancing</Text>
-		</Row>
-	</Language_DE_DE>
-	<Language_PL_PL>
-		<Row Tag="TXT_KEY_BELIEF_RAIN_DANCING">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_GOLD] Gold, +1 [ICON_CULTURE] Culture, and +1 [ICON_PEACE] Faith from Lakes and Oases</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_RAIN_DANCING_SHORT">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Rain Dancing</Text>
-		</Row>
-	</Language_PL_PL>
-	<Language_RU_RU>
-		<Row Tag="TXT_KEY_BELIEF_RAIN_DANCING">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_GOLD] Gold, +1 [ICON_CULTURE] Culture, and +1 [ICON_PEACE] Faith from Lakes and Oases</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BELIEF_RAIN_DANCING_SHORT">
-			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Rain Dancing</Text>
-		</Row>
-	</Language_RU_RU>
 
 </GameData>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 10/20/2018 12:06:20 AM -->
 <GameData>
 	<Beliefs>
 		<Row>
@@ -24,7 +23,6 @@
 		</Row>
 	</Belief_ImprovementYieldChanges>
 
-	<!-- localization -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_BLESSED_BE_THE_CHEESEMAKERS">
 			<Text>+1 [ICON_PRODUCTION] Production and +1 [ICON_PEACE] Faith from Pastures.</Text>

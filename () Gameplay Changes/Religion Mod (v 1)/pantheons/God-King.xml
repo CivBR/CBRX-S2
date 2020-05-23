@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 
-	<!-- +1 Food, +1 Production, +1 Gold, +1 Culture, +1 Science, +1 Faith, and +1 Happiness in the Capital. -->
 	<Belief_BuildingClassYieldChanges>
 		<Row>
 			<BeliefType>BELIEF_GOD_KING</BeliefType>
@@ -44,7 +43,7 @@
 		<Row>
 			<BeliefType>BELIEF_GOD_KING</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
-			<Happiness>3</Happiness>
+			<Happiness>2</Happiness>
 		</Row>
 	</Belief_BuildingClassHappiness>
 

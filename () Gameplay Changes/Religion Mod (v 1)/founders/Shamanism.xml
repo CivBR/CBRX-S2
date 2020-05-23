@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
 <GameData>
 
-	<!-- Great Prophets and Missionaries earned with 25% less Faith. -->
 	<Beliefs>
 		<Update>
 			<Set ProphetStrengthModifier="0" MissionaryCostModifier="-30" ProphetCostModifier="-30" Enhancer="false" Founder="true" />
@@ -10,7 +8,6 @@
 		</Update>
 	</Beliefs>
 
-	<!-- localization -->
 	<Language_en_US>
 		
 		<Delete Tag="TXT_KEY_BELIEF_MESSIAH" />

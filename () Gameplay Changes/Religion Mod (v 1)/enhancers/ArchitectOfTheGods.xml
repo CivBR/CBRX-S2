@@ -48,6 +48,7 @@
 		</Row>
 	</Belief_ImprovementYieldChanges>
 	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_ARCHITECT_OF_THE_GODS" />
 		<Row Tag="TXT_KEY_BELIEF_ARCHITECT_OF_THE_GODS">
 			<Text>+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, +2 [ICON_PEACE] Faith and +2 [ICON_GOLD] Gold for Citadels.  +2 [ICON_FAITH] Faith and +2 [ICON_GOLD] Gold for Forts. </Text>
 		</Row>

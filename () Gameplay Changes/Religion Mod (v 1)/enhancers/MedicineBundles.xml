@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_MEDICINEBUNDLES</Type>
+			<Description>TXT_KEY_BELIEF_MEDICINEBUNDLES</Description>
+			<ShortDescription>TXT_KEY_BELIEF_MEDICINEBUNDLES_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+            <FriendlyHealChange>40</FriendlyHealChange>
+            <CityRangeStrikeModifier>40</CityRangeStrikeModifier>
+		</Row>
+	</Beliefs>
+
+	<Language_en_US>
+	 <Delete Tag="TXT_KEY_BELIEF_MEDICINEBUNDLES" />
+		<Row Tag="TXT_KEY_BELIEF_MEDICINEBUNDLES">
+			<Text>Unites adjacent to a friendly City heal +40 HP per turn, +40% increase in City Ranged Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MEDICINEBUNDLES_SHORT">
+			<Text>Medicine Bundles</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -12,6 +12,7 @@
 	</Beliefs>
 
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_RELIGIOUSSETTLEMENTS" />
 		<Row Tag="TXT_KEY_BELIEF_RELIGIOUSSETTLEMENTS">
 			<Text>20% faster border growth.</Text>
 		</Row>

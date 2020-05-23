@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
 <GameData>
 
-	<!-- +1 Faith from Horses, Deer, Bison, Ivory, and Furs. -->
 	<Beliefs>
 		<Row>
 			<Type>BELIEF_SPIRIT_ANIMALS</Type>
@@ -74,9 +72,11 @@
 		</Row>
 	</Belief_ResourceYieldChanges>
 	<Language_en_US>
+	<Delete Tag="TXT_KEY_BELIEF_SPIRIT_ANIMALS" />
 		<Row Tag="TXT_KEY_BELIEF_SPIRIT_ANIMALS">
 			<Text>+1 [ICON_PEACE] and +1 [ICON_CULTURE] Culture Faith from Bison, Deer, Furs, Horses, and Ivory</Text>
 		</Row>
+		<Delete Tag="TXT_KEY_BELIEF_SPIRIT_ANIMALS_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_SPIRIT_ANIMALS_SHORT">
 			<Text>Spirit Animals</Text>
 		</Row>
