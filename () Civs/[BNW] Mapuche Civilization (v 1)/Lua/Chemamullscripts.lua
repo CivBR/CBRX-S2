@@ -107,19 +107,22 @@ function onImprovementCreated(playerID, iX, iY, improvementID)
 		tAllChemamull[pPlot] = true
 		if pPlot:IsImprovementPillaged() then
 			pPlot:SetOwner(-1)	
-			for _, pPlayer in pairs(Players) do
-				if (pPlayer:IsAlive()) then
-					for pCity in pPlayer:Cities() do
-						local iPlotCost = pCity:GetBuyPlotCost(iX, iY)
-						local anticost = 0 - iPlotCost
-						pPlayer:ChangeGold(iPlotCost);
-						if (pCity:CanBuyPlotAt(iX, iY, false)) then
-							pPlot:SetOwner(pCity:GetOwner(), pCity:GetID())
-							pPlot:SetOwnershipDuration(1);
+			for id, pPlayer in pairs(Players) do
+				if id > 0 then
+					if (pPlayer:IsAlive()) then
+						for pCity in pPlayer:Cities() do
+							local iPlotCost = pCity:GetBuyPlotCost(iX, iY)
+							local anticost = 0 - iPlotCost
+							pPlayer:ChangeGold(iPlotCost);
+							if (pCity:CanBuyPlotAt(iX, iY, false)) then
+								pPlot:SetOwner(pCity:GetOwner(), pCity:GetID())
+								pPlot:SetOwnershipDuration(1);
+							end
+							pPlayer:ChangeGold(anticost);
 						end
-						pPlayer:ChangeGold(anticost);
 					end
 				end
+				
 			end
 		end
 	else
