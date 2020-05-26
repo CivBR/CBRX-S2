@@ -131,12 +131,12 @@ VALUES	('CIVILIZATION_EW_PARG', 'TXT_KEY_EW_PARG_CITY_1'),
 
 INSERT INTO Units 
 		(Type,	Description,	Civilopedia,	Strategy,	Help,	Combat,	Cost,	FaithCost,	RequiresFaithPurchaseEnabled,	Moves,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority,	DefaultUnitAI,	AdvancedStartCost,	WorkRate,	BaseGold,	NumGoldPerEra,	UnitArtInfo,	ShowInPedia,	MoveRate,	UnitFlagIconOffset,	PortraitIndex,	IconAtlas,	UnitFlagAtlas,	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance)
-SELECT	('UNIT_EW_BRONEPOEZD'),	('TXT_KEY_UNIT_EW_BRONEPOEZD'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_PEDIA'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_STRATEGY'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_HELP'),	Combat,	Cost,	FaithCost,	RequiresFaithPurchaseEnabled,	1,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority, DefaultUnitAI,	AdvancedStartCost,	100,	BaseGold,	NumGoldPerEra,	('ART_DEF_UNIT_EW_BRONEPOEZD'),	ShowInPedia,	MoveRate,	0,	PortraitIndex,	IconAtlas,	('EW_BRONEPOEZD_ALPHA'),	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance
+SELECT	('UNIT_EW_BRONEPOEZD'),	('TXT_KEY_UNIT_EW_BRONEPOEZD'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_PEDIA'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_STRATEGY'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_HELP'),	Combat,	Cost,	FaithCost,	RequiresFaithPurchaseEnabled,	1,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority, DefaultUnitAI,	AdvancedStartCost,	100,	BaseGold,	NumGoldPerEra,	('ART_DEF_UNIT_EW_BRONEPOEZD'),	ShowInPedia,	MoveRate,	0,	2,	('ATLAS_EW_KOLCHAK'),	('EW_BRONEPOEZD_ALPHA'),	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance
 FROM Units WHERE (Type = 'UNIT_WWI_TANK');
 
 INSERT INTO Units 
 		(Type,	Description,	Civilopedia,	Strategy,	Help,	Combat,	Cost,	FaithCost,	RequiresFaithPurchaseEnabled,	Moves,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority,	DefaultUnitAI,	AdvancedStartCost,	WorkRate,	BaseGold,	NumGoldPerEra,	UnitArtInfo,	ShowInPedia,	MoveRate,	UnitFlagIconOffset,	PortraitIndex,	IconAtlas,	UnitFlagAtlas,	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance,	RangedCombat,	Range,	CombatClass)
-SELECT	('UNIT_EW_BRONEPOEZD_RANGED'),	('TXT_KEY_UNIT_EW_BRONEPOEZD'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_PEDIA'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_STRATEGY'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_HELP'),	Combat,	-1,	FaithCost,	RequiresFaithPurchaseEnabled,	1,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority, ('UNITAI_DEFENSE'),	AdvancedStartCost,	100,	BaseGold,	NumGoldPerEra,	('ART_DEF_UNIT_EW_BRONEPOEZD'),	ShowInPedia,	MoveRate,	0,	PortraitIndex,	IconAtlas,	('EW_BRONEPOEZD_ALPHA'),	PrereqTech,	ObsoleteTech,	Trade,	1,	NoMaintenance,	50,	2,	('UNITCOMBAT_ARCHER')
+SELECT	('UNIT_EW_BRONEPOEZD_RANGED'),	('TXT_KEY_UNIT_EW_BRONEPOEZD'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_PEDIA'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_STRATEGY'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_HELP'),	Combat,	-1,	FaithCost,	RequiresFaithPurchaseEnabled,	1,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority, ('UNITAI_DEFENSE'),	AdvancedStartCost,	100,	BaseGold,	NumGoldPerEra,	('ART_DEF_UNIT_EW_BRONEPOEZD'),	ShowInPedia,	MoveRate,	0,	2,	('ATLAS_EW_KOLCHAK'),	('EW_BRONEPOEZD_ALPHA'),	PrereqTech,	ObsoleteTech,	Trade,	1,	NoMaintenance,	50,	2,	('UNITCOMBAT_ARCHER')
 FROM Units WHERE (Type = 'UNIT_WWI_TANK');
 		
 -----
@@ -183,13 +183,13 @@ VALUES	('UNIT_EW_BRONEPOEZD',	'PROMOTION_ONLY_DEFENSIVE'),
 
 INSERT INTO UnitClasses
 		(Type,	Description,	DefaultUnit)
-VALUES	('UNITCLASS_EW_LEGIONE',	'TXT_KEY_UNIT_EW_LEGIONE',	'UNIT_EW_LEGIONE');
+VALUES	('UNITCLASS_EW_LEGIONE',	'TXT_KEY_UNIT_EW_LEGIONE',	'UNIT_GREAT_WAR_INFANTRY');
 
 -----
 
 INSERT INTO Units
 		(Type,	Description,	Civilopedia,	Strategy,	Help,	Combat,	Cost,	FaithCost,	RequiresFaithPurchaseEnabled,	Moves,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority,	DefaultUnitAI,	AdvancedStartCost,	WorkRate,	BaseGold,	NumGoldPerEra,	UnitArtInfo,	ShowInPedia,	MoveRate,	UnitFlagIconOffset,	PortraitIndex,	IconAtlas,	UnitFlagAtlas,	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance)
-SELECT	'UNIT_EW_LEGIONE',	'TXT_KEY_UNIT_EW_LEGIONE',	'PEDIA_EW_LEGIONE',	'TXT_KEY_UNIT_EW_LEGIONE_STRATEGY',	'TXT_KEY_UNIT_EW_LEGIONE_HELP',	Combat + 5,	Cost - 40,	FaithCost,	RequiresFaithPurchaseEnabled,	Moves,	BaseSightRange,	'UNITCLASS_EW_LEGIONE',	Special,	Domain,	CivilianAttackPriority,	DefaultUnitAI,	AdvancedStartCost,	WorkRate,	BaseGold,	NumGoldPerEra,	UnitArtInfo,	ShowInPedia,	MoveRate,	0,	2,	('ATLAS_EW_KOLCHAK'),	('ALPHA_EW_LEGIONE'),	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance
+SELECT	'UNIT_EW_LEGIONE',	'TXT_KEY_UNIT_EW_LEGIONE',	'PEDIA_EW_LEGIONE',	'TXT_KEY_UNIT_EW_LEGIONE_STRATEGY',	'TXT_KEY_UNIT_EW_LEGIONE_HELP',	Combat + 5,	Cost - 40,	FaithCost,	RequiresFaithPurchaseEnabled,	Moves,	BaseSightRange,	'UNITCLASS_EW_LEGIONE',	Special,	Domain,	CivilianAttackPriority,	DefaultUnitAI,	AdvancedStartCost,	WorkRate,	BaseGold,	NumGoldPerEra,	'ART_DEF_UNIT_EW_LEGIONE',	ShowInPedia,	MoveRate,	0,	1,	('ATLAS_EW_KOLCHAK'),	('ALPHA_EW_LEGIONE'),	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance
 FROM Units WHERE (Type = 'UNIT_GREAT_WAR_INFANTRY');
 
 -----

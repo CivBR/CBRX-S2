@@ -274,7 +274,7 @@ FROM Civilization_JFD_CultureTypes WHERE CivilizationType = 'CIVILIZATION_RUSSIA
 
 UPDATE Civilizations 
 SET SoundtrackTag = 'JFD_ClassicalRoman'
-WHERE Type = 'CIVILIZATION_EW_PARG'
+WHERE CivilizationType = 'CIVILIZATION_EW_PARG'
 AND EXISTS (SELECT * FROM Civilization_JFD_CultureTypes WHERE SoundtrackTag = 'JFD_ClassicalRoman');
 --------------------------------------------------------------------------------------------------------------------------
 -- MinorCivilization_JFD_CultureTypes

@@ -38,6 +38,10 @@ function EW_PARG_DoTurn(playerID)
 
 		--Counts Trade Routes to All-Russia
 
+		for k, v in pairs(player:GetTradeRoutesToYou()) do
+			Parg_Friend[playerID] = Parg_Friend[playerID] + 1
+		end
+
 		for k, v in pairs(player:GetTradeRoutes()) do
 			Parg_Friend[playerID] = Parg_Friend[playerID] + 1
 		end
@@ -213,15 +217,12 @@ local legione = GameInfoTypes["UNIT_EW_LEGIONE"]
 --Makes it so it can only be trained during war
 function EW_Legione_CanTrain(playerID, cityID, unitType)
 	local player = Players[playerID]
-	if player:GetCivilizationType() == parg then
-		if unitType == legione then
-			local team = Teams[player:GetTeam()]
-			if team:GetAtWarCount(true) > 0 then
-				return true
-			end
-			return false
+	if (player:GetCivilizationType() == parg) and (unitType == legione) then
+		local team = Teams[player:GetTeam()]
+		if team:GetAtWarCount(true) > 0 then
+			return true
 		end
-		return true
+		return false
 	end
 	return true
 end

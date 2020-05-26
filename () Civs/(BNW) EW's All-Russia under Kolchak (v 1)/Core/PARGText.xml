@@ -63,7 +63,7 @@
 			<Text>Siberian Intervention</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_EW_TSRR">
-			<Text>Upon entering war, Trade Routes grant you a Unit near your capital for the duration. Occupied cities earn more production.</Text>
+			<Text>Upon entering war, Trade Routes grant you a Unit near your capital for the duration of the war. Occupied cities earn more production.</Text>
 		</Row>
 		<!--Civilization-->
 		<Row Tag="TXT_KEY_CIVILIZATION_EW_PARG">

@@ -1,5 +1,0 @@
-<Asset>
-  <Mesh file="perhaps.gr2" source="Tool" />
-  <Texture file="bronepoezd_diff.dds" />
-  <Texture file="bronepoezd_sref.dds" />
-</Asset>
