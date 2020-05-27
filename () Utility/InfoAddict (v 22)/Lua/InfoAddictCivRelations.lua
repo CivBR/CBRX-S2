@@ -178,7 +178,7 @@ function initIconPositions()
     end;
   end;
 end;
-initIconPositions();
+--initIconPositions();
 
 
 -- Initialize the civ selections
@@ -187,7 +187,7 @@ function initCivSelected()
     civSelected[pid] = false;
   end;
 end;
-initCivSelected();
+--initCivSelected();
 
 
 -- Initialize the key selections and keyBarControls
@@ -242,7 +242,7 @@ function initKeySelected()
   keyBarControl[keyType.neutral] = Controls.NeutralKeyBar;
 
 end;
-initKeySelected();
+--initKeySelected();
 
 
 
@@ -1216,6 +1216,7 @@ function showConnector(civ1, civ2, color)
   local connector = cid .. "." .. count;
   logger:debug("Unhiding " .. connector);
   local connectorcontrol = Controls[connector];
+  
   connectorcontrol:SetHide(false);
   connectorcontrol:SetColor(color);
 
@@ -1325,47 +1326,47 @@ function OnKey(key)
 end;
 
 
-Controls.WarKeyButton:SetVoid1(keyType.war);
-Controls.WarKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.WarKeyButton:SetVoid1(keyType.war);
+-- Controls.WarKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.DefensiveKeyButton:SetVoid1(keyType.defensive);
-Controls.DefensiveKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.DefensiveKeyButton:SetVoid1(keyType.defensive);
+-- Controls.DefensiveKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.DenounceKeyButton:SetVoid1(keyType.denounce);
-Controls.DenounceKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.DenounceKeyButton:SetVoid1(keyType.denounce);
+-- Controls.DenounceKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.DoFKeyButton:SetVoid1(keyType.DoF);
-Controls.DoFKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.DoFKeyButton:SetVoid1(keyType.DoF);
+-- Controls.DoFKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.BordersKeyButton:SetVoid1(keyType.borders);
-Controls.BordersKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.BordersKeyButton:SetVoid1(keyType.borders);
+-- Controls.BordersKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.ResearchKeyButton:SetVoid1(keyType.research);
-Controls.ResearchKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.ResearchKeyButton:SetVoid1(keyType.research);
+-- Controls.ResearchKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.TradeRouteKeyButton:SetVoid1(keyType.traderoute);
-Controls.TradeRouteKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.TradeRouteKeyButton:SetVoid1(keyType.traderoute);
+-- Controls.TradeRouteKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.GPTKeyButton:SetVoid1(keyType.GPT);
-Controls.GPTKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.GPTKeyButton:SetVoid1(keyType.GPT);
+-- Controls.GPTKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.ResourceKeyButton:SetVoid1(keyType.resource);
-Controls.ResourceKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.ResourceKeyButton:SetVoid1(keyType.resource);
+-- Controls.ResourceKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.HostileKeyButton:SetVoid1(keyType.hostile);
-Controls.HostileKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.HostileKeyButton:SetVoid1(keyType.hostile);
+-- Controls.HostileKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.GuardedKeyButton:SetVoid1(keyType.guarded);
-Controls.GuardedKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.GuardedKeyButton:SetVoid1(keyType.guarded);
+-- Controls.GuardedKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.AfraidKeyButton:SetVoid1(keyType.afraid);
-Controls.AfraidKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.AfraidKeyButton:SetVoid1(keyType.afraid);
+-- Controls.AfraidKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.FriendlyKeyButton:SetVoid1(keyType.friendly);
-Controls.FriendlyKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.FriendlyKeyButton:SetVoid1(keyType.friendly);
+-- Controls.FriendlyKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
-Controls.NeutralKeyButton:SetVoid1(keyType.neutral);
-Controls.NeutralKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
+-- Controls.NeutralKeyButton:SetVoid1(keyType.neutral);
+-- Controls.NeutralKeyButton:RegisterCallback( Mouse.eLClick, OnKey);
 
 
 -- Check to see if any key at all has been selected.
@@ -1426,7 +1427,7 @@ function OnSelectionReset()
   initCivSelected();
   BuildView(lastView);
 end;
-Controls.SelectionResetButton:RegisterCallback( Mouse.eLClick, OnSelectionReset);
+--Controls.SelectionResetButton:RegisterCallback( Mouse.eLClick, OnSelectionReset);
 
 
 
@@ -1468,19 +1469,19 @@ function OnPolitical()
   BuildView("political");
   HighlightSelected("political");
 end
-Controls.PoliticalButton:RegisterCallback( Mouse.eLClick, OnPolitical);
+--Controls.PoliticalButton:RegisterCallback( Mouse.eLClick, OnPolitical);
 
 function OnEconomic()
   BuildView("economic");
   HighlightSelected("economic");
 end
-Controls.EconomicButton:RegisterCallback( Mouse.eLClick, OnEconomic);
+--Controls.EconomicButton:RegisterCallback( Mouse.eLClick, OnEconomic);
 
 function OnAttitude()
   BuildView("attitude");
   HighlightSelected("attitude");
 end
-Controls.AttitudeButton:RegisterCallback( Mouse.eLClick, OnAttitude);
+--Controls.AttitudeButton:RegisterCallback( Mouse.eLClick, OnAttitude);
 
 
 -- Re-draw the last view when the windows pops up just in case
@@ -1493,7 +1494,7 @@ function ShowHideHandler( bIsHide, bInitState )
     end
   end
 end
-ContextPtr:SetShowHideHandler( ShowHideHandler );
+--ContextPtr:SetShowHideHandler( ShowHideHandler );
 
 
 -- Certain events should cause the graphs to redraw themselves
@@ -1501,17 +1502,17 @@ ContextPtr:SetShowHideHandler( ShowHideHandler );
 function turnStartHandler()
   BuildView(lastView);
 end
-Events.ActivePlayerTurnStart.Add( turnStartHandler );
+--Events.ActivePlayerTurnStart.Add( turnStartHandler );
 
 function teamMetHandler()
   logger:debug("New leader encountered, redrawing relations");
   BuildView(lastView);
 end
-Events.TeamMet.Add( teamMetHandler );
+--Events.TeamMet.Add( teamMetHandler );
 
 
 
 -- Initialize the display to the political view and redraw the current
 -- view at the beginning of each turn.
 
-OnPolitical();
+--OnPolitical();
