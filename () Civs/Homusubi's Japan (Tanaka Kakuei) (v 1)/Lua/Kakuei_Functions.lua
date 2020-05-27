@@ -62,61 +62,63 @@ if isKakueiActive then
 end
 	
 local iShinkStation = GameInfoTypes["BUILDING_SM_SHINKANSEN_BONUS"]
+local iShinkansenTerminal = GameInfoTypes["BUILDING_SM_SHINKANSEN_TERMINAL"]
 
-function SM_GetTerminalCity(thisCity, pPlayer)
+function SM_GetTerminalCity(pPlayer)
 	-- print("SM_GetTerminalCity activated")
     for city in pPlayer:Cities() do
-        if city ~= thisCity then
-            if city:IsHasBuilding(GameInfoTypes["BUILDING_SM_SHINKANSEN_TERMINAL"]) then
-                return city
-            end
+		if city:IsHasBuilding(iShinkansenTerminal) then
+			return city
         end
     end
 end
 
+local iMarket = GameInfoTypes["BUILDING_MARKET"]
+local iBank = GameInfoTypes["BUILDING_BANK"]
+local iWeigh = GameInfoTypes["BUILDING_EE_WEIGH_HOUSE"]
+
 function SM_AddShinkEffect(playerID)
 	-- print("AddShinkEffect activated")
 	local pPlayer = Players[playerID]
-	local terminalCity = SM_GetTerminalCity(city, pPlayer)
-	local iMarket = GameInfoTypes["BUILDING_MARKET"]
-	local iBank = GameInfoTypes["BUILDING_BANK"]
-	local iWeigh = GameInfoTypes["BUILDING_EE_WEIGH_HOUSE"]
-    if (pPlayer:IsAlive() and pPlayer:GetCivilizationType() == iTanakaCiv) then 
-		if not ((pPlayer:GetNumCities()) > 1) then
-			local pCapital = pPlayer:GetCapitalCity()
-			pCapital:SetNumRealBuilding(iShinkStation, 0)
-			return
-		end
-		for pCity in pPlayer:Cities() do
-			local pMarketProduction = (pCity:GetBuildingProductionNeeded(iMarket))
-			local pBankProduction = (pCity:GetBuildingProductionNeeded(iBank))
-			local pWeighProduction = (pCity:GetBuildingProductionNeeded(iWeigh))
-			local pKeiretsuProduction = (pCity:GetBuildingProductionNeeded(iKeiretsu))
-			if isCityConnected(player, terminalCity, pCity, 'Railroad', false, false, nil) then
-					if not(pCity:IsHasBuilding(iShinkStation)) then
-						pCity:SetNumRealBuilding(iShinkStation, 1)
-						pCity:ChangeBuildingProduction(iMarket, math.floor(pMarketProduction / 2))
-						pCity:ChangeBuildingProduction(iBank, math.floor(pBankProduction / 2))
-						pCity:ChangeBuildingProduction(iWeigh, math.floor(pWeighProduction / 2))
-						pCity:ChangeBuildingProduction(iKeiretsu, math.floor(pKeiretsuProduction / 2))
-					end
-			else
-				if pCity:IsHasBuilding(iShinkStation) then
-					pCity:SetNumRealBuilding(iShinkStation, 0) 
-					pCity:ChangeBuildingProduction(iMarket, math.floor(pMarketProduction / -2))
-					pCity:ChangeBuildingProduction(iBank, math.floor(pBankProduction / -2))
-					pCity:ChangeBuildingProduction(iWeigh, math.floor(pWeighProduction / -2))
-					pCity:ChangeBuildingProduction(iKeiretsu, math.floor(pKeiretsuProduction / -2))
-				end
+	local terminalCity = SM_GetTerminalCity(pPlayer)
+	
+	if not (pPlayer:IsAlive()) then return end
+	if not (pPlayer:GetCivilizationType() == iTanakaCiv) then return end
+	
+	if pPlayer:GetNumCities() == 0 then return end
+	if pPlayer:GetNumCities() == 1 then
+		pPlayer:GetCapitalCity():SetNumRealBuilding(iShinkStation, 0)
+		return
+	end
+	for pCity in pPlayer:Cities() do
+		local pMarketProduction = pCity:GetBuildingProductionNeeded(iMarket)
+		local pBankProduction = pCity:GetBuildingProductionNeeded(iBank)
+		local pWeighProduction = pCity:GetBuildingProductionNeeded(iWeigh)
+		local pKeiretsuProduction = pCity:GetBuildingProductionNeeded(iKeiretsu)
+		if isCityConnected(player, terminalCity, pCity, 'Railroad', false, false, nil) then
+			if not (pCity:IsHasBuilding(iShinkStation)) then
+				pCity:SetNumRealBuilding(iShinkStation, 1)
+				pCity:ChangeBuildingProduction(iMarket, math.floor(pMarketProduction / 2))
+				pCity:ChangeBuildingProduction(iBank, math.floor(pBankProduction / 2))
+				pCity:ChangeBuildingProduction(iWeigh, math.floor(pWeighProduction / 2))
+				pCity:ChangeBuildingProduction(iKeiretsu, math.floor(pKeiretsuProduction / 2))
 			end
-			-- local pProdTest1 = pCity:GetBuildingProduction(iKeiretsu)
-			-- local pProdTest2 = pCity:GetBuildingProductionModifier(iKeiretsu)
-			-- local pProdTest3 = pCity:GetBuildingProductionNeeded(iKeiretsu)
-			-- local pProdTest4 = pCity:GetBuildingProductionTime(iKeiretsu)
-			-- local pProdTest4 = pCity:GetBuildingPurchaseCost(iKeiretsu)
-			-- local pProdTest6 = pCity:GetBuildingPurchaseCost(0, iKeiretsu, 0)
-			-- print(pProdTest1, pProdTest2, pProdTest3, pProdTest4, pProdTest5, pProdTest6)
+		else
+			if pCity:IsHasBuilding(iShinkStation) then
+				pCity:SetNumRealBuilding(iShinkStation, 0) 
+				pCity:ChangeBuildingProduction(iMarket, math.floor(pMarketProduction / -2))
+				pCity:ChangeBuildingProduction(iBank, math.floor(pBankProduction / -2))
+				pCity:ChangeBuildingProduction(iWeigh, math.floor(pWeighProduction / -2))
+				pCity:ChangeBuildingProduction(iKeiretsu, math.floor(pKeiretsuProduction / -2))
+			end
 		end
+		-- local pProdTest1 = pCity:GetBuildingProduction(iKeiretsu)
+		-- local pProdTest2 = pCity:GetBuildingProductionModifier(iKeiretsu)
+		-- local pProdTest3 = pCity:GetBuildingProductionNeeded(iKeiretsu)
+		-- local pProdTest4 = pCity:GetBuildingProductionTime(iKeiretsu)
+		-- local pProdTest4 = pCity:GetBuildingPurchaseCost(iKeiretsu)
+		-- local pProdTest6 = pCity:GetBuildingPurchaseCost(0, iKeiretsu, 0)
+		-- print(pProdTest1, pProdTest2, pProdTest3, pProdTest4, pProdTest5, pProdTest6)
 	end
 end
 
@@ -124,11 +126,12 @@ if isKakueiActive then
 	GameEvents.PlayerDoTurn.Add(SM_AddShinkEffect)
 end
 
-function GetRandom(lower, upper)
-    return Map.Rand((upper + 1) - lower, "") + lower
+----------------------------------------------------------------------------------------------------------------------------
+-- JFD_GetRandom
+----------------------------------------------------------------------------------------------------------------------------
+local function JFD_GetRandom(lower, upper)
+    return Game.Rand((upper + 1) - lower, "") + lower
 end
-
-math.randomseed(os.time())
 
 function GetPlayerByCivilization(civilizationType)
 	-- print("GetPlayerByCivilization activated")
@@ -139,64 +142,21 @@ function GetPlayerByCivilization(civilizationType)
     end
 end
 
-function SM_KakJapan_BuccBootleg(iPlayer)
-	-- print("BuccBootleg activated")
-    local pPlayer = Players[iPlayer]
-
-    local pTeam = Teams[pPlayer:GetTeam()]
-    local iMod = 1000
-	local iCap = 25
-	local iTanakaID = GetPlayerByCivilization(iTanakaCiv)
-    for pUnit in pPlayer:Units() do
-        if pUnit:GetCombatLimit() > 0 then
-            local pPlot = pUnit:GetPlot()
-            local iPlotOwner = pPlot:GetOwner()
-			local pPlotCity = pPlot:GetPlotCity()
-			-- print(iPlotOwner, iTanakaID, pPlayer, pPlotCity);
-            if ((iPlotOwner == iTanakaID) and (not (pPlayer == iPlotOwner)) and (pPlotCity:IsHasBuilding(iKeiretsu))) then
-                -- print("First if cleared")
-				if pPlayer:IsPlayerHasOpenBorders(iPlotOwner) and not(pTeam:IsAtWar(pPlot:GetTeam())) then
-                    -- print("BuccBootleg conditions met")
-					local iRandom = GetRandom(1,100)
-					local iRawTreasury = iPlotOwner:GetGold()
-                    local iModTreasury = (iRawTreasury / iMod)
-					if iModTreasury >= iCap then
-						iModTreasury = iCap
-					end
-                    if iRandom <= iModTreasury then
-						-- print("Creating new unit")
-                        local pNewUnit = iPlotOwner:InitUnit(pUnit:GetUnitType(), pUnit:GetX(), pUnit:GetY())
-                        pNewUnit:Convert(pUnit)
-						if pPlayer:IsHuman() then
-							local description
-							description = Locale.ConvertTextKey("TXT_KEY_SM_KEIRETSU_DEFECT_FROM", pUnit:GetName())
-							local descriptionShort = Locale.ConvertTextKey("TXT_KEY_SM_KEIRETSU_DEFECT_FROM")
-						end
-						if iPlotOwner:IsHuman() then
-							local description
-							description = Locale.ConvertTextKey("TXT_KEY_SM_KEIRETSU_DEFECT_TO", pUnit:GetName())
-							local descriptionShort = Locale.ConvertTextKey("TXT_KEY__SM_KEIRETSU_DEFECT_TO_SHORT")
-						end
-                    end
-                end
-            end
-        end
-    end
-end
+local iMod = 80
+local iCap = 15
+local iTanakaID = GetPlayerByCivilization(iTanakaCiv)
 
 function SM_KakJapan_NewBuccBootleg(iPlayer)
 	-- print("New BuccBootleg activated")
     local pPlayer = Players[iPlayer]
 
     local pTeam = Teams[pPlayer:GetTeam()]
-    local iMod = 80
-	local iCap = 15
-	local iTanakaID = GetPlayerByCivilization(iTanakaCiv)
+
     for pCity in pPlayer:Cities() do
 		if pCity:IsHasBuilding(iKeiretsu) then
 			for i = 0, pCity:GetNumCityPlots()-1, 1 do
 				local pPlot = pCity:GetCityIndexPlot(i)
-				if (pPlot) then
+				if pPlot then
 					-- if pPlot has an enemy unit, trigger a chance to convert it
 					if pPlot:IsUnit() then
 						local pUnit = pPlot:GetUnit()
@@ -207,7 +167,7 @@ function SM_KakJapan_NewBuccBootleg(iPlayer)
 						if ((pPlayer == iTanakaID) and (pPlayer == pPlotOwner) and (not (pPlayer == pOpponent)) and (pUnit:GetCombatLimit() > 0)) then
 							-- print(pPlot, pUnit, pPlayer, pOpponent);
 							if not pTeam:IsAtWar(pOpponent:GetTeam()) then
-								local iRandom = GetRandom(1,100)
+								local iRandom = JFD_GetRandom(1,100)
 								local iRawTreasury = pPlayer:GetGold()
 								local iModTreasury = (iRawTreasury / iMod)
 								if iModTreasury >= iCap then
