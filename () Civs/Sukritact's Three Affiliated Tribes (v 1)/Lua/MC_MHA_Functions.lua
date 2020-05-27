@@ -194,15 +194,16 @@ function PlayerDoTurn_BlackMouth(iPlayer)
 
 				local pPlot = pUnit:GetPlot()
 				for pAdjacentPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-				
-					local iNumUnits = pAdjacentPlot:GetNumUnits()
-					for iVal = 0,(iNumUnits - 1) do
+					if pAdjacentPlot then
+						local iNumUnits = pAdjacentPlot:GetNumUnits()
+						for iVal = 0,(iNumUnits - 1) do
 
-						local pUnit = pAdjacentPlot:GetUnit(iVal)
-						local iOwner = pUnit:GetOwner()
+							local pUnit = pAdjacentPlot:GetUnit(iVal)
+							local iOwner = pUnit:GetOwner()
 
-						if tAtWar[iOwner] then
-							pUnit:ChangeDamage(10, iPlayer)
+							if tAtWar[iOwner] then
+								pUnit:ChangeDamage(10, iPlayer)
+							end
 						end
 					end
 				end
@@ -210,7 +211,6 @@ function PlayerDoTurn_BlackMouth(iPlayer)
 			end
 		end
 	end
-
 end
 
 GameEvents.PlayerDoTurn.Add(PlayerDoTurn_BlackMouth)
