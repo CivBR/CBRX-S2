@@ -104,20 +104,29 @@ end
 --   UU: XP FROM ANY ADJACENT ENEMY DEATH   --
 -- ======================================== --
 
+function Chukchi_IsPlotValid(pPlot, pCity)
+	if (pPlot:GetOwner() == -1) then return true end
+	local iDistance = Map.PlotDistance(pPlot:GetX(), pPlot:GetY(), pCity:GetX(), pCity:GetY())
+	return (iDistance <= 4)
+end
+
 function ChukchiPrekillBonuses(playerID, unitID, unitType, iX, iY, bDelay, killerID)
 	if (not bDelay) then return end
 	if (killerID == -1) then return end
 	local pPlot = Map.GetPlot(iX, iY)
+	local bIsChecked = false
 	for iDirection = 0, iNumDirections, 1 do
 		local pAdjPlot = Map.PlotDirection(pPlot:GetX(), pPlot:GetY(), iDirection)
 		
 		-- if adjacent to Chukchi territory, Chukchi gain the plot
 		local iAdjPlotOwner = pAdjPlot:GetOwner()
-		if iAdjPlotOwner then
-			if Players[iAdjPlotOwner]:GetCivilizationType() == iCiv then
-				local pNearestCity = Neirai_GetNearestCity(iAdjPlotOwner, pAdjPlot)
+		local pOwner = Players[iAdjPlotOwner]
+		if pOwner and (pOwner:GetCivilizationType() == iCiv) and (not bIsChecked) then
+			local pNearestCity = Neirai_GetNearestCity(pOwner, pAdjPlot)
+			if Chukchi_IsPlotValid(pPlot, pNearestCity) then
 				pPlot:SetOwner(iAdjPlotOwner, pNearestCity:GetID())
 			end
+			bIsChecked = true
 		end
 		
 		-- adjacent Chulteninn gains XP, regardless of involvement
