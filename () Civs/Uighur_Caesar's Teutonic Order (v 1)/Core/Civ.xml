@@ -4,16 +4,16 @@
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_UC_TEUTONS_ICON</Type>
-			<Red>.597</Red>
-			<Green>.555</Green>
-			<Blue>.453</Blue>
+			<Red>.12</Red>
+			<Green>.11</Green>
+			<Blue>.12</Blue>
 			<Alpha>1.0</Alpha>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_UC_TEUTONS_BACKGROUND</Type>
-			<Red>.144</Red>
-			<Green>.18</Green>
-			<Blue>.207</Blue>
+			<Red>.53</Red>
+			<Green>.57</Green>
+			<Blue>.61</Blue>
 			<Alpha>1.0</Alpha>
 		</Row>
 	</Colors>
