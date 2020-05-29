@@ -94,7 +94,7 @@ VALUES	('AS2D_AMBIENCE_LEADER_JFD_VANDALS_GENSERIC_AMBIENCE',	'SND_AMBIENCE_COAS
 INSERT INTO Colors 
 		(Type, 												Red, 	Green, 	Blue, 	Alpha)
 VALUES	('COLOR_PLAYER_JFD_VANDALS_GENSERIC_ICON', 			0.341, 	0.066,	0, 		1),
-		('COLOR_PLAYER_JFD_VANDALS_GENSERIC_BACKGROUND',	0.768,	0.529,	0.341, 	1);
+		('COLOR_PLAYER_JFD_VANDALS_GENSERIC_BACKGROUND',	0.85,	0.61,	0.42, 	1);
 --------------------------------------------------------------------------------------------------------------------------
 -- PlayerColors
 --------------------------------------------------------------------------------------------------------------------------				
