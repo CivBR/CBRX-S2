@@ -238,16 +238,16 @@
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_BHUTAN_ICON</Type>
-			<Red>0.886</Red>
-			<Green>0.239</Green>
-			<Blue>0.156</Blue>
+			<Red>0.937</Red>
+			<Green>0.698</Green>
+			<Blue>0.176</Blue>
 			<Alpha>1.0</Alpha>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_BHUTAN_BACKGROUND</Type>
-			<Red>0.937</Red>
-			<Green>0.698</Green>
-			<Blue>0.176</Blue>
+			<Red>0.886</Red>
+			<Green>0.239</Green>
+			<Blue>0.156</Blue>
 			<Alpha>1.0</Alpha>
 		</Row>
 	</Colors>
