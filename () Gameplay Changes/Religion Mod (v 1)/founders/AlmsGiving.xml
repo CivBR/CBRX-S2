@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	
-		<Beliefs>
+	<Beliefs>
 		<Row>
 			<Type>BELIEF_ALMSGIVING</Type>
 			<Description>TXT_KEY_BELIEF_ALMSGIVING</Description>
