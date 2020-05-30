@@ -265,16 +265,16 @@
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_WALES_ICON</Type>
-			<Red>0.706</Red>
-			<Green>0.000</Green>
-			<Blue>0.000</Blue>
+			<Red>0.59</Red>
+			<Green>0.1</Green>
+			<Blue>0.12</Blue>
 			<Alpha>1</Alpha>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_WALES_BACKGROUND</Type>
-			<Red>0.000</Red>
-			<Green>0.502</Green>
-			<Blue>0.000</Blue>
+			<Red>0.33</Red>
+			<Green>0.5</Green>
+			<Blue>0.37</Blue>
 			<Alpha>1</Alpha>
 		</Row>
 	</Colors>
