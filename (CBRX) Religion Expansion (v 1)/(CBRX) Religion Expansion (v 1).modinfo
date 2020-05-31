@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4ef0d47c-a29d-4291-9281-675cc1ecd9d1" version="1">
+  <Properties>
+    <Name>(CBRX) Religion Expansion</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Expands Civ V Religions</Teaser>
+    <Description>Expands Civ V Religions</Description>
+    <Authors>Limaeus, Coiot</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="6AA0E01A5EAE08A586132AA4345C4A46" import="0">Lua/MainFunctions.lua</File>
+    <File md5="0FB4FE11B5E5BACCE4CC68DC9800DE18" import="0">SQL/Beliefs.sql</File>
+    <File md5="A11DBC74B0583C2FD46F9A108DB9BDC4" import="0">SQL/Buildings.sql</File>
+    <File md5="B03DED4986A1B427E259464DDD474B3D" import="0">XML/GameText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Beliefs.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Buildings.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/MainFunctions.lua">
+      <Name>MainFunctions</Name>
+      <Description>MainFunctions</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
