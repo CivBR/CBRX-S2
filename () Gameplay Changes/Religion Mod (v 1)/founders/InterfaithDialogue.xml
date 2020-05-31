@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_INTERFAITHDIALOGUE</Type>
+			<Description>TXT_KEY_BELIEF_INTERFAITHDIALOGUE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_INTERFAITHDIALOGUE_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+  
+   <Belief_TradeRouteYieldChange>
+        <BeliefType>BELIEF_INTERFAITHDIALOGUE</BeliefType>
+        <DomainType>DOMAIN_LAND</DomainType>
+        <YieldType>YIELD_SCIENCE</YieldType>
+        <Yield>4</Yield>
+    </Belief_TradeRouteYieldChange>
+    
+    <Belief_TradeRouteYieldChange>
+        <BeliefType>BELIEF_INTERFAITHDIALOGUE</BeliefType>
+        <DomainType>DOMAIN_SEA</DomainType>
+        <YieldType>YIELD_SCIENCE</YieldType>
+        <Yield>4</Yield>
+    </Belief_TradeRouteYieldChange>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_INTERFAITHDIALOGUE">
+			<Text>4 [ICON_SCIENCE] Science from trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_INTERFAITHDIALOGUE_SHORT">
+			<Text>Interfaith Dialogue</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>
