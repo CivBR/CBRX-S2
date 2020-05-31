@@ -20,7 +20,7 @@ end
 
 for row in GameInfo.BuildingClasses() do
 	if row.MaxGlobalInstances == 1 then
-		print(row.Type)
+		--print(row.Type)
 		local buildingID = GameInfo.Buildings[row.DefaultBuilding].ID;
 		if buildingID then
 			IsWonder[buildingID] = true;
@@ -37,65 +37,63 @@ GameEvents.PlayerCityFounded.Add(function(player, cityX, cityY)
 end)
 
 function DoLogAI(type, val1, val2, val3, val4, val5, val6, val7)
-	if not bVictory then
-		--LuaEvents.JustAILogDoLog(type, val1, val2, val3, val4, val5, val6, val7)
---		table.insert(aiLog, 1, {type, Game.GetGameTurn(), val1, val2, val3, val4, val5, val6, val7})
-		if type == 1 then
-			print(Game.GetGameTurn() .. "T: <<" .. val2 .. ">> Founded by " .. Players[val1]:GetName() .. " (" .. val3 .. "," .. val4 .. ")")
-		elseif type == 2 then
-			if val6 then
-				if not val7 then
-					print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ")")
-				else
-					print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ") ELIMINATION!")
-				end
+	--LuaEvents.JustAILogDoLog(type, val1, val2, val3, val4, val5, val6, val7)
+	--table.insert(aiLog, 1, {type, Game.GetGameTurn(), val1, val2, val3, val4, val5, val6, val7})
+	if type == 1 then
+		print(Game.GetGameTurn() .. "T: <<" .. val2 .. ">> Founded by " .. Players[val1]:GetName() .. " (" .. val3 .. "," .. val4 .. ")")
+	elseif type == 2 then
+		if val6 then
+			if not val7 then
+				print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ")")
 			else
-				print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") claimed by " .. Players[val2]:GetName() .. " in peace treaty (" .. val4 .. "," .. val5 .. ")")
+				print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ") ELIMINATION!")
 			end
-		elseif type == 3 then
-			print(Game.GetGameTurn() .. "T: Religion " .. Locale.Lookup(GameInfo.Religions[val2].Description) .. " founded in " .. val3 .. " by " .. Players[val1]:GetName())
-		elseif type == 4 then
-			print(Game.GetGameTurn() .. "T: Wonder " .. val2 .. " constructed in " .. val3 .. " by " .. Players[val1]:GetName())
-		elseif type == 5 then
-			print(Game.GetGameTurn() .. "T: Victory claimed by " .. Players[val1]:GetName() .. " (" .. val2 .. ")")
-		elseif type == 6 then
-			print(Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " ended game with " .. val2 .. " points.")
-		elseif type == 7 then
-			print(Game.GetGameTurn() .. "T: Technology " .. Locale.Lookup(GameInfo.Technologies[val2].Description) .. " was discovered by " .. GetProperTeamName(val1))
-		elseif type == 8 then
-			print(Game.GetGameTurn() .. "T: " .. GetProperTeamName(val1) .. " declared war on " .. GetProperTeamName(val2))
-		elseif type == 9 then
-			print(Game.GetGameTurn() .. "T: " .. GetProperTeamName(val1) .. " made peace with " .. GetProperTeamName(val2))
-		elseif type == 10 then
-			if not val3 then
-				print(Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " adopted " .. Locale.Lookup(GameInfo.PolicyBranchTypes[val2].Description))
-			else
-				print(Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " adopted " .. Locale.Lookup(GameInfo.PolicyBranchTypes[val2].Description) .. " (revolution)")
-			end
-		elseif type == 11 then
-			print(Game.GetGameTurn() .. "T: " .. GetProperTeamName(val1) .. " created Citadel. (" .. val2 .. ", " .. val3 .. ")")
-		elseif type == 12 then
-			local iPlot = Map.GetPlot(val2, val3);
-			local iTarget = iPlot:GetOwner();
-			local text = "";
-			if val4 then
-				if iTarget ~= -1 then
-					text = Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " declared war by casually dropping Nuclear Weapon on " .. Players[iTarget]:GetName() .. "'s territory."
-				else
-					text = Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " used a Nuclear Weapon.";
-				end
-			else
-				if iTarget ~= -1 then
-					text = Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " dropped Nuclear Weapon at " .. Players[iTarget]:GetName() .. "'s territory."
-				else
-					text = Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " used a Nuclear Weapon."
-				end
-			end
-			if val5 then
-				text = text .. " (bystander was hit)"
-			end
-			print(text)
+		else
+			print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") claimed by " .. Players[val2]:GetName() .. " in peace treaty (" .. val4 .. "," .. val5 .. ")")
 		end
+	elseif type == 3 then
+		print(Game.GetGameTurn() .. "T: Religion " .. Locale.Lookup(GameInfo.Religions[val2].Description) .. " founded in " .. val3 .. " by " .. Players[val1]:GetName())
+	elseif type == 4 then
+		print(Game.GetGameTurn() .. "T: Wonder " .. val2 .. " constructed in " .. val3 .. " by " .. Players[val1]:GetName())
+	elseif type == 5 then
+		print(Game.GetGameTurn() .. "T: Victory claimed by " .. Players[val1]:GetName() .. " (" .. val2 .. ")")
+	elseif type == 6 then
+		print(Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " ended game with " .. val2 .. " points.")
+	elseif type == 7 then
+		print(Game.GetGameTurn() .. "T: Technology " .. Locale.Lookup(GameInfo.Technologies[val2].Description) .. " was discovered by " .. GetProperTeamName(val1))
+	elseif type == 8 then
+		print(Game.GetGameTurn() .. "T: " .. GetProperTeamName(val1) .. " declared war on " .. GetProperTeamName(val2))
+	elseif type == 9 then
+		print(Game.GetGameTurn() .. "T: " .. GetProperTeamName(val1) .. " made peace with " .. GetProperTeamName(val2))
+	elseif type == 10 then
+		if not val3 then
+			print(Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " adopted " .. Locale.Lookup(GameInfo.PolicyBranchTypes[val2].Description))
+		else
+			print(Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " adopted " .. Locale.Lookup(GameInfo.PolicyBranchTypes[val2].Description) .. " (revolution)")
+		end
+	elseif type == 11 then
+		print(Game.GetGameTurn() .. "T: " .. GetProperTeamName(val1) .. " created Citadel. (" .. val2 .. ", " .. val3 .. ")")
+	elseif type == 12 then
+		local iPlot = Map.GetPlot(val2, val3);
+		local iTarget = iPlot:GetOwner();
+		local text = "";
+		if val4 then
+			if iTarget ~= -1 then
+				text = Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " declared war by casually dropping Nuclear Weapon on " .. Players[iTarget]:GetName() .. "'s territory."
+			else
+				text = Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " used a Nuclear Weapon.";
+			end
+		else
+			if iTarget ~= -1 then
+				text = Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " dropped Nuclear Weapon at " .. Players[iTarget]:GetName() .. "'s territory."
+			else
+				text = Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " used a Nuclear Weapon."
+			end
+		end
+		if val5 then
+			text = text .. " (bystander was hit)"
+		end
+		print(text)
 	end
 end
 
