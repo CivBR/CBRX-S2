@@ -47,7 +47,7 @@ function DoLogAI(type, val1, val2, val3, val4, val5, val6, val7)
 				if not val7 then
 					print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ")")
 				else
-					print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ") ELEMINATION!")
+					print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ") ELIMINATION!")
 				end
 			else
 				print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") claimed by " .. Players[val2]:GetName() .. " in peace treaty (" .. val4 .. "," .. val5 .. ")")
