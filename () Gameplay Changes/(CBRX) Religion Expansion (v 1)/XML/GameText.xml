@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_en_US>
-		<Row Tag="TXT_KEY_BUILDING_CBRX_FOUNDER">
+		<Row Tag="TXT_KEY_BUILDING_CLASS_CBRX_FOUNDER">
 			<Text>Founder Dummy Building Class</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CBRX_FOLLOWER_ALTARS">
+		<Row Tag="TXT_KEY_BUILDING_CLASS_CBRX_FOLLOWER_ALTARS">
 			<Text>Altars Dummy Building Class</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CBRX_FOLLOWER_TORII_GATES">
+		<Row Tag="TXT_KEY_BUILDING_CLASS_CBRX_FOLLOWER_TORII_GATES">
 			<Text>Torii Gates Dummy Building Class</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BELEIF_GUARDIAN_SPIRITS">
-			<Text>Guardian Spirits</Text>
+		<Row Tag="TXT_KEY_BELIEF_GUARDIAN_SPIRITS">
+			<Text>+1 City Strength in Cities for every city following your Religion</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BELEIF_GUARDIAN_SPIRITS_SHORT">
+		<Row Tag="TXT_KEY_BELIEF_GUARDIAN_SPIRITS_SHORT">
 			<Text>Guardian Spirits</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CBRX_FOUNDER_GUARDIAN_SPIRITS">
 			<Text>Guardian Spirits Dummy</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CBRX_FOUNDER_GUARDIAN_SPIRITS_HELP">
+		<Row Tag="TXT_KEY_BUILDING_CBRX_FOUNDER_GUARDIAN_SPIRITS_HELP"> 
 			<Text>Guardian Spirits Dummy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CHARITY">
-			<Text>Charity</Text>
+			<Text>-20% [ICON_GOLD] Gold cost to acquiring Tiles</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CHARITY_SHORT">
 			<Text>Charity</Text>
@@ -35,7 +35,7 @@
 			<Text>Charity Dummy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ASTRAL_PROJECTION">
-			<Text>Astral Protection</Text>
+			<Text>-20% [ICON_CULTURE] Culture cost to acquiring Tiles</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ASTRAL_PROJECTION_SHORT">
 			<Text>Astral Protection</Text>
@@ -47,7 +47,7 @@
 			<Text>Astral Protection Dummy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_TUTELARY_DEITIES">
-			<Text>Tutelary Deities</Text>
+			<Text>+1 Great Artist point from each Shrine in cities following your Religion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_TUTELARY_DEITIES_SHORT">
 			<Text>Tutelary Deities</Text>
@@ -59,28 +59,28 @@
 			<Text>Tutelary Deities Dummy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ALTARS">
-			<Text>Altars</Text>
+			<Text>Altars provide [ICON_HAPPINESS_1] 2 Happiness, [ICON_GOLD] 1 Gold and [ICON_TOURISM] 1 Tourism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ALTARS_SHORT">
 			<Text>Altars</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CBRX_FOLLOWER_ALTARS">
-			<Text>Altars Dummy</Text>
+			<Text>Altar</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CBRX_FOLLOWER_ALTARS_HELP">
-			<Text>Altars Dummy</Text>
+			<Text>Altars provide [ICON_HAPPINESS_1] 2 Happiness, [ICON_GOLD] 1 Gold and [ICON_TOURISM] 1 Tourism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_TORII_GATES">
-			<Text>Torii Gates</Text>
+			<Text>Torii Gates provide [ICON_HAPPINESS_1] 2 Happiness, [ICON_PEACE] 1 Faith and [ICON_TOURISM] 1 Tourism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_TORII_GATES_SHORT">
 			<Text>Torii Gates</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CBRX_FOLLOWER_TORII_GATES">
-			<Text>Torii Gates Dummy</Text>
+			<Text>Torii Gate</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CBRX_FOLLOWER_TORII_GATES_HELP">
-			<Text>Torii Gates Dummy</Text>
+			<Text>Torii Gates provide [ICON_HAPPINESS_1] 2 Happiness, [ICON_PEACE] 1 Faith and [ICON_TOURISM] 1 Tourism</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
