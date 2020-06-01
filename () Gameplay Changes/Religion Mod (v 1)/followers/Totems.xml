@@ -21,7 +21,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_TOTEMS</Type>
 			<DefaultBuilding>BUILDING_TOTEMS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_TOTEMS/Description>
+			<Description>TXT_KEY_BUILDING_TOTEMS</Description>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

@@ -13,7 +13,7 @@
 		<Row>
 			<BeliefType>BELIEF_CENTRALSYNOD</BeliefType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>5</YieldChange>
+			<Yield>5</Yield>
 		</Row>
 	</Belief_HolyCityYieldChanges>
 

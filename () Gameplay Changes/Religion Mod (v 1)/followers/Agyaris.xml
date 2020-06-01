@@ -22,9 +22,10 @@
 		<Row>
 			<Type>BUILDINGCLASS_AGYARIS</Type>
 			<DefaultBuilding>BUILDING_AGYARIS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_AGYARIS/Description>
+			<Description>TXT_KEY_BUILDING_AGYARIS</Description>
 		</Row>
 	</BuildingClasses>
+	
 	<Buildings>
 		<Row>
 			<Type>BUILDING_AGYARIS</Type>

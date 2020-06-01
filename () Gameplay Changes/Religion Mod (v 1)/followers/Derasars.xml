@@ -21,7 +21,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_DERASARS</Type>
 			<DefaultBuilding>BUILDING_DERASARS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_DERASARS/Description>
+			<Description>TXT_KEY_BUILDING_DERASARS</Description>
 		</Row>
 	</BuildingClasses>
 		

@@ -14,7 +14,7 @@
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_ORAL_TRADITION" />
 		<Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION">
-			<Text>Religion spreads 20% faster</Text>
+			<Text>Religion spreads 20% faster.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION_SHORT">
 			<Text>Oral Tradition</Text>

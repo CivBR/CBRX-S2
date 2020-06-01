@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-<Beliefs>
-	<Row>
-		<Type>BELIEF_JUST_WAR</Type>
-		<Description>TXT_KEY_BELIEF_JUST_WAR</Description>
-		<ShortDescription>TXT_KEY_BELIEF_JUST_WAR_SHORT</ShortDescription>
-		<Enhancer>true</Enhancer>
-		<CombatModifierEnemyCities>25</CombatModifierEnemyCities>
-	</Row>
-</Beliefs>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_JUST_WAR</Type>
+			<Description>TXT_KEY_BELIEF_JUST_WAR</Description>
+			<ShortDescription>TXT_KEY_BELIEF_JUST_WAR_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+			<CombatModifierEnemyCities>25</CombatModifierEnemyCities>
+		</Row>
+	</Beliefs>
 	
 	<Language_en_US>
 	<Delete Tag="TXT_KEY_BELIEF_JUST_WAR" />

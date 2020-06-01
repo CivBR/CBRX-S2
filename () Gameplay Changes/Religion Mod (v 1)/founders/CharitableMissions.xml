@@ -16,7 +16,7 @@
 		<Row>
 			<BeliefType>BELIEF_CHARITABLE_MISSIONS</BeliefType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>5</YieldChange>
+			<Yield>5</Yield>
 		</Row>
 	</Belief_HolyCityYieldChanges>
 

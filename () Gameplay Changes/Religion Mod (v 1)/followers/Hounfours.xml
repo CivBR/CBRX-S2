@@ -24,7 +24,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_HOUNFOURS</Type>
 			<DefaultBuilding>BUILDING_HOUNFOURS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_HOUNFOURS/Description>
+			<Description>TXT_KEY_BUILDING_HOUNFOURS</Description>
 		</Row>
 	</BuildingClasses>
 		

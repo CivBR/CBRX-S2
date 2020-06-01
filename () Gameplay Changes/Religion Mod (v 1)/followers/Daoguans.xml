@@ -21,7 +21,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_DAOGUANS</Type>
 			<DefaultBuilding>BUILDING_DAOGUANS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_DAOGUANS/Description>
+			<Description>TXT_KEY_BUILDING_DAOGUANS</Description>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

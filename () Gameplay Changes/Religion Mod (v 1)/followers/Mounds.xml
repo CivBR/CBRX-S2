@@ -21,7 +21,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_MOUNDS</Type>
 			<DefaultBuilding>BUILDING_MOUNDS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_MOUNDS/Description>
+			<Description>TXT_KEY_BUILDING_MOUNDS</Description>
 		</Row>
 	</BuildingClasses>
 		

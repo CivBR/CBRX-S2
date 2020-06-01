@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_RITE_OF_SPRING</Type>
+			<Description>TXT_KEY_BELIEF_RITE_OF_SPRING</Description>
+			<ShortDescription>TXT_KEY_BELIEF_RITE_OF_SPRING_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+
 	<Belief_ImprovementYieldChanges>
 		<Row>
 			<BeliefType>BELIEF_RITE_OF_SPRING</BeliefType>
