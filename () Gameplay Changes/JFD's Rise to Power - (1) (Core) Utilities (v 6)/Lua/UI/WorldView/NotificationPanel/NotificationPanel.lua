@@ -56,10 +56,10 @@ for k, v, w in ([[
 	NOTIFICATION_GREAT_PERSON_ACTIVE_PLAYER									GreatPerson				popup
 	NOTIFICATION_GREAT_PERSON												GreatPerson	
 	NOTIFICATION_STARVING													Starving				B
-	NOTIFICATION_WAR_ACTIVE_PLAYER											War						B
-	NOTIFICATION_WAR														WarOther				B
-	NOTIFICATION_PEACE_ACTIVE_PLAYER										Peace					B
-	NOTIFICATION_PEACE														PeaceOther				B
+	NOTIFICATION_WAR_ACTIVE_PLAYER											War						
+	NOTIFICATION_WAR														WarOther				
+	NOTIFICATION_PEACE_ACTIVE_PLAYER										Peace					
+	NOTIFICATION_PEACE														PeaceOther				
 	NOTIFICATION_VICTORY													Victory	
 	NOTIFICATION_UNIT_DIED													UnitDied	
 	NOTIFICATION_CITY_LOST													CapitalLost	
@@ -100,12 +100,12 @@ for k, v, w in ([[
 	NOTIFICATION_FOUND_PANTHEON												FoundPantheon	
 	NOTIFICATION_FOUND_RELIGION												FoundReligion	
 	NOTIFICATION_PANTHEON_FOUNDED_ACTIVE_PLAYER								PantheonFounded	
-	NOTIFICATION_PANTHEON_FOUNDED											PantheonFounded			B
+	NOTIFICATION_PANTHEON_FOUNDED											PantheonFounded			
 	NOTIFICATION_RELIGION_FOUNDED_ACTIVE_PLAYER								ReligionFounded			B
-	NOTIFICATION_RELIGION_FOUNDED											ReligionFounded			B
+	NOTIFICATION_RELIGION_FOUNDED											ReligionFounded			
 	NOTIFICATION_ENHANCE_RELIGION											EnhanceReligion	
 	NOTIFICATION_RELIGION_ENHANCED_ACTIVE_PLAYER							ReligionEnhanced	
-	NOTIFICATION_RELIGION_ENHANCED											ReligionEnhanced		B
+	NOTIFICATION_RELIGION_ENHANCED											ReligionEnhanced		
 	NOTIFICATION_RELIGION_SPREAD											ReligionSpread			B
 							
 	NOTIFICATION_SPY_CREATED_ACTIVE_PLAYER									NewSpy					B
