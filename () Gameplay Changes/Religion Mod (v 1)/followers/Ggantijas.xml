@@ -22,7 +22,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_GGANTIJAS</Type>
 			<DefaultBuilding>BUILDING_GGANTIJAS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_GGANTIJAS/Description>
+			<Description>TXT_KEY_BUILDING_GGANTIJAS</Description>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

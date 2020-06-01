@@ -66,12 +66,12 @@
 	</Building_Flavors>
 	<Building_YieldChanges>
 		<Row>
-			<BuildingType>BUILDING_BASILICA</BuildingType>
+			<BuildingType>BUILDING_GURDWARA</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BASILICA</BuildingType>
+			<BuildingType>BUILDING_GURDWARA</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2/Yield>
 		</Row>

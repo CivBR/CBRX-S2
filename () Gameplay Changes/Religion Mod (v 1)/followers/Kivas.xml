@@ -21,7 +21,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_KIVAS</Type>
 			<DefaultBuilding>BUILDING_KIVAS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_KIVAS/Description>
+			<Description>TXT_KEY_BUILDING_KIVAS</Description>
 		</Row>
 	</BuildingClasses>
 		

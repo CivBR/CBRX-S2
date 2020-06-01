@@ -13,7 +13,7 @@
 		<Row>
 			<BeliefType>BELIEF_DEVOUTCORVEE</BeliefType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>5</YieldChange>
+			<Yield>5</Yield>
 		</Row>
 	</Belief_HolyCityYieldChanges>
 

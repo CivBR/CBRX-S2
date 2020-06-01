@@ -24,7 +24,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_MATHAS</Type>
 			<DefaultBuilding>BUILDING_MATHAS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_MATHAS/Description>
+			<Description>TXT_KEY_BUILDING_MATHAS</Description>
 		</Row>
 	</BuildingClasses>
 		

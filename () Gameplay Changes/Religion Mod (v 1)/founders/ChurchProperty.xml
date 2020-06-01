@@ -13,7 +13,7 @@
 		<Row>
 			<BeliefType>BELIEF_CHURCHPROPERTY</BeliefType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>5</YieldChange>
+			<Yield>5</Yield>
 		</Row>
 	</Belief_HolyCityYieldChanges>
 

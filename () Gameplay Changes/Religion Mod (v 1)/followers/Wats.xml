@@ -21,7 +21,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_WATS</Type>
 			<DefaultBuilding>BUILDING_WATS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_WATS/Description>
+			<Description>TXT_KEY_BUILDING_WATS</Description>
 		</Row>
 	</BuildingClasses>
 		

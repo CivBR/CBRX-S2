@@ -9,6 +9,7 @@
 			<Follower>true</Follower>
 		</Row>
 	</Beliefs>
+
 	<Belief_BuildingClassFaithPurchase>
 		<Row>
 			<BeliefType>BELIEF_BASILICAS</BeliefType>
@@ -23,6 +24,7 @@
 			<Description>TXT_KEY_BUILDING_BASILICA</Description>
 		</Row>
 	</BuildingClasses>
+
 	<Buildings>
 		<Row>
 			<Type>BUILDING_BASILICA</Type>
@@ -42,6 +44,7 @@
 			<PortraitIndex>33</PortraitIndex>
 		</Row>
 	</Buildings>
+
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_BASILICA</BuildingType>
@@ -54,6 +57,7 @@
 			<Flavor>5</Flavor>
 		</Row>
 	</Building_Flavors>
+
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_BASILICA</BuildingType>

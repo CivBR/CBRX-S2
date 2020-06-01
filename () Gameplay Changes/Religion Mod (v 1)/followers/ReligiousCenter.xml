@@ -25,7 +25,7 @@
 
 	<Belief_BuildingClassTourism>
 		<Row>
-			<BeliefType>BELIEF_RELIGIOUS_RELIGIOUS_CENTER</BeliefType>
+			<BeliefType>BELIEF_RELIGIOUS_CENTER</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<Tourism>1</Tourism>
 		</Row>

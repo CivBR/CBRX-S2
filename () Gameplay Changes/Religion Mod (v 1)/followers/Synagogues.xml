@@ -24,7 +24,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_SYNAGOGUES</Type>
 			<DefaultBuilding>BUILDING_SYNAGOGUES</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_SYNAGOGUES/Description>
+			<Description>TXT_KEY_BUILDING_SYNAGOGUES</Description>
 		</Row>
 	</BuildingClasses>
 		

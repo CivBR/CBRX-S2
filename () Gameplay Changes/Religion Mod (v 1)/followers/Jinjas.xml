@@ -21,7 +21,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_JINJAS</Type>
 			<DefaultBuilding>BUILDING_JINJAS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_JINJAS/Description>
+			<Description>TXT_KEY_BUILDING_JINJAS</Description>
 		</Row>
 	</BuildingClasses>
 	<Buildings>

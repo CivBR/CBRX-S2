@@ -21,7 +21,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_MOSQUES</Type>
 			<DefaultBuilding>BUILDING_MOSQUES</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_MOSQUES/Description>
+			<Description>TXT_KEY_BUILDING_MOSQUES</Description>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
@@ -34,7 +34,7 @@
 			<Description>TXT_KEY_BUILDING_MOSQUES</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MOSQUES_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_MOSQUES_STRATEGY</Strategy>
-            		<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+            <GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
 			<GreatWorkCount>1</GreatWorkCount>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>

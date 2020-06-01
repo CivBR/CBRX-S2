@@ -24,7 +24,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_PAGODAS</Type>
 			<DefaultBuilding>BUILDING_PAGODAS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_PAGODAS/Description>
+			<Description>TXT_KEY_BUILDING_PAGODAS</Description>
 		</Row>
 	</BuildingClasses>
 		

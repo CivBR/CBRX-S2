@@ -16,15 +16,7 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
-			<BuildingClassType>BUILDING_STELE</BuildingClassType>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
-			<BuildingClassType>BUILDING_CEILIDH_HALL</BuildingClassType>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>

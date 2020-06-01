@@ -21,7 +21,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_GOMPAS</Type>
 			<DefaultBuilding>BUILDING_GOMPAS</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_GOMPAS/Description>
+			<Description>TXT_KEY_BUILDING_GOMPAS</Description>
 		</Row>
 	</BuildingClasses>
 	<Buildings>
