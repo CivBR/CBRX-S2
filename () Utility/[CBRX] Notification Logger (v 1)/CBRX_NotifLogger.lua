@@ -114,7 +114,7 @@ GameEvents.CityCaptureComplete.Add(function(player, capital, x, y, newPlayer, iO
 end)
 
 GameEvents.ReligionFounded.Add(function(ePlayer, holyCityId, eReligion, eBelief1, eBelief2, eBelief3, eBelief4, eBelief5)
-	DoLogAI(3, ePlayer, eReligion, Players[ePlayer]:GetCityByID(holyCityId):GetName(), Players[ePlayer]:GetCityByID(holyCityId):Plot():GetPlotIndex(), eBelief1, eBelief2, eBelief3, eBelief4, eBelief5)
+	DoLogAI(3, ePlayer, eReligion, Players[ePlayer]:GetCityByID(holyCityId):GetName(), eBelief1, eBelief2, eBelief3)
 end)
 
 GameEvents.ReligionEnhanced.Add(function(ePlayer, eReligion, eBelief1, eBelief2)
