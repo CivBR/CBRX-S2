@@ -11,7 +11,7 @@ function GreatPersonBorn(playerID, unitID)
 	local player = Players[playerID]
 	if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_TCM_BOURBON_SPAIN"] then
 		local unit = player:GetUnitByID(unitID)
-		if unit:IsGreatPerson() then
+		if unit and unit:IsGreatPerson() then
 			local oldNum = load(player, "tcmSpainNumberGreatPeople")
 			local currentNum = player:GetGreatPeopleCreated()
 			if not(oldNum) then
@@ -574,7 +574,7 @@ function decisionCultureForTraining(ownerId, cityId, unitId, bGold, bFaithOrCult
 		player:ChangeJONSCulture(culture)
 	end
 end
-GameEvents.CityTrained(decisionCultureForTraining)
+GameEvents.CityTrained.Add(decisionCultureForTraining)
 
 function strengthForAllies(playerID)
 	local player = Players[playerID]
