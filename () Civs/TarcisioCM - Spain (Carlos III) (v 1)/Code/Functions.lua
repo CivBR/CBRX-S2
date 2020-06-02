@@ -600,4 +600,4 @@ function strengthForAllies(playerID)
 		end
 	end
 end
-GameEvents.PlayerDoTurn(strengthForAllies)
+GameEvents.PlayerDoTurn.Add(strengthForAllies)
