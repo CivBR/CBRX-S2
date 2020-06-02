@@ -36,23 +36,19 @@ GameEvents.PlayerCityFounded.Add(function(player, cityX, cityY)
 --	end
 end)
 
-function DoLogAI(type, val1, val2, val3, val4, val5, val6, val7)
+function DoLogAI(type, val1, val2, val3, val4, val5, val6, val7, val8)
 	--LuaEvents.JustAILogDoLog(type, val1, val2, val3, val4, val5, val6, val7)
 	--table.insert(aiLog, 1, {type, Game.GetGameTurn(), val1, val2, val3, val4, val5, val6, val7})
 	if type == 1 then
 		print(Game.GetGameTurn() .. "T: <<" .. val2 .. ">> Founded by " .. Players[val1]:GetName() .. " (" .. val3 .. "," .. val4 .. ")")
 	elseif type == 2 then
 		if val6 then
-			if not val7 then
-				print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ")")
-			else
-				print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ") ELIMINATION!")
-			end
+			print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ")" .. " oldPop: " .. val6 .. " newPop: " .. val7)
 		else
 			print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") claimed by " .. Players[val2]:GetName() .. " in peace treaty (" .. val4 .. "," .. val5 .. ")")
 		end
 	elseif type == 3 then
-		print(Game.GetGameTurn() .. "T: Religion " .. Locale.Lookup(GameInfo.Religions[val2].Description) .. " founded in " .. val3 .. " by " .. Players[val1]:GetName())
+		print(Game.GetGameTurn() .. "T: Religion " .. Locale.Lookup(GameInfo.Religions[val2].Description) .. " founded in " .. val3 .. " by " .. Players[val1]:GetName() .. " with " .. Locale.Lookup(GameInfo.Beliefs[val4].Description) .. " and " ..  Locale.Lookup(GameInfo.Beliefs[val5].Description) .. " and " ..  Locale.Lookup(GameInfo.Beliefs[val6].Description))
 	elseif type == 4 then
 		print(Game.GetGameTurn() .. "T: Wonder " .. val2 .. " constructed in " .. val3 .. " by " .. Players[val1]:GetName())
 	elseif type == 5 then
@@ -94,13 +90,15 @@ function DoLogAI(type, val1, val2, val3, val4, val5, val6, val7)
 			text = text .. " (bystander was hit)"
 		end
 		print(text)
+	elseif type == 13 then
+			print(Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " Enhanced " .. Locale.Lookup(GameInfo.Religions[val2].Description) .. " with " .. Locale.Lookup(GameInfo.Beliefs[val3].Description) .. " and " ..  Locale.Lookup(GameInfo.Beliefs[val4].Description) )
 	end
 end
 
 GameEvents.WinnerChanged.Add(function(winner, victory)
 	if not bVictory then
 		if winner ~= -1 then
-			DoLogAI(5, Game.GetWinner(), Locale.Lookup(GameInfo.Victories[Game.GetVictory()].Description)) 
+			DoLogAI(5, Game.GetWinner(), Locale.Lookup(GameInfo.Victories[Game.GetVictory()].Description))
 			for i, v in pairs(Players) do
 				if v:IsAlive() and (not v:IsBarbarian()) and (not v:IsMinorCiv()) then
 					DoLogAI(6, i, v:GetScore())
@@ -112,11 +110,15 @@ GameEvents.WinnerChanged.Add(function(winner, victory)
 end)
 
 GameEvents.CityCaptureComplete.Add(function(player, capital, x, y, newPlayer, iOldPopulation, bConquest)
-	DoLogAI(2, player, newPlayer, Map.GetPlot(x, y):GetPlotCity():GetName(), x, y, bConquest, Players[player]:GetNumCities() == 0)
+	DoLogAI(2, player, newPlayer, Map.GetPlot(x, y):GetPlotCity():GetName(), x, y, bConquest, iOldPopulation, Map.GetPlot(x, y):GetPlotCity():GetPopulation())
 end)
 
 GameEvents.ReligionFounded.Add(function(ePlayer, holyCityId, eReligion, eBelief1, eBelief2, eBelief3, eBelief4, eBelief5)
-	DoLogAI(3, ePlayer, eReligion, Players[ePlayer]:GetCityByID(holyCityId):GetName(), Players[ePlayer]:GetCityByID(holyCityId):Plot():GetPlotIndex())
+	DoLogAI(3, ePlayer, eReligion, Players[ePlayer]:GetCityByID(holyCityId):GetName(), Players[ePlayer]:GetCityByID(holyCityId):Plot():GetPlotIndex(), eBelief1, eBelief2, eBelief3, eBelief4, eBelief5)
+end)
+
+GameEvents.ReligionEnhanced.Add(function(ePlayer, eReligion, eBelief1, eBelief2)
+	DoLogAI(13, ePlayer, eReligion, eBelief1, eBelief2)
 end)
 
 GameEvents.CityConstructed.Add(function(ownerId, cityId, buildingType, bGold, bFaithOrCulture)
@@ -163,7 +165,7 @@ GameEvents.SetPolicyBranchUnlocked.Add(function(iPlayer, branch, bUnlocked, bRev
 	if bUnlocked then
 		if GameInfo.PolicyBranchTypes[branch].PurchaseByLevel then
 			DoLogAI(10, iPlayer, branch, bRev)
-		else	
+		else
 			--? is there sense to log other openings?
 		end
 	end
