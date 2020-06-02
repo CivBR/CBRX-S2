@@ -65,7 +65,7 @@ VALUES	('AS2D_AMBIENCE_LEADER_US_TAMAR_AMBIENCE',		'SND_AMBIENCE_HARUN_AL_RASHID
 --------------------------------------------------------------------------------------------------------------------------		
 INSERT INTO Colors 
 		(Type, 									Red, 	Green, 	Blue, 	Alpha)
-VALUES	('COLOR_PLAYER_US_GEORGIA_ICON', 		0.607,	0.266,	0.137,	1),
+VALUES	('COLOR_PLAYER_US_GEORGIA_ICON', 		0.47,	0.2,	0.09,	1),
 		('COLOR_PLAYER_US_GEORGIA_BACKGROUND',	0.627,	0.729,	0.717,	1);
 --------------------------------------------------------------------------------------------------------------------------
 -- PlayerColors
