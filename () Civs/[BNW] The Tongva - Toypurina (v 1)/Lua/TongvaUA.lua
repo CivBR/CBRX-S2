@@ -77,21 +77,21 @@ for row in DB.Query("SELECT ID, PolicyBranchType FROM Policies WHERE PolicyBranc
 end
 local iWLTKDTurns = GameDefines.CITY_RESOURCE_WLTKD_TURNS -- Surely there's gotta be a game speed mod on this too? Maybe it's shared with the growth mod?
 function Tongva_PolicyWLTKD(playerID, policyID)
-    print("Tongva Finishers")
+    --print("Tongva Finishers")
     local pPlayer = Players[playerID]
     if pPlayer:GetCivilizationType() == iCiv then
         local sBranch = tFinishers[policyID]
         if sBranch then
-            print("Tongva Finishers 2")
+            --print("Tongva Finishers 2")
             for i = 1, #tFinishers[sBranch] do
                 if not pPlayer:HasPolicy(tFinishers[sBranch][i]) then
-                    print("Igottago")
+                    --print("Igottago")
                     return
                 end
             end
             for pCity in pPlayer:Cities() do
                 pCity:SetWeLoveTheKingDayCounter(iWLTKDTurns)
-                print("Tongva start WLTKD")
+                --print("Tongva start WLTKD")
             end
         end
     end

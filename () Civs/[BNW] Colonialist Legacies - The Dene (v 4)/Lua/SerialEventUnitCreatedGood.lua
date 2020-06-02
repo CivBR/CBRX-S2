@@ -15,24 +15,27 @@
 -- give the unit the "PROMOTION_MARKED_FOR_DEATH" which will have this code kill the
 -- unit after all hooked functions finish executing.
 --------------------------------------------------------------
+local promotionCreated = GameInfoTypes["PROMOTION_CREATED"]
+local promotionMarkedDeath = GameInfoTypes["PROMOTION_MARKED_FOR_DEATH"]
+
 function CallSerialEventUnitCreatedGood(playerID, unitID, hexVec, unitType, cultureType, civID, primaryColor, secondaryColor, unitFlagIndex, fogState, selected, military, notInvisible)
 	if(Players[playerID] == nil or
 		Players[playerID]:GetUnitByID(unitID) == nil or
 		Players[playerID]:GetUnitByID(unitID):IsDead() or
-		Players[playerID]:GetUnitByID(unitID):IsHasPromotion(GameInfoTypes["PROMOTION_CREATED"])) then
+		Players[playerID]:GetUnitByID(unitID):IsHasPromotion(promotionCreated)) then
 		return;
 	end
 
 	local unit = Players[playerID]:GetUnitByID(unitID);
 
 	-- Always mark the unit with the created promotion
-	unit:SetHasPromotion(GameInfoTypes["PROMOTION_CREATED"], true);
+	unit:SetHasPromotion(promotionCreated, true);
 
 	-- Call the good event
 	LuaEvents.SerialEventUnitCreatedGood(playerID, unitID, hexVec, unitType, cultureType, civID, primaryColor, secondaryColor, unitFlagIndex, fogState, selected, military, notInvisible);
 
 	-- Kill the unit if some code hooked into the event has indicated the unit should be deleted
-	if(unit:IsHasPromotion(GameInfoTypes["PROMOTION_MARKED_FOR_DEATH"])) then
+	if(unit:IsHasPromotion(promotionMarkedDeath)) then
 		unit:Kill();
 	end
 end

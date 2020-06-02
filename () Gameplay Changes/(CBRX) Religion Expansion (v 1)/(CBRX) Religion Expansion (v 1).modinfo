@@ -18,13 +18,11 @@
     <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
-  <Dependencies>
-    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="RTP Utils" />
-  </Dependencies>
+  <Dependencies />
   <References />
   <Blocks />
   <Files>
-    <File md5="108C1D2C70B0AF1F8A321CEADCD2B11E" import="0">Lua/MainFunctions.lua</File>
+    <File md5="A27C142FDD04958FF7B24924E4240A3F" import="0">Lua/MainFunctions.lua</File>
     <File md5="0FB4FE11B5E5BACCE4CC68DC9800DE18" import="0">SQL/Beliefs.sql</File>
     <File md5="32BD230CB5F5E929753D327B15CD8431" import="0">SQL/Buildings.sql</File>
     <File md5="0EA7EA8D1F2FB9C88E6FD83051F14970" import="0">XML/GameText.xml</File>

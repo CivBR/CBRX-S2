@@ -62,23 +62,25 @@ function MC_Tuareg_PlayerDoTurn(playerID)
 	
 	local tPartners = C15_GetTradeRoutePartners(player)
 	
-	for pCity in player:Cities() do
-		for pPlot in PlotAreaSpiralIterator(pCity:Plot(), 5, 1, false, false, true) do
-			if pPlot:GetOwner() == playerID and pPlot:GetWorkingCity() == pCity then
-				for pUnit in C15_PlotUnitsIterator(pPlot) do
-					if pUnit:IsTrade() then
-						local iOwner = pUnit:GetOwner()
-						if not tPartnerPlayers[iOwner] then
-							local pOther = Players[iOwner]
-							local iGold = C15_PookyUseThisToDetermineHowMuchGoldToDrain(player, pOther, pUnit)
-							if pOther:GetGold() >= iGold then
-								pOther:ChangeGold(iGold * -1)
-								player:ChangeGold(iGold)
-								local iActive = Game.GetActivePlayer()
-								if iActive == playerID then
-									C15_ProdTextOnPlot(pPlot:GetX(), pPlot:GetY(), "[COLOR_POSITIVE_TEXT]+" .. iGold .. " [ICON_GOLD][ENDCOLOR]")
-								elseif iActive == iOwner then
-									C15_ProdTextOnPlot(pPlot:GetX(), pPlot:GetY(), "[COLOR_NEGATIVE_TEXT]-" .. iGold .. " [ICON_GOLD][ENDCOLOR]")
+	if tPartners then
+		for pCity in player:Cities() do
+			for pPlot in PlotAreaSpiralIterator(pCity:Plot(), 5, 1, false, false, true) do
+				if pPlot:GetOwner() == playerID and pPlot:GetWorkingCity() == pCity then
+					for pUnit in C15_PlotUnitsIterator(pPlot) do
+						if pUnit:IsTrade() then
+							local iOwner = pUnit:GetOwner()
+							if not tPartnerPlayers[iOwner] then
+								local pOther = Players[iOwner]
+								local iGold = C15_PookyUseThisToDetermineHowMuchGoldToDrain(player, pOther, pUnit)
+								if pOther:GetGold() >= iGold then
+									pOther:ChangeGold(iGold * -1)
+									player:ChangeGold(iGold)
+									local iActive = Game.GetActivePlayer()
+									if iActive == playerID then
+										C15_ProdTextOnPlot(pPlot:GetX(), pPlot:GetY(), "[COLOR_POSITIVE_TEXT]+" .. iGold .. " [ICON_GOLD][ENDCOLOR]")
+									elseif iActive == iOwner then
+										C15_ProdTextOnPlot(pPlot:GetX(), pPlot:GetY(), "[COLOR_NEGATIVE_TEXT]-" .. iGold .. " [ICON_GOLD][ENDCOLOR]")
+									end
 								end
 							end
 						end
@@ -86,8 +88,7 @@ function MC_Tuareg_PlayerDoTurn(playerID)
 				end
 			end
 		end
-	end
-								
+	end						
 end
 GameEvents.PlayerDoTurn.Add(MC_Tuareg_PlayerDoTurn)
 

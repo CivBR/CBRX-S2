@@ -154,14 +154,6 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
 
-			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
-
-			<BuildingType>BUILDING_PI_THEATRE</BuildingType>
-		</Row>
-
-		<Row>
-			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
-
 			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
 
 			<BuildingType>BUILDING_PI_STADIUM</BuildingType>

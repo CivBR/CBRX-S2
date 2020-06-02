@@ -69,7 +69,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_UC_TEUTON</UnitType>
-			<UnitAIType>UNITAI_OFFENSE</UnitAIType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_UC_TEUTON</UnitType>

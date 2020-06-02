@@ -96,6 +96,7 @@
       <UpdateDatabase>Core/Kosovo_Leader.xml</UpdateDatabase>
       <UpdateDatabase>Core/Kosovo_ModSupport.xml</UpdateDatabase>
       <UpdateDatabase>Core/Kosovo_Trait.xml</UpdateDatabase>
+	  <UpdateDatabase>Core/Kosovo_Trait.sql</UpdateDatabase>
       <UpdateDatabase>Core/Kosovo_TraitText.xml</UpdateDatabase>
       <UpdateDatabase>Core/Kosovo_Unit.xml</UpdateDatabase>
       <UpdateDatabase>Core/Kosovo_ModSupport.sql</UpdateDatabase>

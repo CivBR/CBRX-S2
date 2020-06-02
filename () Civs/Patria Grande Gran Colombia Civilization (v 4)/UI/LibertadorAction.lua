@@ -83,6 +83,7 @@ end
 function MissionAI(iPlayer, iUnit)
 	local player = Players[iPlayer];
 	local unit = player:GetUnitByID(iUnit);
+	if not unit then return end
 	lCount = 0
 	for pUnit in player:Units() do
 		if (pUnit:GetUnitType() == iLibertador) or (pUnit:GetUnitType() == iLibertadorUpgrade) then

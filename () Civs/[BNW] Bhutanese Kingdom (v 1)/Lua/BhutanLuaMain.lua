@@ -13,26 +13,33 @@ local promotionID 			  = GameInfoTypes["PROMOTION_DAPONBONUS"]
 local unitType				  = GameInfoTypes["UNIT_DAPON"]
 local faithBuilding			  = GameInfoTypes["BUILDING_BHUTANFAITH"]
 local happinessBuilding		  = GameInfoTypes["BUILDING_BHUTANHAPPYHAPPYJOYJOY"]
+local techTheology 			  = GameInfoTypes["TECH_THEOLOGY"]
+local unitClassArcher 		  = GameInfoTypes["UNITCLASS_ARCHER"]
+local buildingThongdrelReligion = GameInfoTypes["BUILDING_THONGDREL_RELIGION"]
+local buildingThongdrelArtists = GameInfoTypes["BUILDING_THONGDREL_ARTISTS"]
 --===================================================================================================================================--
 --UA
 --===================================================================================================================================--
 function UA(playerID)
 	local player = Players[playerID]
 	if player:GetCivilizationType() == civilizationID then
-		local happiness = player:GetExcessHappiness()
 		local capital = player:GetCapitalCity()
-		if happiness > 0 then
-			local teamTechs = Teams[player:GetTeam()]:GetTeamTechs()
-			local faith = 0
-			if teamTechs:HasTech(GameInfoTypes["TECH_THEOLOGY"]) then
-				faith = math.floor(happiness * 0.40)
+		if capital then
+			local happiness = player:GetExcessHappiness()
+			if happiness > 0 then
+				local teamTechs = Teams[player:GetTeam()]:GetTeamTechs()
+				local faith = 0
+				if teamTechs:HasTech(techTheology) then
+					faith = math.floor(happiness * 0.40)
+				else
+					faith = math.floor(happiness * 0.20)
+				end
+				capital:SetNumRealBuilding(faithBuilding, faith)
 			else
-				faith = math.floor(happiness * 0.20)
+				capital:SetNumRealBuilding(faithBuilding, 0)
 			end
-			capital:SetNumRealBuilding(faithBuilding, faith)
-		else
-			capital:SetNumRealBuilding(faithBuilding, 0)
 		end
+		
 	end
 end
 GameEvents.PlayerDoTurn.Add(UA)
@@ -94,7 +101,7 @@ function uu1(playerID)
 		doEet = true
 		save(player, "hadDaponLastTurn", false)
 	end
-	if player:GetUnitClassCount(GameInfoTypes["UNITCLASS_ARCHER"]) > 0 or doEet == true then
+	if player:GetUnitClassCount(unitClassArcher) > 0 or doEet == true then
 		local archers = {}
 		for unit in player:Units() do
 			if unit:IsHasPromotion(promotionID) then
@@ -127,7 +134,7 @@ function uu2(playerID, unitID, unitX, unitY)
 	local player = Players[playerID]
 	local unit = player:GetUnitByID(unitID)
 	unit:SetHasPromotion(promotionID, false)
-	if player:GetUnitClassCount(GameInfoTypes["UNITCLASS_ARCHER"]) > 0 then
+	if player:GetUnitClassCount(unitClassArcher) > 0 then
 		local plot = unit:GetPlot()
 		if unit:GetUnitType() == unitType then
 			save(player, "hadDaponLastTurn", true)
@@ -166,9 +173,9 @@ GameEvents.UnitSetXY.Add(uu2)
 ---------------------------------------------------------------------------------------------------------------------------------------
 function thongdrelArtists(playerID)
     local player = Players[playerID]
-    if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_BHUTAN"] then
+    if player:GetCivilizationType() == civilizationID then
         for city in player:Cities() do
-            if city:IsHasBuilding(GameInfoTypes["BUILDING_THONGDREL_RELIGION"]) then
+            if city:IsHasBuilding(buildingThongdrelReligion) then
                 local numDzongWorked = 0
                 local numPlots = city:GetNumCityPlots()
                 for i = 0, numPlots - 1 do
@@ -179,7 +186,7 @@ function thongdrelArtists(playerID)
                         numDzongWorked = numDzongWorked + 1
                     end
                 end
-                 city:SetNumRealBuilding(GameInfoTypes["BUILDING_THONGDREL_ARTISTS"], numDzongWorked)
+                 city:SetNumRealBuilding(buildingThongdrelArtists, numDzongWorked)
             end
         end
     end

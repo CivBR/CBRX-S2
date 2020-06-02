@@ -18,7 +18,7 @@ for row in GameInfo.Units() do
 	end
 end
 
-print("unitsTable", #unitsTable);
+--print("unitsTable", #unitsTable);
 ------------------------------------------------------------------------------------------------------------------------
 -- JFD_IsCivilisationActive
 ------------------------------------------------------------------------------------------------------------------------
@@ -70,7 +70,7 @@ function CaptureCivilians(iPlayer, iUnit, iUnitType, iX, iY, bDelay, iByPlayer)
 	
 	if unitsTable[pUnit:GetUnitType()] then
 		if iByPlayer == palID then
-			print("non-worker civilian unit has been killed by palmares")
+			--print("non-worker civilian unit has been killed by palmares")
 			local pNewUnitType = pUnit:GetUnitType();
 			local pNewUnit = palPlayer:InitUnit(pNewUnitType, iX, iY);
 			pNewUnit:SetMoves(0);
@@ -91,7 +91,7 @@ function DamageNearbyUnits(playerID)
     local palmaresPlayer = GetPlayerByCivilization(iPalmaresCiv)
     local palmaresID = palmaresPlayer:GetID()
     if playerTeam:IsAtWar(palmaresID) then
-        print(player, "is at war with palmares")
+        --print(player, "is at war with palmares")
         for unit in player:Units() do
             if unit:IsCombatUnit() then
 				local adjacentCount = 0;
@@ -101,7 +101,7 @@ function DamageNearbyUnits(playerID)
 					local adjacentUnit = adjacentPlot:GetUnit()
 					if adjacentUnit then
 						local adjUnitOwner = adjacentUnit:GetOwner()
-						print("adjUnitOwner", adjUnitOwner, "palmaresID", palmaresID)
+						--print("adjUnitOwner", adjUnitOwner, "palmaresID", palmaresID)
 						if adjUnitOwner == palmaresID then
 							if adjacentUnit:IsCombatUnit() == false then		
 								adjacentCount = adjacentCount+1;
@@ -119,7 +119,7 @@ function DamageNearbyUnits(playerID)
 					end
 				end
 				if adjacentCount > 0 then
-					print(unit, "is adjacent to", adjacentCount, "enemy palmares civilians, damaging", adjacentCount*5)
+					--print(unit, "is adjacent to", adjacentCount, "enemy palmares civilians, damaging", adjacentCount*5)
 					unit:ChangeDamage(adjacentCount*5)
 				end
 			end

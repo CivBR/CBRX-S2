@@ -20,6 +20,6 @@ Enable to allow for print statements to be activated throughout the code for the
 
 INSERT INTO DMS_GlobalUserSettings
 		(Type,											Value)
-VALUES	('DMS_ZAIRE_DEBUGGING_ON',						1);
+VALUES	('DMS_ZAIRE_DEBUGGING_ON',						0);
 --==========================================================================================================================	
 --==========================================================================================================================	

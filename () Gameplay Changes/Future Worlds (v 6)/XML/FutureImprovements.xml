@@ -1141,7 +1141,6 @@
 			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
 			<Model>FungalGrowth.fxsxml</Model>
 		</Row>
-
 		<Row>
 			<Era>Any</Era>
 			<State>Any</State>

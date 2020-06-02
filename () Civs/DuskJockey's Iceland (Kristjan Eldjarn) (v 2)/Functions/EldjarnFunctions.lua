@@ -99,7 +99,7 @@ function DJ_IcelandCoastBuilds(playerID, plotX, plotY, improvementID)
 			if (plot and plot:GetOwner() ~= playerID) then
 				plot:SetOwner(playerID)
 				plot:SetRevealed(player:GetTeam(), true)
-				print("Plot claimed for Iceland")
+				--print("Plot claimed for Iceland")
 			end
 		end
 	end
@@ -140,7 +140,7 @@ function DJ_AegirClassBonuses(playerID, unitID, plotX, plotY)
 					plot:SetImprovementType(-1)
 					local bonus = math.floor(player:GetTotalJONSCulturePerTurn() / 4)
 					player:ChangeGold(bonus)
-					print("Enemy fishing boat krilled")
+					--print("Enemy fishing boat krilled")
 					if player:IsHuman() then
 						local hex = ToHexFromGrid(Vector2(unit:GetX(), unit:GetY()))
 						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_GOLD]", bonus), true)
@@ -164,19 +164,22 @@ function DJ_TorfbaerFoodBoost(playerID)
 		local iX, iY = city:GetX(), city:GetY()
 		for i = 0, city:GetNumCityPlots() - 1, 1 do
 			local plot = city:GetCityIndexPlot(i)
-			if plot:GetImprovementType() == buildTorfbaerID then
-				local forestAdjacency = false
-				for iterPlot in C15_AdjacentPlotIterator(plot) do
-					if iterPlot and iterPlot:GetFeatureType() == featureForestID then
-						forestAdjacency = true
-						break
+			if plot then
+				if plot:GetImprovementType() == buildTorfbaerID then
+					local forestAdjacency = false
+					for iterPlot in C15_AdjacentPlotIterator(plot) do
+						if iterPlot and iterPlot:GetFeatureType() == featureForestID then
+							forestAdjacency = true
+							break
+						end
+					end
+					if forestAdjacency then
+						city:ChangeFood(1)
+						--print("Successfully added food from torbaer to " .. city:GetName() .. "")
 					end
 				end
-				if forestAdjacency then
-					city:ChangeFood(1)
-					print("Successfully added food from torbaer to " .. city:GetName() .. "")
-				end
 			end
+			
 		end
 	end
 end

@@ -110,9 +110,9 @@ function ORG_MalaccaResourceTradeBonus(iPlayer)
 	if pPlayer:GetCivilizationType() == iMalacca then
 		local iTotalGold = ORG_GetMalaccaResourceGoldBonus(iPlayer)
 		pPlayer:ChangeGold(iTotalGold)
+		return iTotalGold
 	end
 end
-
 GameEvents.PlayerDoTurn.Add(ORG_MalaccaResourceTradeBonus)
 --------------------------------------------------------------
 -- Jong (UU1)
@@ -187,7 +187,7 @@ function JFD_GetRandom(lower, upper)
 end
 
 function ORG_CanAddSeaResource(unit) -- checks if a unit is on a valid plot
-	print ("check can add sea resource start")
+	--print ("check can add sea resource start")
 	local pBool = false;
 	local pPlot = unit:GetPlot();
 	if unit:MovesLeft() <= 1 then return pBool end

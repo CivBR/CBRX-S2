@@ -14,8 +14,6 @@ local resourceFurID = GameInfoTypes.RESOURCE_FUR
 local fortID = GameInfoTypes.IMPROVEMENT_FORT;
 local forestID = GameInfoTypes.FEATURE_FOREST;
 
-
-
 function VanaBeaverSpawn(playerID, cityID, buildingID)
     local player = Players[playerID]
     if (player:IsAlive() and player:GetCivilizationType() == civilizationID) then
@@ -35,7 +33,6 @@ function VanaBeaverSpawn(playerID, cityID, buildingID)
     end     
 end    
 GameEvents.CityConstructed.Add(VanaBeaverSpawn) 
-
 
 ----------------------------------------------------------------------------------------------------------------------------
 -- +5% Great Person generation for each Religion and Outgoing TradeRoute present in the city
@@ -77,16 +74,12 @@ function Vlad_NewNethers_GPGenPerReligion(playerID)
 					numReligions = numReligions + 1
 				end
 			end
-				city:SetNumRealBuilding(buildingGPGenID, numReligions + mathMin(JFD_GetNumOutgoingTradeRoutes(playerID, city)))
-				print("Number of dummy buildings placed:", numReligions)
+			city:SetNumRealBuilding(buildingGPGenID, numReligions + mathMin(JFD_GetNumOutgoingTradeRoutes(playerID, city)))
 		end
 	end
 end
 
 GameEvents.PlayerDoTurn.Add(Vlad_NewNethers_GPGenPerReligion)
-
-
-
 
 ----------------------------------------------------------------------------------------------------------------------------
 -- FORTS CLAIM FRESHWATER
@@ -172,5 +165,4 @@ function Vana_NN_BeaverFort_DoTurn(playerID)
 		end
 	end
 end
-
 GameEvents.PlayerDoTurn.Add(Vana_NN_BeaverFort_DoTurn)

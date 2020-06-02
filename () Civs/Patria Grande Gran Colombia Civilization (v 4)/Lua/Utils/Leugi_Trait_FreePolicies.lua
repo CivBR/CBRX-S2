@@ -79,54 +79,38 @@ function Leugi_SetPolicy(player, policy, bool)
 end
 
 function TraitGivePolicy(pPlayer, iPolicy)
-	print("Policy: " .. iPolicy .. "")
 	if pPlayer:HasPolicy(iPolicy) == false then
-		print("GIVIN MAH POLICIES")
 		Leugi_SetPolicy(pPlayer, iPolicy, true)
 	end
 end
 
 function TraitPolicyCheck (iPlayer)
-	----print("Check 1")
 	local pPlayer = Players[iPlayer];
 	DummyPolicies = {}
 	if pPlayer == nil or not pPlayer:IsAlive() or 
 			pPlayer:IsBarbarian() or pPlayer:IsMinorCiv() then
 		return nil;
 	end
-	--local iTrait = GetMajorTrait(pPlayer);
-	------print("Check 3")
-	------print(iTrait)
 	local leader = GameInfo.Leaders[pPlayer:GetLeaderType()];
 	local leaderTrait = GameInfo.Leader_Traits("LeaderType ='" .. leader.Type .. "'")();
 	local iTrait = leaderTrait.TraitType;
-	----print(iTrait)
 	local t = {}
 	for row in DB.Query("SELECT PolicyType FROM Leugi_Trait_FreePolicies WHERE Type = '" .. iTrait .. "'") do
-		print("STUFF")
-		print(row.PolicyType)
 		table.insert(t, row.PolicyType)
 	end
 
 	for loop, policy in ipairs(t) do
-		----print ("CHECK N")
-		print (policy);
 		iPolicy = GameInfoTypes["" .. policy .. ""]
-		----print (iPolicy)
 		local Prereqs = {}
 		for row in DB.Query("SELECT PrereqTech FROM Leugi_Trait_FreePolicies WHERE PolicyType = '" .. policy .. "'") do
-			----print ("wahht")
 			local TechP = GameInfoTypes[row.PrereqTech]
 			if TechP == nil then
-				----print("Check 8")
 				TraitGivePolicy(pPlayer, iPolicy)
 			else
-				----print("CHECK NN")
 				local teamID = pPlayer:GetTeam();
 				local pTeam = Teams[teamID];
 				if pTeam:IsHasTech(TechP) then
 					TraitGivePolicy(pPlayer, iPolicy)
-					----print("Check 9")
 				end
 			end
 		end
@@ -136,7 +120,6 @@ end
 GameEvents.PlayerDoTurn.Add(TraitPolicyCheck);
 
 function GetMajorTrait(pPlayer)
-	----print("Check 2")
 	local leader = GameInfo.Leaders[pPlayer:GetLeaderType()];
 	local leaderTrait = GameInfo.Leader_Traits("LeaderType ='" .. leader.Type .. "'")();
 	return GameInfo.Traits[leaderTrait.TraitType];

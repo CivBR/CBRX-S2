@@ -29,12 +29,12 @@ function JWW_RGRiverDamagesEnemyUnits(iPlayer)
 									local iHealthGone = math.ceil(iMaxHealth / 12)
 									local iCurrentHealth = pAffectedUnit:GetCurrHitPoints()
 									local iNewHealth = iCurrentHealth - iHealthGone
-									print("RG River damage to Unit", "CurrentHealth", iCurrentHealth, "MaxHealth", iMaxHealth, "HealthGone", iHealthGone, "NewHealth", iNewHealth)
+									--print("RG River damage to Unit", "CurrentHealth", iCurrentHealth, "MaxHealth", iMaxHealth, "HealthGone", iHealthGone, "NewHealth", iNewHealth)
 									if iNewHealth > 0 then
 									pUnit:ChangeDamage(iHealthGone)
 									else
 										pUnit:Kill(true)
-										print("RG River damage killed unit", "CurrentHealth", iCurrentHealth, "MaxHealth", iMaxHealth, "HealthGone", iHealthGone, "NewHealth", iNewHealth)
+										--print("RG River damage killed unit", "CurrentHealth", iCurrentHealth, "MaxHealth", iMaxHealth, "HealthGone", iHealthGone, "NewHealth", iNewHealth)
 									end
 								end
 							end
@@ -63,12 +63,12 @@ function JWW_RGRiverDamagesEnemyUnits(iPlayer)
 											local iHealthGone = math.ceil(iMaxHealth / 12)
 											local iCurrentHealth = pAffectedUnit:GetCurrHitPoints()
 											local iNewHealth = iCurrentHealth - iHealthGone
-											print("RG River damage to Unit", "CurrentHealth", iCurrentHealth, "MaxHealth", iMaxHealth, "HealthGone", iHealthGone, "NewHealth", iNewHealth)
+											--print("RG River damage to Unit", "CurrentHealth", iCurrentHealth, "MaxHealth", iMaxHealth, "HealthGone", iHealthGone, "NewHealth", iNewHealth)
 											if iNewHealth > 0 then
 											pUnit:ChangeDamage(iHealthGone)
 											else
 												pUnit:Kill(true)
-												print("RG River damage killed unit", "CurrentHealth", iCurrentHealth, "MaxHealth", iMaxHealth, "HealthGone", iHealthGone, "NewHealth", iNewHealth)
+												--print("RG River damage killed unit", "CurrentHealth", iCurrentHealth, "MaxHealth", iMaxHealth, "HealthGone", iHealthGone, "NewHealth", iNewHealth)
 											end
 										end
 									end
@@ -159,9 +159,9 @@ end
 function CanBuildPastures(unit) -- checks if a unit is on a valid plot
 	local pBool = false;
 	local pPlot = unit:GetPlot();
-	print("checking if units have moves left", unit)
+	--print("checking if units have moves left", unit)
 	if unit:MovesLeft() <= 1 then return pBool end
-	print("checking if plot owner", unit:GetOwner(), pPlot:GetOwner())
+	--print("checking if plot owner", unit:GetOwner(), pPlot:GetOwner())
 	if unit:GetOwner() ~= pPlot:GetOwner() then return pBool end
 	if pPlot ~= nil then
 		if (not pPlot:IsCity()) then
@@ -169,7 +169,7 @@ function CanBuildPastures(unit) -- checks if a unit is on a valid plot
 				if pPlot:GetImprovementType() == -1 then
 					if (pPlot:GetFeatureType() == -1 or pPlot:GetFeatureType() == iForest or pPlot:GetFeatureType() == iJungle or pPlot:GetFeatureType() == iMarsh or pPlot:GetFeatureType() == iFlood) then
 						if pPlot:GetTerrainType() == iCoast or pPlot:GetTerrainType() == iOcean then return pBool end
-						print("can build pasture + horses", unit)
+						--print("can build pasture + horses", unit)
 						pBool = true;
 					end
 				end
@@ -217,7 +217,7 @@ function VaqueroSelection(playerID, unitID, x, y, a5, bool)
 		pSelUnit = nil;
 	end
 end
-Events.UnitSelectionChanged.Add(VaqueroSelection)
+--Events.UnitSelectionChanged.Add(VaqueroSelection)
 
 
 function AIBuildsPasturesRioGrande(playerID)

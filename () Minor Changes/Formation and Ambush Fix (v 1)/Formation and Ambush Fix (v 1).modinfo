@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6204957c-fb5b-4f76-8e2b-0e3ad22bccfd" version="1">
+  <Properties>
+    <Name>Formation and Ambush Fix</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Makes Formation II and Ambush II available again.</Teaser>
+    <Description>Makes Formation II and Ambush II available again.</Description>
+    <Authors>Kewlipo</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="50AC28E0D74F7C14145222537C26FE7E" import="0">FormationAmbushFix.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>FormationAmbushFix.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

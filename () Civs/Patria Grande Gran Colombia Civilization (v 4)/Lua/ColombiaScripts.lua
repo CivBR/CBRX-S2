@@ -10,7 +10,6 @@ include("Leugi_Trait_FreePolicies.lua");
 
 local iCivGranColombia = GameInfoTypes.CIVILIZATIONPG_GRANCOLOMBIA
 local iBuildingCourtHouse = GameInfoTypes.BUILDING_COURTHOUSE
-GCpolicycount = 0
 local GoldenAgeBoost = 20
 
 function OnCityCaptureCompleteBoost(iPlayer, bCapital, iX, iY, iNewPlayer)
@@ -32,13 +31,6 @@ function OnCityCaptureCompleteBoost(iPlayer, bCapital, iX, iY, iNewPlayer)
 		  
 
 		  pPlayer:ChangeGoldenAgeTurns(GoldenAgeBoost*iMod)
-          if (pPlayer:IsHuman() and Game.GetActivePlayer() == iPlayer) then
-            -- These should be TXT_KEY_s
-            local sHeading = Locale.ConvertTextKey("City State Liberated!")
-            local sText = Locale.ConvertTextKey("You have liberated {1_CityState} and have started a Golden Age!", pCity:GetName())
-            -- Send them a "Thank-You" card!
-            pPlayer:AddNotification(NotificationTypes.NOTIFICATION_GOLDEN_AGE_BEGUN_ACTIVE_PLAYER, sText, sHeading)
-          end
           break
         end
       end

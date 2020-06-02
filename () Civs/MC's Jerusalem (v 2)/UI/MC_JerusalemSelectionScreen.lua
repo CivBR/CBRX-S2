@@ -90,7 +90,7 @@ function RefreshPanel()
 	local bFirst = true
 	for iKey, tTable in ipairs(tValidOrders) do
 
-		print(tTable.Head)
+		--print(tTable.Head)
 
 		if bFirst then
 			bFirst = false

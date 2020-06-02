@@ -182,7 +182,6 @@ function CreateChemamullOnDeath(playerID, unitID, unitType, iX, iY, bDelay, kill
 	if (killerID == -1) then return end
 	local pPlayer = Players[playerID]
 	if pPlayer:GetCivilizationType() == iCivType then
-		print("CCOD: killed unit is Mapuche")
 		local pTeam = Teams[pPlayer:GetTeam()]
 		if pTeam:IsHasTech(iPrereq) then
 			local pPlot = Map.GetPlot(iX, iY)

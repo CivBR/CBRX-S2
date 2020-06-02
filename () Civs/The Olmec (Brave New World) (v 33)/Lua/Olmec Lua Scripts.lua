@@ -504,7 +504,7 @@ function(iTeam, iTech, bAdopted)
 				--
 				--oPlayer:ChangeNumFreeGreatPeople(1)
 				--
-				print ("Old Olmec Trigger")
+				--print ("Old Olmec Trigger")
 				local oID = oPlayer:GetID()
 				if (oPlayer:GetCivilizationType() == GameInfoTypes.CIVILIZATION_LEUGI_OLMEC) then
 					if (oPlayer:IsHuman()) and (oID == Game.GetActivePlayer()) then

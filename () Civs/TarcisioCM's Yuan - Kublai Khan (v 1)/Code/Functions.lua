@@ -29,22 +29,12 @@ function YuanTrait(playerID)
 					local LastTechReminder = load(player, "Yuan_RememberTech")
 					if LastTechReminder and not(teamTechs:HasTech(LastTechReminder)) and enemyTechs:HasTech(LastTechReminder) then
 						targetTech = LastTechReminder
-						print("reminded")
 					else
 						targetTech = enemy:GetCurrentResearch()
-						print("not 1")
 						if teamTechs:HasTech(targetTech) then
-							 --[[for row in GameInfo.Technologies() do
-						        if not(teamTechs:HasTech(row.ID)) and enemyTechs:HasTech(row.ID) then
-									targetTech = row.ID
-									print("not 2")
-						        	break
-						        end
-						    end]]
 							for k, v in pairs(tTechs) do
 								if not (teamTechs:HasTech(k)) and enemyTechs:HasTech(k) then
 									targetTech = k
-									print("not 2")
 									break
 								end
 							end
@@ -52,14 +42,12 @@ function YuanTrait(playerID)
 					end
 					if not(teamTechs:HasTech(targetTech)) then
 						scienceYield = math.ceil((enemy:GetScience() * 0.10) + (player:GetScience() * 0.15))
-						print("add")
 						break
 					end
 				end
 			end
 			if not(teamTechs:HasTech(targetTech)) then
 				save(player, "Yuan_RememberTech", targetTech)
-				print("save")
 				teamTechs:ChangeResearchProgress(targetTech, scienceYield, playerID)
 				if player:IsHuman() then
 					Events.GameplayAlertMessage(Locale.ConvertTextKey("TXT_KEY_TAR_YUAN_C15_UA_TEXT", tTechs[targetTech], scienceYield))
@@ -69,7 +57,6 @@ function YuanTrait(playerID)
 					local enemy = Players[enemyID]
 					for city in enemy:Cities() do
 						local damage = city:GetMaxHitPoints() * 0.13
-						print("damage")
 						city:ChangeDamage(damage)
 					end
 				end
@@ -88,7 +75,6 @@ function createdCopies(ownerId, cityId, unitId, bGold, bFaithOrCulture)
 		local fleetNum 
 		local name
 		if unit:GetUnitType() == sao then
-			print("unitIsSao")
 			fleetNum = load(player,"numFleets")
 			if fleetNum == nil then fleetNum = 0 end
 			fleetNum = fleetNum + 1
@@ -110,7 +96,6 @@ function createdCopies(ownerId, cityId, unitId, bGold, bFaithOrCulture)
 			local runTimes = 0
 			local activeUB = false
 			if city:IsHasBuilding(yuanUB) then
-				print("cityHasYuanUB")
 				local enemyMilitary = 0
 				local yourMilitary = player:GetNumMilitaryUnits()
 				for enemyID = 0, GameDefines.MAX_CIV_PLAYERS - 1 do
@@ -122,17 +107,13 @@ function createdCopies(ownerId, cityId, unitId, bGold, bFaithOrCulture)
 				end
 				if enemyMilitary > yourMilitary then 
 					activeUB = true 
-					print("activateUB")
 				end
 			end
 			if activeUB == true then runTimes = 1 end
 			if unit:GetUnitType() == sao then runTimes = 2 end
 			if unit:GetUnitType() == sao and city:IsHasBuilding(yuanUB) and activeUB == true then runTimes = 5 end
-			print("run times: " .. runTimes)
 			if runTimes > 0 then
-				print("greater than zero")
 				for i = 0, runTimes - 1 do
-					print("iterating")
 					local newUnit = player:InitUnit(unit:GetUnitType(), city:GetX(), city:GetY())
 					for row in GameInfo.UnitPromotions() do
 						if unit:IsHasPromotion(row.ID) then
@@ -142,7 +123,6 @@ function createdCopies(ownerId, cityId, unitId, bGold, bFaithOrCulture)
 					local xp = unit:GetExperience()
 					newUnit:ChangeExperience(xp)
 					if unit:GetUnitType() == sao then
-						print("sao, saving")
 						newUnit:SetName(name)
 						save(newUnit,"belongsto",fleetNum)
 					end

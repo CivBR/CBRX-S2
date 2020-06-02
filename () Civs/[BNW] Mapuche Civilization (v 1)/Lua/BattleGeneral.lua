@@ -65,20 +65,21 @@ local iToqui = GameInfoTypes["UNIT_TOQUI"]
 function Mapuche_NewBattleGeneral(playerID, unitID)
 	local pPlayer = Players[playerID]
 	local pUnit = pPlayer:GetUnitByID(unitID)
-	if pUnit:GetUnitType() == iToqui then
-		local pTeam = Teams[pPlayer:GetTeam()]
-		local tLatestBatch = nil
-		for k, v in ipairs(tGeneralLevels) do
-			if pTeam:IsHasTech(v.Prereq) then
-				tLatestBatch = v
-			else break end
-		end
-		if tLatestBatch then
-			pUnit:SetHasPromotion(tLatestBatch.Promo, true)
-			pUnit:SetBaseCombatStrength(tLatestBatch.Combat)
+	if pUnit then
+		if pUnit:GetUnitType() == iToqui then
+			local pTeam = Teams[pPlayer:GetTeam()]
+			local tLatestBatch = nil
+			for k, v in ipairs(tGeneralLevels) do
+				if pTeam:IsHasTech(v.Prereq) then
+					tLatestBatch = v
+				else break end
+			end
+			if tLatestBatch then
+				pUnit:SetHasPromotion(tLatestBatch.Promo, true)
+				pUnit:SetBaseCombatStrength(tLatestBatch.Combat)
+			end
 		end
 	end
 end
-
 GameEvents.PlayerDoTurn.Add(BattleGeneral)
 Events.SerialEventUnitCreated.Add(Mapuche_NewBattleGeneral)

@@ -2,14 +2,20 @@ WARN_NOT_SHARED = false; include( "SaveUtils" ); MY_MOD_NAME = "geWilhelmIIGerma
 include("PlotIterators")
 include("IconSupport")
 
+local unitCargoShip = GameInfoTypes["UNIT_CARGO_SHIP"]
+local unitGEUboat = GameInfoTypes["UNIT_GE_UBOAT"]
+local unitClassSubmarine = GameInfoTypes["UNITCLASS_SUBMARINE"]
+local promotionMoveAfterAttacking = GameInfoTypes["PROMOTION_CAN_MOVE_AFTER_ATTACKING"]
+
 --German U-boat
 function GreaterEurope_UBoatSunkShip(playerID, unitID)
 	local player = Players[playerID]
 	local unit = player:GetUnitByID(unitID)
-	if unit:GetUnitType() == GameInfoTypes["UNIT_CARGO_SHIP"] then	
+	if unit:GetUnitType() == unitCargoShip then	
 		local plot = unit:GetPlot()
 		local enemyUnit = plot:GetUnit()
-		if enemyUnit:GetUnitType() == GameInfoTypes["UNIT_GE_UBOAT"] then	
+		if (not enemyUnit) then return end
+		if enemyUnit:GetUnitType() == unitGEUboat then	
 			enemyUnit:ChangeExperience(15)
 			enemyUnit:ChangeDamage(-30)
 		end
@@ -19,19 +25,19 @@ GameEvents.CanSaveUnit.Add(GreaterEurope_UBoatSunkShip)
 
 function GreaterEurope_UBoatBlockade(playerID)
 	local player = Players[playerID]
-	if player:GetUnitClassCount(GameInfoTypes["UNITCLASS_SUBMARINE"]) > 0 then
+	if player:GetUnitClassCount(unitClassSubmarine) > 0 then
 		for unit in player:Units() do
-			if unit:GetUnitType() == GameInfoTypes["UNIT_GE_UBOAT"] then	
+			if unit:GetUnitType() == unitGEUboat then	
 				local plot = unit:GetPlot()
 				local city = plot:GetWorkingCity()	
 				if city ~= nil then
 					if city:IsPlotBlockaded(plot) then
-						unit:SetHasPromotion(GameInfoTypes["PROMOTION_CAN_MOVE_AFTER_ATTACKING"], true)
+						unit:SetHasPromotion(promotionMoveAfterAttacking, true)
 					else
-						unit:SetHasPromotion(GameInfoTypes["PROMOTION_CAN_MOVE_AFTER_ATTACKING"], false)
+						unit:SetHasPromotion(promotionMoveAfterAttacking, false)
 					end
 				else
-					unit:SetHasPromotion(GameInfoTypes["PROMOTION_CAN_MOVE_AFTER_ATTACKING"], false)
+					unit:SetHasPromotion(promotionMoveAfterAttacking, false)
 				end
 			end
 		end
@@ -41,36 +47,43 @@ GameEvents.PlayerDoTurn.Add(GreaterEurope_UBoatBlockade)
 
 function GreaterEurope_UBoatBlockade_2(playerID, unitID, unitX, unitY)
 	local player = Players[playerID]
-	if player:GetUnitClassCount(GameInfoTypes["UNITCLASS_SUBMARINE"]) > 0 then
+	if player:GetUnitClassCount(unitClassSubmarine) > 0 then
 		local unit = player:GetUnitByID(unitID)
-		if unit:GetUnitType() == GameInfoTypes["UNIT_GE_UBOAT"] then	
+		if unit:GetUnitType() == unitGEUboat then	
 			local plot = unit:GetPlot()
 			local city = plot:GetWorkingCity()	
 			if city ~= nil then
 				if city:IsPlotBlockaded(plot) then
-					unit:SetHasPromotion(GameInfoTypes["PROMOTION_CAN_MOVE_AFTER_ATTACKING"], true)
+					unit:SetHasPromotion(promotionMoveAfterAttacking, true)
 				else
-					unit:SetHasPromotion(GameInfoTypes["PROMOTION_CAN_MOVE_AFTER_ATTACKING"], false)
+					unit:SetHasPromotion(promotionMoveAfterAttacking, false)
 				end
 			else
-				unit:SetHasPromotion(GameInfoTypes["PROMOTION_CAN_MOVE_AFTER_ATTACKING"], false)
+				unit:SetHasPromotion(promotionMoveAfterAttacking, false)
 			end
 		end
 	end
 end
 GameEvents.UnitSetXY.Add(GreaterEurope_UBoatBlockade_2)
 
+local unitClassGWI = GameInfoTypes["UNITCLASS_GREAT_WAR_INFANTRY"]
+local unitStormtooper = GameInfoTypes["UNIT_GE_STORMTROOPER"]
+local promotionStormtrooperOpenTerrain = GameInfoTypes["PROMOTION_GE_STORMTROOPER_OPENTERRAIN"]
+local promotionStormtrooperArtillerySupport = GameInfoTypes["PROMOTION_GE_STORMTROOPER_ARTILLERY_SUPPORT"]
+local unitArtillery = GameInfoTypes["UNIT_ARTILLERY"]
+local unitClassArtillery = GameInfoTypes["UNITCLASS_ARTILLERY"]
+
 -- German Stormtrooper
 function GreaterEurope_Germany_NoMansLand(playerID, unitID, unitX, unitY)
 	local player = Players[playerID]
-	if player:GetUnitClassCount(GameInfoTypes["UNITCLASS_GREAT_WAR_INFANTRY"]) > 0 then
+	if player:GetUnitClassCount(unitClassGWI) > 0 then
 		local unit = player:GetUnitByID(unitID)
-		if unit:GetUnitType() == GameInfoTypes["UNIT_GE_STORMTROOPER"] then	
+		if unit:GetUnitType() == unitStormtooper then	
 			local plot = unit:GetPlot()
-			if not(plot:IsHills()) and not(plot:GetFeatureType() == FeatureTypes["FEATURE_FOREST"]) and not(plot:GetFeatureType() == FeatureTypes["FEATURE_JUNGLE"]) and not(plot:GetFeatureType() == FeatureTypes["FEATURE_MARSH"]) and not(plot:GetTerrainType() == TerrainTypes["TERRAIN_COAST"]) and not(plot:GetTerrainType() == TerrainTypes["TERRAIN_OCEAN"]) then 
-				unit:SetHasPromotion(GameInfoTypes["PROMOTION_GE_STORMTROOPER_OPENTERRAIN"], true)
+			if plot:IsOpenGround() then 
+				unit:SetHasPromotion(promotionStormtrooperOpenTerrain, true)
 			else
-				unit:SetHasPromotion(GameInfoTypes["PROMOTION_GE_STORMTROOPER_OPENTERRAIN"], false)
+				unit:SetHasPromotion(promotionStormtrooperOpenTerrain, false)
 			end
 		end
 	end
@@ -79,14 +92,13 @@ GameEvents.UnitSetXY.Add(GreaterEurope_Germany_NoMansLand)
 
 function ArtySupportReset(playerID)
 	local player = Players[playerID]
-	if player:GetUnitClassCount(GameInfoTypes["UNITCLASS_GREAT_WAR_INFANTRY"]) > 0 then
+	if player:GetUnitClassCount(unitClassGWI) > 0 then
 		local Artillery = {}
 		for unit in player:Units() do
-			if unit:IsHasPromotion(GameInfoTypes["PROMOTION_GE_STORMTROOPER_ARTILLERY_SUPPORT"]) then
-				unit:SetHasPromotion(GameInfoTypes["PROMOTION_GE_STORMTROOPER_ARTILLERY_SUPPORT"], false)
-
+			if unit:IsHasPromotion(promotionStormtrooperArtillerySupport) then
+				unit:SetHasPromotion(promotionStormtrooperArtillerySupport, false)
 			end
-			if unit:GetUnitType() == GameInfoTypes["UNIT_ARTILLERY"] then
+			if unit:GetUnitType() == unitArtillery then
 				table.insert(Artillery, unit)
 			end
 		end
@@ -95,8 +107,8 @@ function ArtySupportReset(playerID)
 			for loopPlot in PlotAreaSweepIterator(plot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
 				for i = 0, loopPlot:GetNumUnits() - 1, 1 do  
 					local otherUnit = loopPlot:GetUnit(i)
-					if otherUnit and otherUnit:GetOwner() == playerID and otherUnit:GetUnitType() == GameInfoTypes["UNIT_GE_STORMTROOPER"] then
-						otherUnit:SetHasPromotion(GameInfoTypes["PROMOTION_GE_STORMTROOPER_ARTILLERY_SUPPORT"], true)
+					if otherUnit and otherUnit:GetOwner() == playerID and otherUnit:GetUnitType() == unitStormtooper then
+						otherUnit:SetHasPromotion(promotionStormtrooperArtillerySupport, true)
 					end
 				end
 			end
@@ -107,25 +119,25 @@ GameEvents.PlayerDoTurn.Add(ArtySupportReset)
 
 function ArtySupport(playerID, unitID, unitX, unitY)
 	local player = Players[playerID]
-	if player:GetUnitClassCount(GameInfoTypes["UNITCLASS_GREAT_WAR_INFANTRY"]) > 0 and player:GetUnitClassCount(GameInfoTypes["UNITCLASS_ARTILLERY"]) > 0 then
+	if player:GetUnitClassCount(unitClassGWI) > 0 and player:GetUnitClassCount(unitClassArtillery) > 0 then
 		local unit = player:GetUnitByID(unitID)
 		local plot = unit:GetPlot()
-		if unit:GetUnitType() == GameInfoTypes["UNIT_ARTILLERY"] then
+		if unit:GetUnitType() == unitArtillery then
 			for loopPlot in PlotAreaSweepIterator(plot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
 				for i = 0, loopPlot:GetNumUnits() - 1, 1 do  
 					local otherUnit = loopPlot:GetUnit(i)
-					if otherUnit and otherUnit:GetOwner() == playerID and otherUnit:GetUnitType() == GameInfoTypes["UNIT_GE_STORMTROOPER"] then
-						otherUnit:SetHasPromotion(GameInfoTypes["PROMOTION_GE_STORMTROOPER_ARTILLERY_SUPPORT"], true)
+					if otherUnit and otherUnit:GetOwner() == playerID and otherUnit:GetUnitType() == unitStormtooper then
+						otherUnit:SetHasPromotion(promotionStormtrooperArtillerySupport, true)
 					end
 				end
 			end
-		elseif unit:GetUnitType() == GameInfoTypes["UNIT_GE_STORMTROOPER"] then
-			unit:SetHasPromotion(GameInfoTypes["PROMOTION_GE_STORMTROOPER_ARTILLERY_SUPPORT"], false)
+		elseif unit:GetUnitType() == unitStormtooper then
+			unit:SetHasPromotion(promotionStormtrooperArtillerySupport, false)
 			for loopPlot in PlotAreaSweepIterator(plot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
 				for i = 0, loopPlot:GetNumUnits() - 1, 1 do  
 					local otherUnit = loopPlot:GetUnit(i)
-					if otherUnit and otherUnit:GetOwner() == playerID and otherUnit:GetUnitType() == GameInfoTypes["UNIT_ARTILLERY"] then
-						unit:SetHasPromotion(GameInfoTypes["PROMOTION_GE_STORMTROOPER_ARTILLERY_SUPPORT"], true)
+					if otherUnit and otherUnit:GetOwner() == playerID and otherUnit:GetUnitType() == unitArtillery then
+						unit:SetHasPromotion(promotionStormtrooperArtillerySupport, true)
 					end
 				end
 			end
@@ -133,12 +145,15 @@ function ArtySupport(playerID, unitID, unitX, unitY)
 	end
 end
 GameEvents.UnitSetXY.Add(ArtySupport)
+
+local civilizationGermany = GameInfoTypes["CIVILIZATION_GREATEREUROPE_GERMANY"]
+
 --German UA first half
 function GermanyWarDeclared(teamId, otherTeamId)
 	local Germany
 	for iPlayer = 0, GameDefines.MAX_CIV_PLAYERS - 1 do
 		local player = Players[iPlayer];			
-		if player ~= nil and player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_GREATEREUROPE_GERMANY"] then
+		if player ~= nil and player:GetCivilizationType() == civilizationGermany then
 			Germany = player
 			break
 		end
@@ -165,7 +180,7 @@ function GermanyPeaceDeclared(teamId, otherTeamId)
 	local Germany
 	for iPlayer = 0, GameDefines.MAX_CIV_PLAYERS - 1 do
 		local player = Players[iPlayer];			
-		if player ~= nil and player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_GREATEREUROPE_GERMANY"] then
+		if player ~= nil and player:GetCivilizationType() == civilizationGermany then
 			Germany = player
 			break
 		end
@@ -182,7 +197,7 @@ GameEvents.MakePeace.Add(GermanyPeaceDeclared)
 
 function GermanyTimer(playerID)
 	local player = Players[playerID]
-	if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_GREATEREUROPE_GERMANY"] then
+	if player:GetCivilizationType() == civilizationGermany then
 		local timer = load(player, "GEgermanyTimer")
 		if timer and timer > 0 then
 			for unit in player:Units() do
@@ -195,18 +210,26 @@ function GermanyTimer(playerID)
 end
 GameEvents.PlayerDoTurn.Add(GermanyTimer)
 
+local buildingGermanProduction = GameInfoTypes["BUILDING_TCM_GERMAN_PRODUCTION"]
+local processWealth = GameInfoTypes["PROCESS_WEALTH"]
+local promotionDefense1 = GameInfoTypes["PROMOTION_TCM_GERMANY_DEFENSE_1"]
+local promotionDefense2 = GameInfoTypes["PROMOTION_TCM_GERMANY_DEFENSE_2"]
+local promotionOffense = GameInfoTypes["PROMOTION_TCM_GERMANY_OFFENSE"]
+local promotionHeal1 = GameInfoTypes["PROMOTION_TCM_GERMANY_HEAL_1"]
+local promotionHeal2 = GameInfoTypes["PROMOTION_TCM_GERMANY_HEAL_2"]
+
 
 function ProductionFromWar(playerID)
 	local player = Players[playerID]
-	if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_GREATEREUROPE_GERMANY"] then
+	if player:GetCivilizationType() == civilizationGermany then
 		local team = Teams[player:GetTeam()]
 		local numWars = team:GetAtWarCount(true)
 		local numCitiesProducingValid = 0
 		for city in player:Cities() do
-			city:SetNumRealBuilding(GameInfoTypes["BUILDING_TCM_GERMAN_PRODUCTION"], numWars)
+			city:SetNumRealBuilding(buildingGermanProduction, numWars)
 			local unit = city:GetProductionUnit()
 			if numWars > 0 then
-				if city:GetProductionProcess() == GameInfoTypes["PROCESS_WEALTH"] then
+				if city:GetProductionProcess() == processWealth then
 					numCitiesProducingValid = numCitiesProducingValid + 1
 				elseif unit and city:IsProductionUnit() == true then
 					if GameInfo.Units[unit].Combat > 0 or GameInfo.Units[unit].RangedCombat > 0 then
@@ -222,23 +245,23 @@ function ProductionFromWar(playerID)
 		save(player,"tcmNumCitiesContributing", numCitiesProducingValid)
 		for unit in player:Units() do
 			if unit:IsCombatUnit() then
-				unit:SetHasPromotion(GameInfoTypes["PROMOTION_TCM_GERMANY_DEFENSE_1"], false)
-				unit:SetHasPromotion(GameInfoTypes["PROMOTION_TCM_GERMANY_DEFENSE_2"], false)
-				unit:SetHasPromotion(GameInfoTypes["PROMOTION_TCM_GERMANY_OFFENSE"], false)
-				unit:SetHasPromotion(GameInfoTypes["PROMOTION_TCM_GERMANY_HEAL_1"], false)
-				unit:SetHasPromotion(GameInfoTypes["PROMOTION_TCM_GERMANY_HEAL_2"], false)
+				unit:SetHasPromotion(promotionDefense1, false)
+				unit:SetHasPromotion(promotionDefense2, false)
+				unit:SetHasPromotion(promotionOffense, false)
+				unit:SetHasPromotion(promotionHeal1, false)
+				unit:SetHasPromotion(promotionHeal2, false)
 				if numCitiesProducingValid > 5 then
-					unit:SetHasPromotion(GameInfoTypes["PROMOTION_TCM_GERMANY_OFFENSE"], true)
+					unit:SetHasPromotion(promotionOffense, true)
 				end
 				if numCitiesProducingValid > 2 then
-					unit:SetHasPromotion(GameInfoTypes["PROMOTION_TCM_GERMANY_HEAL_2"], true)
+					unit:SetHasPromotion(promotionHeal2, true)
 				elseif numCitiesProducingValid > 0 then
-					unit:SetHasPromotion(GameInfoTypes["PROMOTION_TCM_GERMANY_HEAL_1"], true)
+					unit:SetHasPromotion(promotionHeal1, true)
 				end
 				if numCitiesProducingValid > 3 then
-					unit:SetHasPromotion(GameInfoTypes["PROMOTION_TCM_GERMANY_DEFENSE_2"], true)
+					unit:SetHasPromotion(promotionDefense2, true)
 				elseif numCitiesProducingValid > 1 then
-					unit:SetHasPromotion(GameInfoTypes["PROMOTION_TCM_GERMANY_DEFENSE_1"], true)
+					unit:SetHasPromotion(promotionDefense1, true)
 				end
 				if numCitiesProducingValid > 6 and load(player, "GEgermanyTimer") <= 0 and numWars > 0 then
 					unit:ChangeMoves(60)
@@ -249,17 +272,20 @@ function ProductionFromWar(playerID)
 end
 GameEvents.PlayerDoTurn.Add(ProductionFromWar)
 
+local unitWorker = GameInfoTypes["UNIT_WORKER"]
+local promotionGermanyTrait = GameInfoTypes["PROMOTION_GE_GERMANYTRAIT"]
+
 function GreaterEurope_GermanWorkerTrait(playerID, unitID)
 	local player = Players[playerID]
 	local warEffort = load(player,"tcmNumCitiesContributing")
 	if warEffort and warEffort >= 5 then
 		local unit = player:GetUnitByID(unitID)
-		if unit:GetUnitType() == GameInfoTypes["UNIT_WORKER"] then	
+		if unit:GetUnitType() == unitWorker then	
 			local plot = unit:GetPlot()
 			local militaryUnit = plot:GetUnit()
-			if not(militaryUnit:GetUnitType() == GameInfoTypes["UNIT_WORKER"]) then	
+			if not(militaryUnit:GetUnitType() == unitWorker) then	
 				militaryUnit:SetDamage(0)
-				militaryUnit:SetHasPromotion(GameInfoTypes["PROMOTION_GE_GERMANYTRAIT"], true)
+				militaryUnit:SetHasPromotion(promotionGermanyTrait, true)
 			end
 		end
 	end

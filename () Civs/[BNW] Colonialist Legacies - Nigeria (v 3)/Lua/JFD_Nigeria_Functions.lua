@@ -77,6 +77,7 @@ local mathCeil 				= math.ceil
 function CL_Nigeria_GiantOfAfrica(plotX, plotY, oldPop, newPop)
 	if newPop > oldPop then
 		local city = Map.GetPlot(plotX, plotY):GetPlotCity()
+		if not city then return end
 		local player = Players[city:GetOwner()]
 		if (player:IsAlive() and player:GetCivilizationType() == civilizationID) then
 			local reward = newPop

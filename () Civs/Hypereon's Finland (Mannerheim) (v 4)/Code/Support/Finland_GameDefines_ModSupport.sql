@@ -184,12 +184,8 @@ Civilization_JFD_RevolutionaryCivilizationsToSpawn (
 INSERT INTO Civilization_JFD_RevolutionaryCivilizationsToSpawn
 		(CivilizationType,					RevolutionaryCivilizationType)
 VALUES	('CIVILIZATION_SWEDEN',			'CIVILIZATION_FINNS'),
-		('CIVILIZATION_HYP_FINLAND',			'CIVILIZATION_FINNS'),
-		('CIVILIZATION_JFD_NICHOLAS_RUSSIA',			'CIVILIZATION_FINNS'),
 		('CIVILIZATION_RUSSIA',			'CIVILIZATION_FINNS'),
-		('CIVILIZATION_FINNS',			'CIVILIZATION_SWEDEN'),
-		('CIVILIZATION_FINNS',			'CIVILIZATION_SAMI'),
-		('CIVILIZATION_FINNS',			'CIVILIZATION_HYP_FINLAND');
+		('CIVILIZATION_FINNS',			'CIVILIZATION_SWEDEN');
 --==========================================================================================================================	
 -- JFD PIETY & PRESTIGE
 --==========================================================================================================================			

@@ -211,11 +211,6 @@ INSERT INTO Building_Flavors
 SELECT 'BUILDING_PI_COLOSSEUM', FlavorType 
 FROM Building_Flavors WHERE BuildingType = 'BUILDING_COLOSSEUM';
 
-INSERT INTO Building_Flavors 
-(BuildingType, FlavorType) 
-SELECT 'BUILDING_PI_THEATRE', FlavorType 
-FROM Building_Flavors WHERE BuildingType = 'BUILDING_THEATRE';
-
 INSERT INTO Building_Flavors
 (BuildingType, FlavorType) 
 SELECT 'BUILDING_PI_STADIUM', FlavorType 
@@ -250,11 +245,6 @@ INSERT INTO Building_Flavors
 (BuildingType, FlavorType) 
 SELECT 'BUILDING_PI_VERTICAL_FARM', FlavorType 
 FROM Building_Flavors WHERE BuildingType = 'BUILDING_FW_VERTICAL_FARM';
-
-INSERT INTO Building_ClassesNeededInCity 
-(BuildingType, BuildingClassType) 
-SELECT 'BUILDING_PI_THEATRE', BuildingClassType 
-FROM Building_ClassesNeededInCity WHERE BuildingType = 'BUILDING_THEATRE';
 
 INSERT INTO Building_ClassesNeededInCity 
 (BuildingType, BuildingClassType) 

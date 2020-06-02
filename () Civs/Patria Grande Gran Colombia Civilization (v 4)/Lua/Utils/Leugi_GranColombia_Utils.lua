@@ -179,8 +179,8 @@ function GetLibertador(player)
 	iLibertadorID = GameInfoTypes["UNIT_PG_LIBERTADOR"]
 	iUnits ={}
 	for row in DB.Query("SELECT LibertadorType FROM Leugi_Independence WHERE CivilizationType = '" .. CivType .. "'") do
-		print("Checking Libertador for " .. CivType .. "")
-		print(row.LibertadorType)
+		--print("Checking Libertador for " .. CivType .. "")
+		--print(row.LibertadorType)
 		iLibertadorID = GameInfoTypes["" .. row.LibertadorType .. ""]
 	end
 	return iLibertadorID
@@ -190,8 +190,8 @@ function GetIndependenceUnits(player)
 	CivType = GameInfo.Civilizations[player:GetCivilizationType()].Type
 	iUUID = GameInfoTypes["UNIT_CAVALRY"]
 	for row in DB.Query("SELECT SupportUnit FROM Leugi_Independence WHERE CivilizationType = '" .. CivType .. "'") do
-		print("Checking Units for " .. CivType .. "")
-		print(row.SupportUnit)
+		--print("Checking Units for " .. CivType .. "")
+		--print(row.SupportUnit)
 		iUUID = GameInfoTypes["" .. row.SupportUnit .. ""]
 	end
 	return iUUID

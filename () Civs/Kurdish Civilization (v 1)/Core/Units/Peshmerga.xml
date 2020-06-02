@@ -15,7 +15,7 @@
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
@@ -61,7 +61,7 @@
 	<Unit_Flavors>
 		<Row>
 			<UnitType>UNIT_PESHMERGA</UnitType>
-			<FlavorType>FLAVOR_ATTACK</FlavorType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>

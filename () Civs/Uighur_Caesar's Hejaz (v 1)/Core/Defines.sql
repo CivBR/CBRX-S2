@@ -17,8 +17,6 @@ INSERT INTO ArtDefine_UnitInfos(Type, DamageStates, Formation)
   VALUES ('ART_DEF_UNIT_FOREIGN_OP', 1, 'EarlyGreatArtist');
 INSERT INTO ArtDefine_UnitInfoMemberInfos(UnitInfoType, UnitMemberInfoType, NumMembers)
   VALUES ('ART_DEF_UNIT_FOREIGN_OP', 'ART_DEF_UNIT_MEMBER_TCM_MILITARY_ADVISER_1', 1);
-INSERT INTO ArtDefine_UnitInfoMemberInfos(UnitInfoType, UnitMemberInfoType, NumMembers)
-  VALUES ('ART_DEF_UNIT_FOREIGN_OP', 'ART_DEF_UNIT_MEMBER_TCM_MILITARY_ADVISER_BODYGUARD', 2);
 
   INSERT INTO ArtDefine_UnitMemberInfos(Type, Scale, Model, MaterialTypeTag, MaterialTypeSoundOverrideTag)
   VALUES ('ART_DEF_UNIT_MEMBER_TCM_MILITARY_ADVISER_1', 0.140000000596046, 'tcm_modern_Adviser.fxsxml', 'CLOTH', 'FLESH');

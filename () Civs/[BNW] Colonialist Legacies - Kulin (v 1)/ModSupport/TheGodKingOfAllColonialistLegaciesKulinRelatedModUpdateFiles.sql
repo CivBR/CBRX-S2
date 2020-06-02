@@ -216,7 +216,7 @@ VALUES  ('FLAVOR_JFD_REFORM_GOVERNMENT'),
 --A value of 1-3 will favour Left Reforms. A value of 4-6 will value Centre Reforms. A value of 7-10 will value Right Reforms. The strength of the value will determine how soon a Leader will implement that Reform.
 INSERT INTO Leader_Flavors
                 (LeaderType,                    FlavorType,                                                     Flavor)
-VALUES  ('LEADER_JFD_JAMES',    'FLAVOR_JFD_REFORM_GOVERNMENT',         5),
+VALUES  ('LEADER_CL_BARAK',    'FLAVOR_JFD_REFORM_GOVERNMENT',         5),
                 ('LEADER_CL_BARAK',     'FLAVOR_JFD_REFORM_CULTURE',            4),
                 ('LEADER_CL_BARAK',     'FLAVOR_JFD_REFORM_ECONOMIC',           2),
                 ('LEADER_CL_BARAK',     'FLAVOR_JFD_REFORM_FOREIGN',            1),

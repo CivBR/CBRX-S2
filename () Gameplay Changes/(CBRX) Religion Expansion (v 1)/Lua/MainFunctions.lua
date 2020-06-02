@@ -8,11 +8,6 @@ local beliefCharity = GameInfo.Beliefs["BELIEF_CHARITY"].ID
 local beliefAstralProjection = GameInfo.Beliefs["BELIEF_ASTRAL_PROJECTION"].ID
 local beliefTutelaryDeities = GameInfo.Beliefs["BELIEF_TUTELARY_DEITIES"].ID
 
-print("Guardian Spirits ID is " .. beliefGuardianSpirits)
-print("Charity ID is " .. beliefCharity)
-print("Astral Projection ID is " .. beliefAstralProjection)
-print("Tutelary Deities ID is " .. beliefTutelaryDeities)
-
 local buildingGuardianSpiritsDummy = GameInfoTypes["BUILDING_CBRX_FOUNDER_GUARDIAN_SPIRITS"]
 local buildingCharityDummy = GameInfoTypes["BUILDING_CBRX_FOUNDER_CHARITY"]
 local buildingAstralProjectionDummy = GameInfoTypes["BUILDING_CBRX_FOUNDER_ASTRAL_PROJECTION"]
@@ -28,8 +23,6 @@ function foundersPlayerDoTurn(iPlayer)
 	local religion = player:GetReligionCreatedByPlayer()
 
 	for i,v in ipairs(Game.GetBeliefsInReligion(religion)) do
-		print("Next Belief in Religion is: " .. v)
-		--local belief = GameInfo.Beliefs[v]
 		if (v == beliefGuardianSpirits) then
 			local numCitiesFollowing = Game.GetNumCitiesFollowing(religion)
 			for city in player:Cities() do
@@ -63,16 +56,12 @@ function foundersReligionFounded(iPlayer, holyCityId, eReligion, eBelief1, eBeli
 	local player = Players[iPlayer]
 	if (not player:IsAlive()) then return end
 	
-	print("Religion is " .. eReligion .. " with beliefs: " .. eBelief1 .. ", ".. eBelief2 .. ", ".. eBelief3 .. ", ".. eBelief4 .. ", ".. eBelief5)
 	
 	if eBelief1 == beliefCharity or eBelief2 == beliefCharity or eBelief3 == beliefCharity or eBelief4 == beliefCharity or eBelief5 == beliefCharity then
-		print("found Charity")
 		player:GetCityByID(holyCityId):SetNumRealBuilding(buildingCharityDummy, 1)
 	elseif eBelief1 == beliefAstralProjection or eBelief2 == beliefAstralProjection or eBelief3 == beliefAstralProjection or eBelief4 == beliefAstralProjection or eBelief5 == beliefAstralProjection then
-		print("found Astral Projection")
 		player:GetCityByID(holyCityId):SetNumRealBuilding(buildingAstralProjectionDummy, 1)
 	elseif eBelief1 == beliefTutelaryDeities or eBelief2 == beliefTutelaryDeities or eBelief3 == beliefTutelaryDeities or eBelief4 == beliefTutelaryDeities or eBelief5 == beliefTutelaryDeities then
-		print("Found Tutelary Deities")
 		local religion = GameInfo.Religions[eReligion]
 		for city in player:Cities() do
 			if city:GetReligiousMajority() == religion then
