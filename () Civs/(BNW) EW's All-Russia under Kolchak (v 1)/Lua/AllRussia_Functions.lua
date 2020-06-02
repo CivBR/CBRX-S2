@@ -201,12 +201,6 @@ end
 
 GameEvents.PlayerDoTurn.Add(EW_Bronepoezd_Redo)
 
---Just in case the route is built in the middle of a turn.
-function EW_Bronepoezd_Roundabout(playerID, x, y, improvementType)
-	EW_Bronepoezd_Redo(playerID)
-end
-
-GameEvents.BuildFinished.Add(EW_Bronepoezd_Roundabout)
 
 -----
 --UU2

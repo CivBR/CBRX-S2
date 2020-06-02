@@ -28,7 +28,9 @@
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
   <References>
     <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
     <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
@@ -73,7 +75,7 @@
     <File md5="6BAC0E6FE56B5F9192D36E42D99EEB68" import="1">Lua/EW_PARG_TSLDefines.lua</File>
     <File md5="0AA6CBD725DFD988C5193A82DB3F477B" import="1">Lua/EW_PARG_TSLSerializerV3.lua</File>
     <File md5="69FCADF0D2AE7C0C2CEC9D821AD41883" import="1">Lua/TSLSerializerCoreV3.lua</File>
-    <File md5="E405497AF1BEC090A87603E5EF11675C" import="0">Lua/AllRussia_Functions.lua</File>
+    <File md5="E4C6DAE1EE1A0C28E161222AD1083B80" import="0">Lua/AllRussia_Functions.lua</File>
     <File md5="3A4E46D77735BC5B9227C2F432F96193" import="0">ModSupport/MasterSupportFile.sql</File>
     <File md5="8DB19329818CDAD17FDA9D836CDB98B0" import="1">Music/PARGPeace.mp3</File>
     <File md5="B422A7D332F18DA42C909A5E36CC89F8" import="1">Music/PARGWar.mp3</File>
