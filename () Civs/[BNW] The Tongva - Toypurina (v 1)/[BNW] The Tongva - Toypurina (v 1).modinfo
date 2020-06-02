@@ -32,6 +32,7 @@
     <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
     <Mod id="8c101299-95c5-4b28-b7ed-4e0f774857ef" minversion="0" maxversion="999" title="Historical Religions" />
     <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+	<Mod id="fe6643ef-8ae3-4942-8b8d-f8db835cf15f" minversion="0" maxversion="999" title="Scouts ignore Borders" />
   </References>
   <Blocks />
   <Files>

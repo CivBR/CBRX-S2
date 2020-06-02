@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/10/2015 4:47:37 PM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_RYIKA_RIVAL_TERRITORY</Type>
+			<Description>TXT_KEY_PROMOTION_RIVAL_TERRITORY</Description>
+			<Help>TXT_KEY_PROMOTION_RIVAL_TERRITORY</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<RivalTerritory>true</RivalTerritory>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_RIVAL_TERRITORY</PediaEntry>
+		</Row>
+	</UnitPromotions>
+</GameData>

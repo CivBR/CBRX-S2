@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fe6643ef-8ae3-4942-8b8d-f8db835cf15f" version="2">
+  <Properties>
+    <Name>Scouts ignore Borders</Name>
+    <Teaser>A mod that does exactly what its title implies.</Teaser>
+    <Description>A simple mod that allows Scouts (and Pathfinders) to enter the borders of other Civs without having to get open borders first.
+
+I searched the workshop, but could find any mod that implements this change. Don't really know why nobody seems to have created (or released) such a mod yet... in my quick tests, it felt quite reasonable and fitting... so give it a try. :)</Description>
+    <Authors>Ryika</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="0B791F6979F25DA0FF65B3CD5709C55F" import="0">allyourbordersbelongtous.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>allyourbordersbelongtous.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/27/2014 11:29:31 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where Type="UNIT_NUCLEAR_SUBMARINE"/>
+			<Set Help="Invisible to all Units except Destroyers, Missile Cruisers and other Submarines, or until it attacks or is adjacent to another unit. Can carry 2 Missiles, and is specialized in attacking Naval Units.[NEWLINE][NEWLINE]Can enter rival territory"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SUBMARINE"/>
+			<Set Help="Invisible to all Units except Destroyers, Missile Cruisers and other Submarines, or until it attacks or is adjacent to another unit. Can cause major damage to other ships if they get into range without being seen.[NEWLINE][NEWLINE]Can enter rival territory."/>
+		</Update>
+	</Units>
+	
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_RYIKA_RIVAL_TERRITORY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_RYIKA_RIVAL_TERRITORY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+</GameData>

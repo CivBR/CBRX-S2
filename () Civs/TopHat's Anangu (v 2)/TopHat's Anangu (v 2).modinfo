@@ -30,6 +30,7 @@
     <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact's Events &amp; Decisions" />
     <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
     <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+	<Mod id="fe6643ef-8ae3-4942-8b8d-f8db835cf15f" minversion="0" maxversion="999" title="Scouts ignore Borders" />
   </References>
   <Blocks />
   <Files>

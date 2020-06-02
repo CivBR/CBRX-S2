@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2c98400f-3a37-42e8-b8e5-574d013c8603" version="3">
+  <Properties>
+    <Name>Submarines Ignore Borders</Name>
+    <Teaser>A mod that allows Submarines to enter Rival Territory. Compatible with Advanced Naval Warfare.</Teaser>
+    <Description>v3: Now works with Submarines added by the [url=http://steamcommunity.com/sharedfiles/filedetails/?id=419206661]Advanced Naval Warfare[/url]-Mod!
+This will however NOT show up in the tooltip of Submarines added by Advanced Naval Warfare.
+
+A simple mod that allows Submarines and their nuclear Brothers to enter enemy territory without requesting open borders first. You'll also not get a diplo-penalty if you end your turn in the domain of city states.</Description>
+    <Authors>Ryika</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="3b0d5b17-9e6a-4841-a2c5-0ef08c277713" minversion="0" maxversion="999" title="Advanced Naval Units" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="EB825350AF86C0BEA547CBEEC29B19F7" import="0">XML/Units/Promotions.xml</File>
+    <File md5="FF42EC860DCEC7694F801F62BCC8B041" import="0">XML/Units/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Units/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

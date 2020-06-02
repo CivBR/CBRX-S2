@@ -18,6 +18,7 @@ INSERT INTO Unit_FreePromotions
 		(UnitType,											PromotionType)
 VALUES	('UNIT_SAS_TIAT',         'PROMOTION_IGNORE_TERRAIN_COST'), 
 		('UNIT_SAS_TIAT',                'PROMOTION_EMBARKED_SIGHT'),
+		('UNIT_SAS_TIAT',                'PROMOTION_RIVAL_TERRITORY'),
 		('UNIT_SAS_TIAT',        'PROMOTION_DEFENSIVE_EMBARKATION');
 
 ---------------------------

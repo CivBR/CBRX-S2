@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/26/2014 9:09:48 PM -->
+<GameData>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<PromotionType>
+				PROMOTION_RIVAL_TERRITORY
+			</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+</GameData>
+
