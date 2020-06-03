@@ -262,6 +262,10 @@
 			<PrereqTech>TECH_EE_EXPLORATION</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_NAVIGATION</TechType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_EE_EXPLORATION</TechType>
 			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 		</Row>
@@ -276,6 +280,10 @@
 		<Row>
 			<TechType>TECH_EE_ARMOUR_PLATING</TechType>
 			<PrereqTech>TECH_EE_WARSHIPS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_EE_ARMOUR_PLATING</TechType>
+			<PrereqTech>TECH_EE_MANUFACTURING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_EE_WARSHIPS</TechType>
