@@ -370,68 +370,17 @@ function FutureTurnBonuses(iPlayer)
 end
 GameEvents.PlayerDoTurn.Add(FutureTurnBonuses)
 
-function CoreHealing(iPlayer)
-	local player = Players[iPlayer]
-	if not (player:GetCurrentEra() > 5) then return end
-	if player:IsAlive() then
-		for pUnit in player:Units() do
-			local pPlot = pUnit:GetPlot()
-			local bCorePresent = false
-			for pAdjacentPlot in PlotAreaSpiralIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
-				local iImprovement = pAdjacentPlot:GetImprovementType()
-				local iOwner = pAdjacentPlot:GetOwner()
-				if (iImprovement == improvementCore) and (iOwner == iPlayer) then
-					bCorePresent = true
-				end			
-			end
-			if bCorePresent and (pUnit:GetDamage() > 0) then
-				pUnit:ChangeDamage(-10)
-			end
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(CoreHealing)
+-- CoreHealing, NanohiveEffects, CrawlerEffects, HydraEffects, BioModEffects
 
-function NanohiveEffects(iPlayer)
-	local player = Players[iPlayer]
-	if (not player:IsAlive()) then return end
-	if not (player:GetCurrentEra() > 5) then return end
-	local teamID = player:GetTeam()
-	local pPlayerTeam = Teams[teamID]
-	for pUnit in player:Units() do
-		if pUnit:IsHasPromotion(promotionNanohive) then
-			local pPlot = pUnit:GetPlot()
-			if pPlot then
-				for loopPlot in PlotAreaSweepIterator(pPlot, 2, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
-					if loopPlot then
-						for iVal = 0,(loopPlot:GetNumUnits() - 1) do
-							local loopUnit = loopPlot:GetUnit(iVal)
-							if loopUnit:GetOwner() == iPlayer then
-								if (loopUnit:GetDamage() > 0) then
-									loopUnit:ChangeDamage(-10)
-								end
-							else 
-								local otherPlayer = Players[loopUnit:GetOwner()]
-								local otherTeamID = otherPlayer:GetTeam()
-								if pPlayerTeam:IsAtWar(otherTeamID) then
-									loopUnit:ChangeDamage(10)
-								end
-							end
-						end
-					end
-					
-				end
-			end
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(NanohiveEffects)
-
-function CrawlerEffects(iPlayer)
+function FutureTurnUnitEffects(iPlayer)
 	local player = Players[iPlayer]
 	if not (player:GetCurrentEra() > 5) then return end
+	local bIsAlive = player:IsAlive()
 	for pUnit in player:Units() do
-		if pUnit:GetUnitType() == unitCrawler then
+		local iType = pUnit:GetUnitType()
+		
+		-- Crawler effects
+		if iType == unitCrawler then
 			local iCheckForMissileProduction = JFD_GetRandom(1, 100)
 			if (iCheckForMissileProduction < iChanceMissileProduction) then
 				local pPlot = pUnit:GetPlot()
@@ -444,29 +393,21 @@ function CrawlerEffects(iPlayer)
 						end
 					end
 					if iNumMissiles < 3 then
-						local pNewUnit = player:InitUnit(unitHyperMissile, pPlot:GetX(), pPlot:GetY())
+						player:InitUnit(unitHyperMissile, pPlot:GetX(), pPlot:GetY())
 					end
 				end
 			end
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(CrawlerEffects)
+		end		
 
-function HydraEffects(iPlayer)
-	local player = Players[iPlayer]
-	if not (player:GetCurrentEra() > 5) then return end
-	local teamID = player:GetTeam()
-	local pPlayerTeam = Teams[teamID]
-	for pUnit in player:Units() do
-		if pUnit:GetUnitType() == unitHydra then
+		-- Hydra effects
+		if iType == unitHydra then
 			local pPlot = pUnit:GetPlot()
 			local bEnemyPresent = false
 			for pAdjacentPlot in PlotAreaSpiralIterator(pPlot, 2, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
 				if pAdjacentPlot and not pAdjacentPlot:IsWater() then
-					for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
+					for iVal = 0, (pAdjacentPlot:GetNumUnits() - 1) do
 						local loopUnit = pAdjacentPlot:GetUnit(iVal)
-						if not loopUnit:GetOwner() == iPlayer then
+						if loopUnit:GetOwner() ~= iPlayer then
 							local otherTeamID = Players[loopUnit:GetOwner()]:GetTeam()
 							if pPlayerTeam:IsAtWar(otherTeamID) then
 								bEnemyPresent = true
@@ -486,6 +427,7 @@ function HydraEffects(iPlayer)
 							end
 						end
 					end
+					local bShouldContinue = true
 					if #tPlots > 0 then
 						local randomNumber = JFD_GetRandom(1, #tPlots)
 						local tPlot = tPlots[randomNumber]
@@ -495,29 +437,116 @@ function HydraEffects(iPlayer)
 							local randomNumber2 = JFD_GetRandom(1, #tPlots)
 							local tPlot2 = tPlots[randomNumber2]
 							player:InitUnit(unitSwarm, tPlot2:GetX(), tPlot2:GetY())
-							return
+							bShouldContinue = false
 						end
 					end
-					for pAdjacentPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-						if pAdjacentPlot then
-							for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
-								local loopUnit = pAdjacentPlot:GetUnit(iVal)
-								if loopUnit:GetOwner() ~= iPlayer then
-									local otherTeamID = Players[loopUnit:GetOwner()]:GetTeam()
+					if bShouldContinue then
+						for pAdjacentPlot in PlotAreaSweepIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
+							if pAdjacentPlot then
+								for iVal = 0,(pAdjacentPlot:GetNumUnits() - 1) do
+									local loopUnit = pAdjacentPlot:GetUnit(iVal)
+									if loopUnit:GetOwner() ~= iPlayer then
+										local otherTeamID = Players[loopUnit:GetOwner()]:GetTeam()
+										if pPlayerTeam:IsAtWar(otherTeamID) then
+											loopUnit:ChangeDamage(10)
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+		
+		if bIsAlive then
+			-- Healing adjacent to core
+			local pPlot = pUnit:GetPlot()
+			local bCorePresent = false
+			for pAdjacentPlot in PlotAreaSpiralIterator(pPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
+				local iImprovement = pAdjacentPlot:GetImprovementType()
+				local iOwner = pAdjacentPlot:GetOwner()
+				if (iImprovement == improvementCore) and (iOwner == iPlayer) then
+					bCorePresent = true
+				end			
+			end
+			if bCorePresent and (pUnit:GetDamage() > 0) then
+				pUnit:ChangeDamage(-10)
+			end
+			
+			-- Nanohive effects
+			if pUnit:IsHasPromotion(promotionNanohive) then
+				local pPlot = pUnit:GetPlot()
+				if pPlot then
+					for loopPlot in PlotAreaSweepIterator(pPlot, 2, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
+						if loopPlot then
+							for iVal = 0,(loopPlot:GetNumUnits() - 1) do
+								local loopUnit = loopPlot:GetUnit(iVal)
+								if loopUnit:GetOwner() == iPlayer then
+									if (loopUnit:GetDamage() > 0) then
+										loopUnit:ChangeDamage(-10)
+									end
+								else 
+									local otherPlayer = Players[loopUnit:GetOwner()]
+									local otherTeamID = otherPlayer:GetTeam()
 									if pPlayerTeam:IsAtWar(otherTeamID) then
 										loopUnit:ChangeDamage(10)
 									end
 								end
 							end
 						end
-						
+					end	
+				end
+			end
+			
+			-- Bio Mod effects
+			if pUnit:IsHasPromotion(promotionBoostMod_1) then
+				pUnit:SetHasPromotion(promotionBoostMod_1, false)
+			end
+			if pUnit:IsHasPromotion(promotionBoostMod_2) then
+				pUnit:SetHasPromotion(promotionBoostMod_2, false)
+				pUnit:SetHasPromotion(promotionBoostMod_1, true)
+			end
+			if pUnit:IsHasPromotion(promotionBoostMod_3) then
+				pUnit:SetHasPromotion(promotionBoostMod_3, false)
+				pUnit:SetHasPromotion(promotionBoostMod_2, true)
+			end
+			if pUnit:IsHasPromotion(promotionBoostMod) then
+				if (pUnit:GetDamage() > 50) then
+					pUnit:SetHasPromotion(promotionBoostMod_1, false)
+					pUnit:SetHasPromotion(promotionBoostMod_2, false)
+					pUnit:SetHasPromotion(promotionBoostMod_3, true)
+					pUnit:SetHasPromotion(promotionBoostMod, false)
+					pUnit:SetHasPromotion(promotionBoostModEmpty, true)
+				end
+			end
+			if pUnit:IsHasPromotion(promotionStimMod) then
+				if (pUnit:GetDamage() > 50) then
+					pUnit:ChangeDamage(-25)
+					pUnit:SetHasPromotion(promotionStimMod, false)
+					pUnit:SetHasPromotion(promotionStimModEmpty, true)
+				end
+			end
+			if (pUnit:IsHasPromotion(promotionStimModEmpty) or pUnit:IsHasPromotion(promotionBoostModEmpty)) then
+				local pPlot = pUnit:GetPlot()
+				if pPlot:IsCity() then
+					local pCity = pPlot:GetWorkingCity()
+					if pCity:IsHasBuilding(iBioModTank) then
+						if pUnit:IsHasPromotion(promotionStimModEmpty) then
+							pUnit:SetHasPromotion(promotionStimModEmpty, false)
+							pUnit:SetHasPromotion(promotionStimMod, true)
+						end
+						if pUnit:IsHasPromotion(promotionBoostModEmpty) then
+							pUnit:SetHasPromotion(promotionBoostModEmpty, false)
+							pUnit:SetHasPromotion(promotionBoostMod, true)
+						end
 					end
 				end
 			end
 		end
 	end
 end
-GameEvents.PlayerDoTurn.Add(HydraEffects)
+GameEvents.PlayerDoTurn.Add(FutureTurnUnitEffects)
 
 function SwarmEffects()
 	local iPlayer = Game.GetActivePlayer()
@@ -547,58 +576,6 @@ function SwarmEffects()
 	end
 end
 Events.ActivePlayerTurnEnd.Add(SwarmEffects)
-
-function BioModEffects(iPlayer)
-	local player = Players[iPlayer]
-	if not player:IsAlive() then return end
-	if not (player:GetCurrentEra() > 5) then return end
-	for pUnit in player:Units() do
-		if pUnit:IsHasPromotion(promotionBoostMod_1) then
-			pUnit:SetHasPromotion(promotionBoostMod_1, false)
-		end
-		if pUnit:IsHasPromotion(promotionBoostMod_2) then
-			pUnit:SetHasPromotion(promotionBoostMod_2, false)
-			pUnit:SetHasPromotion(promotionBoostMod_1, true)
-		end
-		if pUnit:IsHasPromotion(promotionBoostMod_3) then
-			pUnit:SetHasPromotion(promotionBoostMod_3, false)
-			pUnit:SetHasPromotion(promotionBoostMod_2, true)
-		end
-		if pUnit:IsHasPromotion(promotionBoostMod) then
-			if (pUnit:GetDamage() > 50) then
-				pUnit:SetHasPromotion(promotionBoostMod_1, false)
-				pUnit:SetHasPromotion(promotionBoostMod_2, false)
-				pUnit:SetHasPromotion(promotionBoostMod_3, true)
-				pUnit:SetHasPromotion(promotionBoostMod, false)
-				pUnit:SetHasPromotion(promotionBoostModEmpty, true)
-			end
-		end
-		if pUnit:IsHasPromotion(promotionStimMod) then
-			if (pUnit:GetDamage() > 50) then
-				pUnit:ChangeDamage(-25)
-				pUnit:SetHasPromotion(promotionStimMod, false)
-				pUnit:SetHasPromotion(promotionStimModEmpty, true)
-			end
-		end
-		if (pUnit:IsHasPromotion(promotionStimModEmpty) or pUnit:IsHasPromotion(promotionBoostModEmpty)) then
-			local pPlot = pUnit:GetPlot()
-			if pPlot:IsCity() then
-				local pCity = pPlot:GetWorkingCity()
-				if pCity:IsHasBuilding(iBioModTank) then
-					if pUnit:IsHasPromotion(promotionStimModEmpty) then
-						pUnit:SetHasPromotion(promotionStimModEmpty, false)
-						pUnit:SetHasPromotion(promotionStimMod, true)
-					end
-					if pUnit:IsHasPromotion(promotionBoostModEmpty) then
-						pUnit:SetHasPromotion(promotionBoostModEmpty, false)
-						pUnit:SetHasPromotion(promotionBoostMod, true)
-					end
-				end
-			end
-		end
-	end
-end
-GameEvents.PlayerDoTurn.Add(BioModEffects)
 
 function BioModReload(iPlayer, iUnit, ePromotion)
 	local player = Players[iPlayer]
