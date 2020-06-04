@@ -97,9 +97,9 @@
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_MC_JERUSALEM_BACKGROUND</Type>
-			<Red>0.749</Red>
-			<Green>0.8</Green>
-			<Blue>0.8</Blue>
+			<Red>0.86</Red>
+			<Green>0.91</Green>
+			<Blue>0.91</Blue>
 			<Alpha>1</Alpha>
 		</Row>
 	</Colors>
