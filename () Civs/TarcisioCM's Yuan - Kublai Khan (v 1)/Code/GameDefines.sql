@@ -96,8 +96,8 @@ FROM Civilization_SpyNames WHERE CivilizationType = 'CIVILIZATION_MONGOL';
 
 INSERT INTO Colors 
 			(Type, 									Red, 	Green, 	Blue, 	Alpha)
-VALUES		('COLOR_PLAYER_TAR_YUAN_ICON',			0.024,	0.294,	0.408,	1),
-			('COLOR_PLAYER_TAR_YUAN_BACKGROUND',	0.627,	0.804,	0.824,	1); 
+VALUES		('COLOR_PLAYER_TAR_YUAN_ICON',			0.42,	0,	0.16,	1),
+			('COLOR_PLAYER_TAR_YUAN_BACKGROUND',	0.75,	0.96,	1,	1); 
 				
 INSERT INTO PlayerColors 
 			(Type, 						PrimaryColor, 					SecondaryColor, 					TextColor)
