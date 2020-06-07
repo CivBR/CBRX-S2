@@ -43,7 +43,7 @@ function DoLogAI(type, val1, val2, val3, val4, val5, val6, val7, val8)
 		print(Game.GetGameTurn() .. "T: <<" .. val2 .. ">> Founded by " .. Players[val1]:GetName() .. " (" .. val3 .. "," .. val4 .. ")")
 	elseif type == 2 then
 		if val6 then
-			print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ")" .. " oldPop: " .. val6 .. " newPop: " .. val7)
+			print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") captured by " .. Players[val2]:GetName() .. " (" .. val4 .. "," .. val5 .. ")" .. " oldPop: " .. val7 .. " newPop: " .. val8)
 		else
 			print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") claimed by " .. Players[val2]:GetName() .. " in peace treaty (" .. val4 .. "," .. val5 .. ")")
 		end
