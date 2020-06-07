@@ -48,7 +48,7 @@ function DoLogAI(type, val1, val2, val3, val4, val5, val6, val7, val8)
 			print(Game.GetGameTurn() .. "T: <<" .. val3 .. ">> (" .. Players[val1]:GetName() .. ") claimed by " .. Players[val2]:GetName() .. " in peace treaty (" .. val4 .. "," .. val5 .. ")")
 		end
 	elseif type == 3 then
-		print(Game.GetGameTurn() .. "T: Religion " .. Locale.Lookup(GameInfo.Religions[val2].Description) .. " founded in " .. val3 .. " by " .. Players[val1]:GetName() .. " with " .. Locale.Lookup(GameInfo.Beliefs[val4].Description) .. " and " ..  Locale.Lookup(GameInfo.Beliefs[val5].Description) .. " and " ..  Locale.Lookup(GameInfo.Beliefs[val6].Description))
+		print(Game.GetGameTurn() .. "T: Religion " .. Locale.Lookup(GameInfo.Religions[val2].Description) .. " founded in " .. val3 .. " by " .. Players[val1]:GetName() .. " with " .. (val4 or "noBelief1") .. " and " ..  (val5 or "noBelief2") .. " and " ..  (val6 or "noBelief3"))
 	elseif type == 4 then
 		print(Game.GetGameTurn() .. "T: Wonder " .. val2 .. " constructed in " .. val3 .. " by " .. Players[val1]:GetName())
 	elseif type == 5 then
