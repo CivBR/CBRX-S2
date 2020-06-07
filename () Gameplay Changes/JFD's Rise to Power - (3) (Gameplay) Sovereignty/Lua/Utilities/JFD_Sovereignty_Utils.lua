@@ -3901,9 +3901,9 @@ function Player.CalculateGovernmentCooldown(player, returnsTT)
 	
 	local currentGovernmentID = player:GetCurrentGovernment()
 	local numGovtGovernmentCooldownMod = GameInfo.JFD_Governments[currentGovernmentID].GovernmentCooldownCityMod
-	if numGovtGovernmentCooldownMod ~= 0 then
-		numGovernmentCooldownModPerCityMod = numGovernmentCooldownModPerCityMod + numGovtGovernmentCooldownMod
-	end
+	-- if numGovtGovernmentCooldownMod ~= 0 then
+		-- numGovernmentCooldownModPerCityMod = numGovernmentCooldownModPerCityMod + numGovtGovernmentCooldownMod
+	-- end
 		
 	--g_Building_JFD_SovereigntyMods_Table
 	local buildingsTable = g_Building_JFD_SovereigntyMods_Table
@@ -3916,7 +3916,7 @@ function Player.CalculateGovernmentCooldown(player, returnsTT)
 			local buildingCount = player:CountNumBuildings(buildingID)
 			if buildingCount > 0 then
 				numThisGovernmentCooldownMod = (numThisGovernmentCooldownMod*buildingCount)
-				numGovernmentCooldownModPerCityMod = numGovernmentCooldownModPerCityMod + numThisGovernmentCooldownMod
+				-- numGovernmentCooldownModPerCityMod = numGovernmentCooldownModPerCityMod + numThisGovernmentCooldownMod
 			end
 		end
 	end
