@@ -91,6 +91,7 @@ Controls.CouncillorButton:RegisterCallback(Mouse.eLClick, OnAppointCouncillorBut
 -------------------------------------------------------------------------------
 function OnConfirmYes()
 	Players[Game.GetActivePlayer()]:SetHasCouncillor(g_Unit, g_UnitID, g_CouncillorID, g_CouncillorName, true)
+	Controls.CouncillorConfirm:SetHide(true)
 	OnCloseButtonClicked()
 	LuaEvents.UI_ClearNotification("GreatPerson")
 end
@@ -119,8 +120,6 @@ function OnPopup( popupInfo )
 	
 	Controls.DescriptionLabel:SetText(Locale.ConvertTextKey("TXT_KEY_GREAT_PERSON_REWARD", pGreatPersonInfo.Description, pCity:GetNameKey()));
 	
-	UpdateCouncillorInfo(iPlayer, pCity, iUnitType, pGreatPersonInfo)
-	
 	local portraitOffset, portraitAtlas = UI.GetUnitPortraitIcon(iUnitType, iPlayer);
 	if IconHookup( portraitOffset, 256, portraitAtlas, Controls.Portrait ) then
 		Controls.Portrait:SetHide( false );
@@ -129,6 +128,8 @@ function OnPopup( popupInfo )
 	end
 
 	UIManager:QueuePopup( ContextPtr, PopupPriority.GreatPersonReward );
+	
+	UpdateCouncillorInfo(iPlayer, pCity, iUnitType, pGreatPersonInfo)
 end
 Events.SerialEventGameMessagePopup.Add( OnPopup );
 

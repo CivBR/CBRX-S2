@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT16" FontStyle="Shadow">
+	<!-- Social Policy Screen Size="1024,768" -->
+	<Box Style="BGBlock_ClearTopBar" ID="BGBlock"/>
+
+	<!-- Reform Subset Instance -->
+	<Instance Name="ReformSubBranchInstance">
+		<Image Hidden="1" ID="ReformSubBranch" Anchor="C,T" Offset="0,0" Texture="GovtOverview_ReformSubBranch.dds" Size="136,35" ConsumeMouseOver="1">
+			<Label Offset="10,-3" Anchor="L,C" TruncateWidth="120" Font="TwCenMT16" String="" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ReformSubBranchLabel"/>
+		</Image>
+	</Instance>
+
+	<!-- Reforms Instance -->
+	<Instance Name="ReformInstance">
+		<Button Anchor="C,C" Size="160,38" Offset="2,2" ID="ReformButton" Style="SmallButton">
+			<!--<Grid Hidden="1" Anchor="C,C" Size="188,44" Offset="0,0" Padding="0,0" Style="Grid9FrameTurnsHL" ID="ReformHL" />-->
+			<Grid Hidden="1" Anchor="C,C" Size="168,44" Offset="0,0" Padding="0,0" Style="Grid9Frame27" ID="ReformHL" />
+			<Label Hidden="1" Anchor="L,T" Offset="-3,8" Font="TwCenMT14" String="[ICON_JFD_REFORM_NEW]" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ReformNew"/>
+			<Label Anchor="C,T"  Offset="-5,4"  Font="TwCenMT16"   TruncateWidth="90" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="" ID="ReformTitle" />
+			<Label Anchor="L,T"  Offset="5,4"  Font="TwCenMT16"    Hidden="1" TruncateWidth="90" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="" ID="ReformTitleDetailed" />
+			<Label Anchor="C,T"  Offset="-5,20"  Font="TwCenMT14"  Hidden="0" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="" ID="ReformBranch" />
+			<Label Anchor="L,T"  Offset="5,20"  Font="TwCenMT14"  Hidden="1" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="" ID="ReformBranchDetailed"  />
+			<Label Hidden="1" Anchor="R,T"  Offset="5,20"  Font="TwCenMT14"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="" ID="ReformOpinion" />
+			<Label Hidden="1" Anchor="R,T" Offset="0,6" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="" ID="ReformCost"/>
+			<ShowOnMouseOver>
+				<AlphaAnim Anchor="C,C" Size="168,44" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+					<Grid Anchor="C,C" Size="168,44" Offset="0,0" Padding="0,0" Style="Grid9Frame27" />
+				</AlphaAnim>
+			</ShowOnMouseOver>
+			<Image Hidden="0" Offset="0,0"  ID="VerticalTrim1" Anchor="L,T" AnchorSide="o,i" Texture="VerticalTrim.dds" Size="2,37" />
+			<Image Hidden="0" Offset="-2,0" ID="VerticalTrim2" Anchor="R,B" AnchorSide="o,i" Texture="VerticalTrim.dds" Size="2,37" />
+
+			<Image Hidden="0" Offset="92,0" Anchor="C,C" AnchorSide="o,i" Texture="HorizontalTrim.dds" Size="23,2" ID="CenterLine" />
+			<Box Hidden="0" Color="255,255,200,128" Size="160,1" Anchor="C,T" />
+			<Box Hidden="0" Color="255,255,200,128" Size="160,1" Anchor="C,B" />
+		</Button>
+	</Instance>
+
+	<ToolTipType Name="ReformHelpToolTip" >
+		<Grid Size="280,90" Offset="8.0" Padding="8,8" Style="GridBlack8" NoClip="1" ID='Box'>
+			<!--<Label Anchor='C,T' Offset="0,10" ID="Heading" String="Brief description" LeadingOffset="-5" WrapWidth="268" Font="TwCenMT18" ColorSet="Beige_Black" />-->
+			<Label Offset="12,10" ID="Body" String="Brief description" LeadingOffset="-5" WrapWidth="268" Font="TwCenMT14" ColorSet="Beige_Black" />
+		</Grid>
+	</ToolTipType>
+
+	<!-- Faction Instance -->
+	<Instance Name="FactionInstance">
+		<Box Size="289,28" Color="19,32,46,120" ID="FactionBase">
+			<Stack Size="289,28" StackGrowth="Right" ID="FactionStack">
+				<Box Size="161,25" ID="FactionBox" Color="0,0,0,0">
+					<Box ID="CivIconBox" Size="32,32" Anchor="L,T" Offset="8,-3" Color="0,0,0,0" Hidden="1">
+						<Image ID="CivIconBG" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+						<Image ID="CivIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+						<Stack StackGrowth="Right" Padding="0">
+							<Image ID="CivIcon" Size="24.24" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+							<Label ID="CivIconFont" String="" Anchor="C,C" Offset="0,8" TruncateWidth="169" ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow"/>
+						</Stack>
+						<Image ID="CivIconHighlight" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+					</Box>
+					<Container ID="CityStateIconBox" Size="24.24" Anchor="L,C" Offset="0,0" Hidden="1">
+						<Image ID="CityStateIcon" Size="32.32" Offset="0,0" Anchor="C,C" Texture="CityStateMilitaristic.dds"/>
+					</Container>
+					<Label ID="FactionName" String="Faction Name" Anchor="L,C" Offset="0,0" WrapWidth="210" ColorSet="Beige_Black_Alpha" Font="TwCenMT16" FontStyle="Shadow"/>
+				</Box>
+				<Box Size="161,25" Color="0,0,0,0">
+					<Label ID="Sovereignty" ToolTip="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FACTION_POWER_TT" String="100%" Anchor="R,C" Offset="42,0" TruncateWidth="115" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"/>
+				</Box>
+			</Stack>
+			<Image ID="BlueBar" Anchor="L,B" Offset="0,0" Texture="BlueBar500x3.dds" Size="289,3"/>
+		</Box>
+	</Instance>
+
+	<!-- Faction Instance -->
+	<Instance Name="FactionPopupInstance">
+		<Box Size="445,28" Color="19,32,46,120" ID="FactionBase">
+			<Stack Size="445,28" StackGrowth="Right">
+				<Box Size="341,25" ID="FactionBox" Color="0,0,0,0">
+					<Box ID="CivIconBox" Size="32,32" Anchor="L,T" Offset="8,-3" Color="0,0,0,0" Hidden="1">
+						<Image ID="CivIconBG" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+						<Image ID="CivIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+						<Stack StackGrowth="Right" Padding="0">
+							<Image ID="CivIcon" Size="24.24" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+							<Label ID="CivIconFont" String="[ICON_JFD_FACTION_CARDINAL]" Anchor="C,C" Offset="0,8" TruncateWidth="169" ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow"/>
+						</Stack>
+						<Image ID="CivIconHighlight" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+					</Box>
+					<Container ID="CityStateIconBox" Size="24.24" Anchor="L,C" Offset="0,0" Hidden="1">
+						<Image ID="CityStateIcon" Size="32.32" Offset="0,0" Anchor="C,C" Texture="CityStateMilitaristic.dds"/>
+					</Container>
+					<Stack Anchor="L,C" StackGrowth="Right">
+						<Label ID="FactionName" String="" TruncateWidth="400" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"/>
+					</Stack>
+				</Box>
+				<Box Size="341,25" Color="0,0,0,0">
+					<Label ID="Sovereignty" ToolTip="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FACTION_POWER_TT" String="100%" Anchor="R,C" Offset="240,0" TruncateWidth="115" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"/>
+				</Box>
+			</Stack>
+			<Image ID="BlueBar" Anchor="L,B" Offset="0,0" Texture="BlueBar500x3.dds" Size="445,3"/>
+		</Box>
+	</Instance>
+
+	<!--Your Reforms Instance-->
+	<Instance Name="YourReformsInstance">
+		<Box Size="930,30" Color="0,0,0,0" ID="Base">
+			<Stack StackGrowth="Right">
+				<Box Size="140,30" Color="0,0,0,0">
+					<Label Anchor="L,C" Offset="30,0" Font="TwCenMT18" TruncateWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ReformBranchDesc" />
+				</Box>
+				<Box Size="140,30" Color="0,0,0,0">
+					<Label Anchor="L,C" Offset="30,0" Font="TwCenMT18" TruncateWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ReformSubBranchDesc" />
+				</Box>
+				<Box Size="160,30" Color="0,0,0,0">
+					<Label Anchor="L,C" Offset="30,0" Font="TwCenMT18" TruncateWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ReformDesc" />
+				</Box>
+				<Box Size="230,30" Color="0,0,0,0">
+					<Label Anchor="L,C" Offset="30,0" Font="TwCenMT18" TruncateWidth="430" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ReformEffect" />
+				</Box>
+			</Stack>
+		</Box>
+	</Instance>
+
+	<!-- World Governments Instance -->
+	<Instance Name="WorldGovernmentInstance">
+		<Box Size="930,50" Color="0,0,0,0" ID="Base">
+			<Stack StackGrowth="Right" ID="WorldGovtStack">
+				<Box Anchor="C,C" Size="220,30" Color="0,0,0,0" ID="CivilizationNameBox">
+					<Box Size="45,45" Anchor="L,C" Color="0,0,0,0">
+						<Image ID="CivilizationIconBG" Size="45,45" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+						<Image ID="CivilizationIconShadow" Size="32,32" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+						<Image ID="CivilizationIcon" Size="32,32" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+						<Image ID="CivilizationIconHighlight" Size="45,45" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+					</Box>
+					<Label Anchor="L,C" Offset="50,0" Font="TwCenMT18" WrapWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="CivilizationName" />
+					<Stack Anchor="L,B" Offset="0,-20" StackGrowth="Right" ID="BarStack" Hidden="0">
+						<Image Anchor="L,C" Offset="0,0" TextureOffset="50,0" Texture="bar900x2.dds" Size="468,1" />
+						<Image Anchor="R,C" Offset="0,0" TextureOffset="368,0" Texture="bar900x2.dds" Size="467,1" />
+					</Stack>
+				</Box>
+				<Box Anchor="C,C" Size="220,30" Color="0,0,0,0" ID="LeaderNameBox">
+					<Label Anchor="L,C" Offset="35,0" Font="TwCenMT18" WrapWidth="180" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="LeaderName" Hidden="0" />
+				</Box>
+				<Box Anchor="C,C" Size="230,30" Color="0,0,0,0" ID="GovernmentTypeBox">
+					<Image Anchor="L,C" Offset="20,0" Size="48,48" Texture="" ID="GovernmentTypeIcon" Hidden="0"/>
+					<Label Anchor="L,C" Offset="70,0" Font="TwCenMT16" WrapWidth="160" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="GovernmentType" />
+				</Box>
+				<Box Anchor="C,C" Size="200,30" Color="0,0,0,0" ID="FactionTypeBox">
+					<Label Anchor="L,C" Offset="10,0" Font="TwCenMT16" WrapWidth="220" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="FactionType" />
+				</Box>
+				<Box Anchor="C,C" Size="180,30" Color="0,0,0,0" Hidden="1">
+					<Label Anchor="C,C" Offset="-80,0" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="CyclePowerType" />
+				</Box>
+			</Stack>
+		</Box>
+	</Instance>
+
+	<!-- Box Size="1024,738"  -->
+	<Box ID="GovernmentOverview" Size="1024,768" Anchor="C,C" Offset="0,24" Color="0,0,0,0" Hidden="0">
+		<Grid ID="GovernmentOverviewGrid" Size="1005,783" Anchor="C,T" Offset="0,-5" Padding="0,0" Style="Grid9DetailFive140">
+			<!-- Panel Header Text -->
+			<Label Style="MenuTitleCaption" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_SCREEN_TITLE"/>
+			<Box Anchor="L,T" Size="970,30" Offset="18,43" Color="0,0,0,128" ID="TabPanel">
+				<Stack Anchor="C,T" Size="971,24" Offset="0,0" Padding="0" StackGrowth="Right">
+					<Button Anchor="L,T" Size="250,24" Offset="0,0" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_YOUR_GOVERNMENT_TAB" ID="TabButtonYourGovernment">
+						<ShowOnMouseOver>
+							<AlphaAnim Anchor="L,C" Size="250,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+								<Grid Size="250,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL"/>
+							</AlphaAnim>
+						</ShowOnMouseOver>
+						<!-- Selected State  -->
+						<Grid Anchor="C,C" Offset="0,1" Size="250,26" Style="Grid9FrameTurns" Hidden="0" ID="TabButtonYourGovernmentHL"/>
+					</Button>
+					<Button Anchor="L,T" Size="250,24" Offset="0,0" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_YOUR_REFORMS_TAB" ID="TabButtonYourReforms">
+						<ShowOnMouseOver>
+							<AlphaAnim Anchor="L,C" Size="250,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+								<Grid Size="250,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL"/>
+							</AlphaAnim>
+						</ShowOnMouseOver>
+						<!-- Selected State  -->
+						<Grid Anchor="C,C" Offset="0,1" Size="250,26" Style="Grid9FrameTurns" Hidden="0" ID="TabButtonYourReformsHL"/>
+					</Button>
+					<Button Anchor="L,T" Size="250,24" Offset="0,0" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_WORLD_GOVERNMENTS_TAB" ID="TabButtonWorldGovernments">
+						<ShowOnMouseOver>
+							<AlphaAnim Anchor="L,C" Size="250,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+								<Grid Size="250,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL"/>
+							</AlphaAnim>
+						</ShowOnMouseOver>
+						<!-- Selected State  -->
+						<Grid Anchor="C,C" Offset="0,1" Size="250,26" Style="Grid9FrameTurns" Hidden="0" ID="TabButtonWorldGovernmentsHL"/>
+					</Button>
+				</Stack>
+				<Image Anchor="C,B" Offset="0,0" Texture="HorizontalTrim.dds" Size="971.5"/>
+			</Box>
+
+			<!-- JFD Your Government Tab Content-->
+			<Box Size="970,668" Color="0,0,0,0" Offset="18,73" ID="YourGovernmentPanel" Hidden="1">
+				<Box Anchor="L,T" Size="970,668" Offset="0,0" Color="0,0,0,255" ID="GovtDisabledText" Hidden="1">
+					<AlphaAnim ID="GovtOverviewDisabledBG" Hidden="1" Anchor="L,T" Offset="0,0" Size="966,668" TextureOffset="0,0" Texture="GovtOverview_Background.dds" Cycle="Once" Stopped="1" AlphaStart="0.3" AlphaEnd="0.3" Speed="1"/>
+					<Label Anchor="C,C" Offset="0,0" WrapWidth="320" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORMS_DISABLED" ID="DisabledGovtTextLabel" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+				</Box>
+				<Box Size="970,25" Anchor="L,T" Offset="0,-10" Color="0,0,0,0" ID="GovtTitleBox" Hidden="0">
+					<Image Anchor="L,T" Offset="0,25" Size="970,5" Texture="HorizontalTrim.dds" ID="TopHorizontalTrim"/>
+					<Label Hidden="1" Anchor="C,C" Offset="0,0" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" String="Warlord A of the B" ID="FullTitleLabel"/>
+					<Grid Anchor="C,T" Offset="0,27" Style="WindowGrid" Size="956,24" ID="TopWindowGrid">
+						<Stack Anchor="L,T" Offset="0,0" StackGrowth="Right" Padding="0">
+							<Box Anchor="C,C" Color="White.0" Size="525,24">
+								<Label Anchor="C,C" String="{TXT_KEY_JFD_GOVERNMENT_OVERVIEW_YOUR_GOVERNMENT_TAB:upper}" Offset="-85,0" WrapWidth="450" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+							</Box>
+							<Box Anchor="C,C" Color="White.0" Size="400,24" >
+								<Label ID="PoliticalReformsLabel" Anchor="C,C" String="{TXT_KEY_JFD_GOVERNMENT_OVERVIEW_POLITICAL_REFORMS:upper}" Offset="-85,0" WrapWidth="450" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+							</Box>
+						</Stack>
+					</Grid>
+				</Box>
+				<Stack Anchor="L,T" Size="953,75" StackGrowth="Bottom" Offset="-50,76" Padding="4" ID="YourGovernmentStack" Hidden="1">
+					<Box Size="970,25" Offset="30,70" Color="0,0,0,0" Hidden="0">
+						<Stack Anchor="L,C" StackGrowth="Bottom" Padding="0" Offset="0,-5">
+							<Grid ID="StateGrid" Anchor="C,T" Offset="25,327" Style="WindowGrid" Size="335,553">
+								<Label Offset="0,11" Anchor="C,T" Font="TwCenMT24" String="A Kingdom, Obviously" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="StateHeaderLabel"/>
+								<Stack Anchor="C,T" StackGrowth="Right" Padding="5" Offset="0,40" ID="StateStatsStack">
+									<Label Offset="0,0" Anchor="C,T" Font="TwCenMT14" String="20%[ICON_JFD_SOVEREIGNTY]" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="SovLabel"/>
+									<AlphaAnim Anchor="C,T" Offset="0,0" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0" ID="RevSentLabelAni">
+										<Label Anchor="L,T" Offset="0,0" String="" Font="TwCenMT18" ID="RevSentLabel" FontStyle="SoftShadow" Hidden="0"/>
+									</AlphaAnim>
+									<Label Offset="0,0" Anchor="C,T" Font="TwCenMT14" String="[ICON_JFD_REVOLUTIONARY_SENTIMENT]" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="RevSentLabel" Hidden="0"/>
+								</Stack>
+								<Label Hidden="1" Offset="0,40" Anchor="C,T" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" ToolTip="" String="[ICON_LOCKED]" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="ChangeGovernmentsButtonLock"/>
+								<Image Anchor="C,T" Offset="0,40" Texture="bar340x2.dds" ID="Bar2" Size="340.1" Hidden="1"/>
+								<Grid ID="StateGrid2" Anchor="C,T" Offset="0,71" Style="WindowGrid" Size="335,168">
+									<Grid ID="StateGrid2BlackIndent" Size="325,160" Anchor="C,T" Offset="0,5" Style="GridBlackIndent8"/>
+								</Grid>
+							</Grid>
+						</Stack>
+
+						<Label Offset="145,-20" Anchor="L,C" TruncateWidth="210" Font="TwCenMT16" String="" ToolTip="" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="LeaderHeaderLabel"/>
+
+						<Label ID="GovernmentLabel" Anchor="L,C" Offset="146,10" Font="TwCenMT16" String="" TruncateWidth="200" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+						<GridButton Anchor="R,C" Style="SmallButton" Size="146,25" Offset="685,-45" StateOffsetIncrement="0,0" ID="ViewGovernmentsButton" ToolTip="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CHANGE_GOVERNMENTS_TT" >
+							<Label Hidden="0" Offset="0,-2" Anchor="C,C" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CHANGE_GOVERNMENTS" FontStyle="Shadow" ID="ViewGovernmentsLabel"/>
+						</GridButton>
+
+						<Stack ID="StateInfoStack" Anchor="L,C" StackGrowth="Right" Padding="0" Offset="146,60">
+							<Label ID="CapitalLabel" Anchor="L,C" Offset="0,-25" Font="TwCenMT14" String="[ICON_CAPITAL]" TruncateWidth="200" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+							<Label ID="CultureLabel" Anchor="L,C" Offset="0,-25" Font="TwCenMT14" String="" TruncateWidth="200" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+							<Label ID="ReligionLabel" Anchor="L,C" Offset="0,-25" Font="TwCenMT14" String="" TruncateWidth="200" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+							<Label ID="CyclePowerLabel" Anchor="L,C" Offset="0,-25" Font="TwCenMT14" String="" TruncateWidth="200" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+							<Label ID="IdeologyLabel" Anchor="L,C" Offset="0,-25" Font="TwCenMT14" String="" TruncateWidth="200" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+						</Stack>
+
+						<Image ID="Bar" Anchor="L,C" Offset="70,-5" Texture="bar300x2.dds" Size="300.1"/>
+
+						<Stack ID="LeadersStack" Anchor="L,C" StackGrowth="Right" Padding="-10" Offset="-2,-15">
+							<Image Anchor="L,C" Offset="30,25" Size="128,128" Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds" ID="LeaderFrame">
+								<!--30,5-->
+								<Image Anchor="C,C" Offset="0,0" Size="128,128" Texture="Assets/UI/Art/Icons/LeaderPortraits1024.dds" ID="LeaderIcon" />
+							</Image>
+							<Image ID="Councillor1Frame" Anchor="L,C" Offset="-55,95" Size="64,64" Texture="64x64framebuttons.dds" Hidden="0">
+								<Button Anchor="C,C" NoStateChange="1" Offset="0,0" Size="64,64" Texture="Assets/UI/Art/Icons/Units/CivSymbolsColor512.dds" ID="Councillor1Icon"/>
+							</Image>
+							<Image ID="Councillor2Frame" Anchor="L,C" Offset="0,95" Size="64,64" Texture="64x64framebuttons.dds" Hidden="0">
+								<Button Anchor="C,C" NoStateChange="1" Offset="0,0" Size="64,64" Texture="Assets/UI/Art/Icons/Units/CivSymbolsColor512.dds" ID="Councillor2Icon"/>
+							</Image>
+							<Image ID="Councillor3Frame" Anchor="L,C" Offset="0,95" Size="64,64" Texture="64x64framebuttons.dds" Hidden="0">
+								<Button Anchor="C,C" NoStateChange="1" Offset="0,0" Size="64,64" Texture="Assets/UI/Art/Icons/Units/CivSymbolsColor512.dds" ID="Councillor3Icon"/>
+							</Image>
+							<Image ID="Councillor4Frame" Anchor="L,C" Offset="0,95" Size="64,64" Texture="64x64framebuttons.dds" Hidden="0">
+								<Button Anchor="C,C" NoStateChange="1" Offset="0,0" Size="64,64" Texture="Assets/UI/Art/Icons/Units/CivSymbolsColor512.dds" ID="Councillor4Icon"/>
+							</Image>
+							<Image ID="Councillor5Frame" Anchor="L,C" Offset="0,95" Size="64,64" Texture="64x64framebuttons.dds" Hidden="0">
+								<Button Anchor="C,C" NoStateChange="1" Offset="0,0" Size="64,64" Texture="Assets/UI/Art/Icons/Units/CivSymbolsColor512.dds" ID="Councillor5Icon"/>
+							</Image>
+						</Stack>
+
+						<Image ID="CivIcon" Anchor="L,C" Offset="38,60" Size="64,64" Texture="64x64framebuttons.dds" >
+							<Button Anchor="C,C" NoStateChange="1" Offset="0,0" Size="64,64" Texture="Assets/UI/Art/Icons/Units/CivSymbolsColor512.dds" ID="CivIconImg"/>
+						</Image>
+
+						<!--Legislature-->
+						<Box ID="Legislature" Anchor="L,C" Offset="-20,276" Size="680,534" Color="0,0,0,0" Hidden="0">
+							<Container Anchor="R,C" Offset="-87,200" Size="680,534" ID="LegislatureContainer" Hidden="0">
+								<Grid Hidden="0" Size="300,265" Anchor="L,C" Offset="-5,-185" Style="GridBlackIndent8" ID="GovernmentGrid"/>
+								<Grid Hidden="0" Size="317,272" Anchor="L,T" Offset="-20,-50" Padding="0,0" Style="Grid9Detail48" ConsumeMouse="1" ID="LegislatureBox">
+									<Label Hidden="1" ID="RevolutionLabel" Anchor="C,C"  Offset="0,0" ToolTip="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_DOMINANT_FACTION_TT_REVOLUTIONARIES" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_DOMINANT_FACTION_REVOLUTIONARIES" WrapWidth="260" Font="TwCenMT24" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+									<Box Hidden="1" Size="484,20" Offset="0,10" Color="0,0,0,0" ID="SortFactionsBox">
+										<Stack Size="484,20" StackGrowth="Right">
+											<Box Size="161,18" Color="0,0,0,0">
+												<TextButton Offset="0,0" Anchor="C,B" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" ToolTip="TXT_KEY_GO_JFD_FACTION_TT" String="TXT_KEY_GO_JFD_FACTION" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="GOSortByFaction">
+													<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="GOSortByFactionImage"/>
+												</TextButton>
+											</Box>
+											<Box Size="161,18" Color="0,0,0,0">
+												<TextButton Offset="0,0" Anchor="C,B" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" String="" ToolTip="" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="GOSortBySovereignty">
+													<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="GOSortBySovereigntyImage"/>
+												</TextButton>
+											</Box>
+										</Stack>
+									</Box>
+									<Box Hidden="1" ID="SortFactionsBar" Size="384,5" Offset="-35,30" Color="0,0,0,0">
+										<Image ID="FactionBar" Anchor="C,B" Offset="0,1" Texture="bar400x2.dds" Size="400,1"/>
+									</Box>
+									<ScrollPanel Vertical="1" Size="270,225" Offset="14,41" AutoScrollBar="0" ID="FactionScrollPanel">
+										<!-- Scroll Controls -->
+										<ScrollBar ID="FactionScrollBar" Offset="10,0" Style="VertSlider" Length="189" Anchor="R,C" AnchorSide="O,I"/>
+										<UpButton ID="FactionScrollUp" Offset="10,0" Style="ScrollBarUp" Anchor="R,T" AnchorSide="O,I"/>
+										<DownButton ID="FactionScrollDown" Offset="10,0" Style="ScrollBarDown" Anchor="R,B" AnchorSide="O,I"/>
+										<Stack StackGrowth="Bottom" ID="FactionStack" Padding="0"/>
+									</ScrollPanel>
+								</Grid>
+								<Image ID="BottomFrame" Anchor="C,B" Offset="-207,-410" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/bottomframe.dds" Size="512,128" />
+								<Image ID="GovernmentCooldownImage" Anchor="C,C" Offset="-207,-35" Size="32,32" Texture="IconFrame_32.dds">
+									<Label ID="GovernmentCooldown" Anchor="C,C" Offset="0,0" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" String="25"/>
+								</Image>
+							</Container>
+						</Box>
+
+						<Image Hidden="0" ID="LegislatureHeader" Anchor="L,C" Offset="55,160" Texture="GovtOverview_Header.dds" Size="300,64" ConsumeMouseOver="1">
+							<Label Offset="0,0" TruncateWidth="230" Anchor="C,C" Font="TwCenMT20" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_LEGISLATURE" ToolTip="TXT_KEY_GOVERNMENT_OVERVIEW_LEGISLATURE_TT" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="LegislatureHeaderLabel"/>
+							<TextButton Hidden="1" Offset="120,22" Anchor="C,C" Style="Font16or20" ColorSet="Beige_Black_Alpha" String="TXT_KEY_EDIT_BUTTON" ToolTip="TXT_KEY_JFD_LEGISLATURE_EDIT_TT" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="LegislatureEditButton" />
+						</Image>
+						<Image Hidden="0" Size="184,27" ID="HeadOfGovernmentHeader" Anchor="L,C" Offset="115,188" Texture="GovtOverview_LegislatureHeader.dds">
+							<Label ID="HeadOfGovernment" TruncateWidth="130" Anchor="C,C" Offset="0,-3" String="" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" Hidden="0" />
+							<CheckBox Hidden="0" Anchor="T,R" Offset="153,-2" Font="TwCenMT18" FontStyle="Shadow" ToolTip="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_SHOW_DETAILED_FACTIONS_TT" IsChecked="0" ID="ShowDetailCheckFaction"/>
+						</Image>
+
+						<!--Reforms-->
+						<Box Anchor="R,C" Offset="-5,135" Size="680,554" Color="0,0,0,0" ID="PoliticalReformsBox" Hidden="0">
+							<Container Anchor="R,C" Offset="100,55" Size="490,515" ID="PoliticalReformsContainer">
+								<Grid ID="ReformGrid1" Size="490,515" Anchor="C,T" Padding="0,0" Style="GridGlass16"   Hidden="1" ConsumeMouse="1"/>
+								<Grid ID="ReformGrid2" Size="590,515" Anchor="L,T" Padding="0,0" Style="WindowGrid" Hidden="0" ConsumeMouse="1">
+									<Grid Hidden="0" ID="BlackGrid" Size="565,498" Anchor="L,T" Offset="10,12" Style="GridBlackIndent8">
+										<Image ID="ReformBranchesHeader" Hidden="0" Anchor="C,T" Offset="-15,-65" Texture="GovtOverview_ReformsBranchesHeader.dds" Size="562.128" ConsumeMouseOver="1">
+											<!-- Sovereignty-->
+											<Label Offset="1,20" Anchor="C,T" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="" FontStyle="Shadow" Hidden="0" ID="ReformCapacityLabel" ToolTip=""/>
+										</Image>
+										<Image Anchor="C,T" Size="256,34" TextureOffset="0,0" Offset="-11,15" Texture="GovtOverview_ReformsSubBranchHeader.dds" ID="ReformBranchHeader">
+											<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_JFD_REFORM_CATEGORY_GOVERNMENT_SHORT_DESC_CAPS" ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_GOVERNMENT_HELP" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ReformBranchHeaderLabel"/>
+										</Image>
+										<Image Anchor="C,T" Size="125,27" Offset="233,-12" Texture="CivilopediaButtons272x27.dds" ID="ReformOptionsHeader">
+											<Stack ID="ReformOptionsButtonStack" Anchor="T,L" StackGrowth="Right" Padding="0" Offset="28,-3">
+												<CheckBox Hidden="0" Anchor="T,L" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" ToolTip="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_SHOW_NEW_REFORMS_TT" IsChecked="0" ID="ShowNewCheckReform"/>
+												<CheckBox Hidden="0" Anchor="T,L" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" ToolTip="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_SHOW_DETAILED_REFORMS_TT" IsChecked="0" ID="ShowDetailCheckReform"/>
+												<CheckBox Hidden="0" Anchor="T,L" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" ToolTip="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_SHOW_FOCUS_ICONS_TT" IsChecked="0" ID="ShowIconsCheckReform"/>
+											</Stack>
+										</Image>
+										<Stack ID="ReformBranchButtonStack" Anchor="C,T" StackGrowth="Right" Padding="-3" Offset="-14,-25">
+											<Button ID="ReformBranchButton1"  Offset="0,0" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="GovtOverview_ReformsButtonGovernmentHL.dds" 	ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_GOVERNMENT_DESC"/>
+											<Button ID="ReformBranchButton2"  Offset="0,0" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="GovtOverview_ReformsButtonLaw.dds" 			ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_LAW_DESC"/>
+											<Button ID="ReformBranchButton3"  Offset="0,0" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="GovtOverview_ReformsButtonDiplomacy.dds" 	ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_DIPLOMACY_DESC"/>
+											<Button ID="ReformBranchButton4"  Offset="0,0" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="GovtOverview_ReformsButtonEconomy.dds" 		ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_ECONOMY_DESC"/>
+											<Button ID="ReformBranchButton5"  Offset="0,0" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="GovtOverview_ReformsButtonEducation.dds" 	ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_EDUCATION_DESC"/>
+											<Button ID="ReformBranchButton6"  Offset="0,0" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="GovtOverview_ReformsButtonIndustry.dds" 		ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_INDUSTRY_DESC"/>
+											<Button ID="ReformBranchButton7"  Offset="0,0" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="GovtOverview_ReformsButtonMilitary.dds" 		ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_MILITARY_DESC"/>
+											<Button ID="ReformBranchButton8"  Offset="0,0" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="GovtOverview_ReformsButtonReligion.dds" 		ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_RELIGION_DESC"/>
+											<Button ID="ReformBranchButton9"  Offset="0,0" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="GovtOverview_ReformsButtonSociety.dds" 		ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_SOCIETY_DESC"/>
+											<Button ID="ReformBranchButton10" Offset="0,0" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="GovtOverview_ReformsButtonWelfare.dds" 		ToolTip="TXT_KEY_JFD_REFORM_CATEGORY_WELFARE_DESC"/>
+										</Stack>
+									</Grid>
+
+									<Button Anchor="R,T" Offset="2,2" ID="ShowFilter" ToolTip="TXT_KEY_GO_JFD_SHOW_FILTER" Size="32,32" Texture="IconFrame32Search.dds" Hidden="1"/>
+									<Box Hidden="1" ID="VerticalTrim3" Color="255,255,200,128" Offset="-91,15" Size="3,432" Anchor="C,C" />
+									<Box Hidden="1" ID="VerticalTrim4" Color="255,255,200,128" Offset="94,14" Size="3,432" Anchor="C,C" />
+									<Image Hidden="1" ID="VerticalTrim1" Anchor="C,C" Offset="-92,15" AnchorSide="o,i" Texture="VerticalTrim.dds" Size="5,432" />
+									<Image Hidden="1" ID="VerticalTrim2" Anchor="C,C" Offset="92,14" AnchorSide="o,i" Texture="VerticalTrim.dds" Size="5,433" />
+									<ScrollPanel Anchor="L,T" Offset="52,45" Size="550,460" Vertical="1" ID="PoliticalReformsScrollPanel" AutoScrollBar="0">
+										<ScrollBar ID="ScrolBar" Offset="15,15" Style="VertSlider" Anchor="R,T" Length="424"/>
+										<UpButton ID="ReformsUpButton" Offset="15,-3" Style="ScrollBarUp" Anchor="R,T"/>
+										<DownButton ID="ReformsDownButton" Offset="15,3" Style="ScrollBarDown" Anchor="R,B" />
+										<Stack Hidden="1" Anchor="C,T" Offset="-175,20" StackGrowth="Bottom" Padding="9" ID="PoliticalReformsHeaderStack"/>
+										<Stack Anchor="L,T" Offset="-35,15" StackGrowth="Bottom" Padding="5" ID="PoliticalReformsLeftStack"/>
+										<Stack Anchor="L,T" Offset="150,15" StackGrowth="Bottom" Padding="5" ID="PoliticalReformsCentreStack"/>
+										<Stack Anchor="L,T" Offset="335,15" StackGrowth="Bottom" Padding="5" ID="PoliticalReformsRightStack"/>
+									</ScrollPanel>
+								</Grid>
+							</Container>
+							<!--<Label Anchor="C,B" Size="214,29" Offset="40,20" String="TXT_KEY_JFD_GO_SOVEREIGNTY" ToolTip="" ID="Sovereignty" ColorSet="Beige_Black" Font="TwCenMT20"/>
+							<Label Anchor="C,B" Size="214,29" Offset="45,0" String="TXT_KEY_JFD_GO_SOVEREIGNTY_COOLDOWN" ToolTip="TXT_KEY_JFD_GO_SOVEREIGNTY_COOLDOWN_TT_0" ID="ReformCooldown" ColorSet="Beige_Black" Font="TwCenMT16"/>-->
+						</Box>
+
+					</Box>
+				</Stack>
+
+				<Image Hidden="1" ID="GovtOverviewTrim" Anchor="C,B" Offset="0,50" Texture="HorizontalTrim.dds" Size="971,5" />
+			</Box>
+
+			<!--Your Reforms Tab Content-->
+			<Box Anchor="L,T" Offset="18,73" Size="970,668" Color="0,0,0,0" ID="YourReformsPanel" Hidden="1">
+				<Box Anchor="L,T" Size="935,668" Color="0,0,0,0">
+					<ScrollPanel Vertical="1" Size="935,615" Offset="0,0" AutoScrollBar="0" ID="YourReformsScrollPanel" Hidden="0">
+						<!-- Scroll Controls -->
+						<ScrollBar ID="WGScrollBar" Style="VertSlider" Length="579" Anchor="R,C" AnchorSide="O,I"/>
+						<UpButton  ID="WGScrollUp" Style="ScrollBarUp" Anchor="R,T" AnchorSide="O,I"/>
+						<DownButton  ID="WGScrollDown" Style="ScrollBarDown" Anchor="R,B" AnchorSide="O,I"/>
+						<Stack StackGrowth="Bottom" Padding="10" ID="YourReformsStack">
+							<Box Size="935,25" Anchor="L,T" Color="0,0,0,150">
+								<Stack Anchor="L,T" StackGrowth="Right">
+									<Box ID="ReformBranchBox" Anchor="L,T" Color="0,0,0,0"  Size="140,24" >
+										<TextButton Offset="30,1" Anchor="L,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_BRANCH_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="WGSortByReformBranch" Hidden="0" >
+											<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="WGSortByReformBranchImage" />
+										</TextButton>
+									</Box>
+									<Box ID="ReformGroupBox" Anchor="L,T" Color="0,0,0,0"  Size="140,24" >
+										<TextButton Offset="30,1" Anchor="L,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_GROUP_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="WGSortByReformSubBranch" Hidden="0" >
+											<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="WGSortByReformSubBranchImage" />
+										</TextButton>
+									</Box>
+									<Box ID="ReformBox" Anchor="L,T" Color="0,0,0,0"  Size="160,24" >
+										<TextButton Offset="55,1" Anchor="L,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="WGSortByReform" Hidden="0" >
+											<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="WGSortByReformImage" />
+										</TextButton>
+									</Box>
+									<Box ID="ReformEffectBox" Anchor="L,T" Color="0,0,0,0" Size="210,24" >
+										<TextButton Offset="30,1" Anchor="L,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_EFFECT_PANEL"  FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="WGSortByReformEffect" Hidden="0" >
+											<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="WGSortByReformEffectImage" />
+										</TextButton>
+									</Box>
+								</Stack>
+								<Image Anchor="L,T" Offset="0,24" TextureOffset="50,0" Texture="bar900x2.dds" Size="468,1" />
+								<Image Anchor="R,T" Offset="0,24" TextureOffset="368,0" Texture="bar900x2.dds" Size="467,1" />
+							</Box>
+						</Stack>
+					</ScrollPanel>
+					<Stack ID="YourReformOptionsButtonStack" Anchor="R,T" StackGrowth="Right" Padding="0" Offset="0,-5">
+						<CheckBox Hidden="0" Anchor="C,C" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" ToolTip="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_SHOW_PENALTY_TT" IsChecked="0" ID="ShowYourReformPenaltiesCheck"/>
+						<CheckBox Hidden="0" Anchor="C,C" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" ToolTip="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_SHOW_NOT_NONE_TT" IsChecked="1" ID="ShowYourReformsNotNoneCheck"/>
+					</Stack>
+					<Image Anchor="C,B" Offset="17,50" Texture="HorizontalTrim.dds" Size="971,5" />
+				</Box>
+			</Box>
+
+			<!--World Governments Tab Content-->
+			<Box Anchor="L,T" Offset="18,73" Size="970,668" Color="0,0,0,0" ID="WorldGovernmentsPanel" Hidden="1">
+				<Box Anchor="L,T" Size="935,668" Color="0,0,0,0">
+					<ScrollPanel Vertical="1" Size="935,615" Offset="0,0" AutoScrollBar="0" ID="WorldGovernmentsScrollPanel" Hidden="0">
+						<!-- Scroll Controls -->
+						<ScrollBar ID="WGScrollBar" Style="VertSlider" Length="579" Anchor="R,C" AnchorSide="O,I"/>
+						<UpButton  ID="WGScrollUp" Style="ScrollBarUp" Anchor="R,T" AnchorSide="O,I"/>
+						<DownButton  ID="WGScrollDown" Style="ScrollBarDown" Anchor="R,B" AnchorSide="O,I"/>
+						<Stack StackGrowth="Bottom" Padding="10" ID="WorldGovernmentsStack">
+							<Box Size="935,25" Anchor="L,T" Color="0,0,0,150">
+								<Stack Anchor="L,T" StackGrowth="Right">
+									<Box ID="CivBox" Anchor="L,T" Color="0,0,0,0"  Size="220,24" >
+										<TextButton Offset="55,1" Anchor="L,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CIVILIZATION_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="WGSortByCivilizationName" Hidden="0" >
+											<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="WGSortByCivilizationNameImage" />
+										</TextButton>
+									</Box>
+									<Box ID="LeaderBox" Anchor="L,T" Color="0,0,0,0"  Size="220,24" >
+										<TextButton Offset="35,1" Anchor="L,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_LEADER_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="WGSortByLeaderName" Hidden="0" >
+											<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="WGSortByLeaderNameImage" />
+										</TextButton>
+									</Box>
+									<Box ID="GovernmentBox" Anchor="L,T" Color="0,0,0,0" Size="210,24" >
+										<TextButton Offset="30,1" Anchor="L,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_GOVERNMENT_PANEL"  FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="WGSortByGovernmentType" Hidden="0" >
+											<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="WGSortByGovernmentTypeImage" />
+										</TextButton>
+									</Box>
+									<Box ID="FactionBox" Anchor="L,T" Color="0,0,0,0"  Size="220,24" >
+										<TextButton Offset="30,1" Anchor="L,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FACTION_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="WGSortByFactionType" Hidden="0" >
+											<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="WGSortByFactionTypeImage" />
+										</TextButton>
+									</Box>
+									<Box ID="CyclePowerBox" Anchor="L,T" Color="0,0,0,0" Size="180,24" Hidden="1">
+										<TextButton Offset="-90,1" Anchor="C,C" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CYCLE_OF_POWER_PANEL" FontStyle="Shadow" MouseOverStyle="SoftShadow" ConsumeMouse="1" ID="WGSortByCyclePowerType" Hidden="0" >
+											<Image Anchor="L,C" AnchorSide="O.I" Offset="2,0" Texture="assets/UI/Art/Controls/9 Grids/SelectedUp.dds" Size="18,18" ID="WGSortByCyclePowerTypeImage" />
+										</TextButton>
+									</Box>
+								</Stack>
+								<Image Anchor="L,T" Offset="0,24" TextureOffset="50,0" Texture="bar900x2.dds" Size="468,1" />
+								<Image Anchor="R,T" Offset="0,24" TextureOffset="368,0" Texture="bar900x2.dds" Size="467,1" />
+							</Box>
+						</Stack>
+					</ScrollPanel>
+					<Image Anchor="C,B" Offset="17,50" Texture="HorizontalTrim.dds" Size="971,5" />
+				</Box>
+			</Box>
+			<!-- Close Button  -->
+			<GridButton Anchor="L,B" Style="SmallButton" Size="150,32" Offset="32,44" StateOffsetIncrement="0,0" ID="CloseButton">
+				<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_CLOSE" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			</GridButton>
+		</Grid>
+	</Box>
+
+	<!-- Rename Government popup -->
+	<Box Color="Black.200" Size="Full.Full" ID="GovtNameConfirm" Hidden="1" ConsumeMouseOver="1" ConsumeMouseButton="1">
+		<Grid Size="320,190" ID="GovtNameGrid" Anchor="C,C" Offset="0,0" Style="Grid9DetailFive140" ConsumeMouse="1">
+			<Label ID="MainCaption" Style="MenuTitleCaption" String="TXT_KEY_JFD_GO_LEGISLATURE_NAME" />
+			<Box  Anchor="L,T" Offset="20,60" Size="270,24" Color="Beige,255">
+				<Box ID="EditBox" Anchor="C,C"  Size="268,22" Color="Black,255" >
+					<EditBox CallOnChar="1" EditMode="1" Size="264,22" Anchor="C,C" ID="EditHeading" Font="TwCenMT20" MaxLength="40" FocusStop="0"/>
+				</Box>
+			</Box>
+
+			<GridButton Style="BaseButton" ID="EditOKButton" Size="140,36" Anchor="C,B" Offset="0,50" Hidden="0">
+				<Label Anchor="C,C" Offset="0,0" String="OK" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+			</GridButton>
+		</Grid>
+	</Box>
+
+	<!-- Reform Confirmation Popup -->
+	<Box Color="Black.200" Size="Full.Full" ID="ReformConfirm" Hidden="1" ConsumeMouseOver="1" ConsumeMouseButton="1">
+		<Grid Size="500,310" Anchor="C,C" Offset="0,0" Padding="0,20" Style="Grid9DetailFive140" Hidden="0" ID="ConfirmGrid">
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+			<Image Anchor="C,T" AnchorSide="I.O" Offset="0,-14" Size="256,64" Texture="Top512IconTrim.dds">
+				<Image Anchor="C,C" Offset="0,-6" Size="80,80" Texture="NotificationFrameBase.dds">
+					<AlphaAnim Anchor="C,C" Offset="0,0" Size="80,80" Texture="NotificationGovernmentReform80.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd="1"/>
+				</Image>
+			</Image>
+			<Label ID="ReformConfirmLabel" Anchor="C,T" Offset="0,60" WrapWidth="400" String="TXT_KEY_CONFIRM_JFD_REFORM" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			<Stack Anchor="C,B" Offset="0,80" Padding="24" StackGrowth="Bottom" ID="ReformButtonStack">
+				<!-- Yes Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmYes" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_YES_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+				<!-- No Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmNo" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_NO_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+			</Stack>
+		</Grid>
+	</Box>
+
+	<Box Color="Black.200" Size="Full.Full" ID="NewLegislature" Hidden="1" ConsumeMouseOver="1" ConsumeMouseButton="1">
+		<Grid Size="480,480" ID="NewLegislatureGrid" Anchor="C,C" Offset="0,0"  Style="Grid9DetailFive140">
+
+			<!-- Upper Treatment -->
+			<Image Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-14" Texture="assets\UI\Art\Icons\Top512IconTrim.dds">
+				<Image ID="Icon" Size="64,64" Offset="1,-1" Anchor="C,C" Texture="JFD_Sovereignty_NotificationAtlas_64.dds"/>
+			</Image>
+
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+
+			<Stack StackGrowth="Bottom" Anchor="L,T" Offset="17,50" Padding="0" ID="ImageStack">
+				<Image Anchor="C,C" Offset="0,0" TextureOffset="0,0" Texture="bar400x2.dds" Size="400,2" ID="Bar3" Hidden="1"/>
+				<AlphaAnim ID="BgImage" Offset="-5,0" Size="446,155" Anchor="C,C" Texture="ERA_Classical.dds" Cycle="Once" Stopped="1" AlphaStart="0.3" AlphaEnd="0.3" Speed="1"/>
+				<Image Offset="-2,153" Anchor="C,C" AnchorSide="o,i" Texture="HorizontalTrim.dds" Size="442,3" ID="Bar4" Hidden="0"/>
+			</Stack>
+
+			<Label Anchor="C,T" Offset="0,20" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_NEW_LEGISLATURE_POPUP_TITLE" ID="Title"/>
+
+			<Box Size="350,290" Anchor="C,T" Offset="0,80"  Color="255,255,255,0" >
+				<Label Anchor="L,T" Offset="-25,-25" WrapWidth="400" LeadingOffset="-4"  Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_NEW_LEGISLATURE_POPUP_TEXT" ID="Stats" />
+
+				<ScrollPanel Vertical="1" Anchor="L,C" Size="470,225" Offset="-47,93" AutoScrollBar="1" ID="FactionPopupScrollPanel">
+					<!-- Scroll Controls -->
+					<ScrollBar ID="FactionPopupScrollBar" Style="VertSlider" Length="189" Anchor="R,C" AnchorSide="O,I"/>
+					<UpButton ID="FactionPopupScrollUp" Style="ScrollBarUp" Anchor="R,T" AnchorSide="O,I"/>
+					<DownButton ID="FactionPopupScrollDown" Style="ScrollBarDown" Anchor="R,B" AnchorSide="O,I"/>
+					<Stack StackGrowth="Bottom" ID="FactionPopupStack" Padding="0"/>
+				</ScrollPanel>
+			</Box>
+
+			<GridButton Size="200,36" Anchor="C,B" Style="BaseButton" AnchorSide="I.O" Offset="0,0" ID="CloseNewLegislatureButton" Hidden="0">
+
+				<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CLOSE"  Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT20" FontStyle="Shadow" />
+
+			</GridButton>
+
+		</Grid>
+	</Box>
+
+	<Box Color="Black.200" Size="Full.Full" ID="RevolutionBox" Hidden="1" ConsumeMouseOver="1" ConsumeMouseButton="1">
+		<Grid Size="480,250" ID="RevolutionGrid" Anchor="C,C" Offset="0,0"  Style="Grid9DetailFive140">
+
+			<!-- Upper Treatment -->
+			<Image Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-14" Texture="assets\UI\Art\Icons\Top512IconTrim.dds">
+				<Image ID="RevolutionIcon" Size="64,64" Offset="1,-1" Anchor="C,C" Texture="JFD_Sovereignty_NotificationAtlas_64.dds"/>
+			</Image>
+
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+
+			<Stack StackGrowth="Bottom" Anchor="L,T" Offset="17,50" Padding="0">
+				<Image Anchor="C,C" Offset="0,0" TextureOffset="0,0" Texture="bar400x2.dds" Size="400,2" ID="Bar3" Hidden="1"/>
+				<AlphaAnim Offset="-5,0" Size="446,155" Anchor="C,C" Texture="NewLegislatureRevolutionaries.dds" Cycle="Once" Stopped="1" AlphaStart="0.3" AlphaEnd="0.3" Speed="1"/>
+			</Stack>
+
+			<Label Anchor="C,T" Offset="0,20" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="REVOLUTION!" ID="Title"/>
+
+			<Box Size="350,290" Anchor="C,T" Offset="0,80"  Color="255,255,255,0" >
+				<Label Anchor="L,C" Offset="-35,-100" WrapWidth="422" LeadingOffset="-4"  Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_NEW_LEGISLATURE_POPUP_TEXT_REVOLUTIONARIES" ID="RevolutionStats" />
+			</Box>
+
+			<GridButton Size="200,36" Anchor="C,B" Style="BaseButton" AnchorSide="I.O" Offset="0,0" ID="CloseRevolutionButton" Hidden="0">
+
+				<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CLOSE"  Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT20" FontStyle="Shadow" />
+
+			</GridButton>
+
+		</Grid>
+	</Box>
+
+</Context>

@@ -2,6 +2,19 @@
 -- Author: JFD
 -- DateCreated: 4/30/2019 8:35:10 AM
 --==========================================================================================================================
+-- CACHING
+--==========================================================================================================================
+------------------------------------------------------------------------------------------------------------------------
+MapModData.JFD_RTP_Sovereignty = MapModData.JFD_RTP_Sovereignty or {}
+JFD_RTP_Sovereignty = MapModData.JFD_RTP_Sovereignty
+
+include("TableSaverLoader016.lua");
+
+tableRoot = JFD_RTP_Sovereignty
+tableName = "JFD_RTP_Sovereignty_SaveData"
+
+include("JFD_RTP_Sovereignty_TSLSerializerV3.lua");
+--==========================================================================================================================
 -- INCLUDES
 --==========================================================================================================================
 ----------------------------------------------------------------------------------------------------------------------------
@@ -67,14 +80,6 @@ for row in DB.Query("SELECT * FROM JFD_Factions;") do
 	g_JFD_Factions_Count = g_JFD_Factions_Count + 1
 end
 
---g_JFD_FactionsRevolutionaries_Table
-local g_JFD_FactionsRevolutionaries_Table = {}
-local g_JFD_FactionsRevolutionaries_Count = 1
-for row in DB.Query("SELECT * FROM JFD_Factions WHERE DominanceNumAnarchyTurns > 0;") do 	
-	g_JFD_FactionsRevolutionaries_Table[g_JFD_FactionsRevolutionaries_Count] = row
-	g_JFD_FactionsRevolutionaries_Count = g_JFD_FactionsRevolutionaries_Count + 1
-end
-
 --g_JFD_Reforms_Table
 local g_JFD_Reforms_Table = {}
 local g_JFD_Reforms_Count = 1
@@ -91,28 +96,20 @@ for row in DB.Query("SELECT * FROM JFD_Reforms WHERE ShowInGovernment = 1 AND Al
 	g_JFD_ReformsLeftRight_Count = g_JFD_ReformsLeftRight_Count + 1
 end
 
---g_JFD_ReformsLimited_Table
-local g_JFD_ReformsLimited_Table = {}
-local g_JFD_ReformsLimited_Count = 1
-for row in DB.Query("SELECT * FROM JFD_Reforms WHERE ShowInGovernment = 1 AND IsDefaultWithLimited = 1;") do 	
-	g_JFD_ReformsLimited_Table[g_JFD_ReformsLimited_Count] = row
-	g_JFD_ReformsLimited_Count = g_JFD_ReformsLimited_Count + 1
-end
-
---g_JFD_ReformsSemiLimited_Table
-local g_JFD_ReformsSemiLimited_Table = {}
-local g_JFD_ReformsSemiLimited_Count = 1
-for row in DB.Query("SELECT * FROM JFD_Reforms WHERE ShowInGovernment = 1 AND IsDefaultWithSemiLimited = 1;") do 	
-	g_JFD_ReformsSemiLimited_Table[g_JFD_ReformsSemiLimited_Count] = row
-	g_JFD_ReformsSemiLimited_Count = g_JFD_ReformsSemiLimited_Count + 1
-end
-
 --g_JFD_ReformSubBranch_Flavours_Table
 local g_JFD_ReformSubBranch_Flavours_Table = {}
 local g_JFD_ReformSubBranch_Flavours_Count = 1
 for row in DB.Query("SELECT * FROM JFD_ReformSubBranch_Flavours;") do 	
 	g_JFD_ReformSubBranch_Flavours_Table[g_JFD_ReformSubBranch_Flavours_Count] = row
 	g_JFD_ReformSubBranch_Flavours_Count = g_JFD_ReformSubBranch_Flavours_Count + 1
+end
+
+--g_ReformsSovereigntyWhenBuildingClass_Table
+local g_ReformsSovereigntyWhenBuildingClass_Table = {}
+local g_ReformsSovereigntyWhenBuildingClass_Count = 1
+for row in DB.Query("SELECT ID, SovereigntyWhenBuildingClass, SovereigntyWhenBuildingClassType FROM JFD_Reforms WHERE SovereigntyWhenBuildingClass <> 0;") do 	
+	g_ReformsSovereigntyWhenBuildingClass_Table[g_ReformsSovereigntyWhenBuildingClass_Count] = row
+	g_ReformsSovereigntyWhenBuildingClass_Count = g_ReformsSovereigntyWhenBuildingClass_Count + 1
 end
 
 --g_JFD_Councillors_GreatPeople_Table
@@ -137,6 +134,30 @@ local g_Building_JFD_SovereigntyMods_Count = 1
 for row in DB.Query("SELECT * FROM Building_JFD_SovereigntyMods;") do 	
 	g_Building_JFD_SovereigntyMods_Table[g_Building_JFD_SovereigntyMods_Count] = row
 	g_Building_JFD_SovereigntyMods_Count = g_Building_JFD_SovereigntyMods_Count + 1
+end
+
+--g_Buildings_SovereigntyChange_Table
+local g_Buildings_SovereigntyChange_Table = {}
+local g_Buildings_SovereigntyChange_Count = 1
+for row in DB.Query("SELECT ID, SovereigntyChange FROM Buildings WHERE SovereigntyChange <> 0;") do 	
+	g_Buildings_SovereigntyChange_Table[g_Buildings_SovereigntyChange_Count] = row
+	g_Buildings_SovereigntyChange_Count = g_Buildings_SovereigntyChange_Count + 1
+end
+
+--g_Buildings_SovereigntyChangeAllCities_Table
+local g_Buildings_SovereigntyChangeAllCities_Table = {}
+local g_Buildings_SovereigntyChangeAllCities_Count = 1
+for row in DB.Query("SELECT ID, BuildingClass, SovereigntyChangeAllCities FROM Buildings WHERE SovereigntyChangeAllCities <> 0;") do 	
+	g_Buildings_SovereigntyChangeAllCities_Table[g_Buildings_SovereigntyChangeAllCities_Count] = row
+	g_Buildings_SovereigntyChangeAllCities_Count = g_Buildings_SovereigntyChangeAllCities_Count + 1
+end
+
+--g_Buildings_SovereigntyBonusPerTradeRoute_Table
+local g_Buildings_SovereigntyBonusPerTradeRoute_Table = {}
+local g_Buildings_SovereigntyBonusPerTradeRoute_Count = 1
+for row in DB.Query("SELECT ID, SovereigntyBonusPerTradeRoute FROM Buildings WHERE SovereigntyBonusPerTradeRoute <> 0;") do 	
+	g_Buildings_SovereigntyBonusPerTradeRoute_Table[g_Buildings_SovereigntyBonusPerTradeRoute_Count] = row
+	g_Buildings_SovereigntyBonusPerTradeRoute_Count = g_Buildings_SovereigntyBonusPerTradeRoute_Count + 1
 end
 
 --g_Policy_JFD_SovereigntyMods_Table
@@ -172,57 +193,52 @@ local eraIndustrialID = GameInfoTypes["ERA_INDUSTRIAL"]
 local eraMedievalID = GameInfoTypes["ERA_MEDIEVAL"]
 local eraRenaissanceID = GameInfoTypes["ERA_RENAISSANCE"]
 
+local factionRevolutionariesID = GameInfoTypes["FACTION_JFD_REVOLUTIONARIES"]
+
 local governmentAnarchyID = GameInfoTypes["GOVERNMENT_JFD_ANARCHY"]
 local governmentPolisID = GameInfoTypes["GOVERNMENT_JFD_POLIS"]
 local governmentTribeID = GameInfoTypes["GOVERNMENT_JFD_TRIBE"]
-local governmentChiefdomID = GameInfoTypes["GOVERNMENT_JFD_CHIEFDOM"]
 local governmentMonarchyID = GameInfoTypes["GOVERNMENT_JFD_MONARCHY"]
 local governmentPrincipalityID = GameInfoTypes["GOVERNMENT_JFD_PRINCIPALITY"]
 local governmentRepublicID = GameInfoTypes["GOVERNMENT_JFD_REPUBLIC"]
 local governmentTheocracyID = GameInfoTypes["GOVERNMENT_JFD_THEOCRACY"]
-local governmentDictatorshipID = GameInfoTypes["GOVERNMENT_JFD_DICTATORSHIP"]
-local governmentCaliphateID = GameInfoTypes["GOVERNMENT_JFD_CALIPHATE"]
-local governmentHREID = GameInfoTypes["GOVERNMENT_JFD_HOLY_ROMAN_EMPIRE"]
-local governmentMandateID = GameInfoTypes["GOVERNMENT_JFD_MANDATE_OF_HEAVEN"]
+local governmentTotalitarianID = GameInfoTypes["GOVERNMENT_JFD_TOTALITARIAN"]
+local governmentHREID = GameInfoTypes["GOVERNMENT_JFD_HOLY_ROMAN"]
 local governmentPapacyID = GameInfoTypes["GOVERNMENT_JFD_PAPACY"]
-local governmentShogunateID = GameInfoTypes["GOVERNMENT_JFD_SHOGUNATE"]
-
-local factionRevolutionariesID = GameInfoTypes["FACTION_JFD_REVOLUTIONARIES"]
-local factionRevolutionariesDesc = g_ConvertTextKey(GameInfo.JFD_Factions[factionRevolutionariesID].Description)
 
 local reformAdministrationCommonwealthID = GameInfoTypes["REFORM_JFD_ADMINISTRATION_COMMONWEALTH"]
 local reformAdministrationPoliceStateID = GameInfoTypes["REFORM_JFD_ADMINISTRATION_POLICE_STATE"]
 local reformConstitutionCodifiedID = GameInfoTypes["REFORM_JFD_CONSTITUTION_CODIFIED"]
 local reformConstitutionUncodifiedID = GameInfoTypes["REFORM_JFD_CONSTITUTION_UNCODIFIED"]
 local reformExecutiveAbsoluteID = GameInfoTypes["REFORM_JFD_EXECUTIVE_ABSOLUTE"]
+local reformExecutiveDespoticID = GameInfoTypes["REFORM_JFD_EXECUTIVE_DESPOTIC"]
 local reformExecutiveConstitutionalID = GameInfoTypes["REFORM_JFD_EXECUTIVE_CONSTITUTIONAL"]
 local reformFactionsInterestsID = GameInfoTypes["REFORM_JFD_FACTIONS_INTERESTS"]
 local reformFactionsMultiPartyID = GameInfoTypes["REFORM_JFD_FACTIONS_MULTI_PARTY"]
 local reformFactionsTwoPartyID = GameInfoTypes["REFORM_JFD_FACTIONS_TWO_PARTY"]
-local reformLegislatureCongressionalID = GameInfoTypes["REFORM_JFD_LEGISLATURE_CONGRESSIONAL"]
-local reformLegislatureParliamentaryID = GameInfoTypes["REFORM_JFD_LEGISLATURE_PARLIAMENTARY"]
+local reformPowerCommonwealthID = GameInfoTypes["REFORM_JFD_POWER_COMMONWEALTH"]
+local reformPowerPoliceStateID = GameInfoTypes["REFORM_JFD_POWER_POLICE_STATE"]
 local reformRelationsManorialID = GameInfoTypes["REFORM_JFD_RELATIONS_MANORIAL"]
 local reformRelationsPersonalID = GameInfoTypes["REFORM_JFD_RELATIONS_PERSONAL"]
 local reformRelationsMunicipalID = GameInfoTypes["REFORM_JFD_RELATIONS_MUNICIPAL"]
+local reformTerritoryCityStateID = GameInfoTypes["REFORM_JFD_TERRITORY_CITYSTATE"]
+local reformTerritoryCityState = GameInfo.JFD_Reforms["REFORM_JFD_TERRITORY_CITYSTATE"]
+local reformTerritoryCityStateLessSov = reformTerritoryCityState.SovereigntyWhenNumCitiesOrLess
+local reformTerritoryCityStateLessReq = reformTerritoryCityState.SovereigntyWhenNumCitiesOrLessReq
+local reformTerritoryCityStateMoreReq = reformTerritoryCityState.SovereigntyWhenNumCitiesOrMoreReq
+local reformTerritoryCityStateMoreSov = reformTerritoryCityState.SovereigntyWhenNumCitiesOrMore
 local reformTerritoryEmpireID = GameInfoTypes["REFORM_JFD_TERRITORY_EMPIRE"]
+local reformTerritoryEmpire = GameInfo.JFD_Reforms["REFORM_JFD_TERRITORY_EMPIRE"]
+local reformTerritoryEmpireLessSov = reformTerritoryEmpire.SovereigntyWhenNumCitiesOrLess
+local reformTerritoryEmpireLessReq = reformTerritoryEmpire.SovereigntyWhenNumCitiesOrLessReq
+local reformTerritoryEmpireMoreReq = reformTerritoryEmpire.SovereigntyWhenNumCitiesOrMoreReq
+local reformTerritoryEmpireMoreSov = reformTerritoryEmpire.SovereigntyWhenNumCitiesOrMore
 local reformStructureFederationID = GameInfoTypes["REFORM_JFD_STRUCTURE_FEDERATION"]
 local reformStructureUnitaryID = GameInfoTypes["REFORM_JFD_STRUCTURE_UNITARY"]
 
-local defineDefaultAILegislatureChoicePopThreshold = GameDefines["JFD_SOVEREIGNTY_DEFAULT_AI_LEGISLATURE_CHOICE_POPULATION_THRESHOLD"]
-local defineDefaultFullGovernmentPopThreshold = GameDefines["JFD_SOVEREIGNTY_DEFAULT_FULL_GOVERNMENT_POPULATION_THRESHOLD"]
-local defineDefaultLimitedGovernmentPopThreshold = GameDefines["JFD_SOVEREIGNTY_DEFAULT_LIMITED_GOVERNMENT_POPULATION_THRESHOLD"]
-local defineDefaultGovernmentCooldownModCap = GameDefines["JFD_SOVEREIGNTY_DEFAULT_GOVERNMENT_COOLDOWN_MOD_CAP"]
+local defineDefaultGovernmentCooldownCap = (GameDefines["JFD_SOVEREIGNTY_DEFAULT_GOVERNMENT_COOLDOWN_CAP"]*gameSpeedMod)
 local defineDefaultGovernmentCooldownTurns = (GameDefines["JFD_SOVEREIGNTY_DEFAULT_GOVERNMENT_COOLDOWN"]*gameSpeedMod)
-local defineDefaultGovernmentCooldownTurnsModPerCity = GameDefines["JFD_SOVEREIGNTY_DEFAULT_GOVERNMENT_COOLDOWN_MOD_PER_CITY"]
-local defineDefaultGovernmentCooldownTurnsModPerCitizen = GameDefines["JFD_SOVEREIGNTY_DEFAULT_GOVERNMENT_COOLDOWN_MOD_PER_CITIZEN"]
-local defineDefaultGovernmentCooldownRate = GameDefines["JFD_SOVEREIGNTY_DEFAULT_GOVERNMENT_COOLDOWN_RATE"]
-local defineDefaultReformAnarchyTurns = GameDefines["JFD_SOVEREIGNTY_DEFAULT_REFORM_ANARCHY_TURNS"]
-local defineDefaultReformAnarchyCooldownTurns = GameDefines["JFD_SOVEREIGNTY_DEFAULT_REFORM_ANARCHY_COOLDOWN_TURNS"]
-local defineDefaultReformCooldownModCap = GameDefines["JFD_SOVEREIGNTY_DEFAULT_REFORM_COOLDOWN_MOD_CAP"]
-local defineDefaultReformCooldownTurns = (GameDefines["JFD_SOVEREIGNTY_DEFAULT_REFORM_COOLDOWN"]*gameSpeedMod)
-local defineDefaultReformCooldownTurnsModPerCity = GameDefines["JFD_SOVEREIGNTY_DEFAULT_REFORM_COOLDOWN_MOD_PER_CITY"]
-local defineDefaultReformCooldownTurnsModPerCitizen = GameDefines["JFD_SOVEREIGNTY_DEFAULT_REFORM_COOLDOWN_MOD_PER_CITIZEN"]
-local defineDefaultReformCooldownRate = GameDefines["JFD_SOVEREIGNTY_DEFAULT_REFORM_COOLDOWN_RATE"]
+local defineDefaultReformCooldown = GameDefines["JFD_SOVEREIGNTY_DEFAULT_REFORM_COOLDOWN"]
 local defineDefaultReformRevSentiment = GameDefines["JFD_SOVEREIGNTY_DEFAULT_REFORM_REVOLUTIONARY_SENTIMENT"]
 --==========================================================================================================================
 -- SOVEREIGNTY UTILS
@@ -257,24 +273,189 @@ end
 
 --Player:CalculateSovereignty
 local yieldSovereigntyID = GameInfoTypes["YIELD_JFD_SOVEREIGNTY"]
-function Player.CalculateSovereignty(player, updateCurrentSovereignty, returnsTT)	
+function Player.CalculateSovereignty(player, onlyUpdateReformCapacity, returnsTT)	
 	local playerID = player:GetID()
+	local numCities = player:GetNumCities()
 	local numSov = 0
 	local numSovMax = player:GetMaxSovereignty()
 	local strSovereigntyTT = ""
 
-	local sovFromCitiesTable = Player_GetSovereigntyFromCities(player)
-
-	if yieldSovereigntyID then
-		--PLAYER YIELDS
-		local numSovFromYieldRateMods = player:GetYieldRateModifier(yieldSovereigntyID)
-		numSov = numSov + numSovFromYieldRateMods
-		
-		if (numSovFromYieldRateMods ~= 0 and returnsTT) then
-			if numSovFromYieldRateMods > 0 then numSovFromYieldRateMods = "+" .. numSovFromYieldRateMods end
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_FROM_POLICIES_AND_REFORMS", numSovFromYieldRateMods)
+	if (not onlyUpdateReformCapacity) then
+	
+		if yieldSovereigntyID then
+			--PLAYER YIELDS
+			local numSovFromYieldRateMods = player:GetYieldRateModifier(yieldSovereigntyID)
+			numSov = numSov + numSovFromYieldRateMods
+			
+			if (numSovFromYieldRateMods ~= 0 and returnsTT) then
+				if numSovFromYieldRateMods > 0 then
+					strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_FROM_POLICIES_AND_REFORMS", numSovFromYieldRateMods)
+				else
+					strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_FROM_POLICIES_AND_REFORMS", numSovFromYieldRateMods)
+				end
+			end
+	
+			local numSovFromGoldenAge = 0
+			--g_Policy_GoldenAgeYieldMod_Table
+			local policiesTable = g_Policy_GoldenAgeYieldMod_Table
+			local numPolicies = #policiesTable
+			for index = 1, numPolicies do
+				local row = policiesTable[index]
+				local policyID = GameInfoTypes[row.PolicyType]
+				if player:HasPolicy(policyID) then
+					numSovFromGoldenAge = numSovFromGoldenAge + row.Yield
+				end
+			end
+			numSov = numSov + numSovFromGoldenAge
+	
+			if (numSovFromGoldenAge ~= 0 and returnsTT) then
+				if numSovFromGoldenAge > 0 then 
+					strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_FROM_GOLDEN_AGE", numSovFromGoldenAge)
+				else
+					strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_FROM_GOLDEN_AGE", numSovFromGoldenAge)
+				end
+			end
 		end
-
+	
+		--BUILDINGS
+		local numSovFromBuildings = 0
+		--g_Buildings_SovereigntyChange_Table
+		local buildingsTable = g_Buildings_SovereigntyChange_Table
+		local numBuildings = #buildingsTable
+		for index = 1, numBuildings do
+			local row = buildingsTable[index]
+			local buildingID = row.ID
+			if player:CountNumBuildings(buildingID) > 0 then
+				numSovFromBuildings = numSovFromBuildings + (player:CountNumBuildings(buildingID)*row.SovereigntyChange)
+			end
+		end
+		for city in player:Cities() do
+			if yieldSovereigntyID then
+				numSovFromBuildings = numSovFromBuildings + city:GetYieldRateModifier(yieldSovereigntyID)
+			end
+		end
+		numSov = numSov + numSovFromBuildings
+		if (numSovFromBuildings ~= 0 and returnsTT) then
+			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_FROM_BUILDINGS", numSovFromBuildings)
+		end
+		
+		--g_Buildings_SovereigntyChangeAllCities_Table
+		local buildingsTable = g_Buildings_SovereigntyChangeAllCities_Table
+		local numBuildings = #buildingsTable
+		for index = 1, numBuildings do
+			local row = buildingsTable[index]
+			local buildingID = row.ID
+			local numSovFromBuildings = row.SovereigntyChangeAllCities
+			if player:CountNumBuildings(buildingID) == numCities then
+				numSov = numSov + numSovFromBuildings
+				strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_BUILDING_CLASS", "[COLOR_POSITIVE_TEXT]", numSovFromBuildings, GameInfo.BuildingClasses[row.BuildingClass].Description)
+			elseif player:CountNumBuildings(buildingID) > 0 then
+				strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_BUILDING_CLASS", "", numSovFromBuildings, GameInfo.BuildingClasses[row.BuildingClass].Description)
+			end
+		end
+	
+		--===============================
+		--JFD's Top Panel Addins BEGIN
+		--===============================
+		--This is for any extra Sovereignty addins
+		--for row in GameInfo.JFD_TopPanelAdditions("YieldType = 'YIELD_JFD_SOVEREIGNTY'") do
+		--	local yieldSourceFunction = row.YieldSourceFunction
+		--	if yieldSourceFunction then
+		--		local numSovereignty = loadstring("return " .. yieldSourceFunction .. "(Game.GetActivePlayer())")()
+		--		if numSovereignty > 0 then
+		--			local prereqCivilization = row.CivilizationType 
+		--			if prereqCivilization then
+		--				local prereqCivilizationID = GameInfoTypes[prereqCivilization]
+		--				if activePlayer:GetCivilizationType() == prereqCivilizationID then
+		--					local yieldToolTip = row.YieldSourceToolTip
+		--					if yieldToolTip then
+		--						local yieldToolTipText = g_ConvertTextKey(yieldToolTip, numSovereignty)
+		--						sovereignty = sovereignty + numSovereignty
+		--						sovereigntyTT = sovereigntyTT .. "[NEWLINE][ICON_BULLET]" .. yieldToolTipText
+		--					end
+		--				end
+		--			end
+		--			if (not prereqCivilization) then
+		--				local yieldToolTip = row.YieldSourceToolTip
+		--				if yieldToolTip then
+		--					local yieldToolTipText = g_ConvertTextKey(yieldToolTip, numSovereignty)
+		--					sovereignty = sovereignty + numSovereignty
+		--					sovereigntyTT = sovereigntyTT .. "[NEWLINE][ICON_BULLET]" .. yieldToolTipText
+		--				end
+		--			end	
+		--		end
+		--	end
+		--end
+		--===============================
+		--JFD's Top Panel Addins END
+		--===============================
+	
+		--CITY-STATE TERRITORY
+		if player:HasReform(reformTerritoryCityStateID) then
+			if numCities <= reformTerritoryCityStateLessReq then
+				numSov = numSov + reformTerritoryCityStateLessSov
+				if returnsTT then
+					strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_NUM_CITIES_OR_LESS", "[COLOR_POSITIVE_TEXT]", reformTerritoryCityStateLessSov, reformTerritoryCityStateLessReq)
+				end
+			elseif numCities >= reformTerritoryCityStateMoreReq then
+				numSov = numSov + reformTerritoryCityStateMoreSov
+				if returnsTT then
+					strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_NUM_CITIES_OR_MORE", "[COLOR_NEGATIVE_TEXT]", reformTerritoryCityStateMoreSov, reformTerritoryCityStateMoreReq)
+				end
+			end
+		end
+		
+		--EMPIRE TERRITORY
+		if player:HasReform(reformTerritoryEmpireID) then
+			if numCities >= reformTerritoryEmpireMoreReq then
+				numSov = numSov + reformTerritoryEmpireMoreSov
+				if returnsTT then
+					strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_NUM_CITIES_OR_MORE", "[COLOR_POSITIVE_TEXT]", reformTerritoryEmpireMoreSov, reformTerritoryEmpireMoreReq)
+				end
+			elseif numCities <= reformTerritoryEmpireLessReq then
+				numSov = numSov + reformTerritoryEmpireLessSov
+				if returnsTT then
+					strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_NUM_CITIES_OR_LESS", "[COLOR_NEGATIVE_TEXT]", reformTerritoryEmpireLessSov, reformTerritoryEmpireLessReq)
+				end
+			end
+		end
+		
+		--LEGITIMACIES
+		local numSovFromLegitimaciesMod = Player_GetLegitimacySovModifier(player)
+		--g_ReformsSovereigntyWhenBuildingClass_Table
+		local reformsTable = g_ReformsSovereigntyWhenBuildingClass_Table
+		local numReforms = #reformsTable
+		for index = 1, numReforms do
+			local row = reformsTable[index]
+			local reformID = row.ID
+			if player:HasReform(reformID) then
+				local buildingClassID = GameInfoTypes[row.SovereigntyWhenBuildingClassType]
+				local numBuildingClass = player:GetBuildingClassCount(buildingClassID)
+				local numSovWhenBuildingClass = row.SovereigntyWhenBuildingClass
+				if numSovFromLegitimaciesMod ~= 0 then 
+					numSovWhenBuildingClass = numSovWhenBuildingClass + g_GetRound((numSovWhenBuildingClass*numSovFromLegitimaciesMod)/100) 
+				end
+				if numBuildingClass == numCities then
+					numSov = numSov + numSovWhenBuildingClass
+					if returnsTT then
+						strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_BUILDING_CLASS", "[COLOR_POSITIVE_TEXT]", numSovWhenBuildingClass, GameInfo.BuildingClasses[buildingClassID].Description)
+					end
+				elseif numBuildingClass == 0 then
+					numSovWhenBuildingClass = (numSovWhenBuildingClass*-1)
+					numSov = numSov + numSovWhenBuildingClass
+					if returnsTT then
+						strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_NO_BUILDING_CLASS", numSovWhenBuildingClass, GameInfo.BuildingClasses[buildingClassID].Description)
+					end
+				else
+					numSov = numSov + numSovWhenBuildingClass
+					if returnsTT then
+						strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_BUILDING_CLASS", "", numSovWhenBuildingClass, GameInfo.BuildingClasses[buildingClassID].Description)
+					end
+				end
+			end
+		end
+		
+		--TRADE ROUTES	
 		local numSovFromGoldenAge = 0
 		--g_Policy_GoldenAgeYieldMod_Table
 		local policiesTable = g_Policy_GoldenAgeYieldMod_Table
@@ -286,430 +467,109 @@ function Player.CalculateSovereignty(player, updateCurrentSovereignty, returnsTT
 				numSovFromGoldenAge = numSovFromGoldenAge + row.Yield
 			end
 		end
-		numSov = numSov + numSovFromGoldenAge
-
-		if (numSovFromGoldenAge ~= 0 and returnsTT) then
-			if numSovFromGoldenAge > 0 then numSovFromGoldenAge = "+" .. numSovFromGoldenAge end
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_FROM_GOLDEN_AGE", numSovFromGoldenAge)
-		end
-	end
-
-	--CITY YIELDS
-	local numSovFromCities = sovFromCitiesTable.NumSovFromCities
-	numSov = numSov + numSovFromCities
-	
-	if (numSovFromCities ~= 0 and returnsTT) then
-		if numSovFromCities > 0 then numSovFromCities = "+" .. numSovFromCities	end
-		strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_FROM_CITIES", numSovFromCities)
-	end
-
-	--===============================
-	--JFD's Top Panel Addins BEGIN
-	--===============================
-	--This is for any extra Sovereignty addins
-	--for row in GameInfo.JFD_TopPanelAdditions("YieldType = 'YIELD_JFD_SOVEREIGNTY'") do
-	--	local yieldSourceFunction = row.YieldSourceFunction
-	--	if yieldSourceFunction then
-	--		local numSovereignty = loadstring("return " .. yieldSourceFunction .. "(Game.GetActivePlayer())")()
-	--		if numSovereignty > 0 then
-	--			local prereqCivilization = row.CivilizationType 
-	--			if prereqCivilization then
-	--				local prereqCivilizationID = GameInfoTypes[prereqCivilization]
-	--				if activePlayer:GetCivilizationType() == prereqCivilizationID then
-	--					local yieldToolTip = row.YieldSourceToolTip
-	--					if yieldToolTip then
-	--						local yieldToolTipText = g_ConvertTextKey(yieldToolTip, numSovereignty)
-	--						sovereignty = sovereignty + numSovereignty
-	--						sovereigntyTT = sovereigntyTT .. "[NEWLINE][ICON_BULLET]" .. yieldToolTipText
-	--					end
-	--				end
-	--			end
-	--			if (not prereqCivilization) then
-	--				local yieldToolTip = row.YieldSourceToolTip
-	--				if yieldToolTip then
-	--					local yieldToolTipText = g_ConvertTextKey(yieldToolTip, numSovereignty)
-	--					sovereignty = sovereignty + numSovereignty
-	--					sovereigntyTT = sovereigntyTT .. "[NEWLINE][ICON_BULLET]" .. yieldToolTipText
-	--				end
-	--			end	
-	--		end
-	--	end
-	--end
-	--===============================
-	--JFD's Top Panel Addins END
-	--===============================
-
-	--NUM CITIES OR LESS
-	if sovFromCitiesTable.HasReformSovWhenNumCitiesOrLess then
-		local numSovWhenNumCitiesOrLess = sovFromCitiesTable.NumReformSovWhenNumCitiesOrLess
-		local strHL = ""
-		
-		if sovFromCitiesTable.HasReformSovWhenNumCitiesOrLessMet then
-			numSov = numSov + numSovWhenNumCitiesOrLess
 			
+		local numSovFromTradeRoutes = 0
+		--g_Buildings_SovereigntyBonusPerTradeRoute_Table
+		local buildingsTable = g_Buildings_SovereigntyBonusPerTradeRoute_Table
+		local numBuildings = #g_Buildings_SovereigntyBonusPerTradeRoute_Table
+		for index = 1, numBuildings do
+			local row = buildingsTable[index]
+			local buildingID = row.ID
+			if player:CountNumBuildings(buildingID) > 0 then
+				numSovFromTradeRoutes = numSovFromTradeRoutes + (#player:GetTradeRoutes()*row.SovereigntyBonusPerTradeRoute)
+			end
+		end
+		if numSovFromTradeRoutes ~= 0 then 
+			numSov = numSov + numSovFromTradeRoutes
 			if returnsTT then
-				if numSovWhenNumCitiesOrLess < 0 then
-					strHL = "[COLOR_NEGATIVE_TEXT]"
-				elseif numSovWhenNumCitiesOrLess > 0 then
-					strHL = "[COLOR_POSITIVE_TEXT]+"
-				end
+				strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_FROM_TRADE_ROUTES", numSovFromTradeRoutes)
 			end
-		end
-		if returnsTT then
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_NUM_CITIES_OR_LESS", strHL, numSovWhenNumCitiesOrLess, sovFromCitiesTable.NumReformSovWhenNumCitiesOrLessReq)
-		end
-	end
+		end	
 	
-	--NUM CITIES OR MORE
-	if sovFromCitiesTable.HasReformSovWhenNumCitiesOrMore then
-		local numSovWhenNumCitiesOrMore = sovFromCitiesTable.NumReformSovWhenNumCitiesOrMore
-		local strHL = ""
-		
-		if sovFromCitiesTable.HasReformSovWhenNumCitiesOrMoreMet then
-			numSov = numSov + numSovWhenNumCitiesOrMore
-			
-			if returnsTT then
-				if numSovWhenNumCitiesOrMore < 0 then
-					strHL = "[COLOR_NEGATIVE_TEXT]"
-				elseif numSovWhenNumCitiesOrMore > 0 then
-					strHL = "[COLOR_POSITIVE_TEXT]+"
-				end
-			end
-		end
-		if returnsTT then
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_NUM_CITIES_OR_MORE", strHL, numSovWhenNumCitiesOrMore, sovFromCitiesTable.NumReformSovWhenNumCitiesOrMoreReq)
-		end
-	end
-	
-	--LEGITIMACIES
-	local numSovFromLegitimaciesMod = Player_GetLegitimacySovModifier(player)
-	
-	local numSovWhenTradition = 0
-	local numReformSovWhenTradition = sovFromCitiesTable.NumReformSovWhenTradition
-	local hasReformSovWhenTradition = sovFromCitiesTable.HasReformSovWhenTradition
-	
-	--LEGITIMACIES: CONNECTIONS
-	if sovFromCitiesTable.HasReformSovWhenConnection then
-		local numSovWhenConnection = sovFromCitiesTable.NumReformSovWhenConnection
-		local strHL = ""
-		
-		if numSovFromLegitimaciesMod ~= 0 then 
-			numSovWhenConnection = numSovWhenConnection + g_GetRound((numSovWhenConnection*numSovFromLegitimaciesMod)/100) 
-		end
-		
-		if sovFromCitiesTable.HasReformSovWhenConnectionMet then
-			if hasReformSovWhenTradition and numSovWhenConnection > 0 then 
-				numSovWhenTradition = numSovWhenTradition + numReformSovWhenTradition
-			end
-		
-			numSov = numSov + numSovWhenConnection
-			if (hasReformSovWhenTradition and numSovWhenConnection > 0) then 
-				numSov = numSov + numSovWhenTradition
-			end
-		
-			if returnsTT then
-				if numSovWhenConnection < 0 then
-					strHL = "[COLOR_NEGATIVE_TEXT]"
-				elseif numSovWhenConnection > 0 then
-					strHL = "[COLOR_POSITIVE_TEXT]"
-				end
-			end
-		end
-		if returnsTT then
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_CONNECTION", strHL, numSovWhenConnection)
-		end
-	end
-	
-	--LEGITIMACIES: GARRISONS
-	if sovFromCitiesTable.HasReformSovWhenGarrison then
-		local numSovWhenGarrison = sovFromCitiesTable.NumReformSovWhenGarrison
-		local strHL = ""
-		
-		if numSovFromLegitimaciesMod ~= 0 then 
-			numSovWhenGarrison = numSovWhenGarrison + g_GetRound((numSovWhenGarrison*numSovFromLegitimaciesMod)/100) 
-		end
-		
-		if sovFromCitiesTable.HasReformSovWhenGarrisonMet then
-			if hasReformSovWhenTradition and numSovWhenGarrison > 0 then 
-				numSovWhenTradition = numSovWhenTradition + numReformSovWhenTradition
-			end
-		
-			numSov = numSov + numSovWhenGarrison
-			if (hasReformSovWhenTradition and numSovWhenGarrison > 0) then 
-				numSov = numSov + numSovWhenTradition
-			end
-			
-			if returnsTT then
-				if numSovWhenGarrison < 0 then
-					strHL = "[COLOR_NEGATIVE_TEXT]"
-				elseif numSovWhenGarrison > 0 then
-					strHL = "[COLOR_POSITIVE_TEXT]"
-				end
-			end
-		end
-		if returnsTT then
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_GARRISON", strHL, numSovWhenGarrison)
-		end
-	end
-	
-	--LEGITIMACIES: SPECIALISTS
-	if sovFromCitiesTable.HasReformSovWhenSpecialist then
-		local numSovWhenSpecialist = sovFromCitiesTable.NumReformSovWhenSpecialist
-		local strHL = ""
-		
-		if numSovFromLegitimaciesMod ~= 0 then 
-			numSovWhenSpecialist = numSovWhenSpecialist + g_GetRound((numSovWhenSpecialist*numSovFromLegitimaciesMod)/100) 
-		end
-		
-		if sovFromCitiesTable.HasReformSovWhenSpecialistMet then
-			if hasReformSovWhenTradition and numSovWhenSpecialist > 0 then 
-				numSovWhenTradition = numSovWhenTradition + numReformSovWhenTradition
-			end
-		
-			numSov = numSov + numSovWhenSpecialist
-			if (hasReformSovWhenTradition and numSovWhenSpecialist > 0) then 
-				numSov = numSov + numSovWhenTradition
-			end
-			
-			if returnsTT then
-				if numSovWhenSpecialist < 0 then
-					strHL = "[COLOR_NEGATIVE_TEXT]"
-				elseif numSovWhenSpecialist > 0 then
-					strHL = "[COLOR_POSITIVE_TEXT]"
-				end
-			end
-		end
-		if returnsTT then
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_SPECIALIST", strHL, numSovWhenSpecialist)
-		end
-	end
-	
-	--LEGITIMACIES: POPULATION
-	if sovFromCitiesTable.HasReformSovWhenPopulation then
-		local numSovWhenPopulation = sovFromCitiesTable.NumReformSovWhenPopulation
-		local strHL = ""
-		
-		if numSovFromLegitimaciesMod ~= 0 then 
-			numSovWhenPopulation = numSovWhenPopulation + g_GetRound((numSovWhenPopulation*numSovFromLegitimaciesMod)/100) 
-		end
-		
-		if sovFromCitiesTable.HasReformSovWhenPopulationMet then
-			if hasReformSovWhenTradition and numSovWhenPopulation > 0 then 
-				numSovWhenTradition = numSovWhenTradition + numReformSovWhenTradition
-			end
-		
-			numSov = numSov + numSovWhenPopulation
-			if (hasReformSovWhenTradition and numSovWhenPopulation > 0) then 
-				numSov = numSov + numSovWhenTradition
-			end
-			
-			if returnsTT then
-				if numSovWhenPopulation < 0 then
-					strHL = "[COLOR_NEGATIVE_TEXT]"
-				elseif numSovWhenPopulation > 0 then
-					strHL = "[COLOR_POSITIVE_TEXT]"
-				end
-			end
-		end
-		if returnsTT then
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_POPULATION", strHL, numSovWhenPopulation, sovFromCitiesTable.NumReformSovWhenPopulationReq)
-		end
-	end
-	
-	--LEGITIMACIES: RELIGION
-	if sovFromCitiesTable.HasReformSovWhenStateReligion then
-		local numSovWhenStateReligion = sovFromCitiesTable.NumReformSovWhenStateReligion
-		local strHL = ""
-		
-		if numSovFromLegitimaciesMod ~= 0 then 
-			numSovWhenStateReligion = numSovWhenStateReligion + g_GetRound((numSovWhenStateReligion*numSovFromLegitimaciesMod)/100) 
-		end
-		
-		if sovFromCitiesTable.HasReformSovWhenStateReligionMet then
-			if hasReformSovWhenTradition and numSovWhenStateReligion > 0 then 
-				numSovWhenTradition = numSovWhenTradition + numReformSovWhenTradition
-			end
-		
-			numSov = numSov + numSovWhenStateReligion
-			if (hasReformSovWhenTradition and numSovWhenStateReligion > 0) then 
-				numSov = numSov + numSovWhenTradition
-			end
-			
-			if returnsTT then
-				if numSovWhenStateReligion < 0 then
-					strHL = "[COLOR_NEGATIVE_TEXT]"
-				elseif numSovWhenStateReligion > 0 then
-					strHL = "[COLOR_POSITIVE_TEXT]"
-				end
-			end
-		end
-		if returnsTT then
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_RELIGION", strHL, numSovWhenStateReligion)
-		end
-	end
-	
-	--LEGITIMACIES: BUILDING CLASS
-	if sovFromCitiesTable.HasReformSovWhenBuildingClass then
-		local numSovWhenBuildingClass = sovFromCitiesTable.NumReformSovWhenBuildingClass
-		local strHL = ""
-		
-		if numSovFromLegitimaciesMod ~= 0 then 
-			numSovWhenBuildingClass = numSovWhenBuildingClass + g_GetRound((numSovWhenBuildingClass*numSovFromLegitimaciesMod)/100) 
-		end
-		
-		if sovFromCitiesTable.HasReformSovWhenBuildingClassMet then
-			if hasReformSovWhenTradition and numSovWhenBuildingClass > 0 then 
-				numSovWhenTradition = numSovWhenTradition + numReformSovWhenTradition
-			end
-		
-			numSov = numSov + numSovWhenBuildingClass
-			if (hasReformSovWhenTradition and numSovWhenBuildingClass > 0) then 
-				numSov = numSov + numSovWhenTradition
-			end
-			
-			if returnsTT then
-				if numSovWhenBuildingClass < 0 then
-					strHL = "[COLOR_NEGATIVE_TEXT]"
-				elseif numSovWhenBuildingClass > 0 then
-					strHL = "[COLOR_POSITIVE_TEXT]"
-				end
-			end
-		end
-		if returnsTT then
-			local buildingClass = GameInfo.BuildingClasses[sovFromCitiesTable.NumReformSovWhenBuildingClassType]
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_BUILDING_CLASS", strHL, numSovWhenBuildingClass, buildingClass.Description)
-		end
-	end
-	
-	--LEGITIMACIES: HAPPINESS
-	if sovFromCitiesTable.HasReformSovWhenHappiness then
-		local numSovWhenHappiness = sovFromCitiesTable.NumReformSovWhenHappiness
-		local strHL = ""
-		
-		if numSovFromLegitimaciesMod ~= 0 then 
-			numSovWhenHappiness = numSovWhenHappiness + g_GetRound((numSovWhenHappiness*numSovFromLegitimaciesMod)/100) 
-		end
-		
-		if sovFromCitiesTable.HasReformSovWhenHappinessMet then
-			if hasReformSovWhenTradition and numSovWhenHappiness > 0 then 
-				numSovWhenTradition = numSovWhenTradition + numReformSovWhenTradition
-			end
-		
-			numSov = numSov + numSovWhenHappiness
-			if (hasReformSovWhenTradition and numSovWhenHappiness > 0) then 
-				numSov = numSov + numSovWhenTradition
-			end
-			
-			if returnsTT then
-				if numSovWhenHappiness < 0 then
-					strHL = "[COLOR_NEGATIVE_TEXT]"
-				elseif numSovWhenHappiness > 0 then
-					strHL = "[COLOR_POSITIVE_TEXT]"
-				end
-			end
-		end
-		if returnsTT then
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_HAPPINESS", strHL, numSovWhenHappiness, sovFromCitiesTable.NumReformSovWhenHappinessReq)
-		end
-	end
-	
-	--LEGITIMACIES: DEFENSE
-	if sovFromCitiesTable.HasReformSovWhenDefense then
-		local numSovWhenDefense = sovFromCitiesTable.NumReformSovWhenDefense
-		local strHL = ""
-		
-		if numSovFromLegitimaciesMod ~= 0 then 
-			numSovWhenDefense = numSovWhenDefense + g_GetRound((numSovWhenDefense*numSovFromLegitimaciesMod)/100) 
-		end
-		
-		if sovFromCitiesTable.HasReformSovWhenDefenseMet then
-			if hasReformSovWhenTradition and numSovWhenDefense > 0 then 
-				numSovWhenTradition = numSovWhenTradition + numReformSovWhenTradition
-			end
-		
-			numSov = numSov + numSovWhenDefense
-			if (hasReformSovWhenTradition and numSovWhenDefense > 0) then 
-				numSov = numSov + numSovWhenTradition
-			end
-			
-			if returnsTT then
-				if numSovWhenDefense < 0 then
-					strHL = "[COLOR_NEGATIVE_TEXT]"
-				elseif numSovWhenDefense > 0 then
-					strHL = "[COLOR_POSITIVE_TEXT]"
-				end
-			end
-		end
-		if returnsTT then
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_DEFENSE", strHL, numSovWhenDefense, sovFromCitiesTable.NumReformSovWhenDefenseReq)
-		end
-	end
-	
-	--LEGITIMACIES: HERITAGE
-	if hasReformSovWhenTradition then
-		local strHL1 = ""
-		local strHL2 = ""
-		local strBonus1 = 5
-		local strBonus2 = 10
-		
-		if returnsTT then
-			if numSovWhenTradition < 0 then
-				strHL1 = "[COLOR_NEGATIVE_TEXT]"
-			elseif numSovWhenTradition > 0 then
-				if numSovWhenTradition == 10 then
-					strHL2 = "[COLOR_POSITIVE_TEXT]"
-				else
-					strHL1 = "[COLOR_POSITIVE_TEXT]"
-				end
-			end
-		end
-		
-		if numSovFromLegitimaciesMod ~= 0 then 
-			numSovWhenTradition = numSovWhenTradition + g_GetRound((numSovWhenTradition*numSovFromLegitimaciesMod)/100) 
-			strBonus1 = strBonus1 + g_GetRound((strBonus1*numSovFromLegitimaciesMod)/100) 
-			strBonus2 = strBonus2 + g_GetRound((strBonus2*numSovFromLegitimaciesMod)/100) 
-		end
-		
-		if returnsTT then
-			strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_WHEN_HERITAGE", strHL1, strBonus1, strHL2, strBonus2)
-		end
-	end
-	
-	--CYCLES OF POWER
-	if Player.GetCyclePower then
-		local playerCapital = player:GetCapitalCity()
-		local cycleOfPowerID = player:GetCyclePower()
-		if cycleOfPowerID > -1 then
-			local cycleOfPower = GameInfo.JFD_CyclePowers[cycleOfPowerID]
-			local numModFromCycleOfPower = 0
-			
-			local numModPerCapitalPop = cycleOfPower.SovModifierPerCapitalPopulation
-			if numModPerCapitalPop > 0 then
-				numModFromCycleOfPower = (playerCapital:GetPopulation()*numModPerCapitalPop)
-			end
-			
-			local numModPerCity = cycleOfPower.SovModifierPerCity
-			if numModPerCity > 0 then
-				numModFromCycleOfPower = (player:GetNumCities()*numModPerCity)
-			end
-			
-			local numModPerPop = cycleOfPower.SovModifierPerPopulation
-			if numModPerPop > 0 then
-				numModFromCycleOfPower = (player:GetTotalPopulation()*numModPerPop)
-			end
-			
-			if numModFromCycleOfPower > 0 then
-				numSov = numSov + g_GetRound((numSov*numModFromCycleOfPower)/100)
-			
+		--MANDATE OF HEAVEN
+		if player:IsGoldenAge() then
+			local governmentID = player:GetCurrentGovernment()
+			local numGASovBonus = GameInfo.JFD_Governments[governmentID].GoldenAgeSovereigntyBonus
+			if numGASovBonus > 0 then
+				numSov = numSov + g_GetRound((numSov*numGASovBonus)/100)
 				if returnsTT then
-					strSovereigntyTT = strSovereigntyTT .. "[NEWLINE]  [ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_MOD_FROM_CYCLE_OF_POWER", numModFromCycleOfPower, "[ICON_JFD_CYCLE_POWER]", cycleOfPower.Description)
+					strSovereigntyTT = strSovereigntyTT .. "[NEWLINE][ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_MOD_FROM_MANDATE", numGASovBonus)
 				end
+			end
+		end
+		
+		--CYCLES OF POWER
+		if Player.GetCyclePower then
+			local playerCapital = player:GetCapitalCity()
+			local cycleOfPowerID = player:GetCyclePower()
+			if cycleOfPowerID > -1 then
+				local cycleOfPower = GameInfo.JFD_CyclePowers[cycleOfPowerID]
+				local numModFromCycleOfPower = 0
+				
+				local numModPerCapitalPop = cycleOfPower.SovModifierPerCapitalPopulation
+				if numModPerCapitalPop > 0 then
+					numModFromCycleOfPower = (playerCapital:GetPopulation()*numModPerCapitalPop)
+				end
+				
+				local numModPerCity = cycleOfPower.SovModifierPerCity
+				if numModPerCity > 0 then
+					numModFromCycleOfPower = (player:GetNumCities()*numModPerCity)
+				end
+				
+				local numModPerPop = cycleOfPower.SovModifierPerPopulation
+				if numModPerPop > 0 then
+					numModFromCycleOfPower = (player:GetTotalPopulation()*numModPerPop)
+				end
+				
+				local numModPerCityFollowing = cycleOfPower.SovModifierPerCityFollowing
+				if numModPerCityFollowing > 0 then
+					local religionID = player:GetReligionCreatedByPlayer()
+					if religionID > 0 then
+						numModFromCycleOfPower = (Game.GetNumCitiesFollowing(religionID)*numModPerCityFollowing)
+					end
+				end
+				
+				if numModFromCycleOfPower > 0 then
+					numSov = numSov + g_GetRound((numSov*numModFromCycleOfPower)/100)
+				
+					if returnsTT then
+						strSovereigntyTT = strSovereigntyTT .. "[NEWLINE][ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_MOD_FROM_CYCLE_OF_POWER", numModFromCycleOfPower, "[ICON_JFD_CYCLE_POWER]", cycleOfPower.Description)
+					end
+				end
+			end
+		end
+	
+		--REFORM CAPACITY
+		local numReforms = player:GetNumReforms(true, true)
+		local numReformCapacity = player:CalculateReformCapacity()
+		local numReformCapacitySovMod = player:GetReformCapacitySovModifier(numReforms, numReformCapacity)
+		if numReformCapacitySovMod < 0 then
+			numSov = numSov + g_GetRound((numSov*numReformCapacitySovMod)/100)
+			-- numSov = numSov + numReformCapacitySovMod
+			if returnsTT then
+				strSovereigntyTT = strSovereigntyTT .. "[NEWLINE][ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_MOD_FROM_REFORM_CAPACITY", numReformCapacitySovMod)
+			end
+		end
+	else
+		numSov = player:GetCurrentSovereignty()
+		
+		--REFORM CAPACITY
+		local numReforms = player:GetNumReforms(true, true)
+		local numReformCapacity = player:CalculateReformCapacity()
+		local numReformCapacitySovMod = player:GetReformCapacitySovModifier(numReforms, numReformCapacity)
+		if numReformCapacitySovMod < 0 then
+			numSov = numSov + g_GetRound((numSov*-10)/100)
+			-- numSov = numSov + numReformCapacitySovMod
+			if returnsTT then
+				strSovereigntyTT = strSovereigntyTT .. "[NEWLINE][ICON_BULLET]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_MOD_FROM_REFORM_CAPACITY", numReformCapacitySovMod)
 			end
 		end
 	end
 	
 	if numSov >= numSovMax then
 		numSov = numSovMax
+	elseif numSov < 0 then
+		numSov = 0
 	end
 	
 	return numSov, strSovereigntyTT
@@ -718,27 +578,28 @@ end
 --Player:GetCurrentSovereignty
 function Player.GetCurrentSovereignty(player)	
 	local playerID = player:GetID()
+	
 	if Player.GetSovereignty then
 		return player:GetSovereignty()
 	else
-		return JFD_RTP[playerID .. "_SOVEREIGNTY_BALANCE"] or 0
+		return JFD_RTP_Sovereignty[playerID .. "_SOVEREIGNTY_BALANCE"] or 0
 	end
 end
 -------------------------------------------------------------------------------------------------------------------------
 --Player:UpdateCurrentSovereignty
-function Player.UpdateCurrentSovereignty(player, numSov)	
+function Player.UpdateCurrentSovereignty(player, numSov, onlyUpdateReformCapacity)	
 	local playerID = player:GetID()
 	
 	-- print("UpdateCurrentSovereignty", debug.traceback())
 	
 	if (not numSov) then
-		numSov = player:CalculateSovereignty()
+		numSov = player:CalculateSovereignty(onlyUpdateReformCapacity)
 	end
 	
 	if Player.SetSovereignty then
 		player:SetSovereignty(numSov)
 	else
-		JFD_RTP[playerID .. "_SOVEREIGNTY_BALANCE"] = numSov
+		JFD_RTP_Sovereignty[playerID .. "_SOVEREIGNTY_BALANCE"] = numSov
 	end
 	
 	if player:IsHuman() and player:IsTurnActive() then
@@ -746,405 +607,26 @@ function Player.UpdateCurrentSovereignty(player, numSov)
 	end
 end
 ----------------------------------------------------------------------------------------------------------------------------
---g_Buildings_SovereigntyChange_Table
-local g_Buildings_SovereigntyChange_Table = {}
-local g_Buildings_SovereigntyChange_Count = 1
-for row in DB.Query("SELECT ID, SovereigntyChange FROM Buildings WHERE SovereigntyChange <> 0;") do 	
-	g_Buildings_SovereigntyChange_Table[g_Buildings_SovereigntyChange_Count] = row
-	g_Buildings_SovereigntyChange_Count = g_Buildings_SovereigntyChange_Count + 1
-end
-
-local reformSovConnectionID = -1
-local reformSovConnectionNum = 0
-for row in DB.Query("SELECT ID, SovereigntyWhenConnected FROM JFD_Reforms WHERE SovereigntyWhenConnected <> 0;") do 	
-	reformSovConnectionID  = row.ID
-	reformSovConnectionNum = row.SovereigntyWhenConnected
-	break
-end
-local reformSovGarrisonID = -1
-local reformSovGarrisonNum = 0
-for row in DB.Query("SELECT ID, SovereigntyWhenGarrisoned FROM JFD_Reforms WHERE SovereigntyWhenGarrisoned <> 0;") do 	
-	reformSovGarrisonID = row.ID
-	reformSovGarrisonNum = row.SovereigntyWhenGarrisoned
-	break
-end
-local reformSovSpecialistsID = -1
-local reformSovSpecialistsNum
-for row in DB.Query("SELECT ID, SovereigntyWhenSpecialist FROM JFD_Reforms WHERE SovereigntyWhenSpecialist <> 0;") do 	
-	reformSovSpecialistsID = row.ID
-	reformSovSpecialistsNum = row.SovereigntyWhenSpecialist
-	break
-end
-local reformSovPopulationID = -1
-local reformSovPopulationNum = 0
-local reformSovPopulationReq = 0
-for row in DB.Query("SELECT ID, SovereigntyWhenPopulation, SovereigntyWhenPopulationReq FROM JFD_Reforms WHERE SovereigntyWhenPopulation <> 0;") do 	
-	reformSovPopulationID = row.ID
-	reformSovPopulationNum = row.SovereigntyWhenPopulation
-	reformSovPopulationReq = row.SovereigntyWhenPopulationReq
-	break
-end
-local reformSovBuildingClassID = -1
-local reformSovBuildingClassNum = 0
-local reformSovBuildingClassType = 0
-for row in DB.Query("SELECT ID, SovereigntyWhenBuildingClass, SovereigntyWhenBuildingClassType FROM JFD_Reforms WHERE SovereigntyWhenBuildingClass <> 0;") do 	
-	reformSovBuildingClassID = row.ID
-	reformSovBuildingClassNum = row.SovereigntyWhenBuildingClass
-	reformSovBuildingClassType = row.SovereigntyWhenBuildingClassType
-	break
-end
-local reformSovStateReligionID = -1
-local reformSovStateReligionNum = 0
-for row in DB.Query("SELECT ID, SovereigntyWhenStateReligion FROM JFD_Reforms WHERE SovereigntyWhenStateReligion <> 0;") do 	
-	reformSovStateReligionID = row.ID
-	reformSovStateReligionNum = row.SovereigntyWhenStateReligion
-	break
-end
-local reformSovTraditionID = -1
-local reformSovTraditionNum = 0
-for row in DB.Query("SELECT ID, SovereigntyWhenTradition FROM JFD_Reforms WHERE SovereigntyWhenTradition <> 0;") do 	
-	reformSovTraditionID = row.ID
-	reformSovTraditionNum = row.SovereigntyWhenTradition
-	break
-end
-local reformSovHappinessID = -1
-local reformSovHappinessNum = 0
-local reformSovHappinessReq = 0
-for row in DB.Query("SELECT ID, SovereigntyWhenHappiness, SovereigntyWhenHappinessReq FROM JFD_Reforms WHERE SovereigntyWhenHappiness <> 0;") do 	
-	reformSovHappinessID = row.ID
-	reformSovHappinessNum = row.SovereigntyWhenHappiness
-	reformSovHappinessReq = row.SovereigntyWhenHappinessReq
-	break
-end
-local reformSovDefenseID = -1
-local reformSovDefenseNum = 0
-local reformSovDefenseReq = 0
-for row in DB.Query("SELECT ID, SovereigntyWhenDefense, SovereigntyWhenDefenseReq FROM JFD_Reforms WHERE SovereigntyWhenDefense <> 0;") do 	
-	reformSovDefenseID = row.ID
-	reformSovDefenseNum = row.SovereigntyWhenDefense
-	reformSovDefenseReq = row.SovereigntyWhenDefenseReq
-	break
-end
-local reformSovNumCitiesOrLessID = -1
-local reformSovNumCitiesOrLessNum = 0
-local reformSovNumCitiesOrLessReq = 0
-for row in DB.Query("SELECT ID, SovereigntyWhenNumCitiesOrLess, SovereigntyWhenNumCitiesOrLessReq FROM JFD_Reforms WHERE SovereigntyWhenNumCitiesOrLess > 0;") do 	
-	reformSovNumCitiesOrLessID = row.ID
-	reformSovNumCitiesOrLessNum = row.SovereigntyWhenNumCitiesOrLess
-	reformSovNumCitiesOrLessReq = row.SovereigntyWhenNumCitiesOrLessReq
-	break
-end
-local reformSovNumCitiesOrMoreID = -1
-local reformSovNumCitiesOrMoreNum = 0
-local reformSovNumCitiesOrMoreReq = 0
-for row in DB.Query("SELECT ID, SovereigntyWhenNumCitiesOrMore, SovereigntyWhenNumCitiesOrMoreReq FROM JFD_Reforms WHERE SovereigntyWhenNumCitiesOrMore > 0;") do 	
-	reformSovNumCitiesOrMoreID = row.ID
-	reformSovNumCitiesOrMoreNum = row.SovereigntyWhenNumCitiesOrMore
-	reformSovNumCitiesOrMoreReq = row.SovereigntyWhenNumCitiesOrMoreReq
-	break
-end
-
---Player_GetSovereigntyFromCities
-function Player_GetSovereigntyFromCities(player)
-	local sovFromCitiesTable = {}
-
-	--CITIES
-	local numSovFromCities = 0
-	sovFromCitiesTable.NumSovFromCities = 0
-	
-	--NUM CITIES OR LESS
-	local hasReformSovNumCitiesOrLess = player:HasReform(reformSovNumCitiesOrLessID)
-	if hasReformSovNumCitiesOrLess then
-		sovFromCitiesTable.HasReformSovWhenNumCitiesOrLess = true
-		sovFromCitiesTable.NumReformSovWhenNumCitiesOrLess = reformSovNumCitiesOrLessNum
-		sovFromCitiesTable.NumReformSovWhenNumCitiesOrLessReq = reformSovNumCitiesOrLessReq
-		
-		local reform = GameInfo.JFD_Reforms[reformSovNumCitiesOrLessID]
-		sovFromCitiesTable.HasReformSovWhenNumCitiesOrMore = true
-		sovFromCitiesTable.NumReformSovWhenNumCitiesOrMore = reform.SovereigntyWhenNumCitiesOrMore
-		sovFromCitiesTable.NumReformSovWhenNumCitiesOrMoreReq = reform.SovereigntyWhenNumCitiesOrMoreReq
-	end
-	
-	--NUM CITIES OR MORE
-	local hasReformSovNumCitiesOrMore = player:HasReform(reformSovNumCitiesOrMoreID)
-	if hasReformSovNumCitiesOrMore then
-		sovFromCitiesTable.HasReformSovWhenNumCitiesOrMore = true
-		sovFromCitiesTable.NumReformSovWhenNumCitiesOrMore = reformSovNumCitiesOrMoreNum
-		sovFromCitiesTable.NumReformSovWhenNumCitiesOrMoreReq = reformSovNumCitiesOrMoreReq
-		
-		local reform = GameInfo.JFD_Reforms[reformSovNumCitiesOrMoreID]
-		sovFromCitiesTable.HasReformSovWhenNumCitiesOrLess = true
-		sovFromCitiesTable.NumReformSovWhenNumCitiesOrLess = reform.SovereigntyWhenNumCitiesOrLess
-		sovFromCitiesTable.NumReformSovWhenNumCitiesOrLessReq = reform.SovereigntyWhenNumCitiesOrLessReq
-	end
-	
-	--CONNECTION
-	local hasReformSovConnection = player:HasReform(reformSovConnectionID)
-	if hasReformSovConnection then
-		sovFromCitiesTable.HasReformSovWhenConnection = true
-		sovFromCitiesTable.NumReformSovWhenConnection = reformSovConnectionNum
-	end
-	local numCitiesConnection = 0
-	
-	--GARRISON
-	local hasReformSovGarrison = player:HasReform(reformSovGarrisonID)
-	if hasReformSovGarrison then
-		sovFromCitiesTable.HasReformSovWhenGarrison = true
-		sovFromCitiesTable.NumReformSovWhenGarrison = reformSovGarrisonNum
-	end
-	local numCitiesGarrison = 0
-	
-	--SPECIALIST
-	local hasReformSovSpecialist = player:HasReform(reformSovSpecialistsID)
-	if hasReformSovSpecialist then
-		sovFromCitiesTable.HasReformSovWhenSpecialist = true
-		sovFromCitiesTable.NumReformSovWhenSpecialist = reformSovSpecialistsNum
-	end
-	local numCitiesSpecialist = 0
-	
-	--POPULATION
-	local hasReformSovPopulation = player:HasReform(reformSovPopulationID)
-	if hasReformSovPopulation then
-		sovFromCitiesTable.HasReformSovWhenPopulation = true
-		sovFromCitiesTable.NumReformSovWhenPopulation = reformSovPopulationNum
-		sovFromCitiesTable.NumReformSovWhenPopulationReq = reformSovPopulationReq
-	end
-	local numCitiesPopulation = 0
-	
-	--RELIGION
-	local religionID = nil
-	local hasReformSovStateReligion = player:HasReform(reformSovStateReligionID)
-	if hasReformSovStateReligion then	
-		religionID = player:GetMainReligion()
-		sovFromCitiesTable.HasReformSovWhenStateReligion = true
-		sovFromCitiesTable.NumReformSovWhenStateReligion = reformSovStateReligionNum
-		sovFromCitiesTable.NumReformSovWhenStateReligionID = religionID
-	end
-	local numCitiesStateReligion = 0
-	
-	--BUILDING CLASS
-	local hasReformSovBuildingClass = player:HasReform(reformSovBuildingClassID)
-	if hasReformSovBuildingClass then
-		sovFromCitiesTable.HasReformSovWhenBuildingClass = true
-		sovFromCitiesTable.NumReformSovWhenBuildingClass = reformSovBuildingClassNum
-		sovFromCitiesTable.NumReformSovWhenBuildingClassType = reformSovBuildingClassType
-	end
-	local numCitiesBuildingClass = 0
-	
-	--HERITAGE
-	local hasReformSovTradition = player:HasReform(reformSovTraditionID)
-	if hasReformSovTradition then
-		sovFromCitiesTable.HasReformSovWhenTradition = true
-		sovFromCitiesTable.NumReformSovWhenTradition = reformSovTraditionNum
-	end
-	
-	--HAPPINESS
-	local hasReformSovHappiness = player:HasReform(reformSovHappinessID)
-	if hasReformSovHappiness then
-		sovFromCitiesTable.HasReformSovWhenHappiness = true
-		sovFromCitiesTable.NumReformSovWhenHappiness = reformSovHappinessNum
-		sovFromCitiesTable.NumReformSovWhenHappinessReq = reformSovHappinessReq
-	end
-	local numCitiesHappiness = 0
-	
-	--DEFENSE
-	local hasReformSovDefense = player:HasReform(reformSovDefenseID)
-	if hasReformSovDefense then
-		sovFromCitiesTable.HasReformSovWhenDefense = true
-		sovFromCitiesTable.NumReformSovWhenDefense = reformSovDefenseNum
-		sovFromCitiesTable.NumReformSovWhenDefenseReq = reformSovDefenseReq
-	end
-	local numCitiesDefense = 0
-	
-	local playerCapital = player:GetCapitalCity()
-	local numCities = player:GetNumCities()
-	
-	if player:IsHuman() then
-		--g_Buildings_SovereigntyChange_Table
-		local buildingsTable = g_Buildings_SovereigntyChange_Table
-		local numBuildings = #buildingsTable
-		for index = 1, numBuildings do
-			local row = buildingsTable[index]
-			local buildingID = row.ID
-			if player:CountNumBuildings(buildingID) > 0 then
-				numSovFromCities = numSovFromCities + (player:CountNumBuildings(buildingID)*row.SovereigntyChange)
-			end
-		end
-		
-		for city in player:Cities() do
-			if yieldSovereigntyID then
-				--YIELD MODS
-				numSovFromCities = numSovFromCities + city:GetYieldRateModifier(yieldSovereigntyID)
-			end
-
-			--CONNECTION
-			if hasReformSovConnection then
-				if (player:IsCapitalConnectedToCity(city) or city:IsCapital()) then 
-					numCitiesConnection = numCitiesConnection + 1 
-				end
-			end
-			
-			--GARRISON
-			if hasReformSovGarrison then
-				if city:GetGarrisonedUnit() then 
-					numCitiesGarrison = numCitiesGarrison + 1 
-				end
-			end
-			
-			--SPECIALIST
-			if hasReformSovSpecialist then
-				if player:GetCityHasAnySpecialist(city) then 
-					numCitiesSpecialist = numCitiesSpecialist + 1 
-				end
-			end
-			
-			--POPULATION
-			if hasReformSovPopulation then
-				if city:GetPopulation() >= reformSovPopulationReq then 
-					numCitiesPopulation = numCitiesPopulation + 1 
-				end
-			end
-		
-			--RELIGION
-			if hasReformSovStateReligion then
-				if city:GetReligiousMajority() == religionID then 
-					numCitiesStateReligion = numCitiesStateReligion + 1 
-				end
-			end
-			
-			--HAPPINESS
-			if hasReformSovHappiness then
-				if city:GetLocalHappiness() >= reformSovHappinessReq then 
-					numCitiesHappiness = numCitiesHappiness + 1 
-				end
-			end
-			
-			--DEFENSE
-			if hasReformSovDefense then
-				if g_GetRound(city:GetStrengthValue()/100) >= reformSovDefenseReq then 
-					numCitiesDefense = numCitiesDefense + 1 
-				end
-			end
-		end
-		
-		--BUILDING CLASS
-		if hasReformSovBuildingClass then
-			local buildingClassID = GameInfoTypes[reformSovBuildingClassType]
-			numCitiesBuildingClass = player:GetBuildingClassCount(buildingClassID)
-		end
-		
-	else
-		if playerCapital then
-			--g_Buildings_SovereigntyChange_Table
-			local buildingsTable = g_Buildings_SovereigntyChange_Table
-			local numBuildings = #buildingsTable
-			for index = 1, numBuildings do
-				local row = buildingsTable[index]
-				local buildingID = row.ID
-				if player:CountNumBuildings(buildingID) > 0 then
-					numSovFromCities = numSovFromCities + (player:CountNumBuildings(buildingID)*row.SovereigntyChange)
-				end
-			end
-			
-			if yieldSovereigntyID then
-				--YIELD MODS
-				for city in player:Cities() do
-					numSovFromCities = numSovFromCities + city:GetYieldRateModifier(yieldSovereigntyID)
-				end
-			end
-	
-			--CONNECTION
-			if hasReformSovConnection then
-				numCitiesConnection = numCities
-			end
-			
-			--GARRISON
-			if hasReformSovGarrison then
-				if playerCapital:GetGarrisonedUnit() then 
-					numCitiesGarrison = numCities
-				end
-			end
-			
-			--SPECIALIST
-			if hasReformSovSpecialist then
-				if player:GetCityHasAnySpecialist(playerCapital) then 
-					numCitiesSpecialist = numCities 
-				end
-			end
-			
-			--POPULATION
-			if hasReformSovPopulation then
-				if playerCapital:GetPopulation() >= reformSovPopulationReq then 
-					numCitiesPopulation = numCities 
-				end
-			end
-			
-			--RELIGION 
-			if hasReformSovStateReligion then
-				local buildingClassID = GameInfoTypes[reformSovBuildingClassType]
-				if playerCapital:GetReligiousMajority() == religionID then 
-					numCitiesStateReligion = numCities 
-				end
-			end
-			
-			--BUILDING CLASS
-			if hasReformSovBuildingClass then
-				local buildingClassID = GameInfoTypes[reformSovBuildingClassType]
-				if player:GetBuildingClassCount(buildingClassID) >= 1 then 
-					numCitiesBuildingClass = numCities 
-				end
-			end
-			
-			--HAPPINESS
-			if hasReformSovHappiness then
-				if playerCapital:GetLocalHappiness() >= reformSovHappinessReq then 
-					numCitiesHappiness = numCities 
-				end
-			end
-			
-			--DEFENSE
-			if hasReformSovDefense then
-				if g_GetRound(playerCapital:GetStrengthValue()/100) >= reformSovDefenseReq then 
-					numCitiesDefense = numCities 
-				end
-			end
-		end
-	end
-	
-	sovFromCitiesTable.NumSovFromCities = numSovFromCities
-	sovFromCitiesTable.HasReformSovWhenNumCitiesOrLessMet = (numCities <= reformSovNumCitiesOrLessReq)
-	sovFromCitiesTable.HasReformSovWhenNumCitiesOrMoreMet = (numCities >= reformSovNumCitiesOrMoreReq)
-	sovFromCitiesTable.HasReformSovWhenConnectionMet = (numCitiesConnection == numCities)
-	sovFromCitiesTable.HasReformSovWhenGarrisonMet = (numCitiesGarrison == numCities)
-	sovFromCitiesTable.HasReformSovWhenSpecialistMet = (numCitiesSpecialist == numCities)
-	sovFromCitiesTable.HasReformSovWhenPopulationMet = (numCitiesPopulation == numCities)
-	sovFromCitiesTable.HasReformSovWhenBuildingClassMet = (numCitiesBuildingClass == numCities)
-	sovFromCitiesTable.HasReformSovWhenStateReligionMet = (numCitiesStateReligion == numCities)
-	sovFromCitiesTable.HasReformSovWhenHappinessMet = (numCitiesHappiness == numCities)
-	sovFromCitiesTable.HasReformSovWhenDefenseMet = (numCitiesDefense == numCities)
-	
-	return sovFromCitiesTable
-end	
-----------------------------------------------------------------------------------------------------------------------------
 -- SOVEREIGNTY MODIFIER UTILS
 ----------------------------------------------------------------------------------------------------------------------------
 --Player_GetMaxSovereigntyModifier
+local factionHolySeeOtherID = GameInfoTypes["FACTION_JFD_HOLY_SEE_OTHER"]
 function Player_GetMaxSovereigntyModifier(player)
 	local numSovMaxMod = 0
-
-	--g_JFD_Governments_Table
-	local govtsTable = g_JFD_Governments_Table
-	local numGovts = #govtsTable
-	for index = 1, numGovts do
-		local row = govtsTable[index]
-		local numThisMaxSovChange = row.MaxSovChange
-		if numThisMaxSovChange ~= 0 then
-			if player:IsHasGovernment(row.ID) then
-				numSovMaxMod = numSovMaxMod + numThisMaxSovChange
+	
+	local governmentID = player:GetCurrentGovernment()
+	local numMaxSovPerHolySeeFaction = GameInfo.JFD_Governments[governmentID].MaxSovPerHolySeeFaction
+	if numMaxSovPerHolySeeFaction > 0 then
+		for playerID = 0, defineMaxMajorCivs - 1 do
+			local player = Players[playerID]
+			if player:IsAlive() then
+				if player:GetDominantFaction() == factionHolySeeOtherID then
+					numSovMaxMod = numSovMaxMod + numMaxSovPerHolySeeFaction
+				end
 			end
 		end
 	end
-			
+
 	--g_JFD_Reforms_Table
 	local reformsTable = g_JFD_Reforms_Table
 	local numReforms = #reformsTable
@@ -1211,18 +693,10 @@ end
 function Player_GetLegitimacySovModifier(player)
 	local numLegitimacySovMod = 0
 
-	--g_JFD_Governments_Table
-	local govtsTable = g_JFD_Governments_Table
-	local numGovts = #govtsTable
-	for index = 1, numGovts do
-		local row = govtsTable[index]
-		local numThisLegitimacySovMod = row.LegitimacySovMod
-		if numThisLegitimacySovMod ~= 0 then
-			local governmentID = row.ID
-			if player:IsHasGovernment(governmentID) then
-				numLegitimacySovMod = numLegitimacySovMod + numThisLegitimacySovMod
-			end
-		end
+	local governmentID = player:GetCurrentGovernment()
+	local numLegitimacySovModGovernment = GameInfo.JFD_Governments[governmentID].LegitimacySovMod
+	if numLegitimacySovModGovernment ~= 0 then
+		numLegitimacySovMod = numLegitimacySovMod + numLegitimacySovModGovernment
 	end
 			
 	--g_JFD_Reforms_Table
@@ -1298,19 +772,20 @@ end
 ----------------------------------------------------------------------------------------------------------------------------
 -- SOVEREIGNTY TEXT UTILS
 ----------------------------------------------------------------------------------------------------------------------------
---Player_GetSovereigntyTopPanelInfoTT
-function Player_GetSovereigntyTopPanelInfoTT(player)
+--Player:GetSovereigntyToolTip
+function Player.GetSovereigntyToolTip(player)
 	local governmentID = player:GetCurrentGovernment()
 	local government = GameInfo.JFD_Governments[governmentID]
 	
 	local strSovTopPanelTT = g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_YOUR_GOVERNMENT", government.Description)
-	strSovTopPanelTT = strSovTopPanelTT .. "[NEWLINE]"
+	strSovTopPanelTT = strSovTopPanelTT .. " "
+	-- strSovTopPanelTT = strSovTopPanelTT .. "[NEWLINE]"
 	strSovTopPanelTT = strSovTopPanelTT .. g_ConvertTextKey(government.Help)
 	strSovTopPanelTT = strSovTopPanelTT .. "[NEWLINE][NEWLINE]"
 	
 	--SOVEREIGNTY
 	local numRealSov = player:GetCurrentSovereignty()
-	local numProjSov, strSovTT = player:CalculateSovereignty(true, true)
+	local numProjSov, strSovTT = player:CalculateSovereignty(false, true)
 	local numSovMax = player:GetMaxSovereignty()
 	local HL1 = "[COLOR_JFD_SOVEREIGNTY_FADING]"
 	if numRealSov >= numSovMax then
@@ -1323,24 +798,27 @@ function Player_GetSovereigntyTopPanelInfoTT(player)
 	strSovTopPanelTT = strSovTopPanelTT .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_YOUR_SOVEREIGNTY", numRealSov, numSovMax, numProjSov, HL1, HL2)
 	strSovTopPanelTT = strSovTopPanelTT .. strSovTT
 	
+	--REFORM CAPACITY
+	local strHL = ""
+	local numReforms = player:GetNumReforms(true, true)
+	local numReformCapacity = player:CalculateReformCapacity()
+	if numReforms > numReformCapacity then
+		strHL = "[COLOR_WARNING_TEXT]"
+	elseif numReforms < numReformCapacity then
+		strHL = "[COLOR_POSITIVE_TEXT]"
+	end
+	strSovTopPanelTT = strSovTopPanelTT .. "[NEWLINE][NEWLINE]"
+	strSovTopPanelTT = strSovTopPanelTT .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_REFORM_CAPACITY", numReforms, numReformCapacity, strHL)	
+	
 	--LEGISLATURE COOLDOWN
 	local numGovernmentCooldown = player:GetCurrentGovernmentCooldown()
 	if numGovernmentCooldown > 0 then
 		strSovTopPanelTT = strSovTopPanelTT .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_GOVERNMENT_COOLDOWN", numGovernmentCooldown)	
 	end
 	
-	--REFORM COOLDOWN
-	local numReformCooldown = player:GetCurrentReformCooldown()
-	if numReformCooldown > 0 then
-		--if govtCooldown <= 0 then sovereigntyTT = sovereigntyTT .. "[NEWLINE]" end
-		strSovTopPanelTT = strSovTopPanelTT .. "[NEWLINE]".. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_REFORM_COOLDOWN", numReformCooldown)	
-	else
-		--if govtCooldown <= 0 then sovereigntyTT = sovereigntyTT .. "[NEWLINE]" end
-		strSovTopPanelTT = strSovTopPanelTT .. "[NEWLINE]".. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_REFORM_NONE")	
+	if player:IsAnarchy() then
+		strSovTopPanelTT = g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_ANARCHY", player:GetAnarchyNumTurns()) .. "[NEWLINE][NEWLINE]" .. strSovTopPanelTT
 	end
-	
-	--HELP
-	--strSovTopPanelTT = strSovTopPanelTT .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_INFO")
 	
 	return strSovTopPanelTT
 end
@@ -1352,7 +830,7 @@ end
 ----------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
 --Game.AnyoneHasGovernment
-function Game.AnyoneHasGovernment(player, governmentID)
+function Game.AnyoneHasGovernment(governmentID)
 	for otherPlayerID = 0, defineMaxMajorCivs - 1 do
 		local otherPlayer = Players[otherPlayerID]
 		if otherPlayer:IsAlive() then
@@ -1364,41 +842,12 @@ function Game.AnyoneHasGovernment(player, governmentID)
 	return false
 end
 ----------------------------------------------------------------------------------------------------------------------------
---Player:CanHaveLimitedGovernment
-function Player.CanHaveLimitedGovernment(player)
-	if player:IsBarbarian() then return false end
-	return (player:GetTotalPopulation() >= defineDefaultLimitedGovernmentPopThreshold) and (not player:IsHasGovernment()) and (not player:IsHasLimitedGovernment())
-end
-----------------------------------------------------------------------------------------------------------------------------
---Player:CanChangeGovernment
-function Player.CanChangeGovernment(player)
-	local government = GameInfo.JFD_Governments[player:GetCurrentGovernment()]
-	
-	if (player:IsAnarchy() and (not player:IsHuman())) then
-		return true
-	end
-	
-	if government.IsAllowsChangeGovernment then
-		return true, g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_VIEW_GOVERNMENTS_TT")
-	end
-	
-	local dominantFactionID = player:GetDominantFaction()
-	if dominantFactionID > -1 then
-		local dominantFaction = GameInfo.JFD_Factions[dominantFactionID]
-		if dominantFaction.IsAllowsChangeGovernment then
-			return true, g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_VIEW_GOVERNMENTS_TT")
-		end
-	end
-	
-	if (player:GetExcessHappiness() > 0 and (not player:IsHuman())) then
-		return false
-	end
-	
-	return false, g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_VIEW_GOVERNMENTS_TT_DISABLED")
-end
-----------------------------------------------------------------------------------------------------------------------------
 --Player:CanHaveGovernment
+local resourceHorseID = GameInfoTypes["RESOURCE_HORSE"]
+local unitClassGreatGeneralID = GameInfoTypes["UNITCLASS_GREAT_GENERAL"]
 function Player.CanHaveGovernment(player, governmentID)
+	local playerID = player:GetID()
+	local playerTeam = Teams[player:GetTeam()]
 	if governmentID == 0 then
 		return false
 	end
@@ -1449,6 +898,33 @@ function Player.CanHaveGovernment(player, governmentID)
 		end
 	end
 
+	local reqOtherReligion = government.RequiresOtherReligion
+	if reqOtherReligion then
+		local hasOtherReligion = false
+		for otherPlayerID = 0, defineMaxMajorCivs - 1 do
+			if player:HasOthersReligionInMostCities(otherPlayerID) then
+				hasOtherReligion = true
+				break
+			end
+		end
+		if (not hasOtherReligion) then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_OTHER_RELIGION")
+		end
+	end
+
+	local reqBuildingAllCities = government.RequiresBuildingAllCities
+	if reqBuildingAllCities then
+		local buildingClassID = GameInfoTypes[reqBuildingAllCities]
+		local buildingClass = GameInfo.BuildingClasses[buildingClassID]
+		if player:GetNumCities() > player:GetBuildingClassCount(buildingClassID) then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_BUILDING_ALL_CITIES", buildingClass.Description)
+		end
+	end
+
 	local reqGovernment = government.RequiresGovernment
 	if reqGovernment then
 		local reqGovernmentID = GameInfoTypes[reqGovernment]
@@ -1460,11 +936,142 @@ function Player.CanHaveGovernment(player, governmentID)
 		end
 	end
 
-	if government.RequiresIdeology then
+	local reqHorses = government.RequiresHorses
+	if reqHorses then
+		if player:GetNumResourceTotal(resourceHorseID, false) < reqHorses then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_HORSES")
+		end
+	end
+
+	local reqGreatGenerals = government.RequiresGreatGenerals
+	if reqGreatGenerals then
+		if player:GetUnitClassCount(unitClassGreatGeneralID) < reqGreatGenerals then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_GREAT_GENERALS")
+		end
+	end
+
+	local reqTech = government.RequiresTech
+	if reqTech then
+		local reqTechID = GameInfoTypes[reqTech]
+		local reqTech = GameInfo.Technologies[reqTechID]
+		if (not playerTeam:IsHasTech(reqTechID)) then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_TECH", reqTech.Description)
+		end
+	end
+
+	local reqIdeology = government.RequiresIdeology
+	if reqIdeology then
 		if player:GetIdeology() < 0 then
 			canHaveGovernment = false
 			canSeeGovernment = true
 			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_IDEOLOGY")
+		end
+	end
+
+	local reqNOTAnarchy = government.RequiresNOTAnarchy
+	if reqNOTAnarchy then
+		if player:IsAnarchy() then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_NOT_ANARCHY")
+		end
+	end
+
+	local reqAnarchy = government.RequiresAnarchy
+	if reqAnarchy then
+		if (not player:IsAnarchy()) then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ANARCHY")
+		end
+	end
+
+	local reqWar = government.RequiresActiveWar
+	if reqWar then
+		if playerTeam:GetAtWarCount(true) == 0 then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ACTIVE_WAR")
+		end
+	end
+
+	local reqCityStateAllies = government.RequiresCityStateAllies
+	if reqCityStateAllies > 0 then
+		local numFriends, numAllies = player:GetNumCityStatePartners()
+		if numAllies < reqCityStateAllies then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_CITY_STATE_ALLIES", reqCityStateAllies)
+		end
+	end
+
+	local reqTradeRoutes = government.RequiresTradeRoutes
+	if reqTradeRoutes > 0 then
+		local numTradeRoutes = #player:GetTradeRoutes()
+		if numTradeRoutes < reqTradeRoutes then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_TRADE_ROUTES", reqTradeRoutes)
+		end
+	end
+
+	local reqConqueredCapital = government.RequiresConqueredCapital
+	if reqConqueredCapital then
+		local numConqueredCapitals = 0
+		for city in player:Cities() do
+			if city:GetOriginalOwner() ~= playerID and city:IsOriginalCapital() then
+				numConqueredCapitals = numConqueredCapitals + 1
+			end
+		end
+		if numConqueredCapitals == 0 then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_CONQUERED_CAPITAL")
+		end
+	end
+
+	local reqConnectedCities = government.RequiresConnectedCities
+	if reqConnectedCities then
+		if player:GetNumCities() < 2 then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ALL_CITIES_CONNECTED")
+		else
+			for city in player:Cities() do
+				if (not player:IsCapitalConnectedToCity(city)) then
+					canHaveGovernment = false
+					canSeeGovernment = true
+					strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ALL_CITIES_CONNECTED")
+					break
+				end
+			end
+		end
+	end
+
+	local reqGarrisonCities = government.RequiresGarrisonCities
+	if reqGarrisonCities then
+		for city in player:Cities() do
+			if (not city:GetGarrisonedUnit()) then
+				canHaveGovernment = false
+				canSeeGovernment = true
+				strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ALL_CITIES_GARRISONED")
+				break
+			end
+		end
+	end
+
+	local reqGoldenAge = government.RequiresGoldenAge
+	if reqGoldenAge then
+		if (not player:IsGoldenAge()) then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_GOLDEN_AGE")
 		end
 	end
 
@@ -1474,6 +1081,35 @@ function Player.CanHaveGovernment(player, governmentID)
 			canHaveGovernment = false
 			canSeeGovernment = true
 			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_RELIGION")
+		end
+	end
+
+	local reqReligionAllControl = government.RequiresReligionAllControl
+	if reqReligionAllControl then
+		local religionID = player:GetMainReligion()
+		if (religionID <= 0 or (religionID > 0 and Game.GetNumCitiesFollowing(religionID) <= player:GetNumCities())) then 
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_RELIGION_ALL_CONTROL")
+		end
+	end
+
+	local reqReligionNotAllControl = government.RequiresReligionNotAllControl
+	if reqReligionNotAllControl then
+		local religionID = player:GetMainReligion()
+		if (religionID <= 0 or (religionID > 0 and Game.GetNumCitiesFollowing(religionID) > player:GetNumCities())) then 
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_RELIGION_NOT_ALL_CONTROL")
+		end
+	end
+	
+	local reqEra = government.RequiresMinEra
+	if reqEra then
+		if player:GetCurrentEra() < GameInfoTypes[reqEra] then
+			canHaveGovernment = false
+			canSeeGovernment = true
+			strCanHaveGovernment = strCanHaveGovernment .. "[NEWLINE][NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ERA", GameInfo.Eras[reqEra].Description)
 		end
 	end
 
@@ -1494,11 +1130,6 @@ function Player.CanHaveGovernment(player, governmentID)
 			end
 		end
 	end
-	
-	if government.IsLimited then
-		canHaveGovernment = (currentGovernment.IsLimited)
-		canSeeGovernment  = (currentGovernment.IsLimited)
-	end
 
 	return canHaveGovernment, canSeeGovernment, strCanHaveGovernment
 end
@@ -1512,69 +1143,70 @@ function Player.SetHasGovernment(player, governmentID, isInit, isChanging, isCha
 	if Player.SetGovernment then
 		player:SetGovernment(governmentID)
 	else
-		JFD_RTP[playerID .. "_GOVERNMENT"] = governmentID
+		JFD_RTP_Sovereignty[playerID .. "_GOVERNMENT"] = governmentID
 	end
 	player:SetCanChangeGovernment(false)
 	
 	if player:IsMinorCiv() then return end
 	
-	local isLimited = government.IsLimited
-	local isSemiLimited = government.IsSemiLimited
-	if ((isChanging and (not isChangingFree)) or isInit) then
+	if isInit then
 		player:SetHasAllDefaultReforms(governmentID, true, false, false, true)
-	elseif isChangingFree and (isLimited or isSemiLimited) then
-		player:SetHasAllDefaultReforms(governmentID, true, isLimited, isSemiLimited, true)
 	end
 	
-	local numReformCooldown = player:CalculateReformCooldown()
-	if numReformCooldown ~= 0 then
-		player:SetCurrentReformCooldown(numReformCooldown)
-		if Player.SetReformCooldownRate then
-			player:SetReformCooldownRate(defineDefaultReformCooldownRate) 
-		end
-	end
-	if (not isAnarchyFree) then
+	if (not isAnarchyFree) and (not player:IsAnarchy()) then
 		local numAnarchyTurns = government.NumAnarchyTurnsFromChange
 		if isChanging and numAnarchyTurns > 0 then
 			player:ChangeAnarchyNumTurns(numAnarchyTurns)
+			if player:IsHuman() and player:IsTurnActive() then
+				Events.AudioPlay2DSound("AS2D_SOUND_JFD_ANARCHY");
+			end
 		end
+	end
+	if player:IsInRevolution() then
+		player:DoEndRevolution(true)
+	elseif player:IsAnarchy() then
+		player:SetAnarchyNumTurns(0)
 	end
 	player:UpdateCurrentSovereignty()
 	
 	if player:IsHuman() and player:IsTurnActive() then
 		local notificationDesc = government.NotificationDescription
 		local notificationShortDesc = government.NotificationShortDescription
-		if isChanging then
-			notificationDesc = notificationDesc .. "_CHANGE"
-			notificationShortDesc = notificationShortDesc .. "_CHANGE"
-			local oldGovernment = GameInfo.JFD_Governments[oldGovernmentID]
-			player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_ACTIVE_PLAYER", g_ConvertTextKey(notificationDesc, government.Description, oldGovernment.Description), g_ConvertTextKey(notificationShortDesc), false, nil, nil, governmentID)
-		else
-			player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_ACTIVE_PLAYER", g_ConvertTextKey(notificationDesc, government.Description), g_ConvertTextKey(notificationShortDesc), false, nil, nil, governmentID)
-		end
-		
-		local governmentSound = government.AudioEffect
-		if governmentID == governmentDictatorshipID then
-			Events.AudioPlay2DSound("AS2D_EVENT_NOTIFICATION_VERY_BAD");
-		elseif isChanging then
-			Events.AudioPlay2DSound("AS2D_EVENT_NOTIFICATION_BAD");
-		else
-			Events.AudioPlay2DSound("AS2D_EVENT_NOTIFICATION_VERY_GOOD");
-		end
-		if governmentSound then
-			Events.AudioPlay2DSound(governmentSound);
+		if notificationDesc then
+			if isChanging then
+				notificationDesc = notificationDesc .. "_CHANGE"
+				notificationShortDesc = notificationShortDesc .. "_CHANGE"
+				local oldGovernment = GameInfo.JFD_Governments[oldGovernmentID]
+				player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_ACTIVE_PLAYER", g_ConvertTextKey(notificationDesc, government.Description, oldGovernment.Description), g_ConvertTextKey(notificationShortDesc), false, nil, nil, governmentID)
+			else
+				player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_ACTIVE_PLAYER", g_ConvertTextKey(notificationDesc, government.Description), g_ConvertTextKey(notificationShortDesc), false, nil, nil, governmentID)
+			end
+			
+			local governmentSound = government.AudioEffect
+			if governmentID == governmentTotalitarianID then
+				Events.AudioPlay2DSound("AS2D_EVENT_NOTIFICATION_VERY_BAD");
+			elseif isChanging then
+				Events.AudioPlay2DSound("AS2D_EVENT_NOTIFICATION_BAD");
+			else
+				Events.AudioPlay2DSound("AS2D_EVENT_NOTIFICATION_VERY_GOOD");
+			end
+			if governmentSound then
+				Events.AudioPlay2DSound(governmentSound);
+			end
 		end
 
 		Events.OpenInfoCorner( InfoCornerID.Civilization );
 		LuaEvents.UI_UpdateCivilizationOverview()
 	else
 		local notificationWorldEvent = government.NotificationWorldEvent
-		if isChanging then
-			notificationWorldEvent = notificationWorldEvent .. "_CHANGE"
-			local oldGovernment = GameInfo.JFD_Governments[oldGovernmentID]
-			player:SendWorldEvent(g_ConvertTextKey(notificationWorldEvent, player:GetCivilizationShortDescriptionKey(), government.Description, oldGovernment.Description))	
-		else
-			player:SendWorldEvent(g_ConvertTextKey(notificationWorldEvent, player:GetCivilizationShortDescriptionKey(), government.Description))
+		if notificationWorldEvent then
+			if isChanging then
+				notificationWorldEvent = notificationWorldEvent .. "_CHANGE"
+				local oldGovernment = GameInfo.JFD_Governments[oldGovernmentID]
+				player:SendWorldEvent(g_ConvertTextKey(notificationWorldEvent, player:GetCivilizationShortDescriptionKey(), government.Description, oldGovernment.Description))	
+			else
+				player:SendWorldEvent(g_ConvertTextKey(notificationWorldEvent, player:GetCivilizationShortDescriptionKey(), government.Description))
+			end
 		end
 	end	
 
@@ -1595,8 +1227,8 @@ function Player.GetCurrentGovernment(player)
 	local playerID = player:GetID()
 	if Player and Player.GetGovernment then
 		return player:GetGovernment()
-	else
-		local currentGovernmentID = JFD_RTP[playerID .. "_GOVERNMENT"] or 0
+	elseif JFD_RTP_Sovereignty then
+		local currentGovernmentID = JFD_RTP_Sovereignty[playerID .. "_GOVERNMENT"] or 0
 		if currentGovernmentID == 0 then
 			if player:IsMinorCiv() then
 				currentGovernmentID = governmentPolisID
@@ -1605,6 +1237,8 @@ function Player.GetCurrentGovernment(player)
 			end
 		end
 		return currentGovernmentID 
+	else
+		return 0 
 	end
 end
 ----------------------------------------------------------------------------------------------------------------------------
@@ -1615,21 +1249,6 @@ function Player.IsHasGovernment(player, governmentID)
 	else
 		return (player:GetCurrentGovernment() > governmentTribeID)
 	end	
-end
-----------------------------------------------------------------------------------------------------------------------------
---Player:IsHasLimitedGovernment
-function Player.IsHasLimitedGovernment(player)
-	local currentGovernmentID = player:GetCurrentGovernment()
-	if currentGovernmentID then
-		return GameInfo.JFD_Governments[currentGovernmentID].IsLimited
-	else
-		return false
-	end
-end
-----------------------------------------------------------------------------------------------------------------------------
---Player:IsHasFullGovernment
-function Player.IsHasFullGovernment(player)
-	return (not player:IsHasLimitedGovernment())
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player_GetGovernmentPreference
@@ -1651,30 +1270,6 @@ function Player_GetGovernmentPreference(player, isRandom)
 					local flavour2 = player:GetFlavorValue(government.FlavorType2)
 					local weight = flavour1 + flavour2 + row.Weight
 					return governmentPrefID, weight
-				elseif governmentPrefID == govermentDictatorshipID or governmentPrefID == govermentShogunateID then
-					governmentPrefID = governmentRepublicID
-					if governmentPrefID and player:CanHaveGovernment(governmentPrefID) then
-						local flavour1 = player:GetFlavorValue(government.FlavorType1)
-						local flavour2 = player:GetFlavorValue(government.FlavorType2)
-						local weight = flavour1 + flavour2 + row.Weight
-						return governmentPrefID, weight
-					end
-				elseif (governmentPrefID == govermentHREID or governmentPrefID == govermentMandateID or governmentPrefID == govermentCaliphateID) then
-					governmentPrefID = governmentMonarchyID
-					if governmentPrefID and player:CanHaveGovernment(governmentPrefID) then
-						local flavour1 = player:GetFlavorValue(government.FlavorType1)
-						local flavour2 = player:GetFlavorValue(government.FlavorType2)
-						local weight = flavour1 + flavour2 + row.Weight
-						return governmentPrefID, weight
-					end
-				elseif governmentPrefID == govermentPapacyID then
-					governmentPrefID = governmentTheocracyID
-					if governmentPrefID and player:CanHaveGovernment(governmentPrefID) then
-						local flavour1 = player:GetFlavorValue(government.FlavorType1)
-						local flavour2 = player:GetFlavorValue(government.FlavorType2)
-						local weight = flavour1 + flavour2 + row.Weight
-						return governmentPrefID, weight
-					end
 				end
 			end
 		end
@@ -1688,7 +1283,7 @@ function Player_GetGovernmentPreference(player, isRandom)
 			local row = governmentsTable[index]
 			local governmentPrefID = row.ID
 			local government = GameInfo.JFD_Governments[governmentPrefID]
-			if government and (not government.IsHidden) and player:CanHaveGovernment(governmentPrefID) then
+			if government and player:CanHaveGovernment(governmentPrefID) then
 				local flavour1 = player:GetFlavorValue(government.FlavorType1)
 				local flavour2 = player:GetFlavorValue(government.FlavorType2)
 				local weight = flavour1 + flavour2 
@@ -1721,7 +1316,7 @@ function Player_GetGovernmentPreference(player, isRandom)
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:DoInitiateGovernmentChoice
-function Player.InitiateGovernmentChoice(player, governmentID, isFree)
+function Player.InitiateGovernmentChoice(player, governmentID, isFree, isFixedChoice)
 	local playerID = player:GetID()
 	local playerIsHuman = (player:IsHuman() and player:IsTurnActive())
 	if playerIsHuman then
@@ -1731,17 +1326,19 @@ function Player.InitiateGovernmentChoice(player, governmentID, isFree)
 		if (not governmentID) or (governmentID and currentGovernmentID ~= governmentID) then
 			local isInit = (currentGovernmentID == governmentTribeID)
 			local isChanging = player:IsHasGovernment()
-			if governmentID then
+			if governmentID and isFixedChoice then
 				player:SetHasGovernment(governmentID, isInit, isChanging, isFree)
 			else
 				local governmentPrefID, governmentPrefVal = Player_GetGovernmentPreference(player)
-				if player:CanHaveGovernment(governmentPrefID) then
-					if governmentPrefVal >= g_GetRandom(1,100) then
-						player:SetHasGovernment(governmentPrefID, isInit, isChanging, isFree)
-					else
-						local newGovernmentPrefID = Player_GetGovernmentPreference(player, true)
-						if newGovernmentPrefID then
-							player:SetHasGovernment(newGovernmentPrefID, isInit, isChanging, isFree)
+				if (governmentPrefID and governmentPrefID == governmentID) or (not governmentID) then
+					if player:CanHaveGovernment(governmentPrefID) then
+						if governmentPrefVal >= g_GetRandom(1,100) then
+							player:SetHasGovernment(governmentPrefID, isInit, isChanging, isFree)
+						else
+							local newGovernmentPrefID = Player_GetGovernmentPreference(player, true)
+							if newGovernmentPrefID then
+								player:SetHasGovernment(newGovernmentPrefID, isInit, isChanging, isFree)
+							end
 						end
 					end
 				end
@@ -1754,38 +1351,11 @@ end
 function Player.InitiateGovernmentChangeConsideration(player, currentGovernmentID, isReligious, isIdeological)
 	if (not player:IsHuman()) then
 		print(Game.GetGameTurn() .. " " .. player:GetName() .. " is considering changing Government!")
-
-		if currentGovernmentID ~= governmentDictatorshipID then
-			local hasChosenDictatorship = false
-			local numTenets = player:GetNumIdeologicalTenets()
-			if numTenets > 0 then
-				local chanceToChange = g_GetRound(100/numTenets)
-				if chanceToChange >= g_GetRandom(1,100) then
-					player:SetHasGovernment(governmentDictatorshipID, false, true)
-					hasChosenDictatorship = true
-				end
-			end
-
-			if (not hasChosenDictatorship) then
-				local prefGovernmentID = Player_GetGovernmentPreference(player)
-				if isReligious and prefGovernmentID ~= governmentTheocracyID then return end
-				if isIdeological and prefGovernmentID ~= governmentDictatorshipID then return end
-				
-				if prefGovernmentID and prefGovernmentID ~= currentGovernmentID then
-					player:SetHasGovernment(prefGovernmentID, false)
-				end
-
-				local chanceToChange = g_GetRandom(1,100)
-				if chanceToChange <= 25 then
-					local governmentToChangeID = governmentRepublicID
-					if currentGovernmentID == governmentRepublicID then
-						governmentToChangeID = governmentMonarchyID 
-					end
-					player:SetHasGovernment(governmentToChangeID, false, true)
-				end
-			end
-		else
-			player:ResetLegislature(governmentDictatorshipID, false)
+		local prefGovernmentID = Player_GetGovernmentPreference(player)
+		if isReligious and prefGovernmentID ~= governmentTheocracyID then return end
+		if isIdeological and prefGovernmentID ~= governmentTotalitarianID then return end
+		if prefGovernmentID and prefGovernmentID ~= currentGovernmentID then
+			player:SetHasGovernment(prefGovernmentID, false, true)
 		end
 	end
 end
@@ -1793,13 +1363,13 @@ end
 --Player:IsCanChangeGovernment
 function Player.IsCanChangeGovernment(player)
 	local playerID = player:GetID()
-	return JFD_RTP[playerID .. "_CHANGE_CHANGE_GOVT"].IsCanChange, JFD_RTP[playerID .. "_CHANGE_CHANGE_GOVT"].GovernmentID, JFD_RTP[playerID .. "_CHANGE_CHANGE_GOVT"].IsFree
+	return JFD_RTP_Sovereignty[playerID .. "_CHANGE_CHANGE_GOVT"].IsCanChange, JFD_RTP_Sovereignty[playerID .. "_CHANGE_CHANGE_GOVT"].GovernmentID, JFD_RTP_Sovereignty[playerID .. "_CHANGE_CHANGE_GOVT"].IsFree
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:SetCanChangeGovernment
 function Player.SetCanChangeGovernment(player, canChange, governmentID, isFree)
 	local playerID = player:GetID()
-	JFD_RTP[playerID .. "_CHANGE_CHANGE_GOVT"] = {}
+	JFD_RTP_Sovereignty[playerID .. "_CHANGE_CHANGE_GOVT"] = {}
 	if canChange then
 		if player:IsHuman() and player:IsTurnActive() then
 			Events.AudioPlay2DSound("AS2D_EVENT_NOTIFICATION_VERY_GOOD");	
@@ -1807,12 +1377,12 @@ function Player.SetCanChangeGovernment(player, canChange, governmentID, isFree)
 			LuaEvents.JFD_Sovereignty_UI_BlockEndTurnButton(true, playerID)
 		end
 		
-		JFD_RTP[playerID .. "_CHANGE_CHANGE_GOVT"].IsCanChange = canChange
+		JFD_RTP_Sovereignty[playerID .. "_CHANGE_CHANGE_GOVT"].IsCanChange = canChange
 		if governmentID then
-			JFD_RTP[playerID .. "_CHANGE_CHANGE_GOVT"].GovernmentID = governmentID
+			JFD_RTP_Sovereignty[playerID .. "_CHANGE_CHANGE_GOVT"].GovernmentID = governmentID
 		end
 		if isFree then
-			JFD_RTP[playerID .. "_CHANGE_CHANGE_GOVT"].IsFree = true
+			JFD_RTP_Sovereignty[playerID .. "_CHANGE_CHANGE_GOVT"].IsFree = true
 		end
 	else
 		LuaEvents.JFD_Sovereignty_UI_BlockEndTurnButton(false, playerID)
@@ -2458,6 +2028,12 @@ function Player.GetStateTitle(player, governmentID, includeFullTitle)
 					end
 				end
 				
+				--Faction
+				local factionID = GameInfoTypes[row.FactionType]
+				if factionID and player:GetDominantFaction() ~= factionID then
+					isTitleMet = false
+				end
+				
 				--Anti-Pope
 				if row.IsAntiPope then
 					if (not Game.AnyoneHasGovernment(governmentPapacyID)) then
@@ -2666,8 +2242,15 @@ function Player.GetStateTitle(player, governmentID, includeFullTitle)
 					if row.UseCapital then
 						civName = playerCapital:GetName()
 					end
-	
-					strStateTitle = g_ConvertTextKey(strSpecialStateTitle)
+					
+					if row.UseAdjectiveInLocalization then
+						local civAdj = player:GetCivilizationAdjective()
+						strStateTitle = g_ConvertTextKey(strSpecialStateTitle, civAdj)
+					elseif row.UseCapitalInLocalization then
+						strStateTitle = g_ConvertTextKey(strSpecialStateTitle, playerCapital:GetName())
+					else
+						strStateTitle = g_ConvertTextKey(strSpecialStateTitle)
+					end
 				end
 			else
 				isTitleMet = false
@@ -2693,7 +2276,7 @@ function Player.GetStateTitle(player, governmentID, includeFullTitle)
 				end
 			end
 		end
-
+		
 		return strStateTitle, strStateTitleText
 	end
 end
@@ -2731,12 +2314,10 @@ function Player.GetGovernmentName(player, governmentID)
 	local government = GameInfo.JFD_Governments[governmentID]
 	local governmentType = government.Type
 	local currentEraID = player:GetCurrentEra()
-	local strGovernmentName = g_ConvertTextKey(government.Description)
+	local strGovernmentName = ""
 	
-	if player:IsAnarchy() then
-		return g_ConvertTextKey("TXT_KEY_GOVERNMENT_JFD_ANARCHY_DESC")
-	elseif government.IsUnique then
-		return strGovernmentName
+	if government.IsUnique then
+		return g_ConvertTextKey(government.Description)
 	end
 	 
 	--g_JFD_Government_Names_Table
@@ -2750,6 +2331,10 @@ function Player.GetGovernmentName(player, governmentID)
 		local reqGovernmentID = GameInfoTypes[reqGovernment]
 		if ((reqGovernment and governmentID == reqGovernmentID) or (not reqGovernment)) then
 		
+			if row.IsAnarchy and (not player:IsAnarchy()) then
+				isNameValid = false
+			end
+			
 			local reqEra = row.EraType
 			if reqEra then
 				local reqEraID = GameInfoTypes[reqGovernment]
@@ -2796,6 +2381,30 @@ function Player.GetGovernmentName(player, governmentID)
 				end
 			end
 			
+			local reqReligion = row.ReligionType
+			if reqReligion then
+				local reqReligionID = GameInfoTypes[reqReligion]
+				if reqReligionID then
+					if player:GetMainReligion() ~= reqReligionID then
+						isNameValid = false
+					end
+				else
+					isNameValid = false
+				end
+			end
+			
+			local reqFaction = row.FactionType
+			if reqFaction then
+				local reqFactionID = GameInfoTypes[reqFaction]
+				if reqFactionID then
+					if player:GetDominantFaction() ~= reqFactionID then
+						isNameValid = false
+					end
+				else
+					isNameValid = false
+				end
+			end
+				
 			local reqPolicy = row.PolicyType
 			if reqPolicy then
 				local reqPolicyID = GameInfoTypes[reqPolicy]
@@ -2822,6 +2431,7 @@ function Player.GetGovernmentName(player, governmentID)
 		end
 		
 		if isNameValid then
+			strGovernmentName = g_ConvertTextKey(row.Name)
 			if row.UseReligionAdj then
 				local mainReligionID = player:GetMainReligion()
 				if mainReligionID > -1 then
@@ -2830,8 +2440,14 @@ function Player.GetGovernmentName(player, governmentID)
 						strGovernmentName = g_ConvertTextKey(row.Name, religionAdj) .. " " .. strGovernmentName
 					end
 				end
-			else
-				strGovernmentName = g_ConvertTextKey(row.Name) .. " " .. strGovernmentName
+			end
+			
+			if (not row.IsFullGovName) then
+				if row.IsAfterGovName then  
+					strGovernmentName = g_ConvertTextKey(government.Description)  .. " " .. g_ConvertTextKey(row.Name)
+				else
+					strGovernmentName = g_ConvertTextKey(row.Name)  .. " " .. g_ConvertTextKey(government.Description)
+				end
 			end	
 		end	
 	end
@@ -2895,7 +2511,7 @@ end
 --Player:GetDominantFaction
 function Player.GetDominantFaction(player, returnsTT)
 	local factionID = -1
-	local factionPower = 0
+	local factionPower = -1
 
 	--g_JFD_Factions_Table
 	local factionsTable = g_JFD_Factions_Table
@@ -2920,6 +2536,8 @@ function Player.GetDominantFaction(player, returnsTT)
 			if strFactionSovMod then
 				strDominantFactionTT = strDominantFactionTT .. strFactionSovMod
 			end
+		else
+			strDominantFactionTT = g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_DOMINANT_FACTION_NONE_TT")
 		end
 	end
 
@@ -2932,7 +2550,7 @@ function Player.GetFactionPower(player, factionID)
 		return player:GetPoliticPercent(factionID)
 	else
 		local playerID = player:GetID()
-		return JFD_RTP[playerID .. "_" .. factionID .. "_POWER"] or 0
+		return JFD_RTP_Sovereignty[playerID .. "_" .. factionID .. "_POWER"] or -1
 	end	
 end
 ----------------------------------------------------------------------------------------------------------------------------
@@ -2942,7 +2560,7 @@ function Player.SetFactionPower(player, factionID, setVal)
 		return player:SetPoliticPercent(factionID, setVal)
 	else
 		local playerID = player:GetID()
-		JFD_RTP[playerID .. "_" .. factionID .. "_POWER"] = setVal
+		JFD_RTP_Sovereignty[playerID .. "_" .. factionID .. "_POWER"] = setVal
 	end	
 end
 ----------------------------------------------------------------------------------------------------------------------------
@@ -2960,10 +2578,11 @@ function Player.GetIntendedFactionName(player, factionID, governmentID, otherPla
 	local civAdj = player:GetCivilizationAdjective()
 	local civShortDesc = player:GetCivilizationShortDescription()
 	
-	if governmentID == governmentDictatorshipID then
-		local factionRevolutionariesName = player:GetFactionName(factionRevolutionariesID)
-		if factionRevolutionariesName ~= factionRevolutionariesDesc then
-			return factionRevolutionariesName 
+	local dominantFactionID = player:GetDominantFaction() 
+	if dominantFactionID == factionID then	
+		if g_GetRandom(1,100) <= 75 then
+			local factionName = player:GetFactionName(dominantFactionID)
+			return factionName 
 		end
 	end
 	
@@ -3122,7 +2741,7 @@ function Player.GetIntendedFactionName(player, factionID, governmentID, otherPla
 					end
 					
 					if (not row.NoGroup) then
-						local groupDesc = "TXT_KEY_JFD_FACTION_GROUP_" .. g_GetRandom(1,32)
+						local groupDesc = "TXT_KEY_JFD_FACTION_GROUP_" .. g_GetRandom(1,35)
 						strName = strName .. " " .. g_ConvertTextKey(groupDesc)
 					end
 					
@@ -3144,7 +2763,7 @@ function Player.GetIntendedFactionName(player, factionID, governmentID, otherPla
 							if (not row.NoPrefixOrSuffix) then
 								local prefixChance = g_GetRandom(1,100)
 								if prefixChance <= 20 then
-									local prefixDesc = "TXT_KEY_JFD_FACTION_PREFIX_" .. g_GetRandom(1,20)
+									local prefixDesc = "TXT_KEY_JFD_FACTION_PREFIX_" .. g_GetRandom(1,18)
 									strName = g_ConvertTextKey(prefixDesc) .. " " .. strName
 								end
 							end
@@ -3170,14 +2789,14 @@ function Player.GetFactionName(player, factionID)
 	local playerID = player:GetID()
 	local faction = GameInfo.JFD_Factions[factionID]
 	local factionType = faction.Type
-	return JFD_RTP[playerID .. "_" .. factionType .. "_NAME"] or g_ConvertTextKey(faction.Description)
+	return JFD_RTP_Sovereignty[playerID .. "_" .. factionType .. "_NAME"] or g_ConvertTextKey(faction.Description)
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:SetFactionName
 function Player.SetFactionName(player, factionID, strName)
 	local playerID = player:GetID()
 	local factionType = GameInfo.JFD_Factions[factionID].Type
-	JFD_RTP[playerID .. "_" .. factionType .. "_NAME"] = strName
+	JFD_RTP_Sovereignty[playerID .. "_" .. factionType .. "_NAME"] = strName
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:GetFactionCivType
@@ -3185,78 +2804,14 @@ function Player.GetFactionCivType(player, factionID)
 	local playerID = player:GetID()
 	local faction = GameInfo.JFD_Factions[factionID]
 	local factionType = faction.Type
-	return JFD_RTP[playerID .. "_" .. factionType .. "_CIV_TYPE"] or -1
+	return JFD_RTP_Sovereignty[playerID .. "_" .. factionType .. "_CIV_TYPE"] or -1
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:SetFactionCivType
 function Player.SetFactionCivType(player, factionID, civID)
 	local playerID = player:GetID()
 	local factionType = GameInfo.JFD_Factions[factionID].Type
-	JFD_RTP[playerID .. "_" .. factionType .. "_CIV_TYPE"] = civID
-end
-----------------------------------------------------------------------------------------------------------------------------
---Game_GetFactionSupportTT
-function Game_GetFactionSupportTT(factionID)
-	local faction = GameInfo.JFD_Factions[factionID]
-	local factionType = faction.Type
-	local strSupport
-	
-	--g_JFD_Faction_FavouredReforms_ReformTypes_Table
-	local factionsTable = g_JFD_Faction_FavouredReforms_ReformTypes_Table
-	local numFactions = #factionsTable
-	for index = 1, numFactions do
-		local row = factionsTable[index]
-		if row.FactionType == factionType then
-			local reformType = row.ReformType
-			if reformType then
-				local reform = GameInfo.JFD_Reforms[reformType]
-				local reformBranch = GameInfo.JFD_ReformBranches[reform.ReformBranchType]
-				if (not strSupport) then
-					strSupport = g_ConvertTextKey("TXT_KEY_JFD_FACTION_OPINION_REFORMS", reform.ReformSubBranchDescription, reform.ShortDescription, reformBranch.ShortDescription)
-				else
-					strSupport = strSupport .. "[NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_OPINION_REFORMS", reform.ReformSubBranchDescription, reform.ShortDescription, reformBranch.ShortDescription)
-				end
-			end
-		end
-	end
-	
-	if strSupport then
-		strSupport = g_ConvertTextKey("TXT_KEY_JFD_FACTION_FAVOURED") .. "[NEWLINE]"  .. strSupport
-	end
-	
-	return strSupport
-end
-----------------------------------------------------------------------------------------------------------------------------
---Game_GetFactionOppositionTT
-function Game_GetFactionOppositionTT(factionID)
-	local faction = GameInfo.JFD_Factions[factionID]
-	local factionType = faction.Type
-	local strOpposition
-	
-	--g_JFD_Faction_OpposedReforms_ReformTypes_Table
-	-- local factionsTable = g_JFD_Faction_OpposedReforms_ReformTypes_Table
-	-- local numFactions = #factionsTable
-	-- for index = 1, numFactions do
-		-- local row = factionsTable[index]
-		-- if row.FactionType == factionType then
-			-- local reformType = row.ReformType
-			-- if reformType then
-				-- local reform = GameInfo.JFD_Reforms[reformType]
-				-- local reformBranch = GameInfo.JFD_ReformBranches[reform.ReformBranchType]
-				-- if (not strOpposition) then
-					-- strOpposition = g_ConvertTextKey("TXT_KEY_JFD_FACTION_OPINION_REFORMS", reform.ReformSubBranchDescription, reform.ShortDescription, reformBranch.ShortDescription)
-				-- else
-					-- strOpposition = strOpposition .. "[NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_OPINION_REFORMS_OPPOSED", reform.ReformSubBranchDescription, reform.ShortDescription, reformBranch.ShortDescription)
-				-- end
-			-- end
-		-- end
-	-- end
-	
-	-- if strOpposition then
-	strOpposition = g_ConvertTextKey("TXT_KEY_JFD_FACTION_OPPOSED") .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_OPINION_REFORMS_OPPOSED")
-	-- end
-	
-	return strOpposition
+	JFD_RTP_Sovereignty[playerID .. "_" .. factionType .. "_CIV_TYPE"] = civID
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:GetFactionHelp
@@ -3365,44 +2920,15 @@ for row in DB.Query("SELECT * FROM JFD_Faction_Criteria;") do
 	g_JFD_Faction_Criteria_Count = g_JFD_Faction_Criteria_Count + 1
 end
 
---g_JFD_Faction_CriteriaPartyYields_Table
-local g_JFD_Faction_CriteriaPartyYields_Table = {}
-local g_JFD_Faction_CriteriaPartyYields_Count = 1
-for row in DB.Query("SELECT * FROM JFD_Faction_CriteriaPartyYields;") do 	
-	g_JFD_Faction_CriteriaPartyYields_Table[g_JFD_Faction_CriteriaPartyYields_Count] = row
-	g_JFD_Faction_CriteriaPartyYields_Count = g_JFD_Faction_CriteriaPartyYields_Count + 1
-end
-
---g_Building_DomainFreeExperiences_Table
-local g_Building_DomainFreeExperiences_Table = {}
-local g_Building_DomainFreeExperiences_Count = 1
-for row in DB.Query("SELECT * FROM Building_DomainFreeExperiences WHERE DomainType = 'DOMAIN_LAND';") do 	
-	g_Building_DomainFreeExperiences_Table[g_Building_DomainFreeExperiences_Count] = row
-	g_Building_DomainFreeExperiences_Count = g_Building_DomainFreeExperiences_Count + 1
-end
-
---g_Belief_BuildingClassFaithPurchase_Table
-local g_Belief_BuildingClassFaithPurchase_Table = {}
-local g_Belief_BuildingClassFaithPurchase_Count = 1
-for row in DB.Query("SELECT * FROM Belief_BuildingClassFaithPurchase WHERE BuildingClassType IN (SELECT Type FROM BuildingClasses WHERE DefaultBuilding IN (SELECT Type FROM Buildings WHERE FaithCost > 0 AND Cost <= 0));") do 	
-	g_Belief_BuildingClassFaithPurchase_Table[g_Belief_BuildingClassFaithPurchase_Count] = row
-	g_Belief_BuildingClassFaithPurchase_Count = g_Belief_BuildingClassFaithPurchase_Count + 1
-end
-
 --Player:ComposeNewLegislature
-local domainAirID = GameInfoTypes["DOMAIN_AIR"]
-local domainLandID = GameInfoTypes["DOMAIN_LAND"]
-local domainSeaID = GameInfoTypes["DOMAIN_SEA"]
-local unitClassGreatAdmiralID = GameInfoTypes["UNITCLASS_GREAT_ADMIRAL"]
-local unitClassGreatGeneralID = GameInfoTypes["UNITCLASS_GREAT_GENERAL"]
-local yieldFoodID = GameInfoTypes["YIELD_FOOD"]
-local yieldGoldenAgePointsID = GameInfoTypes["YIELD_GOLDEN_AGE_POINTS"]
+local yieldFaithID = GameInfoTypes["YIELD_FAITH"]
 function Player.ComposeNewLegislature(player, governmentID)
 	if (not player:IsAlive()) then return end
 	local playerID = player:GetID()
 	local playerIsHuman = (player:IsHuman() and player:IsTurnActive())
 	local playerTeam = Teams[player:GetTeam()]
 	local playerCapital = player:GetCapitalCity()
+	local playerIsGoldenAge = player:IsGoldenAge()
 	
 	-- print("Compose new Legislature", debug.traceback())
 	
@@ -3413,11 +2939,8 @@ function Player.ComposeNewLegislature(player, governmentID)
 	local numCapitalPopulation = playerCapital:GetPopulation()
 	local numTotal = 0
 	local numCityTotal = 0
-	local strNewFactionCityResult = {}
-	local strNewFactionNationalResult = {}
 	
 	local newFactionTable = {}
-	local revFactionTable = {}
 	
 	--g_JFD_Factions_Table
 	local factionsTable = g_JFD_Factions_Table
@@ -3426,16 +2949,7 @@ function Player.ComposeNewLegislature(player, governmentID)
 		local row = factionsTable[index]
 		local thisFactionID = row.ID
 		player:SetFactionPower(thisFactionID, 0)
-		newFactionTable[thisFactionID] = {FactionID = thisFactionID, Power = 0, CityList = {}}
-	end
-	--g_JFD_FactionsRevolutionaries_Table
-	local factionsTable = g_JFD_FactionsRevolutionaries_Table
-	local numFactions = #factionsTable
-	for index = 1, numFactions do
-		local row = factionsTable[index]
-		local thisFactionID = row.ID
-		player:SetFactionPower(thisFactionID, 0)
-		revFactionTable[thisFactionID] = {FactionID = thisFactionID, Power = 0, CityList = {}}
+		newFactionTable[thisFactionID] = {FactionID = thisFactionID, Power = 0}
 	end
 	
 	--FACTIONS
@@ -3457,26 +2971,400 @@ function Player.ComposeNewLegislature(player, governmentID)
 				local factionType = row2.FactionType
 				local factionID = GameInfoTypes[factionType]
 				if factionID == thisFactionID then
-					if row2.IsDictatorship then
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + 1
-						numTotal = numTotal + 1
+					
+					if row2.IsTotalControlActiveWar then
+						if playerTeam:GetAtWarCount(true) > 0 then
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + 1
+							numTotal = numTotal + 1
+						else
+							local numPower = g_GetRandom(1,100)
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numPower
+							numTotal = numTotal + numPower
+						end
 					end
 					
-					if row2.IsOtherCivHighestYield then
+					if row2.IsTotalControlIdeologyType then
+						local ideologyID = GameInfoTypes[row2.IsTotalControlIdeologyType]
+						if ideologyID == player:GetIdeology() then
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + 100
+							newFactionTable[thisFactionID].PowerIsTotal = (newFactionTable[thisFactionID].Power or -1) + 1
+							numTotal = numTotal + 1
+						else
+							local numPower = g_GetRandom(1,100)
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numPower
+							numTotal = numTotal + numPower
+						end
+					end
+					
+					if row2.IsTotalControlMajorityReligion then
+						local religionID = player:GetMainReligion()
+						if player:HasReligionInMostCities(religionID) then
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + 1
+							numTotal = numTotal + 1
+						else
+							local numPower = g_GetRandom(1,100)
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numPower
+							numTotal = numTotal + numPower
+						end
+					end
+					
+					if row2.IsNumCities then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numCities = (player:GetNumCities()*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numCities
+						numTotal = numTotal + numCities
+					end
+					
+					if row2.IsNumConnectedCities then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numCities = 0
+						for city in player:Cities() do
+							if player:IsCapitalConnectedToCity(city) then
+								numCities = numCities + 1
+							end
+						end
+						numCities = (numCities*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numCities
+						numTotal = numTotal + numCities
+					end
+					
+					if row2.IsNumSpecialists then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numSpecialists = (player:GetTotalSpecialistCount()*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numSpecialists
+						numTotal = numTotal + numSpecialists
+					end
+					
+					if row2.IsNumReligiousBuildings then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numReligiousBuildings = 0 
+						for building in GameInfo.Buildings("FaithCost > 0 AND Cost == -1 AND UnlockedByBelief = 1") do
+							numReligiousBuildings = numReligiousBuildings + player:CountNumBuildings(building.ID)
+						end
+						numReligiousBuildings = (numReligiousBuildings*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numReligiousBuildings
+						numTotal = numTotal + numReligiousBuildings
+					end
+					
+					if row2.IsNumStarvingUnemployed then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numStarvingUnemployed = 0
+						for city in player:Cities() do
+							if city:FoodDifference() < 0 then
+								numStarvingUnemployed = numStarvingUnemployed + city:GetPopulation()
+							end
+							numStarvingUnemployed = numStarvingUnemployed + city:GetSpecialistCount(0)
+						end
+						numStarvingUnemployed = (numStarvingUnemployed*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numStarvingUnemployed
+						numTotal = numTotal + numStarvingUnemployed
+					end
+					
+					if row2.IsNumBuildings then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numBuildings = 0
+						for city in player:Cities() do
+							numBuildings = numBuildings + city:GetNumBuildings()
+						end
+						numBuildings = (numBuildings*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numBuildings
+						numTotal = numTotal + numBuildings
+					end
+					
+					if row2.IsNumImprovements then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numImprovements = 0
+						for row in GameInfo.Improvements() do
+							numImprovements = numImprovements + player:GetImprovementCount(row.ID)
+						end
+						numImprovements = (numImprovements*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numImprovements
+						numTotal = numTotal + numImprovements
+					end
+					
+					if row2.IsNumTiles then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numTiles = 1
+						for city in player:Cities() do
+							for i = 0, city:GetNumCityPlots() - 1, 1 do
+								local plot = city:GetCityIndexPlot( i );
+								if (plot ~= nil) then	
+									if plot:GetOwner() == playerID then
+										if (not city:IsWorkingPlot(plot)) then
+											numTiles = numTiles + 1
+										end
+									end
+								end
+							end
+						end
+						numTiles = (numTiles*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numTiles
+						numTotal = numTotal + numTiles
+					end
+					
+					if row2.IsNumCapitalPopulation then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numCapPopulation = (numCapitalPopulation*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numCapPopulation
+						numTotal = numTotal + numCapPopulation
+					end
+					
+					if row2.IsNumCapitalPopulationDoubled then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numCapPopulation = ((numCapitalPopulation*2)*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numCapPopulation
+						numTotal = numTotal + numCapPopulation
+					end
+					
+					if row2.IsNumOtherCityPopulation then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numOtherPopulation = (((player:GetTotalPopulation()-numCapitalPopulation)+1)*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numOtherPopulation
+						numTotal = numTotal + numOtherPopulation
+					end
+					
+					if row2.IsNumPolicyBranchType  then
+						local policyBranchType = row2.IsNumPolicyBranchType 
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numPolicyBranchType = ((player:GetNumPoliciesUnlockedInBranch(policyBranchType)+1)*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numPolicyBranchType
+						numTotal = numTotal + numPolicyBranchType
+					end
+					
+					if row2.IsNumBuildingClass then
+						local buildingClassType = row2.IsNumBuildingClass
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local buildingClassID = GameInfoTypes[buildingClassType]
+						local numBuilding = ((player:GetBuildingClassCountPlusMaking(buildingClassID)+1)*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numBuilding
+						numTotal = numTotal + numBuilding
+					end
+					
+					if row2.IsNumUnitClass then
+						local unitClassType = row2.IsNumUnitClass
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local unitClassID = GameInfoTypes[unitClassType]
+						local numUnit = ((player:GetUnitClassCount(unitClassID)+1)*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numUnit
+						numTotal = numTotal + numUnit
+					end
+					
+					if row2.IsNumUnitCombatType then
+						local unitCombatType = row2.IsNumUnitCombatType
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numUnitCombat = ((player:GetNumUnitCombatType(GameInfoTypes[unitCombatType])+1)*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numUnitCombat
+						numTotal = numTotal + numUnitCombat
+					end
+					
+					local numImprovementType = row2.IsNumImprovementType
+					if numImprovementType then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numImprovements = ((player:GetImprovementCount(GameInfoTypes[numImprovementType])+1)*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numImprovements
+						numTotal = numTotal + numImprovements
+					end
+					
+					local numResourceType = row2.IsNumResourceType
+					if numResourceType then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numImprovements = ((player:GetNumResourceTotal(GameInfoTypes[numResourceType],false)+1)*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numImprovements
+						numTotal = numTotal + numImprovements
+					end
+					
+					if row2.IsNumFaithFromTerrain then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numFaith = 1
+						for city in player:Cities() do
+							numFaith = numFaith + city:GetBaseYieldRateFromTerrain(yieldFaithID)
+						end
+						numFaith = (numFaith*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numFaith
+						numTotal = numTotal + numFaith
+					end
+					
+					if row2.IsNumPopulationPuppet then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numPuppets = 1
+						for city in player:Cities() do
+							if city:IsPuppet() then
+								numPuppets = numPuppets + city:GetPopulation()
+							end
+						end
+						numPuppets = (numPuppets*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numPuppets
+						numTotal = numTotal + numPuppets
+					end
+					
+					if row2.IsNumPopulationNonPuppet then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numPuppets = 1
+						for city in player:Cities() do
+							if (not city:IsPuppet()) then
+								numPuppets = numPuppets + city:GetPopulation()
+							end
+						end
+						numPuppets = (numPuppets*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numPuppets
+						numTotal = numTotal + numPuppets
+					end
+					
+					if row2.IsNumPuppetCities then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numPuppets = 1
+						if Player.GetNumPuppetCities then
+							numPuppets = player:GetNumPuppetCities()
+						else
+							for city in player:Cities() do
+								if city:IsPuppet() then
+									numPuppets = numPuppets + 1
+								end
+							end
+						end
+						numPuppets = (numPuppets*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numPuppets
+						numTotal = numTotal + numPuppets
+					end
+					
+					if row2.IsNumNonPuppetCities then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numPuppets = 1
+						if Player.GetNumPuppetCities then
+							numPuppets = player:GetNumPuppetCities()
+						else
+							for city in player:Cities() do
+								if city:IsPuppet() then
+									numPuppets = numPuppets + 1
+								end
+							end
+						end
+						local numNonPuppets = (player:GetNumCities()-numPuppets)
+						numNonPuppets = (numNonPuppets*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numNonPuppets
+						numTotal = numTotal + numNonPuppets
+					end
+					
+					if row2.IsNumConqueredCities then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numConquered = 1
+						for city in player:Cities() do
+							if city:GetOriginalOwner() ~= playerID then
+								numConquered = numConquered + 1
+							end
+						end
+						numConquered = (numConquered*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numConquered
+						numTotal = numTotal + numConquered
+					end
+					
+					if row2.IsNumSettledCities then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numSettled = 1
+						for city in player:Cities() do
+							if city:GetOriginalOwner() == playerID then
+								numSettled = numSettled + 1
+							end
+						end
+						numSettled = (numSettled*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numSettled
+						numTotal = numTotal + numSettled
+					end
+					
+					if row2.IsNumCitiesGarrisoned then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numGarrisoned = 1
+						for city in player:Cities() do
+							if city:GetGarrisonedUnit() then
+								numGarrisoned = numGarrisoned + 1
+							end
+						end
+						numGarrisoned = (numGarrisoned*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numGarrisoned
+						numTotal = numTotal + numGarrisoned
+					end
+					
+					if row2.IsNumCitiesNotGarrisoned then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numNotGarrisoned = 1
+						for city in player:Cities() do
+							if (not city:GetGarrisonedUnit()) then
+								numNotGarrisoned = numNotGarrisoned + 1
+							end
+						end
+						numNotGarrisoned = (numNotGarrisoned*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numNotGarrisoned
+						numTotal = numTotal + numNotGarrisoned
+					end
+					
+					if row2.IsNumCapitalStrength then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numCapitalStrength = ((g_MathFloor(playerCapital:GetStrengthValue()/100))*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numCapitalStrength
+						numTotal = numTotal + numCapitalStrength
+					end
+					
+					if row2.IsNumOtherCityStrength then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numOtherCityStrength = 1
+						for city in player:Cities() do
+							if (not city:IsCapital()) then
+								numOtherCityStrength = numOtherCityStrength + g_MathFloor(city:GetStrengthValue()/100)
+							end
+						end
+						numOtherCityStrength = (numOtherCityStrength*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numOtherCityStrength
+						numTotal = numTotal + numOtherCityStrength
+					end
+					
+					if row2.IsNumPapalFaith then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numPapalFaith = ((player:GetTotalFaithPerTurn()+1)*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numPapalFaith
+						numTotal = numTotal + numPapalFaith
+					end
+					
+					if row2.IsNumPapalHighestFollowerFaith then
 						local playerPopeID, playerPopeReligionID = Game_GetPapacyFounder()
 						local playerFollowerID = -1
 						local playerNumYield = 0
+						local playerYieldType = row2.IsNumPapalHighestFollowerFaith
 						for otherPlayerID = 0, defineMaxMajorCivs - 1 do
 							local otherPlayer = Players[otherPlayerID]
-							if otherPlayer:IsAlive() and playerTeam:IsHasMet(otherPlayer:GetTeam()) and otherPlayer:GetCapitalCity() then
+							if otherPlayer:IsAlive() and playerTeam:IsHasMet(otherPlayer:GetTeam()) then
 								local religionID = otherPlayer:GetMainReligion()
 								if religionID == playerPopeReligionID then
-									local highestYieldType = row2.IsOtherCivHighestYieldType
-									local highestYieldID = GameInfoTypes[highestYieldType]
+									local highestYieldID = GameInfoTypes[playerYieldType]
 									local thisPlayerNumYield = otherPlayer:CalculateTotalYield(highestYieldID)
-									if highestYieldType == "YIELD_CULTURE" then
-										thisPlayerNumYield = otherPlayer:GetTotalJONSCulturePerTurn()
-									end
 									if thisPlayerNumYield > playerNumYield then
 										playerFollowerID = otherPlayerID
 										playerNumYield = thisPlayerNumYield
@@ -3485,86 +3373,106 @@ function Player.ComposeNewLegislature(player, governmentID)
 							end
 						end
 						if playerFollowerID > -1 then
+							local numRandomWeight = row2.RandomWeight
+							local numRandomResult = g_GetRandom(1,numRandomWeight)
 							local playerFollower = Players[playerFollowerID]
-							local numYield = playerFollower:GetTotalFaithPerTurn()
-							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numYield
+							local numFaith = (playerFollower:GetTotalFaithPerTurn()*numRandomResult)
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numFaith
 							newFactionTable[thisFactionID].PlayerID = playerFollowerID
-							numTotal = numTotal + numYield
+							numTotal = numTotal + numFaith
 						end
 					end
 					
-					local otherFaction = row2.IsOtherFactionPower
-					if otherFaction then
+					if row2.IsOtherFactionPower then
+						local otherFactionType = row2.IsOtherFactionPower
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
 						local playerPopeID = Game_GetPapacyFounder()
-						local otherFactionID = GameInfoTypes[otherFaction]
-						local numPower = Players[playerPopeID]:GetFactionPower(otherFactionID)
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numPower
-						numTotal = numTotal + numPower
+						local otherFactionID = GameInfoTypes[otherFactionType]
+						local numFactionPower = (Players[playerPopeID]:GetFactionPower(otherFactionID)*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numFactionPower
+						numTotal = numTotal + numFactionPower
 					end
 					
-					if row2.IsNumCapitalPopulation then
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numCapitalPopulation
-						numTotal = numTotal + numCapitalPopulation
+					if row2.IsNumCivilianUnits then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numCivilianUnits = 1
+						for unit in player:Units() do
+							if ((not unit:IsCombatUnit()) and (not unit:IsTrade()) and unit:GetReligion() <= 0) then
+								numCivilianUnits = numCivilianUnits + 1
+							end
+						end
+						numCivilianUnits = (numCivilianUnits*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numCivilianUnits
+						numTotal = numTotal + numCivilianUnits
 					end
 					
-					if row2.IsNumActiveTradeRoutes then
-						local numTradeRoutes = (#player:GetTradeRoutes()*numCapitalPopulation)
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numTradeRoutes
+					if row2.IsNumReligiousUnits then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numReligiousUnits = 1
+						for unit in player:Units() do
+							if unit:GetReligion() > 0 then
+								numReligiousUnits = numReligiousUnits + 1
+							end
+						end
+						numReligiousUnits = (numReligiousUnits*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numReligiousUnits
+						numTotal = numTotal + numReligiousUnits
+					end
+					
+					if row2.IsNumTradeUnits then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numTradeUnits = 1
+						for unit in player:Units() do
+							if unit:IsTrade() then
+								numTradeUnits = numTradeUnits + 1
+							end
+						end
+						numTradeUnits = (numTradeUnits*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numTradeUnits
+						numTotal = numTotal + numTradeUnits
+					end
+					
+					if row2.IsNumNonCityStateTradeRoute then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numTradeRoutes = 1
+						for _,tradeRoute in ipairs(player:GetTradeRoutes()) do
+							local toPlayer = Players[tradeRoute.ToID]
+							if (not toPlayer:IsMinorCiv()) then
+								numTradeRoutes = numTradeRoutes + 1
+							end
+						end
+						numTradeRoutes = (numTradeRoutes*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numTradeRoutes
 						numTotal = numTotal + numTradeRoutes
 					end
 					
-					if row2.IsNumActiveWars then
-						local numWars = (playerTeam:GetAtWarCount()*numCapitalPopulation)
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numWars
-						numTotal = numTotal + numWars
-					end
-					
-					if row2.IsNumCityStateFriends then
-						local numFriends = (player:GetNumCityStatePartners()*numCapitalPopulation)
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numFriends
-						numTotal = numTotal + numFriends
-					end
-					
-					local numBuildingType = row2.IsNumBuildingType
-					if numBuildingType then
-						local buildingClassID = GameInfoTypes[numBuildingType]
-						local numBuilding = (player:GetBuildingClassCountPlusMaking(buildingClassID)*numCapitalPopulation)
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numBuilding
-						numTotal = numTotal + numBuilding
-					end
-					
-					if row2.IsNumReligiousFollowers then
-						local religionID = player:GetMainReligion()
-						local numFollowers, numNotFollowers, numNoneFollowers = player:GetNumTotalFollowers(religionID)
-					
-						if row2.IsNumOwnReligiousFollowers then
-							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numFollowers
-							numTotal = numTotal + numFollowers
-						end
-					
-						if row2.IsNumOtherReligiousFollowers then
-							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numNotFollowers
-							numTotal = numTotal + numNotFollowers
-						end
-						
-						if row2.IsNumNonReligiousFollowers then
-							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numNoneFollowers
-							numTotal = numTotal + numNoneFollowers
-						end
-					end
-					
-					if row2.IsNumCombatUnits then
-						local numUnits = 0
-						for unit in player:Units() do
-							if unit:IsCombatUnit() then
-								numUnits = numUnits + unit:GetLevel()
+					if row2.IsNumCityStateTradeRoute then
+						local minorCivTraitType = row2.IsNumCityStateTradeRoute
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numTradeRoutes = 1
+						for _,tradeRoute in ipairs(player:GetTradeRoutes()) do
+							local toPlayer = Players[tradeRoute.ToID]
+							if toPlayer:IsMinorCiv() then
+								local minorTraitID = toPlayer:GetMinorCivTrait()
+								local minorTraitType = GameInfo.MinorCivTraits[minorTraitID].Type
+								if minorTraitType == minorCivTraitType then
+									numTradeRoutes = numTradeRoutes + 1
+								end
 							end
 						end
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numUnits
-						numTotal = numTotal + numUnits
+						numTradeRoutes = (numTradeRoutes*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numTradeRoutes
+						numTotal = numTotal + numTradeRoutes
 					end
 					
-					if row2.IsLargestOfCityStateAllies then
+					if row2.IsNumLargestAllyPopulation then
+						local minorCivTraitType = row2.IsNumLargestAllyPopulation
 						local largestMinors = {}
 						for otherPlayerID = 0, defineMaxCivPlayers - 1 do	
 							local otherPlayer = Players[otherPlayerID]
@@ -3572,7 +3480,7 @@ function Player.ComposeNewLegislature(player, governmentID)
 								local minorTraitID = otherPlayer:GetMinorCivTrait()
 								local minorTraitType = GameInfo.MinorCivTraits[minorTraitID].Type
 								largestMinors[minorTraitID] = {MinorID = -1, NumPop = 0}
-								if row2.MinorCivTraitType == minorTraitType then
+								if minorCivTraitType == minorTraitType then
 									local numPop = otherPlayer:GetTotalPopulation()
 									if numPop > largestMinors[minorTraitID].NumPop then
 										largestMinors[minorTraitID].MinorID = otherPlayerID
@@ -3583,224 +3491,149 @@ function Player.ComposeNewLegislature(player, governmentID)
 						end	
 						for _, thisMinor in pairs(largestMinors) do
 							if thisMinor.MinorID ~= -1 then
-								newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + thisMinor.NumPop
+								local numRandomWeight = row2.RandomWeight
+								local numRandomResult = g_GetRandom(1,numRandomWeight)
+								local numPopulation = (thisMinor.NumPop*numRandomResult)
+								newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numPopulation
 								newFactionTable[thisFactionID].PlayerID = thisMinor.MinorID
-								numTotal = numTotal + thisMinor.NumPop
+								numTotal = numTotal + numPopulation
 							end
+						end
+					end
+					
+					if row2.IsNumReligiousFollowers then
+						local religionID = player:GetMainReligion()
+						local numFollowers, numNotFollowers, numNoneFollowers = player:GetNumTotalFollowers(religionID)
+					
+						if row2.IsNumOwnReligiousFollowers then
+							local numRandomWeight = row2.RandomWeight
+							local numRandomResult = g_GetRandom(1,numRandomWeight)
+							numFollowers = ((numFollowers+1)*numRandomResult)
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numFollowers
+							numTotal = numTotal + numFollowers
+						end
+					
+						if row2.IsNumOtherReligiousFollowers then
+							local numRandomWeight = row2.RandomWeight
+							local numRandomResult = g_GetRandom(1,numRandomWeight)
+							numNotFollowers = ((numNotFollowers+1)*numRandomResult)
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numNotFollowers
+							numTotal = numTotal + numNotFollowers
+						end
+						
+						if row2.IsNumNonReligiousFollowers then
+							local numRandomWeight = row2.RandomWeight
+							local numRandomResult = g_GetRandom(1,numRandomWeight)
+							numNoneFollowers = ((numNoneFollowers+1)*numRandomResult)
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numNoneFollowers
+							numTotal = numTotal + numNoneFollowers
 						end
 					end
 					
 					if row2.IsGoldenAge then
-						local numPower = player:GetHappiness()
-						if (not player:IsGoldenAge()) then
-							numPower = 0
+						if playerIsGoldenAge then
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + 1
+							numTotal = numTotal + 1
+						else
+							local numPower = g_GetRandom(1,100)
+							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numPower
+							numTotal = numTotal + numPower
 						end
-						newFactionTable[thisFactionID].Power = numPower
-						numTotal = numTotal + numPower
-					end
-					if row2.IsNotGoldenAge then
-						local numPower = player:GetHappiness()
-						if player:IsGoldenAge() then
-							numPower = 0
-						end
-						newFactionTable[thisFactionID].Power = numPower
-						numTotal = numTotal + numPower
 					end
 					
-					if row2.IsGlobalFaith then
-						local numFaith = player:GetTotalFaithPerTurn()
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numFaith
-						numTotal = numTotal + numFaith
+					if row2.IsNotGoldenAgeTotalUnhappiness and (not playerIsGoldenAge) then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numUnhappiness = (player:GetUnhappiness()*numRandomResult)
+						newFactionTable[thisFactionID].Power = numUnhappiness
+						numTotal = numTotal + numUnhappiness
 					end
 					
-					if row2.IsGlobalTourism then
-						local numTourism = player:GetTourism()
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numTourism
-						numTotal = numTotal + numTourism
+					if row2.IsNotGoldenAgeTotalHappiness and (not playerIsGoldenAge) then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numHappiness = (player:GetHappiness()*numRandomResult)
+						newFactionTable[thisFactionID].Power = numHappiness
+						numTotal = numTotal + numHappiness
 					end
 					
-					if row2.IsGlobalYieldTypeProportion then
-						local yieldType = row2.YieldType
-						local numYield = 0
-						if yieldType then
-							local yieldID = GameInfoTypes[row2.YieldType]
+					if row2.IsNumYieldType then
+						local yieldType = row2.IsNumYieldType
+						local yieldID = GameInfoTypes[yieldType]
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numYield = 1
+						if yieldType == "YIELD_FOOD_SURPLUS" then
+							for city in player:Cities() do
+								local numFoodDiff = city:FoodDifference()
+								if numFoodDiff > 0 then
+									numYield = numYield + numFoodDiff
+								end
+							end
+						elseif yieldType == "YIELD_FOOD_DEFICIT" then
+							for city in player:Cities() do
+								local numFoodDiff = city:FoodDifference()
+								if numFoodDiff < 0 then
+									numYield = numYield + (numFoodDiff*-1)
+								end
+							end
+						elseif yieldType == "YIELD_FOOD_CON" then
+							for city in player:Cities() do
+								numYield = numYield + city:FoodConsumption()
+							end
+						elseif yieldType == "YIELD_PRODUCTION" then
+							for city in player:Cities() do
+								numYield = numYield + city:GetCurrentProductionDifference()
+							end
+						elseif yieldType == "YIELD_GOLD_DEFICIT" then
+							local numGold = player:CalculateGoldRate()
+							if numGold < 0 then
+								numYield = numYield + (numGold*-1)
+							end
+						elseif yieldType == "YIELD_GOLD_SURPLUS" then
+							local numGold = player:CalculateGoldRate()
+							if numGold > 0 then
+								numYield = numYield + numGold
+							end
+						elseif yieldType == "YIELD_SCIENCE" then
+							numYield = numYield + g_GetRound(player:GetScience()/2)
+						elseif yieldType == "YIELD_FAITH" then
+							numYield = numYield + player:GetTotalFaithPerTurn()
+						elseif yieldType == "YIELD_CULTURE" then
+							numYield = numYield + player:GetTotalJONSCulturePerTurn()
+						elseif yieldType == "YIELD_TOURISM" then
+							numYield = numYield + player:GetTourism()
+						elseif yieldType == "YIELD_HAPPINESS" then
+							numYield = numYield + player:GetHappiness()
+						elseif yieldType == "YIELD_UNHAPPINESS" then
+							numYield = numYield + player:GetUnhappiness()
+						else
 							numYield = player:CalculateTotalYield(yieldID)
 						end
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + g_MathMax(numYield,0)
+						numYield = (numYield*numRandomResult)
+						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or -1) + numYield
 						numTotal = numTotal + numYield
 					end
 					
-					if row2.IsCapitalYieldTypeProportion then	
-						local yieldType = row2.YieldType
-						local numYield = 0
-						if yieldType then
-							local yieldID = GameInfoTypes[row2.YieldType]
-							if yieldType == "YIELD_CULTURE" then
-								numYield = playerCapital:GetBaseJONSCulturePerTurn()
-							elseif yieldType == "YIELD_EXPERIENCE" then
-								numYield = playerCapital:GetDomainFreeExperience(domainLandID)
-							elseif yieldType == "YIELD_HAPPINESS" then
-								numYield = playerCapital:GetHappiness() + playerCapital:GetLocalHappiness()
-							elseif yieldType == "YIELD_FOOD_LOSS" then
-								numYield = g_MathMin(playerCapital:FoodDifference(), 0)
-							elseif yieldType == "YIELD_FOOD_CON" then
-								numYield = playerCapital:FoodConsumption()
-							elseif yieldType == "YIELD_FOOD_DIFF" then
-								numYield = playerCapital:FoodDifference()
-							else
-								numYield = playerCapital:GetBaseYieldRate(yieldID)
-							end
-							if (yieldType == "YIELD_FOOD" or yieldType == "YIELD_FOOD_CON" or yieldType == "YIELD_HAPPINESS" or yieldType == "YIELD_FOOD_DIFF" or yieldType == "YIELD_FOOD_LOSS") then
-								numYield = (numYield*numTotalPopulation)
-							elseif yieldType == "YIELD_EXPERIENCE" then
-								numYield = (numYield*numMilitaryUnits)
-							else
-								numYield = (numYield*numCapitalPopulation)
-							end
-						end
-						
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + g_MathMax(numYield,0)
-						numTotal = numTotal + numYield
+					if row2.IsNumHappiness then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numHappiness = (player:GetHappiness()*numRandomResult)
+						newFactionTable[thisFactionID].Power = numHappiness
+						numTotal = numTotal + numHappiness
 					end
 					
-					if row2.IsCityYieldProportion then	
-						local yieldType = row2.YieldType
-						local yieldID = GameInfoTypes[yieldType]
-						local numYield = 0
-							
-						for city in player:Cities() do
-							local numPop = city:GetPopulation()
-							if yieldType then
-								if yieldType == "YIELD_CULTURE" then
-									numYield = numYield + city:GetBaseJONSCulturePerTurn() 
-								elseif yieldType == "YIELD_TOURISM" then
-									numYield = numYield + city:GetBaseTourism()
-								elseif yieldType == "YIELD_HAPPINESS" then
-									numYield = numYield + city:GetHappiness() + city:GetLocalHappiness()
-								elseif yieldType == "YIELD_FOOD_DIFF" then
-									local numFood = city:FoodDifference() 
-									if numFood < 0 then numFood = numFood*-1 end
-									numYield = numYield + numFood
-								elseif yieldType == "YIELD_FOOD_CON" then
-									numYield = numYield + city:FoodConsumption()
-								elseif yieldType == "YIELD_EXPERIENCE" then
-									numYield = numYield + city:GetDomainFreeExperience(domainLandID)
-								elseif yieldType == "YIELD_GOLDEN_AGE_POINTS" then
-									if yieldGoldenAgePointsID then
-										numYield = numYield + city:GetBaseYieldRate(yieldID)
-									end
-								else
-									numYield = numYield + city:GetBaseYieldRate(yieldID)
-								end
-								
-								numYield = (numYield*numPop)
-							end
-										
-							if playerIsHuman then
-								newFactionTable[factionID].CityList[cityCount] = {City = city, NumVotes = numYield}
-								cityCount = cityCount + 1
-							end
-						end
-						newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + g_MathMax(numYield,0)
-						numTotal = numTotal + numYield
-					end
-					
-					if row2.IsCityYieldTypeHighestOf then
-						-- g_JFD_Faction_CriteriaPartyYields_Table
-						local factionsCriteriaTable = g_JFD_Faction_CriteriaPartyYields_Table
-						local numFactionsCriteria = #factionsCriteriaTable
-						for index = 1, numFactionsCriteria do
-							local row3 = factionsCriteriaTable[index]
-							if row3.FactionType == factionType then
-								local faction1 = row3.FactionType
-								local faction1ID = GameInfoTypes[faction1]
-								local faction2 = row3.OpposingFactionType1
-								local faction2ID = GameInfoTypes[faction2]
-								local faction3 = row3.DefaultingFactionType
-								local faction3ID = GameInfoTypes[faction3]
-								
-								local yield1ID = GameInfoTypes[row3.YieldType1]
-								local yield2ID = GameInfoTypes[row3.YieldType2]
-								local yield3ID = GameInfoTypes[row3.YieldType3]
-								local yieldOpposing1ID = GameInfoTypes[row3.OpposingYieldType1]
-								local yieldOpposing2ID = GameInfoTypes[row3.OpposingYieldType2]
-								local yieldOpposing3ID = GameInfoTypes[row3.OpposingYieldType3]
-									
-								local numFaction1Vote = 0
-								local numFaction2Vote = 0
-								local numFaction3Vote = 0
-								
-								for city in player:Cities() do
-									local numPop = city:GetPopulation()
-									local numYield = (city:GetBaseYieldRate(yield1ID) + city:GetBaseYieldRate(yield2ID) + g_MathMax(city:FoodDifference(),0))*numPop
-									local numYieldOpposing = (city:GetBaseJONSCulturePerTurn() + city:GetBaseYieldRate(yieldOpposing2ID) + city:GetBaseYieldRate(yieldOpposing3ID))*numPop
-									
-									if (numYield > numYieldOpposing) then
-										numFaction1Vote = numFaction1Vote + numYield
-									
-										if playerIsHuman then
-											newFactionTable[faction1ID].CityList[cityCount] = {City = city, NumVotes = numYield}
-											cityCount = cityCount + 1
-										end
-									elseif (numYieldOpposing > numYield) then
-										numFaction2Vote = numFaction2Vote + numYieldOpposing
-									
-										if playerIsHuman then
-											newFactionTable[faction2ID].CityList[cityCount] = {City = city, NumVotes = numYieldOpposing}
-											cityCount = cityCount + 1
-										end
-									else
-										numYield = numYield + numYieldOpposing
-										numFaction3Vote = numFaction3Vote + numYield 
-									
-										if playerIsHuman then
-											newFactionTable[faction3ID].CityList[cityCount] = {City = city, NumVotes = numYield}
-											cityCount = cityCount + 1
-										end
-									end
-								end
-								
-								newFactionTable[faction1ID].Power = (newFactionTable[faction1ID].Power or 0) + numFaction1Vote
-								newFactionTable[faction2ID].Power = (newFactionTable[faction2ID].Power or 0) + numFaction2Vote
-								newFactionTable[faction3ID].Power = (newFactionTable[faction3ID].Power or 0) + numFaction3Vote
-								numTotal = numTotal + numFaction1Vote + numFaction2Vote + numFaction3Vote
-							end
-						end
-					end
-					
-					local policyBranchType = row2.PolicyBranchType
-					if policyBranchType then
-						local policyBranchXPercentBonus = row2.IsPolicyBranchXPercentBonus
-						if policyBranchXPercentBonus ~= 0 then
-							local numPower = (newFactionTable[thisFactionID].Power or 0)
-							local numBonus = 0
-							local numBranchesMod = (player:GetNumPoliciesUnlockedInBranch(policyBranchType)*policyBranchXPercentBonus)
-							if numBranchesMod > 0 then
-								numBonus = ((numPower*numBranchesMod)/100)
-							end
-							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numBonus
-							numTotal = numTotal + numBonus
-						else
-							local numBranches = player:GetNumPoliciesUnlockedInBranch(policyBranchType) 
-							newFactionTable[thisFactionID].Power = (newFactionTable[thisFactionID].Power or 0) + numBranches
-							numTotal = numTotal + numBranches
-						end
-					end
-					
-					local buildingNegates = row2.IsBuildingNegatesPower
-					if buildingNegates then
-						local buildingClassID = GameInfoTypes[buildingNegates]
-						if player:GetBuildingClassCount(buildingClassID) > 0 then
-							numTotal = numTotal - newFactionTable[thisFactionID].Power
-							newFactionTable[thisFactionID].Power = 0
-						end
+					if row2.IsNumUnhappiness then
+						local numRandomWeight = row2.RandomWeight
+						local numRandomResult = g_GetRandom(1,numRandomWeight)
+						local numUnhappiness = (player:GetUnhappiness()*numRandomResult)
+						newFactionTable[thisFactionID].Power = numUnhappiness
+						numTotal = numTotal + numUnhappiness
 					end
 				end
 			end
 		end
 	end
-	
-	local strLegislature = ""
 	
 	table.sort(newFactionTable, function(a,b) return a.Power > b.Power end)
 	
@@ -3838,89 +3671,6 @@ function Player.ComposeNewLegislature(player, governmentID)
 			if factionPlayerID then
 				player:SetFactionCivType(factionID, factionPlayerID)
 			end
-			
-			if numPercent > 0 then
-				if playerIsHuman then
-					local faction = GameInfo.JFD_Factions[factionID]
-					local factionDesc = player:GetFactionName(factionID)
-					strLegislature = strLegislature .. "[NEWLINE][ICON_BULLET]" .. faction.IconString .. " " .. g_ConvertTextKey(factionDesc) .. ": [COLOR_JFD_SOVEREIGNTY]" .. numPercent .. "%[ENDCOLOR][ICON_JFD_SOVEREIGNTY]"
-
-					local numGlobalPercent = numPercent
-					for _, cityList in pairs(thisFaction.CityList) do
-						local city = cityList.City
-						local numVotes = cityList.NumVotes
-						local numCityPercent = g_MathMin(g_GetRound((numVotes/numTotal)*100),100)
-						if numCityPercent > 0 then
-							if strNewFactionCityResult[factionID] then
-								strNewFactionCityResult[factionID] = strNewFactionCityResult[factionID] .. "[NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_TEXT_CITY_RESULT_TT", city:GetName(), faction.IconString, faction.Adjective, numCityPercent)
-							else
-								strNewFactionCityResult[factionID] = g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_TEXT_CITY_RESULT_TT", city:GetName(), faction.IconString, faction.Adjective, numCityPercent)
-							end
-						end
-					end
-				end
-			end
-		end
-	end
-
-	--REVOLUTIONARIES
-	--g_JFD_FactionsRevolutionaries_Table
-	local factionsTable = g_JFD_FactionsRevolutionaries_Table
-	local numFactions = #factionsTable
-	for index = 1, numFactions do
-		local row = factionsTable[index]
-		local thisFactionID = row.ID
-		
-		if player:IsFactionValid(thisFactionID) then
-		
-			--g_JFD_Faction_Criteria_Table
-			local factionsCriteriaTable = g_JFD_Faction_Criteria_Table
-			local numFactionsCriteria = #factionsCriteriaTable
-			for index = 1, numFactionsCriteria do
-				local row2 = factionsCriteriaTable[index]
-				local factionType = row2.FactionType
-				local factionID = GameInfoTypes[factionType]
-				if factionID == thisFactionID then
-					if row2.IsRevolutionaries then
-						local numRevolutionarySentiment = g_MathFloor(player:GetTotalRevolutionarySentiment())
-						revFactionTable[thisFactionID].Power = numRevolutionarySentiment
-						revFactionTable[thisFactionID].PowerIsTotal = true
-					end
-					
-					local buildingNegates = row2.IsBuildingNegatesPower
-					if buildingNegates then
-						local buildingClassID = GameInfoTypes[buildingNegates]
-						if player:GetBuildingClassCount(buildingClassID) > 0 then
-							numTotal = numTotal - revFactionTable[thisFactionID].Power
-							revFactionTable[thisFactionID].Power = 0
-						end
-					end
-				end
-			end
-		end
-	end
-	
-	for _, thisFaction in pairs(revFactionTable) do
-		local factionID = thisFaction.FactionID
-		local faction = GameInfo.JFD_Factions[factionID]
-		local factionType = faction.Type
-		local factionPower = thisFaction.Power
-		local factionPowerIsTotal = thisFaction.PowerIsTotal
-		local factionPlayerID = thisFaction.PlayerID
-		
-		if (factionPower > 0 or thisFaction.PlayerID) then
-			local numPercent = factionPower
-			player:SetFactionPower(factionID, numPercent)
-			local strFactionName = player:GetIntendedFactionName(factionID, governmentID, factionPlayerID)
-			player:SetFactionName(factionID, strFactionName)
-			
-			if numPercent > 0 then
-				if playerIsHuman then
-					local faction = GameInfo.JFD_Factions[factionID]
-					local factionDesc = player:GetFactionName(factionID)
-					strLegislature = strLegislature .. "[NEWLINE][ICON_BULLET]" .. faction.IconString .. " " .. g_ConvertTextKey(factionDesc) .. ": [COLOR_JFD_SOVEREIGNTY]" .. numPercent .. "%[ENDCOLOR][ICON_JFD_SOVEREIGNTY]"
-				end
-			end
 		end
 	end
 	
@@ -3930,34 +3680,9 @@ function Player.ComposeNewLegislature(player, governmentID)
 		local factionDominant = GameInfo.JFD_Factions[factionDominantID]
 		local factionName = player:GetFactionName(factionDominantID)
 		local factionDesc = factionDominant.ShortDescription
-		local numDominanceNumAnarchyTurns = factionDominant.DominanceNumAnarchyTurns
-		if numDominanceNumAnarchyTurns > 0 then
-			player:ChangeAnarchyNumTurns(numDominanceNumAnarchyTurns)
-			if (not playerIsHuman) then
-				player:SendWorldEvent(g_ConvertTextKey("TXT_KEY_WORLD_EVENT_JFD_NEW_LEGISLATURE_DESC_REVOLUTIONARIES", factionDominant.ShortDescription, player:GetCivilizationAdjective()))	
-			else
-				Events.AudioPlay2DSound("AS2D_SOUND_JFD_ANARCHY");
-				player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_ACTIVE_PLAYER", g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_TEXT_REVOLUTIONARIES", factionDominant.ShortDescription, numDominanceNumAnarchyTurns), g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_SHORT_TEXT_REVOLUTIONARIES", factionDesc), false, -1, -1, governmentAnarchyID)
-			end
-		else
-			if (not playerIsHuman) then
-				if factionDominant.IsMandateOfHeavenGain then
-					player:SendWorldEvent(g_ConvertTextKey("TXT_KEY_WORLD_EVENT_JFD_NEW_LEGISLATURE_DESC_MANDATE_OF_HEAVEN", player:GetName(), player:GetCivilizationShortDescription()))	
-				elseif factionDominant.IsMandateOfHeavenLoss then
-					player:SendWorldEvent(g_ConvertTextKey("TXT_KEY_WORLD_EVENT_JFD_NEW_LEGISLATURE_DESC_MANDATE_OF_HEAVEN_LOSS", player:GetName(), player:GetCivilizationShortDescription()))	
-				else
-					player:SendWorldEvent(g_ConvertTextKey("TXT_KEY_WORLD_EVENT_JFD_NEW_LEGISLATURE_DESC", factionDominant.ShortDescription, player:GetCivilizationAdjective()))	
-				end
-			else
-				LuaEvents.UI_ShowNewLegislaturePopup(playerID, governmentID, strLegislature, strNewFactionCityResult, (#strNewFactionCityResult > 0))
-				if factionDominant.IsMandateOfHeavenGain then
-					player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_LEGISLATURE", g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_TEXT_MANDATE_OF_HEAVEN"), g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_SHORT_TEXT_MANDATE_OF_HEAVEN"), false, -1, -1)
-				elseif factionDominant.IsMandateOfHeavenLoss then
-					player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_LEGISLATURE", g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_TEXT_MANDATE_OF_HEAVEN_LOSS", numDominanceNumAnarchyTurns), g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_SHORT_TEXT_MANDATE_OF_HEAVEN_LOSS"), false, -1, -1)
-				else
-					player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_LEGISLATURE", g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_TEXT", factionDominant.ShortDescription), g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_SHORT_TEXT", factionDesc), false, -1, -1)
-				end
-			end
+		if playerIsHuman then
+			LuaEvents.UI_ShowNewLegislaturePopup(playerID, governmentID)
+			player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_LEGISLATURE", g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_TEXT", factionDominant.ShortDescription), g_ConvertTextKey("TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_SHORT_TEXT", factionDesc), false, -1, -1)
 		end
 	end
 	
@@ -3984,19 +3709,15 @@ function Player_GetFactionSovModifier(player, returnsTT)
 	local numFactionSovMod = 0
 	local strFactionSovMod = ""
 
-	--g_JFD_Governments_Table
-	local govtsTable = g_JFD_Governments_Table
-	local numGovts = #govtsTable
-	for index = 1, numGovts do
-		local row = govtsTable[index]
-		local numThisFactionSovMod = row.FactionSovMod
-		if numThisFactionSovMod ~= 0 then
-			local governmentID = row.ID
-			if player:IsHasGovernment(governmentID) then
-				numFactionSovMod = numFactionSovMod + numThisFactionSovMod
-				if returnsTT then
-					strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_GOVERNMENT", numThisFactionSovMod, "[COLOR_WARNING_TEXT]+")
-				end
+	local governmentID = player:GetCurrentGovernment()
+	local numFactionSovModGovernment = GameInfo.JFD_Governments[governmentID].FactionSovMod
+	if numFactionSovModGovernment ~= 0 then
+		numFactionSovMod = numFactionSovMod + numFactionSovModGovernment
+		if returnsTT then
+			if numFactionSovModGovernment > 0 then 
+				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_GOVERNMENT", numFactionSovModGovernment, "+")
+			else
+				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_GOVERNMENT", numFactionSovModGovernment, "")
 			end
 		end
 	end
@@ -4019,9 +3740,9 @@ function Player_GetFactionSovModifier(player, returnsTT)
 		numFactionSovMod = numFactionSovMod + numFactionSovModReforms				
 		if returnsTT then
 			if numFactionSovModReforms > 0 then 
-				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_REFORMS", numFactionSovModReforms, "[COLOR_WARNING_TEXT]+")
+				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_REFORMS", numFactionSovModReforms, "+")
 			else
-				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_REFORMS", numFactionSovModReforms, "[COLOR_POSITIVE_TEXT]")
+				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_REFORMS", numFactionSovModReforms, "")
 			end
 		end
 	end
@@ -4045,9 +3766,9 @@ function Player_GetFactionSovModifier(player, returnsTT)
 		numFactionSovMod = numFactionSovMod + numFactionSovModBuildings				
 		if returnsTT then
 			if numFactionSovModBuildings > 0 then 
-				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_BUILDINGS", numFactionSovModBuildings, "[COLOR_WARNING_TEXT]+")
+				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_BUILDINGS", numFactionSovModBuildings, "+")
 			else
-				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_BUILDINGS", numFactionSovModBuildings, "[COLOR_POSITIVE_TEXT]")
+				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_BUILDINGS", numFactionSovModBuildings, "")
 			end
 		end
 	end
@@ -4070,9 +3791,9 @@ function Player_GetFactionSovModifier(player, returnsTT)
 		numFactionSovMod = numFactionSovMod + numFactionSovModPolicies				
 		if returnsTT then
 			if numFactionSovModPolicies > 0 then 
-				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_POLICIES", numFactionSovModPolicies, "[COLOR_WARNING_TEXT]+")
+				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_POLICIES", numFactionSovModPolicies, "+")
 			else
-				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_POLICIES", numFactionSovModPolicies, "[COLOR_POSITIVE_TEXT]")
+				strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_POLICIES", numFactionSovModPolicies, "")
 			end
 		end
 	end
@@ -4096,9 +3817,9 @@ function Player_GetFactionSovModifier(player, returnsTT)
 			numFactionSovMod = numFactionSovMod + numFactionSovModTraits				
 			if returnsTT then
 				if numFactionSovModTraits > 0 then 
-					strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_TRAITS", numFactionSovModTraits, "[COLOR_WARNING_TEXT]+")
+					strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_TRAITS", numFactionSovModTraits, "+")
 				else
-					strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_TRAITS", numFactionSovModTraits, "[COLOR_POSITIVE_TEXT]")
+					strFactionSovMod = strFactionSovMod .. g_ConvertTextKey("TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_TRAITS", numFactionSovModTraits, "")
 				end
 			end
 		end
@@ -4119,9 +3840,15 @@ function Player.ResetLegislature(player, governmentID, isInit)
 	end
 	player:ComposeNewLegislature(governmentID)
 	local numGovernmentCooldown = player:CalculateGovernmentCooldown()
-	player:SetCurrentGovernmentCooldown(numGovernmentCooldown) 
-	if Player.SetGovernmentCooldownRate then
-		player:SetGovernmentCooldownRate(defineDefaultGovernmentCooldownRate) 
+	if numGovernmentCooldown > 0 then
+		player:SetCurrentGovernmentCooldown(numGovernmentCooldown) 
+		if Player.SetGovernmentCooldownRate then
+			player:SetGovernmentCooldownRate(1) 
+		end
+	else
+		if Player.SetGovernmentCooldownRate then
+			player:SetGovernmentCooldownRate(0) 
+		end
 	end
 end
 ----------------------------------------------------------------------------------------------------------------------------
@@ -4131,7 +3858,7 @@ function Player.GetCurrentGovernmentCooldown(player)
 		return player:GetGovernmentCooldown()
 	else
 		local playerID = player:GetID()
-		return JFD_RTP[playerID .. "_GOVERNMENT_COOLDOWN_TURNS"] or 0
+		return JFD_RTP_Sovereignty[playerID .. "_GOVERNMENT_COOLDOWN_TURNS"] or 0
 	end	
 end
 ----------------------------------------------------------------------------------------------------------------------------
@@ -4153,101 +3880,60 @@ function Player.SetCurrentGovernmentCooldown(player, setVal)
 		player:SetGovernmentCooldown(setVal)
 	else
 		local playerID = player:GetID()
-		JFD_RTP[playerID .. "_GOVERNMENT_COOLDOWN_TURNS"] = setVal
+		JFD_RTP_Sovereignty[playerID .. "_GOVERNMENT_COOLDOWN_TURNS"] = setVal
 		LuaEvents.JFD_GovernmentCooldownChanges(player:GetID(), setVal)
 	end	
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:CalculateGovernmentCooldown
 function Player.CalculateGovernmentCooldown(player, returnsTT)
+	
+	local governmentID = player:GetCurrentGovernment() 
+	if GameInfo.JFD_Governments[governmentID].IsLegislatureOnlyEraReset then
+		return -1, -1, g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_GOVERNMENT_COOLDOWN_TT_SHOGUNATE")
+	end
+
 	local numCurrentGovernmentCooldown = player:GetCurrentGovernmentCooldown()
 	local numGovernmentCooldown = defineDefaultGovernmentCooldownTurns
-	local numGovernmentCooldownModTotal = 0
-	local strGovernmentCooldownModTT = ""
-	
-	--Cities
-	local numGovernmentCooldownModPerCity = (defineDefaultGovernmentCooldownTurnsModPerCity*player:GetNumCities())
-	--g_Building_JFD_SovereigntyMods_Table
-	local buildingsTable = g_Building_JFD_SovereigntyMods_Table
-	local numBuildings = #buildingsTable
-	for index = 1, numBuildings do
-		local row = buildingsTable[index]
-		local numThisGovernmentCooldownMod = row.GovernmentCooldownModPerCity
-		if numThisGovernmentCooldownMod ~= 0 then
-			local buildingID = GameInfoTypes[row.BuildingType]
-			local buildingCount = player:CountNumBuildings(buildingID)
-			if buildingCount > 0 then
-				numThisGovernmentCooldownMod = (numThisGovernmentCooldownMod*buildingCount)
-				numGovernmentCooldownModPerCity = numGovernmentCooldownModPerCity + ((numGovernmentCooldownModPerCity*numThisGovernmentCooldownMod)/100)
-			end
-		end
-	end
-	numGovernmentCooldownModPerCity = g_GetRound(numGovernmentCooldownModPerCity)
-	if numGovernmentCooldownModPerCity ~= 0 then
-		numGovernmentCooldownModTotal = numGovernmentCooldownModTotal + numGovernmentCooldownModPerCity
-		if returnsTT then
-			if numGovernmentCooldownModPerCity < 0 then
-				strGovernmentCooldownModTT = strGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_CITIES", "[COLOR_POSITIVE_TEXT]" .. numGovernmentCooldownModPerCity .. "%[ENDCOLOR]")
-			else
-				strGovernmentCooldownModTT = strGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_CITIES", "[COLOR_WARNING_TEXT]+" .. numGovernmentCooldownModPerCity .. "%[ENDCOLOR]")
-			end
-		end
-	end
-	
-	--Citizens
-	local numGovernmentCooldownModPerCitizen = (defineDefaultGovernmentCooldownTurnsModPerCitizen*player:GetTotalPopulation())
-	--g_Building_JFD_SovereigntyMods_Table
-	local buildingsTable = g_Building_JFD_SovereigntyMods_Table
-	local numBuildings = #buildingsTable
-	for index = 1, numBuildings do
-		local row = buildingsTable[index]
-		local numThisGovernmentCooldownMod = row.GovernmentCooldownModPerCitizen
-		if numThisGovernmentCooldownMod ~= 0 then
-			local buildingID = GameInfoTypes[row.BuildingType]
-			local buildingCount = player:CountNumBuildings(buildingID)
-			if buildingCount > 0 then
-				numThisGovernmentCooldownMod = (numThisGovernmentCooldownMod*buildingCount)
-				numGovernmentCooldownModPerCitizen = numGovernmentCooldownModPerCitizen + ((numGovernmentCooldownModPerCitizen*numThisGovernmentCooldownMod)/100)
-			end
-		end
-	end
-	numGovernmentCooldownModPerCitizen = g_GetRound(numGovernmentCooldownModPerCitizen)
-	if numGovernmentCooldownModPerCitizen ~= 0 then
-		numGovernmentCooldownModTotal = numGovernmentCooldownModTotal + numGovernmentCooldownModPerCitizen
-		if returnsTT then
-			if numGovernmentCooldownModPerCitizen < 0 then
-				strGovernmentCooldownModTT = strGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_CITIZENS", "[COLOR_POSITIVE_TEXT]" .. numGovernmentCooldownModPerCitizen .. "%[ENDCOLOR]")
-			else
-				strGovernmentCooldownModTT = strGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_CITIZENS", "[COLOR_WARNING_TEXT]+" .. numGovernmentCooldownModPerCitizen .. "%[ENDCOLOR]")
-			end
-		end
-	end
-	
-	local strGovernmentCooldownTT = ""
+	local strGovernmentCooldownTT
+	local strGovernmentCooldownModTT
 	local numGovernmentCooldownMod, strNumGovernmentCooldownModTT = Player_GetGovernmentCooldownModifier(player, returnsTT)
-	if numGovernmentCooldownMod ~= 0 then
-		numGovernmentCooldownModTotal = numGovernmentCooldownModTotal + numGovernmentCooldownMod
-	end
 	
-	if numGovernmentCooldownModTotal ~= 0 then
-		if numGovernmentCooldownModTotal > 0 then
-			numGovernmentCooldownModTotal = g_MathMin(numGovernmentCooldownModTotal, defineDefaultGovernmentCooldownModCap)
-		else
-			numGovernmentCooldownModTotal = g_MathMax(numGovernmentCooldownModTotal, (defineDefaultGovernmentCooldownModCap*-1))
+	local currentGovernmentID = player:GetCurrentGovernment()
+	local numGovtGovernmentCooldownMod = GameInfo.JFD_Governments[currentGovernmentID].GovernmentCooldownCityMod
+	if numGovtGovernmentCooldownMod ~= 0 then
+		numGovernmentCooldownModPerCityMod = numGovernmentCooldownModPerCityMod + numGovtGovernmentCooldownMod
+	end
+		
+	--g_Building_JFD_SovereigntyMods_Table
+	local buildingsTable = g_Building_JFD_SovereigntyMods_Table
+	local numBuildings = #buildingsTable
+	for index = 1, numBuildings do
+		local row = buildingsTable[index]
+		local numThisGovernmentCooldownMod = row.GovernmentCooldownCityMod
+		if numThisGovernmentCooldownMod ~= 0 then
+			local buildingID = GameInfoTypes[row.BuildingType]
+			local buildingCount = player:CountNumBuildings(buildingID)
+			if buildingCount > 0 then
+				numThisGovernmentCooldownMod = (numThisGovernmentCooldownMod*buildingCount)
+				numGovernmentCooldownModPerCityMod = numGovernmentCooldownModPerCityMod + numThisGovernmentCooldownMod
+			end
 		end
-		numGovernmentCooldown = numGovernmentCooldown + ((numGovernmentCooldown*numGovernmentCooldownModTotal)/100)
+	end
+	if numGovernmentCooldownMod ~= 0 then
+		numGovernmentCooldown = numGovernmentCooldown + ((numGovernmentCooldown*numGovernmentCooldownMod)/100)
 	end
 	numGovernmentCooldown = g_GetRound(numGovernmentCooldown)
 	
 	if returnsTT then
 		strGovernmentCooldownTT = g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_GOVERNMENT_COOLDOWN_TT", numCurrentGovernmentCooldown, numGovernmentCooldown)
 		if strNumGovernmentCooldownModTT then
-			if strGovernmentCooldownModTT ~= "" then
-				strGovernmentCooldownTT = strGovernmentCooldownTT .. strGovernmentCooldownModTT .. strNumGovernmentCooldownModTT
-			else
-				strGovernmentCooldownTT = strGovernmentCooldownTT .. strNumGovernmentCooldownModTT
-			end
+			strGovernmentCooldownTT = strGovernmentCooldownTT .. strNumGovernmentCooldownModTT
 		end
+	end
+	
+	if numGovernmentCooldown < defineDefaultGovernmentCooldownCap then 
+		numGovernmentCooldown = defineDefaultGovernmentCooldownCap 
 	end
 
 	return numGovernmentCooldown, numCurrentGovernmentCooldown, strGovernmentCooldownTT
@@ -4260,23 +3946,15 @@ function Player_GetGovernmentCooldownModifier(player, returnsTT)
 	local numGovernmentCooldownMod = 0
 	local strNumGovernmentCooldownModTT = ""	
 
-	--g_JFD_Governments_Table
-	local govtsTable = g_JFD_Governments_Table
-	local numGovts = #govtsTable
-	for index = 1, numGovts do
-		local row = govtsTable[index]
-		local numThisGovernmentCooldownMod = row.GovernmentCooldownMod
-		if numThisGovernmentCooldownMod ~= 0 then
-			local governmentID = row.ID
-			if player:IsHasGovernment(governmentID) then
-				numGovernmentCooldownMod = numGovernmentCooldownMod + numThisGovernmentCooldownMod
-				if returnsTT then
-					if numThisGovernmentCooldownMod > 0 then
-						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_GOVERNMENT", "[COLOR_WARNING_TEXT]+" .. numThisGovernmentCooldownMod .. "%[ENDCOLOR]")
-					else
-						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_GOVERNMENT", "[COLOR_POSITIVE_TEXT]" .. numThisGovernmentCooldownMod .. "%[ENDCOLOR]")
-					end
-				end
+	local governmentID = player:GetCurrentGovernment()
+	local numGovernmentCooldownGovernment = GameInfo.JFD_Governments[governmentID].GovernmentCooldownMod
+	if numGovernmentCooldownGovernment ~= 0 then
+		numGovernmentCooldownMod = numGovernmentCooldownMod + numGovernmentCooldownGovernment
+		if returnsTT then
+			if numGovernmentCooldownGovernment > 0 then
+				strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_GOVERNMENT", "+" .. numGovernmentCooldownGovernment .. "%")
+			else
+				strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_GOVERNMENT", numGovernmentCooldownGovernment .. "%")
 			end
 		end
 	end
@@ -4293,9 +3971,9 @@ function Player_GetGovernmentCooldownModifier(player, returnsTT)
 				numGovernmentCooldownMod = numGovernmentCooldownMod + numThisGovernmentCooldownMod
 				if returnsTT then
 					if numThisGovernmentCooldownMod > 0 then
-						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_REFORMS", "[COLOR_WARNING_TEXT]+" .. numThisGovernmentCooldownMod .. "%[ENDCOLOR]")
+						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_REFORMS", "+" .. numThisGovernmentCooldownMod .. "%")
 					else
-						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_REFORMS", "[COLOR_POSITIVE_TEXT]" .. numThisGovernmentCooldownMod .. "%[ENDCOLOR]")
+						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_REFORMS", numThisGovernmentCooldownMod .. "%")
 					end
 				end
 			end
@@ -4316,9 +3994,9 @@ function Player_GetGovernmentCooldownModifier(player, returnsTT)
 				numGovernmentCooldownMod = numGovernmentCooldownMod + numThisGovernmentCooldownMod
 				if returnsTT then
 					if numThisGovernmentCooldownMod > 0 then
-						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_BUILDINGS", "[COLOR_WARNING_TEXT]+" .. numThisGovernmentCooldownMod .. "%[ENDCOLOR]")
+						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_BUILDINGS", "+" .. numThisGovernmentCooldownMod .. "%")
 					else
-						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_BUILDINGS", "[COLOR_POSITIVE_TEXT]" .. numThisGovernmentCooldownMod .. "%[ENDCOLOR]")
+						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_BUILDINGS", numThisGovernmentCooldownMod .. "%")
 					end
 				end
 			end
@@ -4337,9 +4015,9 @@ function Player_GetGovernmentCooldownModifier(player, returnsTT)
 				numGovernmentCooldownMod = numGovernmentCooldownMod + numThisGovernmentCooldownMod
 				if returnsTT then
 					if numThisGovernmentCooldownMod > 0 then
-						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_POLICIES", "[COLOR_WARNING_TEXT]+" .. numThisGovernmentCooldownMod .. "%[ENDCOLOR]")
+						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_POLICIES", "+" .. numThisGovernmentCooldownMod .. "%")
 					else
-						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_POLICIES", "[COLOR_POSITIVE_TEXT]" .. numThisGovernmentCooldownMod .. "%[ENDCOLOR]")
+						strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_POLICIES", numThisGovernmentCooldownMod .. "%")
 					end
 				end
 			end
@@ -4359,9 +4037,9 @@ function Player_GetGovernmentCooldownModifier(player, returnsTT)
 					numGovernmentCooldownMod = numGovernmentCooldownMod + numThisGovernmentCooldownMod
 					if returnsTT then
 						if numThisGovernmentCooldownMod > 0 then
-							strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_TRAITS", "[COLOR_WARNING_TEXT]+" .. numThisGovernmentCooldownMod .. "%[ENDCOLOR]")
+							strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_TRAITS", "+" .. numThisGovernmentCooldownMod .. "%")
 						else
-							strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_TRAITS", "[COLOR_POSITIVE_TEXT]" .. numThisGovernmentCooldownMod .. "%[ENDCOLOR]")
+							strNumGovernmentCooldownModTT = strNumGovernmentCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_TRAITS", numThisGovernmentCooldownMod .. "%")
 						end
 					end
 				end
@@ -4388,7 +4066,7 @@ function Player.HasReform(player, reformID)
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:GetNumReforms
-function Player.GetNumReforms(player, isAligned)
+function Player.GetNumReforms(player, isAligned, isForCapacity)
 	local numPassedReforms = 0
 	
 	local reformsTable = g_JFD_Reforms_Table
@@ -4397,6 +4075,9 @@ function Player.GetNumReforms(player, isAligned)
 		reformsTable = g_JFD_ReformsLeftRight_Table
 	end
 	
+	local governmentID = player:GetCurrentGovernment()
+	local isReligiousReformNoCapacity = GameInfo.JFD_Governments[governmentID].ReligiousReformIsNoCapacity
+	
 	--g_JFD_Reforms_Table
 	local numReforms = #reformsTable
 	for index = 1, numReforms do
@@ -4404,7 +4085,16 @@ function Player.GetNumReforms(player, isAligned)
 		local reformID = row.ID
 		if player:HasReform(reformID) then
 			numPassedReforms = numPassedReforms + 1
+			if isForCapacity and isReligiousReformNoCapacity then
+				if row.ReformBranchType == "REFORM_BRANCH_JFD_RELIGION" then
+					numPassedReforms = numPassedReforms - 1
+				end
+			end
 		end
+	end
+	
+	if isForCapacity then
+		
 	end
 
 	return numPassedReforms
@@ -4424,28 +4114,44 @@ function Player.SetHasReform(player, reformID, isReformFree, setHasReform, isIni
 	local playerIsHuman = (player:IsHuman() and player:IsTurnActive())
 	local isTriggersAnarchy = false
 	
-	local numFreeReforms = player:GetNumFreeReforms()
-	if numFreeReforms > 0 then
-		isReformFree = true
-	end
-	
 	local reform = GameInfo.JFD_Reforms[reformID]
 	local reformType = reform.Type
+	local reformSubBranchType = reform.ReformSubBranchType
 	local policyID = GameInfoTypes[reform.PolicyType]
 	if setHasReform and (not player:HasReform(reformID)) then
-	
-		--NUM FREE REFORMS
-		if isReformFree and (not isInit) then
-			player:ChangeNumFreeReforms(-1)
-		else
-		--REFORM COOLDOWN
-			local numReformCooldown = player:CalculateReformCooldown()
-			if numReformCooldown ~= 0 then
-				player:SetCurrentReformCooldown(numReformCooldown)
+		
+		--REVOLUTIONARIES
+		local numRevolutionarySentiment = g_MathFloor(player:GetTotalRevolutionarySentiment())
+		if numRevolutionarySentiment > 0 then
+			if player:IsReformOpposed(reformID) then
+				if (not player:IsHuman()) then
+					if numRevolutionarySentiment > 60 then
+						local numRandomChance = g_GetRandom(1,100)
+						if numRandomChance <= g_MathMax((numRevolutionarySentiment-60),0) then
+							player:DoStartRevolution()
+							return
+						end
+					end
+				else
+					local numRandomChance = g_GetRandom(1,100)
+					if numRandomChance <= numRevolutionarySentiment then
+						player:DoStartRevolution()
+						return
+					end
+				end
 			end
 		end
 	
 		if (not isInit) then
+			
+			--REFORM COOLDOWN
+			if playerIsHuman then
+				local numReformCooldown = player:CalculateReformCooldown(reformSubBranchType)
+				if numReformCooldown ~= 0 then
+					player:SetCurrentReformCooldown(reformSubBranchType, numReformCooldown)
+				end
+			end
+	
 			LuaEvents.JFD_ReformPassed(playerID, reformID, isReformFree)
 	
 			if playerIsHuman then
@@ -4459,7 +4165,7 @@ function Player.SetHasReform(player, reformID, isReformFree, setHasReform, isIni
 				player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_REFORM", g_ConvertTextKey("TXT_KEY_NOTIFICATION_JFD_REFORM_PASSED_TEXT", reformBranchDesc, reformDesc, reformHeaderDesc, reformPedia, reformHelpBonus, reformHelpPenalty), g_ConvertTextKey("TXT_KEY_NOTIFICATION_JFD_REFORM_PASSED_SHORT_TEXT", reformBranchDesc), false, -1, -1)
 			end
 		end
-		
+	
 		if Player.GrantPolicy then
 			player:GrantPolicy(policyID, true)
 		else
@@ -4467,6 +4173,9 @@ function Player.SetHasReform(player, reformID, isReformFree, setHasReform, isIni
 			player:SetNumFreePolicies(0)
 			player:SetHasPolicy(policyID, true)
 		end
+		
+		--UPDATE REFORM CAPCACITY
+		player:UpdateCurrentSovereignty(nil, true)
 	
 		--g_JFD_Reform_Negates_Table
 		local reformsTable = g_JFD_Reform_Negates_Table
@@ -4523,7 +4232,7 @@ function Player.SetHasReform(player, reformID, isReformFree, setHasReform, isIni
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:SetHasAllDefaultReforms
-function Player.SetHasAllDefaultReforms(player, governmentID, isInit, isLimited, isSemiLimited)
+function Player.SetHasAllDefaultReforms(player, governmentID, isInit)
 	if governmentID == governmentTribeID then 
 		return 
 	end
@@ -4532,17 +4241,15 @@ function Player.SetHasAllDefaultReforms(player, governmentID, isInit, isLimited,
 
 	--g_JFD_Reforms_Table
 	local reformsTable = g_JFD_Reforms_Table
-	if isLimited then
-		reformsTable = g_JFD_ReformsLimited_Table
-	elseif isSemiLimited then
-		reformsTable = g_JFD_ReformsSemiLimited_Table
-	end
 	local numReforms = #reformsTable
 	for index = 1, numReforms do
 		local row = reformsTable[index]
 		local reformID = row.ID
 		if row.DefaultActive then
 			player:SetHasReform(reformID, false, true, isInit)
+			if (not g_IsVMCActive) and isInit then
+				player:ChangeScoreFromScenario4(-4)
+			end
 		end
 	end
 	
@@ -4636,6 +4343,35 @@ function Player.GetReformCost(player, reformID)
 	return g_GetRound(numReformCost)
 end
 ----------------------------------------------------------------------------------------------------------------------------
+--Player:IsReformFavoured
+function Player.IsReformFavoured(player, reformID)
+	local reform = GameInfo.JFD_Reforms[reformID]
+	local reformType = reform.Type
+	local reformAlignment = reform.Alignment
+	local reformBranchType = reform.ReformBranchType
+	
+	--g_JFD_Faction_FavouredReforms_Table
+	local factionsTable = g_JFD_Faction_FavouredReforms_Table
+	local numFactions = #factionsTable
+	for index = 1, numFactions do
+		local row = factionsTable[index]
+		local factionID = GameInfoTypes[row.FactionType]
+		local factionPower = player:GetFactionPower(factionID)
+		if factionPower > 0 then
+				
+			local thisReformBranchType = row.ReformBranchType
+			local thisReformType = row.ReformType
+			if (thisReformBranchType and thisReformBranchType == reformBranchType) and ((reformAlignment == row.ReformAlignment) or (not row.ReformAlignment)) then
+				return true
+			elseif (thisReformType and reformType == thisReformType) then
+				return true
+			end
+		end
+	end
+	
+	return false
+end
+----------------------------------------------------------------------------------------------------------------------------
 --Player:GetReformOpinionFavoured
 function Player.GetReformOpinionFavoured(player, reformID)
 	local reform = GameInfo.JFD_Reforms[reformID]
@@ -4674,15 +4410,36 @@ function Player.GetReformOpinionFavoured(player, reformID)
 		end
 	end
 	
-	-- if governmentID == governmentHolyRomeID then
-		-- local reformElectorOpinionFavoured, reformElectorOpinionOpposed = player:GetReformOpinionFactionElectors(reformID)
-		-- reformOpinionFavoured = reformOpinionFavoured + reformElectorOpinionFavoured
-	-- elseif governmentID == governmentTheocracyID then
-		-- local reformClergyOpinionFavoured, reformClergyOpinionOpposed = player:GetReformOpinionFactionClergy(reform.ReformBranchType, reform.ReformAlignment)
-		-- reformOpinionFavoured = reformOpinionFavoured + reformClergyOpinionFavoured
-	-- end
-	
 	return numReformOpinionFavoured
+end
+----------------------------------------------------------------------------------------------------------------------------
+--Player:IsReformOpposed
+function Player.IsReformOpposed(player, reformID)
+	local reform = GameInfo.JFD_Reforms[reformID]
+	local reformType = reform.Type
+	local reformAlignment = reform.Alignment
+	local reformBranchType = reform.ReformBranchType
+	
+	--g_JFD_Faction_OpposedReforms_Table
+	local factionsTable = g_JFD_Faction_OpposedReforms_Table
+	local numFactions = #factionsTable
+	for index = 1, numFactions do
+		local row = factionsTable[index]
+		local factionID = GameInfoTypes[row.FactionType]
+		local factionPower = player:GetFactionPower(factionID)
+			
+		if factionPower > 0 then
+			local thisReformBranchType = row.ReformBranchType
+			local thisReformType = row.ReformType
+			if (thisReformBranchType and thisReformBranchType == reformBranchType) and ((reformAlignment == row.ReformAlignment) or (not row.ReformAlignment)) then
+				return true
+			elseif (thisReformType and reformType == thisReformType) then
+				return true
+			end
+		end
+	end
+	
+	return false
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:GetReformOpinionOpposed
@@ -4722,14 +4479,6 @@ function Player.GetReformOpinionOpposed(player, reformID)
 			end
 		end
 	end
-		
-	-- if governmentID == governmentHolyRomeID then
-		-- local reformElectorOpinionFavoured, reformElectorOpinionOpposed = player:GetReformOpinionFactionElectors(reformID)
-		-- reformOpinionOpposed = reformOpinionOpposed + reformElectorOpinionOpposed
-	-- elseif governmentID == governmentTheocracyID then
-		-- local reformClergyOpinionFavoured, reformClergyOpinionOpposed = player:GetReformOpinionFactionClergy(reform.ReformBranchType, reform.Alignment)
-		-- reformOpinionOpposed = reformOpinionOpposed + reformClergyOpinionOpposed
-	-- end
 	
 	return numReformOpinionOpposed
 end
@@ -4748,26 +4497,6 @@ function Player.CanHaveReform(player, reformID, ignoreCost, reformCost)
 	if (not reform.ShowInGovernment) then 
 		return false, false, "", ""
 	end
-
-	if reform.IsNotWithLimited then
-		if currentGovernment.IsLimited then
-			canHaveReform = false
-			isReformCooldownDisable = false
-			strReformDisableIcon = "[ICON_CROSS]"
-			strReformDisabledTT = strReformDisabledTT .. "[NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_HELP_BLOCKED")
-			return canHaveReform, isReformCooldownDisable, strReformDisableIcon, strReformDisabledTT
-		end
-	end 
-
-	if reform.IsNotWithSemiLimited then
-		if currentGovernment.IsSemiLimited then
-			canHaveReform = false
-			isReformCooldownDisable = false
-			strReformDisableIcon = "[ICON_CROSS]"
-			strReformDisabledTT = strReformDisabledTT .. "[NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_HELP_BLOCKED")
-			return canHaveReform, isReformCooldownDisable, strReformDisableIcon, strReformDisabledTT
-		end
-	end 
 
 	if player:HasReform(reformID) then 
 		canHaveReform = false
@@ -4818,7 +4547,7 @@ function Player.CanHaveReform(player, reformID, ignoreCost, reformCost)
 		end
 	end
 
-	local numReformCooldown = player:GetCurrentReformCooldown()
+	local numReformCooldown = player:GetCurrentReformCooldown(reform.ReformSubBranchType)
 	if numReformCooldown > 0 then 
 		canHaveReform = false
 		isReformCooldownDisable = true
@@ -4862,13 +4591,13 @@ function Player_GetReformSubBranchAlignmentPreference(player, reformSubBranchID)
 		local row = reformSubBranchesTable[index]	
 		if row.ReformSubBranchType == reformSubBranchType then
 			local leftFlavourType = row.LeftFlavourType
-			leftFlavourVal = leftFlavourVal + player:GetFlavorValue(leftFlavourType)
+			leftFlavourVal = leftFlavourVal + player:GetFlavorValue(leftFlavourType) + g_GetRandom(1,3)
 			local rightFlavourType = row.RightFlavourType
-			rightFlavourVal = rightFlavourVal + player:GetFlavorValue(rightFlavourType)
+			rightFlavourVal = rightFlavourVal + player:GetFlavorValue(rightFlavourType) + g_GetRandom(1,3)
 			local centreFlavourType = row.CentreFlavourType
 			centreFlavourVal = centreFlavourVal + 0
 			if centreFlavourType then
-				centreFlavourVal = centreFlavourVal + player:GetFlavorValue(centreFlavourType)
+				centreFlavourVal = centreFlavourVal + player:GetFlavorValue(centreFlavourType) + g_GetRandom(1,3)
 			end
 		end
 	end
@@ -4895,73 +4624,24 @@ end
 --Player_GetReformToPass
 function Player_GetReformToPass(playerID)
 	local player = Players[playerID]
-	if player:IsHuman() then return end
+	-- if player:IsHuman() then return end
 	if (not player:IsHasGovernment()) then return end
 	
 	local numCities = player:GetNumCities()
 	local numPop = player:GetTotalPopulation()
 		
 	local governmentID = player:GetCurrentGovernment()
-	local governmentType = GameInfo.JFD_Governments[governmentID].Type
+	local government = GameInfo.JFD_Governments[governmentID]
+	local governmentType = government.Type
+	local governmentIsSpecial = government.IsSpecial
+	local governmentIsUnique = government.IsUnique
 	local validReformsTable = {}
 	local validReformsTableCount = 1
 	
 	local currentEraID = player:GetCurrentEra()
-	if currentEraID >= eraRenaissanceID then
-			
-		local reformSubBranchAlignmentPref = Player_GetReformSubBranchAlignmentPreference(player, "REFORM_SUBBRANCH_JFD_CONSTITUTION")
-		if reformSubBranchAlignmentPref == "REFORM_LEFT" then
-			if player:CanHaveReform(reformConstitutionUncodifiedID) then	
-				return reformConstitutionUncodifiedID
-			elseif reformSubBranchAlignmentPref == "REFORM_RIGHT" then
-				if player:CanHaveReform(reformConstitutionCodifiedID) then	
-					return reformConstitutionCodifiedID
-				end
-			end
-		end
-		
-		if currentEraID == eraMedievalID then
-			
-			if (not player:HasReform(reformRelationsPersonalID)) then
-				local reformSubBranchAlignmentPref = Player_GetReformSubBranchAlignmentPreference(player, "REFORM_SUBBRANCH_JFD_RELATIONS")
-				if reformSubBranchAlignmentPref == "REFORM_LEFT" then
-					if player:CanHaveReform(reformLegislatureParliamentaryID) then
-						return reformRelationsMunicipalID
-					end
-				elseif reformSubBranchAlignmentPref == "REFORM_RIGHT" then
-					if player:CanHaveReform(reformLegislatureCongressionalID, true) then	
-						return reformRelationsManorialID
-					end
-				end
-			end
-			
-		elseif currentEraID > eraRenaissanceID then
-		
-			if (not player:HasReform(reformFactionsInterestsID)) then
-				local reformSubBranchAlignmentPref = Player_GetReformSubBranchAlignmentPreference(player, "REFORM_SUBBRANCH_JFD_LEGISLATURE")
-				if reformSubBranchAlignmentPref == "REFORM_LEFT" then
-					if player:CanHaveReform(reformLegislatureParliamentaryID) then
-						return reformLegislatureParliamentaryID
-					end
-				elseif reformSubBranchAlignmentPref == "REFORM_RIGHT" then
-					if player:CanHaveReform(reformLegislatureCongressionalID, true) then	
-						return reformLegislatureCongressionalID
-					end
-				end
-			end
-				
-			local reformSubBranchAlignmentPref = Player_GetReformSubBranchAlignmentPreference(player, "REFORM_SUBBRANCH_JFD_EXECUTIVE")
-			if reformSubBranchAlignmentPref == "REFORM_LEFT" then
-				if player:CanHaveReform(reformExecutiveConstitutionalID) then	
-					return reformExecutiveConstitutionalID
-				end
-			elseif reformSubBranchAlignmentPref == "REFORM_RIGHT" then
-				if player:CanHaveReform(reformExecutiveAbsoluteID) then	
-					return reformExecutiveAbsoluteID
-				end
-			end
-			
-			if numPop >= defineDefaultAILegislatureChoicePopThreshold then
+	if currentEraID >= eraIndustrialID then
+		if player:HasReform(reformFactionsInterestsID) then
+			if ((not governmentIsSpecial) and (not governmentIsUnique)) or (governmentIsSpecial and g_GetRandom(1,100) < 5) then
 				local reformSubBranchAlignmentPref = Player_GetReformSubBranchAlignmentPreference(player, "REFORM_SUBBRANCH_JFD_FACTIONS")
 				if reformSubBranchAlignmentPref == "REFORM_LEFT" then
 					if player:CanHaveReform(reformFactionsMultiPartyID, true) then
@@ -4970,21 +4650,6 @@ function Player_GetReformToPass(playerID)
 				elseif reformSubBranchAlignmentPref == "REFORM_RIGHT" then
 					if player:CanHaveReform(reformFactionsTwoPartyID, true) then	
 						return reformFactionsTwoPartyID
-					end
-				end
-			end
-				
-			if currentEraID >= eraIndustrialID then
-				if numCities > 8 then
-					local reformSubBranchAlignmentPref = Player_GetReformSubBranchAlignmentPreference(player, "REFORM_SUBBRANCH_JFD_STRUCTURE")
-					if reformSubBranchAlignmentPref == "REFORM_LEFT" then
-						if player:CanHaveReform(reformStructureUnitaryID) then	
-							return reformStructureUnitaryID
-						end
-					elseif reformSubBranchAlignmentPref == "REFORM_RIGHT" then
-						if player:CanHaveReform(reformStructureFederationID) then	
-							return reformStructureFederationID
-						end
 					end
 				end
 			end
@@ -5007,7 +4672,7 @@ function Player_GetReformToPass(playerID)
 			local reformID = row2.ID
 			if row2.ShowInGovernment then
 				if (row2.ReformSubBranchType == reformSubBranchType and row2.Alignment == reformSubBranchAlignmentPref) then
-					if player:CanHaveReform(reformID) then
+					if player:CanHaveReform(reformID, true) then
 						local numSovWhenNumCitiesOrLess = row2.SovereigntyWhenNumCitiesOrLess
 						local numSovWhenNumCitiesOrMore = row2.SovereigntyWhenNumCitiesOrMore
 						if (numSovWhenNumCitiesOrLess > 0 and numCities <= numSovWhenNumCitiesOrLess) 
@@ -5039,182 +4704,231 @@ function Player_GetReformToPass(playerID)
 	end
 end
 ----------------------------------------------------------------------------------------------------------------------------
--- FREE REFORM UTILS
+-- REFORM CAPACITY UTILS
 ----------------------------------------------------------------------------------------------------------------------------
---Player:GetNumFreeReforms
-function Player.GetNumFreeReforms(player)	
+--Player:CalculateReformCapacity
+function Player.CalculateReformCapacity(player)
 	local playerID = player:GetID()
-	return JFD_RTP[playerID .. "_FREE_REFORMS"] or 0
+	local numReformCapacity = 0
+	
+	local numFreeReformCapacity = player:GetFreeReformCapacity()
+	numReformCapacity = numReformCapacity + numFreeReformCapacity
+	
+	local governmentID = player:GetCurrentGovernment()
+	local government = GameInfo.JFD_Governments[governmentID]
+	
+	local numReformCapacityMod = Player_GetReformCapacityModifier(player)
+	if numReformCapacityMod ~= 0 then
+		numReformCapacity = numReformCapacity + ((numReformCapacity*numReformCapacityMod)/100)
+	end
+	
+	return g_GetRound(numReformCapacity), numFreeReformCapacity
 end
 ----------------------------------------------------------------------------------------------------------------------------
---Player:ChangeNumFreeReforms
-function Player.ChangeNumFreeReforms(player, changeVal)
-	local currentVal = player:GetNumFreeReforms()
+--Player:GetFreeReformCapacity
+function Player.GetFreeReformCapacity(player)
+	local playerID = player:GetID()
+	return JFD_RTP_Sovereignty[playerID .. "_REFORM_CAPACITY"] or 0
+end
+----------------------------------------------------------------------------------------------------------------------------
+--Player:ChangeFreeReformCapacity
+function Player.ChangeFreeReformCapacity(player, changeVal)
+	local currentVal = player:GetFreeReformCapacity()
 	local newVal = g_GetRound(currentVal+changeVal)
-	player:SetNumFreeReforms(newVal)
+	player:SetFreeReformCapacity(newVal)
+	LuaEvents.JFD_ReformCapacityExpanded(player:GetID(), changeVal)
 end
 ----------------------------------------------------------------------------------------------------------------------------
---Player:SetNumFreeReforms
-function Player.SetNumFreeReforms(player, setVal)
+--Player:SetFreeReformCapacity
+function Player.SetFreeReformCapacity(player, setVal)
 	local playerID = player:GetID()
-	JFD_RTP[playerID .. "_FREE_REFORMS"] = setVal
+	JFD_RTP_Sovereignty[playerID .. "_REFORM_CAPACITY"] = setVal
+end
+----------------------------------------------------------------------------------------------------------------------------
+--Player:IsAtReformCapacity
+function Player.IsAtReformCapacity(player)
+	local numReformCapacity = player:CalculateReformCapacity()
+	local numReforms = player:GetNumReforms(true, true)
+	if numReforms == numReformCapacity then
+		return true
+	end
+	return false
+end
+----------------------------------------------------------------------------------------------------------------------------
+--Player:IsOverReformCapacity
+function Player.IsOverReformCapacity(player)
+	local numReformCapacity = player:CalculateReformCapacity()
+	local numReforms = player:GetNumReforms(true, true)
+	if numReforms > numReformCapacity then
+		return true
+	end
+	return false
+end
+----------------------------------------------------------------------------------------------------------------------------
+--Player:IsUnderReformCapacity
+function Player.IsUnderReformCapacity(player)
+	local numReformCapacity = player:CalculateReformCapacity()
+	local numReforms = player:GetNumReforms(true, true)
+	if numReforms < numReformCapacity then
+		return true, (numReformCapacity-numReforms)
+	end
+	return false
+end
+----------------------------------------------------------------------------------------------------------------------------
+--Player:GetReformCapacitySovModifier
+function Player.GetReformCapacitySovModifier(player, numReforms, numReformCapacity)
+	local numOverReform = g_MathMax(numReforms-numReformCapacity,0)
+	local numSovMod = (numOverReform*10)
+	
+	local numSovModMod = 0
+	--g_JFD_Reforms_Table
+	local reformsTable = g_JFD_Reforms_Table
+	local numReforms = #reformsTable
+	for index = 1, numReforms do
+		local row = reformsTable[index]
+		local numThisReformCapacitySovMod = row.ReformCapacitySovMod
+		if numThisReformCapacitySovMod ~= 0 then
+			local reformID = row.ID
+			if player:HasReform(reformID) then
+				numSovModMod = numSovModMod + numThisReformCapacitySovMod
+			end
+		end
+	end
+	
+	--g_Building_JFD_SovereigntyMods_Table
+	local buildingsTable = g_Building_JFD_SovereigntyMods_Table
+	local numBuildings = #buildingsTable
+	for index = 1, numBuildings do
+		local row = buildingsTable[index]
+		local numThisReformCapacitySovMod = row.ReformCapacitySovMod
+		if numThisReformCapacitySovMod ~= 0 then
+			local buildingID = GameInfoTypes[row.BuildingType]
+			local buildingCount = player:CountNumBuildings(buildingID)
+			if buildingCount > 0 then
+				numThisReformCapacitySovMod = (numThisReformCapacitySovMod*buildingCount)
+				numSovModMod = numSovModMod + numThisReformCapacitySovMod
+			end
+		end
+	end
+			
+	--g_Policy_JFD_SovereigntyMods_Table
+	local policiesTable = g_Policy_JFD_SovereigntyMods_Table
+	local numPolicies = #policiesTable
+	for index = 1, numPolicies do
+		local row = policiesTable[index]
+		local numThisReformCapacitySovMod = row.ReformCapacitySovMod
+		if numThisReformCapacitySovMod ~= 0 then
+			local policyID = GameInfoTypes[row.PolicyType]
+			if player:HasPolicy(policyID) then
+				numSovModMod = numSovModMod + numThisReformCapacitySovMod
+			end
+		end
+	end
+			
+	if Player.HasTrait then
+		--g_Trait_JFD_SovereigntyMods_Table
+		local traitsTable = g_Trait_JFD_SovereigntyMods_Table
+		local numTraits = #traitsTable
+		for index = 1, numTraits do
+			local row = traitsTable[index]
+			local numThisReformCapacitySovMod = row.ReformCapacitySovMod
+			if numThisReformCapacitySovMod ~= 0 then
+				local traitID = GameInfoTypes[row.TraitType]
+				if player:HasTrait(traitID) then
+					numSovModMod = numSovModMod + numThisReformCapacitySovMod
+				end
+			end
+		end
+	end
+	if numSovModMod ~= 0 then
+		numSovMod = numSovMod + ((numSovMod*numSovModMod)/100)
+	end
+	
+	return numSovMod
 end
 ----------------------------------------------------------------------------------------------------------------------------
 -- REFORM COOLDOWN UTILS
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:GetCurrentReformCooldown
-function Player.GetCurrentReformCooldown(player)
-	if Player.GetReformCooldown then
-		return player:GetReformCooldown()
-	else
-		local playerID = player:GetID()
-		return JFD_RTP[playerID .. "_REFORM_COOLDOWN_TURNS"] or 0
-	end	
+function Player.GetCurrentReformCooldown(player, reformSubBranchType)
+	return JFD_RTP_Sovereignty[reformSubBranchType .. "_COOLDOWN_TURNS"] or 0
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:ChangeCurrentReformCooldown
-function Player.ChangeCurrentReformCooldown(player, changeVal)
-	if Player.ChangeReformCooldown then
-		player:ChangeReformCooldown(changeVal)
-	else
-		local currentVal = player:GetCurrentReformCooldown()
-		local newVal = g_GetRound(currentVal+changeVal)
-		player:SetCurrentReformCooldown(newVal)
-	end	
+function Player.ChangeCurrentReformCooldown(player, reformSubBranchType, changeVal)
+	local currentVal = player:GetCurrentReformCooldown(reformSubBranchType)
+	local newVal = g_GetRound(currentVal+changeVal)
+	player:SetCurrentReformCooldown(reformSubBranchType, newVal)
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:SetCurrentReformCooldown
-function Player.SetCurrentReformCooldown(player, setVal)
+function Player.SetCurrentReformCooldown(player, reformSubBranchType, setVal)
 	if setVal <= 0 then setVal = 0 end
 
-	if Player.SetReformCooldown then
-		player:SetReformCooldown(setVal)
-	else
-		local playerID = player:GetID()
-		JFD_RTP[playerID .. "_REFORM_COOLDOWN_TURNS"] = setVal
-		LuaEvents.JFD_ReformCooldownChanges(player:GetID(), setVal)
-	end	
+	JFD_RTP_Sovereignty[reformSubBranchType .. "_COOLDOWN_TURNS"] = setVal
+	LuaEvents.JFD_ReformCooldownChanges(player:GetID(), reformSubBranchType, setVal)
 end
 ----------------------------------------------------------------------------------------------------------------------------
---g_JFD_Reforms_RevolutionarySentimentCooldownMod_Table
-local g_JFD_Reforms_RevolutionarySentimentCooldownMod_Table = {}
-local g_JFD_Reforms_RevolutionarySentimentCooldownMod_Count = 1
-for row in DB.Query("SELECT ID, RevolutionarySentimentCooldownMod FROM JFD_Reforms WHERE ShowInGovernment = 1 AND RevolutionarySentimentCooldownMod <> 0;") do 	
-	g_JFD_Reforms_RevolutionarySentimentCooldownMod_Table[g_JFD_Reforms_RevolutionarySentimentCooldownMod_Count] = row
-	g_JFD_Reforms_RevolutionarySentimentCooldownMod_Count = g_JFD_Reforms_RevolutionarySentimentCooldownMod_Count + 1
-end
-
 --Player:CalculateReformCooldown
-function Player.CalculateReformCooldown(player, returnsTT)
-	local numCurrentReformCooldown = player:GetCurrentReformCooldown()
-	local numReformCooldown = defineDefaultReformCooldownTurns
-	local numReformCooldownModTotal = 0
-	local strReformCooldownTT = ""
-	local strReformCooldownModTT = ""
+function Player.CalculateReformCooldown(player, reformSubBranchType)
+	local numReformCooldown = defineDefaultReformCooldown
 	
-	--Revolutionary Sentiment
-	local numRevolutionarySentiment = player:GetTotalRevolutionarySentiment()
-	if numRevolutionarySentiment > 0 then
-		
-		--g_JFD_Reforms_RevolutionarySentimentCooldownMod_Table
-		local reformsTable = g_JFD_Reforms_RevolutionarySentimentCooldownMod_Table
-		local numReforms = #reformsTable
-		for index = 1, numReforms do
-			local row = reformsTable[index]
-			local reformID = row.ID
-			if player:HasReform(reformID) then
-				numRevolutionarySentiment = numRevolutionarySentiment + ((numRevolutionarySentiment*row.RevolutionarySentimentCooldownMod)/100)
-			end
-		end
-		
-		numReformCooldown = numReformCooldown + g_GetRound((numReformCooldown*numRevolutionarySentiment)/100)
-		if returnsTT then
-			if numRevolutionarySentiment > 0 then
-				strReformCooldownModTT = strReformCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_REVOLUTIONARY_SENTIMENT", "[COLOR_WARNING_TEXT]+" .. numRevolutionarySentiment .. "%[ENDCOLOR]")
-			else
-				strReformCooldownModTT = strReformCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_REVOLUTIONARY_SENTIMENT", "[COLOR_POSITIVE_TEXT_TEXT]" .. numRevolutionarySentiment .. "%[ENDCOLOR]")
-			end
-		end
-	end	
-	
-	--Cities
-	local numReformCooldownModPerCity = (defineDefaultReformCooldownTurnsModPerCity*player:GetNumCities())
-	--g_Building_JFD_SovereigntyMods_Table
-	local buildingsTable = g_Building_JFD_SovereigntyMods_Table
-	local numBuildings = #buildingsTable
-	for index = 1, numBuildings do
-		local row = buildingsTable[index]
-		local numThisReformCooldownMod = row.ReformCooldownModPerCity
-		if numThisReformCooldownMod ~= 0 then
-			local buildingID = GameInfoTypes[row.BuildingType]
-			local buildingCount = player:CountNumBuildings(buildingID)
-			if buildingCount > 0 then
-				numThisReformCooldownMod = (numThisReformCooldownMod*buildingCount)
-				numReformCooldownModPerCity = numReformCooldownModPerCity + ((numReformCooldownModPerCity*numThisReformCooldownMod)/100)
-			end
-		end
-	end
-	numReformCooldownModPerCity = g_GetRound(numReformCooldownModPerCity)
-	if numReformCooldownModPerCity > 0 then
-		numReformCooldownModTotal = numReformCooldownModTotal + numReformCooldownModPerCity
-		if returnsTT then
-			strReformCooldownModTT = strReformCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_CITIES", "[COLOR_WARNING_TEXT]+" .. numReformCooldownModPerCity .. "%[ENDCOLOR]")
-		end
-	end
-	
-	--Citizens
-	local numReformCooldownModPerCitizen = (defineDefaultReformCooldownTurnsModPerCitizen*player:GetTotalPopulation())
-	--g_Building_JFD_SovereigntyMods_Table
-	local buildingsTable = g_Building_JFD_SovereigntyMods_Table
-	local numBuildings = #buildingsTable
-	for index = 1, numBuildings do
-		local row = buildingsTable[index]
-		local numThisReformCooldownMod = row.ReformCooldownModPerCitizen
-		if numThisReformCooldownMod ~= 0 then
-			local buildingID = GameInfoTypes[row.BuildingType]
-			local buildingCount = player:CountNumBuildings(buildingID)
-			if buildingCount > 0 then
-				numThisReformCooldownMod = (numThisReformCooldownMod*buildingCount)
-				numReformCooldownModPerCitizen = numReformCooldownModPerCitizen + ((numReformCooldownModPerCitizen*numThisReformCooldownMod)/100)
-			end
-		end
-	end
-	numReformCooldownModPerCitizen = g_GetRound(numReformCooldownModPerCitizen)
-	if numReformCooldownModPerCitizen > 0 then
-		numReformCooldownModTotal = numReformCooldownModTotal + numReformCooldownModPerCitizen
-		if returnsTT then
-			strReformCooldownModTT = strReformCooldownModTT .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_CITIZENS", "[COLOR_WARNING_TEXT]+" .. numReformCooldownModPerCitizen .. "%[ENDCOLOR]")
-		end
-	end
-	
-	local numReformCooldownMod, strNumReformCooldownModTT = Player_GetReformCooldownModifier(player, returnsTT)
+	local numReformCooldownMod = Player_GetReformCooldownModifier(player, reformSubBranchType)
 	if numReformCooldownMod ~= 0 then
-		numReformCooldownModTotal = numReformCooldownModTotal + numReformCooldownMod
-	end
-	
-	if numReformCooldownModTotal ~= 0 then
-		if numReformCooldownModTotal > 0 then
-			numReformCooldownModTotal = g_MathMin(numReformCooldownModTotal, defineDefaultReformCooldownModCap)
-		else
-			numReformCooldownModTotal = g_MathMin(numReformCooldownModTotal, (defineDefaultReformCooldownModCap*-1))
-		end
-		numReformCooldown = numReformCooldown + ((numReformCooldown*numReformCooldownModTotal)/100)
-	end
-	numReformCooldown = g_GetRound(numReformCooldown)
-	
-	if returnsTT then
-		if strReformCooldownModTT ~= "" then
-			strReformCooldownTT = g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_COOLDOWN_TT", numCurrentReformCooldown, numReformCooldown) .. strReformCooldownModTT .. strNumReformCooldownModTT
-		else
-			strReformCooldownTT = g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_COOLDOWN_TT", numCurrentReformCooldown, numReformCooldown) .. strNumReformCooldownModTT
-		end
-	end
-	
-	if (not player:IsHuman()) then
-		numReformCooldown = g_GetRound(numReformCooldown/2)
+		numReformCooldown = numReformCooldown + ((numReformCooldown*numReformCooldownMod)/100)
+		numReformCooldown = g_GetRound(numReformCooldown)
 	end
 
-	return numReformCooldown, numCurrentReformCooldown, strReformCooldownTT
+	return numReformCooldown, numCurrentReformCooldown
+end
+----------------------------------------------------------------------------------------------------------------------------
+-- REVOLUTIONARIES UTILS
+----------------------------------------------------------------------------------------------------------------------------
+--Player:DoStartRevolution
+function Player.DoStartRevolution(player)
+	print("Revolution started for ", player:GetName())
+	
+	--g_JFD_Factions_Table
+	local factionsTable = g_JFD_Factions_Table
+	local numFactions = #factionsTable
+	for index = 1, numFactions do
+		local row = factionsTable[index]
+		local thisFactionID = row.ID
+		player:SetFactionPower(thisFactionID, 0)
+	end
+	player:SetFactionPower(factionRevolutionariesID, 100)
+	player:SetAnarchyNumTurns(1)
+	
+	if player:IsHuman() and player:IsTurnActive() then
+		local factionDesc = player:GetFactionName(factionRevolutionariesID)
+		Events.AudioPlay2DSound("AS2D_SOUND_JFD_ANARCHY");
+		player:SendNotification("NOTIFICATION_JFD_GOVERNMENT_ACTIVE_PLAYER", g_ConvertTextKey("TXT_KEY_NOTIFICATION_JFD_REVOLUTION_BEGINS_DESC", factionDesc, 1), g_ConvertTextKey("TXT_KEY_NOTIFICATION_JFD_REVOLUTION_BEGINS_SHORT_DESC", factionDesc), false, nil, nil, governmentAnarchyID)
+		LuaEvents.UI_ShowNewLegislaturePopup(playerID, governmentID, true)
+	else
+		local factionDesc = player:GetFactionName(factionRevolutionariesID)
+		player:SendWorldEvent(g_ConvertTextKey("TXT_KEY_WORLD_EVENT_JFD_NEW_LEGISLATURE_DESC_REVOLUTIONARIES", factionDesc, player:GetCivilizationAdjective()))
+	end
+end
+----------------------------------------------------------------------------------------------------------------------------
+--Player:IsInRevolution
+function Player.IsInRevolution(player)
+	return (player:GetDominantFaction() == factionRevolutionariesID)
+end
+----------------------------------------------------------------------------------------------------------------------------
+--Player:DoEndRevolution
+function Player.DoEndRevolution(player, isFromGovChange)
+	player:SetFactionPower(factionRevolutionariesID, 0)
+	player:SetAnarchyNumTurns(0)
+	if player:IsHuman() and player:IsTurnActive() then
+		local faction = GameInfo.JFD_Factions[factionRevolutionariesID]
+		local factionDesc = player:GetFactionName(factionRevolutionariesID)
+		Events.AudioPlay2DSound("AS2D_SOUND_JFD_ANARCHY_ENDS");
+		player:SendNotification("NOTIFICATION_JFD_GOVERNMENT", g_ConvertTextKey("TXT_KEY_NOTIFICATION_JFD_REVOLUTION_ENDS_DESC", factionDesc), g_ConvertTextKey("TXT_KEY_NOTIFICATION_JFD_REVOLUTION_ENDS_SHORT_DESC", factionDesc), false, -1, -1)
+	end
+	if (not isFromGovChange) then
+		local governmentID = player:GetCurrentGovernment()
+		player:ResetLegislature(governmentID)
+	end
 end
 ----------------------------------------------------------------------------------------------------------------------------
 -- REVOLUTIONARY SENTIMENT UTILS
@@ -5232,9 +4946,16 @@ function Player.GetTotalRevolutionarySentiment(player, returnsTT)
 	local currentGovernmentID = player:GetCurrentGovernment()
 	local currentGovernment = GameInfo.JFD_Governments[currentGovernmentID]
 	
-	local numRevolutionarySentimentBase = (player:GetNumReforms(true)*defineDefaultReformRevSentiment)
-	local numRevolutionarySentiment = numRevolutionarySentimentBase
+	if currentGovernment.IsNoRevSentiment then
+		return 0, g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REVOLUTIONARY_SENTIMENT_TT_DISABLED")
+	end	
 	
+	local numRevolutionarySentiment = 0
+	local strRevolutionarySentimentTT = ""
+	
+	--OPPOSITION	
+	local numRevolutionarySentimentPerReform = 1
+	local numRevolutionarySentimentOpposition = 0
 	--g_JFD_Reforms_RevolutionarySentimentPerReform_Table
 	local reformsTable = g_JFD_Reforms_RevolutionarySentimentPerReform_Table
 	local numGovts = #reformsTable
@@ -5242,74 +4963,12 @@ function Player.GetTotalRevolutionarySentiment(player, returnsTT)
 		local row = reformsTable[index]
 		local reformID = row.ID
 		if player:HasReform(reformID) then
-			numRevolutionarySentiment = numRevolutionarySentiment + row.RevolutionarySentimentPerReform
+			numRevolutionarySentimentPerReform = numRevolutionarySentimentPerReform + ((numRevolutionarySentimentPerReform*row.RevolutionarySentimentPerReform)/100)
 		end
 	end
 	
-	local numRevolutionarySentimentMod, strRevolutionarySentimentModTT = Player_GetRevolutionarySentimentModifier(player, returnsTT)
-	
-	if numRevolutionarySentimentMod > 0 then
-		numRevolutionarySentiment = numRevolutionarySentiment + ((numRevolutionarySentiment*numRevolutionarySentimentMod)/100)
-	end
-	numRevolutionarySentiment = g_GetRound(numRevolutionarySentiment,2)
-	
-	if returnsTT then
-		strRevolutionarySentimentModTT = g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_RATE", numRevolutionarySentiment, numRevolutionarySentimentBase) .. strRevolutionarySentimentModTT
-	end
-
-	return numRevolutionarySentiment, strRevolutionarySentimentModTT
-end
-----------------------------------------------------------------------------------------------------------------------------
--- REVOLUTIONARY SENTIMENT MODIFIER UTILS
-----------------------------------------------------------------------------------------------------------------------------
---g_JFD_Reforms_RevolutionarySentimentMods_Table
-local g_JFD_Reforms_RevolutionarySentimentMods_Table = {}
-local g_JFD_Reforms_RevolutionarySentimentMods_Count = 1
-for row in DB.Query("SELECT ID, RevolutionarySentimentModPerCity, RevolutionarySentimentModPerPop FROM JFD_Reforms WHERE ShowInGovernment = 1 AND (RevolutionarySentimentModPerCity <> 0 OR RevolutionarySentimentModPerPop <> 0);") do 	
-	g_JFD_Reforms_RevolutionarySentimentMods_Table[g_JFD_Reforms_RevolutionarySentimentMods_Count] = row
-	g_JFD_Reforms_RevolutionarySentimentMods_Count = g_JFD_Reforms_RevolutionarySentimentMods_Count + 1
-end
-
---Player_GetRevolutionarySentimentModifier
-function Player_GetRevolutionarySentimentModifier(player, returnsTT)
-	local numCities = player:GetNumCities()
-	local numPopulation = player:GetTotalPopulation()
-
-	local numRevolutionarySentimentMod = 0
-	local strRevolutionarySentimentModTT = ""
-	
-	local numRevolutionarySentimentModUnhappiness = g_MathMax(player:GetExcessHappiness()*-1,0)*10
-	numRevolutionarySentimentMod = numRevolutionarySentimentMod + numRevolutionarySentimentModUnhappiness
-	if returnsTT then
-		if numRevolutionarySentimentModUnhappiness > 0 then
-			strRevolutionarySentimentModTT = strRevolutionarySentimentModTT .. g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_UNHAPPINESS", "[COLOR_WARNING_TEXT]+" .. numRevolutionarySentimentModUnhappiness .. "%[ENDCOLOR]")
-		end
-	end
-				
-	--g_JFD_Governments_Table
-	local govtsTable = g_JFD_Governments_Table
-	local numGovts = #govtsTable
-	for index = 1, numGovts do
-		local row = govtsTable[index]
-		local numThisRevolutionarySentimentMod = row.RevolutionarySentimentMod
-		if numThisRevolutionarySentimentMod ~= 0 then
-			local governmentID = row.ID
-			if player:IsHasGovernment(governmentID) then
-				numRevolutionarySentimentMod = numRevolutionarySentimentMod + numThisRevolutionarySentimentMod
-				if returnsTT then
-					if numThisRevolutionarySentimentMod > 0 then
-						strRevolutionarySentimentModTT = strRevolutionarySentimentModTT .. g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_GOVERNMENT", "[COLOR_WARNING_TEXT]+" .. numThisRevolutionarySentimentMod .. "%[ENDCOLOR]")
-					else
-						strRevolutionarySentimentModTT = strRevolutionarySentimentModTT .. g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_GOVERNMENT", "[COLOR_POSITIVE_TEXT]" .. numThisRevolutionarySentimentMod .. "%[ENDCOLOR]")
-					end
-				end
-			end
-		end
-	end
-	
-	local numRevolutionarySentimentModOpposition = 0
-	--g_JFD_ReformsLeftRight_Table
-	local reformsTable = g_JFD_ReformsLeftRight_Table
+	--g_JFD_Reforms_Table
+	local reformsTable = g_JFD_Reforms_Table
 	local numReforms = #reformsTable
 	for index = 1, numReforms do
 		local row = reformsTable[index]
@@ -5327,64 +4986,42 @@ function Player_GetRevolutionarySentimentModifier(player, returnsTT)
 					local factionID = GameInfoTypes[row.FactionType]
 					local factionPower = player:GetFactionPower(factionID)
 					if factionPower > 0 then
-						local numThisRevolutionarySentimentMod = factionPower
-						numRevolutionarySentimentModOpposition = numRevolutionarySentimentModOpposition + numThisRevolutionarySentimentMod
+						numRevolutionarySentimentOpposition = numRevolutionarySentimentOpposition + ((numRevolutionarySentimentPerReform*factionPower)/100)
 					end
 				end
 			end
 		end
 	end
-	if numRevolutionarySentimentModOpposition ~= 0 then
-		numRevolutionarySentimentMod = numRevolutionarySentimentMod + numRevolutionarySentimentModOpposition
-		if returnsTT then
-			if numRevolutionarySentimentModOpposition > 0 then
-				strRevolutionarySentimentModTT = strRevolutionarySentimentModTT .. g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_OPPOSITION", "[COLOR_WARNING_TEXT]+" .. numRevolutionarySentimentModOpposition .. "%[ENDCOLOR]")
-			else
-				strRevolutionarySentimentModTT = strRevolutionarySentimentModTT .. g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_OPPOSITION", "[COLOR_POSITIVE_TEXT]" .. numRevolutionarySentimentModOpposition .. "%[ENDCOLOR]")
-			end
+	numRevolutionarySentiment = numRevolutionarySentimentOpposition
+	if returnsTT then
+		strRevolutionarySentimentTT = g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_OPPOSITION", "[COLOR_WARNING_TEXT]+" .. numRevolutionarySentimentOpposition .. "[ENDCOLOR]")
+	end
+	
+	local numRevolutionarySentimentMod, strRevolutionarySentimentModTT = Player_GetRevolutionarySentimentModifier(player, returnsTT)
+	if numRevolutionarySentimentMod ~= 0 then
+		numRevolutionarySentiment = numRevolutionarySentiment + ((numRevolutionarySentiment*numRevolutionarySentimentMod)/100)
+	end	
+	numRevolutionarySentiment = g_GetRound(numRevolutionarySentiment)
+	numRevolutionarySentiment = g_MathMax(numRevolutionarySentiment,0)
+	if returnsTT then
+		strRevolutionarySentimentTT = g_ConvertTextKey("TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REVOLUTIONARY_SENTIMENT_TT", numRevolutionarySentiment) .. strRevolutionarySentimentTT
+		if strRevolutionarySentimentModTT ~= "" then
+			strRevolutionarySentimentTT = strRevolutionarySentimentTT .. strRevolutionarySentimentModTT
 		end
 	end
 
-	local numRevolutionarySentimentModCities = 0
-	local numRevolutionarySentimentModPopulation = 0
-	--g_JFD_Reforms_RevolutionarySentimentMods_Table
-	local reformsTable = g_JFD_Reforms_RevolutionarySentimentMods_Table
-	local numReforms = #reformsTable
-	for index = 1, numReforms do
-		local row = reformsTable[index]
-		local reformID = row.ID
-		if player:HasReform(reformID) then
-			local numRevolutionarySentimentModPerCity = row.RevolutionarySentimentModPerCity
-			if numRevolutionarySentimentModPerCity ~= 0 then
-				numRevolutionarySentimentModCities = numRevolutionarySentimentModCities + (numRevolutionarySentimentModPerCity*numCities)
-			end
+	return numRevolutionarySentiment, strRevolutionarySentimentTT
+end
+----------------------------------------------------------------------------------------------------------------------------
+-- REVOLUTIONARY SENTIMENT MODIFIER UTILS
+----------------------------------------------------------------------------------------------------------------------------
+--Player_GetRevolutionarySentimentModifier
+function Player_GetRevolutionarySentimentModifier(player, returnsTT)
+	local numCities = player:GetNumCities()
+	local numPopulation = player:GetTotalPopulation()
 
-			local numRevolutionarySentimentModPerPop = row.RevolutionarySentimentModPerPop
-			if numRevolutionarySentimentModPerPop ~= 0 then
-				numRevolutionarySentimentModPopulation = numRevolutionarySentimentModPopulation + (numRevolutionarySentimentModPerPop*numPopulation)
-			end
-		end
-	end
-	if numRevolutionarySentimentModCities ~= 0 then
-		numRevolutionarySentimentMod = numRevolutionarySentimentMod + numRevolutionarySentimentModCities
-		if returnsTT then
-			if numRevolutionarySentimentModCities > 0 then
-				strRevolutionarySentimentModTT = strRevolutionarySentimentModTT .. g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_CITIES", "[COLOR_WARNING_TEXT]+" .. numRevolutionarySentimentModCities .. "%[ENDCOLOR]")
-			else
-				strRevolutionarySentimentModTT = strRevolutionarySentimentModTT .. g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_CITIES", "[COLOR_POSITIVE_TEXT]" .. numRevolutionarySentimentModCities .. "%[ENDCOLOR]")
-			end
-		end
-	end
-	if numRevolutionarySentimentModPopulation ~= 0 then
-		numRevolutionarySentimentMod = numRevolutionarySentimentMod + numRevolutionarySentimentModPopulation
-		if returnsTT then
-			if numRevolutionarySentimentModPopulation > 0 then
-				strRevolutionarySentimentModTT = strRevolutionarySentimentModTT .. g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_POPULATION", "[COLOR_WARNING_TEXT]+" .. numRevolutionarySentimentModPopulation .. "%[ENDCOLOR]")
-			else
-				strRevolutionarySentimentModTT = strRevolutionarySentimentModTT .. g_ConvertTextKey("TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_POPULATION", "[COLOR_POSITIVE_TEXT]" .. numRevolutionarySentimentModPopulation .. "%[ENDCOLOR]")
-			end
-		end
-	end
+	local numRevolutionarySentimentMod = 0
+	local strRevolutionarySentimentModTT = ""
 			
 	local numRevolutionarySentimentModReforms = 0
 	--g_JFD_Reforms_Table
@@ -5494,29 +5131,92 @@ end
 ----------------------------------------------------------------------------------------------------------------------------
 -- REFORM MODIFIER UTILS
 ----------------------------------------------------------------------------------------------------------------------------
---Player_GetReformCooldownModifier
-function Player_GetReformCooldownModifier(player, returnsTT)
-	local numReformCooldownMod = 0
-	local strNumReformCooldownMod = ""
+--Player_GetReformCapacityModifier
+function Player_GetReformCapacityModifier(player, returnsTT)
+	local numReformCapacityMod = 0
+	local strNumReformCapacityMod = ""
+	
+	local governmentID = player:GetCurrentGovernment()
+	local numReformCapacityModAtWar = GameInfo.JFD_Governments[governmentID].ReformCapacityModAtWar
+	if numReformCapacityModAtWar > 0 then
+		local playerTeam = Teams[player:GetTeam()]
+		if playerTeam:GetAtWarCount(true) > 0 then
+			numReformCapacityMod = numReformCapacityMod + numReformCapacityModAtWar
+		end
+	end
 
-	--g_JFD_Governments_Table
-	local govtsTable = g_JFD_Governments_Table
-	local numGovts = #govtsTable
-	for index = 1, numGovts do
-		local row = govtsTable[index]
-		local numThisReformCooldownMod = row.ReformCooldownMod
-		if numThisReformCooldownMod ~= 0 then
-			local governmentID = row.ID
-			if player:IsHasGovernment(governmentID) then
-				numReformCooldownMod = numReformCooldownMod + numThisReformCooldownMod
-				if returnsTT then
-					if numThisReformCooldownMod > 0 then
-						strNumReformCooldownMod = strNumReformCooldownMod .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_GOVERNMENT", "[COLOR_WARNING_TEXT]+" .. numThisReformCooldownMod .. "%[ENDCOLOR]")
-					else
-						strNumReformCooldownMod = strNumReformCooldownMod .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_GOVERNMENT", "[COLOR_POSITIVE_TEXT]" .. numThisReformCooldownMod .. "%[ENDCOLOR]")
-					end
+	--g_JFD_Reforms_Table
+	local reformsTable = g_JFD_Reforms_Table
+	local numReforms = #reformsTable
+	for index = 1, numReforms do
+		local row = reformsTable[index]
+		local numThisReformCapacityMod = row.ReformCapacityMod
+		if numThisReformCapacityMod ~= 0 then
+			local reformID = row.ID
+			if player:HasReform(reformID) then
+				numReformCapacityMod = numReformCapacityMod + numThisReformCapacityMod
+			end
+		end
+	end
+	
+	--g_Building_JFD_SovereigntyMods_Table
+	local buildingsTable = g_Building_JFD_SovereigntyMods_Table
+	local numBuildings = #buildingsTable
+	for index = 1, numBuildings do
+		local row = buildingsTable[index]
+		local numThisReformCapacityMod = row.ReformCapacityMod
+		if numThisReformCapacityMod ~= 0 then
+			local buildingID = GameInfoTypes[row.BuildingType]
+			local buildingCount = player:CountNumBuildings(buildingID)
+			if buildingCount > 0 then
+				numThisReformCapacityMod = (numThisReformCapacityMod*buildingCount)
+				numReformCapacityMod = numReformCapacityMod + numThisReformCapacityMod
+			end
+		end
+	end
+			
+	--g_Policy_JFD_SovereigntyMods_Table
+	local policiesTable = g_Policy_JFD_SovereigntyMods_Table
+	local numPolicies = #policiesTable
+	for index = 1, numPolicies do
+		local row = policiesTable[index]
+		local numThisReformCapacityMod = row.ReformCapacityMod
+		if numThisReformCapacityMod ~= 0 then
+			local policyID = GameInfoTypes[row.PolicyType]
+			if player:HasPolicy(policyID) then
+				numReformCapacityMod = numReformCapacityMod + numThisReformCapacityMod
+			end
+		end
+	end
+			
+	if Player.HasTrait then
+		--g_Trait_JFD_SovereigntyMods_Table
+		local traitsTable = g_Trait_JFD_SovereigntyMods_Table
+		local numTraits = #traitsTable
+		for index = 1, numTraits do
+			local row = traitsTable[index]
+			local numThisReformCapacityMod = row.ReformCapacityMod
+			if numThisReformCapacityMod ~= 0 then
+				local traitID = GameInfoTypes[row.TraitType]
+				if player:HasTrait(traitID) then
+					numReformCapacityMod = numReformCapacityMod + numThisReformCapacityMod
 				end
 			end
+		end
+	end
+	
+	return numReformCapacityMod, strNumReformCapacityMod
+end
+----------------------------------------------------------------------------------------------------------------------------
+--Player_GetReformCooldownModifier
+function Player_GetReformCooldownModifier(player, reformSubBranchType)
+	local numReformCooldownMod = 0
+
+	if GameInfo.JFD_ReformSubBranches[reformSubBranchType].ReformBranchType == "REFORM_BRANCH_JFD_RELIGION" then
+		local governmentID = player:GetCurrentGovernment()
+		local numReformCooldownModReligious = GameInfo.JFD_Governments[governmentID].ReligiousReformCooldownMod
+		if numReformCooldownModReligious ~= 0 then
+			numReformCooldownMod = numReformCooldownMod + numReformCooldownModReligious
 		end
 	end
 			
@@ -5527,16 +5227,9 @@ function Player_GetReformCooldownModifier(player, returnsTT)
 		local row = reformsTable[index]
 		local numThisReformCooldownMod = row.ReformCooldownMod
 		if numThisReformCooldownMod ~= 0 then
-			local reformID = GameInfoTypes[row.ReformType]
+			local reformID = row.ID
 			if player:HasReform(reformID) then
 				numReformCooldownMod = numReformCooldownMod + numThisReformCooldownMod
-				if returnsTT then
-					if numThisReformCooldownMod > 0 then
-						strNumReformCooldownMod = strNumReformCooldownMod .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_REFORMS", "[COLOR_WARNING_TEXT]+" .. numThisReformCooldownMod .. "%[ENDCOLOR]")
-					else
-						strNumReformCooldownMod = strNumReformCooldownMod .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_REFORMS", "[COLOR_POSITIVE_TEXT]" .. numThisReformCooldownMod .. "%[ENDCOLOR]")
-					end
-				end
 			end
 		end
 	end
@@ -5553,13 +5246,6 @@ function Player_GetReformCooldownModifier(player, returnsTT)
 			if buildingCount > 0 then
 				numThisReformCooldownMod = (numThisReformCooldownMod*buildingCount)
 				numReformCooldownMod = numReformCooldownMod + numThisReformCooldownMod
-				if returnsTT then
-					if numThisReformCooldownMod > 0 then
-						strNumReformCooldownMod = strNumReformCooldownMod .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_BUILDINGS", "[COLOR_WARNING_TEXT]+" .. numThisReformCooldownMod .. "%[ENDCOLOR]")
-					else
-						strNumReformCooldownMod = strNumReformCooldownMod .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_BUILDINGS", "[COLOR_POSITIVE_TEXT]" .. numThisReformCooldownMod .. "%[ENDCOLOR]")
-					end
-				end
 			end
 		end
 	end
@@ -5574,13 +5260,6 @@ function Player_GetReformCooldownModifier(player, returnsTT)
 			local policyID = GameInfoTypes[row.PolicyType]
 			if player:HasPolicy(policyID) then
 				numReformCooldownMod = numReformCooldownMod + numThisReformCooldownMod
-				if returnsTT then
-					if numThisReformCooldownMod > 0 then
-						strNumReformCooldownMod = strNumReformCooldownMod .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_POLICIES", "[COLOR_WARNING_TEXT]+" .. numThisReformCooldownMod .. "%[ENDCOLOR]")
-					else
-						strNumReformCooldownMod = strNumReformCooldownMod .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_POLICIES", "[COLOR_POSITIVE_TEXT]" .. numThisReformCooldownMod .. "%[ENDCOLOR]")
-					end
-				end
 			end
 		end
 	end
@@ -5596,37 +5275,33 @@ function Player_GetReformCooldownModifier(player, returnsTT)
 				local traitID = GameInfoTypes[row.TraitType]
 				if player:HasTrait(traitID) then
 					numReformCooldownMod = numReformCooldownMod + numThisReformCooldownMod
-					if returnsTT then
-						if numThisReformCooldownMod > 0 then
-							strNumReformCooldownMod = strNumReformCooldownMod .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_TRAITS", "[COLOR_WARNING_TEXT]+" .. numThisReformCooldownMod .. "%[ENDCOLOR]")
-						else
-							strNumReformCooldownMod = strNumReformCooldownMod .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_TRAITS", "[COLOR_POSITIVE_TEXT]" .. numThisReformCooldownMod .. "%[ENDCOLOR]")
-						end
-					end
 				end
 			end
 		end
 	end
 	
-	return numReformCooldownMod, strNumReformCooldownMod
+	return numReformCooldownMod
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player_GetReformCostModifier
 function Player_GetReformCostModifier(player, reformID)
-	local reformType = GameInfo.JFD_Reforms[reformID].Type
+	local governmentID = player:GetCurrentGovernment()
+	local reform = GameInfo.JFD_Reforms[reformID]
+	local reformType = reform.Type
 	local numReformCostMod = 0
-
-	--g_JFD_Governments_Table
-	local govtsTable = g_JFD_Governments_Table
-	local numGovts = #govtsTable
-	for index = 1, numGovts do
-		local row = govtsTable[index]
-		local numThisReformCostMod = row.ReformCostMod
-		if numThisReformCostMod ~= 0 then
-			local governmentID = row.ID
-			if player:IsHasGovernment(governmentID) then
-				numReformCostMod = numReformCostMod + numThisReformCostMod
-			end
+	
+	local governmentID = player:GetCurrentGovernment()
+	local government = GameInfo.JFD_Governments[governmentID]
+	local numReformCostModGovernment = government.ReformCostMod
+	local numReformCostModGovernmentReliMil = government.ReliMilReformCostMod
+	local numReformCostCouncillorBonus = government.CouncillorReformCostMod
+	if numReformCostModGovernment ~= 0 then
+		numReformCostMod = numReformCostMod + numReformCostModGovernment
+	end
+	
+	if numReformCostModGovernmentReliMil ~= 0 then
+		if reform.ReformBranchType == "REFORM_BRANCH_JFD_RELIGION" or reform.ReformBranchType == "REFORM_BRANCH_JFD_MILITARY" then
+			numReformCostMod = numReformCostMod + numReformCostModGovernmentReliMil
 		end
 	end
 			
@@ -5668,8 +5343,14 @@ function Player_GetReformCostModifier(player, reformID)
 	for index = 1, numPolicies do
 		local row = policiesTable[index]
 		local numThisReformCostMod = row.ReformCostMod
+		if row.IsCouncillorBonus then
+			if numReformCostCouncillorBonus > 0 then
+				numThisReformCostMod = numReformCostCouncillorBonus
+			end
+		end
 		local reqReformID = GameInfoTypes[row.ReformCostModReformType]
-		if (not reqReformID) or (reqReformID and reqReformID == reformID) then
+		local reqReformBranch = row.ReformBranchType
+		if ((not reqReformID) and (not reqReformBranch)) or (reqReformID and reqReformID == reformID) or (reqReformBranch and reform.ReformBranchType == reqReformBranch) then
 			if numThisReformCostMod ~= 0 then
 				local policyID = GameInfoTypes[row.PolicyType]
 				if player:HasPolicy(policyID) then
@@ -5703,8 +5384,8 @@ end
 ----------------------------------------------------------------------------------------------------------------------------
 -- REFORM TEXT UTILS
 ----------------------------------------------------------------------------------------------------------------------------
---Player_GetReformInfoTT
-function Player_GetReformInfoTT(player, reformID, reformCost)
+--Player:GetReformInfoTT
+function Player.GetReformInfoTT(player, reformID, reformCost)
 	local playerTeam = Teams[player:GetTeam()]
 	local strReformHelp = ""
 	
@@ -5822,7 +5503,8 @@ function Player_GetReformInfoTT(player, reformID, reformCost)
 		end
 		
 		--COOLDOWN
-		local numReformCooldown = player:GetCurrentReformCooldown()
+		local reformSubBranchType = reform.ReformSubBranchType
+		local numReformCooldown = player:GetCurrentReformCooldown(reformSubBranchType)
 		if numReformCooldown > 0 then 
 			strReformHelp = strReformHelp .. "[NEWLINE]" .. g_ConvertTextKey("TXT_KEY_JFD_REFORM_HELP_COOLDOWN", numReformCooldown)
 		end
@@ -5966,14 +5648,14 @@ end
 function Player.GetCouncillorName(player, councillorID)
 	local playerID = player:GetID()
 	local councillor = GameInfo.JFD_Councillors[councillorID]
-	return JFD_RTP[playerID .. "_" .. councillor.Type .. "_NAME"]
+	return JFD_RTP_Sovereignty[playerID .. "_" .. councillor.Type .. "_NAME"]
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:SetCouncillorName
 function Player.SetCouncillorName(player, councillorID, strName)
 	local playerID = player:GetID()
 	local councillor = GameInfo.JFD_Councillors[councillorID]
-	JFD_RTP[playerID .. "_" .. councillor.Type .. "_NAME"] = strName
+	JFD_RTP_Sovereignty[playerID .. "_" .. councillor.Type .. "_NAME"] = strName
 end
 ----------------------------------------------------------------------------------------------------------------------------
 -- MISC UTILS
@@ -5981,7 +5663,7 @@ end
 --Player:GetLastReformPassed
 function Player.GetLastReformPassed(player)
 	local playerID = player:GetID()
-	local lastReformID = JFD_RTP[playerID .. "_LAST_REFORM"]
+	local lastReformID = JFD_RTP_Sovereignty[playerID .. "_LAST_REFORM"]
 	local strLastReform = "None"
 	if lastReformID then
 		local reform = GameInfo.JFD_Reforms[lastReformID]
@@ -5995,13 +5677,13 @@ end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:SetLastReformPassed
 function Player_SetLastReformPassed(playerID, reformID)
-	JFD_RTP[playerID .. "_LAST_REFORM"] = reformID
+	JFD_RTP_Sovereignty[playerID .. "_LAST_REFORM"] = reformID
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:GetLastPolicyAdopted
 function Player.GetLastPolicyAdopted(player)
 	local playerID = player:GetID()
-	local lastPolicyID = JFD_RTP[playerID .. "_LAST_POLICY"]
+	local lastPolicyID = JFD_RTP_Sovereignty[playerID .. "_LAST_POLICY"]
 	local strLastPolicy = "None"
 	if lastPolicyID then
 		local policy = GameInfo.Policies[lastPolicyID]
@@ -6015,7 +5697,24 @@ end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:SetLastPolicyAdopted
 function Player_SetLastPolicyAdopted(playerID, policyID)
-	JFD_RTP[playerID .. "_LAST_POLICY"] = policyID
+	JFD_RTP_Sovereignty[playerID .. "_LAST_POLICY"] = policyID
 end
+--=======================================================================================================================
+-- CACHING
+--=======================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------
+--OnModLoaded
+function OnModLoaded() 
+	local bNewGame = not TableLoad(tableRoot, tableName)
+
+	if bNewGame then
+		print("New Game")
+	else 
+		print("Sovereignty Loaded from Saved Game")
+	end
+
+	TableSave(tableRoot, tableName)
+end
+OnModLoaded()
 --==========================================================================================================================
 --==========================================================================================================================

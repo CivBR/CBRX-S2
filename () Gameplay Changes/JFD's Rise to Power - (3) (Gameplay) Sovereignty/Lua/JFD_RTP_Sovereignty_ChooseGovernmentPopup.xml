@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+
+<Context ID="ChooseGovernmentPopup" ColorSet="Beige_Black_Alpha" Font="TwCenMT16" FontStyle="Shadow">
+	<Box ID="MainUIBG" Style="BGBlock_ClearTopBar" Hidden="0" ConsumeMouse="1" />
+	<Instance Name="CivInstance">
+		<Image ID="CivIconFrame" Size="32,32" Texture="IconFrame_32.dds">
+			<Image ID="CivIconBG" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+			<Image ID="CivIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+			<Image ID="CivIcon" Size="24.24" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+			<Image ID="CivIconHighlight" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="0,0" Texture="CivIconBGSizes_Highlight.dds"/>
+		</Image>
+	</Instance>
+	<Instance Name="ItemInstance">
+		<Button Anchor="L,C" Size="418,150" Color="255,255,255,255" Offset="0,0" StateOffsetIncrement="0,0" ID="Button">
+			<ShowOnMouseOver>
+				<AlphaAnim ID="BounceAnim" Anchor="L,T" Size="400,110" Offset="0,-3" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+					<Grid ID="BounceGrid" Size="400,155" Offset="0,0" Padding="0,0" Style="Grid9FrameTurnsHL"/>
+				</AlphaAnim>
+			</ShowOnMouseOver>
+
+			<Box Anchor="L,T" Size="418,150" Color="19,32,46,120" ID="Box" />
+			<Image Anchor="R,T" Size="190,260" Offset="0,-5" Color="255,255,255,50" TextureOffset="0,0" Texture="SocialPoliciesPiety.dds" ID="GovernmentImage" Sampler="None" Hidden="1"/>
+			<Image Anchor="L,T" Offset="0,0" Texture="LeftPortraitDecor128.dds" Size="103,89">
+				<Image Anchor="L,T" Offset="-5,-19" Texture="GovernmentChoice128.dds" Size="128,128" ID="ChoiceImage"/>
+			</Image>
+			<Stack Anchor="C,B" Offset="0,0" Padding="0" StackGrowth="Bottom" ID="GovernmentStack">
+				<Label Anchor="L,T" Offset="110,5" Font="TwCenMT24" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="Name"/>
+				<Label Anchor="L,T" Offset="110,5" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" WrapWidth="310" ID="Help"/>
+				<Image Anchor="L,B" Offset="0,20" Texture="BlueBar500x3.dds" Size="435,1"/>
+			</Stack>
+			<Button Anchor="R,T" Offset="2,2" ID="ShowViewFactions" ToolTip="TXT_KEY_CHOOSE_JFD_GOVERNMENT_SHOW_FACTION_DETAILS" Size="32,32" Texture="IconFrame32Search.dds" />
+		</Button>
+	</Instance>
+	<Instance Name="FactionPopupInstance">
+		<Box Size="445,28" Color="19,32,46,120" ID="FactionBase">
+			<Stack Size="445,28" StackGrowth="Right">
+				<Box Size="341,25" ID="FactionBox" Color="0,0,0,0">
+					<Box ID="CivIconBox" Size="32,32" Anchor="L,T" Offset="8,-3" Color="0,0,0,0" Hidden="1">
+						<Image ID="CivIconBG" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes.dds"/>
+						<Image ID="CivIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+						<Stack StackGrowth="Right" Padding="0">
+							<Image ID="CivIcon" Size="24.24" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+							<Label ID="CivIconFont" String="[ICON_JFD_FACTION_CARDINAL]" Anchor="C,C" Offset="0,8" TruncateWidth="169" ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow"/>
+						</Stack>
+						<Image ID="CivIconHighlight" Size="32.32" Anchor="C,C" Offset="0,0" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+					</Box>
+					<Container ID="CityStateIconBox" Size="24.24" Anchor="L,C" Offset="0,0" Hidden="1">
+						<Image ID="CityStateIcon" Size="32.32" Offset="0,0" Anchor="C,C" Texture="CityStateMilitaristic.dds"/>
+					</Container>
+					<Stack Anchor="L,C" StackGrowth="Right">
+						<Label ID="FactionName" String="" TruncateWidth="400" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"/>
+					</Stack>
+				</Box>
+			</Stack>
+			<Image ID="BlueBar" Anchor="L,B" Offset="0,0" Texture="BlueBar500x3.dds" Size="445,3"/>
+		</Box>
+	</Instance>
+	<!-- BOTTOM PANEL-->
+	<Grid Size="494,963" Anchor="L,T" Offset="-42,100" Padding="0,0" Style="Grid9DetailSix140" ConsumeMouse="1" ID="BottomPanel">
+		<Stack Anchor="L,T" Offset="60,60" Padding="20" StackGrowth="Bottom">
+			<Label ID="ChooseGovtOptions" WrapWidth="380" Anchor="C,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_CHOOSE_JFD_GOVERNMENT_OPTIONS"/>
+			<Label ID="ChooseGovtOptionsChoose" WrapWidth="380" Anchor="L,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_CHOOSE_JFD_GOVERNMENT_OPTIONS_CHOOSE"/>
+		</Stack>
+		<Box Color="0,0,0,0" Offset="42,88" Size="290,650">
+			<ScrollPanel Anchor="L,T" Offset="-15,135" Size="436,650" Vertical="1" ID="ItemScrollPanel" AutoScrollBar="1">
+				<Stack Anchor="L,T" Offset="18,0" StackGrowth="Bottom" Padding="0" ID="ItemStack">
+					<Button Anchor="L,T" Size="434,27" Offset="0,0" Texture="CivilopediaButtons272x27.dds" ID="CurrentHeader">
+						<Label Anchor="C,C" Offset="0,0" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS" ID="CurrentHeaderLabel"/>
+					</Button>
+					<Stack ID="CurrentStack" Anchor="L,T" Offset="0,0" StackGrowth="Bottom" Padding="0" Color="0.0.0.0"/>
+
+					<Button Anchor="L,T" Size="434,27" Offset="0,0" Texture="CivilopediaButtons272x27.dds" ID="ChooseableHeader">
+						<Label Anchor="C,C" Offset="0,0" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS" ID="ChooseableHeaderLabel"/>
+					</Button>
+					<Stack ID="ChooseableStack" Anchor="L,T" Offset="0,0" StackGrowth="Bottom" Padding="0" Color="0.0.0.0"/>
+
+					<Button Anchor="L,T" Size="434,27" Offset="0,0" Texture="CivilopediaButtons272x27.dds" ID="LockedHeader">
+						<Label Anchor="C,C" Offset="0,0" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS" ID="LockedHeaderLabel"/>
+					</Button>
+					<Stack ID="LockedStack" Anchor="L,T" Offset="0,0" StackGrowth="Bottom" Padding="0" Color="0.0.0.0"/>
+				</Stack>
+
+				<!-- Scroll Controls -->
+				<ScrollBar Style="VertSlider" Length="580" Offset="15,15" Anchor="L,T" AnchorSide="I,I"/>
+				<UpButton Offset="15,-5" Style="ScrollBarUp" Anchor="L,T" AnchorSide="I,I"/>
+				<DownButton Offset="15,5" Style="ScrollBarDown" Anchor="L,B" AnchorSide="I,I"/>
+			</ScrollPanel>
+		</Box>
+
+		<Image Anchor="L,B" Texture="HorizontalTrim.dds" Offset="42,90" Size="436,5"/>
+
+		<!-- Back Button -->
+		<GridButton Anchor="C,B" Style="BaseButton" Size="250,36" Offset="0,48" StateOffsetIncrement="0,0" ID="CloseButton">
+			<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_MODDING_BACK" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+		</GridButton>
+	</Grid>
+	<!-- TOP PANEL-->
+	<Image Anchor="L,T" TextureOffset="74,0" Offset="480,30" Texture="assets\UI\Art\WorldView\TopCornerLeft.DDS" Size="180,88"/>
+	<Grid Size="530,128" Anchor="L,T" Offset="-42,30" Padding="0,0" Texture="Grid9DetailFive140.dds" ULSize="5,2" ULTexStart="65,40" UCSize="1,2" UCTexStart="70,40" URSize="74,2" URTexStart="70,40" LSize="5,1" LTexStart="65,70" CSize="1,1" CTexStart="70,70" RSize="74,1" RTexStart="70,70" LLSize="5,50" LLTexStart="65,90" LCSize="1,70" LCTexStart="70,70" LRSize="74,50" LRTexStart="70,90">
+		<Image Anchor="L,T" Offset="42,0" Texture="LeftPortraitDecor128.dds" Size="103,89">
+			<Image Anchor="L,T" Offset="-5,-19" Texture="GovernmentChoice128.dds" Size="128,128"/>
+		</Image>
+		<Label Anchor="L,T" Offset="150,30" String="TXT_KEY_CHOOSE_JFD_GOVERNMENT_TITLE" Font="TwCenMT24" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+		<Image Anchor="L,T" Offset="42,295" Texture="BlueBar500x3.dds" Size="435,1" ID="Bar"/>
+		<Image Anchor="L,T" Offset="520,0" Texture="IconFrame64.dds" Size="64.64">
+			<Image ID="CivIconBG" Size="64.64" Anchor="C,C" Offset="-1,-1" Texture="CivIconBGSizes.dds"/>
+			<Image ID="CivIconShadow" Size="48.48" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
+			<Image ID="CivIcon" Size="48,48" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor512.dds"/>
+		</Image>
+	</Grid>
+	<Image Anchor="L,B" Offset="446,0" Texture="BottomLeft128x224.dds" Size="128,224"/>
+
+	<!-- Confirmation Popup -->
+	<Box Color="Black.200" Size="Full.Full" ID="ChooseConfirm" Hidden="1"  ConsumeMouse="1">
+		<Grid Size="500,340" Anchor="C,C" Offset="0,0" Padding="0,20" Style="Grid9DetailFive140" Hidden="0" ID="ConfirmGrid">
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+			<Image Anchor="C,T" AnchorSide="I.O" Offset="0,-14" Size="256,64" Texture="Top512IconTrim.dds">
+				<Image Anchor="C,C" Offset="0,-6" Size="80,80" Texture="NotificationFrameBase.dds">
+					<AlphaAnim Anchor="C,C" Offset="0,0" Size="80,80" Texture="assets\UI\Art\Notification\NotificationGenericGlow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".5"/>
+				</Image>
+			</Image>
+			<Label Anchor="C,T" ID="ConfirmText" Offset="0,65" WrapWidth="440" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+			<Stack Anchor="C,B" Offset="0,80" Padding="24" StackGrowth="Bottom" ID="ButtonStack">
+				<!-- Yes Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmYes" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_YES_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+				<!-- No Button  -->
+				<GridButton Style="BaseButton" ID="ConfirmNo" Size="400,42" Anchor="C,T" Offset="0,0" Hidden="0">
+					<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_NO_BUTTON" ColorSet="Beige_Black" Font="TwCenMT24" FontStyle="Shadow"/>
+				</GridButton>
+			</Stack>
+		</Grid>
+	</Box>
+
+	<Box Color="Black.200" Size="Full.Full" ID="ViewFactionsPopup" Hidden="1" ConsumeMouseOver="1" ConsumeMouseButton="1">
+		<Grid Size="480,480" ID="ViewFactionsGrid" Anchor="C,C" Offset="0,0"  Style="Grid9DetailFive140">
+
+			<!-- Upper Treatment -->
+			<Image Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-14" Texture="assets\UI\Art\Icons\Top512IconTrim.dds">
+				<Image ID="Icon" Size="64,64" Offset="1,-1" Anchor="C,C" Texture="JFD_Sovereignty_NotificationAtlas_64.dds"/>
+			</Image>
+
+			<!-- Side treatments -->
+			<Box Style="MenuLeftSideTreatment"/>
+			<Box Style="MenuRightSideTreatment"/>
+
+			<Stack StackGrowth="Bottom" Anchor="L,T" Offset="17,50" Padding="0" ID="ImageStack">
+				<Image Anchor="C,C" Offset="0,0" TextureOffset="0,0" Texture="bar400x2.dds" Size="400,2" ID="Bar3" Hidden="1"/>
+				<AlphaAnim ID="BgImage" Offset="-5,0" Size="446,155" Anchor="C,C" Texture="ERA_Classical.dds" Cycle="Once" Stopped="1" AlphaStart="0.3" AlphaEnd="0.3" Speed="1"/>
+				<Image Offset="-2,153" Anchor="C,C" AnchorSide="o,i" Texture="HorizontalTrim.dds" Size="442,3" ID="Bar4" Hidden="0"/>
+			</Stack>
+
+			<Label Anchor="C,T" Offset="0,20" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_LEGISLATURE_POPUP_TITLE" ID="Title"/>
+
+			<Box Size="350,290" Anchor="C,T" Offset="0,80"  Color="255,255,255,0" >
+				<Label Anchor="L,T" Offset="-32,-25" WrapWidth="422" LeadingOffset="-4"  Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_JFD_LEGISLATURE_POPUP_TEXT" ID="Stats" />
+
+				<ScrollPanel Vertical="1" Anchor="L,C" Size="470,225" Offset="-47,93" AutoScrollBar="1" ID="FactionPopupScrollPanel">
+					<!-- Scroll Controls -->
+					<ScrollBar ID="FactionPopupScrollBar" Style="VertSlider" Length="189" Anchor="R,C" AnchorSide="O,I"/>
+					<UpButton ID="FactionPopupScrollUp" Style="ScrollBarUp" Anchor="R,T" AnchorSide="O,I"/>
+					<DownButton ID="FactionPopupScrollDown" Style="ScrollBarDown" Anchor="R,B" AnchorSide="O,I"/>
+					<Stack StackGrowth="Bottom" ID="FactionPopupStack" Padding="0"/>
+				</ScrollPanel>
+			</Box>
+
+			<GridButton Size="200,36" Anchor="C,B" Style="BaseButton" AnchorSide="I.O" Offset="0,0" ID="CloseViewFactionsButton" Hidden="0">
+
+				<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CLOSE"  Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT20" FontStyle="Shadow" />
+
+			</GridButton>
+
+		</Grid>
+	</Box>
+</Context>
