@@ -178,19 +178,13 @@
 			<Text>Base 100% Max [ICON_JFD_SOVEREIGNTY] Sovereignty.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_ABSOLUTE_HELP_PENALTY">
-			<Text>+25% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-50% [ICON_JFD_FACTION_POWER] Power for the dominant Faction after a new Legislature is composed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_DESPOTIC_SHORT_DESC">
 			<Text>Despotic</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_DESPOTIC_PEDIA">
 			<Text>Our powers are unbounded.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_DESPOTIC_HELP_BONUS">
-			<Text>Base 75% Max [ICON_JFD_SOVEREIGNTY] Sovereignty.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_DESPOTIC_HELP_PENALTY">
-			<Text>+15% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_CONSTITUTIONAL_SHORT_DESC">
 			<Text>Constitutional</Text>
@@ -199,10 +193,10 @@
 			<Text>Our power is bound by constitution.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_CONSTITUTIONAL_HELP_BONUS">
-			<Text>+50% [ICON_JFD_SOVEREIGNTY] for the Dominant Faction after a new Legislature is composed.</Text>
+			<Text>+50% [ICON_JFD_FACTION_POWER] Power for the dominant Faction after a new Legislature is composed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_CONSTITUTIONAL_HELP_PENALTY">
-			<Text>Base 50% Max [ICON_JFD_SOVEREIGNTY] Sovereignty.</Text>
+			<Text>Base 50% Max [ICON_JFD_SOVEREIGNTY] Sovereignty from Faction opposition.</Text>
 		</Row>
 		<!--FACTIONS-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_FACTIONS_DESC">
@@ -218,22 +212,16 @@
 			<Text>Multiple parties constitute our legislature.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_MULTI_PARTY_HELP_BONUS">
-			<Text>The minimum [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass [ICON_JFD_REFORM] Reforms is determined by your lowest Yields and Social Policy choices.</Text>
+			<Text>Your Legislature is composed based on eight Factions split between diverse interests across all Reforms.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_MULTI_PARTY_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-25% [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_INTERESTS_SHORT_DESC">
 			<Text>Interests</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_INTERESTS_PEDIA">
 			<Text>Interest groups constitute our legislature.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_INTERESTS_HELP_BONUS">
-			<Text>The minimum [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass [ICON_JFD_REFORM] Reforms is determined by your chosen Government.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_INTERESTS_HELP_PENALTY">
-			<Text>+20% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_TWO_PARTY_SHORT_DESC">
 			<Text>Two-Party</Text>
@@ -242,10 +230,10 @@
 			<Text>Two parties constitute our legislature.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_TWO_PARTY_HELP_BONUS">
-			<Text>The minimum [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass [ICON_JFD_REFORM] Reforms is determined by your Happiness and Unhappiness.</Text>
+			<Text>Your Legislature is composed based on two Factions split between interests across all Left and Right Reforms.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_TWO_PARTY_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>+25% [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown.</Text>
 		</Row>
 		<!--LEGITIMACY (FIRST)-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LEGITIMACY_DESC">
@@ -261,22 +249,16 @@
 			<Text>Our riches asserts our right to rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WEALTH_HELP_BONUS">
-			<Text>+15% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a City Connection.</Text>
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Market.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WEALTH_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Market.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_MIGHT_SHORT_DESC">
 			<Text>Might</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_MIGHT_PEDIA">
 			<Text>Our strength asserts our right to rule.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_MIGHT_HELP_BONUS">
-			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Unit Garrison.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_MIGHT_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WISDOM_SHORT_DESC">
 			<Text>Wisdom</Text>
@@ -285,10 +267,10 @@
 			<Text>Our sagacity asserts our right to rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WISDOM_HELP_BONUS">
-			<Text>+20% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a working Specialist.</Text>
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Library.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WISDOM_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Library.</Text>
 		</Row>
 		<!--LEGITIMACY (SECOND)-->
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_LAW_SHORT_DESC">
@@ -298,22 +280,16 @@
 			<Text>Our justice asserts our right to rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_LAW_HELP_BONUS">
-			<Text>+15% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a High Court.</Text>
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Magistrate's Court.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_LAW_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Magistrate's Court.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_GOVERNANCE_SHORT_DESC">
 			<Text>Governance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_GOVERNANCE_PEDIA">
 			<Text>Our ability asserts our right to rule.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_GOVERNANCE_HELP_BONUS">
-			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have at least 8 Citizens.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_GOVERNANCE_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_DIVINE_RIGHT_SHORT_DESC">
 			<Text>Divine Right</Text>
@@ -322,10 +298,10 @@
 			<Text>Our divinity asserts our right to rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_DIVINE_RIGHT_HELP_BONUS">
-			<Text>+20% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have your main Religion.</Text>
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Temple.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_DIVINE_RIGHT_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Temple.</Text>
 		</Row>
 		<!--LEGITIMACY (THIRD)-->
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_CHARISMA_SHORT_DESC">
@@ -335,22 +311,16 @@
 			<Text>Our popularity asserts our right to rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_CHARISMA_HELP_BONUS">
-			<Text>+15% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have at least 4 Local Happiness.</Text>
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Stadium.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_CHARISMA_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Stadium.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_TRADITION_SHORT_DESC">
 			<Text>Tradition</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_TRADITION_PEDIA">
 			<Text>Our lineage asserts our right to rule.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_TRADITION_HELP_BONUS">
-			<Text>+5% [ICON_JFD_SOVEREIGNTY] Sovereignty when other Legitimacies are met.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_TRADITION_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_SECURITY_SHORT_DESC">
 			<Text>Security</Text>
@@ -359,10 +329,10 @@
 			<Text>Our protection asserts our right to rule.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_SECURITY_HELP_BONUS">
-			<Text>+20% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have at least 30 Defensive Strength.</Text>
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Police Station.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_SECURITY_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Police Station.</Text>
 		</Row>
 		<!--POWER-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_POWER_DESC">
@@ -378,10 +348,10 @@
 			<Text>Our power is used to enforce order.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_POWER_POLICE_STATE_HELP_BONUS">
-			<Text>-100% [ICON_JFD_REFORM_COOLDOWN] Reform Cooldown from [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-50% toward [ICON_JFD_FACTION_REVOLUTIONARIES] Revolutionary Faction Power after a new Legislature is composed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_POWER_POLICE_STATE_HELP_PENALTY">
-			<Text>+100% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment per each Left/Right [ICON_JFD_REFORM] Reforms passed.</Text>
+			<Text>+50% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment per opposed [ICON_JFD_REFORM] Reforms passed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_POWER_PERSONAL_SHORT_DESC">
 			<Text>Personal</Text>
@@ -399,10 +369,10 @@
 			<Text>Our power is used for the common good.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_POWER_COMMONWEALTH_HELP_BONUS">
-			<Text>-100% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment per each Left/Right [ICON_JFD_REFORM] Reforms passed.</Text>
+			<Text>-50% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment per opposed [ICON_JFD_REFORM] Reforms passed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_POWER_COMMONWEALTH_HELP_PENALTY">
-			<Text>+100% [ICON_JFD_REFORM_COOLDOWN] Reform Cooldown from [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>+50% toward [ICON_JFD_FACTION_REVOLUTIONARIES] Revolutionary Faction Power after a new Legislature is composed.</Text>
 		</Row>
 		<!--TERRITORY-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TERRITORY_DESC">
@@ -418,10 +388,10 @@
 			<Text>The state is organized with limited territories.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_CITYSTATE_HELP_BONUS">
-			<Text>+10% [ICON_JFD_SOVEREIGNTY] with 2 cities or less.</Text>
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when you control 2 cities or less.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_CITYSTATE_HELP_PENALTY">
-			<Text>-10% [ICON_JFD_SOVEREIGNTY] with 3 cities or more.</Text>
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when you control 3 cities or more.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_STATE_SHORT_DESC">
 			<Text>State</Text>
@@ -436,10 +406,10 @@
 			<Text>The state is organized with vast territories.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_EMPIRE_HELP_BONUS">
-			<Text>+20% [ICON_JFD_SOVEREIGNTY] with 8 cities or more.</Text>
+			<Text>+20% [ICON_JFD_SOVEREIGNTY] Sovereignty when you control 8 cities or more.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_EMPIRE_HELP_PENALTY">
-			<Text>-10% [ICON_JFD_SOVEREIGNTY] with 7 cities or less.</Text>
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when you control 7 cities or less.</Text>
 		</Row>
 		<!--SUCCESSION-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SUCCESSION_DESC">
@@ -458,7 +428,7 @@
 			<Text>-25% [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_ELECTED_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>+20% [ICON_JFD_REFORM_COOLDOWN] Reform Cooldown.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_APPOINTED_SHORT_DESC">
 			<Text>Appointed</Text>
@@ -479,7 +449,7 @@
 			<Text>+25% [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_HEREDITARY_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>+20% [ICON_JFD_REFORM_COOLDOWN] Reform Cooldown.</Text>
 		</Row>
 		<!--STRUCTURE-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_STRUCTURE_DESC">
@@ -495,10 +465,10 @@
 			<Text>Our cities act in their own right.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_FEDERATION_HELP_BONUS">
-			<Text>-20% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Sentiment per City.</Text>
+			<Text>Cities increase the cost of exceeding your [ICON_JFD_REFORM] Reform Capacity by 25% less.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_FEDERATION_HELP_PENALTY">
-			<Text>+1% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Sentiment per Citizen.</Text>
+			<Text>-20% [ICON_JFD_REFORM] Reform Capacity.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_ASSOCIATION_SHORT_DESC">
 			<Text>Association</Text>
@@ -513,10 +483,10 @@
 			<Text>Our cities obey the government.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_UNITARY_HELP_BONUS">
-			<Text>-1% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Sentiment per Citizen.</Text>
+			<Text>+20% [ICON_JFD_REFORM] Reform Capacity.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_UNITARY_HELP_PENALTY">
-			<Text>+20% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Sentiment per City.</Text>
+			<Text>Cities increase the cost of exceeding your [ICON_JFD_REFORM] Reform Capacity by 25% more.</Text>
 		</Row>
 		<!--SUFFRAGE-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SUFFRAGE_DESC">
@@ -535,7 +505,7 @@
 			<Text>-1% [ICON_JFD_SOVEREIGNTY] needed to pass [ICON_JFD_REFORM] Government Reforms per Citizen (up to 30%).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_UNIVERSAL_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>+25% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment from Faction opposition.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_NONE_SHORT_DESC">
 			<Text>None</Text>
@@ -553,7 +523,7 @@
 			<Text>-5% [ICON_JFD_SOVEREIGNTY] needed to pass [ICON_JFD_REFORM] Government Reforms per City (up to 30%).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_LANDED_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>+25% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment from Faction opposition.</Text>
 		</Row>
 		<!--===================================================-->
 		<!--REFORMS: LAW-->
@@ -649,7 +619,7 @@
 			<Text>-10% min. [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_UNCODIFIED_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>+10% [ICON_CULTURE] Social Policy costs.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_INFORMAL_SHORT_DESC">
 			<Text>Informal</Text>
@@ -667,7 +637,7 @@
 			<Text>-10% [ICON_CULTURE] Social Policy costs.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_CODIFIED_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>+10% min. [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms.</Text>
 		</Row>
 		<!--EQUITY-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EQUITY_DESC">
@@ -720,7 +690,7 @@
 			<Text>The judiciary and government are seperate.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_INDEPENDENT_HELP_BONUS">
-			<Text>-20% [ICON_JFD_REFORM] Reform cooldown.</Text>
+			<Text>Cities increase the cost of exceeding your [ICON_JFD_REFORM] Reform Capacity by 25% less.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_INDEPENDENT_HELP_PENALTY">
 			<Text>+10% min. [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms.</Text>
@@ -741,7 +711,7 @@
 			<Text>-10% min. [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_DEPENDENT_HELP_PENALTY">
-			<Text>+20% [ICON_JFD_REFORM] Reform cooldown.</Text>
+			<Text>Cities increase the cost of exceeding your [ICON_JFD_REFORM] Reform Capacity by 25% more.</Text>
 		</Row>
 		<!--JUSTICE-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_JUSTICE_DESC">
@@ -1168,7 +1138,7 @@
 		</Row>
 		<Update>
 			<Where Tag="TXT_KEY_SPECIFIC_DIPLO_STRING_1"/>
-			<Set Text="Diplomatic effect from your Reforms."/>
+			<Set Text="Diplomatic effect from your Precedence Reforms."/>
 		</Update>
 		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_RANK_SHORT_DESC">
 			<Text>Rank</Text>
@@ -1177,34 +1147,22 @@
 			<Text>High-ranking diplomats take precedence.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_RANK_HELP_BONUS">
-			<Text>Civilizations with whom you share Open Borders like you more.</Text>
+			<Text>Civilizations with whom you share the same Government like you more.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_RANK_HELP_PENALTY">
-			<Text>Civilizations with whom you don't share Open Borders dislike you more.</Text>
+			<Text>Civilizations with whom you don't share the same Government dislike you more.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPECIFIC_DIPLO_JFD_PRECEDENCE_RANK_BONUS">
-			<Text>They like that you share Open Borders with them.</Text>
+			<Text>They like that you have the same Government system as them.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPECIFIC_DIPLO_JFD_PRECEDENCE_RANK_PENALTY">
-			<Text>They dislike that you don't share Open Borders with them.</Text>
+			<Text>They dislike that you have a different Government system as them.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_BASIC_SHORT_DESC">
 			<Text>Basic</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_BASIC_PEDIA">
 			<Text>Like-minded civilizations take precedence.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_BASIC_HELP_BONUS">
-			<Text>Civilizations with whom you share the same Government like you more.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_BASIC_HELP_PENALTY">
-			<Text>Civilizations with whom you don't share the same Government dislike you more.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPECIFIC_DIPLO_JFD_PRECEDENCE_BASIC_BONUS">
-			<Text>They like that you have the same Government system as them.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SPECIFIC_DIPLO_JFD_PRECEDENCE_BASIC_PENALTY">
-			<Text>They dislike that you have a different Government system as them.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_POWER_SHORT_DESC">
 			<Text>Power</Text>
@@ -1617,16 +1575,16 @@
 			<Text>Tax is set at low levels.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_LOW_HELP_BONUS">
-			<Text>-25% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population in non-occupied cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_LOW_HELP_PENALTY">
-			<Text>-15% [ICON_GOLD] Gold in all cities.</Text>
+			<Text>-25% [ICON_GOLD] Gold in all cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_MEDIUM_SHORT_DESC">
 			<Text>Medium</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_MEDIUM_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>None.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_MEDIUM_PEDIA">
 			<Text>Tax is set at normal levels.</Text>
@@ -1638,10 +1596,10 @@
 			<Text>Tax is set at high levels.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_HIGH_HELP_BONUS">
-			<Text>+15% [ICON_GOLD] Gold in all cities.</Text>
+			<Text>+25% [ICON_GOLD] Gold in all cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_HIGH_HELP_PENALTY">
-			<Text>+25% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>+10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population in non-occupied cities.</Text>
 		</Row>
 		<!--TRADE-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TRADE_DESC">
@@ -1918,7 +1876,7 @@
 			<Text>+5% [ICON_RESEARCH] Science from Universities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_UNIVERSITIES_HELP_PENALTY">
-			<Text>-10% [ICON_RESEARCH] Science in the Capital.</Text>
+			<Text>-5% [ICON_RESEARCH] Science in the Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_PALACE_SHORT_DESC">
 			<Text>Palace</Text>
@@ -1936,7 +1894,7 @@
 			<Text>+5% [ICON_RESEARCH] Science from Monasteries.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_MONASTERIES_HELP_PENALTY">
-			<Text>-10% [ICON_RESEARCH] Science in the Capital.</Text>
+			<Text>-5% [ICON_RESEARCH] Science in the Capital.</Text>
 		</Row>
 		<!--RESEARCH-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RESEARCH_DESC">
@@ -2195,10 +2153,10 @@
 		</Row>
 		<!--CONSTRUCTION-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CONSTRUCTION_DESC">
-			<Text>Buildion</Text>
+			<Text>Construction</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CONSTRUCTION_HELP">
-			<Text>Buildion Reforms regulate the focus of our construction efforts.</Text>
+			<Text>Construction Reforms regulate the focus of our construction efforts.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WONDERS_SHORT_DESC">
 			<Text>Wonders</Text>
@@ -2207,7 +2165,7 @@
 			<Text>We focus on constructing wonders.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WONDERS_HELP_BONUS">
-			<Text>+1 [ICON_PRODUCTION] Production from [ICON_RES_STONE] Stone.</Text>
+			<Text>+2 [ICON_PRODUCTION] Production from [ICON_RES_STONE] Stone.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WONDERS_HELP_PENALTY">
 			<Text>-1 [ICON_PRODUCTION] Production in all cities.</Text>
@@ -2216,7 +2174,7 @@
 			<Text>JFD: Reform (Materials) (Buildings)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_CONSTRUCTION_WONDERS_HELP">
-			<Text>+1 [ICON_PRODUCTION] Production from [ICON_RES_STONE] Stone.</Text>
+			<Text>+2 [ICON_PRODUCTION] Production from [ICON_RES_STONE] Stone.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_BUILDINGS_SHORT_DESC">
 			<Text>Buildings</Text>
@@ -2231,7 +2189,7 @@
 			<Text>We focus on producing weapons.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WEAPONS_HELP_BONUS">
-			<Text>+1 [ICON_PRODUCTION] Production from [ICON_RES_IRON] Iron.</Text>
+			<Text>+2 [ICON_PRODUCTION] Production from [ICON_RES_IRON] Iron.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WEAPONS_HELP_PENALTY">
 			<Text>-1 [ICON_PRODUCTION] Production in all cities.</Text>
@@ -2240,7 +2198,7 @@
 			<Text>JFD: Reform (Materials) (Weapons)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_CONSTRUCTION_WEAPONS_HELP">
-			<Text>+1 [ICON_PRODUCTION] Production from [ICON_RES_IRON] Iron.</Text>
+			<Text>+2 [ICON_PRODUCTION] Production from [ICON_RES_IRON] Iron.</Text>
 		</Row>
 		<!--EMPLOYMENT-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EMPLOYMENT_DESC">
@@ -2499,7 +2457,7 @@
 			<Text>+2 [ICON_PRODUCTION] Production from Manufactories.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_MECHANICAL_HELP_PENALTY">
-			<Text>-5% [ICON_PRODUCTION] Production in all cities.</Text>
+			<Text>-2 [ICON_GOLD] Gold in all cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_PRIVATE_SHORT_DESC">
 			<Text>Private</Text>
@@ -2533,7 +2491,7 @@
 			<Text>Trade Unions are freely organized.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_FREE_HELP_BONUS">
-			<Text>-25% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>-5% [ICON_HAPPINESS_4] Unhappiness from Cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_FREE_HELP_PENALTY">
 			<Text>-10% [ICON_PRODUCTION] Production in all cities.</Text>
@@ -2543,9 +2501,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_NONE_PEDIA">
 			<Text>Workers are organized around guilds.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_NONE_HELP_PENALTY">
-			<Text>+10% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_STATE_SHORT_DESC">
 			<Text>State</Text>
@@ -2557,7 +2512,7 @@
 			<Text>+10% [ICON_PRODUCTION] Production in all cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_STATE_HELP_PENALTY">
-			<Text>+25% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.</Text>
+			<Text>+5% [ICON_HAPPINESS_4] Unhappiness from Cities.</Text>
 		</Row>
 		<!--===================================================-->
 		<!--REFORMS: MILITARY-->
@@ -2926,7 +2881,7 @@
 			<Text>-25% Unit [ICON_GOLD] Upgrade costs.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_EQUIPMENT_HELP_PENALTY">
-			<Text>+10% Unit [ICON_GOLD] Maintenance costs.</Text>
+			<Text>Train Combat Units 10% slower.</Text>
 		</Row>
 		<!--WARFARE-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WARFARE_DESC">
@@ -2982,7 +2937,7 @@
 			<Text>The church is the highest religious authority.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_CHURCH_HELP_BONUS">
-			<Text>+4 [ICON_PEACE] Faith from the Grand Temple.</Text>
+			<Text>+5 [ICON_PEACE] Faith from the Grand Temple.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_CHURCH_HELP_PENALTY">
 			<Text>-1 [ICON_CULTURE] Culture in all cities.</Text>
@@ -3000,7 +2955,7 @@
 			<Text>The state is the highest religious authority.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_STATE_HELP_BONUS">
-			<Text>+1 [ICON_PEACE] Faith from Chanceries.</Text>
+			<Text>+2 [ICON_PEACE] Faith from Chanceries.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_STATE_HELP_PENALTY">
 			<Text>-1 [ICON_CULTURE] Culture in all cities.</Text>
@@ -3646,7 +3601,7 @@
 			<Text>+15% [ICON_GREAT_PEOPLE] Great Merchant rate.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_MERCHANTS_HELP_PENALTY">
-			<Text>-19% [ICON_GREAT_PEOPLE] Cultural Great Person rate.</Text>
+			<Text>-15% [ICON_GREAT_PEOPLE] Cultural Great Person rate.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_NONE_SHORT_DESC">
 			<Text>None</Text>
@@ -3741,7 +3696,7 @@
 			<Text>+50% [ICON_TOURISM] Theming bonus.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_PROPAGANDA_HELP_BONUS_CP">
-			<Text>+1 [ICON_TOURISM] Tourism from [ICON_GREAT_WORK] Great Works.</Text>
+			<Text>+2 [ICON_TOURISM] Tourism from [ICON_GREAT_WORK] Great Works.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_PROPAGANDA_HELP_PENALTY">
 			<Text>-1 [ICON_CULTURE] Culture from [ICON_GREAT_WORK] Great Works.</Text>
@@ -3892,10 +3847,10 @@
 			<Text>+10% [ICON_PEACE] Faith during WLTKDs.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_RELIGIOUS_HELP_PENALTY">
-			<Text>-5% [ICON_CULTURE] Culture in all cities.</Text>
+			<Text>-5% [ICON_GOLD] Gold in all cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_RELIGIOUS_HELP_PENALTY_CP">
-			<Text>-5% [ICON_CULTURE] Culture during WLTKDs.</Text>
+			<Text>-5% [ICON_GOLD] Gold during WLTKDs.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_FOLK_SHORT_DESC">
 			<Text>Folk</Text>
@@ -3916,10 +3871,10 @@
 			<Text>+10% [ICON_FOOD] Food during WLTKDs.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_STATE_HELP_PENALTY">
-			<Text>-5% [ICON_CULTURE] Culture in all cities.</Text>
+			<Text>-5% [ICON_GOLD] Gold in all cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_STATE_HELP_PENALTY_CP">
-			<Text>-5% [ICON_CULTURE] Culture during WLTKDs.</Text>
+			<Text>-5% [ICON_GOLD] Gold during WLTKDs.</Text>
 		</Row>
 		<!--GOODS-->
 		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_GOODS_DESC">

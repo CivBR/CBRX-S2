@@ -6,6 +6,6 @@
 --------------------------------------------------------------------------------------------------------------------------
 UPDATE Buildings
 SET CapitalOnly = 1, MustBeCapital = 0
-WHERE Type IN ('BUILDING_JFD_APADANA', 'BUILDING_JFD_DOGES_PALACE', 'BUILDING_JFD_HOFBURG_PALACE', 'BUILDING_JFD_SARGONS_PALACE', 'BUILDING_JFD_ST_PETERS_BASILICA', 'BUILDING_JFD_VERSAILLES');
+WHERE MustBeCapital = 1;
 --==========================================================================================================================
 --==========================================================================================================================

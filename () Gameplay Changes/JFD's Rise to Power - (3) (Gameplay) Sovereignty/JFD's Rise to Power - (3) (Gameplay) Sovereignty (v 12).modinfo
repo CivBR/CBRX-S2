@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d769cac9-5608-4826-9f7f-2d308b287ea6" version="12">
+  <Properties>
+    <Name>JFD's Rise to Power - (3) (Gameplay) Sovereignty</Name>
+    <Teaser>[COLOR_CYAN]Sovereignty[ENDCOLOR] component for Rise to Power. Click for details.</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Sovereignty[ENDCOLOR] is a new gameplay mechanic. Civilizations may now choose to establish a Government: a Monarchy, Principality, or Republic, or one of the several special and unique Governments only available under certain conditions.[NEWLINE][NEWLINE]With a Government, you will gain the ability to pass Political Reforms. These are much like Social Policies except they confer certain penalties in exchange for their bonuses, and they each come in mutually exclusive groups of three (for instance, you can only choose one of Universal, None and Landed in the 'Suffrage' Group).[NEWLINE][NEWLINE]To pass a Political Reform, you will need a certain minimum amount of the new yield Sovereignty. Sovereignty is not accumulated like other Yields; instead, it is a calculation based upon certain factors in any given turn. If you have enough Sovereignty, you can pass a Political Reform and it won't cost you Sovereignty to do so![NEWLINE][NEWLINE]Additionally, Political Factions compete with your Government for control over the kinds of Reforms you can pass. Political Factions each have their own Sovereignty value, and this directly contributes to the minimum Sovereignty that certain Reforms require - reducing it for those Reforms a Faction supports and increasing it for those they oppose. The type of Government you have, as well as certain Reforms, will determine the specific nature and interests of your Political Factions.</Description>
+    <Authors>JFD</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Pouakai's Enlightenment Era" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="65F0638419B16A6628C9C2AB736F3748" import="1">Art/Fonts/Factions/Caliphate/FontIcons_JFD_FactionDhimmi_22.dds</File>
+    <File md5="1DE6E6AED318A3B5F53319CDE54019AA" import="1">Art/Fonts/Factions/Caliphate/FontIcons_JFD_FactionDhimmi_22.ggxml</File>
+    <File md5="28E9905BC84B6AA3E676C4260EB2CFB5" import="1">Art/Fonts/Factions/Caliphate/FontIcons_JFD_FactionInfidels_22.dds</File>
+    <File md5="63702FC16BBAD8B9040DD8B0560744A4" import="1">Art/Fonts/Factions/Caliphate/FontIcons_JFD_FactionInfidels_22.ggxml</File>
+    <File md5="A0573E7B8C16C097DAF6BFE5B517ACD5" import="1">Art/Fonts/Factions/Caliphate/FontIcons_JFD_FactionUmmah_22.dds</File>
+    <File md5="567578EEB8072A4BE01D023619AD514E" import="1">Art/Fonts/Factions/Caliphate/FontIcons_JFD_FactionUmmah_22.ggxml</File>
+    <File md5="B9ABB3C94680A9A0C3EE7CC70EE64B3D" import="1">Art/Fonts/Factions/Imperial/FontIcons_JFD_FactionBureaucrats_22.dds</File>
+    <File md5="FA5870854F93C33A9EC856EC0500D530" import="1">Art/Fonts/Factions/Imperial/FontIcons_JFD_FactionMagistrates_22.ggxml</File>
+    <File md5="9E538A871F17DE7754FEEC640501398E" import="1">Art/Fonts/Factions/Imperial/FontIcons_JFD_FactionGenerals_22.dds</File>
+    <File md5="858524E47CFAD414C50F054E94C97BFF" import="1">Art/Fonts/Factions/Imperial/FontIcons_JFD_FactionGenerals_22.ggxml</File>
+    <File md5="EB4CCFA3C2E62977378D7D97B3A89520" import="1">Art/Fonts/Factions/Imperial/FontIcons_JFD_FactionBureaucrats_22.ggxml</File>
+    <File md5="727022C4A68BAB448455A2111522F7D6" import="1">Art/Fonts/Factions/Imperial/FontIcons_JFD_FactionHeirs_22.dds</File>
+    <File md5="191C56FB0B63ACAD082FC2FB62F093D8" import="1">Art/Fonts/Factions/Imperial/FontIcons_JFD_FactionHeirs_22.ggxml</File>
+    <File md5="C81861A740085130ACB25FEDF46541F1" import="1">Art/Fonts/Factions/Imperial/FontIcons_JFD_FactionMagistrates_22.dds</File>
+    <File md5="259A1487340224B1E25F6CCFA8488288" import="1">Art/Fonts/Factions/Mamluke/FontIcons_JFD_FactionEmirs_22.dds</File>
+    <File md5="3A43BB48D2C322EDBFEE865B4BDB9628" import="1">Art/Fonts/Factions/Mamluke/FontIcons_JFD_FactionEmirs_22.ggxml</File>
+    <File md5="601B65BAEE4B9D764C17DAD437F9C642" import="1">Art/Fonts/Factions/Mamluke/FontIcons_JFD_FactionMamlukes_22.dds</File>
+    <File md5="49995B83F01822DBEC95360D237DE7DA" import="1">Art/Fonts/Factions/Mamluke/FontIcons_JFD_FactionMamlukes_22.ggxml</File>
+    <File md5="FB4CB18412D3B012D0926F99EB377CF2" import="1">Art/Fonts/Factions/Merchant/FontIcons_JFD_FactionAbbots_22.dds</File>
+    <File md5="504641373601E1B25C9B77B9AB8B7F3E" import="1">Art/Fonts/Factions/Merchant/FontIcons_JFD_FactionAbbots_22.ggxml</File>
+    <File md5="C5852D91194FC247299178632CF91EBC" import="1">Art/Fonts/Factions/Merchant/FontIcons_JFD_FactionScholars_22.dds</File>
+    <File md5="773325BF78FDD213A5051F2E3DC70EEF" import="1">Art/Fonts/Factions/Merchant/FontIcons_JFD_FactionScholars_22.ggxml</File>
+    <File md5="D3EED7C923BB63DCB79208FC1C19808D" import="1">Art/Fonts/Factions/Military/FontIcons_JFD_FactionMilitary_22.dds</File>
+    <File md5="0B7BA65939184FAED3F9AC081ECBDCBF" import="1">Art/Fonts/Factions/Monarchy/FontIcons_JFD_FactionNobilityAlt_22.dds</File>
+    <File md5="0989CBA132A50C69742824ADA508DF5B" import="1">Art/Fonts/Factions/Monastic/FontIcons_JFD_FactionKnightsAlt_22.dds</File>
+    <File md5="70100B616E418B086F8E574DB13DD057" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionLibertarian_22.ggxml</File>
+    <File md5="58646578437D8CD87360676565231D18" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionNationalist_22.dds</File>
+    <File md5="259C6CFA59A21948ACA6F0EF8B02D271" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionNationalist_22.ggxml</File>
+    <File md5="B8381F07109724A7CC360DFDB6435529" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionSocialDemocratic_22.ggxml</File>
+    <File md5="3B5710772DED3BADB941B99841E2C431" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionSocialDemocratic_22.dds</File>
+    <File md5="ED9BAC11FC1FAC2774D5722F424632C6" import="1">Art/Fonts/Factions/Totalitarian/FontIcons_JFD_FactionCommunist_22.dds</File>
+    <File md5="BC505187AE2877CB3EF1BA264B2CD136" import="1">Art/Fonts/Factions/Totalitarian/FontIcons_JFD_FactionCommunist_22.ggxml</File>
+    <File md5="4FC2E052E084C20CCD1E3E0AFB10B81A" import="1">Art/Fonts/Factions/Totalitarian/FontIcons_JFD_FactionFascist_22.dds</File>
+    <File md5="94FE6DB047E98400A845ED6D4D59DD67" import="1">Art/Fonts/Factions/Totalitarian/FontIcons_JFD_FactionFascist_22.ggxml</File>
+    <File md5="FB08B24AE88834A24CC2ECD1AB961C64" import="1">Art/Fonts/Factions/Totalitarian/FontIcons_JFD_FactionRadicalist_22.dds</File>
+    <File md5="3ADD7615132C87692CA38F79E1BCF78A" import="1">Art/Fonts/Factions/Totalitarian/FontIcons_JFD_FactionRadicalist_22.ggxml</File>
+    <File md5="4E3F04C037ACF75DD5AA2CFF2A694BAA" import="1">Art/Fonts/Factions/Totalitarian/FontIcons_JFD_FactionThirdPositionist_22.dds</File>
+    <File md5="7635EE035303C09DB1BE7729D6E385F7" import="1">Art/Fonts/Factions/Totalitarian/FontIcons_JFD_FactionThirdPositionist_22.ggxml</File>
+    <File md5="2AAF663E8E26960E7FD3659D63CEDA88" import="1">Art/Fonts/Factions/Totalitarian/FontIcons_JFD_FactionUltranationalist_22.dds</File>
+    <File md5="E0EC45969128AEF824B879FA12B67515" import="1">Art/Fonts/Factions/Totalitarian/FontIcons_JFD_FactionUltranationalist_22.ggxml</File>
+    <File md5="6A2F905D8BF07D95A5864F1CC85D1BAE" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionImperialCrown_22.dds</File>
+    <File md5="61189574AC16F983527467026AAE2AD1" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionImperialCrown_22.ggxml</File>
+    <File md5="AE7A1E82DDC2F22B66EFABB67B7ABE9F" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionPrinceBishop_22.dds</File>
+    <File md5="D86E57F0C787372D73DEE247EB39C231" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionPrinceBishop_22.ggxml</File>
+    <File md5="BF5C03CDC4222D28331CC63FA0C6A52A" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionPrinceCaptain_22.dds</File>
+    <File md5="572B037CFD4835A8C73C8E518A63F303" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionPrinceCaptain_22.ggxml</File>
+    <File md5="89C81AF154ABBAB611C0716EB7A3FAFE" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionPrinceElector_22.dds</File>
+    <File md5="7768B69389BAD2F78CECA133B3FC4353" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionPrinceElector_22.ggxml</File>
+    <File md5="CE023F4B9B4A433C8443430FC2E43A11" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionPrinceMagrave_22.dds</File>
+    <File md5="471D7974ED01E21AC2C18E9FD834368D" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionPrinceMagrave_22.ggxml</File>
+    <File md5="59987214F2D9DF00DFE68428A3D9F5B1" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionPrinceMayor_22.dds</File>
+    <File md5="E570D01A5D28C584D6D25FD0735DD0AC" import="1">Art/Fonts/Factions/Holy Rome/FontIcons_JFD_FactionPrinceMayor_22.ggxml</File>
+    <File md5="406697C78D1F2F71D94090977BD2E5BF" import="1">Art/Fonts/Factions/Mandate/FontIcons_JFD_FactionImperialMandate_22.dds</File>
+    <File md5="68B6118426D3652224437B57E84F5967" import="1">Art/Fonts/Factions/Mandate/FontIcons_JFD_FactionImperialMandate_22.ggxml</File>
+    <File md5="FD924D6A278C2FB85FA8FD1CEF080AB0" import="1">Art/Fonts/Factions/Merchant/FontIcons_JFD_FactionAristocrats_22.dds</File>
+    <File md5="E9C7C04666096B334C4731224C7B2871" import="1">Art/Fonts/Factions/Merchant/FontIcons_JFD_FactionAristocrats_22.ggxml</File>
+    <File md5="27192435FDC8D7473C81B6A7F9A20728" import="1">Art/Fonts/Factions/Merchant/FontIcons_JFD_FactionArmourers_22.dds</File>
+    <File md5="5E25DB70AACB6276EBBBA00CCE8554B3" import="1">Art/Fonts/Factions/Merchant/FontIcons_JFD_FactionArmourers_22.ggxml</File>
+    <File md5="E8C84D41FAB84FAAF7A7B5D5E58F2899" import="1">Art/Fonts/Factions/Merchant/FontIcons_JFD_FactionMerchants_22.dds</File>
+    <File md5="A30043D4C6358355DB990B09D88F5E79" import="1">Art/Fonts/Factions/Merchant/FontIcons_JFD_FactionMerchants_22.ggxml</File>
+    <File md5="68DF7B52FCB39CE7223BAEF30CD177D4" import="1">Art/Fonts/Factions/Military/FontIcons_JFD_FactionMilitary_22.ggxml</File>
+    <File md5="550B1A25FC2E09A8B96C5B72A370ADA6" import="1">Art/Fonts/Factions/Monarchy/FontIcons_JFD_FactionBourgeoisie_22.dds</File>
+    <File md5="CEEB0D37E242067C4FDF1FD20B1BEB06" import="1">Art/Fonts/Factions/Monarchy/FontIcons_JFD_FactionBourgeoisie_22.ggxml</File>
+    <File md5="268D6674B1D3DFC667D612101238B041" import="1">Art/Fonts/Factions/Monarchy/FontIcons_JFD_FactionClergy_22.dds</File>
+    <File md5="BC632082AE474997979FC743E663B543" import="1">Art/Fonts/Factions/Monarchy/FontIcons_JFD_FactionClergy_22.ggxml</File>
+    <File md5="1C1152A9E7D8CEEE841FCE1F8C526BCF" import="1">Art/Fonts/Factions/Monarchy/FontIcons_JFD_FactionCommons_22.dds</File>
+    <File md5="9FDB6E723CB5BC2B682BFADB0379841C" import="1">Art/Fonts/Factions/Monarchy/FontIcons_JFD_FactionCommons_22.ggxml</File>
+    <File md5="0989CBA132A50C69742824ADA508DF5B" import="1">Art/Fonts/Factions/Monarchy/FontIcons_JFD_FactionNobility_22.dds</File>
+    <File md5="DE47EFFC3E6F35C64489FDF5D1144CD7" import="1">Art/Fonts/Factions/Monarchy/FontIcons_JFD_FactionNobility_22.ggxml</File>
+    <File md5="FC8D4394D34023A501F43CC47BEF43F2" import="1">Art/Fonts/Factions/Monastic/FontIcons_JFD_FactionKnights_22.dds</File>
+    <File md5="89F7E54070D83878D160C1F4392E4AAA" import="1">Art/Fonts/Factions/Monastic/FontIcons_JFD_FactionKnights_22.ggxml</File>
+    <File md5="89F1A7A6E08454391E41C37D3E91A7E6" import="1">Art/Fonts/Factions/Monastic/FontIcons_JFD_FactionMonks_22.dds</File>
+    <File md5="D8B57508D0D17ACCC980183594FC8918" import="1">Art/Fonts/Factions/Monastic/FontIcons_JFD_FactionMonks_22.ggxml</File>
+    <File md5="44BF3959BDD962E65247190BA4EA71EE" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionConservative_22.dds</File>
+    <File md5="79071553F100023EA97FB9B1FB13F3F0" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionConservative_22.ggxml</File>
+    <File md5="B63B1D093BA71E46A5A3ED7439EB866F" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionGreen_22.dds</File>
+    <File md5="676E1ADA986C932FFB37D104C67758B6" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionGreen_22.ggxml</File>
+    <File md5="09AEF407C69648D3671BC79F326CE891" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionLiberal_22.dds</File>
+    <File md5="8EB8851897C2343CFB2BAED9454DBA08" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionLiberal_22.ggxml</File>
+    <File md5="F92DD2C657427D30047A892BF4F79F3A" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionLibertarian_22.dds</File>
+    <File md5="68B862C154E420CE782542ECF6288A0F" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionReligious_22.dds</File>
+    <File md5="C64982D58116DAFADCD4F042CD325EEB" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionReligious_22.ggxml</File>
+    <File md5="41D0DDAAD68FC8777A8B009D942A7089" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionSocialist_22.dds</File>
+    <File md5="93C349D0B8AEE01C5DC5C58BF6D7D182" import="1">Art/Fonts/Factions/Multi Party/FontIcons_JFD_FactionSocialist_22.ggxml</File>
+    <File md5="2CA75E8D308F8E42B7258BC355588607" import="1">Art/Fonts/Factions/Nomadic/FontIcons_JFD_FactionHorde_22.dds</File>
+    <File md5="4CBD7E6CF1D86C973278F28709C55881" import="1">Art/Fonts/Factions/Nomadic/FontIcons_JFD_FactionHorde_22.ggxml</File>
+    <File md5="A5A846529FEEF05275AC935002092890" import="1">Art/Fonts/Factions/Nomadic/FontIcons_JFD_FactionSettlements_22.dds</File>
+    <File md5="248441B9A5F78520E8F4AA363C67B156" import="1">Art/Fonts/Factions/Nomadic/FontIcons_JFD_FactionShamans_22.dds</File>
+    <File md5="2B5A9A44A0F22CF4CAC955F2F0F64475" import="1">Art/Fonts/Factions/Nomadic/FontIcons_JFD_FactionShamans_22.ggxml</File>
+    <File md5="AD57736A6CA7C58B697E6E3AA7BCB979" import="1">Art/Fonts/Factions/Nomadic/FontIcons_JFD_FactionTributaries_22.dds</File>
+    <File md5="6CEC973E013F6DB4956C104D3F3EE8C4" import="1">Art/Fonts/Factions/Nomadic/FontIcons_JFD_FactionTributaries_22.ggxml</File>
+    <File md5="E149D2E02495BE7EDE3C7709004C7CF2" import="1">Art/Fonts/Factions/Nomadic/FontIcons_JFD_FactionSettlements_22.ggxml</File>
+    <File md5="FA3A63D3DD47B1A54CF1673B25D4AC13" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal1_22.dds</File>
+    <File md5="239FC1F7E855BF5EE96CE0C055E1A938" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal1_22.ggxml</File>
+    <File md5="EB7E665D69AF3ED0B43D8C673A3FDB07" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal2_22.dds</File>
+    <File md5="0DE7D49035F7633ED730116A8CE66C0D" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal2_22.ggxml</File>
+    <File md5="49C57948252018857ECE071D02A547CB" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal3_22.dds</File>
+    <File md5="8959CB827BB78204587A4632872396A6" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal3_22.ggxml</File>
+    <File md5="FAF7B6BDCC2820D31FD67CDEE76692E2" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal4_22.dds</File>
+    <File md5="3774B9E045A96AFDA44439C9B0357066" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal4_22.ggxml</File>
+    <File md5="EE94654945652039A14E7A5D02DC66B6" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal5_22.dds</File>
+    <File md5="5EA3CCD32AC3E964E1A2C5DC4953C9CE" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal5_22.ggxml</File>
+    <File md5="83DBFA0833F1CEB8A4BB7645092CDD4E" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal_22.dds</File>
+    <File md5="1C43F4ECF635E0E1A3DED969DAF8A7FD" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionCardinal_22.ggxml</File>
+    <File md5="A81D310BF21DD4EE0D85F56871D0B9D9" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionHolySee_22.dds</File>
+    <File md5="147E4A0A7B3465D88ED0E589E38C87BB" import="1">Art/Fonts/Factions/Papacy/FontIcons_JFD_FactionHolySee_22.ggxml</File>
+    <File md5="B5FBE631193FA5C12E8D7097654F021D" import="1">Art/Fonts/Factions/Principality/FontIcons_JFD_FactionCitizens_22.dds</File>
+    <File md5="FE6A4914E623790B788181F943698CE6" import="1">Art/Fonts/Factions/Principality/FontIcons_JFD_FactionCitizens_22.ggxml</File>
+    <File md5="B685124F203C54E45C65E1A868D994B5" import="1">Art/Fonts/Factions/Principality/FontIcons_JFD_FactionMagnates_22.dds</File>
+    <File md5="D423A3859FCD7E545909FE42479F018E" import="1">Art/Fonts/Factions/Principality/FontIcons_JFD_FactionMagnates_22.ggxml</File>
+    <File md5="A9AA04618AD7650E18C42C2FC019CF1C" import="1">Art/Fonts/Factions/Principality/FontIcons_JFD_FactionPeasants_22.dds</File>
+    <File md5="8F82E90C5DDF41BB0051E8DB12B61D98" import="1">Art/Fonts/Factions/Principality/FontIcons_JFD_FactionPeasants_22.ggxml</File>
+    <File md5="C93E22AE35E730AB39C94CD9CED59A20" import="1">Art/Fonts/Factions/Republic/FontIcons_JFD_FactionOligarchs2_22.dds</File>
+    <File md5="B4BE60437044A4186EB1E1E331166845" import="1">Art/Fonts/Factions/Republic/FontIcons_JFD_FactionOligarchs_22.dds</File>
+    <File md5="5CFCB4FAA994BF6B66ACD6555FA28917" import="1">Art/Fonts/Factions/Republic/FontIcons_JFD_FactionOligarchs_22.ggxml</File>
+    <File md5="B6D68975F242A00AA64FC775D080A3AE" import="1">Art/Fonts/Factions/Republic/FontIcons_JFD_FactionPopulists2_22.dds</File>
+    <File md5="DC6E59998B391D59CBA067DFCE3356D7" import="1">Art/Fonts/Factions/Republic/FontIcons_JFD_FactionPopulists_22.dds</File>
+    <File md5="8D6DE9190087ADE289834F308E75A94F" import="1">Art/Fonts/Factions/Republic/FontIcons_JFD_FactionPopulists_22.ggxml</File>
+    <File md5="E8DAB7E518B9D81D26CE3FE8970C0143" import="1">Art/Fonts/Factions/Revolutionary/FontIcons_JFD_FactionImperialists_22.dds</File>
+    <File md5="E426B9CEF16930259CBD5BDAC0F1499A" import="1">Art/Fonts/Factions/Revolutionary/FontIcons_JFD_FactionImperialists_22.ggxml</File>
+    <File md5="AB69599ACB97BD39AC8B23922C113C35" import="1">Art/Fonts/Factions/Revolutionary/FontIcons_JFD_FactionRepublicans_22.dds</File>
+    <File md5="6F71D6C2544FC1EC7967CA469A1EA9DB" import="1">Art/Fonts/Factions/Revolutionary/FontIcons_JFD_FactionRepublicans_22.ggxml</File>
+    <File md5="2550A3BF3D499CF1CB830F8CFC451FD0" import="1">Art/Fonts/Factions/Shogunate/FontIcons_JFD_FactionDaimyo_22.dds</File>
+    <File md5="E66C95BC3FEA39BEC4496715767EF506" import="1">Art/Fonts/Factions/Shogunate/FontIcons_JFD_FactionDaimyo_22.ggxml</File>
+    <File md5="C59D45E25CAFF1CA83F0DF1A308805F7" import="1">Art/Fonts/Factions/Shogunate/FontIcons_JFD_FactionTenno_22.dds</File>
+    <File md5="2A23F2022EF71FBF32E8A65901AC6D1E" import="1">Art/Fonts/Factions/Shogunate/FontIcons_JFD_FactionTenno_22.ggxml</File>
+    <File md5="0DE2D0A171090812E52B9411F64101A5" import="1">Art/Fonts/Factions/Theocratic/FontIcons_JFD_FactionPriesthood_22.dds</File>
+    <File md5="79E77D3329D5BB38FAF6C26EB8073D81" import="1">Art/Fonts/Factions/Theocratic/FontIcons_JFD_FactionPriesthood_22.ggxml</File>
+    <File md5="EADC65F9BEEE026CBF8AF78ECD678B75" import="1">Art/Fonts/Factions/Tribal/FontIcons_JFD_FactionElders_22.dds</File>
+    <File md5="5E8B15BA90173CCBD813BB19339038A1" import="1">Art/Fonts/Factions/Tribal/FontIcons_JFD_FactionElders_22.ggxml</File>
+    <File md5="FA8539C71DAF63A224E260610EBC43AD" import="1">Art/Fonts/Factions/Tribal/FontIcons_JFD_FactionHealers_22.dds</File>
+    <File md5="583BCD583DA0E2D275C676222A68CBD0" import="1">Art/Fonts/Factions/Tribal/FontIcons_JFD_FactionHealers_22.ggxml</File>
+    <File md5="ADD2D5633D88163EE15E9A90D67215A0" import="1">Art/Fonts/Factions/Tribal/FontIcons_JFD_FactionMessengers_22.dds</File>
+    <File md5="9BD88552025365D4CBBAEBDC2D68D571" import="1">Art/Fonts/Factions/Tribal/FontIcons_JFD_FactionMessengers_22.ggxml</File>
+    <File md5="C492D3922B3C2EE278D528378FA4A3D8" import="1">Art/Fonts/Factions/Tribal/FontIcons_JFD_FactionTraders_22.dds</File>
+    <File md5="79438A423523D71EB5AF2E34F1C45BB8" import="1">Art/Fonts/Factions/Tribal/FontIcons_JFD_FactionTraders_22.ggxml</File>
+    <File md5="595C5E7562CD404319E56C3C85E5BDD6" import="1">Art/Fonts/Factions/Tribal/FontIcons_JFD_FactionWarriors_22.dds</File>
+    <File md5="67B84AE9A1285B5B344E469A57BAA941" import="1">Art/Fonts/Factions/Tribal/FontIcons_JFD_FactionWarriors_22.ggxml</File>
+    <File md5="AA537E5F0BED4AB0D183EC0B98E12526" import="1">Art/Fonts/Factions/Two Party/FontIcons_JFD_FactionIndependent_22.dds</File>
+    <File md5="9DAB1B7D245774244748602C0D2A505A" import="1">Art/Fonts/Factions/Two Party/FontIcons_JFD_FactionIndependent_22.ggxml</File>
+    <File md5="A782EEB45814A6CC704BCE0115CEF379" import="1">Art/Fonts/Factions/Two Party/FontIcons_JFD_FactionNational_22.dds</File>
+    <File md5="1CCB04B7F02EBB5AE14988504B75675D" import="1">Art/Fonts/Factions/Two Party/FontIcons_JFD_FactionNational_22.ggxml</File>
+    <File md5="D89B9C252735F47C4747C69EF15264E4" import="1">Art/Fonts/Factions/Two Party/FontIcons_JFD_FactionProgressive_22.dds</File>
+    <File md5="9409BEA13CE20B19388698661DBCE39B" import="1">Art/Fonts/Factions/Two Party/FontIcons_JFD_FactionProgressive_22.ggxml</File>
+    <File md5="D2165D8FA918C22B90444CEF40E413A8" import="1">Art/Fonts/FontIcons_JFD_FactionPower_22.dds</File>
+    <File md5="5389D79B69A338742A38240D0B63739C" import="1">Art/Fonts/FontIcons_JFD_FactionPower_22.ggxml</File>
+    <File md5="F87B7331A9153679C068CA781BA6A46D" import="1">Art/Fonts/FontIcons_JFD_FactionRevolutionaries_22.dds</File>
+    <File md5="70597B07AC086D9D4BEE35C4D3393B31" import="1">Art/Fonts/FontIcons_JFD_RevolutionarySentiment_22.dds</File>
+    <File md5="F2F23B84C8EAB7DFEBD64E6395993CDC" import="1">Art/Fonts/FontIcons_JFD_RevolutionarySentiment_22.ggxml</File>
+    <File md5="06DE4D0B94AD337B86F5FCCC1B43ED28" import="1">Art/Fonts/FontIcons_JFD_FactionRevolutionaries_22.ggxml</File>
+    <File md5="9A2F31150EDC27EB4521B51060AAA2A1" import="1">Art/Fonts/FontIcons_JFD_Government_22.dds</File>
+    <File md5="6B74D831C4708D632F1549C1DB5BC644" import="1">Art/Fonts/FontIcons_JFD_Government_22.ggxml</File>
+    <File md5="B1FC26B0F8562126893A10C7CABCFC56" import="1">Art/Fonts/FontIcons_JFD_LegislatureCooldown_22.dds</File>
+    <File md5="63DD4280FDD1776131E6DB7DC6D155A4" import="1">Art/Fonts/FontIcons_JFD_LegislatureCooldown_22.ggxml</File>
+    <File md5="7DFF23DAA4C8B7B036F2CA3B9F4211AE" import="1">Art/Fonts/FontIcons_JFD_Legislature_22.dds</File>
+    <File md5="1AAFB1281C8F496B481C54DC8958ADFC" import="1">Art/Fonts/FontIcons_JFD_Legislature_22.ggxml</File>
+    <File md5="6A442626086F6E3677320C3076DC606A" import="1">Art/Fonts/FontIcons_JFD_NewReform_22.dds</File>
+    <File md5="45BC19BF11C81AADF077DA5E9DF7E545" import="1">Art/Fonts/FontIcons_JFD_NewReform_22.ggxml</File>
+    <File md5="7423733A82E8B93D17169712E22C358C" import="1">Art/Fonts/FontIcons_JFD_ReformCooldown_22.dds</File>
+    <File md5="571E52D07CE3CE6DEC50FDEF98B5C662" import="1">Art/Fonts/FontIcons_JFD_ReformCooldown_22.ggxml</File>
+    <File md5="DF57FCB215F4A5BEE0693BE29EFFBEB7" import="1">Art/Fonts/FontIcons_JFD_ReformSupport_22.dds</File>
+    <File md5="AE38E626AB9A7822821892276CB90276" import="1">Art/Fonts/FontIcons_JFD_ReformSupport_22.ggxml</File>
+    <File md5="D7CBB109D25A2E3090967D0EE4728E10" import="1">Art/Fonts/FontIcons_JFD_Reform_22.dds</File>
+    <File md5="B6E700AD4EDEF81AC7B4193435656CE1" import="1">Art/Fonts/FontIcons_JFD_Reform_22.ggxml</File>
+    <File md5="A9607C387F31160635C794BF31F974FB" import="1">Art/Fonts/FontIcons_JFD_Sovereignty_22.dds</File>
+    <File md5="550BBF54079E01DA00227C5D5B5B5732" import="1">Art/Fonts/FontIcons_JFD_Sovereignty_22.ggxml</File>
+    <File md5="8389390A10BA0C4EBCF78EC538E82BDA" import="1">Art/Icons/JFD_Sovereignty_AlphaAtlas_256.dds</File>
+    <File md5="A521863A8F8A4B88DFF216B93760C1DD" import="1">Art/Icons/JFD_Sovereignty_AlphaAtlas_48.dds</File>
+    <File md5="D72F0157C926C656E173F5E33CE11C4A" import="1">Art/Icons/JFD_Sovereignty_BuildingAtlas_128.dds</File>
+    <File md5="1C429E5BA68F5DAB522F20772F869264" import="1">Art/Icons/JFD_Sovereignty_BuildingAtlas_256.dds</File>
+    <File md5="C823A6D53FB4D034EAF47E3AB8C3C9F7" import="1">Art/Icons/JFD_Sovereignty_BuildingAtlas_32.dds</File>
+    <File md5="C1BAC54739639E6B4F0FEBE9544EE8B4" import="1">Art/Icons/JFD_Sovereignty_BuildingAtlas_45.dds</File>
+    <File md5="36BB969CB6577B433C0D2ACB31265D17" import="1">Art/Icons/JFD_Sovereignty_BuildingAtlas_64.dds</File>
+    <File md5="E3C18025D5708BA9FAB2B5020B9CAE90" import="1">Art/Icons/JFD_Sovereignty_BuildingAtlas_80.dds</File>
+    <File md5="BEB835F3F7AB587AE72064A3ED28F307" import="1">Art/Icons/JFD_Sovereignty_WonderAtlas_128.dds</File>
+    <File md5="34041CEE400CFCE98B8D90D3DBC755A5" import="1">Art/Icons/JFD_Sovereignty_WonderAtlas_256.dds</File>
+    <File md5="B29B331C6EDB9A04766B43F481A391E8" import="1">Art/Icons/JFD_Sovereignty_WonderAtlas_32.dds</File>
+    <File md5="A30DD2CFC8B53E71C4BE28D7D02E3ACD" import="1">Art/Icons/JFD_Sovereignty_WonderAtlas_45.dds</File>
+    <File md5="B06362A21784DFE68756EDD983CEA97C" import="1">Art/Icons/JFD_Sovereignty_WonderAtlas_64.dds</File>
+    <File md5="6B48A42EB74F48F8E5B918E454493FB3" import="1">Art/Icons/JFD_Sovereignty_WonderAtlas_80.dds</File>
+    <File md5="6726E96578ACCEB9E693A9C28D2F0723" import="1">Art/Icons/JFD_Sovereignty_TechAtlas_214.dds</File>
+    <File md5="769D8F31F73D1C85293ECD3971C5A2F8" import="1">Art/Icons/JFD_Sovereignty_NotificationAtlas_128.dds</File>
+    <File md5="95E6088FAEF8B08DEC092BC373910FA5" import="1">Art/Icons/JFD_Sovereignty_NotificationAtlas_256.dds</File>
+    <File md5="DE286CEFAA9A855D0B29CD7FF9E0DCC0" import="1">Art/Icons/JFD_Sovereignty_NotificationAtlas_32.dds</File>
+    <File md5="5A58612CD4007817E6AEDF3EC61C5768" import="1">Art/Icons/JFD_Sovereignty_NotificationAtlas_45.dds</File>
+    <File md5="87096F1CCD2F9157B9CF65A29A20F905" import="1">Art/Icons/JFD_Sovereignty_NotificationAtlas_64.dds</File>
+    <File md5="FE6A89EAB7E02F94A1A115FAA08EF62A" import="1">Art/Icons/JFD_Sovereignty_NotificationAtlas_80.dds</File>
+    <File md5="70AC5FE2CFA3D3F90249FC26499BD339" import="1">Art/Icons/JFD_Sovereignty_TechAtlas_128.dds</File>
+    <File md5="06115B2A1EB36F26A077FF620B178FD8" import="1">Art/Icons/JFD_Sovereignty_TechAtlas_256.dds</File>
+    <File md5="E25849D27917E52BA5DE4C474963E32F" import="1">Art/Icons/JFD_Sovereignty_TechAtlas_32.dds</File>
+    <File md5="C3086617B92C546706EE394481DC79A8" import="1">Art/Icons/JFD_Sovereignty_TechAtlas_45.dds</File>
+    <File md5="FB52341E608F4A047CF7D1E9C34DED08" import="1">Art/Icons/JFD_Sovereignty_TechAtlas_64.dds</File>
+    <File md5="BA60138B22892C0585284D5A0B93DFD7" import="1">Art/Icons/JFD_Sovereignty_TechAtlas_80.dds</File>
+    <File md5="76C4DFE62B368B41F32F1AAE8D254CFB" import="1">Art/Images/Governments/GovernmentChoice128.dds</File>
+    <File md5="30A0FC480B29CEC4482C0F30371EDC3F" import="1">Art/Images/Governments/GovernmentChoiceCaliphate128.dds</File>
+    <File md5="9C4837554C060FCDCA4F7E90B4DBE65C" import="1">Art/Images/Governments/GovernmentChoiceMamluke128.dds</File>
+    <File md5="CBF1C798B7F0FDBD18679A65B4AA636C" import="1">Art/Images/Governments/GovernmentChoiceTotalitarian128.dds</File>
+    <File md5="B27F80A65F1CA0641D3C4F4034997831" import="1">Art/Images/Governments/GovernmentChoiceHRE128.dds</File>
+    <File md5="2B630731187648E7DDC15E703E81F699" import="1">Art/Images/Governments/GovernmentChoiceImperial128.dds</File>
+    <File md5="7FBC7E235CBFEE83A6570E630BA19A95" import="1">Art/Images/Governments/GovernmentChoiceMandate128.dds</File>
+    <File md5="D45FE9AE24DE268790879E7839C446E1" import="1">Art/Images/Governments/GovernmentChoiceMerchant128.dds</File>
+    <File md5="CADDBD74E54054BFE4522C8AD7C0E080" import="1">Art/Images/Governments/GovernmentChoiceMilitary128.dds</File>
+    <File md5="01E8858E03586DF156D7718C337D5F77" import="1">Art/Images/Governments/GovernmentChoiceMonarchy128.dds</File>
+    <File md5="CA391DBF9131E4E3F9887C494FE67C75" import="1">Art/Images/Governments/GovernmentChoiceMonastic128.dds</File>
+    <File md5="2C27DDED95D4CBC8C0D6D87365E5F884" import="1">Art/Images/Governments/GovernmentChoiceMonasticAlt128.dds</File>
+    <File md5="56BD400DFF4BE24C47A2D46A38F4A022" import="1">Art/Images/Governments/GovernmentChoiceNomadic128.dds</File>
+    <File md5="5E921D6732841D998E619EB001612328" import="1">Art/Images/Governments/GovernmentChoicePapacy128.dds</File>
+    <File md5="EE756D4DBD1A9CB427051888ABB8A44A" import="1">Art/Images/Governments/GovernmentChoicePrincipality128.dds</File>
+    <File md5="067834B5557C7226F4D52DFAB2BE3AC9" import="1">Art/Images/Governments/GovernmentChoiceRepublic128.dds</File>
+    <File md5="61BEBCA484DAE6D0D3F5CA7189115C4C" import="1">Art/Images/Governments/GovernmentChoiceRevolutionary128.dds</File>
+    <File md5="1EDD94D82B8BF7CD48AB5AF694D65589" import="1">Art/Images/Governments/GovernmentChoiceShogunate128.dds</File>
+    <File md5="573D9300DD5803B78AF5B83E95C6A643" import="1">Art/Images/Governments/GovernmentChoiceTheocratic128.dds</File>
+    <File md5="BB60D978D7B859AF51E10B8A48399ED8" import="1">Art/Images/Governments/GovernmentChoiceTribal128.dds</File>
+    <File md5="60C20C0DA6B3BF1FD9C998D20E38C160" import="1">Art/Images/GovtOverview_BackgroundAnarchy.dds</File>
+    <File md5="CE4B1F6E530CB9F765C6FDB961C14F12" import="1">Art/Images/GovtOverview_LegislatureHeader.dds</File>
+    <File md5="F77D36B57DF77FAD646A06EE8CD0816E" import="1">Art/Images/GovtOverview_ReformsButtonGovernmentHL.dds</File>
+    <File md5="61121BF64CE5BE1E85411D8ADD56ECC8" import="1">Art/Images/GovtOverview_ReformsButtonSociety.dds</File>
+    <File md5="07CBD05407D7E3C8B262C429A9EBE524" import="1">Art/Images/GovtOverview_ReformsButtonWelfare.dds</File>
+    <File md5="235174AF30E8A86A2539CF5B59C013BF" import="1">Art/Images/GovtOverview_ReformsButtonWelfareHL.dds</File>
+    <File md5="D25A20FFE371802351453ADA7293991B" import="1">Art/Images/GovtOverview_ReformsSubBranchHeader.dds</File>
+    <File md5="6DA945915A741A7DBF33F4723FF60D56" import="1">Art/Images/GovtOverview_ReformsButtonEducation.dds</File>
+    <File md5="8708EB7718B1CB9D0AD11F6EEEC49474" import="1">Art/Images/GovtOverview_ReformsButtonEconomy.dds</File>
+    <File md5="442F921283C1294CC6C40BCC2B0D47FD" import="1">Art/Images/GovtOverview_ReformsButtonDiplomacy.dds</File>
+    <File md5="86B3B00A2A34066CADC81457C673D8D5" import="1">Art/Images/GovtOverview_ReformsButtonGovernment.dds</File>
+    <File md5="CA1BA5597FA31966CBCA1F1F21A18CCD" import="1">Art/Images/GovtOverview_ReformsButtonIndustry.dds</File>
+    <File md5="07B1F07E1D1E529762966A0193A0E431" import="1">Art/Images/GovtOverview_ReformsButtonLaw.dds</File>
+    <File md5="82891CDDE1088360EDF369AB6CBFE878" import="1">Art/Images/GovtOverview_ReformsButtonMilitary.dds</File>
+    <File md5="4535FA3F2492D40B37129E6022BC7EE4" import="1">Art/Images/GovtOverview_ReformsButtonReligion.dds</File>
+    <File md5="CF9EC2E0AFB81D6B91C3002D2E35C273" import="1">Art/Images/GovtOverview_Header.dds</File>
+    <File md5="F9EB309E83CB256267C70486210D67A2" import="1">Art/Images/GovtOverview_Background.dds</File>
+    <File md5="9C9A2A6922BFCA7C9BB67FFAEEE83769" import="1">Art/Images/GovtOverview_ReformsBranchesHeader.dds</File>
+    <File md5="BD79F08CD1A9E52F5EFF0AD363DFA6AE" import="1">Art/Images/Legislature/NewLegislatureCaliphate.dds</File>
+    <File md5="7E9E36511425D8CD610B6A2B66954487" import="1">Art/Images/Legislature/NewLegislatureImperial.dds</File>
+    <File md5="4B30A1A2E37B477E13DD35F3F69A9E4C" import="1">Art/Images/Legislature/NewLegislatureMamluke.dds</File>
+    <File md5="D57521A53904E2E9E5727E0A77905890" import="1">Art/Images/Legislature/NewLegislatureMilitary.dds</File>
+    <File md5="FAB973EF88E4FCADB8A115690AC730D9" import="1">Art/Images/Legislature/NewLegislatureRevolutionaries.dds</File>
+    <File md5="8395BEC440CFE5223FEAC90175F30557" import="1">Art/Images/Legislature/NewLegislatureTotalitarian.dds</File>
+    <File md5="DB83A507A7BF54D9DA78465F6FDEA570" import="1">Art/Images/Legislature/NewLegislatureHRE.dds</File>
+    <File md5="DA0C2CAC3C7CD58E52D0A1D5C36D4BFA" import="1">Art/Images/Legislature/NewLegislatureMandate.dds</File>
+    <File md5="00BD5DBFBC0AC1FE1DC2EE578ECA9F12" import="1">Art/Images/Legislature/NewLegislatureMerchant.dds</File>
+    <File md5="D694F6E3B7142BCA4B4E566EB4ABF392" import="1">Art/Images/Legislature/NewLegislatureMonarchy.dds</File>
+    <File md5="177FC2D8DCB0C54145E888455BBA384A" import="1">Art/Images/Legislature/NewLegislatureMonastic.dds</File>
+    <File md5="76E3C9D15A3E250CC6B88C766D51B432" import="1">Art/Images/Legislature/NewLegislatureMultiParty.dds</File>
+    <File md5="3A37E7A4CD134A4DE775CE36BB4A9592" import="1">Art/Images/Legislature/NewLegislatureNomadic.dds</File>
+    <File md5="759F68A0B381D041AFF2F1356E2F0DB4" import="1">Art/Images/Legislature/NewLegislaturePapacy.dds</File>
+    <File md5="88AFFDB95660730E3289186F13B578F4" import="1">Art/Images/Legislature/NewLegislaturePrincipality.dds</File>
+    <File md5="4DDBADB4A2ACF8118D48BBA82808C072" import="1">Art/Images/Legislature/NewLegislatureRepublic.dds</File>
+    <File md5="68FD7FF69681919CA4A06DE7A64928F9" import="1">Art/Images/Legislature/NewLegislatureRevolutionary.dds</File>
+    <File md5="7918E41DC1D1D8C26D5B0F6E99338077" import="1">Art/Images/Legislature/NewLegislatureShogunate.dds</File>
+    <File md5="8267C47EB3AB1FC2B5618CBF0A27C935" import="1">Art/Images/Legislature/NewLegislatureTheocratic.dds</File>
+    <File md5="5F07A4A6A6814F214A1753172C08E7A8" import="1">Art/Images/Legislature/NewLegislatureTribal.dds</File>
+    <File md5="B9CDBA85D8FC5E155E1FF5BDC6235484" import="1">Art/Images/Legislature/NewLegislatureTwoParty.dds</File>
+    <File md5="CF67CFD810DB99FAFCF578B776699D74" import="1">Art/Images/Wonders/Wonder_AmerFort.dds</File>
+    <File md5="37033CB4D99ADD47FDED208F38CBE22D" import="1">Art/Images/Wonders/Wonder_Apadana.dds</File>
+    <File md5="49EBB85D214D0F7CAA69E7E0969E6868" import="1">Art/Images/Wonders/Wonder_CairoCitadel.dds</File>
+    <File md5="9637F74C831F77DE79E2DA7486A587BE" import="1">Art/Images/Wonders/Wonder_DogesPalace.dds</File>
+    <File md5="3D4A8FE326F7BC9D865D8419FE95296D" import="1">Art/Images/Wonders/Wonder_ForumMagnum.dds</File>
+    <File md5="AEEE93A4F727FEA838C329660C2BA707" import="1">Art/Images/Wonders/Wonder_HofburgPalace.dds</File>
+    <File md5="0D8C5347CD22BE5491D04F89AB44FAB5" import="1">Art/Images/Wonders/Wonder_MosqueDamascus.dds</File>
+    <File md5="8829680B0D12F749F42C52E85C33291C" import="1">Art/Images/Wonders/Wonder_SargonsPalace.dds</File>
+    <File md5="54AB32B80663254E808DA8319B7F45FF" import="1">Art/Images/Wonders/Wonder_StPetersBasilica.dds</File>
+    <File md5="FE150CE04BF6EA5385E756BC53AF99A4" import="1">Art/Images/Wonders/Wonder_TempleOfHeaven.dds</File>
+    <File md5="B87BF24F1742AF042384377AE3112F10" import="1">Art/Images/Wonders/Wonder_Versailles.dds</File>
+    <File md5="6E56801386A34126721EF97A10D7D4A2" import="1">Audio/Sounds/Anarchy.mp3</File>
+    <File md5="DEC639CB2CAB8C31D8301407D08CAD16" import="1">Audio/Sounds/Governments/GovernmentCaliphateEstablished.mp3</File>
+    <File md5="E5FF84C3A2276FF961AC048028D919FB" import="1">Audio/Sounds/Governments/GovernmentEstablished.wav</File>
+    <File md5="6F0902A8813C559E684E648F2E5C060F" import="1">Audio/Sounds/Governments/GovernmentHREEstablished.mp3</File>
+    <File md5="C3D9809469A7B4525F3AEB9777B65DEC" import="1">Audio/Sounds/Governments/GovernmentMamlukeEstablished.mp3</File>
+    <File md5="063077ED74BE826A8F2EB58DBC1F033D" import="1">Audio/Sounds/Governments/GovernmentMandateEstablished.mp3</File>
+    <File md5="D6D104449CC27A7FB03990158A0571F6" import="1">Audio/Sounds/Governments/GovernmentPapacyEstablished.mp3</File>
+    <File md5="D2C34BF257CF1F143FC9D4F0CCF15314" import="1">Audio/Sounds/Governments/GovernmentShogunateEstablished.mp3</File>
+    <File md5="CCA35865BDF9C50C8F9E554C5E4279FF" import="1">Audio/Sounds/LegislatureReset.wav</File>
+    <File md5="F96BAF543AB02586B4CD913507F7420E" import="1">Audio/Sounds/GenericChoice.mp3</File>
+    <File md5="2E361858C45706DC03E260EFB0460E3A" import="1">Audio/Sounds/AnarchyEnds.wav</File>
+    <File md5="A9E94E8DF95AAE5453CDE9435B231C14" import="1">Audio/Sounds/ReformPassable.wav</File>
+    <File md5="A901297AD964701A123F7E6060A49D1D" import="1">Audio/Sounds/ReformPassed.wav</File>
+    <File md5="87D3CC2770589C5A90E99FB4E26E8B4D" import="1">Audio/Wonders/Wonder_AmerFort.mp3</File>
+    <File md5="98CD64233DCD7C2671C35F10B8584739" import="1">Audio/Wonders/Wonder_Apadana.mp3</File>
+    <File md5="955F391367D6F250587C555BABDE2AB6" import="1">Audio/Wonders/Wonder_CairoCitadel.mp3</File>
+    <File md5="FBAD2019075C5A2319986EAFA67B13E1" import="1">Audio/Wonders/Wonder_DogesPalace.mp3</File>
+    <File md5="8A5A483B03B0A7458FEEB9D99D69AE43" import="1">Audio/Wonders/Wonder_ForumMagnum.mp3</File>
+    <File md5="8DEEBC71AFFDB7DCAA92794B2D71DDD7" import="1">Audio/Wonders/Wonder_HofburgPalace.mp3</File>
+    <File md5="9DE9B94D7759C26917312D3B4DF008C0" import="1">Audio/Wonders/Wonder_MosqueDamascus.mp3</File>
+    <File md5="8B29B36432A6D24B2EF5E2B0AA6D112F" import="1">Audio/Wonders/Wonder_TempleOfHeaven.mp3</File>
+    <File md5="83C263C492B35C4F21182BC1D8845A98" import="1">Audio/Wonders/Wonder_SargonsPalace.mp3</File>
+    <File md5="D67640B16EC25409E86C25B02303DA18" import="1">Audio/Wonders/Wonder_StPetersBasilica.mp3</File>
+    <File md5="8162D5C6CABD5F952DCAC39DF351E607" import="1">Audio/Wonders/Wonder_Versailles.mp3</File>
+    <File md5="931CC1829DF604E457A0F1B1C65CFAF0" import="0">Core/Sovereignty_Buildings.sql</File>
+    <File md5="58363F53AD4B637ADEFACE4A83F8523A" import="0">Core/Sovereignty_DiploModifiers.sql</File>
+    <File md5="3200FCCF16F672EC1909BC92B4B7C323" import="0">Core/Sovereignty_ReformsCP.sql</File>
+    <File md5="33983F7968DBB84E4904E678782E7BAA" import="0">Core/Sovereignty_Wonders.sql</File>
+    <File md5="06AC32EF3D10341398A014D160275888" import="0">Core/Sovereignty_Civilizations.sql</File>
+    <File md5="AD904590BC520B64D04250DFC1981989" import="0">Core/Sovereignty_Factions.sql</File>
+    <File md5="CF25FFAB1BCA2611589564699C92D1BC" import="0">Core/Sovereignty_Flavours.sql</File>
+    <File md5="9DED1B9A34E3BE624C2D1BE0C15D8770" import="0">Core/Sovereignty_GameText.sql</File>
+    <File md5="BAC09364EE6F3B0CCC2456A426007B67" import="0">Core/Sovereignty_ArtDefines.sql</File>
+    <File md5="2A7904F6E73E0853B556A727039F2441" import="0">Core/Sovereignty_Defines.sql</File>
+    <File md5="534579EF773526BD40D0CFC523D4E0A7" import="0">Core/Sovereignty_GameText_Reforms.xml</File>
+    <File md5="6DE859A3C3B5554D8063BE07D8BC9AD7" import="0">Core/Sovereignty_GameText_Titles.xml</File>
+    <File md5="88ACA8C29A0266B986C10582A25B5829" import="0">Core/Sovereignty_Governments.sql</File>
+    <File md5="259B6F6928072B2B39FFC208D5147864" import="0">Core/Sovereignty_GameText.xml</File>
+    <File md5="C58BC6E97459D39A708E1DD13540BDF2" import="0">Core/Sovereignty_GameText_Interface.xml</File>
+    <File md5="28CFD0D5E3BA2AB6470D48A55B4C98E5" import="0">Core/Sovereignty_Leaders.sql</File>
+    <File md5="BE1F38FBCE1CC4C1F0D7B95936496E4D" import="0">Core/Sovereignty_Master.sql</File>
+    <File md5="7C9931216381EE9AE1BACF93E79C6498" import="0">Core/Sovereignty_Notifications.sql</File>
+    <File md5="F74E4D62AA1F8A1698943518D77E83B3" import="0">Core/Sovereignty_Concepts.sql</File>
+    <File md5="5B3BEDAAC82D2E1D038FCA73600FB4B5" import="0">Core/Sovereignty_Councillors.sql</File>
+    <File md5="AB078856DA8B1C4C3C9CB622BC0E5939" import="0">Core/Sovereignty_ReformBranches.sql</File>
+    <File md5="1E79D15A517907A18FE600018E7D49EF" import="0">Core/Sovereignty_Reforms.sql</File>
+    <File md5="0ADB662D7879325C9482943467756294" import="0">Core/Sovereignty_Technologies.sql</File>
+    <File md5="FE26FD4806D2E7A222CA36BE7A02F67B" import="0">Core/Sovereignty_Triggers.sql</File>
+    <File md5="E845CBD80BFC769624F670D7887F6392" import="0">Core/Sovereignty_WondersCP.sql</File>
+    <File md5="EA41BA2AC23E5A1989159AD9B8818241" import="0">Credits.txt</File>
+    <File md5="984E19D8400E3ED7C25C771E4EB0F3DE" import="0">Lua/JFD_RTP_Sovereignty_GovernmentOverview.lua.bak</File>
+    <File md5="052D008A722FF85BDD909F234F80E9EC" import="0">Lua/JFD_RTP_Sovereignty_GovernmentOverview.xml.bak</File>
+    <File md5="EA08D132969B5E86A8A60605929666FC" import="0">Lua/JFD_RTP_Sovereignty_TopPanel.lua</File>
+    <File md5="BCD751EF9FE8738A87681C30B1DCB095" import="0">Lua/JFD_RTP_Sovereignty_TopPanel.xml</File>
+    <File md5="51536C069F398C4ED473C2D120E54966" import="0">Lua/JFD_RTP_Sovereignty_ChooseGovernmentPopup.lua</File>
+    <File md5="35E5CC4DB58685B170847BA0ADF7755E" import="0">Lua/JFD_RTP_Sovereignty_ChooseGovernmentPopup.xml</File>
+    <File md5="9DF1CBE5DAEE42A227396B14D9F41B3D" import="0">Lua/JFD_RTP_Sovereignty_EndTurnButton.lua</File>
+    <File md5="58A16A96FD60F76C39457A5F03FE79EE" import="0">Lua/JFD_RTP_Sovereignty_EndTurnButton.xml</File>
+    <File md5="2ECA4BD9A2C117CCE5364B820DB15263" import="0">Lua/JFD_RTP_Sovereignty_GovernmentOverview.lua</File>
+    <File md5="22CA9C2797894B6E9DC3EF5FCCFEE933" import="0">Lua/JFD_RTP_Sovereignty_GovernmentOverview.xml</File>
+    <File md5="882BD1EDFD547096C34F6A733C3946E7" import="0">Lua/JFD_RTP_Sovereignty_Functions.lua</File>
+    <File md5="4F3419F1BBB248705D8E3A7D70730B31" import="0">Lua/UI/FrontEnd/LoadScreen/LoadScreen.lua</File>
+    <File md5="D7655EAED3FD287C18702382513E8E12" import="1">Lua/UI/InGame/Popups/GreatPersonRewardPopup.lua</File>
+    <File md5="1D34451A1779533FAF3D242F517E37CA" import="1">Lua/UI/InGame/Popups/GreatPersonRewardPopup.xml</File>
+    <File md5="A1B46754F7908183BF39C0442406933A" import="0">Lua/Utilities/JFD_Sovereignty_Utils.bak</File>
+    <File md5="9984E587AEA19B4D1D3CD97387CD87E0" import="1">Lua/Utilities/JFD_Sovereignty_Utils.lua</File>
+    <File md5="31C3237F2A5C331D3326DD240A17C92D" import="1">Lua/Utilities/Save Utils/JFD_RTP_Sovereignty_TSLSerializerV3.lua</File>
+    <File md5="7C83BC818781F9DFFDA2B2A06BC8978F" import="1">Lua/Utilities/Save Utils/TableSaverLoader016.lua</File>
+    <File md5="FC62CA3A1C67B71BA4D3CCAD467DF9D0" import="1">Lua/Utilities/Save Utils/TSLSerializerCoreV3.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Sovereignty_Master.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Concepts.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Councillors.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_DiploModifiers.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Flavours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_GameText_Interface.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_GameText_Reforms.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_GameText_Titles.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Governments.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Leaders.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Notifications.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_ReformBranches.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Reforms.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_ReformsCP.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Factions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Technologies.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Wonders.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_WondersCP.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Sovereignty_Triggers.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Sovereignty_Functions.lua">
+      <Name>JFD_Sovereignty_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Sovereignty_ChooseGovernmentPopup.lua">
+      <Name>JFD_RTP_Sovereignty_ChooseGovernmentPopup.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Sovereignty_EndTurnButton.lua">
+      <Name>JFD_RTP_Sovereignty_EndTurnButton.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Sovereignty_GovernmentOverview.lua">
+      <Name>JFD_RTP_Sovereignty_GovernmentOverview.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_RTP_Sovereignty_TopPanel.lua">
+      <Name>JFD_RTP_Sovereignty_TopPanel.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

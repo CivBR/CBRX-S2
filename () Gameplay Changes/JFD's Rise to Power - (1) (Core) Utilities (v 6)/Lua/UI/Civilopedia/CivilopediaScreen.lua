@@ -9,7 +9,6 @@ include( "JFD_RTP_Utils.lua" );
 local g_IsCPActive = Game.IsCPActive()
 local g_IsCivIVDiplomacyActive = Game.IsCIVDiploActive()
 local g_IsRealReligionsActive = Game.IsRealReligionsActive()
-local g_IsSovereigntyActive = Game.IsSovereigntyActive()
 --
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
@@ -8599,7 +8598,7 @@ function ShowHideHandler( isHide )
         Events.SystemUpdateUI.CallImmediate( SystemUpdateUIType.BulkHideUI );
 		LuaEvents.CivilopediaScreenOpened()
 		
-		Controls.CategoryButton17:SetHide(not g_IsSovereigntyActive)
+		Controls.CategoryButton17:SetHide(not Player.GetCurrentGovernment)
 
 		if currentTopic then
 			local article = listOfTopicsViewed[currentTopic];
@@ -8616,6 +8615,7 @@ function ShowHideHandler( isHide )
 	end
 end
 ContextPtr:SetShowHideHandler( ShowHideHandler );
+Controls.CategoryButton17:SetHide(not Player.GetCurrentGovernment)
 
 ----------------------------------------------------------------
 -- 'Active' (local human) player has changed

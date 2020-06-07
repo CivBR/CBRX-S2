@@ -41,8 +41,8 @@ for row in DB.Query("SELECT ID FROM Buildings WHERE RequiresPantheon = 1;") do
 	g_Buildings_RequiresPantheon_Table[row.ID] = true
 end
 
---JFD_Sovereignty_CityCanConstruct
-local function JFD_Sovereignty_CityCanConstruct(playerID, cityID, buildingID)
+--JFD_RTP_CityCanConstruct
+local function JFD_RTP_CityCanConstruct(playerID, cityID, buildingID)
 	local player = Players[playerID]
 	local building = GameInfo.Buildings[buildingID]
 	local city = player:GetCityByID(cityID)
@@ -61,6 +61,6 @@ local function JFD_Sovereignty_CityCanConstruct(playerID, cityID, buildingID)
 	
 	return true
 end
-GameEvents.CityCanConstruct.Add(JFD_Sovereignty_CityCanConstruct)
+GameEvents.CityCanConstruct.Add(JFD_RTP_CityCanConstruct)
 --==========================================================================================================================
 --==========================================================================================================================
