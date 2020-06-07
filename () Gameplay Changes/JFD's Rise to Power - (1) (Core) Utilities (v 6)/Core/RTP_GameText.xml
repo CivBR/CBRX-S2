@@ -84,6 +84,32 @@
 		<Replace Tag="TXT_KEY_RELIGION_ZOROASTRIANISM_ADJ">
 			<Text>Zoroastrian</Text>
 		</Replace>
+		<!--Fallout-->
+		<Replace Tag="TXT_KEY_RELIGION_EDENSGATE_ADJ">
+			<Text>Eden's Gate</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_FR_FOLLOWERS_ADJ">
+			<Text>Followers</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_FR_SON_MARS_ADJ">
+			<Text>Mars</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_FR_CODEX_ADJ">
+			<Text>Codex</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_FR_ATOM_ADJ">
+			<Text>Atom</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_FR_BRIGHT_BROTHER_ADJ">
+			<Text>Bright Brother</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RELIGION_FR_CATHEDRAL_ADJ">
+			<Text>Children</Text>
+		</Replace>
+		<!--Other-->
+		<Replace Tag="TXT_KEY_RELIGION_DEVIL_CHURCH_ADJ">
+			<Text>Devil</Text>
+		</Replace>
 		<!--===================================================-->
 		<!--UNIT COMBATS-->
 		<!--===================================================-->
