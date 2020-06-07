@@ -52,6 +52,9 @@
     <File md5="45FCD88DD34C4AC5CE020ECDF8DE0914" import="0">Lua/JFD_Epithets_TopPanel.lua</File>
     <File md5="89ADAE9D31118347611528E5E550FA49" import="0">Lua/JFD_Epithets_TopPanel.xml</File>
     <File md5="CFA60483FCE050A595A484DB0920B051" import="1">Lua/Utilities/JFD_Epithets_Utils.lua</File>
+	<File md5="31C3237F2A5C331D3326DD240A17C92D" import="1">Lua/Utilities/Save Utils/JFD_RTP_Epithets_TSLSerializerV3.lua</File>
+    <File md5="7C83BC818781F9DFFDA2B2A06BC8978F" import="1">Lua/Utilities/Save Utils/TableSaverLoader016.lua</File>
+    <File md5="FC62CA3A1C67B71BA4D3CCAD467DF9D0" import="1">Lua/Utilities/Save Utils/TSLSerializerCoreV3.lua</File>
   </Files>
   <Actions>
     <OnModActivated>

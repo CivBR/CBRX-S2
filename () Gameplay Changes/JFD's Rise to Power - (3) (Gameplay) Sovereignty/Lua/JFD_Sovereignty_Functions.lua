@@ -101,7 +101,7 @@ local defineDefaultReformCooldownRate = (GameDefines["JFD_SOVEREIGNTY_DEFAULT_RE
 			Game.ChangeBaseGameText(civDesc, newText)
 			player:UpdateLeaderName(governmentTribeID)
 			player:UpdateCivilizationStateDescription(governmentTribeID)
-			JFD_RTP[playerID .. "_CHANGE_CHANGE_GOVT"] = {}
+			JFD_RTP_Sovereignty[playerID .. "_CHANGE_CHANGE_GOVT"] = {}
 		end
 	end
 end

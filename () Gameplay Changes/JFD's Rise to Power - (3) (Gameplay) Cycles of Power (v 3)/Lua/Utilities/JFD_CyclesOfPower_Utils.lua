@@ -2,6 +2,19 @@
 -- Author: JFD
 -- DateCreated: 4/30/2019 8:35:10 AM
 --==========================================================================================================================
+-- CACHING
+--==========================================================================================================================
+------------------------------------------------------------------------------------------------------------------------
+MapModData.JFD_RTP_CyclesOfPower = MapModData.JFD_RTP_CyclesOfPower or {}
+JFD_RTP_CyclesOfPower = MapModData.JFD_RTP_CyclesOfPower
+
+include("TableSaverLoader016.lua");
+
+tableRoot = JFD_RTP_CyclesOfPower
+tableName = "JFD_RTP_CyclesOfPower_SaveData"
+
+include("JFD_RTP_CyclesOfPower_TSLSerializerV3.lua");
+--==========================================================================================================================
 -- INCLUDES
 --==========================================================================================================================
 ------------------------------------------------------------------------------------------------------------------------
@@ -86,12 +99,12 @@ end
 -------------------------------------------------------------------------------------------------------------------------
 --Player:GetPreviousCyclePower
 function Player.GetPreviousCyclePower(player)
-	return JFD_RTP[player:GetID() .. "_PREVIOUS_CYCLE_POWER"] or -1
+	return JFD_RTP_CyclesOfPower[player:GetID() .. "_PREVIOUS_CYCLE_POWER"] or -1
 end
 -------------------------------------------------------------------------------------------------------------------------
 --Player:SetPreviousCyclePower
 function Player.SetPreviousCyclePower(player, cyclePowerID)
-	JFD_RTP[player:GetID() .. "_PREVIOUS_CYCLE_POWER"] = cyclePowerID
+	JFD_RTP_CyclesOfPower[player:GetID() .. "_PREVIOUS_CYCLE_POWER"] = cyclePowerID
 end
 -------------------------------------------------------------------------------------------------------------------------
 --Player:IsHasCycleOfPowerBegun
@@ -312,7 +325,7 @@ end
 --Player:GetVirtue
 function Player.GetVirtue(player)	
 	local playerID = player:GetID()
-	return JFD_RTP[playerID .. "_VIRTUE_BALANCE"] or 0
+	return JFD_RTP_CyclesOfPower[playerID .. "_VIRTUE_BALANCE"] or 0
 end
 -------------------------------------------------------------------------------------------------------------------------
 --Player:ChangeVirtue
@@ -331,7 +344,7 @@ end
 --Player:SetVirtue
 function Player.SetVirtue(player, setVal)	
 	local playerID = player:GetID()
-	JFD_RTP[playerID .. "_VIRTUE_BALANCE"] = setVal
+	JFD_RTP_CyclesOfPower[playerID .. "_VIRTUE_BALANCE"] = setVal
 end
 -------------------------------------------------------------------------------------------------------------------------
 --Player:GetVirtueRate
@@ -443,5 +456,24 @@ function Player_GetVirtueModifier(player, cyclePowerID)
 
 	return currentValMod
 end
+--==========================================================================================================================
+--=======================================================================================================================
+-- CACHING
+--=======================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------
+--OnModLoaded
+function OnModLoaded() 
+	local bNewGame = not TableLoad(tableRoot, tableName)
+
+	if bNewGame then
+		print("New Game")
+	else 
+		print("Cycles of Power Loaded from Saved Game")
+	end
+
+	TableSave(tableRoot, tableName)
+end
+OnModLoaded()
+--==========================================================================================================================
 --==========================================================================================================================
 --==========================================================================================================================
