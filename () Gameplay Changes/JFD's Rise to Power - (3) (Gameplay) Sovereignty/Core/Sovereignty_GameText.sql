@@ -19,7 +19,7 @@ SET Text = 'Augustus'
 WHERE Tag = 'TXT_KEY_LEADER_AUGUSTUS';
 
 UPDATE Language_en_US
-SET Text = 'Temujin'
+SET Text = 'Genghis'
 WHERE Tag = 'TXT_KEY_LEADER_GENGHIS_KHAN';
 
 --BELIEFS

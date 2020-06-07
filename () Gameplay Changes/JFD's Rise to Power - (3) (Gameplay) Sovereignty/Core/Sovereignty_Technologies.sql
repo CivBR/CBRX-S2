@@ -20,6 +20,12 @@ WHERE Type = 'TECH_CURRENCY';
 ------------------------------------------------------------------------------------------------------------------------		
 -- Technology_PrereqTechs
 ------------------------------------------------------------------------------------------------------------------------	
+INSERT INTO Technologies_JFD_MiscEffects
+		(TechType,					UnlockQuery,			EffectToolTip)
+VALUES	('TECH_JFD_CODE_OF_LAWS',	'AllowGovernments',		'TXT_KEY_TECH_JFD_CODE_OF_LAWS_EFFECT');	
+------------------------------------------------------------------------------------------------------------------------		
+-- Technology_PrereqTechs
+------------------------------------------------------------------------------------------------------------------------	
 DELETE FROM Technology_PrereqTechs WHERE TechType = 'TECH_PHILOSOPHY' AND PrereqTech = 'TECH_CALENDAR';
 INSERT INTO Technology_PrereqTechs 
 		(TechType, 					PrereqTech)
