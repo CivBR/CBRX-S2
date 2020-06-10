@@ -136,7 +136,7 @@ function SharifianSolo(playerID, unitID, plotX, plotY)
             end
 		end
 	end
-                                
+
             if adjOther then
                 if (unit:IsHasPromotion(sharifianSoloID)) then
                     unit:SetHasPromotion(sharifianSoloID, false)
@@ -287,13 +287,13 @@ function HejazClear(teamID, otherTeamID)
 	local team = Teams[teamID]
 	local playerID = team:GetLeaderID()
 	local player = Players[playerID]
-	if (player:GetCivilizationType() == civilizationID) then 
+	if (player:GetCivilizationType() == civilizationID) then
 		local otherTeam = Teams[otherTeamID]
 		local otherPlayerID = otherTeam:GetLeaderID()
 		local otherPlayer = Players[otherPlayerID]
 		for unit in otherPlayer:Units() do
 			if unit:IsCombatUnit() and (unit:GetDomainType() == iDomainLand) and Hejaz_HasAnyDebuff(unit) then
-				for k, v in ipairs(tDebuffs) then
+				for k, v in ipairs(tDebuffs) do
 					unit:SetHasPromotion(v, false)
 				end
 			end

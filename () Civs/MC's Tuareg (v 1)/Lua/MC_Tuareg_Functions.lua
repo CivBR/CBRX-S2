@@ -25,7 +25,7 @@ function C15_PookyUseThisToDetermineHowMuchGoldToDrain(pTuaregPlayer, pOtherPlay
     return EraCount
 end
 
-function C15_ProdTextOnPlot(iX, iY, sString) -- Code's basically Suk's fwiw 
+function C15_ProdTextOnPlot(iX, iY, sString) -- Code's basically Suk's fwiw
     local pHexPos = ToHexFromGrid{x=iX, y=iY}
     local pWorldPos = HexToWorld(pHexPos)
     Events.AddPopupTextEvent(pWorldPos, sString)
@@ -39,14 +39,14 @@ function C15_GetTradeRoutePartners(pPlayer)
 			tPartnerPlayers[v.ToID] = true
 		end
 	end
-	
+
 	return tPartnerPlayers
 end
 function MC_Tuareg_PlayerDoTurn(playerID)
 	local player = Players[playerID]
 	if (not player:IsAlive()) then return end
 	if player:GetCivilizationType() ~= civilizationTuaregID then return end
-	
+
 	for unit in player:Units() do
 		unit:SetHasPromotion(promoImajaghanID, false)
 		local plot = Map.GetPlot(unit:GetX(), unit:GetY())
@@ -59,9 +59,9 @@ function MC_Tuareg_PlayerDoTurn(playerID)
 			end
 		end
 	end
-	
+
 	local tPartners = C15_GetTradeRoutePartners(player)
-	
+
 	if tPartners then
 		for pCity in player:Cities() do
 			for pPlot in PlotAreaSpiralIterator(pCity:Plot(), 5, 1, false, false, true) do
@@ -69,7 +69,7 @@ function MC_Tuareg_PlayerDoTurn(playerID)
 					for pUnit in C15_PlotUnitsIterator(pPlot) do
 						if pUnit:IsTrade() then
 							local iOwner = pUnit:GetOwner()
-							if not tPartnerPlayers[iOwner] then
+							if not tPartners[iOwner] then
 								local pOther = Players[iOwner]
 								local iGold = C15_PookyUseThisToDetermineHowMuchGoldToDrain(player, pOther, pUnit)
 								if pOther:GetGold() >= iGold then
@@ -88,11 +88,11 @@ function MC_Tuareg_PlayerDoTurn(playerID)
 				end
 			end
 		end
-	end						
+	end
 end
 GameEvents.PlayerDoTurn.Add(MC_Tuareg_PlayerDoTurn)
 
--- More UU stuff (Free worker and more gold on pillage) 
+-- More UU stuff (Free worker and more gold on pillage)
 -- By TopHatPaladin
 -- This function is all adapted from the UAE's Qasimi Raider code
 -- I think JFD originally wrote it but it doesn't seem to be explicitly cited
@@ -136,7 +136,7 @@ function ImajaghanFunction(pUnit)
 	-- Free Worker
 	local pWorker = pPlayer:InitUnit(iWorker, pUnit:GetX(), pUnit:GetY())
 	pUnit:SetHasPromotion(iDonePromo, true)
-	--Adjust end    
+	--Adjust end
 	ImajaghanExtraGold(pPlayer)
 end
 
@@ -149,7 +149,7 @@ function ImajaghanMonitor(iPlayer)
 	local pPlayer = Players[iPlayer]
 	for pUnit in pPlayer:Units() do
 		if pUnit:IsHasPromotion(iUnitPromo) then
-			if pUnit:IsHasPromotion(iDonePromo) then            
+			if pUnit:IsHasPromotion(iDonePromo) then
 				pUnit:SetHasPromotion(iDonePromo, false)
 			end
 		end
@@ -202,13 +202,13 @@ function C15_PlotUnitsIterator(pPlot)
 		for i = 0, pPlot:GetNumUnits() - 1 do
 			coroutine.yield(pPlot:GetUnit(i))
 		end
-		
+
 		return nil
 	end)
-	
+
 	return function()
 		local bSuccess, pIterUnit = coroutine.resume(next)
-		
+
 		return bSuccess and pIterUnit or nil
 	end
 end
@@ -250,7 +250,7 @@ function C15_Tuareg_DoTurn(playerID)
 				end
 			end
 		end
-		
+
 		for pCity in pPlayer:Cities() do
 			local iCount = 0
 			if pCity:IsHasBuilding(iUB) then
@@ -264,9 +264,9 @@ function C15_Tuareg_DoTurn(playerID)
 						end
 					end
 				end
-				
+
 			end
-			
+
 			pCity:SetNumRealBuilding(iDummy, iCount)
 			pCity:SetNumRealBuilding(iOtherDummy, tCities[pCity] or 0)
 		end
