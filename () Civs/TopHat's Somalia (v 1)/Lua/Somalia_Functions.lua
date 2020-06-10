@@ -213,8 +213,9 @@ function DeathOfGabyaga(playerID, unitID, unitType, iX, iY, bDelay)
 		local pCity = Map.GetPlot(iX, iY):GetPlotCity()
 		if pCity then
 			pCity:SetNumRealBuilding(iExtraRouteBuilding, 0)
-			if tExtraRoutesEarned[pPlayer] > 0 then
-				tExtraRoutesEarned[pPlayer] = tExtraRoutesEarned[pPlayer] - 1
+			local iGabRoutes = tExtraRoutedEarned[pPlayer]
+			if iGabRoutes and (iGabRoutes > 0) then
+				tExtraRoutesEarned[pPlayer] = iGabRoutes - 1
 			end
 		end
 	end
