@@ -1008,19 +1008,19 @@ Events.HexFOWStateChanged.Add( OnHexFogEvent );
 function OnCityRangeStrikeButtonClick( PlayerID, CityID )
 	local player = Players[PlayerID];
 	if (player == nil) then
-		print("Invalid player");
+		--print("Invalid player");
 		return;
 	end
 	
 	local city = player:GetCityByID(CityID);
 
 	if (player:GetID() ~= Game.GetActivePlayer()) then
-		print("Not my player!");
+		--print("Not my player!");
 		return;
 	end
 
 	if (city == nil) then
-		print("No city!");
+		--print("No city!");
 		return;
 	end;
 	
@@ -1036,19 +1036,19 @@ function OnInitCityRangeStrike( PlayerID, CityID )
 
 	local player = Players[PlayerID];
 	if (player == nil) then
-		print("Invalid player");
+		--print("Invalid player");
 		return;
 	end
 	
 	local city = player:GetCityByID(CityID);
 
 	if (player:GetID() ~= Game.GetActivePlayer()) then
-		print("Not my player!");
+		--print("Not my player!");
 		return;
 	end
 
 	if (city == nil) then
-		print("No city!");
+		--print("No city!");
 		return;
 	end;
 
@@ -1067,25 +1067,25 @@ function OnEjectGarrisonClick ( PlayerID, CityID )
 	
 	local player = Players[PlayerID];
 	if (player == nil) then
-		print("Invalid player");
+		--print("Invalid player");
 		return;
 	end
 	
 	local city = player:GetCityByID(CityID);
 
 	if (player:GetID() ~= Game.GetActivePlayer()) then
-		print("Not my player!");
+		--print("Not my player!");
 		return;
 	end
 
 	if (city == nil) then
-		print("No city!");
+		--print("No city!");
 		return;
 	end;
 
 	local unit = city:GetGarrisonedUnit();
 	if (unit == nil) then
-		print("No unit!");
+		--print("No unit!");
 		return;
 	end;
 	
@@ -1314,7 +1314,7 @@ function OnCombatBegin( attackerPlayerID,
                         attackerY,
                         defenderX,
                         defenderY )
-    print( "CityBanner CombatBegin" );                        
+    --print( "CityBanner CombatBegin" );                        
 				
 	HideGarrisonRing(attackerX, attackerY, true);
 	HideGarrisonRing(defenderX, defenderY, true);
@@ -1339,7 +1339,7 @@ function OnCombatEnd( attackerPlayerID,
 					  defenderX,
                       defenderY )
                          
-    print( "CityBanner CombatEnd" );                        
+    --print( "CityBanner CombatEnd" );                        
     
 	HideGarrisonRing(attackerX, attackerY, false);
 	HideGarrisonRing(defenderX, defenderY, false);
