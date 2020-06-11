@@ -29,11 +29,11 @@ function GiveTechWithoutPopup(pPlayer, iTech)
     local bNoRewardPopups = OptionsManager.IsNoRewardPopups_Cached()
     if bIsActivePlayer and not bNoRewardPopups then
         OptionsManager.SetNoRewardPopups_Cached(true)
-        OptionsManager.CommitGameOptions();    
+        OptionsManager.CommitGameOptions();
     end
 
     pTeam:SetHasTech(iTech, true)
-    
+
     if bIsActivePlayer and not bNoRewardPopups then
         OptionsManager.SetNoRewardPopups_Cached(false)
         OptionsManager.CommitGameOptions();
@@ -276,7 +276,7 @@ function C15_Jerusalem_HospitallierUnitScience(playerID)
 		for pUnit in pPlayer:Units() do
 			if pUnit:IsHasPromotion(iHospitallierPromotion) then
 				local pPlot = pUnit:GetPlot()
-				if pTeam:IsAtWar(Players[pPlot:GetOwner():GetTeam()]) then
+				if pTeam:IsAtWar(pPlot:GetOwner():GetTeam()) then
 					iScience = iScience + iHospitallierScienceBonus
 				end
 			end
@@ -333,7 +333,7 @@ function C15_Jerusalem_IsWithinRangeOfCity(playerID, pPlot, iReligion)
 	--print(bHS, bReligion)
 	return bHS, bReligion
 end
-		
+
 function C15_Jerusalem_SepulchreFriendlyCityBonus(playerID)
 	local pPlayer = Players[playerID]
 	if pPlayer:IsAlive() and pPlayer:GetCivilizationType() == civilisationID then
@@ -386,7 +386,7 @@ end
 
 if isJerusalemCivActive then
 	GameEvents.UnitSetXY.Add(C15_Jerusalem_NearForeignReligionBonus)
-end			
+end
 
 -- LazarusCityGarrison
 function C15_Jerusalem_LazarusCityGarrison(playerID)

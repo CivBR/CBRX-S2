@@ -6,7 +6,7 @@ include("PlotIterators.lua")
 print("Loaded")
 
 --=======================================================================================================================
--- UTILITY FUNCTIONS	
+-- UTILITY FUNCTIONS
 --=======================================================================================================================
 -- JFD_IsCivilisationActive
 -------------------------------------------------------------------------------------------------------------------------
@@ -45,9 +45,9 @@ function Sukritact_PlaceResource(pCity, iResource)
 			table.insert(tPlots, pLoopPlot)
 		end
     end
-	
+
 	local pTargetPlot = nil
-	
+
     for iVal = 1, iNumtoPlace do
 		local bPlaced = false
 		while (not(bPlaced)) and #tPlots > 0 do
@@ -60,11 +60,11 @@ function Sukritact_PlaceResource(pCity, iResource)
 				pTargetPlot = pPlot
 				bPlaced = true
 			end
-			
+
 			table.remove(tPlots, iRandom)
 		end
 	end
-	
+
 	return pTargetPlot
 end
 -------------------------------------------------------------------------------------------------------------------------
@@ -75,7 +75,7 @@ function GetRiverCities(pPlayer)
 	for pCity in pPlayer:Cities() do
 		local pPlot = pCity:Plot()
 		if pPlot:IsRiver() then table.insert(tCities, pCity) end
-	end	
+	end
 	return tCities
 end
 -------------------------------------------------------------------------------------------------------------------------
@@ -86,7 +86,7 @@ function GetCoastalCities(pPlayer)
 	for pCity in pPlayer:Cities() do
 		local pPlot = pCity:Plot()
 		if pPlot:IsCoastalLand() then table.insert(tCities, pCity) end
-	end	
+	end
 	return tCities
 end
 -------------------------------------------------------------------------------------------------------------------------
@@ -105,11 +105,12 @@ local iPlankhouseDummy = GameInfoTypes.BUILDING_MC_PLANKHOUSE_DUMMY
 
 function Plankhouse_RiverCheck(iPlayer, iCity, iType)
 	if iType ~= CityUpdateTypes.CITY_UPDATE_TYPE_PRODUCTION then return end
-	
+
 	local pPlayer = Players[iPlayer]
 	local pCity = pPlayer:GetCityByID(iCity)
+	if (not pCity) then return end
 	local pPlot = pCity:Plot()
-	
+
 	if pCity:IsHasBuilding(iPlankhouse) and pPlot:IsRiver() then
 		pCity:SetNumRealBuilding(iPlankhouseDummy, 1)
 	else
@@ -125,7 +126,7 @@ function Plankhouse_CanBuild(iPlayer, iCity, iBuilding)
 	local pPlayer = Players[iPlayer]
 	local pCity = pPlayer:GetCityByID(iCity)
 	local pPlot = pCity:Plot()
-	
+
 	if (pPlot:IsFreshWater() or pPlot:IsCoastalLand() or pPlot:IsRiver()) then return true end
 	return
 end
@@ -173,15 +174,15 @@ end
 
 function AutomaticFishingBoats(iX, iY)
 	local pPlot = Map.GetPlot(ToGridFromHex(iX, iY))
-	
+
 	local iPlayer = pPlot:GetOwner()
 	if iPlayer == -1 then return end
-	
+
 	local pPlayer = Players[iPlayer]
-	
+
 	if (pPlayer:GetCivilizationType() == iCiv) and (tValidResources[pPlot:GetResourceType()]) then
 		local iImprovement = tValidResources[pPlot:GetResourceType()]
-		
+
 		if (iImprovement == iPlatform) and (pPlot:IsWater()) then
 			tOil[pPlot] = true
 			if Teams[pPlayer:GetTeam()]:IsHasTech(iTech) then
@@ -189,7 +190,7 @@ function AutomaticFishingBoats(iX, iY)
 			end
 			return
 		end
-		
+
 		if not(pPlot:CanHaveImprovement(iImprovement)) then return end
 		tPlots[pPlot] = true
 		pPlot:SetImprovementType(iImprovement)
@@ -197,13 +198,13 @@ function AutomaticFishingBoats(iX, iY)
 		if tPlots[pPlot] or tOil[pPlot] then
 			tPlots[pPlot] = nil
 			tOil[pPlot] = nil
-			
+
 			local iResource = pPlot:GetResourceType()
 			if (iResource == iSalmon) or (iResource == iOrca) then
 				pPlot:SetImprovementType(-1)
 				pPlot:SetResourceType(-1)
-			end			
-			
+			end
+
 		end
 	end
 end
@@ -226,7 +227,7 @@ local tText = {}
 	tText[iSalmon] 	= "[ICON_RES_MC_SALMON] " .. Locale.ConvertTextKey("TXT_KEY_RESOURCE_MC_SALMON")
 	tText[iOrca] 		= "[ICON_RES_MC_ORCA]" .. Locale.ConvertTextKey("TXT_KEY_RESOURCE_MC_ORCA")
 
-function PushNotification(pCity, pPlot, iResource, bTowards)	
+function PushNotification(pCity, pPlot, iResource, bTowards)
 
 	local pPlayer = Players[pCity:GetOwner()]
 	if not(pPlayer:IsHuman()) then return end
@@ -235,14 +236,14 @@ function PushNotification(pCity, pPlot, iResource, bTowards)
 	if not(bTowards) then
 		sDirection = Locale.ConvertTextKey("TXT_KEY_TRAIT_MC_CHINOOK_AWAY")
 	end
-	
+
 	local sCity = pCity:GetName()
 	local sTooltip = Locale.ConvertTextKey("TXT_KEY_TRAIT_MC_CHINOOK_NOTIFICATION", tText[iResource], sDirection, sCity)
-	
+
 	if pPlayer:HasPolicy(GameInfoTypes.POLICY_DECISIONS_CHINOOKSALMONRITES) then
 		sTooltip = sTooltip .. " " .. Locale.ConvertTextKey("TXT_KEY_DECISIONS_CHINOOKSALMONRITES_NOTIFICATION", math.ceil(40 * ((GameInfo.GameSpeeds[Game.GetGameSpeedType()].BuildPercent)/100)))
 	end
-	
+
 	pPlayer:AddNotification(NotificationTypes.NOTIFICATION_DISCOVERED_BONUS_RESOURCE, sTooltip, Locale.ConvertTextKey("TXT_KEY_TRAIT_MC_CHINOOK_SHORT"), pPlot:GetX(), pPlot:GetY(), iResource, -1)
 end
 -------------------------------------------------------------------------------------------------------------------------
@@ -257,7 +258,7 @@ for iPlot = 0, Map.GetNumPlots() - 1, 1 do
 	if pPlayer then
 		local iResource = pPlot:GetResourceType()
 		if (iResource == iSalmon) or (iResource == iOrca) then
-		
+
 			--Find nearest unassigned city
 			local iDistance = nil
 			local pTargetCity = nil
@@ -267,10 +268,10 @@ for iPlot = 0, Map.GetNumPlots() - 1, 1 do
 					iDistance = Map.PlotDistance(iX, iY, pCity:GetX(), pCity:GetY())
 				end
 			end
-			
+
 			tSalmon[pTargetCity] = pPlot
 		end
-	end	
+	end
 end
 -------------------------------------------------------------------------------------------------------------------------
 -- Salmon Migration: Place Salmon
@@ -280,14 +281,14 @@ function PlaceSalmon(iPlayer, iX, iY)
 	if (pPlayer:GetCivilizationType() == iCiv) then
 		local pPlot = Map.GetPlot(iX, iY)
 		local pCity = pPlot:GetPlotCity()
-		
+
 		if pCity:IsCapital() then
 			tSalmon[pCity] = Sukritact_PlaceResource(pCity, tRandom[GetRandom(1, 2)])
 			return tSalmon[pCity]
 		end
-		
+
 		local iUpper = 7
-		
+
 		local iNum = pPlayer:GetNumCities()
 		local iDivisor = 2
 		if pPlot:IsRiver() then iDivisor = 4 end
@@ -296,15 +297,15 @@ function PlaceSalmon(iPlayer, iX, iY)
 		iUpper = iUpper + iMod
 		if pCity:IsHasBuilding(iPlankhouse) then iUpper = iUpper - 2 end
 		if pPlot:IsRiver() then iUpper = iUpper - 1 end
-		
+
 		if iUpper < 2 then iUpper = 2 end
-		
+
 		local iResource = tRandom[GetRandom(1, iUpper)]
 		if not(iResource) then
 			tSalmon[pCity] = nil
 			return
 		end
-		
+
 		tSalmon[pCity] = Sukritact_PlaceResource(pCity, iResource)
 		return tSalmon[pCity]
 	end
@@ -314,7 +315,7 @@ function CityFounded_PlaceSalmon(iPlayer, iX, iY)
 	local pPlayer = Players[iPlayer]
 	if (pPlayer:GetCivilizationType() ~= iCiv) then return end
 	local pPlaced = PlaceSalmon(iPlayer, iX, iY)
-	
+
 	if pPlaced then
 		local pCity = Map.GetPlot(iX, iY):GetPlotCity()
 		PushNotification(pCity, pPlaced, pPlaced:GetResourceType(), pPlaced)
@@ -335,10 +336,10 @@ function MigrateSalmon(iPlayer)
 	if (iCurrentTurn % iInterval ) == 0 then
 		for pCity in pPlayer:Cities() do
 			local pOldPlot = tSalmon[pCity]
-			
+
 			local bLocked = false
 			if pOldPlot then
-			
+
 				-- Find Canoe
 				local iNumUnits = pOldPlot:GetNumUnits()
 				for iVal = 0,(iNumUnits - 1) do
@@ -349,22 +350,22 @@ function MigrateSalmon(iPlayer)
 						break
 					end
 				end
-				
+
 			end
-			
+
 			local pPlaced = nil
-			
+
 			if not bLocked then
 				pPlaced = PlaceSalmon(iPlayer, pCity:GetX(), pCity:GetY())
 				if pOldPlot then
-					
+
 					local iOldRes = pOldPlot:GetResourceType()
-				
+
 					pOldPlot:SetImprovementType(-1)
 					pOldPlot:SetResourceType(-1)
 				end
 			end
-			
+
 
 			if pPlaced then
 				LuaEvents.MC_Chinook_SalmonMigration(pCity, pPlaced)

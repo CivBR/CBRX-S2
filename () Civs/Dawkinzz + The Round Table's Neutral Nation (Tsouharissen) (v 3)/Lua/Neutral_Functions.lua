@@ -9,9 +9,9 @@
 local bDebug = false
 local tag = "Neutral Nation"
 
--- dprint
+-- --dprint
 -- Credit to Limaeus
-local function dprint(...)
+local function --dprint(...)
     if bDebug then
 		if ... ~= nil then
 			print(tag .. ": " .. string.format(...))
@@ -79,6 +79,8 @@ local resourceFlint = GameInfoTypes["RESOURCE_EW_FLINT"]
 local resourceIron = GameInfoTypes["RESOURCE_IRON"]
 local buildingTattooist = GameInfoTypes["BUILDING_EW_TATTOOIST"]
 local dummy_buildingMilitaryProduction = GameInfoTypes["BUILDING_NEUTRAL_MILITARY_PRODUCTION_DUMMY"]
+local techOptics = GameInfoTypes["TECH_OPTICS"]
+local techAstronomy = GameInfoTypes["TECH_ASTRONOMY"]
 
 local unitTable = {}
 
@@ -89,7 +91,6 @@ for row in DB.Query("SELECT ID, Type, Combat, RangedCombat, PrereqTech FROM Unit
 end
 
 local promotionTable = {}
-local j = 1
 for row in DB.Query("SELECT UnitType, PromotionType FROM Unit_FreePromotions") do
 	for k, v in pairs(unitTable) do
 		if v.Type == row.UnitType then
@@ -107,15 +108,14 @@ end
 ----------------------------------------------------------------------------------------------------------------------------
 -- CHILD OF THE SUN
 ----------------------------------------------------------------------------------------------------------------------------
-
 function EW_Lime_ResistanceSpawn(playerID)
     local player = Players[playerID]
 	if (not player:IsAlive()) then return end
 	if (not HasTrait(player, traitNeutralID)) then return end
 	for city in player:Cities() do
-		dprint(city:GetName())
+		--dprint(city:GetName())
 		if city:IsResistance() then
-			dprint("found a city in resistance")
+			--dprint("found a city in resistance")
 			local iChosenType = nil
 			local iHighestStrength = 0
 			local unitType = nil
@@ -128,16 +128,16 @@ function EW_Lime_ResistanceSpawn(playerID)
 								iHighestStrength = v.RangedStr
 								iChosenType = v.ID
 								unitType = v.Type
-								dprint(iHighestStrength)
-								dprint(unitType)
+								--dprint(iHighestStrength)
+								--dprint(unitType)
 							end
 						else
 							if v.MeleeStr >= iHighestStrength then
 								iHighestStrength = v.MeleeStr
 								iChosenType = v.ID
 								unitType = v.Type
-								dprint(iHighestStrength)
-								dprint(unitType)
+								--dprint(iHighestStrength)
+								--dprint(unitType)
 							end
 						end
 
@@ -148,30 +148,30 @@ function EW_Lime_ResistanceSpawn(playerID)
 			local placedUnit = false
 			for a, promotions in pairs(promotionTable) do
 				if a == unitType then
-					if team:IsHasTech(GameInfoTypes["TECH_OPTICS"]) then
+					if team:IsHasTech(techOptics) then
 						table.insert(promotions, "PROMOTION_EMBARKATION")
 					end
 					SpawnAtPlot(player, iChosenType, city:GetX(), city:GetY(), 0, 0, "NO_NAME", promotions)
-					dprint("Placed a " .. unitType)
+					--dprint("Placed a " .. unitType)
 					placedUnit = true
 					break
 				end
 			end
 
-			dprint(tostring(placedUnit))
+			--dprint(tostring(placedUnit))
 
 			if not placedUnit then
 				local promotions = {}
-				if team:IsHasTech(GameInfoTypes["TECH_OPTICS"]) then
+				if team:IsHasTech(techOptics) then
 					table.insert(promotions, "PROMOTION_EMBARKATION")
-					if team:IsHasTech(GameInfoTypes["TECH_ASTRONOMY"]) then
+					if team:IsHasTech(techAstronomy) then
 						table.insert(promotions, "PROMOTION_ALLWATER_EMBARKATION")
 					end
 				end
 				--tprint(promotions)
 				SpawnAtPlot(player, iChosenType, city:GetX(), city:GetY(), 0, 0, "NO_NAME", promotions)
 
-				dprint("Placed a " .. unitType)
+				--dprint("Placed a " .. unitType)
 			end
 
 		end
@@ -193,18 +193,18 @@ function Lime_ConvertToFlint(iTeam, iTech, iChange)
 		if player == nil then return end
 		if (not player:IsAlive()) then return end
 		if (not HasTrait(player, traitNeutralID)) then return end
-		dprint("player ID" .. player:GetID())
-		dprint(player:GetName())
+		--dprint("player ID" .. player:GetID())
+		--dprint(player:GetName())
 
 		for city in player:Cities() do
-			dprint("city " .. city:GetName())
+			--dprint("city " .. city:GetName())
 			for i = 0, city:GetNumCityPlots() - 1, 1 do
 				local plot = city:GetCityIndexPlot(i)
-				dprint("plot found at " .. plot:GetX() .. " " .. plot:GetY())
-				dprint(plot:GetOwner())
+				--dprint("plot found at " .. plot:GetX() .. " " .. plot:GetY())
+				--dprint(plot:GetOwner())
 				if plot:GetNumResource() > 0 and plot:GetOwner() == player:GetID() then
-					dprint("found owned plot with resource " .. plot:GetResourceType())
-					dprint("iron is " .. resourceIron)
+					--dprint("found owned plot with resource " .. plot:GetResourceType())
+					--dprint("iron is " .. resourceIron)
 					if plot:GetResourceType() == resourceIron then
 						local tmpNum = plot:GetNumResource()
 						plot:SetResourceType(resourceIron, 0)
@@ -212,7 +212,7 @@ function Lime_ConvertToFlint(iTeam, iTech, iChange)
 						plot:SetNumResource(tmpNum)
 						local hex = ToHexFromGrid(Vector2(plot:GetX(), plot:GetY()))
 						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[COLOR_POSITIVE_TEXT]Converted [ICON_RESOURCE_IRON] to [ICON_RESOURCE_EW_FLINT]"), true)
-						dprint("replaced Iron with Flint at " .. plot:GetX() .. " " .. plot:GetY())
+						--dprint("replaced Iron with Flint at " .. plot:GetX() .. " " .. plot:GetY())
 					end
 				end
 			end
@@ -229,15 +229,15 @@ function Lime_FlintProductionBonus(playerID)
 	for city in player:Cities() do
 		for i = 0, city:GetNumCityPlots() - 1, 1 do
 			local plot = city:GetCityIndexPlot(i)
-			--dprint("plot found at " .. plot:GetX() .. " " .. plot:GetY())
-			--dprint("first check " .. plot:GetNumResource())
-			--dprint("second check owner " .. plot:GetOwner())
-			--dprint("second check player ID " .. player:GetID())
-			--dprint("third check" .. plot:IsBeingWorked())
+			----dprint("plot found at " .. plot:GetX() .. " " .. plot:GetY())
+			----dprint("first check " .. plot:GetNumResource())
+			----dprint("second check owner " .. plot:GetOwner())
+			----dprint("second check player ID " .. player:GetID())
+			----dprint("third check" .. plot:IsBeingWorked())
 			if plot:GetNumResource() > 0 and plot:GetOwner() == player:GetID() and plot:IsBeingWorked() then
-				dprint("Found a worked resource of type " .. plot:GetResourceType())
+				--dprint("Found a worked resource of type " .. plot:GetResourceType())
 				if plot:GetResourceType() == resourceFlint then
-					dprint("Found some worked flint")
+					--dprint("Found some worked flint")
 					city:SetNumRealBuilding(dummy_buildingMilitaryProduction, 1)
 					break
 				else
@@ -260,7 +260,7 @@ function Lime_AI_UpgradeUnits(player, unit, resource)
 	local nunit = player:InitUnit(unitMusketman, unit:GetX(), unit:GetY())
 	nunit:Convert(unit)
 	unit:Kill(-1)
-	dprint("Upgraded Chonnonton to Musketman at " .. unit:GetX() .. " " .. unit:GetY())
+	--dprint("Upgraded Chonnonton to Musketman at " .. unit:GetX() .. " " .. unit:GetY())
 end
 
 function Lime_SpawnFlint(playerID, cityID, unitID)
@@ -275,9 +275,9 @@ function Lime_SpawnFlint(playerID, cityID, unitID)
 			if plot:GetNumResource() == 0 and not plot:IsCity() and plot:GetOwner() == playerID then
 				if not plot:IsWater() then
 					local rand = Game.Rand(city:GetNumCityPlots()+1, "FlintSpawn")
-					dprint("random number is " .. rand)
+					--dprint("random number is " .. rand)
 					if rand > city:GetNumCityPlots()/1.2 then
-						dprint("Spawning Flint")
+						--dprint("Spawning Flint")
 						plot:SetResourceType(resourceFlint, 1)
 						plot:SetNumResource(Game.Rand(9, "Num Flint Generator"))
 
@@ -335,7 +335,7 @@ function Lime_ChonnontonButton()
 		local newUnit = player:InitUnit(unitMusketman, selUnit:GetX(), selUnit:GetY())
 		newUnit:Convert(selUnit)
 		selUnit:Kill(-1)
-		dprint("Upgraded Chonnonton to Musketman at " .. selUnit:GetX() .. " " .. selUnit:GetY())
+		--dprint("Upgraded Chonnonton to Musketman at " .. selUnit:GetX() .. " " .. selUnit:GetY())
 	end
 end
 
@@ -361,11 +361,11 @@ function Lime_Neutral_GiveUpgradeChonnonton(playerID, unitID, unitX, unitY)
 			Controls.NeutralButton:SetHide(false)
 			NeutralToolTip = Locale.ConvertTextKey("TXT_KEY_NEUTRAL_CHONNONTON_UPGRADE_TAG")
 			Controls.NeutralButton:LocalizeAndSetToolTip("" .. NeutralToolTip .. "")
-			dprint("Displayed the Chonnonton's free upgrade button")
+			--dprint("Displayed the Chonnonton's free upgrade button")
 		else
 			Controls.NeutralBackground:SetHide(true)
 			selUnit = nil;
-			dprint("Hid the Chonnonton's free upgrade button")
+			--dprint("Hid the Chonnonton's free upgrade button")
 		end
 	else
 		Lime_AI_UpgradeUnits(player, unit, resource)
@@ -385,7 +385,7 @@ function EW_RemovePenalty(playerID, unitID, ewX, ewY)
 			local city = Map.GetPlot(ewX, ewY):GetPlotCity()
 			if city:IsHasBuilding(buildingTattooist) then
 				unit:SetHasPromotion(promotionWeak, false)
-				dprint("Removed the Weakness promotion at " .. ewX .. " " .. ewY)
+				--dprint("Removed the Weakness promotion at " .. ewX .. " " .. ewY)
 			end
 		end
 	end
