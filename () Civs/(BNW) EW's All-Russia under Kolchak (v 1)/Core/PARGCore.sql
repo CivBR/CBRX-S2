@@ -128,56 +128,43 @@ VALUES	('CIVILIZATION_EW_PARG', 'TXT_KEY_EW_PARG_CITY_1'),
 		('CIVILIZATION_EW_PARG', 'TXT_KEY_EW_PARG_CITY_32');
 		
 --Bronepoezd
-
 INSERT INTO Units 
-		(Type,	Description,	Civilopedia,	Strategy,	Help,	Combat,	Cost,	FaithCost,	RequiresFaithPurchaseEnabled,	Moves,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority,	DefaultUnitAI,	AdvancedStartCost,	WorkRate,	BaseGold,	NumGoldPerEra,	UnitArtInfo,	ShowInPedia,	MoveRate,	UnitFlagIconOffset,	PortraitIndex,	IconAtlas,	UnitFlagAtlas,	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance)
-SELECT	('UNIT_EW_BRONEPOEZD'),	('TXT_KEY_UNIT_EW_BRONEPOEZD'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_PEDIA'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_STRATEGY'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_HELP'),	Combat,	Cost,	FaithCost,	RequiresFaithPurchaseEnabled,	1,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority, DefaultUnitAI,	AdvancedStartCost,	100,	BaseGold,	NumGoldPerEra,	('ART_DEF_UNIT_EW_BRONEPOEZD'),	ShowInPedia,	MoveRate,	0,	2,	('ATLAS_EW_KOLCHAK'),	('EW_BRONEPOEZD_ALPHA'),	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance
-FROM Units WHERE (Type = 'UNIT_WWI_TANK');
-
-INSERT INTO Units 
-		(Type,	Description,	Civilopedia,	Strategy,	Help,	Combat,	Cost,	FaithCost,	RequiresFaithPurchaseEnabled,	Moves,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority,	DefaultUnitAI,	AdvancedStartCost,	WorkRate,	BaseGold,	NumGoldPerEra,	UnitArtInfo,	ShowInPedia,	MoveRate,	UnitFlagIconOffset,	PortraitIndex,	IconAtlas,	UnitFlagAtlas,	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance,	RangedCombat,	Range,	CombatClass)
-SELECT	('UNIT_EW_BRONEPOEZD_RANGED'),	('TXT_KEY_UNIT_EW_BRONEPOEZD'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_PEDIA'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_STRATEGY'),	('TXT_KEY_UNIT_EW_BRONEPOEZD_HELP'),	Combat,	-1,	FaithCost,	RequiresFaithPurchaseEnabled,	1,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority, ('UNITAI_DEFENSE'),	AdvancedStartCost,	100,	BaseGold,	NumGoldPerEra,	('ART_DEF_UNIT_EW_BRONEPOEZD'),	ShowInPedia,	MoveRate,	0,	2,	('ATLAS_EW_KOLCHAK'),	('EW_BRONEPOEZD_ALPHA'),	PrereqTech,	ObsoleteTech,	Trade,	1,	NoMaintenance,	50,	2,	('UNITCOMBAT_ARCHER')
+		(Type,					Description,					Civilopedia,						Strategy,								Help,								Combat,	Cost,	FaithCost,	RequiresFaithPurchaseEnabled,	Moves,	BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority,	DefaultUnitAI,	AdvancedStartCost,	WorkRate,	BaseGold,	NumGoldPerEra,	UnitArtInfo,					ShowInPedia,	MoveRate,	UnitFlagIconOffset,	PortraitIndex,	IconAtlas,			UnitFlagAtlas,			PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance,	RangedCombat,	Range,	CombatClass)
+SELECT	'UNIT_EW_BRONEPOEZD',	'TXT_KEY_UNIT_EW_BRONEPOEZD',	'TXT_KEY_UNIT_EW_BRONEPOEZD_PEDIA',	'TXT_KEY_UNIT_EW_BRONEPOEZD_STRATEGY',	'TXT_KEY_UNIT_EW_BRONEPOEZD_HELP',	Combat,	Cost,	FaithCost,	RequiresFaithPurchaseEnabled,	1,		BaseSightRange,	Class,	Special,	Domain,	CivilianAttackPriority, DefaultUnitAI,	AdvancedStartCost,	100,		BaseGold,	NumGoldPerEra,	'ART_DEF_UNIT_EW_BRONEPOEZD',	ShowInPedia,	MoveRate,	0,					2,				'ATLAS_EW_KOLCHAK',	'EW_BRONEPOEZD_ALPHA',	PrereqTech,	ObsoleteTech,	Trade,	Immobile,	NoMaintenance, 	50,				2,		'UNITCOMBAT_ARCHER'
 FROM Units WHERE (Type = 'UNIT_WWI_TANK');
 		
 -----
-
 INSERT INTO Unit_Flavors
 		(UnitType,	FlavorType,	Flavor)
 SELECT	('UNIT_EW_BRONEPOEZD'),	FlavorType,	Flavor + 5
 FROM Unit_Flavors WHERE (UnitType = 'UNIT_WWI_TANK');
 
 -----
-
 INSERT INTO UnitGameplay2DScripts
 		(UnitType,	SelectionSound,	FirstSelectionSound)
 SELECT	('UNIT_EW_BRONEPOEZD'),	SelectionSound,	FirstSelectionSound
 FROM UnitGameplay2DScripts WHERE (UnitType = 'UNIT_WWI_TANK');
 
 -----
-
 INSERT INTO Unit_ClassUpgrades
 		(UnitType,	UnitClassType)
 SELECT	('UNIT_EW_BRONEPOEZD'),	UnitClassType
 FROM Unit_ClassUpgrades WHERE (UnitType = 'UNIT_WWI_TANK');
 
-INSERT INTO Unit_ClassUpgrades
-		(UnitType,	UnitClassType)
-SELECT	('UNIT_EW_BRONEPOEZD_RANGED'),	UnitClassType
-FROM UniT_ClassUpgrades WHERE (UnitType = 'UNIT_WWI_TANK');
-
 -----
-
 INSERT INTO Unit_Builds
 		(UnitType,	BuildType)
-VALUES	('UNIT_EW_BRONEPOEZD',	'BUILD_RAILROAD'),
-		('UNIT_EW_BRONEPOEZD_RANGED',	'BUILD_RAILROAD');
-
+VALUES	('UNIT_EW_BRONEPOEZD',	'BUILD_RAILROAD');
 -----
-
 INSERT INTO Unit_FreePromotions
-		(UnitType,	PromotionType)
-VALUES	('UNIT_EW_BRONEPOEZD',	'PROMOTION_ONLY_DEFENSIVE'),
-		('UNIT_EW_BRONEPOEZD_RANGED',	'PROMOTION_ONLY_DEFENSIVE');
+		(UnitType,						PromotionType)
+VALUES	('UNIT_EW_BRONEPOEZD',			'PROMOTION_ONLY_DEFENSIVE');		
+-----
+INSERT INTO Unit_AITypes
+		(UnitType,				UnitAIType)
+VALUES	('UNIT_EW_BRONEPOEZD',	'UNITAI_FAST_ATTACK'),
+		('UNIT_EW_BRONEPOEZD',	'UNITAI_RANGED'),
+		('UNIT_EW_BRONEPOEZD',	'UNITAI_DEFENSE');
 
 --Legione Redenta
 
@@ -284,5 +271,20 @@ VALUES	('CIVILIZATION_EW_PARG',	'REGION_TUNDRA');
 -----
 
 INSERT INTO UnitPromotions
-		(Type,	Description,	Help,	IconAtlas,	PortraitIndex,	Sound,	PediaType,	PediaEntry)
-VALUES	('PROMOTION_EW_PARGFOREIGN',	'TXT_KEY_PROMOTION_EW_PARGFOREIGN',	'TXT_KEY_PROMOTION_EW_PARGFOREIGN_HELP',	'ABILITY_ATLAS',	58,	'AS2D_IF_LEVELUP',	'PEDIA_ATTRIBUTES',	'TXT_KEY_EW_PARGFOREIGN_HELP');
+		(Type,							Description,						Help,										IconAtlas,			CannotBeChosen, PortraitIndex,	Sound,				PediaType,			PediaEntry)
+VALUES	('PROMOTION_EW_PARGFOREIGN',	'TXT_KEY_PROMOTION_EW_PARGFOREIGN',	'TXT_KEY_PROMOTION_EW_PARGFOREIGN_HELP',	'ABILITY_ATLAS',	1, 				58,				'AS2D_IF_LEVELUP',	'PEDIA_ATTRIBUTES',	'TXT_KEY_EW_PARGFOREIGN_HELP');
+
+INSERT INTO UnitPromotions
+		(Type, 							Description,						Help,										IconAtlas, 			PortraitIndex, 	Sound, 				RangeChange, 	CannotBeChosen)
+VALUES 	('PROMOTION_LIME_DUMMY_MELEE', 'TXT_KEY_PROMOTION_LIME_PARG_MELEE',	'TXT_KEY_PROMOTION_LIME_PARG_MELEE_HELP',	'ABILITY_ATLAS',	58,				'AS2D_IF_LEVELUP',	-2, 					1),
+		('PROMOTION_LIME_DUMMY_STOP', 	'TXT_KEY_PROMOTION_LIME_PARG_STOP',	'TXT_KEY_PROMOTION_LIME_PARG_STOP_HELP',	'ABILITY_ATLAS',	58,				'AS2D_IF_LEVELUP',	0, 						1);
+
+INSERT INTO UnitPromotions_Terrains
+		(PromotionType, 				TerrainType, 	Impassable)
+SELECT 	'PROMOTION_LIME_DUMMY_STOP', 	t.Type, 		1
+FROM Terrains t;
+
+INSERT INTO UnitPromotions_Features
+		(PromotionType, 				FeatureType, 	Impassable)
+SELECT 	'PROMOTION_LIME_DUMMY_STOP', f.Type, 			1
+FROM Features f;

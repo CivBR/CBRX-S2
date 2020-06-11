@@ -1,5 +1,6 @@
 include("EW_PARG_TSLDefines.lua");
 include("TableSaverLoader016.lua");
+include("UnitSpawnHandler")
 
 tableRoot = EW_Parg
 tableName = "EW_Parg"
@@ -8,78 +9,125 @@ include("EW_Parg_TSLSerializerV3.lua");
 
 TableLoad(tableRoot, tableName)
 
-function OnModLoaded() 
-	local bNewGame = not TableLoad(tableRoot, tableName)
-	TableSave(tableRoot, tableName)
-end
-OnModLoaded()
-
 -----
 --UA
 -----
-
 local parg = GameInfoTypes["CIVILIZATION_EW_PARG"]
+local legione = GameInfoTypes["UNIT_EW_LEGIONE"]
+local foreign = GameInfoTypes["PROMOTION_EW_PARGFOREIGN"]
+local techOptics = GameInfoTypes["TECH_OPTICS"]
+local techAstronomy = GameInfoTypes["TECH_ASTRONOMY"]
 
--- Checks if the Civilization is at War, and if so grants Temporary Units.
+-- Util Function from Tomatekh maybe?
+function GetModPlayerFromTeam(teamID)
+	local iTeam = 0
+	for iPlayer = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
+		local pPlayer = Players[iPlayer]
+		iTeam = pPlayer:GetTeam()
+		if iTeam == teamID then
+			return pPlayer
+		end
+	end
+	return nil
+end
+
+function GetProperTeamName(teamId)
+	if (Teams[teamId]:GetName() or "") == "" then
+		return Players[teamId]:GetName()
+	end
+	return Teams[teamId]:GetName();
+end
+
 function EW_PARG_DoTurn(playerID)
 	local player = Players[playerID]
-	if player:GetCivilizationType() == parg then
-		--Adds production to occupied cities
-		for city in player:Cities() do
-			if city:IsOccupied() then
-				local production = city:GetProduction()
-				city:ChangeProduction(math.floor(production / 2))
+	if (not player:IsAlive()) then return end
+	if (not player:GetCivilizationType() == parg) then return end
+	
+	--Adds production to occupied cities
+	for city in player:Cities() do
+		if city:IsOccupied() then
+			local iProductionPerTurn = city:GetYieldRate(YieldTypes.YIELD_PRODUCTION);
+			if (city:IsFoodProduction()) then
+				iProductionPerTurn = iProductionPerTurn + city:GetYieldRate(YieldTypes.YIELD_FOOD) - city:FoodConsumption(true);
 			end
-		end
-
-
-		local team = Teams[player:GetTeam()]
-		Parg_Friend[playerID] = 0
-
-		--Counts Trade Routes to All-Russia
-
-		for k, v in pairs(player:GetTradeRoutesToYou()) do
-			Parg_Friend[playerID] = Parg_Friend[playerID] + 1
-		end
-
-		for k, v in pairs(player:GetTradeRoutes()) do
-			Parg_Friend[playerID] = Parg_Friend[playerID] + 1
-		end
-
-		local friends = Parg_Friend[playerID]
-
-
-		--Checks if War was declared
-		for k, v in pairs(Players) do
-			if not (v:IsBarbarian() or v == player) then
-				local enemyTeam = Teams[v:GetTeam()]
-				Parg_War[enemyTeam] = Parg_War[enemyTeam] or -1
-				if team:IsAtWar(v:GetTeam()) and Parg_War[enemyTeam] == -1 then
-					EW_PARG_SpawnUnits(player, friends,	enemyTeam)
-					Parg_War[enemyTeam] = 1
-					Parg_Recent[playerID] = enemyTeam
-				elseif (not team:IsAtWar(v:GetTeam())) then
-					Parg_War[enemyTeam] = -1
-					for unit in player:Units() do
-						Parg_Temp[unit:GetID()] = Parg_Temp[unit:GetID()] or -1
-						if Parg_Temp[unit:GetID()] == enemyTeam then
-							unit:Kill()
-						end
-					end
-				end
-			end
+			city:ChangeProduction(math.floor(iProductionPerTurn / 2))
 		end
 	end
 end
-
 GameEvents.PlayerDoTurn.Add(EW_PARG_DoTurn)
 
-local ewUnitTable = {}
+function PARG_GetFriends(playerID)
+	local player = Players[playerID]
+	if (not player:IsAlive()) then return end
+	
+	return (#player:GetTradeRoutesToYou() + player:GetNumInternationalTradeRoutesUsed())
+end
 
-local ewI = 1
-for row in DB.Query("SELECT ID, Combat, RangedCombat, PrereqTech FROM Units WHERE (Domain = 'DOMAIN_LAND') AND (Combat > 0)") do
-    ewUnitTable[ewI] = {ID=row.ID, MeleeStr=row.Combat, RangedStr=row.RangedCombat, Tech=GameInfoTypes[row.PrereqTech]}
-    ewI = ewI + 1
+function Lime_PARG_DeclareWar(fromTeamID, toTeamID)
+	local fromPlayer = GetModPlayerFromTeam(fromTeamID)
+	local toPlayer = GetModPlayerFromTeam(toTeamID)
+	local player
+	local enemyTeam
+	if fromPlayer:GetCivilizationType() == parg then
+		player = fromPlayer
+		enemyTeam = Teams[toTeamID]
+	elseif fromPlayer:GetCivilizationType() == parg then
+		player = toPlayer
+		enemyTeam = Teams[fromTeamID]
+	end
+	if not player then return end
+	
+	local friends = PARG_GetFriends(player:GetID())
+	
+	Parg_War[enemyTeam] = 1
+	Parg_Recent[player:GetID()] = enemyTeam
+	EW_PARG_SpawnUnits(player, friends,	enemyTeam)
+end
+GameEvents.DeclareWar.Add(Lime_PARG_DeclareWar)
+
+function Lime_PARG_MakePeace(fromTeamID, toTeamID)
+	local fromPlayer = GetModPlayerFromTeam(fromTeamID)
+	local toPlayer = GetModPlayerFromTeam(toTeamID)
+	local player
+	local enemyTeam
+	if fromPlayer:GetCivilizationType() == parg then
+		player = fromPlayer
+		enemyTeam = Teams[toTeamID]
+		Parg_War[enemyTeam] = -1
+	elseif fromPlayer:GetCivilizationType() == parg then
+		player = toPlayer
+		enemyTeam = Teams[fromTeamID]
+		Parg_War[enemyTeam] = -1
+	end
+	if not player then return end
+	
+	for unit in player:Units() do
+		if unit:GetNameNoDesc() == enemyTeam:GetName() then
+			unit:Kill()
+		end
+	end
+end
+GameEvents.MakePeace.Add(Lime_PARG_MakePeace)
+
+local unitTable = {}
+local i = 1
+for row in DB.Query("SELECT ID, Type, Combat, RangedCombat, PrereqTech FROM Units WHERE (Domain = 'DOMAIN_LAND') AND (Combat > 0)") do
+    unitTable[i] = {ID=row.ID, Type=row.Type, MeleeStr=row.Combat, RangedStr=row.RangedCombat, Tech=GameInfoTypes[row.PrereqTech]}
+    i = i + 1
+end
+
+local promotionTable = {}
+for row in DB.Query("SELECT UnitType, PromotionType FROM Unit_FreePromotions") do
+	for k, v in pairs(unitTable) do
+		if v.Type == row.UnitType then
+			if not promotionTable[row.UnitType] then
+				promotionTable[row.UnitType] = {row.PromotionType}
+			else
+				table.insert(promotionTable[row.UnitType], row.PromotionType)
+			end
+
+		end
+	end
 end
 
 for row in DB.Query("SELECT ID, PrereqTech, ObsoleteTech FROM Units WHERE (Type = 'UNIT_FRENCH_FOREIGNLEGION')") do
@@ -87,120 +135,106 @@ for row in DB.Query("SELECT ID, PrereqTech, ObsoleteTech FROM Units WHERE (Type 
 	local techEnd = GameInfoTypes[row.ObsoleteTech]
 end
 
-local legione = GameInfoTypes["UNIT_EW_LEGIONE"]
-local foreign = GameInfoTypes["PROMOTION_EW_PARGFOREIGN"]
-
-function EW_PARG_SpawnUnits(player, var, enemyTeam)
-	if player:GetCivilizationType() == parg then
-		while var ~= 0 do
-			local iChosenType = nil
-			local iHighestStrength = 0
-
-			--Checks the strongest unit you can train (Note: I was planning on having it donate the friend's strongest unit it can train, but decided this would be simpler and easier to balance.) May also return a Legione Redenta if available.
-			for k, v in pairs(ewUnitTable) do
-				if player:CanTrain(v.ID) then
-					local team = Teams[player:GetTeam()]
+function EW_PARG_SpawnUnits(player, numFriends, enemyTeam)
+	local capital = player:GetCapitalCity()
+	while numFriends > 0 do
+		local iChosenType = nil
+		local iHighestStrength = 0
+		local unitType = nil
+		local team = Teams[player:GetTeam()]
+		for k, v in pairs(unitTable) do
+			if player:CanTrain(v.ID) then
+				if team:IsHasTech(techStart) and (not team:IsHasTech(techEnd)) then
+					iChosenType = legione
+				end
+				if not iChosenType then
 					if team:IsHasTech(v.Tech) or (v.Tech == nil) then
 						if v.RangedStr > 0 then
 							if v.RangedStr >= iHighestStrength then
 								iHighestStrength = v.RangedStr
 								iChosenType = v.ID
+								unitType = v.Type
+							end
+						else
+							if v.MeleeStr >= iHighestStrength then
+								iHighestStrength = v.MeleeStr
+								iChosenType = v.ID
+								unitType = v.Type
 							end
 						end
-						if v.MeleeStr >= iHighestStrength then
-							iHighestStrength = v.MeleeStr
-							iChosenType = v.ID
-						end
-					end
-					if team:IsHasTech(techStart) and (not team:IsHasTech(techEnd)) then
-						iChosenType = legione
 					end
 				end
 			end
-	
-			--Spawns unit
-			local capital = player:GetCapitalCity()
-			local newUnit = player:InitUnit(iChosenType, capital:GetX(), capital:GetY())
-			newUnit:JumpToNearestValidPlot()
-			newUnit:SetHasPromotion(foreign, true)
-			Parg_Temp[newUnit:GetID()] = enemyTeam
-			var = (var - 1) or 0
 		end
+		
+		local placedUnit = false
+		for a, promotions in pairs(promotionTable) do
+			if a == unitType then
+				table.insert(promotions, "PROMOTION_EW_PARGFOREIGN")
+				if team:IsHasTech(techOptics) then
+					table.insert(promotions, "PROMOTION_EMBARKATION")
+				end
+				SpawnAtPlot(player, iChosenType, capital:GetX(), capital:GetY(), 0, 0, enemyTeam:GetName(), promotions)
+				placedUnit = true
+				break
+			end
+		end
+
+		if not placedUnit then
+			local promotions = {}
+			table.insert(promotions, "PROMOTION_EW_PARGFOREIGN")
+			if team:IsHasTech(GameInfoTypes["TECH_OPTICS"]) then
+				table.insert(promotions, "PROMOTION_EMBARKATION")
+				if team:IsHasTech(techAstronomy) then
+					table.insert(promotions, "PROMOTION_ALLWATER_EMBARKATION")
+				end
+			end
+			SpawnAtPlot(player, iChosenType, capital:GetX(), capital:GetY(), 0, 0, enemyTeam:GetName(), promotions)
+		end
+
+		numFriends = numFriends - 1
 	end
 end
 
 -----
 --UU1
 -----
-
-local promoTable = {}
-
-local iPromo = 1
-for row in DB.Query("SELECT ID FROM UnitPromotions") do
-	promoTable[iPromo] = row.ID
-	iPromo = iPromo + 1
-end
-
 local BronepoezdMelee = GameInfoTypes["UNIT_EW_BRONEPOEZD"]
-local BronepoezdRange = GameInfoTypes["UNIT_EW_BRONEPOEZD_RANGED"]
+local promotionBronepoezdMelee = GameInfoTypes["PROMOTION_LIME_DUMMY_MELEE"]
+local promotionBronepoezdStop = GameInfoTypes["PROMOTION_LIME_DUMMY_STOP"]
 
---Switches for Ranged Bronepoezd
-function EW_Bronepoezd_Move(playerID, unitID, x, y)
+function Lime_Bronepoezd_Move(playerID, unitID, x, y)
 	local player = Players[playerID]
 	local unit = player:GetUnitByID(unitID)
 	local plot = Map.GetPlot(x, y)
 	if unit:GetUnitType() == BronepoezdMelee then
-		if not plot:IsRoute() then
-			--Spawns a new unit. (Note: It spawns before the old unit is killed so as to copy over the promotions.)
-			local newUnit = player:InitUnit(BronepoezdRange, x, y)
-
-			--Keeps track of all promotions.
-			local iPromoList = 1
-			while iPromoList <= iPromo do
-				if unit:IsHasPromotion(promoTable[iPromoList]) then
-					newUnit:SetHasPromotion(promoTable[iPromoList], true)
-				end
-				iPromoList = iPromoList + 1
-			end
-
-			--Deletes Melee Bronepoezd
-			unit:Kill(true, -1)
+		if plot:IsRoute() or plot:IsCity() then
+			unit:SetHasPromotion(promotionBronepoezdMelee, true)
+			unit:SetHasPromotion(promotionBronepoezdStop, false)
+		else
+			unit:SetHasPromotion(promotionBronepoezdMelee, false)
+			unit:SetHasPromotion(promotionBronepoezdStop, true)
 		end
 	end
 end
+GameEvents.UnitSetXY.Add(Lime_Bronepoezd_Move)
 
-GameEvents.UnitSetXY.Add(EW_Bronepoezd_Move)
-
---Switches for Melee Bronepoezd
-function EW_Bronepoezd_Redo(playerID)
+function Lime_Bronepoezd_DoTurn(playerID)
 	local player = Players[playerID]
 	for unit in player:Units() do
-		if unit:GetUnitType() == BronepoezdRange then
+		if unit:GetUnitType() == BronepoezdMelee then
 			local plot = unit:GetPlot()
-			if plot:IsRoute() then
-				--Spawns a new unit. (Note: See above.)
-				local x = plot:GetX()
-				local y = plot:GetY()
-				local newUnit = player:InitUnit(BronepoezdMelee, x, y)
-
-				--Yep, you've seen this before.
-				local iPromoList = 1
-				while iPromoList <= iPromo do
-					if unit:IsHasPromotion(promoTable[iPromoList]) then
-						newUnit:SetHasPromotion(promoTable[iPromoList], true)
-					end
-					iPromoList = iPromoList + 1
-				end
-
-				--Deletes Ranged Bronepoezd
-				unit:Kill()
+			if plot:IsRoute() or plot:IsCity() then
+				unit:SetHasPromotion(promotionBronepoezdMelee, true)
+				unit:SetHasPromotion(promotionBronepoezdStop, false)
+			else
+				unit:SetHasPromotion(promotionBronepoezdMelee, false)
+				unit:SetHasPromotion(promotionBronepoezdStop, true)
 			end
 		end
 	end
 end
-
-GameEvents.PlayerDoTurn.Add(EW_Bronepoezd_Redo)
-
+GameEvents.PlayerDoTurn.Add(Lime_Bronepoezd_DoTurn)
 
 -----
 --UU2
@@ -229,7 +263,8 @@ function EW_Legione_Trained(playerID, cityID, unitID)
 	local city = player:GetCityByID(cityID)
 	local unit = player:GetUnitByID(unitID)
 	if unit:GetUnitType() == legione then
-		Parg_Temp[unitID] = Parg_Recent[playerID] or EW_ReturnWar(playerID)
+		local enemyTeam = Parg_Recent[playerID] or EW_ReturnWar(playerID)
+		unit:SetName(enemyTeam:GetName())
 		unit:SetHasPromotion(foreign, true)
 	end
 end
@@ -238,17 +273,21 @@ GameEvents.CityTrained.Add(EW_Legione_Trained)
 
 --Just in case: Returns a random enemy team in case Parg_Recent doesn't return a value.
 function EW_ReturnWar(playerID)
-	print("Fallback: Resort to Random War for Legione")
 	local player = Players[playerID]
 	local team = Teams[player:GetTeam()]
 	for k, v in pairs(Players) do
 		if not (v:IsBarbarian() or v == player) then
 			if team:IsAtWar(v:GetTeam()) then
-				print("Mission Accomplished")
 				return Teams[v:GetTeam()]
 			end
 		end
 	end
-	print("Oh, that's not good")
 end
 
+function OnModLoaded() 
+	local bNewGame = not TableLoad(tableRoot, tableName)
+	TableSave(tableRoot, tableName)
+end
+OnModLoaded()
+
+print("All Russia Functions loaded")
