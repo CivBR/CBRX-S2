@@ -264,16 +264,16 @@
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_SAS_TONGVA_ICON</Type>
-			<Red>0.945</Red>
-			<Green>0.713</Green>
-			<Blue>0.466</Blue>
+			<Red>0.98</Red>
+			<Green>0.76</Green>
+			<Blue>0.13</Blue>
 			<Alpha>1.0</Alpha>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_SAS_TONGVA_BACKGROUND</Type>
-			<Red>0.423</Red>
-			<Green>0.082</Green>
-			<Blue>0.031</Blue>
+			<Red>0.21</Red>
+			<Green>0.46</Green>
+			<Blue>0.07</Blue>
 			<Alpha>1.0</Alpha>
 		</Row>
 	</Colors>
