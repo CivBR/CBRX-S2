@@ -256,11 +256,11 @@
 
 			<Type>COLOR_PLAYER_PI_JAMAICA_ICON</Type>
 
-			<Red>.871</Red>
+			<Red>.98</Red>
 
-			<Green>.737</Green>
+			<Green>.76</Green>
 
-			<Blue>.337</Blue>
+			<Blue>.13</Blue>
 
 			<Alpha>1</Alpha>
 
@@ -271,11 +271,11 @@
 
 			<Type>COLOR_PLAYER_PI_JAMAICA_BACKGROUND</Type>
 
-			<Red>.149</Red>
+			<Red>.21</Red>
 
-			<Green>.290</Green>
+			<Green>.46</Green>
 
-			<Blue>.067</Blue>
+			<Blue>.07</Blue>
 
 			<Alpha>1</Alpha>
 
