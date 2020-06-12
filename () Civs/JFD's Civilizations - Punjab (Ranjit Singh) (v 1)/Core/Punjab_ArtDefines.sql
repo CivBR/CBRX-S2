@@ -64,8 +64,8 @@ VALUES	('AS2D_LEADER_MUSIC_JFD_RANJIT_SINGH_PEACE', 	'SND_LEADER_MUSIC_JFD_RANJI
 --------------------------------------------------------------------------------------------------------------------------		
 INSERT INTO Colors 
 		(Type, 									Red, 	Green, 	Blue, 	Alpha)
-VALUES	('COLOR_PLAYER_JFD_PUNJAB_ICON', 		0.176,	0.294,	0.411,	1),
-		('COLOR_PLAYER_JFD_PUNJAB_BACKGROUND',	0.956,	0.670,	0.207,	1);
+VALUES	('COLOR_PLAYER_JFD_PUNJAB_ICON', 		0.07,	0.21,	0.39,	1),
+		('COLOR_PLAYER_JFD_PUNJAB_BACKGROUND',	0.89,	0.47,	0.11,	1);
 --------------------------------------------------------------------------------------------------------------------------
 -- PlayerColors
 --------------------------------------------------------------------------------------------------------------------------			
