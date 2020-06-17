@@ -7,7 +7,7 @@
 			<Where Name="RELIGION_BASE_CHANCE_PROPHET_SPAWN" />
 		</Update>
 		<Update>
-			<Set Value="150" />
+			<Set Value="120" />
 			<Where Name="RELIGION_MIN_FAITH_FIRST_PROPHET" />
 		</Update>
 	</Defines>
