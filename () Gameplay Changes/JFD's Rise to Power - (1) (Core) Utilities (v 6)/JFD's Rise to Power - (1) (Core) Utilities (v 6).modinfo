@@ -28,31 +28,27 @@
   </References>
   <Blocks />
   <Files>
-    <File md5="A8318155CBD76A706A51ABF0F351C0F9" import="1">Art/Fonts/FontIcons_JFD_City_22.dds</File>
-    <File md5="1CA139E4937C29540575324BD309ACB4" import="1">Art/Fonts/FontIcons_JFD_City_22.ggxml</File>
     <File md5="CBEEDB4881F57E8F72C84CA4A1111C20" import="1">Art/Fonts/FontIcons_JFD_Cross_22.dds</File>
     <File md5="34E19CF8D8AB66166D9265765D562C2B" import="1">Art/Fonts/FontIcons_JFD_Cross_22.ggxml</File>
     <File md5="A7D73E6C659358D1B54ADFCAC7C85710" import="1">Art/Fonts/FontIcons_JFD_Ideology_22.dds</File>
     <File md5="D56F1D1096F62244FC7123E10E65F9FA" import="1">Art/Fonts/FontIcons_JFD_Ideology_22.ggxml</File>
-    <File md5="B5549D39EFCE94201B5E2C73D46B8D2C" import="1">Art/Fonts/FontIcons_JFD_NormalAge_22.dds</File>
-    <File md5="301C47BB539D96453A7702A5A03BA289" import="1">Art/Fonts/FontIcons_JFD_NormalAge_22.ggxml</File>
-    <File md5="CCBE75FED03C984A2131176F39388500" import="0">Core/RTP_ArtDefines.sql</File>
+    <File md5="FDD14E73280C1550B5E7EB626FB73E07" import="0">Core/RTP_ArtDefines.sql</File>
     <File md5="EC85F8B660BEFDA2A1B38352E651E897" import="0">Core/RTP_Buildings.sql</File>
     <File md5="EDF9328FD79BCF5B3A7C04F2A399BEBD" import="0">Core/RTP_Colors.sql</File>
     <File md5="D047C8CEC83031964DA0EAA70B87A8B9" import="0">Core/RTP_Defines.sql</File>
     <File md5="72950D5531A37FE6B75D445934BDF981" import="0">Core/RTP_GameText.sql</File>
-    <File md5="CA9F4C60E2F6C65661DD566A5DD7CEB8" import="0">Core/RTP_GameText.xml</File>
-    <File md5="8FE253769E883DC2F1D319BFE8B5E796" import="0">Core/RTP_GameText_Interface.xml</File>
+    <File md5="2FF58AE02F0DE6AADA0DBF9FA660D1F4" import="0">Core/RTP_GameText.xml</File>
+    <File md5="1EAA68699970CCEB7A2982CFF7514756" import="0">Core/RTP_GameText_Interface.xml</File>
     <File md5="A0105693685F6073612B29DADC0CA3EC" import="0">Core/RTP_Master.sql</File>
     <File md5="F8E83EF2A0AB6A6B0CF32E85EF58E060" import="0">Core/RTP_PolicyBranches.sql</File>
-    <File md5="0FB41979401D0842CA4B097DB7BBDB58" import="0">Core/RTP_Religions.sql</File>
+    <File md5="2461846E289FE0813746D538E4B25BE5" import="0">Core/RTP_Religions.sql</File>
     <File md5="7F544020FD41B180497A4840B10EA7BC" import="0">Core/RTP_Shared.sql</File>
-    <File md5="F561347C7EFE9BF157F9259D453002C4" import="0">Core/RTP_Triggers.sql</File>
+    <File md5="69A2F5280161364223E0467775DCF0AB" import="0">Core/RTP_Triggers.sql</File>
     <File md5="757C2BF81956E8D23E6664DE936ED3D7" import="0">Core/RTP_Units.sql</File>
     <File md5="F8580ABBCB3EFEDD444E5306E3AED93A" import="0">Credits.txt</File>
     <File md5="A7178AD9A14F49D019FB1FDD43AFF3AD" import="1">Lua/Gameplay/GameplayUtilities.lua</File>
-    <File md5="6F0E59C6CDA8491C4D41BCF0984ABF21" import="0">Lua/JFD_RTP_Functions.lua</File>
-    <File md5="D7DF0FDF6A7C2EC5C2E61768775E547E" import="1">Lua/UI/Civilopedia/CivilopediaScreen.lua</File>
+    <File md5="248C6485B2BEC166F58B65250C4C4FFE" import="0">Lua/JFD_RTP_Functions.lua</File>
+    <File md5="6570162F0AB76B96E4C7EE0CC669A373" import="1">Lua/UI/Civilopedia/CivilopediaScreen.lua</File>
     <File md5="BD0E261E68173225BEE9E06595259CB1" import="1">Lua/UI/Civilopedia/CivilopediaScreen.xml</File>
     <File md5="CA7432FC2F5C20D78942FF38CFAFB71C" import="1">Lua/UI/Civilopedia/Images/civilopediatopbuttonsgovernment.dds</File>
     <File md5="E415477FC68360AAD9D488895670745F" import="0">Lua/UI/InGame/TurnProcessing.lua</File>
@@ -61,10 +57,11 @@
     <File md5="7E8F4B2E9623CA9D0D215AA1972DE8E9" import="1">Lua/UI/Popups/DiploCurrentDeals.xml</File>
     <File md5="25108A615FA680D0AD4FE0D35D4A4DB4" import="1">Lua/UI/Popups/DiploGlobalRelationships.lua</File>
     <File md5="9964F751B3DFCBB0D3EB0F22EB6C9734" import="1">Lua/UI/Popups/DiploGlobalRelationships.xml</File>
-    <File md5="025614BA85437B57E6B2E060D7F4A585" import="1">Lua/UI/Popups/DiploList.lua</File>
+    <File md5="B404B514FCED6EAFA9F7C3A12D537586" import="1">Lua/UI/Popups/DiploList.lua</File>
     <File md5="B1DD026DD1EE2DC00D2C098CD4AD6DE7" import="1">Lua/UI/Popups/DiploList.xml</File>
     <File md5="C56C2C954C780706A4BEA3B6164116E3" import="1">Lua/UI/Popups/DiploRelationships.lua</File>
     <File md5="C490D02A42BFC71013B12CED3759430C" import="1">Lua/UI/Popups/DiploRelationships.xml</File>
+    <File md5="57A413D40BB09EEC7BCF5C8B01C32F94" import="1">Lua/UI/Popups/VictoryProgress.lua</File>
     <File md5="499D258A7F485F8BA82863D9215E6B8D" import="1">Lua/UI/WorldView/NotificationPanel/Images/CityEventNotification80.dds</File>
     <File md5="E721649DC27B61FD4840A61585E42440" import="1">Lua/UI/WorldView/NotificationPanel/Images/EventNotification80.dds</File>
     <File md5="DE48FBA4B06265C41F73C1E0F30D6990" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationCityEventGlow.dds</File>
@@ -95,12 +92,8 @@
     <File md5="440326FB58E0E05AFAC4BD004DCA030D" import="1">Lua/UI/WorldView/NotificationPanel/Images/NotificationSpiritIdeologyGlow80.dds</File>
     <File md5="CCD06E2F126D1ABBD6E19F32FC0B9DD9" import="1">Lua/UI/WorldView/NotificationPanel/NotificationPanel.lua</File>
     <File md5="4D86196594E5DBF43C70ACAE6AA4D8CB" import="1">Lua/UI/WorldView/NotificationPanel/NotificationPanel.xml</File>
-    <File md5="AB4A665BF8CE90F1A00DA09AF68F831A" import="1">Lua/Utilities/JFD_RTP_Utils.lua</File>
+    <File md5="14E5984033F26D15AE5F5F93F796A525" import="1">Lua/Utilities/JFD_RTP_Utils.lua</File>
     <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/Utilities/PlotIterators.lua</File>
-    <File md5="B0CA0ECC2CE567244BDD1A9F7284FF64" import="1">Lua/Utilities/Save Utils/JFD_RTP_GlobalDefines.lua</File>
-    <File md5="DA8EA3845484D248B753AE2622B580D9" import="1">Lua/Utilities/Save Utils/JFD_RTP_TSLSerializerV3.lua</File>
-    <File md5="CD3E8C278CE1FD36806AA4CF6BE3BF88" import="1">Lua/Utilities/Save Utils/TableSaverLoader016.lua</File>
-    <File md5="48564059451C920C9228F50640B3CBDB" import="1">Lua/Utilities/Save Utils/TSLSerializerCoreV3.lua</File>
   </Files>
   <Actions>
     <OnModActivated>

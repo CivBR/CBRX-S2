@@ -1,21 +1,10 @@
 -- JFD_RTP_Utils
 -- Author: JFD
 -- DateCreated: 4/30/2019 8:35:10 AM
---==========================================================================================================================
--- CACHING
---==========================================================================================================================
-------------------------------------------------------------------------------------------------------------------------
-include("TableSaverLoader016.lua");
-
-include("JFD_RTP_GlobalDefines.lua");
-
-local tableName = "JFD_RTP"
-tableRoot = JFD_RTP
-
-include("JFD_RTP_TSLSerializerV3.lua");
-
-TableLoad(tableRoot, tableName)
-
+--=======================================================================================================================
+-- INCLUDES
+--=======================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------
 include("PlotIterators.lua");
 --=======================================================================================================================
 -- MOD UTILITIES
@@ -97,6 +86,11 @@ if Game then
 	--Game.IsRealReligionsActive()
 	function Game.IsRealReligionsActive()
 		return Game_IsModActive("da1e59f2-7922-4d10-a668-eba6fa96a934")
+	end
+
+	--Game.IsRTPTopPanelActive
+	function Game.IsRTPTopPanelActive()
+		return Game_IsModActive("a8ac71dc-dcd9-4f87-af61-8ae7951ade57")
 	end
 
 	--Game.IsSovereigntyActive
@@ -310,6 +304,40 @@ end
 ------------------------------------------------------------------------------------------------------------------------
 --POLICY UTILS
 ------------------------------------------------------------------------------------------------------------------------
+--g_DummyPolicies_Table
+local g_DummyPolicies_Table = {}
+local g_DummyPolicies_Count = 1
+for row in DB.Query("SELECT ID FROM Policies WHERE PolicyBranchType IS NULL AND Type NOT IN (SELECT FreePolicy FROM PolicyBranchTypes WHERE FreePolicy IS NOT NULL) AND Type NOT IN  (SELECT FreePolicy FROM PolicyBranchTypes WHERE FreeFinishingPolicy IS NOT NULL);") do 	
+	g_DummyPolicies_Table[g_DummyPolicies_Count] = row
+	g_DummyPolicies_Count = g_DummyPolicies_Count + 1
+end
+
+--Player:GetNumDummyPolicies
+function Player.GetNumDummyPolicies(player) 
+	local numDummyPolicies = 0
+
+	--g_DummyPolicies_Table
+	local policiesTable = g_DummyPolicies_Table
+	local numPolicies = #policiesTable
+	for index = 1, numPolicies do
+		local row = policiesTable[index]
+		local policyID = row.ID
+		if player:HasPolicy(policyID) then
+			numDummyPolicies = numDummyPolicies + 1
+		end
+	end
+
+	return numDummyPolicies
+end
+------------------------------------------------------------------------------------------------------------------------
+--Player:GetRealScoreFromPolicies
+function Player.GetRealScoreFromPolicies(player) 
+	local numDummiesScore = (player:GetNumDummyPolicies()*4)
+	local numPoliciesScore = player:GetScoreFromPolicies()
+	local numDummyPoliciesScore = (player:GetScoreFromPolicies()-numDummiesScore)
+	return numDummyPoliciesScore, numPoliciesScore
+end	
+------------------------------------------------------------------------------------------------------------------------
 --g_Policies_Table
 local g_Policies_Table = {}
 local g_Policies_Count = 1
@@ -412,17 +440,41 @@ function Player.GetMainReligion(player, ignorePantheon)
 	return mainReligionID
 end
 ------------------------------------------------------------------------------------------------------------------------
+--g_Religions_Table
+local g_Religions_Table = {}
+local g_Religions_Count = 1
+for row in DB.Query("SELECT ID FROM Religions WHERE ID > 0;") do 	
+	g_Religions_Table[g_Religions_Count] = row.ID
+	g_Religions_Count = g_Religions_Count + 1
+end
+
 --Player:GetNumTotalFollowers
-function Player.GetNumTotalFollowers(player, religionID, isNot, isNonBelievers)
+function Player.GetNumTotalFollowers(player, religionID)
 	local numFollowers = 0
 	local numNotFollowers = 0
 	local numNoneFollowers = 0
 	if player:IsAlive() then
 		for city in player:Cities() do
 			local numPopulation = city:GetPopulation()
-			numFollowers = numFollowers + city:GetNumFollowers(religionID)
-			numNoneFollowers = numNoneFollowers + city:GetNumFollowers(0) + city:GetNumFollowers(-1)
-			numNotFollowers = math.max((numPopulation-(numFollowers+numNoneFollowers)), 0)
+			numNoneFollowers = numPopulation
+			
+			local numThisFollowers = city:GetNumFollowers(religionID)
+			numFollowers = numFollowers + numThisFollowers
+			numNoneFollowers = numNoneFollowers - numThisFollowers
+
+			--g_Religions_Table
+			local religionsTable = g_Religions_Table
+			local numReligions = #religionsTable
+			for index = 1, numReligions do
+				local ID = religionsTable[index]
+				if ID ~= religionID then
+					local numThatFollowers = city:GetNumFollowers(ID)
+					numNotFollowers = numNotFollowers + numThatFollowers
+					numNoneFollowers = numNoneFollowers - numThatFollowers
+				end
+			end
+			
+			if numNoneFollowers < 0 then numNoneFollowers = 0 end
 		end
 	end	
 	return numFollowers, numNotFollowers, numNoneFollowers
@@ -752,14 +804,5 @@ function Player.GetTotalYieldRate(player, yieldID)
 	end	
 	return totalYield
 end
---=======================================================================================================================
--- CACHING
---=======================================================================================================================
--------------------------------------------------------------------------------------------------------------------------
---OnModLoaded
-function OnModLoaded() 
-	TableSave(tableRoot, tableName)
-end
-OnModLoaded()
 --==========================================================================================================================
 --==========================================================================================================================

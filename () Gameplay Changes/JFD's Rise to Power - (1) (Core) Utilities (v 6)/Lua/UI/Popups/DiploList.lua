@@ -225,7 +225,7 @@ function UpdateDisplay()
 		table.insert(myScoreEntries, Locale.Lookup("TXT_KEY_DIPLO_MY_SCORE_FUTURE_TECH", g_pPlayer:GetScoreFromFutureTech()));
 	end
 	if (not Game.IsOption(GameOptionTypes.GAMEOPTION_NO_POLICIES)) then
-		table.insert(myScoreEntries, Locale.Lookup("TXT_KEY_DIPLO_MY_SCORE_POLICIES", g_pPlayer:GetScoreFromPolicies()));
+		table.insert(myScoreEntries, Locale.Lookup("TXT_KEY_DIPLO_MY_SCORE_POLICIES", g_pPlayer:GetRealScoreFromPolicies()));
 	end
 	table.insert(myScoreEntries, Locale.Lookup("TXT_KEY_DIPLO_MY_SCORE_GREAT_WORKS", g_pPlayer:GetScoreFromGreatWorks()));
 	if (not Game.IsOption(GameOptionTypes.GAMEOPTION_NO_RELIGION)) then
@@ -420,7 +420,7 @@ function UpdateDisplay()
 					table.insert(otherScoreEntries, Locale.Lookup("TXT_KEY_DIPLO_MY_SCORE_FUTURE_TECH", pOtherPlayer:GetScoreFromFutureTech()));
 				end
 				if (not Game.IsOption(GameOptionTypes.GAMEOPTION_NO_POLICIES)) then
-					table.insert(otherScoreEntries, Locale.Lookup("TXT_KEY_DIPLO_MY_SCORE_POLICIES", pOtherPlayer:GetScoreFromPolicies()));
+					table.insert(otherScoreEntries, Locale.Lookup("TXT_KEY_DIPLO_MY_SCORE_POLICIES", pOtherPlayer:GetRealScoreFromPolicies()));
 				end
 				table.insert(otherScoreEntries, Locale.Lookup("TXT_KEY_DIPLO_MY_SCORE_GREAT_WORKS", pOtherPlayer:GetScoreFromGreatWorks()));
 				if (not Game.IsOption(GameOptionTypes.GAMEOPTION_NO_RELIGION)) then

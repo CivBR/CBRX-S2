@@ -2,6 +2,19 @@
 -- Author: JFD
 -- DateCreated: 5/6/2019 2:48:53 AM
 --==========================================================================================================================
+-- CACHING
+--==========================================================================================================================
+------------------------------------------------------------------------------------------------------------------------
+MapModData.JFD_RTP_Epithets = MapModData.JFD_RTP_Epithets or {}
+JFD_RTP_Epithets = MapModData.JFD_RTP_Epithets
+
+include("TableSaverLoader016.lua");
+
+tableRoot = JFD_RTP_Epithets
+tableName = "JFD_RTP_Epithets_SaveData"
+
+include("JFD_RTP_Epithets_TSLSerializerV3.lua");
+--==========================================================================================================================
 -- INCLUDES
 --==========================================================================================================================
 ----------------------------------------------------------------------------------------------------------------------------
@@ -68,7 +81,7 @@ function Player.GetTotalEpithetProgress(player)
 	local previousEraID = g_MathMax(0,currentEraID-1)
 	if player:IsHuman() then
 		local playerID = player:GetID()
-		local epithetProgress = JFD_RTP[playerID .. "_EPITHET_PROGRESS"] or 0
+		local epithetProgress = JFD_RTP_Epithets[playerID .. "_EPITHET_PROGRESS"] or 0
 		local epithetThreshold = GameInfo.Eras[previousEraID].EpithetProgressThreshold
 		local currentEpithetThreshold = GameInfo.Eras[currentEraID].EpithetProgressThreshold
 		
@@ -115,14 +128,14 @@ end
 --Player_SetTotalEpithetProgress
 function Player_SetTotalEpithetProgress(player, setVal)	
 	local playerID = player:GetID()
-	JFD_RTP[playerID .. "_EPITHET_PROGRESS"] = g_MathMax(setVal,0)
+	JFD_RTP_Epithets[playerID .. "_EPITHET_PROGRESS"] = g_MathMax(setVal,0)
 end
 -------------------------------------------------------------------------------------------------------------------------
 --Player:GetEpithetProgress
 function Player.GetEpithetProgress(player, epithetID)	
 	local playerID = player:GetID()
 	local epithet = GameInfo.JFD_Epithets[epithetID]
-	return JFD_RTP[playerID .. "_" .. epithet.Type] or 0
+	return JFD_RTP_Epithets[playerID .. "_" .. epithet.Type] or 0
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:ChangeEpithetProgress
@@ -143,7 +156,7 @@ end
 function Player_SetEpithetProgress(player, epithetID, setVal)	
 	local playerID = player:GetID()
 	local epithet = GameInfo.JFD_Epithets[epithetID]
-	JFD_RTP[playerID .. "_" .. epithet.Type] = g_MathMax(setVal,0)
+	JFD_RTP_Epithets[playerID .. "_" .. epithet.Type] = g_MathMax(setVal,0)
 	
 	if player:IsHuman() and player:IsTurnActive() then
 		LuaEvents.JFD_UpdateTopPanel()
@@ -231,22 +244,22 @@ function Player.SetHasEpithet(player, epithetID, setHasEpithet)
 	local playerID = player:GetID()
 	if setHasEpithet then
 		if (not epithet) then
-			JFD_RTP[playerID] = {}
+			JFD_RTP_Epithets[playerID] = {}
 		end
-		JFD_RTP[playerID]["EPITHET"] = epithetID
+		JFD_RTP_Epithets[playerID]["EPITHET"] = epithetID
 		LuaEvents.JFD_EpithetGranted(playerID, epithetID)
 	else
-		JFD_RTP[playerID] = {}
+		JFD_RTP_Epithets[playerID] = {}
 	end
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:GetEpithet
 function Player.GetEpithet(player)
 	local playerID = player:GetID()
-	if (not JFD_RTP[playerID]) then
-		JFD_RTP[playerID] = {}
+	if (not JFD_RTP_Epithets[playerID]) then
+		JFD_RTP_Epithets[playerID] = {}
 	end
-	return JFD_RTP[playerID]["EPITHET"] or -1
+	return JFD_RTP_Epithets[playerID]["EPITHET"] or -1
 end
 ----------------------------------------------------------------------------------------------------------------------------
 --Player:HasEpithet
@@ -265,5 +278,24 @@ function Player.GetEpithetTitle(player)
 		return epithetDesc
 	end
 end
+--==========================================================================================================================
+--=======================================================================================================================
+-- CACHING
+--=======================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------
+--OnModLoaded
+function OnModLoaded() 
+	local bNewGame = not TableLoad(tableRoot, tableName)
+
+	if bNewGame then
+		print("New Game")
+	else 
+		print("Epithets Loaded from Saved Game")
+	end
+
+	TableSave(tableRoot, tableName)
+end
+OnModLoaded()
+--==========================================================================================================================
 --==========================================================================================================================
 --==========================================================================================================================

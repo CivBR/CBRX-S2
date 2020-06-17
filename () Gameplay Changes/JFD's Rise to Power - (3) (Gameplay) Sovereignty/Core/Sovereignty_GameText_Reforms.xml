@@ -1,0 +1,4154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2019 5:53:11 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--REFORM BRANCHES-->
+		<!--===================================================-->
+		<!--Government-->
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_GOVERNMENT_SHORT_DESC">
+			<Text>Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_GOVERNMENT_SHORT_DESC_CAPS">
+			<Text>GOVERNMENT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_GOVERNMENT_DESC">
+			<Text>Government Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_GOVERNMENT_ADJ">
+			<Text>Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_GOVERNMENT_HELP">
+			<Text>Government Reforms are devoted to your system of governance. They focus on your [ICON_JFD_SOVEREIGNTY] Sovereignty.</Text>
+		</Row>
+		<!--Diplomacy-->
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_DIPLOMACY_SHORT_DESC">
+			<Text>Diplomacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_DIPLOMACY_DESC">
+			<Text>Diplomacy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_DIPLOMACY_ADJ">
+			<Text>Diplomatic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_DIPLOMACY_HELP">
+			<Text>Diplomacy Reforms are devoted to your international relations. They focus on your [ICON_INFLUENCE] Influence and [ICON_SPY] Spies.</Text>
+		</Row>
+		<!--Education-->
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_EDUCATION_SHORT_DESC">
+			<Text>Education</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_EDUCATION_DESC">
+			<Text>Education Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_EDUCATION_ADJ">
+			<Text>Educational</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_EDUCATION_HELP">
+			<Text>Education Reforms are devoted to your scientific advancement. They focus on your [ICON_RESEARCH] Science and [ICON_GREAT_PEOPLE] Great People.</Text>
+		</Row>
+		<!--Economy-->
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_ECONOMY_SHORT_DESC">
+			<Text>Economy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_ECONOMY_DESC">
+			<Text>Economy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_ECONOMY_ADJ">
+			<Text>Economic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_ECONOMY_HELP">
+			<Text>Economy Reforms are devoted to your economic prosperity. They focus on your [ICON_GOLD] Gold and [ICON_SWAP] Trade Routes.</Text>
+		</Row>
+		<!--Industry-->
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_INDUSTRY_SHORT_DESC">
+			<Text>Industry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_INDUSTRY_DESC">
+			<Text>Industry Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_INDUSTRY_ADJ">
+			<Text>Industrial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_INDUSTRY_HELP">
+			<Text>Industry Reforms are devoted to your industrial development. They focus on your [ICON_PRODUCTION] Production and [ICON_WORKER] Workers.</Text>
+		</Row>
+		<!--Law-->
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_LAW_SHORT_DESC">
+			<Text>Law</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_LAW_DESC">
+			<Text>Law Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_LAW_ADJ">
+			<Text>Legal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_LAW_HELP">
+			<Text>Law Reforms are devoted to your legal structure. They focus on your [ICON_JFD_REFORM] Political Reforms and [ICON_JFD_LEGISLATURE] Legislature.</Text>
+		</Row>
+		<!--Military-->
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_MILITARY_SHORT_DESC">
+			<Text>Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_MILITARY_DESC">
+			<Text>Military Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_MILITARY_ADJ">
+			<Text>Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_MILITARY_HELP">
+			<Text>Military Reforms are devoted to your armed forces. They focus on your [ICON_WAR] Combat Units.</Text>
+		</Row>
+		<!--Religion-->
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_RELIGION_SHORT_DESC">
+			<Text>Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_RELIGION_DESC">
+			<Text>Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_RELIGION_ADJ">
+			<Text>Religious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_RELIGION_HELP">
+			<Text>Religion Reforms are devoted to your religious officials. They focus on your [ICON_PEACE] Faith and [ICON_RELIGION] Religion.</Text>
+		</Row>
+		<!--Social-->
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_SOCIETY_SHORT_DESC">
+			<Text>Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_SOCIETY_DESC">
+			<Text>Society Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_SOCIETY_ADJ">
+			<Text>Societal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_SOCIETY_HELP">
+			<Text>Society Reforms are devoted to your social values. They focus on your [ICON_CULTURE] Culture and [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<!--Welfare-->
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_WELFARE_SHORT_DESC">
+			<Text>Welfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_WELFARE_DESC">
+			<Text>Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_WELFARE_ADJ">
+			<Text>Welfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CATEGORY_WELFARE_HELP">
+			<Text>Welfare Reforms are devoted to your people's well-being. They focus on your [ICON_FOOD] Food and [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP">
+			<Text>
+				[COLOR_JFD_SOVEREIGNTY]{1_Desc}[ENDCOLOR][NEWLINE]----------[NEWLINE]{2_Desc}{5_Opinions}----------[NEWLINE][COLOR_POSITIVE_TEXT]Bonuses:[ENDCOLOR]
+				[NEWLINE]----------[NEWLINE][ICON_BULLET]{3_Desc}
+				[NEWLINE]----------[NEWLINE][COLOR_NEGATIVE_TEXT]Penalties:[ENDCOLOR]
+				[NEWLINE]----------[NEWLINE][ICON_BULLET]{4_Desc}
+				[NEWLINE]----------
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PEDIA">
+			<Text>{1_Desc}[NEWLINE]----------[NEWLINE][COLOR_POSITIVE_TEXT]Bonus:[ENDCOLOR]
+				[NEWLINE]----------[NEWLINE]{2_Desc}
+				[NEWLINE]----------[NEWLINE][COLOR_NEGATIVE_TEXT]Penalty:[ENDCOLOR]
+				[NEWLINE]----------[NEWLINE]{3_Desc}
+				[NEWLINE]----------
+			</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS: GOVERMENT-->
+		<!--===================================================-->
+		<!--EXECUTIVE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EXECUTIVE_DESC">
+			<Text>Executive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EXECUTIVE_HELP">
+			<Text>Executive Reforms regulate the power by which we administer the government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_ABSOLUTE_SHORT_DESC">
+			<Text>Absolute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_ABSOLUTE_PEDIA">
+			<Text>Our power is bound only by convention.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_ABSOLUTE_HELP_BONUS">
+			<Text>Base 100% Max [ICON_JFD_SOVEREIGNTY] Sovereignty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_ABSOLUTE_HELP_PENALTY">
+			<Text>-50% [ICON_JFD_FACTION_POWER] Power for the dominant Faction after a new Legislature is composed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_DESPOTIC_SHORT_DESC">
+			<Text>Despotic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_DESPOTIC_PEDIA">
+			<Text>Our powers are unbounded.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_CONSTITUTIONAL_SHORT_DESC">
+			<Text>Constitutional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_CONSTITUTIONAL_PEDIA">
+			<Text>Our power is bound by constitution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_CONSTITUTIONAL_HELP_BONUS">
+			<Text>+50% [ICON_JFD_FACTION_POWER] Power for the dominant Faction after a new Legislature is composed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EXECUTIVE_CONSTITUTIONAL_HELP_PENALTY">
+			<Text>Base 50% Max [ICON_JFD_SOVEREIGNTY] Sovereignty from Faction opposition.</Text>
+		</Row>
+		<!--FACTIONS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_FACTIONS_DESC">
+			<Text>Factions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_FACTIONS_HELP">
+			<Text>Factions Reforms regulate the interest groups that constitute our legislature.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_MULTI_PARTY_SHORT_DESC">
+			<Text>Multi-Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_MULTI_PARTY_PEDIA">
+			<Text>Multiple parties constitute our legislature.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_MULTI_PARTY_HELP_BONUS">
+			<Text>Your Legislature is composed based on eight Factions split between diverse interests across all Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_MULTI_PARTY_HELP_PENALTY">
+			<Text>-25% [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_INTERESTS_SHORT_DESC">
+			<Text>Interests</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_INTERESTS_PEDIA">
+			<Text>Interest groups constitute our legislature.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_TWO_PARTY_SHORT_DESC">
+			<Text>Two-Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_TWO_PARTY_PEDIA">
+			<Text>Two parties constitute our legislature.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_TWO_PARTY_HELP_BONUS">
+			<Text>Your Legislature is composed based on two Factions split between interests across all Left and Right Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FACTIONS_TWO_PARTY_HELP_PENALTY">
+			<Text>+25% [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown.</Text>
+		</Row>
+		<!--LEGITIMACY (FIRST)-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LEGITIMACY_DESC">
+			<Text>Legitimacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LEGITIMACY_HELP">
+			<Text>Legitimacy Reforms regulate the claims that assert our right to rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WEALTH_SHORT_DESC">
+			<Text>Wealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WEALTH_PEDIA">
+			<Text>Our riches asserts our right to rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WEALTH_HELP_BONUS">
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WEALTH_HELP_PENALTY">
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_MIGHT_SHORT_DESC">
+			<Text>Might</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_MIGHT_PEDIA">
+			<Text>Our strength asserts our right to rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WISDOM_SHORT_DESC">
+			<Text>Wisdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WISDOM_PEDIA">
+			<Text>Our sagacity asserts our right to rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WISDOM_HELP_BONUS">
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Library.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_WISDOM_HELP_PENALTY">
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Library.</Text>
+		</Row>
+		<!--LEGITIMACY (SECOND)-->
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_LAW_SHORT_DESC">
+			<Text>Law</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_LAW_PEDIA">
+			<Text>Our justice asserts our right to rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_LAW_HELP_BONUS">
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Magistrate's Court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_LAW_HELP_PENALTY">
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Magistrate's Court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_GOVERNANCE_SHORT_DESC">
+			<Text>Governance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_GOVERNANCE_PEDIA">
+			<Text>Our ability asserts our right to rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_DIVINE_RIGHT_SHORT_DESC">
+			<Text>Divine Right</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_DIVINE_RIGHT_PEDIA">
+			<Text>Our divinity asserts our right to rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_DIVINE_RIGHT_HELP_BONUS">
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Temple.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_DIVINE_RIGHT_HELP_PENALTY">
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Temple.</Text>
+		</Row>
+		<!--LEGITIMACY (THIRD)-->
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_CHARISMA_SHORT_DESC">
+			<Text>Charisma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_CHARISMA_PEDIA">
+			<Text>Our popularity asserts our right to rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_CHARISMA_HELP_BONUS">
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Stadium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_CHARISMA_HELP_PENALTY">
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Stadium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_TRADITION_SHORT_DESC">
+			<Text>Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_TRADITION_PEDIA">
+			<Text>Our lineage asserts our right to rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_SECURITY_SHORT_DESC">
+			<Text>Security</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_SECURITY_PEDIA">
+			<Text>Our protection asserts our right to rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_SECURITY_HELP_BONUS">
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when all cities have a Police Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGITIMACY_SECURITY_HELP_PENALTY">
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when no city has a Police Station.</Text>
+		</Row>
+		<!--POWER-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_POWER_DESC">
+			<Text>Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_POWER_HELP">
+			<Text>Power Reforms regulate the purpose of the power of the government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_POLICE_STATE_SHORT_DESC">
+			<Text>Police State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_POLICE_STATE_PEDIA">
+			<Text>Our power is used to enforce order.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_POLICE_STATE_HELP_BONUS">
+			<Text>-50% toward [ICON_JFD_FACTION_REVOLUTIONARIES] Revolutionary Faction Power after a new Legislature is composed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_POLICE_STATE_HELP_PENALTY">
+			<Text>+50% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment per opposed [ICON_JFD_REFORM] Reforms passed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_PERSONAL_SHORT_DESC">
+			<Text>Personal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_PERSONAL_PEDIA">
+			<Text>Our power is used as we will.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_PERSONAL_HELP_PENALTY">
+			<Text>Nothing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_COMMONWEALTH_SHORT_DESC">
+			<Text>Commonwealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_COMMONWEALTH_PEDIA">
+			<Text>Our power is used for the common good.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_COMMONWEALTH_HELP_BONUS">
+			<Text>-50% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment per opposed [ICON_JFD_REFORM] Reforms passed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POWER_COMMONWEALTH_HELP_PENALTY">
+			<Text>+50% toward [ICON_JFD_FACTION_REVOLUTIONARIES] Revolutionary Faction Power after a new Legislature is composed.</Text>
+		</Row>
+		<!--TERRITORY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TERRITORY_DESC">
+			<Text>Territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TERRITORY_HELP">
+			<Text>Territory Reforms regulate the extent of the state's organization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_CITYSTATE_SHORT_DESC">
+			<Text>City-State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_CITYSTATE_PEDIA">
+			<Text>The state is organized with limited territories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_CITYSTATE_HELP_BONUS">
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when you control 2 cities or less.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_CITYSTATE_HELP_PENALTY">
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when you control 3 cities or more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_STATE_SHORT_DESC">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_STATE_PEDIA">
+			<Text>The state is organized with no defined limits.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_EMPIRE_SHORT_DESC">
+			<Text>Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_EMPIRE_PEDIA">
+			<Text>The state is organized with vast territories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_EMPIRE_HELP_BONUS">
+			<Text>+20% [ICON_JFD_SOVEREIGNTY] Sovereignty when you control 8 cities or more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TERRITORY_EMPIRE_HELP_PENALTY">
+			<Text>-10% [ICON_JFD_SOVEREIGNTY] Sovereignty when you control 7 cities or less.</Text>
+		</Row>
+		<!--SUCCESSION-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SUCCESSION_DESC">
+			<Text>Succession</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SUCCESSION_HELP">
+			<Text>Succession Reforms regulate how public offices are filled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_ELECTED_SHORT_DESC">
+			<Text>Elective</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_ELECTED_PEDIA">
+			<Text>New office-holders are elected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_ELECTED_HELP_BONUS">
+			<Text>-25% [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_ELECTED_HELP_PENALTY">
+			<Text>+20% [ICON_JFD_REFORM_COOLDOWN] Reform Cooldown.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_APPOINTED_SHORT_DESC">
+			<Text>Appointed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_APPOINTED_HELP">
+			<Text>[COLOR_JFD_SOVEREIGNTY]Appointed[ENDCOLOR][NEWLINE]----------[NEWLINE]We appoint new office-holders[NEWLINE]----------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_APPOINTED_PEDIA">
+			<Text>New office-holders are appointed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_HEREDITARY_SHORT_DESC">
+			<Text>Hereditary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_HEREDITARY_PEDIA">
+			<Text>New office-holders succeed their parents.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_HEREDITARY_HELP_BONUS">
+			<Text>+25% [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUCCESSION_HEREDITARY_HELP_PENALTY">
+			<Text>+20% [ICON_JFD_REFORM_COOLDOWN] Reform Cooldown.</Text>
+		</Row>
+		<!--STRUCTURE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_STRUCTURE_DESC">
+			<Text>Structure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_STRUCTURE_HELP">
+			<Text>Structure Reforms regulate the relationship between cities and the central government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_FEDERATION_SHORT_DESC">
+			<Text>Federation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_FEDERATION_PEDIA">
+			<Text>Our cities act in their own right.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_FEDERATION_HELP_BONUS">
+			<Text>Cities increase the cost of exceeding your [ICON_JFD_REFORM] Reform Capacity by 25% less.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_FEDERATION_HELP_PENALTY">
+			<Text>-20% [ICON_JFD_REFORM] Reform Capacity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_ASSOCIATION_SHORT_DESC">
+			<Text>Association</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_ASSOCIATION_PEDIA">
+			<Text>Our cities are unregulated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_UNITARY_SHORT_DESC">
+			<Text>Unitary State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_UNITARY_PEDIA">
+			<Text>Our cities obey the government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_UNITARY_HELP_BONUS">
+			<Text>+20% [ICON_JFD_REFORM] Reform Capacity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRUCTURE_UNITARY_HELP_PENALTY">
+			<Text>Cities increase the cost of exceeding your [ICON_JFD_REFORM] Reform Capacity by 25% more.</Text>
+		</Row>
+		<!--SUFFRAGE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SUFFRAGE_DESC">
+			<Text>Suffrage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SUFFRAGE_HELP">
+			<Text>Suffrage Reforms regulate the right to vote in political and public elections.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_UNIVERSAL_SHORT_DESC">
+			<Text>Universal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_UNIVERSAL_PEDIA">
+			<Text>All have the right to vote.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_UNIVERSAL_HELP_BONUS">
+			<Text>-1% [ICON_JFD_SOVEREIGNTY] needed to pass [ICON_JFD_REFORM] Government Reforms per Citizen (up to 30%).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_UNIVERSAL_HELP_PENALTY">
+			<Text>+25% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment from Faction opposition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_NONE_PEDIA">
+			<Text>No one has the right to vote.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_LANDED_SHORT_DESC">
+			<Text>Landed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_LANDED_PEDIA">
+			<Text>Only land owners have the right to vote.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_LANDED_HELP_BONUS">
+			<Text>-5% [ICON_JFD_SOVEREIGNTY] needed to pass [ICON_JFD_REFORM] Government Reforms per City (up to 30%).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUFFRAGE_LANDED_HELP_PENALTY">
+			<Text>+25% [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment from Faction opposition.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS: LAW-->
+		<!--===================================================-->
+		<!--ANALYSIS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ANALYSIS_DESC">
+			<Text>Analysis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ANALYSIS_HELP">
+			<Text>Analysis Reforms regulate the nature of our law-making advisors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ANALYSIS_TECHNOCRATIC_SHORT_DESC">
+			<Text>Technocratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ANALYSIS_TECHNOCRATIC_PEDIA">
+			<Text>Technical experts advise on law-making.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ANALYSIS_TECHNOCRATIC_HELP_BONUS">
+			<Text>+5% [ICON_RESEARCH] from Government Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ANALYSIS_TECHNOCRATIC_HELP_PENALTY">
+			<Text>-5% [ICON_GOLD] from Government Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ANALYSIS_NEPOCRATIC_SHORT_DESC">
+			<Text>Nepocratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ANALYSIS_NEPOCRATIC_PEDIA">
+			<Text>Personal friends advise on law-making.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ANALYSIS_BUREAUCRATIC_SHORT_DESC">
+			<Text>Bureaucratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ANALYSIS_BUREAUCRATIC_PEDIA">
+			<Text>Political experts advise on law-making.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ANALYSIS_BUREAUCRATIC_HELP_BONUS">
+			<Text>+5% [ICON_PRODUCTION] from Government Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ANALYSIS_BUREAUCRATIC_HELP_PENALTY">
+			<Text>-5% [ICON_GOLD] from Government Buildings.</Text>
+		</Row>
+		<!--BASIS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_BASIS_DESC">
+			<Text>Basis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_BASIS_HELP">
+			<Text>Basis Reforms regulate the core principles that inform our laws.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_BASIS_SECULAR_SHORT_DESC">
+			<Text>Secular</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_BASIS_SECULAR_PEDIA">
+			<Text>Laws are informed by reason.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_BASIS_SECULAR_HELP_BONUS">
+			<Text>+5% [ICON_RESEARCH] and [ICON_GOLD] in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_BASIS_SECULAR_HELP_PENALTY">
+			<Text>-5% [ICON_PEACE] and [ICON_CULTURE] in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_BASIS_MORAL_SHORT_DESC">
+			<Text>Moral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_BASIS_MORAL_PEDIA">
+			<Text>Laws are informed by morality.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_BASIS_RELIGIOUS_SHORT_DESC">
+			<Text>Religious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_BASIS_RELIGIOUS_PEDIA">
+			<Text>Laws are informed by revelation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_BASIS_RELIGIOUS_HELP_BONUS">
+			<Text>+5% [ICON_PEACE] and [ICON_CULTURE] in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_BASIS_RELIGIOUS_HELP_PENALTY">
+			<Text>-5% [ICON_RESEARCH] and [ICON_GOLD] in all cities.</Text>
+		</Row>
+		<!--CONSTITUTION-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CONSTITUTION_DESC">
+			<Text>Constitution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CONSTITUTION_HELP">
+			<Text>Constitution Reforms regulate the formal enshrinement of our essential laws.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_UNCODIFIED_SHORT_DESC">
+			<Text>Uncodified</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_UNCODIFIED_PEDIA">
+			<Text>The constitution lies in various laws.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_UNCODIFIED_HELP_BONUS">
+			<Text>-10% min. [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_UNCODIFIED_HELP_PENALTY">
+			<Text>+10% [ICON_CULTURE] Social Policy costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_INFORMAL_SHORT_DESC">
+			<Text>Informal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_INFORMAL_PEDIA">
+			<Text>We have no formal constitution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_CODIFIED_SHORT_DESC">
+			<Text>Codified</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_CODIFIED_PEDIA">
+			<Text>The constitution lies in a single document.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_CODIFIED_HELP_BONUS">
+			<Text>-10% [ICON_CULTURE] Social Policy costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTITUTION_CODIFIED_HELP_PENALTY">
+			<Text>+10% min. [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms.</Text>
+		</Row>
+		<!--EQUITY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EQUITY_DESC">
+			<Text>Equity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EQUITY_HELP">
+			<Text>Equity Reforms regulate the extent to which the law applies to all.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUITY_TOTAL_SHORT_DESC">
+			<Text>Total</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUITY_TOTAL_PEDIA">
+			<Text>The law is applied equally to all.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUITY_TOTAL_HELP_BONUS">
+			<Text>-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population in non-occupied cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUITY_TOTAL_HELP_PENALTY">
+			<Text>+10% [ICON_HAPPINESS_4] Unhappiness from Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUITY_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUITY_NONE_PEDIA">
+			<Text>The law is applied arbitarily.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUITY_PARTIAL_SHORT_DESC">
+			<Text>Partial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUITY_PARTIAL_PEDIA">
+			<Text>The law is not equally applied to some.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUITY_PARTIAL_HELP_BONUS">
+			<Text>-10% [ICON_HAPPINESS_4] Unhappiness from Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUITY_PARTIAL_HELP_PENALTY">
+			<Text>+10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population in non-occupied cities.</Text>
+		</Row>
+		<!--JUDICIARY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_JUDICIARY_DESC">
+			<Text>Judiciary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_JUDICIARY_HELP">
+			<Text>Judiciary Reforms regulate the institution that oversees our laws.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_INDEPENDENT_SHORT_DESC">
+			<Text>Independent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_INDEPENDENT_PEDIA">
+			<Text>The judiciary and government are seperate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_INDEPENDENT_HELP_BONUS">
+			<Text>Cities increase the cost of exceeding your [ICON_JFD_REFORM] Reform Capacity by 25% less.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_INDEPENDENT_HELP_PENALTY">
+			<Text>+10% min. [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_INFORMAL_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_INFORMAL_PEDIA">
+			<Text>We have no formal judiciary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_DEPENDENT_SHORT_DESC">
+			<Text>Dependent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_DEPENDENT_PEDIA">
+			<Text>The judiciary is an arm of the government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_DEPENDENT_HELP_BONUS">
+			<Text>-10% min. [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUDICIARY_DEPENDENT_HELP_PENALTY">
+			<Text>Cities increase the cost of exceeding your [ICON_JFD_REFORM] Reform Capacity by 25% more.</Text>
+		</Row>
+		<!--JUSTICE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_JUSTICE_DESC">
+			<Text>Justice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_JUSTICE_HELP">
+			<Text>Justice Reforms regulate the ultimate purpose of the application of the law.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUSTICE_REDEMPTION_SHORT_DESC">
+			<Text>Redemption</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUSTICE_REDEMPTION_PEDIA">
+			<Text>The law seeks to redeem criminals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUSTICE_REDEMPTION_HELP_BONUS">
+			<Text>Build Reform Buildings 20% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUSTICE_REDEMPTION_HELP_PENALTY">
+			<Text>Build Espionage Buildings 20% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUSTICE_PUNISHMENT_SHORT_DESC">
+			<Text>Punishment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUSTICE_PUNISHMENT_PEDIA">
+			<Text>The law seeks merely to punish criminals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUSTICE_DETERRENCE_SHORT_DESC">
+			<Text>Deterrence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUSTICE_DETERRENCE_PEDIA">
+			<Text>The law seeks to deter criminals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUSTICE_DETERRENCE_HELP_BONUS">
+			<Text>Build Espionage Buildings 20% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_JUSTICE_DETERRENCE_HELP_PENALTY">
+			<Text>Build Reform Buildings 20% slower.</Text>
+		</Row>
+		<!--LEGISLATURE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LEGISLATURE_DESC">
+			<Text>Legislature</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LEGISLATURE_HELP">
+			<Text>Legislature Reforms regulate the relationship between the executive and the legislature.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_PARLIAMENTARY_SHORT_DESC">
+			<Text>Parliamentary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_PARLIAMENTARY_PEDIA">
+			<Text>The executive and legislature are conjoined.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_PARLIAMENTARY_HELP_BONUS">
+			<Text>Faction Support decreases the minimum [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms by 25% more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_PARLIAMENTARY_HELP_PENALTY">
+			<Text>Faction Opposition increases the minimum [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms by 25% more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_INFORMAL_SHORT_DESC">
+			<Text>Informal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_INFORMAL_PEDIA">
+			<Text>The legislature is not formally distinct.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_CONGRESSIONAL_SHORT_DESC">
+			<Text>Congressional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_CONGRESSIONAL_PEDIA">
+			<Text>The legislature and executive are separate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_CONGRESSIONAL_HELP_BONUS">
+			<Text>Faction Opposition increases the minimum [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms by 25% less.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_CONGRESSIONAL_HELP_PENALTY">
+			<Text>Faction Support decreases the minimum [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass Political Reforms by 25% less.</Text>
+		</Row>
+		<!--RECORDS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RECORDS_DESC">
+			<Text>Records</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RECORDS_HELP">
+			<Text>Record Reforms regulate the publication of government documents.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECORDS_PUBLIC_SHORT_DESC">
+			<Text>Public</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECORDS_PUBLIC_PEDIA">
+			<Text>Government records are made public.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECORDS_PUBLIC_HELP_BONUS">
+			<Text>+20% Tile [ICON_CULTURE] expansion rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECORDS_PUBLIC_HELP_PENALTY">
+			<Text>+20% [ICON_GOLD] Tiles purchase cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECORDS_PERSONAL_SHORT_DESC">
+			<Text>Personal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECORDS_PERSONAL_PEDIA">
+			<Text>Only personal government records are kept.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECORDS_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECORDS_PRIVATE_PEDIA">
+			<Text>Government records are kept in private.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECORDS_PRIVATE_HELP_BONUS">
+			<Text>-20% [ICON_GOLD] Tiles purchase cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECORDS_PRIVATE_HELP_PENALTY">
+			<Text>-20% Tile [ICON_CULTURE] expansion rate.</Text>
+		</Row>
+		<!--RIGHTS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RIGHTS_DESC">
+			<Text>Rights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RIGHTS_HELP">
+			<Text>Rights Reforms regulate entitlements to fundamental freedoms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RIGHTS_HUMAN_SHORT_DESC">
+			<Text>Human</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RIGHTS_HUMAN_PEDIA">
+			<Text>Rights inherent in humanity are protected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RIGHTS_HUMAN_HELP_BONUS">
+			<Text>+15% [ICON_GOLDEN_AGE] Golden Age length.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RIGHTS_HUMAN_HELP_PENALTY">
+			<Text>+15% [ICON_HAPPINESS_1] Happiness is needed to begin a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RIGHTS_NATURAL_SHORT_DESC">
+			<Text>Natural</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RIGHTS_NATURAL_PEDIA">
+			<Text>Rights inherent in nature are protected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RIGHTS_LEGAL_SHORT_DESC">
+			<Text>Legal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RIGHTS_LEGAL_PEDIA">
+			<Text>Rights inherent in our laws are protected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RIGHTS_LEGAL_HELP_BONUS">
+			<Text>-15% [ICON_HAPPINESS_1] Happiness is needed to begin a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RIGHTS_LEGAL_HELP_PENALTY">
+			<Text>-15% [ICON_GOLDEN_AGE] Golden Age length.</Text>
+		</Row>
+		<!--SYSTEM-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SYSTEM_DESC">
+			<Text>System</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SYSTEM_HELP">
+			<Text>System Reforms regulate the precedent by which our laws are constituted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SYSTEM_COMMON_SHORT_DESC">
+			<Text>Common</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SYSTEM_COMMON_PEDIA">
+			<Text>Laws are based on juridicial discretion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SYSTEM_COMMON_HELP_BONUS">
+			<Text>+5% [ICON_PRODUCTION] from Espionage Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SYSTEM_COMMON_HELP_PENALTY">
+			<Text>-5% [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SYSTEM_CUSTOMARY_SHORT_DESC">
+			<Text>Customary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SYSTEM_CUSTOMARY_PEDIA">
+			<Text>Laws are based on custom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SYSTEM_CIVIL_SHORT_DESC">
+			<Text>Civil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SYSTEM_CIVIL_PEDIA">
+			<Text>Laws are based on pre-established codes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SYSTEM_CIVIL_HELP_BONUS">
+			<Text>+5% [ICON_PRODUCTION] Production from Government and Reform Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SYSTEM_CIVIL_HELP_PENALTY">
+			<Text>-5% [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS: DIPLOMACY-->
+		<!--===================================================-->
+		<!--ALLIANCES-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ALLIANCES_DESC">
+			<Text>Alliances</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ALLIANCES_HELP">
+			<Text>Alliances Reforms regulate how we secure our city-state alliances.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ALLIANCES_DIPLOMACY_SHORT_DESC">
+			<Text>Diplomacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ALLIANCES_DIPLOMACY_PEDIA">
+			<Text>We secure our alliances through diplomacy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ALLIANCES_DIPLOMACY_HELP_BONUS">
+			<Text>+15% [ICON_INFLUENCE] Influence from completing Quests for City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ALLIANCES_DIPLOMACY_HELP_PENALTY">
+			<Text>-10% [ICON_INFLUENCE] Influence from [ICON_GOLD] gifts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ALLIANCES_TREATIES_SHORT_DESC">
+			<Text>Treaties</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ALLIANCES_TREATIES_PEDIA">
+			<Text>We secure our alliances through treaties.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ALLIANCES_MARRIAGE_SHORT_DESC">
+			<Text>Marriage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ALLIANCES_MARRIAGE_PEDIA">
+			<Text>We secure our alliances through marriage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ALLIANCES_MARRIAGE_HELP_BONUS">
+			<Text>+15% [ICON_INFLUENCE] Influence from completing Diplomatic Missions with City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ALLIANCES_MARRIAGE_HELP_PENALTY">
+			<Text>-10% [ICON_INFLUENCE] Influence from [ICON_GOLD] gifts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ALLIANCES_MARRIAGE">
+			<Text>Marriage Alliances</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ALLIANCES_MARRIAGE_HELP">
+			<Text>+15% [ICON_INFLUENCE] Influence from completing Diplomatic Missions with City-States.</Text>
+		</Row>
+		<!--EMBASSIES-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EMBASSIES_DESC">
+			<Text>Embassies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EMBASSIES_HELP">
+			<Text>Embassies Reforms regulate the nature of our diplomatic embassies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMBASSIES_PEACE_SHORT_DESC">
+			<Text>Peace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMBASSIES_PEACE_PEDIA">
+			<Text>We seek peace with our embassies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMBASSIES_PEACE_HELP_BONUS">
+			<Text>Train Recon Units 25% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMBASSIES_PEACE_HELP_PENALTY">
+			<Text>-25% City-State Intimidation strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMBASSIES_RELATIONS_SHORT_DESC">
+			<Text>Relations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMBASSIES_RELATIONS_PEDIA">
+			<Text>We seek to relations with our embassies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMBASSIES_POWER_SHORT_DESC">
+			<Text>Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMBASSIES_POWER_PEDIA">
+			<Text>We seek power with our embassies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMBASSIES_POWER_HELP_BONUS">
+			<Text>Train Melee Units 10% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMBASSIES_POWER_HELP_PENALTY">
+			<Text>+15% [ICON_INFLUENCE] Influence decay rate.</Text>
+		</Row>
+		<!--GIFTS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_GIFTS_DESC">
+			<Text>Gifts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_GIFTS_HELP">
+			<Text>Gifts Reforms regulate our diplomatic offerings to other powers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GIFTS_JEWELS_SHORT_DESC">
+			<Text>Jewels</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GIFTS_JEWELS_PEDIA">
+			<Text>We send jewels as gifts to other powers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GIFTS_JEWELS_HELP_BONUS">
+			<Text>+10% [ICON_INFLUENCE] Influence from [ICON_GOLD] gifts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GIFTS_JEWELS_HELP_PENALTY">
+			<Text>-5 [ICON_INFLUENCE] Influence resting rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GIFTS_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GIFTS_NONE_PEDIA">
+			<Text>We send no gifts to other powers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GIFTS_SLAVES_SHORT_DESC">
+			<Text>Slaves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GIFTS_SLAVES_PEDIA">
+			<Text>We send slaves as gifts to other powers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GIFTS_SLAVES_HELP_BONUS">
+			<Text>+15 [ICON_INFLUENCE] Influence from Combat Unit gifts made to City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GIFTS_SLAVES_HELP_PENALTY">
+			<Text>-5 [ICON_INFLUENCE] Influence resting rate.</Text>
+		</Row>
+		<!--IDEOLOGY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_IDEOLOGY_DESC">
+			<Text>Ideology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_IDEOLOGY_HELP">
+			<Text>Ideology Reforms regulate our approach to our and opposing ideologies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_IDEOLOGY_PROLIFERATED_SHORT_DESC">
+			<Text>Proliferated</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_IDEOLOGY_PROLIFERATED_PEDIA">
+			<Text>We seek to proliferate our ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_IDEOLOGY_PROLIFERATED_HELP_BONUS">
+			<Text>+15% [ICON_TOURISM] Tourism to civilizations that have less [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_IDEOLOGY_PROLIFERATED_HELP_PENALTY">
+			<Text>-15% [ICON_TOURISM] Tourism to other civilizations that share your Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_IDEOLOGY_PASSIVE_SHORT_DESC">
+			<Text>Passive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_IDEOLOGY_PASSIVE_PEDIA">
+			<Text>We do not act on our ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_IDEOLOGY_ENTRENCHED_SHORT_DESC">
+			<Text>Entrenched</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_IDEOLOGY_ENTRENCHED_PEDIA">
+			<Text>We seek to safeguard our ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_IDEOLOGY_ENTRENCHED_HELP_BONUS">
+			<Text>+15% [ICON_TOURISM] Tourism to other civilizations that share your Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_IDEOLOGY_ENTRENCHED_HELP_PENALTY">
+			<Text>-15% [ICON_TOURISM] Tourism to civilizations that have less [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<!--INTELLIGENCE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INTELLIGENCE_DESC">
+			<Text>Intelligence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INTELLIGENCE_HELP">
+			<Text>Intelligence Reforms regulate the focus our espionage operations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTELLIGENCE_SABOTAGE_SHORT_DESC">
+			<Text>Sabotage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTELLIGENCE_SABOTAGE_PEDIA">
+			<Text>Our spies focus on gathering others' secrets.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTELLIGENCE_SABOTAGE_HELP_BONUS">
+			<Text>+15% Technology Theft rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTELLIGENCE_SABOTAGE_HELP_PENALTY">
+			<Text>-25% Counter-espionage strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTELLIGENCE_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTELLIGENCE_NONE_PEDIA">
+			<Text>Our spies do as they are needed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTELLIGENCE_SECURITY_SHORT_DESC">
+			<Text>Security</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTELLIGENCE_SECURITY_PEDIA">
+			<Text>Our spies focus on protecting our secrets.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTELLIGENCE_SECURITY_HELP_BONUS">
+			<Text>+25% Counter-espionage strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTELLIGENCE_SECURITY_HELP_PENALTY">
+			<Text>-15% Technology Theft rate.</Text>
+		</Row>
+		<!--INTERESTS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INTERESTS_DESC">
+			<Text>Interests</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INTERESTS_HELP">
+			<Text>Interests Reforms regulate our diplomatic interests in lesser powers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTERESTS_COMMERCIAL_SHORT_DESC">
+			<Text>Commercial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTERESTS_COMMERCIAL_PEDIA">
+			<Text>Our interests are motivated by commerce.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTERESTS_COMMERCIAL_HELP_BONUS">
+			<Text>+2 [ICON_GOLD] Gold for International Trade Routes with City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTERESTS_COMMERCIAL_HELP_PENALTY">
+			<Text>-10 [ICON_INFLUENCE] Influence resting rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTERESTS_DIPLOMATIC_SHORT_DESC">
+			<Text>Diplomatic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTERESTS_DIPLOMATIC_PEDIA">
+			<Text>Our interests are motivated by diplomacy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTERESTS_IMPERIAL_SHORT_DESC">
+			<Text>Imperial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTERESTS_IMPERIAL_PEDIA">
+			<Text>Our interests are motivated by power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTERESTS_IMPERIAL_HELP_BONUS">
+			<Text>+2 [ICON_INFLUENCE] per turn with City-States you have an International Trade Route with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INTERESTS_IMPERIAL_HELP_PENALTY">
+			<Text>-10 [ICON_INFLUENCE] Influence resting rate.</Text>
+		</Row>
+		<!--PRECEDENCE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_PRECEDENCE_DESC">
+			<Text>Precedence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_PRECEDENCE_HELP">
+			<Text>Precedence Reforms regulate the order in which other civilizations are treated.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_SPECIFIC_DIPLO_STRING_1"/>
+			<Set Text="Diplomatic effect from your Precedence Reforms."/>
+		</Update>
+		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_RANK_SHORT_DESC">
+			<Text>Rank</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_RANK_PEDIA">
+			<Text>High-ranking diplomats take precedence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_RANK_HELP_BONUS">
+			<Text>Civilizations with whom you share the same Government like you more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_RANK_HELP_PENALTY">
+			<Text>Civilizations with whom you don't share the same Government dislike you more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIFIC_DIPLO_JFD_PRECEDENCE_RANK_BONUS">
+			<Text>They like that you have the same Government system as them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIFIC_DIPLO_JFD_PRECEDENCE_RANK_PENALTY">
+			<Text>They dislike that you have a different Government system as them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_BASIC_SHORT_DESC">
+			<Text>Basic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_BASIC_PEDIA">
+			<Text>Like-minded civilizations take precedence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_POWER_SHORT_DESC">
+			<Text>Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_POWER_PEDIA">
+			<Text>Powerful civilizations take precedence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_POWER_HELP_BONUS">
+			<Text>Civilizations against whom you have more cities like you much more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PRECEDENCE_POWER_HELP_PENALTY">
+			<Text>Civilizations against whom you have less cities dislike you much more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIFIC_DIPLO_JFD_PRECEDENCE_POWER_BONUS">
+			<Text>They like that you have more cities than them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIFIC_DIPLO_JFD_PRECEDENCE_POWER_PENALTY">
+			<Text>They dislike that you have less cities than them.</Text>
+		</Row>
+		<!--REPRESENTATIVES-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_REPRESENTATIVES_DESC">
+			<Text>Representatives</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_REPRESENTATIVES_HELP">
+			<Text>Representatives Reforms regulate our diplomatic representatives.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_REPRESENTATIVES_TRANSIENT_SHORT_DESC">
+			<Text>Transient</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_REPRESENTATIVES_TRANSIENT_PEDIA">
+			<Text>Our representatives are go where needed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_REPRESENTATIVES_TRANSIENT_HELP_BONUS">
+			<Text>-15% [ICON_INFLUENCE] Influence decay rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_REPRESENTATIVES_TRANSIENT_HELP_PENALTY">
+			<Text>-10 [ICON_INFLUENCE] Influence resting rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_REPRESENTATIVES_INFORMAL_SHORT_DESC">
+			<Text>Informal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_REPRESENTATIVES_INFORMAL_PEDIA">
+			<Text>We do not have formal representatives.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_REPRESENTATIVES_PERMANENT_SHORT_DESC">
+			<Text>Permanent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_REPRESENTATIVES_PERMANENT_PEDIA">
+			<Text>Our representatives have permanent stations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_REPRESENTATIVES_PERMANENT_HELP_BONUS">
+			<Text>+10 [ICON_INFLUENCE] Influence resting rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_REPRESENTATIVES_PERMANENT_HELP_PENALTY">
+			<Text>+15% [ICON_INFLUENCE] Influence decay rate.</Text>
+		</Row>
+		<!--TRIBUTE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TRIBUTE_DESC">
+			<Text>Tribute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TRIBUTE_HELP">
+			<Text>Tribute Reforms regulate the offerings that we demand from our lessers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRIBUTE_GOLD_SHORT_DESC">
+			<Text>Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRIBUTE_GOLD_PEDIA">
+			<Text>We demand gold as tribute from our lessers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRIBUTE_GOLD_HELP_BONUS">
+			<Text>+2 [ICON_GOLD] Gold from Chanceries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRIBUTE_GOLD_HELP_PENALTY">
+			<Text>-5 [ICON_INFLUENCE] Influence resting rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRIBUTE_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRIBUTE_NONE_PEDIA">
+			<Text>We do not demand tribute.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRIBUTE_FOOD_SHORT_DESC">
+			<Text>Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRIBUTE_FOOD_PEDIA">
+			<Text>We demand food as tribute from our lessers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRIBUTE_FOOD_HELP_BONUS">
+			<Text>+2 [ICON_FOOD] Food from Chanceries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRIBUTE_FOOD_HELP_PENALTY">
+			<Text>-5 [ICON_INFLUENCE] Influence resting rate.</Text>
+		</Row>
+		<!--WORLD-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WORLD_DESC">
+			<Text>World</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WORLD_HELP">
+			<Text>World Reforms regulate our integration into the international system.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORLD_GLOBALIZATION_SHORT_DESC">
+			<Text>Globalization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORLD_GLOBALIZATION_PEDIA">
+			<Text>We embrace the international system.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORLD_GLOBALIZATION_HELP_BONUS">
+			<Text>+10% [ICON_TOURISM] Tourism for shared religion, trade routes, and open borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORLD_GLOBALIZATION_HELP_PENALTY">
+			<Text>+10% [ICON_CULTURE] cost increase per city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORLD_NEUTRAL_SHORT_DESC">
+			<Text>Neutral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORLD_NEUTRAL_PEDIA">
+			<Text>We remain neutral to the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORLD_ISOLATION_SHORT_DESC">
+			<Text>Isolation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORLD_ISOLATION_PEDIA">
+			<Text>We seek to preserve our independence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORLD_ISOLATION_HELP_BONUS">
+			<Text>-10% [ICON_CULTURE] cost increase per city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORLD_ISOLATION_HELP_PENALTY">
+			<Text>-10% [ICON_TOURISM] Tourism for shared religion, trade routes, and open borders.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS: ECONOMY-->
+		<!--===================================================-->
+		<!--CHARTERS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CHARTERS_DESC">
+			<Text>Charters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CHARTERS_HELP">
+			<Text>Charters Reforms regulate the focus of the right to form companies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHARTERS_COMMERCIAL_SHORT_DESC">
+			<Text>Commercial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHARTERS_COMMERCIAL_PEDIA">
+			<Text>Charters are issued for commercial ventures.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHARTERS_COMMERCIAL_HELP_BONUS">
+			<Text>Train Trade Units 25% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHARTERS_COMMERCIAL_HELP_PENALTY">
+			<Text>Construct Buildings 5% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHARTERS_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHARTERS_NONE_PEDIA">
+			<Text>No charters are issued.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHARTERS_COLONIAL_SHORT_DESC">
+			<Text>Colonial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHARTERS_COLONIAL_PEDIA">
+			<Text>Charters are issued for colonial ventures.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHARTERS_COLONIAL_HELP_BONUS">
+			<Text>Train Settler Units 25% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHARTERS_COLONIAL_HELP_PENALTY">
+			<Text>Construct Buildings 5% slower.</Text>
+		</Row>
+		<!--CURRENCY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CURRENCY_DESC">
+			<Text>Currency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CURRENCY_HELP">
+			<Text>Currency Reforms regulate the medium by which goods and services are exchanged.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CURRENCY_CREDIT_SHORT_DESC">
+			<Text>Credit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CURRENCY_CREDIT_PEDIA">
+			<Text>Exchanges are made through credit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CURRENCY_CREDIT_HELP_BONUS">
+			<Text>+50% [ICON_SWAP] Trade Route length.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CURRENCY_CREDIT_HELP_PENALTY">
+			<Text>-2 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_CURRENCY_CREDIT">
+			<Text>JFD: Reform (Currency) (Credit)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_CURRENCY_CREDIT_HELP">
+			<Text>+50% Trade Route length.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CURRENCY_BARTER_SHORT_DESC">
+			<Text>Barter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CURRENCY_BARTER_PEDIA">
+			<Text>Exchanges are made through barter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CURRENCY_TENDER_SHORT_DESC">
+			<Text>Tender</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CURRENCY_TENDER_PEDIA">
+			<Text>Exchanges are made through tender.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CURRENCY_TENDER_HELP_BONUS">
+			<Text>+2 [ICON_GOLD] per International Trade Route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CURRENCY_TENDER_HELP_PENALTY">
+			<Text>-2 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<!--ECONOMICS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ECONOMICS_DESC">
+			<Text>Economics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ECONOMICS_HELP">
+			<Text>Economics Reforms regulate the means by which the economy is determined.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ECONOMICS_MARKET_SHORT_DESC">
+			<Text>Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ECONOMICS_MARKET_PEDIA">
+			<Text>The economy is set by the market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ECONOMICS_MARKET_HELP_BONUS">
+			<Text>+5% [ICON_GOLD] Gold from Gold Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ECONOMICS_MARKET_HELP_PENALTY">
+			<Text>-5% [ICON_PRODUCTION] from Gold Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ECONOMICS_MIXED_SHORT_DESC">
+			<Text>Mixed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ECONOMICS_MIXED_PEDIA">
+			<Text>The economy is set as needed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ECONOMICS_PLANNED_SHORT_DESC">
+			<Text>Planned</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ECONOMICS_PLANNED_PEDIA">
+			<Text>The economy is set by the government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ECONOMICS_PLANNED_HELP_BONUS">
+			<Text>+5% [ICON_PRODUCTION] from Gold Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ECONOMICS_PLANNED_HELP_PENALTY">
+			<Text>-5% [ICON_GOLD] Gold from Gold Buildings.</Text>
+		</Row>
+		<!--INFRASTRUCTURE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INFRASTRUCTURE_DESC">
+			<Text>Infrastructure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INFRASTRUCTURE_HELP">
+			<Text>Infrastructure Reforms regulate the maintenance of roads and railroads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFRASTRUCTURE_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFRASTRUCTURE_PRIVATE_PEDIA">
+			<Text>Roads are privately maintained.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFRASTRUCTURE_PRIVATE_HELP_BONUS">
+			<Text>-15% Route [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFRASTRUCTURE_PRIVATE_HELP_PENALTY">
+			<Text>-1 [ICON_MOVES] Movement for all Units starting their turn on a Road or Railroad.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFRASTRUCTURE_NATURAL_SHORT_DESC">
+			<Text>Natural</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFRASTRUCTURE_NATURAL_PEDIA">
+			<Text>Only natural roads are maintained.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFRASTRUCTURE_PUBLIC_SHORT_DESC">
+			<Text>Public</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFRASTRUCTURE_PUBLIC_PEDIA">
+			<Text>Roads are publicly maintained.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFRASTRUCTURE_PUBLIC_HELP_BONUS">
+			<Text>+1 [ICON_MOVES] Movement for all Units starting their turn on a Road or Railroad.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFRASTRUCTURE_PUBLIC_HELP_PENALTY">
+			<Text>+15% Route [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<!--MONOPOLIES-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MONOPOLIES_DESC">
+			<Text>Monopolies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MONOPOLIES_HELP">
+			<Text>Monopolies Reforms regulate the permittance of resource monopolies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MONOPOLIES_PROHIBITED_SHORT_DESC">
+			<Text>Prohibited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MONOPOLIES_PROHIBITED_PEDIA">
+			<Text>Monopolies are disallowed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MONOPOLIES_PROHIBITED_HELP_BONUS">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from Luxuries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MONOPOLIES_PROHIBITED_HELP_PENALTY">
+			<Text>-5% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MONOPOLIES_NATURAL_SHORT_DESC">
+			<Text>Natural</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MONOPOLIES_NATURAL_PEDIA">
+			<Text>Only natural monopolies are allowed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MONOPOLIES_STATE_SHORT_DESC">
+			<Text>Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MONOPOLIES_STATE_PEDIA">
+			<Text>Only government monopolies are allowed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MONOPOLIES_STATE_HELP_BONUS">
+			<Text>+25% Strategic Resource quantity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MONOPOLIES_STATE_HELP_PENALTY">
+			<Text>-5% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<!--OWNERSHIP-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_OWNERSHIP_DESC">
+			<Text>Ownership</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_OWNERSHIP_HELP">
+			<Text>Ownership Reforms regulate the right to the ownership of property.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OWNERSHIP_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OWNERSHIP_PRIVATE_PEDIA">
+			<Text>Property can be owned privately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OWNERSHIP_PRIVATE_HELP_BONUS">
+			<Text>-10% Building [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OWNERSHIP_PRIVATE_HELP_PENALTY">
+			<Text>+15% [ICON_GOLD] Gold purchase costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OWNERSHIP_NATURAL_SHORT_DESC">
+			<Text>Natural</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OWNERSHIP_NATURAL_PEDIA">
+			<Text>Property can only be naturally owned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OWNERSHIP_SOCIAL_SHORT_DESC">
+			<Text>Social</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OWNERSHIP_SOCIAL_PEDIA">
+			<Text>All property is socially owned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OWNERSHIP_SOCIAL_HELP_BONUS">
+			<Text>-15% [ICON_GOLD] Gold purchase costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OWNERSHIP_SOCIAL_HELP_PENALTY">
+			<Text>+10% Building [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<!--RELATIONS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RELATIONS_DESC">
+			<Text>Relations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RELATIONS_HELP">
+			<Text>Relations Reforms regulate the organization of economic relations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RELATIONS_MUNICIPAL_SHORT_DESC">
+			<Text>Municipal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RELATIONS_MUNICIPAL_PEDIA">
+			<Text>Economic relations revolve around cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RELATIONS_MUNICIPAL_HELP_BONUS">
+			<Text>+2 [ICON_GOLD] Gold from Chanceries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RELATIONS_MUNICIPAL_HELP_PENALTY">
+			<Text>-2 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RELATIONS_PERSONAL_SHORT_DESC">
+			<Text>Personal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RELATIONS_PERSONAL_PEDIA">
+			<Text>Economic relations revolve around persons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RELATIONS_MANORIAL_SHORT_DESC">
+			<Text>Manorial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RELATIONS_MANORIAL_PEDIA">
+			<Text>Economic relations revolve around estates.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RELATIONS_MANORIAL_HELP_BONUS">
+			<Text>+2 [ICON_GOLD] Gold from Customs Houses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RELATIONS_MANORIAL_HELP_PENALTY">
+			<Text>-2 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<!--TAXATION-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TAXATION_DESC">
+			<Text>Taxation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TAXATION_HELP">
+			<Text>Taxation Reforms regulate the rate of taxes excised from our population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_LOW_SHORT_DESC">
+			<Text>Low</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_LOW_PEDIA">
+			<Text>Tax is set at low levels.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_LOW_HELP_BONUS">
+			<Text>-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population in non-occupied cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_LOW_HELP_PENALTY">
+			<Text>-25% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_MEDIUM_SHORT_DESC">
+			<Text>Medium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_MEDIUM_HELP_PENALTY">
+			<Text>None.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_MEDIUM_PEDIA">
+			<Text>Tax is set at normal levels.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_HIGH_SHORT_DESC">
+			<Text>High</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_HIGH_PEDIA">
+			<Text>Tax is set at high levels.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_HIGH_HELP_BONUS">
+			<Text>+25% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TAXATION_HIGH_HELP_PENALTY">
+			<Text>+10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population in non-occupied cities.</Text>
+		</Row>
+		<!--TRADE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TRADE_DESC">
+			<Text>Trade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TRADE_HELP">
+			<Text>Trade Reforms regulate government intervention in international trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_FREE_SHORT_DESC">
+			<Text>Free</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_FREE_PEDIA">
+			<Text>Trade is unrestricted to foster commerce.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_FREE_HELP_BONUS">
+			<Text>+2 [ICON_GOLD] per International Trade Route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_FREE_HELP_BONUS_CP">
+			<Text>+10% toward all Yields from International Trade Routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_FREE_HELP_PENALTY">
+			<Text>-5% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_DIRECTED_SHORT_DESC">
+			<Text>Directed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_DIRECTED_PEDIA">
+			<Text>Trade is directed for government interests.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_FAIR_SHORT_DESC">
+			<Text>Fair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_FAIR_PEDIA">
+			<Text>Trade is restricted to foster equity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_FAIR_HELP_BONUS">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from [ICON_CONNECTED] City Connections to the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRADE_FAIR_HELP_PENALTY">
+			<Text>-5% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<!--WEALTH-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WEALTH_DESC">
+			<Text>Wealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WEALTH_HELP">
+			<Text>Wealth Reforms regulate the means by which wealth is distributed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WEALTH_MARKET_SHORT_DESC">
+			<Text>Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WEALTH_MARKET_PEDIA">
+			<Text>Wealth is distributed through the market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WEALTH_MARKET_HELP_BONUS">
+			<Text>+2 [ICON_GOLD] Gold from Markets.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WEALTH_MARKET_HELP_PENALTY">
+			<Text>-1 [ICON_FOOD] Food in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WEALTH_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WEALTH_NONE_PEDIA">
+			<Text>Wealth is not regulated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WEALTH_PALACE_SHORT_DESC">
+			<Text>Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WEALTH_PALACE_PEDIA">
+			<Text>Wealth is distributed through the palace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WEALTH_PALACE_HELP_BONUS">
+			<Text>+5 [ICON_GOLD] Gold from the Palace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WEALTH_PALACE_HELP_PENALTY">
+			<Text>-1 [ICON_FOOD] Food in all cities.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS: EDUCATION-->
+		<!--===================================================-->
+		<!--FUNDING-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_FUNDING_DESC">
+			<Text>Funding</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_FUNDING_HELP">
+			<Text>Funding Reforms regulate the focus of public funding toward higher education.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FUNDING_ACADEMIC_SHORT_DESC">
+			<Text>Academic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FUNDING_ACADEMIC_PEDIA">
+			<Text>Academic education is funded.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FUNDING_ACADEMIC_HELP_BONUS">
+			<Text>+1 [ICON_RESEARCH] Science from Scientists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FUNDING_ACADEMIC_HELP_PENALTY">
+			<Text>-2 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_FUNDING_ACADEMIC">
+			<Text>JFD: Reform (Funding) (Academic)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_FUNDING_ACADEMIC_HELP">
+			<Text>+1 [ICON_RESEARCH] Science from Scientists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FUNDING_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FUNDING_NONE_PEDIA">
+			<Text>Higher education is not funded.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FUNDING_TECHNICAL_SHORT_DESC">
+			<Text>Technical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FUNDING_TECHNICAL_PEDIA">
+			<Text>Technical education is funded.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FUNDING_TECHNICAL_HELP_BONUS">
+			<Text>+1 [ICON_PRODUCTION] Production from Engineers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FUNDING_TECHNICAL_HELP_PENALTY">
+			<Text>-2 [ICON_RESEARCH] Science in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_FUNDING_TECHNICAL">
+			<Text>JFD: Reform (Funding) (Technical)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_FUNDING_TECHNICAL_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production from Engineers.</Text>
+		</Row>
+		<!--HONOURS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_HONOURS_DESC">
+			<Text>Honours</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_HONOURS_HELP">
+			<Text>Honours Reforms regulate the fields that we especially recognise.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_HUMANITIES_SHORT_DESC">
+			<Text>Humanities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_HUMANITIES_PEDIA">
+			<Text>We honour the humanities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_HUMANITIES_HELP_BONUS">
+			<Text>+10% [ICON_GREAT_PEOPLE] Cultural Great Person rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_HUMANITIES_HELP_BONUS_CP">
+			<Text>+15% [ICON_GREAT_PEOPLE] Cultural Great Person rate during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_HUMANITIES_HELP_BONUS_MAGISTRATE">
+			<Text>+15% [ICON_GREAT_PEOPLE] Great Magistrate rate during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_HUMANITIES_HELP_PENALTY">
+			<Text>-10% [ICON_GREAT_PEOPLE] Great Scientist rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_HUMANITIES_HELP_PENALTY_CP">
+			<Text>-15% [ICON_GREAT_PEOPLE] Great Scientist rate during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_MERITED_SHORT_DESC">
+			<Text>Merited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_MERITED_PEDIA">
+			<Text>We honour all academic fields.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_SCIENCES_SHORT_DESC">
+			<Text>Sciences</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_SCIENCES_PEDIA">
+			<Text>We honour the sciences.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_SCIENCES_HELP_BONUS">
+			<Text>+10% [ICON_GREAT_PEOPLE] Great Scientist rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_SCIENCES_HELP_BONUS_CP">
+			<Text>+15% [ICON_GREAT_PEOPLE] Great Scientist rate during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_SCIENCES_HELP_PENALTY">
+			<Text>-10% [ICON_GREAT_PEOPLE] Cultural Great Person rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_SCIENCES_HELP_PENALTY_CP">
+			<Text>-15% [ICON_GREAT_PEOPLE] Cultural Great Person rate during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HONOURS_SCIENCES_HELP_PENALTY_MAGISTRATE">
+			<Text>-15% [ICON_GREAT_PEOPLE] Great Magistrate rate during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<!--INFORMATION-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INFORMATION_DESC">
+			<Text>Information</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INFORMATION_HELP">
+			<Text>Information Reforms regulate the freedom of access to scientific information.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFORMATION_FREE_SHORT_DESC">
+			<Text>Free</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFORMATION_FREE_PEDIA">
+			<Text>Freedom of information is protected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFORMATION_FREE_HELP_BONUS">
+			<Text>+2 [ICON_RESEARCH] Science from Academies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFORMATION_FREE_HELP_PENALTY">
+			<Text>-15% [ICON_TOURISM] from Research Labs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFORMATION_CENSORED_SHORT_DESC">
+			<Text>Censored</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFORMATION_CENSORED_PEDIA">
+			<Text>Certain information is limited.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFORMATION_CONTROLLED_SHORT_DESC">
+			<Text>Controlled</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFORMATION_CONTROLLED_PEDIA">
+			<Text>Access to information is strictly controlled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFORMATION_CONTROLLED_HELP_BONUS">
+			<Text>+15% [ICON_TOURISM] from Research Labs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INFORMATION_CONTROLLED_HELP_PENALTY">
+			<Text>-2 [ICON_RESEARCH] Science from Academies.</Text>
+		</Row>
+		<!--INSTRUCTION-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INSTRUCTION_DESC">
+			<Text>Instruction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INSTRUCTION_HELP">
+			<Text>Instruction Reforms regulate the values that are imparted in our schools.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INSTRUCTION_CRITICAL_SHORT_DESC">
+			<Text>Critical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INSTRUCTION_CRITICAL_PEDIA">
+			<Text>Schools impart critical values.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INSTRUCTION_CRITICAL_HELP_BONUS">
+			<Text>+10% [ICON_CULTURE] Culture from Public Schools.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INSTRUCTION_CRITICAL_HELP_PENALTY">
+			<Text>-10% [ICON_RESEARCH] Science from Public Schools.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INSTRUCTION_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INSTRUCTION_PRIVATE_PEDIA">
+			<Text>Schools impart their own values.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INSTRUCTION_PATRIOTIC_SHORT_DESC">
+			<Text>Patriotic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INSTRUCTION_PATRIOTIC_PEDIA">
+			<Text>Schools impart patriotic values.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INSTRUCTION_PATRIOTIC_HELP_BONUS">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from Public Schools.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INSTRUCTION_PATRIOTIC_HELP_PENALTY">
+			<Text>-10% [ICON_RESEARCH] Science from Public Schools.</Text>
+		</Row>
+		<!--LEARNING-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LEARNING_DESC">
+			<Text>Learning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LEARNING_HELP">
+			<Text>Learning Reforms regulate those that serve as centres of learning.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_UNIVERSITIES_SHORT_DESC">
+			<Text>Universities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_UNIVERSITIES_PEDIA">
+			<Text>Universities are primary centres of learning.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_UNIVERSITIES_HELP_BONUS">
+			<Text>+5% [ICON_RESEARCH] Science from Universities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_UNIVERSITIES_HELP_PENALTY">
+			<Text>-5% [ICON_RESEARCH] Science in the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_PALACE_SHORT_DESC">
+			<Text>Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_PALACE_PEDIA">
+			<Text>The Palace is the primary centre of learning.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_MONASTERIES_SHORT_DESC">
+			<Text>Monasteries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_MONASTERIES_PEDIA">
+			<Text>Monasteries are primary centres of learning.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_MONASTERIES_HELP_BONUS">
+			<Text>+5% [ICON_RESEARCH] Science from Monasteries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEARNING_MONASTERIES_HELP_PENALTY">
+			<Text>-5% [ICON_RESEARCH] Science in the Capital.</Text>
+		</Row>
+		<!--RESEARCH-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RESEARCH_DESC">
+			<Text>Research</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RESEARCH_HELP">
+			<Text>Research Reforms regulate our approach to international research.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RESEARCH_JOINT_SHORT_DESC">
+			<Text>Joint</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RESEARCH_JOINT_PEDIA">
+			<Text>We join international research.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RESEARCH_JOINT_HELP_BONUS">
+			<Text>+20% [ICON_RESEARCH] Science from completing Research Agreements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RESEARCH_JOINT_HELP_PENALTY">
+			<Text>-15% [ICON_RESEARCH] Science from expending Great Scientists for Technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_RESEARCH_JOINT">
+			<Text>JFD: Reform (Research) (Joint)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_RESEARCH_JOINT_HELP">
+			<Text>-15% [ICON_RESEARCH] Science from expending Great Scientists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RESEARCH_ISOLATED_SHORT_DESC">
+			<Text>Isolated</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RESEARCH_ISOLATED_PEDIA">
+			<Text>We ignore international research.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RESEARCH_COMPETITIVE_SHORT_DESC">
+			<Text>Competitive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RESEARCH_COMPETITIVE_PEDIA">
+			<Text>We compete against international research.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RESEARCH_COMPETITIVE_HELP_BONUS">
+			<Text>+15% [ICON_RESEARCH] Science from expending Great Scientists for Technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RESEARCH_COMPETITIVE_HELP_PENALTY">
+			<Text>-20% [ICON_RESEARCH] Science from completing Research Agreements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_RESEARCH_COMPETITIVE">
+			<Text>JFD: Reform (Research) (Joint)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_RESEARCH_COMPETITIVE_HELP">
+			<Text>+15% [ICON_RESEARCH] Science gained from expending Great Scientists.</Text>
+		</Row>
+		<!--SCHOLARSHIP-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SCHOLARSHIP_DESC">
+			<Text>Scholarship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SCHOLARSHIP_HELP">
+			<Text>Scholarship Reforms regulate the nature of the scholarship that we promote.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOLARSHIP_ARTS_SHORT_DESC">
+			<Text>Arts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOLARSHIP_ARTS_PEDIA">
+			<Text>We promote scholarship in the arts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOLARSHIP_ARTS_HELP_BONUS">
+			<Text>+2 [ICON_CULTURE] Culture from Universities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOLARSHIP_ARTS_HELP_PENALTY">
+			<Text>-2 [ICON_RESEARCH] Science in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOLARSHIP_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOLARSHIP_NONE_PEDIA">
+			<Text>We do not promote scholarship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOLARSHIP_THEOLOGY_SHORT_DESC">
+			<Text>Theology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOLARSHIP_THEOLOGY_PEDIA">
+			<Text>We promote scholarship in theology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOLARSHIP_THEOLOGY_HELP_BONUS">
+			<Text>+2 [ICON_PEACE] Faith from Monasteries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOLARSHIP_THEOLOGY_HELP_PENALTY">
+			<Text>-1 [ICON_RESEARCH] Science in all cities.</Text>
+		</Row>
+		<!--SCHOOLING-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SCHOOLING_DESC">
+			<Text>Schooling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SCHOOLING_HELP">
+			<Text>Schooling Reforms regulate those has access to state schooling.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOOLING_UNIVERSAL_SHORT_DESC">
+			<Text>Universal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOOLING_UNIVERSAL_PEDIA">
+			<Text>All have equal access to schools.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOOLING_UNIVERSAL_HELP_BONUS">
+			<Text>+1 [ICON_RESEARCH] Science for every 4 non-Specialist Citizens in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOOLING_UNIVERSAL_HELP_PENALTY">
+			<Text>-10% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_SCHOOLING_UNIVERSAL">
+			<Text>JFD: Reform (Schooling) (Universal)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_SCHOOLING_UNIVERSAL_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every 4 non-Specialist Citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOOLING_ELITE_SHORT_DESC">
+			<Text>Elite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOOLING_ELITE_PEDIA">
+			<Text>Only the elite have access to schools.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOOLING_MERITED_SHORT_DESC">
+			<Text>Merited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOOLING_MERITED_PEDIA">
+			<Text>Only those with merit have access to schools.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOOLING_MERITED_HELP_BONUS">
+			<Text>+1 [ICON_RESEARCH] Science from all Specialists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCHOOLING_MERITED_HELP_PENALTY">
+			<Text>-10% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<!--SCRIBES-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SCRIBES_DESC">
+			<Text>Scribes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SCRIBES_HELP">
+			<Text>Scribes Reforms regulate the focus of the record-keeping of our scribes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCRIBES_PHILOSOPHY_SHORT_DESC">
+			<Text>Philosophy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCRIBES_PHILOSOPHY_PEDIA">
+			<Text>Our scribes focus on recording philosophy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCRIBES_PHILOSOPHY_HELP_BONUS">
+			<Text>+1 [ICON_CULTURE] Culture from Amphitheatres.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCRIBES_PHILOSOPHY_HELP_PENALTY">
+			<Text>-1 [ICON_RESEARCH] Science in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCRIBES_HISTORY_SHORT_DESC">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCRIBES_HISTORY_PEDIA">
+			<Text>Our scribes focus on recording history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCRIBES_MATHEMATICS_SHORT_DESC">
+			<Text>Mathematics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCRIBES_MATHEMATICS_PEDIA">
+			<Text>Our scribes focus on recording mathematics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCRIBES_MATHEMATICS_HELP_BONUS">
+			<Text>+1 [ICON_RESEARCH] Science from Libraries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SCRIBES_MATHEMATICS_HELP_PENALTY">
+			<Text>-1 [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<!--TRAINING-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TRAINING_DESC">
+			<Text>Training</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TRAINING_HELP">
+			<Text>Training Reforms regulate the nature of the education our people receive.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRAINING_SCHOLARS_SHORT_DESC">
+			<Text>Scholars</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRAINING_SCHOLARS_PEDIA">
+			<Text>We focus on training scholars.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRAINING_SCHOLARS_HELP_BONUS">
+			<Text>Build Science Buildings 10% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRAINING_SCHOLARS_HELP_PENALTY">
+			<Text>Build XP Buildings 10% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRAINING_CITIZENS_SHORT_DESC">
+			<Text>Citizens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRAINING_CITIZENS_PEDIA">
+			<Text>We focus on training citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRAINING_WARRIORS_SHORT_DESC">
+			<Text>Warriors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRAINING_WARRIORS_PEDIA">
+			<Text>We focus on training warriors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRAINING_WARRIORS_HELP_BONUS">
+			<Text>Build XP Buildings 10% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TRAINING_WARRIORS_HELP_PENALTY">
+			<Text>Build Science Buildings 10% slower.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS: INDUSTRY-->
+		<!--===================================================-->
+		<!--ARCHITECTURE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ARCHITECTURE_DESC">
+			<Text>Architecture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ARCHITECTURE_HELP">
+			<Text>Architecture Reforms regulate the nature of our architectural projects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_AESTHETIC_SHORT_DESC">
+			<Text>Aesthetic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_AESTHETIC_PEDIA">
+			<Text>Our architects focus on aesthetics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_AESTHETIC_HELP_BONUS">
+			<Text>Build Wonders 10% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_AESTHETIC_HELP_BONUS_CP">
+			<Text>+20% [ICON_PRODUCTION] Production from Great Engineer rushes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_AESTHETIC_HELP_PENALTY">
+			<Text>Construct Buildings 10% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_AESTHETIC_HELP_PENALTY_CP">
+			<Text>-15% Great Engineer rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_FUNCTIONAL_SHORT_DESC">
+			<Text>Functional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_FUNCTIONAL_PEDIA">
+			<Text>Our architects focus on function.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_TECHNICAL_SHORT_DESC">
+			<Text>Technical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_TECHNICAL_PEDIA">
+			<Text>Our architects focus on technique.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_TECHNICAL_HELP_BONUS">
+			<Text>Construct Buildings 10% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_TECHNICAL_HELP_BONUS_CP">
+			<Text>+15% Great Engineer rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_TECHNICAL_HELP_PENALTY">
+			<Text>Build Wonders 10% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ARCHITECTURE_TECHNICAL_HELP_PENALTY_CP">
+			<Text>-20% [ICON_PRODUCTION] Production from Great Engineer rushes.</Text>
+		</Row>
+		<!--CONSTRUCTION-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CONSTRUCTION_DESC">
+			<Text>Construction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CONSTRUCTION_HELP">
+			<Text>Construction Reforms regulate the focus of our construction efforts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WONDERS_SHORT_DESC">
+			<Text>Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WONDERS_PEDIA">
+			<Text>We focus on constructing wonders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WONDERS_HELP_BONUS">
+			<Text>+2 [ICON_PRODUCTION] Production from [ICON_RES_STONE] Stone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WONDERS_HELP_PENALTY">
+			<Text>-1 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_CONSTRUCTION_WONDERS">
+			<Text>JFD: Reform (Materials) (Buildings)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_CONSTRUCTION_WONDERS_HELP">
+			<Text>+2 [ICON_PRODUCTION] Production from [ICON_RES_STONE] Stone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_BUILDINGS_SHORT_DESC">
+			<Text>Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_BUILDINGS_PEDIA">
+			<Text>We focus on constructing buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WEAPONS_SHORT_DESC">
+			<Text>Weapons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WEAPONS_PEDIA">
+			<Text>We focus on producing weapons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WEAPONS_HELP_BONUS">
+			<Text>+2 [ICON_PRODUCTION] Production from [ICON_RES_IRON] Iron.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONSTRUCTION_WEAPONS_HELP_PENALTY">
+			<Text>-1 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_CONSTRUCTION_WEAPONS">
+			<Text>JFD: Reform (Materials) (Weapons)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_CONSTRUCTION_WEAPONS_HELP">
+			<Text>+2 [ICON_PRODUCTION] Production from [ICON_RES_IRON] Iron.</Text>
+		</Row>
+		<!--EMPLOYMENT-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EMPLOYMENT_DESC">
+			<Text>Employment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EMPLOYMENT_HELP">
+			<Text>Employment Reforms regulate the relationship between employers and employees.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMPLOYMENT_EFFICIENCY_SHORT_DESC">
+			<Text>Efficiency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMPLOYMENT_EFFICIENCY_PEDIA">
+			<Text>Employees must work hard.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMPLOYMENT_EFFICIENCY_HELP_BONUS">
+			<Text>+10% [ICON_PRODUCTION] Production from Factories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMPLOYMENT_EFFICIENCY_HELP_PENALTY">
+			<Text>-1 [ICON_HAPPINESS_1] Happiness from Factories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMPLOYMENT_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMPLOYMENT_PRIVATE_PEDIA">
+			<Text>Employment is a private arrangement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMPLOYMENT_EQUITY_SHORT_DESC">
+			<Text>Equity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMPLOYMENT_EQUITY_PEDIA">
+			<Text>Employees must be treated fairly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMPLOYMENT_EQUITY_HELP_BONUS">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from Factories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EMPLOYMENT_EQUITY_HELP_PENALTY">
+			<Text>-10% [ICON_PRODUCTION] Production from Factories.</Text>
+		</Row>
+		<!--ENVIRONMENT-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ENVIRONMENT_DESC">
+			<Text>Environment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ENVIRONMENT_HELP">
+			<Text>Environment Reforms regulate the industrial useage of nature.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ENVIRONMENT_EXTORTED_SHORT_DESC">
+			<Text>Extorted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ENVIRONMENT_EXTORTED_PEDIA">
+			<Text>Nature is actively exploited.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ENVIRONMENT_EXTORTED_HELP_BONUS">
+			<Text>+1 [ICON_PRODUCTION] from Forest, Jungle, and Atolls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ENVIRONMENT_EXTORTED_HELP_PENALTY">
+			<Text>-1 [ICON_FOOD] from Forest, Jungle, and Atolls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_ENVIRONMENT_EXTORTED">
+			<Text>JFD: Reform (Environment) (Extorted)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_ENVIRONMENT_EXTORTED_HELP">
+			<Text>+1 [ICON_PRODUCTION] and -1 [ICON_FOOD] from Forest, Jungle, and Atoll Tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ENVIRONMENT_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ENVIRONMENT_NONE_PEDIA">
+			<Text>The use of nature is unregulated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ENVIRONMENT_PROTECTED_SHORT_DESC">
+			<Text>Protected</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ENVIRONMENT_PROTECTED_PEDIA">
+			<Text>Nature is protected from overuse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ENVIRONMENT_PROTECTED_HELP_BONUS">
+			<Text>+1 [ICON_FOOD] from Forest, Jungle, and Atolls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ENVIRONMENT_PROTECTED_HELP_PENALTY">
+			<Text>-1 [ICON_PRODUCTION] from Forest, Jungle, and Atolls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_ENVIRONMENT_PROTECTED">
+			<Text>JFD: Reform (Environment) (Protected)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_ENVIRONMENT_PROTECTED_HELP">
+			<Text>+1 [ICON_FOOD] and -1 [ICON_PRODUCTION] from Atolls, Forests, and Jungles.</Text>
+		</Row>
+		<!--GUILDS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_GUILDS_DESC">
+			<Text>Guilds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_GUILDS_HELP">
+			<Text>Guilds Reforms regulate the focus of the issuing of guild charters.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GUILDS_MERCHANTS_SHORT_DESC">
+			<Text>Merchants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GUILDS_MERCHANTS_PEDIA">
+			<Text>Guild charters are issued for merchants.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GUILDS_MERCHANTS_HELP_BONUS">
+			<Text>+10% [ICON_GOLD] Gold from Harbors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GUILDS_MERCHANTS_HELP_PENALTY">
+			<Text>-5% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GUILDS_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GUILDS_PRIVATE_PEDIA">
+			<Text>Guild charters are discreetly issued.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GUILDS_ARTISANS_SHORT_DESC">
+			<Text>Artisans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GUILDS_ARTISANS_PEDIA">
+			<Text>Guild charters are issued for artisans.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GUILDS_ARTISANS_HELP_BONUS">
+			<Text>+10% [ICON_PRODUCTION] from Workshops.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GUILDS_ARTISANS_HELP_PENALTY">
+			<Text>-5% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<!--INDUSTRIES-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INDUSTRIES_DESC">
+			<Text>Industries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INDUSTRIES_HELP">
+			<Text>Industries Reforms regulate the ownership of important industries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INDUSTRIES_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INDUSTRIES_PRIVATE_PEDIA">
+			<Text>Important industries are privatized.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INDUSTRIES_PRIVATE_HELP_BONUS">
+			<Text>-15% Building [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INDUSTRIES_PRIVATE_HELP_PENALTY">
+			<Text>Construct Buildings 15% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INDUSTRIES_GUILDS_SHORT_DESC">
+			<Text>Guilds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INDUSTRIES_GUILDS_PEDIA">
+			<Text>Industries are managed through guilds.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INDUSTRIES_NATIONAL_SHORT_DESC">
+			<Text>National</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INDUSTRIES_NATIONAL_PEDIA">
+			<Text>Important industries are state-owned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INDUSTRIES_NATIONAL_HELP_BONUS">
+			<Text>Construct Buildings 15% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INDUSTRIES_NATIONAL_HELP_PENALTY">
+			<Text>+15% Building [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<!--LABOUR-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LABOUR_DESC">
+			<Text>Labour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LABOUR_HELP">
+			<Text>Labour Reforms regulate the rights of workers to their own labour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_EMANCIPATED_SHORT_DESC">
+			<Text>Emancipated</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_EMANCIPATED_PEDIA">
+			<Text>Workers are free to sell their labour.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_EMANCIPATED_HELP_BONUS">
+			<Text>Train Worker Units 20% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_EMANCIPATED_HELP_PENALTY">
+			<Text>-20% [ICON_WORKER] Worker improvement rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_EMANCIPATED_HELP_PENALTY_WORKFORCES">
+			<Text>-1 [ICON_WORKER] Charge for Worker Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_CORVEE_SHORT_DESC">
+			<Text>Corvée</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_CORVEE_PEDIA">
+			<Text>Workers must contribute labour to the state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_BONDED_SHORT_DESC">
+			<Text>Bonded</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_BONDED_PEDIA">
+			<Text>Workers are bound to the land they serve.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_BONDED_HELP_BONUS">
+			<Text>+20% [ICON_WORKER] Worker improvement rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_BONDED_HELP_BONUS_WORKFORCES">
+			<Text>+1 [ICON_WORKER] Charge for Worker Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LABOUR_BONDED_HELP_PENALTY">
+			<Text>Train Worker Units 20% slower.</Text>
+		</Row>
+		<!--MACHINERY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MACHINERY_DESC">
+			<Text>Machinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MACHINERY_HELP">
+			<Text>Machinery Reforms regulate the focus of the useage of machines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MACHINERY_SAIL_SHORT_DESC">
+			<Text>Sail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MACHINERY_SAIL_PEDIA">
+			<Text>We use machines for shipbuilding.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MACHINERY_SAIL_HELP_BONUS">
+			<Text>Train Naval Units 15% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MACHINERY_SAIL_HELP_PENALTY">
+			<Text>Construct Buildings 5% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MACHINERY_BUILDINGS_SHORT_DESC">
+			<Text>Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MACHINERY_BUILDINGS_PEDIA">
+			<Text>We use machines for construction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MACHINERY_SIEGE_SHORT_DESC">
+			<Text>Siege</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MACHINERY_SIEGE_PEDIA">
+			<Text>We use machines for siegecrafting.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MACHINERY_SIEGE_HELP_BONUS">
+			<Text>Train Siege Units 15% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MACHINERY_SIEGE_HELP_PENALTY">
+			<Text>Construct Buildings 5% slower.</Text>
+		</Row>
+		<!--MANUFACTURING-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MANUFACTURING_DESC">
+			<Text>Manufacturing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MANUFACTURING_HELP">
+			<Text>Manufacturing Reforms regulate the means by which manufacturing is conducted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_MECHANICAL_SHORT_DESC">
+			<Text>Mechanical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_MECHANICAL_PEDIA">
+			<Text>Manufacturing is done through machines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_MECHANICAL_HELP_BONUS">
+			<Text>+2 [ICON_PRODUCTION] Production from Manufactories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_MECHANICAL_HELP_PENALTY">
+			<Text>-2 [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_PRIVATE_PEDIA">
+			<Text>Manufacturing is privately done.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_CRAFTED_SHORT_DESC">
+			<Text>Crafted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_CRAFTED_PEDIA">
+			<Text>Manufacturing is done through craftsmen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_CRAFTED_HELP_BONUS">
+			<Text>+2 [ICON_GOLD] Gold from Manufactories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MANUFACTURING_CRAFTED_HELP_PENALTY">
+			<Text>-2 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<!--UNIONS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_UNIONS_DESC">
+			<Text>Unions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_UNIONS_HELP">
+			<Text>Unions Reforms regulate the organization of workers around their trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_FREE_SHORT_DESC">
+			<Text>Free</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_FREE_PEDIA">
+			<Text>Trade Unions are freely organized.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_FREE_HELP_BONUS">
+			<Text>-5% [ICON_HAPPINESS_4] Unhappiness from Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_FREE_HELP_PENALTY">
+			<Text>-10% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_NONE_SHORT_DESC">
+			<Text>Guilds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_NONE_PEDIA">
+			<Text>Workers are organized around guilds.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_STATE_SHORT_DESC">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_STATE_PEDIA">
+			<Text>Trade Unions are organized by the state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_STATE_HELP_BONUS">
+			<Text>+10% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_UNIONS_STATE_HELP_PENALTY">
+			<Text>+5% [ICON_HAPPINESS_4] Unhappiness from Cities.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS: MILITARY-->
+		<!--===================================================-->
+		<!--COMMAND-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_COMMAND_DESC">
+			<Text>Command</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_COMMAND_HELP">
+			<Text>Command Reforms regulate how commanders in our army are selected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COMMAND_MERIT_SHORT_DESC">
+			<Text>Merit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COMMAND_MERIT_PEDIA">
+			<Text>Commanders are selected based on merit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COMMAND_MERIT_HELP_BONUS">
+			<Text>+15% [ICON_GREAT_PEOPLE] Great General rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COMMAND_MERIT_HELP_PENALTY">
+			<Text>Build XP Buildings 20% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COMMAND_INHERITED_SHORT_DESC">
+			<Text>Inherited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COMMAND_INHERITED_PEDIA">
+			<Text>Commanders inherit their positions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COMMAND_COMMISSION_SHORT_DESC">
+			<Text>Commission</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COMMAND_COMMISSION_PEDIA">
+			<Text>Commanders are trained up from soldiers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COMMAND_COMMISSION_HELP_BONUS">
+			<Text>Build XP Buildings 20% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COMMAND_COMMISSION_HELP_PENALTY">
+			<Text>-15% [ICON_GREAT_PEOPLE] Great General rate.</Text>
+		</Row>
+		<!--CONQUESTS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CONQUESTS_DESC">
+			<Text>Conquests</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CONQUESTS_HELP">
+			<Text>Conquests Reforms regulate the administration of captured subjects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_COOPTATION_SHORT_DESC">
+			<Text>Cooptation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_COOPTATION_PEDIA">
+			<Text>Captured cities are co-opted to work alongside us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_COOPTATION_HELP_BONUS">
+			<Text>-15% [ICON_HAPPINESS_4] Unhappiness from Population in occupied cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_COOPTATION_HELP_PENALTY">
+			<Text>Build Courthouses 25% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_COOPTATION_HELP_PENALTY_CP">
+			<Text>-25% [ICON_PRODUCTION] Production in occupied cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_SUBJUGATION_SHORT_DESC">
+			<Text>Subjugation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_SUBJUGATION_PEDIA">
+			<Text>Captured cities are subject to our authority.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_ASSIMILATION_SHORT_DESC">
+			<Text>Assimilation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_ASSIMILATION_PEDIA">
+			<Text>Captured cities are assimilated into our own.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_ASSIMILATION_HELP_BONUS">
+			<Text>Build Courthouses 25% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_ASSIMILATION_HELP_BONUS_CP">
+			<Text>+25% [ICON_PRODUCTION] Production in occupied cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CONQUESTS_ASSIMILATION_HELP_PENALTY">
+			<Text>+15% [ICON_HAPPINESS_4] Unhappiness from Population in occupied cities.</Text>
+		</Row>
+		<!--DEFENSES-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_DEFENSES_DESC">
+			<Text>Defenses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_DEFENSES_HELP">
+			<Text>Defenses Reforms regulate the focus of our defensive interests.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_CITIES_SHORT_DESC">
+			<Text>Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_CITIES_PEDIA">
+			<Text>We focus our defenses on our cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_CITIES_HELP_BONUS">
+			<Text>+25% [ICON_STRENGTH] Combat Strength for Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_CITIES_HELP_PENALTY">
+			<Text>-15% [ICON_STRENGTH] Combat Strength for Units when fighting in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_CITIES_HELP_PENALTY_CP">
+			<Text>-25% [ICON_STRENGTH] Combat Strength for Units when stationed on a Fort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DEFENSES_CITIES">
+			<Text>City Defenses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DEFENSES_CITIES_HELP">
+			<Text>-15% [ICON_STRENGTH] Combat Strength when fighting in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DEFENSES_CITIES_HELP_CP">
+			<Text>-25% [ICON_STRENGTH] Combat Strength when stationed [COLOR_WARNING_TEXT]on a Fort[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_BALANCED_SHORT_DESC">
+			<Text>Balanced</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_BALANCED_PEDIA">
+			<Text>We balance our defenses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_LANDS_SHORT_DESC">
+			<Text>Lands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_LANDS_PEDIA">
+			<Text>We focus our defenses on our lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_LANDS_HELP_BONUS">
+			<Text>+15% [ICON_STRENGTH] Combat Strength for Units when fighting in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_LANDS_HELP_BONUS_CP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength for Units when stationed on a Fort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEFENSES_LANDS_HELP_PENALTY">
+			<Text>-25% [ICON_STRENGTH] Combat Strength for Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DEFENSES_LANDS">
+			<Text>Land Defenses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DEFENSES_LANDS_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when fighting in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_DEFENSES_LANDS_HELP_CP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when stationed [COLOR_POSITIVE_TEXT]on a Fort[ENDCOLOR].</Text>
+		</Row>
+		<!--LOGISTICS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LOGISTICS_DESC">
+			<Text>Logistics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LOGISTICS_HELP">
+			<Text>Logistics Reforms regulate the means by which our armies are provisioned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LOGISTICS_SUPPLIES_SHORT_DESC">
+			<Text>Supplies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LOGISTICS_SUPPLIES_PEDIA">
+			<Text>Our army is continuously supplied.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LOGISTICS_SUPPLIES_HELP_BONUS">
+			<Text>+10 Unit damage healed per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LOGISTICS_SUPPLIES_HELP_PENALTY">
+			<Text>+10% Unit [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LOGISTICS_PLUNDER_SHORT_DESC">
+			<Text>Plunder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LOGISTICS_PLUNDER_PEDIA">
+			<Text>Our army takes what it needs by looting.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LOGISTICS_PROVISIONS_SHORT_DESC">
+			<Text>Provisions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LOGISTICS_PROVISIONS_PEDIA">
+			<Text>Our army takes what is given to them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LOGISTICS_PROVISIONS_HELP_BONUS">
+			<Text>+2 [ICON_MOVES] Moves for newly trained Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LOGISTICS_PROVISIONS_HELP_PENALTY">
+			<Text>Train Combat Units 10% slower.</Text>
+		</Row>
+		<!--PAYMENT-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_PAYMENT_DESC">
+			<Text>Payment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_PAYMENT_HELP">
+			<Text>Payment Reforms regulate the pay that we give to our soldiers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PAYMENT_SALARIES_SHORT_DESC">
+			<Text>Salaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PAYMENT_SALARIES_PEDIA">
+			<Text>Soldiers receive regular pay.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PAYMENT_SALARIES_HELP_BONUS">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness per Garrison.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PAYMENT_SALARIES_HELP_PENALTY">
+			<Text>+10% Unit [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PAYMENT_LODGINGS_SHORT_DESC">
+			<Text>Lodgings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PAYMENT_LODGINGS_PEDIA">
+			<Text>Soldiers receive lodgings in lieu of pay.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PAYMENT_LANDS_SHORT_DESC">
+			<Text>Lands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PAYMENT_LANDS_PEDIA">
+			<Text>Soldiers receive lands at the end of service.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PAYMENT_LANDS_HELP_BONUS">
+			<Text>+1 [ICON_CULTURE] Culture per Garrison.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PAYMENT_LANDS_HELP_PENALTY">
+			<Text>+10% Unit [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<!--RECRUITMENT-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RECRUITMENT_DESC">
+			<Text>Recruitment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RECRUITMENT_HELP">
+			<Text>Recruitment Reforms regulate how new soldiers are recruited into our armies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECRUITMENT_IRREGULAR_SHORT_DESC">
+			<Text>Irregular</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECRUITMENT_IRREGULAR_PEDIA">
+			<Text>Our soldiers are regular citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECRUITMENT_IRREGULAR_HELP_BONUS">
+			<Text>-15% Unit [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECRUITMENT_IRREGULAR_HELP_PENALTY">
+			<Text>-15 XP for newly trained Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECRUITMENT_CONSCRIPT_SHORT_DESC">
+			<Text>Conscript</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECRUITMENT_CONSCRIPT_PEDIA">
+			<Text>Our soldiers are seasoned conscripts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECRUITMENT_PROFESSIONAL_SHORT_DESC">
+			<Text>Professional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECRUITMENT_PROFESSIONAL_PEDIA">
+			<Text>Our soldiers are professionals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECRUITMENT_PROFESSIONAL_HELP_BONUS">
+			<Text>+15 XP for newly trained Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RECRUITMENT_PROFESSIONAL_HELP_PENALTY">
+			<Text>+15% Unit [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<!--SOLDIERS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SOLDIERS_DESC">
+			<Text>Soldiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SOLDIERS_HELP">
+			<Text>Soldiers Reforms regulate the kinds of soldiers that constitute our armies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SOLDIERS_MERCENARIES_SHORT_DESC">
+			<Text>Mercenaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SOLDIERS_MERCENARIES_PEDIA">
+			<Text>Our army is filled with mercenaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SOLDIERS_MERCENARIES_HELP_BONUS">
+			<Text>-20% Unit [ICON_GOLD] purchasing cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SOLDIERS_MERCENARIES_HELP_PENALTY">
+			<Text>Train Combat Units 10% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SOLDIERS_CITIZENS_SHORT_DESC">
+			<Text>Citizens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SOLDIERS_CITIZENS_PEDIA">
+			<Text>Our army is filled with citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SOLDIERS_SLAVES_SHORT_DESC">
+			<Text>Slaves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SOLDIERS_SLAVES_PEDIA">
+			<Text>Our army is filled with slaves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SOLDIERS_SLAVES_HELP_BONUS">
+			<Text>-15% Unit [ICON_GOLD] Maintenance costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SOLDIERS_SLAVES_HELP_PENALTY">
+			<Text>Train Combat Units 10% slower.</Text>
+		</Row>
+		<!--STRATEGY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_STRATEGY_DESC">
+			<Text>Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_STRATEGY_HELP">
+			<Text>Strategy Reforms regulate our strategic considerations in the international sytstem.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_DETERRENCE_SHORT_DESC">
+			<Text>Deterrence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_DETERRENCE_PEDIA">
+			<Text>We seek to deter against threats.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_DETERRENCE_HELP_BONUS">
+			<Text>+2 [ICON_INFLUENCE] Influence per turn with City-States you could demand tribute from.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_DETERRENCE_HELP_PENALTY">
+			<Text>Train Combat Units 10% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_SURVIVAL_SHORT_DESC">
+			<Text>Survival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_SURVIVAL_PEDIA">
+			<Text>We seek to ensure our survival.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_COMPELLENCE_SHORT_DESC">
+			<Text>Compellence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_COMPELLENCE_PEDIA">
+			<Text>We seek to compel our interests.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_COMPELLENCE_HELP_BONUS">
+			<Text>+25% Attack for all Combat Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_COMPELLENCE_HELP_BONUS_CP">
+			<Text>+25% [ICON_STRENGTH] Strength vs City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STRATEGY_COMPELLENCE_HELP_PENALTY">
+			<Text>Train Combat Units 10% slower.</Text>
+		</Row>
+		<!--TECHNOLOGY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TECHNOLOGY_DESC">
+			<Text>Technology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TECHNOLOGY_HELP">
+			<Text>Technology Reforms regulate the focus of our military science advances.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_TACTICS_SHORT_DESC">
+			<Text>Tactics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_TACTICS_PEDIA">
+			<Text>We focus on having a tactical advantage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_TACTICS_HELP_BONUS">
+			<Text>+15% XP from combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_TACTICS_HELP_PENALTY">
+			<Text>Train Combat Units 10% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_MIXED_SHORT_DESC">
+			<Text>Mixed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_MIXED_PEDIA">
+			<Text>We focus both on a tactical and technical advantage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_EQUIPMENT_SHORT_DESC">
+			<Text>Equipment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_EQUIPMENT_PEDIA">
+			<Text>We focus on having a technical advantage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_EQUIPMENT_HELP_BONUS">
+			<Text>-25% Unit [ICON_GOLD] Upgrade costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TECHNOLOGY_EQUIPMENT_HELP_PENALTY">
+			<Text>Train Combat Units 10% slower.</Text>
+		</Row>
+		<!--WARFARE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WARFARE_DESC">
+			<Text>Warfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WARFARE_HELP">
+			<Text>Warfare Reforms regulate the manner in which we conduct war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WARFARE_RANGED_SHORT_DESC">
+			<Text>Ranged</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WARFARE_RANGED_PEDIA">
+			<Text>War is conducted at a distance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WARFARE_RANGED_HELP_BONUS">
+			<Text>Train Ranged Units 15% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WARFARE_RANGED_HELP_PENALTY">
+			<Text>Train Melee Units 10% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WARFARE_FOOT_SHORT_DESC">
+			<Text>Foot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WARFARE_FOOT_PEDIA">
+			<Text>War is conducted on foot.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WARFARE_MOUNTED_SHORT_DESC">
+			<Text>Mounted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WARFARE_MOUNTED_PEDIA">
+			<Text>War is conducted on horseback.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WARFARE_MOUNTED_HELP_BONUS">
+			<Text>Train Mounted Units 15% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WARFARE_MOUNTED_HELP_PENALTY">
+			<Text>Train Melee Units 10% slower.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS: RELIGION-->
+		<!--===================================================-->
+		<!--AUTHORITY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_AUTHORITY_DESC">
+			<Text>Authority</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_AUTHORITY_HELP">
+			<Text>Authority Reforms regulate the highest authorty on religious matters.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_CHURCH_SHORT_DESC">
+			<Text>Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_CHURCH_PEDIA">
+			<Text>The church is the highest religious authority.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_CHURCH_HELP_BONUS">
+			<Text>+5 [ICON_PEACE] Faith from the Grand Temple.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_CHURCH_HELP_PENALTY">
+			<Text>-1 [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_PRIVATE_PEDIA">
+			<Text>Religious authority is a private matter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_STATE_SHORT_DESC">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_STATE_PEDIA">
+			<Text>The state is the highest religious authority.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_STATE_HELP_BONUS">
+			<Text>+2 [ICON_PEACE] Faith from Chanceries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_AUTHORITY_STATE_HELP_PENALTY">
+			<Text>-1 [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<!--CHURCH-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CHURCH_DESC">
+			<Text>Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CHURCH_HELP">
+			<Text>Church Reforms regulate the status of the institution that administers our dominant faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHURCH_CULTURAL_SHORT_DESC">
+			<Text>Cultural</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHURCH_CULTURAL_PEDIA">
+			<Text>The church is a cultural institution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHURCH_CULTURAL_HELP_BONUS">
+			<Text>+2 [ICON_CULTURE] from Religious Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHURCH_CULTURAL_HELP_PENALTY">
+			<Text>-2 [ICON_PEACE] Faith from Religious Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHURCH_INDEPENDENT_SHORT_DESC">
+			<Text>Independent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHURCH_INDEPENDENT_PEDIA">
+			<Text>The church is an independent institution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHURCH_NATIONAL_SHORT_DESC">
+			<Text>National</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHURCH_NATIONAL_PEDIA">
+			<Text>The church is a national institution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHURCH_NATIONAL_HELP_BONUS">
+			<Text>+1 [ICON_HAPPINESS_1] from Religious Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CHURCH_NATIONAL_HELP_PENALTY">
+			<Text>-2 [ICON_PEACE] Faith from Religious Buildings.</Text>
+		</Row>
+		<!--INQUISITION-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INQUISITION_DESC">
+			<Text>Inquisition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INQUISITION_HELP">
+			<Text>Inquisition Reforms regulate the nature of inquisitions against heresy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_JUDICIAL_SHORT_DESC">
+			<Text>Judicial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_JUDICIAL_PEDIA">
+			<Text>Heresies are processed by legal means.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_JUDICIAL_HELP_BONUS">
+			<Text>+1 Sight for Inquisitors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_JUDICIAL_HELP_BONUS_CP">
+			<Text>+20% resistance to foreign religions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_JUDICIAL_HELP_PENALTY">
+			<Text>+5% [ICON_PEACE] Faith Purchase costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_INQUISITION_JUDICIAL">
+			<Text>Judicial Inquisition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_INQUISITION_JUDICIAL_HELP">
+			<Text>+1 Visibility change.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_INFORMAL_SHORT_DESC">
+			<Text>Informal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_INFORMAL_PEDIA">
+			<Text>Heresies are dealt with informally.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_MILITANT_SHORT_DESC">
+			<Text>Militant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_MILITANT_PEDIA">
+			<Text>Heresies are processed by military means.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_MILITANT_HELP_BONUS">
+			<Text>+1 [ICON_MOVES] Movement for Inquisitors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INQUISITION_MILITANT_HELP_PENALTY">
+			<Text>+5% [ICON_PEACE] Faith Purchase costs.</Text>
+		</Row>
+		<!--INVESTITURE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INVESTITURE_DESC">
+			<Text>Investiture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_INVESTITURE_HELP">
+			<Text>Investiture Reforms regulate the authority that invests religious offices.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INVESTITURE_CHURCH_SHORT_DESC">
+			<Text>Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INVESTITURE_CHURCH_PEDIA">
+			<Text>The church appoints its own leaders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INVESTITURE_CHURCH_HELP_BONUS">
+			<Text>+10% [ICON_PEACE] Faith in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INVESTITURE_CHURCH_HELP_PENALTY">
+			<Text>+15% [ICON_PEACE] Faith Purchase costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INVESTITURE_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INVESTITURE_PRIVATE_PEDIA">
+			<Text>Religious leaders are privately appointed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INVESTITURE_STATE_SHORT_DESC">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INVESTITURE_STATE_PEDIA">
+			<Text>The state appoints church leaders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INVESTITURE_STATE_HELP_BONUS">
+			<Text>-15% [ICON_PEACE] Faith Purchase costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_INVESTITURE_STATE_HELP_PENALTY">
+			<Text>-10% [ICON_PEACE] Faith in all cities.</Text>
+		</Row>
+		<!--MISSIONS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MISSIONS_DESC">
+			<Text>Missions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MISSIONS_HELP">
+			<Text>Missions Reforms regulate the focus of our missionary works.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MISSIONS_DOMESTIC_SHORT_DESC">
+			<Text>Domestic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MISSIONS_DOMESTIC_PEDIA">
+			<Text>Missionary work is supported domesically.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MISSIONS_DOMESTIC_HELP_BONUS">
+			<Text>+1 [ICON_MOVES] Movement for Missionaries starting in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MISSIONS_DOMESTIC_HELP_PENALTY">
+			<Text>-1 [ICON_MOVES] Movement for Missionaries starting in foreign territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MISSIONS_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MISSIONS_PRIVATE_PEDIA">
+			<Text>Missionary work is conducted in private.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MISSIONS_ABROAD_SHORT_DESC">
+			<Text>Abroad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MISSIONS_ABROAD_PEDIA">
+			<Text>Missionary work is supported abroad.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MISSIONS_ABROAD_HELP_BONUS">
+			<Text>+1 [ICON_MOVES] Movement for Missionaries starting in foreign territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MISSIONS_ABROAD_HELP_PENALTY">
+			<Text>-1 [ICON_MOVES] Movement for Missionaries starting in friendly territory.</Text>
+		</Row>
+		<!--OFFERINGS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_OFFERINGS_DESC">
+			<Text>Offerings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_OFFERINGS_HELP">
+			<Text>Offerings Reforms regulate the offerings we make to our faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OFFERINGS_PRAYERS_SHORT_DESC">
+			<Text>Prayers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OFFERINGS_PRAYERS_PEDIA">
+			<Text>We offer prayers for our faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OFFERINGS_PRAYERS_HELP_BONUS">
+			<Text>+1 [ICON_PEACE] Faith from Shrines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OFFERINGS_PRAYERS_HELP_PENALTY">
+			<Text>-1 [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OFFERINGS_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OFFERINGS_NONE_PEDIA">
+			<Text>We make no offerings for our faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OFFERINGS_SACRIFICES_SHORT_DESC">
+			<Text>Sacrifices</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OFFERINGS_SACRIFICES_PEDIA">
+			<Text>We offer sacrifices for our faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OFFERINGS_SACRIFICES_HELP_BONUS">
+			<Text>+15% [ICON_STRENGTH] Strength vs Barbarians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_OFFERINGS_SACRIFICES_HELP_PENALTY">
+			<Text>-1 [ICON_FOOD] Food in all cities.</Text>
+		</Row>
+		<!--ORDERS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ORDERS_DESC">
+			<Text>Orders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_ORDERS_HELP">
+			<Text>Orders Reforms regulate the nature of religious societies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ORDERS_CHARITABLE_SHORT_DESC">
+			<Text>Charitable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ORDERS_CHARITABLE_PEDIA">
+			<Text>Religious societies conduct charitable work.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ORDERS_CHARITABLE_HELP_BONUS">
+			<Text>+5 Unit HP per turn in own borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ORDERS_CHARITABLE_HELP_PENALTY">
+			<Text>Train Combat Units 10% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ORDERS_CHARITABLE">
+			<Text>Charitable Orders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ORDERS_CHARITABLE_HELP">
+			<Text>This unit [COLOR_POSITIVE_TEXT]Heals 5 Additional HP[ENDCOLOR] per turn when [COLOR_POSITIVE_TEXT]Inside of Friendly Territory[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ORDERS_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ORDERS_PRIVATE_PEDIA">
+			<Text>Religious societies operate privately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ORDERS_MILITANT_SHORT_DESC">
+			<Text>Militant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ORDERS_MILITANT_PEDIA">
+			<Text>Religious societies conduct military work.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ORDERS_MILITANT_HELP_BONUS">
+			<Text>+15% [ICON_STRENGTH] Strength in foreign lands for Units purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_ORDERS_MILITANT_HELP_PENALTY">
+			<Text>+10% [ICON_PEACE] Faith Purchase costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ORDERS_MILITANT">
+			<Text>Militant Orders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ORDERS_MILITANT_HELP">
+			<Text>Combat Bonus outside Friendly Territory (15).</Text>
+		</Row>
+		<!--POLITICS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_POLITICS_DESC">
+			<Text>Politics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_POLITICS_HELP">
+			<Text>Politics Reforms regulate the participation of religion in politics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POLITICS_SECULAR_SHORT_DESC">
+			<Text>Secular</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POLITICS_SECULAR_PEDIA">
+			<Text>Religion does not participate in politics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POLITICS_SECULAR_HELP_BONUS">
+			<Text>+4 [ICON_CULTURE] Culture for each World Religion with at least 1 follower in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POLITICS_SECULAR_HELP_PENALTY">
+			<Text>-4 [ICON_PEACE] Faith in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_POLITICS_SECULAR">
+			<Text>JFD: Reform (Politics) (Secular)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_POLITICS_SECULAR_HELP">
+			<Text>+4 [ICON_CULTURE] Culture for each World Religion that has at least 1 follower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POLITICS_PLURALIST_SHORT_DESC">
+			<Text>Pluralist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POLITICS_PLURALIST_PEDIA">
+			<Text>All religions may participate in politics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POLITICS_EXCLUSIVE_SHORT_DESC">
+			<Text>Exclusive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POLITICS_EXCLUSIVE_PEDIA">
+			<Text>Only our religion may participate in politics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POLITICS_EXCLUSIVE_HELP_BONUS">
+			<Text>+4 [ICON_CULTURE] Culture from Holy Sites.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POLITICS_EXCLUSIVE_HELP_PENALTY">
+			<Text>-4 [ICON_PEACE] Faith from Holy Sites.</Text>
+		</Row>
+		<!--RITUAL-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RITUAL_DESC">
+			<Text>Ritual</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RITUAL_HELP">
+			<Text>Ritual Reforms regulate the administration of religious rituals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RITUAL_PRIESTS_SHORT_DESC">
+			<Text>Priests</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RITUAL_PRIESTS_PEDIA">
+			<Text>Priests administer religious rituals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RITUAL_PRIESTS_HELP_BONUS">
+			<Text>+2 [ICON_PEACE] Faith from Temples.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RITUAL_PRIESTS_HELP_PENALTY">
+			<Text>-1 [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RITUAL_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RITUAL_PRIVATE_PEDIA">
+			<Text>Religious rituals are privately administered.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RITUAL_STATE_SHORT_DESC">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RITUAL_STATE_PEDIA">
+			<Text>The state administers religious rituals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RITUAL_STATE_HELP_BONUS">
+			<Text>+5 [ICON_PEACE] Faith from the Palace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RITUAL_STATE_HELP_PENALTY">
+			<Text>-1 [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<!--TEACHINGS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TEACHINGS_DESC">
+			<Text>Teachings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_TEACHINGS_HELP">
+			<Text>Teachings Reforms regulate the nature of our reception to religious teachings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TEACHINGS_SCRIPTURAL_SHORT_DESC">
+			<Text>Scriptural</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TEACHINGS_SCRIPTURAL_PEDIA">
+			<Text>Teachings are based in scripture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TEACHINGS_SCRIPTURAL_HELP_BONUS">
+			<Text>+1 extra Missionary spreads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TEACHINGS_SCRIPTURAL_HELP_PENALTY">
+			<Text>+5% [ICON_PEACE] Faith Purchase costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_TEACHINGS_SCRIPTURAL">
+			<Text>JFD: Reform (Teachings) (Scriptural)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_TEACHINGS_SCRIPTURAL_HELP">
+			<Text>Missionaries can spread their religion one extra time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_TEACHINGS_SCRIPTURAL_HELP_CP">
+			<Text>+20% strength for Missionaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TEACHINGS_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TEACHINGS_PRIVATE_PEDIA">
+			<Text>Teachings privately spread.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TEACHINGS_SYNCRETIC_SHORT_DESC">
+			<Text>Syncretic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TEACHINGS_SYNCRETIC_PEDIA">
+			<Text>Teachings are mixed with local beliefs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TEACHINGS_SYNCRETIC_HELP_BONUS">
+			<Text>+20% religious pressure in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_TEACHINGS_SYNCRETIC_HELP_PENALTY">
+			<Text>-5% [ICON_PEACE] Faith in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_TEACHINGS_SYNCRETIC">
+			<Text>JFD: Reform (Teachings) (Syncretic)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_TEACHINGS_SYNCRETIC_HELP">
+			<Text>+10% religious pressure in all cities.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS: SOCIETY-->
+		<!--===================================================-->
+		<!--CITIZENSHIP-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CITIZENSHIP_DESC">
+			<Text>Citizenship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_CITIZENSHIP_HELP">
+			<Text>Citizenship Reforms regulate the balance between the rights and duties of citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_LIBERAL_SHORT_DESC">
+			<Text>Liberal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_LIBERAL_PEDIA">
+			<Text>Citizenship emphasizes rights.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_LIBERAL_HELP_BONUS">
+			<Text>+5% [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_LIBERAL_HELP_BONUS_CP">
+			<Text>+10% [ICON_CULTURE] during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_LIBERAL_HELP_PENALTY">
+			<Text>-5% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_LIBERAL_HELP_PENALTY_CP">
+			<Text>-10% [ICON_PRODUCTION] during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_SUBJECT_SHORT_DESC">
+			<Text>Subject</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_SUBJECT_PEDIA">
+			<Text>Citizens are treated as subjects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_CIVIC_SHORT_DESC">
+			<Text>Civic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_CIVIC_PEDIA">
+			<Text>Citizenship emphasizes duties.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_CIVIC_HELP_BONUS">
+			<Text>+5% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_CIVIC_HELP_BONUS_CP">
+			<Text>+10% [ICON_PRODUCTION] Production during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_CIVIC_HELP_PENALTY">
+			<Text>-5% [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_CITIZENSHIP_CIVIC_HELP_PENALTY_CP">
+			<Text>-10% [ICON_CULTURE] during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<!--LANGUAGE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LANGUAGE_DESC">
+			<Text>Language</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_LANGUAGE_HELP">
+			<Text>Language Reforms regulate the status of language used in government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LANGUAGE_ADAPTED_SHORT_DESC">
+			<Text>Adapted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LANGUAGE_ADAPTED_PEDIA">
+			<Text>Minority languages are used.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LANGUAGE_ADAPTED_HELP_BONUS">
+			<Text>+1 [ICON_CULTURE] Culture for every 4 non-Specialist Citizen in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LANGUAGE_ADAPTED_HELP_PENALTY">
+			<Text>-10% [ICON_RESEARCH] Science in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_LANGUAGE_ADAPTED">
+			<Text>JFD: Reform (Language) (Adapted)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_LANGUAGE_ADAPTED_HELP">
+			<Text>+1 [ICON_CULTURE] Culture for every 4 non-Specialist Citizen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LANGUAGE_INFORMAL_SHORT_DESC">
+			<Text>Informal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LANGUAGE_INFORMAL_PEDIA">
+			<Text>Language use is unregulated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LANGUAGE_PURE_SHORT_DESC">
+			<Text>Pure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LANGUAGE_PURE_PEDIA">
+			<Text>The traditional language is used.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LANGUAGE_PURE_HELP_BONUS">
+			<Text>+1 [ICON_CULTURE] Culture from all Specialists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LANGUAGE_PURE_HELP_PENALTY">
+			<Text>-10% [ICON_RESEARCH] Science in all cities.</Text>
+		</Row>
+		<!--HERITAGE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_HERITAGE_DESC">
+			<Text>Heritage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_HERITAGE_HELP">
+			<Text>Heritage Reforms regulate the status of historic cultural sites.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_EXHIBITED_SHORT_DESC">
+			<Text>Exhibited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_EXHIBITED_PEDIA">
+			<Text>Heritage sites are exhibited to the public.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_EXHIBITED_HELP_BONUS">
+			<Text>+3 [ICON_GOLD] Gold from Landmarks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_EXHIBITED_HELP_BONUS_CP">
+			<Text>+2 [ICON_TOURISM] Tourism from Landmarks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_EXHIBITED_HELP_PENALTY">
+			<Text>-1 [ICON_CULTURE] Culture from Landmarks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_PRIVATE_PEDIA">
+			<Text>Heritage sites belong to their community.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_PRESERVED_SHORT_DESC">
+			<Text>Preserved</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_PRESERVED_PEDIA">
+			<Text>Heritage sites are preserved.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_PRESERVED_HELP_BONUS">
+			<Text>+2 [ICON_RESEARCH] Science from Landmarks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HERITAGE_PRESERVED_HELP_PENALTY">
+			<Text>-1 [ICON_CULTURE] Culture from Landmarks.</Text>
+		</Row>
+		<!--MARRIAGE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MARRIAGE_DESC">
+			<Text>Marriage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MARRIAGE_HELP">
+			<Text>Marriage Reforms regulate the institutional nature of partnerships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MARRIAGE_CIVIC_SHORT_DESC">
+			<Text>Civic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MARRIAGE_CIVIC_PEDIA">
+			<Text>Marriage is a civic institution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MARRIAGE_CIVIC_HELP_BONUS">
+			<Text>+1 [ICON_HAPPINESS_1] from Magistrate's Courts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MARRIAGE_CIVIC_HELP_PENALTY">
+			<Text>-2 [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MARRIAGE_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MARRIAGE_PRIVATE_PEDIA">
+			<Text>Marriage is a private institution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MARRIAGE_RELIGIOUS_SHORT_DESC">
+			<Text>Religious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MARRIAGE_RELIGIOUS_PEDIA">
+			<Text>Marriage is a religious institution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MARRIAGE_RELIGIOUS_HELP_BONUS">
+			<Text>+3 [ICON_PEACE] Faith from Temples.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MARRIAGE_RELIGIOUS_HELP_PENALTY">
+			<Text>-2 [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<!--MEDIA-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MEDIA_DESC">
+			<Text>Media</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MEDIA_HELP">
+			<Text>Media regulates the ownership and freedom of the media.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEDIA_FREE_SHORT_DESC">
+			<Text>Independent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEDIA_FREE_PEDIA">
+			<Text>The media's independence is ensured.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEDIA_FREE_HELP_BONUS">
+			<Text>+10% [ICON_CULTURE] from Broadcast Towers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEDIA_FREE_HELP_PENALTY">
+			<Text>-10% [ICON_PRODUCTION] from Broadcast Towers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEDIA_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEDIA_PRIVATE_PEDIA">
+			<Text>Media is privately operated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEDIA_CENSORED_SHORT_DESC">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEDIA_CENSORED_PEDIA">
+			<Text>All media is controlled by the state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEDIA_CENSORED_HELP_BONUS">
+			<Text>+10% [ICON_PRODUCTION] from Broadcast Towers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEDIA_CENSORED_HELP_PENALTY">
+			<Text>-10% [ICON_CULTURE] from Broadcast Towers.</Text>
+		</Row>
+		<!--MEMORIALS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MEMORIALS_DESC">
+			<Text>Memorials</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_MEMORIALS_HELP">
+			<Text>Memorials Reforms regulate the focus of our monumental dedications.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_SOLDIERS_SHORT_DESC">
+			<Text>Soldiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_SOLDIERS_PEDIA">
+			<Text>Memorials are dedicated to our soldiers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_SOLDIERS_HELP_BONUS">
+			<Text>+1 [ICON_CULTURE] Culture from Monuments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_SOLDIERS_HELP_PENALTY">
+			<Text>-1 [ICON_FOOD] Food in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_LEGENDS_SHORT_DESC">
+			<Text>Legends</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_LEGENDS_PEDIA">
+			<Text>Memorials are dedicated to legends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_LEADERS_SHORT_DESC">
+			<Text>Leaders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_LEADERS_PEDIA">
+			<Text>Memorials are dedicated to our leaders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_LEADERS_HELP_BONUS">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from Monuments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_LEADERS_HELP_BONUS_CP">
+			<Text>+2 [ICON_GOLDEN_AGE] Golden Age Points from Monuments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_MEMORIALS_LEADERS_HELP_PENALTY">
+			<Text>-1 [ICON_FOOD] Food in all cities.</Text>
+		</Row>
+		<!--PATRONAGE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_PATRONAGE_DESC">
+			<Text>Patronage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_PATRONAGE_HELP">
+			<Text>Patronage regulates the focus of government support for the middle classes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_MERCHANTS_SHORT_DESC">
+			<Text>Merchants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_MERCHANTS_PEDIA">
+			<Text>We offer patronage to merchants.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_MERCHANTS_HELP_BONUS">
+			<Text>+15% [ICON_GREAT_PEOPLE] Great Merchant rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_MERCHANTS_HELP_PENALTY">
+			<Text>-15% [ICON_GREAT_PEOPLE] Cultural Great Person rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_NONE_PEDIA">
+			<Text>We do not offer patronage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_ARTISTS_SHORT_DESC">
+			<Text>Artists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_ARTISTS_PEDIA">
+			<Text>We offer patronage to artists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_ARTISTS_HELP_BONUS">
+			<Text>+10% [ICON_GREAT_PEOPLE] Cultural Great Person rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PATRONAGE_ARTISTS_HELP_PENALTY">
+			<Text>-15% [ICON_GREAT_PEOPLE] Great Merchant rate.</Text>
+		</Row>
+		<!--PEERAGE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_PEERAGE_DESC">
+			<Text>Peerage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_PEERAGE_HELP">
+			<Text>Peerage regulates the legal status of hereditary titles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PEERAGE_ABOLISHED_SHORT_DESC">
+			<Text>Abolished</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PEERAGE_ABOLISHED_PEDIA">
+			<Text>Hereditary titles are abolished.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PEERAGE_ABOLISHED_HELP_BONUS">
+			<Text>+10% [ICON_CULTURE] Culture in all other cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PEERAGE_ABOLISHED_HELP_PENALTY">
+			<Text>-15% [ICON_CULTURE] Culture in the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PEERAGE_HONOURARY_SHORT_DESC">
+			<Text>Honourary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PEERAGE_HONOURARY_PEDIA">
+			<Text>Hereditary titles are ceremonial.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PEERAGE_PRIVILEGED_SHORT_DESC">
+			<Text>Privileged</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PEERAGE_PRIVILEGED_PEDIA">
+			<Text>Hereditary titles afford legal privileges.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PEERAGE_PRIVILEGED_HELP_BONUS">
+			<Text>+15% [ICON_CULTURE] Culture in the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PEERAGE_PRIVILEGED_HELP_PENALTY">
+			<Text>-10% [ICON_CULTURE] Culture in all other cities.</Text>
+		</Row>
+		<!--PUBLICATIONS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_PUBLICATIONS_DESC">
+			<Text>Publications</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_PUBLICATIONS_HELP">
+			<Text>Publications regulates the freedom to publish creative content.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_FREE_SHORT_DESC">
+			<Text>Free</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_FREE_PEDIA">
+			<Text>Published content is free.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_FREE_HELP_BONUS">
+			<Text>+1 [ICON_CULTURE] Culture from [ICON_GREAT_WORK] Great Works.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_FREE_HELP_PENALTY">
+			<Text>-50% [ICON_TOURISM] Theming bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_FREE_HELP_PENALTY_CP">
+			<Text>-1 [ICON_TOURISM] Tourism from [ICON_GREAT_WORK] Great Works.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_CENSORED_SHORT_DESC">
+			<Text>Censored</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_CENSORED_PEDIA">
+			<Text>Published content is censored.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_PROPAGANDA_SHORT_DESC">
+			<Text>Propaganda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_PROPAGANDA_PEDIA">
+			<Text>Published content is propaganda.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_PROPAGANDA_HELP_BONUS">
+			<Text>+50% [ICON_TOURISM] Theming bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_PROPAGANDA_HELP_BONUS_CP">
+			<Text>+2 [ICON_TOURISM] Tourism from [ICON_GREAT_WORK] Great Works.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_PUBLICATIONS_PROPAGANDA_HELP_PENALTY">
+			<Text>-1 [ICON_CULTURE] Culture from [ICON_GREAT_WORK] Great Works.</Text>
+		</Row>
+		<!--STATUS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_STATUS_DESC">
+			<Text>Status</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_STATUS_HELP">
+			<Text>Status Reforms regulate the nature by which people are organized.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STATUS_CLASS_SHORT_DESC">
+			<Text>Class</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STATUS_CLASS_PEDIA">
+			<Text>People are organized by wealth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STATUS_CLASS_HELP_BONUS">
+			<Text>+2 [ICON_GOLD] Gold from Merchants.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STATUS_CLASS_HELP_PENALTY">
+			<Text>-1 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_STATUS_CLASS">
+			<Text>JFD: Reform (Status) (Class)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_STATUS_CLASS_HELP">
+			<Text>+1 [ICON_GOLD] Gold from Merchants.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STATUS_FAMILY_SHORT_DESC">
+			<Text>Family</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STATUS_FAMILY_PEDIA">
+			<Text>People are organized by family.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STATUS_CASTE_SHORT_DESC">
+			<Text>Caste</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STATUS_CASTE_PEDIA">
+			<Text>People are organized by occupation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STATUS_CASTE_HELP_BONUS">
+			<Text>+1 [ICON_PRODUCTION] Production from Engineers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_STATUS_CASTE_HELP_PENALTY">
+			<Text>-2 [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_STATUS_CASTE">
+			<Text>JFD: Reform (Status) (Cate)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_STATUS_CASTE_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production from Engineers.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--REFORMS: WELFARE-->
+		<!--===================================================-->
+		<!--DEVELOPMENT-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_DEVELOPMENT_DESC">
+			<Text>Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_DEVELOPMENT_HELP">
+			<Text>Development Reforms regulate the focus of our socio-economic development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEVELOPMENT_ECONOMIC_SHORT_DESC">
+			<Text>Economic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEVELOPMENT_ECONOMIC_PEDIA">
+			<Text>We focus on economic development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEVELOPMENT_ECONOMIC_HELP_BONUS">
+			<Text>+10% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections with the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEVELOPMENT_ECONOMIC_HELP_PENALTY">
+			<Text>-10% [ICON_FOOD] Food and [ICON_PRODUCTION] Production from Domestic Trade Routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEVELOPMENT_CAPITAL_SHORT_DESC">
+			<Text>Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEVELOPMENT_CAPITAL_PEDIA">
+			<Text>We focus on the capital's development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEVELOPMENT_SOCIAL_SHORT_DESC">
+			<Text>Social</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEVELOPMENT_SOCIAL_PEDIA">
+			<Text>We focus on social development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEVELOPMENT_SOCIAL_HELP_BONUS">
+			<Text>+10% [ICON_FOOD] Food and [ICON_PRODUCTION] Production from Domestic Trade Routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_DEVELOPMENT_SOCIAL_HELP_PENALTY">
+			<Text>-10% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections with the Capital.</Text>
+		</Row>
+		<!--EQUALITY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EQUALITY_DESC">
+			<Text>Equality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_EQUALITY_HELP">
+			<Text>Equality Reforms regulate social and economic inequalities amongst people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUALITY_OPPORTUNITIES_SHORT_DESC">
+			<Text>Opportunities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUALITY_OPPORTUNITIES_PEDIA">
+			<Text>People are ensured equal opportunities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUALITY_OPPORTUNITIES_HELP_BONUS">
+			<Text>+25% of excess [ICON_HAPPINESS_1] Happiness added each turn to [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUALITY_OPPORTUNITIES_HELP_PENALTY">
+			<Text>-10% [ICON_FOOD] Food in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUALITY_NATURAL_SHORT_DESC">
+			<Text>Natural</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUALITY_NATURAL_PEDIA">
+			<Text>People are ensured what is naturally owed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUALITY_OUTCOMES_SHORT_DESC">
+			<Text>Outcomes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUALITY_OUTCOMES_PEDIA">
+			<Text>People are ensured equal outcomes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUALITY_OUTCOMES_HELP_BONUS">
+			<Text>+15% [ICON_FOOD] Food is stored after population growth in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_EQUALITY_OUTCOMES_HELP_PENALTY">
+			<Text>-10% [ICON_CULTURE] Culture in all cities.</Text>
+		</Row>
+		<!--FESTIVALS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_FESTIVALS_DESC">
+			<Text>Festivals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_FESTIVALS_HELP">
+			<Text>Festivals Reforms regulate the administration of public festivals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_RELIGIOUS_SHORT_DESC">
+			<Text>Religious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_RELIGIOUS_PEDIA">
+			<Text>Festivals are administered by priests.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_RELIGIOUS_HELP_BONUS">
+			<Text>+5% [ICON_PEACE] Faith in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_RELIGIOUS_HELP_BONUS_CP">
+			<Text>+10% [ICON_PEACE] Faith during WLTKDs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_RELIGIOUS_HELP_PENALTY">
+			<Text>-5% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_RELIGIOUS_HELP_PENALTY_CP">
+			<Text>-5% [ICON_GOLD] Gold during WLTKDs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_FOLK_SHORT_DESC">
+			<Text>Folk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_FOLK_PEDIA">
+			<Text>Festivals are administered by locals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_STATE_SHORT_DESC">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_STATE_PEDIA">
+			<Text>Festivals are administered by the state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_STATE_HELP_BONUS">
+			<Text>+5% [ICON_FOOD] Food in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_STATE_HELP_BONUS_CP">
+			<Text>+10% [ICON_FOOD] Food during WLTKDs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_STATE_HELP_PENALTY">
+			<Text>-5% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_FESTIVALS_STATE_HELP_PENALTY_CP">
+			<Text>-5% [ICON_GOLD] Gold during WLTKDs.</Text>
+		</Row>
+		<!--GOODS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_GOODS_DESC">
+			<Text>Goods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_GOODS_HELP">
+			<Text>Goods Reforms regulate the nature of the provision of public goods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_ENTERTAINMENT_SHORT_DESC">
+			<Text>Entertainment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_ENTERTAINMENT_PEDIA">
+			<Text>Entertainment is a public good.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_ENTERTAINMENT_HELP_BONUS">
+			<Text>Build Happiness Buildings 15% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_ENTERTAINMENT_HELP_PENALTY">
+			<Text>Construct all other Buildings 5% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_NONE_PEDIA">
+			<Text>There are no public goods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_WATERWAYS_SHORT_DESC">
+			<Text>Waterways</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_WATERWAYS_PEDIA">
+			<Text>Waterways are a public good.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_WATERWAYS_HELP_BONUS">
+			<Text>Build Aqueducts, Gardens, Watermills, and Hydro Plants 15% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_WATERWAYS_HELP_BONUS_CISTERN">
+			<Text>Build Fresh Water Buildings 15% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_GOODS_WATERWAYS_HELP_PENALTY">
+			<Text>Construct all other Buildings 5% slower.</Text>
+		</Row>
+		<!--HEALTHCARE-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_HEALTHCARE_DESC">
+			<Text>Healthcare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_HEALTHCARE_HELP">
+			<Text>Healthcare Reforms regulate the provision of healthcare services.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HEALTHCARE_OCCUPATIONAL_SHORT_DESC">
+			<Text>Occupational</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HEALTHCARE_OCCUPATIONAL_PEDIA">
+			<Text>Healthcare is provisioned by employers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HEALTHCARE_OCCUPATIONAL_HELP_BONUS">
+			<Text>+10% [ICON_PRODUCTION] Production from Hospitals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HEALTHCARE_OCCUPATIONAL_HELP_PENALTY">
+			<Text>-10% [ICON_FOOD] Food from Hospitals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HEALTHCARE_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HEALTHCARE_PRIVATE_PEDIA">
+			<Text>Healthcare is provisioned privately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HEALTHCARE_UNIVERSAL_SHORT_DESC">
+			<Text>Universal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HEALTHCARE_UNIVERSAL_PEDIA">
+			<Text>Healthcare is provisioned by the state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HEALTHCARE_UNIVERSAL_HELP_BONUS">
+			<Text>+10% [ICON_FOOD] Food from Hospitals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HEALTHCARE_UNIVERSAL_HELP_PENALTY">
+			<Text>-10% [ICON_PRODUCTION] Production from Hospitals.</Text>
+		</Row>
+		<!--POOR-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_POOR_DESC">
+			<Text>Poor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_POOR_HELP">
+			<Text>Poor Reforms regulate the status of and provisions for the poor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POOR_EMPLOYMENT_SHORT_DESC">
+			<Text>Employment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POOR_EMPLOYMENT_PEDIA">
+			<Text>Employment is provisioned for the poor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POOR_EMPLOYMENT_HELP_BONUS">
+			<Text>+1 [ICON_PRODUCTION] Production for every 4 non-Specialist Citizens in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POOR_EMPLOYMENT_HELP_PENALTY">
+			<Text>-15% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_POOR_EMPLOYMENT">
+			<Text>JFD: Reform (Poor) (Employment)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_POOR_EMPLOYMENT_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production for every 4 non-Specialist Citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POOR_CRIMINAL_SHORT_DESC">
+			<Text>Criminal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POOR_CRIMINAL_PEDIA">
+			<Text>The poor are treated as criminals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POOR_HOUSING_SHORT_DESC">
+			<Text>Housing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POOR_HOUSING_PEDIA">
+			<Text>Housing is provisioned for the poor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POOR_HOUSING_HELP_BONUS">
+			<Text>+1 [ICON_FOOD] Food for every 4 non-Specialist Citizens in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_POOR_HOUSING_HELP_PENALTY">
+			<Text>-15% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_POOR_HOUSING">
+			<Text>JFD: Reform (Poor) (Housing)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_REFORM_JFD_POOR_HOUSING_HELP">
+			<Text>+1 [ICON_FOOD] Food for every 4 non-Specialist Citizens.</Text>
+		</Row>
+		<!--RATIONS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RATIONS_DESC">
+			<Text>Rations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_RATIONS_HELP">
+			<Text>Rations Reforms regulate the nature and provision of rations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RATIONS_WORK_SHORT_DESC">
+			<Text>Work</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RATIONS_WORK_PEDIA">
+			<Text>Work is distributed to people in need.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RATIONS_WORK_HELP_BONUS">
+			<Text>+10% [ICON_WORKER] Worker improvement rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RATIONS_WORK_HELP_PENALTY">
+			<Text>-1 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RATIONS_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RATIONS_NONE_PEDIA">
+			<Text>Nothing is distributed to people in need.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RATIONS_FOOD_SHORT_DESC">
+			<Text>Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RATIONS_FOOD_PEDIA">
+			<Text>Food is distributed to people in need.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RATIONS_FOOD_HELP_BONUS">
+			<Text>+1 [ICON_FOOD] Food from Granaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_RATIONS_FOOD_HELP_PENALTY">
+			<Text>-1 [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<!--SECURITY-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SECURITY_DESC">
+			<Text>Security</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_SECURITY_HELP">
+			<Text>Security Reforms regulate the provision of economic security.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SECURITY_FRATERNATIES_SHORT_DESC">
+			<Text>Fraternaties</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SECURITY_FRATERNATIES_PEDIA">
+			<Text>Fraternaties provide economic security.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SECURITY_FRATERNATIES_HELP_BONUS">
+			<Text>+15% [ICON_GREAT_PEOPLE] Great People rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SECURITY_FRATERNATIES_HELP_PENALTY">
+			<Text>-10% [ICON_FOOD] Food in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SECURITY_FAMILY_SHORT_DESC">
+			<Text>Family</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SECURITY_FAMILY_PEDIA">
+			<Text>Families provide economic security.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SECURITY_STATE_SHORT_DESC">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SECURITY_STATE_PEDIA">
+			<Text>The state provides economic security.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SECURITY_STATE_HELP_BONUS">
+			<Text>+10% [ICON_FOOD] Growth in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SECURITY_STATE_HELP_PENALTY">
+			<Text>-10% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<!--WAGES-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WAGES_DESC">
+			<Text>Wages</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WAGES_HELP">
+			<Text>Wages Reforms regulate the imposition of limitations on wages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WAGES_MAXIMUM_SHORT_DESC">
+			<Text>Maximum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WAGES_MAXIMUM_PEDIA">
+			<Text>Wages are capped at a maximum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WAGES_MAXIMUM_HELP_BONUS">
+			<Text>+15% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WAGES_MAXIMUM_HELP_PENALTY">
+			<Text>-15% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WAGES_PRIVATE_SHORT_DESC">
+			<Text>Private</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WAGES_PRIVATE_PEDIA">
+			<Text>Wages are privately determined.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WAGES_MINIMUM_SHORT_DESC">
+			<Text>Minimum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WAGES_MINIMUM_PEDIA">
+			<Text>Wages are raised to a minimum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WAGES_MINIMUM_HELP_BONUS">
+			<Text>+15% [ICON_GOLD] Gold in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WAGES_MINIMUM_HELP_PENALTY">
+			<Text>-15% [ICON_PRODUCTION] Production in all cities.</Text>
+		</Row>
+		<!--WORKS-->
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WORKS_DESC">
+			<Text>Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_SUBBRANCH_WORKS_HELP">
+			<Text>Works Reforms regulate the nature of building projects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORKS_PUBLIC_SHORT_DESC">
+			<Text>Public</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORKS_PUBLIC_PEDIA">
+			<Text>Building projects provide state services.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORKS_PUBLIC_HELP_BONUS">
+			<Text>Build National Wonders 15% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORKS_PUBLIC_HELP_PENALTY">
+			<Text>Construct Buildings 5% slower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORKS_NONE_SHORT_DESC">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORKS_NONE_PEDIA">
+			<Text>There are no building projects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORKS_CEREMONIAL_SHORT_DESC">
+			<Text>Ceremonial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORKS_CEREMONIAL_PEDIA">
+			<Text>Building projects adulate the state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORKS_CEREMONIAL_HELP_BONUS">
+			<Text>Build World Wonders 15% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_WORKS_CEREMONIAL_HELP_PENALTY">
+			<Text>Construct Buildings 5% slower.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

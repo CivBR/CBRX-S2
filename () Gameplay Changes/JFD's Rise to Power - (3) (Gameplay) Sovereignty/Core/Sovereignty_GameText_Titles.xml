@@ -1,0 +1,4334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2019 5:53:11 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--BLANK TITLES-->
+		<!--===================================================-->
+		<Replace Tag="TXT_KEY_JFD_TITLE_AND">
+			<Text>and</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TITLE_OF">
+			<Text>of</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_JFD_TITLE_OF_THE">
+			<Text>of the</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_JFD_BLANK_LEADER_TITLE">
+			<Text>{1_Title} {2_Leader}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BLANK_LEADER_TITLE_REVERSE">
+			<Text>{2_Leader} {1_Title}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BLANK_STATE_TITLE">
+			<Text>{1_Title} of {2_Civ}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BLANK_STATE_TITLE_NO_OF">
+			<Text>{1_Title} {2_Civ}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_BLANK_STATE_TITLE_REVERSE">
+			<Text>{2_Civ} {1_Title}</Text>
+		</Row>
+		<!--===================================================-->
+		<!--GOVERNMENT NAMES-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_ABSOLUTE_DESC">
+			<Text>Absolute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_ADMINISTRATIVE_DESC">
+			<Text>Administrative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_AMBROSIAN_DESC">
+			<Text>Ambrosian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_ARISTOCRATIC_DESC">
+			<Text>Aristocratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_AUTHORITARIAN_DESC">
+			<Text>Authoritarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_CLERICAL_DESC">
+			<Text>Clerical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_CELESTIAL_DESC">
+			<Text>Celestial Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_CROWNED_DESC">
+			<Text>Crowned</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_CIVILIAN_DESC">
+			<Text>Civilian Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_COMMUNIST_DESC">
+			<Text>Communist Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_CONSTITUTIONAL_DESC">
+			<Text>Constitutional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_DEMOCRATIC_DESC">
+			<Text>Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_DESPOTIC_DESC">
+			<Text>Despotic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_DIRECTORIAL_DESC">
+			<Text>Directorial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_DICTATORSHIP_DESC">
+			<Text>Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_ELECTIVE_DESC">
+			<Text>Elective</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_ENLIGHTENED_DESC">
+			<Text>Enlightened</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_EXILED_DESC">
+			<Text>In-Exile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_FEDERAL_DESC">
+			<Text>Federal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_FEUDAL_DESC">
+			<Text>Feudal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_LIBERAL_DESC">
+			<Text>Liberal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_INDEPENDENT_DESC">
+			<Text>Independent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_IRREDENTIST_DESC">
+			<Text>Irredentist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_IMPERIAL_DESC">
+			<Text>Imperial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_MARITIME_DESC">
+			<Text>Maritime</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_MERCHANT_DESC">
+			<Text>Merchant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_MILITARY_DESC">
+			<Text>Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_NATIONAL_DESC">
+			<Text>National</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_NOBLE_DESC">
+			<Text>Noble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_ONE_PARTY_DESC">
+			<Text>One-Party Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_SEMI_PRESIDENTIAL_DESC">
+			<Text>Semi-Presidential</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_SOLOMONIC_DESC">
+			<Text>Solomonic Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_PARLIAMENTARY_DESC">
+			<Text>Parliamentary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_POPULAR_DESC">
+			<Text>Popular</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_PEASANTS_DESC">
+			<Text>Peasant's Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_PEOPLES_DESC">
+			<Text>People's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_PRESIDENTIAL_DESC">
+			<Text>Presidential</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_PROVISIONAL_DESC">
+			<Text>Provisional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_PROLETARIAT_DESC">
+			<Text>Proletariat Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_RELIGIOUS_DESC">
+			<Text>{1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_REVOLUTIONARY_DESC">
+			<Text>Revolutionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_REVOLUTIONARY_EMPIRE_DESC">
+			<Text>Revolutionary Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_REVOLUTIONARY_REPUBLIC_DESC">
+			<Text>Revolutionary Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_SACRED_DESC">
+			<Text>Sacred</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_TOTALITARIAN_DESC">
+			<Text>Totalitarian Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_NAME_UNITARY_DESC">
+			<Text>Unitary</Text>
+		</Row>
+		<!--===================================================-->
+		<!--STYLE TITLES-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_STYLE_AMIR_AL_MUMININ">
+			<Text>Amir al-Mu'minin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_AMIR_AL_MUMININ_FEMALE">
+			<Text>Amir al-Mu'minin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_NEGUSA_NEGAST">
+			<Text>Negusa Negast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_NEGUSA_NEGAST_FEMALE">
+			<Text>Negusa Negast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SHEIKH_AL_ISLAM">
+			<Text>Sheikh al-Islam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SHEIKH_AL_ISLAM_FEMALE">
+			<Text>Sheikh al-Islam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CAPTAIN_GENERAL_OF_THE_SEA">
+			<Text>Captain-General of the Sea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CAPTAIN_GENERAL_OF_THE_SEA_FEMALE">
+			<Text>Captain-General of the Sea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_HUJJAT_AL_ISLAM">
+			<Text>Hujjat al-Islam </Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_HUJJAT_AL_ISLAM_FEMALE">
+			<Text>Hujjat al-Islam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_AUTOCRAT_OF_ALL_UNDER_HEAVEN">
+			<Text>Autocrat of all Under Heaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_AUTOCRAT_OF_ALL_UNDER_HEAVEN_FEMALE">
+			<Text>Autocrat of all Under Heaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_AUTOCRAT_OF_CIV_ADJ">
+			<Text>Autocrat of all the {1_CivAdj} People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_AUTOCRAT_OF_CIV_ADJ_FEMALE">
+			<Text>Autocrat of all the {1_CivAdj} People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BY_CONSTITUTIONAL_LAW_OF_THE_STATE">
+			<Text>by Constitutional Law of the State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BY_CONSTITUTIONAL_LAW_OF_THE_STATE_FEMALE">
+			<Text>by Constitutional Law of the State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BY_THE_ACCLAMATION_OF_THE_PEOPLE">
+			<Text>by the Acclamation of the People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BY_THE_ACCLAMATION_OF_THE_PEOPLE_FEMALE">
+			<Text>by the Acclamation of the People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BY_THE_TRIPLE_GEM">
+			<Text>by the Triple Gem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BY_THE_TRIPLE_GEM_FEMALE">
+			<Text>by the Triple Gem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BY_THE_GRACE_OF_GOD">
+			<Text>by the Grace of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BY_THE_GRACE_OF_GOD_FEMALE">
+			<Text>by the Grace of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BY_THE_WILL_OF_THE_NATION">
+			<Text>by the Will of the Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BY_THE_WILL_OF_THE_NATION_FEMALE">
+			<Text>by the Will of the Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_DEFENDER_OF_THE_FAITH">
+			<Text>Defender of the Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_DEFENDER_OF_THE_FAITH_FEMALE">
+			<Text>Defender of the Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BISHOP_OF_CAPITAL">
+			<Text>Bishop of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_BISHOP_OF_CAPITAL_FEMALE">
+			<Text>Bishop of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PRINCEPS_CIVITAS">
+			<Text>Princeps Civitas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PRINCEPS_CIVITAS_FEMALE">
+			<Text>Princeps Civitas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PRINCEPS_SENATUS">
+			<Text>Princeps Senatus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PRINCEPS_SENATUS_FEMALE">
+			<Text>Princeps Senatus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_KAISER_I_RUM">
+			<Text>Kaiser-i Rum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_KAISER_I_RUM_FEMALE">
+			<Text>Kaiser-i Rum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_IMPERATOR_OF_CIV">
+			<Text>Imperator of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_IMPERATOR_OF_CIV_FEMALE">
+			<Text>Imperator of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SOVEREIGN_OF_CIV">
+			<Text>Sovereign of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SOVEREIGN_OF_CIV_FEMALE">
+			<Text>Sovereign of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SAYF_AL_DAWLA">
+			<Text>Sayf al-Dawla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SAYF_AL_DAWLA_FEMALE">
+			<Text>Sayf al-Dawla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SUPREME_PONTIFF">
+			<Text>Supreme Pontiff of the Universal Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SUPREME_PONTIFF_FEMALE">
+			<Text>Supreme Pontiff of the Universal Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SUCCESSOR_APOSTLES">
+			<Text>Successor of the Prince of the Apostles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SUCCESSOR_APOSTLES_FEMALE">
+			<Text>Successor of the Prince of the Apostles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SUCCESSOR_PROPHET">
+			<Text>Successor of the Prophet of the Lord of the Universe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SUCCESSOR_PROPHET_FEMALE">
+			<Text>Successor of the Prophet of the Lord of the Universe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PRIMATE_OF_CIV">
+			<Text>Primate of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PRIMATE_OF_CIV_FEMALE">
+			<Text>Primate of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CAPTAIN_OF_THE_PEOPLE">
+			<Text>Captain of the People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CAPTAIN_OF_THE_PEOPLE_FEMALE">
+			<Text>Captain of the People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_COMMANDER_IN_CHIEF_AGAINST_BARBS">
+			<Text>Commander-in-Chief of the Expeditionary Force Against the Barbarians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_COMMANDER_IN_CHIEF_AGAINST_BARBS_FEMALE">
+			<Text>Commander-in-Chief of the Expeditionary Force Against the Barbarians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_ETERNAL_PRESIDENT_OF_GOVT">
+			<Text>Eternal President of the {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_ETERNAL_PRESIDENT_OF_GOVT_FEMALE">
+			<Text>Eternal President of the {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PRESIDENT_FOR_LIFE">
+			<Text>President-for-life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PRESIDENT_FOR_LIFE_FEMALE">
+			<Text>President-for-life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_DUCE_OF_CIV">
+			<Text>Duce of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_DUCE_OF_CIV_FEMALE">
+			<Text>Duce of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_EMPEROR_OF_THE_ROMANS">
+			<Text>Emperor of the Romans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_EMPEROR_OF_THE_ROMANS_FEMALE">
+			<Text>Emperor of the Romans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_GRAN_MAESTRO_OF_CAPITAL">
+			<Text>Gran Maestro of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_GRAN_MAESTRO_OF_CAPITAL_FEMALE">
+			<Text>Gran Maestro of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_HOLY_CUSTODIAN">
+			<Text>Holy Custodian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_HOLY_CUSTODIAN_FEMALE">
+			<Text>Holy Custodian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_KING_OF_THE_FOUR_CORNERS">
+			<Text>King of the Four Corners</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_KING_OF_THE_FOUR_CORNERS_FEMALE">
+			<Text>Queen of the Four Corners</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_KING_OF_THE_UNIVERSE">
+			<Text>King of the Universe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_KING_OF_THE_UNIVERSE_FEMALE">
+			<Text>Queen of the Universe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_ARTS">
+			<Text>Lord of the Arts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_ARTS_FEMALE">
+			<Text>Lady of the Arts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_CONQUEST">
+			<Text>Lord of Conquest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_CONQUEST_FEMALE">
+			<Text>Lady of Conquest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_COMMERCE">
+			<Text>Lord of Commerce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_COMMERCE_FEMALE">
+			<Text>Lady of Commerce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_COMMONS">
+			<Text>Lord of the Commons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_COMMONS_FEMALE">
+			<Text>Lady of the Commons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_FAITHFUL">
+			<Text>Lord of the Faithful</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_FAITHFUL_FEMALE">
+			<Text>Lady of the Faithful</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_GREENS">
+			<Text>Lord of Greens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_GREENS_FEMALE">
+			<Text>Lady of Greens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_INDUSTRY">
+			<Text>Lord of Industry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_INDUSTRY_FEMALE">
+			<Text>Lady of Industry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_LORDS">
+			<Text>Lord of Lords</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_LORDS_FEMALE">
+			<Text>Lady of Lords</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_NAVIGATION">
+			<Text>Lord of Navigation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_NAVIGATION_FEMALE">
+			<Text>Lady of Navigation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_PEACE">
+			<Text>Lord of Peace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_PEACE_FEMALE">
+			<Text>Lady of Peace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_SCIENCES">
+			<Text>Lord of the Sciences</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_SCIENCES_FEMALE">
+			<Text>Lady of the Sciences</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_WHISPERS">
+			<Text>Lord of Whispers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_WHISPERS_FEMALE">
+			<Text>Lady of Whispers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_OF_TEN_THOUSAND_YEARS">
+			<Text>Lord of Ten Thousand Years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_LORD_OF_TEN_THOUSAND_YEARS_FEMALE">
+			<Text>Lady of Ten Thousand Years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_COMMANDER_IN_CHIEF">
+			<Text>Commander-in-Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_COMMANDER_IN_CHIEF_FEMALE">
+			<Text>Commander-in-Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_GRAND_MARSHAL">
+			<Text>Grand Marshal of the Realm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_GRAND_MARSHAL_FEMALE">
+			<Text>Grand Marshal of the Realm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PATER_PATRIAE">
+			<Text>Pater Patriae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PATER_PATRIAE_FEMALE">
+			<Text>Mater Patriae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SON_OF_ATEN">
+			<Text>Son of Aten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SON_OF_ATEN_FEMALE">
+			<Text>Daughter of Aten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PONTIFEX_MAXIMUS">
+			<Text>Pontifex Maximus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PONTIFEX_MAXIMUS_FEMALE">
+			<Text>Pontifex Maximus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_DEAR_LEADER">
+			<Text>Dear Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PRECIOUS_ONE">
+			<Text>Precious One</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PROTECTOR_OF_THE_PEOPLE">
+			<Text>Protector of the People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PROTECTOR_OF_THE_PEOPLE_FEMALE">
+			<Text>Protector of the People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_HIEROPHANT">
+			<Text>Hierophant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_HIEROPHANT_FEMALE">
+			<Text>Hierophantess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_HIGH_PRIEST_OF_THE_SUN">
+			<Text>High Priest of the Sun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_HIGH_PRIEST_OF_THE_SUN_FEMALE">
+			<Text>High Priestess of the Sun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SON_OF_HEAVEN">
+			<Text>Son of Heaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SON_OF_HEAVEN_FEMALE">
+			<Text>Daughter of Heaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CELESTIAL_EMPEROR">
+			<Text>Celestial Ruler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CELESTIAL_EMPEROR_FEMALE">
+			<Text>Celestial Ruler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CHIEF_IMAM">
+			<Text>Chief Imam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CHIEF_IMAM_FEMALE">
+			<Text>Chief Imam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CHAKRAVARTI">
+			<Text>Chakravarti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CHAKRAVARTI_FEMALE">
+			<Text>Chakravarti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CUSTODIAN_OF_THE_TWO_HOLY_MOSQUES">
+			<Text>Custodian of the Holy Mosques</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_CUSTODIAN_OF_THE_TWO_HOLY_MOSQUES_FEMALE">
+			<Text>Custodian of the Holy Mosques</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_GRAND_MASTER">
+			<Text>Grand Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_GRAND_MASTER_FEMALE">
+			<Text>Grand Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_KOHEN_GADOL">
+			<Text>Kohen Gadol of the Grand Temple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_KOHEN_GADOL_FEMALE">
+			<Text>Kohen Gadol of the Grand Temple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_ECUMENICAL_PATRIARCH_OF_CAPITAL">
+			<Text>Ecumenical Patriarch of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_ECUMENICAL_PATRIARCH_OF_CAPITAL_FEMALE">
+			<Text>Ecumenical Matriarch of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SUPREME_PATRIARCH_OF_CIV">
+			<Text>Supreme Patriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SUPREME_PATRIARCH_OF_CIV_FEMALE">
+			<Text>Supreme Matriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_GRAND_MUFTI_OF_CIV">
+			<Text>Grand Mufti of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_GRAND_MUFTI_OF_CIV_FEMALE">
+			<Text>Grand Mufti of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_GRAND_AYATOLLAH">
+			<Text>Grand Ayatollah of Islam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_GRAND_AYATOLLAH_FEMALE">
+			<Text>Grand Ayatollah of Islam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PANDITRAO">
+			<Text>Panditrao of the Ashta Pradhan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_PANDITRAO_FEMALE">
+			<Text>Panditrao of the Ashta Pradhan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SUPREME_GOVERNOR_OF_CIV">
+			<Text>Supreme Governor of the Church of {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_STYLE_SUPREME_GOVERNOR_OF_CIV_FEMALE">
+			<Text>Supreme Governoress of the Church of {1_Desc}</Text>
+		</Row>
+		<!--===================================================-->
+		<!--LEADER TITLES-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_TITLE_ADMIRALISSIMO">
+			<Text>Admiralissimo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ADMIRALISSIMO_FEMALE">
+			<Text>Admiralissimo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NACOM">
+			<Text>Nacom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NACOM_FEMALE">
+			<Text>Nacom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AJAW">
+			<Text>Ajaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AJAW_FEMALE">
+			<Text>Ajaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KUHUL_AJAW">
+			<Text>K'uhul Ajaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KUHUL_AJAW_FEMALE">
+			<Text>K'uhul Ajaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ALMAMI">
+			<Text>Almami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ALMAMI_FEMALE">
+			<Text>Almami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AMIR_AL_UMARA">
+			<Text>Amir al-umara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AMIR_AL_UMARA_FEMALE">
+			<Text>Amir al-umara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CARDINAL_SECRETARY">
+			<Text>Cardinal-Secretary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CARDINAL_SECRETARY_FEMALE">
+			<Text>Cardinal-Secretary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_SHAMAN">
+			<Text>Chief Shaman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_SHAMAN_FEMALE">
+			<Text>Chief Shaman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NAGANGA">
+			<Text>Naganga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NAGANGA_FEMALE">
+			<Text>Nsengha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HOUNGAN_ASOGWE">
+			<Text>Houngan Asogwe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HOUNGAN_ASOGWE_FEMALE">
+			<Text>Mambo Asogwe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TEACHER">
+			<Text>Teacher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TEACHER_FEMALE">
+			<Text>Teacher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_APOSTLE">
+			<Text>Apostle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_APOSTLE_FEMALE">
+			<Text>Apostle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_XEQUE">
+			<Text>Xeque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_XEQUE_FEMALE">
+			<Text>Xeque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SANGU">
+			<Text>Sangū</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SANGU_FEMALE">
+			<Text>Sangū</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_EN">
+			<Text>En</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_EN_FEMALE">
+			<Text>En</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KOHEN">
+			<Text>Kohen Gadol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KOHEN_FEMALE">
+			<Text>Kohen Gadol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PAJE">
+			<Text>Pajé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PAJE_FEMALE">
+			<Text>Pajé</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LAMA">
+			<Text>Lama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LAMA_FEMALE">
+			<Text>Lama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DALAI_LAMA">
+			<Text>Dalai Lama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DALAI_LAMA_FEMALE">
+			<Text>Dalai Lama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TSENPO">
+			<Text>Tsenpo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TSENPO_FEMALE">
+			<Text>Tsenpo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AHUACAN">
+			<Text>Ahuacan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AHUACAN_FEMALE">
+			<Text>Ahuacan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AH_HOLPOP">
+			<Text>Ah Holpop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AH_HOLPOP_FEMALE">
+			<Text>Ah Holpop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HALACH_UINIC">
+			<Text>Halach Uinic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HALACH_UINIC_FEMALE">
+			<Text>Halach Uinic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_ACHARYA">
+			<Text>Great Acharya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_ACHARYA_FEMALE">
+			<Text>Great Acharya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FIRST_PATRIARCH">
+			<Text>First Patriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FIRST_PATRIARCH_FEMALE">
+			<Text>First Matriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CAUDILLO">
+			<Text>Caudillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CAUDILLO_FEMALE">
+			<Text>Caudillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_UNCLE">
+			<Text>Uncle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_UNCLE_FEMALE">
+			<Text>Aunt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GODHI">
+			<Text>Godhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GODHI_FEMALE">
+			<Text>Gydhja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SALTIGUE">
+			<Text>Saltigue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SALTIGUE_FEMALE">
+			<Text>Saltigue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHCHANCELLOR">
+			<Text>Archchancellor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHCHANCELLOR_FEMALE">
+			<Text>Archchancellor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHDUKE">
+			<Text>Archduke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHDUKE_FEMALE">
+			<Text>Archduchess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHON">
+			<Text>Archon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHON_FEMALE">
+			<Text>Archoness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ANTI_POPE">
+			<Text>Anti-Pope</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ANTI_POPE_FEMALE">
+			<Text>Anti-Papess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_EMPEROR">
+			<Text>God-Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_EMPEROR_FEMALE">
+			<Text>God-Empress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_DICTATOR">
+			<Text>God-Dictator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_DICTATOR_FEMALE">
+			<Text>God-Dictator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_CHIEFTAIN">
+			<Text>God-Chieftain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_CHIEFTAIN_FEMALE">
+			<Text>God-Chieftainess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_CHIEF">
+			<Text>God-Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_CHIEF_FEMALE">
+			<Text>God-Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_MAGISTRATE">
+			<Text>God-Magistrate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_MAGISTRATE_FEMALE">
+			<Text>God-Magistrate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_PRINCE">
+			<Text>God-Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_PRINCE_FEMALE">
+			<Text>God-Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_KING">
+			<Text>God-King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_KING_FEMALE">
+			<Text>God-Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_PRIEST">
+			<Text>God-Priest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOD_PRIEST_FEMALE">
+			<Text>God-Priest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CACIQUE">
+			<Text>Cacique</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CACIQUE_FEMALE">
+			<Text>Cacique</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CAPTAIN_REGENT">
+			<Text>Captain-Regent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CAPTAIN_REGENT_FEMALE">
+			<Text>Captain-Regent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_QUETZALCOATL">
+			<Text>Quetzalcoatl Tlamacazqui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_QUETZALCOATL_FEMALE">
+			<Text>Quetzalcoatl Cihuatlamacazqui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NGANGKARI">
+			<Text>Ngangkari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NGANGKARI_FEMALE">
+			<Text>Ngangkari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BABALAWO">
+			<Text>Babalawo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BABALAWO_FEMALE">
+			<Text>Iyalawo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KAVI">
+			<Text>Kavi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KAVI_FEMALE">
+			<Text>Vipra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BABALORICHAS">
+			<Text>Babalorichás</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BABALORICHAS_FEMALE">
+			<Text>Iyalorichás</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BIRD_GOD">
+			<Text>Bird-God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BIRD_GOD_FEMALE">
+			<Text>Bird-Goddess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GUARDIAN">
+			<Text>Guardian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GUARDIAN_FEMALE">
+			<Text>Guardian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ANGAKKUQ">
+			<Text>Angakkuq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ANGAKKUQ_FEMALE">
+			<Text>Angakkuq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BABAYLAN">
+			<Text>Babaylan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BABAYLAN_FEMALE">
+			<Text>Babaylan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SANGOMA">
+			<Text>Sangoma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SANGOMA_FEMALE">
+			<Text>Sangoma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARRAF">
+			<Text>'Arraf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARRAF_FEMALE">
+			<Text>'Arrafa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KAHIN">
+			<Text>Kahin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KAHIN_FEMALE">
+			<Text>Kahina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_JAR_BORN_SAGE">
+			<Text>Jar-Born Sage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_JAR_BORN_SAGE_FEMALE">
+			<Text>Jar-Born Sage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_PROPHET">
+			<Text>Chief Prophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_PROPHET_FEMALE">
+			<Text>Chief Prophetess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FIRST_PROPHET">
+			<Text>First Prophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FIRST_PROPHET_FEMALE">
+			<Text>First Prophetess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WICASA_WAKAN">
+			<Text>Wicasa Wakan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WICASA_WAKAN_FEMALE">
+			<Text>Winyan Wakan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HEM_NETJER_TEPI">
+			<Text>Hem-netjer-tepi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HEM_NETJER_TEPI_FEMALE">
+			<Text>Hem-netjer-tepi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_POHAKANTEN">
+			<Text>Pohakanten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_POHAKANTEN_FEMALE">
+			<Text>Pohakanten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_ELDER">
+			<Text>Great Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_ELDER_FEMALE">
+			<Text>Great Elderess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_ENAREE">
+			<Text>Great Enaree</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_ENAREE_FEMALE">
+			<Text>Great Enaree</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_VOLKHV">
+			<Text>Chief Volkhv</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_VOLKHV_FEMALE">
+			<Text>Chief Vedunya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SACRED_ELDER">
+			<Text>Sacred Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SACRED_ELDER_FEMALE">
+			<Text>Sacred Elderess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHEIKH_AL_AQL">
+			<Text>Sheikh al-'Aql</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHEIKH_AL_AQL_FEMALE">
+			<Text>Sheikha al-'Aql</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HAJIB">
+			<Text>Hajib</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HAJIB_FEMALE">
+			<Text>Hajib</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GANADHARA">
+			<Text>Ganadhara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GANADHARA_FEMALE">
+			<Text>Ganadhara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WUYA">
+			<Text>Wuya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WUYA_FEMALE">
+			<Text>Wuya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NGENPIN">
+			<Text>Ngenpin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NGENPIN_FEMALE">
+			<Text>Ngenpin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LAIBON">
+			<Text>Laibon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LAIBON_FEMALE">
+			<Text>Laibon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MATAPULE">
+			<Text>Matāpule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MATAPULE_FEMALE">
+			<Text>Matāpule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KAHUNA_NUI">
+			<Text>Kahuna Nui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KAHUNA_NUI_FEMALE">
+			<Text>Kahuna Nui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_TULKU">
+			<Text>Great Tulku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_TULKU_FEMALE">
+			<Text>Great Tulku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TULKU">
+			<Text>Tulku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TULKU_FEMALE">
+			<Text>Tulku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_RINPOCHE">
+			<Text>Rinpoche</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_RINPOCHE_FEMALE">
+			<Text>Rinpoche</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRIEST_KING">
+			<Text>Priest-King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRIEST_KING_FEMALE">
+			<Text>Priestess-Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HERO">
+			<Text>Hero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HERO_FEMALE">
+			<Text>Heroine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_THEIOS_ANER">
+			<Text>Theios Aner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_THEIOS_ANER_FEMALE">
+			<Text>Theia Gune</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CALIPH">
+			<Text>Caliph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CALIPH_FEMALE">
+			<Text>Calipha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PROPHET_ELDER">
+			<Text>Prophet-Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PROPHET_ELDER_FEMALE">
+			<Text>Prophet-Elderess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRATINIDHI">
+			<Text>Pratinidhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRATINIDHI_FEMALE">
+			<Text>Pratinidhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CATHAR_PERFECT">
+			<Text>Cathar Perfect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CATHAR_PERFECT_FEMALE">
+			<Text>Cathar Perfect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_DRUID">
+			<Text>Chief Druid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_DRUID_FEMALE">
+			<Text>Chief Druidess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_HIEROPHANT">
+			<Text>Chief Hierophant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_HIEROPHANT_FEMALE">
+			<Text>Chief Hierophantess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PATER_PATRUM">
+			<Text>Pater Patrum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PATER_PATRUM_FEMALE">
+			<Text>Mater Matrum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HARUSPEX">
+			<Text>Haruspex</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HARUSPEX_FEMALE">
+			<Text>Haruspex</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DIVUS">
+			<Text>Divus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DIVUS_FEMALE">
+			<Text>Diva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KRIWE_KRIWAJTO">
+			<Text>Kriwe-Kriwajto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KRIWE_KRIWAJTO_FEMALE">
+			<Text>Kriwe-Kriwajto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ANTIPOPE">
+			<Text>Anti-Pope</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ANTIPOPE_FEMALE">
+			<Text>Anti-Papess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CATHOLICOS">
+			<Text>Catholicos-Patriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CATHOLICOS_FEMALE">
+			<Text>Catholicos-Matriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CELESTIAL_MASTER">
+			<Text>Celestial Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CELESTIAL_MASTER_FEMALE">
+			<Text>Celestial Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ANDRIAMANITRA">
+			<Text>Andriamanitra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ANDRIAMANITRA_FEMALE">
+			<Text>Andriamanitra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_IXHT">
+			<Text>Ixht'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_IXHT_FEMALE">
+			<Text>Ixht'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_JATHEDAR">
+			<Text>Kannushi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_JATHEDAR_FEMALE">
+			<Text>Miko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KANNUSHI">
+			<Text>Kannushi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KANNUSHI_FEMALE">
+			<Text>Miko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PATRIARCH">
+			<Text>Patriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PATRIARCH_FEMALE">
+			<Text>Matriarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HEAVENLY_SOVEREIGN">
+			<Text>Heavenly Sovereign</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HEAVENLY_SOVEREIGN_FEMALE">
+			<Text>Heavenly Sovereign</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_RABBI">
+			<Text>Chief Rabbi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_RABBI_FEMALE">
+			<Text>Chief Rabbi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHBISHOP">
+			<Text>Archbishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHBISHOP_FEMALE">
+			<Text>Archbishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FALCON_DANCER">
+			<Text>Falcon Dancer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FALCON_DANCER_FEMALE">
+			<Text>Falcon Dancer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_XON">
+			<Text>Xon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_XON_FEMALE">
+			<Text>Xon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KUTALMIS">
+			<Text>Kutalmıs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KUTALMIS_FEMALE">
+			<Text>Tengrikut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SAOSHYANT">
+			<Text>Saoshyant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SAOSHYANT_FEMALE">
+			<Text>Saoshyant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FATHER">
+			<Text>Father</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FATHER_FEMALE">
+			<Text>Mother</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ADMINISTRATOR">
+			<Text>Administrator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ADMINISTRATOR_FEMALE">
+			<Text>Administrator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_ELDER">
+			<Text>High Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_ELDER_FEMALE">
+			<Text>High Elderess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CONFESSOR">
+			<Text>Confessor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CONFESSOR_FEMALE">
+			<Text>Confessor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHEPHERD">
+			<Text>Shepherd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHEPHERD_FEMALE">
+			<Text>Shepherd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHDEVIL">
+			<Text>Archdevil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHDEVIL_FEMALE">
+			<Text>Archdevil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DARK_GOD">
+			<Text>Dark God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DARK_GOD_FEMALE">
+			<Text>Dark Goddess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BOHIKE">
+			<Text>Bohike</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BOHIKE_FEMALE">
+			<Text>Bohike</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DASTUR">
+			<Text>Dastur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DASTUR_FEMALE">
+			<Text>Dastur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_VADA_DASTUR">
+			<Text>Vada Dastur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_VADA_DASTUR_FEMALE">
+			<Text>Vada Dastur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MISLDAR">
+			<Text>Misldar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MISLDAR_FEMALE">
+			<Text>Misldar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_MISLDAR">
+			<Text>Great Misldar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_MISLDAR_FEMALE">
+			<Text>Great Misldar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BODDHIASATTVA_KING">
+			<Text>Boddhiasattva-King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BODDHIASATTVA_KING_FEMALE">
+			<Text>Boddhiasattva-Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BODDHIASATTVA_EMPEROR">
+			<Text>Boddhiasattva-Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BODDHIASATTVA_EMPEROR_FEMALE">
+			<Text>Boddhiasattva-Empress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SANGHARAJA">
+			<Text>Sangharaja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SANGHARAJA_FEMALE">
+			<Text>Sangharaja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_COUNCILLOR">
+			<Text>Grand Councillor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_COUNCILLOR_FEMALE">
+			<Text>Grand Councillor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_COUNCILLOR">
+			<Text>High Councillor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_COUNCILLOR_FEMALE">
+			<Text>High Councillor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_COUNCILLOR">
+			<Text>Councillor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_COUNCILLOR_FEMALE">
+			<Text>Councillor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LANDS_ADVOCATE">
+			<Text>Land's Advocate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LANDS_ADVOCATE_FEMALE">
+			<Text>Land's Advocate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PENSIONARY">
+			<Text>Pensionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PENSIONARY_FEMALE">
+			<Text>Pensionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_PENSIONARY">
+			<Text>Grand Pensionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_PENSIONARY_FEMALE">
+			<Text>Grand Pensionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_SAGE">
+			<Text>Grand Sage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_SAGE_FEMALE">
+			<Text>Grand Sage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KUMFU_MAN">
+			<Text>Kumfu-man</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KUMFU_MAN_FEMALE">
+			<Text>Kumfu-woman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MEDICINE_MAN">
+			<Text>Medicine Man</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MEDICINE_MAN_FEMALE">
+			<Text>Medicine Woman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WILLAQ_UMU">
+			<Text>Willaq Umu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WILLAQ_UMU_FEMALE">
+			<Text>Aqlla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GANZEBRA">
+			<Text>Ganzebra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GANZEBRA_FEMALE">
+			<Text>Ganzebra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_IVI_ATTUA">
+			<Text>Ivi-Attua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_IVI_ATTUA_FEMALE">
+			<Text>Tangata Manu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NAMER_O">
+			<Text>Namer-O</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NAMER_O_FEMALE">
+			<Text>Namer-O</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_RISAMMA">
+			<Text>Rišamma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_RISAMMA_FEMALE">
+			<Text>Rišamma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TARMIDIA">
+			<Text>Tarmidia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TARMIDIA_FEMALE">
+			<Text>Tarmidia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ITANG">
+			<Text>Itang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ITANG_FEMALE">
+			<Text>Itang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KAHNA">
+			<Text>Kahna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KAHNA_FEMALE">
+			<Text>Kahnata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MEDIWININI">
+			<Text>Mediwinini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MEDIWININI_FEMALE">
+			<Text>Midewikwe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_MU">
+			<Text>Great Mu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_MU_FEMALE">
+			<Text>Great Mudang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SVIKIRO">
+			<Text>Svikiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SVIKIRO_FEMALE">
+			<Text>Nehanda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NOAIDI">
+			<Text>Noaidi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NOAIDI_FEMALE">
+			<Text>Noaidi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_XU">
+			<Text>Xu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_XU_FEMALE">
+			<Text>Xu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NGUNZA">
+			<Text>Ngunza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NGUNZA_FEMALE">
+			<Text>Ngunza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DIBIA">
+			<Text>Dibia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DIBIA_FEMALE">
+			<Text>Dibia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SAPA">
+			<Text>Sapa Inka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SAPA_FEMALE">
+			<Text>Sapa Inka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KAISER">
+			<Text>Kaiser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KAISER_FEMALE">
+			<Text>Kaiserin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HUETLATOANI">
+			<Text>Huetlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HUETLATOANI_FEMALE">
+			<Text>Huetlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HUEHUETLATOANI">
+			<Text>Huehuetlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HUEHUETLATOANI_FEMALE">
+			<Text>Huehuetlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHAIRMAN">
+			<Text>Chairman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHAIRMAN_FEMALE">
+			<Text>Chairwoman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHANCELLOR">
+			<Text>Chancellor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHANCELLOR_FEMALE">
+			<Text>Chancellor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_ELDER">
+			<Text>Chief Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_ELDER_FEMALE">
+			<Text>Chief Elderess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CATHOLIC_MONARCH">
+			<Text>Catholic Monarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CATHOLIC_MONARCH_FEMALE">
+			<Text>Catholic Monarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_CATHOLIC_MONARCH">
+			<Text>Great Catholic Monarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_CATHOLIC_MONARCH_FEMALE">
+			<Text>Great Catholic Monarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CONSUL">
+			<Text>Consul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CONSUL_FEMALE">
+			<Text>Consula</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_COMMODORE">
+			<Text>Commodore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_COMMODORE_FEMALE">
+			<Text>Commodore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DEMARCH">
+			<Text>Demarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DEMARCH_FEMALE">
+			<Text>Demarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_DOMESTIC">
+			<Text>Grand Domestic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_DOMESTIC_FEMALE">
+			<Text>Grand Domestic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BEYLERBEY">
+			<Text>Beylerbey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BEYLERBEY_FEMALE">
+			<Text>Beylerbey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DESPOT">
+			<Text>Despot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DESPOT_FEMALE">
+			<Text>Despotissa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AUTOKRATOR">
+			<Text>Autokrator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AUTOKRATOR_FEMALE">
+			<Text>Autokrateira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_IMPERATOR">
+			<Text>Imperator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_IMPERATOR_FEMALE">
+			<Text>Imperatrix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BASILEUS">
+			<Text>Basileus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BASILEUS_FEMALE">
+			<Text>Basilissa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHEIKH">
+			<Text>Sheik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHEIKH_FEMALE">
+			<Text>Sheik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DEVARAJA">
+			<Text>Devaraja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DEVARAJA_FEMALE">
+			<Text>Devarajni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DOGE">
+			<Text>Doge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DOGE_FEMALE">
+			<Text>Dogessa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ILKHAN">
+			<Text>Ilkhan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ILKHAN_FEMALE">
+			<Text>Ilkhatun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SUPREME_LEADER">
+			<Text>Supreme Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SUPREME_LEADER_FEMALE">
+			<Text>Supreme Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KHAN_OF_KHANS">
+			<Text>Khan of Khans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KHAN_OF_KHANS_FEMALE">
+			<Text>Khatun of Khans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KHAN">
+			<Text>Khan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KHAN_FEMALE">
+			<Text>Khatun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KHAGHAN">
+			<Text>Khagan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KHAGHAN_FEMALE">
+			<Text>Khagan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DUKE">
+			<Text>Duke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DUKE_FEMALE">
+			<Text>Duchess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ELDER">
+			<Text>Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ELDER_FEMALE">
+			<Text>Elderess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_EMPEROR">
+			<Text>Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_EMPEROR_FEMALE">
+			<Text>Empress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_EMIR">
+			<Text>Emir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_EMIR_FEMALE">
+			<Text>Emira</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FIRST_CONSUL">
+			<Text>First Consul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FIRST_CONSUL_FEMALE">
+			<Text>First Consule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FUHRER">
+			<Text>Fuhrer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FUHRER_FEMALE">
+			<Text>Fuhrer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_MARSHAL">
+			<Text>Grand Marshal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_MARSHAL_FEMALE">
+			<Text>Grand Marshal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MARSHAL">
+			<Text>Marshal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MARSHAL_FEMALE">
+			<Text>Marshal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ADMIRAL">
+			<Text>Admiral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ADMIRAL_FEMALE">
+			<Text>Admiral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_ADMIRAL">
+			<Text>Grand Admiral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_ADMIRAL_FEMALE">
+			<Text>Grand Admiral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_COMMANDER">
+			<Text>Grand Commander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_COMMANDER_FEMALE">
+			<Text>Grand Commander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SPAHBED">
+			<Text>Spahbed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SPAHBED_FEMALE">
+			<Text>Spahbed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ISPAHSALAR">
+			<Text>Ispahsalar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ISPAHSALAR_FEMALE">
+			<Text>Ispahsalar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GENERAL">
+			<Text>General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GENERAL_FEMALE">
+			<Text>General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_GENERAL">
+			<Text>Grand General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_GENERAL_FEMALE">
+			<Text>Grand General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GENERAL_SECRETARY">
+			<Text>General Secretary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GENERAL_SECRETARY_FEMALE">
+			<Text>General Secretary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GENERALISSIMO">
+			<Text>Generalissimo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GENERALISSIMO_FEMALE">
+			<Text>Generalissimo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STEWARD">
+			<Text>Steward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STEWARD_FEMALE">
+			<Text>Stewardess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOVERNOR_GENERAL">
+			<Text>Governor-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GOVERNOR_GENERAL_FEMALE">
+			<Text>Governor-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_ARCHON">
+			<Text>Grand Archon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_ARCHON_FEMALE">
+			<Text>Grand Archoness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_BURGHER">
+			<Text>Grand Burgher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_BURGHER_FEMALE">
+			<Text>Grand Burgheress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_DUKE">
+			<Text>Grand Duke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_DUKE_FEMALE">
+			<Text>Grand Duchess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_MASTER">
+			<Text>Grand Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_MASTER_FEMALE">
+			<Text>Grand Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_POLEMARCH">
+			<Text>Grand Polemarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_POLEMARCH_FEMALE">
+			<Text>Grand Polemarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_PRINCE">
+			<Text>Grand Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_PRINCE_FEMALE">
+			<Text>Grand Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_PRINCE">
+			<Text>Great Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_PRINCE_FEMALE">
+			<Text>Great Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_SECRETARIAT">
+			<Text>Grand Secretariat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_SECRETARIAT_FEMALE">
+			<Text>Grand Secretariat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HEGEMON">
+			<Text>Hegemon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HEGEMON_FEMALE">
+			<Text>Hegemon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HEGEMON_KING">
+			<Text>Hegemon-King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HEGEMON_KING_FEMALE">
+			<Text>Hegemon-Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_CHIEF">
+			<Text>High-Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_CHIEF_FEMALE">
+			<Text>High-Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_KING">
+			<Text>High-King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_KING_FEMALE">
+			<Text>High-Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_PRINCE">
+			<Text>High-Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_PRINCE_FEMALE">
+			<Text>High-Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BURGOMASTER">
+			<Text>Burgomaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BURGOMASTER_FEMALE">
+			<Text>Burgomaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_BURGOMASTER">
+			<Text>Grand Burgomaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_BURGOMASTER_FEMALE">
+			<Text>Grand Burgomaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SUPREME_BURGOMASTER">
+			<Text>Supreme Burgomaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SUPREME_BURGOMASTER_FEMALE">
+			<Text>Supreme Burgomaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FIRST_BURGOMASTER">
+			<Text>First Burgomaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FIRST_BURGOMASTER_FEMALE">
+			<Text>First Burgomaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_COMMISSIONER">
+			<Text>Commissioner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_COMMISSIONER_FEMALE">
+			<Text>Commissioner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_COMMISSIONER">
+			<Text>High Commissioner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HIGH_COMMISSIONER_FEMALE">
+			<Text>High Commissioner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LORD_MAYOR">
+			<Text>Lord Mayor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LORD_MAYOR_FEMALE">
+			<Text>Lord Mayoress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LORD_PROTECTOR">
+			<Text>Lord Protector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LORD_PROTECTOR_FEMALE">
+			<Text>Lord Protectoress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DHARMA_MAHARAJA">
+			<Text>Dharma-maharaja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DHARMA_MAHARAJA_FEMALE">
+			<Text>Dharma-maharani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KING_OF_KINGS">
+			<Text>King of Kings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KING_OF_KINGS_FEMALE">
+			<Text>Queen of Kings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_KING">
+			<Text>Great King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_KING_FEMALE">
+			<Text>Great Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHHATRAPAT">
+			<Text>Chhatrapat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHHATRAPAT_FEMALE">
+			<Text>Chhatrapat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MAHARAJADHIRAJA">
+			<Text>Maharajadhiraja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MAHARAJADHIRAJA_FEMALE">
+			<Text>Maharajadhirani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MAHARAJA">
+			<Text>Maharaja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MAHARAJA_FEMALE">
+			<Text>Maharani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DIRECTOR">
+			<Text>Director</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DIRECTOR_FEMALE">
+			<Text>Director</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DIRECTOR_GENERAL">
+			<Text>Director-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DIRECTOR_GENERAL_FEMALE">
+			<Text>Director-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_DIRECTOR">
+			<Text>Grand Director</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_DIRECTOR_FEMALE">
+			<Text>Grand Director</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_JUDGE">
+			<Text>Judge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_JUDGE_FEMALE">
+			<Text>Judge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FIRST_MARSHAL">
+			<Text>First Marshal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FIRST_MARSHAL_FEMALE">
+			<Text>First Marshal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PASHA">
+			<Text>Pasha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PASHA_FEMALE">
+			<Text>Pasha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_MAGISTRATE">
+			<Text>Chief Magistrate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEF_MAGISTRATE_FEMALE">
+			<Text>Chief Magistrate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CAPTAIN_GENERAL">
+			<Text>Captain General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CAPTAIN_GENERAL_FEMALE">
+			<Text>Captain General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STRATEGOS">
+			<Text>Strategos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STRATEGOS_FEMALE">
+			<Text>Strategos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SUPREME_COMMANDER">
+			<Text>Supreme Commander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SUPREME_COMMANDER_FEMALE">
+			<Text>Supreme Commander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MANSA">
+			<Text>Mansa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MANSA_FEMALE">
+			<Text>Mansa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MASTER">
+			<Text>Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MASTER_FEMALE">
+			<Text>Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MESSANGER">
+			<Text>Messenger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MESSANGER_FEMALE">
+			<Text>Messenger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BABA_SHEIKH">
+			<Text>Baba Sheikh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BABA_SHEIKH_FEMALE">
+			<Text>Mama Sheikha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ORATOR">
+			<Text>Orator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ORATOR_FEMALE">
+			<Text>Orator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CAESAR">
+			<Text>Caesar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CAESAR_FEMALE">
+			<Text>Caesar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BADISHAH">
+			<Text>Badishah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BADISHAH_FEMALE">
+			<Text>Badishah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PADISHAH">
+			<Text>Padishah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PADISHAH_FEMALE">
+			<Text>Padishah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_CHIEF">
+			<Text>Grand Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_CHIEF_FEMALE">
+			<Text>Grand Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_IMPERIAL_CHIEF">
+			<Text>Imperial Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_IMPERIAL_CHIEF_FEMALE">
+			<Text>Imperial Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PARAMOUNT_CHIEF">
+			<Text>Paramount Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PARAMOUNT_CHIEF_FEMALE">
+			<Text>Paramount Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PHARAOH">
+			<Text>Pharaoh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PHARAOH_FEMALE">
+			<Text>Pharaoh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GONFALONIERE">
+			<Text>Gonfaloniere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GONFALONIERE_FEMALE">
+			<Text>Gonfaloniere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PODESTA">
+			<Text>Podesta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PODESTA_FEMALE">
+			<Text>Podesta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_POLEMARCH">
+			<Text>Polemarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_POLEMARCH_FEMALE">
+			<Text>Polemarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_POLITARCH">
+			<Text>Politarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_POLITARCH_FEMALE">
+			<Text>Politarchess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRESIDENT">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRESIDENT_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ETERNAL_PRESIDENT">
+			<Text>Eternal President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ETERNAL_PRESIDENT_FEMALE">
+			<Text>Eternal President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRESIDENT_FOR_LIFE">
+			<Text>President-for-Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRESIDENT_FOR_LIFE_FEMALE">
+			<Text>President-for-Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRAETOR">
+			<Text>Praetor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRAETOR_FEMALE">
+			<Text>Praetor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_FEMALE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_ARCHBISHOP">
+			<Text>Prince-Archbishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_ARCHBISHOP_FEMALE">
+			<Text>Prince-Archbishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_ABBOT">
+			<Text>Prince-Abbot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_ABBOT_FEMALE">
+			<Text>Prince-Abbess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_BISHOP">
+			<Text>Prince-Bishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_BISHOP_FEMALE">
+			<Text>Prince-Bishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_RAJA">
+			<Text>Raja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_RAJA_FEMALE">
+			<Text>Raja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_RECTOR">
+			<Text>Rector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_RECTOR_FEMALE">
+			<Text>Rector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SAUDELEUR">
+			<Text>Saudeleur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SAUDELEUR_FEMALE">
+			<Text>Saudeleur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SEER">
+			<Text>Seer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SEER_FEMALE">
+			<Text>Seeress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SERENE_DOGE">
+			<Text>Serene Doge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SERENE_DOGE_FEMALE">
+			<Text>Serene Dogessa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHAH">
+			<Text>Shah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHAH_FEMALE">
+			<Text>Shah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHAHANSHAH">
+			<Text>Shahanshah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHAHANSHAH_FEMALE">
+			<Text>Shahanshah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHAMAN">
+			<Text>Shaman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHAMAN_FEMALE">
+			<Text>Shaman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WISEMAN">
+			<Text>Wiseman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WISEMAN_FEMALE">
+			<Text>Wisewoman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SPEAKER">
+			<Text>Speaker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SPEAKER_FEMALE">
+			<Text>Speaker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_REGENT">
+			<Text>Regent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_REGENT_FEMALE">
+			<Text>Regent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHIKKEN">
+			<Text>Shikken</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHIKKEN_FEMALE">
+			<Text>Shikken</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SOVEREIGN_PRINCE">
+			<Text>Sovereign Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SOVEREIGN_PRINCE_FEMALE">
+			<Text>Sovereign Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_VIZIER">
+			<Text>Grand Vizier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_VIZIER_FEMALE">
+			<Text>Grand Vizier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_VIZIER">
+			<Text>Vizier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_VIZIER_FEMALE">
+			<Text>Vizier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MALIK">
+			<Text>Malik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MALIK_FEMALE">
+			<Text>Malika</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AHAU">
+			<Text>Ahau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_AHAU_FEMALE">
+			<Text>Ahau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DAI_GENSUI">
+			<Text>Dai-Gensui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DAI_GENSUI_FEMALE">
+			<Text>Dai-Gensui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_APUSQUIN_RANTIN">
+			<Text>Apusquin Rantin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_APUSQUIN_RANTIN_FEMALE">
+			<Text>Apusquin Rantin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DEJAZMACH">
+			<Text>Dejazmach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DEJAZMACH_FEMALE">
+			<Text>Dejazmach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TLACOCHCALCTL">
+			<Text>Tlacochcalctl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TLACOCHCALCTL_FEMALE">
+			<Text>Tlacochcalctl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_SULTAN">
+			<Text>Great Sultan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_SULTAN_FEMALE">
+			<Text>Great Sultana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SULTAN">
+			<Text>Sultan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SULTAN_FEMALE">
+			<Text>Sultana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SULTAN_OF_SULTANS">
+			<Text>Sultan of Sultans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SULTAN_OF_SULTANS_FEMALE">
+			<Text>Sultana of Sultans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SUN_KING">
+			<Text>Sun-King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SUN_KING_FEMALE">
+			<Text>Sun-Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TLATOANI">
+			<Text>Tlatoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TLATOANI_FEMALE">
+			<Text>Cihuatlahtoani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TRADER">
+			<Text>Trader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TRADER_FEMALE">
+			<Text>Trader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TRIBUNE">
+			<Text>Tribune</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TRIBUNE_FEMALE">
+			<Text>Tribune</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TSAR">
+			<Text>Tsar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TSAR_FEMALE">
+			<Text>Tsarina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TYRANT">
+			<Text>Tyrant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TYRANT_FEMALE">
+			<Text>Tyrantess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WARRIOR">
+			<Text>Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WARRIOR_FEMALE">
+			<Text>Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WARCHIEF">
+			<Text>Warchief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WARCHIEF_FEMALE">
+			<Text>Warchieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WARLORD">
+			<Text>Warlord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_WARLORD_FEMALE">
+			<Text>Warlord</Text>
+		</Row>
+		<!--===================================================-->
+		<!--STATE TITLES-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_TITLE_ALL">
+			<Text>All</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ALL_THE">
+			<Text>All The {1_Desc}s</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ALLIANCE">
+			<Text>Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ALLIANCE_DOUBLE">
+			<Text>Double Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ALLIANCE_TRIPLE">
+			<Text>Triple Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ALLIANCE_QUADRUPLE">
+			<Text>Quadruple Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ALLIANCE_QUINTUPLE">
+			<Text>Quintuple Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ALLIANCE_GREAT">
+			<Text>Great Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ARCHDUCHY">
+			<Text>Archduchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CROWNED_REPUBLIC">
+			<Text>Crowned Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DEMOCRATIC_REPUBLIC">
+			<Text>Democratic Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NOBLE_REPUBLIC">
+			<Text>Noble Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ANTI_PAPACY">
+			<Text>Anti-Papacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHAMANATE">
+			<Text>Shamanate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SANCTUARY">
+			<Text>Sanctuary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CATHAR_PERFECTURE">
+			<Text>Cathar Prefecture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MYSTERY_STATE">
+			<Text>Mystery State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_RABBINATE">
+			<Text>Rabbinate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_RABBINATE">
+			<Text>Grand Rabbinate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DASTURDOM">
+			<Text>Dasturdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_DASTURDOM">
+			<Text>Great Dasturdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_QAMATE">
+			<Text>Qamate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_QAMATE">
+			<Text>Great Qamate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MISL">
+			<Text>Misl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_MISL">
+			<Text>Great Misl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_VIZIERATE">
+			<Text>Grand Vizierate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCEDOM">
+			<Text>Princedom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHEIKDOM">
+			<Text>Sheikdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_VIZIERATE">
+			<Text>Vizierate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CAH">
+			<Text>Cah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KUCHKABAL">
+			<Text>Kuchkabal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CELESTIAL_STATE">
+			<Text>Celestial State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SAGELY_STATE">
+			<Text>Sagely State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MONASTIC_STATE">
+			<Text>Monastic State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CALIPHATE">
+			<Text>The Islamic Caliphate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PATRIARCHATE">
+			<Text>Patriarchate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_ARHCBISHOPRIC">
+			<Text>Prince-Archbishopric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CELESTIAL_EMPIRE">
+			<Text>Celestial Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_COOPERATIVE_REPUBLIC">
+			<Text>Co-operative Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_COMMONWEALTH">
+			<Text>Commonwealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CONFEDERACY">
+			<Text>Confederacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CONFEDERATION">
+			<Text>Confederation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DEMOCRATIC_SOCIALIST_REPUBLIC">
+			<Text>Democratic Socialist Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DESPOTATE">
+			<Text>Despotate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_DEVARAJAHNATE">
+			<Text>Devarajahnate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FEDERAL_REPUBLIC">
+			<Text>Federal Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FEDERATIVE_REPUBLIC">
+			<Text>Federative Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FEDERAL_DEMOCRATIC_REPUBLIC">
+			<Text>Federal Democratic Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_FEDERATION">
+			<Text>Federation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_EMIRATE">
+			<Text>Emirate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_EMPIRE">
+			<Text>Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_REVOLUTIONARY">
+			<Text>Revolutionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_DUCHY">
+			<Text>Grand Duchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_PRINCIPALITY">
+			<Text>Grand Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GREAT_HORDE">
+			<Text>Great Horde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HEAVENLY_EMPIRE">
+			<Text>Heavenly Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_HORDE">
+			<Text>Horde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_IMAMATE">
+			<Text>The Islamic Imamate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ISLAMIC_REPUBLIC">
+			<Text>Islamic Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEAGUE">
+			<Text>League</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MAHARAJAHNATE">
+			<Text>Maharajahnate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MOST_SERENE_REPUBLIC">
+			<Text>Most Serene Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SERENE_REPUBLIC">
+			<Text>Serene Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_IMPERIAL_STATE">
+			<Text>Imperial State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_NATION">
+			<Text>Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_UNITED_NATIONS">
+			<Text>United Nations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_UNITED_NATION">
+			<Text>United Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CHIEFDOM">
+			<Text>Chiefdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ILKHANATE">
+			<Text>Ilkhanate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KHANATE">
+			<Text>Khanate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_KHAGANATE">
+			<Text>Khaganate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_REICH">
+			<Text>Reich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PEOPLES_DEMOCRATIC_REPUBLIC">
+			<Text>People's Democratic Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PEOPLES_REPUBLIC">
+			<Text>People's Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCIPALITY">
+			<Text>Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCELY_STATE">
+			<Text>Princely State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_ARCHBISHOPRIC">
+			<Text>Prince-Archbishopric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_PRINCELY_ABBEY">
+			<Text>Princely Abbey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PRINCE_BISHOPRIC">
+			<Text>Prince-Bishopric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ALTEPEL">
+			<Text>Altepel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_RAJAHNATE">
+			<Text>Rajahnate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_REVOLUTIONARY_REPUBLIC">
+			<Text>Revolutionary Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SOCIALIST_REPUBLIC">
+			<Text>Socialist Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_UNITED_PROVINCES">
+			<Text>United Provinces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PEOPLES_SOVIET_REPUBLIC">
+			<Text>Soviet Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PEOPLES_SOVIET_FEDERATIVE_SOCIALIST_REPUBLIC">
+			<Text>Soviet Federative Socialist Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PEOPLES_SOVIET_SOCIALIST_REPUBLIC">
+			<Text>Soviet Socialist Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_EYALET">
+			<Text>Grand Eyalet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_PASHALIK">
+			<Text>Pashalik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_CLIQUE">
+			<Text>Clique</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SHAHDOM">
+			<Text>Shahdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_GRAND_COMMANDRY">
+			<Text>Grand Commandry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_BROTHERHOOD">
+			<Text>Brotherhood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_ORDER">
+			<Text>Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SOVEREIGN_HOSPITALIC_STATE">
+			<Text>Sovereign Hospitalic State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SOVEREIGN_MILITARY_STATE">
+			<Text>Sovereign Military State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SOVEREIGN_PRINCIPALITY">
+			<Text>Sovereign Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_MALIKDOM">
+			<Text>Malikdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SULTANATE">
+			<Text>Sultanate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SUPREME_GOVERNORATE">
+			<Text>Supreme Governorate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TAWANTINSUYU">
+			<Text>Tawantinsuyu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_TSARDOM">
+			<Text>Tsardom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_UNITED_EMIRATES">
+			<Text>United Emirates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SOLOMONIC_EMPIRE">
+			<Text>Solomonic Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_SOLOMONIC_KINGDOM">
+			<Text>Solomonic Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_UNITED_KINGDOM">
+			<Text>United Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_UNITED_REPUBLIC">
+			<Text>United Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_UNITED_STATES">
+			<Text>United States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_UNION">
+			<Text>Union</Text>
+		</Row>
+		<!--===================================================-->
+		<!--CITY-STATE TITLES-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_ALMATY">
+			<Text>Akimate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ALMATY">
+			<Text>Akim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ALMATY_FEMALE">
+			<Text>Akim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_ANTANANARIVO">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ANTANANARIVO">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ANTANANARIVO_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_ANTWERP">
+			<Text>Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ANTWERP">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ANTWERP_FEMALE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_BELGRADE">
+			<Text>Despotate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BELGRADE">
+			<Text>Despot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BELGRADE_FEMALE">
+			<Text>Despot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_BOGOTA">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BOGOTA">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BOGOTA_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_BRATISLAVA">
+			<Text>Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BRATISLAVA">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BRATISLAVA_FEMALE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_BRUSSELS">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BRUSSELS">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BRUSSELS_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_BUCHAREST">
+			<Text>Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BUCHAREST">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BUCHAREST_FEMALE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_BUDAPEST">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BUDAPEST">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BUDAPEST_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_BUENOS_AIRES">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BUENOS_AIRES">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BUENOS_AIRES_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_BYBLOS">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BYBLOS">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_BYBLOS_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_CAHOKIA">
+			<Text>Chiefdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_CAHOKIA">
+			<Text>Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_CAHOKIA_FEMALE">
+			<Text>Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_CAPE_TOWN">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_CAPE_TOWN">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_CAPE_TOWN_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_COLOMBO">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_COLOMBO">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_COLOMBO_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_FLORENCE">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_FLORENCE">
+			<Text>Podesta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_FLORENCE_FEMALE">
+			<Text>Podesta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_GENEVA">
+			<Text>Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_GENEVA">
+			<Text>Vidame</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_GENEVA_FEMALE">
+			<Text>Vidame</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_GENOA">
+			<Text>Serene Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_GENOA">
+			<Text>Doge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_GENOA_FEMALE">
+			<Text>Dogessa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_HANOI">
+			<Text>Great State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_HANOI">
+			<Text>Hoang de</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_HANOI_FEMALE">
+			<Text>Hoang de</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_HONG_KONG">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_HONG_KONG">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_HONG_KONG_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_IFE">
+			<Text>Holy City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_IFE">
+			<Text>Ooni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_IFE_FEMALE">
+			<Text>Ooni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_JERUSALEM">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_JERUSALEM">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_JERUSALEM_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_KABUL">
+			<Text>Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_KABUL">
+			<Text>Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_KABUL_FEMALE">
+			<Text>Empress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_KATHMANDU">
+			<Text>Adhirajya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_KATHMANDU">
+			<Text>Maharajadhiraja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_KATHMANDU_FEMALE">
+			<Text>Maharajadhiraja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_KIEV">
+			<Text>Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_KIEV">
+			<Text>Grand Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_KIEV_FEMALE">
+			<Text>Grand Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_KUALA_LUMPUR">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_KUALA_LUMPUR">
+			<Text>Datuk Bandar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_KUALA_LUMPUR_FEMALE">
+			<Text>Datuk Bandar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_KYZYL">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_KYZYL">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_KYZYL_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_LA_VENTA">
+			<Text>Chiefdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_LA_VENTA">
+			<Text>Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_LA_VENTA_FEMALE">
+			<Text>Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_LHASA">
+			<Text>Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_LHASA">
+			<Text>Tsenpo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_LHASA_FEMALE">
+			<Text>Tsenpo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_MALACCA">
+			<Text>Sultanate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MALACCA">
+			<Text>Sultan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MALACCA_FEMALE">
+			<Text>Sultana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_MANILA">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MANILA">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MANILA_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_MBANZA_KONGO">
+			<Text>Kingom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MBANZA_KONGO">
+			<Text>Mwene Kongo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MBANZA_KONGO_FEMALE">
+			<Text>Mwene Kongo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_MELBOURNE">
+			<Text>Commonwealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MELBOURNE">
+			<Text>Governor-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MELBOURNE_FEMALE">
+			<Text>Governor-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_MILAN">
+			<Text>Duchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MILAN">
+			<Text>Duke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MILAN_FEMALE">
+			<Text>Duchess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_MOGADISHU">
+			<Text>Sultanate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MOGADISHU">
+			<Text>Sultan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MOGADISHU_FEMALE">
+			<Text>Sultana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_MOMBASA">
+			<Text>Sultanate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MOMBASA">
+			<Text>Sultan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MOMBASA_FEMALE">
+			<Text>Sultana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_MONACO">
+			<Text>Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MONACO">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_MONACO_FEMALE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_ORMUS">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ORMUS">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ORMUS_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_PANAMA_CITY">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_PANAMA_CITY">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_PANAMA_CITY_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_PRAGUE">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_PRAGUE">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_PRAGUE_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_QUEBEC_CITY">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_QUEBEC_CITY">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_QUEBEC_CITY_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_RAGUSA">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_RAGUSA">
+			<Text>Rector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_RAGUSA_FEMALE">
+			<Text>Rector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_RIGA">
+			<Text>Free City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_RIGA">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_RIGA_FEMALE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_SAMARKAND">
+			<Text>Hakimdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_SAMARKAND">
+			<Text>Hakim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_SAMARKAND_FEMALE">
+			<Text>Hakim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_SIDON">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_SIDON">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_SIDON_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_SINGAPORE">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_SINGAPORE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_SINGAPORE_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_SOFIA">
+			<Text>Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_SOFIA">
+			<Text>Tsar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_SOFIA_FEMALE">
+			<Text>Tsaritsa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_SYDNEY">
+			<Text>Commonwealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_SYDNEY">
+			<Text>Governor-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_SYDNEY_FEMALE">
+			<Text>Governor-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_TYRE">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_TYRE">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_TYRE_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_UR">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_UR">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_UR_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_VALLETTA">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_VALLETTA">
+			<Text>Grand Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_VALLETTA_FEMALE">
+			<Text>Grand Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_VANCOUVER">
+			<Text>Commonwealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_VANCOUVER">
+			<Text>Governor-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_VANCOUVER_FEMALE">
+			<Text>Governor-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_VATICAN_CITY">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_VATICAN_CITY">
+			<Text>Sovereign</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_VATICAN_CITY_FEMALE">
+			<Text>Sovereign</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_VILNIUS">
+			<Text>Duchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_VILNIUS">
+			<Text>Grand Duke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_VILNIUS_FEMALE">
+			<Text>Grand Duchess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_WELLINGTON">
+			<Text>Commonwealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_WELLINGTON">
+			<Text>Governor-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_WELLINGTON_FEMALE">
+			<Text>Governor-General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_WITTENBERG">
+			<Text>Duchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_WITTENBERG">
+			<Text>Duke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_WITTENBERG_FEMALE">
+			<Text>Duchess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_YEREVAN">
+			<Text>Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_YEREVAN">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_YEREVAN_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_ZANZIBAR">
+			<Text>Sultanate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ZANZIBAR">
+			<Text>Sultan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ZANZIBAR_FEMALE">
+			<Text>Sultana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_STATE_MINOR_CIV_ZURICH">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ZURICH">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_TITLE_LEADER_MINOR_CIV_ZURICH_FEMALE">
+			<Text>President</Text>
+		</Row>
+		<!--===================================================-->
+		<!--FACTION NAMES-->
+		<!--===================================================-->
+		<!--PARTY-->
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_CIV">
+			<Text>{1_CivAdj}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_OF_CIV">
+			<Text>of {1_CivDesc}</Text>
+		</Row>
+		<!--Groups-->
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_1">
+			<Text>Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_2">
+			<Text>Front</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_3">
+			<Text>League</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_4">
+			<Text>Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_5">
+			<Text>Union</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_6">
+			<Text>Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_7">
+			<Text>Forces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_8">
+			<Text>Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_9">
+			<Text>Network</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_10">
+			<Text>Alignment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_11">
+			<Text>Camp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_12">
+			<Text>Group</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_13">
+			<Text>Wing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_14">
+			<Text>Association</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_15">
+			<Text>Fraternity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_16">
+			<Text>Partnership</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_17">
+			<Text>Brotherhood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_18">
+			<Text>Syndicate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_19">
+			<Text>Congress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_20">
+			<Text>Fellowship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_21">
+			<Text>Voice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_22">
+			<Text>Mobilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_23">
+			<Text>Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_24">
+			<Text>Rally</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_25">
+			<Text>Commune</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_26">
+			<Text>Path</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_27">
+			<Text>Way</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_28">
+			<Text>Forum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_29">
+			<Text>Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_30">
+			<Text>Bloc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_31">
+			<Text>Appeal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_32">
+			<Text>Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_33">
+			<Text>Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_34">
+			<Text>Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_GROUP_35">
+			<Text>Party</Text>
+		</Row>
+		<!--MULTI-PARTY-->		
+		<!--Prefixes-->
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_1">
+			<Text>New</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_2">
+			<Text>National</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_3">
+			<Text>Alternative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_4">
+			<Text>Our</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_5">
+			<Text>Modern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_6">
+			<Text>People's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_7">
+			<Text>Civic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_8">
+			<Text>United</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_9">
+			<Text>Republican</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_10">
+			<Text>Free</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_11">
+			<Text>Solidarity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_12">
+			<Text>Real</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_13">
+			<Text>Open</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_14">
+			<Text>Citizens'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_15">
+			<Text>All</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_16">
+			<Text>Constitutional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_17">
+			<Text>Radical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_PREFIX_18">
+			<Text>Progressive</Text>
+		</Row>
+		<!--Suffixes-->
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_1">
+			<Text>Reform</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_2">
+			<Text>Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_3">
+			<Text>Restoration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_4">
+			<Text>Action</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_5">
+			<Text>Change</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_6">
+			<Text>Renewal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_7">
+			<Text>Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_8">
+			<Text>Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_9">
+			<Text>and Progress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_10">
+			<Text>and Freedom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_11">
+			<Text>and Justice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_12">
+			<Text>and Equality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_13">
+			<Text>Future</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_14">
+			<Text>Choice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_15">
+			<Text>Progress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_16">
+			<Text>Popular</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_17">
+			<Text>and Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_18">
+			<Text>Forward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_19">
+			<Text>Advance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_20">
+			<Text>and Peace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_21">
+			<Text>Victory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_22">
+			<Text>Proposal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_23">
+			<Text>Onwards</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_24">
+			<Text>Salvation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_25">
+			<Text>Redemption</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SUFFIX_26">
+			<Text>Constitution</Text>
+		</Row>
+		<!--Conservative-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_1">
+			<Text>Conservative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_2">
+			<Text>Blue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_3">
+			<Text>Conservatives</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_HERITAGE">
+			<Text>Heritage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_FAMILY">
+			<Text>Family</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_SOCIAL_BENEVOLANCE">
+			<Text>Social Benevolance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_SOCIAL_HARMONY">
+			<Text>Social Harmony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_EQUESTRIAN">
+			<Text>Equestrian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_NOMADIC">
+			<Text>Nomadic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_ELDER">
+			<Text>Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_TRADITION">
+			<Text>Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_ROYALIST">
+			<Text>Royalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_AGRARIAN">
+			<Text>Agrarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_FARMERS">
+			<Text>Farmers'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_COUNTRY">
+			<Text>Country</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_REACTIONARY">
+			<Text>Reactionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_ULTRAROYALIST">
+			<Text>Ultraroyalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_MONARCHIST">
+			<Text>Monarchist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_REPUBLICAN">
+			<Text>Republican</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_ROMANTICIST">
+			<Text>Romanticist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_ANTI_MODERN">
+			<Text>Anti-Modern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_STATE">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_STATIST">
+			<Text>Statist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_INTEGRALIST">
+			<Text>Integralist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_NEO_CONSERVATIVE">
+			<Text>Neo-Conservative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_FALANGIST">
+			<Text>Falangist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_LIBERAL_CONSERVATIVE">
+			<Text>Liberal Conservative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_CONSERVATIVE_SOCIALIST">
+			<Text>Conservative Socialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_ANTI_CONSUMERIST">
+			<Text>Anti-Consumerist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_ANTI_ENVIRONMENTALIST">
+			<Text>Anti-Environmentalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_NEO_FEUDALIST">
+			<Text>Neo-Feudalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_ANTI_IMMIGRATION">
+			<Text>Anti-Immigration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_ANTI_FEMINIST">
+			<Text>Anti-Feminist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_IMPERIALIST">
+			<Text>Imperialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_COLONIALIST">
+			<Text>Colonialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_NAME_CENTRE_RIGHT">
+			<Text>Centre-Right</Text>
+		</Row>
+		<!--Green-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_1">
+			<Text>Green</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_2">
+			<Text>Environment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_3">
+			<Text>Greens</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_SUSTAINABLE">
+			<Text>Sustainable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_CONSERVATION">
+			<Text>Conservation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_FOREST_CONSERVATION">
+			<Text>Forest Conservation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_PACIFIST">
+			<Text>Pacifist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_PEACE">
+			<Text>Peace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ECO_MODERNIST">
+			<Text>Eco-Modernist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ECOLOGY">
+			<Text>Ecology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ECOLOGICAL">
+			<Text>Ecological</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ANTI_INDUSTRIALIST">
+			<Text>Anti-Industrialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ANTI_GLOBALIZATION">
+			<Text>Anti-Globalization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_EARTH_LIBERATION">
+			<Text>Earth Liberation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_EARTH">
+			<Text>Earth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ANIMAL_RIGHTS">
+			<Text>Animal Rights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ECO_NATIONALIST">
+			<Text>Eco-Nationalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ECO_SOCIALIST">
+			<Text>Eco-Socialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ECO_CAPITALIST">
+			<Text>Eco-Capitalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_CLIMATE">
+			<Text>Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_RED_GREEN">
+			<Text>Red-Green</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ECOLOGIST_GREEN">
+			<Text>Ecologist Green</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_GREEN_AND_PEACEFUL">
+			<Text>Green and Peaceful</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ANARCHO_GREENS">
+			<Text>Anarcho-Greens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ANTI_CAR">
+			<Text>Anti-Car</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_DEGROWTH">
+			<Text>Degrowth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_DEEP_GREEN">
+			<Text>Deep Green</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_NATURE">
+			<Text>Nature</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ANTI_CORPORATIST">
+			<Text>Anti-Corporatist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_NAME_ANTI_INDUSTRY">
+			<Text>Anti-Industry</Text>
+		</Row>
+		<!--Liberal-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_1">
+			<Text>Liberal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_2">
+			<Text>Yellow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_3">
+			<Text>Liberals</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_FREEDOM">
+			<Text>Freedom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_SECULARIST">
+			<Text>Secularist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_HUMANIST">
+			<Text>Humanist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_COSMOPOLITAN">
+			<Text>Cosmopolitan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_CLASSICAL_REPUBLICAN">
+			<Text>Classical Republican</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_RENAISSANCE">
+			<Text>Renaissance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_ANTI_AUTHORITARIAN">
+			<Text>Anti-Authoritarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_GLOBAL">
+			<Text>Global</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_FREE_PRESS">
+			<Text>Free Press</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_CONSTITUTIONALIST">
+			<Text>Constitutionalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_CONSERVATIVE_LIBERAL">
+			<Text>Conservative-Liberal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_SOCIAL_LIBERAL">
+			<Text>Social-Liberal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_NAME_ANTI_CLERICAL">
+			<Text>Anti-Clerical</Text>
+		</Row>
+		<!--Libertarian-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_1">
+			<Text>Libertarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_2">
+			<Text>Purple</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_3">
+			<Text>Libertarians</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_CAPITALIST">
+			<Text>Capitalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_MERCHANTS">
+			<Text>Merchants'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_FREE_MARKET">
+			<Text>Free Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_CORPORATIST">
+			<Text>Corporatist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_ANTI_EGALITARIAN">
+			<Text>Anti-Egalitarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_AUTARCHIST">
+			<Text>Autarchist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_LIBERTARIAN_MONARCHIST">
+			<Text>Libertarian Monarchist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_ANTI_STATE">
+			<Text>Anti-State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_ANARCHO_LIBERTERIAN">
+			<Text>Anarcho-Libertarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_NAME_ANARCHO_CAPITALIST">
+			<Text>Anarcho-Capitalist</Text>
+		</Row>
+		<!--Nationalist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_1">
+			<Text>Nationalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_2">
+			<Text>Black</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_3">
+			<Text>Nationalists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_LOCAL">
+			<Text>Local</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_LOCALIST">
+			<Text>Localist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_NATIVE">
+			<Text>Native</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_NATIVIST">
+			<Text>Nativist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_HOMELAND">
+			<Text>Homeland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_HOME">
+			<Text>Home</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_FATHERLAND">
+			<Text>Fatherland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_MOTHERLAND">
+			<Text>Motherland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_PATRIOTIC">
+			<Text>Patriotic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_BROTHERHOOD">
+			<Text>Brotherhood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_WILL">
+			<Text>Will</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_SPIRIT">
+			<Text>Spirit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_VALUES">
+			<Text>Values</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_REVIVAL">
+			<Text>Revival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_INDEPENDENCE">
+			<Text>Independence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_INTEREST">
+			<Text>Interest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_REBIRTH">
+			<Text>Rebirth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_PURE">
+			<Text>Pure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_PURITY">
+			<Text>Purity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_NAME_RIGHT">
+			<Text>Right</Text>
+		</Row>
+		<!--Religious-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_1">
+			<Text>Religious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_2">
+			<Text>Orange</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_3">
+			<Text>Religionists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_RELIGIOUS">
+			<Text>{1_ReligionAdj}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_RELIGIOUS_HERITAGE">
+			<Text>{1_ReligionAdj} Heritage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_RELIGIOUS_JUSTICE">
+			<Text>{1_ReligionAdj} Justice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_RELIGIOUS_NATIONALIST">
+			<Text>{1_ReligionAdj} Nationalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_RELIGIOUS_BROTHERHOOD">
+			<Text>{1_ReligionAdj} Brotherhood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_FUNDAMENTAL">
+			<Text>Fundamental</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_FUNDAMENTALIST">
+			<Text>Fundamentalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_PIETIST">
+			<Text>Pietist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_SPIRITUAL">
+			<Text>Spiritual</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_ALL_FAITHS">
+			<Text>All-Faiths</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_RELIGIOUS_PLURALIST">
+			<Text>Religious Pluralist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_CLERICAL">
+			<Text>Clericalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_DHARMIC_REFUGE">
+			<Text>Dharmic Refuge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_NAME_MONASTIC_REFUGE">
+			<Text>Monastic Refuge</Text>
+		</Row>
+		<!--Socialist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_1">
+			<Text>Socialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_2">
+			<Text>Red</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_3">
+			<Text>Socialists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_WORKERS">
+			<Text>Workers'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_LABOUR">
+			<Text>Labour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_COMMUNITARIAN">
+			<Text>Communitarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_SYNDICALIST">
+			<Text>Syndicalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_MUTUALIST">
+			<Text>Mutualist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_TRADE_UNIONIST">
+			<Text>Trade Unionist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_ANTI_MARKET">
+			<Text>Anti-Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_MARXIST">
+			<Text>Marxist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_SOLIDARITY">
+			<Text>Solidarity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_NAME_LEFT">
+			<Text>Left</Text>
+		</Row>
+		<!--Social Democratic-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_1">
+			<Text>Social Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_2">
+			<Text>Pink</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_3">
+			<Text>Social Democrats</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_GENDER_EQUALITY">
+			<Text>Gender Equality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_WOMANS">
+			<Text>Womans'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_SOCIAL">
+			<Text>Social</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_EGALITARIAN">
+			<Text>Egalitarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_DEMOCRATIC">
+			<Text>Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_SOCIAL_JUSTICE">
+			<Text>Social Justice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_SOCIETY">
+			<Text>Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_SOCIAL_WELFARE">
+			<Text>Social Welfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_SOCIAL_CONSERVATIVE">
+			<Text>Social Conservative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_CENTRE_LEFT">
+			<Text>Centre-Left</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_NAME_FEMINIST">
+			<Text>Feminist</Text>
+		</Row>
+		<!--TWO-PARTY-->
+		<!--Independent-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_NAME_1">
+			<Text>Independent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_NAME_2">
+			<Text>United Independent</Text>
+		</Row>
+		<!--National-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_1">
+			<Text>National</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_2">
+			<Text>Right</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_3">
+			<Text>Republican</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_4">
+			<Text>Liberal Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_5">
+			<Text>Patriotic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_6">
+			<Text>Freedom and Justice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_7">
+			<Text>Freedom and Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_8">
+			<Text>Union</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_9">
+			<Text>United</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_10">
+			<Text>Sovereignty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_11">
+			<Text>Law and Justice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_NAME_12">
+			<Text>National Unity</Text>
+		</Row>
+		<!--Progressive-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_1">
+			<Text>Progressive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_2">
+			<Text>Left</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_3">
+			<Text>Social Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_4">
+			<Text>Civic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_5">
+			<Text>Citizen's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_6">
+			<Text>Labour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_7">
+			<Text>Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_8">
+			<Text>Workers'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_9">
+			<Text>Socialist Left</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_10">
+			<Text>People's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_11">
+			<Text>Popular</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_NAME_12">
+			<Text>Equality</Text>
+		</Row>
+		<!--ONE-PARTY-->
+		<!--Communist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_1">
+			<Text>Communist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_2">
+			<Text>People's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_3">
+			<Text>People's Revolutionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_4">
+			<Text>Revolutionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_5">
+			<Text>Popular</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_6">
+			<Text>Workers'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_7">
+			<Text>People's Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_8">
+			<Text>Working People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_9">
+			<Text>United Workers'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_10">
+			<Text>Revolutionary Socialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_11">
+			<Text>Action for Unity and Socialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_12">
+			<Text>People's Progressive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_13">
+			<Text>Labour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_14">
+			<Text>Democracy and Socialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_15">
+			<Text>Proletarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_16">
+			<Text>Left</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_17">
+			<Text>Popular Vanguard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_18">
+			<Text>Socialist Labour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_19">
+			<Text>Radical Socialists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_NAME_20">
+			<Text>Worker's Revolutionary</Text>
+		</Row>
+		<!--Fascist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_1">
+			<Text>Fascist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_2">
+			<Text>National Socialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_3">
+			<Text>National Revolutionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_4">
+			<Text>National People's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_5">
+			<Text>National Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_6">
+			<Text>National Fascist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_7">
+			<Text>National</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_8">
+			<Text>Freethinkers'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_9">
+			<Text>Fatherland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_10">
+			<Text>Patriotic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_11">
+			<Text>Nationalist Liberation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_12">
+			<Text>New Triumph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_13">
+			<Text>National Action</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_14">
+			<Text>Patriotic Youth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_15">
+			<Text>Fatherland and Liberty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_16">
+			<Text>Free Opinion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_17">
+			<Text>Resurgence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_18">
+			<Text>Army Comrades</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_19">
+			<Text>Fascism and Freedom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_20">
+			<Text>Blackshirts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_21">
+			<Text>Goldshirts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_22">
+			<Text>Iron Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_23">
+			<Text>Iron Wolves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_24">
+			<Text>Black</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_25">
+			<Text>Falange</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_26">
+			<Text>National Radical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_27">
+			<Text>National Revival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_28">
+			<Text>National Socialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_29">
+			<Text>National Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_30">
+			<Text>Great Unity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_31">
+			<Text>Blood and Honour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_32">
+			<Text>Racial Volunteer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_33">
+			<Text>Brotherhood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_34">
+			<Text>{1_Desc} First</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_35">
+			<Text>Silver Legion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_NAME_36">
+			<Text>New Order</Text>
+		</Row>
+		<!--Radicalist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_1">
+			<Text>Radicalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_2">
+			<Text>Radical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_3">
+			<Text>Authentic Radical Liberal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_4">
+			<Text>Radical Liberal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_5">
+			<Text>Association of Radical Liberals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_6">
+			<Text>Real Politics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_7">
+			<Text>Free-minded People's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_8">
+			<Text>Free-minded</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_9">
+			<Text>Independent Liberals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_10">
+			<Text>Capitalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_11">
+			<Text>People's Radical Liberal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_12">
+			<Text>Radical Cause</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_13">
+			<Text>Radical Civic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_14">
+			<Text>Radical Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_15">
+			<Text>Radical Left</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_16">
+			<Text>Dialectical and Radical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_17">
+			<Text>Universal League for the Material Elevation of the Industrious Classes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_18">
+			<Text>Union, Progress and Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_19">
+			<Text>Free Citizens'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_NAME_20">
+			<Text>Radical Liberal Democratic</Text>
+		</Row>
+		<!--Third-Positionist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_NAME_1">
+			<Text>Third-Positionist</Text>
+		</Row>
+		<!--Ultranationalist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_1">
+			<Text>Ultranationalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_2">
+			<Text>Alternative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_3">
+			<Text>Solution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_4">
+			<Text>National</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_5">
+			<Text>Nationalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_6">
+			<Text>National Fascist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_7">
+			<Text>National</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_8">
+			<Text>Freedom'</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_9">
+			<Text>Great Union</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_10">
+			<Text>Patriotic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_11">
+			<Text>Authenticity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_12">
+			<Text>Alliance for Peace and Freedom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_13">
+			<Text>Justice and Reconciliation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_14">
+			<Text>National Pride</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_15">
+			<Text>Defense of the Nation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_16">
+			<Text>Independence </Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_17">
+			<Text>Patriotic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_18">
+			<Text>National Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_19">
+			<Text>National Interest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_20">
+			<Text>New Way</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_21">
+			<Text>National Popular</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_22">
+			<Text>Our Home</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_23">
+			<Text>New Force</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_24">
+			<Text>Liberty and Independence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_25">
+			<Text>Enough!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_26">
+			<Text>Free Motherland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_27">
+			<Text>Love or Leave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_28">
+			<Text>Rise Up</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_29">
+			<Text>Fatherland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_30">
+			<Text>Resistance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_31">
+			<Text>National Renovator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_32">
+			<Text>Families</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_33">
+			<Text>Stop Immigration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_34">
+			<Text>{1_Desc} Home</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_35">
+			<Text>Force and Determination</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_36">
+			<Text>Justice and Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_37">
+			<Text>National Sovereignty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_NAME_38">
+			<Text>All-National</Text>
+		</Row>
+		<!--REVOLUTIONARY-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_NAME_1">
+			<Text>Revolutionaries</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,2736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2019 5:53:11 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Sovereignty-->
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_HEADING1_TITLE">
+			<Text>Sovereignty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Sovereignty[ENDCOLOR] is a new gameplay mechanic. Civilizations may now choose to establish a Government: a Monarchy, Principality, or Republic, or one of the several special and unique Governments only available under certain conditions.[NEWLINE][NEWLINE]With a Government, you will gain the ability to pass Political Reforms. These are much like Social Policies except they confer certain penalties in exchange for their bonuses, and they each come in mutually exclusive groups of three (for instance, you can only choose one of Universal, None and Landed in the 'Suffrage' Group).[NEWLINE][NEWLINE]To pass a Political Reform, you will need a certain minimum amount of the new yield Sovereignty. Sovereignty is not accumulated like other Yields; instead, it is a calculation based upon certain factors in any given turn. If you have enough Sovereignty, you can pass a Political Reform and it won't cost you Sovereignty to do so![NEWLINE][NEWLINE]Additionally, Political Factions compete with your Government for control over the kinds of Reforms you can pass. Political Factions each have their own Sovereignty value, and this directly contributes to the minimum Sovereignty that certain Reforms require - reducing it for those Reforms a Faction supports and increasing it for those they oppose. The type of Government you have, as well as certain Reforms, will determine the specific nature and interests of your Political Factions.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--BUILDINGS-->
+		<!--===================================================-->
+		<!--Chancery-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY">
+			<Text>Chancery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_HELP">
+			<Text>Cities decrease [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown by 15% less.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_STRATEGY">
+			<Text>The Chancery is a Medieval Era building. It lowers the amount by which cities decrease the [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown, meaning it slows down the rate at which new [ICON_JFD_LEGISLATURE] Legislatures are formed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHANCERY_TEXT">
+			<Text>Chancery is a general term for a medieval writing office, responsible for the production of official documents. The title of chancellor, for the head of the office, came to be held by important ministers in a number of states, and remains the title of the heads of government in modern Germany and Austria. Chancery hand is a term for various types of handwriting associated with chanceries.</Text>
+		</Row>
+		<!--High Court-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIGH_COURT">
+			<Text>High Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIGH_COURT_HELP">
+			<Text>+15% [ICON_JFD_SOVEREIGNTY] Sovereignty when in all cities.[NEWLINE][NEWLINE]Must have a Magistrate's Court in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIGH_COURT_STRATEGY">
+			<Text>The High Court is a Renaissance Era building. It increases your [ICON_JFD_SOVEREIGNTY] Sovereignty when it is present in all cities, allowing you to pass additional [ICON_JFD_REFORM] Reforms. It requires a Magistrate's Court in the city before it can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_HIGH_COURT_TEXT">
+			<Text>A High Court is a higher level of court than a Magistrate's Court in a legal system, serving to administer the law on more serious cases, in larger jurisdictions. A High Court will also serve as an advisory court to all lesser courts and passes cases outside of its jurisdiction, such as cases of treason or serial murder, onto a national Supreme Court.</Text>
+		</Row>
+		<!--Magistrates Court-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MAGISTRATE_COURT">
+			<Text>Magistrate's Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MAGISTRATE_COURT_HELP">
+			<Text>+10% [ICON_JFD_SOVEREIGNTY] Sovereignty when in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MAGISTRATE_COURT_STRATEGY">
+			<Text>The Magistrate's Court is a Classical Era building. It increases your [ICON_JFD_SOVEREIGNTY] Sovereignty when it is present in all cities, allowing you to pass additional [ICON_JFD_REFORM] Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_MAGISTRATE_COURT_TEXT">
+			<Text>A Magistrate's Court, or District Court, is the lowest level of court in a legal system, where all criminal proceedings begin. The authority of a Magistrate's Court varies; in common law systems, a magistrate has limited powers of enforcement and pass serious crimes onto High Courts. In a civil law system, on the other hand, a magistrate might have greater jurisdiction, with the powers to dispense more severe punishments.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--CIVILIZATIONS-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_CIVILIZATION_DESC">
+			<Text>{1_Desc} Civilization</Text>
+		</Row>
+		<!--===================================================-->
+		<!--COUNCILLORS-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_HELP_FILLED">
+			<Text>This Council seat is filled.[NEWLINE]--------------------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_HELP_VACANT">
+			<Text>This Council seat is vacant. Fill it by expending one of the following [ICON_GREAT_PEOPLE] Great People for a bonus:[NEWLINE]--------------------</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_HELP_VACANT_NOTE">
+			<Text>[NEWLINE]--------------------[NEWLINE][COLOR_NEGATIVE_TEXT]Only [ICON_GREAT_PEOPLE] Great People that are generated normally can be appointed.[ENDCOLOR]</Text>
+		</Row>
+		<!--Chancellor-->
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_CHANCELLOR_DESC">
+			<Text>Chancellor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_CHANCELLOR_GREAT_ENGINEER_HELP">
+			<Text>[NEWLINE][ICON_BULLET]{1_Color}Great Engineer[ENDCOLOR][NEWLINE]    [ICON_BULLET]{2_Color}-10% [ICON_JFD_SOVEREIGNTY] Industry Reform costs.[ENDCOLOR]</Text>
+		</Row>
+		<!--Chaplain-->
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_CHAPLAIN_DESC">
+			<Text>Chaplain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_CHAPLAIN_GREAT_PROPHET_HELP">
+			<Text>[NEWLINE][ICON_BULLET]{1_Color}Great Prophet[ENDCOLOR][NEWLINE]    [ICON_BULLET]{2_Color}-10% [ICON_JFD_SOVEREIGNTY] Religion Reform costs.[ENDCOLOR]</Text>
+		</Row>
+		<!--Herald-->
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_HERALD_DESC">
+			<Text>Herald</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_HERALD_GREAT_ARTIST_HELP">
+			<Text>[NEWLINE][ICON_BULLET]{1_Color}Great Artist[ENDCOLOR][NEWLINE]    [ICON_BULLET]{2_Color}-10% [ICON_JFD_SOVEREIGNTY] Society Reform costs.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_HERALD_GREAT_MUSICIAN_HELP">
+			<Text>[NEWLINE][ICON_BULLET]{1_Color}Great Musician[ENDCOLOR][NEWLINE]    [ICON_BULLET]{2_Color}-10% [ICON_JFD_SOVEREIGNTY] Society Reform costs.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_HERALD_GREAT_WRITER_HELP">
+			<Text>[NEWLINE][ICON_BULLET]{1_Color}Great Writer[ENDCOLOR][NEWLINE]    [ICON_BULLET]{2_Color}-10% [ICON_JFD_SOVEREIGNTY] Society Reform costs.[ENDCOLOR]</Text>
+		</Row>
+		<!--Marshal-->
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_MARSHAL_DESC">
+			<Text>Marshal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_MARSHAL_GREAT_ADMIRAL_HELP">
+			<Text>[NEWLINE][ICON_BULLET]{1_Color}Great Admiral[ENDCOLOR][NEWLINE]    [ICON_BULLET]{2_Color}-10% [ICON_JFD_SOVEREIGNTY] Diplomacy Reform costs.[ENDCOLOR]</Text>>Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_MARSHAL_GREAT_GENERAL_HELP">
+			<Text>[NEWLINE][ICON_BULLET]{1_Color}Great General[ENDCOLOR][NEWLINE]    [ICON_BULLET]{2_Color}-10% [ICON_JFD_SOVEREIGNTY] Military Reform costs.[ENDCOLOR]</Text>>Text>
+		</Row>
+		<!--Steward-->
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_STEWARD_DESC">
+			<Text>Steward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_STEWARD_GREAT_MERCHANT_HELP">
+			<Text>[NEWLINE][ICON_BULLET]{1_Color}Great Merchant[ENDCOLOR][NEWLINE]    [ICON_BULLET]{2_Color}-10% [ICON_JFD_SOVEREIGNTY] Economy Reform costs.[ENDCOLOR]</Text>>
+		</Row>
+		<Row Tag="TXT_KEY_COUNCILLOR_JFD_STEWARD_GREAT_SCIENTIST_HELP">
+			<Text>[NEWLINE][ICON_BULLET]{1_Color}Great Scientist[ENDCOLOR][NEWLINE]    [ICON_BULLET]{2_Color}-10% [ICON_JFD_SOVEREIGNTY] Education Reform costs.[ENDCOLOR]</Text>>Text>
+		</Row>
+		<!--===================================================-->
+		<!--FACTIONS-->
+		<!--===================================================-->
+		<!--Help-->
+		<Row Tag="TXT_KEY_JFD_FACTION_OPPOSED">
+			<Text>[NEWLINE]--------[NEWLINE][COLOR_NEGATIVE_TEXT]Opposed:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_FAVOURED">
+			<Text>[NEWLINE]--------[NEWLINE][COLOR_POSITIVE_TEXT]Favoured:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_OPINION_REFORMS">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]{2_Desc}[ENDCOLOR] {3_Desc} Reform</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_OPINION_REFORMS_OPPOSED">
+			<Text>[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Opposite[ENDCOLOR] to their [COLOR_POSITIVE_TEXT]Favoured[ENDCOLOR] Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_OPINION_REFORM_BRANCHES">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]{1_Desc}[ENDCOLOR] {2_Desc} Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_OPINION_REFORM_LEFT">
+			<Text>Left</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_OPINION_REFORM_RIGHT">
+			<Text>Right</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_OPINION_REFORM_CENTRE">
+			<Text>Centre</Text>
+		</Row>
+		<!--===================================================-->
+		<!--FACTIONS: REVOLUTIONARIES-->
+		<!--===================================================-->
+		<!--Revolutionaries-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_DESC">
+			<Text>Revolutionaries</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_SHORT_DESC">
+			<Text>Revolutionaries</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_ADJ">
+			<Text>Revolutionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_HELP">
+			<Text>[COLOR_WARNING_TEXT]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Revolutionaries hate your Government and seek nothing more than to overthrow it. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your [COLOR_WARNING_TEXT]{TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_FACTORS}[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]If the Revolutionaries become Dominant when a new Legislature is composed, you will enter into a period of [ICON_RESISTANCE] Anarchy![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_FACTORS">
+			<Text>Revolutionary Sentiment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_FAVOURED_LIST">
+			<Text>[ICON_BULLET]None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REVOLUTIONARIES_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Reforms</Text>
+		</Row>
+		<!--===================================================-->
+		<!--FACTIONS: NORMAL-->
+		<!--===================================================-->
+		<!--MONARCHY-->
+		<!--Bourgeoisie-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_DESC">
+			<Text>Bourgeoisie</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_SHORT_DESC">
+			<Text>Bourgeoisie</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_ADJ">
+			<Text>Bourgeoisie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Bourgeoisie stand for the power of the merchant elite. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_FACTORS}{TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_FACTORS">
+			<Text>Specialists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BOURGEOISIE_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms</Text>
+		</Row>
+		<!--Clergy-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CLERGY_DESC">
+			<Text>Clergy</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CLERGY_SHORT_DESC">
+			<Text>Clergy</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CLERGY_ADJ">
+			<Text>Clergical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CLERGY_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Clergy stand for the power of the religious elite. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_CLERGY_FACTORS}{TXT_KEY_JFD_FACTION_JFD_CLERGY_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CLERGY_FACTORS">
+			<Text>Religious Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CLERGY_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CLERGY_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CLERGY_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CLERGY_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CLERGY_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<!--Commons-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMONS_DESC">
+			<Text>Commons</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMONS_SHORT_DESC">
+			<Text>Commons</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMONS_ADJ">
+			<Text>Common</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMONS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Commons stand for the power of the commoners. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_COMMONS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_COMMONS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMONS_FACTORS">
+			<Text>Unemployed and Starving Citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMONS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_COMMONS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_COMMONS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMONS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMONS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms</Text>
+		</Row>
+		<!--Nobility-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NOBILITY_DESC">
+			<Text>Nobility</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NOBILITY_SHORT_DESC">
+			<Text>Nobility</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NOBILITY_ADJ">
+			<Text>Noble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NOBILITY_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Nobility stand for the power of the landed elite. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_NOBILITY_FACTORS}{TXT_KEY_JFD_FACTION_JFD_NOBILITY_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NOBILITY_FACTORS">
+			<Text>settled Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NOBILITY_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_NOBILITY_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_NOBILITY_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NOBILITY_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NOBILITY_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<!--PRINCIPALITY-->
+		<!--Citizens-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CITIZENS_DESC">
+			<Text>Citizens</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CITIZENS_SHORT_DESC">
+			<Text>Citizens</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CITIZENS_ADJ">
+			<Text>Citizen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CITIZENS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Citizens stand for the power of city dwellers. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_CITIZENS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_CITIZENS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CITIZENS_FACTORS">
+			<Text>Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CITIZENS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CITIZENS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CITIZENS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CITIZENS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CITIZENS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms</Text>
+		</Row>
+		<!--Magnates-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGNATES_DESC">
+			<Text>Magnates</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGNATES_SHORT_DESC">
+			<Text>Magnates</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGNATES_ADJ">
+			<Text>Magnate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGNATES_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Magnates stand for the power of land owners. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_MAGNATES_FACTORS}{TXT_KEY_JFD_FACTION_JFD_MAGNATES_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGNATES_FACTORS">
+			<Text>unworked Tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGNATES_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MAGNATES_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MAGNATES_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGNATES_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGNATES_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<!--Peasants-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PEASANTS_DESC">
+			<Text>Peasants</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PEASANTS_SHORT_DESC">
+			<Text>Peasants</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PEASANTS_ADJ">
+			<Text>Peasant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PEASANTS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Peasants stands for the power of rural workers. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_PEASANTS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_PEASANTS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PEASANTS_FACTORS">
+			<Text>Improvements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PEASANTS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PEASANTS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PEASANTS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PEASANTS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Industry Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PEASANTS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Industry Reforms</Text>
+		</Row>
+		<!--REPUBLIC-->
+		<!--Oligarchs-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_DESC">
+			<Text>Oligarchs</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_SHORT_DESC">
+			<Text>Oligarchs</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_ADJ">
+			<Text>Oligarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Oligarchs stand for the power of the elite. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_FACTORS">
+			<Text>Capital's Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Law Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_OLIGARCHS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Law Reforms</Text>
+		</Row>
+		<!--Populists-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULISTS_DESC">
+			<Text>Populists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULISTS_SHORT_DESC">
+			<Text>Populists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULISTS_ADJ">
+			<Text>Populist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULISTS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Populists stand for the power of the commons. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_POPULISTS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_POPULISTS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULISTS_FACTORS">
+			<Text>Population outside your Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULISTS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_POPULISTS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_POPULISTS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULISTS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_POPULISTS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--===================================================-->
+		<!--FACTIONS: SPECIAL-->
+		<!--===================================================-->
+		<!--TOTALITARIAN-->
+		<!--Communists-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_DESC">
+			<Text>Communists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_SHORT_DESC">
+			<Text>Communists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_ADJ">
+			<Text>Communist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Communists stand for control over the economy. Their [ICON_JFD_FACTION_POWER] Faction Power is based on {TXT_KEY_JFD_FACTION_JFD_COMMUNIST_FACTORS}{TXT_KEY_JFD_FACTION_JFD_COMMUNIST_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_FACTORS">
+			<Text>having adopted the [ICON_IDEOLOGY_ORDER]{TXT_KEY_POLICY_BRANCH_ORDER} Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_COMMUNIST_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_COMMUNIST_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_COMMUNIST_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Fascists-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_DESC">
+			<Text>Fascists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_SHORT_DESC">
+			<Text>Fascists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_ADJ">
+			<Text>Fascist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Fascists stand for control over the state. Their [ICON_JFD_FACTION_POWER] Faction Power is based on {TXT_KEY_JFD_FACTION_JFD_FASCIST_FACTORS}{TXT_KEY_JFD_FACTION_JFD_FASCIST_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_FACTORS">
+			<Text>having adopted the [ICON_IDEOLOGY_AUTOCRACY]{TXT_KEY_POLICY_BRANCH_AUTOCRACY} Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_FASCIST_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_FASCIST_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FASCIST_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Ultranationalists-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_DESC">
+			<Text>Ultranationalists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_SHORT_DESC">
+			<Text>Ultranationalists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_ADJ">
+			<Text>Ultranationalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Ultranationalists stand for control over the nation. Their [ICON_JFD_FACTION_POWER] Faction Power is based on {TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_FACTORS}{TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_FACTORS">
+			<Text>having adopted the [ICON_IDEOLOGY_JFD_SPIRIT]{TXT_KEY_POLICY_BRANCH_JFD_SPIRIT} Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ULTRANATIONALIST_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<!--Radicalists-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_DESC">
+			<Text>Radicalists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_SHORT_DESC">
+			<Text>Radicalists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_ADJ">
+			<Text>Radicalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Radicalists stand for total freedom within society. Their [ICON_JFD_FACTION_POWER] Faction Power is based on {TXT_KEY_JFD_FACTION_JFD_RADICALIST_FACTORS}{TXT_KEY_JFD_FACTION_JFD_RADICALIST_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_FACTORS">
+			<Text>having adopted the [ICON_IDEOLOGY_FREEDOM]{TXT_KEY_POLICY_BRANCH_FREEDOM} Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_RADICALIST_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_RADICALIST_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RADICALIST_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<!--Third-Positionist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_DESC">
+			<Text>Third-Positionists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_SHORT_DESC">
+			<Text>Third-Positionists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_ADJ">
+			<Text>Third-Positionist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Third-positionists stand for some control of the economy and the state. Their [ICON_JFD_FACTION_POWER] Faction Power is based on {TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_FACTORS}{TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_FACTORS">
+			<Text>having adopted the [ICON_IDEOLOGY_JFD_NEUTRALITY]{TXT_KEY_POLICY_BRANCH_JFD_NEUTRALITY} Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Economy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_THIRD_POSITIONIST_OPPOSED_LIST">
+			<Text>[ICON_BULLET]None.</Text>
+		</Row>
+		<!--IMPERIAL-->
+		<!--Bureaucrats-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_DESC">
+			<Text>Bureaucrats</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_SHORT_DESC">
+			<Text>Bureaucrats</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_ADJ">
+			<Text>Bureaucratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Bureaucrats stand for securing your power. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_FACTORS">
+			<Text>Capital's Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Government Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BUREAUCRATS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<!--Generals-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GENERALS_DESC">
+			<Text>Generals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GENERALS_SHORT_DESC">
+			<Text>Generals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GENERALS_ADJ">
+			<Text>General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GENERALS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Generals stands for securing your family's power. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_GENERALS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_GENERALS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GENERALS_FACTORS">
+			<Text>Great Generals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GENERALS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_GENERALS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_GENERALS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GENERALS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GENERALS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Law Reforms</Text>
+		</Row>
+		<!--Heirs-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEIRS_DESC">
+			<Text>Heirs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEIRS_SHORT_DESC">
+			<Text>Heirs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEIRS_ADJ">
+			<Text>Heir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEIRS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Heirs stands for securing dynastic power. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_HEIRS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_HEIRS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEIRS_FACTORS">
+			<Text>settled Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEIRS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_HEIRS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_HEIRS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEIRS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEIRS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Government Reforms</Text>
+		</Row>
+		<!--Magistrates-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_DESC">
+			<Text>Magistrates</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_SHORT_DESC">
+			<Text>Magistrates</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_ADJ">
+			<Text>Magisterial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Magistrates stand for securing the empire's power. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_FACTORS}{TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_FACTORS">
+			<Text>conquered Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Law Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGISTRATES_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<!--MERCHANT-->
+		<!--Abbots-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ABBOTS_DESC">
+			<Text>Abbots</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ABBOTS_SHORT_DESC">
+			<Text>Abbots</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ABBOTS_ADJ">
+			<Text>Abbatial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ABBOTS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Abbots stand for the power of the faith. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_ABBOTS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_ABBOTS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ABBOTS_FACTORS">
+			<Text>Trade Routes to Religious City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ABBOTS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_ABBOTS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_ABBOTS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ABBOTS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ABBOTS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<!--Aristocrats-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_DESC">
+			<Text>Aristocrats</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_SHORT_DESC">
+			<Text>Aristocrats</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_ADJ">
+			<Text>Aristocratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Aristocrats stand for the power of the governing elite. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_FACTORS">
+			<Text>Domestic Trade Routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARISTOCRATS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<!--Armourer's Guilds-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARMOURERS_DESC">
+			<Text>Armourer's Guilds</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARMOURERS_SHORT_DESC">
+			<Text>Armourer's Guilds</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARMOURERS_ADJ">
+			<Text>Armourer's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARMOURERS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Armourer's Guilds stand for the interests of the smiths. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_ARMOURERS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_ARMOURERS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARMOURERS_FACTORS">
+			<Text>Trade Routes to Military City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARMOURERS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_ARMOURERS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_ARMOURERS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARMOURERS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Industry Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ARMOURERS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms</Text>
+		</Row>
+		<!--Merchant's Guilds-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCHANTS_DESC">
+			<Text>Merchant's Guilds</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCHANTS_SHORT_DESC">
+			<Text>Merchant's Guilds</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCHANTS_ADJ">
+			<Text>Mercantile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCHANTS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Merchant's Guilds stand for the interests of the merchants. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_MERCHANTS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_MERCHANTS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCHANTS_FACTORS">
+			<Text>Trade Routes to Mercantile and Maritime City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCHANTS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MERCHANTS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MERCHANTS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCHANTS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MERCHANTS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Industry Reforms</Text>
+		</Row>
+		<!--Scholar's Guilds-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SCHOLARS_DESC">
+			<Text>Scholar's Guilds</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SCHOLARS_SHORT_DESC">
+			<Text>Scholar's Guilds</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SCHOLARS_ADJ">
+			<Text>Scholar's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SCHOLARS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Scholar's Guilds stand for the interests of the scholars. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_SCHOLARS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_SCHOLARS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SCHOLARS_FACTORS">
+			<Text>Trade Routes to Cultured City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SCHOLARS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_SCHOLARS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_SCHOLARS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SCHOLARS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SCHOLARS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms</Text>
+		</Row>
+		<!--MILITARY-->
+		<!--Military-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_DESC">
+			<Text>Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_SHORT_DESC">
+			<Text>Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_ADJ">
+			<Text>Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Military stands for the soldiers. Their [ICON_JFD_FACTION_POWER] Faction Power is based on {TXT_KEY_JFD_FACTION_JFD_MILITARY_FACTORS}{TXT_KEY_JFD_FACTION_JFD_MILITARY_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_FACTORS">
+			<Text>being at war with a major Civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MILITARY_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MILITARY_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MILITARY_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Diplomacy Reforms</Text>
+		</Row>
+		<!--MONASTIC-->
+		<!--Knights-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_KNIGHTS_DESC">
+			<Text>Knights</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_KNIGHTS_SHORT_DESC">
+			<Text>Knights</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_KNIGHTS_ADJ">
+			<Text>Knightly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_KNIGHTS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Knights stand for the livelihoods of the monastics. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_KNIGHTS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_KNIGHTS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_KNIGHTS_FACTORS">
+			<Text>Religious Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_KNIGHTS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_KNIGHTS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_KNIGHTS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_KNIGHTS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_KNIGHTS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<!--Monks-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MONKS_DESC">
+			<Text>Monks</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MONKS_SHORT_DESC">
+			<Text>Monks</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MONKS_ADJ">
+			<Text>Monastic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MONKS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Monks stand for the livelihoods of the lay. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_MONKS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_MONKS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MONKS_FACTORS">
+			<Text>Civilian Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MONKS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MONKS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MONKS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MONKS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MONKS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--NOMADIC-->
+		<!--Horde-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HORDE_DESC">
+			<Text>Horde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HORDE_SHORT_DESC">
+			<Text>Horde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HORDE_ADJ">
+			<Text>Horde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HORDE_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Horde stands for the nomadic way. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_HORDE_FACTORS}{TXT_KEY_JFD_FACTION_JFD_HORDE_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HORDE_FACTORS">
+			<Text>Horses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HORDE_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_HORDE_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_HORDE_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HORDE_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economic Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HORDE_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economic Reforms</Text>
+		</Row>
+		<!--Settlements-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_DESC">
+			<Text>Settlements</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_SHORT_DESC">
+			<Text>Settlements</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_ADJ">
+			<Text>Sedentary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Settlements stand for the sedentary way. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_FACTORS">
+			<Text>non-Puppeted Citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economic Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SETTLEMENTS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economic Reforms</Text>
+		</Row>
+		<!--Shamans-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SHAMANS_DESC">
+			<Text>Shamans</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SHAMANS_SHORT_DESC">
+			<Text>Shamans</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SHAMANS_ADJ">
+			<Text>Shamanic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SHAMANS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Shamans stand for the mystical way. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_SHAMANS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_SHAMANS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SHAMANS_FACTORS">
+			<Text>Faith output from Terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SHAMANS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_SHAMANS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_SHAMANS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SHAMANS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SHAMANS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<!--Tributaries-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_DESC">
+			<Text>Tributaries</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_SHORT_DESC">
+			<Text>Tributaries</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_ADJ">
+			<Text>Tributary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Tributaries stand for their own way. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_FACTORS}{TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_FACTORS">
+			<Text>Puppeted Citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRIBUTARIES_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms</Text>
+		</Row>
+		<!--REVOLUTIONARY-->
+		<!--Imperialists-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_DESC">
+			<Text>Imperialists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_SHORT_DESC">
+			<Text>Imperialists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_ADJ">
+			<Text>Imperialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Imperialists stand for the government. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_FACTORS">
+			<Text>Tradition, Honor, Piety, Exploration, Industry, Conservation Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Law Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIALISTS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Law Reforms</Text>
+		</Row>
+		<!--Republicans-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_DESC">
+			<Text>Republicans</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_SHORT_DESC">
+			<Text>Republicans</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_ADJ">
+			<Text>Republican</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Republicans stand for the republic. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_FACTORS">
+			<Text>Liberty, Patronage, Commerce, Aesthetics, Rationalism, Intrigue Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_REPUBLICANS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms</Text>
+		</Row>
+		<!--THEOCRATIC-->
+		<!--Priesthood-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_DESC">
+			<Text>Priesthood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_SHORT_DESC">
+			<Text>Priesthood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_ADJ">
+			<Text>Priesthood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Priesthood stand for the divine. Their [ICON_JFD_FACTION_POWER] Faction Power is based on {TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_FACTORS}{TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_FACTORS">
+			<Text>having your Religion be in the majority of your cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Religious Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRIESTHOOD_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Law Reforms</Text>
+		</Row>
+		<!--TRIBAL-->
+		<!--Elders-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ELDERS_DESC">
+			<Text>Elders</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ELDERS_SHORT_DESC">
+			<Text>Elders</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ELDERS_ADJ">
+			<Text>Elder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ELDERS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Elders stand for welfare interests. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_ELDERS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_ELDERS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ELDERS_FACTORS">
+			<Text>Cities connected to the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ELDERS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_ELDERS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_ELDERS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ELDERS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ELDERS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Healers-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEALERS_DESC">
+			<Text>Healers</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEALERS_SHORT_DESC">
+			<Text>Healers</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEALERS_ADJ">
+			<Text>Healer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEALERS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Healers stand for collective religious interests. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_HEALERS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_HEALERS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEALERS_FACTORS">
+			<Text>Cities following your Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEALERS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_HEALERS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_HEALERS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEALERS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HEALERS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<!--Messengers-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MESSENGERS_DESC">
+			<Text>Messengers</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MESSENGERS_SHORT_DESC">
+			<Text>Messengers</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MESSENGERS_ADJ">
+			<Text>Messenger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MESSENGERS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Messengers stand for collective diplomatic interests. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_MESSENGERS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_MESSENGERS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MESSENGERS_FACTORS">
+			<Text>City-State Friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MESSENGERS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MESSENGERS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MESSENGERS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MESSENGERS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Diplomacy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MESSENGERS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms</Text>
+		</Row>
+		<!--Traders-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRADERS_DESC">
+			<Text>Traders</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRADERS_SHORT_DESC">
+			<Text>Traders</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRADERS_ADJ">
+			<Text>Trader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRADERS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Traders stand for collective economic interests. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_TRADERS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_TRADERS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRADERS_FACTORS">
+			<Text>active Trade Routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRADERS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_TRADERS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_TRADERS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRADERS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Economy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TRADERS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms</Text>
+		</Row>
+		<!--Warriors-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_WARRIORS_DESC">
+			<Text>Warriors</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_WARRIORS_SHORT_DESC">
+			<Text>Warriors</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_WARRIORS_ADJ">
+			<Text>Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_WARRIORS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Warriors stand for collective military interests. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_WARRIORS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_WARRIORS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_WARRIORS_FACTORS">
+			<Text>active Wars.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_WARRIORS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_WARRIORS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_WARRIORS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_WARRIORS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_WARRIORS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<!--===================================================-->
+		<!--FACTIONS: UNIQUE-->
+		<!--===================================================-->
+		<!--CALIPHATE-->
+		<!--Dhimmi-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DHIMMI_DESC">
+			<Text>Dhimmi</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DHIMMI_SHORT_DESC">
+			<Text>Dhimmi</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DHIMMI_ADJ">
+			<Text>Dhimmi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DHIMMI_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Dhimmi stand for your religious minorities. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_DHIMMI_FACTORS}{TXT_KEY_JFD_FACTION_JFD_DHIMMI_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DHIMMI_FACTORS">
+			<Text>the number of followers of other Religions in your cities you have.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DHIMMI_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_DHIMMI_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_DHIMMI_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DHIMMI_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DHIMMI_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<!--Infidels-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INFIDELS_DESC">
+			<Text>Infidels</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INFIDELS_SHORT_DESC">
+			<Text>Infidels</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INFIDELS_ADJ">
+			<Text>Infidels</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INFIDELS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Infidels stand for the non-religious. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_INFIDELS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_INFIDELS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INFIDELS_FACTORS">
+			<Text>the number of followers of no [ICON_RELIGION] Religion in your cities you have.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INFIDELS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_INFIDELS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_INFIDELS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INFIDELS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INFIDELS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right/Left[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<!--Ummah-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_UMMAH_DESC">
+			<Text>Ummah</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_UMMAH_SHORT_DESC">
+			<Text>Ummah</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_UMMAH_ADJ">
+			<Text>Ummah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_UMMAH_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Ummah stand for your religious followers. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_UMMAH_FACTORS}{TXT_KEY_JFD_FACTION_JFD_UMMAH_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_UMMAH_FACTORS">
+			<Text>the number of followers of your Religion in your cities you have.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_UMMAH_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_UMMAH_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_UMMAH_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_UMMAH_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Education Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_UMMAH_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<!--HOLY ROMAN-->
+		<!--Imperial Crown-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_DESC">
+			<Text>Imperial Crown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_SHORT_DESC">
+			<Text>Imperial Crown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_ADJ">
+			<Text>Imperial Crown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Imperial Crown stands for political matters. Its [ICON_JFD_FACTION_POWER] is influenced by the following factor: [COLOR_POSITIVE_TEXT]{TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_FACTORS}{TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_FACTORS">
+			<Text>your Capital's Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Diplomacy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_CROWN_OPPOSED_LIST">
+			<Text>[ICON_BULLET]None</Text>
+		</Row>
+		<!--Prince-Electors-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_ELECTORATE_NAME_1">
+			<Text>Electorate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CAPTAINCY_NAME_1">
+			<Text>Captaincy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_FREE_CITY_NAME_1">
+			<Text>Free City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAGRAVATE_NAME_1">
+			<Text>Magraviate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_BISHOPRIC_NAME_1">
+			<Text>Bishopric</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_DESC">
+			<Text>Prince-Electorate</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_DESC">
+			<Text>Prince-Captaincy</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_DESC">
+			<Text>Imperial Magraviate</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_DESC">
+			<Text>Imperial Free City</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_DESC">
+			<Text>Prince-Bishopric</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_SHORT_DESC">
+			<Text>Electorate</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_SHORT_DESC">
+			<Text>Captaincy</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_SHORT_DESC">
+			<Text>Magraviate</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_SHORT_DESC">
+			<Text>Free City</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_SHORT_DESC">
+			<Text>Bishopric</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_ADJ">
+			<Text>Prince-Elector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_ADJ">
+			<Text>Prince-Captain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_ADJ">
+			<Text>Prince-Magrave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_ADJ">
+			<Text>Prince-Mayor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_ADJ">
+			<Text>Prince-Bishop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Prince-Electorate stands for societal matters. They are selected based on whoever amongst your Allied Cultured City-State has the [COLOR_POSITIVE_TEXT]highest [ICON_CITIZEN] Population[ENDCOLOR]. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_FACTORS}{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_FACTORS">
+			<Text>their Capital's Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_CULTURED_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Prince-Captaincy stands for welfare matters. They are selected based on whoever amongst your Allied Maritime City-State has the [COLOR_POSITIVE_TEXT]highest [ICON_CITIZEN] Population[ENDCOLOR]. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_FACTORS}{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_FACTORS">
+			<Text>their Capital's Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MARITIME_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Imperial Magraviate stands for military matters. They are selected based on whoever amongst your Allied Militaristic City-State has the [COLOR_POSITIVE_TEXT]highest [ICON_CITIZEN] Population[ENDCOLOR]. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_FACTORS}{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_FACTORS">
+			<Text>their Capital's Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MILITARISTIC_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Imperial Free City stands for economic matters. They are selected based on whoever amongst your Allied Mercantile City-State has the [COLOR_POSITIVE_TEXT]highest [ICON_CITIZEN] Population[ENDCOLOR]. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_FACTORS}{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_FACTORS">
+			<Text>their Capital's Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Economy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_MERCANTILE_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Prince-Bishopric stands for religious matters. They are selected based on whoever amongst your Allied Religious City-State has the [COLOR_POSITIVE_TEXT]highest [ICON_CITIZEN] Population[ENDCOLOR]. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_FACTORS">
+			<Text>their Capital's Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PRINCE_ELECTOR_RELIGIOUS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--MANDATE-->
+		<!--Imperial Mandate-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_DESC">
+			<Text>Heavenly Mandate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_SHORT_DESC">
+			<Text>Heavenly Mandate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_ADJ">
+			<Text>Heavenly Mandate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Heavenly Mandate stands for your mandate to rule.[NEWLINE]Its [ICON_JFD_FACTION_POWER] is influenced by the following factor: [COLOR_POSITIVE_TEXT]{TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_FACTORS}{TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_FACTORS">
+			<Text>having an active Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_IMPERIAL_MANDATE_OPPOSED_LIST">
+			<Text>[ICON_BULLET]None</Text>
+		</Row>
+		<!--MAMLUKE-->
+		<!--Emirs-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_EMIRS_DESC">
+			<Text>Emirs</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_EMIRS_SHORT_DESC">
+			<Text>Emirs</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_EMIRS_ADJ">
+			<Text>Emiral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_EMIRS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Emirs stands for the cities.[NEWLINE]Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_EMIRS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_EMIRS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_EMIRS_FACTORS">
+			<Text>the number of Cities without a Military Garrison you control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_EMIRS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_EMIRS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_EMIRS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_EMIRS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Industry Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_EMIRS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<!--Mamlukes-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAMLUKES_DESC">
+			<Text>Mamlukes</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAMLUKES_SHORT_DESC">
+			<Text>Mamlukes</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAMLUKES_ADJ">
+			<Text>Mamluke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAMLUKES_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Mamlukes stand for the military.[NEWLINE]Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_MAMLUKES_FACTORS}{TXT_KEY_JFD_FACTION_JFD_MAMLUKES_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAMLUKES_FACTORS">
+			<Text>the number of Cities with a Military Garrison you control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAMLUKES_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MAMLUKES_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_MAMLUKES_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAMLUKES_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_MAMLUKES_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Industry Reforms</Text>
+		</Row>
+		<!--PAPACY-->
+		<!--Cardinals-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_NAME_1">
+			<Text>Cardinal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_DESC">
+			<Text>Cardinals</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_SHORT_DESC">
+			<Text>Cardinals</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_ADJ">
+			<Text>Cardinal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Cardinal stands for economic matters. They are selected based on the Civilization following your Religion with the [COLOR_POSITIVE_TEXT]highest [ICON_GOLD] Total Gold[ENDCOLOR]. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FACTORS}{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FACTORS">
+			<Text>their Total [ICON_PEACE] Faith output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Economy Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_2_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Cardinal stands for educational matters. They are selected based on the Civilization following your Religion with the [COLOR_POSITIVE_TEXT]highest [ICON_RESEARCH] Total Science[ENDCOLOR]. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FACTORS}{TXT_KEY_JFD_FACTION_JFD_CARDINAL_2_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_2_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_2_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Education Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_2_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_3_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Cardinal stands for industrial matters. They are selected based on the Civilization following your Religion with the [COLOR_POSITIVE_TEXT]highest [ICON_PRODUCTION] Total Production[ENDCOLOR]. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FACTORS}{TXT_KEY_JFD_FACTION_JFD_CARDINAL_3_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_3_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_3_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Industry Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_3_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_4_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Cardinal stands for societal matters. They are selected based on the Civilization following your Religion with the [COLOR_POSITIVE_TEXT]highest [ICON_CULTURE] Total Culture[ENDCOLOR]. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FACTORS}{TXT_KEY_JFD_FACTION_JFD_CARDINAL_4_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_4_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_4_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Society Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_4_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_5_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]This Cardinal stands for welfare matters. They are selected based on the Civilization following your Religion with the [COLOR_POSITIVE_TEXT]highest [ICON_FOOD] Total Food[ENDCOLOR]. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FACTORS}{TXT_KEY_JFD_FACTION_JFD_CARDINAL_5_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_5_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CARDINAL_1_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_5_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CARDINAL_5_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<!--Holy See-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_DESC">
+			<Text>Holy See</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_SHORT_DESC">
+			<Text>Holy See</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_ADJ">
+			<Text>Holy See</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Holy See stands for religious matters. Its [ICON_JFD_FACTION_POWER] is influenced by the following factor: [COLOR_POSITIVE_TEXT]{TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_FACTORS}{TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_FACTORS">
+			<Text>your Total [ICON_PEACE] Faith output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OPPOSED_LIST">
+			<Text>[ICON_BULLET]None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_DESC">
+			<Text>Holy See</Text>
+			<Plurality>3</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_SHORT_DESC">
+			<Text>Holy See</Text>
+			<Plurality>3</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_ADJ">
+			<Text>Holy See</Text>
+			<Plurality>3</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Holy See stands for the Papacy. Its [ICON_JFD_SOVEREIGNTY] Sovereignty is influenced by the following factor: [COLOR_POSITIVE_TEXT]{TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_FACTORS}{TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_FACTORS">
+			<Text>the Total [ICON_PEACE] Faith output of the claimant of the Papacy Government when you share their main Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_HOLY_SEE_OTHER_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms</Text>
+		</Row>
+		<!--SHOGUNATE-->
+		<!--Daimyo-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DAIMYO_DESC">
+			<Text>Daimyo</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DAIMYO_SHORT_DESC">
+			<Text>Daimyo</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DAIMYO_ADJ">
+			<Text>Shogunal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DAIMYO_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Daimyo stands for military issues. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_DAIMYO_FACTORS}{TXT_KEY_JFD_FACTION_JFD_DAIMYO_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DAIMYO_FACTORS">
+			<Text>the Combat Strength of your cities outside the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DAIMYO_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_DAIMYO_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_DAIMYO_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DAIMYO_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Education[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Industry[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_DAIMYO_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Religion[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Society[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Tenno-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TENNO_DESC">
+			<Text>Tenno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TENNO_SHORT_DESC">
+			<Text>Tenno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TENNO_ADJ">
+			<Text>Imperial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TENNO_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Tenno stands for social issues. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_TENNO_FACTORS}{TXT_KEY_JFD_FACTION_JFD_TENNO_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TENNO_FACTORS">
+			<Text>your Capital's Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TENNO_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_TENNO_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_TENNO_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TENNO_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]ALL[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_TENNO_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Education[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Industry[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Military Reforms</Text>
+		</Row>
+		<!--===================================================-->
+		<!--FACTIONS: MULTI-PARTY-->
+		<!--===================================================-->
+		<!--Conservative-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_DESC">
+			<Text>Conservatives</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_SHORT_DESC">
+			<Text>Conservatives</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_ADJ">
+			<Text>Conservative</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Conservatives stand for preserving social values. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_FACTORS}{TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_FACTORS">
+			<Text>your Total Science output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_CONSERVATIVE_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Green-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_DESC">
+			<Text>Greens</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_SHORT_DESC">
+			<Text>Greens</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_ADJ">
+			<Text>Green</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Greens stand for preserving nature. Their [ICON_JFD_FACTION_POWER] is influenced by: {TXT_KEY_JFD_FACTION_JFD_GREEN_FACTORS}{TXT_KEY_JFD_FACTION_JFD_GREEN_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_FACTORS">
+			<Text>your Total Production output across all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_GREEN_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_GREEN_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_GREEN_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Liberal-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_DESC">
+			<Text>Liberals</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_SHORT_DESC">
+			<Text>Liberals</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_ADJ">
+			<Text>Liberal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Liberals stand for upholding social freedom. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_LIBERAL_FACTORS}{TXT_KEY_JFD_FACTION_JFD_LIBERAL_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_FACTORS">
+			<Text>your Total Culture output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_LIBERAL_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_LIBERAL_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERAL_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Libertarians-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_DESC">
+			<Text>Libertarians</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_SHORT_DESC">
+			<Text>Libertarians</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_ADJ">
+			<Text>Libertarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Libertarians stand for upholding economic freedom. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_FACTORS}{TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_FACTORS">
+			<Text>your Total Food excess across all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_LIBERTARIAN_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Nationalists-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_DESC">
+			<Text>Nationalists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_SHORT_DESC">
+			<Text>Nationalists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_ADJ">
+			<Text>Nationalist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Nationalists stand for reifying the nation. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_NATIONALIST_FACTORS}{TXT_KEY_JFD_FACTION_JFD_NATIONALIST_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_FACTORS">
+			<Text>your Total Tourism output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_NATIONALIST_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_NATIONALIST_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONALIST_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Religionist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_DESC">
+			<Text>Religionists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_SHORT_DESC">
+			<Text>Religionists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_ADJ">
+			<Text>Religious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Religionists stand for maintaining religious belief. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_FACTORS}{TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_FACTORS">
+			<Text>your Total Faith output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_RELIGIOUS_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Socialist-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_DESC">
+			<Text>Socialists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_SHORT_DESC">
+			<Text>Socialists</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_ADJ">
+			<Text>Socialist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Socialists stand for maintaining social welfare. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_SOCIALIST_FACTORS}{TXT_KEY_JFD_FACTION_JFD_SOCIALIST_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_FACTORS">
+			<Text>your Total Gold output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_SOCIALIST_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_SOCIALIST_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIALIST_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--Social Democratic-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_DESC">
+			<Text>Social Democrats</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_SHORT_DESC">
+			<Text>Social Democrats</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_ADJ">
+			<Text>Social Democratic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Social Democrats stand for promoting social equality. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_FACTORS}{TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_FACTORS">
+			<Text>your Total Food consumption across all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_SOCIAL_DEMOCRATIC_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Government Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Law Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Diplomacy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Economy Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Education Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Industry Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Military Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Religion Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Society Reforms[NEWLINE][ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Welfare Reforms</Text>
+		</Row>
+		<!--===================================================-->
+		<!--FACTIONS: TWO-PARTY-->
+		<!--===================================================-->
+		<!--Independent
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_DESC">
+			<Text>Independents</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_SHORT_DESC">
+			<Text>Independents</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_ADJ">
+			<Text>Independent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Independents stand for the power of their party. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_FACTORS}{TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_HELP_NEUTRALITY">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Independents stand for the party. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_NATIONAL_FACTORS_NEUTRALITY}{TXT_KEY_JFD_FACTION_JFD_NATIONAL_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_FACTORS">
+			<Text>[NEWLINE][ICON_BULLET]Cities with an equal amount of [ICON_FOOD] [ICON_PRODUCTION] [ICON_GOLD] [ICON_CULTURE] [ICON_PEACE] and [ICON_RESEARCH] output
+			[NEWLINE][ICON_BULLET]Each City's [ICON_CITIZEN] Population
+			[NEWLINE][ICON_BULLET]Other Factions' [ICON_JFD_SOVEREIGNTY] Sovereignty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_FACTORS_NEUTRALITY">
+			<Text>[NEWLINE][ICON_BULLET]Cities with an equal amount of [ICON_FOOD] [ICON_PRODUCTION] [ICON_GOLD] [ICON_CULTURE] [ICON_PEACE] and [ICON_RESEARCH] output
+			[NEWLINE][ICON_BULLET]{TXT_KEY_POLICY_BRANCH_JFD_NEUTRALITY} Tenets
+			[NEWLINE][ICON_BULLET]Each City's [ICON_CITIZEN] Population
+			[NEWLINE][ICON_BULLET]Other Factions' [ICON_JFD_SOVEREIGNTY] Sovereignty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Centre[ENDCOLOR] Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_INDEPENDENT_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left/Right[ENDCOLOR] Reforms</Text>
+		</Row>-->
+		<!--National-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_DESC">
+			<Text>Nationals</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_SHORT_DESC">
+			<Text>Nationals</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_ADJ">
+			<Text>National</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Nationals stand for the power of the state. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_NATIONAL_FACTORS}{TXT_KEY_JFD_FACTION_JFD_NATIONAL_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_FACTORS">
+			<Text>your Total Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_NATIONAL_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_NATIONAL_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_NATIONAL_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Reforms</Text>
+		</Row>
+		<!--Progressive-->
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_DESC">
+			<Text>Progressives</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_SHORT_DESC">
+			<Text>Progressives</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_ADJ">
+			<Text>Progressive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_HELP">
+			<Text>[COLOR_JFD_FACTION_POWER]The {1_Desc}[ENDCOLOR][NEWLINE]--------[NEWLINE]The Progressives stand for the power of the people. Their [ICON_JFD_FACTION_POWER] Faction Power is influenced by your {TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_FACTORS}{TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_OPINIONS}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_FACTORS">
+			<Text>your Total Unhappiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_OPINIONS">
+			<Text>{TXT_KEY_JFD_FACTION_FAVOURED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_FAVOURED_LIST}{TXT_KEY_JFD_FACTION_OPPOSED}[NEWLINE]{TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_OPPOSED_LIST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_FAVOURED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Left[ENDCOLOR] Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_JFD_PROGRESSIVE_OPPOSED_LIST">
+			<Text>[ICON_BULLET][COLOR_JFD_FACTION_POWER]Right[ENDCOLOR] Reforms</Text>
+		</Row>
+		<!--===================================================-->
+		<!--GOVERNMENTS: PRIMITIVE-->
+		<!--===================================================-->
+		<!--ANARCHY-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_ANARCHY_DESC">
+			<Text>Anarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_ANARCHY_TEXT">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_ANARCHY_LEADER_TITLE">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_ANARCHY_LEADER_TITLE_FEMALE">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_ANARCHY_STATE_TITLE">
+			<Text></Text>
+		</Row>
+		<!--POLIS-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_POLIS_DESC">
+			<Text>Polis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_POLIS_TEXT">
+			<Text>Polis literally means city in Greek. It defined the administrative and religious city center, as distinct from the rest of the city. It can also mean a body of citizens. In modern historiography, polis is normally used to indicate the ancient Greek city-states, like Classical Athens and its contemporaries, and thus is often translated as "city-state". These cities consisted of a fortified city centre (asty) built on an acropolis or harbor and controlled surrounding territories of land. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_POLIS_LEADER_TITLE">
+			<Text>Lord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_POLIS_LEADER_TITLE_FEMALE">
+			<Text>Lord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_POLIS_STATE_TITLE">
+			<Text>City</Text>
+		</Row>
+		<!--TRIBE-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_DESC">
+			<Text>Tribe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_TEXT">
+			<Text>The term tribe is used in many different contexts to refer to a category of human social group. The predominant usage of the term is in the discipline of anthropology. The definition is contested, in part due to conflicting theoretical understandings of social and kinship structures, and also reflecting the problematic application of this concept to extremely diverse human societies. The concept is often contrasted by anthropologists with other social and kinship groups, being hierarchically larger than a lineage or clan, but smaller than a chiefdom, nation or state. These terms are equally disputed. In some cases tribes have legal recognition and some degree of political autonomy from national or federal government, but this legalistic usage of the term may conflict with anthropological definitions. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_LEADER_TITLE">
+			<Text>Chieftain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_LEADER_TITLE_FEMALE">
+			<Text>Chieftainess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBE_STATE_TITLE">
+			<Text>Tribe</Text>
+		</Row>
+		<!--===================================================-->
+		<!--GOVERNMENTS: ADVANCED-->
+		<!--===================================================-->
+		<!--MONARCHY-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_DESC">
+			<Text>Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_HELP">
+			<Text>Government is a private matter.[NEWLINE][ICON_BULLET]+25% [ICON_JFD_SOVEREIGNTY] from fulfilling Legitimacies.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_CLERGY][ICON_JFD_FACTION_NOBILITY] [ICON_JFD_FACTION_BOURGEOISIE] [ICON_JFD_FACTION_COMMONS]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_TEXT">
+			<Text>A monarchy is a form of government in which a person, the monarch, is head of state until death or abdication. The legitimation and governing power of the monarch may vary from purely symbolic (crowned republic), to restricted (constitutional monarchy), to fully autocratic (absolute monarchy), combining executive, legislative and judicial power. In most cases, the succession of monarchies is hereditary, but there are also elective and self-proclaimed monarchies, often building dynastic periods. Aristocrats, though not inherent to monarchies, often serve as the pool of persons to draw the monarch from and fill the constituting institutions (e.g. diet and court), giving many monarchies oligarchic elements. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_FEMALE">
+			<Text>Queen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONARCHY_STATE_TITLE">
+			<Text>Kingdom</Text>
+		</Row>
+		<!--PRINCIPALITY-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_DESC">
+			<Text>Principality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_HELP">
+			<Text>Government is a privileged matter.[NEWLINE][ICON_BULLET]Reforms require 10% less [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_MAGNATES] [ICON_JFD_FACTION_CITIZENS] [ICON_JFD_FACTION_PEASANTS]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_TEXT">
+			<Text>A principality can either be a monarchical feudatory or a sovereign state, ruled or reigned over by a monarch with the title of prince or by a monarch with another title considered to fall under the generic meaning of the term prince. Most of these states have historically been a polity, but in some occasions were rather territories in respect of which a princely title is held. The prince's estate and wealth may be located mainly or wholly outside the geographical confines of the principality. The term principality is also sometimes used generically for any small monarchy, especially for small sovereign states ruled by a monarch of a lesser rank than a king.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_LEADER_TITLE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_LEADER_TITLE_FEMALE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PRINCIPALITY_STATE_TITLE">
+			<Text>Principality</Text>
+		</Row>
+		<!--REPUBLIC-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_DESC">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_HELP">
+			<Text>Government is a common matter.[NEWLINE][ICON_BULLET]-50% [ICON_JFD_LEGISLATURE_COOLDOWN] Legislature Cooldown.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_OLIGARCHS] [ICON_JFD_FACTION_POPULISTS]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_TEXT">
+			<Text>A republic is a form of government in which the country is considered a "public matter", not the private concern or property of the rulers. The primary positions of power within a republic are attained, through democracy, oligarchy, autocracy, or a mix thereof, rather than being unalterably occupied. As such it has become the opposing form of government to a monarchy and has therefore no monarch as head of state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE">
+			<Text>Lawspeaker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_FEMALE">
+			<Text>Lawspeaker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REPUBLIC_STATE_TITLE">
+			<Text>Republic</Text>
+		</Row>
+		<!--===================================================-->
+		<!--GOVERNMENTS: SPECIAL-->
+		<!--===================================================-->
+		<!--IMPERIAL-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_IMPERIAL_DESC">
+			<Text>Imperial Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_IMPERIAL_HELP">
+			<Text>Government is a dynastic matter.[NEWLINE][ICON_BULLET]Your dominant Faction is 25% stronger.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_MAGISTRATES] [ICON_JFD_FACTION_HEIRS] [ICON_JFD_FACTION_BUREAUCRATS] [ICON_JFD_FACTION_GENERALS]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_IMPERIAL_TEXT">
+			<Text>A dynasty is a sequence of rulers from the same family, usually in the context of a feudal or monarchical system, but sometimes also appearing in elective republics. Alternative terms for "dynasty" may include "house", "family" and "clan", among others. The longest-surviving dynasty in the world is the Imperial House of Japan, otherwise known as the Yamato dynasty, whose reign is traditionally dated to 660 BC. The dynastic family or lineage may be known as a "noble house", which may be styled as "imperial", "royal", "princely", "ducal", "comital", "baronial" etc., depending upon the chief or present title borne by its members. Until the 19th century, it was taken for granted that a legitimate function of a monarch was to aggrandize his dynasty: that is, to expand the wealth and power of his family members.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_IMPERIAL_LEADER_TITLE">
+			<Text>Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_IMPERIAL_LEADER_TITLE_FEMALE">
+			<Text>Empress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_IMPERIAL_STATE_TITLE">
+			<Text>Empire</Text>
+		</Row>
+		<!--MERCHANT-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MERCHANT_DESC">
+			<Text>Merchant League</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MERCHANT_HELP">
+			<Text>Government is a commercial matter.[NEWLINE][ICON_BULLET]Receive +1 [ICON_JFD_REFORM] Reform Capacity every time you research a Technology that unlocks a new Trade Route slot.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_MERCHANTS] [ICON_JFD_FACTION_ARMOURERS] [ICON_JFD_FACTION_SCHOLARS] [ICON_JFD_FACTION_ARISTOCRATS] [ICON_JFD_FACTION_ABBOTS]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MERCHANT_TEXT">
+			<Text>More commonly referred to as a commercial league, a merchant confederation was created to protect the economic interests and diplomatic privileges of merchants in cities and kingdoms along trade routes. Although such confederations rarely had official standing, several – such as the Company of Merchant Adventurers of London (founded in 1407 AD) and the even more powerful Hanseatic League (formed c. 1356) – had enormous influence. These, and others, could dominate the trade in a specific commodity or across a specific region for lengthy periods. These merchant confederations would reach their peak during the 15th and 16th centuries, but rapidly decline afterward. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MERCHANT_LEADER_TITLE">
+			<Text>Mayor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MERCHANT_LEADER_TITLE_FEMALE">
+			<Text>Mayoress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MERCHANT_STATE_TITLE">
+			<Text>League</Text>
+		</Row>
+		<!--MILITARY-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MILITARY_DESC">
+			<Text>Military Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MILITARY_HELP">
+			<Text>Government is a military matter.[NEWLINE][ICON_BULLET]Reform Capacity is increased by 50% whilst at war with a major Civilization.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_MILITARY]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MILITARY_TEXT">
+			<Text>A military dictatorship, also known as a military junta, is a dictatorship in which the military exerts complete or substantial control over political authority, and the dictator is often a high-ranked military officer. In the past, military juntas have justified their rule as a way of bringing political stability for the nation or rescuing it from the threat of "dangerous ideologies". For example, the threat of communism, socialism, and Islamism was often used. Military regimes tend to portray themselves as non-partisan, as a "neutral" party that can provide interim leadership in times of turmoil, and also tend to portray civilian politicians as corrupt and ineffective. One of the almost universal characteristics of a military government is the institution of martial law or a permanent state of emergency. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MILITARY_LEADER_TITLE">
+			<Text>Dictator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MILITARY_LEADER_TITLE_FEMALE">
+			<Text>Dictator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MILITARY_STATE_TITLE">
+			<Text>State</Text>
+		</Row>
+		<!--MONASTIC-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONASTIC_DESC">
+			<Text>Monastic Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONASTIC_HELP">
+			<Text>Government is a monastic matter.[NEWLINE][ICON_BULLET]Military and Religion Reforms cost 25% less [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_KNIGHTS] [ICON_JFD_FACTION_MONKS]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONASTIC_TEXT">
+			<Text>The State of the Teutonic Order in German, was a crusader state formed by the knights of the Teutonic Order during the 13th century Northern Crusades along the Baltic Sea. The state was based in Prussia after the Order's conquest of the Pagan Old Prussians. It expanded to include at various times Courland, Gotland, Livonia, Neumark, Pomerelia and Samogitia. Its territory was in the modern countries of Estonia, Latvia, Lithuania, Germany, Poland, Russia and Sweden (Gotland). Most of the territory was conquered by military orders, after which German colonization occurred to varying effect. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONASTIC_LEADER_TITLE">
+			<Text>Grand Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONASTIC_LEADER_TITLE_FEMALE">
+			<Text>Grand Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MONASTIC_STATE_TITLE">
+			<Text>Monastic State</Text>
+		</Row>
+		<!--NOMADIC-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_NOMADIC_DESC">
+			<Text>Nomadic Horde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_NOMADIC_HELP">
+			<Text>Government is a nomadic matter.[NEWLINE][ICON_BULLET]Cities decrease your [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown by 15% less.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_HORDE] [ICON_JFD_FACTION_SETTLEMENTS] [ICON_JFD_FACTION_TRIBUTARIES] [ICON_JFD_FACTION_SHAMANS]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_NOMADIC_TEXT">
+			<Text>Nomadic empires, sometimes also called steppe empires, Central or Inner Asian empires, were the empires erected by the bow-wielding, horse-riding, nomadic people in the Eurasian steppe, from classical antiquity (Scythia) to the early modern era (Dzungars). They are the most prominent example of non-sedentary polities. Some nomadic empires consolidated by establishing a capital city inside a conquered sedentary state and then exploiting the existing bureaucrats and commercial resources of that non-nomadic society. In such a scenario, the originally nomadic dynasty may become culturally assimilated to the culture of the occupied nation before it is ultimately overthrown. Ibn Khaldun (1332–1406) described a similar cycle on a smaller scale in 1377 in his Asabiyyah theory. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_NOMADIC_LEADER_TITLE">
+			<Text>Warlord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_NOMADIC_LEADER_TITLE_FEMALE">
+			<Text>Warlord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_NOMADIC_STATE_TITLE">
+			<Text>Horde</Text>
+		</Row>
+		<!--REVOLUTIONARY-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REVOLUTIONARY_DESC">
+			<Text>Revolutionary State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REVOLUTIONARY_HELP">
+			<Text>Government is a revolutionary matter.[NEWLINE][ICON_BULLET]No [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment and changing away from this Government does not incur [ICON_RESISTANCE] Anarchy.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_REPUBLICANS] [ICON_JFD_FACTION_IMPERIALISTS]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REVOLUTIONARY_TEXT">
+			<Text>A revolutionary republic is a form of government whose main tenets are popular sovereignty, rule of law, and representative democracy. It is based in part on the ideas of Whig and Enlightenment thinkers, and was favored by revolutionaries during the Age of Revolution. A revolutionary republic tends to arise from the formation of a provisional government after the overthrow of an existing state and political regime. It often takes the form of a revolutionary state, which represents the will of its constituents.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REVOLUTIONARY_LEADER_TITLE">
+			<Text>Deputy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REVOLUTIONARY_LEADER_TITLE_FEMALE">
+			<Text>Deputy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_REVOLUTIONARY_STATE_TITLE">
+			<Text>Revolutionary State</Text>
+		</Row>
+		<!--THEOCRATIC-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRATIC_DESC">
+			<Text>Theocratic State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRATIC_HELP">
+			<Text>Government is a religious matter.[NEWLINE][ICON_BULLET]Passing Religious Reforms incurs 50% less [ICON_JFD_REFORM_COOLDOWN] Reform Cooldown.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_PRIESTHOOD]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRATIC_TEXT">
+			<Text>Theocracy is a form of government in which God or a deity of some type is recognized as the supreme ruling authority, giving divine guidance to human intermediaries that manage the day to day affairs of the government. The term was initially coined by Flavius Josephus in the first century A.D. to describe the characteristic government of the Jews. Josephus argued that while mankind had developed many forms of rule, most could be subsumed under the following three types: monarchy, oligarchy, and democracy. The government of the Jews, however, was unique. Josephus offered the term "theocracy" to describe this polity, ordained by Moses, in which God is sovereign and his word is law.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRATIC_LEADER_TITLE">
+			<Text>High Priest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRATIC_LEADER_TITLE_FEMALE">
+			<Text>High Priestess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_THEOCRATIC_STATE_TITLE">
+			<Text>Holy State</Text>
+		</Row>
+		<!--TOTALITARIAN-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TOTALITARIAN_DESC">
+			<Text>Totalitarian Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TOTALITARIAN_HELP">
+			<Text>Government is a personal matter.[NEWLINE][ICON_BULLET]Your Interest Faction is always dominant.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_COMMUNIST] [ICON_JFD_FACTION_FASCIST] [ICON_JFD_FACTION_RADICALIST] [ICON_JFD_FACTION_THIRD_POSITIONIST] [ICON_JFD_FACTION_ULTRANATIONALIST]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TOTALITARIAN_TEXT">
+			<Text>Totalitarianism is a political system or a form of government that prohibits opposition parties, restricts individual opposition to the state and its claims, and exercises an extremely high degree of control over public and private life. It is regarded as the most extreme and complete form of authoritarianism. In totalitarian states, political power has often been held by autocrats who employ all-encompassing campaigns in which propaganda is broadcast by state-controlled mass media.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TOTALITARIAN_LEADER_TITLE">
+			<Text>Dictator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TOTALITARIAN_LEADER_TITLE_FEMALE">
+			<Text>Dictator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TOTALITARIAN_STATE_TITLE">
+			<Text>State</Text>
+		</Row>
+		<!--TRIBAL-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBAL_DESC">
+			<Text>Tribal Confederacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBAL_HELP">
+			<Text>Government is a communal matter.[NEWLINE][ICON_BULLET]Active Councillors reduce Reform requirements by 15% more.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_ELDERS] [ICON_JFD_FACTION_HEALERS] [ICON_JFD_FACTION_WARRIORS] [ICON_JFD_FACTION_MESSENGERS] [ICON_JFD_FACTION_TRADERS]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBAL_TEXT">
+			<Text>The term tribe is used in many different contexts to refer to a category of human social group. The predominant usage of the term is in the discipline of anthropology. The definition is contested, in part due to conflicting theoretical understandings of social and kinship structures, and also reflecting the problematic application of this concept to extremely diverse human societies. The concept is often contrasted by anthropologists with other social and kinship groups, being hierarchically larger than a lineage or clan, but smaller than a chiefdom, nation or state. These terms are equally disputed. In some cases tribes have legal recognition and some degree of political autonomy from national or federal government, but this legalistic usage of the term may conflict with anthropological definitions. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBAL_LEADER_TITLE">
+			<Text>Chief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBAL_LEADER_TITLE_FEMALE">
+			<Text>Chieftess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_TRIBAL_STATE_TITLE">
+			<Text>Confederacy</Text>
+		</Row>
+		<!--===================================================-->
+		<!--GOVERNMENTS: UNIQUE-->
+		<!--===================================================-->
+		<!--CALIPHATE-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_CALIPHATE_DESC">
+			<Text>Caliphate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_CALIPHATE_HELP">
+			<Text>Government is a guided matter.[NEWLINE][ICON_BULLET]Religious Reforms that you pass do not count toward your [ICON_JFD_REFORM] Reform Capacity.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_DHIMMI] [ICON_JFD_FACTION_INFIDELS] [ICON_JFD_FACTION_UMMAH]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_CALIPHATE_TEXT">
+			<Text>A caliphate is an Islamic state under the leadership of an Islamic steward with the title of caliph, a person considered a politico-religious successor to the Islamic prophet Muhammad and a leader of the entire ummah (Muslim community). Historically, the caliphates were polities based on Islam which developed into multi-ethnic trans-national empires. During the medieval period, three major caliphates succeeded each other: the Rashidun Caliphate (632-661), the Umayyad Caliphate (661-750) and the Abbasid Caliphate (750-1258). In the fourth major caliphate, the Ottoman Caliphate, the rulers of the Ottoman Empire claimed caliphal authority from 1517. During the history of Islam, a few other Muslim states, almost all hereditary monarchies, have claimed to be caliphates.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_CALIPHATE_LEADER_TITLE">
+			<Text>Caliph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_CALIPHATE_LEADER_TITLE_FEMALE">
+			<Text>Calipha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_CALIPHATE_STATE_TITLE">
+			<Text>The {1_Desc} Caliphate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_CALIPHATE_STATE_TITLE_ALT">
+			<Text>The Caliphate</Text>
+		</Row>
+		<!--HOLY ROMAN-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROMAN_DESC">
+			<Text>Holy Roman Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROMAN_HELP">
+			<Text>Government is an imperial matter.[NEWLINE][ICON_BULLET]The [ICON_JFD_FACTION_IMPERIAL_CROWN] Imperial Crown Faction is twice as likely to become dominant.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_IMPERIAL_CROWN] [ICON_JFD_FACTION_PRINCE_CAPTAIN] [ICON_JFD_FACTION_PRINCE_BISHOP] [ICON_JFD_FACTION_PRINCE_ELECTOR] [ICON_JFD_FACTION_PRINCE_MAGRAVE] [ICON_JFD_FACTION_PRINCE_MAYOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROMAN_TEXT">
+			<Text>The Holy Roman Empire was a multi-ethnic complex of territories in Western and Central Europe that developed during the Early Middle Ages and continued until its dissolution in 1806 during the Napoleonic Wars. The largest territory of the empire after 962 was the Kingdom of Germany, though it also included the neighboring Kingdom of Bohemia and Kingdom of Italy, plus numerous other territories, and soon after the Kingdom of Burgundy was added. Its size gradually diminished over time, particularly from 1648 onward, and by the time of its dissolution, it largely contained only German-speaking territories (although Switzerland and East Prussia were not included), plus the Kingdom of Bohemia which was bordered by the German lands on three sides. At the conclusion of the Napoleonic Wars in 1815, most of the Holy Roman Empire was included in the German Confederation. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROMAN_LEADER_TITLE">
+			<Text>Holy Roman Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROMAN_LEADER_TITLE_FEMALE">
+			<Text>Holy Roman Empress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_HOLY_ROMAN_STATE_TITLE">
+			<Text>The Holy Roman Empire</Text>
+		</Row>
+		<!--MANDATE-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MANDATE_DESC">
+			<Text>Mandate of Heaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MANDATE_HELP">
+			<Text>Government is a celestial matter.[NEWLINE][ICON_BULLET]During a [ICON_GOLDEN_AGE] Golden Age, +50% boost to your sources of [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_IMPERIAL_MANDATE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MANDATE_TEXT">
+			<Text>The Mandate of Heaven is a Chinese political and religious doctrine used since ancient times to justify the rule of the King or Emperor of China. According to this belief, Heaven - which embodies the natural order and will of the universe - bestows the mandate on a just ruler of China, the "Son of Heaven" of the "Celestial Empire". If a ruler was overthrown, this was interpreted as an indication that the ruler was unworthy, and had lost the mandate. It was also a common belief that natural disasters such as famine and flood were divine retributions bearing signs of Heaven's displeasure with the ruler, so there would often be revolts following major disasters as the people saw these calamities as signs that the Mandate of Heaven had been withdrawn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MANDATE_LEADER_TITLE">
+			<Text>Celestial Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MANDATE_LEADER_TITLE_FEMALE">
+			<Text>Celestial Empress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MANDATE_STATE_TITLE">
+			<Text>Celestial Empire</Text>
+		</Row>
+		<!--MAMLUKE-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MAMLUKE_DESC">
+			<Text>Mamluke Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MAMLUKE_HELP">
+			<Text>Government is a caste matter.[NEWLINE][ICON_BULLET]Cities with a Military Garrison increase the cost of exceeding your [ICON_JFD_REFORM] Reform Capacity by 10% less.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_MAMLUKES] [ICON_JFD_FACTION_EMIRS]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MAMLUKE_TEXT">
+			<Text>Mamluk is a term most commonly refer either to non-Muslim slave soldiers, freed slaves Muslim converts assigned to military and administrative duties, and Muslim rulers of slave origin. The most enduring Mamluk realm was the knightly military class in Egypt in the Middle Ages, which developed from the ranks of slave soldiers. These were mostly enslaved Turkic peoples, Egyptian Copts, Circassians, Abkhazians, and Georgians. Many Mamluks were also of Balkan origin (Albanians, Greeks, and South Slavs). The "mamluk phenomenon", as David Ayalon dubbed the creation of the specific warrior class, was of great political importance; for one thing, it endured for nearly 1,000 years, from the ninth to the nineteenth centuries. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MAMLUKE_LEADER_TITLE">
+			<Text>Malik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MAMLUKE_LEADER_TITLE_FEMALE">
+			<Text>Malika</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MAMLUKE_STATE_TITLE">
+			<Text>Mamluke Dynasty</Text>
+		</Row>
+		<!--PAPACY-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PAPACY_DESC">
+			<Text>Papacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PAPACY_HELP">
+			<Text>Government is an apostolic matter.[NEWLINE][ICON_BULLET]The Holy See Faction is active in the Legislatures of Civilizations following your Religion, with its [ICON_JFD_FACTION_POWER] Faction Power being based on your [ICON_PEACE] Faith. For each foreign Legislature that the Holy See is dominant in, receive +10 [ICON_JFD_SOVEREIGNTY] Max Sovereignty.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_HOLY_SEE] [ICON_JFD_FACTION_CARDINAL]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PAPACY_TEXT">
+			<Text>The Pope, also known as the Supreme Pontiff (Pontifex Maximus), or the Roman Pontiff (Romanum Pontificem), is the Bishop of Rome, leader of the worldwide Catholic Church, and head of state representing the Holy See. While his office is called the papacy, the jurisdiction of the episcopal see is called the Holy See. It is the Holy See that is the sovereign entity by international law headquartered in the distinctively independent Vatican City State, established by the Lateran Treaty in 1929 between Italy and the Holy See to ensure its temporal, diplomatic, and spiritual independence. The primacy of the bishop of Rome is largely derived from his role as the apostolic successor to Saint Peter, to whom primacy was conferred by Jesus, giving him the Keys of Heaven and the powers of "binding and loosing", naming him as the "rock" upon which the church would be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PAPACY_LEADER_TITLE">
+			<Text>Pope</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PAPACY_LEADER_TITLE_FEMALE">
+			<Text>Papess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_PAPACY_STATE_TITLE">
+			<Text>The See of {1_Desc}</Text>
+		</Row>
+		<!--SHOGUNATE-->
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_DESC">
+			<Text>Shogunate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_HELP">
+			<Text>Government is a martial matter.[NEWLINE][ICON_BULLET]Your [ICON_JFD_LEGISLATURE] Legislature resets only at the beginning of each new Era.[NEWLINE][ICON_BULLET]Factions: [ICON_JFD_FACTION_TENNO] [ICON_JFD_FACTION_DAIMYO]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_TEXT">
+			<Text>The Tokugawa Shogunate was the feudal military government of Japan during the Edo period from 1600 to 1868. It was established by Tokugawa Ieyasu after victory at the Battle of Sekigahara, ending the civil wars of the Sengoku period following the collapse of the Ashikaga Shogunate. Ieyasu became the Shogun and the Tokugawa clan governed Japan from Edo Castle in the eastern city of Edo (Tokyo) along with the daimyo lords of the samurai class. The Tokugawa Shogunate organized Japanese society under the strict Tokugawa class system and banned most foreigners under the isolationist policies of Sakoku to promote political stability. The Tokugawa Shogunate declined during the Bakumatsu ("Opening of Japan") period from 1853 and overthrown by supporters of the Imperial Court in the Meiji Restoration in 1868. The Empire of Japan was established under the Meiji government and Tokugawa loyalists continued to fight in the Boshin War until the defeat of the Republic of Ezo at the Battle of Hakodate in June 1869.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_LEADER_TITLE">
+			<Text>Shogun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_LEADER_TITLE_FEMALE">
+			<Text>Shogun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_SHOGUNATE_STATE_TITLE">
+			<Text>The {1_Desc} Shogunate</Text>
+		</Row>
+		<!--===================================================-->
+		<!--TECHNOLOGIES-->
+		<!--===================================================-->
+		<!--Banking-->
+		<Replace Tag="TXT_KEY_TECH_BANKING_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Bank[ENDCOLOR], a building which increases the [ICON_GOLD] Gold produced by a city.</Text>
+		</Replace>
+		<!--Code of Laws-->
+		<Row Tag="TXT_KEY_TECH_JFD_CODE_OF_LAWS_TITLE">
+			<Text>Code of Laws</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CODE_OF_LAWS_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Magistrate's Court[ENDCOLOR], a building that makes it easier to pass [ICON_JFD_REFORM] Political Reforms if you have a Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CODE_OF_LAWS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"If you have ten thousand regulations you destroy all respect for the law."[NEWLINE] - Sir Winston Churchill[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CODE_OF_LAWS_DESC">
+			<Text>A code of laws is the recorded collection of the system of laws that govern a community. The most illustrious of these in history is Babylon's "Code of Hammurabi," which bore the phrase "lex talionis" or, "an eye for an eye," but the Roman Empire is renown for its extensive and complex legal codex, from which many of today's civil law legal systems are derived. Most nations today possess a codified legal system - there are only two exceptions: the United Kingdom and New Zealand.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_CODE_OF_LAWS_EFFECT">
+			<Text>Allows you to establish a Government.</Text>
+		</Row>
+		<!--Jurisprudence-->
+		<Row Tag="TXT_KEY_TECH_JFD_JURISPRUDENCE_TITLE">
+			<Text>Jurisprudence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_JURISPRUDENCE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"There is no crueler tyranny than that which is perpetuated under the shield of law and in the name of justice." - Charles de Montesquieu[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_JURISPRUDENCE_DESC">
+			<Text>Jurisprudence, study of the nature and the origin and development of law. It is variously regarded as a branch of ethics or of sociology. Many of the major systematic philosophers (e.g., Aristotle, St. Thomas Aquinas, and Kant) have expounded jurisprudential theories. Before the 19th cent. most jurisprudents adhered to natural law, which maintained that sound legal doctrine was derivable only from a supposed law of nature established by divine ordinance. The natural-law school did not deny that the details of legal regulation depended upon the will of the sovereign. However, the positivist, or analytical, school, which first became important in the late 18th cent., insisted that law was entirely a matter of sovereign decree, distinct from morality and theology. Among important 19th-century trends was the view, represented by Savigny, that a people's legal system expressed the national spirit. In the mid-19th cent. many jurisprudents attempted to avoid what they felt were theoretical preconceptions and to demonstrate a uniform evolution from primitive times to modern industrialized society. Other thinkers were skeptical of evolutionary explanations and sought the basic principles underlying all systems of law in various fields, including economics and psychology. Among the more important legal thinkers in the United States have been Learned Hand, Oliver Wendell Holmes, and Roscoe Pound.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_JURISPRUDENCE_HELP">
+			<Text>Allows you to construct the [COLOR_POSITIVE_TEXT]Constabulary[ENDCOLOR], which decreases [ICON_CRIMES_JFD_BLACK] Crime and which hinders a spies' ability to steal your technology. Also allows you to construct the [COLOR_POSITIVE_TEXT]High Court[ENDCOLOR], which increases [ICON_PRODUCTION] Production when constructing Buildings.</Text>
+		</Row>
+		<!--Nobility-->
+		<Row Tag="TXT_KEY_TECH_JFD_NOBILITY_TITLE">
+			<Text>Nobility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NOBILITY_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I will to my lord be true and faithful and love all which he loves and shun all which he shuns."[NEWLINE] - Anglo-Saxon Oath of Fealty [NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NOBILITY_DESC">
+			<Text>Nobility is a social class that possesses more acknowledged privileges or eminence than most other classes in a society, membership thereof typically being hereditary. The privileges associated with nobility may constitute substantial advantages over or relative to non-nobles, or may be largely honorary (e.g., precedence), and vary from country to country and era to era. Historically, membership of the nobility and the prerogatives thereof have been regulated or acknowledged by the monarch or government, thereby distinguishing it from other sectors of a nation's upper class. Noneheless, nobility per se has rarely constituted a closed caste; acquisition of sufficient power, wealth, military prowess or royal favour has, occasionally or often, enabled commoners to ascend into the nobility.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_JFD_NOBILITY_HELP">
+			<Text>Allows you to construct the [COLOR_POSITIVE_TEXT]Chancery[ENDCOLOR], a building that decreases the rate at which new [ICON_JFD_LEGISLATURE] Legislatures are formed.</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_DIPLO_OPEN_BORDERS_NO_TECH">
+			<Text>[NEWLINE][NEWLINE]Neither player yet has the Technology to trade this item (Nobility).</Text>
+		</Replace>
+		<!--===================================================-->
+		<!--NATIONAL WONDERS-->
+		<!--===================================================-->
+		<!--Court of Chancery-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY">
+			<Text>Court of Chancery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY_HELP">
+			<Text>+1 Reform Capacity. Cities decrease [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown by 25% less.[NEWLINE][NEWLINE]Must have built a Chancery in all Cities. The cost increases with each city you have.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY_STRATEGY">
+			<Text>This National Wonder reduces the amount by which cities decrease the [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown, meaning it slows down the rate at which new [ICON_JFD_LEGISLATURE] Legislatures are formed. A civilization must have a Chancery in all cities before it can construct a Court of Chancery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_GRAND_COURT_CHANCERY_TEXT">
+			<Text>The Court of Chancery was a court of equity in England and Wales that followed a set of loose rules to avoid the slow pace of change and possible harshness (or "inequity") of the common law. The Chancery had jurisdiction over all matters of equity, including trusts, land law, the administration of the estates of lunatics and the guardianship of infants. Its initial role was somewhat different, however; as an extension of the Lord Chancellor's role as Keeper of the King's Conscience, the Court was an administrative body primarily concerned with conscientious law. Thus the Court of Chancery had a far greater remit than the common law courts, whose decisions it had the jurisdiction to overrule for much of its existence, and was far more flexible. Until the 19th century, the Court of Chancery could apply a far wider range of remedies than the common law courts, such as specific performance and injunctions, and also had some power to grant damages in special circumstances. With the shift of the Exchequer of Pleas towards a common law court and loss of its equitable jurisdiction by the Administration of Justice Act 1841, the Chancery became the only national equitable body in the English legal system.</Text>
+		</Row>
+		<!--Supreme Court-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_SUPREME_COURT">
+			<Text>Supreme Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SUPREME_COURT_HELP">
+			<Text>+2 Reform Capacity.[NEWLINE][NEWLINE]Must have built a High Court in all Cities. The cost increases with each city you have.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SUPREME_COURT_STRATEGY">
+			<Text>This National Wonder increases your Capacity to pass additional [ICON_JFD_REFORM] Reforms. A civilization must have a Magistrate's Court in all cities before it can construct a Supreme Court.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SUPREME_COURT_TEXT">
+			<Text>In most countries, the Supreme Court is the highest court in the land, although it might also be subject to a Constitutional Court or Privy Council. A Supreme Court is usually the last court of appeals for lower or mid-level courts. In common law, a Supreme Court's ruling is binding upon all lower level courts. In civil law systems, this is not the case, however, a Supreme Court's ruling often sets the precedent for the ruling of lower courts.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--POLICY BRANCHES-->
+		<!--===================================================-->
+		<Replace Tag="TXT_KEY_AESTHETICS_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_AUTOCRACY_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COMMERCE_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EXPLORATION_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_FREEDOM_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HONOR_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_LIBERTY_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_ORDER_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PATRONAGE_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PIETY_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RATIONALISM_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRADITION_TITLE">
+			<Text>{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Replace>
+		<!--===================================================-->
+		<!--WORLD WONDERS-->
+		<!--===================================================-->
+		<!--Amer Fort-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_AMER_FORT">
+			<Text>Amer Fort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_AMER_FORT_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength for units fighting in friendly territory. Provides a free Castle in the city in which it is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_AMER_FORT_QUOTE">
+			<Text>[NEWLINE]"He who is prudent and lies in wait for an enemy who is not, will be victorious"[NEWLINE] - Sun Tzu[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_AMER_FORT_PEDIA">
+			<Text>Sometimes known as the Amber Fort, Amer Fort is a fortress found in the town of Amer, less than seven miles from Jaipur. Built on a hill by Raja Man Singh I, Amer Fort is a popular attraction for its artistic style and blending of Hindu and Rajput architecture. The fort overlooks the Maota Lake on a forested hill. During medieval India Amer was known as Dhundar and ruled by the Kachwahas, the fort itself was built in 1592 over the remnants of the earlier structure by Raja Man Singh I, a commander of Akbar the Great's army and a member of the Emperor's inner circle. His decendant, Jai Singh I expanded Amer Fort further. Beyond then Amer Fort continued the further improve with every ruler who followed for the next 150 years, until the Kachwahas shifted the capital to Jaipur during the reign of Sawai Jai Singh II in 1727.[NEWLINE][NEWLINE]Many of the original buildings of the medieval period have either been destroyed of replaced, the sixteenth century edifice however and the palace complex within build by the Rajput Maharajas is very well preserved. Amer Fort is split into four sections, each with its own gate and courtyard. The main entrance is the "Suraj Pole" - the Sun Gate - leading to the first courtyard. Armies held victory parades at the gate with their bounty. The gate was built for the purpose of protection, a garrison was posted to secure the main entry into the palace, and the gate itself faces east to greet the sun - where it takes its namesake. The first courtyard leads to the palace grounds and is resplendant with temples as well as the Ganesh Gate entering into the palaces. The second courtyard houses the Public Audience Hall; the Raja held audiences to heed petitions from the public. The Ganesh Gate opened into the third courtyard where the private quarters of the royal family and the servants were kept. This courtyard holds two buildings seperated but a garden fashioned similiarly to the Mughal Gardens. The two buildings are the "Jai Mandir", commonly known as the Sheesh Mahal - or Mirror Palace - and the "Sukh Niwas" or Sukh Mahal - the Hall of Pleasure. The Mirror Palace is known for its beautiful glass panels and mirror patterned ceilings. The fourth courtyard is where the royal family women resided, displaying a number of living rooms along a common corridor.</Text>
+		</Row>
+		<!--Apadana-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_APADANA">
+			<Text>Apadana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_APADANA_HELP">
+			<Text>Increases [ICON_JFD_REFORM] Reform Capacity by +2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_APADANA_QUOTE">
+			<Text>[NEWLINE]"My ancestor Darius made this Apadana, but it was burnt down. By the grace of Ahuramazda, Anahita, and Mithra, I reconstructed this Apadana"[NEWLINE] - Artaxerxes II[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_APADANA_PEDIA">
+			<Text>Though an apadana was a specific style of ancient construction, the Apadana at Persepolis most typified the style. Dozens of columns supported a wooden roof, all built atop an elevated stone surface accessible by large staircases. The structure was open to the elements, though temporary “rooms” could be created by hanging cloth between columns.[NEWLINE][NEWLINE]Darius the Great began construction of the Apadana at Persepolis, and Xerxes I completed it. The dynasty’s accomplishments were literally carved into the wall, whether text declarations or reliefs depicting the splendor and majesty of the Persian kings. Unfortunately for the Achaemenids, the Apadana was mostly destroyed by Alexander the Great’s forces during his Persian conquests. Some of its columns remain standing in the modern day. </Text>
+		</Row>
+		<!--Cairo Citadel-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CAIRO_CITADEL">
+			<Text>Cairo Citadel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_CAIRO_CITADEL_HELP">
+			<Text>Unlocks the unique Mamluke Dynasty Government. +10% [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][NEWLINE]Must be built in the [ICON_CAPITAL] Capital. Must not have constructed another Wonder that unlocks a unique Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_CAIRO_CITADEL_QUOTE">
+			<Text>[NEWLINE]"With a wall I will make the two into a unique whole, so that one army may defend them both"[NEWLINE] - Saladin[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_CAIRO_CITADEL_PEDIA">
+			<Text>Cairo Citadel is a large fortified construction built atop Mokattam hill in Cairo, Egypt. It was constructed under orders of Saladin, Sultan of the Ayyubid Dynasty, between 1176 and 1183 CE, as part of a fortification effort to encircle the cities of Cairo and Fustat with a wall to protect against Crusaders. The citadel was to serve as the main defensive point in the wall. In order to supply the Citadel with water, and provide a source in the event of a siege, Saladin had the Well of Joseph constructed. The well is 85 metres (200 feet) deep, and has three hundred stairs leading to it in a spiral, hense the other name of Spiral Well. Water from this well was transported to the Citadel via a series of Aqueducts. Following the death of Suleiman and during the Mamluk dynasty, Al-Nasir Muhammed took control of the Citadel. This saw the Well of Joseph struggle with the ammount of water needed, so Al-Nasir commissioned a series of wells, fed by waterwheels on the Nile river and then moved through the citadels through Saladin's aqueducts. A series of mosques are also positioned in the Citadel, combining various sects of Islamic architecture, among which Ottoman and traditional Mamluk / Ayyubid. The Citadel also acted as the seat of Egypt's government, from the era of Saladin until the 19th century.  </Text>
+		</Row>
+		<!--Doge's Palace-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_DOGES_PALACE">
+			<Text>Doge's Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_DOGES_PALACE_HELP">
+			<Text>Provides an additional Trade Route slot. Each filled Trade Route slot provides +5% [ICON_JFD_SOVEREIGNTY] Sovereignty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_DOGES_PALACE_QUOTE">
+			<Text>[NEWLINE]"There is no sanctuary so holy that money cannot profane it, no fortress so strong that money cannot take it by storm"[NEWLINE] - Marcus Tullius Cicero[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_DOGES_PALACE_PEDIA">
+			<Text>The Doge's Palace is a palace built in Venetian Gothic style, and one of the main landmarks of the city of Venice in northern Italy. The palace was the residence of the Doge of Venice, the supreme authority of the former Republic of Venice, opening as a museum in 1923. Today, it is one of the 11 museums run by the Fondazione Musei Civici di Venezia.</Text>
+		</Row>
+		<!--Forum Magnum-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_FORUM_MAGNUM">
+			<Text>Forum Magnum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_FORUM_MAGNUM_HELP">
+			<Text>Requires Liberty. Provides a free Magistrate's Court in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_FORUM_MAGNUM_QUOTE">
+			<Text>[NEWLINE]"I found Rome built of bricks; I leave her clothed in marble"[NEWLINE] - Augustus[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_FORUM_MAGNUM_PEDIA">
+			<Text>The Roman Forum is a rectangular forum surrounded by the ruins of several important ancient government buildings at the center of the city of Rome. Citizens of the ancient city referred to this space, originally a marketplace, as the Forum Magnum, or simply the Forum. It was for centuries the center of Roman public life: the site of triumphal processions and elections; the venue for public speeches, criminal trials, and gladiatorial matches; and the nucleus of commercial affairs. Here statues and monuments commemorated the city's great men. The teeming heart of ancient Rome, it has been called the most celebrated meeting place in the world, and in all history. Located in the small valley between the Palatine and Capitoline Hills, the Forum today is a sprawling ruin of architectural fragments and intermittent archaeological excavations attracting 4.5 million sightseers yearly.</Text>
+		</Row>
+		<!--Himeji Castle-->
+		<Replace Tag="TXT_KEY_WONDER_HIMEJI_CASTLE_HELP">
+			<Text>Unlocks the unique Shogunate Government. +10% [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][NEWLINE]Must be built in the [ICON_CAPITAL] Capital. Must not have constructed another Wonder that unlocks a unique Government.</Text>
+		</Replace>
+		<!--Hofburg Palace-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_HOFBURG_PALACE">
+			<Text>Hofburg Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_HOFBURG_PALACE_HELP">
+			<Text>Unlocks the unique Holy Roman Empire Government. +10% [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][NEWLINE]Must be built in the [ICON_CAPITAL] Capital. Must not have constructed another Wonder that unlocks a unique Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_HOFBURG_PALACE_QUOTE">
+			<Text>[NEWLINE]"On Earth, God has placed no more than two powers, and as there is in Heaven but one God, so is there here one Pope and one Emperor. Divine providence has specially appointed the Roman Empire to prevent the continuance of schism in the Church." - Frederick I[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_HOFBURG_PALACE_PEDIA">
+			<Text>Hofburg Palace is the former imperial palace in the centre of Vienna, Austria. Part of the palace forms the official residence and workplace of the President of Austria. Built in the 13th century and expanded in the centuries since, the palace has housed some of the most powerful people in European and Austrian history, including monarchs of the Habsburg dynasty, rulers of the Austro-Hungarian Empire. It was the principal imperial winter residence, as Schönbrunn Palace was their summer residence.[NEWLINE][NEWLINE]Since 1279 the Hofburg area has been the documented seat of government for various empires and republics. The Hofburg has been expanded over the centuries to include various residences (with the Amalienburg), the Imperial Chapel (Hofkapelle or Burgkapelle), the Naturhistorisches Museum and Kunsthistorisches Museum, the Austrian National Library (Hofbibliothek), the Imperial Treasury (Schatzkammer), the Burgtheater, the Spanish Riding School (Hofreitschule), the Imperial Horse Stables (Stallburg and Hofstallungen), and the Hofburg Congress Center.</Text>
+		</Row>
+		<!--Mosque of Damascus-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_MOSQUE_DAMASCUS">
+			<Text>Great Mosque of Damascus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_MOSQUE_DAMASCUS_HELP">
+			<Text>Unlocks the unique Caliphate Government. +10% [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][NEWLINE]Must be built in a Holy City. Must not have constructed another Wonder that unlocks a unique Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_MOSQUE_DAMASCUS_QUOTE">
+			<Text>[NEWLINE]"The place that Solomon made to worship in, called the Far Mosque, is not built of earth and water and stone, but of intention and wisdom and mystical conversation and compassionate action."[NEWLINE] - Rumi[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_MOSQUE_DAMASCUS_PEDIA">
+			<Text>The Umayyad Mosque, also known as the Great Mosque of Damascus, located in the old city of Damascus, is one of the largest and oldest mosques in the world.  After the Muslim conquest of Damascus in 634, the mosque was built on the site of a Christian basilica dedicated to John the Baptist (Yahya), honored as a prophet by Christians and Muslims. A legend dating to the 6th century holds that the building contains the head of John the Baptist. The mosque is also believed by Muslims to be the place where Jesus (Isa) will return at the End of Days. The mausoleum containing the tomb of Saladin stands in a small garden adjoining the north wall of the mosque. </Text>
+		</Row>
+		<!--Sargon's Palace-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_SARGONS_PALACE">
+			<Text>Sargon's Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_SARGONS_PALACE_HELP">
+			<Text>Allows you to immediately establish a Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_SARGONS_PALACE_QUOTE">
+			<Text>[NEWLINE]"Sargon had neither rival nor equal. His splendor, over the lands it diffused. He marched to Kazallu and turned Kazallu into a ruin heap, so that there was not even a perch for a bird left." [NEWLINE] -  Chronicle of Early Kings[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_SARGONS_PALACE_PEDIA">
+			<Text>Dur-Sharrukin, present day Khorsabad, was the Assyrian capital in the time of Sargon II of Assyria. The great city was entirely built in the decade preceding 706 BCE. After the unexpected death of Sargon in battle, the capital was shifted 20 km south to Nineveh.[NEWLINE][NEWLINE]Sargon II ruled from 722 to 705 BCE. In 717, Sargon ordered the construction of a new palace-city at the confluence of the Tigris and the Greater Zab rivers. The demands for timber and other materials and craftsmen, who came from as far as coastal Phoenicia, are documented in contemporary Assyrian letters. The debts of construction workers were nullified in order to attract a sufficient labour force. The land in the environs of the town was taken under cultivation, and olive groves were planted to increase Assyria's deficient oil-production. The great city was entirely built in the decade preceding 706 BCE, when the court moved to Dur-Sharrukin, although it was not completely finished yet. Sargon was killed during a battle in 705. After his unexpected death his son and successor Sennacherib abandoned the project, and relocated the capital with its administration to the city of Nineveh, 20 km south. The city was never completed and it was finally abandoned a century later when the Assyrian empire fell.</Text>
+		</Row>
+		<!--St. Peter's Basilica-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_ST_PETERS_BASILICA">
+			<Text>St. Peter's Basilica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_ST_PETERS_BASILICA_HELP">
+			<Text>Unlocks the unique Papacy Government. +10% [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][NEWLINE]Must be built in a Holy City. Must not have constructed another Wonder that unlocks a unique Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_ST_PETERS_BASILICA_QUOTE">
+			<Text>[NEWLINE]"A rock pile ceases to be a rock pile the moment a single man contemplates it, bearing within him the image of a cathedral"[NEWLINE] - Antoine de Saint-Exupery[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_ST_PETERS_BASILICA_PEDIA">
+			<Text>Basilica Papale di San Pietro in Vaticano, better known as St. Peter's Basilica, is a late Renaissance church in Vatican City, with the largest interior of any Christian church in the world. The supposed burial site of the apostle Peter in 64 AD, some years later a shrine was constructed there. Replacing the shrine, construction of "old" St. Peter's was begun by the Emperor Constantine between 319 and 333 AD. Having fallen into serious disrepair over the centuries, Pope Julius II in 1505 determined to demolish the old church and replace it with a monumental structure, a construction project that spanned the next 120 years under a succession of popes and architects. To finance the colossal project, a number of popes authorized the wholesale selling of indulgences, a practice that led in part to Martin Luther's protestant movement. With work by some of the Renaissance's leading figures - Michelangelo, Raphael, Bramante, Bernini and others - the church now stands as one of the great treasures of Western civilization.</Text>
+		</Row>
+		<!--Temple of Heaven-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_TEMPLE_OF_HEAVEN">
+			<Text>Temple of Heaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_TEMPLE_OF_HEAVEN_HELP">
+			<Text>Unlocks the unique Mandate of Heaven Government. +10% [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][NEWLINE]Must not have constructed another Wonder that unlocks a unique Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_TEMPLE_OF_HEAVEN_QUOTE">
+			<Text>[NEWLINE]"Death and life have their determined appointments; riches and honors depend upon heaven."[NEWLINE] - Confucius[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_TEMPLE_OF_HEAVEN_PEDIA">
+			<Text>The Temple of Heaven is a large temple complex located in Beijing, China. It was built by command of the Yongle Emperor, from 1406 to 1420. During the 16th century the temple was expanded and given its current name. In its history it has been used to practice Heaven Worship, Taoism and Confucisism. During the Second Opium War (1856 - 1860) The temple was occupied by the Anglo-French alliance, and during the 1900 Boxer Rebellion, it was occupied by the Eight-Nation Alliance. Both these occupations lead to the Temple falling into disrepair, and rumors of vandalism and theft by the occupiers.</Text>
+		</Row>
+		<!--Versailles-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_VERSAILLES">
+			<Text>Versailles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_VERSAILLES_HELP">
+			<Text>+30% [ICON_JFD_SOVEREIGNTY] Max Sovereignty. Contains 2 slots for Great Works of Art.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_VERSAILLES_THEME_HELP">
+			<Text>To maximize your bonus, make sure all Great Works are Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_JFD_VERSAILLES">
+			<Text>Château de Versailles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_VERSAILLES_QUOTE">
+			<Text>[NEWLINE]"Every time I create an appointment, I create a hundred malcontents and one ingrate."[NEWLINE] - Louis XIV[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_JFD_VERSAILLES_PEDIA">
+			<Text>The Château de Versailles is one of the most beautiful achievements of 18th-century French art. The site began as Louis XIII's hunting lodge before his son Louis XIV transformed and expanded it, moving the court and government of France to Versailles in 1682. Each of the three French kings who lived there until the French Revolution added improvements to make it more beautiful.[NEWLINE][NEWLINE]The château lost its standing as the official seat of power in 1789 but acquired a new role in the 19th century as the Museum of the History of France, which was founded at the behest of Louis-Philippe, who ascended to the throne in 1830. That is when many of the château's rooms were taken over to house the new collections, which were added to until the early 20th century, tracing milestones in French history.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--YIELDS-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_YIELD_JFD_SOVEREIGNTY">
+			<Text>Sovereignty</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -20,8 +20,8 @@ CREATE TRIGGER RTP_Religions
 AFTER INSERT ON Religions 
 BEGIN
 	UPDATE Religions
-	SET Adjective = 'TXT_KEY_' || Type || '_ADJ'
-	WHERE Type = NEW.Type and NEW.Type IS NOT NULL;
+	SET Adjective = Description || '_ADJ'
+	WHERE Type = NEW.Type;
 END;
 --==========================================================================================================================
 -- UNITS

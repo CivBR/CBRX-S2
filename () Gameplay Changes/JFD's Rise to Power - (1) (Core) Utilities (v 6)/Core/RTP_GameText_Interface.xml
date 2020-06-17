@@ -3,6 +3,12 @@
 <GameData>
 	<Language_en_US>
 		<!--===================================================-->
+		<!--TOP PANEL-->
+		<!--===================================================-->
+		<Replace Tag="TXT_KEY_TP_ANARCHY">
+			<Text>[COLOR_NEGATIVE_TEXT]Your Civlization is in [ICON_RESISTANCE] Anarchy for {1_Turns} more turn(s). During [ICON_RESISTANCE] Anarchy, the Civlization will not gain any [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_CULTURE] Culture, or [ICON_PEACE] Faith, and cities have no [ICON_PRODUCTION] Production to build anything with[ENDCOLOR].</Text>
+		</Replace>
+		<!--===================================================-->
 		<!--WHOS WINNING-->
 		<!--===================================================-->
 		<Row Tag="TXT_KEY_PROGRESS_SCREEN_VIRTUE">

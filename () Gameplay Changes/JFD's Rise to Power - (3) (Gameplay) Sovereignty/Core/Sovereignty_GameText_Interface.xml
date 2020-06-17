@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/2/2019 5:53:11 AM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CIVILOPEDIA-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_PEDIA_CATEGORY_REFORMS_LABEL">
+			<Text>Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_JFD_REFORMBRANCH_LABEL">
+			<Text>Reform Branch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_JFD_REFORMSUBBRANCH_LABEL">
+			<Text>Reform Group</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_JFD_GOVERNMENTS_PAGE_LABEL">
+			<Text>Governments Home Page</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_JFD_GOVERNMENTS">
+			<Text>[NEWLINE][TAB][TAB]"They that are discontented under monarchy, call it tyranny; and they which find themselves grieved under a democracy, call it anarchy, which signifies the want of government; and yet I think no man believes, that want of government, is any new kind of government."[NEWLINE][TAB][TAB] - Thomas Hobbes[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_JFD_GOVERNMENTS_HELP_TEXT">
+			<Text>Governments and Political Reforms represent the way that you choose to rule over your people. Will you be an authoritarian ruler, sacrificing a little freedom for discipline and increased productivity? Will you cultivate a totalized state or will you foster a diverse civil society? Will you have a kingdom, or a republic?[NEWLINE][NEWLINE]Political Reforms impact your civilization in diverse ways, granting bonuses in exchange for penalties. Some may increase your civilization's culture whilst reducing its gold, whilst others might enhance your military whilst leaving your cities vulnerable. Reforms are decided to suit your needs at any given time.[NEWLINE][NEWLINE]For more information, see the Sovereignty article in the Concepts tab.</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_PEDIA_SOCIAL_POL_HELP_TEXT">
+			<Text>Social Policies represent the inherent values of your society and its people. Do you cultivate your people's traditions or do you hone their civic virtues? Will you organize your civilization to have a strong military, or will you concentrate their efforts on expanding culture?[NEWLINE][NEWLINE]Social policies have concrete effects in play. Some may increase your cities' production, while others might generate more wealth, and still others might create more effective military units. [NEWLINE] [NEWLINE]There are no right or wrong social policy choices in the game. One policy may be better for a given circumstance than another (say, if you're surrounded by belligerent civs you may want to take a different path than if you're relatively isolated), and one may better suit your play style. Try them out and see.</Text>
+		</Replace>
+		<!--===================================================-->
+		<!--CHOOSE CYCLES OF POWER POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_AUTOCRACY_HELP_SOVEREIGNTY">
+			<Text>[ICON_BULLET]Loses 1 [ICON_JFD_VIRTUE] Virtue per 2 Capital Population.[NEWLINE][ICON_BULLET]Generates [ICON_JFD_VIRTUE] Virtue from unlocking Technologies.[NEWLINE][ICON_BULLET]Becomes Oligarchy after [ICON_RESISTANCE] Anarchy.[NEWLINE][ICON_BULLET]+1% per Capital Population to all [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][ICON_BULLET]Yield Rates: [ICON_RESEARCH] [COLOR_POSITIVE_TEXT]125%[ENDCOLOR], [ICON_GOLD] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR], [ICON_CULTURE] [COLOR_NEGATIVE_TEXT]75%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_DEMOCRACY_HELP_SOVEREIGNTY">
+			<Text>[ICON_BULLET]Loses 1 [ICON_JFD_VIRTUE] Virtue per City.[NEWLINE][ICON_BULLET]Generates [ICON_JFD_VIRTUE] Virtue from adopting Social Policies.[NEWLINE][ICON_BULLET]Becomes Autocracy after [ICON_RESISTANCE] Anarchy.[NEWLINE][ICON_BULLET]+0.25% per Population to all [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][ICON_BULLET]Yield Rates: [ICON_CULTURE] [COLOR_POSITIVE_TEXT]125%[ENDCOLOR], [ICON_RESEARCH] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR], [ICON_GOLD][COLOR_NEGATIVE_TEXT]75%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_OLIGARCHY_HELP_SOVEREIGNTY">
+			<Text>[ICON_BULLET]Loses 1 [ICON_JFD_VIRTUE] Virtue per 10 Population.[NEWLINE][ICON_BULLET]Generates [ICON_JFD_VIRTUE] Virtue from constructing Buildings.[NEWLINE][ICON_BULLET]Becomes Democracy after [ICON_RESISTANCE] Anarchy.[NEWLINE][ICON_BULLET]+5% per City to all [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][ICON_BULLET]Yield Rates: [ICON_GOLD] [COLOR_POSITIVE_TEXT]125%[ENDCOLOR], [ICON_CULTURE] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR], [ICON_RESEARCH] [COLOR_NEGATIVE_TEXT]75%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CYCLE_POWER_JFD_THEOCRACY_HELP_SOVEREIGNTY">
+			<Text>[ICON_BULLET]Loses 1 [ICON_JFD_VIRTUE] Virtue per City NOT following your Religion.[NEWLINE][ICON_BULLET]Reverts to your previous Power after [ICON_RESISTANCE] Anarchy.[NEWLINE][ICON_BULLET]+0.5% per Global Cities following your Religion to all [ICON_JFD_SOVEREIGNTY] Sovereignty.[NEWLINE][ICON_BULLET]Generates [ICON_JFD_VIRTUE] Virtue from spending Faith.[NEWLINE][ICON_BULLET]Yield Rates: [ICON_PEACE] [COLOR_POSITIVE_TEXT]125%[ENDCOLOR], [ICON_RESEARCH] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR], [ICON_GOLD] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR], [ICON_CULTURE] [COLOR_POSITIVE_FADING_TEXT]100%[ENDCOLOR]</Text>
+		</Row>
+		<!--===================================================-->
+		<!--CHOOSE GOVERNMENT POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT">
+			<Text>Choose a Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT_TITLE">
+			<Text>Government Selection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT_OPTIONS">
+			<Text>A Government allows you to pass [ICON_JFD_REFORM] Political Reforms, which provide certain bonuses in exchange for penalties. Reforms need [ICON_JFD_SOVEREIGNTY] Sovereignty to pass, and the Government you choose can affect how much is needed based on the Factions they possess.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT_OPTIONS_CHOOSE">
+			<Text>Choose one of the following Governments:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT_OPTIONS_CHANGE">
+			<Text>You can change to one of the following Governments:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT_OPTIONS_VIEW">
+			<Text>You are viewing available Governments:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT_CONFIRM">
+			<Text>Are you sure you want to adopt [COLOR_POSITIVE_TEXT]{1_GovtName}[ENDCOLOR] as your civilization's Government?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT_CONFIRM_CHANGE">
+			<Text>Are you sure you want to adopt [COLOR_POSITIVE_TEXT]{1_GovtName}[ENDCOLOR] as your civilization's new Government?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT_CONFIRM_CHANGE_ANARCHY">
+			<Text>Are you sure you want to adopt [COLOR_POSITIVE_TEXT]{1_GovtName}[ENDCOLOR] as your civilization's new Government? [COLOR_WARNING_TEXT]Doing so will incur [ICON_RESISTANCE] Anarchy for {2_Num} Turn(s).[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT_CONFIRM_CHANGE_ANARCHY_ENDS">
+			<Text>Are you sure you want to adopt [COLOR_POSITIVE_TEXT]{1_GovtName}[ENDCOLOR] as your civilization's new Government? [COLOR_POSITIVE_TEXT]Doing so will end your current period of [ICON_RESISTANCE] Anarchy.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]Right-click for more information.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_CURRENT_HEADER">
+			<Text>[ICON_MINUS] Current Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_CURRENT_HEADER_COLLAPSED">
+			<Text>[ICON_PLUS] Current Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_AVAILABLE_HEADER">
+			<Text>[ICON_MINUS] Available Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_AVAILABLE_HEADER_COLLAPSED">
+			<Text>[ICON_PLUS] Available Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_LOCKED_HEADER">
+			<Text>[ICON_MINUS] Locked Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_LOCKED_HEADER_COLLAPSED">
+			<Text>[ICON_PLUS] Locked Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_ANARCHY">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]Changing to this Government will incur 1 Turn of [ICON_RESISTANCE] Anarchy.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_CURRENT">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This is your current Government.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_GOVERNMENT">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established if you have established a {1_Description}.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ALL_CITIES_CONNECTED">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when all your cities are connected to the Capital and you have at least 2 of them.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ALL_CITIES_GARRISONED">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when all your cities have a Military Garrison.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ACTIVE_WAR">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you are at war with a major Civilization.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ANARCHY">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you are in a state of Anarchy.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_NOT_ANARCHY">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you are NOT in a state of Anarchy.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_ERA">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established from the beginning of the {1_Desc}.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_BUILDING">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you have built the {1_Desc} Wonder.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_BUILDING_ALL_CITIES">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you have built a {1_Desc} in all cities.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_CITY_STATE_ALLIES">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you have at least {1_Num} City-State Allies.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_TRADE_ROUTES">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you have at least {1_Num} active Trade Routes.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_CONQUERED_CAPITAL">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you control at least one former Capital.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_GOLDEN_AGE">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you are in a Golden Age.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_IDEOLOGY">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established if you have adopted an Ideology.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_HORSES">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you have an improved source of Horses.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_GREAT_GENERALS">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you have a Great General.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_OTHER_RELIGION">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established if you have not founded a Religion but are following a foreign Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_RELIGION">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established if you have founded a Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_RELIGION_ENHANCED">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you have enhanced your Religion.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_RELIGION_ALL_CONTROL">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when all cities following your main Religion are under your control.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_RELIGION_NOT_ALL_CONTROL">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when some cities following your main Religion are not under your control.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_POPULATION">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established with a Global Population of {1_Num} (you have {2_Num}).[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_TECH">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when you have researched the {1_Desc} Tech.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_UNIQUE">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when no other Civilization claims it. {1_Desc} is currently claiming it.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CHOOSE_GOVERNMENT_WARNING_REQUIRES_UNIQUE_YOU">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]This Government can only be established when no other Civilization claims this Government. You are currently claiming it.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_JFD_GOVERNMENT_SHOW_FACTION_DETAILS">
+			<Text>Show Faction Details</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LEGISLATURE_POPUP_TITLE">
+			<Text>Legislature Factions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_LEGISLATURE_POPUP_TEXT">
+			<Text>Each Government has its own Legislature.[NEWLINE][NEWLINE]The Factions that compose your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms based upon their [ICON_JFD_FACTION_POWER] Faction Power; making it easier to pass Reforms that they support and harder to pass ones that they oppose.[NEWLINE][NEWLINE]The Factions belonging to [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR]:</Text>
+		</Row>
+		<!--===================================================-->
+		<!--CIVILIZATION INFO-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_CIVILIZATION_INFO_LAST_REFORM">
+			<Text>[ICON_JFD_REFORM] Last: [COLOR_JFD_SOVEREIGNTY]{1_Desc}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CIVILIZATION_INFO_LAST_POLICY">
+			<Text>[ICON_CULTURE] Last: [COLOR_MAGENTA]{1_Desc}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CIVILIZATION_INFO_GOVERNMENT">
+			<Text>[ICON_JFD_GOVERNMENT] {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_CIVILIZATION_INFO_SOVEREIGNTY">
+			<Text>[ICON_JFD_SOVEREIGNTY] Sovereignty: [COLOR_JFD_SOVEREIGNTY]{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<!--===================================================-->
+		<!--DIPLO CORNER-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_BUTTON_OPTIONS_GOVERNMENT_TURNS_TT">
+			<Text>Government Overview[ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown: [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] turn(s)</Text>
+		</Row>
+		<!--===================================================-->
+		<!--GREAT PERSON POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_COUNCILLOR_APPOINT">
+			<Text>Appoint to Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COUNCILLOR_APPOINT_TT">
+			<Text>You can appoint this Great Person to your Council as your [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR].[NEWLINE][NEWLINE]Council seats can be filled by one or more different types of Great Person, each conferring a different bonus to your Reform costs. Only one Great Person can occupy a Council seat at a time and only Great People that have been earned naturally.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COUNCILLOR_APPOINT_TT_DISABLED">
+			<Text>[COLOR_WARNING_TEXT]You cannot appoint this Great Person to your Council because you have not yet established a formal Government.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COUNCILLOR_APPOINT_TT_WARNING">
+			<Text>[COLOR_WARNING_TEXT]You currently have a Councillor acting as {1_Desc}. If you choose to appoint this Great Person to your Council, the existing Councillor will be replaced.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COUNCILLOR_APPOINT_CONFIRM">
+			<Text>Are you sure you want to appoint {1_Desc} as your [COLOR_POSITIVE_TEXT]{2_Desc}[ENDCOLOR]?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COUNCILLOR_APPOINT_CONFIRM_WARNING">
+			<Text>[COLOR_WARNING_TEXT]This Council seat is currently occupied by {1_Desc}. Are you sure you want to replace them and appoint this {3_Desc} as your new [COLOR_POSITIVE_TEXT]{4_Desc}[ENDCOLOR]?[ENDCOLOR]</Text>
+		</Row>
+		<!--===================================================-->
+		<!--GOVERNMENT OVERVIEW-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_SCREEN_TITLE">
+			<Text>Government Overview</Text>
+		</Row>
+		<!--Tabs-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_YOUR_GOVERNMENT_TAB">
+			<Text>Your Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_YOUR_REFORMS_TAB">
+			<Text>Your Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_WORLD_GOVERNMENTS_TAB">
+			<Text>World Governments</Text>
+		</Row>
+		<!--Your Government-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORMS_DISABLED">
+			<Text>Reforms may not be passed until you have established a Government. This choice becomes available after you research Code of Laws.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORMS_DISABLED_ANARCHY">
+			<Text>[COLOR_WARNING_TEXT]You are in [ICON_RESISTANCE] Anarchy for {1_Num} Turn(s)! Whilst in Anarchy, you cannot pass Political Reforms.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_POLITICAL_REFORMS">
+			<Text>Political Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CAPITAL_STAT">
+			<Text>Capital: {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CYCLE_POWER_STAT">
+			<Text>Power: {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CULTURE_STAT">
+			<Text>Culture: {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_IDEOLOGY_STAT">
+			<Text>Ideology: {1_Desc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_RELIGION_STAT">
+			<Text>State Religion: {1_Desc}</Text>
+		</Row>
+		<!--Your Government: Change Government-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CHANGE_GOVERNMENTS">
+			<Text>Change Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CHANGE_GOVERNMENTS_TT">
+			<Text>You can choose to change your Government at the cost of incurring [ICON_RESISTANCE] Anarchy or for free if Anarchy is currently on-going.</Text>
+		</Row>
+		<!--Your Government: Councillors-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_COUNCILLORS_VACANT">
+			<Text> - [COLOR_WARNING_TEXT]Vacant[ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<!--Your Government: Legislature-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_LEGISLATURE">
+			<Text>LEGISLATURE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_SHOW_DETAILED_FACTIONS_TT">
+			<Text>Show absent Factions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FACTION_POWER_TT">
+			<Text>This is the amount by which this Faction will influence the [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass a Reform that they support or oppose.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FACTION_POWER_TT_RESULT">
+			<Text>This is the amount by which this Faction will influence the [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass a Reform that they support or oppose.[NEWLINE][NEWLINE]Your cities voted as follows:[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FACTION_POWER_TT_POLICIES">
+			<Text>Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FACTION_POWER_TT_TENETS">
+			<Text>Tenets</Text>
+		</Row>
+		<!--Your Government: Political Reforms-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_NEW_REFORMS">
+			<Text>You recently unlocked this Reform.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_NEW_REFORMS_TT">
+			<Text>Reforms marked with this icon were unlocked this Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_SHOW_DETAILED_REFORMS_TT">
+			<Text>Show detailed Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_SHOW_FOCUS_ICONS_TT">
+			<Text>Show Reform focus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_SHOW_NEW_REFORMS_TT">
+			<Text>Show newly unlocked Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FREE_REFORMS_LABEL">
+			<Text>[COLOR_JFD_SOVEREIGNTY]# of Free Reforms: {1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FREE_REFORMS_LABEL_TT">
+			<Text>You can pass {1_Num} Reforms without increasing the [ICON_JFD_REFORM_COOLDOWN] Cooldown afterwards.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FREE_REFORMS_INFO">
+			<Text>These Reforms will not incur a Cooldown when passed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CONFIRM_REFORM">
+			<Text>Are you sure you want to pass [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] ({2_Desc})? You cannot revert this Reform for {3_Num} Turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CONFIRM_REFORM_AT_CAPACITY">
+			<Text>Are you sure you want to pass [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] ({2_Desc})? You cannot revert this Reform for {3_Num} Turns.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]As you are AT your Reform Capacity, passing this Reform will immediately reduce your current [ICON_JFD_SOVEREIGNTY] Sovereignty by {4_Num}%![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CONFIRM_REFORM_OVER_CAPACITY">
+			<Text>Are you sure you want to pass the [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] ({2_Desc}) Reform? You will be unable to revert this Reform for {3_Num} Turns.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]As you are OVER your Reform Capacity, passing this Reform will immediately reduce your current [ICON_JFD_SOVEREIGNTY] Sovereignty by a further {4_Num}%![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CONFIRM_REFORM_REVOLUTIONARIES">
+			<Text>[COLOR_WARNING_TEXT]Because one of your Factions opposes this Reform, there is a {1_Num}% chance that trying to pass it will incite [ICON_JFD_FACTION_REVOLUTIONARIES] Revolutionaries to take power, triggering a turn of [ICON_RESISTANCE] Anarchy![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CONFIRM_REFORM_REVOLUTIONARIES_RISK">
+			<Text>[COLOR_WARNING_TEXT]Because one of your Factions opposes this Reform, passing it will increase your [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment, which in turn could incite [ICON_JFD_FACTION_REVOLUTIONARIES] Revolutionaries to take power and trigger a turn of [ICON_RESISTANCE] Anarchy![ENDCOLOR]</Text>
+		</Row>
+		<!--Your Government: Revolutionary Sentiment-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REVOLUTIONARY_SENTIMENT">
+			<Text>[COLOR_WARNING_TEXT]+{1_Num}[ENDCOLOR] [ICON_JFD_REVOLUTIONARY_SENTIMENT]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REVOLUTIONARY_SENTIMENT_TT">
+			<Text>[ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment determines the chance of the [ICON_JFD_FACTION_REVOLUTIONARIES] [COLOR_WARNING_TEXT]Revolutionaries Faction[ENDCOLOR] coming into power whenever you pass a Reform that one of your Factions oppose. If this happens, [ICON_RESISTANCE] Anarchy will break out and the [ICON_JFD_FACTION_REVOLUTIONARIES] Revolutionaries will occupy your Legislature until it ends.[NEWLINE][NEWLINE]Total [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment: [COLOR_WARNING_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REVOLUTIONARY_SENTIMENT_TT_DISABLED">
+			<Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]This Government disables [ICON_JFD_REVOLUTIONARY_SENTIMENT] Revolutionary Sentiment.[ENDCOLOR]</Text>
+		</Row>
+		<!--Your Government: Turn Details-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_NEXT_REFORM_TURN_LABEL">
+			<Text>[ICON_JFD_REFORM_COOLDOWN] Reform Cooldown: [COLOR_WARNING_TEXT]{1_Num}[ENDCOLOR] Turn(s)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CURRENT_SOVEREIGNTY_LABEL">
+			<Text>[ICON_JFD_SOVEREIGNTY] Sovereignty: [COLOR_JFD_SOVEREIGNTY]{1_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_NEXT_REFORM_CAPACITY_LABEL">
+			<Text>[ICON_JFD_REFORM] Reform Capacity: {3_HL}{1_Num}[ENDCOLOR]/{2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_NEXT_REFORM_CAPACITY_LABEL_TT">
+			<Text>[COLOR_POSITIVE_TEXT]You are below your Reform Capacity.[ENDCOLOR][NEWLINE][NEWLINE]You can pass as many Left/Right Reforms as your Reform Capacity allows. Reforms over your Capacity will reduce your [ICON_JFD_SOVEREIGNTY] Sovereignty by 10% each.[NEWLINE][NEWLINE]Increase your Capacity by advancing Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_NEXT_REFORM_CAPACITY_LABEL_CAPPED_TT">
+			<Text>You have reached your Reform Capacity.[NEWLINE][NEWLINE]You have passed as many Left/Right Reforms as your  Reform Capacity allows. Further Reforms will reduce your [ICON_JFD_SOVEREIGNTY] Sovereignty by 10% each.[NEWLINE][NEWLINE]Increase your Capacity by advancing Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_NEXT_REFORM_CAPACITY_LABEL_EXCEEDED_TT">
+			<Text>[COLOR_WARNING_TEXT]You are over your Reform Capacity![NEWLINE][NEWLINE]You have passed more Left/Right Reforms than your  Reform Capacity allows, reducing your [ICON_JFD_SOVEREIGNTY] Sovereignty by 10% each.[NEWLINE][NEWLINE]Increase your Capacity by advancing Era.</Text>
+		</Row>
+		<!--Your Government: Dominant Faction-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_DOMINANT_FACTION_TT">
+			<Text>The [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] {1: plural 1?is; 2?are;} your dominant Faction. They impact the [ICON_JFD_SOVEREIGNTY] Sovereignty requirements of your Reforms the most.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_DOMINANT_FACTION_REVOLUTIONARIES">
+			<Text>[COLOR_WARNING_TEXT][ICON_JFD_FACTION_REVOLUTIONARIES] REVOLUTION![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_DOMINANT_FACTION_TT_REVOLUTIONARIES">
+			<Text>[COLOR_WARNING_TEXT]Revolutionaries[ENDCOLOR] have taken over your Legislature for the duration of this period of [ICON_RESISTANCE] Anarchy! Your Government cannot operate until it ends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_DOMINANT_FACTION_NONE">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_DOMINANT_FACTION_NONE_TT">
+			<Text>You have no dominant Faction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_GOVERNMENT">
+			<Text>[NEWLINE][ICON_BULLET]{2_HL}{1_Num}%[ENDCOLOR] [ICON_JFD_SOVEREIGNTY] from Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]{2_HL}{1_Num}%[ENDCOLOR] [ICON_JFD_SOVEREIGNTY] from Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_POLICIES">
+			<Text>[NEWLINE][ICON_BULLET]{2_HL}{1_Num}%[ENDCOLOR] [ICON_JFD_SOVEREIGNTY] from Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_REFORMS">
+			<Text>[NEWLINE][ICON_BULLET]{2_HL}{1_Num}%[ENDCOLOR] [ICON_JFD_SOVEREIGNTY] from Reforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_FACTION_SOV_MODIFIER_FROM_TRAITS">
+			<Text>[NEWLINE][ICON_BULLET]{2_HL}{1_Num}%[ENDCOLOR] [ICON_JFD_SOVEREIGNTY] from Traits</Text>
+		</Row>
+		<!--Your Government: Legislature-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_NEXT_GOVERNMENT_TURN_TT">
+			<Text>Turns until your current Legislature is dissolved and a new one re-composed: [COLOR_WARNING_TEXT]{1_Num}[ENDCOLOR] Turn(s)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_LEGISLATURE_GENERAL_LEGISLATURE_HELP">
+			<Text>When your [ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown ends, your Legislature will be reset and the power of your Factions will be re-assessed. The power of each Faction will have direct impact upon the [ICON_JFD_SOVEREIGNTY] Sovereignty needed to pass certain Reforms, based upon those Reforms that they support and those that they oppose.[NEWLINE][NEWLINE]Hover over the Factions that make up your Legislature for the specific conditions that determine their power.</Text>
+		</Row>
+		<!--Your Reforms-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_PANEL">
+			<Text>Reform</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_ALIGNMENT_PANEL">
+			<Text>Alignment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_GROUP_PANEL">
+			<Text>Group</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_BRANCH_PANEL">
+			<Text>Branch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_EFFECT_PANEL">
+			<Text>Effect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_OPNIONS_PANEL">
+			<Text>Opinions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_SHOW_PENALTY_TT">
+			<Text>Show Reform Penalties.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_SHOW_NOT_NONE_TT">
+			<Text>Don't show Reforms without effects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_OPINION">
+			<Text>[COLOR_POSITIVE_TEXT]-{1_Num}% [COLOR_NEGATIVE_TEXT]+{2_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_OPPOSED">
+			<Text>[COLOR_FADING_NEGATIVE_TEXT]Opposed[ENDCOLOR] by {1_Desc} ([COLOR_JFD_SOVEREIGNTY_FADING]+{2_Num}%[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_SUPPORTED">
+			<Text>[COLOR_FADING_POSITIVE_TEXT]Supported[ENDCOLOR] by {1_Desc} ([COLOR_JFD_SOVEREIGNTY]-{2_Num}%[ENDCOLOR])</Text>
+		</Row>
+		<!--World Governments-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CIVILIZATION_PANEL">
+			<Text>Civilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_LEADER_PANEL">
+			<Text>Leader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_LEADER_PANEL_TT_EMBASSY_REQ">
+			<Text>[COLOR_WARNING_TEXT]You must establish an Embassy with this Leader in order to see their Reforms.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_LEADER_PANEL_TT_REFORM_LIST">
+			<Text>Selected Reforms:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FACTION_PANEL">
+			<Text>Dominant Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FACTION_PANEL_NONE">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_FACTION_PANEL_TT">
+			<Text>[COLOR_JFD_FACTION_POWER]{3_Icon} {1_Desc}[ENDCOLOR] ({2_Desc})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_GOVERNMENT_PANEL">
+			<Text>Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CYCLE_OF_POWER_PANEL">
+			<Text>Cycle Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_CYCLE_POWER_PANEL_NONE">
+			<Text>None</Text>
+		</Row>
+		<!--===================================================-->
+		<!--END TURN BUTTON-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_END_TURN_JFD_CHOOSE_GOVERNMENT">
+			<Text>CHOOSE YOUR GOVERNMENT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_END_TURN_JFD_CHOOSE_GOVERNMENT_TT">
+			<Text>You can choose to establish a Government.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--NEW LEGISLATURE POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_POPUP_TITLE">
+			<Text>New Legislature Formed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_POPUP_TEXT">
+			<Text>A new [ICON_JFD_LEGISLATURE] Legislature has been formed![NEWLINE][NEWLINE]The Factions that compose your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms based upon their share of [ICON_JFD_FACTION_POWER] Power; making it easier to pass Reforms that they support and harder to pass ones that they oppose.[NEWLINE][NEWLINE]The Results are as follows:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_POPUP_TEXT_REVOLUTIONARIES">
+			<Text>[ICON_JFD_FACTION_REVOLUTIONARIES] Revolutionaries have overthrown your Legislature, triggering a turn of [ICON_RESISTANCE] Anarchy! Your Government will be unable to operate until it ends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NEW_LEGISLATURE_POPUP_TEXT_RESULTS">
+			<Text>[COLOR_POSITIVE_TEXT]Results:[ENDCOLOR]</Text>
+		</Row>
+		<!--===================================================-->
+		<!--NOTIFICATIONS-->
+		<!--===================================================-->
+		<!--Choose your Government-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_GOVERNMENT_CHOICE_SHORT_DESC">
+			<Text>Choose your Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_GOVERNMENT_CHOICE_DESC">
+			<Text>You can choose to establish a Government.</Text>
+		</Row>
+		<!--Councillor Appointed-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_COUNCILLOR_APPOINTED_SHORT_TEXT">
+			<Text>Councillor Appointed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_COUNCILLOR_APPOINTED_TEXT">
+			<Text>You have appointed [COLOR_POSITIVE_TEXT]{1_Desc} the {2_Desc}[ENDCOLOR] to your Council as your new [COLOR_POSITIVE_TEXT]{3_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<!--Government Established-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_GOVERNMENT_ESTABLISHED_SHORT_DESC">
+			<Text>Government Established!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_GOVERNMENT_ESTABLISHED_DESC">
+			<Text>You have established a [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] as your civilization's Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_GOVERNMENT_ESTABLISHED_SHORT_DESC_CHANGE">
+			<Text>Government Changed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_GOVERNMENT_ESTABLISHED_DESC_CHANGE">
+			<Text>You have established a [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] as your civilization's new Government, replacing your old system of [COLOR_WARNING_TEXT]{2_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<!--Unique Government Established-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_UNIQUE_GOVERNMENT_ESTABLISHED_SHORT_DESC">
+			<Text>Unique Government Established!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_UNIQUE_GOVERNMENT_ESTABLISHED_DESC">
+			<Text>You have established the [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] as your civilization's Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_UNIQUE_GOVERNMENT_ESTABLISHED_SHORT_DESC_CHANGE">
+			<Text>Unique Government Established!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_UNIQUE_GOVERNMENT_ESTABLISHED_DESC_CHANGE">
+			<Text>You have established the [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] as your civilization's new Government, replacing your old system of [COLOR_WARNING_TEXT]{3_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<!--Legislature Dissolution Imminent!-->
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_GOVERNMENT_COOLDOWN_ENDS_IMMINENT_SHORT_TEXT">
+			<Text>Legislature Dissolution Imminent!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_GOVERNMENT_COOLDOWN_ENDS_IMMINENT_TEXT">
+			<Text>Your Legislature Cooldown is about to end in [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] turn(s). After this time, your Legislature will be dissolved and a new one will be formed.</Text>
+		</Row>
+		<!--Legislature Dissolved!-->
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_GOVERNMENT_COOLDOWN_ENDS_SHORT_TEXT">
+			<Text>Legislature Dissolved!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_GOVERNMENT_COOLDOWN_ENDS_TEXT">
+			<Text>Your Legislature has been dissolved.</Text>
+		</Row>
+		<!--New Legislature!-->
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_SHORT_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] {1: plural 1?takes; 2?take;} power!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_TEXT">
+			<Text>A new [ICON_JFD_LEGISLATURE] Legislature has been formed under the leadership of the [COLOR_JFD_FACTION_POWER]{1_Desc}[ENDCOLOR]![NEWLINE][NEWLINE]The Factions that make up your Legislature will influence your ability to pass [ICON_JFD_REFORM] Political Reforms based upon their [ICON_JFD_FACTION_POWER] Faction Power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_SHORT_TEXT_MANDATE_OF_HEAVEN">
+			<Text>[COLOR_JFD_SOVEREIGNTY]Mandate of Heaven Claimed![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_TEXT_MANDATE_OF_HEAVEN">
+			<Text>You have claimed the [COLOR_POSITIVE_TEXT]Mandate of Heaven[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_SHORT_TEXT_MANDATE_OF_HEAVEN_LOSS">
+			<Text>[COLOR_WARNING_TEXT]Mandate of Heaven Lost![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_NEW_LEGISLATURE_TEXT_MANDATE_OF_HEAVEN_LOSS">
+			<Text>You have lost the [COLOR_WARNING_TEXT]Mandate of Heaven[ENDCOLOR], triggering [ICON_RESISTANCE] Anarchy for {1_Num} Turn(s)!</Text>
+		</Row>
+		<!--New Reforms!-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NEW_REFORMS_SHORT_TEXT">
+			<Text>New Reforms!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_NEW_REFORMS_TEXT">
+			<Text>A New Era Begins! The following Reforms are now available:{1_List}</Text>
+		</Row>
+		<!--Reform Capacity Expands-->
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_REFORM_CAPACITY_EXPANDS_SHORT_TEXT">
+			<Text>Reform Capacity Expands!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_NOTIFICATION_REFORM_CAPACITY_EXPANDS_TEXT">
+			<Text>Your Reform Capacity has expanded! You can now pass additional Reforms without it affecting your Sovereignty.</Text>
+		</Row>
+		<!--Reform Passed-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_REFORM_PASSED_SHORT_TEXT">
+			<Text>{1_ReformBranchCategory} Reform Passed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_REFORM_PASSED_TEXT">
+			<Text>You have passed a new {1_ReformBranchCategory} Reform favouring [COLOR_POSITIVE_TEXT]{2_ReformDesc}[ENDCOLOR] ({3_ReformCategory})![NEWLINE]----------[NEWLINE]{4_ReformPedia}[NEWLINE]----------[NEWLINE][COLOR_POSITIVE_TEXT]Bonuses:[ENDCOLOR][NEWLINE]----------[NEWLINE][ICON_BULLET]{5_ReformBonusHelp}[NEWLINE]----------[NEWLINE][COLOR_NEGATIVE_TEXT]Penalties:[ENDCOLOR][NEWLINE]----------[NEWLINE][ICON_BULLET]{6_ReformPenaltyHelp}[NEWLINE]----------</Text>
+		</Row>
+		<!--Reform Can Be Passed-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_REFORM_COOLDOWN_ENDS_SHORT_TEXT">
+			<Text>Reform Can Be Passed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_REFORM_COOLDOWN_ENDS_TEXT">
+			<Text>A Reform cooldown period has just ended and your [ICON_JFD_SOVEREIGNTY] Sovereignty has been re-assessed. New Reforms may now be passed if you meet their requirements.</Text>
+		</Row>
+		<!--Revolution Begins-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_REVOLUTION_BEGINS_SHORT_DESC">
+			<Text>[COLOR_WARNING_TEXT]{1_Desc}[ENDCOLOR] take power!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_REVOLUTION_BEGINS_DESC">
+			<Text>[COLOR_WARNING_TEXT]{1_Desc}[ENDCOLOR] have taken power over your Government, triggering [ICON_RESISTANCE] Anarchy for {2_Num} Turn(s)! During this time, your Government will be unable to operate.</Text>
+		</Row>
+		<!--Revolution Ends-->
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_REVOLUTION_ENDS_SHORT_DESC">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] lose power!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_JFD_REVOLUTION_ENDS_DESC">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] have lost power over your Government, bringing an end to your period of [ICON_RESISTANCE] Anarchy!</Text>
+		</Row>
+		<!--World Event!-->
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_GOVERNMENT_ESTABLISHED_DESC">
+			<Text>{1_CivName} {1: plural 1?has; 2?have;} established a [COLOR_POSITIVE_TEXT]{2_Desc}[ENDCOLOR] as their civilization's Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_GOVERNMENT_ESTABLISHED_DESC_CHANGE">
+			<Text>{1_CivName} {1: plural 1?has; 2?have;} established a [COLOR_POSITIVE_TEXT]{2_Desc}[ENDCOLOR] as their civilization's new Government, replacing their old system of [COLOR_WARNING_TEXT]{3_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_UNIQUE_GOVERNMENT_ESTABLISHED_DESC">
+			<Text>{1_CivName} {1: plural 1?has; 2?have;} established the [COLOR_POSITIVE_TEXT]{2_Desc}[ENDCOLOR] as their civilization's Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_UNIQUE_GOVERNMENT_ESTABLISHED_DESC_CHANGE">
+			<Text>{1_CivName} {1: plural 1?has; 2?have;} established the [COLOR_POSITIVE_TEXT]{2_Desc}[ENDCOLOR] as their civilization's new Government, replacing their old system of [COLOR_WARNING_TEXT]{3_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_NEW_LEGISLATURE_DESC">
+			<Text>The [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR] {1: plural 1?has; 2?have;} taken power in the {2_Desc} Government!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_NEW_LEGISLATURE_DESC_REVOLUTIONARIES">
+			<Text>[COLOR_WARNING_TEXT]{1_Desc}[ENDCOLOR] {1: plural 1?has; 2?have;} taken power over the {2_Desc} Government!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENT_JFD_REFORM_PASSED_ANARCHY_DESC">
+			<Text>Protests over Political Reforms have broken out in the {1_CivName}.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--TOOLTIPS-->
+		<!--===================================================-->
+		<!--Sovereignty-->
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_FROM_BUILDINGS">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] added by Buildings and Wonders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_FROM_CITIES">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] added by Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_FROM_GOLDEN_AGE">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] added by [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_FROM_POLICIES_AND_REFORMS">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] added by Policies and Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_FROM_TRADE_ROUTES">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}%[ENDCOLOR] added by Trade Routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_WHEN_BUILDING_CLASS">
+			<Text>{1_TextHighlight}{2_Num}%[ENDCOLOR] when all cities have a [COLOR_POSITIVE_TEXT]{3_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_WHEN_NO_BUILDING_CLASS">
+			<Text>[COLOR_WARNING_TEXT]{1_Num}%[ENDCOLOR] when [COLOR_WARNING_TEXT]NO[ENDCOLOR] city has a [COLOR_POSITIVE_TEXT]{2_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_WHEN_NUM_CITIES_OR_LESS">
+			<Text>{1_TextHighlight}{2_Num}%[ENDCOLOR] when you have [COLOR_POSITIVE_TEXT]{3_Num} or less[ENDCOLOR] cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_WHEN_NUM_CITIES_OR_MORE">
+			<Text>{1_TextHighlight}{2_Num}%[ENDCOLOR] when you have [COLOR_POSITIVE_TEXT]{3_Num} or more[ENDCOLOR] cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_MOD_FROM_CYCLE_OF_POWER">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}% to all [ICON_JFD_SOVEREIGNTY][ENDCOLOR] from {2_Icon} {3_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_MOD_FROM_REFORM_CAPACITY">
+			<Text>[COLOR_WARNING_TEXT]{1_Num}% to all [ICON_JFD_SOVEREIGNTY][ENDCOLOR] from exceeding Reform Capacity[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_MOD_FROM_MANDATE">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}% to all [ICON_JFD_SOVEREIGNTY][ENDCOLOR] from Mandate of Heaven[ENDCOLOR].</Text>
+		</Row>
+		<!--Reforms-->
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_NONE">
+			<Text>None.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_ANARCHY">
+			<Text>[COLOR_WARNING_TEXT]You cannot pass Reforms whilst your civilization is in [ICON_RESISTANCE] Anarchy.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_COOLDOWN">
+			<Text>[COLOR_WARNING_TEXT]You must wait {1_Num} Turn(s) to pass another Reform from within this group.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_BLOCKED">
+			<Text>[COLOR_WARNING_TEXT]This Reform is incompatible with your current Government.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PASSED">
+			<Text>[COLOR_POSITIVE_TEXT]This Reform has been passed.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PREREQS">
+			<Text>[COLOR_WARNING_TEXT]You cannot pass this Reform right now.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_SOVEREIGNTY_REQ">
+			<Text>[COLOR_WARNING_TEXT]You need a min. of {1_Num}% [ICON_JFD_SOVEREIGNTY] Sovereignty.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PREREQ_ERA">
+			<Text>[ICON_BULLET]Requires the [ICON_RESEARCH] {1_EraName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PREREQ_GOVERNMENT">
+			<Text>[ICON_BULLET][COLOR_CULTURE_RATE]Requires [ICON_CULTURE] {1_Desc}.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PREREQ_TECH">
+			<Text>[ICON_BULLET][COLOR_RESEARCH_RATE]Requires [ICON_RESEARCH] {1_Desc}.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PREREQ_POLICY">
+			<Text>[ICON_BULLET][COLOR_CULTURE_RATE]Requires [ICON_CULTURE] {1_Desc}.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PREREQ_REFORM">
+			<Text>[ICON_BULLET][COLOR_JFD_SOVEREIGNTY]Requires [ICON_JFD_SOVEREIGNTY] {1_Desc}.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PREREQ_FOUNDED_PANTHEON">
+			<Text>[ICON_BULLET]Requires a Founded Pantheon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PREREQ_FOUNDED_RELIGION">
+			<Text>[ICON_BULLET]Requires a Founded Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PREREQ_ENHANCED_RELIGION">
+			<Text>[ICON_BULLET]Requires an enhanced Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_HELP_PREREQ_STATE_RELIGION">
+			<Text>[ICON_BULLET]Requires a [ICON_RELIGION] State Religion.</Text>
+		</Row>
+		<!--Legislature Cooldown-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_GOVERNMENT_COOLDOWN_TT">
+			<Text>Current Legislature Cooldown: [COLOR_WARNING_TEXT]{1_Num}[ENDCOLOR] Turn(s)[NEWLINE]Cooldown after next Legislature: [COLOR_WARNING_TEXT]{2_Num}[ENDCOLOR] Turn(s).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_GOVERNMENT_COOLDOWN_TT_SHOGUNATE">
+			<Text>[ICON_JFD_LEGISLATURE_COOLDOWN] Legislature Cooldown only occurs at the beginning of each new Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]Building Modifier: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_POLICIES">
+			<Text>[NEWLINE][ICON_BULLET]Policy Modifier: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_GOVERNMENT">
+			<Text>[NEWLINE][ICON_BULLET]Government Modifier: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_REFORMS">
+			<Text>[NEWLINE][ICON_BULLET]Reform Modifier: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_COOLDOWN_TT_FROM_TRAITS">
+			<Text>[NEWLINE][ICON_BULLET]Trait Modifier: {1_Num}</Text>
+		</Row>
+		<!--Reform Cooldown-->
+		<Row Tag="TXT_KEY_JFD_GOVERNMENT_OVERVIEW_REFORM_COOLDOWN_TT">
+			<Text>Current Reform Cooldown: [COLOR_WARNING_TEXT]{1_Num}[ENDCOLOR] Turn(s)[NEWLINE][ENWLINE]Cooldown after passing a Reform: [COLOR_WARNING_TEXT]{2_Num}[ENDCOLOR] Turn(s).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} from Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_CITIES">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} from number of Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_CITIZENS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} from number of Citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_GOVERNMENT">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} from Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_POLICIES">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} from Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_REFORMS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} from Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_REVOLUTIONARY_SENTIMENT">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} from Revolutionary Sentiment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REFORM_COOLDOWN_TT_FROM_TRAITS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} from Traits.</Text>
+		</Row>
+		<!--Revolutionary Sentiment-->
+		<Row Tag="TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_CITIES">
+			<Text>[NEWLINE]     [ICON_BULLET]{1_Num} [ICON_JFD_REVOLUTIONARY_SENTIMENT] from Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_POPULATION">
+			<Text>[NEWLINE]     [ICON_BULLET]{1_Num} [ICON_JFD_REVOLUTIONARY_SENTIMENT] from Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_BUILDINGS">
+			<Text>[NEWLINE]     [ICON_BULLET]{1_Num} [ICON_JFD_REVOLUTIONARY_SENTIMENT] from Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_UNHAPPINESS">
+			<Text>[NEWLINE]     [ICON_BULLET]{1_Num} [ICON_JFD_REVOLUTIONARY_SENTIMENT] from Unhappiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_GOVERNMENT">
+			<Text>[NEWLINE]     [ICON_BULLET]{1_Num} [ICON_JFD_REVOLUTIONARY_SENTIMENT] from Government.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_OPPOSITION">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} [ICON_JFD_REVOLUTIONARY_SENTIMENT] from Opposition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_POLICIES">
+			<Text>[NEWLINE]     [ICON_BULLET]{1_Num} [ICON_JFD_REVOLUTIONARY_SENTIMENT] from Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_REFORMS">
+			<Text>[NEWLINE]     [ICON_BULLET]{1_Num} [ICON_JFD_REVOLUTIONARY_SENTIMENT] from Reforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_TRAITS">
+			<Text>[NEWLINE]     [ICON_BULLET]{1_Num} [ICON_JFD_REVOLUTIONARY_SENTIMENT] from Traits.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_REVOLUTIONARY_SENTIMENT_TT_FROM_SOV_DIFF">
+			<Text>[NEWLINE]     [ICON_BULLET]{1_Num} [ICON_JFD_REVOLUTIONARY_SENTIMENT] from Sovereignty Deficit.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--TOP PANEL-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_YOUR_GOVERNMENT">
+			<Text>Your Government is a [COLOR_POSITIVE_TEXT]{1_Desc}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_YOUR_SOVEREIGNTY">
+			<Text>Your [ICON_JFD_SOVEREIGNTY] Sovereignty is: {4_HL}{1_Num}[ENDCOLOR]/[COLOR_JFD_SOVEREIGNTY]{2_Num}%[ENDCOLOR][NEWLINE][ICON_BULLET]Next Turn, your [ICON_JFD_SOVEREIGNTY] Sovereignty is projected to be: {5_HL}{3_Num}[ENDCOLOR]/[COLOR_JFD_SOVEREIGNTY]{2_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_GOVERNMENT_COOLDOWN">
+			<Text>[NEWLINE][NEWLINE][ICON_JFD_GOVERNMENT_COOLDOWN] Legislature Cooldown: [COLOR_WARNING_TEXT]{1_Turns}[ENDCOLOR] turn(s).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_REFORM_CAPACITY">
+			<Text>[ICON_JFD_REFORM] Reform Capacity: {3_HL}{1_Num}[ENDCOLOR]/{2_Num}.</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_JFD_SOVEREIGNTY_TOP_PANEL_TT_ANARCHY">
+			<Text>[COLOR_NEGATIVE_TEXT]Your Civlization is in [ICON_RESISTANCE] Anarchy for {1_Turns} more turn(s). During [ICON_RESISTANCE] Anarchy, you will be unable to pass [ICON_JFD_REFORM] Political Reforms.[ENDCOLOR]</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>
