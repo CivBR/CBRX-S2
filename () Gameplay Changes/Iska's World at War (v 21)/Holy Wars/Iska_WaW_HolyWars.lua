@@ -4,9 +4,18 @@ include("InstanceManager")
 local DecCivInstanceManager = InstanceManager:new("CivName", "Box", Controls.DecCivStack)
 local DefCivInstanceManager = InstanceManager:new("CivName", "Box", Controls.DefCivStack)
 
+local eEnlight = GameInfoTypes.ERA_ENLIGHTENMENT
+
+local unitWarriorID = GameInfo.Units.UNIT_WARRIOR.ID
+local unitSwordsmanID = GameInfo.Units.UNIT_SWORDSMAN.ID
+local unitKnightID = GameInfo.Units.UNIT_KNIGHT.ID
+local unitIskaWarrior = GameInfo.Units.UNIT_ISKA_HW_WARRIOR.ID
+local unitIskaSwordsman = GameInfo.Units.UNIT_ISKA_HW_SWORDSMAN.ID
+local unitIskaKnight = GameInfo.Units.UNIT_ISKA_HW_KNIGHT.ID
+
 g_PlayerActiveHolyWar = {}
 function Iska_LoadHWVars()
-	if Iska_HW_Debug then print("Loading previous game holy war vars...") end
+	-- if Iska_HW_Debug then print("Loading previous game holy war vars...") end
 	for id, player in pairs(Players) do
 		if player:IsAlive() and not player:IsMinorCiv() and id ~= 63
 		and player:GetReligionCreatedByPlayer() ~= -1 then
@@ -35,6 +44,9 @@ function Iska_WaW_HW_WarStateChange(team1, team2, war)
 	local decrel = decplayer:GetReligionCreatedByPlayer()
 	local defplayer = Players[Teams[team2]:GetLeaderID()]
 	local defrel = defplayer:GetReligionCreatedByPlayer()
+	
+	if decplayer:GetCurrentEra() > eEnlight and defplayer:GetCurrentEra() > eEnlight then return end
+	
 	local deccontrolhs, defcontrolhs, playerscontrolhcs
 	for city in decplayer:Cities() do
 		if city:IsHolyCityForReligion(decrel) then deccontrolhs = true end
@@ -45,28 +57,14 @@ function Iska_WaW_HW_WarStateChange(team1, team2, war)
 	if deccontrolhs and defcontrolhs then playerscontrolhcs = true end
 	if decplayer:IsMinorCiv() or defplayer:IsMinorCiv() or defrel < 1 or decrel < 1 or not playerscontrolhcs then return end
 	if Iska_WaW_GetMajorityReligion(decplayer) <= 0 or Iska_WaW_GetMajorityReligion(defplayer) <= 0 then return end
-	if Iska_HW_Debug then print("Starting code Iska_WaW_HW_WarStateChange: religions: " ..  Locale.Lookup(GameInfo.Religions[decrel].Description) .. " " .. Locale.Lookup(GameInfo.Religions[defrel].Description)) end
+	--if Iska_HW_Debug then print("Starting code Iska_WaW_HW_WarStateChange: religions: " ..  Locale.Lookup(GameInfo.Religions[decrel].Description) .. " " .. Locale.Lookup(GameInfo.Religions[defrel].Description)) end
 
-	--if GameInfo.Policies["POLICY_SECULARISM"].ID ~= nil then
-	--	if decplayer:HasPolicy(GameInfo.Policies["POLICY_SECULARISM"].ID) or defplayer:HasPolicy(GameInfo.Policies["POLICY_SECULARISM"].ID) then
-	--		if Iska_HW_Debug then print("The religious authorities of " .. Locale.Lookup(GameInfo.Religions[decrel].Description) .. " wish to declare a Holy War, but secularism does not negotiate with terrorists!") end
-	--		return
-	--	end
-	--end
 	if war and playerscontrolhcs then
 		if Iska_WaW_GetValue(decrel .. "ActiveHolyWarWith" .. defrel) == nil and Iska_WaW_GetValue(defrel .. "ActiveHolyWarWith" .. decrel) == nil then
-			if Iska_HW_Debug then print("The religious authorities of " .. GameInfo.Religions[decrel].IconString .. " " .. Locale.Lookup(GameInfo.Religions[decrel].Description) .. " have declared a Holy War upon " .. GameInfo.Religions[defrel].IconString .. " " .. Locale.Lookup(GameInfo.Religions[defrel].Description) .. "!") end
-			if decplayer == hplayer or defplayer == hplayer or hplayer:HasReligionInMostCities(decrel) or hplayer:HasReligionInMostCities(defrel) then
-				Controls.HolyWarPanelMain:SetHide(false)
-				Controls.BGBlock:SetHide(false)
-				Controls.Text:SetString(Iska_WaW_HW_GetPanelInfo(decplayer, defplayer, hplayer, decrel, defrel))
-			end
-			if decplayer == hplayer or defplayer == hplayer or hplayer:HasReligionInMostCities(decrel) or hplayer:HasReligionInMostCities(defrel) 
-			or Teams[hplayer:GetTeam()]:IsHasMet(decplayer:GetTeam()) or Teams[hplayer:GetTeam()]:IsHasMet(defplayer:GetTeam()) then
-				local sTitle = Locale.Lookup("TXT_KEY_ISKA_HOLY_WAR_TITLE")
-				local sText = Locale.ConvertTextKey("TXT_KEY_ISKA_HOLY_WAR_DESC", GameInfo.Religions[decrel].IconString, Locale.Lookup(GameInfo.Religions[decrel].Description), GameInfo.Religions[defrel].IconString, Locale.Lookup(GameInfo.Religions[defrel].Description))
-				hplayer:AddNotification(NotificationTypes.NOTIFICATION_RELIGION_FOUNDED, sText, sTitle)
-			end
+			--if Iska_HW_Debug then print("The religious authorities of " .. GameInfo.Religions[decrel].IconString .. " " .. Locale.Lookup(GameInfo.Religions[decrel].Description) .. " have declared a Holy War upon " .. GameInfo.Religions[defrel].IconString .. " " .. Locale.Lookup(GameInfo.Religions[defrel].Description) .. "!") end
+			local sTitle = Locale.Lookup("TXT_KEY_ISKA_HOLY_WAR_TITLE")
+			local sText = Locale.ConvertTextKey("TXT_KEY_ISKA_HOLY_WAR_DESC", GameInfo.Religions[decrel].IconString, Locale.Lookup(GameInfo.Religions[decrel].Description), GameInfo.Religions[defrel].IconString, Locale.Lookup(GameInfo.Religions[defrel].Description))
+			hplayer:AddNotification(NotificationTypes.NOTIFICATION_RELIGION_FOUNDED, sText, sTitle)
 			Iska_WaW_SetValue(decplayer:GetID() .. "ActiveHolyWar", true)
 			Iska_WaW_SetValue(defplayer:GetID() .. "ActiveHolyWar", true)
 			g_PlayerActiveHolyWar[decplayer:GetID()] = true
@@ -82,7 +80,7 @@ function Iska_WaW_HW_WarStateChange(team1, team2, war)
 	
 	if not war and playerscontrolhcs then
 		if Iska_WaW_GetValue(defrel .. "ActiveHolyWarWith" .. decrel) ~= nil and Iska_WaW_GetValue(decrel .. "ActiveHolyWarWith" .. defrel) ~= nil then
-			if Iska_HW_Debug then print("The Holy War between the faiths of " .. Locale.Lookup(GameInfo.Religions[defrel].Description) .. " and " .. Locale.Lookup(GameInfo.Religions[decrel].Description) .. " has ended.") end
+			--if Iska_HW_Debug then print("The Holy War between the faiths of " .. Locale.Lookup(GameInfo.Religions[defrel].Description) .. " and " .. Locale.Lookup(GameInfo.Religions[decrel].Description) .. " has ended.") end
 			Iska_WaW_SetValue(defrel .. "ActiveHolyWarWith" .. decrel, nil)
 			Iska_WaW_SetValue(decrel .. "ActiveHolyWarWith" .. defrel, nil)
 			g_PlayerActiveHolyWar[defrel .. "ActiveHolyWarWith" .. defrel] = nil
@@ -91,38 +89,35 @@ function Iska_WaW_HW_WarStateChange(team1, team2, war)
 			Iska_WaW_SetValue(defplayer:GetID() .. "ActiveHolyWar", nil)
 			g_PlayerActiveHolyWar[decplayer:GetID()] = nil
 			g_PlayerActiveHolyWar[defplayer:GetID()] = nil
-			if (decplayer == hplayer or defplayer == hplayer or hplayer:HasReligionInMostCities(decrel) or hplayer:HasReligionInMostCities(defrel)
-			or Teams[hplayer:GetTeam()]:IsHasMet(decplayer:GetTeam()) or Teams[hplayer:GetTeam()]:IsHasMet(defplayer:GetTeam())) then
-				local sTitle = Locale.Lookup("TXT_KEY_ISKA_HOLY_WAR_ENDED_TITLE")
-				local sText = Locale.ConvertTextKey("TXT_KEY_ISKA_HOLY_WAR_ENDED_DESC", GameInfo.Religions[decrel].IconString, Locale.Lookup(GameInfo.Religions[decrel].Description), GameInfo.Religions[defrel].IconString, Locale.Lookup(GameInfo.Religions[defrel].Description))
-				hplayer:AddNotification(NotificationTypes.NOTIFICATION_RELIGION_FOUNDED, sText, sTitle)
-			end
+			local sTitle = Locale.Lookup("TXT_KEY_ISKA_HOLY_WAR_ENDED_TITLE")
+			local sText = Locale.ConvertTextKey("TXT_KEY_ISKA_HOLY_WAR_ENDED_DESC", GameInfo.Religions[decrel].IconString, Locale.Lookup(GameInfo.Religions[decrel].Description), GameInfo.Religions[defrel].IconString, Locale.Lookup(GameInfo.Religions[defrel].Description))
+			hplayer:AddNotification(NotificationTypes.NOTIFICATION_RELIGION_FOUNDED, sText, sTitle)
 		end
 	end
 	--if Iska_HW_Debug then print("End Iska_WaW_HW_WarStateChange.") end
 end
 Events.WarStateChanged.Add(Iska_WaW_HW_WarStateChange)
 
- function Iska_WaW_HW_GrantHolyWarriors(player)
+function Iska_WaW_HW_GrantHolyWarriors(player)
 	if player ~= nil then
 		--if Iska_HW_Debug then print("Start code Iska_WaW_HW_GrantHolyWarriors: player: " ..  player:GetName()) end
 		for unit in player:Units() do
 			if unit ~= nil then
 				if unit:GetDamage() < 100 then
 					local type = unit:GetUnitType()
-					if type == GameInfo.Units.UNIT_WARRIOR.ID then
+					if type == unitWarriorID then
 						local placex = unit:GetX() local placey = unit:GetY() --unit:Kill(false, -1)
-						local newUnit = player:InitUnit(GameInfo.Units.UNIT_ISKA_HW_WARRIOR.ID, placex, placey, UNITAI_OFFENSE)
+						local newUnit = player:InitUnit(unitIskaWarrior, placex, placey, UNITAI_OFFENSE)
 						newUnit:Convert(unit)
 					end
-					if type == GameInfo.Units.UNIT_SWORDSMAN.ID then
+					if type == unitSwordsmanID then
 						local placex = unit:GetX() local placey = unit:GetY() --unit:Kill(false, -1)
-						local newUnit = player:InitUnit(GameInfo.Units.UNIT_ISKA_HW_SWORDSMAN.ID, placex, placey, UNITAI_OFFENSE)
+						local newUnit = player:InitUnit(unitIskaSwordsman, placex, placey, UNITAI_OFFENSE)
 						newUnit:Convert(unit)
 					end
-					if type == GameInfo.Units.UNIT_KNIGHT.ID then
+					if type == unitKnightID then
 						local placex = unit:GetX() local placey = unit:GetY() --unit:Kill(false, -1)
-						local newUnit = player:InitUnit(GameInfo.Units.UNIT_ISKA_HW_KNIGHT.ID, placex, placey, UNITAI_OFFENSE)
+						local newUnit = player:InitUnit(unitIskaKnight, placex, placey, UNITAI_OFFENSE)
 						newUnit:Convert(unit)
 					end
 				end
@@ -145,29 +140,21 @@ GameEvents.PlayerCanTrain.Add(Iska_WaW_LimitHW)
 
 function Iska_WaW_HW_AIDecideEntrance(playerID)
 	local player = Players[playerID]
+	if player:GetCurrentEra() > eEnlight then return end
 	if not player:IsMinorCiv() and Iska_WaW_GetMajorityReligion(player) > 0 then
 		for id, oplayer in pairs(Players) do
 			if g_PlayerActiveHolyWar[id] and player:HasReligionInMostCities(oplayer:GetReligionCreatedByPlayer()) and player ~= oplayer then
-				--print(player:GetName() .. " can enter " .. oplayer:GetName() .. "'s holy war")
 				for id, nplayer in pairs(Players) do
 					if g_PlayerActiveHolyWar[oplayer:GetReligionCreatedByPlayer() .. "ActiveHolyWarWith" .. nplayer:GetReligionCreatedByPlayer()] 
 					and nplayer ~= oplayer and nplayer ~= player and Iska_WaW_GetMajorityReligion(nplayer) > 0 and not Teams[player:GetTeam()]:IsAtWar(nplayer:GetTeam()) then
 						Teams[player:GetTeam()]:DeclareWar(nplayer:GetTeam())
 						Iska_WaW_HW_GrantHolyWarriors(player)
-						if Iska_HW_Debug then print(player:GetName() .. " declared war on " .. nplayer:GetName() .. " because jihad!") end
-
-						local hplayer = Players[Game.GetActivePlayer()]
-						if player == hplayer or oplayer == hplayer 
-						or hplayer:HasReligionInMostCities(oplayer:GetReligionCreatedByPlayer()) or hplayer:HasReligionInMostCities(player:GetReligionCreatedByPlayer()) 
-						or Teams[hplayer:GetTeam()]:IsHasMet(player:GetTeam()) or Teams[hplayer:GetTeam()]:IsHasMet(oplayer:GetTeam()) then
-							local strText = Locale.ConvertTextKey("TXT_KEY_ISKA_HOLY_WAR_ENTRANT_DESC", player:GetName(), GameInfo.Religions[Iska_WaW_GetMajorityReligion(player)].IconString, Locale.Lookup(GameInfo.Religions[Iska_WaW_GetMajorityReligion(player)].Description), GameInfo.Religions[nplayer:GetReligionCreatedByPlayer()].IconString, Locale.Lookup(GameInfo.Religions[nplayer:GetReligionCreatedByPlayer()].Description))
-							hplayer:AddNotification(NotificationTypes.NOTIFICATION_RELIGION_FOUNDED, strText, Locale.Lookup("TXT_KEY_ISKA_HOLY_WAR_ENTRANT_TITLE"))													
-						end
+						if Iska_HW_Debug then print(player:GetName() .. " declared war on " .. nplayer:GetName() .. " due to holy war!") end
 
 						for id, mplayer in pairs(Players) do
 							if mplayer:HasReligionInMostCities(nplayer:GetReligionCreatedByPlayer()) and not Teams[player:GetTeam()]:IsAtWar(mplayer:GetTeam()) then
 								Teams[player:GetTeam()]:DeclareWar(mplayer:GetTeam())
-								if Iska_HW_Debug then print(player:GetName() .. " also declared war on " .. mplayer:GetName() .. " because jihad!") end
+								if Iska_HW_Debug then print(player:GetName() .. " also declared war on " .. mplayer:GetName() .. " due to holy war!") end
 							end
 						end
 					end
@@ -216,13 +203,9 @@ function Iska_WaW_HW_CityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop
 							local decrel = row.ID
 							if decrel == defrel then return end
 							if Iska_HW_Debug then print("The Holy Armies of " .. GameInfo.Religions[decrel].IconString .. " " .. Locale.Lookup(GameInfo.Religions[decrel].Description) .. " have captured " .. city:GetName() .. ", the Holy City of  " .. GameInfo.Religions[defrel].IconString .. " " .. Locale.Lookup(GameInfo.Religions[defrel].Description) .. "! The Holy War of " .. GameInfo.Religions[decrel].IconString .. " " .. Locale.Lookup(GameInfo.Religions[decrel].Description) .. " has ended.") end
-							if player == hplayer or oplayer == hplayer or hplayer:HasReligionInMostCities(oplayer:GetReligionCreatedByPlayer()) or hplayer:HasReligionInMostCities(player:GetReligionCreatedByPlayer()) 
-							or Teams[hplayer:GetTeam()]:IsHasMet(player:GetTeam()) or Teams[hplayer:GetTeam()]:IsHasMet(oplayer:GetTeam()) then
-								local sTitle = Locale.Lookup("TXT_KEY_ISKA_HOLY_WAR_ENDED_TITLE")
-								local sText = Locale.ConvertTextKey("TXT_KEY_ISKA_HOLY_WAR_ENDED_CAPTURE_OTHER_DESC", city:GetName(), GameInfo.Religions[decrel].IconString, Locale.Lookup(GameInfo.Religions[decrel].Description), GameInfo.Religions[defrel].IconString, Locale.Lookup(GameInfo.Religions[defrel].Description))
-								--Locale.ConvertTextKey("TXT_KEY_ISKA_HOLY_WAR_ENDED_CAPTURE_OTHER_DESC", city:GetName(), GameInfo.Religions[decrel].IconString, Locale.Lookup(GameInfo.Religions[decrel].Description), GameInfo.Religions[defrel].IconString, Locale.Lookup(GameInfo.Religions[defrel].Description))
-								hplayer:AddNotification(NotificationTypes.NOTIFICATION_RELIGION_FOUNDED, sText, sTitle)
-							end
+							local sTitle = Locale.Lookup("TXT_KEY_ISKA_HOLY_WAR_ENDED_TITLE")
+							local sText = Locale.ConvertTextKey("TXT_KEY_ISKA_HOLY_WAR_ENDED_CAPTURE_OTHER_DESC", city:GetName(), GameInfo.Religions[decrel].IconString, Locale.Lookup(GameInfo.Religions[decrel].Description), GameInfo.Religions[defrel].IconString, Locale.Lookup(GameInfo.Religions[defrel].Description))
+							hplayer:AddNotification(NotificationTypes.NOTIFICATION_RELIGION_FOUNDED, sText, sTitle)
 							Players[newPlayerID]:ChangeFaith(1000)
 							Events.AddPopupTextEvent(HexToWorld(ToHexFromGrid(Vector2(Players[newPlayerID]:GetCapitalCity():GetX(),Players[newPlayerID]:GetCapitalCity():GetY()))), Locale.Lookup("TXT_KEY_ISKA_HOLY_WAR_ENDED_CELEBRATIONS") .. 1000 .. " [ICON_PEACE] Faith", 0)
 						else
@@ -230,10 +213,7 @@ function Iska_WaW_HW_CityCaptured(iOldOwner, bIsCapital, iX, iY, iNewOwner, iPop
 							if Iska_HW_Debug then print("The Holy City of " .. Locale.Lookup(GameInfo.Religions[defrel].Description) .. " has fallen! The Holy War of " .. Locale.Lookup(GameInfo.Religions[row.ID].Description) .. " has ended.") end
 							local sTitle = Locale.Lookup("TXT_KEY_ISKA_HOLY_WAR_ENDED_TITLE")
 							local sText = Locale.ConvertTextKey("TXT_KEY_ISKA_HOLY_WAR_ENDED_CAPTURE_PLAYER_DESC", city:GetName(), GameInfo.Religions[defrel].IconString, Locale.Lookup(GameInfo.Religions[defrel].Description), GameInfo.Religions[row.ID].IconString, Locale.Lookup(GameInfo.Religions[row.ID].Description))
-							if player == hplayer or oplayer == hplayer or hplayer:HasReligionInMostCities(oplayer:GetReligionCreatedByPlayer()) or hplayer:HasReligionInMostCities(player:GetReligionCreatedByPlayer()) 
-							or Teams[hplayer:GetTeam()]:IsHasMet(player:GetTeam()) or Teams[hplayer:GetTeam()]:IsHasMet(oplayer:GetTeam()) then
-								hplayer:AddNotification(NotificationTypes.NOTIFICATION_RELIGION_FOUNDED, sText, sTitle)
-							end
+							hplayer:AddNotification(NotificationTypes.NOTIFICATION_RELIGION_FOUNDED, sText, sTitle)
 							if Players[newPlayerID]:GetCapitalCity():GetReligiousMajority() == row.ID then
 								Players[newPlayerID]:ChangeFaith(750)
 								Events.AddPopupTextEvent(HexToWorld(ToHexFromGrid(Vector2(Players[newPlayerID]:GetCapitalCity():GetX(),Players[newPlayerID]:GetCapitalCity():GetY()))), Locale.Lookup("TXT_KEY_ISKA_HOLY_WAR_ENDED_CELEBRATIONS") .. 750 .. " [ICON_PEACE] Faith", 0)
@@ -253,8 +233,8 @@ function Iska_WaW_HW_UnitKilled(krplayerID, keplayerID)
 	local keplayer = Players[keplayerID]
 	local deccity = krplayer:GetCapitalCity()
 	local defcity = keplayer:GetCapitalCity()
-	if deccity ~= nil and defcity ~= nil then
-		if deccity:GetReligiousMajority() ~= nil and defcity:GetReligiousMajority() ~= nil 
+	if deccity and defcity then
+		if deccity:GetReligiousMajority() and defcity:GetReligiousMajority(
 		and defcity:GetReligiousMajority() ~= -1 and deccity:GetReligiousMajority() ~= -1 then
 			--if Iska_HW_Debug then print("pre-Start code Iska_WaW_HW_UnitKilled.") end
 			local decrel = Locale.Lookup(GameInfo.Religions[deccity:GetReligiousMajority()].Description)
@@ -286,7 +266,7 @@ end
 GameEvents.UnitKilledInCombat.Add(Iska_WaW_HW_UnitKilled)
 
 function Iska_WaW_HW_GetPanelInfo(decplayer, defplayer, hplayer, decrel, defrel)
-	if Iska_HW_Debug then print("Starting code Iska_WaW_HW_GetPanelInfo: religions: " ..  decrel .. " " .. defrel) end
+	-- if Iska_HW_Debug then print("Starting code Iska_WaW_HW_GetPanelInfo: religions: " ..  decrel .. " " .. defrel) end
 	DecCivInstanceManager:ResetInstances()
 	DefCivInstanceManager:ResetInstances()
 	decmight, defmight, decfaith, deffaith = 0, 0, 0, 0
@@ -294,7 +274,7 @@ function Iska_WaW_HW_GetPanelInfo(decplayer, defplayer, hplayer, decrel, defrel)
 		if player:IsAlive() and id ~= 63 then
 			if Iska_HW_Debug then print("civ: " .. player:GetCivilizationShortDescriptionKey() .. " founded religion: " .. player:GetReligionCreatedByPlayer() .. " religion in most cities: " .. Iska_WaW_GetMajorityReligion(player)) end
 			if (player:HasReligionInMostCities(decrel) and player:GetReligionCreatedByPlayer() ~= defrel) or player:GetReligionCreatedByPlayer() == decrel then
-				if Iska_HW_Debug then print("Adding to dec civ list") end
+				--if Iska_HW_Debug then print("Adding to dec civ list") end
 				local DecCivInstance = DecCivInstanceManager:GetInstance()   
 				DecCivInstance.Label:LocalizeAndSetText(player:GetCivilizationShortDescriptionKey())
 				DecCivInstance.MightLabel:LocalizeAndSetText(Locale.ConvertTextKey("TXT_KEY_ISKA_INSTANCE_MIGHTLABEL", tostring(player:GetMilitaryMight())))
@@ -304,7 +284,7 @@ function Iska_WaW_HW_GetPanelInfo(decplayer, defplayer, hplayer, decrel, defrel)
 				decfaith = decfaith + player:GetTotalFaithPerTurn()
 			end
 			if (player:HasReligionInMostCities(defrel) and player:GetReligionCreatedByPlayer() ~= decrel) or player:GetReligionCreatedByPlayer() == defrel then
-				if Iska_HW_Debug then print("Adding to def civ list") end
+				--if Iska_HW_Debug then print("Adding to def civ list") end
 				local DefCivInstance = DefCivInstanceManager:GetInstance()   
 				DefCivInstance.Label:LocalizeAndSetText(player:GetCivilizationShortDescriptionKey())
 				DefCivInstance.MightLabel:LocalizeAndSetText(Locale.ConvertTextKey("TXT_KEY_ISKA_INSTANCE_MIGHTLABEL", tostring(player:GetMilitaryMight())))
@@ -329,13 +309,7 @@ function Iska_WaW_HW_GetPanelInfo(decplayer, defplayer, hplayer, decrel, defrel)
 	Controls.DefMight:LocalizeAndSetText(Locale.ConvertTextKey("TXT_KEY_ISKA_INSTANCE_MIGHTLABEL", tostring(defmight)))
 	Controls.DefFaith:LocalizeAndSetText(Locale.ConvertTextKey("TXT_KEY_ISKA_INSTANCE_FAITHLABEL", tostring(deffaith)))
 
-	local str = ""
-	
-	if decplayer == hplayer then str = Locale.ConvertTextKey("TXT_KEY_ISKA_HW_PANEL_STRING", GameInfo.Religions[decrel].IconString, Locale.Lookup(GameInfo.Religions[decrel].Description), GameInfo.Religions[defrel].IconString, Locale.Lookup(GameInfo.Religions[defrel].Description)) end
-	if defplayer == hplayer then str = Locale.ConvertTextKey("TXT_KEY_ISKA_HW_PANEL_STRING", GameInfo.Religions[defrel].IconString, Locale.Lookup(GameInfo.Religions[defrel].Description), GameInfo.Religions[decrel].IconString, Locale.Lookup(GameInfo.Religions[decrel].Description)) end
-	
-	if Iska_HW_Debug then print("End Iska_WaW_HW_GetPanelInfo.") end
-	return str
+	return ""
 end
 
 function Iska_WaW_HW_ClosePanel()
