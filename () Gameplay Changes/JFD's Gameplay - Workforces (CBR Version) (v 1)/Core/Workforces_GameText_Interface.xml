@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2015 4:02:18 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--NOTIFICATIONS-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_MESSAGE_JFD_WORKER_EXPENDED" >
+			<Text>A [COLOR_WARNING_TEXT]{1_Desc}[ENDCOLOR] has expended all its Build Charges and been disbanded.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--TECH TREE-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_1_EXTRA_WORKBOAT_CHARGES" >
+			<Text>+1 [ICON_WORKER] Build Charge for Work Boats.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--UNIT PANEL-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_UPANEL_JFD_CHARGES" >
+			<Text>Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_JFD_CHARGES_STATS" >
+			<Text>{1_Num}/{2_Num} [ICON_WORKER]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_JFD_CHARGES_TT" >
+			<Text>The number of [ICON_WORKER] Improvements this unit can build before being expended ({1_Num}/{2_Num}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CHARGES">
+			<Text>[ICON_WORKER] Build Charges: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_NUM_CHARGES">
+			<Text>{1_Num} Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CHARGES_LABEL">
+			<Text>Charges:</Text>
+		</Row>
+		<!--===================================================-->
+		<!--STARTUP POPUP-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_JFD_WORKFORCES_TITLE">
+			<Text>WORKFORCES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORKFORCES_MESSAGE">
+			<Text>Welcome! This brief summary will seek to explain the new gameplay component: [COLOR_POSITIVE_TEXT]Workforces[ENDCOLOR].[NEWLINE][NEWLINE]Your Workers must now expend Build Charges in order to build Improvements. Instead of taking a number of turns to complete an Improvement, Improvements are now built instantly, consuming 'Charges' in the process. Each Worker may use these Charges until they have none left, at which point they are expended.[NEWLINE][NEWLINE]Roads, Railroads, Repairs, and Clearing Features still require a set number of turns to be completed, but they do not consume Charges.[NEWLINE][NEWLINE]Workboats are also subject to this new mechanic, but they start with only one Charge. This can be increased by researching certain Techs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORKFORCES_BUTTON">
+			<Text>Close</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

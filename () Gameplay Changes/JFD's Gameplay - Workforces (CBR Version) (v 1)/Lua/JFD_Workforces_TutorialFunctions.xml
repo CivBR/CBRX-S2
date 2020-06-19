@@ -1,0 +1,16 @@
+<Context Font="TwCenMT16" FontStyle="Base" Color="Beige" ColorSet="Beige_Black" >
+	<Box ID="MainUIBG" Style="BGBlock_ClearTopBar" Hidden="0"/>
+	<Grid  ID="MainUI" Size="600,360" Anchor="C,C" Offset="0,0" Padding="30,30" Style="Grid9DetailFive140" Hidden="0">
+		<!-- Side treatments -->
+		<Box Style="MenuLeftSideTreatment"/>
+		<Box Style="MenuRightSideTreatment"/>
+
+		<Label  Anchor="C,T" Size="300,24" Offset="0,17" String="TXT_KEY_JFD_WORKFORCES_TITLE" ID="Title" ColorSet="Beige_Black"  Font="TwCenMT22" />
+		<Stack Anchor="C,T" Offset="0,70" Padding="12" StackGrowth="Bottom" ID="ButtonStack">
+			<Label Anchor="C,T" Offset="0,0" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" String="TXT_KEY_JFD_WORKFORCES_MESSAGE" ID="Summary" WrapWidth="570" LeadingOffset="-8"/>
+			<GridButton Style="BaseButton"  ID="CloseButton" Size="150,36" Anchor="C,T" Offset="0,20"  Hidden="0" ToolTip ="TXT_KEY_JFD_WORKFORCES_BUTTON">
+				<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_JFD_WORKFORCES_BUTTON" ColorSet="Beige_Black" Font="TwCenMT22" FontStyle="Shadow" ID="Button1Text" />
+			</GridButton>
+		</Stack>
+	</Grid>
+</Context>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2015 4:02:18 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Workforces-->
+		<Row Tag="TXT_KEY_JFD_WORKFORCES_HEADING1_TITLE">
+			<Text>Workforces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_WORKFORCES_HEADING1_BODY">
+			<Text>Your [COLOR_POSITIVE_TEXT]Workers[ENDCOLOR] must now expend Build Charges in order to build Improvements. Instead of taking a number of turns to complete an Improvement, Improvements are now built instantly, consuming 'Charges' in the process. Each Worker may use these Charges until they have none left, at which point they are expended.[NEWLINE][NEWLINE]Roads, Railroads, Repairs, and Clearing Features still require a set number of turns to be completed, however, but they do not consume Charges.[NEWLINE][NEWLINE]Workboats are also subject to this new mechanic, but they start with only one Charge. This can be increased by researching certain Techs.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--POLICIES-->
+		<!--===================================================-->
+		<!--Citizenship-->
+		<Row Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP_JFD_WORKFORCES">
+			<Text>[COLOR_POSITIVE_TEXT]Citizenship[ENDCOLOR][NEWLINE]+1 [ICON_WORKER] Charge for Workers and Workforces, and a Worker appears near the [ICON_CAPITAL] Capital. Tile Improvement speed increased by +20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP_JFD_WORKFORCES_CBO">
+			<Text>[COLOR_POSITIVE_TEXT]Liberty[ENDCOLOR][NEWLINE]A Worker appears near the [ICON_CAPITAL] Capital.[NEWLINE] +1 [ICON_WORKER] Charge for Workers and Workforces, and Workers and Workforces are trained 25% faster.</Text>
+		</Row>
+		<!--Total War (CBO)-->
+		<Row Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP_JFD_WORKFORCES_CBO">
+			<Text>[COLOR_POSITIVE_TEXT]Total War[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production when building Military Units, and +1 [ICON_BUILD] Build Charge.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--PROMOTIONS-->
+		<!--===================================================-->
+		<!--Build Charges-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BUILD_CHARGE">
+			<Text>Build Charges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_BUILD_CHARGE_HELP">
+			<Text>Indicates 1 Build Charge</Text>
+		</Row>
+		<!--Workforce Upgrade Discount-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_WORKFORCE_UPGRADE_DISCOUNT">
+			<Text>Workforce Upgrade Discount</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_WORKFORCE_UPGRADE_DISCOUNT_HELP">
+			<Text>-50% [ICON_GOLD] cost to upgrade into a Workforce.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--UNITS-->
+		<!--===================================================-->
+		<!--Worker-->
+		<Row Tag="TXT_KEY_UNIT_WORKER_HELP_JFD_WORKFORCES">
+			<Text>Improves yields by constructing Improvements on map tiles outside of Cities. Cannot be used to build Railroads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WORKER_STRATEGY_JFD_WORKFORCES">
+			<Text>The Worker constructs roads and builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when moving it through dangerous territory. The Worker has less [ICON_WORKER] Charges than the Industrial Era Workforce, and it cannot build Railroads.</Text>
+		</Row>
+		<!--Workforce-->
+		<Row Tag="TXT_KEY_UNIT_JFD_WORKFORCE">
+			<Text>Workforce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_WORKFORCE">
+			<Text>Improves yields by constructing Improvements on map tiles outside of Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_WORKFORCE_STRATEGY">
+			<Text>The Workforce constructs roads, railroads, and builds improvements like farms and mines. It cannot defend itself, so accompany it with a military unit when moving it through dangerous territory. This unit costs added Maintenance over the Worker, but has more [ICON_WORKER] Charges.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_WORKFORCE_TEXT">
+			<Text>The workforce is the labour pool in employment. It is generally used to describe those working for a single company or industry, but can also apply to a geographic region like a city, state, or country. Within a company, its value can be labelled as its "Workforce in Place". The workforce of a country includes both the employed and the unemployed. The labour force participation rate, LFPR (or economic activity rate, EAR), is the ratio between the labour force and the overall size of their cohort (national population of the same age range). The term generally excludes the employers or management, and can imply those involved in manual labour. It may also mean all those who are available for work.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--WORLD WONDERS-->
+		<!--===================================================-->
+		<!--Pyramids-->
+		<Row Tag="TXT_KEY_WONDER_PYRAMID_HELP_JFD_WORKFORCES">
+			<Text>+1 [ICON_WORKER] Charge for Workers and Workforces, and two Workers appear near the City. Increases Tile Improvement speed by +20%.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
