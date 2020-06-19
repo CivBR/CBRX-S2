@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2014 10:45:07 PM -->
+<GameData>
+	<Language_en_US>
+		<!--===================================================-->
+		<!--CONCEPTS-->
+		<!--===================================================-->
+		<!--Spirit Ideology-->
+		<Row Tag="TXT_KEY_JFD_SPIRIT_IDEOLOGY_HEADING1_TITLE">
+			<Text>Spirit Ideology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SPIRIT_IDEOLOGY_HEADING1_BODY">
+			<Text>[COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR] is a new Ideology. It can only be chosen after you have already adopted one of the three main Ideologies. With Spirit, you unlock a set of new Ideological Tenets. The more Tenets you have from your previous Ideology, the more free Tenets you receive by adopting Spirit.[NEWLINE][NEWLINE]You can adopt Spirit through the 'Reform Ideology' button in the Ideological Tenets panel in the Social Policy Screen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SPIRIT_IDEOLOGY_HEADING1_BODY_CP">
+			<Text>[COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR] is a new Ideology. It can only be chosen after you have already adopted one of the three main Ideologies. With Spirit, you are able to retain any Ideological Tenets you had previously taken whilst also unlocking a set of new Ideological Tenets. The more Tenets you have from your previous Ideology, however, the less space you have for Spirit-based Tenets.[NEWLINE][NEWLINE]You can adopt Spirit through the 'Reform Ideology' button in the Ideological Tenets panel in the Social Policy Screen.</Text>
+		</Row>
+		<!--===================================================-->
+		<!--IDEOLOGIES-->
+		<!--===================================================-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_SPIRIT">
+			<Text>Spirit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_SPIRIT_CAP">
+			<Text>SPIRIT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_JFD_SPIRIT_HELP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_SPIRIT_TEXT">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SPIRIT_TITLE">
+			<Text>Supreme Leader {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<!--===================================================-->
+		<!--IDEOLOGICAL TENETS-->
+		<!--===================================================-->
+		<Replace Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cultural Revolution[ENDCOLOR][NEWLINE]+34% Tourism [ICON_TOURISM] to other civilizations with this Ideology.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Economic Union[ENDCOLOR][NEWLINE]+3 [ICON_GOLD] Gold from all your trade routes with other civilizations following this Ideology.</Text>
+		</Replace>
+		<!--LEVEL 1-->
+		<!--Hearts and Minds-->
+		<Row Tag="TXT_KEY_POLICY_JFD_HEARTS_AND_MINDS">
+			<Text>Hearts and Minds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_HEARTS_AND_MINDS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Hearts and Minds[ENDCOLOR][NEWLINE]Combat Units earn 15% more XP and generate 10% more [ICON_GREAT_PEOPLE] Great General Points when fighting in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_HEARTS_AND_MINDS_TEXT">
+			<Text>Winning hearts and minds is a concept occasionally expressed in the resolution of war, insurgency, and other conflicts, in which one side seeks to prevail not by the use of superior force, but by making emotional or intellectual appeals to sway supporters of the other side. The use of the term "hearts and minds" to reference a method of bringing a subjugated population on side, was first used by Louis Hubert Gonzalve Lyautey (a French General and colonial administrator) as part of his strategy to counter the Black Flags rebellion along the Indochina-Chinese border in 1895. More famously, it was used during the Malayan Emergency by the British who employed practices to keep the Malayans' trust and reduce a tendency to side with ethnic Chinese communists, in this case, by giving medical and food aid to the Malays and indigenous tribes</Text>
+		</Row>
+		<!--Honour Guard-->
+		<Row Tag="TXT_KEY_POLICY_JFD_HONOUR_GUARD">
+			<Text>Honour Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_HONOUR_GUARD_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Honour Guard[ENDCOLOR][NEWLINE]+20% [ICON_STRENGTH] Combat Strength to units fighting near the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_HONOUR_GUARD_TEXT">
+			<Text>An honour guard, also ceremonial guard, is a guard, usually military in nature, appointed to receive or guard a head of state or other dignitary, the fallen in war, or to attend at state ceremonials, especially funerals. In military weddings, especially those of commissioned officers, a guard, composed usually of service members of the same branch, form the Saber arch. In principle any military unit could act as a guard of honour. However, in some countries certain units are specially designated for guard of honour duty.</Text>
+		</Row>
+		<!--Honour Guard-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_HONOUR_GUARD">
+			<Text>Honour Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_HONOUR_GUARD_HELP">
+			<Text>20% stronger while fighting in the capital; bonus falls off as the unit gets further away.</Text>
+		</Row>
+		<!--Language Revival-->
+		<Row Tag="TXT_KEY_POLICY_JFD_LANGUAGE_REVIVAL">
+			<Text>Language Revival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_LANGUAGE_REVIVAL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Language Revival[ENDCOLOR][NEWLINE]+25% [ICON_GREAT_PEOPLE] Great Musician and Great Writer generation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_LANGUAGE_REVIVAL_TEXT">
+			<Text>Language revitalization, also referred to as language revival or reversing language shift, is an attempt to halt or reverse the decline of a language or to revive an extinct one. Those involved can include parties such as linguists, cultural or community groups, or governments. Some argue for a distinction between language revival (the resurrection of a dead language with no existing native speakers) and language revitalization (the rescue of a "dying" language). It has been pointed out that there has only been one successful instance of a complete language revival, that of the Hebrew language, creating a new generation of native speakers without any pre-existing native speakers as a model.</Text>
+		</Row>
+		<!--Moral Education-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MORAL_EDUCATION">
+			<Text>Moral Education</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MORAL_EDUCATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Moral Education[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture per Public School and University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MORAL_EDUCATION_TEXT">
+			<Text>Character education is an umbrella term loosely used to describe the teaching of children in a manner that will help them develop variously as moral, civic, good, mannered, behaved, non-bullying, healthy, critical, successful, traditional, compliant or socially acceptable beings. Concepts that now and in the past have fallen under this term include social and emotional learning, moral reasoning and cognitive development, life skills education, health education, violence prevention, critical thinking, ethical reasoning, and conflict resolution and mediation. Many of these are now considered failed programs, i.e. "religious education", "moral education", "values clarification".</Text>
+		</Row>
+		<!--National Church-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_CHURCH">
+			<Text>National Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_CHURCH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]National Church[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness per Monastery and Temple.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_CHURCH_TEXT">
+			<Text>A national church is a Christian church associated with a specific ethnic group or nation state. The idea was notably discussed during the 19th century, during the emergence of modern nationalism. The concept of a national church remains alive in the Protestantism of England and Scandinavia in particular. While, in a context of England, the national church remains a common denominator for the Church of England, some of the Lutheran "folk churches" of Scandinavia, characterized as national churches in the ethnic sense as opposed to the idea of a state church, emerged in the second half of the 19th century following the lead of Grundtvig. However, in countries in which the state church (also known as the established church) has the following of the majority of citizens, the state church may also be the national church, and may be declared as such by the government e.g. Church of Denmark, Church of Greece, Church of Iceland.</Text>
+		</Row>
+		<!--National Ethic-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_ETHIC">
+			<Text>National Ethic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_ETHIC_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]National Ethic[ENDCOLOR][NEWLINE]Build Constabularies and Police Stations in half the usual time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_ETHIC_TEXT">
+			<Text>Ethics is a branch of philosophy that involves systematizing, defending, and recommending concepts of right and wrong conduct. The field of ethics, along with aesthetics, concerns matters of value, and thus comprises the branch of philosophy called axiology. A National Ethic, therefore, can be understood as an ethical standard shared by and expected of the people of a nation.</Text>
+		</Row>
+		<!--National Monuments-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_MONUMENTS">
+			<Text>National Monuments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_MONUMENTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]National Monuments[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture per World Wonder. Construct World Wonders 10% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_MONUMENTS_TEXT">
+			<Text>A national monument is a monument constructed in order to commemorate something of national importance such as the country's founding, independence or a war. The term may also refer to a specific monument status, such as a national heritage site, which most national monuments are by reason of their cultural importance rather than age. The National monument aims to represent the nation, and serve as a focus for national identity.</Text>
+		</Row>
+		<!--LEVEL 2-->
+		<!--Agrarianism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_AGRARIANISM">
+			<Text>Agrarianism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_AGRARIANISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Agrarianism[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture from Farms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_AGRARIANISM_TEXT">
+			<Text>Agrarianism is a social philosophy or political philosophy which values rural society as superior to urban society and the independent farmer as superior to the paid worker, and sees farming as a way of life that can shape the ideal social values. It stresses the superiority of a simpler rural life as opposed to the complexity of city life. The philosophical roots of agrarianism include European and Chinese philosophers.</Text>
+		</Row>
+		<!--Monarchism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_MONARCHISM">
+			<Text>Monarchism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MONARCHISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Monarchism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness, +2 [ICON_CULTURE] Culture, and +3 [ICON_PEACE] Faith from the Palace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_MONARCHISM_TEXT">
+			<Text>Monarchism is the advocacy of a monarch or monarchical rule. A monarchist is an individual who supports this form of government, independent of any specific monarch; one who espouses a particular monarch is a royalist. Conversely, the opposition to monarchical rule is sometimes referred to as republicanism. Depending on the country, a monarchist may advocate for the rule of the person who sits on the throne, a pretender, or someone who would otherwise occupy the throne but has been deposed.</Text>
+		</Row>
+		<!--National Rejuvenation-->
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_REJUVENATION">
+			<Text>National Rejuvenation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_REJUVENATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]National Rejuvenation[ENDCOLOR][NEWLINE]-15% [ICON_HAPPINESS_1] Happiness needed to begin a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_NATIONAL_REJUVENATION_TEXT">
+			<Text>A nation is a stable community of people, formed on the basis of a common language, territory, history, ethnicity, or psychological make-up manifested in a common culture. A nation is distinct from a people,[1] and is more abstract, and more overtly political, than an ethnic group. It is a cultural-political community that has become conscious of its autonomy, unity, and particular interests. A national rejuvenation, then, is the enhancement or promotion of a nation's consciousness and interests.</Text>
+		</Row>
+		<!--Patriotic Economics-->
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRIOTIC_ECONOMICS">
+			<Text>Patriotic Economics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRIOTIC_ECONOMICS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Patriotic Economics[ENDCOLOR][NEWLINE]+15% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRIOTIC_ECONOMICS_TEXT">
+			<Text>Economic nationalism, or economic patriotism, economic populism, refers to an ideology that favors state interventionism over other market mechanisms, with policies such as domestic control of the economy, labor, and capital formation, even if this requires the imposition of tariffs and other restrictions on the movement of labor, goods and capital. In many cases, economic nationalists oppose globalization or at least question the benefits of unrestricted free trade. Economic nationalism is disputed as the doctrine of mercantilism, and as such favors protectionism.</Text>
+		</Row>
+		<!--Patriotic History-->
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRIOTIC_HISTORY">
+			<Text>Patriotic History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRIOTIC_HISTORY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Patriotic History[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science per Broadcast Tower and Museum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_PATRIOTIC_HISTORY_TEXT">
+			<Text>Political history is the narrative and survey of political events, ideas, movements, organs of government, voters, parties and leaders. It is interrelated to other fields of history, especially diplomatic history, as well as constitutional history and public history. Political history studies the organization and operation of power in large societies. By focusing on the elites in power, on their impact on society, on popular response, and on the relationships with the elites in other social history, which focuses predominantly on the actions and lifestyles of ordinary people, or people's history, which is historical work from the perspective of the common people. </Text>
+		</Row>
+		<!--Religious Media-->
+		<Row Tag="TXT_KEY_POLICY_JFD_RELIGIOUS_MEDIA">
+			<Text>Religious Media</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_RELIGIOUS_MEDIA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Religious Media[ENDCOLOR][NEWLINE]+15% [ICON_PEACE] Faith output from Cities with a Broadcast Tower. Build Broadcast Towers 25% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_RELIGIOUS_MEDIA_TEXT">
+			<Text>Media are the communication outlets or tools used to store and deliver information or data. The term refers to components of the mass media communications industry, such as print media, publishing, the news media, photography, cinema, broadcasting (radio and television), and advertising. Religious media is the use of media, specifically radio and television, to communicate religion or religious principles.</Text>
+		</Row>
+		<!--LEVEL 3-->
+		<!--Clash of Civilizations-->
+		<Row Tag="TXT_KEY_POLICY_JFD_CLASH_CIVILIZATIONS">
+			<Text>Clash of Civilizations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CLASH_CIVILIZATIONS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Clash of Civilizations[ENDCOLOR][NEWLINE]+33% [ICON_TOURISM] Tourism with Civilizations sharing your Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CLASH_CIVILIZATIONS_HELP_CP">
+			<Text>[COLOR_POSITIVE_TEXT]Clash of Civilizations[ENDCOLOR][NEWLINE]+33% [ICON_TOURISM] Tourism with Civilizations sharing your Religion. Religious pressure and distance increased by 15%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_CLASH_CIVILIZATIONS_TEXT">
+			<Text>The Clash of Civilizations is a hypothesis that people's cultural and religious identities will be the primary source of conflict in the post-Cold War world. The American political scientist Samuel P. Huntington argued that future wars would be fought not between countries, but between cultures. It was proposed in a 1992 lecture at the American Enterprise Institute, which was then developed in a 1993 Foreign Affairs article titled "The Clash of Civilizations?", in response to his former student Francis Fukuyama's 1992 book, The End of History and the Last Man. Huntington later expanded his thesis in a 1996 book The Clash of Civilizations and the Remaking of World Order. </Text>
+		</Row>
+		<!--Fundamentalism-->
+		<Row Tag="TXT_KEY_POLICY_JFD_FUNDAMENTALISM">
+			<Text>Fundamentalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_FUNDAMENTALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Fundamentalism[ENDCOLOR][NEWLINE]-15% [ICON_PEACE] Faith purchase costs. Units purchased with [ICON_PEACE] Faith receive +1 [ICON_MOVES] Movement and ignore enemy ZOC.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_FUNDAMENTALISM_TEXT">
+			<Text>Fundamentalism usually has a religious connotation that indicates unwavering attachment to a set of irreducible beliefs. However, fundamentalism has come to be applied to a tendency among certain groups–mainly, although not exclusively, in religion–that is characterized by a markedly strict literalism as it is applied to certain specific scriptures, dogmas, or ideologies, and a strong sense of the importance of maintaining ingroup and outgroup distinctions, leading to an emphasis on purity and the desire to return to a previous ideal from which advocates believe members have strayed. Rejection of diversity of opinion as applied to these established "fundamentals" and their accepted interpretation within the group often results from this tendency.</Text>
+		</Row>
+		<!--Fundamentalism-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_FUNDAMENTALISM">
+			<Text>Fundamentalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_FUNDAMENTALISM_HELP">
+			<Text>+1 [ICON_MOVES] Movement and ignores enemy ZOC.</Text>
+		</Row>
+		<!--State-Building-->
+		<Row Tag="TXT_KEY_POLICY_JFD_STATE_BUILDING">
+			<Text>State-Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_STATE_BUILDING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]State-Building[ENDCOLOR][NEWLINE]Other players' [ICON_INFLUENCE] Influence with City-States decreases 15% faster. +25% [ICON_INFLUENCE] Influence from completing City-State quests.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_JFD_STATE_BUILDING_TEXT">
+			<Text>State-building as a specific term in social sciences and humanities refers to political and historical processes of creation, institutional consolidation, stabilization and sustainable development of states. Since the end of the 20th century, state-building has developed into becoming an integral part and even a specific approach to peacebuilding by the international community. Observers across the political and academic spectra have come to see the state-building approach as the preferred strategy to peacebuilding in a number of high-profile conflicts, including the Israeli–Palestinian conflict, and war-related conflicts in Bosnia and Herzegovina, Iraq, and Afghanistan.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
