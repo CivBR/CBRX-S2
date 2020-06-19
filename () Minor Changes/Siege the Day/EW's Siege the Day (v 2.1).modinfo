@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="551f7195-18ba-4d8a-9b40-2d7fb017da0e" version="2.1">
+  <Properties>
+    <Name>EW's Siege the Day</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Siege Units are now Civilian Units.
+
+:psyduck:</Teaser>
+    <Description>Siege Units are now Civilian Units.
+
+:psyduck:</Description>
+    <Authors>ExplosiveWatermelon</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="BEDE676C9A9E0DB64B9989C9D10C8AE3" import="0">Core/EW_SiegeCivilian.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/EW_SiegeCivilian.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
