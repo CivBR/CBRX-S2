@@ -58,14 +58,8 @@ function HejazGGBirth(playerID, unitID)
 					local threshold = otherPlayer:GreatGeneralThreshold()
 					otherPlayer:ChangeCombatExperience(threshold * .25)
 					for unit in otherPlayer:Units() do
-						local BaseXP = unit:GetExperience()
-						local newXP = BaseXP + 10
+						local newXP = unit:GetExperience() + 10
 						unit:SetExperience(newXP)
-						if otherPlayer:IsHuman() then
-							local bonus = threshold * .25
-							local alertmessage = Locale.ConvertTextKey("TXT_KEY_UC_HEJAZ_UA", bonus, player:GetName())
-							Events.GameplayAlertMessage(alertmessage)
-						end
 					end
 				end
 			end
@@ -159,22 +153,6 @@ include("FLuaVector.lua")
 
 local activePlayerID = Game.GetActivePlayer()
 local activePlayer = Players[activePlayerID]
-
-function JFD_GetRandom(lower, upper)
-    return Game.Rand((upper + 1) - lower, "") + lower
-end
-
--- Hides UI for all civilizations at start
-function UC_InitHejaz()
-	Controls.ForeignOpButton:SetHide(true)
-end
-UC_InitHejaz()
-
--- Hides UI when deselecting/selecting another Unit
-function UC_HejazUnitSelectionCleared()
-	Controls.ForeignOpButton:SetHide(true)
-end
-Events.UnitSelectionCleared.Add(UC_HejazUnitSelectionCleared)
 --------------------------------------------------------------
 -- Corvina Codex Functions
 --------------------------------------------------------------
@@ -189,35 +167,8 @@ function Hejaz_ResolveOpPromo(pUnit)
 		unit:SetMoves(0)
 	elseif unit:IsHasPromotion(iOpPromo1) then
 		unit:Kill()
-		Controls.ForeignOpButton:SetHide(true)
 	end
 end
-
-function HejazForeignOpPopUp()
-	local unit = UI.GetHeadSelectedUnit()
-	if unit and unit:GetUnitType() == iForeignOp then
-		local owner = unit:GetOwner()
-		ForeignOpDebuff(owner, unit)
-		Hejaz_ResolveOpPromo(unit)
-	end
-end
-Controls.ForeignOpButton:RegisterCallback(Mouse.eLClick, HejazForeignOpPopUp)
-
--- Shows Black Army Button ('Specialize') if Black Army is selected
-function HejazForeignOpSelect(playerID, unitID)
-	local player = Players[playerID]
-	local unit = player:GetUnitByID(unitID)
-	if unit and unit:GetUnitType() == iForeignOp then
-		if unit:CanMove() then
-			Controls.ForeignOpButton:SetHide(false)
-		else
-			Controls.ForeignOpButton:SetHide(true)
-		end
-	else
-		Controls.ForeignOpButton:SetHide(true)
-	end
-end
-Events.UnitSelectionChanged.Add(HejazForeignOpSelect)
 
 -- JFD_GetRandom
 function JFD_GetRandom(lower, upper)
