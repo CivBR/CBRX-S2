@@ -27,8 +27,8 @@
     <File md5="373D6E725DE2DDA7763CB3D32D7AA217" import="0">AI.sql</File>
     <File md5="762228B91EE7AA642A8CB3D03B39D153" import="0">ArchaeologistGenocideWhen.xml</File>
     <File md5="9FEC5A0F2561E5DE14198B013FCC8118" import="0">Cities2_GlobalDefines.xml</File>
-    <File md5="8A5D7BE9BB48C6645F1740666AD4ACD0" import="0">CityLists.sql</File>
-    <File md5="EC63F300DE2ADBA8FF99762BA6B6A1D4" import="0">CityNames.xml</File>
+    <File md5="3B43715F49890FABB4569E7B7D1A968E" import="0">cities_names.sql</File>
+    <File md5="F0B1BA044988AEF6BB7F178A93FB167E" import="0">cities_sql.sql</File>
     <File md5="C3611DC9EE0795075C41728139249915" import="0">Historic Eras.sql</File>
     <File md5="129E64F41E85D6E6C28DE7D2F848A9F7" import="0">New Colors.sql</File>
   </Files>
@@ -40,6 +40,8 @@
       <UpdateDatabase>Cities2_GlobalDefines.xml</UpdateDatabase>
       <UpdateDatabase>New Colors.sql</UpdateDatabase>
       <UpdateDatabase>Historic Eras.sql</UpdateDatabase>
+      <UpdateDatabase>cities_sql.sql</UpdateDatabase>
+      <UpdateDatabase>cities_names.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>
