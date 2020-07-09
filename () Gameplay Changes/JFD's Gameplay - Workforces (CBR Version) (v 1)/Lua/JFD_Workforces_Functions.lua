@@ -22,28 +22,6 @@ local g_MapGetPlot			= Map.GetPlot
 local g_MapPlotDistance		= Map.PlotDistance
 							
 local Players 				= Players
-local HexToWorld 			= HexToWorld
-local ToHexFromGrid 		= ToHexFromGrid
-local Teams 				= Teams
-							
-local activePlayerID		= Game.GetActivePlayer()
-local activePlayer			= Players[activePlayerID]
---=======================================================================================================================
--- MOD USE
---=======================================================================================================================
--- MODS
--------------------------------------------------------------------------------------------------------------------------
--- local g_IsCPActive = Game.IsCPActive()
-local g_IsCPActive = true
--------------------------------------------------------------------------------------------------------------------------
--- SETTINGS
--------------------------------------------------------------------------------------------------------------------------
---=======================================================================================================================
--- GAME DEFINES
---=======================================================================================================================
---=======================================================================================================================
--- ACTIVE MODS
---=======================================================================================================================
 -------------------------------------------------------------------------------------------------------------------------
 --=======================================================================================================================
 -- CORE FUNCTIONS
@@ -67,35 +45,7 @@ local function JFD_Workforces_UnitCreated(playerID, unitID, unitTypeID)
 		end
 	end
 end
-if g_IsCPActive then
-	GameEvents.UnitCreated.Add(JFD_Workforces_UnitCreated)
-end
-------------------------------------------------------------------------------------------------------------------------
---JFD_Workforces_SerialEventUnitCreated
-local promotionBuildCharge0ID = GameInfoTypes["PROMOTION_JFD_BUILD_CHARGE_0"]
-local function JFD_Workforces_SerialEventUnitCreated(playerID, unitID)
-	local player = Players[playerID]
-	local unit = player:GetUnitByID(unitID)
-	if (not unit) then return end
-	local unitTypeID = unit:GetUnitType()
-	local unitInfo = GameInfo.Units[unitTypeID].Type
-
-	if unit:IsHasPromotion(promotionBuildCharge0ID) then return end
-	
-	local city = g_MapGetPlot(unit:GetX(), unit:GetY()):GetPlotCity()
-	
-	local numCharges, numChargesMax = player:GetNumUnitBuildCharges(city, unit, unitTypeID)
-	if numChargesMax > 0 then
-		for value = 1, numChargesMax do
-			local promotionID = GameInfoTypes["PROMOTION_JFD_BUILD_CHARGE_" .. value]
-			unit:SetHasPromotion(promotionID, true)
-		end
-		unit:SetHasPromotion(promotionBuildCharge0ID, true)
-	end
-end
-if (not g_IsCPActive) then
-	Events.SerialEventUnitCreated.Add(JFD_Workforces_SerialEventUnitCreated)
-end
+GameEvents.UnitCreated.Add(JFD_Workforces_UnitCreated)
 ------------------------------------------------------------------------------------------------------------------------
 --JFD_Workforces_UnitUpgraded
 local function JFD_Workforces_UnitUpgraded(playerID, unitID, newUnitID)
@@ -148,26 +98,14 @@ local function JFD_Workforces_PlayerBuilt(playerID, unitID, plotX, plotY, buildI
 	local numCharges = player:GetNumUnitBuildCharges(nil, unit, unitTypeID)
 	if numCharges > 1 then
 		player:ChangeNumUnitBuildCharges(nil, unit, unitTypeID, -costCharge)
-		if player:IsHuman() then
-			local unitAction = build.ActionAnimation
-			SetUnitActionCodeDebug(playerID, unitID, unitAction)
-			Events.AudioPlay2DSound("AS2D_UNIT_JFD_BUILD")
-		end
 	else
-		if player:IsHuman() then
-			local unitAction = build.ActionAnimation
-			SetUnitActionCodeDebug(playerID, unitID, 1200)
-			Events.AudioPlay2DSound("AS2D_UNIT_JFD_BUILD_FIN")
-		end
 		unit:Kill(true, -1)
-		Events.GameplayAlertMessage(g_ConvertTextKey("TXT_KEY_MESSAGE_JFD_WORKER_EXPENDED", unit:GetName()))
+		
 	end
 	
-	LuaEvents.JFD_BuildChargeExpended(playerID, unitID, plotX, plotY)
+	--LuaEvents.JFD_BuildChargeExpended(playerID, unitID, plotX, plotY)
 end
-if g_IsCPActive then
-	GameEvents.PlayerBuilt.Add(JFD_Workforces_PlayerBuilt)
-end
+GameEvents.PlayerBuilt.Add(JFD_Workforces_PlayerBuilt)
 ------------------------------------------------------------------------------------------------------------------------
 --g_Builds_Table
 local g_Builds_Table = {}
@@ -175,64 +113,6 @@ local g_Builds_Count = 1
 for row in DB.Query("SELECT Type, ImprovementType FROM Builds WHERE ImprovementType IS NOT NULL;") do 	
 	g_Builds_Table[g_Builds_Count] = row
 	g_Builds_Count = g_Builds_Count + 1
-end
-
---JFD_Workforces_BuildFinished
-local hasFired = false
-local function JFD_Workforces_BuildFinished(playerID, plotX, plotY, improvementID)
-	if playerID == -1 then return end
-	if improvementID == -1 then return end
-
-	hasFired = (not hasFired)
-	if (not hasFired) then return end
-
-	local player = Players[playerID]
-	local plot = g_MapGetPlot(plotX, plotY)
-	local unit = plot:GetUnit()
-	if (not unit) then return end
-	local unitTypeID = unit:GetUnitType()
-	local unitInfo = GameInfo.Units[unitTypeID]
-	local improvementType = GameInfo.Improvements[improvementID].Type
-	
-	local buildID = nil
-	--g_Builds_Table
-	local buildsTable = g_Builds_Table
-	local numBuilds = #buildsTable
-	for index = 1, numBuilds do
-		local row = buildsTable[index]
-		if row.ImprovementType == improvementType then
-			buildID = GameInfoTypes[row.Type]
-			break
-		end
-	end
-	if (not buildID) then return end
-	local build = GameInfo.Builds[buildID]
-	
-	local costCharge = player:GetUnitBuildChargeCost(buildID, unitTypeID)
-	if costCharge <= 0 then return end
-	
-	local numCharges = player:GetNumUnitBuildCharges(nil, unit, unitTypeID)
-	if numCharges > 1 then
-		player:ChangeNumUnitBuildCharges(nil, unit, unitTypeID, -costCharge)
-		if player:IsHuman() then
-			local unitAction = build.ActionAnimation
-			SetUnitActionCodeDebug(playerID, unitID, unitAction)
-			Events.AudioPlay2DSound("AS2D_UNIT_JFD_BUILD")
-		end
-	else
-		if player:IsHuman() then
-			local unitAction = build.ActionAnimation
-			SetUnitActionCodeDebug(playerID, unitID, 1200)
-			Events.AudioPlay2DSound("AS2D_UNIT_JFD_BUILD_FIN")
-			Events.GameplayAlertMessage(g_ConvertTextKey("TXT_KEY_MESSAGE_JFD_WORKER_EXPENDED", unit:GetName()))
-		end
-		unit:Kill(true, -1)
-	end
-	
-	LuaEvents.JFD_BuildChargeExpended(playerID, unitID, plotX, plotY)
-end
-if (not g_IsCPActive) then
-	GameEvents.BuildFinished.Add(JFD_Workforces_BuildFinished)
 end
 --=======================================================================================================================
 --=======================================================================================================================
