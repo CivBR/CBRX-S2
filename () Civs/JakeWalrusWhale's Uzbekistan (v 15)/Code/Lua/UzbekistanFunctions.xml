@@ -1,5 +1,6 @@
 <Context>
 	<GridButton Anchor="R,T" ToolTip="TXT_KEY_JWW_WORKER_CANAL_HELP" ID="UnitActionButton" Size="36,36" Offset="0,0"  Style="SmallButton2"  Hidden="1" ToolTipType="TypeUnitAction">
-		<Image Anchor="C,C" Offset="0,0" Size="45,45" Texture="UnitActions360.dds" ID="UnitActionIcon" />
+		<Image Anchor="C,C" Offset="0,0" Size="45,45" Texture="UnitActions360.dds" ID="UnitActionIcon">
+		</Image>
 	</GridButton>
 </Context>

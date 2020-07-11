@@ -34,7 +34,7 @@
 			<Description>TXT_KEY_BUILDING_JINJAS</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_JINJAS_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_JINJAS_STRATEGY</Strategy>
-            		<GreatWorkSlotType>GREAT_WORK_SLOT_WRITING</GreatWorkSlotType>
+            <GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
 			<GreatWorkCount>1</GreatWorkCount>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>

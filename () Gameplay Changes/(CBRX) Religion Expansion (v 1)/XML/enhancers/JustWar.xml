@@ -2,6 +2,7 @@
 <GameData>
 
 	<Beliefs>
+		<Delete Type="BELIEF_JUST_WAR" />
 		<Row>
 			<Type>BELIEF_JUST_WAR</Type>
 			<Description>TXT_KEY_BELIEF_JUST_WAR</Description>
@@ -13,6 +14,7 @@
 	
 	<Language_en_US>
 	<Delete Tag="TXT_KEY_BELIEF_JUST_WAR" />
+		<Delete Tag="TXT_KEY_BELIEF_JUST_WAR_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_JUST_WAR">
 			<Text>25% Combat Strength near enemy Cities that follow this Religion.</Text>
 		</Row>

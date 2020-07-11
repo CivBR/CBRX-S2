@@ -73,7 +73,7 @@
 		<Row>
 			<BuildingType>BUILDING_GURDWARA</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2/Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
 

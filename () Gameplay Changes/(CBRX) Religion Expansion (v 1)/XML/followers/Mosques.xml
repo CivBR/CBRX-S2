@@ -2,6 +2,7 @@
 <GameData>
 
 	<Beliefs>
+		<Delete Type="BELIEF_MOSQUES" />
 		<Row>
 			<Type>BELIEF_MOSQUES</Type>
 			<Description>TXT_KEY_BELIEF_MOSQUES</Description>
@@ -66,6 +67,8 @@
 	</Building_YieldChanges>
 
 	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_MOSQUES" />
+		<Delete Tag="TXT_KEY_BELIEF_MOSQUES_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_MOSQUES">
 			<Text>Use [ICON_PEACE] Faith to purchase Mandirs (+4 [ICON_PEACE] Faith, 1 Great Work of Music slot).</Text>
 		</Row>

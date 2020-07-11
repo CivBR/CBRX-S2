@@ -11,6 +11,7 @@
 	<Language_en_US>
 		
 		<Delete Tag="TXT_KEY_BELIEF_MESSIAH" />
+		<Delete Tag="TXT_KEY_BELIEF_MESSIAH_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_MESSIAH">
 			<Text>Prophets and Missionaries are earned with 25% less [ICON_PEACE] Faith</Text>
 		</Row>

@@ -234,7 +234,7 @@ function Iska_WaW_HW_UnitKilled(krplayerID, keplayerID)
 	local deccity = krplayer:GetCapitalCity()
 	local defcity = keplayer:GetCapitalCity()
 	if deccity and defcity then
-		if deccity:GetReligiousMajority() and defcity:GetReligiousMajority(
+		if deccity:GetReligiousMajority() and defcity:GetReligiousMajority()
 		and defcity:GetReligiousMajority() ~= -1 and deccity:GetReligiousMajority() ~= -1 then
 			--if Iska_HW_Debug then print("pre-Start code Iska_WaW_HW_UnitKilled.") end
 			local decrel = Locale.Lookup(GameInfo.Religions[deccity:GetReligiousMajority()].Description)

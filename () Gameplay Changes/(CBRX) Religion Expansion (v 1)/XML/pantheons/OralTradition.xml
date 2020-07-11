@@ -2,6 +2,7 @@
 <GameData>
 	
 	<Beliefs>
+		<Delete Type="BELIEF_ORAL_TRADITION" />
 		<Row>
 			<Type>BELIEF_ORAL_TRADITION</Type>
 			<Description>TXT_KEY_BELIEF_ORAL_TRADITION</Description>
@@ -13,6 +14,7 @@
 
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_ORAL_TRADITION" />
+		<Delete Tag="TXT_KEY_BELIEF_ORAL_TRADITION_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION">
 			<Text>Religion spreads 20% faster.</Text>
 		</Row>
