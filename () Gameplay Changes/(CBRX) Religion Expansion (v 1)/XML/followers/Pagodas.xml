@@ -2,6 +2,7 @@
 <GameData>
 
 	<Beliefs>
+		<Delete Type="BELIEF_PAGODAS" />
 		<Row>
 			<Type>BELIEF_PAGODAS</Type>
 			<Description>TXT_KEY_BELIEF_PAGODAS</Description>
@@ -74,6 +75,8 @@
 	</Building_YieldChanges>
 
 	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_PAGODAS" />
+		<Delete Tag="TXT_KEY_BELIEF_PAGODAS_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_PAGODAS">
 			<Text>Use [ICON_PEACE] Faith to purchase Mandirs (+2 [ICON_CULTURE] Culture, +2 [ICON_SCIENCE] Science, 1 Artist Specialist).</Text>
 		</Row>
