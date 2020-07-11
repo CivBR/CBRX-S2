@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Beliefs>
-		<Delete Type="BELIEF_CHARITABLE_MISSIONS" />
 		<Update>
 			<Set Reformation="false" Founder="true" CityStateInfluenceModifier="0" />
 			<Where Type="BELIEF_CHARITABLE_MISSIONS" />
@@ -30,7 +29,6 @@
 
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
-		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
 			<Text>+5 [ICON_FOOD] Food from the Holy City. +1% [ICON_FOOD] Food for each follower (max +10%)</Text>
 		</Row>

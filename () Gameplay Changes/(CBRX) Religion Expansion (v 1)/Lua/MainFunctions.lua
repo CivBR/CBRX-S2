@@ -7,13 +7,11 @@ local beliefGuardianSpirits = GameInfo.Beliefs["BELIEF_GUARDIAN_SPIRITS"].ID
 local beliefCharity = GameInfo.Beliefs["BELIEF_CHARITY"].ID
 local beliefAstralProjection = GameInfo.Beliefs["BELIEF_ASTRAL_PROJECTION"].ID
 local beliefTutelaryDeities = GameInfo.Beliefs["BELIEF_TUTELARY_DEITIES"].ID
-local beliefAxisMundi = GameInfo.Beliefs["BELIEF_AXISMUNDI"].ID
 
 local buildingGuardianSpiritsDummy = GameInfoTypes["BUILDING_CBRX_FOUNDER_GUARDIAN_SPIRITS"]
 local buildingCharityDummy = GameInfoTypes["BUILDING_CBRX_FOUNDER_CHARITY"]
 local buildingAstralProjectionDummy = GameInfoTypes["BUILDING_CBRX_FOUNDER_ASTRAL_PROJECTION"]
 local buildingTutelaryDeitiesDummy = GameInfoTypes["BUILDING_CBRX_FOUNDER_TUTELARY_DEITIES"]
-local buildingAxisMundiDummy = GameInfoTypes["BUILDING_CBRX_PANTHEON_AXIS_MUNDI"]
 
 local buildingShrine = GameInfoTypes["BUILDING_SHRINE"]
 
@@ -63,8 +61,6 @@ function foundersReligionFounded(iPlayer, holyCityId, eReligion, eBelief1, eBeli
 		player:GetCityByID(holyCityId):SetNumRealBuilding(buildingCharityDummy, 1)
 	elseif eBelief1 == beliefAstralProjection or eBelief2 == beliefAstralProjection or eBelief3 == beliefAstralProjection or eBelief4 == beliefAstralProjection or eBelief5 == beliefAstralProjection then
 		player:GetCityByID(holyCityId):SetNumRealBuilding(buildingAstralProjectionDummy, 1)
-	elseif eBelief1 == beliefAxisMundi or eBelief2 == beliefAxisMundi or eBelief3 == beliefAxisMundi or eBelief4 == beliefAxisMundi or eBelief5 == beliefAxisMundi then
-		player:GetCityByID(holyCityId):SetNumRealBuilding(buildingAxisMundiDummy, 1)
 	elseif eBelief1 == beliefTutelaryDeities or eBelief2 == beliefTutelaryDeities or eBelief3 == beliefTutelaryDeities or eBelief4 == beliefTutelaryDeities or eBelief5 == beliefTutelaryDeities then
 		local religion = GameInfo.Religions[eReligion]
 		for city in player:Cities() do

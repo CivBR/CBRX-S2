@@ -2,7 +2,6 @@
 
 <GameData>
 	<Beliefs>
-		<Delete Type="BELIEF_CHORAL_MUSIC" />
 		<Row>
 			<Type>BELIEF_CHORAL_MUSIC</Type>
 			<Description>TXT_KEY_BELIEF_CHORAL_MUSIC</Description>
@@ -30,8 +29,7 @@
 </Belief_BuildingClassTourism>
 
 	<Language_en_US>
-		<Delete Tag="TXT_KEY_BELIEF_CHORAL_MUSIC" />
-		<Delete Tag="TXT_KEY_BELIEF_CHORAL_MUSIC_SHORT" />
+	 <Delete Tag="TXT_KEY_BELIEF_CHORAL_MUSIC" />
 		<Row Tag="TXT_KEY_BELIEF_CHORAL_MUSIC">
 			<Text>Temples provide +4 Culture and +2 Tourism with 10 followers.</Text>
 		</Row>

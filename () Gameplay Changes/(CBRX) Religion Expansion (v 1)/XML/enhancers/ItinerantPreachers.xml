@@ -3,19 +3,17 @@
 <GameData>
   
   <Beliefs>
-	<Delete Type="BELIEF_ITINERANT_PREACHERS" />
-	<Row>
-		<Type>BELIEF_ITINERANT_PREACHERS</Type>
-		<Description>TXT_KEY_BELIEF_ITINERANT_PREACHERS</Description>
-		<ShortDescription>TXT_KEY_BELIEF_ITINERANT_PREACHERS_SHORT</ShortDescription>
-		<Enhancer>true</Enhancer>
-		<SpreadDistanceModifier>35</SpreadDistanceModifier>
-	</Row>
+	 	<Row>
+			<Type>BELIEF_ITINERANT_PREACHERS</Type>
+			<Description>TXT_KEY_BELIEF_ITINERANT_PREACHERS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ITINERANT_PREACHERS_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+			<SpreadDistanceModifier>35</SpreadDistanceModifier>
+		</Row>
   </Beliefs>
   
   	<Language_en_US>
 	  <Delete Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS" />
-		<Delete Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS">
 			<Text>Religion spreads to cities 35% further away.</Text>
 		</Row>

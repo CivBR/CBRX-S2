@@ -111,38 +111,38 @@ local sharifianSoloID = GameInfoTypes["PROMOTION_UC_SHARIF_SOLO"]
 function SharifianSolo(playerID, unitID, plotX, plotY)
     local player = Players[playerID]
     if (player:IsAlive() and player:GetCivilizationType() == civilizationID) then
-		for unit in player:Units() do
-			if unit == nil then return end
-			if (unit:GetPlot() and (unit:IsHasPromotion(sharifianID))) then
-				local plot = unit:GetPlot()
-				local adjOther = false
-				for loopPlot in PlotAreaSpiralIterator(plot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-					if loopPlot:IsUnit() then
-						local team = player:GetTeam();
-						local adjUnit = loopPlot:GetUnit()
-						if (unit:GetOwner() ~= adjUnit:GetOwner()) then
-							local adjPlayer = Players[adjUnit:GetOwner()];
-							local adjTeam = adjPlayer:GetTeam();
-								if Teams[team]:IsAtWar(adjTeam) then
-									adjOther = true
-									break
-								end
-						end
-					end
-
-					if adjOther then
-						if (unit:IsHasPromotion(sharifianSoloID)) then
-							unit:SetHasPromotion(sharifianSoloID, false)
-						end
-					else
-						if not unit:IsHasPromotion(sharifianSoloID) then
-							unit:SetHasPromotion(sharifianSoloID, true)
-						end
-					end
-				end
-			end
+	for unit in player:Units() do
+        if unit == nil then return end
+        if (unit:GetPlot() and (unit:IsHasPromotion(sharifianID))) then
+            local plot = unit:GetPlot()
+            local adjOther = false
+            for loopPlot in PlotAreaSpiralIterator(plot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
+			if loopPlot:IsUnit() then
+			local team = player:GetTeam();
+			local adjUnit = loopPlot:GetUnit()
+			if (unit:GetOwner() ~= adjUnit:GetOwner()) then
+			local adjPlayer = Players[adjUnit:GetOwner()];
+			local adjTeam = adjPlayer:GetTeam();
+			if Teams[team]:IsAtWar(adjTeam) then
+                    adjOther = true
+                    break
+                end
+            end
 		end
 	end
+
+            if adjOther then
+                if (unit:IsHasPromotion(sharifianSoloID)) then
+                    unit:SetHasPromotion(sharifianSoloID, false)
+                end
+            else
+                if not unit:IsHasPromotion(sharifianSoloID) then
+                    unit:SetHasPromotion(sharifianSoloID, true)
+					end
+                end
+            end
+        end
+    end
 end
 GameEvents.PlayerDoTurn.Add(SharifianSolo)
 --------------------------------------------------------------
@@ -210,25 +210,24 @@ function ForeignOpDebuff(playerID, unit)
 			local loopTeam = loopPlayer:GetTeam();
 			if Teams[team]:IsAtWar(loopTeam) then
 				if loopUnit:IsCombatUnit() and loopUnit:GetDomainType() == iDomainLand and not Hejaz_HasAnyDebuff(loopUnit) then
-					local hex = ToHexFromGrid(Vector2(loopUnit:GetX(), loopUnit:GetY()))
-					local type = loopUnit:GetUnitCombatType()
-					if (type == iMounted) or (type == iArmor) or (type == iCopter) then
-						local chance = JFD_GetRandom(1, 3)
-						loopUnit:SetHasPromotion(tDebuffs[chance], true)
-						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					elseif (type == iSiege) then
-						local chance = JFD_GetRandom(2, 5)
-						loopUnit:SetHasPromotion(tDebuffs[chance], true)
-						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					elseif (type == iArcher) then
-						local chance = JFD_GetRandom(2, 4)
-						loopUnit:SetHasPromotion(tDebuffs[chance], true)
-						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					elseif (type == iMelee) or (type == iGun) or (type == iRecon) then
-						local chance = JFD_GetRandom(2, 3)
-						loopUnit:SetHasPromotion(tDebuffs[chance], true)
-						Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
-					end
+				local hex = ToHexFromGrid(Vector2(loopUnit:GetX(), loopUnit:GetY()))
+				local type = loopUnit:GetUnitCombatType()
+				if (type == iMounted) or (type == iArmor) or (type == iCopter) then
+					local chance = JFD_GetRandom(1, 3)
+					loopUnit:SetHasPromotion(tDebuffs[chance], true)
+					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+				elseif (type == iSiege) then
+					local chance = JFD_GetRandom(2, 5)
+					loopUnit:SetHasPromotion(tDebuffs[chance], true)
+					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+				elseif (type == iArcher) then
+					local chance = JFD_GetRandom(2, 4)
+					loopUnit:SetHasPromotion(tDebuffs[chance], true)
+					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
+				elseif (type == iMelee) or (type == iGun) or (type == iRecon) then
+					local chance = JFD_GetRandom(2, 3)
+					loopUnit:SetHasPromotion(tDebuffs[chance], true)
+					Events.AddPopupTextEvent(HexToWorld(hex), Locale.ConvertTextKey("[ENDCOLOR] [ICON_DENOUNCE]"), true)
 				end
 			end
 		end

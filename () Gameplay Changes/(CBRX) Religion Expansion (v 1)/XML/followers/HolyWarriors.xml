@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Beliefs>
-		<Delete Type="BELIEF_HOLY_WARRIORS" />
 		<Row>
 			<Type>BELIEF_HOLY_WARRIORS</Type>
 			<Description>TXT_KEY_BELIEF_HOLY_WARRIORS</Description>
@@ -24,8 +23,6 @@
 	</Belief_YieldFromKills>
 
 	<Language_en_US>
-		<Delete Tag="TXT_KEY_BELIEF_HOLY_WARRIORS" />
-		<Delete Tag="TXT_KEY_BELIEF_HOLY_WARRIORS_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
 			<Text>Unit Kills yield 4 [ICON_PEACE] Faith and 1 [ICON_CULTURE] Culture.</Text>
 		</Row>

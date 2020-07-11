@@ -11,19 +11,18 @@
 	</Beliefs>
   
    <Belief_TradeRouteYieldChange>
-	   <Row>
-		   <BeliefType>BELIEF_INTERFAITHDIALOGUE</BeliefType>
-		   <DomainType>DOMAIN_LAND</DomainType>
-		   <YieldType>YIELD_SCIENCE</YieldType>
-		   <Yield>4</Yield>
-	   </Row>
-	   <Row>
-		   <BeliefType>BELIEF_INTERFAITHDIALOGUE</BeliefType>
-		   <DomainType>DOMAIN_SEA</DomainType>
-		   <YieldType>YIELD_SCIENCE</YieldType>
-		   <Yield>4</Yield>
-	   </Row>
-   </Belief_TradeRouteYieldChange>
+        <BeliefType>BELIEF_INTERFAITHDIALOGUE</BeliefType>
+        <DomainType>DOMAIN_LAND</DomainType>
+        <YieldType>YIELD_SCIENCE</YieldType>
+        <Yield>4</Yield>
+    </Belief_TradeRouteYieldChange>
+    
+    <Belief_TradeRouteYieldChange>
+        <BeliefType>BELIEF_INTERFAITHDIALOGUE</BeliefType>
+        <DomainType>DOMAIN_SEA</DomainType>
+        <YieldType>YIELD_SCIENCE</YieldType>
+        <Yield>4</Yield>
+    </Belief_TradeRouteYieldChange>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_INTERFAITHDIALOGUE">

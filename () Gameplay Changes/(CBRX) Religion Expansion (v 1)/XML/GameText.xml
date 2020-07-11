@@ -7,9 +7,6 @@
 		<Row Tag="TXT_KEY_BUILDING_CLASS_CBRX_FOLLOWER_ALTARS">
 			<Text>Altars Dummy Building Class</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_CLASS_CBRX_PANTHEON_AXIS_MUNDI">
-			<Text>Axis Mundi Dummy Building Class</Text>
-		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CLASS_CBRX_FOLLOWER_TORII_GATES">
 			<Text>Torii Gates Dummy Building Class</Text>
 		</Row>

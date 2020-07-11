@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_BASILICAS</Type>
+			<Description>TXT_KEY_BELIEF_BASILICAS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_BASILICAS_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_BASILICAS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_BASILICA</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_BASILICA</Type>
@@ -18,7 +35,7 @@
 			<Description>TXT_KEY_BUILDING_BASILICA</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BASILICA_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_BASILICA_STRATEGY</Strategy>
-			<GreatWorksTourismModifier>50</GreatWorksTourismModifier>
+			<GreatWorksTourismModifier>50<GreatWorksTourismModifier>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
@@ -53,22 +70,6 @@
 			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
-
-	<Beliefs>
-		<Row>
-			<Type>BELIEF_BASILICAS</Type>
-			<Description>TXT_KEY_BELIEF_BASILICAS</Description>
-			<ShortDescription>TXT_KEY_BELIEF_BASILICAS_SHORT</ShortDescription>
-			<Follower>true</Follower>
-		</Row>
-	</Beliefs>
-
-	<Belief_BuildingClassFaithPurchase>
-		<Row>
-			<BeliefType>BELIEF_BASILICAS</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_BASILICA</BuildingClassType>
-		</Row>
-	</Belief_BuildingClassFaithPurchase>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_BASILICAS">

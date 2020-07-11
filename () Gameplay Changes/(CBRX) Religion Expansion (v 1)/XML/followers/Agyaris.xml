@@ -2,7 +2,6 @@
 <GameData>
 
 	<Beliefs>
-		<Delete Type="BELIEF_AGYARIS" />
 		<Row>
 			<Type>BELIEF_AGYARIS</Type>
 			<Description>TXT_KEY_BELIEF_AGYARIS</Description>

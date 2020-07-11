@@ -56,11 +56,10 @@
 
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION" />
-		<Delete Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION">
 			<Text>Use [ICON_PEACE] Faith to purchase Libraries, Universities, Observatories, Public Schools, and Research Labs</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION_SHORT">
+		<Row Tag="TXT_KEY_BELIEF_JUDGE_AND_AVENGER_SHORT">
 			<Text>Merit and Endowment</Text>
 		</Row>
 	</Language_en_US>

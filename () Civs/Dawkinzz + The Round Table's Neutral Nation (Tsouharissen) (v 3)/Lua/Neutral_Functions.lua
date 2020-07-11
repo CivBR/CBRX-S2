@@ -11,7 +11,7 @@ local tag = "Neutral Nation"
 
 -- --dprint
 -- Credit to Limaeus
-local function dprint(...)
+local function --dprint(...)
     if bDebug then
 		if ... ~= nil then
 			print(tag .. ": " .. string.format(...))
