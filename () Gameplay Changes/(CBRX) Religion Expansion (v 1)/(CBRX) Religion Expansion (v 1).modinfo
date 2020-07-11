@@ -25,13 +25,307 @@
     <File md5="A27C142FDD04958FF7B24924E4240A3F" import="0">Lua/MainFunctions.lua</File>
     <File md5="0FB4FE11B5E5BACCE4CC68DC9800DE18" import="0">SQL/Beliefs.sql</File>
     <File md5="32BD230CB5F5E929753D327B15CD8431" import="0">SQL/Buildings.sql</File>
+    <File md5="349270DF5056D32D67FCECCF08F22DAE" import="0">SQL/New Religions.sql</File>
+    <File md5="D991161535E18B7CCF4498F9C1DB81DB" import="0">XML/ActiveRel.xml</File>
+    <File md5="28D611E3C74A352B5CB26F3005B461E2" import="0">XML/enhancers/ArchitectOfTheGods.xml</File>
+    <File md5="06022721952BAFBEC6E228179048C94D" import="0">XML/enhancers/AstralProjection.xml</File>
+    <File md5="8792D1B1943E085DD09AA8742874B496" import="0">XML/enhancers/ChoralMusic.xml</File>
+    <File md5="E5B8645B6815CAA7D5E9FA2FA6A98C41" import="0">XML/enhancers/EveryManAKing.xml</File>
+    <File md5="38E13ACC0604F76DF5947F2FB2B3AA7A" import="0">XML/enhancers/ForsFortuna.xml</File>
+    <File md5="82B303A0F65F91107BF046B2BBF9F86E" import="0">XML/enhancers/FromGivingHands.xml</File>
+    <File md5="9F863039B263AAF12EDA1165612D9AD0" import="0">XML/enhancers/HolyOrder.xml</File>
+    <File md5="5F8781A04A50E4CD2A22139F09B198BD" import="0">XML/enhancers/ItinerantPreachers.xml</File>
+    <File md5="09BBB707FEA17253C9204E8FA51CBACC" import="0">XML/enhancers/JustWar.xml</File>
+    <File md5="100B84B6FE0BFFC31FE3A6A553D50DE7" import="0">XML/enhancers/MandatoryTribute.xml</File>
+    <File md5="70A90536B97CA009FCD90E7665F13BAB" import="0">XML/enhancers/MedicineBundles.xml</File>
+    <File md5="BB8ABA099F100CFA8F74B43795A03337" import="0">XML/enhancers/PopulousPiety.xml</File>
+    <File md5="79149D3E9CE1AEE3AEA9DB48D9B80D06" import="0">XML/enhancers/ReligiousTexts.xml</File>
+    <File md5="385F9C8C58CE25CFED57B1BB25089BDA" import="0">XML/enhancers/Reliquary.xml</File>
+    <File md5="0DC181764F74D03F52A020425F92B151" import="0">XML/enhancers/Televangelism.xml</File>
+    <File md5="E5A41AD99074C0D42D6B9ED6166C0B8A" import="0">XML/enhancers/UnityOfTheProphets.xml</File>
+    <File md5="7180149A972EAEFAE791A4178761AEFE" import="0">XML/enhancers/_RemoveOldEnhancers.xml</File>
+    <File md5="4D0163909EB15FB3CF17A8C419C111F4" import="0">XML/FaithPurchasingChanges.xml</File>
+    <File md5="8984B1F5F2ED5288D1368CE31EEEFD0E" import="0">XML/followers/Agyaris.xml</File>
+    <File md5="98C89D987C360B79F2C0945DCC5525A1" import="0">XML/followers/Asceticism.xml</File>
+    <File md5="A13FE23EE4576999E04F1379C00BEB2E" import="0">XML/followers/Bacchanalia.xml</File>
+    <File md5="9D8934A3BD651C6EEF0CED4E8637DBFB" import="0">XML/followers/Basilicas.xml</File>
+    <File md5="7F0488D0DE715CEF0AC7982FC49EE932" import="0">XML/followers/Cathedrals.xml</File>
+    <File md5="368FA3F0575C62621CB53F7807EA5028" import="0">XML/followers/CequeSystem.xml</File>
+    <File md5="F337C34299A7C21F7C867D0BFD778861" import="0">XML/followers/CitiesOfGold.xml</File>
+    <File md5="D19FFD630CA10AA75AB4AC99E44F0788" import="0">XML/followers/Daoguans.xml</File>
+    <File md5="DDCAFC3E7054605C9B1FA0354B149719" import="0">XML/followers/Derasars.xml</File>
+    <File md5="1A3228C094346ACDA66C08DCCD7B0A51" import="0">XML/followers/DivineInspiration.xml</File>
+    <File md5="80E145ED0DCECE2106BB266BE68D4BF2" import="0">XML/followers/FaithHealers.xml</File>
+    <File md5="557DDE0D787992DFA8F853B8738E6D9B" import="0">XML/followers/FeedTheWorld.xml</File>
+    <File md5="0C8F18D89D447790A0E7B2589D64834E" import="0">XML/followers/Ggantijas.xml</File>
+    <File md5="D4C9AA3D46E4CABF78F51BEB63B5579D" import="0">XML/followers/Gompas.xml</File>
+    <File md5="19683CEB938EBB499513C4077FED3C78" import="0">XML/followers/Groundations.xml</File>
+    <File md5="09663E1D7BBE40863B73007332A41496" import="0">XML/followers/Gurdwaras.xml</File>
+    <File md5="BEEC7FD42364939B9FC6371C1D3F2566" import="0">XML/followers/Guruship.xml</File>
+    <File md5="6AD35F027CEB4D0668A1D6A8F05CFC11" import="0">XML/followers/HolyWarriors.xml</File>
+    <File md5="4D0A43965CCBC134C48E49528CE3A0D0" import="0">XML/followers/Hounfours.xml</File>
+    <File md5="5492533A29C0294AC581E9FFB8458719" import="0">XML/followers/Iconography.xml</File>
+    <File md5="21CD3D568862DB75EB7437D1FA61A553" import="0">XML/followers/Ijtihad.xml</File>
+    <File md5="50E2E0251E646E8B94BE881C18A91B1C" import="0">XML/followers/Ital.xml</File>
+    <File md5="211B490A753D6B29A6DFF79D27567A60" import="0">XML/followers/Jinjas.xml</File>
+    <File md5="46C2625CECD3DE2868C0769A0FC35AF1" import="0">XML/followers/Kivas.xml</File>
+    <File md5="94178B2D606F08DD26DFEA08CEFB2F06" import="0">XML/followers/LiturgicalDrama.xml</File>
+    <File md5="36518D0E7F02FA7CA921B07F5D835942" import="0">XML/followers/Madrassas.xml</File>
+    <File md5="FCA7E67CCD57DCA2DC89D28FFA2705C1" import="0">XML/followers/Mandirs.xml</File>
+    <File md5="1B34AE4BC0071E47378422EC84866101" import="0">XML/followers/Mathas.xml</File>
+    <File md5="581D0BF70C560E57D1313B78FDCA6A63" import="0">XML/followers/MessengerOfTheGods.xml</File>
+    <File md5="89E36FA6FA87C74C12ED693B51B61F82" import="0">XML/followers/Monasteries.xml</File>
+    <File md5="EC506ACBF24BA0018D1B3D41B2B85D3F" import="0">XML/followers/Mosques.xml</File>
+    <File md5="80D3C8F9AF8DEFFEC828A0BA7C4968F6" import="0">XML/followers/Mounds.xml</File>
+    <File md5="066F876DD38448FEE4985E2A22340AF4" import="0">XML/followers/Pagodas.xml</File>
+    <File md5="8167FCC626BD43D5FC29D6A5D0E4E4B9" import="0">XML/followers/PeaceGardens.xml</File>
+    <File md5="9E0F8A7862A184E57D0F0C4441103DF5" import="0">XML/followers/Ramadan.xml</File>
+    <File md5="E247A38B264E499123E76FDCEEE14DF8" import="0">XML/followers/ReligiousArt.xml</File>
+    <File md5="7E36822566503FB540BAFD88795552C6" import="0">XML/followers/ReligiousCenter.xml</File>
+    <File md5="168BD89C0B85A610F92CC1ADB0DCBE9E" import="0">XML/followers/SacellaSociety.xml</File>
+    <File md5="45426D491D3F7CFD3225FD5E6B5D501C" import="0">XML/followers/Stupas.xml</File>
+    <File md5="5705ABEE5557F5A8F9F173FE0677B14D" import="0">XML/followers/Synagogues.xml</File>
+    <File md5="80D5B238CD415D3FE03B63AF41BDFB79" import="0">XML/followers/Totems.xml</File>
+    <File md5="B07C0A184AC37A0CC9D124E86088F2FF" import="0">XML/followers/WarMemorial.xml</File>
+    <File md5="74F78BE580074F0882AB647325684766" import="0">XML/followers/Wats.xml</File>
+    <File md5="49BDC85178345AD37D04BD2ACD165AE1" import="0">XML/followers/WorkEthic.xml</File>
+    <File md5="B295E77B4E23CE8FE64A60A7C20C8451" import="0">XML/followers/_RemoveOldFollowers.xml</File>
+    <File md5="E54B8337119F10B712C391A9D0CDCAF5" import="0">XML/founders/AlmsGiving.xml</File>
+    <File md5="55C19F3B60348B93FD7581E1A3A75B84" import="0">XML/founders/AncestorWorship.xml</File>
+    <File md5="070FC94B507ACDD0EBC764B954AC01D1" import="0">XML/founders/ArdentInquiry.xml</File>
+    <File md5="FB189D37E71E99D577733C3FE4210101" import="0">XML/founders/CentralSynod.xml</File>
+    <File md5="465372B5FE5E5DFB8F77B250EEA1331B" import="0">XML/founders/CeremonialBurial.xml</File>
+    <File md5="AD1A1F088CC99D667B9AE17AB136B90C" import="0">XML/founders/CharitableMissions.xml</File>
+    <File md5="D4407DF8E87C15A091EE8F3696A64490" import="0">XML/founders/ChosenPeople.xml</File>
+    <File md5="2B83E201A0FEB6A477140A061F99E05E" import="0">XML/founders/ChurchProperty.xml</File>
+    <File md5="4597A79901030D46CD2F68B3D3C13BFC" import="0">XML/founders/CouncilFires.xml</File>
+    <File md5="885F90D543517F93600E93818473CA64" import="0">XML/founders/DefenderOfTheFaith.xml</File>
+    <File md5="CDA595A1C427BEAB665EA776E71619FA" import="0">XML/founders/DevoutCorvee.xml</File>
+    <File md5="26D28023D8E75D348B1B7CF9443D85FA" import="0">XML/founders/FilialPiety.xml</File>
+    <File md5="2E15399BD123EB722A4BD98F803062E4" import="0">XML/founders/HeroWorship.xml</File>
+    <File md5="7CFD748F72C1AFDA2249B4C19042F098" import="0">XML/founders/InitiationRites.xml</File>
+    <File md5="E143ED7F5F1983AF21963C55D494A718" import="0">XML/founders/InterfaithDialogue.xml</File>
+    <File md5="80D41A3FE0F9C5ACBDFBBC39576027FB" import="0">XML/founders/MassPilgrimage.xml</File>
+    <File md5="A87870A2964BDB1E861CEA6B0085832A" import="0">XML/founders/PeaceLoving.xml</File>
+    <File md5="FCFA21486C864616146918E909F95125" import="0">XML/founders/SanctumThrone.xml</File>
+    <File md5="0CFF98BDB6BA0C1D86E44926EBFCB856" import="0">XML/founders/Shamanism.xml</File>
+    <File md5="24B2370045DF09ABEE8672ED7195299D" import="0">XML/founders/SonOfHeaven.xml</File>
+    <File md5="B4A7D93DAF7B00EC37C573222FEC4892" import="0">XML/founders/Theurgy.xml</File>
+    <File md5="4E3B1DC097D4BBB89EA40AF9E3BE230F" import="0">XML/founders/Tithe.xml</File>
+    <File md5="DBA4E2D40D1E918BE6AB9AC6D9FF837E" import="0">XML/founders/TreasuryMandate.xml</File>
+    <File md5="45015B38DB70DE93DFA4F1F778C64E53" import="0">XML/founders/_RemoveOldFounders.xml</File>
+    <File md5="CD9A8EFE1EBA9F735B73CA51EA83F92F" import="0">XML/FoundingPantheonChanges.xml</File>
     <File md5="0EA7EA8D1F2FB9C88E6FD83051F14970" import="0">XML/GameText.xml</File>
+    <File md5="FF93A6C34C69CBBFD0E84F2F645EEA8F" import="0">XML/InquisitorChanges.xml</File>
+    <File md5="93D18F12FC07A59166980089F8387BAE" import="0">XML/pantheons/AncestorWorship.xml</File>
+    <File md5="CD76C88B181BEF1E46A024ED5878A2BB" import="0">XML/pantheons/AquaticUnderworld.xml</File>
+    <File md5="949E95E6908AC1F6E15956380A6B4B72" import="0">XML/pantheons/ArborealCommunion.xml</File>
+    <File md5="0E2C0EA71DEA05E47AFC48FBAF7C405A" import="0">XML/pantheons/AxisMundi.xml</File>
+    <File md5="04303B953CCC9DA1FA085A13DF5FDA9B" import="0">XML/pantheons/BlessedBeTheCheesemakers.xml</File>
+    <File md5="32CE4D524E8498B579E53EDE990AAA88" import="0">XML/pantheons/DanceOfTheAurora.xml</File>
+    <File md5="24CE227E6ED62F85A1ADC70CAEC4ED97" import="0">XML/pantheons/DesertFolklore.xml</File>
+    <File md5="4C4334BB380ECD31A335CF1CA45AA971" import="0">XML/pantheons/DivineAdornment.xml</File>
+    <File md5="54896FABB491852DFEEDC4E49794A072" import="0">XML/pantheons/EarthMother.xml</File>
+    <File md5="EBE1C137CB59A8933B56C227C6234D9C" import="0">XML/pantheons/FaerieCharms.xml</File>
+    <File md5="B2751F136B0B10603051B4B93AF13561" import="0">XML/pantheons/FertilityRites.xml</File>
+    <File md5="3833675A9DFA92A82E229B00EBD38606" import="0">XML/pantheons/GlacierSpirits.xml</File>
+    <File md5="418C50030131F863270D54D38C7C74AD" import="0">XML/pantheons/God-King.xml</File>
+    <File md5="2A0CEEB4448168290462BB63F16ACC3F" import="0">XML/pantheons/GoddessOfFestivals.xml</File>
+    <File md5="D76B7CD08F29804F9892F53F2CF55F52" import="0">XML/pantheons/GoddessOfLove.xml</File>
+    <File md5="355A0FA76004C60A67FBF4185FB30277" import="0">XML/pantheons/GoddessOfProtection.xml</File>
+    <File md5="660E1B045C5E3825D0EB8C34FF419738" import="0">XML/pantheons/GoddessOfTheHunt.xml</File>
+    <File md5="B69E0993BDE05EDDE4702DDEEB844B2C" import="0">XML/pantheons/GodOfCraftsmen.xml</File>
+    <File md5="0B7288ABAE7B46CC5255414BDE22C8DA" import="0">XML/pantheons/GodOfTheSea.xml</File>
+    <File md5="C2ADCB6BCD608E38708343ECBB40456D" import="0">XML/pantheons/GodOfWar.xml</File>
+    <File md5="2A448EC628CD7EE1B2B61B80E60B7C61" import="0">XML/pantheons/MonumentToTheGods.xml</File>
+    <File md5="F30E2BC5B4D63EAC92F9F66BFAA6B468" import="0">XML/pantheons/MysticRituals.xml</File>
+    <File md5="0B2B4B9299110D87AB1506072304C808" import="0">XML/pantheons/OceansBounty.xml</File>
+    <File md5="CDEA9A43B277D0E6EB5684EF2C8DDEC2" import="0">XML/pantheons/OneWithNature.xml</File>
+    <File md5="3DDDE8D62BBAA30A4D29072DE159E428" import="0">XML/pantheons/OpenSky.xml</File>
+    <File md5="60C7055AF4FC0ED7EB763126B96EF244" import="0">XML/pantheons/OralTradition.xml</File>
+    <File md5="2C860F41EAB822AB709C7461E10EFEEC" import="0">XML/pantheons/RainDancing.xml</File>
+    <File md5="A2A332FE2CC26801F7C3A33DECDF4523" import="0">XML/pantheons/ReligiousIdols.xml</File>
+    <File md5="2608722F55CCCA327C64F2068E3B6598" import="0">XML/pantheons/ReligiousSettlements.xml</File>
+    <File md5="BFC42AB7675A8F6D6170A39783FB2710" import="0">XML/pantheons/RiteOfSpring.xml</File>
+    <File md5="B8B4528BD8475B777EDC50258F5DD2FF" import="0">XML/pantheons/SacredGroves.xml</File>
+    <File md5="A1FB76ACD6185BBEE66FA8AB94502042" import="0">XML/pantheons/SkyRealm.xml</File>
+    <File md5="A1CB7E10BC1E13A80289FEC23EA25FE5" import="0">XML/pantheons/SpiritAnimals.xml</File>
+    <File md5="C6FEF71638A70D864CDCC92953BDD24F" import="0">XML/pantheons/SpiritWorld.xml</File>
+    <File md5="F0975F1054E5DED1D6D2F0317EEA86E0" import="0">XML/pantheons/StoneCircles.xml</File>
+    <File md5="449C4DC7F93831F9548E9E0A78D7F372" import="0">XML/pantheons/SunGod.xml</File>
+    <File md5="AF31FA4561F9DDA5431696E114781F9C" import="0">XML/pantheons/VisionQuests.xml</File>
+    <File md5="D8ABBB615BEE28D66BD44739EF77B247" import="0">XML/pantheons/_RemoveOldPantheons.xml</File>
+    <File md5="59A65EB735E34C578D17F7BA81553DD3" import="0">XML/ProphetSpawnChanges.xml</File>
+    <File md5="3FE891D32BC80FC98C7045EE7F73E55D" import="0">XML/reformations/ApostolicPalace.xml</File>
+    <File md5="6B53B76CF4D75BB07A4CED6A7232DE7A" import="0">XML/reformations/HousesOfWorship.xml</File>
+    <File md5="D075F0C443D73CD3AAEF01B334CF79FB" import="0">XML/reformations/Indulgences.xml</File>
+    <File md5="1B809ACE6AF2A8ECC7011D1EB9112201" import="0">XML/reformations/JudgeAndAvenger.xml</File>
+    <File md5="25516504B9F9D426C3534852A441A340" import="0">XML/reformations/LordsRightHand.xml</File>
+    <File md5="7570E145A5D92F250018DE826E9652D9" import="0">XML/reformations/MeritandEndowment.xml</File>
+    <File md5="E2612AA6C3C834D2C8C37263E63900A2" import="0">XML/reformations/NonSectarianism.xml</File>
+    <File md5="204593A0EDC45A16778343670F2BB3A5" import="0">XML/reformations/Ragnarok.xml</File>
+    <File md5="C3CD8701AAB2C450C5017E8FFB1B6070" import="0">XML/reformations/Romanticism.xml</File>
+    <File md5="5C78D4BABE229BDD70054E32ED6E96B4" import="0">XML/reformations/SacredSites.xml</File>
+    <File md5="70F2F433B00018464825FF957C928F7F" import="0">XML/reformations/SocietyOfTheFaithful.xml</File>
+    <File md5="7C06F93FE45F2803EE666601FC32859F" import="0">XML/reformations/SwordsToPlowshares.xml</File>
+    <File md5="F58C197D1EDF0B403F6148DB53F7829C" import="0">XML/reformations/UndergroundSect.xml</File>
+    <File md5="960F864A89C00434CA64798A6ABA8F98" import="0">XML/reformations/VenerationOfIcons.xml</File>
+    <File md5="BF76B4C36A8B7C753EB59A5D46AB36F2" import="0">XML/reformations/WorldChurch.xml</File>
+    <File md5="081BB31AEE48FF593DEF710936F0E805" import="0">XML/reformations/_RemoveOldReformations.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>SQL/Beliefs.sql</UpdateDatabase>
       <UpdateDatabase>SQL/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/New Religions.sql</UpdateDatabase>
       <UpdateDatabase>XML/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/_RemoveOldEnhancers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/ArchitectOfTheGods.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/AstralProjection.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/ChoralMusic.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/EveryManAKing.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/ForsFortuna.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/FromGivingHands.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/HolyOrder.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/ItinerantPreachers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/JustWar.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/MandatoryTribute.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/MedicineBundles.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/PopulousPiety.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/ReligiousTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/Reliquary.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/Televangelism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/enhancers/UnityOfTheProphets.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/_RemoveOldFollowers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Agyaris.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Asceticism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Bacchanalia.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Basilicas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Cathedrals.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/CequeSystem.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/CitiesOfGold.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Daoguans.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Derasars.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/DivineInspiration.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/FaithHealers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/FeedTheWorld.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Ggantijas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Gompas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Groundations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Gurdwaras.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Guruship.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/HolyWarriors.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Hounfours.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Iconography.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Ijtihad.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Ital.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Jinjas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Kivas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/LiturgicalDrama.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Madrassas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Mandirs.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Mathas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/MessengerOfTheGods.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Monasteries.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Mosques.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Mounds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Pagodas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/PeaceGardens.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Ramadan.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/ReligiousArt.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/ReligiousCenter.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/ReligiousCenter.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/SacellaSociety.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Stupas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Synagogues.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Totems.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/WarMemorial.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/Wats.xml</UpdateDatabase>
+      <UpdateDatabase>XML/followers/WorkEthic.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/_RemoveOldFounders.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/AlmsGiving.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/AncestorWorship.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/ArdentInquiry.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/CentralSynod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/CeremonialBurial.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/CharitableMissions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/ChosenPeople.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/ChurchProperty.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/CouncilFires.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/DefenderOfTheFaith.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/DevoutCorvee.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/FilialPiety.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/HeroWorship.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/InitiationRites.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/InterfaithDialogue.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/MassPilgrimage.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/PeaceLoving.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/SanctumThrone.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/Shamanism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/SonOfHeaven.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/Theurgy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/Tithe.xml</UpdateDatabase>
+      <UpdateDatabase>XML/founders/TreasuryMandate.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/_RemoveOldReformations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/ApostolicPalace.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/HousesOfWorship.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/Indulgences.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/JudgeAndAvenger.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/LordsRightHand.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/MeritandEndowment.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/NonSectarianism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/Ragnarok.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/Romanticism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/SacredSites.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/SocietyOfTheFaithful.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/SwordsToPlowshares.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/UndergroundSect.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/VenerationOfIcons.xml</UpdateDatabase>
+      <UpdateDatabase>XML/reformations/WorldChurch.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/_RemoveOldPantheons.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/AncestorWorship.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/AquaticUnderworld.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ProphetSpawnChanges.xml</UpdateDatabase>
+      <UpdateDatabase>XML/InquisitorChanges.xml</UpdateDatabase>
+      <UpdateDatabase>XML/FoundingPantheonChanges.xml</UpdateDatabase>
+      <UpdateDatabase>XML/FaithPurchasingChanges.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ActiveRel.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/VisionQuests.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/SunGod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/StoneCircles.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/SpiritWorld.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/SpiritWorld.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/SpiritAnimals.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/SkyRealm.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/SacredGroves.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/RiteOfSpring.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/ReligiousSettlements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/ReligiousIdols.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/RainDancing.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/OralTradition.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/OpenSky.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/OneWithNature.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/OceansBounty.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/MysticRituals.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/MonumentToTheGods.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/GodOfWar.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/GodOfTheSea.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/GodOfCraftsmen.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/God-King.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/GoddessOfTheHunt.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/GoddessOfProtection.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/GoddessOfLove.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/GoddessOfFestivals.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/GlacierSpirits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/FertilityRites.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/FaerieCharms.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/EarthMother.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/DivineAdornment.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/DesertFolklore.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/DanceOfTheAurora.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/BlessedBeTheCheesemakers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/AxisMundi.xml</UpdateDatabase>
+      <UpdateDatabase>XML/pantheons/ArborealCommunion.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
