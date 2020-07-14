@@ -15,7 +15,7 @@ cbrxTSLs["CIVILIZATION_JFD_USSR_LENIN"] = {X = 38, Y = 71, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_PERM"] = {X = 49, Y = 74, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_MC_JERUSALEM"] = {X = 37, Y = 48, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_US_GEORGIA"] = {X = 43, Y = 60, S = "F", O = "F"}
-cbrxTSLs["CIVILIZATION_TCM_PTOLEMIES"] = {X = 32, Y = 47, S = "F", O = "F"}
+cbrxTSLs["CIVILIZATION_LITE_TARCISIO_PTOLEMIES"] = {X = 32, Y = 47, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_JFD_VANDALS_GENSERIC"] = {X = 19, Y = 48, S = "T", O = "F"}
 cbrxTSLs["CIVILIZATION_MC_TUAREG"] = {X = 16, Y = 40, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_DMS_BURKINA_FASO"] = {X = 16, Y = 32, S = "F", O = "F"}
