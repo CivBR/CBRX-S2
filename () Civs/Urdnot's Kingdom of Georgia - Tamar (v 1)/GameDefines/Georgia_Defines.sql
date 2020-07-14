@@ -316,11 +316,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 		(CivilizationType, 				BuildingClassType, 			BuildingType)
 VALUES	('CIVILIZATION_US_GEORGIA', 	'BUILDINGCLASS_CASTLE',		'BUILDING_US_TSIKHE');
 --------------------------------------------------------------------------------------------------------------------------	
--- Civilization_Religions
---------------------------------------------------------------------------------------------------------------------------		
-INSERT INTO Civilization_Religions 
-		(CivilizationType, 				ReligionType)
-VALUES	('CIVILIZATION_US_GEORGIA',		'RELIGION_CHRISTIANITY');	
 --------------------------------------------------------------------------------------------------------------------------	
 -- Civilization_SpyNames
 --------------------------------------------------------------------------------------------------------------------------		

@@ -213,12 +213,6 @@
 			<StartAlongRiver>true</StartAlongRiver>
 		</Row>
 	</Civilization_Start_Along_River>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_MAPUCHE</CivilizationType>
-			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Civilization_SpyNames>
 		<Row>
 			<CivilizationType>CIVILIZATION_MAPUCHE</CivilizationType>

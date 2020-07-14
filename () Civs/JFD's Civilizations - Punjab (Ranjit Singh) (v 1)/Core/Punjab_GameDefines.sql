@@ -328,11 +328,6 @@ INSERT INTO Civilization_UnitClassOverrides
 		(CivilizationType, 			UnitClassType, 		  UnitType)
 VALUES	('CIVILIZATION_JFD_PUNJAB', 'UNITCLASS_RIFLEMAN', 'UNIT_JFD_AKALI');
 ------------------------------------------------------------------------------------------------------------------------	
--- Civilization_Religions
-------------------------------------------------------------------------------------------------------------------------			
-INSERT INTO Civilization_Religions
-		(CivilizationType, 			ReligionType)
-VALUES	('CIVILIZATION_JFD_PUNJAB', 'RELIGION_SIKHISM');
 ------------------------------------------------------------------------------------------------------------------------	
 -- Civilization_SpyNames
 ------------------------------------------------------------------------------------------------------------------------	

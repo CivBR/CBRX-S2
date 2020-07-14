@@ -122,27 +122,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 			(CivilizationType, 				BuildingClassType, 				BuildingType)
 VALUES		('CIVILIZATION_MC_CHINOOK', 	'BUILDINGCLASS_LIGHTHOUSE', 	'BUILDING_MC_PLANKHOUSE');
 --==========================================================================================================================
--- Civilization_Religions
---==========================================================================================================================	
-INSERT INTO Civilization_Religions
-			(CivilizationType, 				ReligionType)
-VALUES		('CIVILIZATION_MC_CHINOOK',		'RELIGION_CHRISTIANITY');
---------------------------------	
--- Historical Religions Support
---------------------------------	
-UPDATE Civilization_Religions 
-SET ReligionType = ( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type = 'RELIGION_SGAANAANG' )
-		THEN 'RELIGION_SGAANAANG'
-		ELSE 'RELIGION_CHRISTIANITY' END) 
-WHERE CivilizationType = 'CIVILIZATION_MC_CHINOOK';
-
-CREATE TRIGGER ReligionMCChinook
-AFTER INSERT ON Religions WHEN 'RELIGION_SGAANAANG' = NEW.Type
-BEGIN
-	UPDATE Civilization_Religions 
-	SET ReligionType = 'RELIGION_SGAANAANG'
-	WHERE CivilizationType = 'CIVILIZATION_MC_CHINOOK';
-END;
 --==========================================================================================================================
 -- Civilization_SpyNames
 --==========================================================================================================================	

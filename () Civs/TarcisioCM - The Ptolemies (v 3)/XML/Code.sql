@@ -80,11 +80,7 @@ INSERT INTO Civilization_BuildingClassOverrides
 			(CivilizationType, 				BuildingClassType, 			BuildingType)
 VALUES		('CIVILIZATION_TCM_PTOLEMIES', 	'BUILDINGCLASS_TEMPLE', 	'BUILDING_TCM_SERAPEUM');
 --==========================================================================================================================
--- Civilization_Religions
---==========================================================================================================================	
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 			ReligionType)
-VALUES		('CIVILIZATION_TCM_PTOLEMIES', 	'RELIGION_ORTHODOXY');
+
 --==========================================================================================================================
 -- Civilization_SpyNames
 --==========================================================================================================================	

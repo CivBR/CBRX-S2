@@ -92,12 +92,7 @@ INSERT INTO Civilization_UnitClassOverrides
         (CivilizationType,            UnitClassType,         UnitType)
 VALUES  ('CIVILIZATION_THP_SOMALIA', 'UNITCLASS_MARINE',    'UNIT_THP_DUUB_CAS'),
         ('CIVILIZATION_THP_SOMALIA', 'UNITCLASS_WRITER',    'UNIT_THP_GABYAGA');
--------------------------
--- Civilization_Religions
--------------------------
-INSERT INTO Civilization_Religions
-       (CivilizationType,            ReligionType)
-VALUES ('CIVILIZATION_THP_SOMALIA', 'RELIGION_ISLAM');
+
 ------------------------
 -- Civilization_SpyNames
 ------------------------

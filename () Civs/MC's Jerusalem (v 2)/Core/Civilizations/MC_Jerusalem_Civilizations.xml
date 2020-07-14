@@ -63,12 +63,6 @@
 			<BuildingType>BUILDING_MC_JERUSALEM_CHAPTER_HOUSE</BuildingType>
 		</Row>
 	</Civilization_BuildingClassOverrides>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_MC_JERUSALEM</CivilizationType>
-			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<!--CITY STATE CHANGE-->
 	<MinorCivilizations>
 		<Update>

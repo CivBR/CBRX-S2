@@ -216,12 +216,6 @@
       <LeaderheadType>LEADER_STEPHEN</LeaderheadType>
     </Row>
   </Civilization_Leaders>
-  <Civilization_Religions>
-    <Row>
-      <CivilizationType>CIVILIZATION_PERM</CivilizationType>
-      <ReligionType>RELIGION_ORTHODOXY</ReligionType>
-    </Row>
-  </Civilization_Religions>
   <Civilization_SpyNames>
     <Row>
       <CivilizationType>CIVILIZATION_PERM</CivilizationType>

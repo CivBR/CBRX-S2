@@ -348,12 +348,7 @@ VALUES		('CIVILIZATION_JFD_USSR_LENIN', 		'BUILDINGCLASS_CONSTABLE',			'BUILDING
 			('CIVILIZATION_JFD_USSR_LENIN', 		'BUILDINGCLASS_WINDMILL',			'BUILDING_JFD_LENIN_WINDMILL'),
 			('CIVILIZATION_JFD_USSR_LENIN', 		'BUILDINGCLASS_FACTORY',			'BUILDING_JFD_LENIN_FACTORY');
 --------------------------------	
--- Civilization_Religions
---------------------------------			
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 						ReligionType)
-SELECT		('CIVILIZATION_JFD_USSR_LENIN'), 		ReligionType
-FROM Civilization_Religions WHERE (CivilizationType = 'CIVILIZATION_RUSSIA');
+
 --------------------------------	
 -- Civilization_SpyNames
 --------------------------------	

@@ -250,12 +250,7 @@ VALUES	('CIVILIZATION_JFD_TWO_SICILIES',	'BUILDINGCLASS_THEATRE',	'BUILDING_JFD_
 INSERT INTO Civilization_UnitClassOverrides 
 		(CivilizationType, 					UnitClassType, 			UnitType)
 VALUES	('CIVILIZATION_JFD_TWO_SICILIES',	'UNITCLASS_FRIGATE',	'UNIT_JFD_STEAM_FRIGATE');
---------------------------------	
--- Civilization_Religions
---------------------------------			
-INSERT INTO Civilization_Religions 
-		(CivilizationType, 					ReligionType)
-VALUES	('CIVILIZATION_JFD_TWO_SICILIES',	'RELIGION_CHRISTIANITY');
+
 --------------------------------	
 -- Civilization_SpyNames
 --------------------------------	

@@ -54,12 +54,6 @@
 			<LeaderheadType>LEADER_UC_HERMANN</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_UC_TEUTONS</CivilizationType>
-			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Civilization_BuildingClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_UC_TEUTONS</CivilizationType>

@@ -82,16 +82,6 @@ VALUES ('CIVILIZATION_PI_JAMAICA',    'JFD_Colonial', 'JFD_ColonialLatin', 'JFD_
 --TOMATEKH'S HISTORICAL RELIGIONS COMPLETE
 --===========================================
 
-INSERT INTO Civilization_Religions 
-		(CivilizationType, 			ReligionType)
-VALUES		('CIVILIZATION_PI_JAMAICA', 		'RELIGION_PROTESTANTISM');
-
-UPDATE Civilization_Religions SET ReligionType = 
-	( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type="RELIGION_PROTESTANT_BAPTIST" )
-		THEN "RELIGION_PROTESTANT_BAPTIST"
-		ELSE "RELIGION_PROTESTANTISM" END
-	) WHERE CivilizationType = "CIVILIZATION_PI_JAMAICA";
-
 --==========================================================	
 -- COLONIES 
 --==========================================================	

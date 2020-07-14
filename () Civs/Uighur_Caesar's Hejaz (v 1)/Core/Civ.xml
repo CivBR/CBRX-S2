@@ -54,12 +54,6 @@
 			<LeaderheadType>LEADER_UC_HUSSEIN</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_UC_HEJAZ</CivilizationType>
-			<ReligionType>RELIGION_ISLAM</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_UC_HEJAZ</CivilizationType>

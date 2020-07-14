@@ -83,11 +83,6 @@ INSERT INTO Civilization_UnitClassOverrides
        (CivilizationType,              UnitClassType,       UnitType)
 VALUES ('CIVILIZATION_PB_TAIPING', 'UNITCLASS_MUSKETMAN', 'UNIT_PB_CHANG_MAO');
 -------------------------
--- Civilization_Religions
--------------------------
-INSERT INTO Civilization_Religions
-       (CivilizationType,              ReligionType)
-VALUES ('CIVILIZATION_PB_TAIPING', 'RELIGION_PB_GOD_WORSHIPPING');
 -------------------------
 -- Civilization_Start_Along_River
 -------------------------

@@ -251,10 +251,4 @@
 			<Alpha>1.0</Alpha>
 		</Row>
 	</Colors>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_BHUTAN</CivilizationType>
-			<ReligionType>RELIGION_BUDDHISM</ReligionType>
-		</Row>
-	</Civilization_Religions>
 </GameData>

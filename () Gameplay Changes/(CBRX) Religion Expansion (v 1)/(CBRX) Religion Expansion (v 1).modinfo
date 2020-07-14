@@ -24,10 +24,21 @@
   <References />
   <Blocks />
   <Files>
+    <File md5="FDC77A3374382117DF8C2C2DBE623F3B" import="1">Art/CBRXNewReligionsMaster128.dds</File>
+    <File md5="5E76592D2730648E066198E854267DC6" import="1">Art/CBRXNewReligionsMaster16.dds</File>
+    <File md5="A8C4CA5214829D58D14136B904F54648" import="1">Art/CBRXNewReligionsMaster214.dds</File>
+    <File md5="E46AC96C623B42C0D63EE1A96AEC9613" import="1">Art/CBRXNewReligionsMaster24.dds</File>
+    <File md5="1AFF9F71A76DCCEE0B990252BD8E425E" import="1">Art/CBRXNewReligionsMaster256.dds</File>
+    <File md5="3DF7D5D87CF0CD49AE07FB3E2D88580B" import="1">Art/CBRXNewReligionsMaster32.dds</File>
+    <File md5="5D848FA7C4DA9F40A2724D447FEEAE62" import="1">Art/CBRXNewReligionsMaster48.dds</File>
+    <File md5="7AB47141089339BBB5D0CF919921E86B" import="1">Art/CBRXNewReligionsMaster64.dds</File>
+    <File md5="1A90ECC3E2839E1331A51D4A1DFF559C" import="1">Art/CBRXNewReligionsMaster80.dds</File>
+    <File md5="AC120FFDB6624B7E802195DBD8590453" import="1">Art/CBRXNewReligionsMasterFontIcons.dds</File>
+    <File md5="E5D03ADF00B7657E25FE3AA89C85FEA5" import="1">Art/CBRXNewReligionsMasterFontIcons.ggxml</File>
     <File md5="5EAEB7E238CA58F239C1343CCCEA367F" import="0">Lua/MainFunctions.lua</File>
     <File md5="0FB4FE11B5E5BACCE4CC68DC9800DE18" import="0">SQL/Beliefs.sql</File>
     <File md5="39C54CD92E6C26D4438BC6A25103AB52" import="0">SQL/Buildings.sql</File>
-    <File md5="8B51278294AD972EC563DC218435DF61" import="0">SQL/New Religions.sql</File>
+    <File md5="FACF6197FB96D2DAACB3CABA9ABEEBDF" import="0">SQL/New Religions.sql</File>
     <File md5="D991161535E18B7CCF4498F9C1DB81DB" import="0">XML/ActiveRel.xml</File>
     <File md5="28D611E3C74A352B5CB26F3005B461E2" import="0">XML/enhancers/ArchitectOfTheGods.xml</File>
     <File md5="06022721952BAFBEC6E228179048C94D" import="0">XML/enhancers/AstralProjection.xml</File>

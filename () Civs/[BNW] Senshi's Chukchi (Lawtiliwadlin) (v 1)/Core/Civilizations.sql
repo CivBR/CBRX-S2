@@ -100,12 +100,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 			(CivilizationType, 					BuildingClassType,			BuildingType)
 VALUES		('CIVILIZATION_SENSHI_CHUKCHI', 	'BUILDINGCLASS_BARRACKS',	'BUILDING_SENSHI_YARANGA');
 --==========================================================================================================================	
--- Civilization_Religions
---==========================================================================================================================		
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 					ReligionType)
-SELECT		'CIVILIZATION_SENSHI_CHUKCHI', 	ReligionType
-FROM Civilization_Religions WHERE (CivilizationType = 'CIVILIZATION_MONGOL');
 --==========================================================================================================================	
 -- Civilization_SpyNames
 --==========================================================================================================================		

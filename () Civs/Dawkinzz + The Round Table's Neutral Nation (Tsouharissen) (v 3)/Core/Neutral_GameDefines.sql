@@ -191,11 +191,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 VALUES	('CIVILIZATION_EW_NEUTRAL',		'BUILDINGCLASS_FORGE',	'BUILDING_EW_TATTOOIST');
 
 --------------------------------	
--- Civilization_Religions
---------------------------------	
-INSERT INTO	Civilization_Religions
-		(CivilizationType,			ReligionType)
-VALUES	('CIVILIZATION_EW_NEUTRAL',	'RELIGION_CHRISTIANITY');
 
 --------------------------------	
 -- Civilization_SpyNames

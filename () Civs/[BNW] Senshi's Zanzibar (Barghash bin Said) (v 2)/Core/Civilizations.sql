@@ -86,12 +86,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 			(CivilizationType, 					BuildingClassType,			BuildingType)
 VALUES		('CIVILIZATION_SENSHI_ZANZIBAR', 	'BUILDINGCLASS_HARBOR',	'BUILDING_SENSHI_BANDARI');
 --==========================================================================================================================	
--- Civilization_Religions
---==========================================================================================================================		
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 					ReligionType)
-SELECT		'CIVILIZATION_SENSHI_ZANZIBAR', 	ReligionType
-FROM Civilization_Religions WHERE (CivilizationType = 'CIVILIZATION_ARABIA');
 --==========================================================================================================================	
 -- Civilization_SpyNames
 --==========================================================================================================================		

@@ -91,12 +91,6 @@ INSERT INTO Civilization_UnitClassOverrides
 VALUES		('CIVILIZATION_SENSHI_MANCHU', 	'UNITCLASS_LANCER',		'UNIT_SENSHI_BANNERMAN'),
 			('CIVILIZATION_SENSHI_MANCHU', 	'UNITCLASS_MUSKETMAN',	'UNIT_SENSHI_GREEN_STANDARD');
 --==========================================================================================================================	
--- Civilization_Religions
---==========================================================================================================================		
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 					ReligionType)
-SELECT		'CIVILIZATION_SENSHI_MANCHU', 	ReligionType
-FROM Civilization_Religions WHERE (CivilizationType = 'CIVILIZATION_SIAM');
 --==========================================================================================================================	
 -- Civilization_SpyNames
 --==========================================================================================================================		

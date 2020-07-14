@@ -56,12 +56,6 @@
 			<UnitType>UNIT_LEUGI_JADE_WARRIOR</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>
-			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Civilization_Start_Region_Priority>
 		<Row>
 			<CivilizationType>CIVILIZATION_LEUGI_OLMEC</CivilizationType>

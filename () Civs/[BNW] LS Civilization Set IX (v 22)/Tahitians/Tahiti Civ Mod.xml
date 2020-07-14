@@ -68,12 +68,6 @@
 		</Row>
 	</Civilization_Start_Along_Ocean>
 	<!-- Civilization_Start_Region_Priority -->
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_TAHITI_LS_MOD</CivilizationType>
-			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_TAHITI_LS_MOD_ICON</Type>

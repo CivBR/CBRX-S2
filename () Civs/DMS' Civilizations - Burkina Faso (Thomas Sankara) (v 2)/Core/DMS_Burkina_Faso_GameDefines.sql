@@ -343,12 +343,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 		(CivilizationType, 					BuildingClassType, 			BuildingType)
 VALUES	('CIVILIZATION_DMS_BURKINA_FASO', 	'BUILDINGCLASS_SEAPORT', 	'BUILDING_DMS_FREIGHT_STATION');
 --------------------------------	
--- Civilization_Religions
---------------------------------		
-INSERT INTO Civilization_Religions 
-		(CivilizationType, 					ReligionType)
-SELECT	('CIVILIZATION_DMS_BURKINA_FASO'), 	ReligionType
-FROM Civilization_Religions WHERE (CivilizationType = 'CIVILIZATION_SONGHAI');
 --------------------------------	
 -- Civilization_SpyNames
 --------------------------------

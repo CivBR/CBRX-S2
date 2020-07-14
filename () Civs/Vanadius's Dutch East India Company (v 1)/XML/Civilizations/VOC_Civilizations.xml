@@ -50,12 +50,6 @@
 			<LeaderheadType>LEADER_JAN_COEN</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_VANA_VOC</CivilizationType>
-			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Civilization_FreeBuildingClasses>
 		<Row>
 			<CivilizationType>CIVILIZATION_VANA_VOC</CivilizationType>

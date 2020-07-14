@@ -208,12 +208,6 @@
       <LeaderheadType>LEADER_MOSHOEHOE</LeaderheadType>
     </Row>
   </Civilization_Leaders>
-  <Civilization_Religions>
-    <Row>
-      <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>
-      <ReligionType>RELIGION_PROTESTANTISM</ReligionType>
-    </Row>
-  </Civilization_Religions>
   <Civilization_SpyNames>
     <Row>
       <CivilizationType>CIVILIZATION_CSLESOTHO</CivilizationType>

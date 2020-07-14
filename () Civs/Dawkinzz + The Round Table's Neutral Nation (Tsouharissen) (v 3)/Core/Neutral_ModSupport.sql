@@ -730,29 +730,3 @@ SET SoundtrackTag = 'JFD_ColonialLatin'
 WHERE Type = 'CIVILIZATION_EW_NEUTRAL'
 AND EXISTS (SELECT * FROM Civilization_JFD_CultureTypes WHERE SoundtrackTag = 'JFD_ColonialLatin')
 AND EXISTS (SELECT * FROM JFD_GlobalUserSettings WHERE Type = 'JFD_CULDIV_SOUNDTRACK_ADDON' AND Value = 1);
---==========================================================================================================================
---==========================================================================================================================
---==========================================================================================================================
--- TOMATEKH'S HISTORICAL RELIGIONS
---==========================================================================================================================
--- Civilization_Religions
-------------------------------------------------------------
-UPDATE Civilization_Religions SET ReligionType = 
-	( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type = "RELIGION_WAKAN_TANKA" )
-		THEN "RELIGION_WAKAN_TANKA"
-		ELSE ( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type = "RELIGION_CHRISTIANITY" )
-		THEN "RELIGION_CHRISTIANITY" 
-		ELSE "RELIGION_CHRISTIANITY" END ) END
-	) WHERE CivilizationType = "CIVILIZATION_EW_NEUTRAL";
-
-CREATE TRIGGER CivilizationNeutral
-AFTER INSERT ON Civilization_Religions WHEN 'CIVILIZATION_EW_NEUTRAL' = NEW.CivilizationType
-BEGIN
-	UPDATE Civilization_Religions SET ReligionType = 
-		( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type = 'RELIGION_WAKAN_TANKA' )
-			THEN 'RELIGION_WAKAN_TANKA'
-			ELSE ( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type = 'RELIGION_CHRISTIANITY' )
-			THEN 'RELIGION_CHRISTIANITY'
-			ELSE 'RELIGION_CHRISTIANITY' END ) END
-		) WHERE CivilizationType = 'CIVILIZATION_EW_NEUTRAL';
-END;

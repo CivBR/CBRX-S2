@@ -85,11 +85,6 @@ INSERT INTO Civilization_UnitClassOverrides
        (CivilizationType,            UnitClassType,       UnitType)
 VALUES ('CIVILIZATION_THP_NAMIBIA', 'UNITCLASS_CAVALRY', 'UNIT_THP_OXRIDER');
 -------------------------
--- Civilization_Religions
--------------------------
-INSERT INTO Civilization_Religions
-       (CivilizationType,            ReligionType)
-VALUES ('CIVILIZATION_THP_NAMIBIA', 'RELIGION_PROTESTANTISM');
 ------------------------
 -- Civilization_SpyNames
 ------------------------

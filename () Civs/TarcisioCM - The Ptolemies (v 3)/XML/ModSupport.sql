@@ -159,38 +159,6 @@ UPDATE Civilizations SET ArtStyleSuffix =
 	) WHERE Type = "CIVILIZATION_TCM_PTOLEMIES";
 
 --Historical Religions
-DELETE FROM Civilization_Religions WHERE CivilizationType = 'CIVILIZATION_TCM_PTOLEMIES';
-
-INSERT INTO Civilization_Religions 
-		  (CivilizationType,	ReligionType)
-SELECT		Type,			('RELIGION_ORTHODOXY')
-FROM Civilizations WHERE Type = 'CIVILIZATION_TCM_PTOLEMIES'; 
-
-UPDATE Civilization_Religions SET ReligionType = 
-	( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type = 'RELIGION_PESEDJET' )
-		THEN 'RELIGION_PESEDJET'
-		ELSE ( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type = 'RELIGION_HELLENISM' )
-		THEN 'RELIGION_HELLENISM'
-		ELSE 'RELIGION_ORTHODOXY' END ) END
-	) WHERE CivilizationType = 'CIVILIZATION_TCM_PTOLEMIES';
-
-CREATE TRIGGER ReligionPtolemySupportOne
-AFTER INSERT ON Religions WHEN 'RELIGION_PESEDJET' = NEW.Type
-BEGIN
-	UPDATE Civilization_Religions 
-	SET ReligionType = 'RELIGION_PESEDJET'
-	WHERE CivilizationType IN ('CIVILIZATION_TCM_PTOLEMIES');
-END;
-
-CREATE TRIGGER ReligionPtolemySupportTwo
-AFTER INSERT ON Religions WHEN 'RELIGION_HELLENISM' = NEW.Type
-BEGIN
-	UPDATE Civilization_Religions SET ReligionType = 
-		( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type = 'RELIGION_PESEDJET' )
-			THEN 'RELIGION_PESEDJET'
-			ELSE 'RELIGION_HELLENISM' END 
-		) WHERE CivilizationType = 'CIVILIZATION_TCM_PTOLEMIES';
-END;
 
 --Civ IV Traits
 CREATE TABLE IF NOT EXISTS 

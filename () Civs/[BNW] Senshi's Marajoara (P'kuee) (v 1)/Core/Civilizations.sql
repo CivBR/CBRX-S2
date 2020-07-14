@@ -89,13 +89,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 			(CivilizationType, 					BuildingClassType,			BuildingType)
 VALUES		('CIVILIZATION_SENSHI_MARAJO', 	'BUILDINGCLASS_SHRINE',	'BUILDING_SENSHI_TESO');
 --==========================================================================================================================	
--- Civilization_Religions
---==========================================================================================================================		
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 					ReligionType)
-SELECT		'CIVILIZATION_SENSHI_MARAJO', 	ReligionType
-FROM Civilization_Religions WHERE (CivilizationType = 'CIVILIZATION_INCA');
---==========================================================================================================================	
 -- Civilization_SpyNames
 --==========================================================================================================================		
 INSERT INTO Civilization_SpyNames 

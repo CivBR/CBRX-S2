@@ -226,11 +226,6 @@ INSERT INTO Civilization_UnitClassOverrides
 		(CivilizationType, 				UnitClassType, 			UnitType)
 VALUES	('CIVILIZATION_VANA_NEWNETHERLAND', 	'UNITCLASS_MUSKETMAN', 	'UNIT_VANA_SCHUTTERIJ');
 --------------------------------	
--- Civilization_Religions
---------------------------------			
-INSERT INTO Civilization_Religions 
-		(CivilizationType, 				ReligionType)
-VALUES	('CIVILIZATION_VANA_NEWNETHERLAND', 	'RELIGION_PROTESTANTISM');
 --------------------------------	
 -- Civilization_SpyNames
 --------------------------------	

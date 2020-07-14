@@ -285,12 +285,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 		(CivilizationType, 				BuildingClassType, 					BuildingType)
 VALUES	('CIVILIZATION_DMS_ZAIRE', 		'BUILDINGCLASS_RECYCLING_CENTER', 	'BUILDING_DMS_GECAMINES_FACILITY');
 --------------------------------	
--- Civilization_Religions
---------------------------------		
-INSERT INTO Civilization_Religions 
-		(CivilizationType, 					ReligionType)
-SELECT	('CIVILIZATION_DMS_ZAIRE'), 		ReligionType
-FROM Civilization_Religions WHERE (CivilizationType = 'CIVILIZATION_ZULU');
 --------------------------------	
 -- Civilization_SpyNames
 --------------------------------

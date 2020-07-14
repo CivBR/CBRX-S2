@@ -86,12 +86,6 @@ INSERT INTO Civilization_UnitClassOverrides
 			(CivilizationType, 				UnitClassType, 			 UnitType)
 VALUES		('CIVILIZATION_DJ_ICELAND', 	'UNITCLASS_BATTLESHIP',	'UNIT_DJ_AEGIR_CLASS');
 --==========================================================================================================================	
--- Civilization_Religions
---==========================================================================================================================		
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 				ReligionType)
-SELECT		('CIVILIZATION_DJ_ICELAND'), 	ReligionType
-FROM Civilization_Religions WHERE (CivilizationType = 'CIVILIZATION_DENMARK');
 --==========================================================================================================================	
 -- Civilization_Start_Region_Priority
 --==========================================================================================================================		

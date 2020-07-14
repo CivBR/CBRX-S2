@@ -63,12 +63,6 @@
 			<BuildingType>BUILDING_MC_TUAREG_AHAKET</BuildingType>
 		</Row>
 	</Civilization_BuildingClassOverrides>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_MC_TUAREG</CivilizationType>
-			<ReligionType>RELIGION_ISLAM</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_MC_TUAREG_ICON</Type>

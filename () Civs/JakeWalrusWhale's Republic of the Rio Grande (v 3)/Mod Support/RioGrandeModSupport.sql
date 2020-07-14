@@ -53,8 +53,3 @@ VALUES	('LEADER_JWW_ANTONIO_CANALES',	'FLAVOR_JFD_REFORM_GOVERNMENT',		6),
 --==========================================================================================================================
 -- HISTORICAL RELIGIONS
 --==========================================================================================================================
-
-UPDATE Civilization_Religions 
-SET ReligionType = 'RELIGION_CATHOLICISM'
-WHERE CivilizationType = 'CIVILIZATION_JWW_RIO_GRANDE'
-AND EXISTS (SELECT * FROM Religions WHERE Type = 'RELIGION_CATHOLICISM');

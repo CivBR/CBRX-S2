@@ -117,27 +117,10 @@ INSERT INTO Civilization_BuildingClassOverrides
 			(CivilizationType, 			BuildingClassType, 		BuildingType)
 VALUES		('CIVILIZATION_MC_GAUL', 	'BUILDINGCLASS_MINT',	'BUILDING_MC_GAUL_METALSMITH');
 --==========================================================================================================================	
--- Civilization_Religions
---==========================================================================================================================		
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 			ReligionType)
-VALUES		('CIVILIZATION_MC_GAUL', 		'RELIGION_CHRISTIANITY');
+
 --------------------------------	
 -- Historical Religions Support
 --------------------------------	
-UPDATE Civilization_Religions 
-SET ReligionType = ( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type = 'RELIGION_DRUIDISM' )
-		THEN 'RELIGION_DRUIDISM'
-		ELSE 'RELIGION_CHRISTIANITY' END) 
-WHERE CivilizationType = 'CIVILIZATION_MC_GAUL';
-
-CREATE TRIGGER ReligionMCGaul
-AFTER INSERT ON Religions WHEN 'RELIGION_DRUIDISM' = NEW.Type
-BEGIN
-	UPDATE Civilization_Religions 
-	SET ReligionType = 'RELIGION_DRUIDISM'
-	WHERE CivilizationType = 'CIVILIZATION_MC_GAUL';
-END;
 --==========================================================================================================================	
 -- Civilization_Start_Region_Priority
 --==========================================================================================================================		

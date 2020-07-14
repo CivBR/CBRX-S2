@@ -92,11 +92,7 @@ INSERT INTO Civilization_Leaders
 			(CivilizationType, 				LeaderheadType)
 VALUES		('CIVILIZATION_ORG_MALACCA', 	'LEADER_ORG_MANSUR');
 --==========================================================================================================================
--- Civilization_Religions
---==========================================================================================================================	
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 				ReligionType)
-VALUES		('CIVILIZATION_ORG_MALACCA', 	'RELIGION_ISLAM');
+
 --==========================================================================================================================
 -- Civilization_Start_Along_Ocean 
 --==========================================================================================================================

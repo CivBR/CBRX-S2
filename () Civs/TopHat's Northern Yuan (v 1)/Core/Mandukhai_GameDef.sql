@@ -77,11 +77,6 @@ INSERT INTO Civilization_UnitClassOverrides
 VALUES  ('CIVILIZATION_THP_NORTHYUAN', 'UNITCLASS_TREBUCHET', 'UNIT_THP_HUIHUI_PAO'),
         ('CIVILIZATION_THP_NORTHYUAN', 'UNITCLASS_LANCER',    'UNIT_THP_CHONGZU');
 -------------------------
--- Civilization_Religions
--------------------------
-INSERT INTO Civilization_Religions
-       (CivilizationType,              ReligionType)
-VALUES ('CIVILIZATION_THP_NORTHYUAN', 'RELIGION_TENGRIISM');
 ------------------------
 -- Civilization_SpyNames
 ------------------------

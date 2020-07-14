@@ -16,11 +16,6 @@ INSERT INTO Civilization_Start_Region_Priority
 VALUES	('CIVILIZATION_PG_GRANCOLOMBIA',	'REGION_PLAINS');
 
 --------------------------------	
--- Civilization_Religions
---------------------------------			
-INSERT INTO Civilization_Religions
-		(CivilizationType, 			ReligionType)
-VALUES	('CIVILIZATION_PG_GRANCOLOMBIA', 	'RELIGION_CHRISTIANITY');
 
 --------------------------------
 -- Civilization City Names

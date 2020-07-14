@@ -213,10 +213,6 @@ INSERT INTO Civilization_FreeUnits
 		(CivilizationType,				UnitClassType,			UnitAIType,			Count)
 VALUES	('CIVILIZATION_JWW_RIO_GRANDE',	'UNITCLASS_SETTLER',	'UNITAI_SETTLE',	1);
 
-INSERT INTO Civilization_Religions
-		(CivilizationType,				ReligionType)
-VALUES	('CIVILIZATION_JWW_RIO_GRANDE',	'RELIGION_CHRISTIANITY');
-
 INSERT INTO Civilization_Start_Along_River
 		(CivilizationType,				StartAlongRiver)
 VALUES	('CIVILIZATION_JWW_RIO_GRANDE',	1);

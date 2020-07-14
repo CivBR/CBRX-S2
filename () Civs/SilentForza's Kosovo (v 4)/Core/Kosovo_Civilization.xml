@@ -243,12 +243,6 @@
 			<LeaderheadType>LEADER_SF_IBRAHIM_RUGOVA</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_SF_KOSOVO</CivilizationType>
-			<ReligionType>RELIGION_ISLAM</ReligionType>
-		</Row>
-	</Civilization_Religions>
 
 	<Civilization_Start_Region_Priority>
 		<Row>

@@ -231,11 +231,6 @@ INSERT INTO Civilization_Leaders
 		(CivilizationType,			LeaderheadType)
 VALUES	('CIVILIZATION_C15_NVIET',	'LEADER_C15_HO');
 
-INSERT INTO Civilization_Religions
-		(CivilizationType,				ReligionType)
-SELECT	'CIVILIZATION_C15_NVIET',		ReligionType
-FROM Civilization_Religions WHERE CivilizationType = 'CIVILIZATION_SIAM';
-
 INSERT INTO Civilization_SpyNames
 		(CivilizationType,				SpyName)
 VALUES	('CIVILIZATION_C15_NVIET',		'TXT_KEY_SPY_NAME_C15_NVIET_0'),

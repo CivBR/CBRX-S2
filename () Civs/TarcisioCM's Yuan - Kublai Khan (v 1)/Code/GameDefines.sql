@@ -85,9 +85,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 			(CivilizationType, 			BuildingClassType, 			BuildingType)
 VALUES		('CIVILIZATION_TAR_YUAN', 	'BUILDINGCLASS_COURTHOUSE', 'BUILDING_TAR_SECRETARIAT');
 
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 			ReligionType)
-VALUES		('CIVILIZATION_TAR_YUAN', 	'RELIGION_BUDDHISM');
 
 INSERT INTO Civilization_SpyNames 
 			(CivilizationType, 			SpyName)

@@ -54,12 +54,6 @@
 			<LeaderheadType>LEADER_UC_SOLANO</LeaderheadType>
 		</Row>
 	</Civilization_Leaders>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_UC_PARAGUAY</CivilizationType>
-			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_UC_PARAGUAY</CivilizationType>

@@ -462,10 +462,6 @@ VALUES	('AA_JWW_UZBEKISTAN_VICTORY',	'TAB_JWW_CIVS');
 -- HISTORICAL RELIGIONS
 --==========================================================================================================================
 
-UPDATE Civilization_Religions 
-SET ReligionType = 'RELIGION_ISLAM'
-WHERE CivilizationType = 'CIVILIZATION_JWW_UZBEKISTAN'
-AND EXISTS (SELECT * FROM Religions WHERE Type = 'RELIGION_ISLAM');
 --==========================================================================================================================
 -- CULTURAL INFLUENCE
 --==========================================================================================================================

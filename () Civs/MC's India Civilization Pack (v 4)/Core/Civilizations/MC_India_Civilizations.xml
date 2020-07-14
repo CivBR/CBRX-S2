@@ -221,24 +221,6 @@
 			<UnitType>UNIT_MC_CHOLA_THALAI_THIRVAI</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_MC_MUGHAL</CivilizationType>
-			<ReligionType>RELIGION_ISLAM</ReligionType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_MC_MARATHA</CivilizationType>
-			<ReligionType>RELIGION_HINDUISM</ReligionType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_MC_MAURYA</CivilizationType>
-			<ReligionType>RELIGION_BUDDHISM</ReligionType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_MC_CHOLA</CivilizationType>
-			<ReligionType>RELIGION_HINDUISM</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_MC_MUGHAL_ICON</Type>

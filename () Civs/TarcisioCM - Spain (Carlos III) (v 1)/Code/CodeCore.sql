@@ -75,11 +75,7 @@ INSERT INTO Civilization_UnitClassOverrides
 VALUES		('CIVILIZATION_TCM_BOURBON_SPAIN', 	'UNITCLASS_RIFLEMAN', 	'UNIT_TCM_WALLOON_GUARD'),
 			('CIVILIZATION_TCM_BOURBON_SPAIN', 	'UNITCLASS_FRIGATE', 	'UNIT_TCM_SANTISIMA_TRINIDAD');
 --==========================================================================================================================
--- Civilization_Religions
---==========================================================================================================================	
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 					ReligionType)
-VALUES		('CIVILIZATION_TCM_BOURBON_SPAIN', 	'RELIGION_CHRISTIANITY');
+
 --==========================================================================================================================
 -- Civilization_SpyNames
 --==========================================================================================================================	

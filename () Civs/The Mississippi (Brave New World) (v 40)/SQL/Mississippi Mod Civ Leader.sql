@@ -30,9 +30,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 		(CivilizationType,											               BuildingClassType,						                               BuildingType)
 VALUES	('CIVILIZATION_MISSISSIPPI_MOD_TOMATEKH',				                   'BUILDINGCLASS_TEMPLE',							'BUILDING_MISSISSIPPI_MOD_TOMATEKH');
 
-INSERT INTO Civilization_Religions 
-		(CivilizationType,											                       ReligionType)
-VALUES	('CIVILIZATION_MISSISSIPPI_MOD_TOMATEKH',				               'RELIGION_PROTESTANTISM');
 
 INSERT INTO Colors 
 		(Type,														 Red,		  Green,	   Blue,			Alpha)

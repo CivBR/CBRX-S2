@@ -244,12 +244,6 @@
 			<SpyName>TXT_KEY_SPY_NAME_SM_KAKJAPAN_9</SpyName>
 		</Row>
 	</Civilization_SpyNames>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_SM_KAKJAPAN</CivilizationType>
-			<ReligionType>RELIGION_SHINTO</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<PlayerColors>
 		<Row>
 			<Type>PLAYERCOLOUR_SM_KAKJAPAN</Type>

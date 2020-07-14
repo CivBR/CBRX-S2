@@ -225,12 +225,7 @@ VALUES  ('LEADER_MC_RAJA_RAJA_I',   'FLAVOR_JFD_SLAVERY',   4),
 --==========================================================================================================================
 -- TOMATEKH HISTORICAL RELIGIONS
 --==========================================================================================================================
--- Civilization_Religions (Historical Religions support is within HR itself)
-------------------------------
---UPDATE Civilization_Religions
---SET ReligionType = 'RELIGION_SLAVINISM'
---WHERE CivilizationType = 'CIVILIZATION_MC_SERBIA'
---AND EXISTS (SELECT * FROM Religions WHERE Type = 'RELIGION_SLAVINISM');
+
 --==========================================================================================================================
 -- HAZEL MAP LABELS
 --==========================================================================================================================

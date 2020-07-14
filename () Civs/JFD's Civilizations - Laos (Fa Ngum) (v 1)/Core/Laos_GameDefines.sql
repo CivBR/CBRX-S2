@@ -390,11 +390,6 @@ INSERT INTO Civilization_UnitClassOverrides
 		(CivilizationType, 			UnitClassType, 				 UnitType)
 VALUES  ('CIVILIZATION_JFD_LAOS', 	'UNITCLASS_GREAT_GENERAL',	 'UNIT_JFD_UPARAJA');
 --------------------------------------------------------------------------------------------------------------------------	
--- Civilization_Religions
---------------------------------------------------------------------------------------------------------------------------		
-INSERT INTO Civilization_Religions 
-		(CivilizationType, 			ReligionType)
-VALUES	('CIVILIZATION_JFD_LAOS',	'RELIGION_BUDDHISM');	
 --------------------------------------------------------------------------------------------------------------------------	
 -- Civilization_SpyNames
 --------------------------------------------------------------------------------------------------------------------------		

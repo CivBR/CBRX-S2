@@ -258,10 +258,4 @@
 			<Alpha>1.0</Alpha>
 		</Row>
 	</Colors>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_KURD</CivilizationType>
-			<ReligionType>RELIGION_ISLAM</ReligionType>
-		</Row>
-	</Civilization_Religions>
 </GameData>

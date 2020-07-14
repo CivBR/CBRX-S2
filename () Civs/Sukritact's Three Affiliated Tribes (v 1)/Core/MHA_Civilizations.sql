@@ -94,11 +94,7 @@ INSERT INTO Civilization_BuildingClassOverrides
 			(CivilizationType, 			BuildingClassType, 			BuildingType)
 VALUES		('CIVILIZATION_MC_MHA', 	'BUILDINGCLASS_WATERMILL', 	'BUILDING_MC_EARTHLODGE');
 --==========================================================================================================================	
--- Civilization_Religions
---==========================================================================================================================		
-INSERT INTO Civilization_Religions 
-			(CivilizationType, 			ReligionType)
-VALUES		('CIVILIZATION_MC_MHA', 	'RELIGION_PROTESTANTISM');
+
 --==========================================================================================================================	
 -- Civilization_SpyNames
 --==========================================================================================================================	

@@ -327,11 +327,6 @@ VALUES	('LEADER_THP_TJILPI',		'FLAVOR_JFD_REFORM_GOVERNMENT',		2),
 --==========================================================================================================================
 -- TOMATEKH'S HISTORICAL RELIGIONS COMPLETE
 --==========================================================================================================================
-UPDATE Civilization_Religions SET ReligionType =
-( CASE WHEN EXISTS(SELECT Type FROM Religions WHERE Type="RELIGION_TJUKURPA" )
-THEN "RELIGION_TJUKURPA"
-ELSE "RELIGION_PROTESTANTISM" END
-) WHERE CivilizationType = "CIVILIZATION_THP_ANANGU";
 
 --==========================================================================================================================
 -- EVENTS AND DECISIONS

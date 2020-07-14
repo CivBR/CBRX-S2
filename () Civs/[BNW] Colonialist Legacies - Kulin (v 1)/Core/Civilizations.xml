@@ -230,12 +230,6 @@
 			<SpyName>Joy</SpyName>
 		</Row>
 	</Civilization_SpyNames>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_CL_KULIN</CivilizationType>
-			<ReligionType>RELIGION_BUDDHISM</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_CL_KULIN_ICON</Type>

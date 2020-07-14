@@ -77,11 +77,6 @@ INSERT INTO Civilization_UnitClassOverrides
        (CivilizationType,              UnitClassType,       UnitType)
 VALUES ('CIVILIZATION_PB_PALMARES', 'UNITCLASS_WARRIOR', 'UNIT_PB_CAPOEIRISTA');
 -------------------------
--- Civilization_Religions
--------------------------
-INSERT INTO Civilization_Religions
-       (CivilizationType,              ReligionType)
-VALUES ('CIVILIZATION_PB_PALMARES', 'RELIGION_CHRISTIANITY');
 -------------------------
 -- Civilization_Start_Region_Priority
 -------------------------

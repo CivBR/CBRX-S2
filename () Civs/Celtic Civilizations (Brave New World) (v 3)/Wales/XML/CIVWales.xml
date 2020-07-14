@@ -256,12 +256,6 @@
 			<SpyName>Ffion</SpyName>
 		</Row>
 	</Civilization_SpyNames>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_WALES</CivilizationType>
-			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_WALES_ICON</Type>

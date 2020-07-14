@@ -349,11 +349,6 @@ INSERT INTO Civilization_BuildingClassOverrides
 		(CivilizationType, 			BuildingClassType, 		 BuildingType)
 VALUES	('CIVILIZATION_JFD_HAWAII', 'BUILDINGCLASS_MUSEUM',	 'BUILDING_JFD_HOUSE_OF_KINGS');
 --------------------------------------------------------------------------------------------------------------------------	
--- Civilization_Religions
---------------------------------------------------------------------------------------------------------------------------		
-INSERT INTO Civilization_Religions 
-		(CivilizationType, 			ReligionType)
-VALUES	('CIVILIZATION_JFD_HAWAII',	'RELIGION_PROTESTANTISM');	
 --------------------------------------------------------------------------------------------------------------------------	
 -- Civilization_SpyNames
 --------------------------------------------------------------------------------------------------------------------------		

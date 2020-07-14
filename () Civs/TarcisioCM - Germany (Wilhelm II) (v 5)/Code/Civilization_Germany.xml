@@ -24,12 +24,6 @@
 			<SoundtrackTag>Germany</SoundtrackTag>
 		</Row>
 	</Civilizations>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_GREATEREUROPE_GERMANY</CivilizationType>
-			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
-		</Row>
-	</Civilization_Religions>
 	<Civilization_CityNames>
 		<Row>
 			<CivilizationType>CIVILIZATION_GREATEREUROPE_GERMANY</CivilizationType>

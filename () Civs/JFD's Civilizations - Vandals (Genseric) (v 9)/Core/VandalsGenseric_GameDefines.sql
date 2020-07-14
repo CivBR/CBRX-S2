@@ -356,11 +356,6 @@ INSERT INTO Civilization_UnitClassOverrides
 VALUES	('CIVILIZATION_JFD_VANDALS_GENSERIC', 	'UNITCLASS_HORSEMAN', 	'UNIT_JFD_ALANI_HORSEMAN'),
 		('CIVILIZATION_JFD_VANDALS_GENSERIC', 	'UNITCLASS_TRIREME', 	'UNIT_JFD_TRIHEMIOLIA');
 --------------------------------------------------------------------------------------------------------------------------
--- Civilization_Religions
---------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO Civilization_Religions 
-		(CivilizationType, 						ReligionType)
-VALUES	('CIVILIZATION_JFD_VANDALS_GENSERIC', 	'RELIGION_CHRISTIANITY');
 --------------------------------------------------------------------------------------------------------------------------
 -- Civilization_SpyNames
 --------------------------------------------------------------------------------------------------------------------------	

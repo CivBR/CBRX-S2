@@ -277,10 +277,4 @@
 			<Alpha>1.0</Alpha>
 		</Row>
 	</Colors>
-	<Civilization_Religions>
-		<Row>
-			<CivilizationType>CIVILIZATION_SAS_TONGVA</CivilizationType>
-			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
-		</Row>
-	</Civilization_Religions>
 </GameData>

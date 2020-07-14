@@ -235,19 +235,6 @@
 	</Civilization_Start_Place_First_Along_Ocean>
 
 
-	-<Civilization_Religions>
-
-
-		-<Row>
-
-			<CivilizationType>CIVILIZATION_PI_JAMAICA</CivilizationType>
-
-			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
-
-		</Row>
-
-	</Civilization_Religions>
-
 
 	-<Colors>
 

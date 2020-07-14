@@ -77,11 +77,6 @@ INSERT INTO Civilization_UnitClassOverrides
        (CivilizationType,           UnitClassType,       UnitType)
 VALUES ('CIVILIZATION_THP_ANANGU', 'UNITCLASS_SCOUT', 'UNIT_THP_WARMALA');
 -------------------------
--- Civilization_Religions
--------------------------
-INSERT INTO Civilization_Religions
-       (CivilizationType,           ReligionType)
-VALUES ('CIVILIZATION_THP_ANANGU', 'RELIGION_PROTESTANTISM');
 ------------------------
 -- Civilization_SpyNames
 ------------------------

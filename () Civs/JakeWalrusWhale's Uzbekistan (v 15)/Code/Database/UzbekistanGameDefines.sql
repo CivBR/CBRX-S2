@@ -192,10 +192,6 @@ INSERT INTO Civilization_FreeUnits
 		(CivilizationType,				UnitClassType,			UnitAIType,			Count)
 VALUES	('CIVILIZATION_JWW_UZBEKISTAN',	'UNITCLASS_SETTLER',	'UNITAI_SETTLE',	1);
 
-INSERT INTO Civilization_Religions
-		(CivilizationType,				ReligionType)
-VALUES	('CIVILIZATION_JWW_UZBEKISTAN',	'RELIGION_ISLAM');
-
 INSERT INTO Civilization_Start_Region_Avoid
 		(CivilizationType,				RegionType)
 VALUES	('CIVILIZATION_JWW_UZBEKISTAN',	'REGION_TUNDRA'),
