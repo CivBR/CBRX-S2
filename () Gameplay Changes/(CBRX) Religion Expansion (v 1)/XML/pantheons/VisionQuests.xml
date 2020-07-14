@@ -18,11 +18,20 @@
 		</Row>
 	</Belief_BuildingClassHappiness>
 	
+	<Belief_BuildingClassYieldChanges>
+	<Row>
+			<BeliefType>BELIEF_VISION_QUESTS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+	
 	<!-- localization -->
 	<Language_en_US>
 	<Delete Tag="TXT_KEY_BELIEF_VISION_QUESTS" />
 		<Row Tag="TXT_KEY_BELIEF_VISION_QUESTS">
-			<Text>+1 [ICON_HAPPINESS_1] Happiness from Shrines</Text>
+			<Text>+1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_CULTURE] from Shrines</Text>
 		</Row>
 		<Delete Tag="TXT_KEY_BELIEF_VISION_QUESTS_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_VISION_QUESTS_SHORT">
