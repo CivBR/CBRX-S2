@@ -15,19 +15,19 @@
 			<BeliefType>BELIEF_LORDS_RIGHT_HAND</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>6</YieldChange>
+			<YieldChange>8</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_LORDS_RIGHT_HAND</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>6</YieldChange>
+			<YieldChange>8</YieldChange>
 		</Row>
 	</Belief_BuildingClassYieldChanges>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_LORDS_RIGHT_HAND">
-			<Text>National Epic provides +6 [ICON_PRODUCTION] Production and +6 [ICON_PEACE] Faith.</Text>
+			<Text>National Epic provides +8 [ICON_PRODUCTION] Production and +8 [ICON_PEACE] Faith.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LORDS_RIGHT_HAND_SHORT">
 			<Text>Lord's Right Hand</Text>
