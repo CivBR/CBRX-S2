@@ -5,8 +5,8 @@
 ---------
 INSERT INTO Colors
 		  (Type,                                            Red,     Green,    Blue,     Alpha)
-VALUES	  ('COLOR_PLAYER_PB_TAIPING_ICON',			 0,   0.6588235294117647,    0.3843137254901961, 1),
-		  ('COLOR_PLAYER_PB_TAIPING_BACKGROUND',       0.803921568627451,   1,    0.984313725490196,    1);
+VALUES	  ('COLOR_PLAYER_PB_TAIPING_ICON',			 0.803921568627451,   1,    0.984313725490196,    1),
+		  ('COLOR_PLAYER_PB_TAIPING_BACKGROUND',       0,   0.6588235294117647,    0.3843137254901961, 1);
 ---------------
 -- PlayerColors
 ---------------
