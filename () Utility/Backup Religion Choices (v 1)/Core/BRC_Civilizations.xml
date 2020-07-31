@@ -18,6 +18,10 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_WALES</CivilizationType>
+			<ReligionType>RELIGION_DRUIDISM</ReligionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WALES</CivilizationType>
 			<ReligionType>RELIGION_CHRISTIAN_ANGLICANISM</ReligionType>
 		</Row>
 		<Row>
@@ -47,6 +51,10 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_MC_GAUL</CivilizationType>
 			<ReligionType>RELIGION_DRUIDISM</ReligionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MC_GAUL</CivilizationType>
+			<ReligionType>RELIGION_NUMENISM</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_GREATEREUROPE_GERMANY</CivilizationType>
