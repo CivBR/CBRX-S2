@@ -176,9 +176,11 @@ function ManageYarangaXP(playerID)
         if pCity:IsCoastal() then
           for i = 0, pCity:GetNumCityPlots() - 1, 1 do
             local pPlot = pCity:GetCityIndexPlot(i)
-            if pPlot:IsWater() and (pPlot:GetResourceType() > - 1) and pCity:IsWorkingPlot(pPlot) then
-              iNumDummies = iNumDummies + 5
-            end
+			if pPlot then
+				if pPlot:IsWater() and (pPlot:GetResourceType() > - 1) and pCity:IsWorkingPlot(pPlot) then
+				  iNumDummies = iNumDummies + 5
+				end
+			end
           end
           pCity:SetNumRealBuilding(iXPDummy, iNumDummies)
         else

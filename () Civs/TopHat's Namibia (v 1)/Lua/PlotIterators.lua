@@ -149,7 +149,7 @@ end
 
 
 function PlotAreaSweepIterator(pPlot, r, sector, anticlock, inwards, centre)
-  print(string.format("PlotAreaSweepIterator((%i, %i), r=%i, s=%i, d=%s, w=%s, c=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd"), (inwards and "in" or "out"), (centre and "yes" or "no")))
+  --print(string.format("PlotAreaSweepIterator((%i, %i), r=%i, s=%i, d=%s, w=%s, c=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd"), (inwards and "in" or "out"), (centre and "yes" or "no")))
   -- This coroutine walks each radial in sequence
   local next = coroutine.create(function ()
     if (centre and not inwards) then

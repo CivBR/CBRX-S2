@@ -300,7 +300,11 @@ function C15_Jerusalem_TemplarTradeRouteBonuses(playerID)
 		local tToAdd = {}
 		for k, datatable in pairs(pPlayer:GetTradeRoutesToYou()) do
 			if datatable.FromID ~= playerID and datatable.ToCity:IsHasBuilding(iTemplarOrderDummy) then
-				tToAdd[datatable.ToCity] = (tToAdd[datatable.ToCity] + 1)
+				if tToAdd[datatable.ToCity] then
+					tToAdd[datatable.ToCity] = (tToAdd[datatable.ToCity] + 1)
+				else
+					tToAdd[datatable.ToCity] = 1
+				end
 			end
 		end
 		for k, v in pairs(tToAdd) do
