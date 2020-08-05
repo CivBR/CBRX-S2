@@ -189,11 +189,11 @@ function CreateChemamullOnDeath(playerID, unitID, unitType, iX, iY, bDelay, kill
 				if (pPlot:GetImprovementType() == -1) then
 					pPlot:SetImprovementType(iChemamull)
 					local pNearestCity = Neirai_GetNearestCity(pPlayer, pPlot)
-					pPlot:SetOwner(pPlayer, pNearestCity:GetID())
+					pPlot:SetOwner(playerID, pNearestCity:GetID())
 				elseif pPlot:IsImprovementPillaged() then
 					pPlot:SetImprovementType(iChemamull)
 					local pNearestCity = Neirai_GetNearestCity(pPlayer, pPlot)
-					pPlot:SetOwner(pPlayer, pNearestCity:GetID())
+					pPlot:SetOwner(playerID, pNearestCity:GetID())
 				end
 			end
 		end
