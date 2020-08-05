@@ -160,12 +160,6 @@ function GermanyWarDeclared(teamId, otherTeamId)
 	end
 	if Germany then
 		if Germany:GetTeam() == teamId or Germany:GetTeam() == otherTeamId then
-			if Germany:IsHuman() then
-				Controls.MainGrid:SetHide(false)
-				local warEffort = Locale.ConvertTextKey("TXT_KEY_TOTAL_WAR_VALUE", 0)
-				Controls.LabelText:LocalizeAndSetText(warEffort)
-			end
-
 			save(Germany, "GEgermanyTimer", 10)
 			
 			for unit in Germany:Units() do
@@ -175,25 +169,6 @@ function GermanyWarDeclared(teamId, otherTeamId)
 	end
 end
 GameEvents.DeclareWar.Add(GermanyWarDeclared)
-
-function GermanyPeaceDeclared(teamId, otherTeamId)
-	local Germany
-	for iPlayer = 0, GameDefines.MAX_CIV_PLAYERS - 1 do
-		local player = Players[iPlayer];			
-		if player ~= nil and player:GetCivilizationType() == civilizationGermany then
-			Germany = player
-			break
-		end
-	end
-	if Germany and Germany:IsHuman() then
-		if Germany:GetTeam() == teamId or Germany:GetTeam() == otherTeamId then
-			Controls.MainGrid:SetHide(true)
-			local warEffort = Locale.ConvertTextKey("TXT_KEY_TOTAL_WAR_VALUE", 0);
-			Controls.LabelText:LocalizeAndSetText(warEffort)
-		end
-	end
-end
-GameEvents.MakePeace.Add(GermanyPeaceDeclared)
 
 function GermanyTimer(playerID)
 	local player = Players[playerID]
