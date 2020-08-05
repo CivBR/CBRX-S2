@@ -17,9 +17,9 @@ WHEN (NEW.CombatClass = 'UNITCOMBAT_SIEGE')
 BEGIN
 UPDATE Units
 SET Range = 0
-WHERE (NEW.CombatClass = 'UNITCOMBAT_SIEGE');
+WHERE (Type = NEW.Type);
 
 INSERT INTO Unit_FreePromotions
-			(UnitType, PromotionType)
-SELECT		NEW.Type,	'PROMOTION_EW_SEIZERANGE'
+		(UnitType, 	PromotionType)
+VALUES		(NEW.Type,	'PROMOTION_EW_SEIZERANGE');
 END;
