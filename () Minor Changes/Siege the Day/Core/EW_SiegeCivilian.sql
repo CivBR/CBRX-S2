@@ -1,6 +1,6 @@
 INSERT INTO Unit_FreePromotions
-		(UnitType, PromotionType)
-SELECT	Type,	'PROMOTION_EW_SEIZERANGE'
+			(UnitType, PromotionType)
+SELECT		Type,	'PROMOTION_EW_SEIZERANGE'
 FROM Units WHERE (CombatClass = 'UNITCOMBAT_SIEGE');
 
 UPDATE Units
@@ -10,3 +10,16 @@ WHERE (CombatClass = 'UNITCOMBAT_SIEGE');
 INSERT INTO UnitPromotions
 		(Type,	Description,	Help,	PortraitIndex,	IconAtlas,	Sound,	RangeChange,	PediaType,	PediaEntry)
 VALUES	('PROMOTION_EW_SEIZERANGE',	'TXT_KEY_PROMOTION_EW_SEIZERANGE',	'TXT_KEY_PROMOTION_EW_SEIZERANGE_HELP',	34,	'PROMOTION_ATLAS',	'AS2D_IF_LEVELUP',	2,	'PEDIA_RANGED',	'TXT_KEY_PROMOTION_EW_SEIZERANGE');
+
+CREATE TRIGGER IF NOT EXISTS CBR_SiegeTheDay_Range
+AFTER INSERT ON Units
+WHEN (NEW.CombatClass = 'UNITCOMBAT_SIEGE')
+BEGIN
+UPDATE Units
+SET Range = 0
+WHERE (NEW.CombatClass = 'UNITCOMBAT_SIEGE');
+
+INSERT INTO Unit_FreePromotions
+			(UnitType, PromotionType)
+SELECT		NEW.Type,	'PROMOTION_EW_SEIZERANGE'
+END;

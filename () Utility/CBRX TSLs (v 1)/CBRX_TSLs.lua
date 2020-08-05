@@ -38,7 +38,7 @@ cbrxTSLs["CIVILIZATION_SENSHI_MANCHU"] = {X = 90, Y = 73, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_SM_KAKJAPAN"] = {X = 103, Y = 68, S = "T", O = "F"}
 cbrxTSLs["CIVILIZATION_TAR_YUAN"] = {X = 86, Y = 70, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_PB_TAIPING"] = {X = 88, Y = 59, S = "F", O = "F"}
-cbrxTSLs["CIVILIZATION_C15_NVIET"] = {X = 83, Y = 48, S = "F", O = "F"}
+cbrxTSLs["CIVILIZATION_C15_NVIET"] = {X = 84, Y = 49, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_JFD_LAOS"] = {X = 80, Y = 47, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_ORG_MALACCA"] = {X = 82, Y = 33, S = "T", O = "T"}
 cbrxTSLs["CIVILIZATION_VANA_VOC"] = {X = 84, Y = 25, S = "T", O = "T"}

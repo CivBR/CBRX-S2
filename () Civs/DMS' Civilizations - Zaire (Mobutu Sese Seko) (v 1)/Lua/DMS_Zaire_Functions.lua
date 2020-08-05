@@ -155,7 +155,7 @@ local function DMS_Zaire_UA_CountDenounciations(playerID, player, otherPlayerID)
 	if not otherPlayer:IsAlive() then return 0 end
 	if not otherPlayer:IsDenouncingPlayer(playerID) then return 0 end
 	local count = 1
-	DMS_Print("DMS_Zaire_UA_CountDenounciations: count = " .. count .. "..")
+	--DMS_Print("DMS_Zaire_UA_CountDenounciations: count = " .. count .. "..")
 	return count
 end
 ----------------------------------------------------------------------------------------------------------------------------
@@ -171,14 +171,14 @@ local function DMS_Zaire_UA_DamagedDenouncingUnits(playerID, player, teamID, oth
 	local otherTeam = Teams[otherTeamID]
 	if otherTeam == nil or otherTeam == -1 then return end
 	if not otherTeam:IsAtWar(teamID) then return end
-	DMS_Print("DMS_Zaire_UA_DamagedDenouncingUnits: " .. otherPlayer:GetCivilizationShortDescription() .. " is at war with zaire..")
+	--DMS_Print("DMS_Zaire_UA_DamagedDenouncingUnits: " .. otherPlayer:GetCivilizationShortDescription() .. " is at war with zaire..")
 	for unit in otherPlayer:Units() do 
 		local plot = unit:GetPlot()
 		if plot ~= nil and plot ~= -1 then 
 			if plot:GetOwner() == playerID then
-				DMS_Print("DMS_Zaire_UA_DamagedDenouncingUnits: " .. otherPlayer:GetCivilizationShortDescription() .. " has a unit within zaire territory..")
+				--DMS_Print("DMS_Zaire_UA_DamagedDenouncingUnits: " .. otherPlayer:GetCivilizationShortDescription() .. " has a unit within zaire territory..")
 				unit:ChangeDamage(mathMin(unit:GetMaxHitPoints() - unit:GetDamage(), mathFloor(numDenounciations * 1.5)))
-				DMS_Print("DMS_Zaire_UA_DamagedDenouncingUnits: unit damage = " .. mathMin(unit:GetMaxHitPoints() - unit:GetDamage(), mathFloor(numDenounciations * 1.5)) .. "..")
+				--DMS_Print("DMS_Zaire_UA_DamagedDenouncingUnits: unit damage = " .. mathMin(unit:GetMaxHitPoints() - unit:GetDamage(), mathFloor(numDenounciations * 1.5)) .. "..")
 			end
 		end
 	end
@@ -242,6 +242,7 @@ local function DMS_Zaire_PlayerDoTurn(playerID)
 	end
 	DMS_Print("DMS_Zaire_PlayerDoTurn: numDenounciations = " .. numDenounciations .. "..")
 	if numDenounciations > 0 then
+		if numDenounciations > 20 then numDenounciations = 20 end
 		local teamID = player:GetTeam()
 		for otherPlayerID = 0, maxMajorCivs - 1, 1 do
 			DMS_Zaire_UA_DamagedDenouncingUnits(playerID, player, teamID, otherPlayerID, numDenounciations)

@@ -18,7 +18,7 @@ FROM Buildings WHERE (Type = 'BUILDING_RECYCLING_CENTER');
 
 INSERT INTO Buildings 
 		(Type, 										BuildingClass,									Defense,	Cost, 	FaithCost,	GreatWorkSlotType,	GreatWorkCount,	GoldMaintenance,	PrereqTech, NeverCapture,	PortraitIndex, 	IconAtlas,	Description, 										Help)
-VALUES	('BUILDING_DMS_GECAMINES_FACILITY_DEFENSE', 'BUILDINGCLASS_DMS_GECAMINES_FACILITY_DEFENSE',	1,			-1, 	-1,			NULL,				0,				0,					NULL,		1,				-1,				NULL,		'TXT_KEY_BUILDING_DMS_GECAMINES_FACILITY_DEFENSE',	'TXT_KEY_BUILDING_DMS_GECAMINES_FACILITY_DEFENSE_HELP');
+VALUES	('BUILDING_DMS_GECAMINES_FACILITY_DEFENSE', 'BUILDINGCLASS_DMS_GECAMINES_FACILITY_DEFENSE',	25,			-1, 	-1,			NULL,				0,				0,					NULL,		1,				-1,				NULL,		'TXT_KEY_BUILDING_DMS_GECAMINES_FACILITY_DEFENSE',	'TXT_KEY_BUILDING_DMS_GECAMINES_FACILITY_DEFENSE_HELP');
 ------------------------------	
 -- Building_Flavors
 ------------------------------		
