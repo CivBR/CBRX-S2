@@ -3,27 +3,9 @@ INSERT INTO Unit_FreePromotions
 SELECT	Type,	'PROMOTION_EW_SEIZERANGE'
 FROM Units WHERE (CombatClass = 'UNITCOMBAT_SIEGE');
 
-INSERT INTO Unit_FreePromotions
-		(UnitType, PromotionType)
-SELECT	Type,	'PROMOTION_EW_SEIZERANGE'
-FROM Units WHERE (CombatClass = 'UNITCOMBAT_ARCHER');
-
-INSERT INTO Unit_FreePromotions
-		(UnitType, PromotionType)
-SELECT	Type,	'PROMOTION_EW_SEIZERANGE'
-FROM Units WHERE (CombatClass = 'UNITCOMBAT_NAVALRANGED');
-
 UPDATE Units
 SET Range = 0
 WHERE (CombatClass = 'UNITCOMBAT_SIEGE');
-
-UPDATE Units
-SET Range = 0
-WHERE (CombatClass = 'UNITCOMBAT_ARCHER');
-
-UPDATE Units
-SET Range = 0
-WHERE (CombatClass = 'UNITCOMBAT_NAVALRANGED');
 
 INSERT INTO UnitPromotions
 		(Type,	Description,	Help,	PortraitIndex,	IconAtlas,	Sound,	RangeChange,	PediaType,	PediaEntry)
