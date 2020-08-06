@@ -12,15 +12,15 @@ SET WonderCompetitiveness = (WonderCompetitiveness + 2), MinorCivCompetitiveness
 WHERE Type = NEW.Type;
 END;
 
-UPDATE [Leader_MajorCivApproachBiases] SET [Bias] = [Bias] + 2 WHERE MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
-UPDATE [Leader_MajorCivApproachBiases] SET [Bias] = [Bias] + 2 WHERE MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
+UPDATE [Leader_MajorCivApproachBiases] SET [Bias] = [Bias] + 3 WHERE MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR';
+UPDATE [Leader_MajorCivApproachBiases] SET [Bias] = [Bias] + 3 WHERE MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE';
 
 CREATE TRIGGER IF NOT EXISTS CBR_AggressiveAI_InsertBiases
 AFTER INSERT ON Leader_MajorCivApproachBiases
 WHEN (NEW.MajorCivApproachType = 'MAJOR_CIV_APPROACH_WAR' OR NEW.MajorCivApproachType = 'MAJOR_CIV_APPROACH_HOSTILE')
 BEGIN
 UPDATE Leader_MajorCivApproachBiases
-SET Bias = (Bias + 2)
+SET Bias = (Bias + 3)
 WHERE LeaderType = NEW.LeaderType;
 END;
 
