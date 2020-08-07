@@ -91,7 +91,9 @@ function DoLogAI(type, val1, val2, val3, val4, val5, val6, val7, val8)
 		end
 		print(text)
 	elseif type == 13 then
-			print(Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " Enhanced " .. Locale.Lookup(GameInfo.Religions[val2].Description) .. " with " .. Locale.Lookup(GameInfo.Beliefs[val3].Description) .. " and " ..  Locale.Lookup(GameInfo.Beliefs[val4].Description) )
+		print(Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " Enhanced " .. Locale.Lookup(GameInfo.Religions[val2].Description) .. " with " .. Locale.Lookup(GameInfo.Beliefs[val3].Description) .. " and " ..  Locale.Lookup(GameInfo.Beliefs[val4].Description) .. ".")
+	elseif type == 14 then
+		print(Game.GetGameTurn() .. "T: " .. Players[val1]:GetName() .. " adopted the " .. Locale.Lookup(GameInfo.Policies[val2].Description) .. " policy.")
 	end
 end
 
@@ -184,4 +186,8 @@ end)
 
 GameEvents.NuclearDetonation.Add(function(AttackerPlayerId, PlotX, PlotY, bDeclareWar, bBystander)
 	DoLogAI(12, AttackerPlayerId, PlotX, PlotY, bDeclareWar, bBystander)
+end)
+
+GameEvents.PlayerAdoptPolicy.Add(function(playerID, policyID)
+	DoLogAI(14, playerID, policyID)
 end)
