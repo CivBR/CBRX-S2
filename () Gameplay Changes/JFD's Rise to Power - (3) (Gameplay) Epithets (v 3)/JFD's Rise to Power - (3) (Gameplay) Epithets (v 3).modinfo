@@ -19,6 +19,7 @@
   </Properties>
   <Dependencies>
     <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
+	<Mod id="ade23c8a-f4c5-4eea-9cd7-4b7dd87e5d7a" minversion="0" maxversion="999" title="TableSaverLoader Helper" />
   </Dependencies>
   <References>
     <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="(1) Community Patch" />

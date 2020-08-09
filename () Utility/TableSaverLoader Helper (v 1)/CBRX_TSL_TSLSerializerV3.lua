@@ -156,10 +156,10 @@ include("TSLSerializerCoreV3.lua")
 
 -- Initiating client code
 if TSLMaster.isActive then
-	print("TSL Master is active, retrieving ID...")
+	--print("TSL Master is active, retrieving ID...")
 	LuaEvents.GetTSLIndex()
 	iTSLIndex = TSLMaster.tableIndex
-	print("Received ID of " .. tostring(iTSLIndex) .. " from TSL Master.")
+	--print("Received ID of " .. tostring(iTSLIndex) .. " from TSL Master.")
 end
 
 local function TSLSaveTable()
@@ -168,7 +168,7 @@ local function TSLSaveTable()
 	if iCurrentMasterVersion >= iClientVersion then
 		if bDebug == true and TSLMaster.processTableID == iTSLIndex or bDebug == false then
 			if iCurrentMasterVersion > iClientVersion then
-				--print("WARNING: TSL Serializer component for '" .. tostring(tableName) .. "' is out of date! Updating is recommended!")
+				print("WARNING: TSL Serializer component for '" .. tostring(tableName) .. "' is out of date! Updating is recommended!")
 			end
 			--print("Table save #" .. tostring(iTSLIndex) .. " for '" .. tostring(tableName) .. "' initiated from TSL Master.")
 			TableSave(tableRoot, tableName)

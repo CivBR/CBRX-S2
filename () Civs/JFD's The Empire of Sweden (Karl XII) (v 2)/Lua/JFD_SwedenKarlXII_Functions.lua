@@ -6,16 +6,17 @@
 --==========================================================================================================================
 include("IconSupport")
 include("UniqueDiplomacyUtils.lua")
+include("CBRX_TSL_GlobalDefines.lua")
 
-include("JFD_SwedenKarlXII_GlobalDefines.lua");
-include("TableSaverLoader016.lua");
+-- include("JFD_SwedenKarlXII_GlobalDefines.lua");
+-- include("TableSaverLoader016.lua");
 
-tableRoot = JFD_SwedenKarlXII
-tableName = "JFD_SwedenKarlXII"
+-- tableRoot = JFD_SwedenKarlXII
+-- tableName = "JFD_SwedenKarlXII"
 
-include("JFD_SwedenKarlXII_TSLSerializerV3.lua");
+-- include("JFD_SwedenKarlXII_TSLSerializerV3.lua");
 
-TableLoad(tableRoot, tableName)
+-- TableLoad(tableRoot, tableName)
 --==========================================================================================================================
 -- UTILITY FUNCTIONS
 --==========================================================================================================================
@@ -272,10 +273,10 @@ end
 -- TSL UTILITIES	
 --=======================================================================================================================
 -- OnModLoaded
-function OnModLoaded() 
-	local bNewGame = not TableLoad(tableRoot, tableName)
-	TableSave(tableRoot, tableName)
-end
-OnModLoaded()
+-- function OnModLoaded() 
+	-- local bNewGame = not TableLoad(tableRoot, tableName)
+	-- TableSave(tableRoot, tableName)
+-- end
+-- OnModLoaded()
 --==========================================================================================================================
 --==========================================================================================================================
