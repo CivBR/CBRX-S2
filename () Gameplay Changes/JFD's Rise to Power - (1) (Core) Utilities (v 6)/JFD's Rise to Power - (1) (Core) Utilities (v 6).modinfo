@@ -17,7 +17,9 @@
     <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+	<Mod id="ade23c8a-f4c5-4eea-9cd7-4b7dd87e5d7a" minversion="0" maxversion="999" title="TableSaverLoader Helper" />
+  </Dependencies>
   <References>
     <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="(2) Community Balance Overhaul" />
     <Mod id="c7bf7064-d1b1-4708-9e93-7a1560868582" minversion="0" maxversion="999" title="(4) C4DF - CBP" />

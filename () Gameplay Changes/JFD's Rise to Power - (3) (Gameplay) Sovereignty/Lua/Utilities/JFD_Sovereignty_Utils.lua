@@ -5,21 +5,22 @@
 -- CACHING
 --==========================================================================================================================
 ------------------------------------------------------------------------------------------------------------------------
-MapModData.JFD_RTP_Sovereignty = MapModData.JFD_RTP_Sovereignty or {}
-JFD_RTP_Sovereignty = MapModData.JFD_RTP_Sovereignty
+-- MapModData.JFD_RTP_Sovereignty = MapModData.JFD_RTP_Sovereignty or {}
+-- JFD_RTP_Sovereignty = MapModData.JFD_RTP_Sovereignty
 
-include("TableSaverLoader016.lua");
+-- include("TableSaverLoader016.lua");
 
-tableRoot = JFD_RTP_Sovereignty
-tableName = "JFD_RTP_Sovereignty_SaveData"
+-- tableRoot = JFD_RTP_Sovereignty
+-- tableName = "JFD_RTP_Sovereignty_SaveData"
 
-include("JFD_RTP_Sovereignty_TSLSerializerV3.lua");
+-- include("JFD_RTP_Sovereignty_TSLSerializerV3.lua");
 --==========================================================================================================================
 -- INCLUDES
 --==========================================================================================================================
 ----------------------------------------------------------------------------------------------------------------------------
 include("FLuaVector.lua")
 include("JFD_RTP_Utils.lua")
+include("CBRX_TSL_GlobalDefines.lua")
 --==========================================================================================================================
 -- GLOBALS
 --==========================================================================================================================
@@ -5704,17 +5705,17 @@ end
 --=======================================================================================================================
 -------------------------------------------------------------------------------------------------------------------------
 --OnModLoaded
-function OnModLoaded() 
-	local bNewGame = not TableLoad(tableRoot, tableName)
+-- function OnModLoaded() 
+	-- local bNewGame = not TableLoad(tableRoot, tableName)
 
-	if bNewGame then
-		print("New Game")
-	else 
-		print("Sovereignty Loaded from Saved Game")
-	end
+	-- if bNewGame then
+		-- print("New Game")
+	-- else 
+		-- print("Sovereignty Loaded from Saved Game")
+	-- end
 
-	TableSave(tableRoot, tableName)
-end
-OnModLoaded()
+	-- TableSave(tableRoot, tableName)
+-- end
+-- OnModLoaded()
 --==========================================================================================================================
 --==========================================================================================================================

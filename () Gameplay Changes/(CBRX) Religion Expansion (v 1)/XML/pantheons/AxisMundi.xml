@@ -19,6 +19,8 @@
 			<ReligiousPressureModifier>50</ReligiousPressureModifier>
 			<Description>TXT_KEY_BUILDING_CBRX_PANTHEON_AXIS_MUNDI</Description>
 			<Help>TXT_KEY_BUILDING_CBRX_PANTHEON_AXIS_MUNDI_HELP</Help>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
 		</Row>
 	</Buildings>
 

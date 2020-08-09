@@ -7,7 +7,7 @@
 -- mod. Data collection and management (the magic!) happen here.
 
 include("InfoAddictLib")
-logger:setLevel(INFO);
+logger:setLevel(TRACE);
 logger:trace("Loading InfoAddictDataManager");
 
 
@@ -210,7 +210,7 @@ function updateHistoricalDataTable(turn)
     -- all this into memory for fast access. I do it every 10 turns processed
     -- to help mitigate the slow down from having to call this.
 
-    if (turncount > 0 and turncount % 10 == 0) then
+    if (turncount > 0 and turncount % 5 == 0) then
       local gtimer = os.clock();
       collectgarbage();
       logger:debug("Garbage Time: " .. elapsedTime(gtimer));
@@ -339,7 +339,6 @@ function Lime_GetInfluentialLevel(player, level)
 	
 	for iPlayer = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
 		influentialLevel = player:GetInfluenceLevel(iPlayer)	
-		--print(influentialLevel)
 		if influentialLevel == level then count = count + 1 end
 	end
 	
@@ -347,9 +346,6 @@ function Lime_GetInfluentialLevel(player, level)
 end;
 
 function Lime_GetCurrentTech(pPlayer)
-	
-	--print(GameInfo.Technologies[pPlayer:GetCurrentResearch()].Type)
-	--print(pPlayer:GetCurrentResearch())
 	if pPlayer:GetCurrentResearch() > 0 then
 		return tostring(GameInfo.Technologies[pPlayer:GetCurrentResearch()].Type)
 	else

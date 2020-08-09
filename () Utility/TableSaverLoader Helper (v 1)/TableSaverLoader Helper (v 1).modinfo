@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ade23c8a-f4c5-4eea-9cd7-4b7dd87e5d7a" version="1">
+  <Properties>
+    <Name>TableSaverLoader Helper</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>TableSaverLoader Helper</Teaser>
+    <Description>TableSaverLoader Helper</Description>
+    <Authors>Limaeus</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="9E282E4928C25306A4B6020C7F52FC37" import="1">CBRX_TSL_GlobalDefines.lua</File>
+    <File md5="B4E2FB1069FA156C0BA582205B9DABAA" import="1">CBRX_TSL_TSLSerializerV3.lua</File>
+    <File md5="CD3E8C278CE1FD36806AA4CF6BE3BF88" import="1">TableSaverLoader016.lua</File>
+    <File md5="48564059451C920C9228F50640B3CBDB" import="1">TSLSerializerCoreV3.lua</File>
+  </Files>
+</Mod>

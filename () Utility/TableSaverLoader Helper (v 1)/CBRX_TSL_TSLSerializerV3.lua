@@ -137,8 +137,8 @@ For more examples, please see the previous sections.
 -- LEAVE ALONE IF THESE TWO VARIABLES ARE ALREADY DEFINED
 --------------------------------------------------------------
 
-tableRoot = MapModData.EW_Parg
-tableName = "EW_Parg"
+tableRoot = tableRoot
+tableName = tableName
 
 --------------------------------------------------------------
 -- NO FURTHER CHANGES ARE NECESSARY
@@ -168,7 +168,7 @@ local function TSLSaveTable()
 	if iCurrentMasterVersion >= iClientVersion then
 		if bDebug == true and TSLMaster.processTableID == iTSLIndex or bDebug == false then
 			if iCurrentMasterVersion > iClientVersion then
-				--print("WARNING: TSL Serializer component for '" .. tostring(tableName) .. "' is out of date! Updating is recommended!")
+				print("WARNING: TSL Serializer component for '" .. tostring(tableName) .. "' is out of date! Updating is recommended!")
 			end
 			--print("Table save #" .. tostring(iTSLIndex) .. " for '" .. tostring(tableName) .. "' initiated from TSL Master.")
 			TableSave(tableRoot, tableName)
@@ -213,4 +213,4 @@ Events.AIProcessingEndedForPlayer.Add(OnAIProcessingEndedForPlayer)
 --------------------------------------------------------------
 -- All functions loaded.
 --------------------------------------------------------------
---print("TSL Serializer version " .. tostring(iClientVersion) .. " loaded successfully.")
+print("TSL Serializer version " .. tostring(iClientVersion) .. " loaded successfully.")

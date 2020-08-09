@@ -20,6 +20,7 @@
   <Dependencies>
     <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
     <Mod id="aeea1d87-bb9b-4542-af59-5e3541fc1b06" minversion="0" maxversion="999" title="JFD's Rise to Power - (UI) Info Panel" />
+	<Mod id="ade23c8a-f4c5-4eea-9cd7-4b7dd87e5d7a" minversion="0" maxversion="999" title="TableSaverLoader Helper" />
   </Dependencies>
   <References />
   <Blocks />
@@ -57,9 +58,6 @@
     <File md5="4CF66D9C0923415E02615690EAB17318" import="1">Lua/Utilities/JFD_CyclesOfPower_Utils.lua</File>
     <File md5="490C046F11A5182F880AD62B54D8D211" import="0">Lua/JFD_CyclesOfPower_CyclePowerPopup.lua</File>
     <File md5="6BB521E3388C2EDDD8A5524010241F9A" import="0">Lua/JFD_CyclesOfPower_CyclePowerPopup.xml</File>
-	<File md5="31C3237F2A5C331D3326DD240A17C92D" import="1">Lua/Utilities/Save Utils/JFD_RTP_CyclesOfPower_TSLSerializerV3.lua</File>
-    <File md5="7C83BC818781F9DFFDA2B2A06BC8978F" import="1">Lua/Utilities/Save Utils/TableSaverLoader016.lua</File>
-    <File md5="FC62CA3A1C67B71BA4D3CCAD467DF9D0" import="1">Lua/Utilities/Save Utils/TSLSerializerCoreV3.lua</File>
   </Files>
   <Actions>
     <OnModActivated>

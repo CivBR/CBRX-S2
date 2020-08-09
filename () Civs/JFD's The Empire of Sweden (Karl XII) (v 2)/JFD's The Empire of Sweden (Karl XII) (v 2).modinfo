@@ -20,6 +20,7 @@
   </Properties>
   <Dependencies>
     <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+	<Mod id="ade23c8a-f4c5-4eea-9cd7-4b7dd87e5d7a" minversion="0" maxversion="999" title="TableSaverLoader Helper" />
   </Dependencies>
   <References>
     <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
@@ -91,10 +92,6 @@
     <File md5="4DD1753B6F1C862BC2B9F1B2ABD93649" import="0">Lua/JFD_SwedenKarlXII_Functions.lua</File>
     <File md5="5DF2AB7D04419EB423A249916DF400E6" import="0">Lua/JFD_SwedenKarlXII_Functions.xml</File>
     <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/Utilities/PlotIterators.lua</File>
-    <File md5="B35683E0FF32324353B65BBB9C49B13F" import="1">Lua/Utilities/Save Utilities/JFD_SwedenKarlXII_GlobalDefines.lua</File>
-    <File md5="1020CB7B34F9BBE799B6A8E5F105B16D" import="1">Lua/Utilities/Save Utilities/JFD_SwedenKarlXII_TSLSerializerV3.lua</File>
-    <File md5="CD3E8C278CE1FD36806AA4CF6BE3BF88" import="1">Lua/Utilities/Save Utilities/TableSaverLoader016.lua</File>
-    <File md5="69FCADF0D2AE7C0C2CEC9D821AD41883" import="1">Lua/Utilities/Save Utilities/TSLSerializerCoreV3.lua</File>
     <File md5="D26B68238289375A10E49818FD2CD0C8" import="1">Lua/Utilities/UniqueDiplomacyUtils.lua</File>
   </Files>
   <Actions>

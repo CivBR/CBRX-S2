@@ -2,21 +2,15 @@
 -- TABLESAVERLOADER SUPPORT --
 -- ======================== --
 
-include("THP_Mandukhai_GlobalDefines.lua");
-include("TableSaverLoader016.lua");
+-- include("THP_Mandukhai_GlobalDefines.lua");
+-- include("TableSaverLoader016.lua");
 
-tableRoot = THP_Mandukhai
-tableName = "THP_Mandukhai"
+-- tableRoot = THP_Mandukhai
+-- tableName = "THP_Mandukhai"
 
-include("THP_Mandukhai_TSLSerializerV3.lua");
+-- include("THP_Mandukhai_TSLSerializerV3.lua");
 
-TableLoad(tableRoot, tableName)
-
-function OnModLoaded() 
-	local bNewGame = not TableLoad(tableRoot, tableName)
-	TableSave(tableRoot, tableName)
-end
-OnModLoaded()
+-- TableLoad(tableRoot, tableName)
 
 -- ========= --
 -- UTILITIES --
@@ -460,3 +454,9 @@ end
 if bIsActive then
 	Events.SequenceGameInitComplete.Add(Mandukhai_UniqueResponses)
 end
+
+-- function OnModLoaded() 
+	-- local bNewGame = not TableLoad(tableRoot, tableName)
+	-- TableSave(tableRoot, tableName)
+-- end
+-- OnModLoaded()

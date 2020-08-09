@@ -19,7 +19,9 @@
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+	<Mod id="ade23c8a-f4c5-4eea-9cd7-4b7dd87e5d7a" minversion="0" maxversion="999" title="TableSaverLoader Helper" />
+  </Dependencies>
   <References>
     <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits in Civ V" />
     <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
@@ -73,10 +75,6 @@
     <File md5="B28A795DDEC66854B6F855238E8F419C" import="1">Lua/Mandukhai_Decisions.lua</File>
     <File md5="1EB66FF6AE0595C4B284D7629059FEA0" import="0">Lua/Mandukhai_Functions.lua</File>
     <File md5="C42DD751E376E921E3D1CE6185558BC4" import="0">Lua/Mandukhai_Functions.xml</File>
-    <File md5="CD3E8C278CE1FD36806AA4CF6BE3BF88" import="1">Lua/TSL/TableSaverLoader016.lua</File>
-    <File md5="91C7CF05EAFDADF2EC45E27E7C91BE55" import="1">Lua/TSL/THP_Mandukhai_GlobalDefines.lua</File>
-    <File md5="3511AF92D19768CE816957995E59D20C" import="1">Lua/TSL/THP_Mandukhai_TSLSerializerV3.lua</File>
-    <File md5="69FCADF0D2AE7C0C2CEC9D821AD41883" import="1">Lua/TSL/TSLSerializerCoreV3.lua</File>
     <File md5="A4759D7B62448C31C908D01635EC0FB7" import="1">Lua/UniqueDiplomacyUtilsV2.lua</File>
   </Files>
   <Actions>
