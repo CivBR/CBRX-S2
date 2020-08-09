@@ -137,8 +137,8 @@ For more examples, please see the previous sections.
 -- LEAVE ALONE IF THESE TWO VARIABLES ARE ALREADY DEFINED
 --------------------------------------------------------------
 
-tableRoot = MapModData.EW_Parg
-tableName = "EW_Parg"
+tableRoot = tableRoot
+tableName = tableName
 
 --------------------------------------------------------------
 -- NO FURTHER CHANGES ARE NECESSARY
@@ -156,10 +156,10 @@ include("TSLSerializerCoreV3.lua")
 
 -- Initiating client code
 if TSLMaster.isActive then
-	--print("TSL Master is active, retrieving ID...")
+	print("TSL Master is active, retrieving ID...")
 	LuaEvents.GetTSLIndex()
 	iTSLIndex = TSLMaster.tableIndex
-	--print("Received ID of " .. tostring(iTSLIndex) .. " from TSL Master.")
+	print("Received ID of " .. tostring(iTSLIndex) .. " from TSL Master.")
 end
 
 local function TSLSaveTable()
@@ -213,4 +213,4 @@ Events.AIProcessingEndedForPlayer.Add(OnAIProcessingEndedForPlayer)
 --------------------------------------------------------------
 -- All functions loaded.
 --------------------------------------------------------------
---print("TSL Serializer version " .. tostring(iClientVersion) .. " loaded successfully.")
+print("TSL Serializer version " .. tostring(iClientVersion) .. " loaded successfully.")

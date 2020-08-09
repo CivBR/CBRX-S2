@@ -139,8 +139,8 @@ For more examples, please see the previous sections.
 
 print("tableRoot", tableRoot, tableName)
 
-tableRoot = tableRoot
-tableName = tableName
+tableRoot = MapModData.JFD_RTP_Sovereignty
+tableName = "JFD_RTP_Sovereignty_SaveData"
 
 --------------------------------------------------------------
 -- NO FURTHER CHANGES ARE NECESSARY

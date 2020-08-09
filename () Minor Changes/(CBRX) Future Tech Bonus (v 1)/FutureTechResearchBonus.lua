@@ -9,9 +9,10 @@ local unitsIDTable =
 {sUnitType="UNIT_XCOM_SQUAD", Promotions={"PROMOTION_EXTENDED_PARADROP"}}
 };
 
+local techFutureID = GameInfo.Technologies["TECH_FUTURE_TECH"].ID
 
 function unitSpawner(iTeam, iTech, iChange)
-	if iTech ~= GameInfo.Technologies["TECH_FUTURE_TECH"].ID then return end
+	if iTech ~= techFutureID then return end
 	
 	for iPlayer = 0, GameDefines.MAX_MAJOR_CIVS - 1, 1 do
 		if (Players[iPlayer] ~= nil) then

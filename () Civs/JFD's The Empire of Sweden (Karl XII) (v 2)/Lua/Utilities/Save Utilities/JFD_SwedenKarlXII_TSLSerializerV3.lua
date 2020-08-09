@@ -137,8 +137,8 @@ For more examples, please see the previous sections.
 -- LEAVE ALONE IF THESE TWO VARIABLES ARE ALREADY DEFINED
 --------------------------------------------------------------
 
-tableRoot = MapModData.JFD_SwedenKarlXII
-tableName = "JFD_SwedenKarlXII"
+tableRoot = tableRoot
+tableName = tableName
 
 --------------------------------------------------------------
 -- NO FURTHER CHANGES ARE NECESSARY

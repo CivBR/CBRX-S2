@@ -7,7 +7,7 @@
 -- mod. Data collection and management (the magic!) happen here.
 
 include("InfoAddictLib")
-logger:setLevel(INFO);
+logger:setLevel(TRACE);
 logger:trace("Loading InfoAddictDataManager");
 
 

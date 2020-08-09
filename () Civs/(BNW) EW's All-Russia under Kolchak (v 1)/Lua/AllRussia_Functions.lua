@@ -1,6 +1,8 @@
-include("EW_PARG_TSLDefines.lua");
+EW_Parg	= {}
+EW_Parg.War = {}
+EW_Parg.Recent = {}
+
 include("TableSaverLoader016.lua");
-include("UnitSpawnHandler")
 
 tableRoot = EW_Parg
 tableName = "EW_Parg"
@@ -12,6 +14,7 @@ TableLoad(tableRoot, tableName)
 -----
 --UA
 -----
+include("UnitSpawnHandler")
 local parg = GameInfoTypes["CIVILIZATION_EW_PARG"]
 local legione = GameInfoTypes["UNIT_EW_LEGIONE"]
 local foreign = GameInfoTypes["PROMOTION_EW_PARGFOREIGN"]
@@ -29,13 +32,6 @@ function GetModPlayerFromTeam(teamID)
 		end
 	end
 	return nil
-end
-
-function GetProperTeamName(teamId)
-	if (Teams[teamId]:GetName() or "") == "" then
-		return Players[teamId]:GetName()
-	end
-	return Teams[teamId]:GetName();
 end
 
 function EW_PARG_DoTurn(playerID)
@@ -79,8 +75,8 @@ function Lime_PARG_DeclareWar(fromTeamID, toTeamID)
 	
 	local friends = PARG_GetFriends(player:GetID())
 	
-	Parg_War[enemyTeam] = 1
-	Parg_Recent[player:GetID()] = enemyTeam
+	EW_Parg.War[enemyTeam] = 1
+	EW_Parg.Recent[player:GetID()] = enemyTeam
 	EW_PARG_SpawnUnits(player, friends,	enemyTeam)
 end
 GameEvents.DeclareWar.Add(Lime_PARG_DeclareWar)
@@ -93,11 +89,11 @@ function Lime_PARG_MakePeace(fromTeamID, toTeamID)
 	if fromPlayer:GetCivilizationType() == parg then
 		player = fromPlayer
 		enemyTeam = Teams[toTeamID]
-		Parg_War[enemyTeam] = -1
+		EW_Parg.War[enemyTeam] = -1
 	elseif fromPlayer:GetCivilizationType() == parg then
 		player = toPlayer
 		enemyTeam = Teams[fromTeamID]
-		Parg_War[enemyTeam] = -1
+		EW_Parg.War[enemyTeam] = -1
 	end
 	if not player then return end
 	
@@ -108,6 +104,8 @@ function Lime_PARG_MakePeace(fromTeamID, toTeamID)
 	end
 end
 GameEvents.MakePeace.Add(Lime_PARG_MakePeace)
+
+print("LIME TESTING - LOADING THE TABLES")
 
 local unitTable = {}
 local i = 1
@@ -130,10 +128,10 @@ for row in DB.Query("SELECT UnitType, PromotionType FROM Unit_FreePromotions") d
 	end
 end
 
-for row in DB.Query("SELECT ID, PrereqTech, ObsoleteTech FROM Units WHERE (Type = 'UNIT_FRENCH_FOREIGNLEGION')") do
-	local techStart = GameInfoTypes[row.PrereqTech]
-	local techEnd = GameInfoTypes[row.ObsoleteTech]
-end
+print("LIME TESTING - THE TABLES HAVE BEEN LOADED")
+
+local techStart = GameInfoTypes["TECH_REPLACEABLE_PARTS"]
+local techEnd = GameInfoTypes["TECH_PLASTIC"]
 
 function EW_PARG_SpawnUnits(player, numFriends, enemyTeam)
 	local capital = player:GetCapitalCity()
@@ -263,7 +261,7 @@ function EW_Legione_Trained(playerID, cityID, unitID)
 	local city = player:GetCityByID(cityID)
 	local unit = player:GetUnitByID(unitID)
 	if unit:GetUnitType() == legione then
-		local enemyTeam = Parg_Recent[playerID] or EW_ReturnWar(playerID)
+		local enemyTeam = EW_Parg.Recent[playerID] or EW_ReturnWar(playerID)
 		unit:SetName(enemyTeam:GetName())
 		unit:SetHasPromotion(foreign, true)
 	end
@@ -271,7 +269,7 @@ end
 
 GameEvents.CityTrained.Add(EW_Legione_Trained)
 
---Just in case: Returns a random enemy team in case Parg_Recent doesn't return a value.
+--Just in case: Returns a random enemy team in case EW_Parg.Recent doesn't return a value.
 function EW_ReturnWar(playerID)
 	local player = Players[playerID]
 	local team = Teams[player:GetTeam()]
@@ -284,10 +282,14 @@ function EW_ReturnWar(playerID)
 	end
 end
 
+print("LIME TESTING - Running OnModLoaded")
+
 function OnModLoaded() 
 	local bNewGame = not TableLoad(tableRoot, tableName)
 	TableSave(tableRoot, tableName)
 end
 OnModLoaded()
+
+print("LIME TESTING - OnModLoaded has been run")
 
 print("All Russia Functions loaded")

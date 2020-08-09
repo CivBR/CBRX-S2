@@ -12,12 +12,6 @@ include("THP_Mandukhai_TSLSerializerV3.lua");
 
 TableLoad(tableRoot, tableName)
 
-function OnModLoaded() 
-	local bNewGame = not TableLoad(tableRoot, tableName)
-	TableSave(tableRoot, tableName)
-end
-OnModLoaded()
-
 -- ========= --
 -- UTILITIES --
 -- ========= --
@@ -460,3 +454,9 @@ end
 if bIsActive then
 	Events.SequenceGameInitComplete.Add(Mandukhai_UniqueResponses)
 end
+
+function OnModLoaded() 
+	local bNewGame = not TableLoad(tableRoot, tableName)
+	TableSave(tableRoot, tableName)
+end
+OnModLoaded()

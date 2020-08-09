@@ -30,6 +30,7 @@
   </Properties>
   <Dependencies>
     <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+	<Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="JFD's Rise to Power - (Core) Utilities" />
   </Dependencies>
   <References>
     <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
@@ -71,10 +72,8 @@
     <File md5="8261C73CC5AF4658CFCF13E9180C1EBA" import="0">Core/PARGCore.sql</File>
     <File md5="ED19D7408BD3963B087E8B2F8054B130" import="0">Core/PARGDiplomacy.xml</File>
     <File md5="F1DA553682742351DA46E39BE9B5D177" import="0">Core/PARGText.xml</File>
-    <File md5="CD3E8C278CE1FD36806AA4CF6BE3BF88" import="1">Lua/TableSaverLoader016.lua</File>
     <File md5="6BAC0E6FE56B5F9192D36E42D99EEB68" import="1">Lua/EW_PARG_TSLDefines.lua</File>
     <File md5="0AA6CBD725DFD988C5193A82DB3F477B" import="1">Lua/EW_PARG_TSLSerializerV3.lua</File>
-    <File md5="69FCADF0D2AE7C0C2CEC9D821AD41883" import="1">Lua/TSLSerializerCoreV3.lua</File>
     <File md5="E4C6DAE1EE1A0C28E161222AD1083B80" import="0">Lua/AllRussia_Functions.lua</File>
     <File md5="3A4E46D77735BC5B9227C2F432F96193" import="0">ModSupport/MasterSupportFile.sql</File>
     <File md5="8DB19329818CDAD17FDA9D836CDB98B0" import="1">Music/PARGPeace.mp3</File>

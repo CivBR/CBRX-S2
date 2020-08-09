@@ -137,7 +137,7 @@ For more examples, please see the previous sections.
 -- LEAVE ALONE IF THESE TWO VARIABLES ARE ALREADY DEFINED
 --------------------------------------------------------------
 
-tableRoot = JFD_RTP
+tableRoot = MapModData.JFD_RTP
 tableName = "JFD_RTP"
 
 --------------------------------------------------------------
