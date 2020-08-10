@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_ARDENTINQUIRY</Type>
+			<Description>TXT_KEY_BELIEF_ARDENTINQUIRY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_ARDENTINQUIRY_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+	
   	<Belief_YieldChangePerForeignCity>
 	 	 <Row>
 			<BeliefType>BELIEF_ARDENTINQUIRY</BeliefType>
