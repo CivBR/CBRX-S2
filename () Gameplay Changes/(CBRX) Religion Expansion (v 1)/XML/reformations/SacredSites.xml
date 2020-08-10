@@ -225,7 +225,7 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_SYNAGOGUE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_SYNAGOGUES</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
 		
@@ -250,67 +250,67 @@
         <!-- Faith change, CBRX S2 (thirteen buildings) -->
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_ALTAR</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_CBRX_FOLLOWER_ALTARS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_DAOGUAN</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_DAOGUANS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_TORII</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_CBRX_FOLLOWER_TORII_GATES</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_MOUND</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MOUNDS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_WAT</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_WATS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_MATHA</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MATHAS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_KIVA</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_KIVAS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_GGANTIJA</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_GGANTIJAS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_HOUNFOUR</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_HOUNFOURS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_JINJA</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_JINJAS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_DERASAR</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_DERASARS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_AGYARI</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_AGYARIS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
         <Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_GOMPA</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_GOMPAS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
 
