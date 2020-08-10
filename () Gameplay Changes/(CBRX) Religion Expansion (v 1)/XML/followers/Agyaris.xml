@@ -85,7 +85,7 @@
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AGYARIS_TEXT">
 			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Basilica)[ENDCOLOR][NEWLINE][NEWLINE]The Latin word basilica has three distinct applications in modern English. The word was originally used to describe an ancient Roman public building where courts were held, as well as serving other official and public functions. To a large extent these were the town halls of ancient Roman life. The basilica was centrally located in every Roman town, usually adjacent to the main forum. These buildings, an example of which is the Basilica Ulpia, were rectangular, and often had a central nave and aisles, usually with a slightly raised platform and an apse at each of the two ends, adorned with a statue perhaps of the emperor, while the entrances were from the long sides. By extension the name was applied to Christian churches which adopted the same basic plan and it continues to be used as an architectural term to describe such buildings, which form the majority of church buildings in Western Christianity, though the basilican building plan became less dominant in new buildings from the later 20th century. Later, the term came to refer specifically to a large and important Roman Catholic church that has been given special ceremonial rights by the Pope.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Community Patch Project[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_TOTEMS_AGYARIS">
+		<Row Tag="TXT_KEY_BUILDING_AGYARIS">
 			<Text>Can only be built in cities following a religion with the Basilicas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
 		</Row>
 	</Language_en_US>
