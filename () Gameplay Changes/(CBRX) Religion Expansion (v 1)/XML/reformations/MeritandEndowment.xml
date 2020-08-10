@@ -11,19 +11,19 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
-			<BuildingClassType>BUILDING_PAPER_MAKER</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_PAPER_MAKER</BuildingClassType>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
-			<BuildingClassType>BUILDING_ROYAL_LIBRARY</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_ROYAL_LIBRARY</BuildingClassType>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
-			<BuildingClassType>BUILDING_WAT</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_WAT</BuildingClassType>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
-			<BuildingClassType>BUILDING_HOGSKOLA</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_HOGSKOLA</BuildingClassType>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
