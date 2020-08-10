@@ -41,7 +41,7 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_MANDIR</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MANDIRS</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
@@ -125,7 +125,7 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_MANDIR</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MANDIRS</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
@@ -149,7 +149,7 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_SYNAGOGUE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_SYNAGOGUES</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>
@@ -205,7 +205,7 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_MANDIR</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MANDIRS</BuildingClassType>
 			<Tourism>4</Tourism>
 		</Row>
 		<Row>
