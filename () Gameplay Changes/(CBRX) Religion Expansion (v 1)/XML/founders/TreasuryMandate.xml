@@ -12,7 +12,7 @@
 
 	  	<Belief_YieldChangePerForeignCity>
 	 	 <Row>
-			<BeliefType>BELIEF_ATREASURY_MANDATE</BeliefType>
+			<BeliefType>BELIEF_TREASURY_MANDATE</BeliefType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		 </Row>
