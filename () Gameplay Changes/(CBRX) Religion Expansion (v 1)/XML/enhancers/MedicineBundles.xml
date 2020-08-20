@@ -7,8 +7,8 @@
 			<Description>TXT_KEY_BELIEF_MEDICINEBUNDLES</Description>
 			<ShortDescription>TXT_KEY_BELIEF_MEDICINEBUNDLES_SHORT</ShortDescription>
 			<Enhancer>true</Enhancer>
-            <FriendlyHealChange>40</FriendlyHealChange>
-            <CityRangeStrikeModifier>40</CityRangeStrikeModifier>
+            <FriendlyHealChange>30</FriendlyHealChange>
+            <CityRangeStrikeModifier>30</CityRangeStrikeModifier>
 		</Row>
 	</Beliefs>
 
