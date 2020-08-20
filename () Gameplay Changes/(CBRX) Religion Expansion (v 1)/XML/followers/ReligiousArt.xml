@@ -11,37 +11,37 @@
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>6</YieldChange>
+			<YieldChange>8</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>6</YieldChange>
+			<YieldChange>8</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>6</YieldChange>
+			<YieldChange>8</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>6</YieldChange>
+			<YieldChange>8</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>6</YieldChange>
+			<YieldChange>8</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>6</YieldChange>
+			<YieldChange>8</YieldChange>
 		</Row>
 	</Belief_BuildingClassYieldChanges>
 
@@ -53,17 +53,17 @@
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
-			<Tourism>6</Tourism>
+			<Tourism>8</Tourism>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
-			<Tourism>6</Tourism>
+			<Tourism>8</Tourism>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
-			<Tourism>6</Tourism>
+			<Tourism>8</Tourism>
 		</Row>
 	</Belief_BuildingClassTourism>
 
