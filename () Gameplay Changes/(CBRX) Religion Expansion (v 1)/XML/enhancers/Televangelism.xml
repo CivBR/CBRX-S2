@@ -16,13 +16,13 @@
 			<BeliefType>BELIEF_TELEVANGELISM</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>5</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_TELEVANGELISM</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>5</YieldChange>
 		</Row>
 	</Belief_BuildingClassYieldChanges>
 
