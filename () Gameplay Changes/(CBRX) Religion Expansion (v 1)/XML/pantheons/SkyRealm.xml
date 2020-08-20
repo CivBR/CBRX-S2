@@ -10,18 +10,24 @@
 		</Row>
 	</Beliefs>
 
-		<Belief_TerrainYieldChanges>
+	<Belief_TerrainYieldChanges>
 		<Row>
 			<BeliefType>BELIEF_SKYREALM</BeliefType>
 			<TerrainType>TERRAIN_MOUNTAIN</TerrainType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<Row>
+			<BeliefType>BELIEF_SKYREALM</BeliefType>
+			<TerrainType>TERRAIN_MOUNTAIN</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Belief_TerrainYieldChange>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_SKYREALM">
-			<Text>+2 [ICON_PEACE] Faith from Mountain Tiles.</Text>
+			<Text>+2 [ICON_PEACE] and +1 [ICON_CULTURE] Faith from Mountain Tiles.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_SKYREALM_SHORT">
 			<Text>Sky Realm</Text>
