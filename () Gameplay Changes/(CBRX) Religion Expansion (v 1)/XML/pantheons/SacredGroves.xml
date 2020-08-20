@@ -15,19 +15,19 @@
 			<BeliefType>BELIEF_SACREDGROVES</BeliefType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>5</Yield>
+			<Yield>8</Yield>
 		</Row>
     <Row>
 			<BeliefType>BELIEF_SACREDGROVES</BeliefType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>5</Yield>
+			<Yield>8</Yield>
 		</Row>
 	</Belief_FeatureYieldChanges>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_SACREDGROVES">
-			<Text>+5 [ICON_CULTURE] Culture and +5 [ICON_PEACE] Faith from Marsh Tiles.</Text>
+			<Text>+8 [ICON_CULTURE] Culture and +8 [ICON_PEACE] Faith from Marsh Tiles.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_SACREDGROVES_SHORT">
 			<Text>Sacred Groves</Text>
