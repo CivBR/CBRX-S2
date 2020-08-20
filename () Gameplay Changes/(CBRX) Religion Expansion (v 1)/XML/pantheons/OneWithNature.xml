@@ -15,68 +15,68 @@
 			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		 </Row>
      		 <Row>
 			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		 </Row>
 	  	 <Row>
 			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		 </Row>
      		 <Row>
 			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		 </Row>
 	  	 <Row>
 			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
 			<FeatureType>FEATURE_OASIS</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		 </Row>
      		 <Row>
 			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
 			<FeatureType>FEATURE_OASIS</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		 </Row>
 	  	 <Row>
 			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		 </Row>
      		 <Row>
 			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		 </Row>
 	  	 <Row>
 			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
 			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		 </Row>
      		 <Row>
 			<BeliefType>BELIEF_ONEWITHNATURE</BeliefType>
 			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		 </Row>
 	</Belief_UnimprovedFeatureYieldChanges>
   
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_ONEWITHNATURE">
-			<Text>+4 [ICON_CULTURE] Culture and 4 [ICON_PEACE] Faith from unimproved features.</Text>
+			<Text>+2 [ICON_CULTURE] Culture and 2 [ICON_PEACE] Faith from unimproved features.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ONEWITHNATURE_SHORT">
 			<Text>One with Nature</Text>
