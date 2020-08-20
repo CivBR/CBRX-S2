@@ -14,26 +14,14 @@
 		<Row>
 			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
-			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
-			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_FORS_FORTUNA</BeliefType>
@@ -53,7 +41,7 @@
 	<Language_en_US>
 	 <Delete Tag="TXT_KEY_BELIEF_FORS_FORTUNA" />
 		<Row Tag="TXT_KEY_BELIEF_FORS_FORTUNA">
-			<Text>+1 [ICON_FOOD] Food, +1 [ICON_GOLD] Gold, and +2 [ICON_CULTURE] Culture for Farms and Hydroponic Domes.</Text>
+			<Text>+2 [ICON_GOLD] Gold, and +2 [ICON_CULTURE] Culture for Farms and Hydroponic Domes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_FORS_FORTUNA_SHORT">
 			<Text>Fors Fortuna</Text>
