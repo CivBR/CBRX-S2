@@ -21,7 +21,7 @@
   <References>
     <Mod id="a8ac71dc-dcd9-4f87-af61-8ae7951ade57" minversion="0" maxversion="999" title="JFD's Rise to Power - (2) (UI) Top Panel" />
     <Mod id="3fc450d7-c1d9-46e3-97ea-6d60a3485187" minversion="0" maxversion="999" title="JFD's Rise to Power - (2) (UI) Diplo Corner" />
-    <Mod id="aeea1d87-bb9b-4542-af59-5e3541fc1b06" minversion="0" maxversion="999" title="" />
+	<Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
   </References>
   <Blocks />
   <Files>
