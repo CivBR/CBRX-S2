@@ -32,7 +32,6 @@
 	</Belief_BuildingClassYieldChanges>
 	
 	<Language_en_US>
-	<Delete Tag="TXT_KEY_BELIEF_AQUATICUNDERWORLD_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_AQUATICUNDERWORLD">
 			<Text>+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_CULTURE] Culture from Lighthouses</Text>
 		</Row>
