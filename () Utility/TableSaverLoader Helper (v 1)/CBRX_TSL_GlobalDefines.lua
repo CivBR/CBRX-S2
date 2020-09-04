@@ -35,13 +35,13 @@ UnitHomeCities					= THP_Mandukhai.UnitHomeCities
 CBRX.InfoAddict					= CBRX.InfoAddict or {}
 InfoAddict						= CBRX.InfoAddict
 InfoAddict.HistoricalData		= InfoAddict.HistoricalData or {}
-HistoricalData = InfoAddict.HistoricalData
+HistoricalData 					= InfoAddict.HistoricalData
 InfoAddict.ReplayDataCache		= InfoAddict.ReplayDataCache or {}
-ReplayDataCache = InfoAddict.ReplayDataCache
+ReplayDataCache 				= InfoAddict.ReplayDataCache
 InfoAddict.LogTableExists		= InfoAddict.LogTableExists or false
-LogTableExists = InfoAddict.LogTableExists
+LogTableExists 					= InfoAddict.LogTableExists
 InfoAddict.InfoAddictScreenContext = InfoAddict.InfoAddictScreenContext or null
-InfoAddictScreenContext = InfoAddict.InfoAddictScreenContext
+InfoAddictScreenContext 		= InfoAddict.InfoAddictScreenContext
 --==========================================================================================================================
 --==========================================================================================================================
 --==========================================================================================================================

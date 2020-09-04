@@ -4,6 +4,8 @@
 --------------------------------------------------------------
 
 include("InfoAddictLib");
+include("CBRX_TSL_GlobalDefines.lua")
+
 
 -- Some defaults
 

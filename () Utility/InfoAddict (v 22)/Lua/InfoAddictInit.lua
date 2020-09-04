@@ -2,6 +2,7 @@
 -- Author: robk
 -- DateCreated: 11/29/2010 10:29:21 PM
 --------------------------------------------------------------
+include("CBRX_TSL_GlobalDefines.lua")
 
 -- Init file for Info Addict. This file gets called by InGameUIAddin and is the entry
 -- point for most of the mod. The contexts below are loaded after all the contexts in

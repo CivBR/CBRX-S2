@@ -9,6 +9,8 @@
 include("InfoAddictLib")
 logger:setLevel(TRACE);
 logger:trace("Loading InfoAddictDataManager");
+include("CBRX_TSL_GlobalDefines.lua")
+
 
 -- Single, persistent database connection
 local db = Modding.OpenSaveData()
@@ -32,7 +34,9 @@ function initDatabase()
   if (tablefound["InfoAddictHistoricalData"] ~= true) then
     logger:debug("Creating InfoAddictHistoricalData table");
     for row in db.Query('CREATE TABLE InfoAddictHistoricalData("Turn" INTEGER, "Player" INTEGER, "Value" TEXT)') do end
+	logger:debug("Creating InfoAddictHistoricalDataTurnIndex index");
     for row in db.Query('CREATE INDEX InfoAddictHistoricalDataTurnIndex on InfoAddictHistoricalData(Turn)') do end
+	logger:debug("Creating InfoAddictHistoricalDataTurnIndex index");
   end;
   
   if (tablefound["InfoAddictLog"] ~= true) then

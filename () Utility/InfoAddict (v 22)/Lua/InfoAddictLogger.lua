@@ -3,6 +3,7 @@
 --   (with modifications by robk adding TRACE level and logging
 --    to a database table)
 ------------------------------------------------------------
+include("CBRX_TSL_GlobalDefines.lua")
 
 TRACE = "TRACE"
 DEBUG = "DEBUG"

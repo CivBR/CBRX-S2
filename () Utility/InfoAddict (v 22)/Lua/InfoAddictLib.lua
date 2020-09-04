@@ -11,6 +11,8 @@ include("InfoAddictLogger");
 logger = LoggerType:new();
 logger:setLevel(INFO);
 logger:trace("Processing InfoAddictLib");
+include("CBRX_TSL_GlobalDefines.lua")
+
 
 -- Set this to return true to use the in game replay data instead of the data that
 -- InfoAddict collects on its own.
