@@ -4,8 +4,6 @@
 --------------------------------------------------------------
 
 include("InfoAddictLib");
-logger:debug("Processing InfoAddictOptions");
-
 
 -- Some defaults
 

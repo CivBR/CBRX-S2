@@ -7,20 +7,15 @@
 -- you want to make sure it's not just the logger messing up.
 -- print "Processing InfoAddictLib"
 
--- Set up the logging facility
-
 include("InfoAddictLogger");
 logger = LoggerType:new();
 logger:setLevel(INFO);
 logger:trace("Processing InfoAddictLib");
 
-
 -- Set this to return true to use the in game replay data instead of the data that
 -- InfoAddict collects on its own.
 
 function useReplayData() return false; end
-
-
 
 -- The default and max number of labels on the x-axis and the optional y-axis for the historical graphs
 -- are defined here. Once the sliders are changed in the options menu, the value is pulled from
@@ -53,8 +48,6 @@ end;
 -- Open a persistent connection to the user database.
 
 local modUserData = Modding.OpenUserData(InfoAddictModID(), InfoAddictModVer());
-
-
 
 -- Control option to see all empires regardless if we've met them or not. Set seeThem() to
 -- true to cheat, you cheating cheater. The warning popped up a little too often so I've slapped
@@ -122,25 +115,25 @@ function getHistoricalValue(turn, pid, type)
   end;
 
   if (useReplayData() == false) then
-    if (MapModData.InfoAddict.HistoricalData[turn] == nil) then return nil end;
-    if (MapModData.InfoAddict.HistoricalData[turn][pid] == nil) then return nil end;
-    return MapModData.InfoAddict.HistoricalData[turn][pid][type];
+    if (HistoricalData[turn] == nil) then return nil end;
+    if (HistoricalData[turn][pid] == nil) then return nil end;
+    return HistoricalData[turn][pid][type];
   else
 
     local realtype = GetReplayType(type);
     local alivetype = GetReplayType("alive");
 
-    if (MapModData.InfoAddict.ReplayDataCache[pid] == nil) then return nil end;
-    if (MapModData.InfoAddict.ReplayDataCache[pid][realtype] == nil) then return nil end;
+    if (ReplayDataCache[pid] == nil) then return nil end;
+    if (ReplayDataCache[pid][realtype] == nil) then return nil end;
   
     -- Check to see if the player was alive during this turn. If not, we return a nil
     -- value.
 
-    if (MapModData.InfoAddict.ReplayDataCache[pid][alivetype][turn] == 0) then
+    if (ReplayDataCache[pid][alivetype][turn] == 0) then
       return nil;
     end;
     
-    return MapModData.InfoAddict.ReplayDataCache[pid][realtype][turn];
+    return ReplayDataCache[pid][realtype][turn];
 
   end;
 

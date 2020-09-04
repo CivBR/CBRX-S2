@@ -25,7 +25,9 @@
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
   <Dependencies />
-  <References />
+  <References>
+		<Mod id="ade23c8a-f4c5-4eea-9cd7-4b7dd87e5d7a" minversion="0" maxversion="999" title="TableSaverLoader Helper" />
+  </>
   <Blocks />
   <Files>
     <File md5="76FB22538641E8233E2D022C2C9C40B3" import="1">Art/infoaddicth.dds</File>

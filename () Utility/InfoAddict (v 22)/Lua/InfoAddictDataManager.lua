@@ -10,15 +10,8 @@ include("InfoAddictLib")
 logger:setLevel(TRACE);
 logger:trace("Loading InfoAddictDataManager");
 
-
 -- Single, persistent database connection
 local db = Modding.OpenSaveData()
-
-
--- Initialize the shared data cache for historical and replay data
-MapModData.InfoAddict.HistoricalData = {};
-MapModData.InfoAddict.ReplayDataCache = {};
-
 
 -- Initializes the in game database tables if necessary.
 
@@ -50,7 +43,7 @@ function initDatabase()
   -- The log table is available now. Setting this to true tells the logger that it can log to the table as well
   -- as the console.
 
-  MapModData.InfoAddict.LogTableExists = true;
+  LogTableExists = true;
 
 end;
 initDatabase();
@@ -160,17 +153,17 @@ function updateHistoricalDataTable(turn)
   end;
 
   for turn = firstTurn+1, currentTurn, 1 do
-    if (MapModData.InfoAddict.HistoricalData[turn] == nil) then
+    if (HistoricalData[turn] == nil) then
       logger:debug("Loading turn " .. turn .. " into data cache");
       turncount = turncount + 1;
-      MapModData.InfoAddict.HistoricalData[turn] = {};
+      HistoricalData[turn] = {};
     
       local gotAnyData = false;   -- Check to see if we got any data for the turn.
 
       for pid = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
         local pPlayer = Players[pid];
         if(not pPlayer:IsMinorCiv() and pPlayer:IsEverAlive()) then
-          MapModData.InfoAddict.HistoricalData[turn][pid] = {};
+          HistoricalData[turn][pid] = {};
         end;
       end;
 
@@ -185,7 +178,7 @@ function updateHistoricalDataTable(turn)
           local value = nil;
           local savedvalue = getValueFromSavedDatabyType(row.Value, dataType);
           if (savedvalue ~= nil and savedvalue ~= "n") then value = savedvalue end;
-          MapModData.InfoAddict.HistoricalData[turn][row.Player][dataType] = value; 
+          HistoricalData[turn][row.Player][dataType] = value; 
           if (value ~= nil) then gotAnyData = true end;
         end;
 	    end;
@@ -198,7 +191,7 @@ function updateHistoricalDataTable(turn)
 
       if (gotAnyData == false) then
         logger:debug("No data found for turn " .. turn .. ". Reseting cache for that turn.");
-        MapModData.InfoAddict.HistoricalData[turn] = nil;
+        HistoricalData[turn] = nil;
       end;
 
     end;
@@ -238,7 +231,7 @@ function updateReplayDataCache()
   for pid = 0, GameDefines.MAX_MAJOR_CIVS-1, 1 do
     if(not Players[pid]:IsMinorCiv() and Players[pid]:IsEverAlive()) then
       local ptimer = os.clock();
-      MapModData.InfoAddict.ReplayDataCache[pid] = Players[pid]:GetReplayData();
+      ReplayDataCache[pid] = Players[pid]:GetReplayData();
       logger:debug("Replay update for " .. pid .. " took " .. elapsedTime(ptimer));
     end;
   end;
@@ -256,7 +249,7 @@ end;
 -- Clears the in memory cache of the historical data and reloads it from the SQL database.
 function reloadHistoricalDataTable()
   logger:debug("Clearing historical data cache and reloading");
-  MapModData.InfoAddict.HistoricalData = {};
+  HistoricalData = {};
   updateHistoricalDataTable()
 end;
 
@@ -272,7 +265,7 @@ function dataCheck()
     for turn = firstTurn, 10, 1 do
       for type, _ in pairs(infoAddictDataTypes()) do
         -- logger:info("pid = " .. pid .. ", turn = " .. turn .. ", type = " .. type);
-        local iadata = MapModData.InfoAddict.HistoricalData[turn][pid][type];
+        local iadata = HistoricalData[turn][pid][type];
         local thiscivdata = civdata[GetReplayType(type)][turn];
         if (iadata ~= thiscivdata) then
           logger:info("Bad data: pid = " .. pid .. ", turn = " .. turn .. ", type = " .. type .. 

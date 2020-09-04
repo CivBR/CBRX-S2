@@ -40,7 +40,7 @@ function LoggerType:new()
     -- Logging table is ready.
 
     if (LEVEL[level] >= LEVEL[INFO] and 
-        MapModData.InfoAddict.LogTableExists == true and
+        LogTableExists == true and
         logger.db ~= nil)
     then
       local insert = 'INSERT INTO InfoAddictLog("Timestamp", "Level", "Message") ' .. 

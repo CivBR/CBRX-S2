@@ -6,9 +6,6 @@
 include("InfoAddictLib");
 include("IconSupport");
 
-logger:debug("Processing InfoAddictScreen");
-
-
 -- Main function to select panels, called by the OnStuff() functions
 -- below.
 

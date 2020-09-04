@@ -36,7 +36,6 @@ function GetModPlayerFromTeam(teamID)
 	return nil
 end
 
-print("EW_PARG_DoTurn")
 function EW_PARG_DoTurn(playerID)
 	local player = Players[playerID]
 	if (not player:IsAlive()) then return end
@@ -62,7 +61,6 @@ function PARG_GetFriends(playerID)
 	return (#player:GetTradeRoutesToYou() + player:GetNumInternationalTradeRoutesUsed())
 end
 
-print("Lime_PARG_DeclareWar")
 function Lime_PARG_DeclareWar(fromTeamID, toTeamID)
 	local fromPlayer = GetModPlayerFromTeam(fromTeamID)
 	local toPlayer = GetModPlayerFromTeam(toTeamID)

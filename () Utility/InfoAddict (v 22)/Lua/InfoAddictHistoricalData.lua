@@ -8,9 +8,6 @@ include("IconSupport");
 include("InfoAddictLib");
 include("FLuaVector");
 
-logger:debug("Processing InfoAddictHistoricalData");
-
-
 -- maxDataPoints is exactly what it sounds like: the maximum number of data points allowed
 -- in an InfoAddict historical graph. The civ V engine tends to have trouble rendering too
 -- many data points at once. The number of data points per graph, if unbounded, is
