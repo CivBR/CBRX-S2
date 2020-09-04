@@ -30,6 +30,9 @@
 		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES_NQ">
 			<Text>+1 [ICON_FOOD] Food from Aqueducts and Water Mills. +1 Happiness from Cities on Rivers.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES">
+			<Text>Fertility Rites</Text>
+		</Row>
 	</Language_en_US>
   
 </GameData>
