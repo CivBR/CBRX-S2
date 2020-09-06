@@ -128,13 +128,13 @@
 			<CivilizationType>CIVILIZATION_US_GEORGIA</CivilizationType>
 			<ReligionType>RELIGION_CHRISTIAN_ORIENTAL_ORTHODOX</ReligionType>
 		</Row>
-		<Row>
+			<Row>
 			<CivilizationType>CIVILIZATION_LITE_TARCISIO_PTOLEMIES</CivilizationType>
-			<ReligionType>RELIGION_HELLENISM</ReligionType>
+			<ReligionType>RELIGION_PESEDJET</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_LITE_TARCISIO_PTOLEMIES</CivilizationType>
-			<ReligionType>RELIGION_PESEDJET</ReligionType>
+			<ReligionType>RELIGION_HELLENISM</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_JFD_VANDALS_GENSERIC</CivilizationType>
