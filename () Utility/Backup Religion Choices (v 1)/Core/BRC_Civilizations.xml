@@ -25,15 +25,15 @@
 			<ReligionType>RELIGION_CHRISTIAN_ANGLICANISM</ReligionType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+			<CivilizationType>CIVILIZATION_JFD_SWEDEN_KARL_XII</CivilizationType>
 			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+			<CivilizationType>CIVILIZATION_JFD_SWEDEN_KARL_XII</CivilizationType>
 			<ReligionType>RELIGION_NORSE_CHRISTIAN</ReligionType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+			<CivilizationType>CIVILIZATION_JFD_SWEDEN_KARL_XII</CivilizationType>
 			<ReligionType>RELIGION_FORN_SIDR</ReligionType>
 		</Row>
 		<Row>
@@ -97,11 +97,11 @@
 			<ReligionType>RELIGION_NOAIDEVUOHTA</ReligionType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_JFD_USSR_LENIN</CivilizationType>
+			<CivilizationType>CIVILIZATION_JFD_SOVIET_RUSSIA_LENIN</CivilizationType>
 			<ReligionType>RELIGION_ORTHODOXY</ReligionType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_JFD_USSR_LENIN</CivilizationType>
+			<CivilizationType>CIVILIZATION_JFD_SOVIET_RUSSIA_LENIN</CivilizationType>
 			<ReligionType>RELIGION_SLAVIANISM</ReligionType>
 		</Row>
 		<Row>
