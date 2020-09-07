@@ -2,15 +2,16 @@
 -- TABLESAVERLOADER SUPPORT --
 -- ======================== --
 
--- include("THP_Mandukhai_GlobalDefines.lua");
--- include("TableSaverLoader016.lua");
+include("CBRX_TSL_GlobalDefines.lua");
+include("TableSaverLoader016.lua");
 
--- tableRoot = THP_Mandukhai
--- tableName = "THP_Mandukhai"
+-- if it still doesnt work, let's try changing tableRoot to CBRX.THP_Mandukhai
+tableRoot = THP_Mandukhai
+tableName = "THP_Mandukhai"
 
--- include("THP_Mandukhai_TSLSerializerV3.lua");
+include("CBRX_TSL_TSLSerializerV3.lua");
 
--- TableLoad(tableRoot, tableName)
+TableLoad(tableRoot, tableName)
 
 -- ========= --
 -- UTILITIES --
@@ -434,29 +435,8 @@ if isAAActive then
 	end
 end
 
--- ================ --
--- UNIQUE DIPLOMACY --
--- ================ --
-
-local iMandukhaiID = GameInfoTypes.LEADER_THP_MANDUKHAI
-local iGenghisID = GameInfoTypes.LEADER_GENGHIS_KHAN
-
-function Mandukhai_UniqueResponses()
-	local pActivePlayer = Players[Game.GetActivePlayer()]
-	if pActivePlayer:GetLeaderType() == iMandukhaiID then return end
-	if pActivePlayer:GetLeaderType() == iGenghisID then
-		ChangeDiplomacyResponse("LEADER_THP_MANDUKHAI", "RESPONSE_FIRST_GREETING", "TXT_KEY_LEADER_THP_MANDUKHAI_FIRSTGREETING%", "TXT_KEY_LEADER_THP_MANDUKHAI_GENGHIS_GREETING_1", 500)
-		ChangeDiplomacyResponse("LEADER_THP_MANDUKHAI", "RESPONSE_DEFEATED", "TXT_KEY_LEADER_THP_MANDUKHAI_DEFEATED%", "TXT_KEY_LEADER_THP_MANDUKHAI_GENGHIS_DEFEATED_1", 500)
-		ChangeDiplomacyResponse("LEADER_THP_MANDUKHAI", "RESPONSE_DOW_GENERIC", "TXT_KEY_LEADER_THP_MANDUKHAI_DOW_GENERIC%", "TXT_KEY_LEADER_THP_MANDUKHAI_GENGHIS_DOW_1", 500)
-	end
+function OnModLoaded() 
+	local bNewGame = not TableLoad(tableRoot, tableName)
+	TableSave(tableRoot, tableName)
 end
-
-if bIsActive then
-	Events.SequenceGameInitComplete.Add(Mandukhai_UniqueResponses)
-end
-
--- function OnModLoaded() 
-	-- local bNewGame = not TableLoad(tableRoot, tableName)
-	-- TableSave(tableRoot, tableName)
--- end
--- OnModLoaded()
+OnModLoaded()
