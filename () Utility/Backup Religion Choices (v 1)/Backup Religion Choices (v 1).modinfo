@@ -20,6 +20,7 @@
   </Properties>
   <Dependencies>
     <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch OR VMC" />
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
   </Dependencies>
   <References />
   <Blocks />

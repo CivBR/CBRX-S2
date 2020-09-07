@@ -19,7 +19,9 @@
     <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="CulDiv" />
     <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFDDLC" />

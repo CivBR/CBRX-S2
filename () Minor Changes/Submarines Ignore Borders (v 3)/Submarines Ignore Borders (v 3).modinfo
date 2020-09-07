@@ -20,7 +20,9 @@ A simple mod that allows Submarines and their nuclear Brothers to enter enemy te
     <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="3b0d5b17-9e6a-4841-a2c5-0ef08c277713" minversion="0" maxversion="999" title="Advanced Naval Units" />
   </References>

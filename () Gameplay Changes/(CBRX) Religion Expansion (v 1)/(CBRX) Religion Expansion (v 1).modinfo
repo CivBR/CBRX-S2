@@ -19,6 +19,7 @@
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
   <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
     <Mod id="a2cfe2eb-d94b-496d-a1ce-266c14d6afcb" minversion="0" maxversion="999" title="RTP Utilities" />
   </Dependencies>
   <References />

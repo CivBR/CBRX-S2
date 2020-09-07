@@ -17,7 +17,9 @@
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
     <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />

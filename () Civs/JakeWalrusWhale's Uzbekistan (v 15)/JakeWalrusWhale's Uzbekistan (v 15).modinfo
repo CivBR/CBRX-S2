@@ -28,7 +28,9 @@ Replaces the infantry. +2 movement when starting on desert tiles. Starts with th
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
     <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />

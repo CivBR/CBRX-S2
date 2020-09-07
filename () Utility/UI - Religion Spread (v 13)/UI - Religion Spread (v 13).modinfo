@@ -26,6 +26,7 @@ Alters the ReligionOverview.lua and ReligionOverview.xml core files so will be i
   </Properties>
   <Dependencies>
     <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
   </Dependencies>
   <References>
     <Mod id="e1ccf71a-f248-498c-8f30-5ca6d851079d" minversion="1" maxversion="999" title="Tofts Flags +++" />

@@ -43,6 +43,7 @@ As is the following tutorial
   <Dependencies>
     <Game minversion="1.0.3.279" maxversion="1.0.3.999" />
     <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
   </Dependencies>
   <References />
   <Blocks />

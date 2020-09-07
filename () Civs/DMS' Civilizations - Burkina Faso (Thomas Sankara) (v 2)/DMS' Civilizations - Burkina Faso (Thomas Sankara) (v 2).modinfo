@@ -18,7 +18,9 @@
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
     <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />

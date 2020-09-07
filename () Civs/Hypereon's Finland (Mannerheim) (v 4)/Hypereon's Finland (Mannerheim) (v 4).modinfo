@@ -32,6 +32,7 @@ Yet Not Another Earth Map Pack</Description>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
     <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
   </Dependencies>
   <References>

@@ -18,6 +18,7 @@
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
   <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
 	<Mod id="ade23c8a-f4c5-4eea-9cd7-4b7dd87e5d7a" minversion="0" maxversion="999" title="TableSaverLoader Helper" />
   </Dependencies>
   <References>

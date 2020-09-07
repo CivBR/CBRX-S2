@@ -18,6 +18,7 @@
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
   <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
     <Mod id="8822c973-60de-47f8-a4f2-96045dcc468e" minversion="0" maxversion="999" title="JFD's Rise to Power - (2) (UI) Social Policy Screen" />
   </Dependencies>
   <References />

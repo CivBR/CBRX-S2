@@ -18,7 +18,9 @@
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="bc987abc-83bc-450a-991b-e28ae64e9c1a" minversion="0" maxversion="999" title="More Pantheons - Addon" />
     <Mod id="43868e8d-de88-48a1-a8d9-ce144e07f5e0" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />

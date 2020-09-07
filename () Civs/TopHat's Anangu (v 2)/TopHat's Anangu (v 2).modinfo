@@ -19,7 +19,9 @@
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="432bc547-eb05-4189-9e46-232dbde8f09f" minversion="0" maxversion="999" title="Additional Achievements" />
     <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits" />

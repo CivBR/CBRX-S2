@@ -26,7 +26,9 @@ TopHatPaladin: Lua</Description>
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
     <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack" />

@@ -17,7 +17,9 @@
     <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="(6a) Community Balance Overhaul - Compatibility Files (EUI)" />
     <Mod id="828b5b4b-7c62-4afb-a43f-034b596ef5e4" minversion="0" maxversion="999" title="(6b) Community Balance Overhaul - Compatibility Files (No-EUI)" />

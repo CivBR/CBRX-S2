@@ -16,7 +16,9 @@
     <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" />
     <Mod id="580c14eb-9799-4d31-8b14-c2a78931de89" minversion="0" maxversion="999" />

@@ -25,7 +25,9 @@ TPangolin: Art (Unit and Building Icons)</Description>
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </Dependencies>
   <References>
     <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
     <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
