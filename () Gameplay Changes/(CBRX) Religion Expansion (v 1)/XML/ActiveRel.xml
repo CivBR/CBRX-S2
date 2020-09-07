@@ -3,11 +3,11 @@
 <GameData>
 	<Worlds>
 		<Update>
-			<Set MaxActiveReligions="21"/>
+			<Set MaxActiveReligions="22"/>
 			<Where Type="WORLDSIZE_LARGE"/>
 		</Update>
 		<Update>
-			<Set MaxActiveReligions="21"/>
+			<Set MaxActiveReligions="22"/>
 			<Where Type="WORLDSIZE_HUGE"/>
 		</Update>
 	</Worlds>
