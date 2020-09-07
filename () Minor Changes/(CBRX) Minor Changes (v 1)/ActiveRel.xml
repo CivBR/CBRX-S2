@@ -19,11 +19,11 @@
 			<Where Type="WORLDSIZE_STANDARD"/>
 		</Update>
 		<Update>
-			<Set MaxActiveReligions="8"/>
+			<Set MaxActiveReligions="22"/>
 			<Where Type="WORLDSIZE_LARGE"/>
 		</Update>
 		<Update>
-			<Set MaxActiveReligions="16"/>
+			<Set MaxActiveReligions="22"/>
 			<Where Type="WORLDSIZE_HUGE"/>
 		</Update>
 	</Worlds>
