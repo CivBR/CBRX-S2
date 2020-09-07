@@ -3,7 +3,7 @@ local cbrxTSLs = {}
 cbrxTSLs["CIVILIZATION_BABYLON"] = {X = 46, Y = 0, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_DJ_ICELAND"] = {X = 0, Y = 84, S = "T", O = "T"}
 cbrxTSLs["CIVILIZATION_WALES"] = {X = 6, Y = 67, S = "T", O = "F"}
-cbrxTSLs["CIVILIZATION_SWEDEN"] = {X = 26, Y = 78, S = "F", O = "F"}
+cbrxTSLs["CIVILIZATION_JFD_SWEDEN_KARL_XII"] = {X = 26, Y = 78, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_TCM_BOURBON_SPAIN"] = {X = 9, Y = 52, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_MC_GAUL"] = {X = 13, Y = 57, S = "F", O = "F"}
 cbrxTSLs["CIVILIZATION_GREATEREUROPE_GERMANY"] = {X = 21, Y = 65, S = "F", O = "F"}
