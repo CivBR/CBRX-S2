@@ -18,7 +18,9 @@
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
   <Dependencies />
-  <References />
+  <References>
+  	<Mod id="aec5d10d-f00f-4fc7-b330-c3a1e86c91c3" minversion="0" maxversion="999" title="InfoAddict" />
+  </>
   <Blocks />
   <Files>
     <File md5="9E282E4928C25306A4B6020C7F52FC37" import="1">CBRX_TSL_GlobalDefines.lua</File>
