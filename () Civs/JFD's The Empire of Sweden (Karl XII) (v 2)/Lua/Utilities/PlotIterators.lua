@@ -148,7 +148,7 @@ end
 
 
 function PlotAreaSweepIterator(pPlot, r, sector, anticlock, inwards, centre)
-  --print(string.format("PlotAreaSweepIterator((%i, %i), r=%i, s=%i, d=%s, w=%s, c=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd"), (inwards and "in" or "out"), (centre and "yes" or "no")))
+  -- print(string.format("PlotAreaSweepIterator((%i, %i), r=%i, s=%i, d=%s, w=%s, c=%s)", pPlot:GetX(), pPlot:GetY(), r, (sector or SECTOR_NORTH), (anticlock and "rev" or "fwd"), (inwards and "in" or "out"), (centre and "yes" or "no")))
   -- This coroutine walks each radial in sequence
   local next = coroutine.create(function ()
     if (centre and not inwards) then
@@ -209,7 +209,7 @@ highlights = {
 }
 
 function TestPlotHighlight(pPlot, highlight)
-  print(pPlot:GetX(), pPlot:GetY())
+  -- print(pPlot:GetX(), pPlot:GetY())
   if (highlight ~= nil) then
     Events.SerialEventHexHighlight(ToHexFromGrid(Vector2(pPlot:GetX(), pPlot:GetY())), true, highlight)
   end

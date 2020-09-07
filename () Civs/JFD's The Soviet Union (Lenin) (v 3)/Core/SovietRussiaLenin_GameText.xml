@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/16/2014 11:54:41 PM -->
+<GameData>
+	<Language_en_US>
+		<!--CIVILIZATION-->
+		<Row Tag="TXT_KEY_CIV_JFD_SOVIET_RUSSIA_LENIN_ADJECTIVE">
+			<Text>Soviet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_SOVIET_RUSSIA_LENIN_DESC">
+			<Text>Soviet Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_SOVIET_RUSSIA_LENIN_SHORT_DESC">
+			<Text>Soviet Russia</Text>
+		</Row>
+		<!--TAL-->
+		<Replace Tag="TXT_KEY_JFD_TAL_SOVIET_UNION">
+			<Text>The Soviet Union</Text>
+			<Plurality>2</Plurality>
+		</Replace>
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIV_JFD_SOVIET_RUSSIA_LENIN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_SOVIET_RUSSIA_LENIN_TEXT_1">
+			<Text>During the period of its existence, the Union of Soviet Socialist Republics was by area the world’s largest country. It was also one of the most diverse, with more than 100 distinct nationalities living within its borders. The majority of the population, however, was made up of East Slavs (Russians, Ukrainians, and Belorussians); these groups together made up more than two-thirds of the total population in the late 1980s.[NEWLINE][NEWLINE]At its greatest extent, between 1946 and 1991 (the figures and descriptions given below refer to this period), the U.S.S.R. covered some 8,650,000 square miles (22,400,000 square kilometres), seven times the area of India and two and one-half times that of the United States. The country occupied nearly one-sixth of the Earth’s land surface, including the eastern half of Europe and roughly the northern third of Asia.[NEWLINE][NEWLINE]The U.S.S.R. extended more than 6,800 miles (10,900 kilometres) from east to west, covering 11 of the world’s 24 time zones. The most westerly point was on the Baltic Sea, near Kaliningrad; the easternmost was Cape Dezhnev on the Bering Strait, nearly halfway around the world. From north to south the U.S.S.R. extended some 2,800 miles from Cape Chelyuskin to Kushka on the Afghan border. Nearly half the territory of the U.S.S.R. was north of 60° N, at the same latitude as Alaska, Baffin Island, and Greenland.[NEWLINE][NEWLINE]In addition to having the world’s longest coastline, the U.S.S.R. had the longest frontiers. To the north the country was bounded by the seas of the Arctic Ocean, and to the east were the seas of the Pacific. On the south the U.S.S.R. was bordered by North Korea, Mongolia, China, Afghanistan, Iran, and Turkey. On the southern frontier there were three seas: the Caspian Sea, the world’s largest inland sea, as well as the almost completely landlocked Black Sea and Sea of Azov. Romania, Hungary, Czechoslovakia, Poland, Finland, and Norway lay to the west.[NEWLINE][NEWLINE]The U.S.S.R. was the successor to the Russian Empire of the tsars. Following the 1917 Revolution, four socialist republics were established on the territory of the former empire: the Russian and Transcaucasian Soviet Federated Socialist Republics and the Ukrainian and Belorussian Soviet Socialist Republics. On Dec. 30, 1922, these constituent republics established the U.S.S.R. Additional union republics (Soviet Socialist Republics) were set up in subsequent years: the Turkmen and Uzbek S.S.R.’s in 1924, the Tadzhik S.S.R. in 1929, and the Kazakh and Kirgiz S.S.R.’s in 1936. In that year the Transcaucasian Republic was abolished and its territory was divided between three new republics: the Armenian, Azerbaijan, and Georgian S.S.R.’s. In 1940 the Karelo-Finnish, Moldavian, Estonian, Latvian, and Lithuanian S.S.R.’s were established. The Karelo-Finnish S.S.R. became an autonomous republic in 1956, leaving a total of 15 union republics (soyuznye respubliki). In addition to these, the U.S.S.R. as of 1990 was made up of 20 autonomous republics (avtonomnye respubliki), 8 autonomous provinces (avtonomnye oblasti), 10 autonomous districts (avtonomnye okruga), 6 regions (kraya), and 114 provinces (oblasti).[NEWLINE][NEWLINE]Under the constitution adopted in the 1930s and modified down to October 1977, the political foundation of the U.S.S.R. was formed by the Soviets (Councils) of People’s Deputies. These existed at all levels of the administrative hierarchy, with the Soviet Union as a whole under the nominal control of the Supreme Soviet of the U.S.S.R., located in Moscow. This body had two chambers—the Soviet of the Union, with 750 members elected on a single-member constituency basis; and the Soviet of Nationalities, with 750 members representing the various political divisions: 32 from each union republic, 11 from each autonomous republic, 5 from each autonomous region, and 1 from each autonomous district. In elections to these bodies, the voters were rarely given any choice of candidate other than those presented by the Communist Party of the Soviet Union (CPSU), which, until the amendment of Article 6 of the constitution in March 1990, was the “leading and guiding force of Soviet society and the nucleus of its political system.” In theory, all legislation required the approval of both chambers of the Supreme Soviet; in practice, all decisions were made by the small group known as the Presidium of the Supreme Soviet, itself strongly influenced by the Politburo of the CPSU, and were unanimously approved by the deputies. The role of the soviets in the individual republics and other territories was primarily to put into effect the decisions made by the Supreme Soviet of the U.S.S.R.[NEWLINE][NEWLINE]The political system was thus authoritarian and highly centralized, and this also applied to the economic system. The economic foundation of the U.S.S.R. was “Socialist ownership of the means of production, distribution, and exchange,” and the economy of the entire country was controlled by a series of five-year plans that set targets for all forms of production.[NEWLINE][NEWLINE]Dramatic changes, both political and economic, occurred during the late 1980s and early ’90s, ushered in by the adoption of perestroika (“restructuring”) and glasnost (“openness”). On the economic side the planned, highly centralized command economy was to be replaced by the progressive introduction of elements of a market economy, a change that proved difficult to achieve and was accompanied by declining production in many sectors and increasing distribution problems. In the political sphere, amendments to the constitution in 1988 replaced the old Supreme Soviet with the Congress of People’s Deputies of the U.S.S.R. The new congress had 2,250 members; one-third of these were elected on a constituency basis, one-third represented the political territories (as in the old Supreme Soviet), and the remaining third came from “all-union social organizations” such as the trade unions, the CPSU, and the Academy of Sciences. Voters were presented with a choice of candidates, and many non-Communists were elected. The Congress of People’s Deputies elected a new Supreme Soviet of 542 members and also chose the chairman of that body, who was to be the executive president of the U.S.S.R. Congresses of People’s Deputies were also established in each republic.[NEWLINE][NEWLINE]These congresses could be legitimately described as parliaments, and they engaged in vigorous debate over the economic and political future of the country. From 1989, conflicts developed between the parliament of the U.S.S.R. and those of the individual republics, mainly over the respective powers of the centre (the U.S.S.R. government) and the republics. These conflicts were exacerbated by the resurgence of ethnic nationalism and increasing demands for autonomy and even for full independence. Following the abortive coup of August 1991, in which the CPSU was heavily implicated, the party itself was abolished.[NEWLINE][NEWLINE]By December 1991 the Union of Soviet Socialist Republics had virtually ceased to exist, and the future of its territories and peoples was uncertain. Three republics—Estonia, Latvia, and Lithuania—had achieved complete independence and were internationally recognized as sovereign states, and several others were demanding independence. Attempts were made, led by Mikhail Gorbachev, the president of the Soviet Union, to establish a new “Union of Sovereign States” with some degree of integration in foreign policy, defense, and economic affairs, but agreement among the remaining 12 republics was not achieved. Whatever the legal position, the union republics had begun to act as if they were sovereign states and were negotiating with each other, bypassing the vestigial central government. This process culminated on Dec. 8, 1991, in the signing of an agreement between the three Slav republics of Russia, Ukraine, and Belarus for the establishment of the Commonwealth of Independent States (CIS), with an agreed common policy for foreign affairs and defense. The CIS later came to include all the remaining republics except Georgia, but great difficulty was experienced in arriving at agreed policies. The future thus remained uncertain, but there could be no disagreement with the statement by the leaders of the Commonwealth that “the U.S.S.R. has ceased to exist as a geopolitical reality.”</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_1">
+			<Text>Petrograd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_2">
+			<Text>Kharkov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_3">
+			<Text>Minsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_4">
+			<Text>Kiev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_5">
+			<Text>Simbirsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_6">
+			<Text>Simferopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_7">
+			<Text>Odessa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_8">
+			<Text>Baku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_9">
+			<Text>Omsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_10">
+			<Text>Ufa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_11">
+			<Text>Yekaterinburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_12">
+			<Text>Kaluga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_13">
+			<Text>Smolensk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_14">
+			<Text>Rostov-on-Don</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_15">
+			<Text>Krasnodar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_16">
+			<Text>Vladivostok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_17">
+			<Text>Novosibirsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_18">
+			<Text>Krasnoyarsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_19">
+			<Text>Chelyabinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_20">
+			<Text>Yerevan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_21">
+			<Text>Samara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_22">
+			<Text>Tsaritsyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_23">
+			<Text>Yuzovka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_24">
+			<Text>Ivanovo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_25">
+			<Text>Alma-Ata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_26">
+			<Text>Frunze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_27">
+			<Text>Khabarovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_28">
+			<Text>Akmolinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_29">
+			<Text>Semipalatinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_30">
+			<Text>Ashgabat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_31">
+			<Text>Dushanbe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_32">
+			<Text>Nikolayevsk-on-Amur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_33">
+			<Text>Elektrostal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_34">
+			<Text>Detskoe Selo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_35">
+			<Text>Lenino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_36">
+			<Text>Leninabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_37">
+			<Text>Arzamas-16</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SOVIET_RUSSIA_LENIN_38">
+			<Text>Trotsk</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_RUSSIA_LENIN_0">
+			<Text>Yuri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_RUSSIA_LENIN_1">
+			<Text>Pantiusa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_RUSSIA_LENIN_2">
+			<Text>Mikhail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_RUSSIA_LENIN_3">
+			<Text>Susemihl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_RUSSIA_LENIN_4">
+			<Text>Valery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_RUSSIA_LENIN_5">
+			<Text>Konon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_RUSSIA_LENIN_6">
+			<Text>Reino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_RUSSIA_LENIN_7">
+			<Text>Katerina</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_RUSSIA_LENIN_8">
+			<Text>Ursula</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_RUSSIA_LENIN_9">
+			<Text>Moura</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--LEADER-->
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN">
+			<Text>Vladimir Lenin</Text>
+		</Row>
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_NAME">
+			<Text>Vladimir Lenin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_TEXT_1">
+			<Text>Few events have shaped contemporary history as profoundly as the Russian Revolution and the Communist revolutions that followed it. Each one of them was made in the name of V. I. Lenin, his doctrines, and his political practices. Contemporary thinking about world affairs has been greatly influenced by Lenin's impetus and contributions. From Woodrow Wilson's Fourteen Points to today's preoccupation with wars of national liberation, imperialism, and decolonization, many important issues of contemporary social science were first raised or disseminated by Lenin; even some of the terms he used have entered into everyone's vocabulary. The very opposition to Lenin often takes Leninist forms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_HEADING_2">
+			<Text>Formative Years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_TEXT_2">
+			<Text>V. I. Lenin was born in Simbirsk (today Ulianovsk) on April 10 (Old Style), 1870. His real family name was Ulianov, and his father, Ilia Nikolaevich Ulianov, was a high official in the czarist educational bureaucracy who had risen into the nobility. Vladimir received the conventional education given to the sons of the Russian upper class but turned into a radical dissenter. One impetus to his conversion doubtless was the execution by hanging of his older brother Alexander in 1887; Alexander and a few associates had conspired to assassinate the Emperor. Lenin graduated from secondary school with high honors, enrolled at Kazan University, but was expelled after participating in a demonstration. He retired to the family estate but was permitted to continue his studies in absentia. He obtained a law degree in 1891.[NEWLINE][NEWLINE]When, in 1893, he moved to St. Petersburg, Lenin was already a Marxist and a revolutionary by profession, joining like-minded intellectuals in study groups, writing polemical pamphlets and articles, and seeking to organize workers. The St. Petersburg Union for the Struggle for the Liberation of Labor, which Lenin helped create, was one of the important nuclei of the Russian Marxist movement. The most important work from this period is a lengthy pamphlet, "What Are the 'Friends of the People,' and How Do They Fight against Social-Democracy?" In it Lenin presents the essentials of his entire outlook.[NEWLINE][NEWLINE]In 1897 Lenin was arrested, spent some months in jail, and was finally sentenced to 3 years of exile in the Siberian village of Shushenskoe. He was joined there by a fellow Marxist, Nadezhda Konstantinovna Krupskaya, whom he married in 1898. In his Siberian exile he produced a major study of the Russian economy, The Development of Capitalism in Russia, in which he sought to demonstrate that, despite its backwardness, the economy of his country had definitely transformed itself into a capitalist one. If Lenin had produced nothing else than this learned though controversial work, he would today be known as one of the leading Russian economists of his period.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_HEADING_3">
+			<Text>Emigration to Europe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_TEXT_3">
+			<Text>Not long after his release from Siberia in the summer of 1900, Lenin moved to Europe, where he spent most of the next 17 years, moving from one country to another at frequent intervals, periods of feverish activity alternating with those of total frustration. His first step was to join the editorial board of Iskra (>The Spark), then the central newspaper of Russian Marxism, where he served together with the top leaders of the movement. After parting from Iskra, he edited a succession of papers of his own and contributed to other socialist journals. His journalistic activity was closely linked with organizational work, partly because the underground organizational network within Russia to some extent revolved around the distribution of clandestine literature.[NEWLINE][NEWLINE]Organizational activity, in turn, was linked with the selection and training of personnel. For some time Lenin conducted a training school for Russian revolutionaries at Longjumeau, a suburb of Paris. A perennial problem was that of financing the movement and its leaders' activities in their European exile. Lenin personally could usually depend on financial support from his mother; but her pension could not pay for his political activities. Much of the early history of Russian Marxism can be understood only in the light of these pressing money problems.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_HEADING_4">
+			<Text>His Thought</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_TEXT_4">
+			<Text>A Marxist movement had developed in Russia only during the last decade of the 19th century as a response to the rapid growth of industry, urban centers, and a proletariat. Its first intellectual spokesmen were people who had turned away from populism (narodnichestvo), which they regarded as a failure. Instead of relying on the peasantry, they placed their hopes on the workers as the revolutionary class. Rejecting the village socialism preached by the Narodniks, they opted for industrialization, modernization, and Westernization. Their immediate aim they declared to be a bourgeois revolution which would transform Russia into a democratic republic.[NEWLINE][NEWLINE]In accepting this revolutionary scenario, Lenin added the important proviso that hegemony in the coming bourgeois revolution should remain with the proletariat as the most consistently revolutionary of all classes.[NEWLINE][NEWLINE]At the same time, Lenin, more than most Marxists, made a clear distinction between the workers' movement, on the one hand, and the theoretical contribution to be made by intellectuals, on the other. Of the two, he considered the theoretical contribution the more important, the workers' movement being a merely spontaneous reaction to capitalist exploitation, whereas theory was an expression of consciousness, meaning science and rationality. Throughout his life Lenin insisted that consciousness must maintain leadership over spontaneity for revolutionary Marxism to succeed. This implies that the intellectual leaders must prepare the proletariat for its political tasks and must guide it in its action. Leadership and hierarchy thus become key concepts in the Leninist vocabulary, and the role and structure of the party must conform to this conception. The party is seen as the institutionalization of true consciousness. It must turn into the general staff of the revolution, subjecting the working class and indeed all its own members to command and discipline.[NEWLINE][NEWLINE]Lenin expressed these ideas in his important book What's To Be Done? (1902), the title of the work expressing his indebtedness to Nikolai Chernyshevsky. When, in 1903, the leaders of Russian Marxism met for the first important party congress, formally the Second Congress, these ideas clashed head on with the conception of a looser, more democratic workers' party advanced by Lenin's old friend luli Martov. This disagreement over the nature and organization of the party was complicated by numerous other conflicts of view, and from its first important congress Russian Marxism emerged split into two factions. The one led by Lenin called itself the majority faction (bolsheviki); the other got stuck with the name of minority faction (mensheviki). Lenin's reaction to the split was expressed in his pamphlet "One Step Forward—Two Steps Back," published in 1904.[NEWLINE][NEWLINE]Mensheviks and Bolsheviks disagreed not only over organizational questions but also over most other political problems, including the entire conception of a Marxist program for Russia and the methods to be employed by the party. Bolshevism, in general, stresses the need for revolution and the futility of incremental reforms; it emphasizes the goals of Marxism rather than the process, with its timetable, by which Marx thought the new order was to be reached; in comparison to menshevism it is impatient, pragmatic, and tough-minded.[NEWLINE][NEWLINE]The Revolution of 1905 surprised all Russian revolutionary leaders, including the Bolsheviks. Lenin managed to return to Russia only in November, when the defeat of the revolution was a virtual certainty. But he was among the last to give up. For many more months he urged his followers to renew their revolutionary enthusiasm and activities and to prepare for an armed uprising. For some time afterward the technology of revolutionary warfare became the focus of his interest. His militancy was expressed in an anti-Menshevik pamphlet published in 1905, "Two Tactics of Social-Democracy in the Democratic Revolution."[NEWLINE][NEWLINE]The major impact of the aborted revolution and its aftermath was a decided change in Lenin's attitude toward the peasantry. Lenin came to recognize it as a class in its own right—not just as a rural proletariat—with its own interests, and as a valuable ally for the revolutionary proletariat. His pamphlet "The Agrarian Question in the Russian Revolution of 1905-7" presents these new views in systematic fashion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_HEADING_5">
+			<Text>Bolshevism as an Independent Faction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_TEXT_5">
+			<Text>In the 12 years between the Revolution of 1905 and that of 1917, bolshevism, which had begun as a faction within the Russian Social-Democratic Workers party, gradually emerged as an independent party that had cut its ties with all other Russian Marxists. The process entailed prolonged and bitter polemics against Mensheviks as well as against all those who worked for a reconciliation of the factions. It involved fights over funds, struggles for control of newspapers, the development of rival organizations, and meetings of rival congresses. Disputes concerned many questions about the goals and strategies of the movement, the role of national liberation movements within the Marxist party, and also philosophic controversies. Lenin's contribution to this last topic was published in 1909, Materialism and Empirio-criticism.[NEWLINE][NEWLINE]Since about 1905 the international socialist movement had begun also to discuss the possibility of a major war breaking out. In its congresses of 1907 and 1912, resolutions were passed which condemned such wars in advance and pledged the parties of the proletariat not to support them. Lenin had wanted to go further than that. He had urged active opposition to the war effort and a transformation of any war into a proletarian revolution. He called his policy "revolutionary defeatism." When World War I broke out, most socialist leaders in the countries involved supported the war effort. For Lenin, this was proof that he and they shared no aims or views. The break between the two schools of Marxism had become irreconcilable.[NEWLINE][NEWLINE]During the war Lenin lived in Switzerland. He attended several conferences of radical socialists opposed to the war or even agreeing with Lenin's revolutionary defeatism. He read extensively on the Marxist theory of state and wrote a first draft for a book on the subject, The State and Revolution. He also immersed himself in literature dealing with contemporary world politics and wrote a book which may, in the long run, be his most important one, Imperialism: The Highest Stage of Capitalism (1916), in which Marxism is effectively made applicable to the 20th century. By the beginning of 1917 he had fits of despondency and wrote to a close friend that he despaired of ever witnessing another revolution. This was about a month before the fall of czarism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_HEADING_6">
+			<Text>Lenin in 1917</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_TEXT_6">
+			<Text>It took a good deal of negotiation and courage for Lenin and a group of like-minded Russian revolutionaries to travel from Switzerland back to Russia through enemy country (Germany). Much has been made of Lenin's negotiations with an enemy power and of the fact that some Bolshevik activities were supported financially by German intelligence agencies. There is no convincing evidence, however, which might show that acceptance of funds from objectionable sources made Lenin an agent of these sources in anyway. And from his point of view the source of aid was immaterial; what counted was the use to which it was put.[NEWLINE][NEWLINE]The man who returned to Russia in the famed "sealed train" in the spring of 1917 was of medium height, quite bald, except for the back of his head, with a reddish beard. The features of his face were arresting—slanted eyes that looked piercingly at others, and high cheek-bones under a towering forehead. The rest of his appearance was deceptively ordinary: a man of resolute movements clad quite conservatively in a middle-class suit.[NEWLINE][NEWLINE]Versed in many languages, Lenin spoke Russian with a slight speech defect but was a powerful orator in small groups as well as before mass audiences. A tireless worker, he made others work tirelessly. Self-effacing, he sought to compel his collaborators to devote every ounce of their energy to the revolutionary task at hand. He was impatient with any extraneous activities, including small talk and abstract theoretical discussions. Indeed, he was suspicious of intellectuals and felt most at home in the company of simple folk. Having been brought up in the tradition of the Russian nobility, Lenin loved hunting, hiking, horseback riding, boating, mush-rooming, and the outdoor life in general. He sought to steel himself by systematic physical exercise and generally forbade himself those hobbies which he considered time-wasting or corrupting: chess, music, and companionship. While his life-style was that of a dedicated professional revolutionary, his tastes in art, morals, and manners were rather conventional.[NEWLINE][NEWLINE]Once he had returned to Russia, Lenin worked feverishly and relentlessly to utilize the revolutionary situation that had been created by the fall of czarism so as to convert it into a proletarian revolution which would bring his own party into power. These were the crucial 6 months of his life, but space does not permit a detailed account of his activities in the period. The result of his activities is well known: Opinions in Russia quickly became more and more polarized. Moderate forces found themselves less and less able to maintain even the pretense of control. In the end, the so-called provisional government, then headed by Kerensky, simply melted away, and power literally fell into the hands of the Bolsheviks. As a result of this so-called October Revolution, Lenin found himself not only the leader of his party but also the chairman of the Council of People's Commissars (equivalent to premier minister) of the newly proclaimed Russian Socialist Federative Soviet Republic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_HEADING_7">
+			<Text>Ruler of Russia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_TEXT_7">
+			<Text>During the first years of Lenin's rule as dictator of Russia, the major task he faced was that of establishing his and his party's authority in the country. Most of his policies can be understood in this light, even though he alienated some elements in the population while satisfying others. Examples are the expropriation of landholdings for distribution to the peasants, the separate peace treaty with Germany, and the nationalization of banks and industrial establishments.[NEWLINE][NEWLINE]From 1918 to 1921 a fierce civil war raged which the Bolsheviks finally won against seemingly overwhelming odds. During the civil war Lenin tightened his party's dictatorship and eventually eliminated all rival parties from the political arena. A spirited defense of his dictatorship can be found in his "The Proletarian Revolution and the Renegade Kautsky" (1918), in which he answers criticism from some more moderate Marxists. Lenin had to create an entirely new political system with the help of inexperienced personnel; he was heading a totally exhausted economy and had to devise desperate means for mobilizing people for work. Simultaneously he created the Third (Communist) International and vigorously promoted the spread of the revolution to other countries; and meanwhile he had to cope with dissent among his own party comrades, some of whom criticized him from the left. The pamphlet "Left-wing Communism: An Infantile Disorder" is a response to this criticism.[NEWLINE][NEWLINE]When the civil war had been won and the regime established firmly, the economy was ruined, and much of the population was bitterly opposed to the regime. At this point Lenin reversed many of his policies and instituted a trenchant reform, called the New Economic Policy. It signified a temporary retreat from the goal of establishing communism at once and a resolve to make do with the social forces available: the Communist party declared itself ready to coexist and cooperate with features of the past, such as free enterprise, capitalist institutions, and capitalist states across the borders. For the time being, the Soviet economy would be a mixture of capitalist and socialist features. The stress of the party's policies would be on economic reconstruction and on the education of a peasant population for life in the 20th century. In the long run, Lenin hoped that both these policies would make the blessings of socialism obvious to all, so that the country would gradually grow into socialism. The wariness, the caution, the fear of excessive haste and impatience which Lenin showed in the years 1921-1923 are expressed only inadequately in the last few articles he wrote, such as "On Cooperation," "How We Must Reorganize the Workers and Peasants Inspectorate," and "Better Less but Better."[NEWLINE][NEWLINE]In 1918 an assassin wounded Lenin; he recovered but may have suffered some lasting damage. On May 26, 1922, he suffered a serious stroke from which he recovered after some weeks, only to suffer a second stroke on December 16. He was so seriously incapacitated that he could participate in political matters only intermittently and feebly. An invalid, he lived in a country home at Gorki, near Moscow, where he died on Jan. 21, 1924. His body was preserved and is on view in the Lenin Mausoleum outside the walls of the Moscow Kremlin.</Text>
+		</Row>
+		<!--Lived-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_LIVED">
+			<Text>1870 - 1924</Text>
+		</Row>
+		<!--Titles-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_SUBTITLE">
+			<Text>Leader of Soviet Russian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_RUSSIA_LENIN_TITLES_1">
+			<Text>Chairman of the Russian SFSR</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="TXT_KEY_CIV_DAWN_JFD_SOVIET_RUSSIA_LENIN_TEXT">
+			<Text>In your name, the proletarist rises, O' Vladimir Lenin, leader of this glorious revolution! Though born into wealth, you would instead turn to the cause of the working class, taking your place as leader of the Bolshevik Party in a pledge to forge a nation dictated by men of the soil. A storm was brewing in the heart of mighty Russia, and the days of the Tsars were drawing to a close. With the Russian Revolution in 1917, Nicholas II was overthrown, and the monarchy which had raised Russia for centuries was finally undone. With you at the helm of a new, socialist Republic, Russia would begin its journey into a communist modernity.[NEWLINE][NEWLINE]Dauntless revolutionary, once again the fires of change must be ignited by your championship. The will of the proletariat lies broken beneath the crowns of autocrats and it demands your determination to inspire strength. Can you bring forth the will of your comrades against their slavery? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--Responses-->
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_FIRSTGREETING_1">
+			<Text>I am Vladimir Lenin and I lead a nation of common men. You will find no welcome for tyrants and merchant-lords here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_DEFEATED_1">
+			<Text>Do not take this as my defeat. It is merely a monument upon which the hearts of common men will gaze. It is they that shall rise up against you to topple your golden tyranny.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_ATTACKED_HOSTILE_1">
+			<Text>That crown must be crushing your head, for no why else would you make such a careless mistake?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_DEC_FRIENDSHIP_1">
+			<Text>To be equal, you must be willing. Join me in comradeship, and declare your friendship with us to the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_DENOUNCE_1">
+			<Text>You are but one tyrant of many that shall soon face the justice of history's course.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_DENOUNCE_FRIEND_1">
+			<Text>You are an enemy to the revolution and so no friend of mine.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_DOW_GENERIC_1">
+			<Text>This world cannot be unshackled from the bonds of slavery until your like is destroyed. Prepare for war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Fragile drawings on a map will not unite the hearts of men. You waste your time with your childish land-grabbing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_GREETING_HOSTILE_HELLO_1">
+			<Text>I will not treat with tyrants such as yourself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_GREETING_NEUTRAL_HELLO_1">
+			<Text>You have words for me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_GREETING_POLITE_HELLO_1">
+			<Text>Greetings, comrade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>You cannot fight the course of history. I will repel whatever forces you send my way.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_LUXURY_TRADE_1">
+			<Text>You would do well to surrender your excess wealth to my cause.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Open your borders to us, for the hearts of your people yearn for their freedom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_REQUEST_1">
+			<Text>The embers of the revolution begin to die. Will you assist us in keeping them alight, comrade?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_TOO_SOON_NO_PEACE_1">
+			<Text>There can be no peace so long as your people remain in bondage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_RUSSIA_LENIN_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>Say your words. History will march forward regardless.</Text>
+		</Row>
+		<!--UNIQUE TRAIT-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_SOVIET_RUSSIA_LENIN_SHORT">
+			<Text>Proletarian Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_SOVIET_RUSSIA_LENIN">
+			<Text>Stone Works, Windmills, Forges, and Factories may be constructed in any city regardless of their terrain or resource requirements. These Buildings grant a burst of [ICON_CULTURE] Culture when completed.</Text>
+		</Row>
+		<!--UNIQUE 1-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PIONEERS_PALACE">
+			<Text>Pioneers Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PIONEERS_PALACE_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City, and an additional +1 [ICON_RESEARCH] Science for every 2 Ideological Tenets adopted.[NEWLINE][NEWLINE]City must have a University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PIONEERS_PALACE_STRATEGY">
+			<Text>The Pioneers Palace is the unique building for Soviet Russia. Much like the Public School that it replaces, the Pioneers Palace increases a city's [ICON_RESEARCH] Science output based on the city's Population. In addition, it also further increases the city's [ICON_RESEARCH] Science output for every two Ideological Tenets that you have adopted. However, it also costs an additional gold maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PIONEERS_PALACE_TEXT">
+			<Text>Young Pioneer Palaces or Palaces of Young Pioneers and Schoolchildren were youth centers designated for the creative work, sport training and extracurricular activities of Young Pioneers and other schoolchildren. Young Pioneer Palaces originated in the Soviet Union (USSR). After the collapse of the Soviet Bloc and the Soviet Union itself, they were transformed into depoliticized youth extracurricular establishments. </Text>
+		</Row>
+		<!--Dummies-->
+		<Row Tag="TXT_KEY_BUILDING_DUMMY_JFD_PIONEERS_PALACE">
+			<Text>Dummy: Pioneers Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DUMMY_JFD_PIONEERS_PALACE_HELP">
+			<Text></Text>
+		</Row>
+		<!--UNIQUE 2-->
+		<Row Tag="TXT_KEY_UNIT_JFD_POPULAR_LEVY">
+			<Text>Popular Levy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_POPULAR_LEVY_HELP">
+			<Text>Cheap but weak replacement for the Great War Infantry that receives production progress when war is declared between you and a Civilization following a different Ideology. May use enemy roads. Only Soviet Russia may train it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_POPULAR_LEVY_STRATEGY">
+			<Text>The Popular Levy is the unique unit for Soviet Russia. Unlike the Great War Infantry that it replaces, the Popular Levy is considerably cheaper, though it is also weaker. When a war is declared between you and a Civilization following a different Ideology, and provided you were at peace, every city receives a boost of [ICON_PRODUCTION] Production toward the training of their next Popular Levy. Popular Levies may also make use of enemy roads, meaning they can quickly be deployed wherever they might be needed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_POPULAR_LEVY_TEXT">
+			<Text>The People's Militia was the name given to irregular troops formed from the population in Russia and later the Soviet Union. They fought behind front lines and alongside the regular army during several wars throughout its history. The People's Militia is of the type known as "national troops" such as the Dnieper Cossacks, or German Landwehr, and although often translated as the "people's militia", "home guard", "people-in-arms", "national popular army", "civilian reserves", "popular levy", "People's Volunteer Army", "national guard...the factory regiments", "bataillons ouvriers", "all men fit to bear arms from their 21st year", like "British Local Defence Volunteers", "a hastily mustered militia, the opolchenie", "a reserve force", "Opolchenie (a kind of "Landsturm")", "home guard militia", "volunteer militia", "territorial army", or "temporary militias composed of mostly peasant 'volunteers'" its members never belonged to an organised military force, but were in all cases selectively accepted from a body of volunteers during a national emergency. </Text>
+		</Row>
+		<!--Promotions-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_POPULAR_LEVY">
+			<Text>May Use Enemy Roads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_POPULAR_LEVY_HELP">
+			<Text>May Use Enemy Roads</Text>
+		</Row>
+		<!--MOD-->
+		<Row Tag="TXT_KEY_MOD_JFD_SOVIET_RUSSIA_LENIN_DESCRIPTION">
+			<Text>SOVIET RUSSIA (VLADIMIR LENIN)[NEWLINE][NEWLINE]UNIQUE TRAIT: PROLETARIAT DICTATORSHIP[NEWLINE]Stone Works, Windmills, Forges, and Factories may be constructed in any city regardless of their terrain or resource requirements. These Buildings grant a burst of [ICON_CULTURE] Culture when completed.[NEWLINE][NEWLINE]UNIQUE BUILDING: PIONEERS PALACE (PUBLIC SCHOOL)[NEWLINE]The Pioneers Palace is the unique building for Soviet Russia. Much like the Public School that it replaces, the Pioneers Palace increases a city's [ICON_RESEARCH] Science output based on the city's Population. In addition, it also further increases the city's [ICON_RESEARCH] Science output for every two Ideological Tenets that you have adopted. However, it also costs an additional gold maintenance.[NEWLINE][NEWLINE]UNIQUE UNIT: POPULAR LEVY (GREAT WAR INFANTRY)[NEWLINE]The Popular Levy is the unique unit for Soviet Russia. Unlike the Great War Infantry that it replaces, the Popular Levy is considerably cheaper, though it is also weaker. When a war is declared between you and a Civilization following a different Ideology, and provided you were at peace, every city receives a boost of [ICON_PRODUCTION] Production toward the training of their next Popular Levy. Popular Levies may also make use of enemy roads, meaning they can quickly be deployed wherever they might be needed.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

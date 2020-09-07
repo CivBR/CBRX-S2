@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="454c179b-9894-4566-885f-47530b57d4cf" version="4">
+  <Properties>
+    <Name>JFD's Civilizations - Soviet Russia (Vladimir Lenin)</Name>
+    <Teaser>Adds [COLOR_CYAN]Soviet Russia under Vladimir Lenin[ENDCOLOR]. Click for details.</Teaser>
+    <Description>SOVIET RUSSIA (VLADIMIR LENIN)[NEWLINE][NEWLINE]UNIQUE TRAIT: PROLETARIAT DICTATORSHIP[NEWLINE]Stone Works, Windmills, Forges, and Factories may be constructed in any city regardless of their terrain or resource requirements. These Buildings grant a burst of [ICON_CULTURE] Culture when completed.[NEWLINE][NEWLINE]UNIQUE BUILDING: PIONEERS PALACE (PUBLIC SCHOOL)[NEWLINE]The Pioneers Palace is the unique building for Soviet Russia. Much like the Public School that it replaces, the Pioneers Palace increases a city's [ICON_RESEARCH] Science output based on the city's Population. In addition, it also further increases the city's [ICON_RESEARCH] Science output for every two Ideological Tenets that you have adopted. However, it also costs an additional gold maintenance.[NEWLINE][NEWLINE]UNIQUE UNIT: POPULAR LEVY (GREAT WAR INFANTRY)[NEWLINE]The Popular Levy is the unique unit for Soviet Russia. Unlike the Great War Infantry that it replaces, the Popular Levy is considerably cheaper, though it is also weaker. When a war is declared between you and a Civilization following a different Ideology, and provided you were at peace, every city receives a boost of [ICON_PRODUCTION] Production toward the training of their next Popular Levy. Popular Levies may also make use of enemy roads, meaning they can quickly be deployed wherever they might be needed.</Description>
+    <Authors>JFD, Janboruta, Leugi</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="9C9E1AFCC3A3A3B38E2F2DC5EF9FEE0D" import="1">Art/Diplomacy/JFD_SovietRussiaLenin_Scene.xml</File>
+    <File md5="09A263E4D71201F2CD0243A797F88D2B" import="1">Art/Diplomacy/JFD_SovietRussiaLenin_Diplo.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Graphics/Popular Levy/no_gloss.dds</File>
+    <File md5="B7BE2BE39F697D37098A67D9C4FDF292" import="1">Art/Graphics/Popular Levy/Paratrooper_Russia.dds</File>
+    <File md5="6C4F81CD447E513C1CB9C67B93E1152B" import="1">Art/Graphics/Popular Levy/Paratrooper_Russia_MG.fxsxml</File>
+    <File md5="02C374ACBEC512B969F637CA29870370" import="1">Art/Graphics/Popular Levy/Paratrooper_Russia_MG.gr2</File>
+    <File md5="B926DBDF74D1140F37D0F4C5C42E1C29" import="1">Art/Graphics/Popular Levy/sv_PopularLevy.dds</File>
+    <File md5="0701CD5E8688869B9124A6D89DCC029C" import="1">Art/Icons/JFD_SovietRussiaLenin_AlphaAtlas_128.dds</File>
+    <File md5="E82389FF42E939F121D03D65E5F80D58" import="1">Art/Icons/JFD_SovietRussiaLenin_AlphaAtlas_16.dds</File>
+    <File md5="1DF9916168DBEBB1D4131FB59B6E7F4B" import="1">Art/Icons/JFD_SovietRussiaLenin_AlphaAtlas_24.dds</File>
+    <File md5="9208036AFA7B434F35E48DAB5D7B9E47" import="1">Art/Icons/JFD_SovietRussiaLenin_AlphaAtlas_32.dds</File>
+    <File md5="2E537A26F92F5EEF2FD8955D91A5BDEA" import="1">Art/Icons/JFD_SovietRussiaLenin_AlphaAtlas_45.dds</File>
+    <File md5="FAE7F807C6CB2ABD45061F44E8CD017A" import="1">Art/Icons/JFD_SovietRussiaLenin_AlphaAtlas_48.dds</File>
+    <File md5="510BF1427AE9DD90AFC244F24AA7CD19" import="1">Art/Icons/JFD_SovietRussiaLenin_AlphaAtlas_64.dds</File>
+    <File md5="242D5EBD36F14E4067AFB262E905BB62" import="1">Art/Icons/JFD_SovietRussiaLenin_AlphaAtlas_80.dds</File>
+    <File md5="9F33C6D32BA8D3EC5D84200EF77E36A8" import="1">Art/Icons/JFD_SovietRussiaLenin_IconAtlas_128.dds</File>
+    <File md5="FA3C5D1640984A4EEED45400D6A74F74" import="1">Art/Icons/JFD_SovietRussiaLenin_IconAtlas_256.dds</File>
+    <File md5="17FFFEDB4DD3253841BC40B980B9AFD9" import="1">Art/Icons/JFD_SovietRussiaLenin_IconAtlas_32.dds</File>
+    <File md5="7A3FAD2C9CC2B94208B521B22558E027" import="1">Art/Icons/JFD_SovietRussiaLenin_IconAtlas_45.dds</File>
+    <File md5="4B560FE925C033CFA84850573B5FF7AF" import="1">Art/Icons/JFD_SovietRussiaLenin_IconAtlas_64.dds</File>
+    <File md5="C2FF7E58190FC8787FBD2ABE64BA7C8F" import="1">Art/Icons/JFD_SovietRussiaLenin_IconAtlas_80.dds</File>
+    <File md5="4881060050D47D51C274FEB96CEF6880" import="1">Art/Icons/JFD_SovietRussiaLenin_UnitFlagAtlas_32.dds</File>
+    <File md5="1B104BBB6077387A2D57B262E1D971C2" import="1">Art/Maps/JFD_MapSovietRussiaLenin512.dds</File>
+    <File md5="ACB15C726718F29B24872EF503271DC3" import="1">Art/Maps/JFD_DOM_SovietRussiaLenin.dds</File>
+    <File md5="98AC42DA699F92683122418E611D58F9" import="1">Audio/JFD_SovietRussiaLenin_Peace.mp3</File>
+    <File md5="2418B4863C5C02DC347A21F1CD6FCF19" import="1">Audio/JFD_SovietRussiaLenin_War.mp3</File>
+    <File md5="D16AFF70D23CBB0C60460ADAF8CE5B9B" import="0">Core/SovietRussiaLenin_ArtDefines.sql</File>
+    <File md5="09F40AD37D1B27818BD9C73B75D1A34E" import="0">Core/SovietRussiaLenin_GameDefines.sql</File>
+    <File md5="CF9A223D5CBF0586E9231AC5FA83E5E1" import="0">Core/SovietRussiaLenin_GameText.xml</File>
+    <File md5="C4E789BACB83FD71DC7E86836B1638FF" import="0">Core/SovietRussiaLenin_ModSupport.sql</File>
+    <File md5="966B2C49145C6104FA851CDB51255481" import="0">Credits.txt</File>
+    <File md5="DB1D7706D1B58ECA4D0F099590AF2873" import="0">Lua/JFD_Civs_SovietRussiaLenin_Functions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/SovietRussiaLenin_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SovietRussiaLenin_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SovietRussiaLenin_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/SovietRussiaLenin_ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Civs_SovietRussiaLenin_Functions.lua">
+      <Name>JFD_Civs_SovietRussiaLenin_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
