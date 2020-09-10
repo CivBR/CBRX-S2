@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_AXISMUNDI</Type>
+			<Description>TXT_KEY_BELIEF_AXISMUNDI</Description>
+			<ShortDescription>TXT_KEY_BELIEF_AXISMUNDI_SHORT</ShortDescription>
+			<Founder>true</Founder>
+			<SpreadStrengthModifier>5</SpreadStrengthModifier>
+		</Row>
+	</Beliefs>
+
+   <Buildings>
+		<Row>
+			<Type>BUILDING_PALACE</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<ReligiousPressureModifier>40</ReligiousPressureModifier>
+		</Row>
+	</Buildings>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_AXISMUNDI">
+			<Text>40% religious pressure from the Holy City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_AXISMUNDI_SHORT">
+			<Text>Axis Mundi</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>
