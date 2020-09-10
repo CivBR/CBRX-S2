@@ -4,7 +4,7 @@
 	
 	<Beliefs>
 		<Update>
-			<Set Founder="false" Reformation="true" SpreadStrengthModifier="30" />
+			<Set Founder="false" Reformation="true" SpreadStrengthModifier="25" />
 			<Where Type="BELIEF_WORLD_CHURCH" />
 		</Update>
 	</Beliefs>
@@ -25,7 +25,7 @@
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_WORLD_CHURCH" />
 		<Row Tag="TXT_KEY_BELIEF_WORLD_CHURCH">
-			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production for every 5 followers of this Religion in foreign Cities and Religion spreads 30% faster</Text>
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production for every 5 followers of this Religion in foreign Cities and Religion spreads 25% faster</Text>
 		</Row>
 	</Language_en_US>
 
