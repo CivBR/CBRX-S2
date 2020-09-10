@@ -5,7 +5,7 @@
 	<!-- +1 Science per 3 Followers in foreign cities and religion spreads 30% further away --> 
 	<Beliefs>
 		<Update>
-			<Set SpyPressure="0" SpreadDistanceModifier="30" />
+			<Set SpyPressure="0" SpreadDistanceModifier="25" />
 			<Where Type="BELIEF_UNDERGROUND_SECT" />
 		</Update>
 	</Beliefs>
@@ -21,7 +21,7 @@
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_UNDERGROUND_SECT" />
 		<Row Tag="TXT_KEY_BELIEF_UNDERGROUND_SECT">
-			<Text>+1 [ICON_RESEARCH] Science for every 4 followers of this Religion in foreign Cities and Religion spreads 30% further away</Text>
+			<Text>+1 [ICON_RESEARCH] Science for every 4 followers of this Religion in foreign Cities and Religion spreads 25% further away</Text>
 		</Row>
 	</Language_en_US>
 
