@@ -8,7 +8,7 @@
 			<Description>TXT_KEY_BELIEF_JUST_WAR</Description>
 			<ShortDescription>TXT_KEY_BELIEF_JUST_WAR_SHORT</ShortDescription>
 			<Enhancer>true</Enhancer>
-			<CombatModifierEnemyCities>25</CombatModifierEnemyCities>
+			<CombatModifierEnemyCities>22</CombatModifierEnemyCities>
 		</Row>
 	</Beliefs>
 	
@@ -16,7 +16,7 @@
 	<Delete Tag="TXT_KEY_BELIEF_JUST_WAR" />
 		<Delete Tag="TXT_KEY_BELIEF_JUST_WAR_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_JUST_WAR">
-			<Text>25% Combat Strength near enemy Cities that follow this Religion.</Text>
+			<Text>22% Combat Strength near enemy Cities that follow this Religion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_JUST_WAR_SHORT">
 			<Text>Just War</Text>
