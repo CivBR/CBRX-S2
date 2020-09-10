@@ -7,7 +7,7 @@
 			<Description>TXT_KEY_BELIEF_TELEVANGELISM</Description>
 			<ShortDescription>TXT_KEY_BELIEF_TELEVANGELISM_SHORT</ShortDescription>
 			<Enhancer>true</Enhancer>
-			<SpreadDistanceModifier>30</SpreadDistanceModifier>
+			<SpreadDistanceModifier>25</SpreadDistanceModifier>
 		</Row>
 	</Beliefs>
 
@@ -29,7 +29,7 @@
 	<Language_en_US>
 	  <Delete Tag="TXT_KEY_BELIEF_TELEVANGELISM" />
 		<Row Tag="TXT_KEY_BELIEF_TELEVANGELISM">
-			<Text>Can purchase Broadcast Towers and they provide +2 [ICON GOLD] Gold and +2 [ICON_PEACE]. In addition, religion spreads 30% further away.</Text>
+			<Text>Can purchase Broadcast Towers and they provide +2 [ICON GOLD] Gold and +2 [ICON_PEACE]. In addition, religion spreads 25% further away.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_TELEVANGELISM_SHORT">
 			<Text>Televangelism</Text>
