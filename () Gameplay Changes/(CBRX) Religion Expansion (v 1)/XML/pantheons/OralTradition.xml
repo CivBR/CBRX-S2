@@ -8,7 +8,7 @@
 			<Description>TXT_KEY_BELIEF_ORAL_TRADITION</Description>
 			<ShortDescription>TXT_KEY_BELIEF_ORAL_TRADITION_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
-			<SpreadStrengthModifier>20</SpreadStrengthModifier>
+			<SpreadStrengthModifier>15</SpreadStrengthModifier>
 		</Row>
 	</Beliefs>
 
@@ -16,7 +16,7 @@
 		<Delete Tag="TXT_KEY_BELIEF_ORAL_TRADITION" />
 		<Delete Tag="TXT_KEY_BELIEF_ORAL_TRADITION_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION">
-			<Text>Religion spreads 20% faster.</Text>
+			<Text>Religion spreads 15% faster.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION_SHORT">
 			<Text>Oral Tradition</Text>
