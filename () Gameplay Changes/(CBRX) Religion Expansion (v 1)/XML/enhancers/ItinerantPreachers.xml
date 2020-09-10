@@ -9,7 +9,7 @@
 		<Description>TXT_KEY_BELIEF_ITINERANT_PREACHERS</Description>
 		<ShortDescription>TXT_KEY_BELIEF_ITINERANT_PREACHERS_SHORT</ShortDescription>
 		<Enhancer>true</Enhancer>
-		<SpreadDistanceModifier>35</SpreadDistanceModifier>
+		<SpreadDistanceModifier>30</SpreadDistanceModifier>
 	</Row>
   </Beliefs>
   
@@ -17,7 +17,7 @@
 	  <Delete Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS" />
 		<Delete Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS_SHORT" />
 		<Row Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS">
-			<Text>Religion spreads to cities 35% further away.</Text>
+			<Text>Religion spreads to cities 30% further away.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS_SHORT">
 			<Text>Holy Order</Text>
