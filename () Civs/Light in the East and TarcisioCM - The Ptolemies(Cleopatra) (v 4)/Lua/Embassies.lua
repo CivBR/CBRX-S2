@@ -65,7 +65,7 @@ function GrantUABonus(pPlayer, pOtPlayer)
 		iHighestYieldQt = GetGoldTooltip(pCapital)
 		eHighestYieldTp = eGold
 	end
-	return eHighestYieldTp, math.floor(iHighestYieldQt * 0.025)
+	return eHighestYieldTp, math.floor(iHighestYieldQt * 0.03)
 end
 
 
