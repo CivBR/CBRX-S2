@@ -331,7 +331,26 @@ function populateFromReplay()
   logger:info("Sheeeeit! That took " .. elapsedTime(timer));
 end;
 
+local g_Policies_Dummy_Table = {}
+local g_Policies_Dummy_Count = 1
+for row in DB.Query("SELECT ID FROM Policies WHERE PolicyBranchType IS NULL;") do 	
+	g_Policies_Dummy_Table[g_Policies_Dummy_Count] = row
+	g_Policies_Dummy_Count = g_Policies_Dummy_Count + 1
+end
 
+function Lime_GetPolicies(player)
+	local bigPolicyNumber = player:GetNumPolicies()
+	local policiesTable = g_Policies_Dummy_Table
+	local numPolicies = #policiesTable
+	for index = 1, numPolicies do
+		local row = policiesTable[index]
+		local policyID = row.ID
+		if player:HasPolicy(policyID) then
+			bigPolicyNumber = bigPolicyNumber - 1
+		end
+	end
+	return bigPolicyNumber
+end
 
 function Lime_GetInfluentialLevel(player, level)
 	local count = 0
@@ -393,7 +412,7 @@ function SavePlayerDataTurnEnd(turn)
       stats.numcities = pPlayer:GetNumCities();
       stats.wonders = pPlayer:GetNumWorldWonders();
       stats.techs = pTeam:GetTeamTechs():GetNumTechsKnown();
-      stats.policies = pPlayer:GetNumPolicies();
+      stats.policies = Lime_GetPolicies(pPlayer);
       stats.totalgold = pPlayer:GetGold();
       stats.faith = pPlayer:GetFaith();
       stats.faithperturn = pPlayer:GetFaithPerTurnFromCities() + pPlayer:GetFaithPerTurnFromMinorCivs() +
