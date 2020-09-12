@@ -213,6 +213,11 @@ end
 local iFishBoats = GameInfoTypes["IMPROVEMENT_FISHING_BOATS"]
 local iOilPlatform = GameInfoTypes["IMPROVEMENT_OFFSHORE_PLATFORM"]
 
+local tGPImps = {}
+for row in DB.Query("SELECT * FROM Improvements WHERE CreatedByGreatPerson = 1") do
+	tGPImps[row.ID] = true
+end
+
 function SM_KakJapan_ConstructionBonus(playerID, plotX, plotY, improvementID)
 	--print ("SM_KakJapan_ConstructionBonus activated")
 	local pPlayer = Players[playerID]
@@ -221,10 +226,9 @@ function SM_KakJapan_ConstructionBonus(playerID, plotX, plotY, improvementID)
 		local pPlotCity = SM_Neirai_GetNearestCity(pPlayer, pPlot)
 		local pDebugName = pPlotCity:GetName()
 		local CityProduction = 0
-		if ((improvementID == iFishBoats) or (improvementID == iOilPlatform) or (GameInfo.Improvements[improvementID].CreatedByGreatPerson == true)) then
+		if improvementID == -1 then return end
+		if ((improvementID == iFishBoats) or (improvementID == iOilPlatform) or tGPImps[improvementID] then
 			CityProduction = ((pPlotCity:GetYieldRate(GameInfoTypes["YIELD_PRODUCTION"])) / 2)
-		elseif improvementID == -1 then
-			return
 		else
 			CityProduction = pPlotCity:GetYieldRate(GameInfoTypes["YIELD_PRODUCTION"])
 		end
