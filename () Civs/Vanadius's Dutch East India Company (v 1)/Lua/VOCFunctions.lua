@@ -58,11 +58,11 @@ end
 local iCiv = GameInfoTypes["CIVILIZATION_VANA_VOC"]
 local iEastIndiaman = GameInfoTypes["UNIT_VANA_EASTINDIAMAN"]
 local iEastIndiamanClass = GameInfoTypes[GameInfo.Units[iEastIndiaman].Class]
-local iPromotion = GameInfoTypes.PROMOTION_VANA_EASTINDIAMAN_BONUS
-
+local iPromotion = GameInfoTypes["PROMOTION_VANA_EASTINDIAMAN_BONUS"]
+local iMaxMajors = GameDefines.MAX_MAJOR_CIVS
 
 function VOCUnit(iPlayer, iUnitID)
-	if iPlayer < GameDefines.MAX_MAJOR_CIVS then
+	if iPlayer < iMaxMajors then
 	local pPlayer = Players[iPlayer]
 	local pUnit = pPlayer:GetUnitByID(iUnitID)
 		if pUnit:GetUnitType() == iEastIndiaman then
@@ -83,6 +83,10 @@ GameEvents.UnitSetXY.Add(VOCUnit)
 -->--------> SHARED MOVEMENT <---------<--
 ------------------------------------------
 
+local iNavalMelee = GameInfoTypes["UNITCOMBAT_NAVALMELEE"]
+local iNavalRanged = GameInfoTypes["UNITCOMBAT_NAVALRANGED"]
+local iOpperhoofd = GameInfoTypes["UNIT_VANA_OPPERHOOFD"]
+
 -- When a Opperhoofd moves onto a new tile, does it have a naval unit on it?
 -- If so, then its new movement points number is that naval unit's default moves minus the number of moves used by the Opperhoofd already.
 -- If not, then the Opperhoofd reverts to its old movement points: 2 (the default) minus number used.
@@ -90,13 +94,13 @@ GameEvents.UnitSetXY.Add(
 function(iPlayer, iUnit, iX, iY)
 	local pPlayer = Players[iPlayer]
 	local pUnit = pPlayer:GetUnitByID(iUnit)
-	if not (pUnit:GetUnitType() == GameInfoTypes.UNIT_VANA_OPPERHOOFD) then return end
+	if not (pUnit:GetUnitType() == iOpperhoofd) then return end
 	local pPlot = pUnit:GetPlot()
 	if (pPlot:GetNumUnits() < 2) then return end 
 	for i = 0, pPlot:GetNumUnits() - 1 do
 		mUnit = pPlot:GetUnit(i)
 		if not (mUnit == pUnit) then
-			if (mUnit:GetUnitCombatType() == GameInfoTypes.UNITCOMBAT_NAVALRANGED) or (mUnit:GetUnitCombatType() == GameInfoTypes.UNITCOMBAT_NAVALMELEE) then
+			if (mUnit:GetUnitCombatType() == iNavalRanged) or (mUnit:GetUnitCombatType() == iNavalMelee) then
 				pUnit:SetMoves(mUnit:MovesLeft())
 			else
 				local iMoves = DefaultMoves(pUnit)
@@ -117,8 +121,8 @@ GameEvents.PlayerDoTurn.Add(
 function(iPlayer)
 	local pPlayer = Players[iPlayer]
 	for pUnit in pPlayer:Units() do
-		if not (pUnit:GetUnitType() == GameInfoTypes.UNIT_VANA_OPPERHOOFD) then return end		
-		if (pUnit:GetPlot():GetUnit():GetUnitCombatType() == GameInfoTypes.UNITCOMBAT_NAVALRANGED) or (pUnit:GetUnitCombatType() == GameInfoTypes.UNITCOMBAT_NAVALMELEE) then
+		if not (pUnit:GetUnitType() == iOpperhoofd) then return end		
+		if (pUnit:GetPlot():GetUnit():GetUnitCombatType() == iNavalRanged) or (pUnit:GetUnitCombatType() == iNavalMelee) then
 			pUnit:SetMoves(GameInfo.Units[pUnit:GetPlot():GetUnit():GetUnitType()].Moves)
 		end
 	end
@@ -129,37 +133,63 @@ end)
 -->--------> CITY CAPTURE SPICE (Based on a section of the Afsharid UA) <--------<--
 ------------------------------------------------------------------------------------
 
+local tVOCDummies = {}
+for i = 1, 4, 1 do
+	tVOCDummies[i] = GameInfoTypes["BUILDING_VANA_DVOC_"..i]
+end
+
 function VOCSpices_CityCapture(oldOwnerID, isCapital, iX, iY, newOwnerID, iPop, bConquest)
 	local player = Players[newOwnerID]
 	local city = Map.GetPlot(iX, iY):GetPlotCity()
 	local iPreviousOwner = city:GetPreviousOwner()
-	if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_VANA_VOC"] then
+	if player:GetCivilizationType() == iCiv then
 		if oldOwnerID ~= newOwnerID then
 			if oldOwnerID == iPreviousOwner then
 				if JFD_GetRandom(1,100) <= 100 then
 					local random = Map.Rand(3, "Random VOC Spices Lua")
 					if random == 0 then
-						if (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_1"]) < 1) and (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_2"]) < 1) and (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_3"]) < 1) and (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_4"]) < 1) then
-							city:SetNumRealBuilding(GameInfoTypes["BUILDING_VANA_DVOC_1"], 1)
+						local bIsValid = true
+						for i = 1, 4, 1 do
+							if city:GetNumBuilding(tVOCDummies[i]) >= 1 then
+								bIsValid = false
+								break
+							end
+						end
+						if bIsValid then
+							city:SetNumRealBuilding(tVOCDummies[1])
 							if player:IsHuman() then
 								Events.GameplayAlertMessage(Locale.ConvertTextKey("We have secured new land for [ICON_RES_PEPPER] [COLOR_POSITIVE_TEXT]Pepper[ENDCOLOR] production!"))
 							end
 						end
 					elseif random == 1 then
-						if (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_1"]) < 1) and (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_2"]) < 1) and (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_3"]) < 1) and (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_4"]) < 1) then
-							city:SetNumRealBuilding(GameInfoTypes["BUILDING_VANA_DVOC_2"], 1)
+						local bIsValid = true
+						for i = 1, 4, 1 do
+							if city:GetNumBuilding(tVOCDummies[i]) >= 1 then
+								bIsValid = false
+								break
+							end
+						end
+						if bIsValid then
+							city:SetNumRealBuilding(tVOCDummies[2])
 							if player:IsHuman() then
 								Events.GameplayAlertMessage(Locale.ConvertTextKey("We have secured new land for [ICON_RES_CLOVES] [COLOR_POSITIVE_TEXT]Cloves[ENDCOLOR] production!"))
 							end
 						end
 					elseif random == 2 then
-						if (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_1"]) < 1) and (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_2"]) < 1) and (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_3"]) < 1) and (city:GetNumBuilding(GameInfoTypes["BUILDING_VANA_DVOC_4"]) < 1) then
-							city:SetNumRealBuilding(GameInfoTypes["BUILDING_VANA_DVOC_3"], 1)
+						local bIsValid = true
+						for i = 1, 4, 1 do
+							if city:GetNumBuilding(tVOCDummies[i]) >= 1 then
+								bIsValid = false
+								break
+							end
+						end
+						if bIsValid then
+							city:SetNumRealBuilding(tVOCDummies[3])
 							if player:IsHuman() then
 								Events.GameplayAlertMessage(Locale.ConvertTextKey("We have secured new land for [ICON_RES_NUTMEG] [COLOR_POSITIVE_TEXT]Nutmeg[ENDCOLOR] production!"))
 							end
 						else
-							city:SetNumRealBuilding(GameInfoTypes["BUILDING_VANA_DVOC_4"], 1)
+							city:SetNumRealBuilding(tVOCDummies[4], 1)
 							if player:IsHuman() then
 								Events.GameplayAlertMessage(Locale.ConvertTextKey("We have secured new land for [ICON_RES_SPICES] [COLOR_POSITIVE_TEXT]Spices[ENDCOLOR] production!"))
 							end
@@ -259,6 +289,10 @@ function VOC_CheckGM(city)
 	return false
 end
 
+local tLuxes = {}
+for row in DB.Query("SELECT * FROM Resources WHERE ResourceClassType = 'RESOURCECLASS_LUXURY'") do
+	tLuxes[row.ID] = true
+end
 
 function VOC_DummyBuildingUpdate(playerID)
 	local pPlayer = Players[playerID]
@@ -270,7 +304,7 @@ function VOC_DummyBuildingUpdate(playerID)
 		if VOC_CheckGM(city) then
 		local numLuxs	= 0
 			for loopPlot in PlotAreaSweepIterator(cityPlot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
-				if (city:IsWorkingPlot(loopPlot) and (loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_PEARLS or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_GOLD or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_SILVER or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_GEMS or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_MARBLE or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_IVORY or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_FUR or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_DYE or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_SPICES or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_SILK or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_SUGAR or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_COTTON or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_WINE or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_INCENSE or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_JEWELRY or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_PORCELAIN or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_COPPER or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_SALT or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_CRAB or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_TRUFFLES or loopPlot:GetResourceType() == GameInfoTypes.RESOURCE_CITRUS)) then
+				if city:IsWorkingPlot(loopPlot) and tLuxes[loopPlot:GetResourceType()] then
 					numLuxs = numLuxs + 1
 				end
 			end
