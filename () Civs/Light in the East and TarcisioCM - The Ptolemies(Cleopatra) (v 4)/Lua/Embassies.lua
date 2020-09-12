@@ -1,4 +1,4 @@
---UA: Embassies established in your Capital grant X% of their Capital’s highest yield. Receive an amount of Culture when signing a deal with another Civilization.
+--UA: Embassies established in your Capital grant X% of their Capitalâ€™s highest yield. Receive an amount of Culture when signing a deal with another Civilization.
 
 local ePtolemies = GameInfoTypes["CIVILIZATION_LITE_TARCISIO_PTOLEMIES"]
 
@@ -65,7 +65,7 @@ function GrantUABonus(pPlayer, pOtPlayer)
 		iHighestYieldQt = GetGoldTooltip(pCapital)
 		eHighestYieldTp = eGold
 	end
-	return eHighestYieldTp, math.floor(iHighestYieldQt * 0.05)
+	return eHighestYieldTp, math.floor(iHighestYieldQt * 0.025)
 end
 
 
