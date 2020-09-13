@@ -38,9 +38,14 @@ SELECT	('BUILDING_SENSHI_TESO_INFINITE'),	YieldType,		Yield
 FROM Building_YieldChanges WHERE (BuildingType = 'BUILDING_SHRINE');
 
 
+INSERT INTO BuildingClasses
+(Type, DefaultBuilding, Description)
+SELECT 'BUILDINGCLASS_SENSHI_TESO_'||e.Type, 'BUILDING_SENSHI_TESO_'||e.Type, 'TXT_KEY_BUILDING_SENSHI_TESO'
+FROM Eras WHERE NOT (Type = 'ERA_ANCIENT');
+
 INSERT INTO Buildings
 (Type,                                 BuildingClass,       Cost, Espionage, EspionageModifier, SpecialistType, SpecialistCount, GoldMaintenance, PrereqTech,    Description,            Help,                                     Civilopedia,      Strategy,      ArtDefineTag, MinAreaSize, NeverCapture, Espionage, EspionageModifier, HurryCostModifier, PortraitIndex, IconAtlas)
-SELECT 'BUILDING_SENSHI_TESO_'||e.Type,    b.BuildingClass, b.Cost, b.Espionage, b.EspionageModifier, b.SpecialistType, b.SpecialistCount, b.GoldMaintenance,  b.PrereqTech,   b.Description,  b.Help,    b.Civilopedia,    b.Strategy,    b.ArtDefineTag, b.MinAreaSize, b.NeverCapture, b.Espionage, b.EspionageModifier, b.HurryCostModifier, b.PortraitIndex, b.IconAtlas
+SELECT 'BUILDING_SENSHI_TESO_'||e.Type,    'BUILDINGCLASS_SENSHI_TESO_'||e.Type, b.Cost, b.Espionage, b.EspionageModifier, b.SpecialistType, b.SpecialistCount, b.GoldMaintenance,  b.PrereqTech,   b.Description,  b.Help,    b.Civilopedia,    b.Strategy,    b.ArtDefineTag, b.MinAreaSize, b.NeverCapture, b.Espionage, b.EspionageModifier, b.HurryCostModifier, b.PortraitIndex, b.IconAtlas
 FROM Eras e, Buildings b WHERE (b.Type = 'BUILDING_SENSHI_TESO') AND NOT (e.Type = 'ERA_ANCIENT');
 
 INSERT INTO Building_Flavors
@@ -57,9 +62,13 @@ FROM Eras e, Building_YieldChanges b WHERE (b.BuildingType = 'BUILDING_SENSHI_TE
 CREATE TRIGGER IF NOT EXISTS Senshi_NewEraTesoInsert
 AFTER INSERT ON Eras
 BEGIN
+INSERT INTO BuildingClasses
+(Type,	DefaultBuilding,	Description)
+VALUES ('BUILDINGCLASS_SENSHI_TESO_'||NEW.Type, 'BUILDING_SENSHI_TESO_'||NEW.Type, 'TXT_KEY_BUILDING_SENSHI_TESO');
+
 INSERT INTO Buildings
 (Type,                                 BuildingClass,       Cost, Espionage, EspionageModifier, SpecialistType, SpecialistCount, GoldMaintenance, PrereqTech,    Description,            Help,                                     Civilopedia,      Strategy,      ArtDefineTag, MinAreaSize, NeverCapture, Espionage, EspionageModifier, HurryCostModifier, PortraitIndex, IconAtlas)
-SELECT 'BUILDING_SENSHI_TESO_'||NEW.Type,    BuildingClass, Cost, Espionage, EspionageModifier, SpecialistType, SpecialistCount, GoldMaintenance,  PrereqTech,   Description,  Help,    Civilopedia,    Strategy,    ArtDefineTag, MinAreaSize, NeverCapture, Espionage, EspionageModifier, HurryCostModifier, PortaitIndex, IconAtlas
+SELECT 'BUILDING_SENSHI_TESO_'||NEW.Type,    'BUILDINGCLASS_SENSHI_TESO_'||NEW.Type, Cost, Espionage, EspionageModifier, SpecialistType, SpecialistCount, GoldMaintenance,  PrereqTech,   Description,  Help,    Civilopedia,    Strategy,    ArtDefineTag, MinAreaSize, NeverCapture, Espionage, EspionageModifier, HurryCostModifier, PortaitIndex, IconAtlas
 FROM Buildings WHERE (Type = 'BUILDING_SENSHI_TESO');
 
 INSERT INTO Building_Flavors
