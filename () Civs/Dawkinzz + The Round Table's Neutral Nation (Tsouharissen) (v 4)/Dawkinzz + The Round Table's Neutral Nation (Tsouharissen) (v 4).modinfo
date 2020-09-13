@@ -69,7 +69,7 @@ Requires Brave New World</Description>
     <File md5="C0F1B4E89245DE3589A361F1F60607E0" import="1">Art/Flint/sv_Flint.dds</File>
     <File md5="5878EE62E9B83C36F0888CE0DD37D693" import="0">Core/DeleteMissingReferences.xml</File>
     <File md5="670A0A6B63C691BF7E92D3FA4F494CD4" import="0">Core/Neutral_ArtDefines.sql</File>
-    <File md5="C4323DE06AAD63A1C2CE6A58EA0B1F52" import="0">Core/Neutral_GameDefines.sql</File>
+    <File md5="8E6B2A3177831BE75C06A1542AABECC6" import="0">Core/Neutral_GameDefines.sql</File>
     <File md5="7675EBEEBB7F09AE23C4C59217BAAE58" import="0">Core/Neutral_GameText.xml</File>
     <File md5="B2F5528C8EE07DAFD5BA7F7DFA8C7776" import="0">Core/Neutral_ModSupport.sql</File>
     <File md5="5A584A3062BE6EEBD9172DB27762CFDB" import="0">Credits.txt</File>
