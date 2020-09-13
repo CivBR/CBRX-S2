@@ -274,7 +274,7 @@ VALUES	('BUILDINGCLASS_LIME_NEUTRAL_1', 	'BUILDING_NEUTRAL_MILITARY_PRODUCTION_D
 -- Buildings
 ------------------------------	
 INSERT INTO Buildings
-		(Type,						Description,						Civilopedia,							Help,									Strategy,									BuildingClass,	Cost,	GoldMaintenance,	PrereqTech,		ArtDefineTag,	MinAreaSize,	NeverCapture,	HurryCostModifier,	PortraitIndex,	IconAtlas,			TrainedFreePromotion)
+		(Type,						Description,						Civilopedia,							Help,									Strategy,									BuildingClass,	Cost,	GoldMaintenance,	PrereqTech,		ArtDefineTag,	MinAreaSize,	NeverCapture,	HurryCostModifier,	PortraitIndex,	IconAtlas,			FreePromotion)
 SELECT	'BUILDING_EW_TATTOOIST',	'TXT_KEY_BUILDING_EW_TATTOOIST',	'TXT_KEY_BUILDING_EW_TATTOOIST_PEDIA',	'TXT_KEY_BUILDING_EW_TATTOOIST_HELP',	'TXT_KEY_BUILDING_EW_TATTOOIST_STRATEGY', 	BuildingClass, 	Cost, 	GoldMaintenance, 	PrereqTech, 	ArtDefineTag, 	MinAreaSize, 	1, 				HurryCostModifier, 	3, 				'ATLAS_RT_NEUTRAL',	'PROMOTION_EW_WAR_TATTOO'
 FROM Buildings WHERE Type = 'BUILDING_FORGE';
 

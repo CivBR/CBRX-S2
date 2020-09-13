@@ -151,6 +151,7 @@ function EW_Lime_ResistanceSpawn(playerID)
 					if team:IsHasTech(techOptics) then
 						table.insert(promotions, "PROMOTION_EMBARKATION")
 					end
+					table.insert(promotions, "PROMOTION_EW_NEUTRALITY")
 					SpawnAtPlot(player, iChosenType, city:GetX(), city:GetY(), 0, 0, "NO_NAME", promotions)
 					--dprint("Placed a " .. unitType)
 					placedUnit = true
@@ -169,6 +170,7 @@ function EW_Lime_ResistanceSpawn(playerID)
 					end
 				end
 				--tprint(promotions)
+				table.insert(promotions, "PROMOTION_EW_NEUTRALITY")
 				SpawnAtPlot(player, iChosenType, city:GetX(), city:GetY(), 0, 0, "NO_NAME", promotions)
 
 				--dprint("Placed a " .. unitType)
