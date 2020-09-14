@@ -78,6 +78,7 @@ local unitChonnonton = GameInfoTypes["UNIT_EW_CHONNONTON"]
 local resourceFlint = GameInfoTypes["RESOURCE_EW_FLINT"]
 local resourceIron = GameInfoTypes["RESOURCE_IRON"]
 local buildingTattooist = GameInfoTypes["BUILDING_EW_TATTOOIST"]
+local promotionCityAttack = GameInfoTypes["PROMOTION_EW_WAR_TATTOO"]
 local dummy_buildingMilitaryProduction = GameInfoTypes["BUILDING_NEUTRAL_MILITARY_PRODUCTION_DUMMY"]
 local techOptics = GameInfoTypes["TECH_OPTICS"]
 local techAstronomy = GameInfoTypes["TECH_ASTRONOMY"]
@@ -378,6 +379,18 @@ GameEvents.UnitSetXY.Add(Lime_Neutral_GiveUpgradeChonnonton)
 ----------------------------------------------------------------------------------------------------------------------------
 -- TATTOOIST
 ----------------------------------------------------------------------------------------------------------------------------
+
+function ManuallyGiveFreeTattooPromo(playerID, cityID, unitID)
+	local pPlayer = Players[playerID]
+	local pCity = pPlayer:GetCityByID(cityID)
+	if pCity:IsHasBuilding(buildingTattooist) then
+		local pUnit = pPlayer:GetUnitByID(unitID)
+		if pUnit:IsCombatUnit() then
+			pUnit:SetHasPromotion(promotionCityAttack, true)
+		end
+	end
+end
+GameEvents.CityTrained.Add(ManuallyGiveFreeTattooPromo)
 
 function EW_RemovePenalty(playerID, unitID, ewX, ewY)
 	local player = Players[playerID]
