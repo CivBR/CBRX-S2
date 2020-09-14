@@ -51,10 +51,12 @@ local iNumDirections = DirectionTypes.NUM_DIRECTION_TYPES - 1
 function SenshiChukchiPromotion(playerID, unitID)
   local pPlayer = Players[playerID]
   local pUnit = pPlayer:GetUnitByID(unitID)
+  if Game.GetGameTurn() < 2 then return end
 
   -- promoted Chukchi units provide culture and damage adjacent enemies
   if pPlayer:GetCivilizationType() == iCiv then
-    pPlayer:ChangeJONSCulture(pUnit:GetExperience())
+    local iCultChange = math.max(0, (pUnit:GetExperience() - 30))
+    pPlayer:ChangeJONSCulture(iCultChange)
     local pPlot = pUnit:GetPlot()
     for iDirection = 0, iNumDirections, 1 do
       local pAdjPlot = Map.PlotDirection(pPlot:GetX(), pPlot:GetY(), iDirection)
