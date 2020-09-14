@@ -11,11 +11,11 @@ local promotionMoveAfterAttacking = GameInfoTypes["PROMOTION_CAN_MOVE_AFTER_ATTA
 function GreaterEurope_UBoatSunkShip(playerID, unitID)
 	local player = Players[playerID]
 	local unit = player:GetUnitByID(unitID)
-	if unit:GetUnitType() == unitCargoShip then	
+	if unit:GetUnitType() == unitCargoShip then
 		local plot = unit:GetPlot()
 		local enemyUnit = plot:GetUnit()
 		if (not enemyUnit) then return end
-		if enemyUnit:GetUnitType() == unitGEUboat then	
+		if enemyUnit:GetUnitType() == unitGEUboat then
 			enemyUnit:ChangeExperience(15)
 			enemyUnit:ChangeDamage(-30)
 		end
@@ -27,9 +27,9 @@ function GreaterEurope_UBoatBlockade(playerID)
 	local player = Players[playerID]
 	if player:GetUnitClassCount(unitClassSubmarine) > 0 then
 		for unit in player:Units() do
-			if unit:GetUnitType() == unitGEUboat then	
+			if unit:GetUnitType() == unitGEUboat then
 				local plot = unit:GetPlot()
-				local city = plot:GetWorkingCity()	
+				local city = plot:GetWorkingCity()
 				if city ~= nil then
 					if city:IsPlotBlockaded(plot) then
 						unit:SetHasPromotion(promotionMoveAfterAttacking, true)
@@ -49,9 +49,9 @@ function GreaterEurope_UBoatBlockade_2(playerID, unitID, unitX, unitY)
 	local player = Players[playerID]
 	if player:GetUnitClassCount(unitClassSubmarine) > 0 then
 		local unit = player:GetUnitByID(unitID)
-		if unit:GetUnitType() == unitGEUboat then	
+		if unit:GetUnitType() == unitGEUboat then
 			local plot = unit:GetPlot()
-			local city = plot:GetWorkingCity()	
+			local city = plot:GetWorkingCity()
 			if city ~= nil then
 				if city:IsPlotBlockaded(plot) then
 					unit:SetHasPromotion(promotionMoveAfterAttacking, true)
@@ -78,9 +78,9 @@ function GreaterEurope_Germany_NoMansLand(playerID, unitID, unitX, unitY)
 	local player = Players[playerID]
 	if player:GetUnitClassCount(unitClassGWI) > 0 then
 		local unit = player:GetUnitByID(unitID)
-		if unit:GetUnitType() == unitStormtooper then	
+		if unit:GetUnitType() == unitStormtooper then
 			local plot = unit:GetPlot()
-			if plot:IsOpenGround() then 
+			if plot:IsOpenGround() then
 				unit:SetHasPromotion(promotionStormtrooperOpenTerrain, true)
 			else
 				unit:SetHasPromotion(promotionStormtrooperOpenTerrain, false)
@@ -102,10 +102,10 @@ function ArtySupportReset(playerID)
 				table.insert(Artillery, unit)
 			end
 		end
-		for key,Arty in pairs(Artillery) do 
+		for key,Arty in pairs(Artillery) do
 			local plot = Arty:GetPlot()
 			for loopPlot in PlotAreaSweepIterator(plot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
-				for i = 0, loopPlot:GetNumUnits() - 1, 1 do  
+				for i = 0, loopPlot:GetNumUnits() - 1, 1 do
 					local otherUnit = loopPlot:GetUnit(i)
 					if otherUnit and otherUnit:GetOwner() == playerID and otherUnit:GetUnitType() == unitStormtooper then
 						otherUnit:SetHasPromotion(promotionStormtrooperArtillerySupport, true)
@@ -124,7 +124,7 @@ function ArtySupport(playerID, unitID, unitX, unitY)
 		local plot = unit:GetPlot()
 		if unit:GetUnitType() == unitArtillery then
 			for loopPlot in PlotAreaSweepIterator(plot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
-				for i = 0, loopPlot:GetNumUnits() - 1, 1 do  
+				for i = 0, loopPlot:GetNumUnits() - 1, 1 do
 					local otherUnit = loopPlot:GetUnit(i)
 					if otherUnit and otherUnit:GetOwner() == playerID and otherUnit:GetUnitType() == unitStormtooper then
 						otherUnit:SetHasPromotion(promotionStormtrooperArtillerySupport, true)
@@ -134,7 +134,7 @@ function ArtySupport(playerID, unitID, unitX, unitY)
 		elseif unit:GetUnitType() == unitStormtooper then
 			unit:SetHasPromotion(promotionStormtrooperArtillerySupport, false)
 			for loopPlot in PlotAreaSweepIterator(plot, 3, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_INCLUDE) do
-				for i = 0, loopPlot:GetNumUnits() - 1, 1 do  
+				for i = 0, loopPlot:GetNumUnits() - 1, 1 do
 					local otherUnit = loopPlot:GetUnit(i)
 					if otherUnit and otherUnit:GetOwner() == playerID and otherUnit:GetUnitType() == unitArtillery then
 						unit:SetHasPromotion(promotionStormtrooperArtillerySupport, true)
@@ -152,7 +152,7 @@ local civilizationGermany = GameInfoTypes["CIVILIZATION_GREATEREUROPE_GERMANY"]
 function GermanyWarDeclared(teamId, otherTeamId)
 	local Germany
 	for iPlayer = 0, GameDefines.MAX_CIV_PLAYERS - 1 do
-		local player = Players[iPlayer];			
+		local player = Players[iPlayer];
 		if player ~= nil and player:GetCivilizationType() == civilizationGermany then
 			Germany = player
 			break
@@ -161,7 +161,7 @@ function GermanyWarDeclared(teamId, otherTeamId)
 	if Germany then
 		if Germany:GetTeam() == teamId or Germany:GetTeam() == otherTeamId then
 			save(Germany, "GEgermanyTimer", 10)
-			
+
 			for unit in Germany:Units() do
 				unit:ChangeMoves(120)
 			end
@@ -215,6 +215,7 @@ function ProductionFromWar(playerID)
 		end
 		local warEffortValue = numCitiesProducingValid
 		if warEffortValue > 7 then warEffortValue = 7 end
+		if numCitiesProducingValid > 7 then numCitiesProducingValid = 7 end
 		local warEffort = Locale.ConvertTextKey("TXT_KEY_TOTAL_WAR_VALUE", warEffortValue)
 		Controls.LabelText:LocalizeAndSetText(warEffort)
 		save(player,"tcmNumCitiesContributing", numCitiesProducingValid)
@@ -255,10 +256,10 @@ function GreaterEurope_GermanWorkerTrait(playerID, unitID)
 	local warEffort = load(player,"tcmNumCitiesContributing")
 	if warEffort and warEffort >= 5 then
 		local unit = player:GetUnitByID(unitID)
-		if unit:GetUnitType() == unitWorker then	
+		if unit:GetUnitType() == unitWorker then
 			local plot = unit:GetPlot()
 			local militaryUnit = plot:GetUnit()
-			if not(militaryUnit:GetUnitType() == unitWorker) then	
+			if not(militaryUnit:GetUnitType() == unitWorker) then
 				militaryUnit:SetDamage(0)
 				militaryUnit:SetHasPromotion(promotionGermanyTrait, true)
 			end
