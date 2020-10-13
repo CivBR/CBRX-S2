@@ -230,12 +230,18 @@ function Player.GetNumUnitBuildCharges(player, city, unit, unitTypeID, skipMaxCh
 				if (reqUnitClass == unitClass or (not reqUnitClass)) then
 					if g_IsCPActive then
 						if ((player:HasBuilding(ID) and (not row.IsLocal)) or (city and city:IsHasBuilding(ID))) then
-							local numBuildings = city:GetNumRealBuilding(ID)
+							local numBuildings = 1
+							if city then
+								numBuildings = city:GetNumRealBuilding(ID)
+							end
 							numChargesMax = numChargesMax + (row.NumCharges*numBuildings)
 						end
 					else
 						if ((player:CountNumBuildings(ID) > 0 and (not row.IsLocal)) or (city and city:IsHasBuilding(ID))) then
-							local numBuildings = city:GetNumRealBuilding(ID)
+							local numBuildings = 1
+							if city then
+								numBuildings = city:GetNumRealBuilding(ID)
+							end
 							numChargesMax = numChargesMax + (row.NumCharges*numBuildings)
 						end
 					end
