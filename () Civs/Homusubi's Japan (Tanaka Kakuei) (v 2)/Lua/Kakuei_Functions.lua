@@ -227,7 +227,7 @@ function SM_KakJapan_ConstructionBonus(playerID, plotX, plotY, improvementID)
 		local pDebugName = pPlotCity:GetName()
 		local CityProduction = 0
 		if improvementID == -1 then return end
-		if ((improvementID == iFishBoats) or (improvementID == iOilPlatform) or tGPImps[improvementID] then
+		if (improvementID == iFishBoats) or (improvementID == iOilPlatform) or tGPImps[improvementID] then
 			CityProduction = ((pPlotCity:GetYieldRate(GameInfoTypes["YIELD_PRODUCTION"])) / 2)
 		else
 			CityProduction = pPlotCity:GetYieldRate(GameInfoTypes["YIELD_PRODUCTION"])
