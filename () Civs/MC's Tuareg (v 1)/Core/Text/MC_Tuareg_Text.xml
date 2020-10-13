@@ -161,6 +161,7 @@
 		<!--Leader Civilopedia-->
 		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_DESC">
 			<Text>Tin Hinan</Text>
+			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_MC_TIN_HINAN_LIVED">
 			<Text>c. 300 AD?</Text>
