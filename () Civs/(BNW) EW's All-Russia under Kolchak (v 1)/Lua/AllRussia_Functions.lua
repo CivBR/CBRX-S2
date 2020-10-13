@@ -79,7 +79,7 @@ function Lime_PARG_DeclareWar(fromTeamID, toTeamID)
 	
 	local friends = PARG_GetFriends(player:GetID())
 	
-	PARG_War[enemyTeam] = 1
+	PARG_War[enemyTeam:GetID()] = 1
 	PARG_Recent[player:GetID()] = enemyTeam
 	EW_PARG_SpawnUnits(player, friends,	enemyTeam)
 end
@@ -94,11 +94,11 @@ function Lime_PARG_MakePeace(fromTeamID, toTeamID)
 	if fromPlayer:GetCivilizationType() == parg then
 		player = fromPlayer
 		enemyTeam = Teams[toTeamID]
-		PARG_War[enemyTeam] = -1
+		PARG_War[toTeamID] = -1
 	elseif fromPlayer:GetCivilizationType() == parg then
 		player = toPlayer
 		enemyTeam = Teams[fromTeamID]
-		PARG_War[enemyTeam] = -1
+		PARG_War[fromTeamID] = -1
 	end
 	if not player then return end
 	
