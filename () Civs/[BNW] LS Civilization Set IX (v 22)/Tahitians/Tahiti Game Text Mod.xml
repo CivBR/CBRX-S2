@@ -161,6 +161,7 @@
 		------------------------------------------------------------------>
 		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_DESC">
 			<Text>Purea</Text>
+			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_TAHITI_LS_MOD_PUREA_LIVED">
 			<Text>1700s</Text>
