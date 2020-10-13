@@ -207,6 +207,7 @@
 		<!--LILIUOKALANI-->
 		<Row Tag="TXT_KEY_LEADER_JFD_HAWAII">
 			<Text>Lili'uokalani</Text>
+			<Gender>feminine</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_HAWAII_HEADING_1">
 			<Text>History</Text>
