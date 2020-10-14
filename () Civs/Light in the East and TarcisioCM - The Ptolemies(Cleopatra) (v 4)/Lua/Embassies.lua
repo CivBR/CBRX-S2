@@ -58,11 +58,11 @@ function GrantUABonus(pPlayer, pOtPlayer)
 	elseif pCapital:GetFaithPerTurn() > iHighestYieldQt then
 		iHighestYieldQt = pCapital:GetFaithPerTurn()
 		eHighestYieldTp = eFaith
-	elseif GetScienceTooltip(pCapital) > iHighestYieldQt then
-		iHighestYieldQt = GetScienceTooltip(pCapital)
+	elseif pCapital:GetYieldRate(eScience) > iHighestYieldQt then
+		iHighestYieldQt = pCapital:GetYieldRate(eScience)
 		eHighestYieldTp = eScience
-	elseif GetGoldTooltip(pCapital) > iHighestYieldQt then
-		iHighestYieldQt = GetGoldTooltip(pCapital)
+	elseif pCapital:GetYieldRate(eGold) > iHighestYieldQt then
+		iHighestYieldQt = pCapital:GetYieldRate(eGold)
 		eHighestYieldTp = eGold
 	end
 	return eHighestYieldTp, math.floor(iHighestYieldQt * 0.03)
