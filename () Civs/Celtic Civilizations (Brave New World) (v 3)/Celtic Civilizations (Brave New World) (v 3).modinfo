@@ -308,10 +308,4 @@ http://www.youtube.com/watch?v=bGxaRXDCMxE</Description>
       <UpdateDatabase>Iceni/XML/SoundsIceni.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
-  <EntryPoints>
-    <EntryPoint type="InGameUIAddin" file="Ireland/Lua/FreeGreatPerson_per_Era.lua">
-      <Name>FreeGreatPersonPerEra</Name>
-      <Description>FreeGreatPersonPerEra</Description>
-    </EntryPoint>
-  </EntryPoints>
 </Mod>
