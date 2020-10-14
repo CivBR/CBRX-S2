@@ -141,18 +141,8 @@ Wolf Blood by Adrian von Ziegler.</Description>
     </OnModActivated>
   </Actions>
   <EntryPoints>
-    <EntryPoint type="InGameUIAddin" file="TheGauls/GalliaLSUnitCode.lua">
-      <Name>Workololo</Name>
-      <Description>
-      </Description>
-    </EntryPoint>
     <EntryPoint type="InGameUIAddin" file="Tahitians/TahitianLSUnitCode.lua">
       <Name>VanillaSky</Name>
-      <Description>
-      </Description>
-    </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="QinEmpire/QinLSUnitCode.lua">
-      <Name>Empire</Name>
       <Description>
       </Description>
     </EntryPoint>
