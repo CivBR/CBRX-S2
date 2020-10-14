@@ -237,7 +237,7 @@ function Lime_FlintProductionBonus(playerID)
 			----dprint("second check owner " .. plot:GetOwner())
 			----dprint("second check player ID " .. player:GetID())
 			----dprint("third check" .. plot:IsBeingWorked())
-			if plot:GetNumResource() > 0 and plot:GetOwner() == player:GetID() and plot:IsBeingWorked() then
+			if plot and plot:GetNumResource() > 0 and plot:GetOwner() == playerID and plot:IsBeingWorked() then
 				--dprint("Found a worked resource of type " .. plot:GetResourceType())
 				if plot:GetResourceType() == resourceFlint then
 					--dprint("Found some worked flint")
