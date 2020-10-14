@@ -159,7 +159,10 @@ local tTesoEras = {}
 tTesoEras[GameInfoTypes["BUILDING_SENSHI_TESO"]] = iAncientEra
 for row in DB.Query("SELECT * FROM Eras") do
 	if row.ID ~= iAncientEra then
-		tTesoEras[GameInfoTypes["BUILDING_SENSHI_TESO_" .. row.Type]] = row.ID
+		local iEraBuild = GameInfoTypes["BUILDING_SENSHI_TESO_" .. row.Type]
+		if iEraBuild then
+			tTesoEras[iEraBuild] = row.ID
+		end
 	end
 end
 
