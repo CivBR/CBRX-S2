@@ -129,22 +129,6 @@
     </OnModActivated>
   </Actions>
   <EntryPoints>
-    <EntryPoint type="InGameUIAddin" file="Cold Wars/Iska_WaW_ColdWars.xml">
-      <Name>Iska_WaW_ColdWars</Name>
-      <Description>Iska_WaW_ColdWars</Description>
-    </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Pantheons/Iska_WaW_Pantheons.xml">
-      <Name>Iska_WaW_Pantheons</Name>
-      <Description>Iska_WaW_Pantheons</Description>
-    </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Heritage/Iska_WaW_Heritage.lua">
-      <Name>Iska_WaW_Heritage</Name>
-      <Description>Iska_WaW_Heritage</Description>
-    </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="World Wars/Iska_WaW_WorldWars.xml">
-      <Name>Iska_WaW_WorldWars</Name>
-      <Description>Iska_WaW_WorldWars</Description>
-    </EntryPoint>
     <EntryPoint type="InGameUIAddin" file="Reformations/Iska_WaW_Reformations.lua">
       <Name>Iska_WaW_Reformations</Name>
       <Description>Iska_WaW_Reformations</Description>
