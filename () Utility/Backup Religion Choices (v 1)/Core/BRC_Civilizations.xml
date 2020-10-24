@@ -89,14 +89,6 @@
 			<ReligionType>RELIGION_NOAIDEVUOHTA</ReligionType>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_JFD_SOVIET_RUSSIA_LENINSIA_LENIN</CivilizationType>
-			<ReligionType>RELIGION_ORTHODOXY</ReligionType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_JFD_SOVIET_RUSSIA_LENINSIA_LENIN</CivilizationType>
-			<ReligionType>RELIGION_SLAVIANISM</ReligionType>
-		</Row>
-		<Row>
 			<CivilizationType>CIVILIZATION_PERM</CivilizationType>
 			<ReligionType>RELIGION_ORTHODOXY</ReligionType>
 		</Row>
