@@ -30,7 +30,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_TCM_BOURBON_SPAIN</CivilizationType>
-			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_TCM_BOURBON_SPAIN</CivilizationType>
@@ -58,7 +58,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_JFD_TWO_SICILIES</CivilizationType>
-			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_JFD_TWO_SICILIES</CivilizationType>
@@ -74,7 +74,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_UC_TEUTONS</CivilizationType>
-			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_UC_TEUTONS</CivilizationType>
@@ -95,10 +95,6 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_PERM</CivilizationType>
 			<ReligionType>RELIGION_SAMAN</ReligionType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_MC_JERUSALEM</CivilizationType>
-			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_MC_JERUSALEM</CivilizationType>
@@ -143,10 +139,6 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_CL_NIGERIA</CivilizationType>
 			<ReligionType>RELIGION_ITAN</ReligionType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_DMS_ZAIRE</CivilizationType>
-			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_DMS_ZAIRE</CivilizationType>
@@ -334,7 +326,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_JWW_RIO_GRANDE</CivilizationType>
-			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_JWW_RIO_GRANDE</CivilizationType>
@@ -362,7 +354,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_PG_GRANCOLOMBIA</CivilizationType>
-			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_PG_GRANCOLOMBIA</CivilizationType>
@@ -378,7 +370,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_SENSHI_PERUBOLIVIA</CivilizationType>
-			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_SENSHI_PERUBOLIVIA</CivilizationType>
@@ -386,7 +378,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_UC_PARAGUAY</CivilizationType>
-			<ReligionType>RELIGION_CATHOLICISM</ReligionType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_UC_PARAGUAY</CivilizationType>
