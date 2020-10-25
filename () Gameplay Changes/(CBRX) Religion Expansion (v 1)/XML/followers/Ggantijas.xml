@@ -7,7 +7,6 @@
 			<Description>TXT_KEY_BELIEF_GGANTIJAS</Description>
 			<ShortDescription>TXT_KEY_BELIEF_GGANTIJAS_SHORT</ShortDescription>
 			<Follower>true</Follower>
-      			<FoodKept>10</FoodKept>
 		</Row>
 	</Beliefs>
   
@@ -41,6 +40,7 @@
 			<NeverCapture>false</NeverCapture>
 			<ConquestProb>66</ConquestProb>
 			<PortraitIndex>33</PortraitIndex>
+			<FoodKept>10</FoodKept>
 		</Row>
 	</Buildings>
   
