@@ -8,7 +8,6 @@
 			<Description>TXT_KEY_BELIEF_AGYARIS</Description>
 			<ShortDescription>TXT_KEY_BELIEF_AGYARIS_SHORT</ShortDescription>
 			<Follower>true</Follower>
-      <BuildingProductionModifier>10</BuildingProductionModifier>
 		</Row>
 	</Beliefs>
   
@@ -43,6 +42,7 @@
 			<NeverCapture>false</NeverCapture>
 			<ConquestProb>66</ConquestProb>
 			<PortraitIndex>33</PortraitIndex>
+			<BuildingProductionModifier>10</BuildingProductionModifier>
 		</Row>
 	</Buildings>
   
