@@ -209,11 +209,11 @@ function UpdateExtraTradeRoutes(playerID, unitID, iX, iY)
 end
 
 function DeathOfGabyaga(playerID, unitID, unitType, iX, iY, bDelay)
-	if bDelay and (unitType == iGabyaga) then
+	if (not bDelay) and (unitType == iGabyaga) then
 		local pCity = Map.GetPlot(iX, iY):GetPlotCity()
 		if pCity then
 			pCity:SetNumRealBuilding(iExtraRouteBuilding, 0)
-			local iGabRoutes = tExtraRoutedEarned[pPlayer]
+			local iGabRoutes = tExtraRoutesEarned[pPlayer]
 			if iGabRoutes and (iGabRoutes > 0) then
 				tExtraRoutesEarned[pPlayer] = iGabRoutes - 1
 			end
