@@ -280,7 +280,7 @@ function KurdishSettling(playerID, iX, iY)
 			end
 	for loop2Plot in PlotAreaSpiralIterator(loopPlot, 1, SECTOR_NORTH, DIRECTION_CLOCKWISE, DIRECTION_OUTWARDS, CENTRE_EXCLUDE) do
 		if loop2Plot:GetOwner() ~= playerID and loop2Plot:IsMountain() then
-			loop2Plot:SetOwner(playerID, cityID, true, true)
+			loop2Plot:SetOwner(playerID, city:GetID(), true, true)
 			loop2Plot:SetRevealed(player:GetTeam(), true)
 			local chance = JFD_GetRandom(1, 3)
 			 if chance == 1 then
