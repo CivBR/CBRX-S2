@@ -125,11 +125,15 @@ function ChukchiPrekillBonuses(playerID, unitID, unitType, iX, iY, bDelay, kille
       local iAdjPlotOwner = pAdjPlot:GetOwner()
       local pOwner = Players[iAdjPlotOwner]
       if pOwner and (pOwner:GetCivilizationType() == iCiv) and (not bIsChecked) then
-        local pNearestCity = Neirai_GetNearestCity(pOwner, pAdjPlot)
-        if Chukchi_IsPlotValid(pPlot, pNearestCity) then
-          pPlot:SetOwner(iAdjPlotOwner, pNearestCity:GetID())
-        end
-        bIsChecked = true
+	local pOwnerTeam = Teams[pOwner:GetTeam()]
+	local deadUnitTeamID = Players[playerID]:GetTeam()
+	if pOwnerTeam:IsAtWar(deadUnitTeamID) then
+	        local pNearestCity = Neirai_GetNearestCity(pOwner, pAdjPlot)
+        	if Chukchi_IsPlotValid(pPlot, pNearestCity) then
+	          pPlot:SetOwner(iAdjPlotOwner, pNearestCity:GetID())
+        	end
+	        bIsChecked = true
+	end
       end
 
       -- adjacent Chulteninn gains XP, regardless of involvement
