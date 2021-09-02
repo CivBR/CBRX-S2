@@ -107,6 +107,7 @@ end
 -- ======================================== --
 
 function Chukchi_IsPlotValid(pPlot, pCity)
+  if pPlot:IsCity() then return false end
   if (pPlot:GetOwner() == -1) then return true end
   local iDistance = Map.PlotDistance(pPlot:GetX(), pPlot:GetY(), pCity:GetX(), pCity:GetY())
   return (iDistance <= 4)
